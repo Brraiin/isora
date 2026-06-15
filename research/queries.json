@@ -1,0 +1,32 @@
+[
+  {
+    "side": "hommes",
+    "label": "travail dangereux",
+    "query": "France hommes accidents du travail mortels métiers dangereux construction transport pêche statistiques 2025 2026"
+  },
+  {
+    "side": "hommes",
+    "label": "famille justice",
+    "query": "France pères résidence alternée pension alimentaire séparation enfants statistiques ministère justice Insee 2025 2026"
+  },
+  {
+    "side": "hommes",
+    "label": "santé isolement",
+    "query": "France suicide hommes santé mentale isolement statistiques Drees Santé publique France 2025 2026"
+  },
+  {
+    "side": "femmes",
+    "label": "revenus travail",
+    "query": "France femmes écart salarial temps partiel plafond de verre Insee Dares 2025 2026"
+  },
+  {
+    "side": "femmes",
+    "label": "violences justice",
+    "query": "France femmes violences conjugales sexuelles plaintes SSMSI ministère intérieur justice 2025 2026"
+  },
+  {
+    "side": "femmes",
+    "label": "orientation discriminations",
+    "query": "France femmes ingénierie orientation discriminations grossesse religion Défenseur des droits 2025 2026"
+  }
+]

@@ -1,0 +1,15 @@
+@import "../node_modules/tailwindcss/index.css" source(none);
+@source ".";
+@source "../index.html";
+
+button:not(:disabled),
+a[href],
+summary,
+[role="button"]:not([aria-disabled="true"]) {
+  cursor: pointer;
+}
+
+button:disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed;
+}
