@@ -462,6 +462,42 @@ const rawClaims: RawClaim[] = [
       "La source porte sur les faits enregistrés et les mis en cause dans des procédures, pas sur l'ensemble des violences réellement commises. Cette fiche documente une asymétrie d'auteurs présumés, distincte des fiches sur les victimes.",
   },
   {
+    id: "hommes-accusations-sexuelles-infirmees-reputation",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Justice",
+    title: "Accusations sexuelles infondées : risque réputationnel surtout masculin",
+    metric: "94 %",
+    summary:
+      "L'IPP indique qu'entre 2012 et 2021, 94 % des personnes mises en cause dans les affaires de violences sexuelles traitées par les parquets français sont des hommes. Les fausses allégations de violences sexuelles existent mais restent minoritaires dans les études disponibles, souvent situées entre 2 % et 10 %; lorsqu'elles sont établies, elles peuvent causer détresse et atteinte à la réputation.",
+    tags: ["justice", "violences sexuelles", "réputation", "France"],
+    source: {
+      label: "Le traitement judiciaire des violences sexuelles et conjugales en France",
+      publisher: "Institut des politiques publiques",
+      url: "https://ipp.eu/wp-content/uploads/2024/04/Note_IPP_Violences_aux_femmes-5.pdf",
+      date: "avril 2024",
+    },
+    additionalSources: [
+      {
+        label: "False allegations of sexual assault: an analysis of ten years of reported cases",
+        publisher: "PubMed / Violence Against Women",
+        url: "https://pubmed.ncbi.nlm.nih.gov/21164210/",
+        date: "2010",
+      },
+      {
+        label:
+          "Perverting the Course of Justice and Wasting Police Time in Cases involving Allegedly False Allegations of Rape and / or Domestic Abuse",
+        publisher: "Crown Prosecution Service",
+        url: "https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly",
+        date: "guidance",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Un classement sans suite, un non-lieu, une relaxe ou un acquittement ne prouve pas à lui seul qu'une accusation était fausse. Cette fiche documente le risque réputationnel quand l'accusation est infondée ou fausse, et le fait que les personnes mises en cause dans ce contentieux sont très majoritairement des hommes.",
+  },
+  {
     id: "hommes-conge-paternite-ocde",
     side: "hommes",
     domain: "Famille",
@@ -833,6 +869,41 @@ const rawClaims: RawClaim[] = [
     lastChecked: "15 juin 2026",
     nuance:
       "La sphère intime et familiale pèse particulièrement dans les homicides de femmes. Cette lecture complète, sans l'effacer, le fait que les victimes d'homicide globales sont majoritairement masculines.",
+  },
+  {
+    id: "femmes-homicides-mineurs-condamnations",
+    side: "femmes",
+    angle: "violence_exercée",
+    domain: "Violences",
+    title: "Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
+    metric: "70 %",
+    summary:
+      "L'ONDRP indique qu'entre 1996 et 2015, la Justice française a prononcé 325 condamnations pour homicide volontaire sur mineur de moins de 15 ans, dont 227 contre des femmes, soit 70 %. Le rapport interministériel de 2018 nuance le tableau intrafamilial: dans sa synthèse, pères et mères mis en cause sont à égalité dans les 45 dossiers étudiés, mais les néonaticides relèvent d'une situation particulière de mères accouchant seules.",
+    tags: ["violences", "enfance", "condamnations", "France"],
+    source: {
+      label: "Les homicides volontaires sur mineur de 15 ans",
+      publisher: "ONDRP / IHEMI",
+      url: "https://www.ihemi.fr/sites/default/files/publications/files/2019-12/note_17_0.pdf",
+      date: "2017",
+    },
+    additionalSources: [
+      {
+        label: "Mission sur les morts violentes d'enfants au sein des familles",
+        publisher: "Ministère de la Justice",
+        url: "https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/2018-044%20Rapport_Morts_violentes_enfants.pdf",
+        date: "2018",
+      },
+      {
+        label: "Pourquoi les meurtres d'enfants sont-ils majoritairement commis par des femmes ?",
+        publisher: "20 Minutes",
+        url: "https://www.20minutes.fr/societe/2158023-20171025-pourquoi-meurtres-enfants-majoritairement-commis-femmes",
+        date: "2017",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Le 70 % porte sur des condamnations pour homicide volontaire sur mineur de moins de 15 ans, pas sur tous les décès violents d'enfants ni sur toutes les mises en cause. Le rapport Justice rappelle que la qualification pénale évolue, que les chiffres de police et de justice ne couvrent pas exactement le même champ, et que les pères sont notamment cités pour les morts de nourrissons victimes du syndrome du bébé secoué.",
   },
   {
     id: "femmes-violences-sexuelles-enfance",
@@ -1287,6 +1358,109 @@ const rawClaims: RawClaim[] = [
       "Les conflits exposent aussi massivement les hommes à la conscription, aux blessures et à la mort. Cette fiche cible les risques et besoins spécifiques des femmes et filles civiles.",
   },
   {
+    id: "femmes-dirigeantes-paix-essentialisme",
+    side: "femmes",
+    angle: "récit_sur_le_sexe",
+    domain: "Conflits",
+    title: "Dirigeantes femmes : le pouvoir n'implique pas automatiquement la paix",
+    metric: "+27 %",
+    summary:
+      "Une étude NBER sur des monarchies européennes de 1480 à 1913 estime que les États gouvernés par des reines étaient 27 % plus susceptibles de participer à des guerres interétatiques que ceux gouvernés par des rois. Des exemples comme Catherine de Médicis lors de la Saint-Barthélemy ou Ranavalona I à Madagascar rappellent aussi que des femmes au pouvoir ont pu être associées à des violences politiques.",
+    tags: ["conflits", "pouvoir", "récit", "historique"],
+    source: {
+      label: "Queens",
+      publisher: "NBER",
+      url: "https://www.nber.org/system/files/working_papers/w23337/w23337.pdf",
+      date: "2017",
+    },
+    additionalSources: [
+      {
+        label: "Massacre of St. Bartholomew's Day",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/event/Massacre-of-Saint-Bartholomews-Day",
+        date: "consulté 2026",
+      },
+      {
+        label: "Ranavalona I",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/biography/Ranavalona-I",
+        date: "consulté 2026",
+      },
+      {
+        label: "Operation Blue Star",
+        publisher: "Britannica",
+        url: "https://www.britannica.com/topic/Operation-Blue-Star",
+        date: "2024",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "La fiche réfute un récit essentialisant, pas l'idée que les femmes seraient intrinsèquement plus bellicistes. Les résultats historiques européens ne se transposent pas mécaniquement aux démocraties contemporaines, et les responsabilités individuelles doivent être lues dans leur contexte institutionnel.",
+  },
+  {
+    id: "femmes-espaces-non-mixtes-sexe",
+    side: "femmes",
+    domain: "Droits",
+    title: "Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni",
+    metric: "2025/2026",
+    summary:
+      "Après l'arrêt For Women Scotland du 16 avril 2025, l'EHRC indique que, pour l'Equality Act 2010, le sexe doit être interprété comme le sexe biologique enregistré à la naissance, même en cas de Gender Recognition Certificate. Son projet de code 2026 précise que des services peuvent demander la confirmation du sexe pour assurer une prestation séparée ou non mixte légale.",
+    tags: ["droits", "espaces non mixtes", "Royaume-Uni", "actuel"],
+    source: {
+      label: "UK Supreme Court ruling on the meaning of sex in the Equality Act: our work",
+      publisher: "Equality and Human Rights Commission",
+      url: "https://www.equalityhumanrights.com/our-work/uk-supreme-court-ruling-meaning-sex-equality-act-our-work",
+      date: "2026",
+    },
+    additionalSources: [
+      {
+        label: "Code of practice for services, public functions and associations",
+        publisher: "Equality and Human Rights Commission",
+        url: "https://www.equalityhumanrights.com/equality/equality-act-2010/codes-practice/code-practice-services-public-functions-and-0",
+        date: "2026",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Cette fiche documente une asymétrie juridique et pratique autour de la non-mixité, de la vie privée, de la dignité et de la sécurité. Elle ne dit pas que les personnes trans seraient dangereuses par nature; elle signale que l'accès fondé sur l'identité de genre peut retirer aux femmes une garantie fondée sur le sexe dans certains espaces.",
+  },
+  {
+    id: "femmes-sport-categorie-feminine-puberte-masculine",
+    side: "femmes",
+    domain: "Droits",
+    title: "Catégorie sportive féminine fragilisée par l'avantage de puberté masculine",
+    metric: "890+ médailles",
+    summary:
+      "Le rapport 2024 de la rapporteuse spéciale de l'ONU sur les violences contre les femmes et les filles dans le sport indique qu'au 30 mars 2024, plus de 600 athlètes féminines auraient perdu plus de 890 médailles dans 29 sports lorsque des athlètes de sexe masculin concouraient dans des catégories féminines. World Athletics exclut depuis 2023 les athlètes male-to-female ayant connu la puberté masculine de ses compétitions féminines de classement mondial.",
+    tags: ["sport", "droits", "équité", "monde"],
+    source: {
+      label: "Violence against women and girls in sports",
+      publisher: "Nations Unies",
+      url: "https://digitallibrary.un.org/record/4062371/files/A_79_325-EN.pdf",
+      date: "2024",
+    },
+    additionalSources: [
+      {
+        label: "World Athletics Council decides on female eligibility",
+        publisher: "World Athletics",
+        url: "https://worldathletics.org/news/press-releases/council-meeting-march-2023-russia-belarus-female-eligibility",
+        date: "2023",
+      },
+      {
+        label: "Policy on Eligibility for the Men's and Women's Competition Categories",
+        publisher: "World Aquatics",
+        url: "https://resources.fina.org/fina/document/2023/03/27/dbc3381c-91e9-4ea4-a743-84c8b06debef/Policy-on-Eligibility-for-the-Men-s-and-Women-s-Competiition-Categrories-Version-on-2023.03.24.pdf",
+        date: "2023",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Le chiffre des médailles provient d'informations reçues par la rapporteuse spéciale, pas d'une base sportive mondiale uniformisée. La partie la plus robuste est réglementaire: plusieurs fédérations reconnaissent qu'une puberté masculine peut créer un avantage persistant et arbitrent entre inclusion, sécurité et équité de la catégorie féminine.",
+  },
+  {
     id: "femmes-traite-humaine",
     side: "femmes",
     domain: "Violences",
@@ -1365,6 +1539,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
   "hommes-mis-en-cause-violences-conjugales-france":
     "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
+  "hommes-accusations-sexuelles-infirmees-reputation":
+    "Population mesurée par les sources : personnes mises en cause femmes/hommes dans les affaires de violences sexuelles traitées par les parquets français, et cas de fausses allégations étudiés dans la littérature. Les sources ne mesurent pas les chromosomes.",
   "hommes-conge-paternite-ocde":
     "Population mesurée par la source : fathers / pères dans les politiques de congé. La source ne mesure pas les chromosomes.",
   "hommes-autonomie-corporelle-circoncision":
@@ -1381,6 +1557,12 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
   "femmes-violences-sexuelles":
     "Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.",
+  "femmes-homicides-mineurs-condamnations":
+    "Population mesurée par la source : femmes et hommes condamnés par la Justice française pour homicide volontaire sur mineur de moins de 15 ans. La source ne mesure pas les chromosomes.",
+  "femmes-espaces-non-mixtes-sexe":
+    "Population mesurée par la source : femmes, hommes et personnes trans dans le cadre juridique britannique sur les services séparés ou non mixtes. La source raisonne en sexe légal/biologique au sens de l'Equality Act, pas par test chromosomique individuel.",
+  "femmes-sport-categorie-feminine-puberte-masculine":
+    "Population mesurée par les sources : athlètes féminines, athlètes de sexe masculin s'identifiant comme femmes, et athlètes 46 XY DSD selon les règles sportives citées. World Aquatics peut prévoir une certification du sexe chromosomique dans son protocole.",
   "femmes-ingenierie":
     "Population mesurée par la source : femmes ingénieures et diplômées selon l'enquête IESF. La source ne mesure pas les chromosomes.",
   "femmes-separation-niveau-vie":
@@ -1441,6 +1623,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : women / femmes en responsabilités politiques. La source ne mesure pas les chromosomes.",
   "femmes-conflits-proximite":
     "Population mesurée par la source : women and girls / femmes et filles vivant près d'un conflit. La source ne mesure pas les chromosomes.",
+  "femmes-dirigeantes-paix-essentialisme":
+    "Population mesurée par les sources : reines et femmes dirigeantes dans des travaux historiques et des exemples biographiques. Les sources ne mesurent pas les chromosomes.",
   "femmes-traite-humaine":
     "Population mesurée par la source : women and girls / femmes et filles parmi les victimes détectées. La source ne mesure pas les chromosomes.",
   "femmes-violence-numerique":
@@ -1526,6 +1710,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "violences conjugales enregistrées",
   },
+  "hommes-accusations-sexuelles-infirmees-reputation": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2012",
+    periode_fin: "2021",
+    statut_temporel: "données insuffisantes",
+    intensite_contextuelle: "forte",
+    legalType: "fausses allégations et réputation",
+  },
   "femmes-france-droit-vote-1944": {
     pays_ou_zone: "France",
     periode_debut: "1789",
@@ -1589,6 +1782,42 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "variable selon pays",
     intensite_contextuelle: "forte",
     legalType: "santé reproductive",
+  },
+  "femmes-homicides-mineurs-condamnations": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "1996",
+    periode_fin: "2015",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "homicide volontaire sur mineur de moins de 15 ans",
+  },
+  "femmes-espaces-non-mixtes-sexe": {
+    pays_ou_zone: "Royaume-Uni",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "services séparés ou non mixtes fondés sur le sexe",
+  },
+  "femmes-sport-categorie-feminine-puberte-masculine": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2023",
+    periode_fin: "2024",
+    statut_temporel: "variable selon pays",
+    intensite_contextuelle: "forte",
+    legalType: "règles d'éligibilité sportive",
+  },
+  "femmes-dirigeantes-paix-essentialisme": {
+    pays_ou_zone: "Europe",
+    regionScope: "Europe, avec exemples comparatifs hors Europe",
+    periode_debut: "1480",
+    periode_fin: "1913",
+    statut_temporel: "historique",
+    intensite_contextuelle: "moyenne",
+    legalType: "leadership politique et guerre",
   },
 };
 

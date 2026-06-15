@@ -2,12 +2,14 @@ import {
   AlertTriangle,
   Briefcase,
   CalendarSync,
+  Check,
   ExternalLink,
   FileText,
   GraduationCap,
   Gavel,
   HeartPulse,
   Landmark,
+  Link,
   Search,
   Send,
   ShieldAlert,
@@ -17,7 +19,7 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import type { FormEvent } from "react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import isoraLogoUrl from "./assets/isora.svg";
 import {
   claims,
@@ -146,6 +148,11 @@ function interleaveClaimsBySide(list: Claim[]) {
   return ordered;
 }
 
+function getClaimIdFromHash() {
+  const id = decodeURIComponent(window.location.hash.slice(1));
+  return claims.some((claim) => claim.id === id) ? id : null;
+}
+
 function HighlightedSummary({ text }: { text: string }) {
   const metricPattern =
     /((?:environ|près de|plus de|moins de|autour de|à plus de|à moins de)?\s*\d[\d\s]*(?:,\d+)?(?:\s*(?:%|M\b|millions?|ans?|semaines?|sem\.|pour 100 000|\/an))?(?:\s*(?:contre|vs|à|-)\s*\d[\d\s]*(?:,\d+)?(?:\s*(?:%|M\b|millions?|ans?))?)?)/gi;
@@ -177,6 +184,17 @@ function App() {
   const [query, setQuery] = useState("");
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [sharedClaimId, setSharedClaimId] = useState(() => getClaimIdFromHash());
+
+  useEffect(() => {
+    function syncSharedClaim() {
+      setSharedClaimId(getClaimIdFromHash());
+    }
+
+    window.addEventListener("hashchange", syncSharedClaim);
+
+    return () => window.removeEventListener("hashchange", syncSharedClaim);
+  }, []);
 
   const filteredClaims = useMemo(() => {
     const normalizedQuery = normalize(query);
@@ -289,6 +307,7 @@ function App() {
   );
 
   const maxDomainCount = Math.max(...domainStats.map((stat) => stat.total), 1);
+  const sharedClaim = sharedClaimId ? claims.find((claim) => claim.id === sharedClaimId) : null;
 
   function addTag(label: string) {
     setSelectedTags((currentTags) => toggleValue(currentTags, label));
@@ -335,6 +354,30 @@ function App() {
       </header>
 
       <main className="min-h-screen bg-neutral-100">
+        {sharedClaim ? (
+          <section className={cn(pageWidth, "py-6 pb-14")}>
+            <div className="mx-auto w-[min(100%,760px)]">
+              <ClaimCard
+                claim={sharedClaim}
+                onAngleClick={(value) => setAngle((currentAngle) => (currentAngle === value ? "tous" : value))}
+                onDomainClick={(value) => setDomain((currentDomain) => (currentDomain === value ? "tous" : value))}
+                onPeriodClick={(value) => setSelectedPeriods((currentPeriods) => toggleValue(currentPeriods, value))}
+                onSideClick={(value) => setSide((currentSide) => (currentSide === value ? "tous" : value))}
+                onStatusClick={(value) => setSelectedStatuses((currentStatuses) => toggleValue(currentStatuses, value))}
+                onTagClick={addTag}
+                onZoneClick={(value) => setSelectedZones((currentZones) => toggleValue(currentZones, value))}
+                selectedAngle={angle}
+                selectedDomain={domain}
+                selectedPeriods={selectedPeriods}
+                selectedSide={side}
+                selectedStatuses={selectedStatuses}
+                selectedTags={selectedTags}
+                selectedZones={selectedZones}
+              />
+            </div>
+          </section>
+        ) : (
+          <>
         <section className="border-b border-neutral-300 bg-emerald-50">
           <div className={cn(pageWidth, "py-[72px] pb-16 max-[760px]:py-10 max-[760px]:pb-8")}>
             <div className="max-w-[780px]">
@@ -542,6 +585,8 @@ function App() {
             </div>
           </section>
         </section>
+          </>
+        )}
 
         {isFormOpen && (
           <div className="fixed inset-0 z-50 grid place-items-center bg-neutral-950/45 p-4" role="presentation">
@@ -650,6 +695,7 @@ function ClaimCard({
   selectedTags: string[];
   selectedZones: string[];
 }) {
+  const [copied, setCopied] = useState(false);
   const Icon = domainIcons[claim.domain];
   const isWomen = claim.side === "femmes";
   const sideColor = isWomen ? "text-cyan-600" : "text-violet-700";
@@ -660,8 +706,47 @@ function ClaimCard({
     "min-h-[30px] border-0 px-2 py-1.5 text-xs font-bold text-neutral-700 ring-1 ring-inset ring-neutral-300 hover:bg-blue-100 hover:text-blue-800";
   const selectedChip = "!bg-blue-100 !text-blue-900 !ring-blue-300";
 
+  async function copyShareLink() {
+    const url = new URL(`${window.location.origin}${window.location.pathname}`);
+    url.hash = claim.id;
+    const shareUrl = url.toString();
+
+    function copyWithFallback() {
+      const input = document.createElement("textarea");
+      input.value = shareUrl;
+      input.setAttribute("readonly", "");
+      input.style.position = "fixed";
+      input.style.top = "-9999px";
+      document.body.append(input);
+      input.focus();
+      input.select();
+      const copiedFromInput = document.execCommand("copy");
+      input.remove();
+
+      return copiedFromInput;
+    }
+
+    try {
+      if (!copyWithFallback() && navigator.clipboard) {
+        await navigator.clipboard.writeText(shareUrl);
+      }
+    } catch {
+      return;
+    }
+
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 1800);
+  }
+
   return (
-    <article className={cn(panel, "flex min-h-[540px] flex-col border-t-4 p-6 max-[980px]:min-h-0 max-[760px]:p-5", sideBorder)}>
+    <article
+      className={cn(
+        panel,
+        "flex min-h-[540px] scroll-mt-24 flex-col border-t-4 p-6 max-[980px]:min-h-0 max-[760px]:scroll-mt-20 max-[760px]:p-5",
+        sideBorder,
+      )}
+      id={claim.id}
+    >
       <div className="flex min-h-8 items-center justify-between gap-3 max-[760px]:flex-col max-[760px]:items-start">
         <div className="flex flex-wrap gap-2">
           <button
@@ -681,20 +766,35 @@ function ClaimCard({
             {angleLabels[claim.angle]}
           </button>
         </div>
-        <button
-          className={cn(
-            icon18,
-            chipButton,
-            "flex items-center gap-1.5 bg-neutral-100",
-            selectedDomain === claim.domain && selectedChip,
-          )}
-          type="button"
-          aria-pressed={selectedDomain === claim.domain}
-          onClick={() => onDomainClick(claim.domain)}
-        >
-          <Icon aria-hidden="true" />
-          {claim.domain}
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            className={cn(
+              icon18,
+              chipButton,
+              "flex items-center gap-1.5 bg-neutral-100",
+              selectedDomain === claim.domain && selectedChip,
+            )}
+            type="button"
+            aria-pressed={selectedDomain === claim.domain}
+            onClick={() => onDomainClick(claim.domain)}
+          >
+            <Icon aria-hidden="true" />
+            {claim.domain}
+          </button>
+          <button
+            className={cn(
+              icon18,
+              "inline-flex h-[30px] w-[30px] items-center justify-center border-0 bg-neutral-100 text-blue-800 ring-1 ring-inset ring-neutral-300 hover:bg-blue-50",
+              copied && "bg-green-50 text-green-700 ring-green-200",
+            )}
+            type="button"
+            onClick={() => void copyShareLink()}
+            aria-label={copied ? "Lien copié" : `Copier le lien de l'asymétrie : ${claim.title}`}
+            title={copied ? "Lien copié" : "Copier le lien de l'asymétrie"}
+          >
+            {copied ? <Check aria-hidden="true" /> : <Link aria-hidden="true" />}
+          </button>
+        </div>
       </div>
 
       <div className="mt-7 space-y-4">
