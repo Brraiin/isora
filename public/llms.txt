@@ -297,7 +297,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par la source : men / male victims dans l'enquête CDC. La source ne mesure pas les chromosomes.
 - Sources: CDC (données de vie entière): https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html
 
-## Victimes masculines de violence domestique au Royaume-Uni
+## Violence domestique au Royaume-Uni : victimes femmes et hommes
 - ID: hommes-violence-domestique-royaume-uni
 - URL: https://isora-xi.vercel.app/#hommes-violence-domestique-royaume-uni
 - Groupe: hommes
@@ -306,9 +306,9 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Zone: Royaume-Uni
 - Periode: 2024/25+
 - Statut: actuel
-- Mesure cle: 1,5 M
-- Resume: L'ONS estime à 1,5 million le nombre d'hommes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025.
-- Nuance: Les enquêtes de victimation captent mieux une partie des violences non déclarées. Les dynamiques de contrôle et de gravité doivent être analysées finement.
+- Mesure cle: 1,5 M vs 2,2 M
+- Resume: L'ONS estime à 1,5 million le nombre d'hommes et 2,2 millions le nombre de femmes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025, soit environ 1,5 femme victime pour 1 homme victime.
+- Nuance: Les hommes représentent environ 41 % des victimes annuelles estimées par l'ONS en 2024/25. Les enquêtes de victimation captent mieux une partie des violences non déclarées, mais le ratio brut ne décrit pas à lui seul la fréquence des violences répétées, la peur, le contrôle coercitif, les blessures ni l'accès aux services spécialisés.
 - Population mesuree: Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.
 - Sources: Office for National Statistics (2024/25): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025
 

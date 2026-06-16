@@ -123,7 +123,7 @@ const rawClaims: RawClaim[] = [
       date: "2022",
     },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
       "Le constat documente une exposition au risque. Il ne prouve pas à lui seul une règle juridique défavorable aux hommes.",
   },
@@ -557,11 +557,11 @@ const rawClaims: RawClaim[] = [
     id: "hommes-violence-domestique-royaume-uni",
     side: "hommes",
     domain: "Violences",
-    title: "Victimes masculines de violence domestique au Royaume-Uni",
-    metric: "1,5 M",
+    title: "Violence domestique au Royaume-Uni : victimes femmes et hommes",
+    metric: "1,5 M vs 2,2 M",
     summary:
-      "L'ONS estime à 1,5 million le nombre d'hommes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025.",
-    tags: ["violences", "violence domestique", "Royaume-Uni", "sécurité"],
+      "L'ONS estime à 1,5 million le nombre d'hommes et 2,2 millions le nombre de femmes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025, soit environ 1,5 femme victime pour 1 homme victime.",
+    tags: ["femmes", "hommes", "violences", "violence domestique", "Royaume-Uni", "sécurité"],
     source: {
       label: "Domestic abuse victim characteristics, England and Wales",
       publisher: "Office for National Statistics",
@@ -569,9 +569,9 @@ const rawClaims: RawClaim[] = [
       date: "2024/25",
     },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "Les enquêtes de victimation captent mieux une partie des violences non déclarées. Les dynamiques de contrôle et de gravité doivent être analysées finement.",
+      "Les hommes représentent environ 41 % des victimes annuelles estimées par l'ONS en 2024/25. Les enquêtes de victimation captent mieux une partie des violences non déclarées, mais le ratio brut ne décrit pas à lui seul la fréquence des violences répétées, la peur, le contrôle coercitif, les blessures ni l'accès aux services spécialisés.",
   },
   {
     id: "hommes-violences-conjugales-aides-specialisees",

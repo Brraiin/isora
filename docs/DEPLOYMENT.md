@@ -40,7 +40,15 @@ git diff
 
 Ne pas embarquer de changements locaux non demandes. En particulier, `src/data/claims.ts` peut contenir des fiches en cours de travail.
 
-3. Tester le build:
+3. Monter la version de l'app avant chaque mise en production:
+
+```bash
+npm version patch --no-git-tag-version
+```
+
+Adapter le niveau (`patch`, `minor`, `major`) selon l'ampleur de la publication. Le numero affiche dans `?admin=contributions` vient de `package.json`.
+
+4. Tester le build:
 
 ```bash
 npm run build
@@ -48,7 +56,7 @@ npm run build
 
 Le build doit passer avant tout push.
 
-4. Pour verifier l'etat multilingue complet:
+5. Pour verifier l'etat multilingue complet:
 
 ```bash
 npm run i18n:check

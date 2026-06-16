@@ -348,7 +348,8 @@ async function sendContribution(title: string, payload: unknown) {
 
 function isContributionAdminView() {
   if (typeof window === "undefined") return false;
-  return new URLSearchParams(window.location.search).get("admin") === "contributions";
+  const adminView = new URLSearchParams(window.location.search).get("admin");
+  return adminView === "contributions" || adminView === "contributions=";
 }
 
 function readStoredContributions(key: string) {
@@ -694,6 +695,7 @@ function App() {
   const [angle, setAngle] = useState<ClaimAngle | "tous">("tous");
   const [query, setQuery] = useState("");
   const [isFormOpen, setIsFormOpen] = useState(false);
+  const [suggestionSources, setSuggestionSources] = useState([""]);
   const [submitted, setSubmitted] = useState(false);
   const [submissionError, setSubmissionError] = useState(false);
   const [sharedClaimId, setSharedClaimId] = useState(() => getClaimIdFromHash());
@@ -1088,6 +1090,7 @@ function App() {
       angle: formData.get("angle"),
       title: formData.get("title"),
       summary: formData.get("summary"),
+      sources: suggestionSources.map((source) => source.trim()).filter(Boolean),
       pageUrl: window.location.href,
       createdAt: new Date().toISOString(),
     };
@@ -1098,11 +1101,18 @@ function App() {
     try {
       await sendContribution(`Suggestion Isora - ${suggestion.title}`, suggestion);
       form.reset();
+      setSuggestionSources([""]);
       setSubmitted(true);
       setSubmissionError(false);
     } catch {
       setSubmissionError(true);
     }
+  }
+
+  function updateSuggestionSource(index: number, value: string) {
+    setSuggestionSources((currentSources) =>
+      currentSources.map((source, sourceIndex) => (sourceIndex === index ? value : source)),
+    );
   }
 
   function openContestForm(claim: Claim) {
@@ -1575,6 +1585,7 @@ function App() {
                   type="button"
 	                  onClick={() => {
 	                    setIsFormOpen(false);
+	                    setSuggestionSources([""]);
 	                    setSubmitted(false);
 	                    setSubmissionError(false);
 	                  }}
@@ -1616,6 +1627,34 @@ function App() {
                     placeholder={text.summaryPlaceholder}
                   />
                 </label>
+
+                <div className="grid gap-2.5">
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="text-sm font-bold text-neutral-700">{text.sources}</span>
+                    <button
+                      className={cn(icon18, "inline-flex min-h-9 items-center gap-1.5 border-0 bg-neutral-200 px-2.5 text-sm font-bold text-blue-800 hover:bg-blue-100")}
+                      type="button"
+                      onClick={() => setSuggestionSources((currentSources) => [...currentSources, ""])}
+                    >
+                      <Plus aria-hidden="true" />
+                      {text.add}
+                    </button>
+                  </div>
+                  {suggestionSources.map((source, index) => (
+                    <label className="grid gap-[7px] text-sm font-bold text-neutral-700" key={`suggestion-source-${index}`}>
+                      {text.source} {index + 1}
+                      <input
+                        className={field}
+                        type="url"
+                        value={source}
+                        onChange={(event) => updateSuggestionSource(index, event.target.value)}
+                        required={index === 0}
+                        placeholder="https://..."
+                      />
+                    </label>
+                  ))}
+                </div>
+
                 <button className={cn(primaryAction, "w-full")} type="submit">
                   <Send className="h-[18px] w-[18px]" aria-hidden="true" />
                   {text.sendContribution}
