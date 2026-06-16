@@ -16,10 +16,10 @@ Last generation: 2026-06-16T00:00:00+02:00
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 70
+- Entries: 72
 - Entries about men: 29
-- Entries about women: 41
-- Distinct sources: 139
+- Entries about women: 43
+- Distinct sources: 150
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Religieux, Numérique
 
 ## Editorial method
@@ -711,6 +711,22 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: UNODC / ONU Femmes (2024): https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html
 
+## Femmes et filles visées par les violences sexuelles liées aux conflits
+- ID: femmes-violences-sexuelles-conflits
+- URL: https://isora-xi.vercel.app/#femmes-violences-sexuelles-conflits
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Conflits
+- Zone: Monde
+- Period: 2021-2026
+- Status: lié à une crise
+- Key measure: 9 788
+- Summary: Le rapport 2026 du Secrétaire général de l'ONU sur les violences sexuelles liées aux conflits indique 9 788 cas vérifiés en 2025. L'ONU décrit ces violences comme des faits liés aux conflits, pouvant inclure viol, esclavage sexuel, prostitution forcée, grossesse forcée, avortement forcé, stérilisation forcée ou mariage forcé. Les femmes et les filles restent les principales personnes touchées, même si la définition couvre aussi les hommes et les garçons.
+- Nuance: La formule attribuée à Patrick Cammaert sur le danger d'être une femme plutôt qu'un soldat doit être lue comme une alerte politique, pas comme un ratio universel. Les morts directes au combat, les morts civiles, les violences sexuelles, la détention et le déplacement forcé ne se comparent pas avec un indicateur unique. Cette fiche documente un risque sexospécifique: dans certains conflits, des acteurs armés utilisent les violences sexuelles contre des femmes et des filles comme tactique de guerre, de terreur, de contrôle ou d'humiliation. Des hommes et des garçons peuvent aussi être victimes de violences sexuelles liées aux conflits, notamment en détention, et les cas vérifiés sous-estiment probablement l'ampleur réelle à cause de la stigmatisation, de l'insécurité et des difficultés d'accès aux victimes.
+- Measured population: Population mesurée par les sources : cas vérifiés de violences sexuelles liées aux conflits, victimes civiles par sexe dans les rapports ONU, et cas documentés par l'UE ou Amnesty dans certains conflits. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Nations unies (2026): https://docs.un.org/S/2026/321; Nations unies - Peacekeeping (consulté 2026): https://peacekeeping.un.org/en/conflict-related-sexual-violence; Nations unies - Genève (2024): https://www.ungeneva.org/en/news-media/news/2024/10/99495/percentage-women-killed-war-doubled-2023-un-report; Conseil de l'Union européenne (2024): https://www.consilium.europa.eu/en/press/press-releases/2024/04/12/7-october-2023-terrorist-attacks-in-israel-council-sanctions-three-entities-over-widespread-sexual-and-gender-based-violence/; Amnesty International (2021): https://www.amnesty.org/fr/latest/news/2021/03/nigeria-boko-haram-brutality-against-women-and-girls-needs-urgent-response-new-research/
+
 ## Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur
 - ID: femmes-homicides-mineurs-condamnations
 - URL: https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations
@@ -982,6 +998,22 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Measured population: Population mesurée par la source : women and girls dans la fiche OMS. La source ne mesure pas les chromosomes.
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Organisation mondiale de la Santé (2022): https://www.who.int/news/item/09-03-2022-access-to-safe-abortion-critical-for-health-of-women-and-girls
+
+## Règles : coût, douleurs et adaptations scolaires ou sportives
+- ID: femmes-regles-cout-douleurs-ecole-sport
+- URL: https://isora-xi.vercel.app/#femmes-regles-cout-douleurs-ecole-sport
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: France et pays comparables
+- Period: 2019-2026
+- Status: persistant
+- Key measure: 3 800 € / 40 %
+- Summary: Une estimation du Monde chiffre les protections et antidouleurs à environ 7,50 euros par cycle moyen, soit près de 3 800 euros sur une vie, hors consultations ou linge abîmé. En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.
+- Nuance: Le coût de 3 800 euros est une estimation basse fondée sur des hypothèses de cycle, de protections et d'antidouleurs; il varie selon les produits, le flux, l'âge des premières et dernières règles, les soins et les protections réutilisables. Toutes les personnes réglées ne ressentent pas les mêmes douleurs et le sport peut réduire certaines douleurs légères à modérées, mais les symptômes forts ne doivent pas être banalisés. Les pistes nutritionnelles, comme les oméga-3 ou une alimentation moins inflammatoire, existent dans la littérature mais ne remplacent pas l'accès à l'information, aux protections, à des aménagements raisonnables et à un avis médical en cas de douleurs importantes.
+- Measured population: Population mesurée par les sources : femmes et filles ou personnes menstruées dans des estimations de coût, de douleurs menstruelles, de protections périodiques et de participation à l'activité physique. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Le Monde - Les Décodeurs (2019): https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html; Ministère chargé de l'Égalité entre les femmes et les hommes (2026): https://www.egalite-femmes-hommes.gouv.fr/28-mai-2026-journee-mondiale-de-lhygiene-menstruelle; Inserm (2023): https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/; Health and Care Research Wales Evidence Centre / Cardiff University (2024): https://orca.cardiff.ac.uk/id/eprint/172396/1/Post-print_RES0035_HCRW-EC_Supporting%20people%20who%20menstruate_July%202024.pdf; Journal of Human Nutrition and Dietetics / PubMed (2023): https://pubmed.ncbi.nlm.nih.gov/37545015/; Assemblée nationale (2020): https://www.assemblee-nationale.fr/dyn/15/rapports/ega/l15b2691_rapport-information
 
 ## Femmes et filles massivement touchées par l'endométriose
 - ID: femmes-endometriose

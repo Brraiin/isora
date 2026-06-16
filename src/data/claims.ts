@@ -1393,6 +1393,62 @@ const rawClaims: RawClaim[] = [
       "La sphère intime et familiale pèse particulièrement dans les homicides de femmes. Cette lecture complète, sans l'effacer, le fait que les victimes d'homicide globales sont majoritairement masculines.",
   },
   {
+    id: "femmes-violences-sexuelles-conflits",
+    side: "femmes",
+    domain: "Conflits",
+    title: "Femmes et filles visées par les violences sexuelles liées aux conflits",
+    metric: "9 788",
+    summary:
+      "Le rapport 2026 du Secrétaire général de l'ONU sur les violences sexuelles liées aux conflits indique 9 788 cas vérifiés en 2025. L'ONU décrit ces violences comme des faits liés aux conflits, pouvant inclure viol, esclavage sexuel, prostitution forcée, grossesse forcée, avortement forcé, stérilisation forcée ou mariage forcé. Les femmes et les filles restent les principales personnes touchées, même si la définition couvre aussi les hommes et les garçons.",
+    tags: [
+      "femmes",
+      "filles",
+      "violences sexuelles",
+      "conflits",
+      "guerre",
+      "terrorisme",
+      "monde",
+    ],
+    source: {
+      label: "Conflict-related sexual violence: report of the Secretary-General (S/2026/321)",
+      publisher: "Nations unies",
+      url: "https://docs.un.org/S/2026/321",
+      date: "2026",
+    },
+    additionalSources: [
+      {
+        label: "Conflict-related Sexual Violence",
+        publisher: "Nations unies - Peacekeeping",
+        url: "https://peacekeeping.un.org/en/conflict-related-sexual-violence",
+        date: "consulté 2026",
+      },
+      {
+        label: "Percentage of women killed in war doubled in 2023: UN report",
+        publisher: "Nations unies - Genève",
+        url: "https://www.ungeneva.org/en/news-media/news/2024/10/99495/percentage-women-killed-war-doubled-2023-un-report",
+        date: "2024",
+      },
+      {
+        label:
+          "7 October 2023 terrorist attacks in Israel: Council sanctions three entities over widespread sexual and gender-based violence",
+        publisher: "Conseil de l'Union européenne",
+        url: "https://www.consilium.europa.eu/en/press/press-releases/2024/04/12/7-october-2023-terrorist-attacks-in-israel-council-sanctions-three-entities-over-widespread-sexual-and-gender-based-violence/",
+        date: "2024",
+      },
+      {
+        label:
+          "Nigeria. Les violences de Boko Haram contre les femmes et les filles exigent une réponse de toute urgence",
+        publisher: "Amnesty International",
+        url: "https://www.amnesty.org/fr/latest/news/2021/03/nigeria-boko-haram-brutality-against-women-and-girls-needs-urgent-response-new-research/",
+        date: "2021",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "La formule attribuée à Patrick Cammaert sur le danger d'être une femme plutôt qu'un soldat doit être lue comme une alerte politique, pas comme un ratio universel. Les morts directes au combat, les morts civiles, les violences sexuelles, la détention et le déplacement forcé ne se comparent pas avec un indicateur unique. Cette fiche documente un risque sexospécifique: dans certains conflits, des acteurs armés utilisent les violences sexuelles contre des femmes et des filles comme tactique de guerre, de terreur, de contrôle ou d'humiliation. Des hommes et des garçons peuvent aussi être victimes de violences sexuelles liées aux conflits, notamment en détention, et les cas vérifiés sous-estiment probablement l'ampleur réelle à cause de la stigmatisation, de l'insécurité et des difficultés d'accès aux victimes.",
+  },
+  {
     id: "femmes-homicides-mineurs-condamnations",
     side: "femmes",
     angle: "violence_exercée",
@@ -1916,6 +1972,58 @@ const rawClaims: RawClaim[] = [
       "La fiche porte sur les conséquences sanitaires de l'absence d'accès sécurisé, indépendamment des débats juridiques et moraux nationaux.",
   },
   {
+    id: "femmes-regles-cout-douleurs-ecole-sport",
+    side: "femmes",
+    domain: "Santé",
+    title: "Règles : coût, douleurs et adaptations scolaires ou sportives",
+    metric: "3 800 € / 40 %",
+    summary:
+      "Une estimation du Monde chiffre les protections et antidouleurs à environ 7,50 euros par cycle moyen, soit près de 3 800 euros sur une vie, hors consultations ou linge abîmé. En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.",
+    tags: ["santé", "règles", "douleur", "éducation", "sport", "coût", "France"],
+    source: {
+      label: "Combien les règles coûtent-elles dans la vie d'une femme ?",
+      publisher: "Le Monde - Les Décodeurs",
+      url: "https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html",
+      date: "2019",
+    },
+    additionalSources: [
+      {
+        label: "28 mai 2026 : Journée mondiale de l'hygiène menstruelle",
+        publisher: "Ministère chargé de l'Égalité entre les femmes et les hommes",
+        url: "https://www.egalite-femmes-hommes.gouv.fr/28-mai-2026-journee-mondiale-de-lhygiene-menstruelle",
+        date: "2026",
+      },
+      {
+        label: "C'est normal d'avoir mal pendant les règles, vraiment ?",
+        publisher: "Inserm",
+        url: "https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/",
+        date: "2023",
+      },
+      {
+        label: "Supporting women, girls and people who menstruate to participate in physical activity",
+        publisher: "Health and Care Research Wales Evidence Centre / Cardiff University",
+        url: "https://orca.cardiff.ac.uk/id/eprint/172396/1/Post-print_RES0035_HCRW-EC_Supporting%20people%20who%20menstruate_July%202024.pdf",
+        date: "2024",
+      },
+      {
+        label: "Omega-3 long chain polyunsaturated fatty acids as a potential treatment for reducing dysmenorrhoea pain",
+        publisher: "Journal of Human Nutrition and Dietetics / PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/37545015/",
+        date: "2023",
+      },
+      {
+        label: "Rapport d'information sur les menstruations",
+        publisher: "Assemblée nationale",
+        url: "https://www.assemblee-nationale.fr/dyn/15/rapports/ega/l15b2691_rapport-information",
+        date: "2020",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Le coût de 3 800 euros est une estimation basse fondée sur des hypothèses de cycle, de protections et d'antidouleurs; il varie selon les produits, le flux, l'âge des premières et dernières règles, les soins et les protections réutilisables. Toutes les personnes réglées ne ressentent pas les mêmes douleurs et le sport peut réduire certaines douleurs légères à modérées, mais les symptômes forts ne doivent pas être banalisés. Les pistes nutritionnelles, comme les oméga-3 ou une alimentation moins inflammatoire, existent dans la littérature mais ne remplacent pas l'accès à l'information, aux protections, à des aménagements raisonnables et à un avis médical en cas de douleurs importantes.",
+  },
+  {
     id: "femmes-endometriose",
     side: "femmes",
     domain: "Santé",
@@ -2270,6 +2378,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.",
   "femmes-feminicides-monde-2024":
     "Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.",
+  "femmes-violences-sexuelles-conflits":
+    "Population mesurée par les sources : cas vérifiés de violences sexuelles liées aux conflits, victimes civiles par sexe dans les rapports ONU, et cas documentés par l'UE ou Amnesty dans certains conflits. Les sources ne mesurent pas les chromosomes.",
   "femmes-violences-sexuelles-enfance":
     "Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.",
   "femmes-mariage-enfants":
@@ -2302,6 +2412,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : women / personnes cherchant un avortement selon les catégories juridiques. La source ne mesure pas les chromosomes.",
   "femmes-avortement-non-securise":
     "Population mesurée par la source : women and girls dans la fiche OMS. La source ne mesure pas les chromosomes.",
+  "femmes-regles-cout-douleurs-ecole-sport":
+    "Population mesurée par les sources : femmes et filles ou personnes menstruées dans des estimations de coût, de douleurs menstruelles, de protections périodiques et de participation à l'activité physique. Les sources ne mesurent pas les chromosomes.",
   "femmes-endometriose":
     "Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.",
   "femmes-menopause-soins":
@@ -2552,6 +2664,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "victimisation sexuelle en détention",
   },
+  "femmes-violences-sexuelles-conflits": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2021",
+    periode_fin: "2026",
+    statut_temporel: "lié à une crise",
+    intensite_contextuelle: "extrême",
+    legalType: "violences sexuelles liées aux conflits",
+  },
   "femmes-filles-hors-ecole": {
     pays_ou_zone: "Monde",
     periode_debut: "2024",
@@ -2567,6 +2688,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "moyenne",
     legalType: "accès aux soins et prévention",
+  },
+  "femmes-regles-cout-douleurs-ecole-sport": {
+    pays_ou_zone: "France et pays comparables",
+    regionScope: "Europe",
+    periode_debut: "2019",
+    periode_fin: "2026",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "moyenne",
+    legalType: "santé menstruelle, éducation et sport",
   },
   "femmes-pression-virginite-avant-mariage": {
     pays_ou_zone: "Monde",
