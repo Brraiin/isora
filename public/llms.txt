@@ -15,10 +15,10 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 68
-- Fiches concernant les hommes: 30
-- Fiches concernant les femmes: 38
-- Sources distinctes: 124
+- Fiches: 69
+- Fiches concernant les hommes: 29
+- Fiches concernant les femmes: 40
+- Sources distinctes: 128
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Religieux, Numérique
 
 ## Methode editoriale
@@ -233,7 +233,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: actuel
 - Mesure cle: nombreux pays
 - Resume: De nombreux pays imposent encore un service militaire obligatoire visant surtout ou uniquement les hommes, avec des obligations civiques et militaires différenciées selon le sexe.
-- Nuance: Les règles varient fortement selon les pays, les exemptions et les situations de guerre. La fiche documente une asymétrie juridique à vérifier pays par pays.
+- Nuance: Les règles varient fortement selon les pays, les exemptions et les situations de guerre. L'asymétrie juridique doit être vérifiée pays par pays.
 - Population mesuree: Population mesurée par la source : men / males selon les règles nationales recensées, à vérifier pays par pays. La source ne mesure pas les chromosomes.
 - Sources: World Population Review (2026): https://worldpopulationreview.com/country-rankings/countries-with-mandatory-military-service
 
@@ -323,7 +323,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: persistant
 - Mesure cle: 4,4 % aidés
 - Resume: En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais seulement 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou hébergement sûr disponibles pour hommes en septembre 2025, dont 130 dédiées aux hommes. Au Canada, le refuge privé MASH d'Earl Silverman à Calgary a fermé en 2013 faute de financement public ou fédéral/provincial.
-- Nuance: Il ne faut pas écrire qu'il n'existe aucun centre pour hommes: le Royaume-Uni recense des places, et des lignes spécialisées existent. L'asymétrie documentée est plutôt la rareté, la faible visibilité, le financement limité, et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.
+- Nuance: Le Royaume-Uni recense des places pour hommes et des lignes spécialisées existent. L'asymétrie documentée porte sur la rareté, la faible visibilité, le financement limité et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.
 - Population mesuree: Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux, places d'hébergement sûr au Royaume-Uni, et cas historiques Erin Pizzey/Earl Silverman. Les sources ne mesurent pas les chromosomes.
 - Sources: Assemblée nationale / Réponse ministérielle (2025): https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5235; Service-Public.fr (2025): https://lannuaire.service-public.gouv.fr/centres-contact/R167; SOS Hommes Battus France (consulté 2026): https://soshommesbattus.org/; ManKind Initiative (2025): https://mankind.org.uk/statistics/statistics-on-male-victims-of-domestic-abuse/; CityNews Calgary (2013): https://calgary.citynews.ca/2013/03/21/shelter-for-male-victims-of-domestic-abuse-forced-to-close-its-doors/; Hansard / UK Parliament (2014): https://hansard.parliament.uk/commons/2014-04-10/debates/14041077000001/DomesticViolence%28PoliceResponse%29; Sandra Orozco-Stapleton Foundation (2006): https://www.sossandra.org/erin-pizzey-excerpts; The Respondent (consulté 2026): https://www.therespondent.com/blogs/episodes/erin-pizzey
 
@@ -338,7 +338,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: persistant
 - Mesure cle: 48 % vs 60 %
 - Resume: Une enquête NSVRC/YouGov de 2017 indique que les hommes américains qualifient moins souvent que les femmes certaines conduites d'agression sexuelle: 48 % des hommes contre 60 % des femmes pour des remarques sexuelles non sollicitées, 67 % contre 79 % pour un rapport obtenu sous pression, et 56 % contre 72 % pour le voyeurisme. Des travaux sur les mythes du viol masculin montrent aussi que les hommes acceptent davantage ces mythes, surtout quand l'auteure est une femme.
-- Nuance: L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. La fiche documente une asymétrie de perception et de minimisation; elle ne dit pas que toutes les victimes masculines minimisent, ni que les femmes agressent plus que les hommes.
+- Nuance: L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. Les sources portent sur une asymétrie de perception et de minimisation; elles ne mesurent ni toutes les situations de victimes masculines, ni la fréquence des agressions commises par des femmes.
 - Population mesuree: Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.
 - Sources: National Sexual Violence Resource Center / YouGov (2017): https://www.nsvrc.org/blog_post/new-data-reveals-high-awareness-among-us-adults-what-constitutes-sexual/; Sex Roles / Springer (1992): https://link.springer.com/article/10.1007/BF00290011; International Review of Victimology / SAGE (2022): https://journals.sagepub.com/doi/10.1177/02697580211048552; CDC (2024): https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html; National Sexual Violence Resource Center (consulté 2026): https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/; Violence Against Women / SAGE (2024): https://journals.sagepub.com/doi/10.1177/10778012241263104
 
@@ -387,21 +387,6 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.
 - Sources: Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Haut Conseil à l'Égalité (2025): https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles
 
-## Accusations sexuelles infondées : risque réputationnel surtout masculin
-- ID: hommes-accusations-sexuelles-infirmees-reputation
-- URL: https://isora-xi.vercel.app/#hommes-accusations-sexuelles-infirmees-reputation
-- Groupe: hommes
-- Angle: récit_sur_le_sexe
-- Domaine: Justice
-- Zone: France
-- Periode: 2012-2021
-- Statut: données insuffisantes
-- Mesure cle: 94 %
-- Resume: L'IPP indique qu'entre 2012 et 2021, 94 % des personnes mises en cause dans les affaires de violences sexuelles traitées par les parquets français sont des hommes. Les fausses allégations de violences sexuelles existent mais restent minoritaires dans les études disponibles, souvent situées entre 2 % et 10 %; lorsqu'elles sont établies, elles peuvent causer détresse et atteinte à la réputation.
-- Nuance: Un classement sans suite, un non-lieu, une relaxe ou un acquittement ne prouve pas à lui seul qu'une accusation était fausse. Cette fiche documente le risque réputationnel quand l'accusation est infondée ou fausse, et le fait que les personnes mises en cause dans ce contentieux sont très majoritairement des hommes.
-- Population mesuree: Population mesurée par les sources : personnes mises en cause femmes/hommes dans les affaires de violences sexuelles traitées par les parquets français, et cas de fausses allégations étudiés dans la littérature. Les sources ne mesurent pas les chromosomes.
-- Sources: Institut des politiques publiques (avril 2024): https://ipp.eu/wp-content/uploads/2024/04/Note_IPP_Violences_aux_femmes-5.pdf; PubMed / Violence Against Women (2010): https://pubmed.ncbi.nlm.nih.gov/21164210/; Crown Prosecution Service (guidance): https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly
-
 ## Hommes plus exposés aux sanctions pénales lourdes
 - ID: hommes-sanctions-penales-plus-lourdes
 - URL: https://isora-xi.vercel.app/#hommes-sanctions-penales-plus-lourdes
@@ -443,7 +428,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: actuel
 - Mesure cle: 36,7-38,7 %
 - Resume: Une étude PLOS One estime la prévalence mondiale de la circoncision masculine autour de 36,7 % à 38,7 %, souvent pour des raisons religieuses ou culturelles.
-- Nuance: Le sujet implique santé publique, religion, consentement et droits de l'enfant. La fiche documente un enjeu d'autonomie corporelle sans juger les familles.
+- Nuance: Le sujet implique santé publique, religion, consentement et droits de l'enfant. Les sources documentent un enjeu d'autonomie corporelle sans mesurer les motivations familiales au cas par cas.
 - Population mesuree: Population mesurée par la source : male circumcision / males dans les estimations de prévalence. La source ne mesure pas les chromosomes.
 - Sources: PLOS One (2024): https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0298387
 
@@ -458,7 +443,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: persistant
 - Mesure cle: 91,9 %
 - Resume: Aux États-Unis, les femmes représentent 8,1 % des décès professionnels recensés en 2024, soit environ 91,9 % pour les hommes. Le risque global a fortement baissé depuis les années 1970, mais l'asymétrie masculine persiste.
-- Nuance: Dans les pays industrialisés, prévention, mécanisation et droit du travail ont réduit le risque depuis 1970. La fiche documente la persistance actuelle d'un risque mortel très masculin.
+- Nuance: Dans les pays industrialisés, prévention, mécanisation et droit du travail ont réduit le risque depuis 1970. Les données récentes montrent néanmoins une surreprésentation masculine dans les accidents mortels au travail.
 - Population mesuree: Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.
 - Sources: OSHA (2024): https://www.osha.gov/data/commonstats; BLS (2024): https://www.bls.gov/news.release/cfoi.nr0.htm
 
@@ -473,7 +458,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: lié à une crise
 - Mesure cle: 18-60 ans
 - Resume: Après l'invasion russe du 24 février 2022, la loi martiale ukrainienne a fortement limité la sortie du territoire des hommes citoyens ukrainiens d'âge militaire, avec exceptions. En août 2025, la règle a été assouplie pour les 18-22 ans.
-- Nuance: Cette fiche est datée: elle ne doit pas être lue comme une règle intemporelle pour tous les hommes ukrainiens. Les âges, exceptions et assouplissements doivent être vérifiés au moment de lecture.
+- Nuance: Cette fiche décrit un état daté des restrictions ukrainiennes. Les âges, exceptions et assouplissements évoluent et doivent être vérifiés au moment de lecture.
 - Population mesuree: Population mesurée par les sources : men / male Ukrainian citizens d'âge militaire. La source ne mesure pas les chromosomes.
 - Sources: OECD / EMN (2023): https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/migration/OECD-EMN%20Inform_%20Labour-market-integration-of-beneficiaries-of-temporary-protection-from-Ukraine.pdf; Le Monde (2025): https://www.lemonde.fr/en/international/article/2025/08/28/war-in-ukraine-government-allows-18-to-22-year-olds-to-leave-country-once-again_6744802_4.html; USA for UNHCR (2026): https://www.unrefugees.org/emergencies/ukraine/
 
@@ -488,7 +473,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: actuel
 - Mesure cle: 3,0-4,8 %
 - Resume: L'Insee distingue plusieurs niveaux de comparaison. En 2024, l'écart de salaire net en équivalent temps plein est de 14,0 % sur son champ principal récent, mais tombe à 3,6 % à même emploi dans le même établissement. Dans la fonction publique en 2022, les écarts en EQTP varient fortement selon les versants, mais se réduisent à 3,0 % dans l'État, 4,0 % dans l'hospitalière et 4,8 % dans la territoriale à profil identique.
-- Nuance: La fiche ne doit pas être lue comme un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.
+- Nuance: La donnée ne correspond pas à un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.
 - Population mesuree: Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.
 - Sources: HCREP / Insee (2025): https://www.strategie-plan.gouv.fr/files/2025-03/04032025_HCREP-INSEE.pdf; Insee (2026): https://www.insee.fr/fr/statistiques/8743657; Insee (2025): https://www.insee.fr/fr/statistiques/8386049
 
@@ -533,7 +518,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: actuel
 - Mesure cle: 7 % plainte
 - Resume: Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.
-- Nuance: La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne doit pas être utilisée pour dire que les hommes déclareraient mieux: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.
+- Nuance: La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.
 - Population mesuree: Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.
 - Sources: Arrêtons les violences / SSMSI (2024): https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes; The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html
 
@@ -548,7 +533,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: actuel
 - Mesure cle: 24 %
 - Resume: En 2023, les femmes représentent 24 % des ingénieurs en activité et 29 % des ingénieurs diplômés de l'année. Cette sous-représentation relève surtout de l'orientation: les filles réussissent globalement mieux plusieurs jalons scolaires, mais restent moins présentes dans les trajectoires scientifiques et techniques.
-- Nuance: Cette fiche est classée comme récit sur le sexe: la sous-représentation ne prouve pas à elle seule un désavantage subi ni une interdiction formelle. Les filles obtiennent de meilleurs résultats sur plusieurs indicateurs scolaires, notamment au DNB, au baccalauréat et dans l'accès au niveau master, mais pas uniformément en mathématiques. Les bourses sur critères sociaux dépendent des ressources et charges familiales: les femmes sont majoritaires parmi les bénéficiaires en général, mais l'écart femmes-hommes est faible ou nul en formation d'ingénieur selon les sources disponibles.
+- Nuance: La sous-représentation ne mesure pas à elle seule un désavantage subi ni une interdiction formelle. Les filles obtiennent de meilleurs résultats sur plusieurs indicateurs scolaires, notamment au DNB, au baccalauréat et dans l'accès au niveau master, mais pas uniformément en mathématiques. Les bourses sur critères sociaux dépendent des ressources et charges familiales: les femmes sont majoritaires parmi les bénéficiaires en général, mais l'écart femmes-hommes est faible ou nul en formation d'ingénieur selon les sources disponibles.
 - Population mesuree: Population mesurée par les sources : femmes ingénieures et diplômées selon l'enquête IESF, filles et garçons dans les statistiques DEPP de réussite et d'orientation, et bénéficiaires de bourses sur critères sociaux. Les sources ne mesurent pas les chromosomes.
 - Sources: Femmes Ingénieures / IESF (2025): https://www.femmes-ingenieures.org/offres/file_inline_src/82/82_P_38037_690cc4ba6342f_33.pdf; DEPP / Ministère de l'Éducation nationale (2024): https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2024-413799; DREES (2025): https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/MS2025%20-%20Fiche%2032%20-%20Les%20bourses%20sur%20crit%C3%A8res%20sociaux%20%28BCS%29.pdf; MESR / SIES (2022): https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2022-03/esri---vers-l-galit-femmes-hommes---2022-17027.pdf
 
@@ -608,7 +593,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: historique
 - Mesure cle: 1965
 - Resume: Avant la loi du 13 juillet 1965, les femmes mariées en France étaient soumises à l'autorisation maritale pour ouvrir librement un compte, signer certains actes ou exercer une profession dans plusieurs situations.
-- Nuance: Cette fiche décrit une règle abrogée en France. Elle sert à distinguer l'historique du droit actuel et ne doit pas être présentée comme une contrainte contemporaine française.
+- Nuance: Cette fiche décrit une règle abrogée en France. Le cas relève de l'historique du droit et non d'une contrainte contemporaine française.
 - Population mesuree: Population mesurée par la source : femmes mariées dans le droit civil français. La source ne mesure pas les chromosomes.
 - Sources: Gouvernement français (2025): https://www.info.gouv.fr/actualite/la-femme-mariee-avait-le-statut-de-mineure-au-meme-titre-que-les-enfants; BNP Paribas Histoire (2025): https://histoire.bnpparibas/temps-forts/juillet-1965-la-banque-et-les-femmes/
 
@@ -653,7 +638,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: actuel
 - Mesure cle: 1 sur 3
 - Resume: L'OMS estime qu'environ une femme sur trois dans le monde a subi des violences physiques et/ou sexuelles par un partenaire intime, ou des violences sexuelles par un non-partenaire, au cours de sa vie. Cet indicateur ne mesure pas toutes les violences subies par sexe.
-- Nuance: Cette fiche ne doit pas être lue comme une preuve que les femmes subissent plus de violence toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, mais les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire. L'asymétrie porte donc sur les violences intimes et sexuelles, pas sur une somme totale de toutes les violences humaines.
+- Nuance: Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.
 - Population mesuree: Population mesurée par les sources : femmes dans les enquêtes OMS sur violences conjugales physiques/sexuelles et violences sexuelles hors couple, avec sources comparatives sur victimations, homicides, travail et suicide. Les sources ne mesurent pas les chromosomes.
 - Sources: Organisation mondiale de la Santé (2024): https://www.who.int/news-room/fact-sheets/detail/violence-against-women; Insee / SSMSI (2024): https://www.insee.fr/fr/statistiques/8242369?sommaire=8242421; Ministère de l'Intérieur / SSMSI (2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024; UN Women / UNODC (2024): https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Organisation internationale du Travail (2023): https://www.ilo.org/resource/news/nearly-3-million-people-die-work-related-accidents-and-diseases; Organisation mondiale de la Santé (2021): https://www.who.int/publications/i/item/9789240110069
 
@@ -732,6 +717,36 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par la source : girls and women / filles et femmes mariées pendant l'enfance. La source ne mesure pas les chromosomes.
 - Sources: UNICEF Data (2023): https://data.unicef.org/resources/is-an-end-to-child-marriage-within-reach/
 
+## Femmes ciblées par la norme de virginité avant mariage
+- ID: femmes-pression-virginite-avant-mariage
+- URL: https://isora-xi.vercel.app/#femmes-pression-virginite-avant-mariage
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Autonomie
+- Zone: Monde
+- Periode: 2018-2023
+- Statut: persistant
+- Mesure cle: filles/femmes
+- Resume: L'OMS, ONU Droits humains et ONU Femmes appellent à interdire les tests de virginité et soulignent que l'attente sociale imposant aux filles et aux femmes de rester vierges avant le mariage repose sur des stéréotypes de contrôle de la sexualité féminine. L'UNFPA classe les tests de virginité parmi les pratiques néfastes et violations des droits humains; des études sur les doubles standards sexuels montrent aussi que la sexualité prénuptiale masculine peut être jugée plus favorablement que la sexualité prénuptiale féminine dans certains contextes.
+- Nuance: Les sources ne mesurent pas toutes les sociétés ni tous les hommes, et elles ne couvrent pas toutes les formes de pression sexuelle. Les sources sur le nombre de partenaires sexuels ne concluent pas toutes à une pénalisation spécifiquement féminine; l'asymétrie la mieux documentée ici est l'attente de virginité prénuptiale et les pratiques de contrôle visant surtout les filles et les femmes.
+- Population mesuree: Population mesurée par les sources : girls and women / filles et femmes visées par les attentes sociales et pratiques de contrôle liées à la virginité, ainsi qu'adultes interrogés sur les doubles standards sexuels dans certaines enquêtes. Les sources ne mesurent pas les chromosomes.
+- Sources: OMS (2018): https://www.who.int/news/item/17-10-2018-united-nations-agencies-call-for-ban-on-virginity-testing; UNFPA (2020): https://www.unfpa.org/press/confronting-silent-and-endemic-crisis-harmful-practices; Sexuality & Culture / Springer (2023): https://repository.bilkent.edu.tr/items/6a6cb5db-94c2-4256-a2c8-86cb43180c57
+
+## Nombre de partenaires sexuels passés : résultats variables selon les études
+- ID: hommes-femmes-body-count-double-standard
+- URL: https://isora-xi.vercel.app/#hommes-femmes-body-count-double-standard
+- Groupe: femmes
+- Angle: récit_sur_le_sexe
+- Domaine: Autonomie
+- Zone: Monde
+- Periode: 2020-2025
+- Statut: actuel
+- Mesure cle: 5 331
+- Resume: Une étude Scientific Reports menée dans 11 pays auprès de 5 331 participants trouve que l'envie d'envisager une relation longue baisse quand le nombre de partenaires sexuels passés augmente, mais que les différences entre évaluateurs femmes et hommes sont minimales et inconsistantes. À l'inverse, une méta-analyse de 99 études conclut que certaines mesures d'attentes et d'évaluations conservent un double standard traditionnel favorable aux hommes, tandis qu'une étude américaine par vignettes trouve même des évaluations plus négatives des hommes pour les mêmes historiques sexuels.
+- Nuance: Pour le nombre de partenaires passés, les résultats varient selon le protocole, le pays, le type de relation évaluée et la mesure utilisée. Certaines sources trouvent un double standard traditionnel, d'autres un effet surtout partagé, voire inversé. Les normes de pureté sexuelle visant les femmes sont documentées séparément dans la fiche sur la virginité avant mariage.
+- Population mesuree: Population mesurée par les sources : participants femmes et hommes à des études sur l'évaluation d'historiques sexuels masculins et féminins, ainsi que corpus de 99 études sur les doubles standards sexuels. Les sources ne mesurent pas les chromosomes.
+- Sources: Scientific Reports (2025): https://www.nature.com/articles/s41598-025-12607-1; Personality and Social Psychology Review / PubMed (2020): https://pubmed.ncbi.nlm.nih.gov/31880971/; Sexuality & Culture / Springer (2024): https://link.springer.com/article/10.1007/s12119-024-10246-8; Social Psychological and Personality Science (2025): https://journals.sagepub.com/doi/10.1177/19485506241237288
+
 ## Filles et femmes victimes de mutilations génitales
 - ID: femmes-mutilations-genitales
 - URL: https://isora-xi.vercel.app/#femmes-mutilations-genitales
@@ -762,7 +777,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.
 - Sources: UNFPA (2024): https://www.unfpa.org/son-preference
 
-## Il n'y a pas plus de filles ou de garçons hors de l'école
+## Enfants hors de l'école : estimations mondiales proches selon le sexe
 - ID: femmes-filles-hors-ecole
 - URL: https://isora-xi.vercel.app/#femmes-filles-hors-ecole
 - Groupe: femmes
@@ -773,7 +788,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: actuel
 - Mesure cle: 133 M filles vs 140 M garçons
 - Resume: Les estimations UNESCO/GEM/UIS indiquent 273 millions d'enfants et jeunes hors de l'école dans le monde, dont 133 millions de filles et 140 millions de garçons.
-- Nuance: Cette fiche est classée comme récit sur le sexe et sert à débunker une idée reçue. Elle ne nie pas les barrières genrées qui touchent les filles dans certains pays ou niveaux scolaires; elle précise que, dans le total mondial récent, les garçons sont légèrement plus nombreux hors de l'école et plus exposés à certains risques de décrochage.
+- Nuance: Les barrières genrées qui touchent les filles varient selon les pays et les niveaux scolaires. Dans le total mondial récent, les estimations UNESCO/GEM/UIS comptent légèrement plus de garçons hors de l'école et les sources signalent aussi des risques de décrochage spécifiques aux garçons.
 - Population mesuree: Population mesurée par les sources : filles et garçons hors de l'école selon les estimations UNESCO/GEM/UIS et UNICEF. Les sources ne mesurent pas les chromosomes.
 - Sources: UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education; UNESCO / GEM Report / UIS (consulté 2026): https://www.unesco.org/en/education/view/outofschool; UNICEF (2024): https://www.unicef.org/education/girls-education; UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education/boys
 
@@ -923,7 +938,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: persistant
 - Mesure cle: accès inégal
 - Resume: L'OMS souligne que l'information et l'accès aux soins liés à la ménopause restent insuffisants dans beaucoup de pays. Mais ce constat ne prouve pas un désavantage global féminin dans le recours aux soins: en France, l'Insee/Drees indique que les hommes consultent moins souvent médecins généralistes et spécialistes, et l'OCDE rappelle leur surmortalité prématurée.
-- Nuance: Cette fiche est classée comme récit sur le sexe: la ménopause reste un angle réel de sous-information et de formation médicale insuffisante, mais elle ne doit pas être présentée comme preuve que les femmes seraient globalement moins suivies. Les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.
+- Nuance: La ménopause reste un angle documenté de sous-information et de formation médicale insuffisante. Sur le recours aux soins en général, les sources françaises indiquent que les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.
 - Population mesuree: Population mesurée par les sources : femmes concernées par la ménopause selon l'OMS, femmes et hommes dans les statistiques françaises de recours aux soins, et hommes concernés par les enjeux prostate, testicule et santé mentale. Les sources ne mesurent pas les chromosomes.
 - Sources: Organisation mondiale de la Santé (2024): https://www.who.int/news-room/fact-sheets/detail/menopause; Insee / Drees (2022): https://www.insee.fr/fr/statistiques/6047751?sommaire=6047805; OCDE (2025): https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/which-diseases-affect-men-and-women-differently-and-why-this-matters_c7602de9.html; Institut national du cancer (consulté 2026): https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate; Institut national du cancer (consulté 2026): https://jefaismondepistage.cancer.fr/cancers-du-sein/; Movember (consulté 2026): https://us.movember.com/about/cause
 
@@ -998,7 +1013,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Statut: historique
 - Mesure cle: +27 %
 - Resume: Une étude NBER sur des monarchies européennes de 1480 à 1913 estime que les États gouvernés par des reines étaient 27 % plus susceptibles de participer à des guerres interétatiques que ceux gouvernés par des rois. Des exemples comme Catherine de Médicis lors de la Saint-Barthélemy ou Ranavalona I à Madagascar rappellent aussi que des femmes au pouvoir ont pu être associées à des violences politiques.
-- Nuance: La fiche réfute un récit essentialisant, pas l'idée que les femmes seraient intrinsèquement plus bellicistes. Les résultats historiques européens ne se transposent pas mécaniquement aux démocraties contemporaines, et les responsabilités individuelles doivent être lues dans leur contexte institutionnel.
+- Nuance: La fiche compare des cas de pouvoir politique féminin à des épisodes de guerre ou de violence politique. Les résultats historiques européens ne se transposent pas mécaniquement aux démocraties contemporaines, et les responsabilités individuelles doivent être lues dans leur contexte institutionnel.
 - Population mesuree: Population mesurée par les sources : reines et femmes dirigeantes dans des travaux historiques et des exemples biographiques. Les sources ne mesurent pas les chromosomes.
 - Sources: NBER (2017): https://www.nber.org/system/files/working_papers/w23337/w23337.pdf; Britannica (consulté 2026): https://www.britannica.com/event/Massacre-of-Saint-Bartholomews-Day; Britannica (consulté 2026): https://www.britannica.com/biography/Ranavalona-I; Britannica (2024): https://www.britannica.com/topic/Operation-Blue-Star
 

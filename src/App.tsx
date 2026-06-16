@@ -260,19 +260,89 @@ const domainIcons: Record<Domain, LucideIcon> = {
 
 const latestCheck = "15 juin 2026";
 const canonicalUrl = "https://isora-xi.vercel.app/";
+const localReturnsClearPassword = "Jka$n@3^iTR7E8";
+const localReturnsClearAttemptsKey = "isora:clear-local-returns-attempts";
+
+function getParisDateKey() {
+  return new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
+function readLocalReturnsClearAttempts() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(localReturnsClearAttemptsKey) ?? "null");
+
+    if (parsed?.date === getParisDateKey() && Number.isInteger(parsed.attempts)) {
+      return parsed as { date: string; attempts: number };
+    }
+  } catch {
+    // Reset malformed attempt state.
+  }
+
+  return { date: getParisDateKey(), attempts: 0 };
+}
+
+function writeLocalReturnsClearAttempts(attempts: number) {
+  localStorage.setItem(
+    localReturnsClearAttemptsKey,
+    JSON.stringify({ date: getParisDateKey(), attempts }),
+  );
+}
+
+function requestLocalReturnsClearPassword() {
+  const currentAttempts = readLocalReturnsClearAttempts();
+
+  if (currentAttempts.attempts >= 3) {
+    window.alert("Suppression bloquée pour aujourd'hui après 3 tentatives incorrectes.");
+    return false;
+  }
+
+  const password = window.prompt("Mot de passe pour supprimer les retours locaux :");
+
+  if (password === null) return false;
+
+  if (password === localReturnsClearPassword) {
+    localStorage.removeItem(localReturnsClearAttemptsKey);
+    return true;
+  }
+
+  const nextAttempts = currentAttempts.attempts + 1;
+  writeLocalReturnsClearAttempts(nextAttempts);
+  const remainingAttempts = Math.max(3 - nextAttempts, 0);
+  window.alert(
+    remainingAttempts > 0
+      ? `Mot de passe incorrect. ${remainingAttempts} tentative${remainingAttempts > 1 ? "s" : ""} restante${remainingAttempts > 1 ? "s" : ""} aujourd'hui.`
+      : "Mot de passe incorrect. Suppression bloquée pour aujourd'hui.",
+  );
+
+  return false;
+}
 
 async function sendContribution(title: string, payload: unknown) {
-  const response = await fetch("/api/contributions", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({ title, payload }),
-  });
+  try {
+    const response = await fetch("/api/contributions", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({ title, payload }),
+    });
 
-  if (!response.ok) {
-    throw new Error("contribution_failed");
+    const contentType = response.headers.get("content-type") ?? "";
+    const data = contentType.includes("application/json") ? await response.json() : null;
+
+    if (response.ok || response.status === 202 || response.status === 404 || response.status === 503) {
+      return data;
+    }
+  } catch {
+    return { ok: true, delivery: "browser_local" };
   }
+
+  return { ok: true, delivery: "browser_local" };
 }
 
 function isContributionAdminView() {
@@ -361,6 +431,36 @@ function matchesSelectedTags(claim: Claim, selectedTags: string[]) {
   return selectedTags.every((tag) => claim.tags.includes(tag));
 }
 
+function getHybridParticipantTags(claim: Claim) {
+  const participantTags = ["femmes", "hommes"].filter((tag) => claim.tags.includes(tag));
+
+  if (participantTags.length > 1) return participantTags;
+
+  if (claim.id === "femmes-filles-hors-ecole" || claim.id === "femmes-menopause-soins") {
+    return ["femmes", "hommes"];
+  }
+
+  return [];
+}
+
+function getCombinedSideFilterRank(claim: Claim) {
+  if (getHybridParticipantTags(claim).length > 1) return 0;
+  if (claim.side === "femmes" && claim.tags.includes("hommes")) return 1;
+  if (claim.side === "hommes" && claim.tags.includes("femmes")) return 1;
+  return 2;
+}
+
+function matchesCombinedSideTags(claim: Claim) {
+  return getCombinedSideFilterRank(claim) < 2;
+}
+
+function orderClaimsForCombinedSideTags(list: Claim[]) {
+  return list
+    .map((claim, index) => ({ claim, index, rank: getCombinedSideFilterRank(claim) }))
+    .sort((left, right) => left.rank - right.rank || left.index - right.index)
+    .map((item) => item.claim);
+}
+
 function interleaveClaimsBySide(list: Claim[]) {
   const men = list.filter((claim) => claim.side === "hommes");
   const women = list.filter((claim) => claim.side === "femmes");
@@ -402,10 +502,12 @@ function HighlightedSummary({ text }: { text: string }) {
 
 function ContributionInbox({
   localRequests,
+  onClearLocalRequests,
   remoteRequests,
   remoteStatus,
 }: {
   localRequests: ContributionPreview[];
+  onClearLocalRequests: () => void;
   remoteRequests: ContributionPreview[];
   remoteStatus: "idle" | "loading" | "ready" | "unavailable" | "error";
 }) {
@@ -426,8 +528,20 @@ function ContributionInbox({
               Vue non référencée pour vérifier les contestations et propositions avant modification des asymétries.
             </p>
           </div>
-          <div className="bg-white px-3 py-2 text-sm font-bold text-neutral-700 ring-1 ring-inset ring-neutral-300">
-            {requests.length} retour{requests.length > 1 ? "s" : ""}
+          <div className="flex flex-wrap items-center gap-2">
+            {localRequests.length > 0 && (
+              <button
+                className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-200 px-3 text-sm font-bold text-blue-800 hover:bg-blue-100")}
+                type="button"
+                onClick={onClearLocalRequests}
+              >
+                <X aria-hidden="true" />
+                Supprimer les retours locaux
+              </button>
+            )}
+            <div className="bg-white px-3 py-2 text-sm font-bold text-neutral-700 ring-1 ring-inset ring-neutral-300">
+              {requests.length} retour{requests.length > 1 ? "s" : ""}
+            </div>
           </div>
         </header>
 
@@ -608,6 +722,12 @@ function App() {
       }).format(getNextMonday(new Date())),
     [locale],
   );
+  const hasMenTagFilter = selectedTags.includes("hommes");
+  const hasWomenTagFilter = selectedTags.includes("femmes");
+  const selectedTopicTags = useMemo(
+    () => selectedTags.filter((tag) => tag !== "hommes" && tag !== "femmes"),
+    [selectedTags],
+  );
 
   useEffect(() => {
     document.documentElement.lang = locale === "en" ? "en" : "fr";
@@ -672,7 +792,12 @@ function App() {
 
     fetch("/api/contributions")
       .then(async (response) => {
-        if (response.status === 503) {
+        if (response.status === 404 || response.status === 503) {
+          if (!cancelled) setRemoteStatus("unavailable");
+          return null;
+        }
+
+        if (!(response.headers.get("content-type") ?? "").includes("application/json")) {
           if (!cancelled) setRemoteStatus("unavailable");
           return null;
         }
@@ -758,7 +883,15 @@ function App() {
 
     const matchingClaims = claims.filter((claim) => {
       const matchesSide = side === "tous" || claim.side === side;
-      const matchesTag = matchesSelectedTags(claim, selectedTags);
+      const claimHasMenTag = claim.side === "hommes" || claim.tags.includes("hommes");
+      const claimHasWomenTag = claim.side === "femmes" || claim.tags.includes("femmes");
+      const matchesSideTags =
+        hasMenTagFilter && hasWomenTagFilter
+          ? matchesCombinedSideTags(claim)
+          : (!hasMenTagFilter && !hasWomenTagFilter) ||
+            (hasMenTagFilter && claimHasMenTag) ||
+            (hasWomenTagFilter && claimHasWomenTag);
+      const matchesTag = matchesSelectedTags(claim, selectedTopicTags);
       const matchesZone = selectedZones.length === 0 || selectedZones.includes(claim.pays_ou_zone);
       const matchesStatus =
         selectedStatuses.length === 0 || selectedStatuses.includes(claim.statut_temporel);
@@ -790,6 +923,7 @@ function App() {
 
       return (
         matchesSide &&
+        matchesSideTags &&
         matchesTag &&
         matchesZone &&
         matchesStatus &&
@@ -800,8 +934,12 @@ function App() {
       );
     });
 
-    return side === "tous" ? interleaveClaimsBySide(matchingClaims) : matchingClaims;
-  }, [angle, domain, query, selectedPeriods, selectedStatuses, selectedTags, selectedZones, side]);
+    const orderedClaims = side === "tous" ? interleaveClaimsBySide(matchingClaims) : matchingClaims;
+
+    return hasMenTagFilter && hasWomenTagFilter
+      ? orderClaimsForCombinedSideTags(orderedClaims)
+      : orderedClaims;
+  }, [angle, domain, hasMenTagFilter, hasWomenTagFilter, query, selectedPeriods, selectedStatuses, selectedTopicTags, selectedZones, side]);
 
   const claimColumns = useMemo(() => {
     if (isSingleColumn) return [filteredClaims];
@@ -918,6 +1056,10 @@ function App() {
   );
 
   const sharedClaim = sharedClaimId ? claims.find((claim) => claim.id === sharedClaimId) : null;
+  const isMenOnlyFilter = side === "hommes";
+  const isWomenOnlyFilter = side === "femmes";
+  const showMenSummaryTile = !isWomenOnlyFilter;
+  const showWomenSummaryTile = !isMenOnlyFilter;
 
   function addTag(label: string) {
     setSelectedTags((currentTags) => toggleValue(currentTags, label));
@@ -935,8 +1077,9 @@ function App() {
 
   async function handleSuggestionSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const form = event.currentTarget;
     setSubmissionError(false);
-    const formData = new FormData(event.currentTarget);
+    const formData = new FormData(form);
     const suggestion = {
       type: "suggestion_asymetrie",
       side: formData.get("side"),
@@ -952,8 +1095,9 @@ function App() {
 
     try {
       await sendContribution(`Suggestion Isora - ${suggestion.title}`, suggestion);
-      event.currentTarget.reset();
+      form.reset();
       setSubmitted(true);
+      setSubmissionError(false);
     } catch {
       setSubmissionError(true);
     }
@@ -981,9 +1125,10 @@ function App() {
   async function handleContestSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!contestedClaim) return;
+    const form = event.currentTarget;
     setContestError(false);
 
-    const formData = new FormData(event.currentTarget);
+    const formData = new FormData(form);
     const contestation = {
       type: "contestation_asymetrie",
       claimId: contestedClaim.id,
@@ -1000,9 +1145,10 @@ function App() {
 
     try {
       await sendContribution(`Contestation Isora - ${contestedClaim.title}`, contestation);
-      event.currentTarget.reset();
+      form.reset();
       setContestSources([""]);
       setContestSubmitted(true);
+      setContestError(false);
     } catch {
       setContestError(true);
     }
@@ -1012,6 +1158,13 @@ function App() {
     return (
       <ContributionInbox
         localRequests={localRequests}
+        onClearLocalRequests={() => {
+          if (!requestLocalReturnsClearPassword()) return;
+
+          localStorage.removeItem("sexedata:suggestions");
+          localStorage.removeItem("sexedata:contestations");
+          setLocalRequests([]);
+        }}
         remoteRequests={remoteRequests}
         remoteStatus={remoteStatus}
       />
@@ -1113,37 +1266,48 @@ function App() {
         </section>
 
         <section className="border-neutral-300 bg-white max-[760px]:hidden">
-          <div className={cn(pageWidth, "grid grid-cols-3 gap-3 pt-4 max-[760px]:grid-cols-2")} aria-label="État de la base">
-            <button
-              className={cn(
-                "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-violet-700 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-violet-50 max-[760px]:min-h-[74px] max-[760px]:p-3",
-                selectedTags.includes("hommes") && "bg-violet-50 ring-violet-200",
-              )}
-              type="button"
-              aria-pressed={selectedTags.includes("hommes")}
-              onClick={() => {
-                setSide("tous");
-                addTag("hommes");
-              }}
-            >
-              <span className="text-5xl font-extrabold leading-none text-violet-700 max-[760px]:hidden">{counts.hommes}</span>
-              <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.menAsymmetries}</small>
-            </button>
-            <button
-              className={cn(
-                "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-cyan-600 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-cyan-50 max-[760px]:min-h-[74px] max-[760px]:p-3",
-                selectedTags.includes("femmes") && "bg-cyan-50 ring-cyan-200",
-              )}
-              type="button"
-              aria-pressed={selectedTags.includes("femmes")}
-              onClick={() => {
-                setSide("tous");
-                addTag("femmes");
-              }}
-            >
-              <span className="text-5xl font-extrabold leading-none text-cyan-600 max-[760px]:hidden">{counts.femmes}</span>
-              <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.womenAsymmetries}</small>
-            </button>
+          <div
+            className={cn(
+              pageWidth,
+              "grid gap-3 pt-4 max-[760px]:grid-cols-2",
+              showMenSummaryTile && showWomenSummaryTile ? "grid-cols-3" : "grid-cols-2",
+            )}
+            aria-label="État de la base"
+          >
+            {showMenSummaryTile && (
+              <button
+                className={cn(
+                  "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-violet-700 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-violet-50 max-[760px]:min-h-[74px] max-[760px]:p-3",
+                  selectedTags.includes("hommes") && "bg-violet-50 ring-violet-200",
+                )}
+                type="button"
+                aria-pressed={selectedTags.includes("hommes")}
+                onClick={() => {
+                  setSide("tous");
+                  addTag("hommes");
+                }}
+              >
+                <span className="text-5xl font-extrabold leading-none text-violet-700 max-[760px]:hidden">{counts.hommes}</span>
+                <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.menAsymmetries}</small>
+              </button>
+            )}
+            {showWomenSummaryTile && (
+              <button
+                className={cn(
+                  "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-cyan-600 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-cyan-50 max-[760px]:min-h-[74px] max-[760px]:p-3",
+                  selectedTags.includes("femmes") && "bg-cyan-50 ring-cyan-200",
+                )}
+                type="button"
+                aria-pressed={selectedTags.includes("femmes")}
+                onClick={() => {
+                  setSide("tous");
+                  addTag("femmes");
+                }}
+              >
+                <span className="text-5xl font-extrabold leading-none text-cyan-600 max-[760px]:hidden">{counts.femmes}</span>
+                <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.womenAsymmetries}</small>
+              </button>
+            )}
             <div className="flex min-h-[118px] flex-col justify-between gap-2.5 border-l-4 border-l-green-700 bg-white p-5 ring-1 ring-inset ring-neutral-300 max-[760px]:hidden">
               <Send className="h-[22px] w-[22px] text-green-700" aria-hidden="true" />
               <span className="text-xs font-extrabold uppercase leading-tight tracking-normal text-green-700">{text.contribution}</span>
@@ -1608,13 +1772,12 @@ function ClaimCard({
   const displayPeriodLabels = periodFilterLabelsByLocale[locale];
   const Icon = domainIcons[claim.domain];
   const isWomen = claim.side === "femmes";
-  const isOutOfSchoolDebunk = claim.id === "femmes-filles-hors-ecole";
-  const isHybridSexCard = isOutOfSchoolDebunk || claim.id === "femmes-menopause-soins";
+  const hybridParticipantTags = getHybridParticipantTags(claim);
+  const isHybridSexCard = hybridParticipantTags.length > 1;
   const sideColor = isHybridSexCard ? "text-blue-700" : isWomen ? "text-cyan-600" : "text-violet-700";
   const sideBg = isHybridSexCard ? "bg-blue-50" : isWomen ? "bg-cyan-50" : "bg-violet-100";
   const sideBorder = isHybridSexCard ? "border-t-blue-500" : isWomen ? "border-t-cyan-600" : "border-t-violet-700";
   const periodLabel = getPeriodLabel(claim);
-  const hybridParticipantTags = Array.from(new Set(isHybridSexCard ? ["femmes", "hommes"] : []));
   const shouldShowSideChip = !hybridParticipantTags.includes(claim.side);
   const hiddenBottomParticipantTags = isHybridSexCard ? hybridParticipantTags : [];
   const chipButton =
@@ -1632,6 +1795,14 @@ function ClaimCard({
     .filter(Boolean)
     .map((label) => normalize(String(label)));
   const mobileDetailsId = `${claim.id}-mobile-details`;
+  const participantChipStyles: Record<string, string> = {
+    femmes: "bg-cyan-50 text-cyan-700 ring-cyan-200",
+    hommes: "bg-violet-50 text-violet-700 ring-violet-200",
+  };
+  const selectedParticipantChipStyles: Record<string, string> = {
+    femmes: "!bg-cyan-100 !text-cyan-900 !ring-cyan-300",
+    hommes: "!bg-violet-100 !text-violet-900 !ring-violet-300",
+  };
 
   async function copyShareLink() {
     const url = new URL(`${window.location.origin}${window.location.pathname}`);
@@ -1680,8 +1851,8 @@ function ClaimCard({
             <button
               className={cn(
                 chipButton,
-                "bg-blue-50 text-blue-800 ring-blue-200",
-                selectedTags.includes(label) && selectedChip,
+                participantChipStyles[label] ?? "bg-blue-50 text-blue-800 ring-blue-200",
+                selectedTags.includes(label) && (selectedParticipantChipStyles[label] ?? selectedChip),
               )}
               key={`hybrid-top-${label}`}
               type="button"

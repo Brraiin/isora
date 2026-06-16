@@ -456,7 +456,7 @@ const rawClaims: RawClaim[] = [
     confidence: "moyenne",
     lastChecked: "15 juin 2026",
     nuance:
-      "Les règles varient fortement selon les pays, les exemptions et les situations de guerre. La fiche documente une asymétrie juridique à vérifier pays par pays.",
+      "Les règles varient fortement selon les pays, les exemptions et les situations de guerre. L'asymétrie juridique doit être vérifiée pays par pays.",
   },
   {
     id: "hommes-population-carcerale-monde",
@@ -635,7 +635,7 @@ const rawClaims: RawClaim[] = [
     confidence: "moyenne",
     lastChecked: "16 juin 2026",
     nuance:
-      "Il ne faut pas écrire qu'il n'existe aucun centre pour hommes: le Royaume-Uni recense des places, et des lignes spécialisées existent. L'asymétrie documentée est plutôt la rareté, la faible visibilité, le financement limité, et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.",
+      "Le Royaume-Uni recense des places pour hommes et des lignes spécialisées existent. L'asymétrie documentée porte sur la rareté, la faible visibilité, le financement limité et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.",
   },
   {
     id: "hommes-agressions-sexuelles-minimisees",
@@ -688,7 +688,7 @@ const rawClaims: RawClaim[] = [
     confidence: "moyenne",
     lastChecked: "16 juin 2026",
     nuance:
-      "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. La fiche documente une asymétrie de perception et de minimisation; elle ne dit pas que toutes les victimes masculines minimisent, ni que les femmes agressent plus que les hommes.",
+      "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. Les sources portent sur une asymétrie de perception et de minimisation; elles ne mesurent ni toutes les situations de victimes masculines, ni la fréquence des agressions commises par des femmes.",
   },
   {
     id: "hommes-violences-sexuelles-sous-declaration",
@@ -795,42 +795,6 @@ const rawClaims: RawClaim[] = [
       "La donnée principale vient d'une enquête de victimation et repose sur les déclarations des victimes ayant renseigné le sexe de l'agresseur. Elle porte sur les viols, tentatives de viol et agressions sexuelles déclarés par des femmes majeures; elle ne mesure pas tous les faits réellement commis ni les chromosomes des auteurs.",
   },
   {
-    id: "hommes-accusations-sexuelles-infirmees-reputation",
-    side: "hommes",
-    angle: "récit_sur_le_sexe",
-    domain: "Justice",
-    title: "Accusations sexuelles infondées : risque réputationnel surtout masculin",
-    metric: "94 %",
-    summary:
-      "L'IPP indique qu'entre 2012 et 2021, 94 % des personnes mises en cause dans les affaires de violences sexuelles traitées par les parquets français sont des hommes. Les fausses allégations de violences sexuelles existent mais restent minoritaires dans les études disponibles, souvent situées entre 2 % et 10 %; lorsqu'elles sont établies, elles peuvent causer détresse et atteinte à la réputation.",
-    tags: ["justice", "violences sexuelles", "réputation", "France"],
-    source: {
-      label: "Le traitement judiciaire des violences sexuelles et conjugales en France",
-      publisher: "Institut des politiques publiques",
-      url: "https://ipp.eu/wp-content/uploads/2024/04/Note_IPP_Violences_aux_femmes-5.pdf",
-      date: "avril 2024",
-    },
-    additionalSources: [
-      {
-        label: "False allegations of sexual assault: an analysis of ten years of reported cases",
-        publisher: "PubMed / Violence Against Women",
-        url: "https://pubmed.ncbi.nlm.nih.gov/21164210/",
-        date: "2010",
-      },
-      {
-        label:
-          "Perverting the Course of Justice and Wasting Police Time in Cases involving Allegedly False Allegations of Rape and / or Domestic Abuse",
-        publisher: "Crown Prosecution Service",
-        url: "https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly",
-        date: "guidance",
-      },
-    ],
-    confidence: "moyenne",
-    lastChecked: "16 juin 2026",
-    nuance:
-      "Un classement sans suite, un non-lieu, une relaxe ou un acquittement ne prouve pas à lui seul qu'une accusation était fausse. Cette fiche documente le risque réputationnel quand l'accusation est infondée ou fausse, et le fait que les personnes mises en cause dans ce contentieux sont très majoritairement des hommes.",
-  },
-  {
     id: "hommes-sanctions-penales-plus-lourdes",
     side: "hommes",
     domain: "Justice",
@@ -914,7 +878,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "15 juin 2026",
     nuance:
-      "Le sujet implique santé publique, religion, consentement et droits de l'enfant. La fiche documente un enjeu d'autonomie corporelle sans juger les familles.",
+      "Le sujet implique santé publique, religion, consentement et droits de l'enfant. Les sources documentent un enjeu d'autonomie corporelle sans mesurer les motivations familiales au cas par cas.",
   },
   {
     id: "hommes-deces-professionnels-etats-unis-2024",
@@ -942,7 +906,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "15 juin 2026",
     nuance:
-      "Dans les pays industrialisés, prévention, mécanisation et droit du travail ont réduit le risque depuis 1970. La fiche documente la persistance actuelle d'un risque mortel très masculin.",
+      "Dans les pays industrialisés, prévention, mécanisation et droit du travail ont réduit le risque depuis 1970. Les données récentes montrent néanmoins une surreprésentation masculine dans les accidents mortels au travail.",
   },
   {
     id: "hommes-ukraine-restrictions-sortie-2022-2025",
@@ -976,7 +940,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "15 juin 2026",
     nuance:
-      "Cette fiche est datée: elle ne doit pas être lue comme une règle intemporelle pour tous les hommes ukrainiens. Les âges, exceptions et assouplissements doivent être vérifiés au moment de lecture.",
+      "Cette fiche décrit un état daté des restrictions ukrainiennes. Les âges, exceptions et assouplissements évoluent et doivent être vérifiés au moment de lecture.",
   },
   {
     id: "femmes-ecart-salaire",
@@ -1014,7 +978,7 @@ const rawClaims: RawClaim[] = [
         summary:
           "Insee distinguishes several levels of comparison. In 2024, the net full-time-equivalent wage gap is 14.0% in its main recent scope, but falls to 3.6% for the same job in the same establishment. In the public sector in 2022, full-time-equivalent gaps vary widely across branches, but fall to 3.0% in central government, 4.0% in hospitals and 4.8% in local government at identical profile.",
         nuance:
-          "This entry should not be read as a simple 'equal pay for equal work' claim. Raw gaps combine working time, occupations, sectors, hierarchical positions and access to very high wages. Gaps at comparable job or profile are much smaller, but they do not by themselves measure pay discrimination: they do not always capture experience, seniority, education, career interruptions or the mechanisms that steer people toward lower-paid occupations.",
+          "The data is not a simple 'equal pay for equal work' measure. Raw gaps combine working time, occupations, sectors, hierarchical positions and access to very high wages. Gaps at comparable job or profile are much smaller, but they do not by themselves measure pay discrimination: they do not always capture experience, seniority, education, career interruptions or the mechanisms that steer people toward lower-paid occupations.",
         sourcePopulation:
           "Population measured by the source: women and men in Insee wage statistics. The source does not measure chromosomes.",
         tags: ["income", "work", "social", "legal"],
@@ -1023,7 +987,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
-      "La fiche ne doit pas être lue comme un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.",
+      "La donnée ne correspond pas à un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.",
   },
   {
     id: "femmes-temps-partiel",
@@ -1114,7 +1078,7 @@ const rawClaims: RawClaim[] = [
         summary:
           "The number of adult women victims of rape, attempted rape or sexual assault in 2023 is estimated at 277,000. Only 7% say they filed a complaint. This under-reporting is not specific to women: several international sources also show massive under-reporting among male victims, sometimes higher depending on the measured scope.",
         nuance:
-          "The main figure remains a French estimate for women living in ordinary housing within the survey scope. It should not be used to claim that men report better: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.",
+          "The main figure remains a French estimate for women living in ordinary housing within the survey scope. It does not measure men's reporting levels: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.",
         sourcePopulation:
           "Population measured by the source: adult women in a victimization survey. The source does not measure chromosomes.",
         tags: ["violence", "justice", "health", "social", "men"],
@@ -1123,7 +1087,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
-      "La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne doit pas être utilisée pour dire que les hommes déclareraient mieux: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
+      "La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
   },
   {
     id: "femmes-ingenierie",
@@ -1165,7 +1129,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
-      "Cette fiche est classée comme récit sur le sexe: la sous-représentation ne prouve pas à elle seule un désavantage subi ni une interdiction formelle. Les filles obtiennent de meilleurs résultats sur plusieurs indicateurs scolaires, notamment au DNB, au baccalauréat et dans l'accès au niveau master, mais pas uniformément en mathématiques. Les bourses sur critères sociaux dépendent des ressources et charges familiales: les femmes sont majoritaires parmi les bénéficiaires en général, mais l'écart femmes-hommes est faible ou nul en formation d'ingénieur selon les sources disponibles.",
+      "La sous-représentation ne mesure pas à elle seule un désavantage subi ni une interdiction formelle. Les filles obtiennent de meilleurs résultats sur plusieurs indicateurs scolaires, notamment au DNB, au baccalauréat et dans l'accès au niveau master, mais pas uniformément en mathématiques. Les bourses sur critères sociaux dépendent des ressources et charges familiales: les femmes sont majoritaires parmi les bénéficiaires en général, mais l'écart femmes-hommes est faible ou nul en formation d'ingénieur selon les sources disponibles.",
   },
   {
     id: "femmes-separation-niveau-vie",
@@ -1255,7 +1219,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "15 juin 2026",
     nuance:
-      "Cette fiche décrit une règle abrogée en France. Elle sert à distinguer l'historique du droit actuel et ne doit pas être présentée comme une contrainte contemporaine française.",
+      "Cette fiche décrit une règle abrogée en France. Le cas relève de l'historique du droit et non d'une contrainte contemporaine française.",
   },
   {
     id: "femmes-france-contraception-1967",
@@ -1349,7 +1313,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
-      "Cette fiche ne doit pas être lue comme une preuve que les femmes subissent plus de violence toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, mais les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire. L'asymétrie porte donc sur les violences intimes et sexuelles, pas sur une somme totale de toutes les violences humaines.",
+      "Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.",
   },
   {
     id: "femmes-prison-victimisation-sexuelle-etats-unis",
@@ -1475,6 +1439,85 @@ const rawClaims: RawClaim[] = [
       "Le mariage d'enfants touche aussi des garçons, mais il affecte les filles à une échelle et avec des conséquences spécifiques majeures.",
   },
   {
+    id: "femmes-pression-virginite-avant-mariage",
+    side: "femmes",
+    domain: "Autonomie",
+    title: "Femmes ciblées par la norme de virginité avant mariage",
+    metric: "filles/femmes",
+    summary:
+      "L'OMS, ONU Droits humains et ONU Femmes appellent à interdire les tests de virginité et soulignent que l'attente sociale imposant aux filles et aux femmes de rester vierges avant le mariage repose sur des stéréotypes de contrôle de la sexualité féminine. L'UNFPA classe les tests de virginité parmi les pratiques néfastes et violations des droits humains; des études sur les doubles standards sexuels montrent aussi que la sexualité prénuptiale masculine peut être jugée plus favorablement que la sexualité prénuptiale féminine dans certains contextes.",
+    tags: ["autonomie corporelle", "sexualité", "virginité", "mariage", "monde"],
+    source: {
+      label: "United Nations agencies call for ban on virginity testing",
+      publisher: "OMS",
+      url: "https://www.who.int/news/item/17-10-2018-united-nations-agencies-call-for-ban-on-virginity-testing",
+      date: "2018",
+    },
+    additionalSources: [
+      {
+        label: "Confronting the silent and endemic crisis of harmful practices",
+        publisher: "UNFPA",
+        url: "https://www.unfpa.org/press/confronting-silent-and-endemic-crisis-harmful-practices",
+        date: "2020",
+      },
+      {
+        label:
+          "Contradicting perceptions of women's and men's sexuality: evidence of gender double standards in Türkiye",
+        publisher: "Sexuality & Culture / Springer",
+        url: "https://repository.bilkent.edu.tr/items/6a6cb5db-94c2-4256-a2c8-86cb43180c57",
+        date: "2023",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Les sources ne mesurent pas toutes les sociétés ni tous les hommes, et elles ne couvrent pas toutes les formes de pression sexuelle. Les sources sur le nombre de partenaires sexuels ne concluent pas toutes à une pénalisation spécifiquement féminine; l'asymétrie la mieux documentée ici est l'attente de virginité prénuptiale et les pratiques de contrôle visant surtout les filles et les femmes.",
+  },
+  {
+    id: "hommes-femmes-body-count-double-standard",
+    side: "femmes",
+    angle: "récit_sur_le_sexe",
+    domain: "Autonomie",
+    title: "Nombre de partenaires sexuels passés : résultats variables selon les études",
+    metric: "5 331",
+    summary:
+      "Une étude Scientific Reports menée dans 11 pays auprès de 5 331 participants trouve que l'envie d'envisager une relation longue baisse quand le nombre de partenaires sexuels passés augmente, mais que les différences entre évaluateurs femmes et hommes sont minimales et inconsistantes. À l'inverse, une méta-analyse de 99 études conclut que certaines mesures d'attentes et d'évaluations conservent un double standard traditionnel favorable aux hommes, tandis qu'une étude américaine par vignettes trouve même des évaluations plus négatives des hommes pour les mêmes historiques sexuels.",
+    tags: ["femmes", "hommes", "sexualité", "body count", "double standard", "récit", "monde"],
+    source: {
+      label:
+        "Sexual partner number and distribution over time affect long-term partner evaluation",
+      publisher: "Scientific Reports",
+      url: "https://www.nature.com/articles/s41598-025-12607-1",
+      date: "2025",
+    },
+    additionalSources: [
+      {
+        label:
+          "He is a Stud, She is a Slut! A Meta-Analysis on the Continued Existence of Sexual Double Standards",
+        publisher: "Personality and Social Psychology Review / PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/31880971/",
+        date: "2020",
+      },
+      {
+        label: "The Impact of Sexual History and Relationship Type on Social Perceptions",
+        publisher: "Sexuality & Culture / Springer",
+        url: "https://link.springer.com/article/10.1007/s12119-024-10246-8",
+        date: "2024",
+      },
+      {
+        label:
+          "Sexual (Double) Standards Revisited: Similarities and Differences in the Societal Evaluation of Male and Female Sexuality",
+        publisher: "Social Psychological and Personality Science",
+        url: "https://journals.sagepub.com/doi/10.1177/19485506241237288",
+        date: "2025",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Pour le nombre de partenaires passés, les résultats varient selon le protocole, le pays, le type de relation évaluée et la mesure utilisée. Certaines sources trouvent un double standard traditionnel, d'autres un effet surtout partagé, voire inversé. Les normes de pureté sexuelle visant les femmes sont documentées séparément dans la fiche sur la virginité avant mariage.",
+  },
+  {
     id: "femmes-mutilations-genitales",
     side: "femmes",
     domain: "Autonomie",
@@ -1519,11 +1562,11 @@ const rawClaims: RawClaim[] = [
     side: "femmes",
     angle: "récit_sur_le_sexe",
     domain: "Éducation",
-    title: "Il n'y a pas plus de filles ou de garçons hors de l'école",
+    title: "Enfants hors de l'école : estimations mondiales proches selon le sexe",
     metric: "133 M filles vs 140 M garçons",
     summary:
       "Les estimations UNESCO/GEM/UIS indiquent 273 millions d'enfants et jeunes hors de l'école dans le monde, dont 133 millions de filles et 140 millions de garçons.",
-    tags: ["femmes", "hommes", "débunk", "éducation", "jeunesse", "monde"],
+    tags: ["femmes", "hommes", "comparaison", "éducation", "jeunesse", "monde"],
     source: {
       label: "Gender equality and education",
       publisher: "UNESCO",
@@ -1553,7 +1596,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
-      "Cette fiche est classée comme récit sur le sexe et sert à débunker une idée reçue. Elle ne nie pas les barrières genrées qui touchent les filles dans certains pays ou niveaux scolaires; elle précise que, dans le total mondial récent, les garçons sont légèrement plus nombreux hors de l'école et plus exposés à certains risques de décrochage.",
+      "Les barrières genrées qui touchent les filles varient selon les pays et les niveaux scolaires. Dans le total mondial récent, les estimations UNESCO/GEM/UIS comptent légèrement plus de garçons hors de l'école et les sources signalent aussi des risques de décrochage spécifiques aux garçons.",
   },
   {
     id: "femmes-afghanistan-education",
@@ -1838,7 +1881,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
-      "Cette fiche est classée comme récit sur le sexe: la ménopause reste un angle réel de sous-information et de formation médicale insuffisante, mais elle ne doit pas être présentée comme preuve que les femmes seraient globalement moins suivies. Les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.",
+      "La ménopause reste un angle documenté de sous-information et de formation médicale insuffisante. Sur le recours aux soins en général, les sources françaises indiquent que les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.",
   },
   {
     id: "femmes-soin-non-remunere-emploi",
@@ -1959,7 +2002,7 @@ const rawClaims: RawClaim[] = [
     confidence: "moyenne",
     lastChecked: "16 juin 2026",
     nuance:
-      "La fiche réfute un récit essentialisant, pas l'idée que les femmes seraient intrinsèquement plus bellicistes. Les résultats historiques européens ne se transposent pas mécaniquement aux démocraties contemporaines, et les responsabilités individuelles doivent être lues dans leur contexte institutionnel.",
+      "La fiche compare des cas de pouvoir politique féminin à des épisodes de guerre ou de violence politique. Les résultats historiques européens ne se transposent pas mécaniquement aux démocraties contemporaines, et les responsabilités individuelles doivent être lues dans leur contexte institutionnel.",
   },
   {
     id: "femmes-espaces-non-mixtes-sexe",
@@ -2080,8 +2123,6 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
   "hommes-agresseurs-declares-violences-sexuelles-femmes-france":
     "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
-  "hommes-accusations-sexuelles-infirmees-reputation":
-    "Population mesurée par les sources : personnes mises en cause femmes/hommes dans les affaires de violences sexuelles traitées par les parquets français, et cas de fausses allégations étudiés dans la littérature. Les sources ne mesurent pas les chromosomes.",
   "hommes-sanctions-penales-plus-lourdes":
     "Population mesurée par les sources : femmes et hommes mis en cause, poursuivis ou condamnés dans les statistiques pénales françaises, et personnes arrêtées ou condamnées dans les affaires fédérales américaines. Les sources ne mesurent pas les chromosomes.",
   "hommes-conge-paternite-ocde":
@@ -2128,6 +2169,10 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.",
   "femmes-mariage-enfants":
     "Population mesurée par la source : girls and women / filles et femmes mariées pendant l'enfance. La source ne mesure pas les chromosomes.",
+  "femmes-pression-virginite-avant-mariage":
+    "Population mesurée par les sources : girls and women / filles et femmes visées par les attentes sociales et pratiques de contrôle liées à la virginité, ainsi qu'adultes interrogés sur les doubles standards sexuels dans certaines enquêtes. Les sources ne mesurent pas les chromosomes.",
+  "hommes-femmes-body-count-double-standard":
+    "Population mesurée par les sources : participants femmes et hommes à des études sur l'évaluation d'historiques sexuels masculins et féminins, ainsi que corpus de 99 études sur les doubles standards sexuels. Les sources ne mesurent pas les chromosomes.",
   "femmes-mutilations-genitales":
     "Population mesurée par la source : girls and women / filles et femmes ayant subi une MGF. La source ne mesure pas les chromosomes.",
   "femmes-preference-garcons":
@@ -2309,15 +2354,6 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "viols, tentatives de viol et agressions sexuelles",
   },
-  "hommes-accusations-sexuelles-infirmees-reputation": {
-    pays_ou_zone: "France",
-    regionScope: "Europe",
-    periode_debut: "2012",
-    periode_fin: "2021",
-    statut_temporel: "données insuffisantes",
-    intensite_contextuelle: "forte",
-    legalType: "fausses allégations et réputation",
-  },
   "hommes-sanctions-penales-plus-lourdes": {
     pays_ou_zone: "France et États-Unis",
     regionScope: "Europe et Amérique du Nord",
@@ -2424,6 +2460,24 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "moyenne",
     legalType: "accès aux soins et prévention",
+  },
+  "femmes-pression-virginite-avant-mariage": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2018",
+    periode_fin: "2023",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "autonomie corporelle et normes sexuelles",
+  },
+  "hommes-femmes-body-count-double-standard": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2020",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "normes sexuelles et réputation",
   },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",

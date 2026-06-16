@@ -1,12 +1,44 @@
 const githubApiUrl = "https://api.github.com/repos/Brraiin/isora/issues";
 
-function json(status, body) {
+function json(status, body, response) {
+  if (response) {
+    if (typeof response.status === "function" && typeof response.json === "function") {
+      return response.status(status).json(body);
+    }
+
+    response.statusCode = status;
+    if (typeof response.setHeader === "function") {
+      response.setHeader("content-type", "application/json; charset=utf-8");
+    }
+    response.end(JSON.stringify(body));
+    return undefined;
+  }
+
   return new Response(JSON.stringify(body), {
     status,
     headers: {
       "content-type": "application/json; charset=utf-8",
     },
   });
+}
+
+async function readJson(request) {
+  if (typeof request.json === "function") {
+    return request.json();
+  }
+
+  if (request.body && typeof request.body === "object" && !Buffer.isBuffer(request.body)) {
+    return request.body;
+  }
+
+  const chunks = [];
+
+  for await (const chunk of request) {
+    chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
+  }
+
+  const text = Buffer.concat(chunks).toString("utf8");
+  return JSON.parse(text);
 }
 
 function extractPayload(body) {
@@ -22,14 +54,15 @@ function extractPayload(body) {
   }
 }
 
-export default async function handler(request) {
+export default async function handler(request, response) {
   const token = process.env.GITHUB_ISSUE_TOKEN ?? process.env.GITHUB_TOKEN;
+  const method = request.method ?? "GET";
 
-  if (!token) {
-    return json(503, { error: "missing_github_token" });
-  }
+  if (method === "GET") {
+    if (!token) {
+      return json(503, { error: "missing_github_token" }, response);
+    }
 
-  if (request.method === "GET") {
     const githubResponse = await fetch(`${githubApiUrl}?state=open&labels=contribution&per_page=100`, {
       headers: {
         accept: "application/vnd.github+json",
@@ -39,7 +72,7 @@ export default async function handler(request) {
     });
 
     if (!githubResponse.ok) {
-      return json(502, { error: "github_issue_list_failed" });
+      return json(502, { error: "github_issue_list_failed" }, response);
     }
 
     const issues = await githubResponse.json();
@@ -55,26 +88,34 @@ export default async function handler(request) {
         labels: issue.labels.map((label) => label.name),
         payload: extractPayload(issue.body),
       })),
-    });
+    }, response);
   }
 
-  if (request.method !== "POST") {
-    return json(405, { error: "method_not_allowed" });
+  if (method !== "POST") {
+    return json(405, { error: "method_not_allowed" }, response);
   }
 
   let data;
 
   try {
-    data = await request.json();
+    data = await readJson(request);
   } catch {
-    return json(400, { error: "invalid_json" });
+    return json(400, { error: "invalid_json" }, response);
   }
 
   const title = typeof data?.title === "string" ? data.title.trim() : "";
   const payload = data?.payload;
 
   if (!title || !payload || typeof payload !== "object") {
-    return json(400, { error: "invalid_payload" });
+    return json(400, { error: "invalid_payload" }, response);
+  }
+
+  if (!token) {
+    return json(202, {
+      ok: true,
+      delivery: "browser_local",
+      warning: "missing_github_token",
+    }, response);
   }
 
   const type = typeof payload.type === "string" ? payload.type : "contribution";
@@ -102,14 +143,15 @@ export default async function handler(request) {
   });
 
   if (!githubResponse.ok) {
-    return json(502, { error: "github_issue_failed" });
+    return json(502, { error: "github_issue_failed" }, response);
   }
 
   const issue = await githubResponse.json();
 
   return json(201, {
     ok: true,
+    delivery: "github",
     issueUrl: issue.html_url,
     issueNumber: issue.number,
-  });
+  }, response);
 }
