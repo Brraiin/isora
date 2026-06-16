@@ -1005,13 +1005,28 @@ const rawClaims: RawClaim[] = [
       url: "https://www.insee.fr/fr/statistiques/7767077?sommaire=7767424",
       date: "2024",
     },
+    additionalSources: [
+      {
+        label:
+          "Fathers' Perceptions of the Availability of Flexible Working Arrangements: Evidence from the UK",
+        publisher: "Work, Employment and Society / SAGE",
+        url: "https://journals.sagepub.com/doi/10.1177/0950017020946687",
+        date: "2021",
+      },
+      {
+        label: "Paid leave for fathers",
+        publisher: "OCDE",
+        url: "https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html",
+        date: "2025",
+      },
+    ],
     translations: {
       en: {
         title: "Women are much more often employed part-time",
         summary:
           "In 2023, 26.6% of women employees worked part-time, compared with 7.8% of men. Women accounted for 77.9% of part-time employees.",
         nuance:
-          "This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary; conversely, men may also be socially discouraged or prevented from reducing working time for family reasons.",
+          "This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary. Conversely, men may also be discouraged from reducing working time for family or professional reasons when employer culture values full-time availability, long hours or the breadwinner role.",
         sourcePopulation:
           "Population measured by the source: women and men employees in Insee statistics. The source does not measure chromosomes.",
         tags: ["work", "family", "income", "social", "men"],
@@ -1020,7 +1035,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
-      "Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie; inversement, des hommes peuvent aussi être découragés ou empêchés socialement de réduire leur temps de travail pour raisons familiales.",
+      "Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie. Inversement, des hommes peuvent aussi être découragés de réduire leur temps de travail pour raisons familiales ou professionnelles lorsque la culture d'entreprise valorise la disponibilité à temps plein, les longues heures ou le rôle de pourvoyeur principal.",
   },
   {
     id: "femmes-violences-conjugales",
@@ -1225,21 +1240,35 @@ const rawClaims: RawClaim[] = [
     id: "femmes-france-contraception-1967",
     side: "femmes",
     domain: "Santé",
-    title: "Contraception interdite ou restreinte en France avant 1967",
-    metric: "1967",
+    title: "Accès à la contraception restreint avant la loi Neuwirth",
+    metric: "1920-1967",
     summary:
-      "La loi Neuwirth du 28 décembre 1967 a autorisé la contraception en France, avec une application progressive les années suivantes.",
-    tags: ["santé", "droits", "France", "historique"],
+      "La loi du 31 juillet 1920 réprimait la propagande anticonceptionnelle. La loi Neuwirth du 28 décembre 1967 a abrogé ces interdictions et autorisé la fabrication, l'importation et la vente encadrée de produits, médicaments et objets contraceptifs, avec une application progressive les années suivantes.",
+    tags: ["santé", "droits", "France", "historique", "contraception", "hommes"],
     source: {
-      label: "Histoire des droits des femmes",
-      publisher: "Vie publique",
-      url: "https://www.vie-publique.fr/eclairage/19590-histoire-des-droits-des-femmes-chronologie-de-la-revolution-nos-jours",
-      date: "2024",
+      label: "Loi n° 67-1176 du 28 décembre 1967 relative à la régulation des naissances",
+      publisher: "Légifrance",
+      url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000880754",
+      date: "1967",
     },
+    additionalSources: [
+      {
+        label: "Loi du 31 juillet 1920 réprimant la provocation à l'avortement et à la propagande anticonceptionnelle",
+        publisher: "Légifrance",
+        url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000683983",
+        date: "1920",
+      },
+      {
+        label: "L'évolution des droits des femmes en France : chronologie",
+        publisher: "Vie publique",
+        url: "https://www.vie-publique.fr/eclairage/19590-histoire-des-droits-des-femmes-chronologie-de-la-revolution-nos-jours",
+        date: "2024",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "La restriction est historique en France, mais l'accès réel à la contraception dépend encore de l'information, du coût, de l'offre de soins et du territoire.",
+      "Le droit visait la contraception en général: moyens contraceptifs pour les hommes, comme les préservatifs, et moyens contraceptifs pour les femmes. L'asymétrie classée ici côté femmes tient surtout au fait que la grossesse, l'accouchement, l'avortement clandestin et une grande partie des conséquences sociales ou médicales pèsent directement sur les femmes. Les hommes pouvaient aussi subir une paternité non prévue ou des obligations familiales, et les femmes pouvaient être abandonnées par le père; ces effets relèvent davantage des fiches famille, filiation et niveau de vie après séparation que de l'interdiction historique de la contraception elle-même.",
   },
   {
     id: "femmes-france-ivg-1975-1979",
@@ -2212,7 +2241,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-ecart-salaire":
     "Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.",
   "femmes-temps-partiel":
-    "Population mesurée par la source : femmes et hommes salariés dans les statistiques Insee. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : femmes et hommes salariés dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
   "femmes-violences-conjugales":
     "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
   "femmes-violences-sexuelles":
@@ -2232,7 +2261,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-france-compte-bancaire-travail-1965":
     "Population mesurée par la source : femmes mariées dans le droit civil français. La source ne mesure pas les chromosomes.",
   "femmes-france-contraception-1967":
-    "Population mesurée par la source : femmes dans l'histoire des droits reproductifs français. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : personnes concernées par le droit français de la contraception et de la régulation des naissances, avec conséquences corporelles et sociales principalement documentées côté femmes. Les sources ne mesurent pas les chromosomes.",
   "femmes-france-ivg-1975-1979":
     "Population mesurée par la source : femmes concernées par le droit à l'IVG en France. La source ne mesure pas les chromosomes.",
   "femmes-violences-physiques-sexuelles-monde":
