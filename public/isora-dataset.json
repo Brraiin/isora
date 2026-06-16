@@ -15,7 +15,7 @@
     "total": 70,
     "hommes": 29,
     "femmes": 41,
-    "sources": 134
+    "sources": 136
   },
   "domains": [
     "Travail",
@@ -2084,7 +2084,7 @@
       "domain": "Violences",
       "metric": "56,1 % / 2-10 %",
       "summary": "Les enquêtes sur les violences sexuelles montrent que les femmes victimes connaissent le plus souvent l'auteur: dans le NISVS 2016-2017, 56,1 % des victimes féminines de viol déclarent un agresseur faisant partie de leurs connaissances et 39,3 % un partenaire intime. En parallèle, les faux signalements d'agression sexuelle sont estimés minoritaires, souvent entre 2 % et 10 % des signalements, mais des études documentent une peur masculine d'être faussement accusé et son lien avec les pratiques de consentement explicite.",
-      "nuance": "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. Le cas Eleanor Williams illustre les dommages possibles d'une fausse accusation grave, sans représenter la fréquence générale du phénomène.",
+      "nuance": "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. L'ancienneté des faits peut compliquer l'établissement judiciaire pour les deux parties: preuves matérielles plus rares, souvenirs et témoins moins accessibles, corroboration plus difficile pour la plaignante et défense plus difficile pour la personne mise en cause. Les sources de procédure insistent sur une évaluation fondée sur les preuves, le contradictoire et la compréhension des délais de révélation, sans remplacer la preuve par l'émotion ou par des stéréotypes.",
       "tags": [
         "femmes",
         "hommes",
@@ -2099,9 +2099,9 @@
       "countryScope": "Monde, États-Unis et Royaume-Uni",
       "regionScope": "Monde",
       "periodStart": "2000",
-      "periodEnd": "2023",
+      "periodEnd": "2025",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, et signalements d'agression sexuelle étudiés dans les estimations de faux signalements. Les sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, signalements d'agression sexuelle étudiés dans les estimations de faux signalements, et dossiers anciens évoqués dans les sources judiciaires. Les sources ne mesurent pas les chromosomes.",
       "confidence": "moyenne",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -2140,6 +2140,18 @@
           "publisher": "Associated Press",
           "url": "https://apnews.com/article/uk-fake-sex-abuse-claims-racial-tensions-8207569f6809f03f159e518065fcf26d",
           "date": "2023"
+        },
+        {
+          "label": "Misconceptions of sexual crimes against adult victims: Barriers to justice",
+          "publisher": "Australian Institute of Criminology",
+          "url": "https://www.aic.gov.au/sites/default/files/2020-11/ti611_misconceptions_of_sexual_crimes_against_adult_victims.pdf",
+          "date": "2020"
+        },
+        {
+          "label": "Rapport d'information sur l'imprescriptibilité des violences commises sur les mineurs",
+          "publisher": "Assemblée nationale",
+          "url": "https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L17B2685.html",
+          "date": "2025"
         }
       ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."

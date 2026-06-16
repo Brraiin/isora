@@ -1575,11 +1575,23 @@ const rawClaims: RawClaim[] = [
         url: "https://apnews.com/article/uk-fake-sex-abuse-claims-racial-tensions-8207569f6809f03f159e518065fcf26d",
         date: "2023",
       },
+      {
+        label: "Misconceptions of sexual crimes against adult victims: Barriers to justice",
+        publisher: "Australian Institute of Criminology",
+        url: "https://www.aic.gov.au/sites/default/files/2020-11/ti611_misconceptions_of_sexual_crimes_against_adult_victims.pdf",
+        date: "2020",
+      },
+      {
+        label: "Rapport d'information sur l'imprescriptibilité des violences commises sur les mineurs",
+        publisher: "Assemblée nationale",
+        url: "https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L17B2685.html",
+        date: "2025",
+      },
     ],
     confidence: "moyenne",
     lastChecked: "16 juin 2026",
     nuance:
-      "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. Le cas Eleanor Williams illustre les dommages possibles d'une fausse accusation grave, sans représenter la fréquence générale du phénomène.",
+      "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. L'ancienneté des faits peut compliquer l'établissement judiciaire pour les deux parties: preuves matérielles plus rares, souvenirs et témoins moins accessibles, corroboration plus difficile pour la plaignante et défense plus difficile pour la personne mise en cause. Les sources de procédure insistent sur une évaluation fondée sur les preuves, le contradictoire et la compréhension des délais de révélation, sans remplacer la preuve par l'émotion ou par des stéréotypes.",
   },
   {
     id: "femmes-mutilations-genitales",
@@ -2238,7 +2250,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-femmes-body-count-double-standard":
     "Population mesurée par les sources : participants femmes et hommes à des études sur l'évaluation d'historiques sexuels masculins et féminins, ainsi que corpus de 99 études sur les doubles standards sexuels. Les sources ne mesurent pas les chromosomes.",
   "hommes-femmes-peurs-consentement-sexuel":
-    "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, et signalements d'agression sexuelle étudiés dans les estimations de faux signalements. Les sources ne mesurent pas les chromosomes.",
+    "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, signalements d'agression sexuelle étudiés dans les estimations de faux signalements, et dossiers anciens évoqués dans les sources judiciaires. Les sources ne mesurent pas les chromosomes.",
   "femmes-mutilations-genitales":
     "Population mesurée par la source : girls and women / filles et femmes ayant subi une MGF. La source ne mesure pas les chromosomes.",
   "femmes-preference-garcons":
@@ -2549,7 +2561,7 @@ const claimMetadata: Record<string, ClaimMeta> = {
     pays_ou_zone: "Monde, États-Unis et Royaume-Uni",
     regionScope: "Monde",
     periode_debut: "2000",
-    periode_fin: "2023",
+    periode_fin: "2025",
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "consentement, violences sexuelles et fausses accusations",
