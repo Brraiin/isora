@@ -48,6 +48,21 @@ npm run build
 
 Le build doit passer avant tout push.
 
+4. Pour verifier l'etat multilingue complet:
+
+```bash
+npm run i18n:check
+```
+
+Ce check est bloquant seulement si la publication annonce un site integralement traduit. Il peut echouer tant que
+les fiches n'ont pas toutes une traduction anglaise relue dans `src/data/claims.ts`.
+
+Etat multilingue actuel:
+
+- l'interface publique FR/EN est pilotee par le selecteur du header;
+- `npm run build` regenere les exports FR/EN (`llms*.txt`, `isora-dataset*.json`);
+- les fiches sans `translations.en` restent en francais dans la vue anglaise.
+
 ## Publier une modification
 
 Depuis `/Users/eve/Web dev/Sexite`:
@@ -112,6 +127,14 @@ GITHUB_ISSUE_TOKEN
 ```
 
 Le token doit avoir le droit de creer des issues sur le depot `Brraiin/isora`. Sans cette variable, les formulaires restent sauvegardes localement dans le navigateur de l'utilisateur mais ne sont pas transmis.
+
+Pour consulter les retours sans exposer de page publique, utiliser la vue non referencee:
+
+```text
+https://isora-xi.vercel.app/?admin=contributions
+```
+
+Cette vue n'est liee nulle part dans le site et force `noindex,nofollow`. Elle affiche les retours sauvegardes dans le navigateur courant et, en production avec `GITHUB_ISSUE_TOKEN`, les issues GitHub ouvertes portant le label `contribution`.
 
 ## Domaine IONOS
 

@@ -9,15 +9,57 @@ function json(status, body) {
   });
 }
 
-export default async function handler(request) {
-  if (request.method !== "POST") {
-    return json(405, { error: "method_not_allowed" });
-  }
+function extractPayload(body) {
+  if (typeof body !== "string") return null;
 
+  const match = body.match(/```json\s*([\s\S]*?)```/);
+  if (!match) return null;
+
+  try {
+    return JSON.parse(match[1]);
+  } catch {
+    return null;
+  }
+}
+
+export default async function handler(request) {
   const token = process.env.GITHUB_ISSUE_TOKEN ?? process.env.GITHUB_TOKEN;
 
   if (!token) {
     return json(503, { error: "missing_github_token" });
+  }
+
+  if (request.method === "GET") {
+    const githubResponse = await fetch(`${githubApiUrl}?state=open&labels=contribution&per_page=100`, {
+      headers: {
+        accept: "application/vnd.github+json",
+        authorization: `Bearer ${token}`,
+        "x-github-api-version": "2022-11-28",
+      },
+    });
+
+    if (!githubResponse.ok) {
+      return json(502, { error: "github_issue_list_failed" });
+    }
+
+    const issues = await githubResponse.json();
+
+    return json(200, {
+      ok: true,
+      items: issues.map((issue) => ({
+        number: issue.number,
+        title: issue.title,
+        url: issue.html_url,
+        createdAt: issue.created_at,
+        updatedAt: issue.updated_at,
+        labels: issue.labels.map((label) => label.name),
+        payload: extractPayload(issue.body),
+      })),
+    });
+  }
+
+  if (request.method !== "POST") {
+    return json(405, { error: "method_not_allowed" });
   }
 
   let data;

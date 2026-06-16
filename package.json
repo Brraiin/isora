@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
+    "i18n:check": "node scripts/check-i18n.mjs",
     "seo": "node scripts/generate-seo.mjs",
     "prebuild": "node scripts/generate-seo.mjs",
     "build": "tsc -b && vite build",

@@ -11,6 +11,36 @@ Isora publie des fichiers lisibles par les moteurs de recherche, crawlers et age
 - `/ai.txt` : politique courte d'acces IA.
 - `/sitemap.xml` : indexe les fichiers publics principaux.
 
+## Multilingue public
+
+L'interface publique expose un selecteur de langue dans le header :
+
+- `FR` affiche les libelles francais.
+- `EN` affiche les libelles anglais.
+
+Le choix est conserve dans `localStorage` avec la cle `isora:locale`. Le code met aussi a jour
+`document.documentElement.lang` pour que le document annonce correctement `fr` ou `en`.
+
+Les textes d'interface sont centralises dans `src/App.tsx` :
+
+- `uiText.fr` et `uiText.en` pour les libelles generaux.
+- `sideLabelsByLocale` pour les groupes.
+- `angleLabelsByLocale` pour les angles editoriaux.
+- `periodFilterLabelsByLocale` pour les statuts temporels.
+
+Les contenus de fiches restent stockes dans `src/data/claims.ts`. Une fiche peut ajouter une version anglaise
+relue dans `translations.en`. Tant qu'une fiche n'a pas cette traduction relue, l'interface anglaise conserve
+le texte source francais pour la fiche elle-meme. Ce repli est volontaire : ne pas publier de traduction non relue
+comme si elle etait definitive.
+
+Avant d'annoncer que le site est integralement bilingue, lancer :
+
+```bash
+npm run i18n:check
+```
+
+Ce check doit passer. S'il echoue, il liste les fiches dont `translations.en` manque encore.
+
 ## Generation automatique
 
 La commande suivante regenere toujours les deux versions :

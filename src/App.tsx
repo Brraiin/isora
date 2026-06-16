@@ -60,6 +60,40 @@ const periodFilterLabels: Record<StatutTemporel | "tous", string> = {
 
 type Locale = "fr" | "en";
 
+type ContributionPayload = {
+  type?: string;
+  side?: string;
+  angle?: string;
+  title?: string;
+  summary?: string;
+  claimId?: string;
+  claimTitle?: string;
+  claimUrl?: string;
+  correction?: string;
+  sources?: string[];
+  pageUrl?: string;
+  createdAt?: string;
+};
+
+type ContributionPreview = {
+  id: string;
+  source: "local" | "github";
+  title: string;
+  url?: string;
+  createdAt?: string;
+  labels?: string[];
+  payload: ContributionPayload;
+};
+
+type RemoteContribution = {
+  number?: number;
+  title?: string;
+  url?: string;
+  createdAt?: string;
+  labels?: string[];
+  payload?: ContributionPayload | null;
+};
+
 const sideLabelsByLocale: Record<Locale, Record<Side | "tous", string>> = {
   fr: sideLabels,
   en: {
@@ -122,6 +156,25 @@ const uiText: Record<Locale, Record<string, string>> = {
     copyLink: "Copier le lien de l'asymétrie",
     copiedLink: "Lien copié",
     language: "Langue",
+    close: "Fermer",
+    suggestionIntro: "On vérifiera la source et complétera les informations avant publication.",
+    affectedGroup: "Groupe concerné",
+    asymmetryAngle: "Angle de l'asymétrie",
+    title: "Titre",
+    summary: "Résumé",
+    summaryPlaceholder: "Décris l'asymétrie, le contexte, et ce qui mérite d'être vérifié.",
+    sendContribution: "Envoyer la contribution",
+    contributionSent: "Contribution envoyée. Merci, elle sera vérifiée avant publication.",
+    contributionError: "Envoi impossible pour le moment. La contribution reste conservée dans ce navigateur.",
+    contestClaim: "Contester une asymétrie",
+    correctionLabel: "Qu'est-ce qui est à modifier ?",
+    correctionPlaceholder: "Explique la correction, le point contesté, ou la nuance à ajouter.",
+    sources: "Sources",
+    add: "Ajouter",
+    source: "Source",
+    sendContest: "Envoyer la contestation",
+    contestSent: "Contestation envoyée. Merci, elle sera vérifiée avant modification.",
+    contestError: "Envoi impossible pour le moment. La contestation reste conservée dans ce navigateur.",
   },
   en: {
     tagline: "The reference for sex-based asymmetries",
@@ -149,6 +202,25 @@ const uiText: Record<Locale, Record<string, string>> = {
     copyLink: "Copy the asymmetry link",
     copiedLink: "Link copied",
     language: "Language",
+    close: "Close",
+    suggestionIntro: "We will verify the source and complete the details before publication.",
+    affectedGroup: "Affected group",
+    asymmetryAngle: "Asymmetry angle",
+    title: "Title",
+    summary: "Summary",
+    summaryPlaceholder: "Describe the asymmetry, the context, and what should be verified.",
+    sendContribution: "Send contribution",
+    contributionSent: "Contribution sent. Thank you, it will be verified before publication.",
+    contributionError: "Sending is unavailable for now. The contribution remains saved in this browser.",
+    contestClaim: "Contest an asymmetry",
+    correctionLabel: "What should be changed?",
+    correctionPlaceholder: "Explain the correction, contested point, or nuance to add.",
+    sources: "Sources",
+    add: "Add",
+    source: "Source",
+    sendContest: "Send contestation",
+    contestSent: "Contestation sent. Thank you, it will be verified before any change.",
+    contestError: "Sending is unavailable for now. The contestation remains saved in this browser.",
   },
 };
 
@@ -186,6 +258,38 @@ async function sendContribution(title: string, payload: unknown) {
   if (!response.ok) {
     throw new Error("contribution_failed");
   }
+}
+
+function isContributionAdminView() {
+  if (typeof window === "undefined") return false;
+  return new URLSearchParams(window.location.search).get("admin") === "contributions";
+}
+
+function readStoredContributions(key: string) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key) ?? "[]");
+    return Array.isArray(value) ? (value as ContributionPayload[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function formatContributionDate(value?: string) {
+  if (!value) return "Date inconnue";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+
+  return new Intl.DateTimeFormat("fr-FR", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(date);
+}
+
+function getContributionTitle(payload: ContributionPayload, fallback: string) {
+  return payload.claimTitle ?? payload.title ?? fallback;
 }
 
 const pageWidth = "mx-auto w-[min(1200px,calc(100%_-_48px))] max-[760px]:w-[min(100%_-_24px,1200px)]";
@@ -276,6 +380,170 @@ function HighlightedSummary({ text }: { text: string }) {
   );
 }
 
+function ContributionInbox({
+  localRequests,
+  remoteRequests,
+  remoteStatus,
+}: {
+  localRequests: ContributionPreview[];
+  remoteRequests: ContributionPreview[];
+  remoteStatus: "idle" | "loading" | "ready" | "unavailable" | "error";
+}) {
+  const requests = [...remoteRequests, ...localRequests].sort((left, right) => {
+    const leftDate = new Date(left.createdAt ?? "").getTime() || 0;
+    const rightDate = new Date(right.createdAt ?? "").getTime() || 0;
+    return rightDate - leftDate;
+  });
+
+  return (
+    <div className="min-w-80 bg-neutral-100 font-sans text-neutral-900 antialiased">
+      <main className={cn(pageWidth, "min-h-screen py-8")}>
+        <header className="flex flex-wrap items-center justify-between gap-4 border-b border-neutral-300 pb-5">
+          <div>
+            <IsoraWordmark className="w-24" />
+            <h1 className="mt-5 text-3xl font-extrabold leading-tight text-neutral-900">Retours utilisateurs</h1>
+            <p className="mt-2 max-w-2xl leading-relaxed text-neutral-600">
+              Vue non référencée pour vérifier les contestations et propositions avant modification des asymétries.
+            </p>
+          </div>
+          <div className="bg-white px-3 py-2 text-sm font-bold text-neutral-700 ring-1 ring-inset ring-neutral-300">
+            {requests.length} retour{requests.length > 1 ? "s" : ""}
+          </div>
+        </header>
+
+        <section className="mt-5 grid gap-3" aria-label="Statut des retours">
+          {remoteStatus === "loading" && (
+            <div className={cn(panel, "p-4 font-bold text-blue-800")}>Chargement des issues GitHub...</div>
+          )}
+          {remoteStatus === "unavailable" && (
+            <div className={cn(panel, "flex gap-3 p-4 text-sm font-bold text-amber-800")}>
+              <AlertTriangle className="h-5 w-5 shrink-0" aria-hidden="true" />
+              GitHub n'est pas configuré sur cet environnement. Les retours locaux restent visibles ici.
+            </div>
+          )}
+          {remoteStatus === "error" && (
+            <div className={cn(panel, "flex gap-3 p-4 text-sm font-bold text-red-700")}>
+              <AlertTriangle className="h-5 w-5 shrink-0" aria-hidden="true" />
+              Impossible de charger les issues GitHub pour le moment.
+            </div>
+          )}
+        </section>
+
+        <section className="mt-5 grid grid-cols-2 gap-4 max-[900px]:grid-cols-1" aria-label="Retours reçus">
+          {requests.map((request) => (
+            <ContributionPreviewCard key={request.id} request={request} />
+          ))}
+          {requests.length === 0 && (
+            <div className={cn(panel, "col-span-full p-6 text-center font-bold text-neutral-500")}>
+              Aucun retour à afficher pour le moment.
+            </div>
+          )}
+        </section>
+      </main>
+    </div>
+  );
+}
+
+function ContributionPreviewCard({ request }: { request: ContributionPreview }) {
+  const payload = request.payload;
+  const isContest = payload.type === "contestation_asymetrie";
+  const label = isContest ? "Contestation" : "Proposition";
+  const sources = Array.isArray(payload.sources) ? payload.sources.filter(Boolean) : [];
+
+  return (
+    <article className={cn(panel, "border-t-4 border-t-blue-800 p-5")}>
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="bg-blue-50 px-2 py-1 text-xs font-extrabold uppercase text-blue-800 ring-1 ring-inset ring-blue-200">
+          {label}
+        </span>
+        <span className="bg-neutral-100 px-2 py-1 text-xs font-bold text-neutral-600 ring-1 ring-inset ring-neutral-300">
+          {request.source === "github" ? "GitHub" : "Local"}
+        </span>
+        {payload.side && (
+          <span className="bg-neutral-100 px-2 py-1 text-xs font-bold text-neutral-600 ring-1 ring-inset ring-neutral-300">
+            {payload.side}
+          </span>
+        )}
+      </div>
+
+      <h2 className="mt-4 text-xl font-extrabold leading-snug text-neutral-900">
+        {getContributionTitle(payload, request.title)}
+      </h2>
+      <p className="mt-2 text-sm font-bold text-neutral-500">{formatContributionDate(request.createdAt)}</p>
+
+      {payload.correction && (
+        <section className="mt-4">
+          <h3 className="text-sm font-extrabold text-neutral-900">À modifier</h3>
+          <p className="mt-1 leading-relaxed text-neutral-700">{payload.correction}</p>
+        </section>
+      )}
+
+      {payload.summary && (
+        <section className="mt-4">
+          <h3 className="text-sm font-extrabold text-neutral-900">Résumé proposé</h3>
+          <p className="mt-1 leading-relaxed text-neutral-700">{payload.summary}</p>
+        </section>
+      )}
+
+      {payload.angle && (
+        <p className="mt-4 text-sm text-neutral-600">
+          <strong className="text-neutral-900">Angle :</strong> {payload.angle}
+        </p>
+      )}
+
+      {sources.length > 0 && (
+        <section className="mt-4">
+          <h3 className="text-sm font-extrabold text-neutral-900">Sources</h3>
+          <div className="mt-2 grid gap-2">
+            {sources.map((source) => (
+              <a
+                className={cn(icon18, "inline-flex min-w-0 items-center gap-2 font-bold text-blue-800 underline underline-offset-2 [overflow-wrap:anywhere]")}
+                href={source}
+                key={source}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <ExternalLink aria-hidden="true" />
+                {source}
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div className="mt-5 flex flex-wrap gap-2">
+        {payload.claimUrl && (
+          <a
+            className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-200 px-3 font-bold text-blue-800 hover:bg-blue-100")}
+            href={payload.claimUrl}
+          >
+            <Link aria-hidden="true" />
+            Voir l'asymétrie
+          </a>
+        )}
+        {request.url && (
+          <a
+            className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-blue-800 px-3 font-bold text-white hover:bg-blue-700")}
+            href={request.url}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ExternalLink aria-hidden="true" />
+            Ouvrir l'issue
+          </a>
+        )}
+      </div>
+
+      <details className="mt-5 border-t border-neutral-300 pt-4">
+        <summary className="font-bold text-neutral-700">JSON brut</summary>
+        <pre className="mt-3 max-h-72 overflow-auto bg-neutral-950 p-3 text-xs leading-relaxed text-neutral-100">
+          {JSON.stringify(payload, null, 2)}
+        </pre>
+      </details>
+    </article>
+  );
+}
+
 function App() {
   const [locale, setLocale] = useState<Locale>(() => {
     if (typeof window === "undefined") return "fr";
@@ -298,6 +566,10 @@ function App() {
   const [contestSources, setContestSources] = useState([""]);
   const [contestSubmitted, setContestSubmitted] = useState(false);
   const [contestError, setContestError] = useState(false);
+  const [isRequestsView] = useState(() => isContributionAdminView());
+  const [localRequests, setLocalRequests] = useState<ContributionPreview[]>([]);
+  const [remoteRequests, setRemoteRequests] = useState<ContributionPreview[]>([]);
+  const [remoteStatus, setRemoteStatus] = useState<"idle" | "loading" | "ready" | "unavailable" | "error">("idle");
   const text = uiText[locale];
   const displaySideLabels = sideLabelsByLocale[locale];
   const displayAngleLabels = angleLabelsByLocale[locale];
@@ -317,6 +589,105 @@ function App() {
     document.documentElement.lang = locale === "en" ? "en" : "fr";
     window.localStorage.setItem("isora:locale", locale);
   }, [locale]);
+
+  useEffect(() => {
+    if (!isRequestsView) return undefined;
+
+    const previousTitle = document.title;
+    document.title = "Retours utilisateurs - Isora";
+
+    let robotsMeta = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+    const previousRobots = robotsMeta?.getAttribute("content") ?? null;
+    const createdRobots = !robotsMeta;
+
+    if (!robotsMeta) {
+      robotsMeta = document.createElement("meta");
+      robotsMeta.name = "robots";
+      document.head.appendChild(robotsMeta);
+    }
+
+    robotsMeta.content = "noindex,nofollow";
+
+    return () => {
+      document.title = previousTitle;
+      if (!robotsMeta) return;
+      if (createdRobots) {
+        robotsMeta.remove();
+      } else if (previousRobots) {
+        robotsMeta.content = previousRobots;
+      }
+    };
+  }, [isRequestsView]);
+
+  useEffect(() => {
+    if (!isRequestsView) return;
+
+    const suggestions = readStoredContributions("sexedata:suggestions").map((payload, index) => ({
+      id: `local-suggestion-${index}-${payload.createdAt ?? ""}`,
+      source: "local" as const,
+      title: getContributionTitle(payload, "Suggestion locale"),
+      createdAt: payload.createdAt,
+      payload,
+    }));
+    const contestations = readStoredContributions("sexedata:contestations").map((payload, index) => ({
+      id: `local-contestation-${index}-${payload.createdAt ?? ""}`,
+      source: "local" as const,
+      title: getContributionTitle(payload, "Contestation locale"),
+      createdAt: payload.createdAt,
+      payload,
+    }));
+
+    setLocalRequests([...suggestions, ...contestations]);
+  }, [isRequestsView]);
+
+  useEffect(() => {
+    if (!isRequestsView) return;
+
+    let cancelled = false;
+    setRemoteStatus("loading");
+
+    fetch("/api/contributions")
+      .then(async (response) => {
+        if (response.status === 503) {
+          if (!cancelled) setRemoteStatus("unavailable");
+          return null;
+        }
+
+        if (!response.ok) {
+          throw new Error("remote_contributions_failed");
+        }
+
+        return response.json() as Promise<{ items?: RemoteContribution[] }>;
+      })
+      .then((data) => {
+        if (cancelled || !data) return;
+        const items = Array.isArray(data.items) ? data.items : [];
+        setRemoteRequests(
+          items.map((item) => {
+            const payload = item.payload ?? {};
+            const id = item.number ? `github-${item.number}` : `github-${item.createdAt ?? item.title ?? ""}`;
+
+            return {
+              id,
+              source: "github",
+              title: getContributionTitle(payload, item.title ?? "Retour GitHub"),
+              url: item.url,
+              createdAt: item.createdAt ?? payload.createdAt,
+              labels: item.labels,
+              payload,
+            };
+          }),
+        );
+        setRemoteStatus("ready");
+      })
+      .catch(() => {
+        if (!cancelled) setRemoteStatus("error");
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [isRequestsView]);
 
   useEffect(() => {
     function syncSharedClaim() {
@@ -596,6 +967,16 @@ function App() {
     } catch {
       setContestError(true);
     }
+  }
+
+  if (isRequestsView) {
+    return (
+      <ContributionInbox
+        localRequests={localRequests}
+        remoteRequests={remoteRequests}
+        remoteStatus={remoteStatus}
+      />
+    );
   }
 
   return (
@@ -898,9 +1279,9 @@ function App() {
               <div className="flex items-start justify-between gap-3">
                 <div>
                   <h2 id="suggestion-title" className="m-0 text-base leading-snug text-neutral-900">
-                    Proposer une asymétrie sourcée
+                    {text.proposeClaim}
                   </h2>
-                  <p className="mt-1 text-sm leading-snug text-neutral-500">On vérifiera la source et complétera les informations avant publication.</p>
+                  <p className="mt-1 text-sm leading-snug text-neutral-500">{text.suggestionIntro}</p>
                 </div>
                 <button
                   className={cn(icon18, "inline-flex h-10 w-10 items-center justify-center border-0 bg-neutral-200 text-blue-800")}
@@ -910,7 +1291,7 @@ function App() {
 	                    setSubmitted(false);
 	                    setSubmissionError(false);
 	                  }}
-                  aria-label="Fermer"
+                  aria-label={text.close}
                 >
                   <X aria-hidden="true" />
                 </button>
@@ -918,48 +1299,48 @@ function App() {
 
               <form className="mt-[18px] grid gap-3" onSubmit={handleSuggestionSubmit}>
                 <label className="grid gap-[7px] text-sm font-bold text-neutral-700">
-                  Groupe concerné
+                  {text.affectedGroup}
                   <select className={field} name="side" required defaultValue="hommes">
-                    <option value="hommes">Hommes</option>
-                    <option value="femmes">Femmes</option>
+                    <option value="hommes">{displaySideLabels.hommes}</option>
+                    <option value="femmes">{displaySideLabels.femmes}</option>
                   </select>
                 </label>
                 <label className="grid gap-[7px] text-sm font-bold text-neutral-700">
-                  Angle de l'asymétrie
+                  {text.asymmetryAngle}
                   <select className={field} name="angle" required defaultValue="désavantage_subi">
                     {(Object.keys(angleLabels).filter((label) => label !== "tous") as ClaimAngle[]).map((label) => (
                       <option key={label} value={label}>
-                        {angleLabels[label]}
+                        {displayAngleLabels[label]}
                       </option>
                     ))}
                   </select>
                 </label>
                 <label className="grid gap-[7px] text-sm font-bold text-neutral-700">
-                  Titre
+                  {text.title}
                   <input className={field} name="title" type="text" required minLength={8} />
                 </label>
                 <label className="grid gap-[7px] text-sm font-bold text-neutral-700">
-                  Résumé
+                  {text.summary}
                   <textarea
                     className={cn(field, "min-h-36 resize-y py-2.5 leading-relaxed")}
                     name="summary"
                     required
                     minLength={16}
-                    placeholder="Décris l'asymétrie, le contexte, et ce qui mérite d'être vérifié."
+                    placeholder={text.summaryPlaceholder}
                   />
                 </label>
                 <button className={cn(primaryAction, "w-full")} type="submit">
                   <Send className="h-[18px] w-[18px]" aria-hidden="true" />
-                  Envoyer la contribution
+                  {text.sendContribution}
                 </button>
                 {submitted && (
                   <p className="font-bold text-green-700">
-                    Contribution envoyée. Merci, elle sera vérifiée avant publication.
+                    {text.contributionSent}
                   </p>
                 )}
                 {submissionError && (
                   <p className="font-bold text-red-700">
-                    Envoi impossible pour le moment. La contribution reste conservée dans ce navigateur.
+                    {text.contributionError}
                   </p>
                 )}
               </form>
@@ -978,7 +1359,7 @@ function App() {
               <div className="flex items-start justify-between gap-3">
                 <div>
                   <h2 id="contest-title" className="m-0 text-base leading-snug text-neutral-900">
-                    Contester une asymétrie
+                    {text.contestClaim}
                   </h2>
                   <p className="mt-1 text-sm leading-snug text-neutral-500">{contestedClaim.title}</p>
                 </div>
@@ -986,7 +1367,7 @@ function App() {
                   className={cn(icon18, "inline-flex h-10 w-10 items-center justify-center border-0 bg-neutral-200 text-blue-800")}
                   type="button"
                   onClick={closeContestForm}
-                  aria-label="Fermer"
+                  aria-label={text.close}
                 >
                   <X aria-hidden="true" />
                 </button>
@@ -994,31 +1375,31 @@ function App() {
 
               <form className="mt-[18px] grid gap-3" onSubmit={handleContestSubmit}>
                 <label className="grid gap-[7px] text-sm font-bold text-neutral-700">
-                  Qu'est-ce qui est à modifier ?
+                  {text.correctionLabel}
                   <textarea
                     className={cn(field, "min-h-36 resize-y py-2.5 leading-relaxed")}
                     name="correction"
                     required
                     minLength={12}
-                    placeholder="Explique la correction, le point contesté, ou la nuance à ajouter."
+                    placeholder={text.correctionPlaceholder}
                   />
                 </label>
 
                 <div className="grid gap-2.5">
                   <div className="flex items-center justify-between gap-3">
-                    <span className="text-sm font-bold text-neutral-700">Sources</span>
+                    <span className="text-sm font-bold text-neutral-700">{text.sources}</span>
                     <button
                       className={cn(icon18, "inline-flex min-h-9 items-center gap-1.5 border-0 bg-neutral-200 px-2.5 text-sm font-bold text-blue-800 hover:bg-blue-100")}
                       type="button"
                       onClick={() => setContestSources((currentSources) => [...currentSources, ""])}
                     >
                       <Plus aria-hidden="true" />
-                      Ajouter
+                      {text.add}
                     </button>
                   </div>
                   {contestSources.map((source, index) => (
                     <label className="grid gap-[7px] text-sm font-bold text-neutral-700" key={`contest-source-${index}`}>
-                      Source {index + 1}
+                      {text.source} {index + 1}
                       <input
                         className={field}
                         type="url"
@@ -1033,16 +1414,16 @@ function App() {
 
                 <button className={cn(primaryAction, "w-full")} type="submit">
                   <Send className="h-[18px] w-[18px]" aria-hidden="true" />
-                  Envoyer la contestation
+                  {text.sendContest}
                 </button>
                 {contestSubmitted && (
                   <p className="font-bold text-green-700">
-                    Contestation envoyée. Merci, elle sera vérifiée avant modification.
+                    {text.contestSent}
                   </p>
                 )}
                 {contestError && (
                   <p className="font-bold text-red-700">
-                    Envoi impossible pour le moment. La contestation reste conservée dans ce navigateur.
+                    {text.contestError}
                   </p>
                 )}
               </form>
@@ -1105,10 +1486,15 @@ function ClaimCard({
   const displayPeriodLabels = periodFilterLabelsByLocale[locale];
   const Icon = domainIcons[claim.domain];
   const isWomen = claim.side === "femmes";
-  const sideColor = isWomen ? "text-cyan-600" : "text-violet-700";
-  const sideBg = isWomen ? "bg-cyan-50" : "bg-violet-100";
-  const sideBorder = isWomen ? "border-t-cyan-600" : "border-t-violet-700";
+  const isOutOfSchoolDebunk = claim.id === "femmes-filles-hors-ecole";
+  const isHybridSexCard = isOutOfSchoolDebunk || claim.id === "femmes-menopause-soins";
+  const sideColor = isHybridSexCard ? "text-blue-700" : isWomen ? "text-cyan-600" : "text-violet-700";
+  const sideBg = isHybridSexCard ? "bg-blue-50" : isWomen ? "bg-cyan-50" : "bg-violet-100";
+  const sideBorder = isHybridSexCard ? "border-t-blue-500" : isWomen ? "border-t-cyan-600" : "border-t-violet-700";
   const periodLabel = getPeriodLabel(claim);
+  const hybridParticipantTags = Array.from(new Set(isHybridSexCard ? ["femmes", "hommes"] : []));
+  const shouldShowSideChip = !hybridParticipantTags.includes(claim.side);
+  const hiddenBottomParticipantTags = isOutOfSchoolDebunk ? hybridParticipantTags : [];
   const chipButton =
     "min-h-[30px] border-0 px-2 py-1.5 text-xs font-bold text-neutral-700 ring-1 ring-inset ring-neutral-300 hover:bg-blue-100 hover:text-blue-800";
   const selectedChip = "!bg-blue-100 !text-blue-900 !ring-blue-300";
@@ -1167,14 +1553,31 @@ function ClaimCard({
     >
       <div className="flex min-h-8 items-center justify-between gap-3 max-[760px]:flex-col max-[760px]:items-start">
         <div className="flex flex-wrap gap-2">
-          <button
-            className={cn(chipButton, sideBg, sideColor, selectedSide === claim.side && selectedChip)}
-            type="button"
-            aria-pressed={selectedSide === claim.side}
-            onClick={() => onSideClick(claim.side)}
-          >
-            {displaySideLabels[claim.side]}
-          </button>
+          {hybridParticipantTags.map((label) => (
+            <button
+              className={cn(
+                chipButton,
+                "bg-blue-50 text-blue-800 ring-blue-200",
+                selectedTags.includes(label) && selectedChip,
+              )}
+              key={`hybrid-top-${label}`}
+              type="button"
+              aria-pressed={selectedTags.includes(label)}
+              onClick={() => onTagClick(label)}
+            >
+              {formatTagLabel(label)}
+            </button>
+          ))}
+          {shouldShowSideChip && (
+            <button
+              className={cn(chipButton, sideBg, sideColor, selectedSide === claim.side && selectedChip)}
+              type="button"
+              aria-pressed={selectedSide === claim.side}
+              onClick={() => onSideClick(claim.side)}
+            >
+              {displaySideLabels[claim.side]}
+            </button>
+          )}
           <button
             className={cn(chipButton, "bg-blue-50 text-blue-800", selectedAngle === claim.angle && selectedChip)}
             type="button"
@@ -1265,6 +1668,11 @@ function ClaimCard({
         {claimTags.map((label, index) => {
           const isActive = activeTagFilters.includes(normalize(label));
           const sourceTag = claim.tags[index] ?? label;
+          const isHybridParticipantTag = hybridParticipantTags.includes(sourceTag);
+
+          if (hiddenBottomParticipantTags.includes(sourceTag)) {
+            return null;
+          }
 
           return (
             <button
@@ -1272,6 +1680,8 @@ function ClaimCard({
                 "min-h-[27px] border-0 px-2 py-1.5 text-[0.78rem] font-bold ring-1 ring-inset hover:bg-blue-100 hover:text-blue-800",
                 isActive
                   ? "bg-blue-100 text-blue-900 ring-blue-300"
+                  : isHybridParticipantTag
+                    ? "bg-blue-50 text-blue-800 ring-blue-200"
                   : "bg-neutral-200 text-neutral-700 ring-neutral-300",
               )}
               key={`${sourceTag}-${label}`}

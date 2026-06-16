@@ -229,6 +229,52 @@ const rawClaims: RawClaim[] = [
       "L'indicateur est fragile et l'Insee signale des précautions de comparaison. Il reste utile pour documenter un décrochage masculin relatif.",
   },
   {
+    id: "hommes-bourses-stem-reservees-femmes",
+    side: "hommes",
+    domain: "Éducation",
+    title: "Hommes exclus de certaines bourses STEM réservées aux femmes",
+    metric: "15 000 €",
+    summary:
+      "Certains dispositifs d'aide scolaire ou professionnelle dans les STEM sont explicitement réservés aux femmes. Le programme STEM'Pulse indique par exemple que les profils éligibles sont des étudiantes STEM, entrepreneures ou femmes de plus de 45 ans en reconversion, avec une dotation étudiante pouvant atteindre 15 000 € au total.",
+    tags: ["éducation", "bourses", "STEM", "orientation", "juridique"],
+    source: {
+      label: "FAQ - Bourse Fondation Siemens France - STEM'Pulse",
+      publisher: "La Puissance du Lien / Fondation Siemens France",
+      url: "https://www.lapuissancedulien.org/bourse-stem-pulse/faq",
+      date: "2025-2026",
+    },
+    additionalSources: [
+      {
+        label: "Le Règlement - Bourse Fondation Siemens France - STEM'Pulse",
+        publisher: "La Puissance du Lien / Fondation Siemens France",
+        url: "https://www.lapuissancedulien.org/bourse-stem-pulse/le-reglement",
+        date: "2025-2026",
+      },
+      {
+        label: 'Bourses "Femmes en sciences"',
+        publisher: "Fondation de l'Université d'Angers",
+        url: "https://fondation.univ-angers.fr/fr/femmes-en-sciences-2/bourses-femmes-en-sciences.html",
+        date: "consulté 2026",
+      },
+      {
+        label: "Bourses sur critères sociaux : pour qui ?",
+        publisher: "Étudiant.gouv",
+        url: "https://www.etudiant.gouv.fr/fr/bourses-sur-criteres-sociaux-pour-qui-2980",
+        date: "2026",
+      },
+      {
+        label: "Les bourses sur critères sociaux (BCS)",
+        publisher: "DREES",
+        url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/MS2025%20-%20Fiche%2032%20-%20Les%20bourses%20sur%20crit%C3%A8res%20sociaux%20%28BCS%29.pdf",
+        date: "2025",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Cette fiche ne vise pas les bourses publiques sur critères sociaux du Crous, dont les critères officiels sont l'âge, la formation, les ressources, la composition familiale et l'éloignement. L'asymétrie porte sur des programmes ciblés femmes, souvent justifiés comme action positive dans des filières où elles sont sous-représentées: un homme ayant un profil scolaire, social ou financier comparable peut alors être exclu du dispositif par son sexe.",
+  },
+  {
     id: "hommes-esperance-vie-monde",
     side: "hommes",
     domain: "Santé",
@@ -373,20 +419,35 @@ const rawClaims: RawClaim[] = [
     side: "hommes",
     domain: "Éducation",
     title: "Garçons massivement hors de l'école ou en redoublement",
-    metric: "132 M",
+    metric: "140 M",
     summary:
-      "L'UNESCO signale 132 millions de garçons hors de l'école et indique que les garçons redoublent davantage au primaire dans 130 pays disposant de données.",
+      "L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles. Elle souligne aussi que les garçons sont plus souvent à risque de redoublement, de non-progression et de non-achèvement dans de nombreux contextes.",
     tags: ["éducation", "jeunesse", "monde", "décrochage"],
     source: {
-      label: "What you need to know about UNESCO's global report on boys' disengagement in education",
+      label: "Boys' disengagement from education",
       publisher: "UNESCO",
-      url: "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education",
-      date: "2022",
+      url: "https://www.unesco.org/en/gender-equality/education/boys",
+      date: "consulté 2026",
     },
+    additionalSources: [
+      {
+        label: "Gender equality and education",
+        publisher: "UNESCO",
+        url: "https://www.unesco.org/en/gender-equality/education",
+        date: "consulté 2026",
+      },
+      {
+        label:
+          "What you need to know about UNESCO's global report on boys' disengagement in education",
+        publisher: "UNESCO",
+        url: "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education",
+        date: "2022",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "Le décrochage des garçons varie selon la pauvreté, le territoire, les conflits et les attentes sociales. Il ne contredit pas les obstacles spécifiques rencontrés par les filles ailleurs.",
+      "Le décrochage des garçons varie selon la pauvreté, le territoire, les conflits et les attentes sociales. Il ne contredit pas les obstacles spécifiques rencontrés par les filles ailleurs, notamment au primaire dans certains pays ou au secondaire dans des contextes de mariage précoce, pauvreté et insécurité.",
   },
   {
     id: "hommes-sans-abrisme",
@@ -564,6 +625,46 @@ const rawClaims: RawClaim[] = [
     lastChecked: "16 juin 2026",
     nuance:
       "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. La fiche documente une asymétrie de perception et de minimisation; elle ne dit pas que toutes les victimes masculines minimisent, ni que les femmes agressent plus que les hommes.",
+  },
+  {
+    id: "hommes-violences-sexuelles-sous-declaration",
+    side: "hommes",
+    domain: "Violences",
+    title: "Hommes victimes de violences sexuelles très peu déclarées",
+    metric: "16 %",
+    summary:
+      "Une étude américaine de 2024 utilisant les données NCVS 1992-2020 indique que seuls 16 % des hommes victimes de violences sexuelles ont signalé les faits aux forces de l'ordre. Au Canada, Justice Canada rapporte que 70 % des survivants masculins d'abus ou agressions sexuelles à l'âge adulte n'avaient pas signalé les faits, contre 59 % dans l'échantillon féminin. En Angleterre et au pays de Galles, Rape Crisis indique que 7 hommes violés sur 8 ne signalent pas les faits à la police, contre 5 femmes sur 6.",
+    tags: ["violences sexuelles", "plainte", "sous-déclaration", "hommes"],
+    source: {
+      label: "Male Victims of Sexual Violence and Factors Associated With Reporting to Law Enforcement in the United States",
+      publisher: "The Journal of Men's Studies / SAGE",
+      url: "https://journals.sagepub.com/doi/abs/10.1177/10608265241249937",
+      date: "2024",
+    },
+    additionalSources: [
+      {
+        label: "JustFacts - Sexual Assault",
+        publisher: "Justice Canada",
+        url: "https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html",
+        date: "2019",
+      },
+      {
+        label: "Rape, sexual assault and child sexual abuse statistics",
+        publisher: "Rape Crisis England & Wales",
+        url: "https://rapecrisis.org.uk/get-informed/statistics-sexual-violence/",
+        date: "2025",
+      },
+      {
+        label: "Understanding Male Socialization, Stigma, and Reactions to Sexual Violence",
+        publisher: "National Sexual Violence Resource Center",
+        url: "https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/",
+        date: "consulté 2026",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Les chiffres ne sont pas directement comparables à la fiche française sur les femmes: pays, périodes, définitions et enquêtes diffèrent. Ils montrent toutefois que la sous-déclaration masculine est massive et peut être plus forte, notamment à cause de la honte, des normes de virilité, du doute d'être cru et de la difficulté à nommer les faits comme violence sexuelle.",
   },
   {
     id: "hommes-mis-en-cause-violences-conjugales-france",
@@ -775,31 +876,47 @@ const rawClaims: RawClaim[] = [
     id: "femmes-ecart-salaire",
     side: "femmes",
     domain: "Revenus",
-    title: "Femmes moins payées que les hommes dans le privé",
-    metric: "15 %",
+    title: "Écart salarial femmes-hommes fortement réduit à profil comparable",
+    metric: "3,0-4,8 %",
     summary:
-      "Dans le secteur privé, l'Insee mesure en 2022 un salaire en équivalent temps plein inférieur de 15 % pour les femmes. En 2024, le salaire net moyen mensuel privé est de 2 510 euros pour les femmes contre 2 890 euros pour les hommes.",
+      "L'Insee distingue plusieurs niveaux de comparaison. En 2024, l'écart de salaire net en équivalent temps plein est de 14,0 % sur son champ principal récent, mais tombe à 3,6 % à même emploi dans le même établissement. Dans la fonction publique en 2022, les écarts en EQTP varient fortement selon les versants, mais se réduisent à 3,0 % dans l'État, 4,0 % dans l'hospitalière et 4,8 % dans la territoriale à profil identique.",
     tags: ["revenus", "travail", "sociétal", "juridique"],
     source: {
-      label: "L'essentiel sur les salaires",
-      publisher: "Insee",
-      url: "https://www.insee.fr/fr/statistiques/7457170",
-      date: "2026",
+      label: "Les inégalités salariales entre les femmes et les hommes mesurées par l'Insee",
+      publisher: "HCREP / Insee",
+      url: "https://www.strategie-plan.gouv.fr/files/2025-03/04032025_HCREP-INSEE.pdf",
+      date: "2025",
     },
+    additionalSources: [
+      {
+        label: "Écart de salaire entre femmes et hommes en 2024",
+        publisher: "Insee",
+        url: "https://www.insee.fr/fr/statistiques/8743657",
+        date: "2026",
+      },
+      {
+        label:
+          "À volume annuel de travail égal, le salaire net moyen de la fonction publique est inférieur de 3,7 % à celui du secteur privé",
+        publisher: "Insee",
+        url: "https://www.insee.fr/fr/statistiques/8386049",
+        date: "2025",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "L'écart agrège temps partiel, métiers, positions hiérarchiques, entreprises et discriminations possibles. L'écart à poste comparable est plus réduit.",
+      "La fiche ne doit pas être lue comme un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.",
   },
   {
     id: "femmes-temps-partiel",
     side: "femmes",
+    angle: "récit_sur_le_sexe",
     domain: "Travail",
     title: "Femmes beaucoup plus souvent salariées à temps partiel",
     metric: "26,6 % vs 7,8 %",
     summary:
       "En 2023, 26,6 % des femmes salariées sont à temps partiel contre 7,8 % des hommes. Les femmes représentent 77,9 % des salariés à temps partiel.",
-    tags: ["travail", "famille", "revenus", "sociétal"],
+    tags: ["travail", "famille", "revenus", "sociétal", "hommes"],
     source: {
       label: "Temps partiel - Emploi, chômage, revenus du travail",
       publisher: "Insee",
@@ -807,9 +924,9 @@ const rawClaims: RawClaim[] = [
       date: "2024",
     },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "Une partie est choisie, une partie subie. Les raisons familiales sont nettement plus souvent citées par les femmes.",
+      "Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie; inversement, des hommes peuvent aussi être découragés ou empêchés socialement de réduire leur temps de travail pour raisons familiales.",
   },
   {
     id: "femmes-violences-conjugales",
@@ -837,29 +954,44 @@ const rawClaims: RawClaim[] = [
     side: "femmes",
     domain: "Violences",
     title: "Femmes victimes de violences sexuelles très peu déclarées",
-    metric: "277 000",
+    metric: "7 % plainte",
     summary:
-      "Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte.",
-    tags: ["violences", "justice", "santé", "sociétal"],
+      "Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.",
+    tags: ["violences", "justice", "santé", "sociétal", "hommes"],
     source: {
       label: "Les chiffres de référence sur les violences faites aux femmes",
       publisher: "Arrêtons les violences / SSMSI",
       url: "https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes",
       date: "2024",
     },
+    additionalSources: [
+      {
+        label: "Male Victims of Sexual Violence and Factors Associated With Reporting to Law Enforcement in the United States",
+        publisher: "The Journal of Men's Studies / SAGE",
+        url: "https://journals.sagepub.com/doi/abs/10.1177/10608265241249937",
+        date: "2024",
+      },
+      {
+        label: "JustFacts - Sexual Assault",
+        publisher: "Justice Canada",
+        url: "https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html",
+        date: "2019",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "Il s'agit d'une estimation minimale sur les personnes vivant en logement ordinaire dans le champ de l'enquête.",
+      "La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne doit pas être utilisée pour dire que les hommes déclareraient mieux: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
   },
   {
     id: "femmes-ingenierie",
     side: "femmes",
+    angle: "récit_sur_le_sexe",
     domain: "Éducation",
-    title: "Femmes sous-représentées dans l'ingénierie",
+    title: "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
     metric: "24 %",
     summary:
-      "En 2023, les femmes représentent 24 % des ingénieurs en activité et 29 % des ingénieurs diplômés de l'année, selon l'Observatoire des Femmes Ingénieures basé sur l'enquête IESF.",
+      "En 2023, les femmes représentent 24 % des ingénieurs en activité et 29 % des ingénieurs diplômés de l'année. Cette sous-représentation relève surtout de l'orientation: les filles réussissent globalement mieux plusieurs jalons scolaires, mais restent moins présentes dans les trajectoires scientifiques et techniques.",
     tags: ["éducation", "travail", "orientation", "sociétal"],
     source: {
       label: "Observatoire des Femmes Ingénieures 2025",
@@ -867,10 +999,31 @@ const rawClaims: RawClaim[] = [
       url: "https://www.femmes-ingenieures.org/offres/file_inline_src/82/82_P_38037_690cc4ba6342f_33.pdf",
       date: "2025",
     },
+    additionalSources: [
+      {
+        label:
+          "Filles et garçons sur le chemin de l'égalité, de l'école à l'enseignement supérieur, édition 2024",
+        publisher: "DEPP / Ministère de l'Éducation nationale",
+        url: "https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2024-413799",
+        date: "2024",
+      },
+      {
+        label: "Les bourses sur critères sociaux (BCS)",
+        publisher: "DREES",
+        url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/MS2025%20-%20Fiche%2032%20-%20Les%20bourses%20sur%20crit%C3%A8res%20sociaux%20%28BCS%29.pdf",
+        date: "2025",
+      },
+      {
+        label: "Vers l'égalité femmes-hommes ? Chiffres clés 2022",
+        publisher: "MESR / SIES",
+        url: "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2022-03/esri---vers-l-galit-femmes-hommes---2022-17027.pdf",
+        date: "2022",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "La sous-représentation combine orientation scolaire, stéréotypes, recrutement, fidélisation et accès aux responsabilités.",
+      "Cette fiche est classée comme récit sur le sexe: la sous-représentation ne prouve pas à elle seule un désavantage subi ni une interdiction formelle. Les filles obtiennent de meilleurs résultats sur plusieurs indicateurs scolaires, notamment au DNB, au baccalauréat et dans l'accès au niveau master, mais pas uniformément en mathématiques. Les bourses sur critères sociaux dépendent des ressources et charges familiales: les femmes sont majoritaires parmi les bénéficiaires en général, mais l'écart femmes-hommes est faible ou nul en formation d'ingénieur selon les sources disponibles.",
   },
   {
     id: "femmes-separation-niveau-vie",
@@ -1006,10 +1159,10 @@ const rawClaims: RawClaim[] = [
     id: "femmes-violences-physiques-sexuelles-monde",
     side: "femmes",
     domain: "Violences",
-    title: "Femmes exposées aux violences physiques ou sexuelles",
+    title: "Femmes exposées aux violences conjugales physiques ou sexuelles",
     metric: "1 sur 3",
     summary:
-      "L'OMS estime qu'environ une femme sur trois dans le monde a subi des violences physiques et/ou sexuelles au cours de sa vie.",
+      "L'OMS estime qu'environ une femme sur trois dans le monde a subi des violences physiques et/ou sexuelles par un partenaire intime, ou des violences sexuelles par un non-partenaire, au cours de sa vie. Cet indicateur ne mesure pas toutes les violences subies par sexe.",
     tags: ["violences", "santé", "monde", "prévention"],
     source: {
       label: "Violence against women",
@@ -1017,10 +1170,44 @@ const rawClaims: RawClaim[] = [
       url: "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
       date: "2024",
     },
+    additionalSources: [
+      {
+        label: "Insécurité, victimation - France, portrait social",
+        publisher: "Insee / SSMSI",
+        url: "https://www.insee.fr/fr/statistiques/8242369?sommaire=8242421",
+        date: "2024",
+      },
+      {
+        label:
+          "Violences conjugales enregistrées par les services de sécurité : quasi-stabilisation en 2024",
+        publisher: "Ministère de l'Intérieur / SSMSI",
+        url: "https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024",
+        date: "2025",
+      },
+      {
+        label:
+          "Femicides in 2023: global estimates of intimate partner/family member femicides",
+        publisher: "UN Women / UNODC",
+        url: "https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+        date: "2024",
+      },
+      {
+        label: "Nearly 3 million people die of work-related accidents and diseases",
+        publisher: "Organisation internationale du Travail",
+        url: "https://www.ilo.org/resource/news/nearly-3-million-people-die-work-related-accidents-and-diseases",
+        date: "2023",
+      },
+      {
+        label: "Suicide worldwide in 2021: global health estimates",
+        publisher: "Organisation mondiale de la Santé",
+        url: "https://www.who.int/publications/i/item/9789240110069",
+        date: "2021",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "L'indicateur agrège des formes de violence et des contextes très différents. Il documente un problème de santé publique massif.",
+      "Cette fiche ne doit pas être lue comme une preuve que les femmes subissent plus de violence toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, mais les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire. L'asymétrie porte donc sur les violences intimes et sexuelles, pas sur une somme totale de toutes les violences humaines.",
   },
   {
     id: "femmes-prison-victimisation-sexuelle-etats-unis",
@@ -1188,22 +1375,43 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-filles-hors-ecole",
     side: "femmes",
+    angle: "récit_sur_le_sexe",
     domain: "Éducation",
-    title: "Filles hors de l'école",
-    metric: "119 M",
+    title: "Idée reçue : il n'y a pas plus de filles ou de garçons hors de l'école",
+    metric: "133 M filles vs 140 M garçons",
     summary:
-      "L'UNICEF estime qu'environ 119 millions de filles sont hors de l'école dans le monde.",
-    tags: ["éducation", "jeunesse", "monde", "droits"],
+      "Les estimations UNESCO/GEM/UIS indiquent 273 millions d'enfants et jeunes hors de l'école dans le monde, dont 133 millions de filles et 140 millions de garçons.",
+    tags: ["femmes", "hommes", "débunk", "éducation", "jeunesse", "monde"],
     source: {
-      label: "Girls' education",
-      publisher: "UNICEF",
-      url: "https://www.unicef.org/education/girls-education",
-      date: "2024",
+      label: "Gender equality and education",
+      publisher: "UNESCO",
+      url: "https://www.unesco.org/en/gender-equality/education",
+      date: "consulté 2026",
     },
+    additionalSources: [
+      {
+        label: "Out-of-school rate",
+        publisher: "UNESCO / GEM Report / UIS",
+        url: "https://www.unesco.org/en/education/view/outofschool",
+        date: "consulté 2026",
+      },
+      {
+        label: "Girls' education",
+        publisher: "UNICEF",
+        url: "https://www.unicef.org/education/girls-education",
+        date: "2024",
+      },
+      {
+        label: "Boys' disengagement from education",
+        publisher: "UNESCO",
+        url: "https://www.unesco.org/en/gender-equality/education/boys",
+        date: "consulté 2026",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "L'accès des filles à l'école varie fortement selon les pays, la pauvreté, les conflits et les normes familiales.",
+      "Cette fiche est classée comme récit sur le sexe et sert à débunker une idée reçue. Elle ne nie pas les barrières genrées qui touchent les filles dans certains pays ou niveaux scolaires; elle précise que, dans le total mondial récent, les garçons sont légèrement plus nombreux hors de l'école et plus exposés à certains risques de décrochage.",
   },
   {
     id: "femmes-afghanistan-education",
@@ -1212,18 +1420,26 @@ const rawClaims: RawClaim[] = [
     title: "Adolescentes privées d'enseignement secondaire en Afghanistan",
     metric: "2,2 M",
     summary:
-      "L'UNESCO indique qu'en Afghanistan, 2,2 millions d'adolescentes sont privées d'enseignement secondaire.",
-    tags: ["éducation", "droits", "Afghanistan", "jeunesse"],
+      "L'UNESCO indique qu'en Afghanistan, 2,2 millions d'adolescentes sont privées d'enseignement secondaire depuis les restrictions imposées par les autorités talibanes, qui inscrivent leurs politiques dans leur interprétation de la charia et d'un système islamique dit pur.",
+    tags: ["éducation", "droits", "Afghanistan", "jeunesse", "religieux"],
     source: {
       label: "Afghanistan's education crisis threatens future of entire generation",
       publisher: "UNESCO",
       url: "https://www.unesco.org/en/articles/new-report-warns-afghanistans-education-crisis-threatens-future-entire-generation",
       date: "2024",
     },
+    additionalSources: [
+      {
+        label: "UNAMA report on the PVPV law",
+        publisher: "UNAMA",
+        url: "https://unama.unmissions.org/sites/default/files/unama_pvpv_report_10_april_2025_english.pdf",
+        date: "2025",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "C'est un cas national extrême d'exclusion scolaire fondée sur le sexe. Il ne doit pas être généralisé mécaniquement à tous les pays.",
+      "C'est un cas national extrême d'exclusion scolaire fondée sur le sexe. La cause documentée est institutionnelle et politico-religieuse: l'autorité talibane impose sa lecture de la charia. Il ne faut donc pas l'attribuer aux hommes comme sexe, ni la généraliser à tous les musulmans ou à tous les pays à majorité musulmane.",
   },
   {
     id: "femmes-mortalite-maternelle",
@@ -1272,8 +1488,8 @@ const rawClaims: RawClaim[] = [
     title: "Femmes et filles soumises au hijab obligatoire en Iran",
     metric: "actuel",
     summary:
-      "En Iran, des obligations de port du hijab et de contrôle vestimentaire sont imposées aux femmes et filles, avec des sanctions renforcées ou discutées dans les textes récents.",
-    tags: ["droits", "Iran", "contrôle vestimentaire", "actuel"],
+      "En Iran, la République islamique impose aux femmes et filles le hijab et un contrôle vestimentaire, avec des sanctions renforcées ou discutées dans les textes récents. Amnesty relie ces sanctions au droit iranien de la République islamique et à des obligations religieuses invoquées par l'État.",
+    tags: ["droits", "Iran", "contrôle vestimentaire", "actuel", "religieux"],
     source: {
       label: "Iran: new compulsory veiling law intensifies oppression of women and girls",
       publisher: "Amnesty International",
@@ -1289,9 +1505,9 @@ const rawClaims: RawClaim[] = [
       },
     ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "La fiche concerne l'Iran et ne doit pas être généralisée à tous les pays à majorité musulmane. Les textes et modalités d'application doivent être suivis dans le temps.",
+      "La fiche concerne l'Iran comme régime théocratique et République islamique, pas les hommes comme sexe ni les musulmans en général. La cause documentée est politico-religieuse: l'État codifie et impose une interprétation religieuse du vêtement féminin. Les textes et modalités d'application doivent être suivis dans le temps.",
   },
   {
     id: "femmes-afghanistan-taliban-restrictions",
@@ -1300,8 +1516,8 @@ const rawClaims: RawClaim[] = [
     title: "Femmes afghanes exclues de pans entiers de la vie publique",
     metric: "2021+",
     summary:
-      "Sous les autorités de facto talibanes, les femmes et filles subissent des restrictions sur l'éducation, le travail, la mobilité et la couverture du visage hors du domicile.",
-    tags: ["droits", "Afghanistan", "contrôle vestimentaire", "éducation"],
+      "Sous les autorités de facto talibanes, les femmes et filles subissent des restrictions sur l'éducation, le travail, la mobilité et la couverture du visage hors du domicile. UNAMA décrit ces règles comme liées à la volonté talibane d'imposer sa vision d'un système islamique et sa lecture de la charia.",
+    tags: ["droits", "Afghanistan", "contrôle vestimentaire", "éducation", "religieux"],
     source: {
       label: "UNAMA report on the PVPV law",
       publisher: "UNAMA",
@@ -1317,9 +1533,9 @@ const rawClaims: RawClaim[] = [
       },
     ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "La fiche vise l'Afghanistan sous autorité talibane, pas une religion ou une région entière. Les restrictions doivent être documentées par pays et par autorité.",
+      "La fiche vise l'Afghanistan sous autorité talibane, pas les hommes comme sexe ni une religion ou une région entière. Les restrictions sont le produit d'un régime islamiste qui transforme une interprétation religieuse en normes d'État, appliquées par des institutions politiques et policières.",
   },
   {
     id: "femmes-arabie-saoudite-reformes-tutelle",
@@ -1328,8 +1544,8 @@ const rawClaims: RawClaim[] = [
     title: "Saoudiennes encore touchées par des restrictions de tutelle",
     metric: "2018/2019",
     summary:
-      "L'Arabie saoudite a levé l'interdiction de conduire pour les femmes en 2018 et réformé en 2019 certaines restrictions de voyage pour les femmes de plus de 21 ans, mais des restrictions de tutelle persistent dans plusieurs domaines.",
-    tags: ["droits", "Arabie saoudite", "partiellement réformé", "mobilité"],
+      "L'Arabie saoudite a levé l'interdiction de conduire pour les femmes en 2018 et réformé en 2019 certaines restrictions de voyage pour les femmes de plus de 21 ans, mais des restrictions de tutelle persistent dans plusieurs domaines. HRW rappelle que le pays applique son interprétation de la charia comme droit national.",
+    tags: ["droits", "Arabie saoudite", "partiellement réformé", "mobilité", "religieux"],
     source: {
       label: "Saudi Arabia: Important advances for Saudi women",
       publisher: "Human Rights Watch",
@@ -1343,11 +1559,23 @@ const rawClaims: RawClaim[] = [
         url: "https://www.hrw.org/world-report/2021/country-chapters/saudi-arabia",
         date: "2021",
       },
+      {
+        label: "Saudi Arabia: Law Enshrines Male Guardianship",
+        publisher: "Human Rights Watch",
+        url: "https://www.hrw.org/news/2023/03/08/saudi-arabia-law-enshrines-male-guardianship",
+        date: "2023",
+      },
+      {
+        label: "Saudi Arabia: New Personal Status Law Codifies Discrimination Against Women",
+        publisher: "Amnesty International",
+        url: "https://www.amnesty.org/en/wp-content/uploads/2024/01/MDE2364312023ENGLISH.pdf",
+        date: "2023",
+      },
     ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "Le statut est partiellement réformé: ne pas présenter l'Arabie saoudite de 2026 comme identique à l'Iran ou à l'Afghanistan sans source actuelle précise.",
+      "Le statut est partiellement réformé: ne pas présenter l'Arabie saoudite de 2026 comme identique à l'Iran ou à l'Afghanistan sans source actuelle précise. La cause documentée est un système juridique et politique qui incorpore une interprétation de la charia et de la tutelle masculine, pas une disposition naturelle des hommes comme sexe.",
   },
   {
     id: "femmes-etats-unis-dobbs-avortement",
@@ -1420,42 +1648,55 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-menopause-soins",
     side: "femmes",
+    angle: "récit_sur_le_sexe",
     domain: "Santé",
-    title: "Soins liés à la ménopause insuffisamment accessibles",
+    title: "Soins sexospécifiques insuffisants des deux côtés",
     metric: "accès inégal",
     summary:
-      "L'OMS souligne que l'information et l'accès aux soins liés à la ménopause restent insuffisants dans beaucoup de pays.",
-    tags: ["santé", "ménopause", "soins", "monde"],
+      "L'OMS souligne que l'information et l'accès aux soins liés à la ménopause restent insuffisants dans beaucoup de pays. Mais ce constat ne prouve pas un désavantage global féminin dans le recours aux soins: en France, l'Insee/Drees indique que les hommes consultent moins souvent médecins généralistes et spécialistes, et l'OCDE rappelle leur surmortalité prématurée.",
+    tags: ["santé", "ménopause", "prévention", "soins", "femmes", "hommes"],
     source: {
       label: "Menopause",
       publisher: "Organisation mondiale de la Santé",
       url: "https://www.who.int/news-room/fact-sheets/detail/menopause",
       date: "2024",
     },
+    additionalSources: [
+      {
+        label: "Santé et recours aux soins",
+        publisher: "Insee / Drees",
+        url: "https://www.insee.fr/fr/statistiques/6047751?sommaire=6047805",
+        date: "2022",
+      },
+      {
+        label: "Which diseases affect men and women differently - and why this matters",
+        publisher: "OCDE",
+        url: "https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/which-diseases-affect-men-and-women-differently-and-why-this-matters_c7602de9.html",
+        date: "2025",
+      },
+      {
+        label: "Dépistage du cancer de la prostate",
+        publisher: "Institut national du cancer",
+        url: "https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate",
+        date: "consulté 2026",
+      },
+      {
+        label: "Dépistage des cancers du sein",
+        publisher: "Institut national du cancer",
+        url: "https://jefaismondepistage.cancer.fr/cancers-du-sein/",
+        date: "consulté 2026",
+      },
+      {
+        label: "Our Cause",
+        publisher: "Movember",
+        url: "https://us.movember.com/about/cause",
+        date: "consulté 2026",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "16 juin 2026",
     nuance:
-      "Le sujet relève de la qualité de vie, de l'information médicale et de la prise en compte de la santé des femmes à tous les âges.",
-  },
-  {
-    id: "femmes-ecart-salaire-monde",
-    side: "femmes",
-    domain: "Revenus",
-    title: "Femmes moins payées que les hommes dans le monde",
-    metric: "20 %",
-    summary:
-      "L'OIT indique que les femmes gagnent en moyenne environ 20 % de moins que les hommes dans le monde.",
-    tags: ["revenus", "travail", "monde", "sociétal"],
-    source: {
-      label: "Gender pay gap",
-      publisher: "Organisation internationale du Travail",
-      url: "https://www.ilo.org/resource/other/gender-pay-gap",
-      date: "2024",
-    },
-    confidence: "forte",
-    lastChecked: "15 juin 2026",
-    nuance:
-      "L'écart mondial agrège des marchés du travail très différents. Il complète les fiches nationales sans les remplacer.",
+      "Cette fiche est classée comme récit sur le sexe: la ménopause reste un angle réel de sous-information et de formation médicale insuffisante, mais elle ne doit pas être présentée comme preuve que les femmes seraient globalement moins suivies. Les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.",
   },
   {
     id: "femmes-soin-non-remunere-emploi",
@@ -1538,26 +1779,6 @@ const rawClaims: RawClaim[] = [
       "La représentation politique ne suffit pas à mesurer l'égalité, mais elle influence les priorités publiques et la visibilité des enjeux.",
   },
   {
-    id: "femmes-conflits-proximite",
-    side: "femmes",
-    domain: "Conflits",
-    title: "Femmes et filles vivant près de conflits meurtriers",
-    metric: "676 M",
-    summary:
-      "En 2024, ONU Femmes estime qu'environ 676 millions de femmes et filles vivaient à moins de 50 km d'un conflit meurtrier.",
-    tags: ["conflits", "sécurité", "droits", "monde"],
-    source: {
-      label: "Facts and figures: Women, peace, and security",
-      publisher: "ONU Femmes",
-      url: "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-women-peace-and-security",
-      date: "2024",
-    },
-    confidence: "forte",
-    lastChecked: "15 juin 2026",
-    nuance:
-      "Les conflits exposent aussi massivement les hommes à la conscription, aux blessures et à la mort. Cette fiche cible les risques et besoins spécifiques des femmes et filles civiles.",
-  },
-  {
     id: "femmes-dirigeantes-paix-essentialisme",
     side: "femmes",
     angle: "récit_sur_le_sexe",
@@ -1627,40 +1848,6 @@ const rawClaims: RawClaim[] = [
       "Cette fiche documente une asymétrie juridique et pratique autour de la non-mixité, de la vie privée, de la dignité et de la sécurité. Elle ne dit pas que les personnes trans seraient dangereuses par nature; elle signale que l'accès fondé sur l'identité de genre peut retirer aux femmes une garantie fondée sur le sexe dans certains espaces.",
   },
   {
-    id: "femmes-sport-categorie-feminine-puberte-masculine",
-    side: "femmes",
-    domain: "Droits",
-    title: "Catégorie sportive féminine fragilisée par l'avantage de puberté masculine",
-    metric: "890+ médailles",
-    summary:
-      "Le rapport 2024 de la rapporteuse spéciale de l'ONU sur les violences contre les femmes et les filles dans le sport indique qu'au 30 mars 2024, plus de 600 athlètes féminines auraient perdu plus de 890 médailles dans 29 sports lorsque des athlètes de sexe masculin concouraient dans des catégories féminines. World Athletics exclut depuis 2023 les athlètes male-to-female ayant connu la puberté masculine de ses compétitions féminines de classement mondial.",
-    tags: ["sport", "droits", "équité", "monde"],
-    source: {
-      label: "Violence against women and girls in sports",
-      publisher: "Nations Unies",
-      url: "https://digitallibrary.un.org/record/4062371/files/A_79_325-EN.pdf",
-      date: "2024",
-    },
-    additionalSources: [
-      {
-        label: "World Athletics Council decides on female eligibility",
-        publisher: "World Athletics",
-        url: "https://worldathletics.org/news/press-releases/council-meeting-march-2023-russia-belarus-female-eligibility",
-        date: "2023",
-      },
-      {
-        label: "Policy on Eligibility for the Men's and Women's Competition Categories",
-        publisher: "World Aquatics",
-        url: "https://resources.fina.org/fina/document/2023/03/27/dbc3381c-91e9-4ea4-a743-84c8b06debef/Policy-on-Eligibility-for-the-Men-s-and-Women-s-Competiition-Categrories-Version-on-2023.03.24.pdf",
-        date: "2023",
-      },
-    ],
-    confidence: "moyenne",
-    lastChecked: "16 juin 2026",
-    nuance:
-      "Le chiffre des médailles provient d'informations reçues par la rapporteuse spéciale, pas d'une base sportive mondiale uniformisée. La partie la plus robuste est réglementaire: plusieurs fédérations reconnaissent qu'une puberté masculine peut créer un avantage persistant et arbitrent entre inclusion, sécurité et équité de la catégorie féminine.",
-  },
-  {
     id: "femmes-traite-humaine",
     side: "femmes",
     domain: "Violences",
@@ -1715,6 +1902,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.",
   "hommes-sorties-precoces":
     "Population mesurée par la source : hommes et femmes de 18 à 24 ans. La source ne mesure pas les chromosomes.",
+  "hommes-bourses-stem-reservees-femmes":
+    "Population mesurée par les sources : candidates et bénéficiaires de programmes STEM ciblant les femmes, et étudiants dans les règles générales des bourses publiques. Les sources ne mesurent pas les chromosomes.",
   "hommes-esperance-vie-monde":
     "Population mesurée par la source : female-male difference / males dans les séries internationales. La source ne mesure pas les chromosomes.",
   "hommes-suicide-monde":
@@ -1730,7 +1919,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-population-carcerale-monde":
     "Population mesurée par la source : men / male prisoners dans le brief UNODC. La source ne mesure pas les chromosomes.",
   "hommes-decrochage-garcons-monde":
-    "Population mesurée par la source : boys / garçons et men / hommes dans le rapport UNESCO. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.",
   "hommes-sans-abrisme":
     "Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.",
   "hommes-violence-partenaire-etats-unis":
@@ -1741,6 +1930,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux, places d'hébergement sûr au Royaume-Uni, et cas historiques Erin Pizzey/Earl Silverman. Les sources ne mesurent pas les chromosomes.",
   "hommes-agressions-sexuelles-minimisees":
     "Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.",
+  "hommes-violences-sexuelles-sous-declaration":
+    "Population mesurée par les sources : hommes victimes de violences sexuelles dans l'enquête NCVS américaine, échantillons masculins et féminins de survivants au Canada, et victimes de viol en Angleterre et au pays de Galles. Les sources ne mesurent pas les chromosomes.",
   "hommes-mis-en-cause-violences-conjugales-france":
     "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
   "hommes-accusations-sexuelles-infirmees-reputation":
@@ -1767,10 +1958,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : femmes et hommes condamnés par la Justice française pour homicide volontaire sur mineur de moins de 15 ans. La source ne mesure pas les chromosomes.",
   "femmes-espaces-non-mixtes-sexe":
     "Population mesurée par la source : femmes, hommes et personnes trans dans le cadre juridique britannique sur les services séparés ou non mixtes. La source raisonne en sexe légal/biologique au sens de l'Equality Act, pas par test chromosomique individuel.",
-  "femmes-sport-categorie-feminine-puberte-masculine":
-    "Population mesurée par les sources : athlètes féminines, athlètes de sexe masculin s'identifiant comme femmes, et athlètes 46 XY DSD selon les règles sportives citées. World Aquatics peut prévoir une certification du sexe chromosomique dans son protocole.",
   "femmes-ingenierie":
-    "Population mesurée par la source : femmes ingénieures et diplômées selon l'enquête IESF. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : femmes ingénieures et diplômées selon l'enquête IESF, filles et garçons dans les statistiques DEPP de réussite et d'orientation, et bénéficiaires de bourses sur critères sociaux. Les sources ne mesurent pas les chromosomes.",
   "femmes-separation-niveau-vie":
     "Population mesurée par la source : femmes et hommes séparés dans les données Insee. La source ne mesure pas les chromosomes.",
   "femmes-discrimination-religieuse":
@@ -1784,7 +1973,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-france-ivg-1975-1979":
     "Population mesurée par la source : femmes concernées par le droit à l'IVG en France. La source ne mesure pas les chromosomes.",
   "femmes-violences-physiques-sexuelles-monde":
-    "Population mesurée par la source : women / femmes dans les enquêtes de prévalence OMS. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : femmes dans les enquêtes OMS sur violences conjugales physiques/sexuelles et violences sexuelles hors couple, avec sources comparatives sur victimations, homicides, travail et suicide. Les sources ne mesurent pas les chromosomes.",
   "femmes-prison-victimisation-sexuelle-etats-unis":
     "Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.",
   "femmes-feminicides-monde-2024":
@@ -1798,7 +1987,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-preference-garcons":
     "Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.",
   "femmes-filles-hors-ecole":
-    "Population mesurée par la source : girls / filles hors de l'école selon UNICEF. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : filles et garçons hors de l'école selon les estimations UNESCO/GEM/UIS et UNICEF. Les sources ne mesurent pas les chromosomes.",
   "femmes-afghanistan-education":
     "Population mesurée par la source : adolescent girls / adolescentes en Afghanistan. La source ne mesure pas les chromosomes.",
   "femmes-mortalite-maternelle":
@@ -1818,9 +2007,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-endometriose":
     "Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.",
   "femmes-menopause-soins":
-    "Population mesurée par la source : women / personnes concernées par la ménopause selon l'OMS. La source ne mesure pas les chromosomes.",
-  "femmes-ecart-salaire-monde":
-    "Population mesurée par la source : women / men dans les indicateurs OIT. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : femmes concernées par la ménopause selon l'OMS, femmes et hommes dans les statistiques françaises de recours aux soins, et hommes concernés par les enjeux prostate, testicule et santé mentale. Les sources ne mesurent pas les chromosomes.",
   "femmes-soin-non-remunere-emploi":
     "Population mesurée par la source : women / men âgés de 15 ans ou plus hors force de travail pour raisons de soin. La source ne mesure pas les chromosomes.",
   "femmes-charge-domestique-soin":
@@ -1829,8 +2016,6 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : women / men dans les indicateurs juridiques Women, Business and the Law. La source ne mesure pas les chromosomes.",
   "femmes-representation-politique-monde":
     "Population mesurée par la source : women / femmes en responsabilités politiques. La source ne mesure pas les chromosomes.",
-  "femmes-conflits-proximite":
-    "Population mesurée par la source : women and girls / femmes et filles vivant près d'un conflit. La source ne mesure pas les chromosomes.",
   "femmes-dirigeantes-paix-essentialisme":
     "Population mesurée par les sources : reines et femmes dirigeantes dans des travaux historiques et des exemples biographiques. Les sources ne mesurent pas les chromosomes.",
   "femmes-traite-humaine":
@@ -1892,6 +2077,22 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "moyenne",
     legalType: "éducation",
   },
+  "hommes-bourses-stem-reservees-femmes": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "aides scolaires et action positive",
+  },
+  "hommes-decrochage-garcons-monde": {
+    pays_ou_zone: "Monde",
+    periode_debut: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "éducation",
+  },
   "hommes-deces-professionnels-etats-unis-2024": {
     pays_ou_zone: "États-Unis",
     regionScope: "Amérique du Nord",
@@ -1926,6 +2127,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "forte",
     legalType: "violences sexuelles et perception sociale",
+  },
+  "hommes-violences-sexuelles-sous-declaration": {
+    pays_ou_zone: "États-Unis, Canada et Angleterre/Pays de Galles",
+    regionScope: "Amérique du Nord et Europe",
+    periode_debut: "1992",
+    periode_fin: "2025",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "signalement des violences sexuelles",
   },
   "hommes-mis-en-cause-violences-conjugales-france": {
     pays_ou_zone: "France",
@@ -2035,6 +2245,22 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "victimisation sexuelle en détention",
   },
+  "femmes-filles-hors-ecole": {
+    pays_ou_zone: "Monde",
+    periode_debut: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "éducation",
+  },
+  "femmes-menopause-soins": {
+    pays_ou_zone: "Monde, France et OCDE",
+    regionScope: "Monde",
+    periode_debut: "2019",
+    periode_fin: "2025",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "moyenne",
+    legalType: "accès aux soins et prévention",
+  },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",
     regionScope: "Europe",
@@ -2043,15 +2269,6 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "services séparés ou non mixtes fondés sur le sexe",
-  },
-  "femmes-sport-categorie-feminine-puberte-masculine": {
-    pays_ou_zone: "Monde",
-    regionScope: "Monde",
-    periode_debut: "2023",
-    periode_fin: "2024",
-    statut_temporel: "variable selon pays",
-    intensite_contextuelle: "forte",
-    legalType: "règles d'éligibilité sportive",
   },
   "femmes-dirigeantes-paix-essentialisme": {
     pays_ou_zone: "Europe",
