@@ -3,6 +3,7 @@ import {
   Briefcase,
   CalendarSync,
   Check,
+  ChevronDown,
   ExternalLink,
   FileText,
   GraduationCap,
@@ -132,6 +133,7 @@ const periodFilterLabelsByLocale: Record<Locale, Record<StatutTemporel | "tous",
 const uiText: Record<Locale, Record<string, string>> = {
   fr: {
     tagline: "Le référentiel des asymétries liées au sexe",
+    mobileTagline: "Référentiel des asymétries de sexe",
     verifiedSources: "sources vérifiées",
     heroKicker: "Données sourcées, contexte lisible, contribution ouverte",
     heroTitle: "Lister les asymétries documentées selon le sexe",
@@ -153,6 +155,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     measuredPopulation: "Population mesurée",
     verifiedOn: "Vérifié le",
     contest: "Contester",
+    showDetails: "Voir",
+    hideDetails: "Réduire",
     copyLink: "Copier le lien de l'asymétrie",
     copiedLink: "Lien copié",
     language: "Langue",
@@ -178,6 +182,7 @@ const uiText: Record<Locale, Record<string, string>> = {
   },
   en: {
     tagline: "The reference for sex-based asymmetries",
+    mobileTagline: "Sex-based asymmetry reference",
     verifiedSources: "verified sources",
     heroKicker: "Sourced data, readable context, open contribution",
     heroTitle: "Browse documented sex-based asymmetries",
@@ -199,6 +204,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     measuredPopulation: "Measured population",
     verifiedOn: "Verified on",
     contest: "Contest",
+    showDetails: "View",
+    hideDetails: "Collapse",
     copyLink: "Copy the asymmetry link",
     copiedLink: "Link copied",
     language: "Language",
@@ -575,6 +582,10 @@ function App() {
   const [localRequests, setLocalRequests] = useState<ContributionPreview[]>([]);
   const [remoteRequests, setRemoteRequests] = useState<ContributionPreview[]>([]);
   const [remoteStatus, setRemoteStatus] = useState<"idle" | "loading" | "ready" | "unavailable" | "error">("idle");
+  const [filterPanelsOpen, setFilterPanelsOpen] = useState({
+    angles: true,
+    domains: true,
+  });
   const text = uiText[locale];
   const displaySideLabels = sideLabelsByLocale[locale];
   const displayAngleLabels = angleLabelsByLocale[locale];
@@ -725,6 +736,13 @@ function App() {
 
     return () => mediaQuery.removeEventListener("change", syncColumnMode);
   }, []);
+
+  useEffect(() => {
+    setFilterPanelsOpen({
+      angles: !isSingleColumn,
+      domains: !isSingleColumn,
+    });
+  }, [isSingleColumn]);
 
   const filteredClaims = useMemo(() => {
     const normalizedQuery = normalize(query);
@@ -891,7 +909,6 @@ function App() {
     [angle, displayAngleLabels, displayPeriodLabels, displaySideLabels, domain, selectedPeriods, selectedStatuses, selectedTags, selectedZones, side],
   );
 
-  const maxDomainCount = Math.max(...domainStats.map((stat) => stat.total), 1);
   const sharedClaim = sharedClaimId ? claims.find((claim) => claim.id === sharedClaimId) : null;
 
   function addTag(label: string) {
@@ -989,12 +1006,13 @@ function App() {
       <header className="border-neutral-300 bg-white" role="banner">
         <div className={cn(pageWidth, "flex min-h-[76px] items-center justify-between gap-6 max-[760px]:flex-col max-[760px]:items-start max-[760px]:py-3.5")}>
           <div className="flex items-baseline gap-4 max-[760px]:gap-2.5">
-            <div className="flex items-baseline gap-3.5 max-[760px]:items-center max-[760px]:gap-3">
+            <div className="flex items-end gap-3.5 max-[760px]:gap-3">
               <a className="text-neutral-900 no-underline" href="/" aria-label="Accueil isora">
                 <IsoraWordmark className="w-28 max-[760px]:w-24" />
               </a>
-              <p className="m-0 leading-[1.45] text-neutral-500 max-[760px]:max-w-[19rem] max-[760px]:text-[0.92rem] max-[760px]:leading-[1.35]">
-                {text.tagline}
+              <p className="m-0 translate-y-1 leading-[1.45] text-neutral-500 max-[760px]:max-w-[19rem] max-[760px]:translate-y-[3px] max-[760px]:text-[0.92rem] max-[760px]:leading-[1.35]">
+                <span className="max-[760px]:hidden">{text.tagline}</span>
+                <span className="hidden max-[760px]:inline">{text.mobileTagline}</span>
               </p>
             </div>
           </div>
@@ -1074,7 +1092,7 @@ function App() {
         </section>
 
         <section className=" border-neutral-300 bg-white">
-          <div className={cn(pageWidth, "grid grid-cols-3 gap-3 pt-4 max-[760px]:grid-cols-1")} aria-label="État de la base">
+          <div className={cn(pageWidth, "grid grid-cols-3 gap-3 pt-4 max-[760px]:grid-cols-2")} aria-label="État de la base">
             <button
               className={cn(
                 "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-violet-700 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-violet-50",
@@ -1105,7 +1123,7 @@ function App() {
               <span className="text-5xl font-extrabold leading-none text-cyan-600">{counts.femmes}</span>
               <small className="font-bold leading-[1.35] text-neutral-700">{text.womenAsymmetries}</small>
             </button>
-            <div className="flex min-h-[118px] flex-col justify-between gap-2.5 border-l-4 border-l-green-700 bg-white p-5 ring-1 ring-inset ring-neutral-300">
+            <div className="flex min-h-[118px] flex-col justify-between gap-2.5 border-l-4 border-l-green-700 bg-white p-5 ring-1 ring-inset ring-neutral-300 max-[760px]:col-span-2">
               <Send className="h-[22px] w-[22px] text-green-700" aria-hidden="true" />
               <span className="text-xs font-extrabold uppercase leading-tight tracking-normal text-green-700">{text.contribution}</span>
               <button
@@ -1189,55 +1207,91 @@ function App() {
             </div>
 
             <div className="mt-5 grid gap-2.5" aria-label="Filtres par angle">
-              <div className={cn(icon18, "flex items-center gap-2 text-neutral-900")}>
+              <button
+                className={cn(icon18, "flex w-full items-center gap-2 border-0 bg-transparent p-0 text-left text-neutral-900")}
+                type="button"
+                aria-expanded={filterPanelsOpen.angles}
+                onClick={() =>
+                  setFilterPanelsOpen((currentPanels) => ({
+                    ...currentPanels,
+                    angles: !currentPanels.angles,
+                  }))
+                }
+              >
                 <Tags className="text-blue-800" aria-hidden="true" />
-                <h3 className="m-0 text-[0.96rem] leading-tight">{text.angles}</h3>
-              </div>
-              {angleStats.map((stat) => (
-                <button
+                <h3 className="m-0 flex-1 text-[0.96rem] leading-tight">{text.angles}</h3>
+                <ChevronDown
                   className={cn(
-                    "grid min-h-[34px] w-full grid-cols-[minmax(0,1fr)_26px] items-center gap-2 border border-transparent bg-transparent py-1 text-left hover:border-blue-100 hover:bg-blue-50",
-                    angle === stat.label && "border-blue-100 bg-blue-50",
+                    "text-blue-800 transition-transform",
+                    filterPanelsOpen.angles && "rotate-180",
                   )}
-                  key={stat.label}
-                  type="button"
-                  aria-pressed={angle === stat.label}
-                  onClick={() => setAngle((currentAngle) => (currentAngle === stat.label ? "tous" : stat.label))}
-                >
-                  <span className="min-w-0 text-[0.82rem] font-bold text-neutral-700 [overflow-wrap:anywhere]">
-                    {displayAngleLabels[stat.label]}
-                  </span>
-                  <span className="text-right text-[0.82rem] font-bold text-neutral-700">{stat.total}</span>
-                </button>
-              ))}
+                  aria-hidden="true"
+                />
+              </button>
+              {filterPanelsOpen.angles && (
+                <div className="flex flex-wrap gap-1.5">
+                  {angleStats.map((stat) => (
+                    <button
+                      className={cn(
+                        "inline-flex min-h-8 max-w-full items-center gap-1.5 border border-neutral-300 bg-white px-2.5 py-1.5 text-left text-[0.78rem] font-bold text-neutral-700 hover:border-blue-100 hover:bg-blue-50 hover:text-blue-800",
+                        angle === stat.label && "border-blue-200 bg-blue-50 text-blue-800",
+                      )}
+                      key={stat.label}
+                      type="button"
+                      aria-pressed={angle === stat.label}
+                      onClick={() => setAngle((currentAngle) => (currentAngle === stat.label ? "tous" : stat.label))}
+                    >
+                      <span className="min-w-0 [overflow-wrap:anywhere]">
+                        {displayAngleLabels[stat.label]}
+                      </span>
+                      <span className="text-[0.72rem] text-neutral-500">{stat.total}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
 
             <div className="mt-5 grid gap-2.5" aria-label="Filtres par domaine">
-              <div className={cn(icon18, "flex items-center gap-2 text-neutral-900")}>
+              <button
+                className={cn(icon18, "flex w-full items-center gap-2 border-0 bg-transparent p-0 text-left text-neutral-900")}
+                type="button"
+                aria-expanded={filterPanelsOpen.domains}
+                onClick={() =>
+                  setFilterPanelsOpen((currentPanels) => ({
+                    ...currentPanels,
+                    domains: !currentPanels.domains,
+                  }))
+                }
+              >
                 <Tags className="text-blue-800" aria-hidden="true" />
-                <h3 className="m-0 text-[0.96rem] leading-tight">{text.domains}</h3>
-              </div>
-              {domainStats.map((stat) => (
-                <button
+                <h3 className="m-0 flex-1 text-[0.96rem] leading-tight">{text.domains}</h3>
+                <ChevronDown
                   className={cn(
-                    "grid min-h-[34px] w-full grid-cols-[minmax(0,1fr)_78px_26px] items-center gap-2 border border-transparent bg-transparent py-1 text-left hover:border-blue-100 hover:bg-blue-50 max-[480px]:grid-cols-[minmax(0,1fr)_64px_22px]",
-                    domain === stat.label && "border-blue-100 bg-blue-50",
+                    "text-blue-800 transition-transform",
+                    filterPanelsOpen.domains && "rotate-180",
                   )}
-                  key={stat.label}
-                  type="button"
-                  aria-pressed={domain === stat.label}
-                  onClick={() => setDomain((currentDomain) => (currentDomain === stat.label ? "tous" : stat.label))}
-                >
-                  <span className="min-w-0 text-[0.82rem] font-bold text-neutral-700 [overflow-wrap:anywhere]">{stat.label}</span>
-                  <div className="h-2.5 overflow-hidden bg-neutral-200 ring-1 ring-inset ring-neutral-300">
-                    <span
-                      className="block h-full min-w-0 bg-blue-800"
-                      style={{ width: `${(stat.total / maxDomainCount) * 100}%` }}
-                    />
-                  </div>
-                  <span className="text-right text-[0.82rem] font-bold text-neutral-700">{stat.total}</span>
-                </button>
-              ))}
+                  aria-hidden="true"
+                />
+              </button>
+              {filterPanelsOpen.domains && (
+                <div className="flex flex-wrap gap-1.5">
+                  {domainStats.map((stat) => (
+                    <button
+                      className={cn(
+                        "inline-flex min-h-8 max-w-full items-center gap-1.5 border border-neutral-300 bg-white px-2.5 py-1.5 text-left text-[0.78rem] font-bold text-neutral-700 hover:border-blue-100 hover:bg-blue-50 hover:text-blue-800",
+                        domain === stat.label && "border-blue-200 bg-blue-50 text-blue-800",
+                      )}
+                      key={stat.label}
+                      type="button"
+                      aria-pressed={domain === stat.label}
+                      onClick={() => setDomain((currentDomain) => (currentDomain === stat.label ? "tous" : stat.label))}
+                    >
+                      <span className="min-w-0 [overflow-wrap:anywhere]">{stat.label}</span>
+                      <span className="text-[0.72rem] text-neutral-500">{stat.total}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           </aside>
 
@@ -1485,6 +1539,7 @@ function ClaimCard({
   text: Record<string, string>;
 }) {
   const [copied, setCopied] = useState(false);
+  const [isMobileExpanded, setIsMobileExpanded] = useState(false);
   const claimTranslation = locale === "en" ? claim.translations?.en : undefined;
   const claimTitle = claimTranslation?.title ?? claim.title;
   const claimSummary = claimTranslation?.summary ?? claim.summary;
@@ -1519,6 +1574,7 @@ function ClaimCard({
   ]
     .filter(Boolean)
     .map((label) => normalize(String(label)));
+  const mobileDetailsId = `${claim.id}-mobile-details`;
 
   async function copyShareLink() {
     const url = new URL(`${window.location.origin}${window.location.pathname}`);
@@ -1628,8 +1684,25 @@ function ClaimCard({
         </div>
       </div>
 
-      <div className="mt-7 space-y-4">
-        <h3 className="m-0 text-[1.35rem] font-extrabold leading-[1.24] text-neutral-900">{claimTitle}</h3>
+      <div className="mt-7 space-y-4 max-[760px]:mt-5">
+        <div className="flex items-start justify-between gap-3">
+          <h3 className="m-0 flex-1 text-[1.35rem] font-extrabold leading-[1.24] text-neutral-900 max-[760px]:text-[1.08rem]">
+            {claimTitle}
+          </h3>
+          <button
+            className="hidden min-h-8 shrink-0 items-center justify-center border border-blue-200 bg-blue-50 px-2.5 py-1 text-[0.78rem] font-extrabold text-blue-800 hover:bg-blue-100 max-[760px]:inline-flex"
+            type="button"
+            aria-controls={mobileDetailsId}
+            aria-expanded={isMobileExpanded}
+            onClick={() => setIsMobileExpanded((currentValue) => !currentValue)}
+          >
+            {isMobileExpanded ? text.hideDetails : text.showDetails}
+          </button>
+        </div>
+      </div>
+
+      <div className={cn("contents", !isMobileExpanded && "max-[760px]:hidden")} id={mobileDetailsId}>
+      <div className="mt-4">
         <HighlightedSummary text={claimSummary} />
       </div>
 
@@ -1727,7 +1800,7 @@ function ClaimCard({
         {text.verifiedOn} {claim.lastChecked}
         </div>
         <button
-          className={cn(icon18, "flex min-h-[38px] items-center justify-center gap-2 border border-neutral-300 bg-white px-2.5 py-[7px] text-[0.86rem] font-bold text-blue-800 hover:bg-blue-50")}
+          className={cn(icon18, "flex min-h-[38px] items-center justify-center gap-2 border border-neutral-300 bg-white px-2.5 py-[7px] text-[0.86rem] font-bold text-blue-800 hover:bg-blue-50 max-[760px]:hidden")}
           type="button"
         onClick={() => onContestClick(claim)}
       >
@@ -1763,6 +1836,15 @@ function ClaimCard({
           <ExternalLink aria-hidden="true" />
         </a>
       ))}
+      <button
+        className={cn(icon18, "mt-3 hidden min-h-[42px] w-full items-center justify-center gap-2 border border-neutral-300 bg-white px-2.5 py-[9px] text-[0.86rem] font-bold text-blue-800 hover:bg-blue-50 max-[760px]:flex")}
+        type="button"
+        onClick={() => onContestClick(claim)}
+      >
+        <AlertTriangle aria-hidden="true" />
+        {text.contest}
+      </button>
+      </div>
     </article>
   );
 }
