@@ -22,6 +22,7 @@ import {
 import type { LucideIcon } from "lucide-react";
 import type { FormEvent } from "react";
 import { useEffect, useMemo, useState } from "react";
+import packageJson from "../package.json";
 import isoraLogoUrl from "./assets/isora.svg";
 import {
   claims,
@@ -527,6 +528,7 @@ function ContributionInbox({
             <p className="mt-2 max-w-2xl leading-relaxed text-neutral-600">
               Vue non référencée pour vérifier les contestations et propositions avant modification des asymétries.
             </p>
+            <p className="mt-2 text-sm font-bold text-neutral-500">Version app {packageJson.version}</p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
             {localRequests.length > 0 && (
