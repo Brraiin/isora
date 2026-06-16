@@ -982,7 +982,7 @@ const rawClaims: RawClaim[] = [
     id: "femmes-ecart-salaire",
     side: "femmes",
     domain: "Revenus",
-    title: "Écart salarial femmes-hommes fortement réduit à profil comparable",
+    title: "Salaire inférieur pour une femme à profil comparable à un homme",
     metric: "3,0-4,8 %",
     summary:
       "L'Insee distingue plusieurs niveaux de comparaison. En 2024, l'écart de salaire net en équivalent temps plein est de 14,0 % sur son champ principal récent, mais tombe à 3,6 % à même emploi dans le même établissement. Dans la fonction publique en 2022, les écarts en EQTP varient fortement selon les versants, mais se réduisent à 3,0 % dans l'État, 4,0 % dans l'hospitalière et 4,8 % dans la territoriale à profil identique.",

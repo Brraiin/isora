@@ -477,7 +477,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par les sources : men / male Ukrainian citizens d'âge militaire. La source ne mesure pas les chromosomes.
 - Sources: OECD / EMN (2023): https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/migration/OECD-EMN%20Inform_%20Labour-market-integration-of-beneficiaries-of-temporary-protection-from-Ukraine.pdf; Le Monde (2025): https://www.lemonde.fr/en/international/article/2025/08/28/war-in-ukraine-government-allows-18-to-22-year-olds-to-leave-country-once-again_6744802_4.html; USA for UNHCR (2026): https://www.unrefugees.org/emergencies/ukraine/
 
-## Écart salarial femmes-hommes fortement réduit à profil comparable
+## Salaire inférieur pour une femme à profil comparable à un homme
 - ID: femmes-ecart-salaire
 - URL: https://isora-xi.vercel.app/#femmes-ecart-salaire
 - Groupe: femmes
