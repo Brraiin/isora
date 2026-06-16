@@ -12,10 +12,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 66,
-    "hommes": 28,
+    "total": 68,
+    "hommes": 30,
     "femmes": 38,
-    "sources": 116
+    "sources": 124
   },
   "domains": [
     "Travail",
@@ -65,6 +65,7 @@
     "famille",
     "féminicides",
     "femmes",
+    "filiation",
     "France",
     "harcèlement",
     "historique",
@@ -94,6 +95,7 @@
     "politique",
     "pouvoir",
     "précarité",
+    "préjudice psychologique",
     "prévention",
     "prison",
     "récit",
@@ -112,14 +114,17 @@
     "sous-déclaration",
     "STEM",
     "suicide",
+    "test ADN",
     "traite humaine",
     "travail",
     "Ukraine",
     "variable selon pays",
     "violence domestique",
+    "violence exercée par les hommes sur les femmes",
     "violences",
     "violences conjugales",
-    "violences sexuelles"
+    "violences sexuelles",
+    "viols"
   ],
   "claims": [
     {
@@ -304,6 +309,76 @@
         "date": "janvier 2025"
       },
       "additionalSources": [],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-filiation-paternite-test-adn-judiciaire",
+      "url": "https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire",
+      "title": "Biological paternity can only be verified through a court procedure",
+      "originalTitle": "Paternité biologique vérifiable seulement par une procédure judiciaire",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Justice",
+      "metric": "1 an / 15 000 €",
+      "summary": "In France, a paternity test is legal only within a judicial framework; carrying one out outside that framework is punishable by one year in prison and a EUR 15,000 fine. Acknowledging a child does not require prior biological proof, the civil registrar does not verify it, and paternity fraud is not a standalone criminal offence: lying about the father's identity mainly exposes the situation to civil contestation, except in cases of qualified legal fraud. Discovering that paternity was wrongly attributed can have a major psychological impact on the man who believed he was the father.",
+      "originalSummary": "En France, un test de paternité est autorisé uniquement dans un cadre judiciaire; le réaliser hors de ce cadre est puni d'un an d'emprisonnement et de 15 000 € d'amende. La reconnaissance d'un enfant ne suppose pas de preuve biologique préalable, l'officier d'état civil n'effectue pas de vérification, et la fraude à la paternité n'est pas un délit autonome: le mensonge sur l'identité du père expose surtout à une contestation civile, sauf fraude qualifiée à la loi. La découverte d'une paternité attribuée à tort peut avoir un impact psychologique considérable sur l'homme qui s'est cru père.",
+      "nuance": "Saying that the woman faces no risk would be too absolute: organized fraud can lead to action by the public prosecutor, annulment of filiation, damages, or criminal penalties if it supports a qualified fraud. However, there is no general offence punishing the mere act of lying to a man about his biological paternity. The test must be ordered by a judge and the consent of the people concerned is still required; refusal is not an absolute veto, because the judge may interpret it as evidence of paternity or non-paternity. Available psychosocial studies point to a potentially strong impact of misattributed paternity, but the phenomenon remains less studied than other family disclosures.",
+      "originalNuance": "Dire que la femme n'encourt aucun risque serait trop absolu: une fraude organisée peut entraîner opposition du procureur, annulation de la filiation, dommages et intérêts, ou sanctions pénales si elle sert une fraude qualifiée. En revanche, il n'existe pas de délit général sanctionnant le simple fait de mentir à un homme sur sa paternité biologique. Le test doit être ordonné par un juge et le consentement des personnes concernées reste nécessaire; un refus n'est pas un veto absolu, car le juge peut l'interpréter comme un indice de paternité ou de non-paternité. Les études psychosociales disponibles signalent un fort retentissement possible de la paternité attribuée à tort, mais le phénomène reste moins étudié que d'autres révélations familiales.",
+      "tags": [
+        "justice",
+        "family",
+        "paternity",
+        "filiation",
+        "DNA test",
+        "psychological harm"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2026",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the sources: people concerned by French proceedings on filiation, paternity contestation or paternity testing. The legal sources do not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : personnes concernées par une procédure française de filiation, de contestation de paternité ou de test de paternité. Les sources juridiques ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "16 juin 2026",
+      "source": {
+        "label": "Dans quel cadre peut-on effectuer un test de paternité ?",
+        "publisher": "Service-Public.fr / DILA",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14042",
+        "date": "30 janvier 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Peut-on reconnaître un enfant dont on n'est pas le père ?",
+          "publisher": "Service-Public.fr / DILA",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10428",
+          "date": "5 août 2025"
+        },
+        {
+          "label": "Cour de cassation, chambre criminelle, 4 mars 2026, n° 25-83.095",
+          "publisher": "Cour de cassation",
+          "url": "https://www.courdecassation.fr/decision/69a7e390cdc6046d4773ed5f",
+          "date": "4 mars 2026"
+        },
+        {
+          "label": "Contestation de la filiation (paternité ou maternité)",
+          "publisher": "Service-Public.fr / DILA",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F940",
+          "date": "25 mars 2025"
+        },
+        {
+          "label": "Psychosocial consequences of disclosing misattributed paternity: a narrative review",
+          "publisher": "Journal of Family Issues / Monash University",
+          "url": "https://research.monash.edu/en/publications/psychosocial-consequences-of-disclosing-misattributed-paternity-a/",
+          "date": "2024"
+        },
+        {
+          "label": "Discovering Misattributed Paternity After DNA Testing and its Impact on Psychological Well-Being and Identity Formation",
+          "publisher": "American Journal of Qualitative Research",
+          "url": "https://www.ajqr.org/article/discovering-misattributed-paternity-after-dna-testing-and-its-impact-on-psychological-well-being-and-12611",
+          "date": "2022"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -1068,6 +1143,50 @@
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
+      "id": "hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+      "url": "https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+      "title": "Men are almost exclusive among perpetrators reported by women victims of sexual violence",
+      "originalTitle": "Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles",
+      "side": "hommes",
+      "angle": "violence_exercée",
+      "domain": "Violences",
+      "metric": "99 %",
+      "summary": "According to the SSMSI 2024 VRS survey, 277,000 adult women reported having been victims of rape, attempted rape or sexual assault in 2023. Among women victims who provided this information, 99% reported that the perpetrator or perpetrators were exclusively male.",
+      "originalSummary": "Selon l'enquête VRS 2024 du SSMSI, 277 000 femmes majeures ont déclaré avoir été victimes de viols, tentatives de viol ou agressions sexuelles en 2023. Parmi les femmes victimes ayant renseigné cette information, 99 % déclarent que le ou les agresseurs étaient exclusivement de sexe masculin.",
+      "nuance": "The main figure comes from a victimization survey and is based on statements by victims who reported the sex of the perpetrator. It covers rape, attempted rape and sexual assault reported by adult women; it does not measure all acts actually committed nor the chromosomes of perpetrators.",
+      "originalNuance": "La donnée principale vient d'une enquête de victimation et repose sur les déclarations des victimes ayant renseigné le sexe de l'agresseur. Elle porte sur les viols, tentatives de viol et agressions sexuelles déclarés par des femmes majeures; elle ne mesure pas tous les faits réellement commis ni les chromosomes des auteurs.",
+      "tags": [
+        "sexual violence",
+        "rape",
+        "France",
+        "violence perpetrated by men against women"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2023",
+      "periodEnd": "2024",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the source: women victims of rape, attempted rape or sexual assault who reported the sex of the perpetrator or perpetrators in the SSMSI 2024 VRS survey. The source does not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "16 juin 2026",
+      "source": {
+        "label": "Les violences sexistes et sexuelles en France en 2024",
+        "publisher": "Arrêtons les violences / SSMSI",
+        "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
+        "date": "novembre 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Mettre fin au déni et à l'impunité face aux viols et agressions sexuelles",
+          "publisher": "Haut Conseil à l'Égalité",
+          "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles",
+          "date": "2025"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
       "id": "hommes-accusations-sexuelles-infirmees-reputation",
       "url": "https://isora-xi.vercel.app/#hommes-accusations-sexuelles-infirmees-reputation",
       "title": "Accusations sexuelles infondées : risque réputationnel surtout masculin",
@@ -1351,28 +1470,28 @@
     {
       "id": "femmes-ecart-salaire",
       "url": "https://isora-xi.vercel.app/#femmes-ecart-salaire",
-      "title": "Écart salarial femmes-hommes fortement réduit à profil comparable",
+      "title": "The women-men pay gap is much smaller at comparable profile",
       "originalTitle": "Écart salarial femmes-hommes fortement réduit à profil comparable",
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Revenus",
       "metric": "3,0-4,8 %",
-      "summary": "L'Insee distingue plusieurs niveaux de comparaison. En 2024, l'écart de salaire net en équivalent temps plein est de 14,0 % sur son champ principal récent, mais tombe à 3,6 % à même emploi dans le même établissement. Dans la fonction publique en 2022, les écarts en EQTP varient fortement selon les versants, mais se réduisent à 3,0 % dans l'État, 4,0 % dans l'hospitalière et 4,8 % dans la territoriale à profil identique.",
+      "summary": "Insee distinguishes several levels of comparison. In 2024, the net full-time-equivalent wage gap is 14.0% in its main recent scope, but falls to 3.6% for the same job in the same establishment. In the public sector in 2022, full-time-equivalent gaps vary widely across branches, but fall to 3.0% in central government, 4.0% in hospitals and 4.8% in local government at identical profile.",
       "originalSummary": "L'Insee distingue plusieurs niveaux de comparaison. En 2024, l'écart de salaire net en équivalent temps plein est de 14,0 % sur son champ principal récent, mais tombe à 3,6 % à même emploi dans le même établissement. Dans la fonction publique en 2022, les écarts en EQTP varient fortement selon les versants, mais se réduisent à 3,0 % dans l'État, 4,0 % dans l'hospitalière et 4,8 % dans la territoriale à profil identique.",
-      "nuance": "La fiche ne doit pas être lue comme un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.",
+      "nuance": "This entry should not be read as a simple 'equal pay for equal work' claim. Raw gaps combine working time, occupations, sectors, hierarchical positions and access to very high wages. Gaps at comparable job or profile are much smaller, but they do not by themselves measure pay discrimination: they do not always capture experience, seniority, education, career interruptions or the mechanisms that steer people toward lower-paid occupations.",
       "originalNuance": "La fiche ne doit pas être lue comme un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.",
       "tags": [
-        "revenus",
-        "travail",
-        "sociétal",
-        "juridique"
+        "income",
+        "work",
+        "social",
+        "legal"
       ],
       "countryScope": "France",
       "regionScope": "",
       "periodStart": "2025",
       "periodEnd": null,
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population measured by the source: women and men in Insee wage statistics. The source does not measure chromosomes.",
       "originalSourcePopulation": "Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
@@ -1401,29 +1520,29 @@
     {
       "id": "femmes-temps-partiel",
       "url": "https://isora-xi.vercel.app/#femmes-temps-partiel",
-      "title": "Femmes beaucoup plus souvent salariées à temps partiel",
+      "title": "Women are much more often employed part-time",
       "originalTitle": "Femmes beaucoup plus souvent salariées à temps partiel",
       "side": "femmes",
       "angle": "récit_sur_le_sexe",
       "domain": "Travail",
       "metric": "26,6 % vs 7,8 %",
-      "summary": "En 2023, 26,6 % des femmes salariées sont à temps partiel contre 7,8 % des hommes. Les femmes représentent 77,9 % des salariés à temps partiel.",
+      "summary": "In 2023, 26.6% of women employees worked part-time, compared with 7.8% of men. Women accounted for 77.9% of part-time employees.",
       "originalSummary": "En 2023, 26,6 % des femmes salariées sont à temps partiel contre 7,8 % des hommes. Les femmes représentent 77,9 % des salariés à temps partiel.",
-      "nuance": "Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie; inversement, des hommes peuvent aussi être découragés ou empêchés socialement de réduire leur temps de travail pour raisons familiales.",
+      "nuance": "This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary; conversely, men may also be socially discouraged or prevented from reducing working time for family reasons.",
       "originalNuance": "Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie; inversement, des hommes peuvent aussi être découragés ou empêchés socialement de réduire leur temps de travail pour raisons familiales.",
       "tags": [
-        "travail",
-        "famille",
-        "revenus",
-        "sociétal",
-        "hommes"
+        "work",
+        "family",
+        "income",
+        "social",
+        "men"
       ],
       "countryScope": "France",
       "regionScope": "",
       "periodStart": "2024",
       "periodEnd": null,
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : femmes et hommes salariés dans les statistiques Insee. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population measured by the source: women and men employees in Insee statistics. The source does not measure chromosomes.",
       "originalSourcePopulation": "Population mesurée par la source : femmes et hommes salariés dans les statistiques Insee. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
@@ -1476,29 +1595,29 @@
     {
       "id": "femmes-violences-sexuelles",
       "url": "https://isora-xi.vercel.app/#femmes-violences-sexuelles",
-      "title": "Femmes victimes de violences sexuelles très peu déclarées",
+      "title": "Sexual violence against women is very rarely reported",
       "originalTitle": "Femmes victimes de violences sexuelles très peu déclarées",
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Violences",
       "metric": "7 % plainte",
-      "summary": "Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.",
+      "summary": "The number of adult women victims of rape, attempted rape or sexual assault in 2023 is estimated at 277,000. Only 7% say they filed a complaint. This under-reporting is not specific to women: several international sources also show massive under-reporting among male victims, sometimes higher depending on the measured scope.",
       "originalSummary": "Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.",
-      "nuance": "La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne doit pas être utilisée pour dire que les hommes déclareraient mieux: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
+      "nuance": "The main figure remains a French estimate for women living in ordinary housing within the survey scope. It should not be used to claim that men report better: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.",
       "originalNuance": "La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne doit pas être utilisée pour dire que les hommes déclareraient mieux: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
       "tags": [
-        "violences",
+        "violence",
         "justice",
-        "santé",
-        "sociétal",
-        "hommes"
+        "health",
+        "social",
+        "men"
       ],
       "countryScope": "France",
       "regionScope": "",
       "periodStart": "2024",
       "periodEnd": null,
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population measured by the source: adult women in a victimization survey. The source does not measure chromosomes.",
       "originalSourcePopulation": "Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
@@ -2159,8 +2278,8 @@
     {
       "id": "femmes-filles-hors-ecole",
       "url": "https://isora-xi.vercel.app/#femmes-filles-hors-ecole",
-      "title": "Idée reçue : il n'y a pas plus de filles ou de garçons hors de l'école",
-      "originalTitle": "Idée reçue : il n'y a pas plus de filles ou de garçons hors de l'école",
+      "title": "Il n'y a pas plus de filles ou de garçons hors de l'école",
+      "originalTitle": "Il n'y a pas plus de filles ou de garçons hors de l'école",
       "side": "femmes",
       "angle": "récit_sur_le_sexe",
       "domain": "Éducation",

@@ -341,6 +341,11 @@ function toggleValue<T>(values: T[], value: T) {
   return values.includes(value) ? values.filter((currentValue) => currentValue !== value) : [...values, value];
 }
 
+function matchesSelectedTags(claim: Claim, selectedTags: string[]) {
+  if (selectedTags.length === 0) return true;
+  return selectedTags.every((tag) => claim.tags.includes(tag));
+}
+
 function interleaveClaimsBySide(list: Claim[]) {
   const men = list.filter((claim) => claim.side === "hommes");
   const women = list.filter((claim) => claim.side === "femmes");
@@ -727,8 +732,7 @@ function App() {
 
     const matchingClaims = claims.filter((claim) => {
       const matchesSide = side === "tous" || claim.side === side;
-      const matchesTag =
-        selectedTags.length === 0 || selectedTags.every((tag) => claim.tags.includes(tag));
+      const matchesTag = matchesSelectedTags(claim, selectedTags);
       const matchesZone = selectedZones.length === 0 || selectedZones.includes(claim.pays_ou_zone);
       const matchesStatus =
         selectedStatuses.length === 0 || selectedStatuses.includes(claim.statut_temporel);
@@ -1074,11 +1078,14 @@ function App() {
             <button
               className={cn(
                 "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-violet-700 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-violet-50",
-                side === "hommes" && "bg-violet-50 ring-violet-200",
+                selectedTags.includes("hommes") && "bg-violet-50 ring-violet-200",
               )}
               type="button"
-              aria-pressed={side === "hommes"}
-              onClick={() => setSide("hommes")}
+              aria-pressed={selectedTags.includes("hommes")}
+              onClick={() => {
+                setSide("tous");
+                addTag("hommes");
+              }}
             >
               <span className="text-5xl font-extrabold leading-none text-violet-700">{counts.hommes}</span>
               <small className="font-bold leading-[1.35] text-neutral-700">{text.menAsymmetries}</small>
@@ -1086,11 +1093,14 @@ function App() {
             <button
               className={cn(
                 "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-cyan-600 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-cyan-50",
-                side === "femmes" && "bg-cyan-50 ring-cyan-200",
+                selectedTags.includes("femmes") && "bg-cyan-50 ring-cyan-200",
               )}
               type="button"
-              aria-pressed={side === "femmes"}
-              onClick={() => setSide("femmes")}
+              aria-pressed={selectedTags.includes("femmes")}
+              onClick={() => {
+                setSide("tous");
+                addTag("femmes");
+              }}
             >
               <span className="text-5xl font-extrabold leading-none text-cyan-600">{counts.femmes}</span>
               <small className="font-bold leading-[1.35] text-neutral-700">{text.womenAsymmetries}</small>
@@ -1494,7 +1504,7 @@ function ClaimCard({
   const periodLabel = getPeriodLabel(claim);
   const hybridParticipantTags = Array.from(new Set(isHybridSexCard ? ["femmes", "hommes"] : []));
   const shouldShowSideChip = !hybridParticipantTags.includes(claim.side);
-  const hiddenBottomParticipantTags = isOutOfSchoolDebunk ? hybridParticipantTags : [];
+  const hiddenBottomParticipantTags = isHybridSexCard ? hybridParticipantTags : [];
   const chipButton =
     "min-h-[30px] border-0 px-2 py-1.5 text-xs font-bold text-neutral-700 ring-1 ring-inset ring-neutral-300 hover:bg-blue-100 hover:text-blue-800";
   const selectedChip = "!bg-blue-100 !text-blue-900 !ring-blue-300";

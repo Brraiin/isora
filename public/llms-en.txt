@@ -16,10 +16,10 @@ Last generation: 2026-06-16T00:00:00+02:00
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 66
-- Entries about men: 28
+- Entries: 68
+- Entries about men: 30
 - Entries about women: 38
-- Distinct sources: 116
+- Distinct sources: 124
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Religieux, Numérique
 
 ## Editorial method
@@ -107,6 +107,21 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Measured population: Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Insee (janvier 2025): https://www.insee.fr/fr/statistiques/8310621
+
+## Biological paternity can only be verified through a court procedure
+- ID: hommes-filiation-paternite-test-adn-judiciaire
+- URL: https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Justice
+- Zone: France
+- Period: 2025-2026
+- Status: actuel
+- Key measure: 1 an / 15 000 €
+- Summary: In France, a paternity test is legal only within a judicial framework; carrying one out outside that framework is punishable by one year in prison and a EUR 15,000 fine. Acknowledging a child does not require prior biological proof, the civil registrar does not verify it, and paternity fraud is not a standalone criminal offence: lying about the father's identity mainly exposes the situation to civil contestation, except in cases of qualified legal fraud. Discovering that paternity was wrongly attributed can have a major psychological impact on the man who believed he was the father.
+- Nuance: Saying that the woman faces no risk would be too absolute: organized fraud can lead to action by the public prosecutor, annulment of filiation, damages, or criminal penalties if it supports a qualified fraud. However, there is no general offence punishing the mere act of lying to a man about his biological paternity. The test must be ordered by a judge and the consent of the people concerned is still required; refusal is not an absolute veto, because the judge may interpret it as evidence of paternity or non-paternity. Available psychosocial studies point to a potentially strong impact of misattributed paternity, but the phenomenon remains less studied than other family disclosures.
+- Measured population: Population measured by the sources: people concerned by French proceedings on filiation, paternity contestation or paternity testing. The legal sources do not measure chromosomes.
+- Sources: Service-Public.fr / DILA (30 janvier 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F14042; Service-Public.fr / DILA (5 août 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F10428; Cour de cassation (4 mars 2026): https://www.courdecassation.fr/decision/69a7e390cdc6046d4773ed5f; Service-Public.fr / DILA (25 mars 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F940; Journal of Family Issues / Monash University (2024): https://research.monash.edu/en/publications/psychosocial-consequences-of-disclosing-misattributed-paternity-a/; American Journal of Qualitative Research (2022): https://www.ajqr.org/article/discovering-misattributed-paternity-after-dna-testing-and-its-impact-on-psychological-well-being-and-12611
 
 ## Garçons plus touchés par les sorties précoces du système scolaire
 - ID: hommes-sorties-precoces
@@ -380,6 +395,21 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Ministère de l'Intérieur / SSMSI (23 octobre 2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024
 
+## Men are almost exclusive among perpetrators reported by women victims of sexual violence
+- ID: hommes-agresseurs-declares-violences-sexuelles-femmes-france
+- URL: https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france
+- Group: hommes
+- Angle: violence_exercée
+- Domain: Violences
+- Zone: France
+- Period: 2023-2024
+- Status: actuel
+- Key measure: 99 %
+- Summary: According to the SSMSI 2024 VRS survey, 277,000 adult women reported having been victims of rape, attempted rape or sexual assault in 2023. Among women victims who provided this information, 99% reported that the perpetrator or perpetrators were exclusively male.
+- Nuance: The main figure comes from a victimization survey and is based on statements by victims who reported the sex of the perpetrator. It covers rape, attempted rape and sexual assault reported by adult women; it does not measure all acts actually committed nor the chromosomes of perpetrators.
+- Measured population: Population measured by the source: women victims of rape, attempted rape or sexual assault who reported the sex of the perpetrator or perpetrators in the SSMSI 2024 VRS survey. The source does not measure chromosomes.
+- Sources: Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Haut Conseil à l'Égalité (2025): https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles
+
 ## Accusations sexuelles infondées : risque réputationnel surtout masculin
 - ID: hommes-accusations-sexuelles-infirmees-reputation
 - URL: https://isora-xi.vercel.app/#hommes-accusations-sexuelles-infirmees-reputation
@@ -476,7 +506,7 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: OECD / EMN (2023): https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/migration/OECD-EMN%20Inform_%20Labour-market-integration-of-beneficiaries-of-temporary-protection-from-Ukraine.pdf; Le Monde (2025): https://www.lemonde.fr/en/international/article/2025/08/28/war-in-ukraine-government-allows-18-to-22-year-olds-to-leave-country-once-again_6744802_4.html; USA for UNHCR (2026): https://www.unrefugees.org/emergencies/ukraine/
 
-## Écart salarial femmes-hommes fortement réduit à profil comparable
+## The women-men pay gap is much smaller at comparable profile
 - ID: femmes-ecart-salaire
 - URL: https://isora-xi.vercel.app/#femmes-ecart-salaire
 - Group: femmes
@@ -486,13 +516,12 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Period: 2025+
 - Status: actuel
 - Key measure: 3,0-4,8 %
-- Summary: L'Insee distingue plusieurs niveaux de comparaison. En 2024, l'écart de salaire net en équivalent temps plein est de 14,0 % sur son champ principal récent, mais tombe à 3,6 % à même emploi dans le même établissement. Dans la fonction publique en 2022, les écarts en EQTP varient fortement selon les versants, mais se réduisent à 3,0 % dans l'État, 4,0 % dans l'hospitalière et 4,8 % dans la territoriale à profil identique.
-- Nuance: La fiche ne doit pas être lue comme un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.
-- Measured population: Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Summary: Insee distinguishes several levels of comparison. In 2024, the net full-time-equivalent wage gap is 14.0% in its main recent scope, but falls to 3.6% for the same job in the same establishment. In the public sector in 2022, full-time-equivalent gaps vary widely across branches, but fall to 3.0% in central government, 4.0% in hospitals and 4.8% in local government at identical profile.
+- Nuance: This entry should not be read as a simple 'equal pay for equal work' claim. Raw gaps combine working time, occupations, sectors, hierarchical positions and access to very high wages. Gaps at comparable job or profile are much smaller, but they do not by themselves measure pay discrimination: they do not always capture experience, seniority, education, career interruptions or the mechanisms that steer people toward lower-paid occupations.
+- Measured population: Population measured by the source: women and men in Insee wage statistics. The source does not measure chromosomes.
 - Sources: HCREP / Insee (2025): https://www.strategie-plan.gouv.fr/files/2025-03/04032025_HCREP-INSEE.pdf; Insee (2026): https://www.insee.fr/fr/statistiques/8743657; Insee (2025): https://www.insee.fr/fr/statistiques/8386049
 
-## Femmes beaucoup plus souvent salariées à temps partiel
+## Women are much more often employed part-time
 - ID: femmes-temps-partiel
 - URL: https://isora-xi.vercel.app/#femmes-temps-partiel
 - Group: femmes
@@ -502,10 +531,9 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Period: 2024+
 - Status: actuel
 - Key measure: 26,6 % vs 7,8 %
-- Summary: En 2023, 26,6 % des femmes salariées sont à temps partiel contre 7,8 % des hommes. Les femmes représentent 77,9 % des salariés à temps partiel.
-- Nuance: Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie; inversement, des hommes peuvent aussi être découragés ou empêchés socialement de réduire leur temps de travail pour raisons familiales.
-- Measured population: Population mesurée par la source : femmes et hommes salariés dans les statistiques Insee. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Summary: In 2023, 26.6% of women employees worked part-time, compared with 7.8% of men. Women accounted for 77.9% of part-time employees.
+- Nuance: This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary; conversely, men may also be socially discouraged or prevented from reducing working time for family reasons.
+- Measured population: Population measured by the source: women and men employees in Insee statistics. The source does not measure chromosomes.
 - Sources: Insee (2024): https://www.insee.fr/fr/statistiques/7767077?sommaire=7767424
 
 ## Femmes majoritaires parmi les victimes conjugales enregistrées
@@ -524,7 +552,7 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Ministère de l'Intérieur / SSMSI (23 octobre 2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024
 
-## Femmes victimes de violences sexuelles très peu déclarées
+## Sexual violence against women is very rarely reported
 - ID: femmes-violences-sexuelles
 - URL: https://isora-xi.vercel.app/#femmes-violences-sexuelles
 - Group: femmes
@@ -534,10 +562,9 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Period: 2024+
 - Status: actuel
 - Key measure: 7 % plainte
-- Summary: Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.
-- Nuance: La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne doit pas être utilisée pour dire que les hommes déclareraient mieux: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.
-- Measured population: Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Summary: The number of adult women victims of rape, attempted rape or sexual assault in 2023 is estimated at 277,000. Only 7% say they filed a complaint. This under-reporting is not specific to women: several international sources also show massive under-reporting among male victims, sometimes higher depending on the measured scope.
+- Nuance: The main figure remains a French estimate for women living in ordinary housing within the survey scope. It should not be used to claim that men report better: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.
+- Measured population: Population measured by the source: adult women in a victimization survey. The source does not measure chromosomes.
 - Sources: Arrêtons les violences / SSMSI (2024): https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes; The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html
 
 ## Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée
@@ -780,7 +807,7 @@ Last generation: 2026-06-16T00:00:00+02:00
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: UNFPA (2024): https://www.unfpa.org/son-preference
 
-## Idée reçue : il n'y a pas plus de filles ou de garçons hors de l'école
+## Il n'y a pas plus de filles ou de garçons hors de l'école
 - ID: femmes-filles-hors-ecole
 - URL: https://isora-xi.vercel.app/#femmes-filles-hors-ecole
 - Group: femmes

@@ -209,6 +209,70 @@ const rawClaims: RawClaim[] = [
       "La résidence dépend de l'âge de l'enfant, du logement, des demandes parentales, des revenus et des décisions judiciaires. Le chiffre ne suffit pas à isoler un biais du juge.",
   },
   {
+    id: "hommes-filiation-paternite-test-adn-judiciaire",
+    side: "hommes",
+    domain: "Justice",
+    title: "Paternité biologique vérifiable seulement par une procédure judiciaire",
+    metric: "1 an / 15 000 €",
+    summary:
+      "En France, un test de paternité est autorisé uniquement dans un cadre judiciaire; le réaliser hors de ce cadre est puni d'un an d'emprisonnement et de 15 000 € d'amende. La reconnaissance d'un enfant ne suppose pas de preuve biologique préalable, l'officier d'état civil n'effectue pas de vérification, et la fraude à la paternité n'est pas un délit autonome: le mensonge sur l'identité du père expose surtout à une contestation civile, sauf fraude qualifiée à la loi. La découverte d'une paternité attribuée à tort peut avoir un impact psychologique considérable sur l'homme qui s'est cru père.",
+    tags: ["justice", "famille", "paternité", "filiation", "test ADN", "préjudice psychologique"],
+    source: {
+      label: "Dans quel cadre peut-on effectuer un test de paternité ?",
+      publisher: "Service-Public.fr / DILA",
+      url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F14042",
+      date: "30 janvier 2025",
+    },
+    additionalSources: [
+      {
+        label: "Peut-on reconnaître un enfant dont on n'est pas le père ?",
+        publisher: "Service-Public.fr / DILA",
+        url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F10428",
+        date: "5 août 2025",
+      },
+      {
+        label: "Cour de cassation, chambre criminelle, 4 mars 2026, n° 25-83.095",
+        publisher: "Cour de cassation",
+        url: "https://www.courdecassation.fr/decision/69a7e390cdc6046d4773ed5f",
+        date: "4 mars 2026",
+      },
+      {
+        label: "Contestation de la filiation (paternité ou maternité)",
+        publisher: "Service-Public.fr / DILA",
+        url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F940",
+        date: "25 mars 2025",
+      },
+      {
+        label: "Psychosocial consequences of disclosing misattributed paternity: a narrative review",
+        publisher: "Journal of Family Issues / Monash University",
+        url: "https://research.monash.edu/en/publications/psychosocial-consequences-of-disclosing-misattributed-paternity-a/",
+        date: "2024",
+      },
+      {
+        label: "Discovering Misattributed Paternity After DNA Testing and its Impact on Psychological Well-Being and Identity Formation",
+        publisher: "American Journal of Qualitative Research",
+        url: "https://www.ajqr.org/article/discovering-misattributed-paternity-after-dna-testing-and-its-impact-on-psychological-well-being-and-12611",
+        date: "2022",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Biological paternity can only be verified through a court procedure",
+        summary:
+          "In France, a paternity test is legal only within a judicial framework; carrying one out outside that framework is punishable by one year in prison and a EUR 15,000 fine. Acknowledging a child does not require prior biological proof, the civil registrar does not verify it, and paternity fraud is not a standalone criminal offence: lying about the father's identity mainly exposes the situation to civil contestation, except in cases of qualified legal fraud. Discovering that paternity was wrongly attributed can have a major psychological impact on the man who believed he was the father.",
+        nuance:
+          "Saying that the woman faces no risk would be too absolute: organized fraud can lead to action by the public prosecutor, annulment of filiation, damages, or criminal penalties if it supports a qualified fraud. However, there is no general offence punishing the mere act of lying to a man about his biological paternity. The test must be ordered by a judge and the consent of the people concerned is still required; refusal is not an absolute veto, because the judge may interpret it as evidence of paternity or non-paternity. Available psychosocial studies point to a potentially strong impact of misattributed paternity, but the phenomenon remains less studied than other family disclosures.",
+        sourcePopulation:
+          "Population measured by the sources: people concerned by French proceedings on filiation, paternity contestation or paternity testing. The legal sources do not measure chromosomes.",
+        tags: ["justice", "family", "paternity", "filiation", "DNA test", "psychological harm"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Dire que la femme n'encourt aucun risque serait trop absolu: une fraude organisée peut entraîner opposition du procureur, annulation de la filiation, dommages et intérêts, ou sanctions pénales si elle sert une fraude qualifiée. En revanche, il n'existe pas de délit général sanctionnant le simple fait de mentir à un homme sur sa paternité biologique. Le test doit être ordonné par un juge et le consentement des personnes concernées reste nécessaire; un refus n'est pas un veto absolu, car le juge peut l'interpréter comme un indice de paternité ou de non-paternité. Les études psychosociales disponibles signalent un fort retentissement possible de la paternité attribuée à tort, mais le phénomène reste moins étudié que d'autres révélations familiales.",
+  },
+  {
     id: "hommes-sorties-precoces",
     side: "hommes",
     domain: "Éducation",
@@ -689,6 +753,48 @@ const rawClaims: RawClaim[] = [
       "La source porte sur les faits enregistrés et les mis en cause dans des procédures, pas sur l'ensemble des violences réellement commises. Cette fiche documente une asymétrie d'auteurs présumés, distincte des fiches sur les victimes.",
   },
   {
+    id: "hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+    side: "hommes",
+    angle: "violence_exercée",
+    domain: "Violences",
+    title: "Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles",
+    metric: "99 %",
+    summary:
+      "Selon l'enquête VRS 2024 du SSMSI, 277 000 femmes majeures ont déclaré avoir été victimes de viols, tentatives de viol ou agressions sexuelles en 2023. Parmi les femmes victimes ayant renseigné cette information, 99 % déclarent que le ou les agresseurs étaient exclusivement de sexe masculin.",
+    tags: ["violences sexuelles", "viols", "France", "violence exercée par les hommes sur les femmes"],
+    source: {
+      label: "Les violences sexistes et sexuelles en France en 2024",
+      publisher: "Arrêtons les violences / SSMSI",
+      url: "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
+      date: "novembre 2025",
+    },
+    additionalSources: [
+      {
+        label: "Mettre fin au déni et à l'impunité face aux viols et agressions sexuelles",
+        publisher: "Haut Conseil à l'Égalité",
+        url: "https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles",
+        date: "2025",
+      },
+    ],
+    translations: {
+      en: {
+        title:
+          "Men are almost exclusive among perpetrators reported by women victims of sexual violence",
+        summary:
+          "According to the SSMSI 2024 VRS survey, 277,000 adult women reported having been victims of rape, attempted rape or sexual assault in 2023. Among women victims who provided this information, 99% reported that the perpetrator or perpetrators were exclusively male.",
+        nuance:
+          "The main figure comes from a victimization survey and is based on statements by victims who reported the sex of the perpetrator. It covers rape, attempted rape and sexual assault reported by adult women; it does not measure all acts actually committed nor the chromosomes of perpetrators.",
+        sourcePopulation:
+          "Population measured by the source: women victims of rape, attempted rape or sexual assault who reported the sex of the perpetrator or perpetrators in the SSMSI 2024 VRS survey. The source does not measure chromosomes.",
+        tags: ["sexual violence", "rape", "France", "violence perpetrated by men against women"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "La donnée principale vient d'une enquête de victimation et repose sur les déclarations des victimes ayant renseigné le sexe de l'agresseur. Elle porte sur les viols, tentatives de viol et agressions sexuelles déclarés par des femmes majeures; elle ne mesure pas tous les faits réellement commis ni les chromosomes des auteurs.",
+  },
+  {
     id: "hommes-accusations-sexuelles-infirmees-reputation",
     side: "hommes",
     angle: "récit_sur_le_sexe",
@@ -902,6 +1008,18 @@ const rawClaims: RawClaim[] = [
         date: "2025",
       },
     ],
+    translations: {
+      en: {
+        title: "The women-men pay gap is much smaller at comparable profile",
+        summary:
+          "Insee distinguishes several levels of comparison. In 2024, the net full-time-equivalent wage gap is 14.0% in its main recent scope, but falls to 3.6% for the same job in the same establishment. In the public sector in 2022, full-time-equivalent gaps vary widely across branches, but fall to 3.0% in central government, 4.0% in hospitals and 4.8% in local government at identical profile.",
+        nuance:
+          "This entry should not be read as a simple 'equal pay for equal work' claim. Raw gaps combine working time, occupations, sectors, hierarchical positions and access to very high wages. Gaps at comparable job or profile are much smaller, but they do not by themselves measure pay discrimination: they do not always capture experience, seniority, education, career interruptions or the mechanisms that steer people toward lower-paid occupations.",
+        sourcePopulation:
+          "Population measured by the source: women and men in Insee wage statistics. The source does not measure chromosomes.",
+        tags: ["income", "work", "social", "legal"],
+      },
+    },
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
@@ -922,6 +1040,18 @@ const rawClaims: RawClaim[] = [
       publisher: "Insee",
       url: "https://www.insee.fr/fr/statistiques/7767077?sommaire=7767424",
       date: "2024",
+    },
+    translations: {
+      en: {
+        title: "Women are much more often employed part-time",
+        summary:
+          "In 2023, 26.6% of women employees worked part-time, compared with 7.8% of men. Women accounted for 77.9% of part-time employees.",
+        nuance:
+          "This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary; conversely, men may also be socially discouraged or prevented from reducing working time for family reasons.",
+        sourcePopulation:
+          "Population measured by the source: women and men employees in Insee statistics. The source does not measure chromosomes.",
+        tags: ["work", "family", "income", "social", "men"],
+      },
     },
     confidence: "forte",
     lastChecked: "16 juin 2026",
@@ -978,6 +1108,18 @@ const rawClaims: RawClaim[] = [
         date: "2019",
       },
     ],
+    translations: {
+      en: {
+        title: "Sexual violence against women is very rarely reported",
+        summary:
+          "The number of adult women victims of rape, attempted rape or sexual assault in 2023 is estimated at 277,000. Only 7% say they filed a complaint. This under-reporting is not specific to women: several international sources also show massive under-reporting among male victims, sometimes higher depending on the measured scope.",
+        nuance:
+          "The main figure remains a French estimate for women living in ordinary housing within the survey scope. It should not be used to claim that men report better: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.",
+        sourcePopulation:
+          "Population measured by the source: adult women in a victimization survey. The source does not measure chromosomes.",
+        tags: ["violence", "justice", "health", "social", "men"],
+      },
+    },
     confidence: "forte",
     lastChecked: "16 juin 2026",
     nuance:
@@ -1377,7 +1519,7 @@ const rawClaims: RawClaim[] = [
     side: "femmes",
     angle: "récit_sur_le_sexe",
     domain: "Éducation",
-    title: "Idée reçue : il n'y a pas plus de filles ou de garçons hors de l'école",
+    title: "Il n'y a pas plus de filles ou de garçons hors de l'école",
     metric: "133 M filles vs 140 M garçons",
     summary:
       "Les estimations UNESCO/GEM/UIS indiquent 273 millions d'enfants et jeunes hors de l'école dans le monde, dont 133 millions de filles et 140 millions de garçons.",
@@ -1900,6 +2042,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.",
   "hommes-residence-alternee":
     "Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.",
+  "hommes-filiation-paternite-test-adn-judiciaire":
+    "Population mesurée par les sources : personnes concernées par une procédure française de filiation, de contestation de paternité ou de test de paternité. Les sources juridiques ne mesurent pas les chromosomes.",
   "hommes-sorties-precoces":
     "Population mesurée par la source : hommes et femmes de 18 à 24 ans. La source ne mesure pas les chromosomes.",
   "hommes-bourses-stem-reservees-femmes":
@@ -1934,6 +2078,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : hommes victimes de violences sexuelles dans l'enquête NCVS américaine, échantillons masculins et féminins de survivants au Canada, et victimes de viol en Angleterre et au pays de Galles. Les sources ne mesurent pas les chromosomes.",
   "hommes-mis-en-cause-violences-conjugales-france":
     "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
+  "hommes-agresseurs-declares-violences-sexuelles-femmes-france":
+    "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
   "hommes-accusations-sexuelles-infirmees-reputation":
     "Population mesurée par les sources : personnes mises en cause femmes/hommes dans les affaires de violences sexuelles traitées par les parquets français, et cas de fausses allégations étudiés dans la littérature. Les sources ne mesurent pas les chromosomes.",
   "hommes-sanctions-penales-plus-lourdes":
@@ -2070,6 +2216,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "moyenne",
     legalType: "droit familial",
   },
+  "hommes-filiation-paternite-test-adn-judiciaire": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "filiation, contestation de paternité et expertise biologique",
+  },
   "hommes-sorties-precoces": {
     pays_ou_zone: "France",
     periode_debut: "2023",
@@ -2144,6 +2299,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "violences conjugales enregistrées",
+  },
+  "hommes-agresseurs-declares-violences-sexuelles-femmes-france": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2023",
+    periode_fin: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "viols, tentatives de viol et agressions sexuelles",
   },
   "hommes-accusations-sexuelles-infirmees-reputation": {
     pays_ou_zone: "France",

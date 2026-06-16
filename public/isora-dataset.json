@@ -12,10 +12,10 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 66,
-    "hommes": 28,
+    "total": 68,
+    "hommes": 30,
     "femmes": 38,
-    "sources": 116
+    "sources": 124
   },
   "domains": [
     "Travail",
@@ -65,6 +65,7 @@
     "famille",
     "féminicides",
     "femmes",
+    "filiation",
     "France",
     "harcèlement",
     "historique",
@@ -94,6 +95,7 @@
     "politique",
     "pouvoir",
     "précarité",
+    "préjudice psychologique",
     "prévention",
     "prison",
     "récit",
@@ -112,14 +114,17 @@
     "sous-déclaration",
     "STEM",
     "suicide",
+    "test ADN",
     "traite humaine",
     "travail",
     "Ukraine",
     "variable selon pays",
     "violence domestique",
+    "violence exercée par les hommes sur les femmes",
     "violences",
     "violences conjugales",
-    "violences sexuelles"
+    "violences sexuelles",
+    "viols"
   ],
   "claims": [
     {
@@ -284,6 +289,72 @@
         "date": "janvier 2025"
       },
       "additionalSources": [],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-filiation-paternite-test-adn-judiciaire",
+      "url": "https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire",
+      "title": "Paternité biologique vérifiable seulement par une procédure judiciaire",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Justice",
+      "metric": "1 an / 15 000 €",
+      "summary": "En France, un test de paternité est autorisé uniquement dans un cadre judiciaire; le réaliser hors de ce cadre est puni d'un an d'emprisonnement et de 15 000 € d'amende. La reconnaissance d'un enfant ne suppose pas de preuve biologique préalable, l'officier d'état civil n'effectue pas de vérification, et la fraude à la paternité n'est pas un délit autonome: le mensonge sur l'identité du père expose surtout à une contestation civile, sauf fraude qualifiée à la loi. La découverte d'une paternité attribuée à tort peut avoir un impact psychologique considérable sur l'homme qui s'est cru père.",
+      "nuance": "Dire que la femme n'encourt aucun risque serait trop absolu: une fraude organisée peut entraîner opposition du procureur, annulation de la filiation, dommages et intérêts, ou sanctions pénales si elle sert une fraude qualifiée. En revanche, il n'existe pas de délit général sanctionnant le simple fait de mentir à un homme sur sa paternité biologique. Le test doit être ordonné par un juge et le consentement des personnes concernées reste nécessaire; un refus n'est pas un veto absolu, car le juge peut l'interpréter comme un indice de paternité ou de non-paternité. Les études psychosociales disponibles signalent un fort retentissement possible de la paternité attribuée à tort, mais le phénomène reste moins étudié que d'autres révélations familiales.",
+      "tags": [
+        "justice",
+        "famille",
+        "paternité",
+        "filiation",
+        "test ADN",
+        "préjudice psychologique"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2026",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par les sources : personnes concernées par une procédure française de filiation, de contestation de paternité ou de test de paternité. Les sources juridiques ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "16 juin 2026",
+      "source": {
+        "label": "Dans quel cadre peut-on effectuer un test de paternité ?",
+        "publisher": "Service-Public.fr / DILA",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14042",
+        "date": "30 janvier 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Peut-on reconnaître un enfant dont on n'est pas le père ?",
+          "publisher": "Service-Public.fr / DILA",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10428",
+          "date": "5 août 2025"
+        },
+        {
+          "label": "Cour de cassation, chambre criminelle, 4 mars 2026, n° 25-83.095",
+          "publisher": "Cour de cassation",
+          "url": "https://www.courdecassation.fr/decision/69a7e390cdc6046d4773ed5f",
+          "date": "4 mars 2026"
+        },
+        {
+          "label": "Contestation de la filiation (paternité ou maternité)",
+          "publisher": "Service-Public.fr / DILA",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F940",
+          "date": "25 mars 2025"
+        },
+        {
+          "label": "Psychosocial consequences of disclosing misattributed paternity: a narrative review",
+          "publisher": "Journal of Family Issues / Monash University",
+          "url": "https://research.monash.edu/en/publications/psychosocial-consequences-of-disclosing-misattributed-paternity-a/",
+          "date": "2024"
+        },
+        {
+          "label": "Discovering Misattributed Paternity After DNA Testing and its Impact on Psychological Well-Being and Identity Formation",
+          "publisher": "American Journal of Qualitative Research",
+          "url": "https://www.ajqr.org/article/discovering-misattributed-paternity-after-dna-testing-and-its-impact-on-psychological-well-being-and-12611",
+          "date": "2022"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -977,6 +1048,46 @@
         "date": "23 octobre 2025"
       },
       "additionalSources": [],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+      "url": "https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+      "title": "Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles",
+      "side": "hommes",
+      "angle": "violence_exercée",
+      "domain": "Violences",
+      "metric": "99 %",
+      "summary": "Selon l'enquête VRS 2024 du SSMSI, 277 000 femmes majeures ont déclaré avoir été victimes de viols, tentatives de viol ou agressions sexuelles en 2023. Parmi les femmes victimes ayant renseigné cette information, 99 % déclarent que le ou les agresseurs étaient exclusivement de sexe masculin.",
+      "nuance": "La donnée principale vient d'une enquête de victimation et repose sur les déclarations des victimes ayant renseigné le sexe de l'agresseur. Elle porte sur les viols, tentatives de viol et agressions sexuelles déclarés par des femmes majeures; elle ne mesure pas tous les faits réellement commis ni les chromosomes des auteurs.",
+      "tags": [
+        "violences sexuelles",
+        "viols",
+        "France",
+        "violence exercée par les hommes sur les femmes"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2023",
+      "periodEnd": "2024",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "16 juin 2026",
+      "source": {
+        "label": "Les violences sexistes et sexuelles en France en 2024",
+        "publisher": "Arrêtons les violences / SSMSI",
+        "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
+        "date": "novembre 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Mettre fin au déni et à l'impunité face aux viols et agressions sexuelles",
+          "publisher": "Haut Conseil à l'Égalité",
+          "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles",
+          "date": "2025"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -1971,7 +2082,7 @@
     {
       "id": "femmes-filles-hors-ecole",
       "url": "https://isora-xi.vercel.app/#femmes-filles-hors-ecole",
-      "title": "Idée reçue : il n'y a pas plus de filles ou de garçons hors de l'école",
+      "title": "Il n'y a pas plus de filles ou de garçons hors de l'école",
       "side": "femmes",
       "angle": "récit_sur_le_sexe",
       "domain": "Éducation",

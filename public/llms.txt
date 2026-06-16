@@ -15,10 +15,10 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 66
-- Fiches concernant les hommes: 28
+- Fiches: 68
+- Fiches concernant les hommes: 30
 - Fiches concernant les femmes: 38
-- Sources distinctes: 116
+- Sources distinctes: 124
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Religieux, Numérique
 
 ## Methode editoriale
@@ -101,6 +101,21 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Nuance: La résidence dépend de l'âge de l'enfant, du logement, des demandes parentales, des revenus et des décisions judiciaires. Le chiffre ne suffit pas à isoler un biais du juge.
 - Population mesuree: Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.
 - Sources: Insee (janvier 2025): https://www.insee.fr/fr/statistiques/8310621
+
+## Paternité biologique vérifiable seulement par une procédure judiciaire
+- ID: hommes-filiation-paternite-test-adn-judiciaire
+- URL: https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire
+- Groupe: hommes
+- Angle: désavantage_subi
+- Domaine: Justice
+- Zone: France
+- Periode: 2025-2026
+- Statut: actuel
+- Mesure cle: 1 an / 15 000 €
+- Resume: En France, un test de paternité est autorisé uniquement dans un cadre judiciaire; le réaliser hors de ce cadre est puni d'un an d'emprisonnement et de 15 000 € d'amende. La reconnaissance d'un enfant ne suppose pas de preuve biologique préalable, l'officier d'état civil n'effectue pas de vérification, et la fraude à la paternité n'est pas un délit autonome: le mensonge sur l'identité du père expose surtout à une contestation civile, sauf fraude qualifiée à la loi. La découverte d'une paternité attribuée à tort peut avoir un impact psychologique considérable sur l'homme qui s'est cru père.
+- Nuance: Dire que la femme n'encourt aucun risque serait trop absolu: une fraude organisée peut entraîner opposition du procureur, annulation de la filiation, dommages et intérêts, ou sanctions pénales si elle sert une fraude qualifiée. En revanche, il n'existe pas de délit général sanctionnant le simple fait de mentir à un homme sur sa paternité biologique. Le test doit être ordonné par un juge et le consentement des personnes concernées reste nécessaire; un refus n'est pas un veto absolu, car le juge peut l'interpréter comme un indice de paternité ou de non-paternité. Les études psychosociales disponibles signalent un fort retentissement possible de la paternité attribuée à tort, mais le phénomène reste moins étudié que d'autres révélations familiales.
+- Population mesuree: Population mesurée par les sources : personnes concernées par une procédure française de filiation, de contestation de paternité ou de test de paternité. Les sources juridiques ne mesurent pas les chromosomes.
+- Sources: Service-Public.fr / DILA (30 janvier 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F14042; Service-Public.fr / DILA (5 août 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F10428; Cour de cassation (4 mars 2026): https://www.courdecassation.fr/decision/69a7e390cdc6046d4773ed5f; Service-Public.fr / DILA (25 mars 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F940; Journal of Family Issues / Monash University (2024): https://research.monash.edu/en/publications/psychosocial-consequences-of-disclosing-misattributed-paternity-a/; American Journal of Qualitative Research (2022): https://www.ajqr.org/article/discovering-misattributed-paternity-after-dna-testing-and-its-impact-on-psychological-well-being-and-12611
 
 ## Garçons plus touchés par les sorties précoces du système scolaire
 - ID: hommes-sorties-precoces
@@ -356,6 +371,21 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Nuance: La source porte sur les faits enregistrés et les mis en cause dans des procédures, pas sur l'ensemble des violences réellement commises. Cette fiche documente une asymétrie d'auteurs présumés, distincte des fiches sur les victimes.
 - Population mesuree: Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.
 - Sources: Ministère de l'Intérieur / SSMSI (23 octobre 2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024
+
+## Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles
+- ID: hommes-agresseurs-declares-violences-sexuelles-femmes-france
+- URL: https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france
+- Groupe: hommes
+- Angle: violence_exercée
+- Domaine: Violences
+- Zone: France
+- Periode: 2023-2024
+- Statut: actuel
+- Mesure cle: 99 %
+- Resume: Selon l'enquête VRS 2024 du SSMSI, 277 000 femmes majeures ont déclaré avoir été victimes de viols, tentatives de viol ou agressions sexuelles en 2023. Parmi les femmes victimes ayant renseigné cette information, 99 % déclarent que le ou les agresseurs étaient exclusivement de sexe masculin.
+- Nuance: La donnée principale vient d'une enquête de victimation et repose sur les déclarations des victimes ayant renseigné le sexe de l'agresseur. Elle porte sur les viols, tentatives de viol et agressions sexuelles déclarés par des femmes majeures; elle ne mesure pas tous les faits réellement commis ni les chromosomes des auteurs.
+- Population mesuree: Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.
+- Sources: Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Haut Conseil à l'Égalité (2025): https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles
 
 ## Accusations sexuelles infondées : risque réputationnel surtout masculin
 - ID: hommes-accusations-sexuelles-infirmees-reputation
@@ -732,7 +762,7 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.
 - Sources: UNFPA (2024): https://www.unfpa.org/son-preference
 
-## Idée reçue : il n'y a pas plus de filles ou de garçons hors de l'école
+## Il n'y a pas plus de filles ou de garçons hors de l'école
 - ID: femmes-filles-hors-ecole
 - URL: https://isora-xi.vercel.app/#femmes-filles-hors-ecole
 - Groupe: femmes
