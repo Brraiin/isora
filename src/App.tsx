@@ -136,9 +136,11 @@ const uiText: Record<Locale, Record<string, string>> = {
     mobileTagline: "Référentiel des asymétries de sexe",
     verifiedSources: "sources vérifiées",
     heroKicker: "Données sourcées, contexte lisible, contribution ouverte",
-    heroTitle: "Lister les asymétries documentées selon le sexe",
+    heroTitle: "Liste les asymétries documentées selon le sexe",
     heroBody:
       "Isora recense des asymétries documentées par pays, période, domaine et angle d'analyse. Chaque fiche précise sa source, son contexte et la population réellement mesurée, pour rendre la donnée lisible, vérifiable et corrigeable.",
+    mobileHeroBody:
+      "Isora recense des asymétries documentées par pays, période, domaine et angle, avec source et contexte vérifiables.",
     menAsymmetries: "Asymétries concernant les hommes",
     womenAsymmetries: "Asymétries concernant les femmes",
     contribution: "Contribution",
@@ -148,7 +150,9 @@ const uiText: Record<Locale, Record<string, string>> = {
     weeklyWatch: "Veille hebdomadaire",
     activeFilters: "Filtres actifs",
     noFilters: "Aucun filtre sélectionné",
+    noResults: "Il n'y a pas de résultat avec ces filtres.",
     clearAll: "Tout effacer",
+    clearAllFilters: "Supprimer tous les filtres",
     angles: "Angles",
     domains: "Domaines",
     claims: "Fiches",
@@ -188,6 +192,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     heroTitle: "Browse documented sex-based asymmetries",
     heroBody:
       "Isora tracks documented asymmetries by country, period, domain and editorial angle. Each entry states its source, context and actually measured population so the data stays readable, verifiable and correctable.",
+    mobileHeroBody:
+      "Isora tracks documented asymmetries by country, period, domain and angle, with verifiable source and context.",
     menAsymmetries: "Asymmetries concerning men",
     womenAsymmetries: "Asymmetries concerning women",
     contribution: "Contribution",
@@ -197,7 +203,9 @@ const uiText: Record<Locale, Record<string, string>> = {
     weeklyWatch: "Weekly watch",
     activeFilters: "Active filters",
     noFilters: "No selected filter",
+    noResults: "There are no results with these filters.",
     clearAll: "Clear all",
+    clearAllFilters: "Remove all filters",
     angles: "Angles",
     domains: "Domains",
     claims: "Entries",
@@ -915,6 +923,16 @@ function App() {
     setSelectedTags((currentTags) => toggleValue(currentTags, label));
   }
 
+  function clearFilters() {
+    setSide("tous");
+    setSelectedTags([]);
+    setSelectedZones([]);
+    setSelectedStatuses([]);
+    setSelectedPeriods([]);
+    setDomain("tous");
+    setAngle("tous");
+  }
+
   async function handleSuggestionSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setSubmissionError(false);
@@ -1018,11 +1036,12 @@ function App() {
           </div>
           <div className="flex flex-wrap items-center justify-end gap-2 max-[760px]:w-full max-[760px]:justify-between">
             <a
-              className="inline-flex min-h-10 items-center px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50"
+              className="inline-flex min-h-10 items-center px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50 max-[760px]:hidden"
               href="#fiches"
             >
               {counts.sources} {text.verifiedSources}
             </a>
+            {/*
             <div
               className="inline-flex min-h-10 items-center gap-1 bg-neutral-100 p-1 ring-1 ring-inset ring-neutral-300"
               aria-label={text.language}
@@ -1043,6 +1062,7 @@ function App() {
                 </button>
               ))}
             </div>
+            */}
           </div>
         </div>
       </header>
@@ -1078,24 +1098,25 @@ function App() {
         <section className="border-b border-neutral-300 bg-emerald-50">
           <div className={cn(pageWidth, "py-[72px] pb-16 max-[760px]:py-10 max-[760px]:pb-8")}>
             <div className="max-w-[780px]">
-              <p className="m-0 text-base font-extrabold leading-normal text-blue-800">
+              <p className="m-0 text-base font-extrabold leading-normal text-blue-800 max-[760px]:hidden">
                 {text.heroKicker}
               </p>
               <h1 className="mt-3.5 max-w-[780px] text-[3.45rem] font-extrabold leading-[1.1] tracking-normal text-neutral-900 max-[760px]:text-[2.35rem]">
                 {text.heroTitle}
               </h1>
               <p className="mt-[22px] max-w-[720px] text-[1.15rem] leading-[1.65] text-neutral-700">
-                {text.heroBody}
+                <span className="max-[760px]:hidden">{text.heroBody}</span>
+                <span className="hidden max-[760px]:inline">{text.mobileHeroBody}</span>
               </p>
             </div>
           </div>
         </section>
 
-        <section className=" border-neutral-300 bg-white">
+        <section className="border-neutral-300 bg-white max-[760px]:hidden">
           <div className={cn(pageWidth, "grid grid-cols-3 gap-3 pt-4 max-[760px]:grid-cols-2")} aria-label="État de la base">
             <button
               className={cn(
-                "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-violet-700 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-violet-50",
+                "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-violet-700 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-violet-50 max-[760px]:min-h-[74px] max-[760px]:p-3",
                 selectedTags.includes("hommes") && "bg-violet-50 ring-violet-200",
               )}
               type="button"
@@ -1105,12 +1126,12 @@ function App() {
                 addTag("hommes");
               }}
             >
-              <span className="text-5xl font-extrabold leading-none text-violet-700">{counts.hommes}</span>
-              <small className="font-bold leading-[1.35] text-neutral-700">{text.menAsymmetries}</small>
+              <span className="text-5xl font-extrabold leading-none text-violet-700 max-[760px]:hidden">{counts.hommes}</span>
+              <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.menAsymmetries}</small>
             </button>
             <button
               className={cn(
-                "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-cyan-600 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-cyan-50",
+                "flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-cyan-600 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-cyan-50 max-[760px]:min-h-[74px] max-[760px]:p-3",
                 selectedTags.includes("femmes") && "bg-cyan-50 ring-cyan-200",
               )}
               type="button"
@@ -1120,10 +1141,10 @@ function App() {
                 addTag("femmes");
               }}
             >
-              <span className="text-5xl font-extrabold leading-none text-cyan-600">{counts.femmes}</span>
-              <small className="font-bold leading-[1.35] text-neutral-700">{text.womenAsymmetries}</small>
+              <span className="text-5xl font-extrabold leading-none text-cyan-600 max-[760px]:hidden">{counts.femmes}</span>
+              <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.womenAsymmetries}</small>
             </button>
-            <div className="flex min-h-[118px] flex-col justify-between gap-2.5 border-l-4 border-l-green-700 bg-white p-5 ring-1 ring-inset ring-neutral-300 max-[760px]:col-span-2">
+            <div className="flex min-h-[118px] flex-col justify-between gap-2.5 border-l-4 border-l-green-700 bg-white p-5 ring-1 ring-inset ring-neutral-300 max-[760px]:hidden">
               <Send className="h-[22px] w-[22px] text-green-700" aria-hidden="true" />
               <span className="text-xs font-extrabold uppercase leading-tight tracking-normal text-green-700">{text.contribution}</span>
               <button
@@ -1187,15 +1208,7 @@ function App() {
                     <button
                       className="min-h-8 w-full border border-neutral-300 bg-blue-50 text-[0.82rem] font-bold text-blue-800"
                       type="button"
-                      onClick={() => {
-                        setSide("tous");
-                        setSelectedTags([]);
-                        setSelectedZones([]);
-                        setSelectedStatuses([]);
-                        setSelectedPeriods([]);
-                        setDomain("tous");
-                        setAngle("tous");
-                      }}
+                      onClick={clearFilters}
                     >
                       {text.clearAll}
                     </button>
@@ -1230,6 +1243,24 @@ function App() {
               </button>
               {filterPanelsOpen.angles && (
                 <div className="flex flex-wrap gap-1.5">
+                  {(["hommes", "femmes"] as const).map((tag) => (
+                    <button
+                      className={cn(
+                        "inline-flex min-h-8 max-w-full items-center gap-1.5 border border-neutral-300 bg-white px-2.5 py-1.5 text-left text-[0.78rem] font-bold text-neutral-700 hover:border-blue-100 hover:bg-blue-50 hover:text-blue-800",
+                        selectedTags.includes(tag) && "border-blue-200 bg-blue-50 text-blue-800",
+                      )}
+                      key={`angle-participant-${tag}`}
+                      type="button"
+                      aria-pressed={selectedTags.includes(tag)}
+                      onClick={() => {
+                        setSide("tous");
+                        addTag(tag);
+                      }}
+                    >
+                      <span className="min-w-0 [overflow-wrap:anywhere]">{displaySideLabels[tag]}</span>
+                      <span className="text-[0.72rem] text-neutral-500">{counts[tag]}</span>
+                    </button>
+                  ))}
                   {angleStats.map((stat) => (
                     <button
                       className={cn(
@@ -1296,36 +1327,62 @@ function App() {
           </aside>
 
           <section className="min-w-0" aria-label={text.claims} id="fiches">
-            <div className="grid grid-cols-2 items-start gap-4 max-[760px]:grid-cols-1">
-              {claimColumns.map((columnClaims, columnIndex) => (
-                <div className="grid gap-4" key={`claim-column-${columnIndex}`}>
-                  {columnClaims.map((claim) => (
-                    <ClaimCard
-                      claim={claim}
-                      key={claim.id}
-                      locale={locale}
-                      onAngleClick={(value) => setAngle((currentAngle) => (currentAngle === value ? "tous" : value))}
-                      onDomainClick={(value) => setDomain((currentDomain) => (currentDomain === value ? "tous" : value))}
-                      onPeriodClick={(value) => setSelectedPeriods((currentPeriods) => toggleValue(currentPeriods, value))}
-                      onSideClick={(value) => setSide((currentSide) => (currentSide === value ? "tous" : value))}
-                      onContestClick={openContestForm}
-                      onStatusClick={(value) =>
-                        setSelectedStatuses((currentStatuses) => toggleValue(currentStatuses, value))
-                      }
-                      onTagClick={addTag}
-                      onZoneClick={(value) => setSelectedZones((currentZones) => toggleValue(currentZones, value))}
-                      selectedAngle={angle}
-                      selectedDomain={domain}
-                      selectedPeriods={selectedPeriods}
-                      selectedSide={side}
-                      selectedStatuses={selectedStatuses}
-                      selectedTags={selectedTags}
-                      selectedZones={selectedZones}
-                      text={text}
-                    />
-                  ))}
+            {filteredClaims.length === 0 ? (
+              <div className={cn(panel, "grid min-h-48 place-items-center p-6 text-center")}>
+                <div>
+                  <p className="m-0 text-lg font-extrabold text-neutral-900">{text.noResults}</p>
+                  <button
+                    className={cn(primaryAction, "mt-4 w-full max-w-sm")}
+                    type="button"
+                    onClick={clearFilters}
+                  >
+                    {text.clearAllFilters}
+                  </button>
                 </div>
-              ))}
+              </div>
+            ) : (
+              <div className="grid grid-cols-2 items-start gap-4 max-[760px]:grid-cols-1">
+                {claimColumns.map((columnClaims, columnIndex) => (
+                  <div className="grid gap-4" key={`claim-column-${columnIndex}`}>
+                    {columnClaims.map((claim) => (
+                      <ClaimCard
+                        claim={claim}
+                        key={claim.id}
+                        locale={locale}
+                        onAngleClick={(value) => setAngle((currentAngle) => (currentAngle === value ? "tous" : value))}
+                        onDomainClick={(value) => setDomain((currentDomain) => (currentDomain === value ? "tous" : value))}
+                        onPeriodClick={(value) => setSelectedPeriods((currentPeriods) => toggleValue(currentPeriods, value))}
+                        onSideClick={(value) => setSide((currentSide) => (currentSide === value ? "tous" : value))}
+                        onContestClick={openContestForm}
+                        onStatusClick={(value) =>
+                          setSelectedStatuses((currentStatuses) => toggleValue(currentStatuses, value))
+                        }
+                        onTagClick={addTag}
+                        onZoneClick={(value) => setSelectedZones((currentZones) => toggleValue(currentZones, value))}
+                        selectedAngle={angle}
+                        selectedDomain={domain}
+                        selectedPeriods={selectedPeriods}
+                        selectedSide={side}
+                        selectedStatuses={selectedStatuses}
+                        selectedTags={selectedTags}
+                        selectedZones={selectedZones}
+                        text={text}
+                      />
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+            <div className="mt-4 hidden min-h-[118px] flex-col justify-between gap-2.5 border-l-4 border-l-green-700 bg-white p-5 ring-1 ring-inset ring-neutral-300 max-[760px]:flex">
+              <Send className="h-[22px] w-[22px] text-green-700" aria-hidden="true" />
+              <span className="text-xs font-extrabold uppercase leading-tight tracking-normal text-green-700">{text.contribution}</span>
+              <button
+                className={cn(primaryAction, "mt-0.5 min-h-[42px] w-full whitespace-normal bg-green-700 px-3 leading-tight hover:bg-green-800")}
+                type="button"
+                onClick={() => setIsFormOpen(true)}
+              >
+                {text.proposeClaim}
+              </button>
             </div>
           </section>
         </section>
