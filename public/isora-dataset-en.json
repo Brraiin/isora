@@ -12,10 +12,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 69,
+    "total": 70,
     "hommes": 29,
-    "femmes": 40,
-    "sources": 128
+    "femmes": 41,
+    "sources": 134
   },
   "domains": [
     "Travail",
@@ -65,6 +65,7 @@
     "États-Unis",
     "exploitation",
     "famille",
+    "fausses accusations",
     "féminicides",
     "femmes",
     "filiation",
@@ -94,6 +95,7 @@
     "partiellement réformé",
     "paternité",
     "peines",
+    "peur sociale",
     "plainte",
     "politique",
     "pouvoir",
@@ -2261,6 +2263,79 @@
           "publisher": "Social Psychological and Personality Science",
           "url": "https://journals.sagepub.com/doi/10.1177/19485506241237288",
           "date": "2025"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-femmes-peurs-consentement-sexuel",
+      "url": "https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel",
+      "title": "Consentement sexuel : peurs asymétriques en début de relation",
+      "originalTitle": "Consentement sexuel : peurs asymétriques en début de relation",
+      "side": "femmes",
+      "angle": "récit_sur_le_sexe",
+      "domain": "Violences",
+      "metric": "56,1 % / 2-10 %",
+      "summary": "Les enquêtes sur les violences sexuelles montrent que les femmes victimes connaissent le plus souvent l'auteur: dans le NISVS 2016-2017, 56,1 % des victimes féminines de viol déclarent un agresseur faisant partie de leurs connaissances et 39,3 % un partenaire intime. En parallèle, les faux signalements d'agression sexuelle sont estimés minoritaires, souvent entre 2 % et 10 % des signalements, mais des études documentent une peur masculine d'être faussement accusé et son lien avec les pratiques de consentement explicite.",
+      "originalSummary": "Les enquêtes sur les violences sexuelles montrent que les femmes victimes connaissent le plus souvent l'auteur: dans le NISVS 2016-2017, 56,1 % des victimes féminines de viol déclarent un agresseur faisant partie de leurs connaissances et 39,3 % un partenaire intime. En parallèle, les faux signalements d'agression sexuelle sont estimés minoritaires, souvent entre 2 % et 10 % des signalements, mais des études documentent une peur masculine d'être faussement accusé et son lien avec les pratiques de consentement explicite.",
+      "nuance": "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. Le cas Eleanor Williams illustre les dommages possibles d'une fausse accusation grave, sans représenter la fréquence générale du phénomène.",
+      "originalNuance": "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. Le cas Eleanor Williams illustre les dommages possibles d'une fausse accusation grave, sans représenter la fréquence générale du phénomène.",
+      "tags": [
+        "femmes",
+        "hommes",
+        "sexualité",
+        "consentement",
+        "violences sexuelles",
+        "fausses accusations",
+        "peur sociale",
+        "récit",
+        "monde"
+      ],
+      "countryScope": "Monde, États-Unis et Royaume-Uni",
+      "regionScope": "Monde",
+      "periodStart": "2000",
+      "periodEnd": "2023",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, et signalements d'agression sexuelle étudiés dans les estimations de faux signalements. Les sources ne mesurent pas les chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, et signalements d'agression sexuelle étudiés dans les estimations de faux signalements. Les sources ne mesurent pas les chromosomes.",
+      "confidence": "moyenne",
+      "lastChecked": "16 juin 2026",
+      "source": {
+        "label": "The National Intimate Partner and Sexual Violence Survey: 2016/2017 Report on Sexual Violence",
+        "publisher": "CDC",
+        "url": "https://www.cdc.gov/nisvs/documentation/nisvsReportonSexualViolence.pdf",
+        "date": "2022"
+      },
+      "additionalSources": [
+        {
+          "label": "Risk perception for acquaintance sexual aggression: a social-cognitive perspective",
+          "publisher": "Aggression and Violent Behavior / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25705115/",
+          "date": "2000"
+        },
+        {
+          "label": "Fear and Consent: An Exploratory Study of Fear of False Accusations of Sexual Assault and Consent-Seeking Practices",
+          "publisher": "Journal of School Violence / ERIC",
+          "url": "https://eric.ed.gov/?id=EJ1378168",
+          "date": "2023"
+        },
+        {
+          "label": "Statistics",
+          "publisher": "National Sexual Violence Resource Center",
+          "url": "https://www.nsvrc.org/statistics/",
+          "date": "consulté 2026"
+        },
+        {
+          "label": "Perverting the Course of Justice and Wasting Police Time in Cases involving Allegedly False Allegations of Rape and / or Domestic Abuse",
+          "publisher": "Crown Prosecution Service",
+          "url": "https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly",
+          "date": "consulté 2026"
+        },
+        {
+          "label": "Fake sex abuse claims get British woman 8.5 year prison term",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/uk-fake-sex-abuse-claims-racial-tensions-8207569f6809f03f159e518065fcf26d",
+          "date": "2023"
         }
       ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
