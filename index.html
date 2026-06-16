@@ -3,14 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta
       name="description"
-      content="isora recense des données sourcées sur les désavantages documentés selon le sexe, avec pays, période, domaine et source."
+      content="Isora recense des asymétries documentées selon le sexe: fiches sourcées, pays ou zone, période, domaine, population mesurée, nuance et source primaire."
     />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/isora.svg" />
-    <title>isora - Désavantages documentés selon le sexe</title>
+    <meta
+      name="keywords"
+      content="Isora, asymétries selon le sexe, données sourcées, hommes, femmes, inégalités, désavantages documentés, sources vérifiées"
+    />
+    <meta name="author" content="Isora" />
+    <meta name="application-name" content="Isora" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:site_name" content="Isora" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:url" content="https://isora-xi.vercel.app/" />
+    <meta property="og:title" content="Isora - Asymétries documentées selon le sexe" />
+    <meta
+      property="og:description"
+      content="Un référentiel francophone de fiches sourcées, contextualisées et corrigeables sur les asymétries liées au sexe."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Isora - Asymétries documentées selon le sexe" />
+    <meta
+      name="twitter:description"
+      content="Fiches vérifiables avec source, pays, période, population mesurée et nuance éditoriale."
+    />
+    <link rel="canonical" href="https://isora-xi.vercel.app/" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="alternate" type="text/plain" title="Isora pour IA et agents" href="/llms.txt" />
+    <link rel="alternate" type="text/plain" hreflang="en" title="Isora for AI agents" href="/llms-en.txt" />
+    <link rel="alternate" type="application/json" title="Dataset public Isora" href="/isora-dataset.json" />
+    <link rel="alternate" type="application/json" hreflang="en" title="Isora public dataset in English" href="/isora-dataset-en.json" />
+    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://isora-xi.vercel.app/#organization",
+            "name": "Isora",
+            "url": "https://isora-xi.vercel.app/",
+            "logo": "https://isora-xi.vercel.app/isora.svg",
+            "description": "Référentiel francophone de fiches sourcées sur les asymétries documentées selon le sexe."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://isora-xi.vercel.app/#website",
+            "url": "https://isora-xi.vercel.app/",
+            "name": "Isora",
+            "inLanguage": "fr-FR",
+            "publisher": {
+              "@id": "https://isora-xi.vercel.app/#organization"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://isora-xi.vercel.app/?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "Dataset",
+            "@id": "https://isora-xi.vercel.app/#dataset",
+            "name": "Isora - asymétries documentées selon le sexe",
+            "description": "Fiches synthétiques avec source primaire, zone, période, domaine, population mesurée, niveau de confiance et nuance.",
+            "url": "https://isora-xi.vercel.app/",
+            "inLanguage": "fr-FR",
+            "creator": {
+              "@id": "https://isora-xi.vercel.app/#organization"
+            },
+            "isAccessibleForFree": true,
+            "distribution": [
+              {
+                "@type": "DataDownload",
+                "encodingFormat": "application/json",
+                "contentUrl": "https://isora-xi.vercel.app/isora-dataset.json"
+              },
+              {
+                "@type": "DataDownload",
+                "encodingFormat": "application/json",
+                "contentUrl": "https://isora-xi.vercel.app/isora-dataset-en.json"
+              },
+              {
+                "@type": "DataDownload",
+                "encodingFormat": "text/plain",
+                "contentUrl": "https://isora-xi.vercel.app/llms.txt"
+              },
+              {
+                "@type": "DataDownload",
+                "encodingFormat": "text/plain",
+                "contentUrl": "https://isora-xi.vercel.app/llms-en.txt"
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+    <title>Isora - Asymétries documentées selon le sexe</title>
   </head>
   <body>
+    <noscript>
+      <main>
+        <h1>Isora - asymétries documentées selon le sexe</h1>
+        <p>
+          Isora recense des fiches sourcées sur les asymétries liées au sexe, avec pays ou zone,
+          période, domaine, population mesurée, niveau de confiance, nuance et source primaire.
+        </p>
+        <p>
+          La version complète nécessite JavaScript. Les agents, moteurs de recherche et lecteurs
+          techniques peuvent consulter le dataset public JSON et le fichier llms.txt.
+        </p>
+        <ul>
+          <li><a href="/isora-dataset.json">Dataset public Isora en JSON</a></li>
+          <li><a href="/isora-dataset-en.json">English public Isora dataset in JSON</a></li>
+          <li><a href="/llms.txt">Résumé structuré pour IA et agents</a></li>
+          <li><a href="/llms-en.txt">Structured English summary for AI agents</a></li>
+          <li><a href="/sitemap.xml">Sitemap XML</a></li>
+        </ul>
+      </main>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -1,0 +1,4 @@
+# Isora AI access policy
+
+The public site, llms.txt, llms-en.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
+Please preserve attribution to Isora and to the primary source URLs attached to each claim.

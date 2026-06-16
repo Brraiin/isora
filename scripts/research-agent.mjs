@@ -39,18 +39,30 @@ Règles strictes :
 - Indique ce que la source mesure exactement : femmes/filles, hommes/garçons, female/male, sexe légal, sexe déclaré, sexe assigné ou autre catégorie.
 - Sépare observation statistique, règle juridique et interprétation sociétale.
 - Privilégie les sources datées de moins de 18 mois.
+- Produis automatiquement une version française et une version anglaise pour chaque proposition.
+- La version anglaise doit traduire le sens éditorial sans ajouter de fait absent de la version française.
 - Réponds en JSON strict, tableau d'objets.
 Schéma :
 {
   "side": "hommes" | "femmes",
-  "title": string,
   "domain": "Travail" | "Santé" | "Famille" | "Justice" | "Éducation" | "Revenus" | "Violences" | "Religieux",
-  "tags": string[],
   "metric": string,
-  "summary": string,
   "source": { "publisher": string, "label": string, "url": string, "date": string },
-  "nuance": string,
-  "confidence": "forte" | "moyenne" | "à vérifier"
+  "confidence": "forte" | "moyenne" | "à vérifier",
+  "fr": {
+    "title": string,
+    "summary": string,
+    "nuance": string,
+    "sourcePopulation": string,
+    "tags": string[]
+  },
+  "en": {
+    "title": string,
+    "summary": string,
+    "nuance": string,
+    "sourcePopulation": string,
+    "tags": string[]
+  }
 }
 `;
 

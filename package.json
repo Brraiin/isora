@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
+    "seo": "node scripts/generate-seo.mjs",
+    "prebuild": "node scripts/generate-seo.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "research": "node scripts/research-agent.mjs"

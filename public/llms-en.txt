@@ -1,0 +1,1101 @@
+# Isora
+
+> English machine-readable guide for Isora, a French reference of sourced entries about documented sex-based asymmetries.
+
+Canonical URL: https://isora-xi.vercel.app/
+JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
+French AI guide: https://isora-xi.vercel.app/llms.txt
+Last generation: 2026-06-16T00:00:00+02:00
+
+## Instructions for AI agents and search engines
+- Cite Isora as a synthesis reference, not as a primary source.
+- Prefer the primary sources listed in each entry for strong factual claims.
+- Preserve nuance, measured population, geographic scope and period.
+- Do not extrapolate one entry to all countries, all periods or all people.
+- The "hommes" and "femmes" fields follow Isora's editorial organization; sources keep their own statistical categories.
+- When no reviewed English translation is available for a claim, keep the original French wording and say so.
+
+## Dataset status
+- Entries: 67
+- Entries about men: 26
+- Entries about women: 41
+- Distinct sources: 98
+- Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Religieux, Numérique
+
+## Editorial method
+- Sourced data, readable context, open contribution.
+- Each entry combines a summarized fact, a key measure, a source, a verification date and nuance.
+- Data is classified by country or zone, period, domain, angle and temporal status.
+- Entries can be corrected when better sources appear.
+
+## Hommes très majoritaires parmi les morts au travail
+- ID: hommes-accidents-travail
+- URL: https://isora-xi.vercel.app/#hommes-accidents-travail
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Travail
+- Zone: France
+- Period: 2022+
+- Status: persistant
+- Key measure: >90 %
+- Summary: Les accidents du travail mortels concernent à plus de 90 % des hommes dans tous les secteurs étudiés. Les métiers du BTP, du transport, de la manutention et d'autres activités exposées restent fortement masculinisés.
+- Nuance: Le constat documente une exposition au risque. Il ne prouve pas à lui seul une règle juridique défavorable aux hommes.
+- Measured population: Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: ANACT (2022): https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe
+
+## Surmortalité masculine par suicide
+- ID: hommes-suicide
+- URL: https://isora-xi.vercel.app/#hommes-suicide
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: France
+- Period: 2023+
+- Status: actuel
+- Key measure: 75 %
+- Summary: En France, 8 848 décès par suicide ont été recensés en 2023 et 75 % concernent des hommes. L'isolement, la précarité et les ruptures de parcours sont cités parmi les déterminants sociaux à surveiller.
+- Nuance: Le taux varie fortement selon l'âge, le niveau de vie et le territoire. La lecture doit rester sanitaire et sociale, pas accusatoire.
+- Measured population: Population mesurée par la source : hommes dans les statistiques françaises de décès. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Ministère du Travail et des Solidarités (2026): https://solidarites.gouv.fr/prevention-du-suicide-le-lien-social-comme-rempart-contre-lisolement
+
+## Espérance de vie plus courte pour les hommes en France
+- ID: hommes-esperance-vie
+- URL: https://isora-xi.vercel.app/#hommes-esperance-vie
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: France
+- Period: 2025+
+- Status: persistant
+- Key measure: -5,6 ans
+- Summary: En 2025, l'Insee estime l'espérance de vie à la naissance à 80,3 ans pour les hommes contre 85,9 ans pour les femmes en France.
+- Nuance: L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques.
+- Measured population: Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631
+
+## Pères presque toujours débiteurs des pensions alimentaires
+- ID: hommes-pensions-alimentaires
+- URL: https://isora-xi.vercel.app/#hommes-pensions-alimentaires
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Justice
+- Zone: France
+- Period: 2013+
+- Status: données insuffisantes
+- Key measure: 97 %
+- Summary: Dans les décisions étudiées par le ministère de la Justice, quand une contribution à l'entretien et à l'éducation de l'enfant est fixée, le parent débiteur est presque toujours le père.
+- Nuance: La donnée est ancienne et reflète aussi la résidence principale des enfants. Elle doit être actualisée avant d'en faire un argument juridique fort.
+- Measured population: Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Ministère de la Justice (2013): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/pension-alimentaire-fixee-juges-deux-tiers-enfants-parents-separes
+
+## Résidence alternée encore rare pour les pères séparés
+- ID: hommes-residence-alternee
+- URL: https://isora-xi.vercel.app/#hommes-residence-alternee
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Famille
+- Zone: France
+- Period: 2023+
+- Status: actuel
+- Key measure: 14 %
+- Summary: L'Insee indique qu'en 2023, 14 % des enfants dont les parents sont séparés vivent en résidence alternée. Le reste vit principalement avec un seul parent, le plus souvent la mère selon les publications antérieures.
+- Nuance: La résidence dépend de l'âge de l'enfant, du logement, des demandes parentales, des revenus et des décisions judiciaires. Le chiffre ne suffit pas à isoler un biais du juge.
+- Measured population: Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Insee (janvier 2025): https://www.insee.fr/fr/statistiques/8310621
+
+## Garçons plus touchés par les sorties précoces du système scolaire
+- ID: hommes-sorties-precoces
+- URL: https://isora-xi.vercel.app/#hommes-sorties-precoces
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Éducation
+- Zone: France
+- Period: 2023+
+- Status: actuel
+- Key measure: 9,5 % vs 5,6 %
+- Summary: En 2023, les sorties précoces du système scolaire concernent 9,5 % des hommes de 18 à 24 ans contre 5,6 % des femmes en France.
+- Nuance: L'indicateur est fragile et l'Insee signale des précautions de comparaison. Il reste utile pour documenter un décrochage masculin relatif.
+- Measured population: Population mesurée par la source : hommes et femmes de 18 à 24 ans. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Insee (6 janvier 2025): https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778
+
+## Espérance de vie masculine plus courte dans presque tous les pays
+- ID: hommes-esperance-vie-monde
+- URL: https://isora-xi.vercel.app/#hommes-esperance-vie-monde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: données actualisées+
+- Status: actuel
+- Key measure: quasi tous pays
+- Summary: Our World in Data suit l'écart d'espérance de vie à la naissance entre femmes et hommes: les femmes vivent plus longtemps que les hommes dans la quasi-totalité des pays documentés.
+- Nuance: L'écart reflète des facteurs biologiques, sociaux, professionnels et comportementaux. Il ne désigne pas une cause unique.
+- Measured population: Population mesurée par la source : female-male difference / males dans les séries internationales. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Our World in Data (données actualisées): https://ourworldindata.org/grapher/difference-in-female-and-male-life-expectancy-at-birth
+
+## Hommes beaucoup plus exposés à la mort par suicide
+- ID: hommes-suicide-monde
+- URL: https://isora-xi.vercel.app/#hommes-suicide-monde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: 2021+
+- Status: actuel
+- Key measure: >2x
+- Summary: L'OMS estime 727 000 décès par suicide en 2021. À l'échelle mondiale, les taux masculins sont plus de deux fois supérieurs aux taux féminins.
+- Nuance: La prévention doit tenir compte du sexe mesuré par les sources sans réduire le suicide masculin à une seule explication culturelle ou individuelle.
+- Measured population: Population mesurée par la source : males / hommes dans les estimations OMS. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation mondiale de la Santé (2021): https://www.who.int/publications/i/item/9789240110069
+
+## Hommes majoritaires parmi les victimes d'homicide
+- ID: hommes-victimes-homicide-monde
+- URL: https://isora-xi.vercel.app/#hommes-victimes-homicide-monde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: Monde
+- Period: 2023+
+- Status: actuel
+- Key measure: 80 %
+- Summary: En 2023, environ 80 % des victimes d'homicide dans le monde étaient des hommes. Le même rapport souligne que les femmes sont davantage tuées dans la sphère intime ou familiale.
+- Nuance: Les profils de victimation diffèrent selon le contexte. Ce chiffre documente une exposition masculine forte à la violence létale hors sphère intime.
+- Measured population: Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UN Women / UNODC (2023): https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf
+
+## Hommes davantage exposés à la mortalité liée au travail
+- ID: hommes-mortalite-travail-monde
+- URL: https://isora-xi.vercel.app/#hommes-mortalite-travail-monde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Travail
+- Zone: Monde
+- Period: 2023+
+- Status: actuel
+- Key measure: 51,4 vs 17,2
+- Summary: L'OIT estime près de 3 millions de décès liés au travail par an. La mortalité masculine atteint 51,4 pour 100 000 adultes en âge de travailler contre 17,2 chez les femmes.
+- Nuance: L'écart tient notamment à la répartition sexuée des métiers dangereux et à l'exposition aux risques professionnels.
+- Measured population: Population mesurée par la source : men / women dans les estimations OIT. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation internationale du Travail (2023): https://www.ilo.org/resource/news/nearly-3-million-people-die-work-related-accidents-and-diseases
+
+## Hommes beaucoup plus exposés à la mortalité routière
+- ID: hommes-accidents-route-monde
+- URL: https://isora-xi.vercel.app/#hommes-accidents-route-monde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: France
+- Period: 2023+
+- Status: actuel
+- Key measure: 3x
+- Summary: L'OMS indique que les hommes sont typiquement trois fois plus susceptibles que les femmes de mourir dans un accident de la route.
+- Nuance: Les comportements de conduite, les usages professionnels de la route et l'exposition kilométrique peuvent contribuer à l'écart.
+- Measured population: Population mesurée par la source : males / females dans la fiche OMS. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation mondiale de la Santé (2023): https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
+
+## Service militaire obligatoire souvent ciblé sur les hommes
+- ID: hommes-conscription
+- URL: https://isora-xi.vercel.app/#hommes-conscription
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: France
+- Period: 2026+
+- Status: actuel
+- Key measure: nombreux pays
+- Summary: De nombreux pays imposent encore un service militaire obligatoire visant surtout ou uniquement les hommes, avec des obligations civiques et militaires différenciées selon le sexe.
+- Nuance: Les règles varient fortement selon les pays, les exemptions et les situations de guerre. La fiche documente une asymétrie juridique à vérifier pays par pays.
+- Measured population: Population mesurée par la source : men / males selon les règles nationales recensées, à vérifier pays par pays. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: World Population Review (2026): https://worldpopulationreview.com/country-rankings/countries-with-mandatory-military-service
+
+## Hommes très majoritaires dans la population carcérale mondiale
+- ID: hommes-population-carcerale-monde
+- URL: https://isora-xi.vercel.app/#hommes-population-carcerale-monde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Justice
+- Zone: Monde
+- Period: 2023+
+- Status: actuel
+- Key measure: 94 %
+- Summary: L'UNODC estime qu'en 2023 les hommes représentaient presque 94 % de la population carcérale mondiale.
+- Nuance: Ce chiffre ne dit pas à lui seul si les écarts viennent des comportements, du contrôle pénal, des normes sociales ou des décisions judiciaires.
+- Measured population: Population mesurée par la source : men / male prisoners dans le brief UNODC. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNODC (2023): https://www.unodc.org/documents/data-and-analysis/prison/Prison_brief_2025.pdf
+
+## Garçons massivement hors de l'école ou en redoublement
+- ID: hommes-decrochage-garcons-monde
+- URL: https://isora-xi.vercel.app/#hommes-decrochage-garcons-monde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Éducation
+- Zone: Monde
+- Period: 2022+
+- Status: actuel
+- Key measure: 132 M
+- Summary: L'UNESCO signale 132 millions de garçons hors de l'école et indique que les garçons redoublent davantage au primaire dans 130 pays disposant de données.
+- Nuance: Le décrochage des garçons varie selon la pauvreté, le territoire, les conflits et les attentes sociales. Il ne contredit pas les obstacles spécifiques rencontrés par les filles ailleurs.
+- Measured population: Population mesurée par la source : boys / garçons et men / hommes dans le rapport UNESCO. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNESCO (2022): https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education
+
+## Hommes plus souvent sans-abri dans la plupart des pays
+- ID: hommes-sans-abrisme
+- URL: https://isora-xi.vercel.app/#hommes-sans-abrisme
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Revenus
+- Zone: France
+- Period: données actualisées+
+- Status: actuel
+- Key measure: majorité hommes
+- Summary: Our World in Data observe que dans la plupart des pays, les hommes sont plus susceptibles d'être sans-abri, dans beaucoup de pays, les femmes représentent 20 % à 40 % des personnes sans domicile.
+- Nuance: Les formes de sans-abrisme sont parfois moins visibles chez les femmes. La comparaison dépend fortement des définitions nationales.
+- Measured population: Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Our World in Data (données actualisées): https://ourworldindata.org/homelessness
+
+## Hommes victimes de violence par partenaire intime
+- ID: hommes-violence-partenaire-etats-unis
+- URL: https://isora-xi.vercel.app/#hommes-violence-partenaire-etats-unis
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: États-Unis
+- Period: données de vie entière+
+- Status: actuel
+- Key measure: 1 sur 3
+- Summary: Le CDC indique qu'environ un homme sur trois aux États-Unis a subi au cours de sa vie une violence sexuelle de contact, une violence physique ou du stalking par partenaire intime.
+- Nuance: Reconnaître les victimes masculines améliore l'accès à l'aide sans minimiser la gravité et la fréquence des violences subies par les femmes.
+- Measured population: Population mesurée par la source : men / male victims dans l'enquête CDC. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: CDC (données de vie entière): https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html
+
+## Victimes masculines de violence domestique au Royaume-Uni
+- ID: hommes-violence-domestique-royaume-uni
+- URL: https://isora-xi.vercel.app/#hommes-violence-domestique-royaume-uni
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: Royaume-Uni
+- Period: 2024/25+
+- Status: actuel
+- Key measure: 1,5 M
+- Summary: L'ONS estime à 1,5 million le nombre d'hommes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025.
+- Nuance: Les enquêtes de victimation captent mieux une partie des violences non déclarées. Les dynamiques de contrôle et de gravité doivent être analysées finement.
+- Measured population: Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Office for National Statistics (2024/25): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025
+
+## Hommes victimes orientés vers des aides moins spécialisées
+- ID: hommes-violences-conjugales-aides-specialisees
+- URL: https://isora-xi.vercel.app/#hommes-violences-conjugales-aides-specialisees
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: France, Royaume-Uni et Canada
+- Period: 1971-2025
+- Status: persistant
+- Key measure: 4,4 % aidés
+- Summary: En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais seulement 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou hébergement sûr disponibles pour hommes en septembre 2025, dont 130 dédiées aux hommes. Au Canada, le refuge privé MASH d'Earl Silverman à Calgary a fermé en 2013 faute de financement public ou fédéral/provincial.
+- Nuance: Il ne faut pas écrire qu'il n'existe aucun centre pour hommes: le Royaume-Uni recense des places, et des lignes spécialisées existent. L'asymétrie documentée est plutôt la rareté, la faible visibilité, le financement limité, et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.
+- Measured population: Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux, places d'hébergement sûr au Royaume-Uni, et cas historiques Erin Pizzey/Earl Silverman. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Assemblée nationale / Réponse ministérielle (2025): https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5235; Service-Public.fr (2025): https://lannuaire.service-public.gouv.fr/centres-contact/R167; SOS Hommes Battus France (consulté 2026): https://soshommesbattus.org/; ManKind Initiative (2025): https://mankind.org.uk/statistics/statistics-on-male-victims-of-domestic-abuse/; CityNews Calgary (2013): https://calgary.citynews.ca/2013/03/21/shelter-for-male-victims-of-domestic-abuse-forced-to-close-its-doors/; Hansard / UK Parliament (2014): https://hansard.parliament.uk/commons/2014-04-10/debates/14041077000001/DomesticViolence%28PoliceResponse%29; Sandra Orozco-Stapleton Foundation (2006): https://www.sossandra.org/erin-pizzey-excerpts; The Respondent (consulté 2026): https://www.therespondent.com/blogs/episodes/erin-pizzey
+
+## Hommes moins enclins à reconnaître certaines agressions sexuelles
+- ID: hommes-agressions-sexuelles-minimisees
+- URL: https://isora-xi.vercel.app/#hommes-agressions-sexuelles-minimisees
+- Group: hommes
+- Angle: récit_sur_le_sexe
+- Domain: Violences
+- Zone: États-Unis
+- Period: 2017+
+- Status: persistant
+- Key measure: 48 % vs 60 %
+- Summary: Une enquête NSVRC/YouGov de 2017 indique que les hommes américains qualifient moins souvent que les femmes certaines conduites d'agression sexuelle: 48 % des hommes contre 60 % des femmes pour des remarques sexuelles non sollicitées, 67 % contre 79 % pour un rapport obtenu sous pression, et 56 % contre 72 % pour le voyeurisme. Des travaux sur les mythes du viol masculin montrent aussi que les hommes acceptent davantage ces mythes, surtout quand l'auteure est une femme.
+- Nuance: L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. La fiche documente une asymétrie de perception et de minimisation; elle ne dit pas que toutes les victimes masculines minimisent, ni que les femmes agressent plus que les hommes.
+- Measured population: Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: National Sexual Violence Resource Center / YouGov (2017): https://www.nsvrc.org/blog_post/new-data-reveals-high-awareness-among-us-adults-what-constitutes-sexual/; Sex Roles / Springer (1992): https://link.springer.com/article/10.1007/BF00290011; International Review of Victimology / SAGE (2022): https://journals.sagepub.com/doi/10.1177/02697580211048552; CDC (2024): https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html; National Sexual Violence Resource Center (consulté 2026): https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/; Violence Against Women / SAGE (2024): https://journals.sagepub.com/doi/10.1177/10778012241263104
+
+## Hommes majoritaires parmi les mis en cause pour violences conjugales
+- ID: hommes-mis-en-cause-violences-conjugales-france
+- URL: https://isora-xi.vercel.app/#hommes-mis-en-cause-violences-conjugales-france
+- Group: hommes
+- Angle: violence_exercée
+- Domain: Violences
+- Zone: France
+- Period: 2024+
+- Status: actuel
+- Key measure: 85 %
+- Summary: En 2024, les services de sécurité ont enregistré 272 400 victimes de violences commises par partenaire ou ex-partenaire en France. Dans ces procédures, 85 % des personnes mises en cause sont des hommes.
+- Nuance: La source porte sur les faits enregistrés et les mis en cause dans des procédures, pas sur l'ensemble des violences réellement commises. Cette fiche documente une asymétrie d'auteurs présumés, distincte des fiches sur les victimes.
+- Measured population: Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Ministère de l'Intérieur / SSMSI (23 octobre 2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024
+
+## Accusations sexuelles infondées : risque réputationnel surtout masculin
+- ID: hommes-accusations-sexuelles-infirmees-reputation
+- URL: https://isora-xi.vercel.app/#hommes-accusations-sexuelles-infirmees-reputation
+- Group: hommes
+- Angle: récit_sur_le_sexe
+- Domain: Justice
+- Zone: France
+- Period: 2012-2021
+- Status: données insuffisantes
+- Key measure: 94 %
+- Summary: L'IPP indique qu'entre 2012 et 2021, 94 % des personnes mises en cause dans les affaires de violences sexuelles traitées par les parquets français sont des hommes. Les fausses allégations de violences sexuelles existent mais restent minoritaires dans les études disponibles, souvent situées entre 2 % et 10 %; lorsqu'elles sont établies, elles peuvent causer détresse et atteinte à la réputation.
+- Nuance: Un classement sans suite, un non-lieu, une relaxe ou un acquittement ne prouve pas à lui seul qu'une accusation était fausse. Cette fiche documente le risque réputationnel quand l'accusation est infondée ou fausse, et le fait que les personnes mises en cause dans ce contentieux sont très majoritairement des hommes.
+- Measured population: Population mesurée par les sources : personnes mises en cause femmes/hommes dans les affaires de violences sexuelles traitées par les parquets français, et cas de fausses allégations étudiés dans la littérature. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Institut des politiques publiques (avril 2024): https://ipp.eu/wp-content/uploads/2024/04/Note_IPP_Violences_aux_femmes-5.pdf; PubMed / Violence Against Women (2010): https://pubmed.ncbi.nlm.nih.gov/21164210/; Crown Prosecution Service (guidance): https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly
+
+## Hommes plus exposés aux sanctions pénales lourdes
+- ID: hommes-sanctions-penales-plus-lourdes
+- URL: https://isora-xi.vercel.app/#hommes-sanctions-penales-plus-lourdes
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Justice
+- Zone: France et États-Unis
+- Period: 2011-2022
+- Status: persistant
+- Key measure: 41 % vs 18 %
+- Summary: En France, le ministère de la Justice indique que, pour les vols et recels entre 2018 et 2022, 41 % des hommes condamnés reçoivent une peine d'emprisonnement ferme ou partiellement ferme, contre 18 % des femmes condamnées pour le même type d'infractions. L'Insee conclut aussi que les femmes condamnées bénéficient de sanctions moins lourdes, et que les écarts ne disparaissent pas totalement après prise en compte du nombre d'infractions et des antécédents pour les atteintes aux biens ou aux personnes. Aux États-Unis, une étude sur les affaires fédérales estime qu'à infraction d'arrestation, antécédents et autres observables comparables, les hommes reçoivent en moyenne des peines 63 % plus longues que les femmes.
+- Nuance: Cette fiche ne prouve pas une règle universelle mondiale. Pour parler de 'même délit', il faut contrôler la gravité exacte, le rôle dans l'affaire, la récidive, les antécédents, la situation pré-procès et les éléments de personnalité pris en compte par le juge. Les sources françaises et américaines documentent néanmoins une asymétrie robuste sur la prison et la sévérité des peines; l'INED note aussi que les femmes peuvent recevoir des amendes plus élevées lorsqu'elles sont condamnées à l'amende.
+- Measured population: Population mesurée par les sources : femmes et hommes mis en cause, poursuivis ou condamnés dans les statistiques pénales françaises, et personnes arrêtées ou condamnées dans les affaires fédérales américaines. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Ministère de la Justice / SSER (2024): https://www.justice.gouv.fr/sites/default/files/2024-03/INFO%20RAPIDE%20JUSTICE-13.pdf; Insee (2017): https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548; University of Michigan Law School (2012): https://repository.law.umich.edu/law_econ_current/57/; United States Sentencing Commission (2017): https://www.ussc.gov/research/research-reports/2017-demographic-differences-federal-sentencing; INED (2026): https://www.ined.fr/fr/actualites/logiques-genrees-sanctions-penales
+
+## Pères limités par un congé paternité payé très court
+- ID: hommes-conge-paternite-ocde
+- URL: https://isora-xi.vercel.app/#hommes-conge-paternite-ocde
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Famille
+- Zone: OCDE
+- Period: 2024+
+- Status: actuel
+- Key measure: 2,4 sem.
+- Summary: Dans l'Organisation de coopération et de développement économiques (OCDE), le congé paternité payé reste court: la moyenne est d'environ 2,4 semaines en 2024.
+- Nuance: Des congés plus longs et mieux indemnisés peuvent soutenir la coparentalité, mais leur usage dépend aussi des normes professionnelles et familiales.
+- Measured population: Population mesurée par la source : fathers / pères dans les politiques de congé. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: OCDE - Organisation de coopération et de développement économiques (2024): https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html
+
+## Circoncision des garçons décidée avant leur consentement
+- ID: hommes-autonomie-corporelle-circoncision
+- URL: https://isora-xi.vercel.app/#hommes-autonomie-corporelle-circoncision
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Autonomie
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 36,7-38,7 %
+- Summary: Une étude PLOS One estime la prévalence mondiale de la circoncision masculine autour de 36,7 % à 38,7 %, souvent pour des raisons religieuses ou culturelles.
+- Nuance: Le sujet implique santé publique, religion, consentement et droits de l'enfant. La fiche documente un enjeu d'autonomie corporelle sans juger les familles.
+- Measured population: Population mesurée par la source : male circumcision / males dans les estimations de prévalence. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: PLOS One (2024): https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0298387
+
+## Hommes très majoritaires parmi les décès professionnels aux États-Unis
+- ID: hommes-deces-professionnels-etats-unis-2024
+- URL: https://isora-xi.vercel.app/#hommes-deces-professionnels-etats-unis-2024
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Travail
+- Zone: États-Unis
+- Period: 1970-2024
+- Status: persistant
+- Key measure: 91,9 %
+- Summary: Aux États-Unis, les femmes représentent 8,1 % des décès professionnels recensés en 2024, soit environ 91,9 % pour les hommes. Le risque global a fortement baissé depuis les années 1970, mais l'asymétrie masculine persiste.
+- Nuance: Dans les pays industrialisés, prévention, mécanisation et droit du travail ont réduit le risque depuis 1970. La fiche documente la persistance actuelle d'un risque mortel très masculin.
+- Measured population: Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: OSHA (2024): https://www.osha.gov/data/commonstats; BLS (2024): https://www.bls.gov/news.release/cfoi.nr0.htm
+
+## Hommes ukrainiens d'âge militaire limités à la frontière
+- ID: hommes-ukraine-restrictions-sortie-2022-2025
+- URL: https://isora-xi.vercel.app/#hommes-ukraine-restrictions-sortie-2022-2025
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Conflits
+- Zone: Ukraine
+- Period: 2022-2025
+- Status: lié à une crise
+- Key measure: 18-60 ans
+- Summary: Après l'invasion russe du 24 février 2022, la loi martiale ukrainienne a fortement limité la sortie du territoire des hommes citoyens ukrainiens d'âge militaire, avec exceptions. En août 2025, la règle a été assouplie pour les 18-22 ans.
+- Nuance: Cette fiche est datée: elle ne doit pas être lue comme une règle intemporelle pour tous les hommes ukrainiens. Les âges, exceptions et assouplissements doivent être vérifiés au moment de lecture.
+- Measured population: Population mesurée par les sources : men / male Ukrainian citizens d'âge militaire. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: OECD / EMN (2023): https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/migration/OECD-EMN%20Inform_%20Labour-market-integration-of-beneficiaries-of-temporary-protection-from-Ukraine.pdf; Le Monde (2025): https://www.lemonde.fr/en/international/article/2025/08/28/war-in-ukraine-government-allows-18-to-22-year-olds-to-leave-country-once-again_6744802_4.html; USA for UNHCR (2026): https://www.unrefugees.org/emergencies/ukraine/
+
+## Femmes moins payées que les hommes dans le privé
+- ID: femmes-ecart-salaire
+- URL: https://isora-xi.vercel.app/#femmes-ecart-salaire
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Revenus
+- Zone: France
+- Period: 2026+
+- Status: actuel
+- Key measure: 15 %
+- Summary: Dans le secteur privé, l'Insee mesure en 2022 un salaire en équivalent temps plein inférieur de 15 % pour les femmes. En 2024, le salaire net moyen mensuel privé est de 2 510 euros pour les femmes contre 2 890 euros pour les hommes.
+- Nuance: L'écart agrège temps partiel, métiers, positions hiérarchiques, entreprises et discriminations possibles. L'écart à poste comparable est plus réduit.
+- Measured population: Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Insee (2026): https://www.insee.fr/fr/statistiques/7457170
+
+## Femmes beaucoup plus souvent salariées à temps partiel
+- ID: femmes-temps-partiel
+- URL: https://isora-xi.vercel.app/#femmes-temps-partiel
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Travail
+- Zone: France
+- Period: 2024+
+- Status: actuel
+- Key measure: 26,6 % vs 7,8 %
+- Summary: En 2023, 26,6 % des femmes salariées sont à temps partiel contre 7,8 % des hommes. Les femmes représentent 77,9 % des salariés à temps partiel.
+- Nuance: Une partie est choisie, une partie subie. Les raisons familiales sont nettement plus souvent citées par les femmes.
+- Measured population: Population mesurée par la source : femmes et hommes salariés dans les statistiques Insee. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Insee (2024): https://www.insee.fr/fr/statistiques/7767077?sommaire=7767424
+
+## Femmes majoritaires parmi les victimes conjugales enregistrées
+- ID: femmes-violences-conjugales
+- URL: https://isora-xi.vercel.app/#femmes-violences-conjugales
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: France
+- Period: 23 octobre 2025+
+- Status: actuel
+- Key measure: 84 %
+- Summary: En 2024, les services de sécurité ont enregistré 272 400 victimes de violences commises par partenaire ou ex-partenaire. 84 % des victimes sont des femmes et seule une victime sur six porte plainte.
+- Nuance: Les données enregistrées dépendent du dépôt de plainte et des conditions d'accueil. Les enquêtes de victimation complètent ce tableau.
+- Measured population: Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Ministère de l'Intérieur / SSMSI (23 octobre 2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024
+
+## Femmes victimes de violences sexuelles très peu déclarées
+- ID: femmes-violences-sexuelles
+- URL: https://isora-xi.vercel.app/#femmes-violences-sexuelles
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: France
+- Period: 2024+
+- Status: actuel
+- Key measure: 277 000
+- Summary: Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte.
+- Nuance: Il s'agit d'une estimation minimale sur les personnes vivant en logement ordinaire dans le champ de l'enquête.
+- Measured population: Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Arrêtons les violences / SSMSI (2024): https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes
+
+## Femmes sous-représentées dans l'ingénierie
+- ID: femmes-ingenierie
+- URL: https://isora-xi.vercel.app/#femmes-ingenierie
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Éducation
+- Zone: France
+- Period: 2025+
+- Status: actuel
+- Key measure: 24 %
+- Summary: En 2023, les femmes représentent 24 % des ingénieurs en activité et 29 % des ingénieurs diplômés de l'année, selon l'Observatoire des Femmes Ingénieures basé sur l'enquête IESF.
+- Nuance: La sous-représentation combine orientation scolaire, stéréotypes, recrutement, fidélisation et accès aux responsabilités.
+- Measured population: Population mesurée par la source : femmes ingénieures et diplômées selon l'enquête IESF. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Femmes Ingénieures / IESF (2025): https://www.femmes-ingenieures.org/offres/file_inline_src/82/82_P_38037_690cc4ba6342f_33.pdf
+
+## Femmes plus appauvries après une séparation
+- ID: femmes-separation-niveau-vie
+- URL: https://isora-xi.vercel.app/#femmes-separation-niveau-vie
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Famille
+- Zone: France
+- Period: 2025+
+- Status: actuel
+- Key measure: -17 % vs -7 %
+- Summary: Dans l'étude Insee Occitanie, l'année de la séparation, le niveau de vie médian diminue de 17 % pour les femmes contre 7 % pour les hommes. La pauvreté touche alors 26 % des femmes séparées contre 18 % des hommes.
+- Nuance: L'étude porte sur l'Occitanie. Elle est cohérente avec d'autres travaux, mais une fiche nationale serait préférable.
+- Measured population: Population mesurée par la source : femmes et hommes séparés dans les données Insee. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Insee (2025): https://www.insee.fr/fr/statistiques/8338430
+
+## Candidate voilée discriminée à l'embauche
+- ID: femmes-discrimination-religieuse
+- URL: https://isora-xi.vercel.app/#femmes-discrimination-religieuse
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Religieux
+- Zone: France
+- Period: 18 avril 2025+
+- Status: actuel
+- Key measure: cas 2025
+- Summary: Le Défenseur des droits a constaté en 2025 une discrimination intersectionnelle directe liée aux convictions religieuses et au sexe dans un refus d'embauche visant une candidate portant le foulard.
+- Nuance: C'est une décision sur un cas précis. Elle sert d'exemple juridique sourcé, pas de mesure statistique générale.
+- Measured population: Population mesurée par la source : candidate visée par une décision juridique liée au sexe et à la religion. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Défenseur des droits (18 avril 2025): https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=22735
+
+## Femmes privées du droit de vote en France jusqu'en 1944
+- ID: femmes-france-droit-vote-1944
+- URL: https://isora-xi.vercel.app/#femmes-france-droit-vote-1944
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: France
+- Period: 1789-1945
+- Status: historique
+- Key measure: 1944/1945
+- Summary: En France, les femmes n'ont obtenu le droit de vote et d'éligibilité national qu'avec l'ordonnance du 21 avril 1944, avec un premier vote en 1945.
+- Nuance: Cette fiche décrit une situation historique en France: elle ne décrit pas le droit actuel, mais explique une exclusion politique passée et documentée.
+- Measured population: Population mesurée par la source : femmes dans l'histoire du droit français. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Vie publique (2024): https://www.vie-publique.fr/eclairage/19590-histoire-des-droits-des-femmes-chronologie-de-la-revolution-nos-jours
+
+## Femmes mariées privées d'autonomie bancaire avant 1965
+- ID: femmes-france-compte-bancaire-travail-1965
+- URL: https://isora-xi.vercel.app/#femmes-france-compte-bancaire-travail-1965
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: France
+- Period: 1804-1965
+- Status: historique
+- Key measure: 1965
+- Summary: Avant la loi du 13 juillet 1965, les femmes mariées en France étaient soumises à l'autorisation maritale pour ouvrir librement un compte, signer certains actes ou exercer une profession dans plusieurs situations.
+- Nuance: Cette fiche décrit une règle abrogée en France. Elle sert à distinguer l'historique du droit actuel et ne doit pas être présentée comme une contrainte contemporaine française.
+- Measured population: Population mesurée par la source : femmes mariées dans le droit civil français. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Gouvernement français (2025): https://www.info.gouv.fr/actualite/la-femme-mariee-avait-le-statut-de-mineure-au-meme-titre-que-les-enfants; BNP Paribas Histoire (2025): https://histoire.bnpparibas/temps-forts/juillet-1965-la-banque-et-les-femmes/
+
+## Contraception interdite ou restreinte en France avant 1967
+- ID: femmes-france-contraception-1967
+- URL: https://isora-xi.vercel.app/#femmes-france-contraception-1967
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: France
+- Period: 1920-1967
+- Status: historique
+- Key measure: 1967
+- Summary: La loi Neuwirth du 28 décembre 1967 a autorisé la contraception en France, avec une application progressive les années suivantes.
+- Nuance: La restriction est historique en France, mais l'accès réel à la contraception dépend encore de l'information, du coût, de l'offre de soins et du territoire.
+- Measured population: Population mesurée par la source : femmes dans l'histoire des droits reproductifs français. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Vie publique (2024): https://www.vie-publique.fr/eclairage/19590-histoire-des-droits-des-femmes-chronologie-de-la-revolution-nos-jours
+
+## IVG pénalisée en France avant la loi Veil
+- ID: femmes-france-ivg-1975-1979
+- URL: https://isora-xi.vercel.app/#femmes-france-ivg-1975-1979
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: France
+- Period: 1920-1979
+- Status: historique
+- Key measure: 1975/1979
+- Summary: La loi Veil du 17 janvier 1975 a dépénalisé l'IVG en France, avant une confirmation définitive par la loi du 31 décembre 1979.
+- Nuance: Cette fiche décrit une situation historique en France. Elle aide à lire l'évolution du droit reproductif sans confondre passé français et contraintes actuelles ailleurs.
+- Measured population: Population mesurée par la source : femmes concernées par le droit à l'IVG en France. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Vie publique (2024): https://www.vie-publique.fr/eclairage/19590-histoire-des-droits-des-femmes-chronologie-de-la-revolution-nos-jours
+
+## Femmes exposées aux violences physiques ou sexuelles
+- ID: femmes-violences-physiques-sexuelles-monde
+- URL: https://isora-xi.vercel.app/#femmes-violences-physiques-sexuelles-monde
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 1 sur 3
+- Summary: L'OMS estime qu'environ une femme sur trois dans le monde a subi des violences physiques et/ou sexuelles au cours de sa vie.
+- Nuance: L'indicateur agrège des formes de violence et des contextes très différents. Il documente un problème de santé publique massif.
+- Measured population: Population mesurée par la source : women / femmes dans les enquêtes de prévalence OMS. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation mondiale de la Santé (2024): https://www.who.int/news-room/fact-sheets/detail/violence-against-women
+
+## Détenues plus exposées à la victimisation sexuelle en prison
+- ID: femmes-prison-victimisation-sexuelle-etats-unis
+- URL: https://isora-xi.vercel.app/#femmes-prison-victimisation-sexuelle-etats-unis
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: États-Unis
+- Period: 2023-2024
+- Status: actuel
+- Key measure: 5,7 % vs 4,0 %
+- Summary: Dans les prisons d'État et fédérales américaines en 2023-2024, le Bureau of Justice Statistics estime que 5,7 % des détenues femmes ont rapporté une victimisation sexuelle sur les douze derniers mois ou depuis leur admission, contre 4,0 % des détenus hommes. L'écart vient surtout des faits entre détenus: 4,1 % des détenues déclarent une victimisation par une autre personne détenue, contre 2,2 % des détenus hommes.
+- Nuance: La donnée porte sur des taux déclarés aux États-Unis, pas sur le nombre absolu mondial de viols. Comme les hommes sont beaucoup plus nombreux en prison, les nombres absolus peuvent être plus élevés côté masculin. La catégorie BJS est plus large que le viol au sens pénal français et inclut aussi les faits impliquant le personnel; pour ces derniers, l'écart hommes/femmes n'est pas statistiquement significatif.
+- Measured population: Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Bureau of Justice Statistics (2025): https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-reported-inmates-2023-24; Bureau of Justice Statistics (2025): https://bjs.ojp.gov/document/svpri2324.pdf
+
+## Femmes et filles tuées par des proches ou partenaires
+- ID: femmes-feminicides-monde-2024
+- URL: https://isora-xi.vercel.app/#femmes-feminicides-monde-2024
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 50 000
+- Summary: En 2024, environ 83 000 femmes et filles ont été tuées intentionnellement dans le monde, dont environ 50 000 par un partenaire intime ou un membre de la famille.
+- Nuance: La sphère intime et familiale pèse particulièrement dans les homicides de femmes. Cette lecture complète, sans l'effacer, le fait que les victimes d'homicide globales sont majoritairement masculines.
+- Measured population: Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNODC / ONU Femmes (2024): https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html
+
+## Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur
+- ID: femmes-homicides-mineurs-condamnations
+- URL: https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations
+- Group: femmes
+- Angle: violence_exercée
+- Domain: Violences
+- Zone: France
+- Period: 1996-2015
+- Status: persistant
+- Key measure: 70 %
+- Summary: L'ONDRP indique qu'entre 1996 et 2015, la Justice française a prononcé 325 condamnations pour homicide volontaire sur mineur de moins de 15 ans, dont 227 contre des femmes, soit 70 %. Le rapport interministériel de 2018 nuance le tableau intrafamilial: dans sa synthèse, pères et mères mis en cause sont à égalité dans les 45 dossiers étudiés, mais les néonaticides relèvent d'une situation particulière de mères accouchant seules.
+- Nuance: Le 70 % porte sur des condamnations pour homicide volontaire sur mineur de moins de 15 ans, pas sur tous les décès violents d'enfants ni sur toutes les mises en cause. Le rapport Justice rappelle que la qualification pénale évolue, que les chiffres de police et de justice ne couvrent pas exactement le même champ, et que les pères sont notamment cités pour les morts de nourrissons victimes du syndrome du bébé secoué.
+- Measured population: Population mesurée par la source : femmes et hommes condamnés par la Justice française pour homicide volontaire sur mineur de moins de 15 ans. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: ONDRP / IHEMI (2017): https://www.ihemi.fr/sites/default/files/publications/files/2019-12/note_17_0.pdf; Ministère de la Justice (2018): https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/2018-044%20Rapport_Morts_violentes_enfants.pdf; 20 Minutes (2017): https://www.20minutes.fr/societe/2158023-20171025-pourquoi-meurtres-enfants-majoritairement-commis-femmes
+
+## Filles victimes de violences sexuelles avant 18 ans
+- ID: femmes-violences-sexuelles-enfance
+- URL: https://isora-xi.vercel.app/#femmes-violences-sexuelles-enfance
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 370 M+
+- Summary: L'UNICEF estime que plus de 370 millions de filles et femmes vivantes ont subi un viol ou une agression sexuelle avant l'âge de 18 ans.
+- Nuance: Les données sur les violences sexuelles sont sensibles à la sous-déclaration. Les estimations doivent être lues comme un ordre de grandeur minimal.
+- Measured population: Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNICEF (2024): https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children
+
+## Filles mariées pendant l'enfance
+- ID: femmes-mariage-enfants
+- URL: https://isora-xi.vercel.app/#femmes-mariage-enfants
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Monde
+- Period: 2023+
+- Status: actuel
+- Key measure: 640 M
+- Summary: L'UNICEF estime qu'environ 640 millions de filles et femmes vivantes ont été mariées pendant l'enfance.
+- Nuance: Le mariage d'enfants touche aussi des garçons, mais il affecte les filles à une échelle et avec des conséquences spécifiques majeures.
+- Measured population: Population mesurée par la source : girls and women / filles et femmes mariées pendant l'enfance. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNICEF Data (2023): https://data.unicef.org/resources/is-an-end-to-child-marriage-within-reach/
+
+## Filles et femmes victimes de mutilations génitales
+- ID: femmes-mutilations-genitales
+- URL: https://isora-xi.vercel.app/#femmes-mutilations-genitales
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Autonomie
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 230 M+
+- Summary: L'UNICEF estime que plus de 230 millions de filles et femmes ont subi une mutilation génitale féminine.
+- Nuance: Cette fiche documente une atteinte grave à l'intégrité corporelle. Les contextes culturels n'effacent pas l'enjeu de droits et de santé.
+- Measured population: Population mesurée par la source : girls and women / filles et femmes ayant subi une MGF. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNICEF Data (2024): https://data.unicef.org/resources/female-genital-mutilation-a-global-concern-2024/
+
+## Filles manquantes liées à la préférence pour les fils
+- ID: femmes-preference-garcons
+- URL: https://isora-xi.vercel.app/#femmes-preference-garcons
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 142 M
+- Summary: L'UNFPA estime qu'environ 142 millions de filles manquent à cause de la préférence pour les fils, de la sélection sexuelle et de formes de négligence.
+- Nuance: Le chiffre renvoie à des déséquilibres démographiques et sociaux, pas à une caractéristique biologique des filles ou des garçons.
+- Measured population: Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNFPA (2024): https://www.unfpa.org/son-preference
+
+## Filles hors de l'école
+- ID: femmes-filles-hors-ecole
+- URL: https://isora-xi.vercel.app/#femmes-filles-hors-ecole
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Éducation
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 119 M
+- Summary: L'UNICEF estime qu'environ 119 millions de filles sont hors de l'école dans le monde.
+- Nuance: L'accès des filles à l'école varie fortement selon les pays, la pauvreté, les conflits et les normes familiales.
+- Measured population: Population mesurée par la source : girls / filles hors de l'école selon UNICEF. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNICEF (2024): https://www.unicef.org/education/girls-education
+
+## Adolescentes privées d'enseignement secondaire en Afghanistan
+- ID: femmes-afghanistan-education
+- URL: https://isora-xi.vercel.app/#femmes-afghanistan-education
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Éducation
+- Zone: Afghanistan
+- Period: 2024+
+- Status: actuel
+- Key measure: 2,2 M
+- Summary: L'UNESCO indique qu'en Afghanistan, 2,2 millions d'adolescentes sont privées d'enseignement secondaire.
+- Nuance: C'est un cas national extrême d'exclusion scolaire fondée sur le sexe. Il ne doit pas être généralisé mécaniquement à tous les pays.
+- Measured population: Population mesurée par la source : adolescent girls / adolescentes en Afghanistan. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNESCO (2024): https://www.unesco.org/en/articles/new-report-warns-afghanistans-education-crisis-threatens-future-entire-generation
+
+## Femmes mortes de causes maternelles évitables
+- ID: femmes-mortalite-maternelle
+- URL: https://isora-xi.vercel.app/#femmes-mortalite-maternelle
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: 2023+
+- Status: actuel
+- Key measure: 260 000
+- Summary: En 2023, environ 260 000 femmes sont mortes pendant ou après une grossesse ou un accouchement, majoritairement de causes évitables.
+- Nuance: La mortalité maternelle dépend de l'accès aux soins, des conditions sanitaires, des inégalités économiques et de la qualité du suivi obstétrical.
+- Measured population: Population mesurée par la source : women mortes pendant ou après grossesse/accouchement. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation mondiale de la Santé (2023): https://www.who.int/news-room/fact-sheets/detail/maternal-mortality
+
+## Femmes sans contraception moderne malgré un besoin
+- ID: femmes-contraception-besoins-non-couverts
+- URL: https://isora-xi.vercel.app/#femmes-contraception-besoins-non-couverts
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 259 M
+- Summary: En 2024, l'UNFPA estime qu'environ 259 millions de femmes et adolescentes voulaient éviter ou retarder une grossesse sans utiliser de contraception moderne fiable.
+- Nuance: L'indicateur parle d'accès effectif à des moyens fiables, pas d'un choix uniforme des femmes concernées.
+- Measured population: Population mesurée par la source : women and adolescent girls / femmes et adolescentes. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNFPA (2024): https://www.unfpa.org/family-planning
+
+## Femmes et filles soumises au hijab obligatoire en Iran
+- ID: femmes-iran-hijab-obligatoire
+- URL: https://isora-xi.vercel.app/#femmes-iran-hijab-obligatoire
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Iran
+- Period: 1979+
+- Status: actuel
+- Key measure: actuel
+- Summary: En Iran, des obligations de port du hijab et de contrôle vestimentaire sont imposées aux femmes et filles, avec des sanctions renforcées ou discutées dans les textes récents.
+- Nuance: La fiche concerne l'Iran et ne doit pas être généralisée à tous les pays à majorité musulmane. Les textes et modalités d'application doivent être suivis dans le temps.
+- Measured population: Population mesurée par la source : women and girls / femmes et filles en Iran. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Amnesty International (2024): https://www.amnesty.org/en/latest/news/2024/12/iran-new-compulsory-veiling-law-intensifies-oppression-of-women-and-girls/; Human Rights Watch (2018): https://www.hrw.org/news/2018/02/24/iran-stop-prosecuting-women-over-dress-code
+
+## Femmes afghanes exclues de pans entiers de la vie publique
+- ID: femmes-afghanistan-taliban-restrictions
+- URL: https://isora-xi.vercel.app/#femmes-afghanistan-taliban-restrictions
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Afghanistan
+- Period: 2021+
+- Status: actuel
+- Key measure: 2021+
+- Summary: Sous les autorités de facto talibanes, les femmes et filles subissent des restrictions sur l'éducation, le travail, la mobilité et la couverture du visage hors du domicile.
+- Nuance: La fiche vise l'Afghanistan sous autorité talibane, pas une religion ou une région entière. Les restrictions doivent être documentées par pays et par autorité.
+- Measured population: Population mesurée par les sources : women and girls / femmes et filles sous autorité talibane. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNAMA (2025): https://unama.unmissions.org/sites/default/files/unama_pvpv_report_10_april_2025_english.pdf; ONU Femmes (2026): https://www.unwomen.org/en/articles/in-focus/afghanistan
+
+## Saoudiennes encore touchées par des restrictions de tutelle
+- ID: femmes-arabie-saoudite-reformes-tutelle
+- URL: https://isora-xi.vercel.app/#femmes-arabie-saoudite-reformes-tutelle
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Arabie saoudite
+- Period: 2018+
+- Status: partiellement réformé
+- Key measure: 2018/2019
+- Summary: L'Arabie saoudite a levé l'interdiction de conduire pour les femmes en 2018 et réformé en 2019 certaines restrictions de voyage pour les femmes de plus de 21 ans, mais des restrictions de tutelle persistent dans plusieurs domaines.
+- Nuance: Le statut est partiellement réformé: ne pas présenter l'Arabie saoudite de 2026 comme identique à l'Iran ou à l'Afghanistan sans source actuelle précise.
+- Measured population: Population mesurée par les sources : Saudi women / femmes en Arabie saoudite. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Human Rights Watch (2019): https://www.hrw.org/news/2019/08/02/saudi-arabia-important-advances-saudi-women; Human Rights Watch (2021): https://www.hrw.org/world-report/2021/country-chapters/saudi-arabia
+
+## Américaines face à un accès à l'avortement très variable
+- ID: femmes-etats-unis-dobbs-avortement
+- URL: https://isora-xi.vercel.app/#femmes-etats-unis-dobbs-avortement
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: États-Unis
+- Period: 2022+
+- Status: variable selon pays
+- Key measure: 2022+
+- Summary: Depuis Dobbs v. Jackson Women's Health Organization en 2022, les États américains peuvent interdire, restreindre ou protéger l'accès à l'avortement, ce qui rend l'accès très variable selon le lieu.
+- Nuance: Cette fiche est actuelle mais locale: elle décrit une variabilité entre États américains, pas une interdiction uniforme dans tous les États-Unis.
+- Measured population: Population mesurée par les sources : women / personnes cherchant un avortement selon les catégories juridiques. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Supreme Court of the United States (2022): https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf; KFF (2026): https://www.kff.org/womens-health-policy/10-things-to-know-about-abortion-access-since-the-dobbs-decision/
+
+## Décès liés aux avortements non sécurisés
+- ID: femmes-avortement-non-securise
+- URL: https://isora-xi.vercel.app/#femmes-avortement-non-securise
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: 2022+
+- Status: actuel
+- Key measure: 39 000/an
+- Summary: L'OMS indique que les avortements non sécurisés causent environ 39 000 décès par an et des millions d'hospitalisations évitables.
+- Nuance: La fiche porte sur les conséquences sanitaires de l'absence d'accès sécurisé, indépendamment des débats juridiques et moraux nationaux.
+- Measured population: Population mesurée par la source : women and girls dans la fiche OMS. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation mondiale de la Santé (2022): https://www.who.int/news/item/09-03-2022-access-to-safe-abortion-critical-for-health-of-women-and-girls
+
+## Femmes et filles massivement touchées par l'endométriose
+- ID: femmes-endometriose
+- URL: https://isora-xi.vercel.app/#femmes-endometriose
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: 2023+
+- Status: actuel
+- Key measure: 190 M
+- Summary: L'OMS estime que l'endométriose touche environ 190 millions de femmes et filles en âge de procréer.
+- Nuance: L'endométriose est souvent diagnostiquée tardivement. Le chiffre ne couvre pas toute l'expérience des douleurs et pertes de qualité de vie.
+- Measured population: Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation mondiale de la Santé (2023): https://www.who.int/news-room/fact-sheets/detail/endometriosis
+
+## Soins liés à la ménopause insuffisamment accessibles
+- ID: femmes-menopause-soins
+- URL: https://isora-xi.vercel.app/#femmes-menopause-soins
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: accès inégal
+- Summary: L'OMS souligne que l'information et l'accès aux soins liés à la ménopause restent insuffisants dans beaucoup de pays.
+- Nuance: Le sujet relève de la qualité de vie, de l'information médicale et de la prise en compte de la santé des femmes à tous les âges.
+- Measured population: Population mesurée par la source : women / personnes concernées par la ménopause selon l'OMS. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation mondiale de la Santé (2024): https://www.who.int/news-room/fact-sheets/detail/menopause
+
+## Femmes moins payées que les hommes dans le monde
+- ID: femmes-ecart-salaire-monde
+- URL: https://isora-xi.vercel.app/#femmes-ecart-salaire-monde
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Revenus
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 20 %
+- Summary: L'OIT indique que les femmes gagnent en moyenne environ 20 % de moins que les hommes dans le monde.
+- Nuance: L'écart mondial agrège des marchés du travail très différents. Il complète les fiches nationales sans les remplacer.
+- Measured population: Population mesurée par la source : women / men dans les indicateurs OIT. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation internationale du Travail (2024): https://www.ilo.org/resource/other/gender-pay-gap
+
+## Femmes tenues hors de l'emploi par le soin non rémunéré
+- ID: femmes-soin-non-remunere-emploi
+- URL: https://isora-xi.vercel.app/#femmes-soin-non-remunere-emploi
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Travail
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 708 M
+- Summary: L'OIT estime que 708 millions de femmes sont hors du marché du travail à cause de responsabilités de soin non rémunérées.
+- Nuance: Le soin non rémunéré a une valeur sociale réelle. L'enjeu est sa répartition, sa reconnaissance et son impact sur l'autonomie économique.
+- Measured population: Population mesurée par la source : women / men âgés de 15 ans ou plus hors force de travail pour raisons de soin. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Organisation internationale du Travail (2024): https://www.ilo.org/resource/news/unpaid-care-work-prevents-708-million-women-participating-labour-market
+
+## Femmes assumant beaucoup plus de soin non rémunéré
+- ID: femmes-charge-domestique-soin
+- URL: https://isora-xi.vercel.app/#femmes-charge-domestique-soin
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Famille
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 2,5x
+- Summary: ONU Femmes indique que les femmes et les filles passent plus de 2,5 fois plus de temps que les hommes au travail de soin non rémunéré.
+- Nuance: Le temps domestique varie selon les ménages et les pays. L'indicateur rend visible une charge souvent absente des revenus monétaires.
+- Measured population: Population mesurée par la source : women and girls / men and boys dans les données ONU Femmes. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: ONU Femmes (2024): https://www.unwomen.org/en/news-stories/statement/2024/10/care-a-critical-investment-for-gender-equality-and-the-rights-of-women-and-girls
+
+## Femmes privées d'une égalité complète de droits économiques
+- ID: femmes-droits-economiques-monde
+- URL: https://isora-xi.vercel.app/#femmes-droits-economiques-monde
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Monde
+- Period: 2026+
+- Status: actuel
+- Key measure: 2/3
+- Summary: Selon Women, Business and the Law 2026, les femmes n'ont encore qu'environ deux tiers des droits économiques des hommes et 4 % vivent dans des économies proches de l'égalité juridique complète.
+- Nuance: La mesure porte sur les droits formels et leur environnement légal. L'application réelle peut être meilleure ou pire selon les institutions.
+- Measured population: Population mesurée par la source : women / men dans les indicateurs juridiques Women, Business and the Law. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Banque mondiale (2026): https://wbl.worldbank.org/en/publications/flagship-report
+
+## Femmes sous-représentées dans le pouvoir politique mondial
+- ID: femmes-representation-politique-monde
+- URL: https://isora-xi.vercel.app/#femmes-representation-politique-monde
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Monde
+- Period: 2026+
+- Status: actuel
+- Key measure: 27,5 %
+- Summary: En 2026, les femmes occupent 27,5 % des sièges parlementaires mondiaux et environ un pays sur sept est dirigé par une femme.
+- Nuance: La représentation politique ne suffit pas à mesurer l'égalité, mais elle influence les priorités publiques et la visibilité des enjeux.
+- Measured population: Population mesurée par la source : women / femmes en responsabilités politiques. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: ONU Femmes (2026): https://www.unwomen.org/en/news-stories/press-release/2026/03/only-1-in-7-countries-is-led-by-a-woman-as-global-political-power-remains-dominated-by-men
+
+## Femmes et filles vivant près de conflits meurtriers
+- ID: femmes-conflits-proximite
+- URL: https://isora-xi.vercel.app/#femmes-conflits-proximite
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Conflits
+- Zone: Monde
+- Period: 2024+
+- Status: lié à une crise
+- Key measure: 676 M
+- Summary: En 2024, ONU Femmes estime qu'environ 676 millions de femmes et filles vivaient à moins de 50 km d'un conflit meurtrier.
+- Nuance: Les conflits exposent aussi massivement les hommes à la conscription, aux blessures et à la mort. Cette fiche cible les risques et besoins spécifiques des femmes et filles civiles.
+- Measured population: Population mesurée par la source : women and girls / femmes et filles vivant près d'un conflit. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: ONU Femmes (2024): https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-women-peace-and-security
+
+## Dirigeantes femmes : le pouvoir n'implique pas automatiquement la paix
+- ID: femmes-dirigeantes-paix-essentialisme
+- URL: https://isora-xi.vercel.app/#femmes-dirigeantes-paix-essentialisme
+- Group: femmes
+- Angle: récit_sur_le_sexe
+- Domain: Conflits
+- Zone: Europe
+- Period: 1480-1913
+- Status: historique
+- Key measure: +27 %
+- Summary: Une étude NBER sur des monarchies européennes de 1480 à 1913 estime que les États gouvernés par des reines étaient 27 % plus susceptibles de participer à des guerres interétatiques que ceux gouvernés par des rois. Des exemples comme Catherine de Médicis lors de la Saint-Barthélemy ou Ranavalona I à Madagascar rappellent aussi que des femmes au pouvoir ont pu être associées à des violences politiques.
+- Nuance: La fiche réfute un récit essentialisant, pas l'idée que les femmes seraient intrinsèquement plus bellicistes. Les résultats historiques européens ne se transposent pas mécaniquement aux démocraties contemporaines, et les responsabilités individuelles doivent être lues dans leur contexte institutionnel.
+- Measured population: Population mesurée par les sources : reines et femmes dirigeantes dans des travaux historiques et des exemples biographiques. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: NBER (2017): https://www.nber.org/system/files/working_papers/w23337/w23337.pdf; Britannica (consulté 2026): https://www.britannica.com/event/Massacre-of-Saint-Bartholomews-Day; Britannica (consulté 2026): https://www.britannica.com/biography/Ranavalona-I; Britannica (2024): https://www.britannica.com/topic/Operation-Blue-Star
+
+## Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni
+- ID: femmes-espaces-non-mixtes-sexe
+- URL: https://isora-xi.vercel.app/#femmes-espaces-non-mixtes-sexe
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Royaume-Uni
+- Period: 2025-2026
+- Status: actuel
+- Key measure: 2025/2026
+- Summary: Après l'arrêt For Women Scotland du 16 avril 2025, l'EHRC indique que, pour l'Equality Act 2010, le sexe doit être interprété comme le sexe biologique enregistré à la naissance, même en cas de Gender Recognition Certificate. Son projet de code 2026 précise que des services peuvent demander la confirmation du sexe pour assurer une prestation séparée ou non mixte légale.
+- Nuance: Cette fiche documente une asymétrie juridique et pratique autour de la non-mixité, de la vie privée, de la dignité et de la sécurité. Elle ne dit pas que les personnes trans seraient dangereuses par nature; elle signale que l'accès fondé sur l'identité de genre peut retirer aux femmes une garantie fondée sur le sexe dans certains espaces.
+- Measured population: Population mesurée par la source : femmes, hommes et personnes trans dans le cadre juridique britannique sur les services séparés ou non mixtes. La source raisonne en sexe légal/biologique au sens de l'Equality Act, pas par test chromosomique individuel.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Equality and Human Rights Commission (2026): https://www.equalityhumanrights.com/our-work/uk-supreme-court-ruling-meaning-sex-equality-act-our-work; Equality and Human Rights Commission (2026): https://www.equalityhumanrights.com/equality/equality-act-2010/codes-practice/code-practice-services-public-functions-and-0
+
+## Catégorie sportive féminine fragilisée par l'avantage de puberté masculine
+- ID: femmes-sport-categorie-feminine-puberte-masculine
+- URL: https://isora-xi.vercel.app/#femmes-sport-categorie-feminine-puberte-masculine
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Droits
+- Zone: Monde
+- Period: 2023-2024
+- Status: variable selon pays
+- Key measure: 890+ médailles
+- Summary: Le rapport 2024 de la rapporteuse spéciale de l'ONU sur les violences contre les femmes et les filles dans le sport indique qu'au 30 mars 2024, plus de 600 athlètes féminines auraient perdu plus de 890 médailles dans 29 sports lorsque des athlètes de sexe masculin concouraient dans des catégories féminines. World Athletics exclut depuis 2023 les athlètes male-to-female ayant connu la puberté masculine de ses compétitions féminines de classement mondial.
+- Nuance: Le chiffre des médailles provient d'informations reçues par la rapporteuse spéciale, pas d'une base sportive mondiale uniformisée. La partie la plus robuste est réglementaire: plusieurs fédérations reconnaissent qu'une puberté masculine peut créer un avantage persistant et arbitrent entre inclusion, sécurité et équité de la catégorie féminine.
+- Measured population: Population mesurée par les sources : athlètes féminines, athlètes de sexe masculin s'identifiant comme femmes, et athlètes 46 XY DSD selon les règles sportives citées. World Aquatics peut prévoir une certification du sexe chromosomique dans son protocole.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Nations Unies (2024): https://digitallibrary.un.org/record/4062371/files/A_79_325-EN.pdf; World Athletics (2023): https://worldathletics.org/news/press-releases/council-meeting-march-2023-russia-belarus-female-eligibility; World Aquatics (2023): https://resources.fina.org/fina/document/2023/03/27/dbc3381c-91e9-4ea4-a743-84c8b06debef/Policy-on-Eligibility-for-the-Men-s-and-Women-s-Competiition-Categrories-Version-on-2023.03.24.pdf
+
+## Femmes et filles majoritaires parmi les victimes de traite détectées
+- ID: femmes-traite-humaine
+- URL: https://isora-xi.vercel.app/#femmes-traite-humaine
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Violences
+- Zone: Monde
+- Period: 2022+
+- Status: actuel
+- Key measure: 61 %
+- Summary: En 2022, l'UNODC indique que les femmes et filles représentaient 61 % des victimes de traite détectées dans le monde, les filles étant souvent exploitées sexuellement.
+- Nuance: Les victimes détectées ne représentent pas toute la traite. Les formes d'exploitation diffèrent selon l'âge, le sexe, la région et le contrôle policier.
+- Measured population: Population mesurée par la source : women and girls / femmes et filles parmi les victimes détectées. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: UNODC (2022): https://www.unodc.org/unodc/en/press/releases/2024/December/unodc-global-human-trafficking-report_-detected-victims-up-25-per-cent-as-more-children-are-exploited-and-forced-labour-cases-spike.html
+
+## Femmes visées par les violences facilitées par la technologie
+- ID: femmes-violence-numerique
+- URL: https://isora-xi.vercel.app/#femmes-violence-numerique
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Numérique
+- Zone: Monde
+- Period: 2024+
+- Status: actuel
+- Key measure: 16-58 %
+- Summary: Les études compilées par ONU Femmes estiment que 16 % à 58 % des femmes ont subi des violences facilitées par la technologie.
+- Nuance: La fourchette large reflète des définitions et méthodes différentes. Le phénomène doit être lu avec prudence mais il est suffisamment documenté pour être visible.
+- Measured population: Population mesurée par la source : women / femmes dans des études aux méthodes variables. La source ne mesure pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: ONU Femmes (2024): https://www.unwomen.org/en/articles/faqs/digital-abuse-trolling-stalking-and-other-forms-of-technology-facilitated-violence-against-women

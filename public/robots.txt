@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://isora-xi.vercel.app/sitemap.xml

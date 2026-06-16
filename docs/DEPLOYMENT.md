@@ -97,6 +97,22 @@ Si le projet Vercel perd son lien GitHub:
 npm exec -- vercel git connect git@github.com:Brraiin/isora.git
 ```
 
+## Contributions et contestations
+
+Les formulaires publics envoient les suggestions et contestations vers l'endpoint Vercel:
+
+```text
+/api/contributions
+```
+
+L'endpoint cree une issue GitHub structuree dans `Brraiin/isora`. Pour l'activer en production, ajouter dans Vercel une variable d'environnement:
+
+```text
+GITHUB_ISSUE_TOKEN
+```
+
+Le token doit avoir le droit de creer des issues sur le depot `Brraiin/isora`. Sans cette variable, les formulaires restent sauvegardes localement dans le navigateur de l'utilisateur mais ne sont pas transmis.
+
 ## Domaine IONOS
 
 Quand le domaine definitif est connu, l'ajouter d'abord au projet Vercel, puis suivre les enregistrements DNS indiques par Vercel:
@@ -137,4 +153,3 @@ Ces fichiers/dossiers sont generes ou locaux:
 - `.vercel/`
 - `isora-dist.zip`
 - `*.tsbuildinfo`
-

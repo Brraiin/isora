@@ -34,6 +34,14 @@ export type Source = {
   date: string;
 };
 
+export type ClaimTranslation = {
+  title: string;
+  summary: string;
+  nuance: string;
+  sourcePopulation?: string;
+  tags?: string[];
+};
+
 export type Claim = {
   id: string;
   side: Side;
@@ -49,6 +57,7 @@ export type Claim = {
   confidence: Confidence;
   lastChecked: string;
   nuance: string;
+  translations?: Partial<Record<"en", ClaimTranslation>>;
   categorie_sexedata: "Homme (XY)" | "Femme (XX)";
   libelle_source: string;
   mesure_chromosomes: boolean;
@@ -440,6 +449,123 @@ const rawClaims: RawClaim[] = [
       "Les enquêtes de victimation captent mieux une partie des violences non déclarées. Les dynamiques de contrôle et de gravité doivent être analysées finement.",
   },
   {
+    id: "hommes-violences-conjugales-aides-specialisees",
+    side: "hommes",
+    domain: "Violences",
+    title: "Hommes victimes orientés vers des aides moins spécialisées",
+    metric: "4,4 % aidés",
+    summary:
+      "En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais seulement 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou hébergement sûr disponibles pour hommes en septembre 2025, dont 130 dédiées aux hommes. Au Canada, le refuge privé MASH d'Earl Silverman à Calgary a fermé en 2013 faute de financement public ou fédéral/provincial.",
+    tags: ["violences conjugales", "aide aux victimes", "France", "Royaume-Uni", "Canada"],
+    source: {
+      label: "Ouverture du numéro 3919 aux hommes victimes de violences conjugales",
+      publisher: "Assemblée nationale / Réponse ministérielle",
+      url: "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5235",
+      date: "2025",
+    },
+    additionalSources: [
+      {
+        label: "116 006 - Numéro d'aide aux victimes",
+        publisher: "Service-Public.fr",
+        url: "https://lannuaire.service-public.gouv.fr/centres-contact/R167",
+        date: "2025",
+      },
+      {
+        label: "SOS Hommes Battus France",
+        publisher: "SOS Hommes Battus France",
+        url: "https://soshommesbattus.org/",
+        date: "consulté 2026",
+      },
+      {
+        label: "Statistics on Male Victims of Domestic Abuse",
+        publisher: "ManKind Initiative",
+        url: "https://mankind.org.uk/statistics/statistics-on-male-victims-of-domestic-abuse/",
+        date: "2025",
+      },
+      {
+        label: "Shelter for male victims of domestic abuse forced to close its doors",
+        publisher: "CityNews Calgary",
+        url: "https://calgary.citynews.ca/2013/03/21/shelter-for-male-victims-of-domestic-abuse-forced-to-close-its-doors/",
+        date: "2013",
+      },
+      {
+        label: "Domestic Violence (Police Response)",
+        publisher: "Hansard / UK Parliament",
+        url: "https://hansard.parliament.uk/commons/2014-04-10/debates/14041077000001/DomesticViolence%28PoliceResponse%29",
+        date: "2014",
+      },
+      {
+        label: "Erin Pizzey Excerpts - Domestic Violence Is Not A Gender Issue",
+        publisher: "Sandra Orozco-Stapleton Foundation",
+        url: "https://www.sossandra.org/erin-pizzey-excerpts",
+        date: "2006",
+      },
+      {
+        label: "The Respondent Episode 34: Erin Pizzey",
+        publisher: "The Respondent",
+        url: "https://www.therespondent.com/blogs/episodes/erin-pizzey",
+        date: "consulté 2026",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Il ne faut pas écrire qu'il n'existe aucun centre pour hommes: le Royaume-Uni recense des places, et des lignes spécialisées existent. L'asymétrie documentée est plutôt la rareté, la faible visibilité, le financement limité, et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.",
+  },
+  {
+    id: "hommes-agressions-sexuelles-minimisees",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Violences",
+    title: "Hommes moins enclins à reconnaître certaines agressions sexuelles",
+    metric: "48 % vs 60 %",
+    summary:
+      "Une enquête NSVRC/YouGov de 2017 indique que les hommes américains qualifient moins souvent que les femmes certaines conduites d'agression sexuelle: 48 % des hommes contre 60 % des femmes pour des remarques sexuelles non sollicitées, 67 % contre 79 % pour un rapport obtenu sous pression, et 56 % contre 72 % pour le voyeurisme. Des travaux sur les mythes du viol masculin montrent aussi que les hommes acceptent davantage ces mythes, surtout quand l'auteure est une femme.",
+    tags: ["violences sexuelles", "consentement", "récit", "États-Unis"],
+    source: {
+      label: "New Data Reveals High Awareness Among U.S. Adults on What Constitutes Sexual Assault",
+      publisher: "National Sexual Violence Resource Center / YouGov",
+      url: "https://www.nsvrc.org/blog_post/new-data-reveals-high-awareness-among-us-adults-what-constitutes-sexual/",
+      date: "2017",
+    },
+    additionalSources: [
+      {
+        label: "Acceptance of male rape myths among college men and women",
+        publisher: "Sex Roles / Springer",
+        url: "https://link.springer.com/article/10.1007/BF00290011",
+        date: "1992",
+      },
+      {
+        label: "Adult male victims of female-perpetrated sexual violence: Australian social media responses, myths and flipped expectations",
+        publisher: "International Review of Victimology / SAGE",
+        url: "https://journals.sagepub.com/doi/10.1177/02697580211048552",
+        date: "2022",
+      },
+      {
+        label: "Intimate partner violence, sexual violence, and stalking among men",
+        publisher: "CDC",
+        url: "https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html",
+        date: "2024",
+      },
+      {
+        label: "Understanding Male Socialization, Stigma, and Reactions to Sexual Violence",
+        publisher: "National Sexual Violence Resource Center",
+        url: "https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/",
+        date: "consulté 2026",
+      },
+      {
+        label: "Whom Would You Help? The Impact of Perpetrator and Victim Gender on Bystander Behavior During a Sexual Assault",
+        publisher: "Violence Against Women / SAGE",
+        url: "https://journals.sagepub.com/doi/10.1177/10778012241263104",
+        date: "2024",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. La fiche documente une asymétrie de perception et de minimisation; elle ne dit pas que toutes les victimes masculines minimisent, ni que les femmes agressent plus que les hommes.",
+  },
+  {
     id: "hommes-mis-en-cause-violences-conjugales-france",
     side: "hommes",
     angle: "violence_exercée",
@@ -496,6 +622,52 @@ const rawClaims: RawClaim[] = [
     lastChecked: "16 juin 2026",
     nuance:
       "Un classement sans suite, un non-lieu, une relaxe ou un acquittement ne prouve pas à lui seul qu'une accusation était fausse. Cette fiche documente le risque réputationnel quand l'accusation est infondée ou fausse, et le fait que les personnes mises en cause dans ce contentieux sont très majoritairement des hommes.",
+  },
+  {
+    id: "hommes-sanctions-penales-plus-lourdes",
+    side: "hommes",
+    domain: "Justice",
+    title: "Hommes plus exposés aux sanctions pénales lourdes",
+    metric: "41 % vs 18 %",
+    summary:
+      "En France, le ministère de la Justice indique que, pour les vols et recels entre 2018 et 2022, 41 % des hommes condamnés reçoivent une peine d'emprisonnement ferme ou partiellement ferme, contre 18 % des femmes condamnées pour le même type d'infractions. L'Insee conclut aussi que les femmes condamnées bénéficient de sanctions moins lourdes, et que les écarts ne disparaissent pas totalement après prise en compte du nombre d'infractions et des antécédents pour les atteintes aux biens ou aux personnes. Aux États-Unis, une étude sur les affaires fédérales estime qu'à infraction d'arrestation, antécédents et autres observables comparables, les hommes reçoivent en moyenne des peines 63 % plus longues que les femmes.",
+    tags: ["justice", "peines", "prison", "France", "États-Unis"],
+    source: {
+      label: "Femmes et hommes devant la justice pénale",
+      publisher: "Ministère de la Justice / SSER",
+      url: "https://www.justice.gouv.fr/sites/default/files/2024-03/INFO%20RAPIDE%20JUSTICE-13.pdf",
+      date: "2024",
+    },
+    additionalSources: [
+      {
+        label: "Un traitement judiciaire différent entre femmes et hommes délinquants",
+        publisher: "Insee",
+        url: "https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548",
+        date: "2017",
+      },
+      {
+        label: "Estimating Gender Disparities in Federal Criminal Cases",
+        publisher: "University of Michigan Law School",
+        url: "https://repository.law.umich.edu/law_econ_current/57/",
+        date: "2012",
+      },
+      {
+        label: "2017 Demographic Differences in Federal Sentencing",
+        publisher: "United States Sentencing Commission",
+        url: "https://www.ussc.gov/research/research-reports/2017-demographic-differences-federal-sentencing",
+        date: "2017",
+      },
+      {
+        label: "Les logiques genrées des sanctions pénales",
+        publisher: "INED",
+        url: "https://www.ined.fr/fr/actualites/logiques-genrees-sanctions-penales",
+        date: "2026",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "Cette fiche ne prouve pas une règle universelle mondiale. Pour parler de 'même délit', il faut contrôler la gravité exacte, le rôle dans l'affaire, la récidive, les antécédents, la situation pré-procès et les éléments de personnalité pris en compte par le juge. Les sources françaises et américaines documentent néanmoins une asymétrie robuste sur la prison et la sévérité des peines; l'INED note aussi que les femmes peuvent recevoir des amendes plus élevées lorsqu'elles sont condamnées à l'amende.",
   },
   {
     id: "hommes-conge-paternite-ocde",
@@ -849,6 +1021,34 @@ const rawClaims: RawClaim[] = [
     lastChecked: "15 juin 2026",
     nuance:
       "L'indicateur agrège des formes de violence et des contextes très différents. Il documente un problème de santé publique massif.",
+  },
+  {
+    id: "femmes-prison-victimisation-sexuelle-etats-unis",
+    side: "femmes",
+    domain: "Violences",
+    title: "Détenues plus exposées à la victimisation sexuelle en prison",
+    metric: "5,7 % vs 4,0 %",
+    summary:
+      "Dans les prisons d'État et fédérales américaines en 2023-2024, le Bureau of Justice Statistics estime que 5,7 % des détenues femmes ont rapporté une victimisation sexuelle sur les douze derniers mois ou depuis leur admission, contre 4,0 % des détenus hommes. L'écart vient surtout des faits entre détenus: 4,1 % des détenues déclarent une victimisation par une autre personne détenue, contre 2,2 % des détenus hommes.",
+    tags: ["violences sexuelles", "prison", "États-Unis", "détention"],
+    source: {
+      label: "Sexual Victimization in Prisons Reported by Inmates, 2023-24",
+      publisher: "Bureau of Justice Statistics",
+      url: "https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-reported-inmates-2023-24",
+      date: "2025",
+    },
+    additionalSources: [
+      {
+        label: "Full report: Sexual Victimization in Prisons Reported by Inmates, 2023-24",
+        publisher: "Bureau of Justice Statistics",
+        url: "https://bjs.ojp.gov/document/svpri2324.pdf",
+        date: "2025",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "16 juin 2026",
+    nuance:
+      "La donnée porte sur des taux déclarés aux États-Unis, pas sur le nombre absolu mondial de viols. Comme les hommes sont beaucoup plus nombreux en prison, les nombres absolus peuvent être plus élevés côté masculin. La catégorie BJS est plus large que le viol au sens pénal français et inclut aussi les faits impliquant le personnel; pour ces derniers, l'écart hommes/femmes n'est pas statistiquement significatif.",
   },
   {
     id: "femmes-feminicides-monde-2024",
@@ -1537,10 +1737,16 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : men / male victims dans l'enquête CDC. La source ne mesure pas les chromosomes.",
   "hommes-violence-domestique-royaume-uni":
     "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
+  "hommes-violences-conjugales-aides-specialisees":
+    "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux, places d'hébergement sûr au Royaume-Uni, et cas historiques Erin Pizzey/Earl Silverman. Les sources ne mesurent pas les chromosomes.",
+  "hommes-agressions-sexuelles-minimisees":
+    "Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.",
   "hommes-mis-en-cause-violences-conjugales-france":
     "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
   "hommes-accusations-sexuelles-infirmees-reputation":
     "Population mesurée par les sources : personnes mises en cause femmes/hommes dans les affaires de violences sexuelles traitées par les parquets français, et cas de fausses allégations étudiés dans la littérature. Les sources ne mesurent pas les chromosomes.",
+  "hommes-sanctions-penales-plus-lourdes":
+    "Population mesurée par les sources : femmes et hommes mis en cause, poursuivis ou condamnés dans les statistiques pénales françaises, et personnes arrêtées ou condamnées dans les affaires fédérales américaines. Les sources ne mesurent pas les chromosomes.",
   "hommes-conge-paternite-ocde":
     "Population mesurée par la source : fathers / pères dans les politiques de congé. La source ne mesure pas les chromosomes.",
   "hommes-autonomie-corporelle-circoncision":
@@ -1579,6 +1785,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : femmes concernées par le droit à l'IVG en France. La source ne mesure pas les chromosomes.",
   "femmes-violences-physiques-sexuelles-monde":
     "Population mesurée par la source : women / femmes dans les enquêtes de prévalence OMS. La source ne mesure pas les chromosomes.",
+  "femmes-prison-victimisation-sexuelle-etats-unis":
+    "Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.",
   "femmes-feminicides-monde-2024":
     "Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.",
   "femmes-violences-sexuelles-enfance":
@@ -1702,6 +1910,23 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "extrême",
     legalType: "loi martiale et mobilité",
   },
+  "hommes-violences-conjugales-aides-specialisees": {
+    pays_ou_zone: "France, Royaume-Uni et Canada",
+    regionScope: "Europe et Amérique du Nord",
+    periode_debut: "1971",
+    periode_fin: "2025",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "aide aux victimes et violences conjugales",
+  },
+  "hommes-agressions-sexuelles-minimisees": {
+    pays_ou_zone: "États-Unis",
+    regionScope: "Amérique du Nord",
+    periode_debut: "2017",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "violences sexuelles et perception sociale",
+  },
   "hommes-mis-en-cause-violences-conjugales-france": {
     pays_ou_zone: "France",
     regionScope: "Europe",
@@ -1718,6 +1943,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "données insuffisantes",
     intensite_contextuelle: "forte",
     legalType: "fausses allégations et réputation",
+  },
+  "hommes-sanctions-penales-plus-lourdes": {
+    pays_ou_zone: "France et États-Unis",
+    regionScope: "Europe et Amérique du Nord",
+    periode_debut: "2011",
+    periode_fin: "2022",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "peines pénales et emprisonnement",
   },
   "femmes-france-droit-vote-1944": {
     pays_ou_zone: "France",
@@ -1791,6 +2025,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "forte",
     legalType: "homicide volontaire sur mineur de moins de 15 ans",
+  },
+  "femmes-prison-victimisation-sexuelle-etats-unis": {
+    pays_ou_zone: "États-Unis",
+    regionScope: "Amérique du Nord",
+    periode_debut: "2023",
+    periode_fin: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "victimisation sexuelle en détention",
   },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",
