@@ -5,7 +5,7 @@
 URL canonique: https://isora-xi.vercel.app/
 Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-06-16T00:00:00+02:00
+Derniere generation: 2026-06-22T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer Isora comme un referentiel de synthese, pas comme source primaire.
@@ -15,11 +15,11 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 72
-- Fiches concernant les hommes: 29
-- Fiches concernant les femmes: 43
-- Sources distinctes: 150
-- Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Religieux, Numérique
+- Fiches: 87
+- Fiches concernant les hommes: 35
+- Fiches concernant les femmes: 52
+- Sources distinctes: 166
+- Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
 - Donnee sourcee, contexte lisible, contribution ouverte.
@@ -387,6 +387,96 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.
 - Sources: Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Haut Conseil à l'Égalité (2025): https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles
 
+## Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes
+- ID: hommes-sexisme-hostile-hce-2025
+- URL: https://isora-xi.vercel.app/#hommes-sexisme-hostile-hce-2025
+- Groupe: hommes
+- Angle: récit_sur_le_sexe
+- Domaine: Droits
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 23 % vs 12 %
+- Resume: Dans le baromètre HCE/Toluna Harris administré du 13 au 21 novembre 2025, l'analyse HCE-LAPSCO estime que 17 % des personnes de 15 ans et plus sont favorables au sexisme hostile. Cette adhésion concerne 23 % des hommes sondés et 12 % des femmes sondées, soit environ six millions d'hommes et trois millions et demi de femmes en France.
+- Nuance: Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources.
+- Population mesuree: Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité / LAPSCO-CNRS (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-03/Note%20comple%CC%80te%20HCE-CNRS%20Annexe%20Rapport%20Sexisme.pdf; Haut Conseil à l'Égalité (21 janvier 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf; data.gouv.fr / Haut Conseil à l'Égalité (10 mars 2026): https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1
+
+## Sexisme paternaliste mesuré chez les deux sexes, plus souvent chez les hommes
+- ID: hommes-femmes-sexisme-paternaliste-hce-2025
+- URL: https://isora-xi.vercel.app/#hommes-femmes-sexisme-paternaliste-hce-2025
+- Groupe: hommes
+- Angle: récit_sur_le_sexe
+- Domaine: Droits
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 27 % vs 18 %
+- Resume: Dans le même baromètre HCE/Toluna Harris de novembre 2025, 23 % des personnes interrogées sont favorables au sexisme paternaliste. Il est mesuré chez 27 % des hommes sondés et 18 % des femmes sondées, soit environ 7,5 millions d'hommes et 5 millions de femmes en France.
+- Nuance: Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité.
+- Population mesuree: Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité / LAPSCO-CNRS (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-03/Note%20comple%CC%80te%20HCE-CNRS%20Annexe%20Rapport%20Sexisme.pdf; Haut Conseil à l'Égalité (21 janvier 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf; data.gouv.fr / Haut Conseil à l'Égalité (10 mars 2026): https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1
+
+## Consentement sexuel : écarts entre désapprobation et situations déclarées
+- ID: hommes-consentement-rapports-sexuels-hce-2025
+- URL: https://isora-xi.vercel.app/#hommes-consentement-rapports-sexuels-hce-2025
+- Groupe: hommes
+- Angle: violence_exercée
+- Domaine: Violences
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 26 % / 24 %
+- Resume: Le rapport HCE 2026, à partir du baromètre administré en novembre 2025, indique que 26 % des hommes déclarent avoir déjà douté du consentement de leur partenaire. Il relève aussi que 24 % des hommes considèrent normal qu'une femme accepte un rapport sexuel par devoir ou pour faire plaisir, 17 % qu'une femme peut être convaincue après avoir dit non, et 15 % qu'une femme agressée sexuellement peut être en partie responsable de sa situation.
+- Nuance: La fiche regroupe plusieurs items du baromètre: certains portent sur des situations déclarées, d'autres sur des opinions. Elle ne décrit pas tous les hommes, ne mesure pas les infractions réellement commises et n'établit pas une causalité individuelle. La source utilise les catégories d'enquête hommes/femmes et ne mesure pas les chromosomes.
+- Population mesuree: Population mesurée par la source : hommes interrogés en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf; data.gouv.fr / Haut Conseil à l'Égalité (10 mars 2026): https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1
+
+## Récits antiféministes plus déclarés chez les hommes
+- ID: hommes-recits-antifeministes-hce-2025
+- URL: https://isora-xi.vercel.app/#hommes-recits-antifeministes-hce-2025
+- Groupe: hommes
+- Angle: récit_sur_le_sexe
+- Domaine: Droits
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 60 %
+- Resume: Dans le baromètre cité par le HCE, 60 % des hommes pensent que les féministes veulent que les femmes aient plus de pouvoir que les hommes, et 60 % estiment que les féministes ont des demandes exagérées envers les hommes. Le rapport indique aussi que 39 % des hommes, contre 25 % des femmes, estiment que le féminisme menace la place et le rôle des hommes dans la société.
+- Nuance: Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes.
+- Population mesuree: Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf
+
+## Garde des enfants : perception d'un avantage aux mères et demandes des pères
+- ID: hommes-perception-garde-enfants-hce-2025
+- URL: https://isora-xi.vercel.app/#hommes-perception-garde-enfants-hce-2025
+- Groupe: hommes
+- Angle: récit_sur_le_sexe
+- Domaine: Justice
+- Zone: France
+- Periode: 2013-2025
+- Statut: actuel
+- Mesure cle: 64 % vs 48 %
+- Resume: Le rapport HCE indique que 64 % des hommes et 48 % des femmes estiment que les femmes sont avantagées par la justice pour obtenir la garde des enfants. Il met ce résultat en regard d'une étude du ministère de la Justice selon laquelle, parmi les demandes exprimées par les pères dans le cadre étudié, 58 % demandent une résidence principale chez la mère, 19 % une résidence alternée et 15 % une résidence principale chez eux; 93 % des demandes des pères ont été satisfaites.
+- Nuance: Le premier chiffre est une mesure d'opinion, tandis que le second porte sur un ensemble précis de demandes et décisions judiciaires. Il ne tranche pas tous les conflits de garde et ne mesure pas à lui seul les arrangements informels, les pressions de négociation ou les contraintes familiales avant décision.
+- Population mesuree: Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Ministère de la Justice (2013): https://www.justice.gouv.fr/documentation/ressources/residence-enfants-parents-separes
+
+## Violences sexuelles : le 'laxisme judiciaire' n'est pas imputable aux hommes
+- ID: hommes-attribution-laxisme-justice-violences-sexuelles
+- URL: https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles
+- Groupe: hommes
+- Angle: récit_sur_le_sexe
+- Domaine: Justice
+- Zone: France
+- Periode: 2018-2024
+- Statut: actuel
+- Mesure cle: 70 % / 63 %
+- Resume: En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres contredisent l'idée qu'un éventuel 'laxisme judiciaire' en matière de violences sexuelles serait mécaniquement décidé par un corps judiciaire masculin.
+- Nuance: La donnée ne prouve pas l'argument inverse, selon lequel les femmes seraient responsables du laxisme. Les greffiers ne décident ni de la culpabilité ni de la peine, et les affaires de violences sexuelles passent par l'enquête, le parquet, parfois l'instruction, les contraintes de preuve, la qualification juridique, l'audience et les voies de recours. Le point est plus limité: attribuer la réponse judiciaire à des 'hommes de justice' comme groupe n'est pas étayé par la composition sexuée des effectifs.
+- Population mesuree: Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.
+- Sources: Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Ministère de la Justice / Infostat Justice (2019, mis à jour le 26 juillet 2024): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/greffiers-directeurs-services-greffes-corps-professionnels-justice-feminises; Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice (2022, mis à jour): https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
+
 ## Hommes plus exposés aux sanctions pénales lourdes
 - ID: hommes-sanctions-penales-plus-lourdes
 - URL: https://isora-xi.vercel.app/#hommes-sanctions-penales-plus-lourdes
@@ -477,6 +567,21 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Population mesuree: Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.
 - Sources: HCREP / Insee (2025): https://www.strategie-plan.gouv.fr/files/2025-03/04032025_HCREP-INSEE.pdf; Insee (2026): https://www.insee.fr/fr/statistiques/8743657; Insee (2025): https://www.insee.fr/fr/statistiques/8386049
 
+## Taxe rose : des prix genrés existent, sans surcoût féminin généralisé
+- ID: hommes-femmes-taxe-rose-prix-genres
+- URL: https://isora-xi.vercel.app/#hommes-femmes-taxe-rose-prix-genres
+- Groupe: femmes
+- Angle: récit_sur_le_sexe
+- Domaine: Revenus
+- Zone: France et États-Unis
+- Periode: 2015-2018
+- Statut: persistant
+- Mesure cle: écarts mixtes
+- Resume: En France, l'avis du Conseil national de la consommation sur le marketing différencié indique que les relevés de prix réalisés sur un périmètre limité ont trouvé des différences tour à tour en défaveur des hommes et des femmes, sans faire ressortir de surcoût généralisé pour les femmes, sauf pour les crèmes hydratantes. Aux États-Unis, le GAO observe aussi que certains produits d'hygiène comparables sont plus chers côté femmes, tandis que certains produits hommes, comme les rasoirs, coûtent davantage.
+- Nuance: La taxe rose n'est pas une taxe légale. Les sources soutiennent une conclusion plus étroite: le marketing genré peut créer des écarts de prix sur certains produits similaires, mais le sens varie selon les catégories. Les prix peuvent aussi refléter l'emballage, la composition, les volumes, la prestation, le positionnement de marque, la demande et la disposition à payer. La segmentation de marché peut néanmoins s'appuyer sur des normes de genre: le phénomène n'est donc ni imaginaire ni universellement à sens unique.
+- Population mesuree: Population mesurée par les sources : produits et services genrés comparés en France et aux États-Unis, avec catégories destinées aux femmes et aux hommes. Les sources ne mesurent pas les chromosomes.
+- Sources: Conseil national de la consommation / DGCCRF (13 décembre 2016): https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/2017/17_02/avis-cnc-marketing.pdf; U.S. Government Accountability Office (2018): https://www.gao.gov/products/gao-18-500; New York City Department of Consumer Affairs (2015): https://www.nyc.gov/assets/dca/downloads/pdf/partners/Study-of-Gender-Pricing-in-NYC.pdf
+
 ## Femmes beaucoup plus souvent salariées à temps partiel
 - ID: femmes-temps-partiel
 - URL: https://isora-xi.vercel.app/#femmes-temps-partiel
@@ -521,6 +626,126 @@ Derniere generation: 2026-06-16T00:00:00+02:00
 - Nuance: La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.
 - Population mesuree: Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.
 - Sources: Arrêtons les violences / SSMSI (2024): https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes; The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html
+
+## Perception du sexisme comme désavantage plus forte chez les femmes
+- ID: femmes-perception-desavantage-hce-2025
+- URL: https://isora-xi.vercel.app/#femmes-perception-desavantage-hce-2025
+- Groupe: femmes
+- Angle: récit_sur_le_sexe
+- Domaine: Droits
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 54 % vs 42 %
+- Resume: Dans le rapport HCE 2026, fondé notamment sur le baromètre administré en novembre 2025, 54 % des femmes estiment qu'il est désavantageux d'être une femme dans la société actuelle, contre 42 % des hommes. Chez les 15-24 ans, cette perception atteint 75 % des jeunes femmes contre 42 % des jeunes hommes.
+- Nuance: Il s'agit d'un indicateur de perception, pas d'une mesure complète de tous les désavantages vécus par les femmes ou les hommes. Il est utile parce que l'écart est mesuré par sexe et par âge dans la même enquête, mais il n'identifie pas à lui seul les causes.
+- Population mesuree: Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaisons hommes/femmes et par âge dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf
+
+## Femmes très majoritaires parmi les victimes dans les transports
+- ID: femmes-violences-sexuelles-transports-hce-2025
+- URL: https://isora-xi.vercel.app/#femmes-violences-sexuelles-transports-hce-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Violences
+- Zone: France
+- Periode: 2024-2025
+- Statut: actuel
+- Mesure cle: 91 %
+- Resume: Le rapport HCE indique que plus de six femmes sur dix déclarent avoir déjà été moins bien traitées en raison de leur sexe dans la rue ou les transports. Dans les transports en commun, 91 % des victimes de violences sexistes ou sexuelles sont des femmes; 3 400 victimes de violences sexuelles y ont été recensées en 2024, avec une sous-déclaration importante.
+- Nuance: Les chiffres sur les transports combinent faits enregistrés et informations d'enquête sur le dépôt de plainte. Ils documentent une forte asymétrie de victimation dans un espace précis, mais les données enregistrées restent dépendantes du signalement et de l'enregistrement par les services compétents.
+- Population mesuree: Population mesurée par les sources : femmes interrogées sur leur traitement dans l'espace public et victimes enregistrées de violences sexistes ou sexuelles dans les transports en commun. Les sources ne mesurent pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données 2024-2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Observatoire national des violences faites aux femmes / Miprof (mars 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf
+
+## Sport : écarts de traitement, de revenus et de visibilité
+- ID: femmes-sport-inegalites-hce-2025
+- URL: https://isora-xi.vercel.app/#femmes-sport-inegalites-hce-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Revenus
+- Zone: France et monde
+- Periode: 2021-2025
+- Statut: persistant
+- Mesure cle: 226 M$ vs 1,9 Md$
+- Resume: Le HCE relève que 67 % de la population estime que les femmes ne sont pas traitées de manière équivalente dans le sport, et que 20 % des femmes disent en avoir personnellement fait l'expérience. Le rapport cite aussi un écart de rémunération de 23 % dans la branche sport en 2021, et un écart international très marqué entre les vingt athlètes féminines les mieux rémunérées en 2023 (226 millions de dollars) et le Top 20 masculin (1,9 milliard).
+- Nuance: Les écarts de revenus et de visibilité dépendent en partie de l'audience, des droits de diffusion, du sponsoring, des primes, de la rentabilité des compétitions et plus largement de la demande du public; ils ne permettent donc pas, à eux seuls, d'attribuer l'écart à une discrimination directe ou à une responsabilité individuelle des hommes. Cette logique de marché peut produire des asymétries différentes selon les secteurs. En parallèle, la demande peut être façonnée par l'exposition médiatique, les investissements, les horaires de diffusion, la structuration des compétitions, les récits sportifs et les habitudes culturelles. Cette fiche documente des écarts observés et des indicateurs de traitement perçu, sans isoler une cause unique.
+- Population mesuree: Population mesurée par les sources : personnes interrogées sur le sport en France, femmes déclarant une expérience personnelle, données de rémunération de la branche sport et revenus internationaux du sport d'élite. Les sources ne mesurent pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données 2021-2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Haut Conseil à l'Égalité (17 juillet 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2025-07/HCE-2025-RAPPORT-FEMMES-ET-SPORT-V3.pdf
+
+## Cybersexisme : victimes majoritairement féminines selon le HCE
+- ID: femmes-cybersexisme-hce-2025
+- URL: https://isora-xi.vercel.app/#femmes-cybersexisme-hce-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Numérique
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 84 %
+- Resume: Le rapport HCE présente le cybersexisme comme la première forme de discours de haine en ligne dans son champ, avec 84 % des victimes étant des femmes. La perception du phénomène progresse davantage chez les femmes, à 64 %, que chez les hommes, à 56 %.
+- Nuance: La source décrit une catégorie précise de haine en ligne et de victimation. Elle ne doit pas être généralisée à toutes les formes de cyberviolence, de conflit en ligne ou de contestation de la modération des plateformes.
+- Population mesuree: Population mesurée par la source : victimes et répondants dans les données citées par le HCE sur le cybersexisme et la haine en ligne. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf
+
+## Deepfakes sexuels : contenus pornographiques visant surtout des femmes
+- ID: femmes-deepfakes-sexuels-hce-2025
+- URL: https://isora-xi.vercel.app/#femmes-deepfakes-sexuels-hce-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Numérique
+- Zone: France
+- Periode: 2024-2026
+- Statut: actuel
+- Mesure cle: 99 %
+- Resume: Le rapport HCE indique que 96 % des contenus de deepfake ou hypertrucage à caractère sexuel sont des montages pornographiques, et que 99 % visent des femmes. Depuis la loi SREN de 2024, l'article 226-8-1 du code pénal sanctionne la diffusion non consentie d'un montage sexuel, avec une peine aggravée en cas de diffusion en ligne.
+- Nuance: Le chiffre de 99 % concerne cette catégorie précise de contenus sexuels hypertruqués. Il ne décrit pas l'ensemble des médias synthétiques ni l'ensemble des atteintes en ligne, et le rappel juridique concerne le droit pénal français.
+- Population mesuree: Population mesurée par les sources : personnes visées par des contenus de deepfake ou hypertrucage sexuel, et personnes protégées par le droit pénal français. Les sources ne mesurent pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Légifrance (version en vigueur depuis 2024): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049567458
+
+## Famille : traitement inégal déclaré plus souvent par les femmes
+- ID: femmes-inegalites-familiales-hce-2025
+- URL: https://isora-xi.vercel.app/#femmes-inegalites-familiales-hce-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Famille
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 51 % vs 22 %
+- Resume: Dans le baromètre cité par le HCE, 51 % des femmes déclarent avoir déjà été moins bien traitées dans leur vie de famille, contre 22 % des hommes. Le rapport indique aussi que 68 % des personnes interrogées jugent normal que les femmes interrompent plus longtemps leur activité après une naissance, 40 % qu'elles cessent de travailler pour s'occuper des enfants, et 40 % des femmes déclarent un déséquilibre dans les tâches ménagères.
+- Nuance: La fiche combine expériences personnelles et items d'opinion: elle doit donc être lue comme une asymétrie de normes familiales plutôt que comme un mécanisme causal unique. Certaines attentes familiales contraignent aussi les hommes, notamment à travers le rôle de pourvoyeur financier.
+- Population mesuree: Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec comparaisons femmes/hommes et items d'opinion. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf
+
+## Expériences sexistes déclarées par une large majorité de femmes
+- ID: femmes-vecu-situations-sexistes-hce-2025
+- URL: https://isora-xi.vercel.app/#femmes-vecu-situations-sexistes-hce-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Violences
+- Zone: France
+- Periode: 2025+
+- Statut: actuel
+- Mesure cle: 84 %
+- Resume: Le rapport HCE indique que 84 % des femmes ont déjà vécu au moins une situation sexiste. Il cite notamment le harcèlement dans l'espace public, les blagues ou commentaires sexistes, les sifflements ou interpellations à caractère sexuel, ainsi que des violences sexuelles ou pressions insistantes pour un rapport non désiré.
+- Nuance: Il s'agit de données déclaratives d'enquête. Les situations listées couvrent des niveaux de gravité très différents; le chiffre de 84 % ne doit donc pas être réduit aux seules formes les plus graves.
+- Population mesuree: Population mesurée par la source : femmes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf
+
+## Assemblée nationale : part des députées en recul en 2024
+- ID: femmes-assemblee-nationale-parite-2024
+- URL: https://isora-xi.vercel.app/#femmes-assemblee-nationale-parite-2024
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Droits
+- Zone: France
+- Periode: 2017-2024
+- Statut: en baisse
+- Mesure cle: 36 %
+- Resume: Le rapport HCE indique que la part de femmes députées à l'Assemblée nationale est passée à 36 % après les élections législatives de 2024, contre 37 % en 2022 et 39 % en 2017.
+- Nuance: L'indicateur concerne une institution et un cycle électoral précis. Il documente la représentation, pas la qualité du travail parlementaire ni la répartition des postes internes à l'Assemblée.
+- Population mesuree: Population mesurée par la source : femmes et hommes élus à l'Assemblée nationale française. La source ne mesure pas les chromosomes.
+- Sources: Haut Conseil à l'Égalité (données 2017-2024, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf
 
 ## Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée
 - ID: femmes-ingenierie

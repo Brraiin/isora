@@ -795,6 +795,294 @@ const rawClaims: RawClaim[] = [
       "La donnée principale vient d'une enquête de victimation et repose sur les déclarations des victimes ayant renseigné le sexe de l'agresseur. Elle porte sur les viols, tentatives de viol et agressions sexuelles déclarés par des femmes majeures; elle ne mesure pas tous les faits réellement commis ni les chromosomes des auteurs.",
   },
   {
+    id: "hommes-sexisme-hostile-hce-2025",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Droits",
+    title: "Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes",
+    metric: "23 % vs 12 %",
+    summary:
+      "Dans le baromètre HCE/Toluna Harris administré du 13 au 21 novembre 2025, l'analyse HCE-LAPSCO estime que 17 % des personnes de 15 ans et plus sont favorables au sexisme hostile. Cette adhésion concerne 23 % des hommes sondés et 12 % des femmes sondées, soit environ six millions d'hommes et trois millions et demi de femmes en France.",
+    tags: ["sexisme", "stéréotypes", "France", "HCE", "opinion"],
+    source: {
+      label: "Note complète HCE-CNRS - Annexe Rapport Sexisme",
+      publisher: "Haut Conseil à l'Égalité / LAPSCO-CNRS",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-03/Note%20comple%CC%80te%20HCE-CNRS%20Annexe%20Rapport%20Sexisme.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+        publisher: "Haut Conseil à l'Égalité",
+        url: "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
+        date: "21 janvier 2026",
+      },
+      {
+        label: "Baromètre Sexisme - Vague 5",
+        publisher: "Toluna Harris Interactive / DGCS / HCE",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf",
+        date: "novembre 2025",
+      },
+      {
+        label: "Baromètre Sexisme 2026 - données brutes",
+        publisher: "data.gouv.fr / Haut Conseil à l'Égalité",
+        url: "https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1",
+        date: "10 mars 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Endorsement of hostile sexism toward women is more frequent among men",
+        summary:
+          "In the HCE/Toluna Harris survey conducted from 13 to 21 November 2025, the HCE-LAPSCO analysis estimates that 17% of people aged 15 and over are favourable to hostile sexism. This endorsement concerns 23% of surveyed men and 12% of surveyed women, corresponding to around six million men and three and a half million women in France.",
+        nuance:
+          "In this source, hostile sexism refers to negative, contemptuous or aggressive attitudes toward women. The indicator measures endorsement of opinion items in a representative survey; it does not measure hostile acts committed by each person, hostility toward men, anti-male statements by feminist actors, or parliamentary rhetoric. Women also endorse these items, but the measured level is higher among men. A symmetrical assessment of misandry or stigmatizing discourse toward all men would require other items and other sources.",
+        sourcePopulation:
+          "Population measured by the source: people aged 15 and over in France, with a men/women comparison in the November 2025 HCE/Toluna Harris survey. The source does not measure chromosomes.",
+        tags: ["sexism", "stereotypes", "France", "HCE", "opinion"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "22 juin 2026",
+    nuance:
+      "Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources.",
+  },
+  {
+    id: "hommes-femmes-sexisme-paternaliste-hce-2025",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Droits",
+    title: "Sexisme paternaliste mesuré chez les deux sexes, plus souvent chez les hommes",
+    metric: "27 % vs 18 %",
+    summary:
+      "Dans le même baromètre HCE/Toluna Harris de novembre 2025, 23 % des personnes interrogées sont favorables au sexisme paternaliste. Il est mesuré chez 27 % des hommes sondés et 18 % des femmes sondées, soit environ 7,5 millions d'hommes et 5 millions de femmes en France.",
+    tags: ["sexisme", "stéréotypes", "France", "HCE", "opinion"],
+    source: {
+      label: "Note complète HCE-CNRS - Annexe Rapport Sexisme",
+      publisher: "Haut Conseil à l'Égalité / LAPSCO-CNRS",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-03/Note%20comple%CC%80te%20HCE-CNRS%20Annexe%20Rapport%20Sexisme.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+        publisher: "Haut Conseil à l'Égalité",
+        url: "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
+        date: "21 janvier 2026",
+      },
+      {
+        label: "Baromètre Sexisme - Vague 5",
+        publisher: "Toluna Harris Interactive / DGCS / HCE",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf",
+        date: "novembre 2025",
+      },
+      {
+        label: "Baromètre Sexisme 2026 - données brutes",
+        publisher: "data.gouv.fr / Haut Conseil à l'Égalité",
+        url: "https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1",
+        date: "10 mars 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Paternalistic sexism is measured in both sexes, more often among men",
+        summary:
+          "In the same November 2025 HCE/Toluna Harris survey, 23% of respondents are favourable to paternalistic sexism. It is measured among 27% of surveyed men and 18% of surveyed women, corresponding to around 7.5 million men and 5 million women in France.",
+        nuance:
+          "This entry does not present paternalistic sexism as a property of one sex. It describes a frequency asymmetry in the survey: men are higher in proportion and in estimated volume, while a measurable share of women also endorse these norms. The source measures opinions, not individual behaviour or causality.",
+        sourcePopulation:
+          "Population measured by the source: people aged 15 and over in France, with a men/women comparison in the November 2025 HCE/Toluna Harris survey. The source does not measure chromosomes.",
+        tags: ["sexism", "stereotypes", "France", "HCE", "opinion"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité.",
+  },
+  {
+    id: "hommes-consentement-rapports-sexuels-hce-2025",
+    side: "hommes",
+    angle: "violence_exercée",
+    domain: "Violences",
+    title: "Consentement sexuel : écarts entre désapprobation et situations déclarées",
+    metric: "26 % / 24 %",
+    summary:
+      "Le rapport HCE 2026, à partir du baromètre administré en novembre 2025, indique que 26 % des hommes déclarent avoir déjà douté du consentement de leur partenaire. Il relève aussi que 24 % des hommes considèrent normal qu'une femme accepte un rapport sexuel par devoir ou pour faire plaisir, 17 % qu'une femme peut être convaincue après avoir dit non, et 15 % qu'une femme agressée sexuellement peut être en partie responsable de sa situation.",
+    tags: ["consentement", "violences sexuelles", "France", "HCE", "opinion"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Baromètre Sexisme - Vague 5",
+        publisher: "Toluna Harris Interactive / DGCS / HCE",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf",
+        date: "novembre 2025",
+      },
+      {
+        label: "Baromètre Sexisme 2026 - données brutes",
+        publisher: "data.gouv.fr / Haut Conseil à l'Égalité",
+        url: "https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1",
+        date: "10 mars 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Sexual consent: gaps between disapproval and reported situations",
+        summary:
+          "The HCE 2026 report, based on the survey conducted in November 2025, states that 26% of men say they have already doubted their partner's consent. It also notes that 24% of men consider it normal for a woman to accept sex out of duty or to please her partner, 17% think a woman can be convinced after saying no, and 15% think a sexually assaulted woman can be partly responsible for her situation.",
+        nuance:
+          "The entry combines several survey items: some are self-reported situations and others are opinions. It does not describe all men, does not measure actual offences, and does not establish individual causality. The source uses survey categories for men and women and does not measure chromosomes.",
+        sourcePopulation:
+          "Population measured by the source: men surveyed in France in the November 2025 HCE/Toluna Harris barometer. The source does not measure chromosomes.",
+        tags: ["consent", "sexual violence", "France", "HCE", "opinion"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "La fiche regroupe plusieurs items du baromètre: certains portent sur des situations déclarées, d'autres sur des opinions. Elle ne décrit pas tous les hommes, ne mesure pas les infractions réellement commises et n'établit pas une causalité individuelle. La source utilise les catégories d'enquête hommes/femmes et ne mesure pas les chromosomes.",
+  },
+  {
+    id: "hommes-recits-antifeministes-hce-2025",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Droits",
+    title: "Récits antiféministes plus déclarés chez les hommes",
+    metric: "60 %",
+    summary:
+      "Dans le baromètre cité par le HCE, 60 % des hommes pensent que les féministes veulent que les femmes aient plus de pouvoir que les hommes, et 60 % estiment que les féministes ont des demandes exagérées envers les hommes. Le rapport indique aussi que 39 % des hommes, contre 25 % des femmes, estiment que le féminisme menace la place et le rôle des hommes dans la société.",
+    tags: ["féminisme", "masculinisme", "opinion", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Baromètre Sexisme - Vague 5",
+        publisher: "Toluna Harris Interactive / DGCS / HCE",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf",
+        date: "novembre 2025",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Anti-feminist narratives are reported more often among men",
+        summary:
+          "In the barometer cited by the HCE, 60% of men think feminists want women to have more power than men, and 60% think feminists make excessive demands on men. The report also states that 39% of men, compared with 25% of women, think feminism threatens men's place and role in society.",
+        nuance:
+          "These figures measure agreement with opinion statements, not membership in a movement or intent. The comparison also shows that some women endorse the same statements, while the level measured among men is higher.",
+        sourcePopulation:
+          "Population measured by the source: people surveyed in France in the November 2025 HCE/Toluna Harris barometer, with several items reported for men and one men/women comparison. The source does not measure chromosomes.",
+        tags: ["feminism", "masculinism", "opinion", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes.",
+  },
+  {
+    id: "hommes-perception-garde-enfants-hce-2025",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Justice",
+    title: "Garde des enfants : perception d'un avantage aux mères et demandes des pères",
+    metric: "64 % vs 48 %",
+    summary:
+      "Le rapport HCE indique que 64 % des hommes et 48 % des femmes estiment que les femmes sont avantagées par la justice pour obtenir la garde des enfants. Il met ce résultat en regard d'une étude du ministère de la Justice selon laquelle, parmi les demandes exprimées par les pères dans le cadre étudié, 58 % demandent une résidence principale chez la mère, 19 % une résidence alternée et 15 % une résidence principale chez eux; 93 % des demandes des pères ont été satisfaites.",
+    tags: ["justice", "famille", "garde des enfants", "opinion", "France"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "La résidence des enfants de parents séparés : de la demande des parents à la décision du juge",
+        publisher: "Ministère de la Justice",
+        url: "https://www.justice.gouv.fr/documentation/ressources/residence-enfants-parents-separes",
+        date: "2013",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Child residence: perception of an advantage for mothers and fathers' requests",
+        summary:
+          "The HCE report states that 64% of men and 48% of women think women are advantaged by courts in obtaining child residence. It compares this with a Ministry of Justice study indicating that, among fathers' requests in the studied scope, 58% asked for the child's main residence to be with the mother, 19% for alternating residence and 15% for main residence with the father; 93% of fathers' requests were granted.",
+        nuance:
+          "The first figure is an opinion measure, while the second concerns a specific set of court-related requests and decisions. It does not settle every custody dispute and does not by itself measure all informal arrangements, negotiation pressures or family constraints before a court decision.",
+        sourcePopulation:
+          "Population measured by the sources: people surveyed in France on perceptions of family justice, and fathers' requests studied by the French Ministry of Justice. The sources do not measure chromosomes.",
+        tags: ["justice", "family", "child residence", "opinion", "France"],
+      },
+    },
+    confidence: "moyenne",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Le premier chiffre est une mesure d'opinion, tandis que le second porte sur un ensemble précis de demandes et décisions judiciaires. Il ne tranche pas tous les conflits de garde et ne mesure pas à lui seul les arrangements informels, les pressions de négociation ou les contraintes familiales avant décision.",
+  },
+  {
+    id: "hommes-attribution-laxisme-justice-violences-sexuelles",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Justice",
+    title: "Violences sexuelles : le 'laxisme judiciaire' n'est pas imputable aux hommes",
+    metric: "70 % / 63 %",
+    summary:
+      "En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres contredisent l'idée qu'un éventuel 'laxisme judiciaire' en matière de violences sexuelles serait mécaniquement décidé par un corps judiciaire masculin.",
+    tags: ["justice", "violences sexuelles", "magistrats", "greffiers", "France"],
+    source: {
+      label: "Références Statistiques Justice 2025 - Les moyens et personnels de la justice",
+      publisher: "Ministère de la Justice / SSER",
+      url: "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf",
+      date: "données 2024, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Les greffiers et directeurs des services de greffes, des corps professionnels de la justice féminisés",
+        publisher: "Ministère de la Justice / Infostat Justice",
+        url: "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/greffiers-directeurs-services-greffes-corps-professionnels-justice-feminises",
+        date: "2019, mis à jour le 26 juillet 2024",
+      },
+      {
+        label: "Références Statistiques Justice 2025 - Les violences sexuelles",
+        publisher: "Ministère de la Justice / SSER",
+        url: "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf",
+        date: "données 2024, publication 2026",
+      },
+      {
+        label: "Les personnels de greffe",
+        publisher: "Ministère de la Justice",
+        url: "https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe",
+        date: "2022, mis à jour",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Sexual violence: alleged judicial leniency cannot be attributed to men",
+        summary:
+          "In 2024, women represented 70% of professional judges and 63% of prosecutors; court and prosecution office staff were 81% female. Clerks and court registry directors were 88% female on 1 January 2018. These figures contradict the idea that alleged judicial leniency in sexual violence cases is mechanically decided by a male judiciary.",
+        nuance:
+          "The data does not prove the opposite claim, that women are responsible for leniency. Registry staff do not decide guilt or sentencing, and sexual-violence cases move through police investigation, prosecution, instruction, evidentiary constraints, legal qualification, hearings and possible appeals. The point is narrower: blaming 'men in justice' as a group is not supported by the workforce composition data.",
+        sourcePopulation:
+          "Population measured by the sources: professional judges, prosecutors, court and prosecution office staff, clerks and registry directors in French justice statistics. The sources do not measure chromosomes.",
+        tags: ["justice", "sexual violence", "judges", "clerks", "France"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "La donnée ne prouve pas l'argument inverse, selon lequel les femmes seraient responsables du laxisme. Les greffiers ne décident ni de la culpabilité ni de la peine, et les affaires de violences sexuelles passent par l'enquête, le parquet, parfois l'instruction, les contraintes de preuve, la qualification juridique, l'audience et les voies de recours. Le point est plus limité: attribuer la réponse judiciaire à des 'hommes de justice' comme groupe n'est pas étayé par la composition sexuée des effectifs.",
+  },
+  {
     id: "hommes-sanctions-penales-plus-lourdes",
     side: "hommes",
     domain: "Justice",
@@ -990,6 +1278,53 @@ const rawClaims: RawClaim[] = [
       "La donnée ne correspond pas à un simple 'à travail égal'. Les écarts bruts agrègent volume de travail, métiers, secteurs, positions hiérarchiques et accès aux très hauts salaires. Les écarts à poste ou profil comparable sont nettement plus faibles, mais ne mesurent pas à eux seuls la discrimination salariale: ils ne captent pas toujours l'expérience, l'ancienneté, le diplôme, les interruptions de carrière ni les mécanismes d'orientation vers les métiers moins rémunérés.",
   },
   {
+    id: "hommes-femmes-taxe-rose-prix-genres",
+    side: "femmes",
+    angle: "récit_sur_le_sexe",
+    domain: "Revenus",
+    title: "Taxe rose : des prix genrés existent, sans surcoût féminin généralisé",
+    metric: "écarts mixtes",
+    summary:
+      "En France, l'avis du Conseil national de la consommation sur le marketing différencié indique que les relevés de prix réalisés sur un périmètre limité ont trouvé des différences tour à tour en défaveur des hommes et des femmes, sans faire ressortir de surcoût généralisé pour les femmes, sauf pour les crèmes hydratantes. Aux États-Unis, le GAO observe aussi que certains produits d'hygiène comparables sont plus chers côté femmes, tandis que certains produits hommes, comme les rasoirs, coûtent davantage.",
+    tags: ["femmes", "hommes", "taxe rose", "prix genrés", "marketing", "revenus"],
+    source: {
+      label: "Avis du Conseil national de la consommation - Marketing différencié",
+      publisher: "Conseil national de la consommation / DGCCRF",
+      url: "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/2017/17_02/avis-cnc-marketing.pdf",
+      date: "13 décembre 2016",
+    },
+    additionalSources: [
+      {
+        label: "Gender-Related Price Differences for Goods and Services",
+        publisher: "U.S. Government Accountability Office",
+        url: "https://www.gao.gov/products/gao-18-500",
+        date: "2018",
+      },
+      {
+        label: "From Cradle to Cane: The Cost of Being a Female Consumer",
+        publisher: "New York City Department of Consumer Affairs",
+        url: "https://www.nyc.gov/assets/dca/downloads/pdf/partners/Study-of-Gender-Pricing-in-NYC.pdf",
+        date: "2015",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Pink tax: gendered prices exist, without a generalized female surcharge",
+        summary:
+          "In France, the National Consumer Council opinion on differentiated marketing states that price checks on a limited scope found differences alternately disadvantaging men and women, without showing a generalized surcharge for women, except for moisturizing creams. In the United States, the GAO also found that some comparable personal care products were more expensive for women, while some men's products, such as razors, cost more.",
+        nuance:
+          "The pink tax is not a legal tax. The evidence supports a narrower claim: gendered marketing can create price differences for some similar products, but the direction varies by category. Prices can also reflect packaging, formulation, volumes, services, brand positioning, demand and willingness to pay. Market segmentation may still rely on gender norms, so the phenomenon is neither imaginary nor universally one-sided.",
+        sourcePopulation:
+          "Population measured by the sources: gendered consumer products and services compared in France and the United States. The sources do not measure chromosomes.",
+        tags: ["women", "men", "pink tax", "gendered prices", "marketing", "income"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "La taxe rose n'est pas une taxe légale. Les sources soutiennent une conclusion plus étroite: le marketing genré peut créer des écarts de prix sur certains produits similaires, mais le sens varie selon les catégories. Les prix peuvent aussi refléter l'emballage, la composition, les volumes, la prestation, le positionnement de marque, la demande et la disposition à payer. La segmentation de marché peut néanmoins s'appuyer sur des normes de genre: le phénomène n'est donc ni imaginaire ni universellement à sens unique.",
+  },
+  {
     id: "femmes-temps-partiel",
     side: "femmes",
     angle: "récit_sur_le_sexe",
@@ -1103,6 +1438,311 @@ const rawClaims: RawClaim[] = [
     lastChecked: "16 juin 2026",
     nuance:
       "La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
+  },
+  {
+    id: "femmes-perception-desavantage-hce-2025",
+    side: "femmes",
+    angle: "récit_sur_le_sexe",
+    domain: "Droits",
+    title: "Perception du sexisme comme désavantage plus forte chez les femmes",
+    metric: "54 % vs 42 %",
+    summary:
+      "Dans le rapport HCE 2026, fondé notamment sur le baromètre administré en novembre 2025, 54 % des femmes estiment qu'il est désavantageux d'être une femme dans la société actuelle, contre 42 % des hommes. Chez les 15-24 ans, cette perception atteint 75 % des jeunes femmes contre 42 % des jeunes hommes.",
+    tags: ["sexisme", "perception", "jeunes", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Baromètre Sexisme - Vague 5",
+        publisher: "Toluna Harris Interactive / DGCS / HCE",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf",
+        date: "novembre 2025",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Women more often perceive sexism as a disadvantage",
+        summary:
+          "In the HCE 2026 report, based in part on the survey conducted in November 2025, 54% of women think it is disadvantageous to be a woman in today's society, compared with 42% of men. Among 15-24 year-olds, this perception reaches 75% of young women compared with 42% of young men.",
+        nuance:
+          "This is a perception indicator, not a complete measurement of every disadvantage experienced by women or men. It is useful because the gap is measured by sex and age in the same survey, but it does not identify causes on its own.",
+        sourcePopulation:
+          "Population measured by the source: people aged 15 and over in France, with men/women and age comparisons in the November 2025 HCE/Toluna Harris survey. The source does not measure chromosomes.",
+        tags: ["sexism", "perception", "young people", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Il s'agit d'un indicateur de perception, pas d'une mesure complète de tous les désavantages vécus par les femmes ou les hommes. Il est utile parce que l'écart est mesuré par sexe et par âge dans la même enquête, mais il n'identifie pas à lui seul les causes.",
+  },
+  {
+    id: "femmes-violences-sexuelles-transports-hce-2025",
+    side: "femmes",
+    domain: "Violences",
+    title: "Femmes très majoritaires parmi les victimes dans les transports",
+    metric: "91 %",
+    summary:
+      "Le rapport HCE indique que plus de six femmes sur dix déclarent avoir déjà été moins bien traitées en raison de leur sexe dans la rue ou les transports. Dans les transports en commun, 91 % des victimes de violences sexistes ou sexuelles sont des femmes; 3 400 victimes de violences sexuelles y ont été recensées en 2024, avec une sous-déclaration importante.",
+    tags: ["transports", "espace public", "violences sexuelles", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données 2024-2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Lettre n°23 - Les violences sexistes et sexuelles dans les transports en commun",
+        publisher: "Observatoire national des violences faites aux femmes / Miprof",
+        url: "https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf",
+        date: "mars 2025",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Women are a very large majority of victims in public transport",
+        summary:
+          "The HCE report states that more than six in ten women say they have already been treated worse because of their sex in the street or on transport. In public transport, 91% of victims of sexist or sexual violence are women; 3,400 victims of sexual violence in transport were recorded in 2024, with substantial under-reporting.",
+        nuance:
+          "The transport figures combine recorded incidents and survey-based reporting information. They document a strong victimization asymmetry in a specific setting, while recorded data remains dependent on reporting and police registration practices.",
+        sourcePopulation:
+          "Population measured by the sources: women surveyed on treatment in public space and recorded victims of sexist or sexual violence in public transport. The sources do not measure chromosomes.",
+        tags: ["transport", "public space", "sexual violence", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Les chiffres sur les transports combinent faits enregistrés et informations d'enquête sur le dépôt de plainte. Ils documentent une forte asymétrie de victimation dans un espace précis, mais les données enregistrées restent dépendantes du signalement et de l'enregistrement par les services compétents.",
+  },
+  {
+    id: "femmes-sport-inegalites-hce-2025",
+    side: "femmes",
+    domain: "Revenus",
+    title: "Sport : écarts de traitement, de revenus et de visibilité",
+    metric: "226 M$ vs 1,9 Md$",
+    summary:
+      "Le HCE relève que 67 % de la population estime que les femmes ne sont pas traitées de manière équivalente dans le sport, et que 20 % des femmes disent en avoir personnellement fait l'expérience. Le rapport cite aussi un écart de rémunération de 23 % dans la branche sport en 2021, et un écart international très marqué entre les vingt athlètes féminines les mieux rémunérées en 2023 (226 millions de dollars) et le Top 20 masculin (1,9 milliard).",
+    tags: ["sport", "revenus", "représentation", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données 2021-2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Femmes et sport : bâtir des carrières, conquérir l'égalité",
+        publisher: "Haut Conseil à l'Égalité",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2025-07/HCE-2025-RAPPORT-FEMMES-ET-SPORT-V3.pdf",
+        date: "17 juillet 2025",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Sport: gaps in treatment, income and visibility",
+        summary:
+          "The HCE notes that 67% of the population think women are not treated equivalently in sport, and that 20% of women say they have personally experienced this. The report also cites a 23% wage gap in the sports branch in 2021, and a very large international gap between the top twenty paid female athletes in 2023 ($226 million) and the male Top 20 ($1.9 billion).",
+        nuance:
+          "Income and visibility gaps partly depend on audience levels, broadcasting rights, sponsorship, prize money, competition profitability and wider public demand; they therefore cannot, on their own, be attributed to direct discrimination or to individual responsibility of men. This market logic can produce different asymmetries across sectors. At the same time, demand can be shaped by media exposure, investment, broadcast slots, competition structure, sports narratives and cultural habits. This entry documents observed gaps and perceived-treatment indicators without isolating a single cause.",
+        sourcePopulation:
+          "Population measured by the sources: people surveyed in France about sport, women reporting personal experience, sports-sector wage data, and international elite athlete earnings. The sources do not measure chromosomes.",
+        tags: ["sport", "income", "representation", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Les écarts de revenus et de visibilité dépendent en partie de l'audience, des droits de diffusion, du sponsoring, des primes, de la rentabilité des compétitions et plus largement de la demande du public; ils ne permettent donc pas, à eux seuls, d'attribuer l'écart à une discrimination directe ou à une responsabilité individuelle des hommes. Cette logique de marché peut produire des asymétries différentes selon les secteurs. En parallèle, la demande peut être façonnée par l'exposition médiatique, les investissements, les horaires de diffusion, la structuration des compétitions, les récits sportifs et les habitudes culturelles. Cette fiche documente des écarts observés et des indicateurs de traitement perçu, sans isoler une cause unique.",
+  },
+  {
+    id: "femmes-cybersexisme-hce-2025",
+    side: "femmes",
+    domain: "Numérique",
+    title: "Cybersexisme : victimes majoritairement féminines selon le HCE",
+    metric: "84 %",
+    summary:
+      "Le rapport HCE présente le cybersexisme comme la première forme de discours de haine en ligne dans son champ, avec 84 % des victimes étant des femmes. La perception du phénomène progresse davantage chez les femmes, à 64 %, que chez les hommes, à 56 %.",
+    tags: ["numérique", "cybersexisme", "haine en ligne", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données 2025, publication 2026",
+    },
+    translations: {
+      en: {
+        title: "Cybersexism: victims are mostly women according to the HCE",
+        summary:
+          "The HCE report presents cybersexism as the leading form of online hate speech in its scope, with women accounting for 84% of victims. Perception of the phenomenon is rising more among women, at 64%, than among men, at 56%.",
+        nuance:
+          "The source describes a specific category of online hate and victimization. It should not be generalized to every form of cyberviolence, online conflict or platform moderation dispute.",
+        sourcePopulation:
+          "Population measured by the source: victims and survey respondents in the HCE discussion of cybersexism and online hate. The source does not measure chromosomes.",
+        tags: ["digital", "cybersexism", "online hate", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "La source décrit une catégorie précise de haine en ligne et de victimation. Elle ne doit pas être généralisée à toutes les formes de cyberviolence, de conflit en ligne ou de contestation de la modération des plateformes.",
+  },
+  {
+    id: "femmes-deepfakes-sexuels-hce-2025",
+    side: "femmes",
+    domain: "Numérique",
+    title: "Deepfakes sexuels : contenus pornographiques visant surtout des femmes",
+    metric: "99 %",
+    summary:
+      "Le rapport HCE indique que 96 % des contenus de deepfake ou hypertrucage à caractère sexuel sont des montages pornographiques, et que 99 % visent des femmes. Depuis la loi SREN de 2024, l'article 226-8-1 du code pénal sanctionne la diffusion non consentie d'un montage sexuel, avec une peine aggravée en cas de diffusion en ligne.",
+    tags: ["numérique", "deepfake", "violences sexuelles", "droit pénal", "France"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Article 226-8-1 du code pénal",
+        publisher: "Légifrance",
+        url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049567458",
+        date: "version en vigueur depuis 2024",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Sexual deepfakes: pornographic content mostly targeting women",
+        summary:
+          "The HCE report states that 96% of sexual deepfake or synthetic manipulation content consists of pornographic montages, and that 99% targets women. Since the 2024 SREN law, Article 226-8-1 of the French Criminal Code penalizes non-consensual dissemination of a sexual montage, with a higher penalty for online dissemination.",
+        nuance:
+          "The 99% figure concerns this specific category of sexual deepfake content. It does not describe all synthetic media or all online harms, and the legal note concerns French criminal law.",
+        sourcePopulation:
+          "Population measured by the sources: people targeted by sexual deepfake or synthetic manipulation content, and persons protected by French criminal law. The sources do not measure chromosomes.",
+        tags: ["digital", "deepfake", "sexual violence", "criminal law", "France"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Le chiffre de 99 % concerne cette catégorie précise de contenus sexuels hypertruqués. Il ne décrit pas l'ensemble des médias synthétiques ni l'ensemble des atteintes en ligne, et le rappel juridique concerne le droit pénal français.",
+  },
+  {
+    id: "femmes-inegalites-familiales-hce-2025",
+    side: "femmes",
+    domain: "Famille",
+    title: "Famille : traitement inégal déclaré plus souvent par les femmes",
+    metric: "51 % vs 22 %",
+    summary:
+      "Dans le baromètre cité par le HCE, 51 % des femmes déclarent avoir déjà été moins bien traitées dans leur vie de famille, contre 22 % des hommes. Le rapport indique aussi que 68 % des personnes interrogées jugent normal que les femmes interrompent plus longtemps leur activité après une naissance, 40 % qu'elles cessent de travailler pour s'occuper des enfants, et 40 % des femmes déclarent un déséquilibre dans les tâches ménagères.",
+    tags: ["famille", "travail domestique", "parentalité", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Baromètre Sexisme - Vague 5",
+        publisher: "Toluna Harris Interactive / DGCS / HCE",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf",
+        date: "novembre 2025",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Family life: unequal treatment is reported more often by women",
+        summary:
+          "In the barometer cited by the HCE, 51% of women say they have already been treated worse in family life, compared with 22% of men. The report also states that 68% of respondents consider it normal for women to interrupt work longer after a birth, 40% think women should stop working to care for children, and 40% of women report an imbalance in household tasks.",
+        nuance:
+          "This entry mixes personal experience and opinion items, so it should be read as a family-norm asymmetry rather than as one single causal mechanism. Some family expectations also constrain men, notably through the financial provider role.",
+        sourcePopulation:
+          "Population measured by the source: people surveyed in France in the November 2025 HCE/Toluna Harris barometer, with women/men comparisons and opinion items. The source does not measure chromosomes.",
+        tags: ["family", "domestic work", "parenting", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "La fiche combine expériences personnelles et items d'opinion: elle doit donc être lue comme une asymétrie de normes familiales plutôt que comme un mécanisme causal unique. Certaines attentes familiales contraignent aussi les hommes, notamment à travers le rôle de pourvoyeur financier.",
+  },
+  {
+    id: "femmes-vecu-situations-sexistes-hce-2025",
+    side: "femmes",
+    domain: "Violences",
+    title: "Expériences sexistes déclarées par une large majorité de femmes",
+    metric: "84 %",
+    summary:
+      "Le rapport HCE indique que 84 % des femmes ont déjà vécu au moins une situation sexiste. Il cite notamment le harcèlement dans l'espace public, les blagues ou commentaires sexistes, les sifflements ou interpellations à caractère sexuel, ainsi que des violences sexuelles ou pressions insistantes pour un rapport non désiré.",
+    tags: ["sexisme", "harcèlement", "violences sexuelles", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données novembre 2025, publication 2026",
+    },
+    additionalSources: [
+      {
+        label: "Baromètre Sexisme - Vague 5",
+        publisher: "Toluna Harris Interactive / DGCS / HCE",
+        url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf",
+        date: "novembre 2025",
+      },
+    ],
+    translations: {
+      en: {
+        title: "A large majority of women report sexist experiences",
+        summary:
+          "The HCE report states that 84% of women have experienced at least one sexist situation. It cites harassment in public space, sexist jokes or comments, sexual whistling or catcalling, as well as sexual violence or insistent pressure for unwanted sex.",
+        nuance:
+          "This is self-reported survey data. The listed situations cover very different levels of severity, so the 84% figure should not be collapsed into the most serious forms alone.",
+        sourcePopulation:
+          "Population measured by the source: women surveyed in France in the November 2025 HCE/Toluna Harris barometer. The source does not measure chromosomes.",
+        tags: ["sexism", "harassment", "sexual violence", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "Il s'agit de données déclaratives d'enquête. Les situations listées couvrent des niveaux de gravité très différents; le chiffre de 84 % ne doit donc pas être réduit aux seules formes les plus graves.",
+  },
+  {
+    id: "femmes-assemblee-nationale-parite-2024",
+    side: "femmes",
+    domain: "Droits",
+    title: "Assemblée nationale : part des députées en recul en 2024",
+    metric: "36 %",
+    summary:
+      "Le rapport HCE indique que la part de femmes députées à l'Assemblée nationale est passée à 36 % après les élections législatives de 2024, contre 37 % en 2022 et 39 % en 2017.",
+    tags: ["politique", "représentation", "parité", "France", "HCE"],
+    source: {
+      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
+      publisher: "Haut Conseil à l'Égalité",
+      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
+      date: "données 2017-2024, publication 2026",
+    },
+    translations: {
+      en: {
+        title: "French National Assembly: women's share fell in 2024",
+        summary:
+          "The HCE report states that the share of women MPs in the French National Assembly fell to 36% after the 2024 legislative elections, compared with 37% in 2022 and 39% in 2017.",
+        nuance:
+          "This indicator concerns one institution and one electoral cycle. It documents representation, not the quality of parliamentary work or the positions held within the Assembly.",
+        sourcePopulation:
+          "Population measured by the source: women and men elected to the French National Assembly. The source does not measure chromosomes.",
+        tags: ["politics", "representation", "parity", "France", "HCE"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 juin 2026",
+    nuance:
+      "L'indicateur concerne une institution et un cycle électoral précis. Il documente la représentation, pas la qualité du travail parlementaire ni la répartition des postes internes à l'Assemblée.",
   },
   {
     id: "femmes-ingenierie",
@@ -2336,6 +2976,18 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
   "hommes-agresseurs-declares-violences-sexuelles-femmes-france":
     "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
+  "hommes-sexisme-hostile-hce-2025":
+    "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+  "hommes-femmes-sexisme-paternaliste-hce-2025":
+    "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+  "hommes-consentement-rapports-sexuels-hce-2025":
+    "Population mesurée par la source : hommes interrogés en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+  "hommes-recits-antifeministes-hce-2025":
+    "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.",
+  "hommes-perception-garde-enfants-hce-2025":
+    "Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.",
+  "hommes-attribution-laxisme-justice-violences-sexuelles":
+    "Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.",
   "hommes-sanctions-penales-plus-lourdes":
     "Population mesurée par les sources : femmes et hommes mis en cause, poursuivis ou condamnés dans les statistiques pénales françaises, et personnes arrêtées ou condamnées dans les affaires fédérales américaines. Les sources ne mesurent pas les chromosomes.",
   "hommes-conge-paternite-ocde":
@@ -2348,12 +3000,30 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : men / male Ukrainian citizens d'âge militaire. La source ne mesure pas les chromosomes.",
   "femmes-ecart-salaire":
     "Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.",
+  "hommes-femmes-taxe-rose-prix-genres":
+    "Population mesurée par les sources : produits et services genrés comparés en France et aux États-Unis, avec catégories destinées aux femmes et aux hommes. Les sources ne mesurent pas les chromosomes.",
   "femmes-temps-partiel":
     "Population mesurée par les sources : femmes et hommes salariés dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
   "femmes-violences-conjugales":
     "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
   "femmes-violences-sexuelles":
     "Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.",
+  "femmes-perception-desavantage-hce-2025":
+    "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaisons hommes/femmes et par âge dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+  "femmes-violences-sexuelles-transports-hce-2025":
+    "Population mesurée par les sources : femmes interrogées sur leur traitement dans l'espace public et victimes enregistrées de violences sexistes ou sexuelles dans les transports en commun. Les sources ne mesurent pas les chromosomes.",
+  "femmes-sport-inegalites-hce-2025":
+    "Population mesurée par les sources : personnes interrogées sur le sport en France, femmes déclarant une expérience personnelle, données de rémunération de la branche sport et revenus internationaux du sport d'élite. Les sources ne mesurent pas les chromosomes.",
+  "femmes-cybersexisme-hce-2025":
+    "Population mesurée par la source : victimes et répondants dans les données citées par le HCE sur le cybersexisme et la haine en ligne. La source ne mesure pas les chromosomes.",
+  "femmes-deepfakes-sexuels-hce-2025":
+    "Population mesurée par les sources : personnes visées par des contenus de deepfake ou hypertrucage sexuel, et personnes protégées par le droit pénal français. Les sources ne mesurent pas les chromosomes.",
+  "femmes-inegalites-familiales-hce-2025":
+    "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec comparaisons femmes/hommes et items d'opinion. La source ne mesure pas les chromosomes.",
+  "femmes-vecu-situations-sexistes-hce-2025":
+    "Population mesurée par la source : femmes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+  "femmes-assemblee-nationale-parite-2024":
+    "Population mesurée par la source : femmes et hommes élus à l'Assemblée nationale française. La source ne mesure pas les chromosomes.",
   "femmes-homicides-mineurs-condamnations":
     "Population mesurée par la source : femmes et hommes condamnés par la Justice française pour homicide volontaire sur mineur de moins de 15 ans. La source ne mesure pas les chromosomes.",
   "femmes-espaces-non-mixtes-sexe":
@@ -2573,6 +3243,56 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "viols, tentatives de viol et agressions sexuelles",
   },
+  "hommes-sexisme-hostile-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "baromètre d'opinion et stéréotypes sexistes",
+  },
+  "hommes-femmes-sexisme-paternaliste-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "baromètre d'opinion et stéréotypes sexistes",
+  },
+  "hommes-consentement-rapports-sexuels-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "baromètre d'opinion, consentement et violences sexuelles",
+  },
+  "hommes-recits-antifeministes-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "baromètre d'opinion et représentations du féminisme",
+  },
+  "hommes-perception-garde-enfants-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2013",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "perception de la justice familiale et résidence des enfants",
+  },
+  "hommes-attribution-laxisme-justice-violences-sexuelles": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2018",
+    periode_fin: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "composition des personnels de justice et violences sexuelles",
+  },
   "hommes-sanctions-penales-plus-lourdes": {
     pays_ou_zone: "France et États-Unis",
     regionScope: "Europe et Amérique du Nord",
@@ -2581,6 +3301,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "forte",
     legalType: "peines pénales et emprisonnement",
+  },
+  "hommes-femmes-taxe-rose-prix-genres": {
+    pays_ou_zone: "France et États-Unis",
+    regionScope: "Europe et Amérique du Nord",
+    periode_debut: "2015",
+    periode_fin: "2018",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "faible à moyenne",
+    legalType: "prix genrés et marketing différencié",
   },
   "femmes-france-droit-vote-1944": {
     pays_ou_zone: "France",
@@ -2654,6 +3383,74 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "forte",
     legalType: "homicide volontaire sur mineur de moins de 15 ans",
+  },
+  "femmes-perception-desavantage-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "baromètre d'opinion et perception des désavantages",
+  },
+  "femmes-violences-sexuelles-transports-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2024",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "violences sexistes et sexuelles dans les transports",
+  },
+  "femmes-sport-inegalites-hce-2025": {
+    pays_ou_zone: "France et monde",
+    regionScope: "Europe et monde",
+    periode_debut: "2021",
+    periode_fin: "2025",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "moyenne",
+    legalType: "sport, revenus et représentation",
+  },
+  "femmes-cybersexisme-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "cybersexisme et haine en ligne",
+  },
+  "femmes-deepfakes-sexuels-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2024",
+    periode_fin: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "deepfakes sexuels et droit pénal",
+  },
+  "femmes-inegalites-familiales-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "baromètre d'opinion, famille et travail domestique",
+  },
+  "femmes-vecu-situations-sexistes-hce-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "situations sexistes déclarées et violences sexuelles",
+  },
+  "femmes-assemblee-nationale-parite-2024": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2017",
+    periode_fin: "2024",
+    statut_temporel: "en baisse",
+    intensite_contextuelle: "moyenne",
+    legalType: "représentation politique",
   },
   "femmes-prison-victimisation-sexuelle-etats-unis": {
     pays_ou_zone: "États-Unis",
