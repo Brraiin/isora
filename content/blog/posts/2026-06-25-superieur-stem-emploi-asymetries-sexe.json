@@ -19,6 +19,10 @@
     "OCDE Education at a Glance 2025",
     "emploi parents diplômés"
   ],
+  "relatedClaimIds": [
+    "femmes-ingenierie",
+    "hommes-bourses-stem-reservees-femmes"
+  ],
   "readingMinutes": 5,
   "summary": "Les publications récentes d'Eurostat et de l'OCDE montrent une asymétrie qui ne va pas dans un seul sens. Les femmes sont désormais plus nombreuses parmi les diplômés du supérieur et les jeunes adultes diplômés, mais les hommes restent nettement plus représentés dans les filières STEM et conservent un avantage d'emploi quand des enfants vivent au foyer, y compris parmi les plus diplômés.",
   "keyPoints": [

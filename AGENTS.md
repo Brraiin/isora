@@ -11,6 +11,7 @@ Read this file before answering or changing anything in this repository.
 - Stack: React + TypeScript + Vite + Tailwind CSS
 - Interface language: French
 - Blog / veille IA+SEO: this belongs to this repo too. If the user mentions isora blog, daily article, scraping, veille, SEO for AI, llms, or "un article tous les matins", work in `/Users/eve/Web dev/Isora`, not in `RGAA-auto`.
+- User shorthand: when Eve asks to "faire un article", "fais un article", "article et asymétrie", or similar without naming another project, treat it as an Isora article request and work in this repo.
 
 ## Required context
 

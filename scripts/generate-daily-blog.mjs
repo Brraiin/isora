@@ -1,5 +1,7 @@
-import { mkdir, writeFile } from "node:fs/promises";
-import { join } from "node:path";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { pathToFileURL } from "node:url";
+import ts from "typescript";
 import {
   getParisDateKey,
   loadBlogConfig,
@@ -18,6 +20,9 @@ const today = getParisDateKey();
 const now = new Date().toISOString();
 const force = process.argv.includes("--force");
 const candidatesDir = join(root, "research", "candidates");
+const claimsSourceFile = join(root, "src", "data", "claims.ts");
+const claimsTempFile = join(root, "node_modules", ".cache", "isora-blog-claims.mjs");
+let knownClaimIds = new Set();
 
 function extractOutputText(parsed) {
   return (
@@ -63,6 +68,38 @@ function normalizeUrl(value) {
   }
 }
 
+async function loadClaimReferences() {
+  try {
+    const source = await readFile(claimsSourceFile, "utf8");
+    const transpiled = ts.transpileModule(source, {
+      compilerOptions: {
+        module: ts.ModuleKind.ESNext,
+        target: ts.ScriptTarget.ES2022,
+        verbatimModuleSyntax: false,
+      },
+    }).outputText;
+
+    await mkdir(dirname(claimsTempFile), { recursive: true });
+    await writeFile(claimsTempFile, transpiled, "utf8");
+    const { claims = [] } = await import(`${pathToFileURL(claimsTempFile).href}?t=${Date.now()}`);
+    await rm(claimsTempFile, { force: true });
+
+    return claims
+      .map((claim) => ({
+        id: claim.id,
+        side: claim.side,
+        domain: claim.domain,
+        title: claim.title,
+        metric: claim.metric,
+        tags: Array.isArray(claim.tags) ? claim.tags.slice(0, 6) : [],
+      }))
+      .sort((left, right) => left.id.localeCompare(right.id));
+  } catch (error) {
+    console.warn(`Impossible de charger les fiches isora pour relatedClaimIds: ${error.message}`);
+    return [];
+  }
+}
+
 function normalizeGeneratedPost(raw, config) {
   if (raw.skip === true) {
     return { skip: true, reason: textLine(raw.reason || "Aucun sujet fiable sélectionné.") };
@@ -102,6 +139,9 @@ function normalizeGeneratedPost(raw, config) {
       label: topic.label,
     },
     keywords: Array.isArray(raw.keywords) ? raw.keywords : [],
+    relatedClaimIds: Array.isArray(raw.relatedClaimIds)
+      ? raw.relatedClaimIds.map(textLine).filter((claimId) => knownClaimIds.has(claimId))
+      : [],
     summary: raw.summary,
     keyPoints: raw.keyPoints,
     sections: raw.sections,
@@ -191,6 +231,15 @@ if (!apiKey) {
   process.exit(0);
 }
 
+const claimReferences = await loadClaimReferences();
+knownClaimIds = new Set(claimReferences.map((claim) => claim.id));
+const claimReferenceContext = claimReferences
+  .map(
+    (claim) =>
+      `- ${claim.id} | ${claim.side} | ${claim.domain} | ${claim.title} | mesure: ${claim.metric} | tags: ${claim.tags.join(", ")}`,
+  )
+  .join("\n");
+
 const existingContext = existingPosts
   .slice(0, 40)
   .map((post) => `- ${post.date} / ${post.title} / sources: ${post.sources.map((source) => source.url).join(", ")}`)
@@ -226,6 +275,9 @@ ${config.topics.map((topic) => `- ${topic.id}: ${topic.label}. Recherche: ${topi
 Articles existants à éviter:
 ${existingContext || "- Aucun article existant."}
 
+Fiches isora existantes que l'article peut actualiser ou contextualiser:
+${claimReferenceContext || "- Aucune fiche disponible."}
+
 Schéma JSON attendu:
 {
   "topicId": "un id de topic fourni",
@@ -234,6 +286,7 @@ Schéma JSON attendu:
   "description": "meta description en 145 à 165 caractères",
   "summary": "chapô clair en 2 phrases maximum",
   "keywords": ["mot clé", "mot clé"],
+  "relatedClaimIds": ["id exact d'une fiche isora liée, ou tableau vide"],
   "keyPoints": ["3 à 5 points clés factuels"],
   "sections": [
     {
@@ -273,6 +326,7 @@ Contraintes:
 - Pas de liens inventés.
 - Article en français.
 - Sujet daté de préférence de moins de 18 mois.
+- Si l'article apporte une donnée qui actualise ou contextualise une fiche existante, remplir relatedClaimIds avec les IDs exacts listés plus haut. Sinon, utiliser [].
 `;
 
 const response = await fetch("https://api.openai.com/v1/responses", {

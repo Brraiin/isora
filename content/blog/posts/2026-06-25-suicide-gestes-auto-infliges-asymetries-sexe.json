@@ -19,6 +19,10 @@
     "DREES 2026",
     "asymétries selon le sexe"
   ],
+  "relatedClaimIds": [
+    "hommes-suicide",
+    "hommes-suicide-monde"
+  ],
   "readingMinutes": 5,
   "summary": "Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.",
   "keyPoints": [

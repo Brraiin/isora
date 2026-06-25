@@ -257,7 +257,7 @@ function renderCss() {
     * { box-sizing: border-box; }
     body { margin: 0; background: #f4f4f0; color: #171717; }
     a { color: #1455a3; text-underline-offset: 0.18em; }
-    .wrap { width: min(100% - 32px, 980px); margin: 0 auto; }
+    .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
     .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
     .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
     .brand { display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; font-weight: 900; }
@@ -287,10 +287,12 @@ function renderCss() {
     .sources li { min-width: 0; line-height: 1.45; }
     .sources a { overflow-wrap: anywhere; font-weight: 850; }
     .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
-    .faq { display: grid; gap: 12px; }
-    details { border: 1px solid #d8d8d0; padding: 14px 16px; background: #fff; }
-    summary { cursor: pointer; font-weight: 900; }
-    details p { margin-top: 10px; }
+    .faq { display: grid; gap: 14px; }
+    details { border: 1px solid #d8d8d0; padding: 16px 18px 18px; background: #fff; }
+    summary { cursor: pointer; font-weight: 900; line-height: 1.45; padding-bottom: 4px; }
+    details[open] summary { margin-bottom: 8px; }
+    .section details p { margin: 0 0 6px; line-height: 1.68; }
+    .section details p:last-child { margin-bottom: 6px; }
     .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
     .post-list { display: grid; gap: 14px; padding: 34px 0 64px; }
     .post-card { display: grid; gap: 10px; background: #fff; border: 1px solid #d8d8d0; padding: 22px; text-decoration: none; color: inherit; }
@@ -299,6 +301,7 @@ function renderCss() {
     .post-card p { margin: 0; color: #555; line-height: 1.6; }
     .post-card-action { color: #1455a3; font-weight: 900; line-height: 1.3; }
     @media (max-width: 840px) {
+      .wrap { width: min(100% - 24px, 1200px); }
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
       .article-grid { grid-template-columns: 1fr; }
       aside { position: static; }
@@ -424,6 +427,10 @@ function renderArticleHtml(post, config) {
     <meta name="twitter:title" content="${htmlEscape(title)}" />
     <meta name="twitter:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(postUrl)}" />
+    <link rel="alternate" type="application/rss+xml" title="Articles isora" href="/blog/feed.xml" />
+    <link rel="alternate" type="application/json" title="Index JSON des articles isora" href="/blog/index.json" />
+    <link rel="alternate" type="text/plain" title="Articles isora pour IA" href="/blog/llms-blog.txt" />
+    <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
     <title>${htmlEscape(title)} - isora</title>
     <style>${renderCss()}</style>
@@ -509,6 +516,7 @@ function renderArticleHtml(post, config) {
     <footer class="wrap method">
       <p><em>isora</em> cite ses sources primaires et présente ces articles comme des synthèses éditoriales. Pour une affirmation factuelle forte, consulter les liens sources avant réutilisation.</p>
     </footer>
+    <script src="/isora-analytics.js" defer></script>
   </body>
 </html>
 `;
@@ -560,7 +568,10 @@ function renderBlogIndex(posts, config) {
     <meta property="og:title" content="Articles isora - Veille" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(blogUrl)}" />
+    <link rel="alternate" type="application/rss+xml" title="Articles isora" href="/blog/feed.xml" />
     <link rel="alternate" type="application/json" title="Index JSON des articles isora" href="/blog/index.json" />
+    <link rel="alternate" type="text/plain" title="Articles isora pour IA" href="/blog/llms-blog.txt" />
+    <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
     <title>Articles isora - Veille</title>
     <style>${renderCss()}</style>

@@ -989,6 +989,107 @@ const rawClaims: RawClaim[] = [
       "Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes.",
   },
   {
+    id: "hommes-vocabulaire-masculinisme-pejoratif",
+    side: "hommes",
+    angle: "récit_sur_le_sexe",
+    domain: "Droits",
+    title: "Masculinisme défini surtout par ses usages péjoratifs",
+    metric: "mot péjoratif",
+    summary:
+      "Les sources lexicographiques consultées ne donnent pas au masculinisme un statut symétrique au féminisme. Le féminisme est couramment défini par les droits ou l'égalité, mais cette définition ne mesure pas les pratiques militantes réelles ni leur prise en compte des asymétries défavorables aux hommes. Les exemples féministes ou pro-féministes repérés en ce sens existent surtout sur la paternité, le congé parental et le soin. À l'inverse, Larousse, Le Robert et l'Académie française rattachent le masculinisme à des usages antiféministes, sexistes, réactionnels ou virilistes, tandis que l'OQLF propose une définition plus large mais précise que le mot reste péjoratif.",
+    tags: ["vocabulaire", "masculinisme", "féminisme", "dictionnaires", "représentations"],
+    source: {
+      label: "masculinisme",
+      publisher: "Office québécois de la langue française / Grand dictionnaire terminologique",
+      url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme",
+      date: "2020",
+    },
+    additionalSources: [
+      {
+        label: "Définitions : masculinisme",
+        publisher: "Larousse",
+        url: "https://www.larousse.fr/dictionnaires/francais/masculinisme/49698",
+        date: "consulté le 25 juin 2026",
+      },
+      {
+        label: "masculinisme",
+        publisher: "Le Robert",
+        url: "https://dictionnaire.lerobert.com/definition/masculinisme",
+        date: "consulté le 25 juin 2026",
+      },
+      {
+        label: "masculinisme",
+        publisher: "Académie française, 10e édition",
+        url: "https://www.dictionnaire-academie.fr/article/B0M00085",
+        date: "publié en juin 2026",
+      },
+      {
+        label: "Définitions : féminisme",
+        publisher: "Larousse",
+        url: "https://www.larousse.fr/dictionnaires/francais/f%C3%A9minisme/33213",
+        date: "consulté le 25 juin 2026",
+      },
+      {
+        label: "féminisme",
+        publisher: "Académie française, 9e édition",
+        url: "https://www.dictionnaire-academie.fr/article/A9F0434",
+        date: "consulté le 25 juin 2026",
+      },
+      {
+        label: "Définitions : misogyne",
+        publisher: "Larousse",
+        url: "https://www.larousse.fr/dictionnaires/francais/misogyne/51773",
+        date: "consulté le 25 juin 2026",
+      },
+      {
+        label: "Définitions : misandre",
+        publisher: "Larousse",
+        url: "https://www.larousse.fr/dictionnaires/francais/misandre/51743",
+        date: "consulté le 25 juin 2026",
+      },
+      {
+        label: "It’s time to revolutionise parental leave – for women, for families, for our future",
+        publisher: "The Fawcett Society",
+        url: "https://www.fawcettsociety.org.uk/blog/its-time-to-revolutionise-parental-leave-for-women-for-families-for-our-future",
+        date: "2025",
+      },
+      {
+        label: "Maternity, paternity and parental leave: Briefing for a new government",
+        publisher: "Women's Budget Group",
+        url: "https://www.wbg.org.uk/publication/maternity-paternity-and-parental-leave-briefing-for-a-new-government/",
+        date: "17 juin 2024",
+      },
+      {
+        label: "State of the World's Fathers",
+        publisher: "Equimundo / MenCare",
+        url: "https://www.equimundo.org/state-of-the-worlds-fathers-research/",
+        date: "consulté le 25 juin 2026",
+      },
+      {
+        label: "MenEngage Alliance",
+        publisher: "MenEngage Alliance",
+        url: "https://menengage.org/",
+        date: "consulté le 25 juin 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Masculinism is mostly defined through pejorative uses",
+        summary:
+          "The lexicographic sources consulted do not give masculinism a symmetrical status to feminism. Feminism is commonly defined through rights or equality, but that definition does not measure real activist practices or their attention to asymmetries disadvantaging men. The feminist or pro-feminist examples found in that direction mostly concern fatherhood, parental leave and care. By contrast, Larousse, Le Robert and the Académie française connect masculinism to anti-feminist, sexist, reactionary or virilist uses, while the OQLF gives a broader definition but notes that the word remains pejorative.",
+        nuance:
+          "This entry documents dictionary and terminology definitions, plus a few examples of feminist or pro-feminist advocacy on fathers' leave and care. It does not measure the whole history of male advocacy groups, feminist movements, or every use of these words. A dictionary definition centred on equality does not prove that all feminist spaces treat male-specific disadvantages symmetrically; a pejorative definition of masculinism does not prove that every defence of male vulnerabilities is misogynistic. Misogyny and misandry remain the specific terms for contempt or hatred of women and men.",
+        sourcePopulation:
+          "Population measured by the sources: dictionary and terminology entries for the French words masculinisme, féminisme, misogyne and misandre, plus public positions by feminist or pro-feminist organizations on fathers, parental leave and care. These sources do not measure chromosomes.",
+        tags: ["vocabulary", "masculinism", "feminism", "dictionaries", "representations"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "25 juin 2026",
+    nuance:
+      "Cette fiche documente des définitions de dictionnaires et de terminologie, ainsi que quelques exemples d'acteurs féministes ou pro-féministes mobilisés sur le congé des pères et le soin. Elle ne mesure pas toute l'histoire des groupes de défense des hommes, des mouvements féministes ni tous les usages de ces mots. Une définition du féminisme centrée sur l'égalité ne prouve pas que tous les espaces féministes traitent symétriquement les désavantages masculins; une définition péjorative du masculinisme ne prouve pas que toute défense des vulnérabilités masculines soit misogyne. Misogynie et misandrie restent les termes spécifiques pour le mépris ou la haine des femmes et des hommes.",
+  },
+  {
     id: "hommes-perception-garde-enfants-hce-2025",
     side: "hommes",
     angle: "récit_sur_le_sexe",
@@ -2984,6 +3085,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : hommes interrogés en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
   "hommes-recits-antifeministes-hce-2025":
     "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.",
+  "hommes-vocabulaire-masculinisme-pejoratif":
+    "Population mesurée par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, ainsi que prises de position publiques d'organisations féministes ou pro-féministes sur les pères, le congé parental et le soin. Ces sources ne mesurent pas les chromosomes.",
   "hommes-perception-garde-enfants-hce-2025":
     "Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.",
   "hommes-attribution-laxisme-justice-violences-sexuelles":
@@ -3274,6 +3377,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "moyenne",
     legalType: "baromètre d'opinion et représentations du féminisme",
+  },
+  "hommes-vocabulaire-masculinisme-pejoratif": {
+    pays_ou_zone: "Francophonie",
+    regionScope: "France et Québec",
+    periode_debut: "2020",
+    periode_fin: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "lexicographie et représentations publiques",
   },
   "hommes-perception-garde-enfants-hce-2025": {
     pays_ou_zone: "France",

@@ -10,9 +10,12 @@ Isora publie des fichiers lisibles par les moteurs de recherche, crawlers et age
 - `/blog/feed.xml` : flux RSS du blog.
 - `/blog/index.json` : index JSON des articles.
 - `/blog/llms-blog.txt` : guide agent dedie au blog.
+- `/fiches/` : index HTML statique de toutes les fiches, lisible sans JavaScript.
+- `/fiches/<id>/` : page HTML statique canonique d'une fiche, avec sources et JSON-LD.
 - `/isora-dataset.json` : dataset JSON francais.
 - `/isora-dataset-en.json` : dataset JSON anglais.
 - `/ai.txt` : politique courte d'acces IA.
+- `/.well-known/ai.txt` : copie de la politique courte d'acces IA.
 - `/sitemap.xml` : indexe les fichiers publics principaux.
 
 ## Multilingue public
@@ -75,6 +78,7 @@ La configuration editoriale est dans :
 - `content/blog/posts/` : memoire des articles publies, un JSON par article.
 - Automatisation Codex app `Veille quotidienne Isora` : voie normale, sans cle API, lancee tous les jours vers 20:30.
 - `scripts/blog-utils.mjs` : rend les pages HTML statiques, RSS, JSON, `llms-blog.txt` et les entrees sitemap.
+- `scripts/generate-seo.mjs` : genere aussi les pages statiques `/fiches/` et `/fiches/<id>/`, le sitemap, `llms.txt`, `llms-en.txt`, `ai.txt`, `/.well-known/ai.txt` et les datasets publics.
 - `scripts/generate-daily-blog.mjs` : voie optionnelle par API OpenAI, utile seulement si une cle API est ajoutee plus tard.
 
 Commandes utiles :
@@ -95,6 +99,7 @@ Principes editoriaux du blog :
 - conserver pays, periode, population mesuree et limites;
 - refuser les generalisations hostiles ou militantes;
 - ne pas transformer une categorie statistique de source en preuve chromosomique stricte;
+- renseigner `relatedClaimIds` avec les IDs des fiches existantes quand un article actualise ou contextualise leur donnee; `npm run seo` regenere ensuite les tuiles de la home depuis cette relation;
 - produire une page HTML statique indexable, avec schema.org `BlogPosting`, FAQ, canonical, RSS et entree sitemap.
 
 ## Veille et nouvelles fiches

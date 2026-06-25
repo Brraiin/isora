@@ -1,5 +1,6 @@
 import {
   AlertTriangle,
+  BarChart3,
   Briefcase,
   CalendarSync,
   Check,
@@ -8,10 +9,14 @@ import {
   FileText,
   GraduationCap,
   Gavel,
+  Home,
   HeartPulse,
   Landmark,
   Link,
+  LockKeyhole,
+  Newspaper,
   Plus,
+  RefreshCw,
   Search,
   Send,
   ShieldAlert,
@@ -21,9 +26,10 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import type { FormEvent, ReactNode } from "react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import packageJson from "../package.json";
 import isoraLogoUrl from "./assets/isora.svg";
+import { homeBlogUpdates, type HomeBlogUpdate } from "./data/blog-updates";
 import {
   claims,
   domains,
@@ -80,20 +86,87 @@ type ContributionPayload = {
 type ContributionPreview = {
   id: string;
   source: "local" | "github";
+  issueNumber?: number;
   title: string;
   url?: string;
   createdAt?: string;
+  updatedAt?: string;
+  status: ContributionStatus;
   labels?: string[];
   payload: ContributionPayload;
 };
+
+type ContributionStatus = "pending" | "accepted" | "rejected" | "closed";
+type ContributionDecision = "accepted" | "rejected";
+type AdminAuthStatus = "checking" | "unauthenticated" | "authenticated" | "blocked";
 
 type RemoteContribution = {
   number?: number;
   title?: string;
   url?: string;
   createdAt?: string;
+  updatedAt?: string;
+  state?: string;
+  status?: ContributionStatus;
   labels?: string[];
   payload?: ContributionPayload | null;
+};
+
+type AnalyticsEvent =
+  | {
+      type: "page_view";
+      pageType: "home" | "article";
+      path: string;
+      title?: string;
+      at: string;
+    }
+  | {
+      type: "search";
+      query: string;
+      resultCount: number;
+      at: string;
+    };
+
+type AnalyticsStats = {
+  schemaVersion: number;
+  updatedAt: string | null;
+  totals: {
+    homeViews: number;
+    articleViews: number;
+    searchEvents: number;
+  };
+  home: {
+    views: number;
+    lastVisitedAt: string | null;
+    byDay: Record<string, number>;
+  };
+  articles: Record<
+    string,
+    {
+      path: string;
+      title: string;
+      views: number;
+      lastVisitedAt: string | null;
+      byDay: Record<string, number>;
+    }
+  >;
+  searches: Record<
+    string,
+    {
+      query: string;
+      count: number;
+      lastSearchedAt: string | null;
+      lastResultCount: number | null;
+      byDay: Record<string, number>;
+    }
+  >;
+  recentEvents: Array<Record<string, unknown>>;
+};
+
+type HomeBlogUpdateSideStats = {
+  total: number;
+  latest: HomeBlogUpdate | null;
+  updates: HomeBlogUpdate[];
 };
 
 const sideLabelsByLocale: Record<Locale, Record<Side | "tous", string>> = {
@@ -144,8 +217,17 @@ const uiText: Record<Locale, Record<string, string>> = {
       "isora recense des asymétries documentées par pays, période, domaine et angle, avec source et contexte vérifiables.",
     menAsymmetries: "Asymétries concernant les hommes",
     womenAsymmetries: "Asymétries concernant les femmes",
+    blogSyncSingular: "fiche modifiée via les articles",
+    blogSyncPlural: "fiches modifiées via les articles",
+    blogSyncLatest: "Dernière veille",
+    modifiedClaims: "Fiches modifiées",
+    modifiedClaimChange: "Mise à jour",
+    currentMetric: "Mesure actuelle",
+    relatedArticle: "Article lié",
+    claimUpdated: "Fiche modifiée",
+    modifiedClaimsDialogIntro: "Historique des fiches reliées à la veille, avec leur mesure actuelle et l'article qui explique la mise à jour.",
     contribution: "Contribution",
-    proposeClaim: "Proposer une asymétrie sourcée",
+    proposeClaim: "Proposer une asymétrie",
     searchPlaceholder: "Rechercher une fiche, un pays, une source...",
     searchLabel: "Recherche",
     blog: "Articles",
@@ -198,8 +280,17 @@ const uiText: Record<Locale, Record<string, string>> = {
       "isora tracks documented asymmetries by country, period, domain and angle, with verifiable source and context.",
     menAsymmetries: "Asymmetries concerning men",
     womenAsymmetries: "Asymmetries concerning women",
+    blogSyncSingular: "entry updated through articles",
+    blogSyncPlural: "entries updated through articles",
+    blogSyncLatest: "Latest watch",
+    modifiedClaims: "Updated entries",
+    modifiedClaimChange: "Update",
+    currentMetric: "Current metric",
+    relatedArticle: "Related article",
+    claimUpdated: "Updated entry",
+    modifiedClaimsDialogIntro: "History of entries connected to the watch, with their current metric and the article explaining the update.",
     contribution: "Contribution",
-    proposeClaim: "Suggest a sourced asymmetry",
+    proposeClaim: "Suggest an asymmetry",
     searchPlaceholder: "Search an entry, country, source...",
     searchLabel: "Search",
     blog: "Articles",
@@ -272,6 +363,11 @@ const contributionStorageKeys = {
   legacySuggestions: `${legacyContributionPrefix}:suggestions`,
   legacyContestations: `${legacyContributionPrefix}:contestations`,
 };
+const contributionModerationStorageKey = "isora:contribution-moderation";
+const analyticsLocalEventsKey = "isora:analytics-local-events";
+const adminAuthLocalAttemptsKey = "isora:admin-auth-attempts";
+const adminPasswordDevHash = "274bdf294021dcdc4d40e6d04b4384e329a903caeaef616615ddd0d24929fea2";
+const adminBlockDurationMs = 24 * 60 * 60 * 1000;
 
 function getParisDateKey() {
   return new Intl.DateTimeFormat("sv-SE", {
@@ -358,7 +454,288 @@ async function sendContribution(title: string, payload: unknown) {
 function isContributionAdminView() {
   if (typeof window === "undefined") return false;
   const adminView = new URLSearchParams(window.location.search).get("admin");
-  return adminView === "contributions" || adminView === "contributions=";
+  return adminView === "dashboard" || adminView === "contributions" || adminView === "contributions=";
+}
+
+function formatBlockedUntil(value?: string | null) {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+
+  return new Intl.DateTimeFormat("fr-FR", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(date);
+}
+
+async function sha256Hex(value: string) {
+  const bytes = new TextEncoder().encode(value);
+  const digest = await crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(digest))
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+function readLocalAdminAttempts() {
+  try {
+    const value = JSON.parse(localStorage.getItem(adminAuthLocalAttemptsKey) ?? "null");
+    const blockedUntil = Number(value?.blockedUntil) || null;
+
+    if (blockedUntil && blockedUntil <= Date.now()) {
+      localStorage.removeItem(adminAuthLocalAttemptsKey);
+      return { attempts: 0, blockedUntil: null as number | null };
+    }
+
+    return {
+      attempts: Number(value?.attempts) || 0,
+      blockedUntil,
+    };
+  } catch {
+    return { attempts: 0, blockedUntil: null as number | null };
+  }
+}
+
+function writeLocalAdminAttempts(attempts: number, blockedUntil: number | null = null) {
+  localStorage.setItem(
+    adminAuthLocalAttemptsKey,
+    JSON.stringify({
+      attempts,
+      blockedUntil,
+    }),
+  );
+}
+
+async function verifyAdminPasswordLocally(password: string) {
+  return (await sha256Hex(password)) === adminPasswordDevHash;
+}
+
+function createEmptyAnalyticsStats(): AnalyticsStats {
+  return {
+    schemaVersion: 1,
+    updatedAt: null,
+    totals: {
+      homeViews: 0,
+      articleViews: 0,
+      searchEvents: 0,
+    },
+    home: {
+      views: 0,
+      lastVisitedAt: null,
+      byDay: {},
+    },
+    articles: {},
+    searches: {},
+    recentEvents: [],
+  };
+}
+
+function coerceAnalyticsStats(value: unknown): AnalyticsStats {
+  const empty = createEmptyAnalyticsStats();
+  const stats = value && typeof value === "object" ? (value as Partial<AnalyticsStats>) : {};
+
+  return {
+    ...empty,
+    ...stats,
+    totals: {
+      ...empty.totals,
+      ...(stats.totals ?? {}),
+    },
+    home: {
+      ...empty.home,
+      ...(stats.home ?? {}),
+      byDay: stats.home?.byDay && typeof stats.home.byDay === "object" ? stats.home.byDay : {},
+    },
+    articles: stats.articles && typeof stats.articles === "object" ? stats.articles : {},
+    searches: stats.searches && typeof stats.searches === "object" ? stats.searches : {},
+    recentEvents: Array.isArray(stats.recentEvents) ? stats.recentEvents : [],
+  };
+}
+
+function normalizeAnalyticsPath(value: string) {
+  try {
+    const url = new URL(value, window.location.origin);
+    return url.pathname.endsWith("/") ? url.pathname : `${url.pathname}/`;
+  } catch {
+    return value.startsWith("/") ? value : `/${value}`;
+  }
+}
+
+function normalizeAnalyticsSearch(value: string) {
+  return normalize(value).replace(/\s+/g, " ").trim().slice(0, 120);
+}
+
+function incrementAnalyticsDay(target: { byDay: Record<string, number> }, day: string, count = 1) {
+  target.byDay[day] = (target.byDay[day] ?? 0) + count;
+}
+
+function applyAnalyticsEvent(stats: AnalyticsStats, event: AnalyticsEvent) {
+  const eventDate = new Date(event.at);
+  const date = Number.isNaN(eventDate.getTime()) ? new Date() : eventDate;
+  const day = new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+
+  if (event.type === "page_view") {
+    const path = normalizeAnalyticsPath(event.path);
+
+    if (event.pageType === "article") {
+      const article = stats.articles[path] ?? {
+        path,
+        title: event.title || "Article isora",
+        views: 0,
+        lastVisitedAt: null,
+        byDay: {},
+      };
+
+      article.title = event.title || article.title;
+      article.views += 1;
+      article.lastVisitedAt = date.toISOString();
+      incrementAnalyticsDay(article, day);
+      stats.articles[path] = article;
+      stats.totals.articleViews += 1;
+    } else {
+      stats.home.views += 1;
+      stats.home.lastVisitedAt = date.toISOString();
+      incrementAnalyticsDay(stats.home, day);
+      stats.totals.homeViews += 1;
+    }
+
+    stats.recentEvents.unshift(event);
+  }
+
+  if (event.type === "search") {
+    const key = normalizeAnalyticsSearch(event.query);
+    if (key.length < 2) return;
+
+    const searchStats = stats.searches[key] ?? {
+      query: event.query.trim(),
+      count: 0,
+      lastSearchedAt: null,
+      lastResultCount: null,
+      byDay: {},
+    };
+
+    searchStats.count += 1;
+    searchStats.lastSearchedAt = date.toISOString();
+    searchStats.lastResultCount = event.resultCount;
+    incrementAnalyticsDay(searchStats, day);
+    stats.searches[key] = searchStats;
+    stats.totals.searchEvents += 1;
+    stats.recentEvents.unshift(event);
+  }
+
+  stats.updatedAt = date.toISOString();
+  stats.recentEvents = stats.recentEvents.slice(0, 80);
+}
+
+function readLocalAnalyticsEvents() {
+  try {
+    const events = JSON.parse(localStorage.getItem(analyticsLocalEventsKey) ?? "[]");
+    return Array.isArray(events) ? (events as AnalyticsEvent[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function appendLocalAnalyticsEvents(events: AnalyticsEvent[]) {
+  const storedEvents = readLocalAnalyticsEvents();
+  localStorage.setItem(analyticsLocalEventsKey, JSON.stringify([...storedEvents, ...events].slice(-500)));
+}
+
+function buildAnalyticsStatsFromEvents(events: AnalyticsEvent[]) {
+  const stats = createEmptyAnalyticsStats();
+
+  for (const event of events) {
+    if (!event || typeof event !== "object") continue;
+    applyAnalyticsEvent(stats, event);
+  }
+
+  return stats;
+}
+
+function mergeAnalyticsStats(remoteStats: AnalyticsStats, localStats: AnalyticsStats) {
+  const merged = createEmptyAnalyticsStats();
+
+  merged.updatedAt = remoteStats.updatedAt ?? localStats.updatedAt;
+  merged.home.views = remoteStats.home.views + localStats.home.views;
+  merged.home.lastVisitedAt = remoteStats.home.lastVisitedAt ?? localStats.home.lastVisitedAt;
+  merged.home.byDay = { ...remoteStats.home.byDay };
+
+  for (const [day, count] of Object.entries(localStats.home.byDay)) {
+    merged.home.byDay[day] = (merged.home.byDay[day] ?? 0) + count;
+  }
+
+  for (const source of [remoteStats, localStats]) {
+    for (const [path, article] of Object.entries(source.articles)) {
+      const current = merged.articles[path] ?? {
+        ...article,
+        views: 0,
+        byDay: {},
+      };
+
+      current.views += article.views;
+      current.title = article.title || current.title;
+      current.lastVisitedAt = article.lastVisitedAt ?? current.lastVisitedAt;
+      current.byDay = { ...current.byDay };
+
+      for (const [day, count] of Object.entries(article.byDay)) {
+        current.byDay[day] = (current.byDay[day] ?? 0) + count;
+      }
+
+      merged.articles[path] = current;
+    }
+
+    for (const [query, searchStats] of Object.entries(source.searches)) {
+      const current = merged.searches[query] ?? {
+        ...searchStats,
+        count: 0,
+        byDay: {},
+      };
+
+      current.count += searchStats.count;
+      current.query = searchStats.query || current.query;
+      current.lastSearchedAt = searchStats.lastSearchedAt ?? current.lastSearchedAt;
+      current.lastResultCount = searchStats.lastResultCount ?? current.lastResultCount;
+      current.byDay = { ...current.byDay };
+
+      for (const [day, count] of Object.entries(searchStats.byDay)) {
+        current.byDay[day] = (current.byDay[day] ?? 0) + count;
+      }
+
+      merged.searches[query] = current;
+    }
+  }
+
+  merged.totals.homeViews = merged.home.views;
+  merged.totals.articleViews = Object.values(merged.articles).reduce((total, article) => total + article.views, 0);
+  merged.totals.searchEvents = Object.values(merged.searches).reduce((total, searchStats) => total + searchStats.count, 0);
+  merged.recentEvents = [...remoteStats.recentEvents, ...localStats.recentEvents].slice(0, 80);
+
+  return merged;
+}
+
+async function sendAnalyticsEvents(events: AnalyticsEvent[]) {
+  try {
+    const response = await fetch("/api/analytics", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({ events }),
+    });
+
+    if (response.ok) return;
+  } catch {
+    // Fall back to local analytics below.
+  }
+
+  appendLocalAnalyticsEvents(events);
 }
 
 function readStoredContributions(key: string, legacyKey?: string) {
@@ -375,6 +752,58 @@ function readStoredContributions(key: string, legacyKey?: string) {
 function appendStoredContribution(key: string, payload: ContributionPayload, legacyKey?: string) {
   const stored = readStoredContributions(key, legacyKey);
   localStorage.setItem(key, JSON.stringify([...stored, payload]));
+}
+
+function readContributionModeration() {
+  try {
+    const value = JSON.parse(localStorage.getItem(contributionModerationStorageKey) ?? "{}");
+    return value && typeof value === "object" ? (value as Record<string, ContributionStatus>) : {};
+  } catch {
+    return {};
+  }
+}
+
+function writeContributionModeration(id: string, status: ContributionStatus) {
+  localStorage.setItem(
+    contributionModerationStorageKey,
+    JSON.stringify({
+      ...readContributionModeration(),
+      [id]: status,
+    }),
+  );
+}
+
+function getStatusFromRemoteContribution(item: RemoteContribution): ContributionStatus {
+  if (item.status) return item.status;
+  const labels = new Set(item.labels ?? []);
+  if (labels.has("isora-validee")) return "accepted";
+  if (labels.has("isora-refusee")) return "rejected";
+  return item.state === "closed" ? "closed" : "pending";
+}
+
+function getContributionStatusLabel(status: ContributionStatus) {
+  if (status === "accepted") return "Validée";
+  if (status === "rejected") return "Refusée";
+  if (status === "closed") return "Fermée";
+  return "À vérifier";
+}
+
+function toRemoteContributionPreview(item: RemoteContribution): ContributionPreview {
+  const payload = item.payload ?? {};
+  const id = item.number ? `github-${item.number}` : `github-${item.createdAt ?? item.title ?? ""}`;
+
+  return {
+    id,
+    source: "github",
+    issueNumber: item.number,
+    title: getContributionTitle(payload, item.title ?? "Retour GitHub"),
+    url: item.url,
+    createdAt: item.createdAt ?? payload.createdAt,
+    updatedAt: item.updatedAt,
+    status: getStatusFromRemoteContribution(item),
+    labels: item.labels,
+    payload,
+  };
 }
 
 function getFormString(formData: FormData, key: string) {
@@ -407,6 +836,7 @@ const primaryAction =
   "inline-flex min-h-11 items-center justify-center gap-2 border-0 bg-blue-800 px-4 font-bold text-white whitespace-nowrap hover:bg-blue-700 max-[760px]:w-full";
 const field =
   "min-h-[42px] w-full border-0 border-b-2 border-blue-800 bg-neutral-200 px-2.5 text-neutral-900 outline-0";
+const homeBlogUpdateVisibilityMs = 7 * 24 * 60 * 60 * 1000;
 
 function cn(...classes: Array<string | false | null | undefined>) {
   return classes.filter(Boolean).join(" ");
@@ -464,6 +894,76 @@ function normalize(value: string) {
 
 function formatTagLabel(label: string) {
   return label.charAt(0).toLocaleUpperCase("fr-FR") + label.slice(1);
+}
+
+function formatHomeBlogUpdateDate(value: string, locale: Locale) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value.slice(0, 10);
+
+  return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "fr-FR", {
+    day: "numeric",
+    month: "short",
+    timeZone: "Europe/Paris",
+  }).format(date);
+}
+
+function compareHomeBlogUpdates(left: HomeBlogUpdate, right: HomeBlogUpdate) {
+  const byUpdate = String(right.updatedAt).localeCompare(String(left.updatedAt));
+  return byUpdate || left.claimTitle.localeCompare(right.claimTitle, "fr");
+}
+
+function isHomeBlogUpdateVisible(update: HomeBlogUpdate, referenceDate: Date) {
+  const updatedAt = new Date(update.updatedAt);
+  if (Number.isNaN(updatedAt.getTime())) return true;
+
+  return referenceDate.getTime() - updatedAt.getTime() <= homeBlogUpdateVisibilityMs;
+}
+
+function buildHomeBlogUpdateStats(updates: readonly HomeBlogUpdate[]) {
+  const updatesBySide: Record<Side, Map<string, HomeBlogUpdate>> = {
+    hommes: new Map(),
+    femmes: new Map(),
+  };
+
+  for (const update of updates) {
+    const current = updatesBySide[update.side].get(update.claimId);
+
+    if (!current || String(update.updatedAt).localeCompare(String(current.updatedAt)) > 0) {
+      updatesBySide[update.side].set(update.claimId, update);
+    }
+  }
+
+  const menUpdates = [...updatesBySide.hommes.values()].sort(compareHomeBlogUpdates);
+  const womenUpdates = [...updatesBySide.femmes.values()].sort(compareHomeBlogUpdates);
+
+  return {
+    hommes: {
+      total: menUpdates.length,
+      updates: menUpdates,
+      latest: menUpdates[0] ?? null,
+    },
+    femmes: {
+      total: womenUpdates.length,
+      updates: womenUpdates,
+      latest: womenUpdates[0] ?? null,
+    },
+  } satisfies Record<Side, HomeBlogUpdateSideStats>;
+}
+
+function getHomeBlogUpdateTone(side: Side) {
+  return side === "femmes"
+    ? {
+        border: "border-l-cyan-600",
+        text: "text-cyan-700",
+        bg: "bg-cyan-50",
+        ring: "ring-cyan-200",
+      }
+    : {
+        border: "border-l-violet-700",
+        text: "text-violet-700",
+        bg: "bg-violet-50",
+        ring: "ring-violet-200",
+      };
 }
 
 function getPeriodLabel(claim: Claim) {
@@ -548,14 +1048,299 @@ function HighlightedSummary({ text }: { text: string }) {
   );
 }
 
-function ContributionInbox({
+function AdminPasswordGate({
+  authStatus,
+  attemptsRemaining,
+  blockedUntil,
+  error,
+  isSubmitting,
+  onSubmit,
+}: {
+  authStatus: AdminAuthStatus;
+  attemptsRemaining: number | null;
+  blockedUntil: string | null;
+  error: string | null;
+  isSubmitting: boolean;
+  onSubmit: (password: string) => void;
+}) {
+  const isBlocked = authStatus === "blocked";
+
+  return (
+    <div className="min-w-80 bg-neutral-100 font-sans text-neutral-900 antialiased">
+      <main className={cn(pageWidth, "grid min-h-screen place-items-center py-8")}>
+        <section className={cn(panel, "w-[min(480px,100%)] border-t-4 border-t-blue-800 p-6")}>
+          <BrandWordmark className="w-24" />
+          <div className={cn(icon18, "mt-7 flex items-center gap-3 text-blue-800 [&_svg]:h-7 [&_svg]:w-7")}>
+            <LockKeyhole aria-hidden="true" />
+            <h1 className="m-0 text-2xl font-extrabold leading-tight text-neutral-900">Dashboard protégé</h1>
+          </div>
+          <p className="mt-3 leading-relaxed text-neutral-600">
+            Entre le mot de passe pour afficher les contributions et les statistiques.
+          </p>
+
+          {authStatus === "checking" ? (
+            <p className="mt-5 font-bold text-blue-800">Vérification de l'accès...</p>
+          ) : (
+            <form
+              className="mt-5 grid gap-4"
+              onSubmit={(event) => {
+                event.preventDefault();
+                const formData = new FormData(event.currentTarget);
+                const password = formData.get("password");
+                if (typeof password === "string") onSubmit(password);
+              }}
+            >
+              <label className="grid gap-[7px] text-sm font-bold text-neutral-700">
+                Mot de passe
+                <input
+                  className={field}
+                  name="password"
+                  type="password"
+                  autoComplete="current-password"
+                  required
+                  disabled={isBlocked || isSubmitting}
+                />
+              </label>
+
+              <button className={cn(primaryAction, "w-full")} type="submit" disabled={isBlocked || isSubmitting}>
+                <LockKeyhole className="h-[18px] w-[18px]" aria-hidden="true" />
+                {isSubmitting ? "Vérification..." : "Afficher le dashboard"}
+              </button>
+            </form>
+          )}
+
+          {error && (
+            <p className="mt-4 font-bold text-red-700">
+              {error}
+            </p>
+          )}
+
+          {isBlocked && (
+            <p className="mt-4 font-bold text-red-700">
+              Accès bloqué pendant 24h après 3 tentatives incorrectes
+              {blockedUntil ? `, jusqu'au ${formatBlockedUntil(blockedUntil)}` : ""}.
+            </p>
+          )}
+
+          {!isBlocked && attemptsRemaining !== null && attemptsRemaining < 3 && (
+            <p className="mt-4 text-sm font-bold text-amber-800">
+              {attemptsRemaining} tentative{attemptsRemaining > 1 ? "s" : ""} restante{attemptsRemaining > 1 ? "s" : ""}.
+            </p>
+          )}
+        </section>
+      </main>
+    </div>
+  );
+}
+
+function DashboardStatCard({
+  icon: Icon,
+  label,
+  value,
+  detail,
+}: {
+  icon: LucideIcon;
+  label: string;
+  value: number;
+  detail?: string;
+}) {
+  return (
+    <article className={cn(panel, "min-h-[118px] p-5")}>
+      <div className={cn(icon18, "flex items-center gap-2 text-blue-800")}>
+        <Icon aria-hidden="true" />
+        <h2 className="m-0 text-sm font-extrabold uppercase leading-tight tracking-normal">{label}</h2>
+      </div>
+      <p className="mt-4 text-4xl font-extrabold leading-none text-neutral-900">{value}</p>
+      {detail && <p className="mt-2 text-sm font-bold leading-snug text-neutral-500">{detail}</p>}
+    </article>
+  );
+}
+
+function EmptyDashboardBlock({ children }: { children: ReactNode }) {
+  return (
+    <div className={cn(panel, "grid min-h-32 place-items-center p-5 text-center font-bold text-neutral-500")}>
+      {children}
+    </div>
+  );
+}
+
+function AnalyticsDashboard({
+  stats,
+  status,
+  issueUrl,
+  localEventCount,
+  onRefresh,
+}: {
+  stats: AnalyticsStats;
+  status: "idle" | "loading" | "ready" | "unavailable" | "error";
+  issueUrl?: string;
+  localEventCount: number;
+  onRefresh: () => void;
+}) {
+  const topArticles = Object.values(stats.articles)
+    .sort((left, right) => right.views - left.views)
+    .slice(0, 8);
+  const topSearches = Object.values(stats.searches)
+    .sort((left, right) => right.count - left.count)
+    .slice(0, 10);
+
+  return (
+    <section className="mt-6 grid gap-4" aria-labelledby="analytics-title">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h2 id="analytics-title" className="m-0 text-2xl font-extrabold leading-tight text-neutral-900">
+            Statistiques de visite
+          </h2>
+          <p className="mt-1 text-sm font-bold text-neutral-500">
+            Compteurs anonymes : accueil, articles et recherches internes.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {issueUrl && (
+            <a
+              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-200 px-3 text-sm font-bold text-blue-800 hover:bg-blue-100")}
+              href={issueUrl}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <ExternalLink aria-hidden="true" />
+              Issue stats
+            </a>
+          )}
+          <button
+            className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-blue-800 px-3 text-sm font-bold text-white hover:bg-blue-700")}
+            type="button"
+            onClick={onRefresh}
+          >
+            <RefreshCw aria-hidden="true" />
+            Actualiser
+          </button>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-4 gap-3 max-[980px]:grid-cols-2 max-[620px]:grid-cols-1">
+        <DashboardStatCard
+          icon={Home}
+          label="Accueil"
+          value={stats.totals.homeViews}
+          detail={stats.home.lastVisitedAt ? `Dernière visite ${formatContributionDate(stats.home.lastVisitedAt)}` : "Aucune visite suivie"}
+        />
+        <DashboardStatCard
+          icon={Newspaper}
+          label="Articles"
+          value={stats.totals.articleViews}
+          detail={`${Object.keys(stats.articles).length} article${Object.keys(stats.articles).length > 1 ? "s" : ""} suivi${Object.keys(stats.articles).length > 1 ? "s" : ""}`}
+        />
+        <DashboardStatCard
+          icon={Search}
+          label="Recherches"
+          value={stats.totals.searchEvents}
+          detail={`${Object.keys(stats.searches).length} requête${Object.keys(stats.searches).length > 1 ? "s" : ""} distincte${Object.keys(stats.searches).length > 1 ? "s" : ""}`}
+        />
+        <DashboardStatCard
+          icon={BarChart3}
+          label="Secours local"
+          value={localEventCount}
+          detail="Événements gardés dans ce navigateur si l'API est absente"
+        />
+      </div>
+
+      {status === "loading" && (
+        <div className={cn(panel, "p-4 font-bold text-blue-800")}>Chargement des statistiques...</div>
+      )}
+      {status === "unavailable" && (
+        <div className={cn(panel, "flex gap-3 p-4 text-sm font-bold text-amber-800")}>
+          <AlertTriangle className="h-5 w-5 shrink-0" aria-hidden="true" />
+          API statistiques indisponible ici. Les événements locaux de ce navigateur sont affichés si présents.
+        </div>
+      )}
+      {status === "error" && (
+        <div className={cn(panel, "flex gap-3 p-4 text-sm font-bold text-red-700")}>
+          <AlertTriangle className="h-5 w-5 shrink-0" aria-hidden="true" />
+          Impossible de charger les statistiques distantes pour le moment.
+        </div>
+      )}
+
+      <div className="grid grid-cols-2 gap-4 max-[980px]:grid-cols-1">
+        <section aria-labelledby="article-stats-title">
+          <h3 id="article-stats-title" className="m-0 text-base font-extrabold text-neutral-900">
+            Visites par article
+          </h3>
+          <div className="mt-3 grid gap-2">
+            {topArticles.length > 0 ? (
+              topArticles.map((article) => (
+                <a
+                  className={cn(panel, "grid grid-cols-[minmax(0,1fr)_auto] gap-3 p-4 text-neutral-900 no-underline hover:bg-blue-50")}
+                  href={article.path}
+                  key={article.path}
+                >
+                  <span className="min-w-0">
+                    <strong className="block leading-snug [overflow-wrap:anywhere]">{article.title}</strong>
+                    <span className="mt-1 block text-sm font-bold text-neutral-500">
+                      {article.lastVisitedAt ? formatContributionDate(article.lastVisitedAt) : article.path}
+                    </span>
+                  </span>
+                  <span className="text-2xl font-extrabold text-blue-800">{article.views}</span>
+                </a>
+              ))
+            ) : (
+              <EmptyDashboardBlock>Aucune visite d'article suivie.</EmptyDashboardBlock>
+            )}
+          </div>
+        </section>
+
+        <section aria-labelledby="search-stats-title">
+          <h3 id="search-stats-title" className="m-0 text-base font-extrabold text-neutral-900">
+            Recherches
+          </h3>
+          <div className="mt-3 grid gap-2">
+            {topSearches.length > 0 ? (
+              topSearches.map((searchStats) => (
+                <div
+                  className={cn(panel, "grid grid-cols-[minmax(0,1fr)_auto] gap-3 p-4")}
+                  key={normalizeAnalyticsSearch(searchStats.query)}
+                >
+                  <span className="min-w-0">
+                    <strong className="block leading-snug [overflow-wrap:anywhere]">{searchStats.query}</strong>
+                    <span className="mt-1 block text-sm font-bold text-neutral-500">
+                      {searchStats.lastResultCount ?? 0} résultat{searchStats.lastResultCount && searchStats.lastResultCount > 1 ? "s" : ""} au dernier suivi
+                    </span>
+                  </span>
+                  <span className="text-2xl font-extrabold text-blue-800">{searchStats.count}</span>
+                </div>
+              ))
+            ) : (
+              <EmptyDashboardBlock>Aucune recherche suivie.</EmptyDashboardBlock>
+            )}
+          </div>
+        </section>
+      </div>
+    </section>
+  );
+}
+
+function AdminDashboard({
   localRequests,
   onClearLocalRequests,
+  onModerateContribution,
+  moderationStatus,
+  analyticsStats,
+  analyticsStatus,
+  analyticsIssueUrl,
+  localAnalyticsEventCount,
+  onRefreshAnalytics,
   remoteRequests,
   remoteStatus,
 }: {
   localRequests: ContributionPreview[];
   onClearLocalRequests: () => void;
+  onModerateContribution: (request: ContributionPreview, decision: ContributionDecision) => void;
+  moderationStatus: Record<string, ContributionDecision>;
+  analyticsStats: AnalyticsStats;
+  analyticsStatus: "idle" | "loading" | "ready" | "unavailable" | "error";
+  analyticsIssueUrl?: string;
+  localAnalyticsEventCount: number;
+  onRefreshAnalytics: () => void;
   remoteRequests: ContributionPreview[];
   remoteStatus: "idle" | "loading" | "ready" | "unavailable" | "error";
 }) {
@@ -564,6 +1349,9 @@ function ContributionInbox({
     const rightDate = new Date(right.createdAt ?? "").getTime() || 0;
     return rightDate - leftDate;
   });
+  const pendingRequests = requests.filter((request) => request.status === "pending");
+  const acceptedRequests = requests.filter((request) => request.status === "accepted");
+  const rejectedRequests = requests.filter((request) => request.status === "rejected");
 
   return (
     <div className="min-w-80 bg-neutral-100 font-sans text-neutral-900 antialiased">
@@ -571,9 +1359,9 @@ function ContributionInbox({
         <header className="flex flex-wrap items-center justify-between gap-4 border-b border-neutral-300 pb-5">
           <div>
             <BrandWordmark className="w-24" />
-            <h1 className="mt-5 text-3xl font-extrabold leading-tight text-neutral-900">Retours utilisateurs</h1>
+            <h1 className="mt-5 text-3xl font-extrabold leading-tight text-neutral-900">Dashboard</h1>
             <p className="mt-2 max-w-2xl leading-relaxed text-neutral-600">
-              Vue non référencée pour vérifier les contestations et propositions avant modification des asymétries.
+              Vue non référencée pour suivre les contributions, les visites de l'accueil, les articles lus et les recherches internes.
             </p>
             <p className="mt-2 text-sm font-bold text-neutral-500">Version app {packageJson.version}</p>
           </div>
@@ -589,10 +1377,18 @@ function ContributionInbox({
               </button>
             )}
             <div className="bg-white px-3 py-2 text-sm font-bold text-neutral-700 ring-1 ring-inset ring-neutral-300">
-              {requests.length} retour{requests.length > 1 ? "s" : ""}
+              {pendingRequests.length} à vérifier
             </div>
           </div>
         </header>
+
+        <AnalyticsDashboard
+          stats={analyticsStats}
+          status={analyticsStatus}
+          issueUrl={analyticsIssueUrl}
+          localEventCount={localAnalyticsEventCount}
+          onRefresh={onRefreshAnalytics}
+        />
 
         <section className="mt-5 grid gap-3" aria-label="Statut des retours">
           {remoteStatus === "loading" && (
@@ -612,9 +1408,30 @@ function ContributionInbox({
           )}
         </section>
 
+        <section className="mt-6 grid grid-cols-4 gap-3 max-[980px]:grid-cols-2 max-[620px]:grid-cols-1" aria-label="Synthèse des contributions">
+          <DashboardStatCard icon={Send} label="Retours" value={requests.length} detail="GitHub et sauvegardes locales" />
+          <DashboardStatCard icon={AlertTriangle} label="À vérifier" value={pendingRequests.length} detail="En attente d'une décision" />
+          <DashboardStatCard icon={Check} label="Validées" value={acceptedRequests.length} detail="Issues ou retours locaux acceptés" />
+          <DashboardStatCard icon={X} label="Refusées" value={rejectedRequests.length} detail="Issues ou retours locaux refusés" />
+        </section>
+
+        <div className="mt-8 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="m-0 text-2xl font-extrabold leading-tight text-neutral-900">Contributions</h2>
+            <p className="mt-1 text-sm font-bold text-neutral-500">
+              Valide ou refuse chaque proposition avant de modifier les fiches.
+            </p>
+          </div>
+        </div>
+
         <section className="mt-5 grid grid-cols-2 gap-4 max-[900px]:grid-cols-1" aria-label="Retours reçus">
           {requests.map((request) => (
-            <ContributionPreviewCard key={request.id} request={request} />
+            <ContributionPreviewCard
+              key={request.id}
+              request={request}
+              isModerating={Boolean(moderationStatus[request.id])}
+              onModerateContribution={onModerateContribution}
+            />
           ))}
           {requests.length === 0 && (
             <div className={cn(panel, "col-span-full p-6 text-center font-bold text-neutral-500")}>
@@ -627,20 +1444,48 @@ function ContributionInbox({
   );
 }
 
-function ContributionPreviewCard({ request }: { request: ContributionPreview }) {
+function ContributionPreviewCard({
+  request,
+  isModerating,
+  onModerateContribution,
+}: {
+  request: ContributionPreview;
+  isModerating: boolean;
+  onModerateContribution: (request: ContributionPreview, decision: ContributionDecision) => void;
+}) {
   const payload = request.payload;
   const isContest = payload.type === "contestation_asymetrie";
   const label = isContest ? "Contestation" : "Proposition";
   const sources = Array.isArray(payload.sources) ? payload.sources.filter(Boolean) : [];
+  const statusLabel = getContributionStatusLabel(request.status);
 
   return (
-    <article className={cn(panel, "border-t-4 border-t-blue-800 p-5")}>
+    <article
+      className={cn(
+        panel,
+        "border-t-4 p-5",
+        request.status === "accepted" && "border-t-green-700",
+        request.status === "rejected" && "border-t-red-700",
+        request.status !== "accepted" && request.status !== "rejected" && "border-t-blue-800",
+      )}
+    >
       <div className="flex flex-wrap items-center gap-2">
         <span className="bg-blue-50 px-2 py-1 text-xs font-extrabold uppercase text-blue-800 ring-1 ring-inset ring-blue-200">
           {label}
         </span>
         <span className="bg-neutral-100 px-2 py-1 text-xs font-bold text-neutral-600 ring-1 ring-inset ring-neutral-300">
           {request.source === "github" ? "GitHub" : "Local"}
+        </span>
+        <span
+          className={cn(
+            "px-2 py-1 text-xs font-extrabold uppercase ring-1 ring-inset",
+            request.status === "accepted" && "bg-green-50 text-green-700 ring-green-200",
+            request.status === "rejected" && "bg-red-50 text-red-700 ring-red-200",
+            request.status === "closed" && "bg-neutral-100 text-neutral-600 ring-neutral-300",
+            request.status === "pending" && "bg-amber-50 text-amber-800 ring-amber-200",
+          )}
+        >
+          {statusLabel}
         </span>
         {payload.side && (
           <span className="bg-neutral-100 px-2 py-1 text-xs font-bold text-neutral-600 ring-1 ring-inset ring-neutral-300">
@@ -652,7 +1497,10 @@ function ContributionPreviewCard({ request }: { request: ContributionPreview }) 
       <h2 className="mt-4 text-xl font-extrabold leading-snug text-neutral-900">
         {getContributionTitle(payload, request.title)}
       </h2>
-      <p className="mt-2 text-sm font-bold text-neutral-500">{formatContributionDate(request.createdAt)}</p>
+      <p className="mt-2 text-sm font-bold text-neutral-500">
+        {formatContributionDate(request.createdAt)}
+        {request.updatedAt ? ` - mis à jour ${formatContributionDate(request.updatedAt)}` : ""}
+      </p>
 
       {payload.correction && (
         <section className="mt-4">
@@ -695,6 +1543,28 @@ function ContributionPreviewCard({ request }: { request: ContributionPreview }) 
       )}
 
       <div className="mt-5 flex flex-wrap gap-2">
+        {request.status === "pending" && (
+          <>
+            <button
+              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-green-700 px-3 font-bold text-white hover:bg-green-800 disabled:opacity-60")}
+              type="button"
+              disabled={isModerating}
+              onClick={() => onModerateContribution(request, "accepted")}
+            >
+              <Check aria-hidden="true" />
+              Valider
+            </button>
+            <button
+              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-red-700 px-3 font-bold text-white hover:bg-red-800 disabled:opacity-60")}
+              type="button"
+              disabled={isModerating}
+              onClick={() => onModerateContribution(request, "rejected")}
+            >
+              <X aria-hidden="true" />
+              Refuser
+            </button>
+          </>
+        )}
         {payload.claimUrl && (
           <a
             className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-200 px-3 font-bold text-blue-800 hover:bg-blue-100")}
@@ -727,6 +1597,79 @@ function ContributionPreviewCard({ request }: { request: ContributionPreview }) 
   );
 }
 
+function HomeBlogUpdatesPanel({
+  stats,
+  locale,
+  onClaimClick,
+  text,
+}: {
+  stats: Record<Side, HomeBlogUpdateSideStats>;
+  locale: Locale;
+  onClaimClick?: () => void;
+  text: Record<string, string>;
+}) {
+  const updates = [...stats.hommes.updates, ...stats.femmes.updates].sort(compareHomeBlogUpdates);
+
+  if (updates.length === 0) return null;
+
+  return (
+    <section aria-labelledby="modified-claims-title">
+      <div className={cn(icon18, "flex items-center gap-2 text-neutral-900")}>
+        <Newspaper className="text-blue-800" aria-hidden="true" />
+        <h3 id="modified-claims-title" className="m-0 text-[0.96rem] leading-tight">
+          {text.modifiedClaims}
+        </h3>
+      </div>
+      <p className="mt-1 text-sm leading-snug text-neutral-500">{text.modifiedClaimsDialogIntro}</p>
+
+      <div className="mt-3 grid gap-2.5">
+        {updates.map((update) => {
+          const tone = getHomeBlogUpdateTone(update.side);
+
+          return (
+            <div
+              className={cn("border-l-4 bg-neutral-100 p-3 ring-1 ring-inset ring-neutral-300", tone.border)}
+              key={`${update.claimId}-${update.updatedAt}`}
+            >
+              <div className="flex flex-wrap items-center gap-2">
+                <span className={cn("px-2 py-1 text-[0.68rem] font-extrabold uppercase leading-none ring-1 ring-inset", tone.bg, tone.text, tone.ring)}>
+                  {sideLabelsByLocale[locale][update.side]}
+                </span>
+                <span className="text-[0.72rem] font-bold text-neutral-500">
+                  {formatHomeBlogUpdateDate(update.updatedAt, locale)}
+                </span>
+              </div>
+
+              <a
+                className="mt-2 block text-sm font-extrabold leading-snug text-neutral-900 no-underline hover:text-blue-800 hover:underline"
+                href={`#${encodeURIComponent(update.claimId)}`}
+                onClick={onClaimClick}
+              >
+                {update.claimTitle}
+              </a>
+
+              <p className="mt-1 text-[0.78rem] leading-snug text-neutral-600">
+                <span className="font-extrabold text-neutral-800">{text.currentMetric} :</span>{" "}
+                {update.claimMetric}
+              </p>
+
+              <a
+                className={cn(icon18, "mt-2 inline-flex max-w-full items-start gap-1.5 text-[0.78rem] font-bold leading-snug text-blue-800 underline underline-offset-2")}
+                href={update.blogUrl}
+              >
+                <FileText className="mt-0.5" aria-hidden="true" />
+                <span className="min-w-0 [overflow-wrap:anywhere]">
+                  {text.modifiedClaimChange} : {update.blogTitle}
+                </span>
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
 function App() {
   const [locale, setLocale] = useState<Locale>(() => {
     if (typeof window === "undefined") return "fr";
@@ -741,6 +1684,7 @@ function App() {
   const [angle, setAngle] = useState<ClaimAngle | "tous">("tous");
   const [query, setQuery] = useState("");
   const [isFormOpen, setIsFormOpen] = useState(false);
+  const [isUpdatesOpen, setIsUpdatesOpen] = useState(false);
   const [suggestionSources, setSuggestionSources] = useState([""]);
   const [submitted, setSubmitted] = useState(false);
   const [submissionError, setSubmissionError] = useState(false);
@@ -751,9 +1695,22 @@ function App() {
   const [contestSubmitted, setContestSubmitted] = useState(false);
   const [contestError, setContestError] = useState(false);
   const [isRequestsView] = useState(() => isContributionAdminView());
+  const [adminAuthStatus, setAdminAuthStatus] = useState<AdminAuthStatus>(() =>
+    isContributionAdminView() ? "checking" : "unauthenticated",
+  );
+  const [adminAuthError, setAdminAuthError] = useState<string | null>(null);
+  const [adminAuthAttemptsRemaining, setAdminAuthAttemptsRemaining] = useState<number | null>(null);
+  const [adminAuthBlockedUntil, setAdminAuthBlockedUntil] = useState<string | null>(null);
+  const [isAdminAuthSubmitting, setIsAdminAuthSubmitting] = useState(false);
   const [localRequests, setLocalRequests] = useState<ContributionPreview[]>([]);
   const [remoteRequests, setRemoteRequests] = useState<ContributionPreview[]>([]);
   const [remoteStatus, setRemoteStatus] = useState<"idle" | "loading" | "ready" | "unavailable" | "error">("idle");
+  const [moderationStatus, setModerationStatus] = useState<Record<string, ContributionDecision>>({});
+  const [analyticsStats, setAnalyticsStats] = useState<AnalyticsStats>(() => createEmptyAnalyticsStats());
+  const [localAnalyticsStats, setLocalAnalyticsStats] = useState<AnalyticsStats>(() => createEmptyAnalyticsStats());
+  const [analyticsStatus, setAnalyticsStatus] = useState<"idle" | "loading" | "ready" | "unavailable" | "error">("idle");
+  const [analyticsIssueUrl, setAnalyticsIssueUrl] = useState<string | undefined>();
+  const trackedSearchesRef = useRef<Set<string>>(new Set());
   const [filterPanelsOpen, setFilterPanelsOpen] = useState({
     angles: true,
     domains: true,
@@ -780,6 +1737,11 @@ function App() {
     () => selectedTags.filter((tag) => tag !== "hommes" && tag !== "femmes"),
     [selectedTags],
   );
+  const isAdminDashboardAuthorized = isRequestsView && adminAuthStatus === "authenticated";
+  const visibleAnalyticsStats = useMemo(
+    () => mergeAnalyticsStats(analyticsStats, localAnalyticsStats),
+    [analyticsStats, localAnalyticsStats],
+  );
 
   useEffect(() => {
     document.documentElement.lang = locale === "en" ? "en" : "fr";
@@ -790,7 +1752,7 @@ function App() {
     if (!isRequestsView) return undefined;
 
     const previousTitle = document.title;
-    document.title = "Retours utilisateurs - isora";
+    document.title = "Dashboard - isora";
 
     let robotsMeta = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
     const previousRobots = robotsMeta?.getAttribute("content") ?? null;
@@ -818,32 +1780,97 @@ function App() {
   useEffect(() => {
     if (!isRequestsView) return;
 
-    const suggestions = readStoredContributions(
-      contributionStorageKeys.suggestions,
-      contributionStorageKeys.legacySuggestions,
-    ).map((payload, index) => ({
-      id: `local-suggestion-${index}-${payload.createdAt ?? ""}`,
-      source: "local" as const,
-      title: getContributionTitle(payload, "Suggestion locale"),
-      createdAt: payload.createdAt,
-      payload,
-    }));
-    const contestations = readStoredContributions(
-      contributionStorageKeys.contestations,
-      contributionStorageKeys.legacyContestations,
-    ).map((payload, index) => ({
-      id: `local-contestation-${index}-${payload.createdAt ?? ""}`,
-      source: "local" as const,
-      title: getContributionTitle(payload, "Contestation locale"),
-      createdAt: payload.createdAt,
-      payload,
-    }));
+    let cancelled = false;
 
-    setLocalRequests([...suggestions, ...contestations]);
+    fetch("/api/admin-auth", {
+      credentials: "same-origin",
+    })
+      .then(async (response) => {
+        const contentType = response.headers.get("content-type") ?? "";
+        if (!contentType.includes("application/json")) {
+          throw new Error("admin_auth_unavailable");
+        }
+
+        const data = await response.json();
+        if (cancelled) return;
+
+        if (response.ok && data.authenticated) {
+          setAdminAuthStatus("authenticated");
+          setAdminAuthError(null);
+          setAdminAuthAttemptsRemaining(null);
+          setAdminAuthBlockedUntil(null);
+          return;
+        }
+
+        if (response.status === 423) {
+          setAdminAuthStatus("blocked");
+          setAdminAuthBlockedUntil(data.blockedUntil ?? null);
+          setAdminAuthAttemptsRemaining(0);
+          return;
+        }
+
+        setAdminAuthStatus("unauthenticated");
+        setAdminAuthAttemptsRemaining(Number.isFinite(data.attemptsRemaining) ? data.attemptsRemaining : 3);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        const localAttempts = readLocalAdminAttempts();
+
+        if (localAttempts.blockedUntil) {
+          setAdminAuthStatus("blocked");
+          setAdminAuthBlockedUntil(new Date(localAttempts.blockedUntil).toISOString());
+          setAdminAuthAttemptsRemaining(0);
+        } else {
+          setAdminAuthStatus("unauthenticated");
+          setAdminAuthAttemptsRemaining(Math.max(3 - localAttempts.attempts, 0));
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
   }, [isRequestsView]);
 
   useEffect(() => {
-    if (!isRequestsView) return;
+    if (!isAdminDashboardAuthorized) return;
+
+    const moderation = readContributionModeration();
+    const suggestions = readStoredContributions(
+      contributionStorageKeys.suggestions,
+      contributionStorageKeys.legacySuggestions,
+    ).map((payload, index) => {
+      const id = `local-suggestion-${index}-${payload.createdAt ?? ""}`;
+
+      return {
+        id,
+        source: "local" as const,
+        title: getContributionTitle(payload, "Suggestion locale"),
+        createdAt: payload.createdAt,
+        status: moderation[id] ?? "pending",
+        payload,
+      };
+    });
+    const contestations = readStoredContributions(
+      contributionStorageKeys.contestations,
+      contributionStorageKeys.legacyContestations,
+    ).map((payload, index) => {
+      const id = `local-contestation-${index}-${payload.createdAt ?? ""}`;
+
+      return {
+        id,
+        source: "local" as const,
+        title: getContributionTitle(payload, "Contestation locale"),
+        createdAt: payload.createdAt,
+        status: moderation[id] ?? "pending",
+        payload,
+      };
+    });
+
+    setLocalRequests([...suggestions, ...contestations]);
+  }, [isAdminDashboardAuthorized]);
+
+  useEffect(() => {
+    if (!isAdminDashboardAuthorized) return;
 
     let cancelled = false;
     setRemoteStatus("loading");
@@ -869,22 +1896,7 @@ function App() {
       .then((data) => {
         if (cancelled || !data) return;
         const items = Array.isArray(data.items) ? data.items : [];
-        setRemoteRequests(
-          items.map((item) => {
-            const payload = item.payload ?? {};
-            const id = item.number ? `github-${item.number}` : `github-${item.createdAt ?? item.title ?? ""}`;
-
-            return {
-              id,
-              source: "github",
-              title: getContributionTitle(payload, item.title ?? "Retour GitHub"),
-              url: item.url,
-              createdAt: item.createdAt ?? payload.createdAt,
-              labels: item.labels,
-              payload,
-            };
-          }),
-        );
+        setRemoteRequests(items.map(toRemoteContributionPreview));
         setRemoteStatus("ready");
       })
       .catch(() => {
@@ -894,6 +1906,29 @@ function App() {
     return () => {
       cancelled = true;
     };
+  }, [isAdminDashboardAuthorized]);
+
+  useEffect(() => {
+    if (!isAdminDashboardAuthorized) return;
+    refreshAnalytics();
+  }, [isAdminDashboardAuthorized]);
+
+  useEffect(() => {
+    if (isRequestsView) return;
+
+    const analyticsWindow = window as Window & { __isoraHomeTracked?: boolean };
+    if (analyticsWindow.__isoraHomeTracked) return;
+
+    analyticsWindow.__isoraHomeTracked = true;
+    void sendAnalyticsEvents([
+      {
+        type: "page_view",
+        pageType: "home",
+        path: window.location.pathname || "/",
+        title: "Accueil isora",
+        at: new Date().toISOString(),
+      },
+    ]);
   }, [isRequestsView]);
 
   useEffect(() => {
@@ -999,6 +2034,31 @@ function App() {
       : orderedClaims;
   }, [angle, domain, hasMenTagFilter, hasWomenTagFilter, query, selectedPeriods, selectedStatuses, selectedTopicTags, selectedZones, side]);
 
+  useEffect(() => {
+    if (isRequestsView) return undefined;
+
+    const trimmedQuery = query.trim();
+    const normalizedQuery = normalizeAnalyticsSearch(trimmedQuery);
+
+    if (normalizedQuery.length < 2 || trackedSearchesRef.current.has(normalizedQuery)) {
+      return undefined;
+    }
+
+    const timeoutId = window.setTimeout(() => {
+      trackedSearchesRef.current.add(normalizedQuery);
+      void sendAnalyticsEvents([
+        {
+          type: "search",
+          query: trimmedQuery,
+          resultCount: filteredClaims.length,
+          at: new Date().toISOString(),
+        },
+      ]);
+    }, 800);
+
+    return () => window.clearTimeout(timeoutId);
+  }, [filteredClaims.length, isRequestsView, query]);
+
   const claimColumns = useMemo(() => {
     if (isSingleColumn) return [filteredClaims];
 
@@ -1022,6 +2082,38 @@ function App() {
     }),
     [],
   );
+
+  const visibleHomeBlogUpdates = useMemo(() => {
+    const referenceDate = new Date();
+    return homeBlogUpdates.filter((update) => isHomeBlogUpdateVisible(update, referenceDate));
+  }, []);
+
+  const homeBlogUpdateStats = useMemo(
+    () => buildHomeBlogUpdateStats(visibleHomeBlogUpdates),
+    [visibleHomeBlogUpdates],
+  );
+
+  const homeBlogUpdateHistoryStats = useMemo(
+    () => buildHomeBlogUpdateStats(homeBlogUpdates),
+    [],
+  );
+
+  const homeBlogUpdatesByClaimId = useMemo(() => {
+    const updatesByClaimId = new Map<string, HomeBlogUpdate[]>();
+
+    for (const update of visibleHomeBlogUpdates) {
+      const claimUpdates = updatesByClaimId.get(update.claimId) ?? [];
+      claimUpdates.push(update);
+      updatesByClaimId.set(update.claimId, claimUpdates.sort(compareHomeBlogUpdates));
+    }
+
+    return updatesByClaimId;
+  }, [visibleHomeBlogUpdates]);
+
+  const updatedClaimsTotal = homeBlogUpdateHistoryStats.hommes.total + homeBlogUpdateHistoryStats.femmes.total;
+  const latestHomeBlogUpdate =
+    [...homeBlogUpdateHistoryStats.hommes.updates, ...homeBlogUpdateHistoryStats.femmes.updates].sort(compareHomeBlogUpdates)[0] ??
+    null;
 
   const structuredData = useMemo(
     () => ({
@@ -1049,7 +2141,7 @@ function App() {
           itemListElement: claims.slice(0, 60).map((claim, index) => ({
             "@type": "ListItem",
             position: index + 1,
-            url: `${canonicalUrl}#${claim.id}`,
+            url: `${canonicalUrl}fiches/${encodeURIComponent(claim.id)}/`,
             name: claim.title,
             description: claim.summary,
           })),
@@ -1131,6 +2223,187 @@ function App() {
     setSelectedPeriods([]);
     setDomain("tous");
     setAngle("tous");
+  }
+
+  async function handleAdminLogin(password: string) {
+    setIsAdminAuthSubmitting(true);
+    setAdminAuthError(null);
+
+    try {
+      const response = await fetch("/api/admin-auth", {
+        method: "POST",
+        credentials: "same-origin",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ password }),
+      });
+      const contentType = response.headers.get("content-type") ?? "";
+
+      if (!contentType.includes("application/json")) {
+        throw new Error("admin_auth_unavailable");
+      }
+
+      const data = await response.json();
+
+      if (response.ok && data.authenticated) {
+        localStorage.removeItem(adminAuthLocalAttemptsKey);
+        setAdminAuthStatus("authenticated");
+        setAdminAuthAttemptsRemaining(null);
+        setAdminAuthBlockedUntil(null);
+        setAdminAuthError(null);
+        return;
+      }
+
+      if (response.status === 423) {
+        setAdminAuthStatus("blocked");
+        setAdminAuthBlockedUntil(data.blockedUntil ?? null);
+        setAdminAuthAttemptsRemaining(0);
+        setAdminAuthError("Trop de tentatives incorrectes.");
+        return;
+      }
+
+      if (response.status === 401) {
+        const attemptsRemaining = Number.isFinite(data.attemptsRemaining) ? data.attemptsRemaining : null;
+        setAdminAuthStatus("unauthenticated");
+        setAdminAuthAttemptsRemaining(attemptsRemaining);
+        setAdminAuthError("Mot de passe incorrect.");
+        return;
+      }
+
+      throw new Error("admin_auth_failed");
+    } catch {
+      if (!import.meta.env.DEV) {
+        setAdminAuthError("Vérification impossible pour le moment.");
+        return;
+      }
+
+      const localAttempts = readLocalAdminAttempts();
+
+      if (localAttempts.blockedUntil) {
+        setAdminAuthStatus("blocked");
+        setAdminAuthBlockedUntil(new Date(localAttempts.blockedUntil).toISOString());
+        setAdminAuthAttemptsRemaining(0);
+        setAdminAuthError("Trop de tentatives incorrectes.");
+        return;
+      }
+
+      if (await verifyAdminPasswordLocally(password)) {
+        localStorage.removeItem(adminAuthLocalAttemptsKey);
+        setAdminAuthStatus("authenticated");
+        setAdminAuthAttemptsRemaining(null);
+        setAdminAuthBlockedUntil(null);
+        setAdminAuthError(null);
+        return;
+      }
+
+      const nextAttempts = localAttempts.attempts + 1;
+
+      if (nextAttempts >= 3) {
+        const blockedUntil = Date.now() + adminBlockDurationMs;
+        writeLocalAdminAttempts(3, blockedUntil);
+        setAdminAuthStatus("blocked");
+        setAdminAuthBlockedUntil(new Date(blockedUntil).toISOString());
+        setAdminAuthAttemptsRemaining(0);
+        setAdminAuthError("Trop de tentatives incorrectes.");
+        return;
+      }
+
+      writeLocalAdminAttempts(nextAttempts);
+      setAdminAuthStatus("unauthenticated");
+      setAdminAuthAttemptsRemaining(Math.max(3 - nextAttempts, 0));
+      setAdminAuthError("Mot de passe incorrect.");
+    } finally {
+      setIsAdminAuthSubmitting(false);
+    }
+  }
+
+  function refreshLocalAnalyticsStats() {
+    setLocalAnalyticsStats(buildAnalyticsStatsFromEvents(readLocalAnalyticsEvents()));
+  }
+
+  function refreshAnalytics() {
+    refreshLocalAnalyticsStats();
+    setAnalyticsStatus("loading");
+
+    fetch("/api/analytics")
+      .then(async (response) => {
+        if (response.status === 404 || response.status === 503) {
+          setAnalyticsStatus("unavailable");
+          return null;
+        }
+
+        if (!(response.headers.get("content-type") ?? "").includes("application/json")) {
+          setAnalyticsStatus("unavailable");
+          return null;
+        }
+
+        if (!response.ok) {
+          throw new Error("analytics_failed");
+        }
+
+        return response.json() as Promise<{ stats?: AnalyticsStats; issueUrl?: string }>;
+      })
+      .then((data) => {
+        if (!data) return;
+        setAnalyticsStats(coerceAnalyticsStats(data.stats));
+        setAnalyticsIssueUrl(data.issueUrl);
+        setAnalyticsStatus("ready");
+      })
+      .catch(() => {
+        setAnalyticsStatus("error");
+      });
+  }
+
+  async function handleModerateContribution(request: ContributionPreview, decision: ContributionDecision) {
+    setModerationStatus((currentStatus) => ({ ...currentStatus, [request.id]: decision }));
+
+    if (request.source === "local") {
+      writeContributionModeration(request.id, decision);
+      setLocalRequests((currentRequests) =>
+        currentRequests.map((currentRequest) =>
+          currentRequest.id === request.id ? { ...currentRequest, status: decision } : currentRequest,
+        ),
+      );
+      setModerationStatus((currentStatus) => {
+        const { [request.id]: _removed, ...nextStatus } = currentStatus;
+        return nextStatus;
+      });
+      return;
+    }
+
+    try {
+      const response = await fetch("/api/contributions", {
+        method: "PATCH",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({
+          issueNumber: request.issueNumber,
+          decision,
+        }),
+      });
+
+      if (!response.ok || !(response.headers.get("content-type") ?? "").includes("application/json")) {
+        throw new Error("moderation_failed");
+      }
+
+      const data = (await response.json()) as { item?: RemoteContribution };
+      if (!data.item) throw new Error("missing_moderated_item");
+
+      setRemoteRequests((currentRequests) =>
+        currentRequests.map((currentRequest) =>
+          currentRequest.id === request.id ? toRemoteContributionPreview(data.item!) : currentRequest,
+        ),
+      );
+    } catch {
+      window.alert("La décision n'a pas pu être enregistrée pour le moment.");
+    } finally {
+      setModerationStatus((currentStatus) => {
+        const { [request.id]: _removed, ...nextStatus } = currentStatus;
+        return nextStatus;
+      });
+    }
   }
 
   async function handleSuggestionSubmit(event: FormEvent<HTMLFormElement>) {
@@ -1227,9 +2500,27 @@ function App() {
   }
 
   if (isRequestsView) {
+    if (!isAdminDashboardAuthorized) {
+      return (
+        <AdminPasswordGate
+          authStatus={adminAuthStatus}
+          attemptsRemaining={adminAuthAttemptsRemaining}
+          blockedUntil={adminAuthBlockedUntil}
+          error={adminAuthError}
+          isSubmitting={isAdminAuthSubmitting}
+          onSubmit={(password) => void handleAdminLogin(password)}
+        />
+      );
+    }
+
     return (
-      <ContributionInbox
+      <AdminDashboard
+        analyticsIssueUrl={analyticsIssueUrl}
+        analyticsStats={visibleAnalyticsStats}
+        analyticsStatus={analyticsStatus}
+        localAnalyticsEventCount={readLocalAnalyticsEvents().length}
         localRequests={localRequests}
+        moderationStatus={moderationStatus}
         onClearLocalRequests={() => {
           if (!requestLocalReturnsClearPassword()) return;
 
@@ -1237,8 +2528,11 @@ function App() {
           localStorage.removeItem(contributionStorageKeys.contestations);
           localStorage.removeItem(contributionStorageKeys.legacySuggestions);
           localStorage.removeItem(contributionStorageKeys.legacyContestations);
+          localStorage.removeItem(contributionModerationStorageKey);
           setLocalRequests([]);
         }}
+        onModerateContribution={(request, decision) => void handleModerateContribution(request, decision)}
+        onRefreshAnalytics={refreshAnalytics}
         remoteRequests={remoteRequests}
         remoteStatus={remoteStatus}
       />
@@ -1306,6 +2600,7 @@ function App() {
           <section className={cn(pageWidth, "py-6 pb-14")}>
             <div className="mx-auto w-[min(100%,760px)]">
               <ClaimCard
+                blogUpdates={homeBlogUpdatesByClaimId.get(sharedClaim.id) ?? []}
                 claim={sharedClaim}
                 locale={locale}
                 onAngleClick={(value) => setAngle((currentAngle) => (currentAngle === value ? "tous" : value))}
@@ -1351,7 +2646,13 @@ function App() {
             className={cn(
               pageWidth,
               "grid gap-3 pt-4 max-[760px]:grid-cols-2",
-              showMenSummaryTile && showWomenSummaryTile ? "grid-cols-3" : "grid-cols-2",
+              updatedClaimsTotal > 0
+                ? showMenSummaryTile && showWomenSummaryTile
+                  ? "grid-cols-4"
+                  : "grid-cols-3"
+                : showMenSummaryTile && showWomenSummaryTile
+                  ? "grid-cols-3"
+                  : "grid-cols-2",
             )}
             aria-label="État de la base"
           >
@@ -1369,7 +2670,18 @@ function App() {
                 }}
               >
                 <span className="text-5xl font-extrabold leading-none text-violet-700 max-[760px]:hidden">{counts.hommes}</span>
-                <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.menAsymmetries}</small>
+                <span>
+                  <small className="block font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.menAsymmetries}</small>
+                  {homeBlogUpdateStats.hommes.total > 0 && (
+                    <span className="mt-2 block text-xs font-extrabold leading-tight text-violet-700">
+                      {homeBlogUpdateStats.hommes.total}{" "}
+                      {homeBlogUpdateStats.hommes.total > 1 ? text.blogSyncPlural : text.blogSyncSingular}
+                      {homeBlogUpdateStats.hommes.latest
+                        ? ` - ${text.blogSyncLatest} ${formatHomeBlogUpdateDate(homeBlogUpdateStats.hommes.latest.updatedAt, locale)}`
+                        : ""}
+                    </span>
+                  )}
+                </span>
               </button>
             )}
             {showWomenSummaryTile && (
@@ -1386,7 +2698,48 @@ function App() {
                 }}
               >
                 <span className="text-5xl font-extrabold leading-none text-cyan-600 max-[760px]:hidden">{counts.femmes}</span>
-                <small className="font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.womenAsymmetries}</small>
+                <span>
+                  <small className="block font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">{text.womenAsymmetries}</small>
+                  {homeBlogUpdateStats.femmes.total > 0 && (
+                    <span className="mt-2 block text-xs font-extrabold leading-tight text-cyan-700">
+                      {homeBlogUpdateStats.femmes.total}{" "}
+                      {homeBlogUpdateStats.femmes.total > 1 ? text.blogSyncPlural : text.blogSyncSingular}
+                      {homeBlogUpdateStats.femmes.latest
+                        ? ` - ${text.blogSyncLatest} ${formatHomeBlogUpdateDate(homeBlogUpdateStats.femmes.latest.updatedAt, locale)}`
+                        : ""}
+                    </span>
+                  )}
+                </span>
+              </button>
+            )}
+            {updatedClaimsTotal > 0 && (
+              <button
+                className="flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-blue-800 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-blue-50 max-[760px]:min-h-[74px] max-[760px]:p-3"
+                type="button"
+                aria-haspopup="dialog"
+                onClick={() => setIsUpdatesOpen(true)}
+              >
+                <span className="text-5xl font-extrabold leading-none text-blue-800 max-[760px]:hidden">
+                  {updatedClaimsTotal}
+                </span>
+                <span>
+                  <small className="block font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">
+                    {text.modifiedClaims}
+                  </small>
+                  <span className="mt-2 flex flex-wrap gap-x-2 gap-y-1 text-xs font-extrabold leading-tight">
+                    <span className="text-violet-700">
+                      {homeBlogUpdateHistoryStats.hommes.total} {displaySideLabels.hommes}
+                    </span>
+                    <span className="text-cyan-700">
+                      {homeBlogUpdateHistoryStats.femmes.total} {displaySideLabels.femmes}
+                    </span>
+                  </span>
+                  {latestHomeBlogUpdate && (
+                    <span className="mt-1 block text-xs font-bold leading-tight text-neutral-500">
+                      {text.blogSyncLatest} {formatHomeBlogUpdateDate(latestHomeBlogUpdate.updatedAt, locale)}
+                    </span>
+                  )}
+                </span>
               </button>
             )}
             <div className="flex min-h-[118px] flex-col justify-between gap-2.5 border-l-4 border-l-green-700 bg-white p-5 ring-1 ring-inset ring-neutral-300 max-[760px]:hidden">
@@ -1591,6 +2944,7 @@ function App() {
                   <div className="grid gap-4" key={`claim-column-${columnIndex}`}>
                     {columnClaims.map((claim) => (
                       <ClaimCard
+                        blogUpdates={homeBlogUpdatesByClaimId.get(claim.id) ?? []}
                         claim={claim}
                         key={claim.id}
                         locale={locale}
@@ -1632,6 +2986,34 @@ function App() {
           </section>
         </section>
           </>
+        )}
+
+        {isUpdatesOpen && (
+          <div className="fixed inset-0 z-50 grid place-items-center bg-neutral-950/45 p-4" role="presentation">
+            <section
+              className={cn(panel, "max-h-[calc(100vh_-_32px)] w-[min(680px,100%)] overflow-auto p-5")}
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="modified-claims-title"
+            >
+              <div className="mb-4 flex justify-end">
+                <button
+                  className={cn(icon18, "inline-flex h-10 w-10 items-center justify-center border-0 bg-neutral-200 text-blue-800 hover:bg-blue-100")}
+                  type="button"
+                  onClick={() => setIsUpdatesOpen(false)}
+                  aria-label={text.close}
+                >
+                  <X aria-hidden="true" />
+                </button>
+              </div>
+              <HomeBlogUpdatesPanel
+                stats={homeBlogUpdateHistoryStats}
+                locale={locale}
+                onClaimClick={() => setIsUpdatesOpen(false)}
+                text={text}
+              />
+            </section>
+          </div>
         )}
 
         {isFormOpen && (
@@ -1831,6 +3213,7 @@ function App() {
 }
 
 function ClaimCard({
+  blogUpdates,
   claim,
   locale,
   onAngleClick,
@@ -1850,6 +3233,7 @@ function ClaimCard({
   selectedZones,
   text,
 }: {
+  blogUpdates: HomeBlogUpdate[];
   claim: Claim;
   locale: Locale;
   onAngleClick: (label: ClaimAngle) => void;
@@ -1871,6 +3255,7 @@ function ClaimCard({
 }) {
   const [copied, setCopied] = useState(false);
   const [isMobileExpanded, setIsMobileExpanded] = useState(false);
+  const latestBlogUpdate = blogUpdates[0] ?? null;
   const claimTranslation = locale === "en" ? claim.translations?.en : undefined;
   const claimTitle = claimTranslation?.title ?? claim.title;
   const claimSummary = claimTranslation?.summary ?? claim.summary;
@@ -1952,6 +3337,7 @@ function ClaimCard({
         panel,
         "w-full scroll-mt-24 border-t-4 p-6 max-[760px]:scroll-mt-20 max-[760px]:p-5",
         sideBorder,
+        blogUpdates.length > 0 && "bg-blue-50/30 ring-blue-200",
       )}
       id={claim.id}
     >
@@ -2037,6 +3423,31 @@ function ClaimCard({
             {isMobileExpanded ? text.hideDetails : text.showDetails}
           </button>
         </div>
+
+        {latestBlogUpdate && (
+          <div className="border-l-4 border-l-blue-800 bg-blue-50 p-3 ring-1 ring-inset ring-blue-200">
+            <div className={cn(icon18, "flex flex-wrap items-center gap-2 text-[0.78rem] font-extrabold text-blue-800")}>
+              <Newspaper aria-hidden="true" />
+              <span>{text.claimUpdated}</span>
+              <span className="text-neutral-500">
+                {formatHomeBlogUpdateDate(latestBlogUpdate.updatedAt, locale)}
+              </span>
+            </div>
+            <p className="mt-2 text-[0.86rem] leading-snug text-neutral-700">
+              <span className="font-extrabold text-neutral-900">{text.currentMetric} :</span>{" "}
+              {latestBlogUpdate.claimMetric}
+            </p>
+            <a
+              className={cn(icon18, "mt-2 inline-flex max-w-full items-start gap-2 text-[0.86rem] font-bold leading-snug text-blue-800 underline underline-offset-2")}
+              href={latestBlogUpdate.blogUrl}
+            >
+              <FileText className="mt-0.5" aria-hidden="true" />
+              <span className="min-w-0 [overflow-wrap:anywhere]">
+                {text.relatedArticle} : {latestBlogUpdate.blogTitle}
+              </span>
+            </a>
+          </div>
+        )}
       </div>
 
       <div className={cn("contents", !isMobileExpanded && "max-[760px]:hidden")} id={mobileDetailsId}>

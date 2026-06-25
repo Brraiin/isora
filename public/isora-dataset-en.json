@@ -12,10 +12,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 87,
-    "hommes": 35,
+    "total": 88,
+    "hommes": 36,
     "femmes": 52,
-    "sources": 166
+    "sources": 178
   },
   "domains": [
     "Travail",
@@ -57,6 +57,7 @@
     "détention",
     "devoirs civiques",
     "diagnostic",
+    "dictionnaires",
     "discrimination",
     "double standard",
     "douleur",
@@ -128,6 +129,7 @@
     "règles",
     "religieux",
     "représentation",
+    "représentations",
     "revenus",
     "route",
     "Royaume-Uni",
@@ -159,12 +161,14 @@
     "violences conjugales",
     "violences sexuelles",
     "viols",
-    "virginité"
+    "virginité",
+    "vocabulaire"
   ],
   "claims": [
     {
       "id": "hommes-accidents-travail",
-      "url": "https://isora-xi.vercel.app/#hommes-accidents-travail",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-accidents-travail/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-accidents-travail",
       "title": "Hommes très majoritaires parmi les morts au travail",
       "originalTitle": "Hommes très majoritaires parmi les morts au travail",
       "side": "hommes",
@@ -201,7 +205,8 @@
     },
     {
       "id": "hommes-suicide",
-      "url": "https://isora-xi.vercel.app/#hommes-suicide",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-suicide/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-suicide",
       "title": "Surmortalité masculine par suicide",
       "originalTitle": "Surmortalité masculine par suicide",
       "side": "hommes",
@@ -238,7 +243,8 @@
     },
     {
       "id": "hommes-esperance-vie",
-      "url": "https://isora-xi.vercel.app/#hommes-esperance-vie",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-esperance-vie/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-esperance-vie",
       "title": "Espérance de vie plus courte pour les hommes en France",
       "originalTitle": "Espérance de vie plus courte pour les hommes en France",
       "side": "hommes",
@@ -274,7 +280,8 @@
     },
     {
       "id": "hommes-pensions-alimentaires",
-      "url": "https://isora-xi.vercel.app/#hommes-pensions-alimentaires",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-pensions-alimentaires/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-pensions-alimentaires",
       "title": "Pères presque toujours débiteurs des pensions alimentaires",
       "originalTitle": "Pères presque toujours débiteurs des pensions alimentaires",
       "side": "hommes",
@@ -311,7 +318,8 @@
     },
     {
       "id": "hommes-residence-alternee",
-      "url": "https://isora-xi.vercel.app/#hommes-residence-alternee",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-residence-alternee/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-residence-alternee",
       "title": "Résidence alternée encore rare pour les pères séparés",
       "originalTitle": "Résidence alternée encore rare pour les pères séparés",
       "side": "hommes",
@@ -348,7 +356,8 @@
     },
     {
       "id": "hommes-filiation-paternite-test-adn-judiciaire",
-      "url": "https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-filiation-paternite-test-adn-judiciaire/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire",
       "title": "Biological paternity can only be verified through a court procedure",
       "originalTitle": "Paternité biologique vérifiable seulement par une procédure judiciaire",
       "side": "hommes",
@@ -418,7 +427,8 @@
     },
     {
       "id": "hommes-sorties-precoces",
-      "url": "https://isora-xi.vercel.app/#hommes-sorties-precoces",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-sorties-precoces/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-sorties-precoces",
       "title": "Garçons plus touchés par les sorties précoces du système scolaire",
       "originalTitle": "Garçons plus touchés par les sorties précoces du système scolaire",
       "side": "hommes",
@@ -454,7 +464,8 @@
     },
     {
       "id": "hommes-bourses-stem-reservees-femmes",
-      "url": "https://isora-xi.vercel.app/#hommes-bourses-stem-reservees-femmes",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-bourses-stem-reservees-femmes/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-bourses-stem-reservees-femmes",
       "title": "Hommes exclus de certaines bourses STEM réservées aux femmes",
       "originalTitle": "Hommes exclus de certaines bourses STEM réservées aux femmes",
       "side": "hommes",
@@ -517,7 +528,8 @@
     },
     {
       "id": "hommes-esperance-vie-monde",
-      "url": "https://isora-xi.vercel.app/#hommes-esperance-vie-monde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-esperance-vie-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-esperance-vie-monde",
       "title": "Espérance de vie masculine plus courte dans presque tous les pays",
       "originalTitle": "Espérance de vie masculine plus courte dans presque tous les pays",
       "side": "hommes",
@@ -554,7 +566,8 @@
     },
     {
       "id": "hommes-suicide-monde",
-      "url": "https://isora-xi.vercel.app/#hommes-suicide-monde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-suicide-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-suicide-monde",
       "title": "Hommes beaucoup plus exposés à la mort par suicide",
       "originalTitle": "Hommes beaucoup plus exposés à la mort par suicide",
       "side": "hommes",
@@ -591,7 +604,8 @@
     },
     {
       "id": "hommes-victimes-homicide-monde",
-      "url": "https://isora-xi.vercel.app/#hommes-victimes-homicide-monde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-victimes-homicide-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-victimes-homicide-monde",
       "title": "Hommes majoritaires parmi les victimes d'homicide",
       "originalTitle": "Hommes majoritaires parmi les victimes d'homicide",
       "side": "hommes",
@@ -628,7 +642,8 @@
     },
     {
       "id": "hommes-mortalite-travail-monde",
-      "url": "https://isora-xi.vercel.app/#hommes-mortalite-travail-monde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-mortalite-travail-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-mortalite-travail-monde",
       "title": "Hommes davantage exposés à la mortalité liée au travail",
       "originalTitle": "Hommes davantage exposés à la mortalité liée au travail",
       "side": "hommes",
@@ -665,7 +680,8 @@
     },
     {
       "id": "hommes-accidents-route-monde",
-      "url": "https://isora-xi.vercel.app/#hommes-accidents-route-monde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-accidents-route-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-accidents-route-monde",
       "title": "Hommes beaucoup plus exposés à la mortalité routière",
       "originalTitle": "Hommes beaucoup plus exposés à la mortalité routière",
       "side": "hommes",
@@ -702,7 +718,8 @@
     },
     {
       "id": "hommes-conscription",
-      "url": "https://isora-xi.vercel.app/#hommes-conscription",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-conscription/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-conscription",
       "title": "Service militaire obligatoire souvent ciblé sur les hommes",
       "originalTitle": "Service militaire obligatoire souvent ciblé sur les hommes",
       "side": "hommes",
@@ -739,7 +756,8 @@
     },
     {
       "id": "hommes-population-carcerale-monde",
-      "url": "https://isora-xi.vercel.app/#hommes-population-carcerale-monde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-population-carcerale-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-population-carcerale-monde",
       "title": "Hommes très majoritaires dans la population carcérale mondiale",
       "originalTitle": "Hommes très majoritaires dans la population carcérale mondiale",
       "side": "hommes",
@@ -776,7 +794,8 @@
     },
     {
       "id": "hommes-decrochage-garcons-monde",
-      "url": "https://isora-xi.vercel.app/#hommes-decrochage-garcons-monde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-decrochage-garcons-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-decrochage-garcons-monde",
       "title": "Garçons massivement hors de l'école ou en redoublement",
       "originalTitle": "Garçons massivement hors de l'école ou en redoublement",
       "side": "hommes",
@@ -826,7 +845,8 @@
     },
     {
       "id": "hommes-sans-abrisme",
-      "url": "https://isora-xi.vercel.app/#hommes-sans-abrisme",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-sans-abrisme/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-sans-abrisme",
       "title": "Hommes plus souvent sans-abri dans la plupart des pays",
       "originalTitle": "Hommes plus souvent sans-abri dans la plupart des pays",
       "side": "hommes",
@@ -863,7 +883,8 @@
     },
     {
       "id": "hommes-violence-partenaire-etats-unis",
-      "url": "https://isora-xi.vercel.app/#hommes-violence-partenaire-etats-unis",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-violence-partenaire-etats-unis/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-violence-partenaire-etats-unis",
       "title": "Hommes victimes de violence par partenaire intime",
       "originalTitle": "Hommes victimes de violence par partenaire intime",
       "side": "hommes",
@@ -900,7 +921,8 @@
     },
     {
       "id": "hommes-violence-domestique-royaume-uni",
-      "url": "https://isora-xi.vercel.app/#hommes-violence-domestique-royaume-uni",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-violence-domestique-royaume-uni/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-violence-domestique-royaume-uni",
       "title": "Violence domestique au Royaume-Uni : victimes femmes et hommes",
       "originalTitle": "Violence domestique au Royaume-Uni : victimes femmes et hommes",
       "side": "hommes",
@@ -939,7 +961,8 @@
     },
     {
       "id": "hommes-violences-conjugales-aides-specialisees",
-      "url": "https://isora-xi.vercel.app/#hommes-violences-conjugales-aides-specialisees",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-violences-conjugales-aides-specialisees/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-violences-conjugales-aides-specialisees",
       "title": "Hommes victimes orientés vers des aides moins spécialisées",
       "originalTitle": "Hommes victimes orientés vers des aides moins spécialisées",
       "side": "hommes",
@@ -1020,7 +1043,8 @@
     },
     {
       "id": "hommes-agressions-sexuelles-minimisees",
-      "url": "https://isora-xi.vercel.app/#hommes-agressions-sexuelles-minimisees",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-agressions-sexuelles-minimisees/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-agressions-sexuelles-minimisees",
       "title": "Hommes moins enclins à reconnaître certaines agressions sexuelles",
       "originalTitle": "Hommes moins enclins à reconnaître certaines agressions sexuelles",
       "side": "hommes",
@@ -1088,7 +1112,8 @@
     },
     {
       "id": "hommes-violences-sexuelles-sous-declaration",
-      "url": "https://isora-xi.vercel.app/#hommes-violences-sexuelles-sous-declaration",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-violences-sexuelles-sous-declaration/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-violences-sexuelles-sous-declaration",
       "title": "Hommes victimes de violences sexuelles très peu déclarées",
       "originalTitle": "Hommes victimes de violences sexuelles très peu déclarées",
       "side": "hommes",
@@ -1144,7 +1169,8 @@
     },
     {
       "id": "hommes-mis-en-cause-violences-conjugales-france",
-      "url": "https://isora-xi.vercel.app/#hommes-mis-en-cause-violences-conjugales-france",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-mis-en-cause-violences-conjugales-france/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-mis-en-cause-violences-conjugales-france",
       "title": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
       "originalTitle": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
       "side": "hommes",
@@ -1181,7 +1207,8 @@
     },
     {
       "id": "hommes-agresseurs-declares-violences-sexuelles-femmes-france",
-      "url": "https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-agresseurs-declares-violences-sexuelles-femmes-france/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france",
       "title": "Men are almost exclusive among perpetrators reported by women victims of sexual violence",
       "originalTitle": "Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles",
       "side": "hommes",
@@ -1225,7 +1252,8 @@
     },
     {
       "id": "hommes-sexisme-hostile-hce-2025",
-      "url": "https://isora-xi.vercel.app/#hommes-sexisme-hostile-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-sexisme-hostile-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-sexisme-hostile-hce-2025",
       "title": "Endorsement of hostile sexism toward women is more frequent among men",
       "originalTitle": "Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes",
       "side": "hommes",
@@ -1282,7 +1310,8 @@
     },
     {
       "id": "hommes-femmes-sexisme-paternaliste-hce-2025",
-      "url": "https://isora-xi.vercel.app/#hommes-femmes-sexisme-paternaliste-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-sexisme-paternaliste-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-sexisme-paternaliste-hce-2025",
       "title": "Paternalistic sexism is measured in both sexes, more often among men",
       "originalTitle": "Sexisme paternaliste mesuré chez les deux sexes, plus souvent chez les hommes",
       "side": "hommes",
@@ -1339,7 +1368,8 @@
     },
     {
       "id": "hommes-consentement-rapports-sexuels-hce-2025",
-      "url": "https://isora-xi.vercel.app/#hommes-consentement-rapports-sexuels-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-consentement-rapports-sexuels-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-consentement-rapports-sexuels-hce-2025",
       "title": "Sexual consent: gaps between disapproval and reported situations",
       "originalTitle": "Consentement sexuel : écarts entre désapprobation et situations déclarées",
       "side": "hommes",
@@ -1390,7 +1420,8 @@
     },
     {
       "id": "hommes-recits-antifeministes-hce-2025",
-      "url": "https://isora-xi.vercel.app/#hommes-recits-antifeministes-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-recits-antifeministes-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-recits-antifeministes-hce-2025",
       "title": "Anti-feminist narratives are reported more often among men",
       "originalTitle": "Récits antiféministes plus déclarés chez les hommes",
       "side": "hommes",
@@ -1434,8 +1465,115 @@
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
+      "id": "hommes-vocabulaire-masculinisme-pejoratif",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-vocabulaire-masculinisme-pejoratif",
+      "title": "Masculinism is mostly defined through pejorative uses",
+      "originalTitle": "Masculinisme défini surtout par ses usages péjoratifs",
+      "side": "hommes",
+      "angle": "récit_sur_le_sexe",
+      "domain": "Droits",
+      "metric": "mot péjoratif",
+      "summary": "The lexicographic sources consulted do not give masculinism a symmetrical status to feminism. Feminism is commonly defined through rights or equality, but that definition does not measure real activist practices or their attention to asymmetries disadvantaging men. The feminist or pro-feminist examples found in that direction mostly concern fatherhood, parental leave and care. By contrast, Larousse, Le Robert and the Académie française connect masculinism to anti-feminist, sexist, reactionary or virilist uses, while the OQLF gives a broader definition but notes that the word remains pejorative.",
+      "originalSummary": "Les sources lexicographiques consultées ne donnent pas au masculinisme un statut symétrique au féminisme. Le féminisme est couramment défini par les droits ou l'égalité, mais cette définition ne mesure pas les pratiques militantes réelles ni leur prise en compte des asymétries défavorables aux hommes. Les exemples féministes ou pro-féministes repérés en ce sens existent surtout sur la paternité, le congé parental et le soin. À l'inverse, Larousse, Le Robert et l'Académie française rattachent le masculinisme à des usages antiféministes, sexistes, réactionnels ou virilistes, tandis que l'OQLF propose une définition plus large mais précise que le mot reste péjoratif.",
+      "nuance": "This entry documents dictionary and terminology definitions, plus a few examples of feminist or pro-feminist advocacy on fathers' leave and care. It does not measure the whole history of male advocacy groups, feminist movements, or every use of these words. A dictionary definition centred on equality does not prove that all feminist spaces treat male-specific disadvantages symmetrically; a pejorative definition of masculinism does not prove that every defence of male vulnerabilities is misogynistic. Misogyny and misandry remain the specific terms for contempt or hatred of women and men.",
+      "originalNuance": "Cette fiche documente des définitions de dictionnaires et de terminologie, ainsi que quelques exemples d'acteurs féministes ou pro-féministes mobilisés sur le congé des pères et le soin. Elle ne mesure pas toute l'histoire des groupes de défense des hommes, des mouvements féministes ni tous les usages de ces mots. Une définition du féminisme centrée sur l'égalité ne prouve pas que tous les espaces féministes traitent symétriquement les désavantages masculins; une définition péjorative du masculinisme ne prouve pas que toute défense des vulnérabilités masculines soit misogyne. Misogynie et misandrie restent les termes spécifiques pour le mépris ou la haine des femmes et des hommes.",
+      "tags": [
+        "vocabulary",
+        "masculinism",
+        "feminism",
+        "dictionaries",
+        "representations"
+      ],
+      "countryScope": "Francophonie",
+      "regionScope": "France et Québec",
+      "periodStart": "2020",
+      "periodEnd": "2026",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the sources: dictionary and terminology entries for the French words masculinisme, féminisme, misogyne and misandre, plus public positions by feminist or pro-feminist organizations on fathers, parental leave and care. These sources do not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, ainsi que prises de position publiques d'organisations féministes ou pro-féministes sur les pères, le congé parental et le soin. Ces sources ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "25 juin 2026",
+      "source": {
+        "label": "masculinisme",
+        "publisher": "Office québécois de la langue française / Grand dictionnaire terminologique",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme",
+        "date": "2020"
+      },
+      "additionalSources": [
+        {
+          "label": "Définitions : masculinisme",
+          "publisher": "Larousse",
+          "url": "https://www.larousse.fr/dictionnaires/francais/masculinisme/49698",
+          "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "masculinisme",
+          "publisher": "Le Robert",
+          "url": "https://dictionnaire.lerobert.com/definition/masculinisme",
+          "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "masculinisme",
+          "publisher": "Académie française, 10e édition",
+          "url": "https://www.dictionnaire-academie.fr/article/B0M00085",
+          "date": "publié en juin 2026"
+        },
+        {
+          "label": "Définitions : féminisme",
+          "publisher": "Larousse",
+          "url": "https://www.larousse.fr/dictionnaires/francais/f%C3%A9minisme/33213",
+          "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "féminisme",
+          "publisher": "Académie française, 9e édition",
+          "url": "https://www.dictionnaire-academie.fr/article/A9F0434",
+          "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "Définitions : misogyne",
+          "publisher": "Larousse",
+          "url": "https://www.larousse.fr/dictionnaires/francais/misogyne/51773",
+          "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "Définitions : misandre",
+          "publisher": "Larousse",
+          "url": "https://www.larousse.fr/dictionnaires/francais/misandre/51743",
+          "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "It’s time to revolutionise parental leave – for women, for families, for our future",
+          "publisher": "The Fawcett Society",
+          "url": "https://www.fawcettsociety.org.uk/blog/its-time-to-revolutionise-parental-leave-for-women-for-families-for-our-future",
+          "date": "2025"
+        },
+        {
+          "label": "Maternity, paternity and parental leave: Briefing for a new government",
+          "publisher": "Women's Budget Group",
+          "url": "https://www.wbg.org.uk/publication/maternity-paternity-and-parental-leave-briefing-for-a-new-government/",
+          "date": "17 juin 2024"
+        },
+        {
+          "label": "State of the World's Fathers",
+          "publisher": "Equimundo / MenCare",
+          "url": "https://www.equimundo.org/state-of-the-worlds-fathers-research/",
+          "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "MenEngage Alliance",
+          "publisher": "MenEngage Alliance",
+          "url": "https://menengage.org/",
+          "date": "consulté le 25 juin 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
       "id": "hommes-perception-garde-enfants-hce-2025",
-      "url": "https://isora-xi.vercel.app/#hommes-perception-garde-enfants-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-perception-garde-enfants-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-perception-garde-enfants-hce-2025",
       "title": "Child residence: perception of an advantage for mothers and fathers' requests",
       "originalTitle": "Garde des enfants : perception d'un avantage aux mères et demandes des pères",
       "side": "hommes",
@@ -1480,7 +1618,8 @@
     },
     {
       "id": "hommes-attribution-laxisme-justice-violences-sexuelles",
-      "url": "https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles",
       "title": "Sexual violence: alleged judicial leniency cannot be attributed to men",
       "originalTitle": "Violences sexuelles : le 'laxisme judiciaire' n'est pas imputable aux hommes",
       "side": "hommes",
@@ -1537,7 +1676,8 @@
     },
     {
       "id": "hommes-sanctions-penales-plus-lourdes",
-      "url": "https://isora-xi.vercel.app/#hommes-sanctions-penales-plus-lourdes",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-sanctions-penales-plus-lourdes/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-sanctions-penales-plus-lourdes",
       "title": "Hommes plus exposés aux sanctions pénales lourdes",
       "originalTitle": "Hommes plus exposés aux sanctions pénales lourdes",
       "side": "hommes",
@@ -1600,7 +1740,8 @@
     },
     {
       "id": "hommes-conge-paternite-ocde",
-      "url": "https://isora-xi.vercel.app/#hommes-conge-paternite-ocde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-conge-paternite-ocde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-conge-paternite-ocde",
       "title": "Pères limités par un congé paternité payé très court",
       "originalTitle": "Pères limités par un congé paternité payé très court",
       "side": "hommes",
@@ -1637,7 +1778,8 @@
     },
     {
       "id": "hommes-autonomie-corporelle-circoncision",
-      "url": "https://isora-xi.vercel.app/#hommes-autonomie-corporelle-circoncision",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-autonomie-corporelle-circoncision/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-autonomie-corporelle-circoncision",
       "title": "Circoncision des garçons décidée avant leur consentement",
       "originalTitle": "Circoncision des garçons décidée avant leur consentement",
       "side": "hommes",
@@ -1674,7 +1816,8 @@
     },
     {
       "id": "hommes-deces-professionnels-etats-unis-2024",
-      "url": "https://isora-xi.vercel.app/#hommes-deces-professionnels-etats-unis-2024",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-deces-professionnels-etats-unis-2024/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-deces-professionnels-etats-unis-2024",
       "title": "Hommes très majoritaires parmi les décès professionnels aux États-Unis",
       "originalTitle": "Hommes très majoritaires parmi les décès professionnels aux États-Unis",
       "side": "hommes",
@@ -1718,7 +1861,8 @@
     },
     {
       "id": "hommes-ukraine-restrictions-sortie-2022-2025",
-      "url": "https://isora-xi.vercel.app/#hommes-ukraine-restrictions-sortie-2022-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-ukraine-restrictions-sortie-2022-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-ukraine-restrictions-sortie-2022-2025",
       "title": "Hommes ukrainiens d'âge militaire limités à la frontière",
       "originalTitle": "Hommes ukrainiens d'âge militaire limités à la frontière",
       "side": "hommes",
@@ -1768,7 +1912,8 @@
     },
     {
       "id": "femmes-ecart-salaire",
-      "url": "https://isora-xi.vercel.app/#femmes-ecart-salaire",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-ecart-salaire/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-ecart-salaire",
       "title": "The women-men pay gap is much smaller at comparable profile",
       "originalTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
       "side": "femmes",
@@ -1818,7 +1963,8 @@
     },
     {
       "id": "hommes-femmes-taxe-rose-prix-genres",
-      "url": "https://isora-xi.vercel.app/#hommes-femmes-taxe-rose-prix-genres",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-taxe-rose-prix-genres/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-taxe-rose-prix-genres",
       "title": "Pink tax: gendered prices exist, without a generalized female surcharge",
       "originalTitle": "Taxe rose : des prix genrés existent, sans surcoût féminin généralisé",
       "side": "femmes",
@@ -1870,7 +2016,8 @@
     },
     {
       "id": "femmes-temps-partiel",
-      "url": "https://isora-xi.vercel.app/#femmes-temps-partiel",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-temps-partiel/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-temps-partiel",
       "title": "Women are much more often employed part-time",
       "originalTitle": "Femmes beaucoup plus souvent salariées à temps partiel",
       "side": "femmes",
@@ -1921,7 +2068,8 @@
     },
     {
       "id": "femmes-violences-conjugales",
-      "url": "https://isora-xi.vercel.app/#femmes-violences-conjugales",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-conjugales/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-conjugales",
       "title": "Femmes majoritaires parmi les victimes conjugales enregistrées",
       "originalTitle": "Femmes majoritaires parmi les victimes conjugales enregistrées",
       "side": "femmes",
@@ -1958,7 +2106,8 @@
     },
     {
       "id": "femmes-violences-sexuelles",
-      "url": "https://isora-xi.vercel.app/#femmes-violences-sexuelles",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles",
       "title": "Sexual violence against women is very rarely reported",
       "originalTitle": "Femmes victimes de violences sexuelles très peu déclarées",
       "side": "femmes",
@@ -2009,7 +2158,8 @@
     },
     {
       "id": "femmes-perception-desavantage-hce-2025",
-      "url": "https://isora-xi.vercel.app/#femmes-perception-desavantage-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-perception-desavantage-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-perception-desavantage-hce-2025",
       "title": "Women more often perceive sexism as a disadvantage",
       "originalTitle": "Perception du sexisme comme désavantage plus forte chez les femmes",
       "side": "femmes",
@@ -2054,7 +2204,8 @@
     },
     {
       "id": "femmes-violences-sexuelles-transports-hce-2025",
-      "url": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-transports-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-transports-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-transports-hce-2025",
       "title": "Women are a very large majority of victims in public transport",
       "originalTitle": "Femmes très majoritaires parmi les victimes dans les transports",
       "side": "femmes",
@@ -2099,7 +2250,8 @@
     },
     {
       "id": "femmes-sport-inegalites-hce-2025",
-      "url": "https://isora-xi.vercel.app/#femmes-sport-inegalites-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-sport-inegalites-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-sport-inegalites-hce-2025",
       "title": "Sport: gaps in treatment, income and visibility",
       "originalTitle": "Sport : écarts de traitement, de revenus et de visibilité",
       "side": "femmes",
@@ -2144,7 +2296,8 @@
     },
     {
       "id": "femmes-cybersexisme-hce-2025",
-      "url": "https://isora-xi.vercel.app/#femmes-cybersexisme-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-cybersexisme-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-cybersexisme-hce-2025",
       "title": "Cybersexism: victims are mostly women according to the HCE",
       "originalTitle": "Cybersexisme : victimes majoritairement féminines selon le HCE",
       "side": "femmes",
@@ -2182,7 +2335,8 @@
     },
     {
       "id": "femmes-deepfakes-sexuels-hce-2025",
-      "url": "https://isora-xi.vercel.app/#femmes-deepfakes-sexuels-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-deepfakes-sexuels-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-deepfakes-sexuels-hce-2025",
       "title": "Sexual deepfakes: pornographic content mostly targeting women",
       "originalTitle": "Deepfakes sexuels : contenus pornographiques visant surtout des femmes",
       "side": "femmes",
@@ -2227,7 +2381,8 @@
     },
     {
       "id": "femmes-inegalites-familiales-hce-2025",
-      "url": "https://isora-xi.vercel.app/#femmes-inegalites-familiales-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-inegalites-familiales-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-inegalites-familiales-hce-2025",
       "title": "Family life: unequal treatment is reported more often by women",
       "originalTitle": "Famille : traitement inégal déclaré plus souvent par les femmes",
       "side": "femmes",
@@ -2272,7 +2427,8 @@
     },
     {
       "id": "femmes-vecu-situations-sexistes-hce-2025",
-      "url": "https://isora-xi.vercel.app/#femmes-vecu-situations-sexistes-hce-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-vecu-situations-sexistes-hce-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-vecu-situations-sexistes-hce-2025",
       "title": "A large majority of women report sexist experiences",
       "originalTitle": "Expériences sexistes déclarées par une large majorité de femmes",
       "side": "femmes",
@@ -2317,7 +2473,8 @@
     },
     {
       "id": "femmes-assemblee-nationale-parite-2024",
-      "url": "https://isora-xi.vercel.app/#femmes-assemblee-nationale-parite-2024",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-assemblee-nationale-parite-2024/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-assemblee-nationale-parite-2024",
       "title": "French National Assembly: women's share fell in 2024",
       "originalTitle": "Assemblée nationale : part des députées en recul en 2024",
       "side": "femmes",
@@ -2355,7 +2512,8 @@
     },
     {
       "id": "femmes-ingenierie",
-      "url": "https://isora-xi.vercel.app/#femmes-ingenierie",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-ingenierie/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-ingenierie",
       "title": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
       "originalTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
       "side": "femmes",
@@ -2411,7 +2569,8 @@
     },
     {
       "id": "femmes-separation-niveau-vie",
-      "url": "https://isora-xi.vercel.app/#femmes-separation-niveau-vie",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-separation-niveau-vie/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-separation-niveau-vie",
       "title": "Femmes plus appauvries après une séparation",
       "originalTitle": "Femmes plus appauvries après une séparation",
       "side": "femmes",
@@ -2448,7 +2607,8 @@
     },
     {
       "id": "femmes-discrimination-religieuse",
-      "url": "https://isora-xi.vercel.app/#femmes-discrimination-religieuse",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-discrimination-religieuse/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-discrimination-religieuse",
       "title": "Candidate voilée discriminée à l'embauche",
       "originalTitle": "Candidate voilée discriminée à l'embauche",
       "side": "femmes",
@@ -2485,7 +2645,8 @@
     },
     {
       "id": "femmes-france-droit-vote-1944",
-      "url": "https://isora-xi.vercel.app/#femmes-france-droit-vote-1944",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-france-droit-vote-1944/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-france-droit-vote-1944",
       "title": "Femmes privées du droit de vote en France jusqu'en 1944",
       "originalTitle": "Femmes privées du droit de vote en France jusqu'en 1944",
       "side": "femmes",
@@ -2522,7 +2683,8 @@
     },
     {
       "id": "femmes-france-compte-bancaire-travail-1965",
-      "url": "https://isora-xi.vercel.app/#femmes-france-compte-bancaire-travail-1965",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-france-compte-bancaire-travail-1965/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-france-compte-bancaire-travail-1965",
       "title": "Femmes mariées privées d'autonomie bancaire avant 1965",
       "originalTitle": "Femmes mariées privées d'autonomie bancaire avant 1965",
       "side": "femmes",
@@ -2566,7 +2728,8 @@
     },
     {
       "id": "femmes-france-contraception-1967",
-      "url": "https://isora-xi.vercel.app/#femmes-france-contraception-1967",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-france-contraception-1967/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-france-contraception-1967",
       "title": "Accès à la contraception restreint avant la loi Neuwirth",
       "originalTitle": "Accès à la contraception restreint avant la loi Neuwirth",
       "side": "femmes",
@@ -2618,7 +2781,8 @@
     },
     {
       "id": "femmes-france-ivg-1975-1979",
-      "url": "https://isora-xi.vercel.app/#femmes-france-ivg-1975-1979",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-france-ivg-1975-1979/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-france-ivg-1975-1979",
       "title": "IVG pénalisée en France avant la loi Veil",
       "originalTitle": "IVG pénalisée en France avant la loi Veil",
       "side": "femmes",
@@ -2655,7 +2819,8 @@
     },
     {
       "id": "femmes-violences-physiques-sexuelles-monde",
-      "url": "https://isora-xi.vercel.app/#femmes-violences-physiques-sexuelles-monde",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-physiques-sexuelles-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-physiques-sexuelles-monde",
       "title": "Femmes exposées aux violences conjugales physiques ou sexuelles",
       "originalTitle": "Femmes exposées aux violences conjugales physiques ou sexuelles",
       "side": "femmes",
@@ -2723,7 +2888,8 @@
     },
     {
       "id": "femmes-prison-victimisation-sexuelle-etats-unis",
-      "url": "https://isora-xi.vercel.app/#femmes-prison-victimisation-sexuelle-etats-unis",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-prison-victimisation-sexuelle-etats-unis/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-prison-victimisation-sexuelle-etats-unis",
       "title": "Détenues plus exposées à la victimisation sexuelle en prison",
       "originalTitle": "Détenues plus exposées à la victimisation sexuelle en prison",
       "side": "femmes",
@@ -2767,7 +2933,8 @@
     },
     {
       "id": "femmes-feminicides-monde-2024",
-      "url": "https://isora-xi.vercel.app/#femmes-feminicides-monde-2024",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-feminicides-monde-2024/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-feminicides-monde-2024",
       "title": "Femmes et filles tuées par des proches ou partenaires",
       "originalTitle": "Femmes et filles tuées par des proches ou partenaires",
       "side": "femmes",
@@ -2804,7 +2971,8 @@
     },
     {
       "id": "femmes-violences-sexuelles-conflits",
-      "url": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-conflits",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-conflits/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-conflits",
       "title": "Femmes et filles visées par les violences sexuelles liées aux conflits",
       "originalTitle": "Femmes et filles visées par les violences sexuelles liées aux conflits",
       "side": "femmes",
@@ -2869,7 +3037,8 @@
     },
     {
       "id": "femmes-homicides-mineurs-condamnations",
-      "url": "https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-homicides-mineurs-condamnations/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations",
       "title": "Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
       "originalTitle": "Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
       "side": "femmes",
@@ -2919,7 +3088,8 @@
     },
     {
       "id": "femmes-violences-sexuelles-enfance",
-      "url": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-enfance",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-enfance/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-enfance",
       "title": "Filles victimes de violences sexuelles avant 18 ans",
       "originalTitle": "Filles victimes de violences sexuelles avant 18 ans",
       "side": "femmes",
@@ -2956,7 +3126,8 @@
     },
     {
       "id": "femmes-mariage-enfants",
-      "url": "https://isora-xi.vercel.app/#femmes-mariage-enfants",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-mariage-enfants/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-mariage-enfants",
       "title": "Filles mariées pendant l'enfance",
       "originalTitle": "Filles mariées pendant l'enfance",
       "side": "femmes",
@@ -2993,7 +3164,8 @@
     },
     {
       "id": "femmes-pression-virginite-avant-mariage",
-      "url": "https://isora-xi.vercel.app/#femmes-pression-virginite-avant-mariage",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-pression-virginite-avant-mariage/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-pression-virginite-avant-mariage",
       "title": "Femmes ciblées par la norme de virginité avant mariage",
       "originalTitle": "Femmes ciblées par la norme de virginité avant mariage",
       "side": "femmes",
@@ -3044,7 +3216,8 @@
     },
     {
       "id": "hommes-femmes-body-count-double-standard",
-      "url": "https://isora-xi.vercel.app/#hommes-femmes-body-count-double-standard",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-body-count-double-standard/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-body-count-double-standard",
       "title": "Nombre de partenaires sexuels passés : résultats variables selon les études",
       "originalTitle": "Nombre de partenaires sexuels passés : résultats variables selon les études",
       "side": "femmes",
@@ -3103,7 +3276,8 @@
     },
     {
       "id": "hommes-femmes-peurs-consentement-sexuel",
-      "url": "https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-peurs-consentement-sexuel/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel",
       "title": "Consentement sexuel : peurs asymétriques en début de relation",
       "originalTitle": "Consentement sexuel : peurs asymétriques en début de relation",
       "side": "femmes",
@@ -3188,7 +3362,8 @@
     },
     {
       "id": "femmes-mutilations-genitales",
-      "url": "https://isora-xi.vercel.app/#femmes-mutilations-genitales",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-mutilations-genitales/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-mutilations-genitales",
       "title": "Filles et femmes victimes de mutilations génitales",
       "originalTitle": "Filles et femmes victimes de mutilations génitales",
       "side": "femmes",
@@ -3225,7 +3400,8 @@
     },
     {
       "id": "femmes-preference-garcons",
-      "url": "https://isora-xi.vercel.app/#femmes-preference-garcons",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-preference-garcons/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-preference-garcons",
       "title": "Filles manquantes liées à la préférence pour les fils",
       "originalTitle": "Filles manquantes liées à la préférence pour les fils",
       "side": "femmes",
@@ -3262,7 +3438,8 @@
     },
     {
       "id": "femmes-filles-hors-ecole",
-      "url": "https://isora-xi.vercel.app/#femmes-filles-hors-ecole",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-filles-hors-ecole/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-filles-hors-ecole",
       "title": "Enfants hors de l'école : estimations mondiales proches selon le sexe",
       "originalTitle": "Enfants hors de l'école : estimations mondiales proches selon le sexe",
       "side": "femmes",
@@ -3320,7 +3497,8 @@
     },
     {
       "id": "femmes-afghanistan-education",
-      "url": "https://isora-xi.vercel.app/#femmes-afghanistan-education",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-afghanistan-education/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-afghanistan-education",
       "title": "Adolescentes privées d'enseignement secondaire en Afghanistan",
       "originalTitle": "Adolescentes privées d'enseignement secondaire en Afghanistan",
       "side": "femmes",
@@ -3365,7 +3543,8 @@
     },
     {
       "id": "femmes-mortalite-maternelle",
-      "url": "https://isora-xi.vercel.app/#femmes-mortalite-maternelle",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-mortalite-maternelle/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-mortalite-maternelle",
       "title": "Femmes mortes de causes maternelles évitables",
       "originalTitle": "Femmes mortes de causes maternelles évitables",
       "side": "femmes",
@@ -3402,7 +3581,8 @@
     },
     {
       "id": "femmes-contraception-besoins-non-couverts",
-      "url": "https://isora-xi.vercel.app/#femmes-contraception-besoins-non-couverts",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-contraception-besoins-non-couverts/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-contraception-besoins-non-couverts",
       "title": "Femmes sans contraception moderne malgré un besoin",
       "originalTitle": "Femmes sans contraception moderne malgré un besoin",
       "side": "femmes",
@@ -3439,7 +3619,8 @@
     },
     {
       "id": "femmes-iran-hijab-obligatoire",
-      "url": "https://isora-xi.vercel.app/#femmes-iran-hijab-obligatoire",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-iran-hijab-obligatoire/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-iran-hijab-obligatoire",
       "title": "Femmes et filles soumises au hijab obligatoire en Iran",
       "originalTitle": "Femmes et filles soumises au hijab obligatoire en Iran",
       "side": "femmes",
@@ -3484,7 +3665,8 @@
     },
     {
       "id": "femmes-afghanistan-taliban-restrictions",
-      "url": "https://isora-xi.vercel.app/#femmes-afghanistan-taliban-restrictions",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-afghanistan-taliban-restrictions/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-afghanistan-taliban-restrictions",
       "title": "Femmes afghanes exclues de pans entiers de la vie publique",
       "originalTitle": "Femmes afghanes exclues de pans entiers de la vie publique",
       "side": "femmes",
@@ -3529,7 +3711,8 @@
     },
     {
       "id": "femmes-arabie-saoudite-reformes-tutelle",
-      "url": "https://isora-xi.vercel.app/#femmes-arabie-saoudite-reformes-tutelle",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-arabie-saoudite-reformes-tutelle/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-arabie-saoudite-reformes-tutelle",
       "title": "Saoudiennes encore touchées par des restrictions de tutelle",
       "originalTitle": "Saoudiennes encore touchées par des restrictions de tutelle",
       "side": "femmes",
@@ -3586,7 +3769,8 @@
     },
     {
       "id": "femmes-etats-unis-dobbs-avortement",
-      "url": "https://isora-xi.vercel.app/#femmes-etats-unis-dobbs-avortement",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-etats-unis-dobbs-avortement/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-etats-unis-dobbs-avortement",
       "title": "Américaines face à un accès à l'avortement très variable",
       "originalTitle": "Américaines face à un accès à l'avortement très variable",
       "side": "femmes",
@@ -3630,7 +3814,8 @@
     },
     {
       "id": "femmes-avortement-non-securise",
-      "url": "https://isora-xi.vercel.app/#femmes-avortement-non-securise",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-avortement-non-securise/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-avortement-non-securise",
       "title": "Décès liés aux avortements non sécurisés",
       "originalTitle": "Décès liés aux avortements non sécurisés",
       "side": "femmes",
@@ -3667,7 +3852,8 @@
     },
     {
       "id": "femmes-regles-cout-douleurs-ecole-sport",
-      "url": "https://isora-xi.vercel.app/#femmes-regles-cout-douleurs-ecole-sport",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-regles-cout-douleurs-ecole-sport/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-regles-cout-douleurs-ecole-sport",
       "title": "Règles : coût, douleurs et adaptations scolaires ou sportives",
       "originalTitle": "Règles : coût, douleurs et adaptations scolaires ou sportives",
       "side": "femmes",
@@ -3738,7 +3924,8 @@
     },
     {
       "id": "femmes-endometriose",
-      "url": "https://isora-xi.vercel.app/#femmes-endometriose",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-endometriose/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-endometriose",
       "title": "Femmes et filles massivement touchées par l'endométriose",
       "originalTitle": "Femmes et filles massivement touchées par l'endométriose",
       "side": "femmes",
@@ -3775,7 +3962,8 @@
     },
     {
       "id": "femmes-menopause-soins",
-      "url": "https://isora-xi.vercel.app/#femmes-menopause-soins",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-menopause-soins/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-menopause-soins",
       "title": "Soins sexospécifiques insuffisants des deux côtés",
       "originalTitle": "Soins sexospécifiques insuffisants des deux côtés",
       "side": "femmes",
@@ -3845,7 +4033,8 @@
     },
     {
       "id": "femmes-soin-non-remunere-emploi",
-      "url": "https://isora-xi.vercel.app/#femmes-soin-non-remunere-emploi",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-soin-non-remunere-emploi/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-soin-non-remunere-emploi",
       "title": "Femmes tenues hors de l'emploi par le soin non rémunéré",
       "originalTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
       "side": "femmes",
@@ -3882,7 +4071,8 @@
     },
     {
       "id": "femmes-charge-domestique-soin",
-      "url": "https://isora-xi.vercel.app/#femmes-charge-domestique-soin",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-charge-domestique-soin/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-charge-domestique-soin",
       "title": "Femmes assumant beaucoup plus de soin non rémunéré",
       "originalTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
       "side": "femmes",
@@ -3919,7 +4109,8 @@
     },
     {
       "id": "femmes-droits-economiques-monde",
-      "url": "https://isora-xi.vercel.app/#femmes-droits-economiques-monde",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-droits-economiques-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-droits-economiques-monde",
       "title": "Femmes privées d'une égalité complète de droits économiques",
       "originalTitle": "Femmes privées d'une égalité complète de droits économiques",
       "side": "femmes",
@@ -3956,7 +4147,8 @@
     },
     {
       "id": "femmes-representation-politique-monde",
-      "url": "https://isora-xi.vercel.app/#femmes-representation-politique-monde",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-representation-politique-monde/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-representation-politique-monde",
       "title": "Femmes sous-représentées dans le pouvoir politique mondial",
       "originalTitle": "Femmes sous-représentées dans le pouvoir politique mondial",
       "side": "femmes",
@@ -3993,7 +4185,8 @@
     },
     {
       "id": "femmes-dirigeantes-paix-essentialisme",
-      "url": "https://isora-xi.vercel.app/#femmes-dirigeantes-paix-essentialisme",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-dirigeantes-paix-essentialisme/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-dirigeantes-paix-essentialisme",
       "title": "Dirigeantes femmes : le pouvoir n'implique pas automatiquement la paix",
       "originalTitle": "Dirigeantes femmes : le pouvoir n'implique pas automatiquement la paix",
       "side": "femmes",
@@ -4049,7 +4242,8 @@
     },
     {
       "id": "femmes-espaces-non-mixtes-sexe",
-      "url": "https://isora-xi.vercel.app/#femmes-espaces-non-mixtes-sexe",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-espaces-non-mixtes-sexe/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-espaces-non-mixtes-sexe",
       "title": "Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni",
       "originalTitle": "Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni",
       "side": "femmes",
@@ -4093,7 +4287,8 @@
     },
     {
       "id": "femmes-traite-humaine",
-      "url": "https://isora-xi.vercel.app/#femmes-traite-humaine",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-traite-humaine/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-traite-humaine",
       "title": "Femmes et filles majoritaires parmi les victimes de traite détectées",
       "originalTitle": "Femmes et filles majoritaires parmi les victimes de traite détectées",
       "side": "femmes",
@@ -4130,7 +4325,8 @@
     },
     {
       "id": "femmes-violence-numerique",
-      "url": "https://isora-xi.vercel.app/#femmes-violence-numerique",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-violence-numerique/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-violence-numerique",
       "title": "Femmes visées par les violences facilitées par la technologie",
       "originalTitle": "Femmes visées par les violences facilitées par la technologie",
       "side": "femmes",
