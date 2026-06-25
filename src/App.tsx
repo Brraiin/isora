@@ -21,6 +21,7 @@ import {
   Send,
   ShieldAlert,
   Tags,
+  Trash2,
   Users,
   X,
 } from "lucide-react";
@@ -96,7 +97,7 @@ type ContributionPreview = {
   payload: ContributionPayload;
 };
 
-type ContributionStatus = "pending" | "accepted" | "rejected" | "closed";
+type ContributionStatus = "pending" | "accepted" | "rejected" | "closed" | "deleted";
 type ContributionDecision = "accepted" | "rejected";
 type AdminAuthStatus = "checking" | "unauthenticated" | "authenticated" | "blocked";
 
@@ -169,6 +170,9 @@ type HomeBlogUpdateSideStats = {
   updates: HomeBlogUpdate[];
 };
 
+type CookieConsentCategory = "necessary" | "analytics" | "marketing";
+type CookieConsentCategories = Record<CookieConsentCategory, boolean>;
+
 const sideLabelsByLocale: Record<Locale, Record<Side | "tous", string>> = {
   fr: sideLabels,
   en: {
@@ -232,6 +236,9 @@ const uiText: Record<Locale, Record<string, string>> = {
     searchLabel: "Recherche",
     blog: "Articles",
     weeklyWatch: "Veille quotidienne",
+    cookieSettings: "Gérer les cookies",
+    cookieFooter:
+      "isora utilise des traceurs nécessaires et, seulement avec votre accord, une mesure d'audience interne.",
     activeFilters: "Filtres actifs",
     noFilters: "Aucun filtre sélectionné",
     noResults: "Il n'y a pas de résultat avec ces filtres.",
@@ -295,6 +302,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     searchLabel: "Search",
     blog: "Articles",
     weeklyWatch: "Daily watch",
+    cookieSettings: "Manage cookies",
+    cookieFooter: "isora uses necessary trackers and, only with your agreement, internal audience measurement.",
     activeFilters: "Active filters",
     noFilters: "No selected filter",
     noResults: "There are no results with these filters.",
@@ -365,6 +374,12 @@ const contributionStorageKeys = {
 };
 const contributionModerationStorageKey = "isora:contribution-moderation";
 const analyticsLocalEventsKey = "isora:analytics-local-events";
+const cookieConsentStorageKey = "isora:cookie-consent-v1";
+const defaultCookieConsentCategories: CookieConsentCategories = {
+  necessary: true,
+  analytics: false,
+  marketing: false,
+};
 const adminAuthLocalAttemptsKey = "isora:admin-auth-attempts";
 const adminPasswordDevHash = "274bdf294021dcdc4d40e6d04b4384e329a903caeaef616615ddd0d24929fea2";
 const adminBlockDurationMs = 24 * 60 * 60 * 1000;
@@ -648,6 +663,25 @@ function appendLocalAnalyticsEvents(events: AnalyticsEvent[]) {
   localStorage.setItem(analyticsLocalEventsKey, JSON.stringify([...storedEvents, ...events].slice(-500)));
 }
 
+function readCookieConsentCategories() {
+  if (typeof window === "undefined") return defaultCookieConsentCategories;
+
+  try {
+    const consent = JSON.parse(window.localStorage.getItem(cookieConsentStorageKey) ?? "null");
+    return {
+      ...defaultCookieConsentCategories,
+      ...(consent?.categories ?? {}),
+      necessary: true,
+    };
+  } catch {
+    return defaultCookieConsentCategories;
+  }
+}
+
+function hasAnalyticsCookieConsent() {
+  return Boolean(readCookieConsentCategories().analytics);
+}
+
 function buildAnalyticsStatsFromEvents(events: AnalyticsEvent[]) {
   const stats = createEmptyAnalyticsStats();
 
@@ -721,6 +755,11 @@ function mergeAnalyticsStats(remoteStats: AnalyticsStats, localStats: AnalyticsS
 }
 
 async function sendAnalyticsEvents(events: AnalyticsEvent[]) {
+  if (import.meta.env.DEV) {
+    appendLocalAnalyticsEvents(events);
+    return;
+  }
+
   try {
     const response = await fetch("/api/analytics", {
       method: "POST",
@@ -778,12 +817,14 @@ function getStatusFromRemoteContribution(item: RemoteContribution): Contribution
   const labels = new Set(item.labels ?? []);
   if (labels.has("isora-validee")) return "accepted";
   if (labels.has("isora-refusee")) return "rejected";
+  if (labels.has("isora-supprimee")) return "deleted";
   return item.state === "closed" ? "closed" : "pending";
 }
 
 function getContributionStatusLabel(status: ContributionStatus) {
   if (status === "accepted") return "Validée";
   if (status === "rejected") return "Refusée";
+  if (status === "deleted") return "Supprimée";
   if (status === "closed") return "Fermée";
   return "À vérifier";
 }
@@ -1069,7 +1110,16 @@ function AdminPasswordGate({
     <div className="min-w-80 bg-neutral-100 font-sans text-neutral-900 antialiased">
       <main className={cn(pageWidth, "grid min-h-screen place-items-center py-8")}>
         <section className={cn(panel, "w-[min(480px,100%)] border-t-4 border-t-blue-800 p-6")}>
-          <BrandWordmark className="w-24" />
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <BrandWordmark className="w-24" />
+            <a
+              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-200 px-3 text-sm font-bold text-blue-800 hover:bg-blue-100")}
+              href="/"
+            >
+              <Home aria-hidden="true" />
+              Retour au site
+            </a>
+          </div>
           <div className={cn(icon18, "mt-7 flex items-center gap-3 text-blue-800 [&_svg]:h-7 [&_svg]:w-7")}>
             <LockKeyhole aria-hidden="true" />
             <h1 className="m-0 text-2xl font-extrabold leading-tight text-neutral-900">Dashboard protégé</h1>
@@ -1322,7 +1372,9 @@ function AnalyticsDashboard({
 function AdminDashboard({
   localRequests,
   onClearLocalRequests,
+  onDeleteContribution,
   onModerateContribution,
+  deletionStatus,
   moderationStatus,
   analyticsStats,
   analyticsStatus,
@@ -1334,7 +1386,9 @@ function AdminDashboard({
 }: {
   localRequests: ContributionPreview[];
   onClearLocalRequests: () => void;
+  onDeleteContribution: (request: ContributionPreview) => void;
   onModerateContribution: (request: ContributionPreview, decision: ContributionDecision) => void;
+  deletionStatus: Record<string, boolean>;
   moderationStatus: Record<string, ContributionDecision>;
   analyticsStats: AnalyticsStats;
   analyticsStatus: "idle" | "loading" | "ready" | "unavailable" | "error";
@@ -1344,11 +1398,13 @@ function AdminDashboard({
   remoteRequests: ContributionPreview[];
   remoteStatus: "idle" | "loading" | "ready" | "unavailable" | "error";
 }) {
-  const requests = [...remoteRequests, ...localRequests].sort((left, right) => {
-    const leftDate = new Date(left.createdAt ?? "").getTime() || 0;
-    const rightDate = new Date(right.createdAt ?? "").getTime() || 0;
-    return rightDate - leftDate;
-  });
+  const requests = [...remoteRequests, ...localRequests]
+    .filter((request) => request.status !== "deleted")
+    .sort((left, right) => {
+      const leftDate = new Date(left.createdAt ?? "").getTime() || 0;
+      const rightDate = new Date(right.createdAt ?? "").getTime() || 0;
+      return rightDate - leftDate;
+    });
   const pendingRequests = requests.filter((request) => request.status === "pending");
   const acceptedRequests = requests.filter((request) => request.status === "accepted");
   const rejectedRequests = requests.filter((request) => request.status === "rejected");
@@ -1366,6 +1422,13 @@ function AdminDashboard({
             <p className="mt-2 text-sm font-bold text-neutral-500">Version app {packageJson.version}</p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
+            <a
+              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-blue-800 px-3 text-sm font-bold text-white hover:bg-blue-700")}
+              href="/"
+            >
+              <Home aria-hidden="true" />
+              Retour au site
+            </a>
             {localRequests.length > 0 && (
               <button
                 className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-200 px-3 text-sm font-bold text-blue-800 hover:bg-blue-100")}
@@ -1429,7 +1492,9 @@ function AdminDashboard({
             <ContributionPreviewCard
               key={request.id}
               request={request}
+              isDeleting={Boolean(deletionStatus[request.id])}
               isModerating={Boolean(moderationStatus[request.id])}
+              onDeleteContribution={onDeleteContribution}
               onModerateContribution={onModerateContribution}
             />
           ))}
@@ -1446,11 +1511,15 @@ function AdminDashboard({
 
 function ContributionPreviewCard({
   request,
+  isDeleting,
   isModerating,
+  onDeleteContribution,
   onModerateContribution,
 }: {
   request: ContributionPreview;
+  isDeleting: boolean;
   isModerating: boolean;
+  onDeleteContribution: (request: ContributionPreview) => void;
   onModerateContribution: (request: ContributionPreview, decision: ContributionDecision) => void;
 }) {
   const payload = request.payload;
@@ -1466,7 +1535,8 @@ function ContributionPreviewCard({
         "border-t-4 p-5",
         request.status === "accepted" && "border-t-green-700",
         request.status === "rejected" && "border-t-red-700",
-        request.status !== "accepted" && request.status !== "rejected" && "border-t-blue-800",
+        request.status === "deleted" && "border-t-neutral-500",
+        request.status !== "accepted" && request.status !== "rejected" && request.status !== "deleted" && "border-t-blue-800",
       )}
     >
       <div className="flex flex-wrap items-center gap-2">
@@ -1481,6 +1551,7 @@ function ContributionPreviewCard({
             "px-2 py-1 text-xs font-extrabold uppercase ring-1 ring-inset",
             request.status === "accepted" && "bg-green-50 text-green-700 ring-green-200",
             request.status === "rejected" && "bg-red-50 text-red-700 ring-red-200",
+            request.status === "deleted" && "bg-neutral-100 text-neutral-600 ring-neutral-300",
             request.status === "closed" && "bg-neutral-100 text-neutral-600 ring-neutral-300",
             request.status === "pending" && "bg-amber-50 text-amber-800 ring-amber-200",
           )}
@@ -1548,7 +1619,7 @@ function ContributionPreviewCard({
             <button
               className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-green-700 px-3 font-bold text-white hover:bg-green-800 disabled:opacity-60")}
               type="button"
-              disabled={isModerating}
+              disabled={isModerating || isDeleting}
               onClick={() => onModerateContribution(request, "accepted")}
             >
               <Check aria-hidden="true" />
@@ -1557,7 +1628,7 @@ function ContributionPreviewCard({
             <button
               className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-red-700 px-3 font-bold text-white hover:bg-red-800 disabled:opacity-60")}
               type="button"
-              disabled={isModerating}
+              disabled={isModerating || isDeleting}
               onClick={() => onModerateContribution(request, "rejected")}
             >
               <X aria-hidden="true" />
@@ -1565,6 +1636,15 @@ function ContributionPreviewCard({
             </button>
           </>
         )}
+        <button
+          className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-900 px-3 font-bold text-white hover:bg-neutral-700 disabled:opacity-60")}
+          type="button"
+          disabled={isModerating || isDeleting}
+          onClick={() => onDeleteContribution(request)}
+        >
+          <Trash2 aria-hidden="true" />
+          {isDeleting ? "Suppression..." : "Supprimer"}
+        </button>
         {payload.claimUrl && (
           <a
             className={cn(icon18, "inline-flex min-h-10 items-center gap-2 bg-neutral-200 px-3 font-bold text-blue-800 hover:bg-blue-100")}
@@ -1706,10 +1786,12 @@ function App() {
   const [remoteRequests, setRemoteRequests] = useState<ContributionPreview[]>([]);
   const [remoteStatus, setRemoteStatus] = useState<"idle" | "loading" | "ready" | "unavailable" | "error">("idle");
   const [moderationStatus, setModerationStatus] = useState<Record<string, ContributionDecision>>({});
+  const [deletionStatus, setDeletionStatus] = useState<Record<string, boolean>>({});
   const [analyticsStats, setAnalyticsStats] = useState<AnalyticsStats>(() => createEmptyAnalyticsStats());
   const [localAnalyticsStats, setLocalAnalyticsStats] = useState<AnalyticsStats>(() => createEmptyAnalyticsStats());
   const [analyticsStatus, setAnalyticsStatus] = useState<"idle" | "loading" | "ready" | "unavailable" | "error">("idle");
   const [analyticsIssueUrl, setAnalyticsIssueUrl] = useState<string | undefined>();
+  const [hasAnalyticsConsent, setHasAnalyticsConsent] = useState(() => hasAnalyticsCookieConsent());
   const trackedSearchesRef = useRef<Set<string>>(new Set());
   const [filterPanelsOpen, setFilterPanelsOpen] = useState({
     angles: true,
@@ -1747,6 +1829,26 @@ function App() {
     document.documentElement.lang = locale === "en" ? "en" : "fr";
     window.localStorage.setItem("isora:locale", locale);
   }, [locale]);
+
+  useEffect(() => {
+    function syncCookieConsent(event?: Event) {
+      if (event instanceof CustomEvent && event.detail?.categories) {
+        setHasAnalyticsConsent(Boolean(event.detail.categories.analytics));
+        return;
+      }
+
+      setHasAnalyticsConsent(hasAnalyticsCookieConsent());
+    }
+
+    syncCookieConsent();
+    window.addEventListener("isora:cookie-consent", syncCookieConsent);
+    window.addEventListener("storage", syncCookieConsent);
+
+    return () => {
+      window.removeEventListener("isora:cookie-consent", syncCookieConsent);
+      window.removeEventListener("storage", syncCookieConsent);
+    };
+  }, []);
 
   useEffect(() => {
     if (!isRequestsView) return undefined;
@@ -1866,7 +1968,7 @@ function App() {
       };
     });
 
-    setLocalRequests([...suggestions, ...contestations]);
+    setLocalRequests([...suggestions, ...contestations].filter((request) => request.status !== "deleted"));
   }, [isAdminDashboardAuthorized]);
 
   useEffect(() => {
@@ -1896,7 +1998,7 @@ function App() {
       .then((data) => {
         if (cancelled || !data) return;
         const items = Array.isArray(data.items) ? data.items : [];
-        setRemoteRequests(items.map(toRemoteContributionPreview));
+        setRemoteRequests(items.map(toRemoteContributionPreview).filter((request) => request.status !== "deleted"));
         setRemoteStatus("ready");
       })
       .catch(() => {
@@ -1914,7 +2016,7 @@ function App() {
   }, [isAdminDashboardAuthorized]);
 
   useEffect(() => {
-    if (isRequestsView) return;
+    if (isRequestsView || !hasAnalyticsConsent) return;
 
     const analyticsWindow = window as Window & { __isoraHomeTracked?: boolean };
     if (analyticsWindow.__isoraHomeTracked) return;
@@ -1929,7 +2031,7 @@ function App() {
         at: new Date().toISOString(),
       },
     ]);
-  }, [isRequestsView]);
+  }, [hasAnalyticsConsent, isRequestsView]);
 
   useEffect(() => {
     function syncSharedClaim() {
@@ -2035,7 +2137,7 @@ function App() {
   }, [angle, domain, hasMenTagFilter, hasWomenTagFilter, query, selectedPeriods, selectedStatuses, selectedTopicTags, selectedZones, side]);
 
   useEffect(() => {
-    if (isRequestsView) return undefined;
+    if (isRequestsView || !hasAnalyticsConsent) return undefined;
 
     const trimmedQuery = query.trim();
     const normalizedQuery = normalizeAnalyticsSearch(trimmedQuery);
@@ -2057,7 +2159,7 @@ function App() {
     }, 800);
 
     return () => window.clearTimeout(timeoutId);
-  }, [filteredClaims.length, isRequestsView, query]);
+  }, [filteredClaims.length, hasAnalyticsConsent, isRequestsView, query]);
 
   const claimColumns = useMemo(() => {
     if (isSingleColumn) return [filteredClaims];
@@ -2406,6 +2508,53 @@ function App() {
     }
   }
 
+  async function handleDeleteContribution(request: ContributionPreview) {
+    const confirmed = window.confirm(
+      request.source === "github"
+        ? "Supprimer ce retour du dashboard ? L'issue GitHub sera fermée et masquée de la liste."
+        : "Supprimer ce retour local du dashboard ?",
+    );
+
+    if (!confirmed) return;
+
+    setDeletionStatus((currentStatus) => ({ ...currentStatus, [request.id]: true }));
+
+    if (request.source === "local") {
+      writeContributionModeration(request.id, "deleted");
+      setLocalRequests((currentRequests) => currentRequests.filter((currentRequest) => currentRequest.id !== request.id));
+      setDeletionStatus((currentStatus) => {
+        const { [request.id]: _removed, ...nextStatus } = currentStatus;
+        return nextStatus;
+      });
+      return;
+    }
+
+    try {
+      const response = await fetch("/api/contributions", {
+        method: "DELETE",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({
+          issueNumber: request.issueNumber,
+        }),
+      });
+
+      if (!response.ok || !(response.headers.get("content-type") ?? "").includes("application/json")) {
+        throw new Error("delete_failed");
+      }
+
+      setRemoteRequests((currentRequests) => currentRequests.filter((currentRequest) => currentRequest.id !== request.id));
+    } catch {
+      window.alert("Le retour n'a pas pu être supprimé pour le moment.");
+    } finally {
+      setDeletionStatus((currentStatus) => {
+        const { [request.id]: _removed, ...nextStatus } = currentStatus;
+        return nextStatus;
+      });
+    }
+  }
+
   async function handleSuggestionSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
@@ -2520,6 +2669,7 @@ function App() {
         analyticsStatus={analyticsStatus}
         localAnalyticsEventCount={readLocalAnalyticsEvents().length}
         localRequests={localRequests}
+        deletionStatus={deletionStatus}
         moderationStatus={moderationStatus}
         onClearLocalRequests={() => {
           if (!requestLocalReturnsClearPassword()) return;
@@ -2531,6 +2681,7 @@ function App() {
           localStorage.removeItem(contributionModerationStorageKey);
           setLocalRequests([]);
         }}
+        onDeleteContribution={(request) => void handleDeleteContribution(request)}
         onModerateContribution={(request, decision) => void handleModerateContribution(request, decision)}
         onRefreshAnalytics={refreshAnalytics}
         remoteRequests={remoteRequests}
@@ -3208,6 +3359,21 @@ function App() {
           </div>
         )}
       </main>
+      <footer className="border-t border-neutral-300 bg-white">
+        <div className={cn(pageWidth, "flex min-h-20 flex-col gap-3 py-5 text-sm leading-relaxed text-neutral-600 sm:flex-row sm:items-center sm:justify-between")}>
+          <p className="m-0 max-w-2xl">
+            <BrandText text={text.cookieFooter} />
+          </p>
+          <button
+            className={cn(icon18, "inline-flex min-h-10 items-center justify-center gap-2 border border-neutral-300 bg-white px-3 font-bold text-blue-800 hover:bg-blue-50 max-[760px]:w-full")}
+            type="button"
+            onClick={() => window.dispatchEvent(new Event("isora:open-cookie-preferences"))}
+          >
+            <LockKeyhole aria-hidden="true" />
+            {text.cookieSettings}
+          </button>
+        </div>
+      </footer>
     </div>
   );
 }

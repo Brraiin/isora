@@ -1,8 +1,23 @@
 (function () {
   var localEventsKey = "isora:analytics-local-events";
+  var consentStorageKey = "isora:cookie-consent-v1";
   var path = window.location.pathname || "/";
 
   if (!path.startsWith("/blog/") || path === "/blog/") return;
+  if (window.__isoraBlogArticleTracked) return;
+
+  function hasAnalyticsConsent() {
+    if (window.IsoraCookieConsent) {
+      return window.IsoraCookieConsent.hasConsent("analytics");
+    }
+
+    try {
+      var consent = JSON.parse(window.localStorage.getItem(consentStorageKey) || "null");
+      return Boolean(consent && consent.categories && consent.categories.analytics);
+    } catch {
+      return false;
+    }
+  }
 
   function normalizePath(value) {
     return value.endsWith("/") ? value : value + "/";
@@ -20,6 +35,11 @@
   }
 
   function sendEvent(event) {
+    if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
+      storeLocalEvent(event);
+      return;
+    }
+
     window
       .fetch("/api/analytics", {
         method: "POST",
@@ -37,11 +57,19 @@
       });
   }
 
-  sendEvent({
-    type: "page_view",
-    pageType: "article",
-    path: normalizePath(path),
-    title: document.title.replace(/\s+-\s+isora\s*$/i, "").trim(),
-    at: new Date().toISOString(),
-  });
+  function trackArticleView() {
+    if (window.__isoraBlogArticleTracked || !hasAnalyticsConsent()) return;
+
+    window.__isoraBlogArticleTracked = true;
+    sendEvent({
+      type: "page_view",
+      pageType: "article",
+      path: normalizePath(path),
+      title: document.title.replace(/\s+-\s+isora\s*$/i, "").trim(),
+      at: new Date().toISOString(),
+    });
+  }
+
+  trackArticleView();
+  window.addEventListener("isora:cookie-consent", trackArticleView);
 })();

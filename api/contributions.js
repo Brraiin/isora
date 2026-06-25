@@ -5,6 +5,8 @@ const contributionDecisionLabels = {
   accepted: "isora-validee",
   rejected: "isora-refusee",
 };
+const contributionDeletedLabel = "isora-supprimee";
+const contributionModerationMarkerPattern = /\n*<!--\s*isora-moderation:(accepted|rejected|deleted)\s*-->\n*/g;
 
 function json(status, body, response) {
   if (response) {
@@ -67,9 +69,10 @@ function getLabelName(label) {
 function getContributionStatus(issue) {
   const labels = new Set((issue.labels ?? []).map(getLabelName).filter(Boolean));
   const bodyStatus = typeof issue.body === "string"
-    ? issue.body.match(/<!--\s*isora-moderation:(accepted|rejected)\s*-->/)?.[1]
+    ? issue.body.match(/<!--\s*isora-moderation:(accepted|rejected|deleted)\s*-->/)?.[1]
     : null;
 
+  if (labels.has(contributionDeletedLabel) || bodyStatus === "deleted") return "deleted";
   if (labels.has(contributionDecisionLabels.accepted)) return "accepted";
   if (labels.has(contributionDecisionLabels.rejected)) return "rejected";
   if (bodyStatus === "accepted" || bodyStatus === "rejected") return bodyStatus;
@@ -95,7 +98,7 @@ export default async function handler(request, response) {
   const token = process.env.GITHUB_ISSUE_TOKEN ?? process.env.GITHUB_TOKEN;
   const method = request.method ?? "GET";
 
-  if ((method === "GET" || method === "PATCH") && !isAdminAuthorized(request)) {
+  if ((method === "GET" || method === "PATCH" || method === "DELETE") && !isAdminAuthorized(request)) {
     return json(401, { error: "admin_auth_required" }, response);
   }
 
@@ -120,7 +123,7 @@ export default async function handler(request, response) {
 
     return json(200, {
       ok: true,
-      items: issues.map(serializeIssue),
+      items: issues.map(serializeIssue).filter((issue) => issue.status !== "deleted"),
     }, response);
   }
 
@@ -160,10 +163,10 @@ export default async function handler(request, response) {
     const labels = (issue.labels ?? []).map(getLabelName).filter(Boolean);
     const decisionLabelValues = Object.values(contributionDecisionLabels);
     const nextLabels = [
-      ...labels.filter((label) => !decisionLabelValues.includes(label)),
+      ...labels.filter((label) => !decisionLabelValues.includes(label) && label !== contributionDeletedLabel),
       contributionDecisionLabels[decision],
     ];
-    const nextBody = `${String(issue.body ?? "").replace(/\n*<!--\s*isora-moderation:(accepted|rejected)\s*-->\n*/g, "").trim()}\n\n<!-- isora-moderation:${decision} -->`;
+    const nextBody = `${String(issue.body ?? "").replace(contributionModerationMarkerPattern, "").trim()}\n\n<!-- isora-moderation:${decision} -->`;
 
     let githubResponse = await fetch(`${githubApiUrl}/${issueNumber}`, {
       method: "PATCH",
@@ -219,6 +222,100 @@ export default async function handler(request, response) {
     return json(200, {
       ok: true,
       item: serializeIssue(moderatedIssue),
+    }, response);
+  }
+
+  if (method === "DELETE") {
+    if (!token) {
+      return json(503, { error: "missing_github_token" }, response);
+    }
+
+    let data;
+
+    try {
+      data = await readJson(request);
+    } catch {
+      return json(400, { error: "invalid_json" }, response);
+    }
+
+    const issueNumber = Number(data?.issueNumber);
+
+    if (!Number.isInteger(issueNumber)) {
+      return json(400, { error: "invalid_delete_payload" }, response);
+    }
+
+    const issueResponse = await fetch(`${githubApiUrl}/${issueNumber}`, {
+      headers: {
+        accept: "application/vnd.github+json",
+        authorization: `Bearer ${token}`,
+        "x-github-api-version": "2022-11-28",
+      },
+    });
+
+    if (!issueResponse.ok) {
+      return json(502, { error: "github_issue_read_failed" }, response);
+    }
+
+    const issue = await issueResponse.json();
+    const labels = (issue.labels ?? []).map(getLabelName).filter(Boolean);
+    const decisionLabelValues = Object.values(contributionDecisionLabels);
+    const nextLabels = [
+      ...labels.filter((label) => !decisionLabelValues.includes(label) && label !== contributionDeletedLabel),
+      contributionDeletedLabel,
+    ];
+    const nextBody = `${String(issue.body ?? "").replace(contributionModerationMarkerPattern, "").trim()}\n\n<!-- isora-moderation:deleted -->`;
+
+    let githubResponse = await fetch(`${githubApiUrl}/${issueNumber}`, {
+      method: "PATCH",
+      headers: {
+        accept: "application/vnd.github+json",
+        authorization: `Bearer ${token}`,
+        "content-type": "application/json",
+        "x-github-api-version": "2022-11-28",
+      },
+      body: JSON.stringify({
+        state: "closed",
+        body: nextBody,
+        labels: nextLabels,
+      }),
+    });
+
+    if (!githubResponse.ok) {
+      githubResponse = await fetch(`${githubApiUrl}/${issueNumber}`, {
+        method: "PATCH",
+        headers: {
+          accept: "application/vnd.github+json",
+          authorization: `Bearer ${token}`,
+          "content-type": "application/json",
+          "x-github-api-version": "2022-11-28",
+        },
+        body: JSON.stringify({
+          state: "closed",
+          body: nextBody,
+        }),
+      });
+    }
+
+    if (!githubResponse.ok) {
+      return json(502, { error: "github_issue_delete_failed" }, response);
+    }
+
+    await fetch(`${githubApiUrl}/${issueNumber}/comments`, {
+      method: "POST",
+      headers: {
+        accept: "application/vnd.github+json",
+        authorization: `Bearer ${token}`,
+        "content-type": "application/json",
+        "x-github-api-version": "2022-11-28",
+      },
+      body: JSON.stringify({
+        body: `Retour supprimé du dashboard isora le ${new Date().toISOString()}.`,
+      }),
+    }).catch(() => undefined);
+
+    return json(200, {
+      ok: true,
+      deleted: true,
     }, response);
   }
 
