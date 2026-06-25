@@ -58,7 +58,7 @@ export type Claim = {
   lastChecked: string;
   nuance: string;
   translations?: Partial<Record<"en", ClaimTranslation>>;
-  categorie_sexedata: "Homme (XY)" | "Femme (XX)";
+  categorie_isora: "Homme (XY)" | "Femme (XX)";
   libelle_source: string;
   mesure_chromosomes: boolean;
   theme: Domain;
@@ -82,7 +82,7 @@ export type Claim = {
 type RawClaim = Omit<
   Claim,
   | "angle"
-  | "categorie_sexedata"
+  | "categorie_isora"
   | "libelle_source"
   | "mesure_chromosomes"
   | "theme"
@@ -3583,7 +3583,7 @@ function buildClaim(claim: RawClaim): Claim {
     ...claim,
     angle: claim.angle ?? "désavantage_subi",
     sourcePopulation,
-    categorie_sexedata: claim.side === "hommes" ? "Homme (XY)" : "Femme (XX)",
+    categorie_isora: claim.side === "hommes" ? "Homme (XY)" : "Femme (XX)",
     libelle_source: sourcePopulation,
     mesure_chromosomes: false,
     theme: claim.domain,

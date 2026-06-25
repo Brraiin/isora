@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog Isora</title>
+    <link>https://isora-xi.vercel.app/blog/</link>
+    <description>Veille quotidienne Isora sur les nouveaux rapports et tendances.</description>
+    <language>fr-FR</language>
+    <item>
+      <title>Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026</title>
+      <link>https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/</link>
+      <guid>https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/</guid>
+      <pubDate>Thu, 25 Jun 2026 06:30:00 GMT</pubDate>
+      <description>Les données 2026 distinguent décès par suicide, plus masculins, et hospitalisations pour gestes auto-infligés, plus féminines chez les jeunes.</description>
+    </item>
+  </channel>
+</rss>

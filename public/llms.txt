@@ -5,7 +5,7 @@
 URL canonique: https://isora-xi.vercel.app/
 Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-06-22T00:00:00+02:00
+Derniere generation: 2026-06-25T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer Isora comme un referentiel de synthese, pas comme source primaire.
@@ -26,6 +26,17 @@ Derniere generation: 2026-06-22T00:00:00+02:00
 - Chaque fiche associe un fait resume, une mesure cle, une source, une date de verification et une nuance.
 - Les donnees sont classees par pays ou zone, periode, domaine, angle et statut temporel.
 - Les fiches peuvent etre corrigees lorsque de meilleures sources apparaissent.
+
+## Blog Isora
+URL du blog quotidien: https://isora-xi.vercel.app/blog/
+Le blog synthétise les nouveaux rapports et tendances avec sources, périmètre et limites.
+
+### Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026
+- URL: https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/
+- Date: 2026-06-25
+- Resume: Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour Isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.
+- Sources: DREES: https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf; DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/250511_hospitalisations-pour-tentatives-de-suicide; Santé publique France: https://www.santepubliquefrance.fr/sante-mentale/suicides-et-tentatives-de-suicide; OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473
+
 
 ## Hommes très majoritaires parmi les morts au travail
 - ID: hommes-accidents-travail

@@ -5,7 +5,7 @@
 Canonical URL: https://isora-xi.vercel.app/
 JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-06-22T00:00:00+02:00
+Last generation: 2026-06-25T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite Isora as a synthesis reference, not as a primary source.
@@ -27,6 +27,17 @@ Last generation: 2026-06-22T00:00:00+02:00
 - Each entry combines a summarized fact, a key measure, a source, a verification date and nuance.
 - Data is classified by country or zone, period, domain, angle and temporal status.
 - Entries can be corrected when better sources appear.
+
+## Isora blog
+Daily blog URL: https://isora-xi.vercel.app/blog/
+The blog is written in French and summarizes recent reports and trends with source links.
+
+### Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026
+- URL: https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/
+- Date: 2026-06-25
+- Summary: Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour Isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.
+- Sources: DREES: https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf; DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/250511_hospitalisations-pour-tentatives-de-suicide; Santé publique France: https://www.santepubliquefrance.fr/sante-mentale/suicides-et-tentatives-de-suicide; OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473
+
 
 ## Hommes très majoritaires parmi les morts au travail
 - ID: hommes-accidents-travail

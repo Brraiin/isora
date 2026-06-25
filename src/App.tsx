@@ -148,7 +148,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     proposeClaim: "Proposer une asymétrie sourcée",
     searchPlaceholder: "Rechercher une fiche, un pays, une source...",
     searchLabel: "Recherche",
-    weeklyWatch: "Veille hebdomadaire",
+    blog: "Blog",
+    weeklyWatch: "Veille quotidienne",
     activeFilters: "Filtres actifs",
     noFilters: "Aucun filtre sélectionné",
     noResults: "Il n'y a pas de résultat avec ces filtres.",
@@ -201,7 +202,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     proposeClaim: "Suggest a sourced asymmetry",
     searchPlaceholder: "Search an entry, country, source...",
     searchLabel: "Search",
-    weeklyWatch: "Weekly watch",
+    blog: "Blog",
+    weeklyWatch: "Daily watch",
     activeFilters: "Active filters",
     noFilters: "No selected filter",
     noResults: "There are no results with these filters.",
@@ -263,6 +265,13 @@ const latestCheck = "15 juin 2026";
 const canonicalUrl = "https://isora-xi.vercel.app/";
 const localReturnsClearPassword = "Jka$n@3^iTR7E8";
 const localReturnsClearAttemptsKey = "isora:clear-local-returns-attempts";
+const legacyContributionPrefix = ["sexe", "data"].join("");
+const contributionStorageKeys = {
+  suggestions: "isora:suggestions",
+  contestations: "isora:contestations",
+  legacySuggestions: `${legacyContributionPrefix}:suggestions`,
+  legacyContestations: `${legacyContributionPrefix}:contestations`,
+};
 
 function getParisDateKey() {
   return new Intl.DateTimeFormat("sv-SE", {
@@ -352,13 +361,25 @@ function isContributionAdminView() {
   return adminView === "contributions" || adminView === "contributions=";
 }
 
-function readStoredContributions(key: string) {
+function readStoredContributions(key: string, legacyKey?: string) {
   try {
-    const value = JSON.parse(localStorage.getItem(key) ?? "[]");
+    const current = JSON.parse(localStorage.getItem(key) ?? "[]");
+    const legacy = legacyKey ? JSON.parse(localStorage.getItem(legacyKey) ?? "[]") : [];
+    const value = [...(Array.isArray(legacy) ? legacy : []), ...(Array.isArray(current) ? current : [])];
     return Array.isArray(value) ? (value as ContributionPayload[]) : [];
   } catch {
     return [];
   }
+}
+
+function appendStoredContribution(key: string, payload: ContributionPayload, legacyKey?: string) {
+  const stored = readStoredContributions(key, legacyKey);
+  localStorage.setItem(key, JSON.stringify([...stored, payload]));
+}
+
+function getFormString(formData: FormData, key: string) {
+  const value = formData.get(key);
+  return typeof value === "string" ? value : undefined;
 }
 
 function formatContributionDate(value?: string) {
@@ -401,11 +422,14 @@ function IsoraWordmark({ className }: { className?: string }) {
   );
 }
 
-function getNextMonday(date: Date) {
+function getNextDailyRun(date: Date) {
   const next = new Date(date);
-  const day = next.getDay();
-  const distance = day === 1 ? 7 : (8 - day) % 7 || 7;
-  next.setDate(next.getDate() + distance);
+  next.setHours(7, 30, 0, 0);
+
+  if (next <= date) {
+    next.setDate(next.getDate() + 1);
+  }
+
   return next;
 }
 
@@ -716,14 +740,16 @@ function App() {
   const displaySideLabels = sideLabelsByLocale[locale];
   const displayAngleLabels = angleLabelsByLocale[locale];
   const displayPeriodLabels = periodFilterLabelsByLocale[locale];
-  const nextWeeklyRun = useMemo(
+  const nextDailyRun = useMemo(
     () =>
       new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "fr-FR", {
         weekday: "long",
         day: "numeric",
         month: "long",
         year: "numeric",
-      }).format(getNextMonday(new Date())),
+        hour: "2-digit",
+        minute: "2-digit",
+      }).format(getNextDailyRun(new Date())),
     [locale],
   );
   const hasMenTagFilter = selectedTags.includes("hommes");
@@ -770,14 +796,20 @@ function App() {
   useEffect(() => {
     if (!isRequestsView) return;
 
-    const suggestions = readStoredContributions("sexedata:suggestions").map((payload, index) => ({
+    const suggestions = readStoredContributions(
+      contributionStorageKeys.suggestions,
+      contributionStorageKeys.legacySuggestions,
+    ).map((payload, index) => ({
       id: `local-suggestion-${index}-${payload.createdAt ?? ""}`,
       source: "local" as const,
       title: getContributionTitle(payload, "Suggestion locale"),
       createdAt: payload.createdAt,
       payload,
     }));
-    const contestations = readStoredContributions("sexedata:contestations").map((payload, index) => ({
+    const contestations = readStoredContributions(
+      contributionStorageKeys.contestations,
+      contributionStorageKeys.legacyContestations,
+    ).map((payload, index) => ({
       id: `local-contestation-${index}-${payload.createdAt ?? ""}`,
       source: "local" as const,
       title: getContributionTitle(payload, "Contestation locale"),
@@ -1086,17 +1118,20 @@ function App() {
     const formData = new FormData(form);
     const suggestion = {
       type: "suggestion_asymetrie",
-      side: formData.get("side"),
-      angle: formData.get("angle"),
-      title: formData.get("title"),
-      summary: formData.get("summary"),
+      side: getFormString(formData, "side"),
+      angle: getFormString(formData, "angle"),
+      title: getFormString(formData, "title"),
+      summary: getFormString(formData, "summary"),
       sources: suggestionSources.map((source) => source.trim()).filter(Boolean),
       pageUrl: window.location.href,
       createdAt: new Date().toISOString(),
     };
 
-    const stored = JSON.parse(localStorage.getItem("sexedata:suggestions") ?? "[]");
-    localStorage.setItem("sexedata:suggestions", JSON.stringify([...stored, suggestion]));
+    appendStoredContribution(
+      contributionStorageKeys.suggestions,
+      suggestion,
+      contributionStorageKeys.legacySuggestions,
+    );
 
     try {
       await sendContribution(`Suggestion Isora - ${suggestion.title}`, suggestion);
@@ -1146,14 +1181,17 @@ function App() {
       claimId: contestedClaim.id,
       claimTitle: contestedClaim.title,
       claimUrl: `${window.location.origin}${window.location.pathname}#${contestedClaim.id}`,
-      correction: formData.get("correction"),
+      correction: getFormString(formData, "correction"),
       sources: contestSources.map((source) => source.trim()).filter(Boolean),
       pageUrl: window.location.href,
       createdAt: new Date().toISOString(),
     };
 
-    const stored = JSON.parse(localStorage.getItem("sexedata:contestations") ?? "[]");
-    localStorage.setItem("sexedata:contestations", JSON.stringify([...stored, contestation]));
+    appendStoredContribution(
+      contributionStorageKeys.contestations,
+      contestation,
+      contributionStorageKeys.legacyContestations,
+    );
 
     try {
       await sendContribution(`Contestation Isora - ${contestedClaim.title}`, contestation);
@@ -1173,8 +1211,10 @@ function App() {
         onClearLocalRequests={() => {
           if (!requestLocalReturnsClearPassword()) return;
 
-          localStorage.removeItem("sexedata:suggestions");
-          localStorage.removeItem("sexedata:contestations");
+          localStorage.removeItem(contributionStorageKeys.suggestions);
+          localStorage.removeItem(contributionStorageKeys.contestations);
+          localStorage.removeItem(contributionStorageKeys.legacySuggestions);
+          localStorage.removeItem(contributionStorageKeys.legacyContestations);
           setLocalRequests([]);
         }}
         remoteRequests={remoteRequests}
@@ -1205,6 +1245,13 @@ function App() {
               href="#fiches"
             >
               {counts.sources} {text.verifiedSources}
+            </a>
+            <a
+              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50")}
+              href="/blog/"
+            >
+              <FileText aria-hidden="true" />
+              {text.blog}
             </a>
             {/*
             <div
@@ -1356,7 +1403,7 @@ function App() {
               <CalendarSync className="text-blue-800" aria-hidden="true" />
               <div>
                 <h2 className="m-0 text-base leading-snug text-neutral-900">{text.weeklyWatch}</h2>
-                <p className="mt-1 text-sm leading-snug text-neutral-500">{nextWeeklyRun}</p>
+                <p className="mt-1 text-sm leading-snug text-neutral-500">{nextDailyRun}</p>
               </div>
             </div>
 

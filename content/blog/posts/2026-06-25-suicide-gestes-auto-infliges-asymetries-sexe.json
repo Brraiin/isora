@@ -1,0 +1,111 @@
+{
+  "id": "2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe",
+  "slug": "2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe",
+  "status": "published",
+  "language": "fr",
+  "title": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
+  "description": "Les données 2026 distinguent décès par suicide, plus masculins, et hospitalisations pour gestes auto-infligés, plus féminines chez les jeunes.",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-25T06:30:00.000Z",
+  "updatedAt": "2026-06-25T06:30:00.000Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "suicide hommes femmes",
+    "gestes auto-infligés",
+    "santé mentale jeunes femmes",
+    "DREES 2026",
+    "asymétries selon le sexe"
+  ],
+  "readingMinutes": 5,
+  "summary": "Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour Isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.",
+  "keyPoints": [
+    "La DREES indique qu'entre 2011 et 2021, le taux annuel moyen de décès par suicide est de 21,2 pour 100 000 chez les hommes et de 6,5 chez les femmes en France.",
+    "Le jeu de données DREES paru en mai 2026 mesure les hospitalisations pour gestes auto-infligés en 2025 : 64 % des patients hospitalisés en soins somatiques sont des femmes.",
+    "Chez les 10-19 ans, le taux féminin d'hospitalisation pour geste auto-infligé atteint 482 pour 100 000 en 2025, niveau le plus élevé des groupes d'âge et de sexe suivis par la DREES.",
+    "Santé publique France rappelle que la surveillance doit distinguer pensées suicidaires, tentatives, hospitalisations et décès, car ces indicateurs ne décrivent pas la même situation.",
+    "L'OMS Europe observe aussi une double lecture : les adolescentes sont davantage touchées par les troubles de santé mentale déclarés, tandis que les jeunes hommes meurent plus souvent par suicide."
+  ],
+  "sections": [
+    {
+      "heading": "Ce qui change",
+      "paragraphs": [
+        "La veille du jour fait apparaître un sujet utile pour Isora parce qu'il oblige à séparer les indicateurs. En janvier 2026, la DREES publie une étude sur les décès par suicide selon le sexe, le niveau de vie et plusieurs caractéristiques sociales. En mai 2026, elle complète le tableau avec un jeu de données sur les hospitalisations liées aux gestes auto-infligés en 2025.",
+        "Ces deux publications ne racontent pas la même chose. Les décès par suicide documentent une mortalité fortement masculine. Les hospitalisations pour gestes auto-infligés, elles, captent des tentatives de suicide ou des automutilations non suicidaires et font ressortir une hausse très marquée chez les adolescentes et jeunes femmes."
+      ]
+    },
+    {
+      "heading": "Ce que les sources mesurent",
+      "paragraphs": [
+        "L'étude DREES de janvier 2026 porte sur les décès attribuables au suicide, appariés à des informations démographiques et socioéconomiques. Elle indique un taux annuel moyen de 13,6 décès par suicide pour 100 000 habitants entre 2011 et 2021, avec un niveau de 21,2 chez les hommes et 6,5 chez les femmes.",
+        "Le jeu de données DREES de mai 2026 porte sur des patients hospitalisés avec un code de lésion auto-infligée en soins somatiques. Il ne permet pas toujours de distinguer tentative de suicide et automutilation non suicidaire. Son intérêt est donc différent : il mesure un recours hospitalier, par âge, sexe, effectif et taux."
+      ]
+    },
+    {
+      "heading": "Pourquoi c'est utile pour Isora",
+      "paragraphs": [
+        "Pour une fiche Isora, le risque serait de résumer trop vite le sujet par une formule unique du type \"les hommes sont plus touchés\" ou \"les femmes sont plus touchées\". Les données montrent plutôt deux asymétries simultanées : une mortalité par suicide plus élevée chez les hommes, et des hospitalisations pour gestes auto-infligés plus fréquentes chez les femmes, surtout jeunes.",
+        "Cette distinction aide aussi à éviter les lectures concurrentielles. Les indicateurs ne s'annulent pas. Ils pointent vers des besoins de prévention différents : repérage du risque létal, accompagnement des hommes âgés ou socialement exposés, prise en charge des adolescentes et jeunes femmes hospitalisées, et suivi des jeunes hommes dont les gestes auto-infligés augmentent également."
+      ]
+    },
+    {
+      "heading": "Limites à garder en tête",
+      "paragraphs": [
+        "Les sources utilisent les catégories statistiques disponibles dans les systèmes de santé et d'état civil. Elles parlent de femmes et d'hommes tels que les bases les enregistrent; elles ne mesurent pas les chromosomes. Isora doit donc conserver le libellé de source et préciser la population effectivement observée.",
+        "Les hospitalisations ne couvrent pas tous les gestes auto-infligés : certains ne donnent pas lieu à hospitalisation, d'autres relèvent de la psychiatrie plutôt que des soins somatiques, et les pratiques de codage peuvent évoluer. À l'inverse, les décès par suicide sont un indicateur de mortalité, pas un indicateur direct de souffrance psychique totale."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les hommes ou les femmes sont-ils plus concernés par le suicide ?",
+      "answer": "Pour les décès par suicide, les hommes sont nettement plus concernés dans les données françaises citées par la DREES. Pour les hospitalisations liées à des gestes auto-infligés, les femmes, surtout les adolescentes et jeunes femmes, apparaissent davantage concernées."
+    },
+    {
+      "question": "Pourquoi Isora sépare-t-il décès par suicide et gestes auto-infligés ?",
+      "answer": "Parce que ces indicateurs ne mesurent pas la même chose. Un décès par suicide mesure une mortalité; une hospitalisation pour geste auto-infligé mesure un passage hospitalier après tentative ou automutilation non suicidaire."
+    },
+    {
+      "question": "Peut-on conclure à une cause unique selon le sexe ?",
+      "answer": "Non. Les sources décrivent des associations avec l'âge, le niveau de vie, la situation familiale, les troubles psychiatriques, le recours aux soins et d'autres contextes. Elles ne permettent pas de réduire l'écart à une seule cause."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Le suicide, trois fois plus fréquent chez les hommes, deux fois plus chez les plus modestes",
+      "publisher": "DREES",
+      "url": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf",
+      "date": "janvier 2026",
+      "type": "statistique"
+    },
+    {
+      "title": "La hausse des hospitalisations des adolescentes et jeunes femmes pour tentatives de suicide et automutilations se poursuit en 2025",
+      "publisher": "DREES",
+      "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/250511_hospitalisations-pour-tentatives-de-suicide",
+      "date": "11 mai 2026",
+      "type": "jeu de données"
+    },
+    {
+      "title": "Suicides et tentatives de suicide",
+      "publisher": "Santé publique France",
+      "url": "https://www.santepubliquefrance.fr/sante-mentale/suicides-et-tentatives-de-suicide",
+      "date": "5 janvier 2026",
+      "type": "dossier public"
+    },
+    {
+      "title": "Child and youth mental health in the WHO European Region: status and actions to strengthen the quality of care",
+      "publisher": "OMS Europe",
+      "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473",
+      "date": "5 novembre 2025",
+      "type": "rapport"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille assistée Codex",
+    "model": "codex",
+    "generatedAt": "2026-06-25T06:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}

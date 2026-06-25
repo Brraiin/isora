@@ -6,6 +6,10 @@ Isora publie des fichiers lisibles par les moteurs de recherche, crawlers et age
 
 - `/llms.txt` : guide agent en francais.
 - `/llms-en.txt` : guide agent en anglais.
+- `/blog/` : index statique du blog quotidien.
+- `/blog/feed.xml` : flux RSS du blog.
+- `/blog/index.json` : index JSON des articles.
+- `/blog/llms-blog.txt` : guide agent dedie au blog.
 - `/isora-dataset.json` : dataset JSON francais.
 - `/isora-dataset-en.json` : dataset JSON anglais.
 - `/ai.txt` : politique courte d'acces IA.
@@ -54,6 +58,43 @@ Le build Vite lance aussi la generation via `prebuild` :
 ```bash
 npm run build
 ```
+
+## Blog quotidien IA + SEO
+
+Le blog quotidien Isora vit dans ce projet, au chemin canonique :
+
+```text
+/Users/eve/Web dev/Isora
+```
+
+Ne pas chercher cette automatisation dans `RGAA-auto` : `RGAA-auto` sert aux audits RGAA, tandis que le blog de veille publique appartient a Isora.
+
+La configuration editoriale est dans :
+
+- `content/blog/watch-config.json` : themes, priorites de sources, seuils qualite.
+- `content/blog/posts/` : memoire des articles publies, un JSON par article.
+- `scripts/generate-daily-blog.mjs` : genere l'article du matin avec l'API OpenAI et l'outil de recherche web.
+- `scripts/blog-utils.mjs` : rend les pages HTML statiques, RSS, JSON, `llms-blog.txt` et les entrees sitemap.
+- `.github/workflows/daily-blog.yml` : lance la generation chaque matin et commit l'article si un nouveau sujet fiable est produit.
+
+Commandes utiles :
+
+```bash
+npm run blog:daily
+npm run seo
+npm run build
+```
+
+`npm run blog:daily` requiert `OPENAI_API_KEY`. Le workflow GitHub utilise aussi `OPENAI_MODEL` ou `OPENAI_BLOG_MODEL` si ces variables sont configurees. Sans cle API, le script ne publie pas d'article et ecrit seulement un rapport ignore dans `research/candidates/`.
+
+Principes editoriaux du blog :
+
+- publier une synthese originale, pas une recopie de source;
+- citer au moins trois sources valides par defaut;
+- conserver pays, periode, population mesuree et limites;
+- refuser les generalisations hostiles ou militantes;
+- ne pas transformer une categorie statistique de source en preuve chromosomique stricte;
+- produire une page HTML statique indexable, avec schema.org `BlogPosting`, FAQ, canonical, RSS et entree sitemap.
 
 ## Veille et nouvelles fiches
 

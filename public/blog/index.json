@@ -1,0 +1,59 @@
+{
+  "name": "Blog Isora",
+  "url": "https://isora-xi.vercel.app/blog/",
+  "language": "fr-FR",
+  "generatedAt": "2026-06-25T09:45:46.020Z",
+  "posts": [
+    {
+      "id": "2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe",
+      "title": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
+      "description": "Les données 2026 distinguent décès par suicide, plus masculins, et hospitalisations pour gestes auto-infligés, plus féminines chez les jeunes.",
+      "date": "2026-06-25",
+      "publishedAt": "2026-06-25T06:30:00.000Z",
+      "updatedAt": "2026-06-25T06:30:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "suicide hommes femmes",
+        "gestes auto-infligés",
+        "santé mentale jeunes femmes",
+        "DREES 2026",
+        "asymétries selon le sexe"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Le suicide, trois fois plus fréquent chez les hommes, deux fois plus chez les plus modestes",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf",
+          "date": "janvier 2026",
+          "type": "statistique"
+        },
+        {
+          "title": "La hausse des hospitalisations des adolescentes et jeunes femmes pour tentatives de suicide et automutilations se poursuit en 2025",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/250511_hospitalisations-pour-tentatives-de-suicide",
+          "date": "11 mai 2026",
+          "type": "jeu de données"
+        },
+        {
+          "title": "Suicides et tentatives de suicide",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/sante-mentale/suicides-et-tentatives-de-suicide",
+          "date": "5 janvier 2026",
+          "type": "dossier public"
+        },
+        {
+          "title": "Child and youth mental health in the WHO European Region: status and actions to strengthen the quality of care",
+          "publisher": "OMS Europe",
+          "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473",
+          "date": "5 novembre 2025",
+          "type": "rapport"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,14 @@ import { copyFile, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import ts from "typescript";
+import {
+  buildBlogSitemapEntries,
+  loadBlogConfig,
+  loadBlogPosts,
+  renderBlogAssets,
+  renderBlogSummaryForLlms,
+  renderSitemapEntries,
+} from "./blog-utils.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -12,15 +20,8 @@ const tempFile = join(root, "node_modules", ".cache", "isora-claims.mjs");
 const siteUrl = "https://isora-xi.vercel.app";
 const generatedDate = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Paris" });
 const generatedAt = `${generatedDate}T00:00:00+02:00`;
-
-function xmlEscape(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&apos;");
-}
+const blogConfig = await loadBlogConfig();
+const blogPosts = await loadBlogPosts();
 
 function textLine(value) {
   return String(value).replace(/\s+/g, " ").trim();
@@ -129,6 +130,7 @@ function stripUndefined(value) {
 function buildLlms(locale) {
   const isEnglish = locale === "en";
   const datasetPath = isEnglish ? "isora-dataset-en.json" : "isora-dataset.json";
+  const blogText = renderBlogSummaryForLlms(blogPosts, blogConfig, locale);
   const claimsText = claims
     .map((claim) => {
       const translation = getClaimTranslation(claim, locale);
@@ -200,6 +202,8 @@ Last generation: ${generatedAt}
 - Data is classified by country or zone, period, domain, angle and temporal status.
 - Entries can be corrected when better sources appear.
 
+${blogText}
+
 ${claimsText}`;
   }
 
@@ -232,6 +236,8 @@ Derniere generation: ${generatedAt}
 - Les donnees sont classees par pays ou zone, periode, domaine, angle et statut temporel.
 - Les fiches peuvent etre corrigees lorsque de meilleures sources apparaissent.
 
+${blogText}
+
 ${claimsText}`;
 }
 
@@ -241,44 +247,49 @@ Allow: /
 Sitemap: ${siteUrl}/sitemap.xml
 `;
 
+const sitemapEntries = [
+  {
+    loc: `${siteUrl}/`,
+    lastmod: generatedDate,
+    changefreq: "weekly",
+    priority: "1.0",
+  },
+  {
+    loc: `${siteUrl}/llms.txt`,
+    lastmod: generatedDate,
+    changefreq: "weekly",
+    priority: "0.7",
+  },
+  {
+    loc: `${siteUrl}/llms-en.txt`,
+    lastmod: generatedDate,
+    changefreq: "weekly",
+    priority: "0.7",
+  },
+  {
+    loc: `${siteUrl}/isora-dataset.json`,
+    lastmod: generatedDate,
+    changefreq: "weekly",
+    priority: "0.6",
+  },
+  {
+    loc: `${siteUrl}/isora-dataset-en.json`,
+    lastmod: generatedDate,
+    changefreq: "weekly",
+    priority: "0.6",
+  },
+  ...buildBlogSitemapEntries(blogPosts, blogConfig, generatedDate),
+];
+
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>${xmlEscape(`${siteUrl}/`)}</loc>
-    <lastmod>${generatedDate}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>${xmlEscape(`${siteUrl}/llms.txt`)}</loc>
-    <lastmod>${generatedDate}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>${xmlEscape(`${siteUrl}/llms-en.txt`)}</loc>
-    <lastmod>${generatedDate}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>${xmlEscape(`${siteUrl}/isora-dataset.json`)}</loc>
-    <lastmod>${generatedDate}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>${xmlEscape(`${siteUrl}/isora-dataset-en.json`)}</loc>
-    <lastmod>${generatedDate}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
+${renderSitemapEntries(sitemapEntries)}
 </urlset>
 `;
 
 const ai = `# Isora AI access policy
 
-The public site, llms.txt, llms-en.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
+The public site, blog, llms.txt, llms-en.txt, llms-blog.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
 Please preserve attribution to Isora and to the primary source URLs attached to each claim.
 `;
 
@@ -296,6 +307,7 @@ await Promise.all([
   writeFile(join(publicDir, "robots.txt"), robots, "utf8"),
   writeFile(join(publicDir, "sitemap.xml"), sitemap, "utf8"),
   writeFile(join(publicDir, "ai.txt"), ai, "utf8"),
+  renderBlogAssets({ config: blogConfig, posts: blogPosts }),
 ]);
 
 console.log(

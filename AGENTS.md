@@ -4,18 +4,20 @@ Read this file before answering or changing anything in this repository.
 
 ## Canonical project
 
-- Work only in `/Users/eve/Web dev/Sexite` for the current Isora app.
+- Work only in `/Users/eve/Web dev/Isora` for the current Isora app.
 - Do not use old copies under `/Users/eve/Documents/...` unless the user explicitly says so.
 - Visible brand: `Isora`
-- Historical technical name / package: `sexite`
+- Package npm: `isora`
 - Stack: React + TypeScript + Vite + Tailwind CSS
 - Interface language: French
+- Blog / veille IA+SEO: this belongs to this repo too. If the user mentions Isora blog, daily article, scraping, veille, SEO for AI, llms, or "un article tous les matins", work in `/Users/eve/Web dev/Isora`, not in `RGAA-auto`.
 
 ## Required context
 
 Before code changes, read:
 
-- `/Users/eve/Documents/Codex/ISORA_PROJECT_CONTEXT.md`
+- `/Users/eve/Documents/Codex/Isora/ISORA_PROJECT_CONTEXT.md`
+- `docs/AI_AGENTS.md` if the task touches AI-readable files, blog generation, daily watch, SEO, llms, sitemap, or datasets
 - `docs/DEPLOYMENT.md` if the task touches production, GitHub, Vercel, IONOS, DNS, builds, or release workflow
 
 ## Deployment
@@ -40,7 +42,7 @@ git status --short
 npm run build
 ```
 
-The working directory must be `/Users/eve/Web dev/Sexite`, and `npm run build` must pass.
+The working directory must be `/Users/eve/Web dev/Isora`, and `npm run build` must pass.
 
 ## Safety rules
 
@@ -67,4 +69,8 @@ The working directory must be `/Users/eve/Web dev/Sexite`, and `npm run build` m
 - `src/data/claims.ts`: claim data, sources, tags, domains, metadata
 - `src/styles.css`: Tailwind import/styles
 - `src/assets/isora.svg`: logo
+- `content/blog/watch-config.json`: daily blog watch topics and source priorities
+- `content/blog/posts/`: generated article memory, one JSON file per published blog post
+- `scripts/generate-daily-blog.mjs`: daily OpenAI/web-search blog generator
+- `scripts/blog-utils.mjs`: static blog renderer, RSS, JSON index, llms-blog, sitemap helpers
 - `docs/DEPLOYMENT.md`: production and DNS workflow

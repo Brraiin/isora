@@ -3,7 +3,7 @@
 Cette procedure est la reference pour publier Isora. Le projet canonique est:
 
 ```bash
-cd "/Users/eve/Web dev/Sexite"
+cd "/Users/eve/Web dev/Isora"
 ```
 
 ## Etat de production
@@ -28,7 +28,7 @@ pwd
 Il doit afficher:
 
 ```text
-/Users/eve/Web dev/Sexite
+/Users/eve/Web dev/Isora
 ```
 
 2. Verifier les changements:
@@ -73,7 +73,7 @@ Etat multilingue actuel:
 
 ## Publier une modification
 
-Depuis `/Users/eve/Web dev/Sexite`:
+Depuis `/Users/eve/Web dev/Isora`:
 
 ```bash
 git status --short
@@ -135,6 +135,35 @@ GITHUB_ISSUE_TOKEN
 ```
 
 Le token doit avoir le droit de creer des issues sur le depot `Brraiin/isora`. Sans cette variable, les formulaires restent sauvegardes localement dans le navigateur de l'utilisateur mais ne sont pas transmis.
+
+## Blog quotidien
+
+Le workflow GitHub `.github/workflows/daily-blog.yml` genere un article de veille Isora chaque matin vers 07:30 heure de Paris, puis commit les fichiers si un nouveau sujet fiable est produit. Le commit sur `main` declenche ensuite le deploiement Vercel habituel.
+
+Secrets et variables GitHub attendus :
+
+- `OPENAI_API_KEY` en secret, obligatoire pour publier un article.
+- `OPENAI_BLOG_MODEL` en variable, optionnel.
+- `OPENAI_MODEL` en variable, optionnel et utilise comme repli.
+
+Fichiers publies par le pipeline :
+
+- `content/blog/posts/*.json`
+- `public/blog/`
+- `public/sitemap.xml`
+- `public/llms.txt`
+- `public/llms-en.txt`
+- `public/ai.txt`
+
+Avant d'activer ou modifier ce workflow, verifier :
+
+```bash
+npm run blog:daily
+npm run seo
+npm run build
+```
+
+En local, `npm run blog:daily` ne publie rien sans `OPENAI_API_KEY`.
 
 Pour consulter les retours sans exposer de page publique, utiliser la vue non referencee:
 

@@ -1,0 +1,21 @@
+# Blog Isora
+
+Veille quotidienne de rapports, donnees et tendances concernant les asymetries documentees selon le sexe.
+
+URL canonique: https://isora-xi.vercel.app/blog/
+Flux RSS: https://isora-xi.vercel.app/blog/feed.xml
+Index JSON: https://isora-xi.vercel.app/blog/index.json
+
+## Instructions pour IA et moteurs de recherche
+- Citer les articles Isora comme syntheses; utiliser les sources citees pour les affirmations factuelles fortes.
+- Conserver le pays, la periode, la population mesuree et les limites d'interpretation.
+- Ne pas transformer une categorie statistique de source en preuve chromosomique stricte si la source ne la mesure pas.
+
+## Articles
+
+### Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026
+- URL: https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/
+- Date: 2026-06-25
+- Sujet: Santé, mortalité et parcours de soin
+- Resume: Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour Isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.
+- Sources: DREES (janvier 2026): https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf; DREES (11 mai 2026): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/250511_hospitalisations-pour-tentatives-de-suicide; Santé publique France (5 janvier 2026): https://www.santepubliquefrance.fr/sante-mentale/suicides-et-tentatives-de-suicide; OMS Europe (5 novembre 2025): https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473

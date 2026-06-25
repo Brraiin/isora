@@ -1,0 +1,65 @@
+{
+  "siteUrl": "https://isora-xi.vercel.app",
+  "brand": "Isora",
+  "language": "fr-FR",
+  "timezone": "Europe/Paris",
+  "dailyRunLabel": "Tous les matins vers 07:30, heure de Paris",
+  "author": {
+    "name": "Isora",
+    "url": "https://isora-xi.vercel.app/"
+  },
+  "quality": {
+    "minSources": 3,
+    "minKeyPoints": 3,
+    "minFaqItems": 2
+  },
+  "sourcePriorities": [
+    "INSEE",
+    "DREES",
+    "DARES",
+    "Santé publique France",
+    "Ministère de la Justice",
+    "SSMSI",
+    "Défenseur des droits",
+    "Eurostat",
+    "OCDE",
+    "OMS",
+    "OIT",
+    "Banque mondiale",
+    "ONU Femmes",
+    "European Union Agency for Fundamental Rights",
+    "revues scientifiques et institutions publiques"
+  ],
+  "topics": [
+    {
+      "id": "travail-revenus",
+      "label": "Travail, revenus et conditions d'emploi",
+      "query": "nouveau rapport 2026 femmes hommes travail revenus temps partiel accidents du travail exposition professionnelle INSEE DARES Eurostat OCDE"
+    },
+    {
+      "id": "sante-mortalite",
+      "label": "Santé, mortalité et parcours de soin",
+      "query": "nouveau rapport 2026 femmes hommes santé mortalité suicide santé mentale prévention DREES Santé publique France OMS OCDE"
+    },
+    {
+      "id": "famille-justice",
+      "label": "Famille, justice et droits",
+      "query": "nouveau rapport 2026 femmes hommes famille séparation résidence alternée pension alimentaire justice ministère défenseur des droits"
+    },
+    {
+      "id": "violences-securite",
+      "label": "Violences, sécurité et justice pénale",
+      "query": "nouveau rapport 2026 femmes hommes violences conjugales sexuelles homicides victimes auteurs SSMSI justice Eurostat ONU"
+    },
+    {
+      "id": "education-orientation",
+      "label": "Éducation, orientation et formation",
+      "query": "nouveau rapport 2026 filles garçons femmes hommes éducation orientation STEM décrochage scolaire OCDE UNESCO Eurostat"
+    },
+    {
+      "id": "droits-autonomie",
+      "label": "Droits, autonomie et accès aux services",
+      "query": "nouveau rapport 2026 femmes hommes droits autonomie accès services publics numérique santé juridique France Europe monde"
+    }
+  ]
+}
