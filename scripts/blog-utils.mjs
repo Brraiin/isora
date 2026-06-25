@@ -519,6 +519,7 @@ function renderBlogIndex(posts, config) {
   const siteUrl = getSiteUrl(config);
   const blogUrl = getBlogUrl(config);
   const description = "Veille isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
+  const heroDescription = "Veille sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -580,8 +581,8 @@ function renderBlogIndex(posts, config) {
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <h1>Blog <em>isora</em></h1>
-        <p class="lead">${htmlWithBrand(description)}</p>
+        <h1>Blog</h1>
+        <p class="lead">${htmlEscape(heroDescription)}</p>
       </div>
     </section>
 
