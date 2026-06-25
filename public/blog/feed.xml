@@ -3,8 +3,15 @@
   <channel>
     <title>Blog Isora</title>
     <link>https://isora-xi.vercel.app/blog/</link>
-    <description>Veille quotidienne Isora sur les nouveaux rapports et tendances.</description>
+    <description>Veille Isora sur les nouveaux rapports et tendances.</description>
     <language>fr-FR</language>
+    <item>
+      <title>Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d&apos;emploi qui persiste</title>
+      <link>https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/</link>
+      <guid>https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/</guid>
+      <pubDate>Thu, 25 Jun 2026 18:30:00 GMT</pubDate>
+      <description>Les données européennes 2024-2026 montrent une majorité féminine dans les diplômes du supérieur, mais pas dans les filières STEM ni dans l&apos;emploi des parents diplômés.</description>
+    </item>
     <item>
       <title>Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026</title>
       <link>https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/</link>

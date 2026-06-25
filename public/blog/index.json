@@ -2,8 +2,59 @@
   "name": "Blog Isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-25T09:55:05.997Z",
+  "generatedAt": "2026-06-25T10:03:15.749Z",
   "posts": [
+    {
+      "id": "2026-06-25-superieur-stem-emploi-asymetries-sexe",
+      "title": "Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/",
+      "description": "Les données européennes 2024-2026 montrent une majorité féminine dans les diplômes du supérieur, mais pas dans les filières STEM ni dans l'emploi des parents diplômés.",
+      "date": "2026-06-25",
+      "publishedAt": "2026-06-25T18:30:00.000Z",
+      "updatedAt": "2026-06-25T18:30:00.000Z",
+      "topic": {
+        "id": "education-orientation",
+        "label": "Éducation, orientation et formation"
+      },
+      "keywords": [
+        "diplômées du supérieur femmes hommes",
+        "STEM femmes hommes",
+        "Eurostat 2026 enseignement supérieur",
+        "OCDE Education at a Glance 2025",
+        "emploi parents diplômés"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Women in the EU",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Women_in_the_EU",
+          "date": "données extraites en février 2026",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Tertiary education statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Tertiary_education_statistics",
+          "date": "mise à jour 2026",
+          "type": "jeu de données et synthèse"
+        },
+        {
+          "title": "Education at a Glance 2025: OECD Indicators",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en.html",
+          "date": "9 septembre 2025",
+          "type": "rapport"
+        },
+        {
+          "title": "Higher education reduces gender employment gap",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1",
+          "date": "6 mars 2026",
+          "type": "note statistique"
+        }
+      ]
+    },
     {
       "id": "2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe",
       "title": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",

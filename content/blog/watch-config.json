@@ -3,7 +3,6 @@
   "brand": "Isora",
   "language": "fr-FR",
   "timezone": "Europe/Paris",
-  "dailyRunLabel": "Tous les matins vers 07:30, heure de Paris",
   "author": {
     "name": "Isora",
     "url": "https://isora-xi.vercel.app/"

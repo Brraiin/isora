@@ -15,7 +15,6 @@ const defaultConfig = {
   brand: "Isora",
   language: "fr-FR",
   timezone: "Europe/Paris",
-  dailyRunLabel: "Tous les matins vers 07:30, heure de Paris",
   author: {
     name: "Isora",
     url: "https://isora-xi.vercel.app/",
@@ -416,8 +415,6 @@ function renderArticleHtml(post, config) {
     <meta name="twitter:title" content="${htmlEscape(title)}" />
     <meta name="twitter:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(postUrl)}" />
-    <link rel="alternate" type="application/rss+xml" title="Blog Isora" href="/blog/feed.xml" />
-    <link rel="alternate" type="text/plain" title="Blog Isora pour IA" href="/blog/llms-blog.txt" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
     <title>${htmlEscape(title)} - Isora</title>
     <style>${renderCss()}</style>
@@ -428,7 +425,6 @@ function renderArticleHtml(post, config) {
       <div class="wrap topbar-inner">
         <a class="brand" href="/">
           <img src="/isora.svg" alt="Isora" />
-          <span>Veille documentée</span>
         </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel</a>
@@ -517,7 +513,7 @@ function renderArticleHtml(post, config) {
 function renderBlogIndex(posts, config) {
   const siteUrl = getSiteUrl(config);
   const blogUrl = getBlogUrl(config);
-  const description = "Veille quotidienne Isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
+  const description = "Veille Isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -556,14 +552,12 @@ function renderBlogIndex(posts, config) {
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(blogUrl)}" />
-    <meta property="og:title" content="Blog Isora - Veille quotidienne" />
+    <meta property="og:title" content="Blog Isora - Veille" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(blogUrl)}" />
-    <link rel="alternate" type="application/rss+xml" title="Blog Isora" href="/blog/feed.xml" />
     <link rel="alternate" type="application/json" title="Index JSON du blog Isora" href="/blog/index.json" />
-    <link rel="alternate" type="text/plain" title="Blog Isora pour IA" href="/blog/llms-blog.txt" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
-    <title>Blog Isora - Veille quotidienne</title>
+    <title>Blog Isora - Veille</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
   </head>
@@ -572,19 +566,15 @@ function renderBlogIndex(posts, config) {
       <div class="wrap topbar-inner">
         <a class="brand" href="/">
           <img src="/isora.svg" alt="Isora" />
-          <span>Veille documentée</span>
         </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel</a>
-          <a href="/blog/feed.xml">RSS</a>
-          <a href="/blog/llms-blog.txt">llms-blog.txt</a>
         </nav>
       </div>
     </header>
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <p class="kicker">${htmlEscape(config.dailyRunLabel)}</p>
         <h1>Blog Isora</h1>
         <p class="lead">${htmlEscape(description)}</p>
       </div>
@@ -626,7 +616,7 @@ function renderRss(posts, config) {
   <channel>
     <title>Blog Isora</title>
     <link>${xmlEscape(blogUrl)}</link>
-    <description>Veille quotidienne Isora sur les nouveaux rapports et tendances.</description>
+    <description>Veille Isora sur les nouveaux rapports et tendances.</description>
     <language>fr-FR</language>
     ${posts
       .map((post) => {
@@ -677,7 +667,7 @@ function renderBlogLlms(posts, config) {
   const lines = [
     "# Blog Isora",
     "",
-    "Veille quotidienne de rapports, donnees et tendances concernant les asymetries documentees selon le sexe.",
+    "Veille de rapports, donnees et tendances concernant les asymetries documentees selon le sexe.",
     "",
     `URL canonique: ${getBlogUrl(config)}`,
     `Flux RSS: ${getBlogUrl(config)}feed.xml`,
