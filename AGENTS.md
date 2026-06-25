@@ -71,6 +71,7 @@ The working directory must be `/Users/eve/Web dev/Isora`, and `npm run build` mu
 - `src/assets/isora.svg`: logo
 - `content/blog/watch-config.json`: daily blog watch topics and source priorities
 - `content/blog/posts/`: generated article memory, one JSON file per published blog post
-- `scripts/generate-daily-blog.mjs`: daily OpenAI/web-search blog generator
+- Codex app automation `Veille quotidienne Isora`: daily no-API blog watch, article generation, build, commit and push
+- `scripts/generate-daily-blog.mjs`: optional OpenAI API fallback generator, not the default workflow
 - `scripts/blog-utils.mjs`: static blog renderer, RSS, JSON index, llms-blog, sitemap helpers
 - `docs/DEPLOYMENT.md`: production and DNS workflow

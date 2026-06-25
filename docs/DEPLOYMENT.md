@@ -138,32 +138,32 @@ Le token doit avoir le droit de creer des issues sur le depot `Brraiin/isora`. S
 
 ## Blog quotidien
 
-Le workflow GitHub `.github/workflows/daily-blog.yml` genere un article de veille Isora chaque matin vers 07:30 heure de Paris, puis commit les fichiers si un nouveau sujet fiable est produit. Le commit sur `main` declenche ensuite le deploiement Vercel habituel.
+La voie normale ne passe pas par GitHub Actions ni par une cle OpenAI API. Elle passe par l'automatisation Codex app `Veille quotidienne Isora`, active tous les matins vers 07:30 heure de Paris.
 
-Secrets et variables GitHub attendus :
+Cette automatisation travaille dans :
 
-- `OPENAI_API_KEY` en secret, obligatoire pour publier un article.
-- `OPENAI_BLOG_MODEL` en variable, optionnel.
-- `OPENAI_MODEL` en variable, optionnel et utilise comme repli.
+```text
+/Users/eve/Web dev/Isora
+```
 
-Fichiers publies par le pipeline :
+Elle doit :
 
-- `content/blog/posts/*.json`
-- `public/blog/`
-- `public/sitemap.xml`
-- `public/llms.txt`
-- `public/llms-en.txt`
-- `public/ai.txt`
+- faire la veille web avec Codex;
+- creer un article JSON dans `content/blog/posts/`;
+- regenerer `public/blog/`, `public/sitemap.xml`, `public/llms.txt`, `public/llms-en.txt` et `public/ai.txt`;
+- lancer `npm run build`;
+- commit et push sur `main` si le build passe.
 
-Avant d'activer ou modifier ce workflow, verifier :
+Le commit sur `main` declenche ensuite le deploiement Vercel habituel.
+
+Avant de publier manuellement une veille, verifier :
 
 ```bash
-npm run blog:daily
 npm run seo
 npm run build
 ```
 
-En local, `npm run blog:daily` ne publie rien sans `OPENAI_API_KEY`.
+Le script `npm run blog:daily` reste un mode API optionnel, mais il n'est pas utilise par defaut car Eve veut utiliser Codex sans cle OpenAI API.
 
 Pour consulter les retours sans exposer de page publique, utiliser la vue non referencee:
 

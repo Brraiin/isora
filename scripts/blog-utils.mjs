@@ -608,7 +608,7 @@ function renderBlogIndex(posts, config) {
             : `<article class="post-card">
                 <span class="pill">Automatisation prête</span>
                 <h2>Le premier article sera publié par la veille quotidienne</h2>
-                <p>Le workflow GitHub Actions génère un article chaque matin dès que le secret OPENAI_API_KEY est disponible.</p>
+                <p>L'automatisation Codex génère un article chaque matin sans clé API.</p>
               </article>`
         }
       </section>

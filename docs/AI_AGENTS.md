@@ -73,19 +73,18 @@ La configuration editoriale est dans :
 
 - `content/blog/watch-config.json` : themes, priorites de sources, seuils qualite.
 - `content/blog/posts/` : memoire des articles publies, un JSON par article.
-- `scripts/generate-daily-blog.mjs` : genere l'article du matin avec l'API OpenAI et l'outil de recherche web.
+- Automatisation Codex app `Veille quotidienne Isora` : voie normale, sans cle API, lancee tous les matins vers 07:30.
 - `scripts/blog-utils.mjs` : rend les pages HTML statiques, RSS, JSON, `llms-blog.txt` et les entrees sitemap.
-- `.github/workflows/daily-blog.yml` : lance la generation chaque matin et commit l'article si un nouveau sujet fiable est produit.
+- `scripts/generate-daily-blog.mjs` : voie optionnelle par API OpenAI, utile seulement si une cle API est ajoutee plus tard.
 
 Commandes utiles :
 
 ```bash
-npm run blog:daily
 npm run seo
 npm run build
 ```
 
-`npm run blog:daily` requiert `OPENAI_API_KEY`. Le workflow GitHub utilise aussi `OPENAI_MODEL` ou `OPENAI_BLOG_MODEL` si ces variables sont configurees. Sans cle API, le script ne publie pas d'article et ecrit seulement un rapport ignore dans `research/candidates/`.
+La veille quotidienne ne depend pas de `OPENAI_API_KEY` : Codex fait la recherche, cree le JSON d'article, regenere les sorties publiques, lance le build, commit et pousse sur GitHub. Le script `npm run blog:daily` reste disponible comme mode API optionnel, mais ce n'est pas le chemin normal du projet.
 
 Principes editoriaux du blog :
 
