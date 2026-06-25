@@ -1,0 +1,112 @@
+{
+  "id": "2026-06-25-femme-gagne-plus-separation-satisfaction-france",
+  "slug": "2026-06-25-femme-gagne-plus-separation-satisfaction-france",
+  "status": "published",
+  "language": "fr",
+  "title": "Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée",
+  "description": "Les sources françaises récentes confirment une hausse du risque de séparation quand la femme apporte plus de 55 % du revenu du couple, mais ne confirment pas une baisse de satisfaction masculine simplement liée à cette configuration.",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-25T15:55:00.000Z",
+  "updatedAt": "2026-06-25T15:55:00.000Z",
+  "topic": {
+    "id": "famille-justice",
+    "label": "Famille, justice et droits"
+  },
+  "keywords": [
+    "femme gagne plus séparation France",
+    "revenu du couple satisfaction France",
+    "INED breadwinner France",
+    "CEPREMAP Monsieur Gagnepain",
+    "risque de séparation revenu du couple"
+  ],
+  "relatedClaimIds": [],
+  "readingMinutes": 4,
+  "summary": "Les sources françaises récentes invitent à distinguer deux résultats différents. Les données administratives analysées par Ferrari, Solaz et Vitali montrent un risque de séparation plus élevé lorsque la femme apporte plus de 55 % du revenu du couple. En revanche, la note CEPREMAP publiée en 2025 indique qu'à revenu de ménage donné, les données françaises ne confirment pas une baisse de satisfaction des hommes simplement parce que leur conjointe gagne plus, alors que des travaux britanniques et européens trouvent une pénalité de bien-être dans d'autres contextes.",
+  "keyPoints": [
+    "L'INED indique qu'en France, lorsque la part des revenus de la femme dépasse 55 % du revenu total du couple, le risque de séparation est supérieur de 11 % à 40 % à celui des couples aux revenus proches, selon l'ampleur de cet écart.",
+    "L'article scientifique source repose sur 992 217 couples suivis dans des données administratives françaises, soit plus de 5,5 millions d'années-couple exposées au risque de rupture.",
+    "La note CEPREMAP de février 2025 ne confirme pas, pour la France, une norme de type « Monsieur Gagnepain » dans la satisfaction de vie : à revenu du ménage donné, elle ne trouve pas d'insatisfaction masculine spécifique au fait que la femme gagne plus, alors que des travaux britanniques et européens observent ce type de pénalité dans d'autres périmètres.",
+    "Le résultat sur la séparation est une association statistique; il ne permet pas d'attribuer chaque rupture à un motif psychologique unique.",
+    "Les sources rappelent aussi que les couples où la femme est principale pourvoyeuse ne sont pas tous des couples aisés : certaines de ces configurations sont liées à des revenus masculins faibles ou absents."
+  ],
+  "sections": [
+    {
+      "heading": "Ce que les données françaises confirment sur les séparations",
+      "paragraphs": [
+        "Le point le plus solide des sources récentes concerne le risque de séparation. La synthèse INED publiée en octobre 2024, fondée sur un article paru dans l'European Journal of Population, indique qu'en France le risque de séparation augmente lorsque la part des revenus de la femme dépasse 55 % du revenu total du couple.",
+        "Le document INED résume l'ordre de grandeur ainsi : le risque de rupture est supérieur de 11 % à 40 % par rapport aux couples dont les revenus sont plus proches, selon l'ampleur de la contribution féminine. L'article scientifique sous-jacent précise que l'échantillon final comprend 992 217 couples et 5 536 503 années-couple observées."
+      ]
+    },
+    {
+      "heading": "Ce que la source française récente dit sur la satisfaction",
+      "paragraphs": [
+        "Les sources françaises primaires ou institutionnelles retrouvées pour cette question ne confirment pas un tableau simple où le fait que la femme gagne plus suffirait à faire baisser la satisfaction masculine. Surtout, une note CEPREMAP publiée le 10 février 2025 aboutit à une conclusion différente pour la France : elle ne met pas en évidence de norme de genre de type « Monsieur Gagnepain » dans la satisfaction de vie des conjoints.",
+        "La note indique qu'à revenu du ménage donné, la satisfaction dépend davantage de la situation économique d'ensemble du foyer que du fait, pris isolément, que la femme gagne plus ou moins que son conjoint. Autrement dit, le résultat français disponible ne confirme pas à lui seul l'idée d'une insatisfaction masculine automatiquement causée par cette configuration. Cela n'annule pas les résultats britanniques et européens trouvés dans d'autres jeux de données; cela montre surtout que les résultats varient selon le pays, la période et la mesure retenue."
+      ]
+    },
+    {
+      "heading": "Pourquoi le débat public peut mélanger deux plans différents",
+      "paragraphs": [
+        "Une association entre configuration de revenus et risque de séparation ne démontre pas, à elle seule, un mécanisme psychologique précis. Les auteurs évoquent l'hypothèse de normes de genre durables autour du rôle de pourvoyeur, mais rappellent aussi qu'une femme disposant de davantage de ressources peut plus facilement envisager une séparation en cas d'insatisfaction conjugale.",
+        "Autre point utile : les couples où la femme gagne davantage ne forment pas un bloc homogène. Certaines situations relèvent d'un couple bi-actif proche de l'égalité, d'autres d'un revenu masculin faible ou absent. Confondre ces cas avec un tableau unique sur la satisfaction des hommes simplifie excessivement ce que mesurent les sources."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les sources sur la séparation parlent de couples femmes-hommes observés dans des données administratives françaises et suivent des unions entre 2011 et 2017. Elles mesurent une probabilité relative de rupture selon la part de revenu féminin, pas un sentiment subjectif directement interrogé auprès de chaque conjoint.",
+        "La note CEPREMAP, elle, repose sur des enquêtes de bien-être et sur des modèles économétriques portant sur la satisfaction déclarée. Les deux sources sont donc complémentaires mais ne répondent pas exactement à la même question. Elles utilisent les catégories statistiques de femmes et d'hommes disponibles dans leurs jeux de données; elles ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Peut-on dire que les couples se séparent parce que l'homme supporte mal que la femme gagne plus ?",
+      "answer": "Non, pas de façon certaine à partir de ces seules sources. L'étude française montre une association statistique entre configuration des revenus et risque de séparation, mais elle ne prouve pas un motif psychologique unique pour chaque rupture."
+    },
+    {
+      "question": "La France confirme-t-elle une baisse de satisfaction des hommes quand leur conjointe gagne plus ?",
+      "answer": "La source française récente retrouvée pour cette question, la note CEPREMAP de février 2025, ne confirme pas cet effet propre. Elle indique plutôt que la satisfaction dépend d'abord de la situation économique globale du ménage."
+    },
+    {
+      "question": "Le résultat sur la séparation suffit-il à publier une fiche d'asymétrie simple ?",
+      "answer": "Oui, à condition de préciser le périmètre. Une fiche dédiée devrait distinguer l'association française avec le risque de séparation, les études européennes et britanniques sur la satisfaction déclarée, et les limites qui empêchent d'attribuer chaque rupture ou chaque baisse de bien-être à une cause unique."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Les différences de revenus au sein du couple augmentent-elles le risque de séparation ?",
+      "publisher": "INED",
+      "url": "https://www.ined.fr/fr/tout-savoir-population/memos-demo/focus/differences-revenus-au-sein-couple-augmentent-elles-le-risque-separation",
+      "date": "2 octobre 2024",
+      "type": "synthèse institutionnelle"
+    },
+    {
+      "title": "Are Female-Breadwinner Couples Always Less Stable? Evidence from French Administrative Data",
+      "publisher": "European Journal of Population / Springer",
+      "url": "https://link.springer.com/article/10.1007/s10680-024-09705-7",
+      "date": "13 juin 2024",
+      "type": "article scientifique"
+    },
+    {
+      "title": "De l'argent à la satisfaction, une affaire de couple",
+      "publisher": "CEPREMAP",
+      "url": "https://www.cepremap.fr/depot/2025/02/2025-06-Une-affaire-de-couple.pdf",
+      "date": "10 février 2025",
+      "type": "note de recherche"
+    },
+    {
+      "title": "Écarts de revenus au sein des couples",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/1281400",
+      "date": "3 mars 2014",
+      "type": "note statistique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-06-25T15:55:00.000Z",
+    "requiresHumanReview": false
+  }
+}
