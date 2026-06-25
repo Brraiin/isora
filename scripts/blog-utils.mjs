@@ -438,7 +438,6 @@ function renderArticleHtml(post, config) {
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel</a>
           <a href="/blog/">Articles</a>
-          <a href="/llms.txt">llms.txt</a>
         </nav>
       </div>
     </header>
