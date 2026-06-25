@@ -27,9 +27,9 @@ Derniere generation: 2026-06-25T00:00:00+02:00
 - Les donnees sont classees par pays ou zone, periode, domaine, angle et statut temporel.
 - Les fiches peuvent etre corrigees lorsque de meilleures sources apparaissent.
 
-## Blog isora
-URL du blog quotidien: https://isora-xi.vercel.app/blog/
-Le blog synthétise les nouveaux rapports et tendances avec sources, périmètre et limites.
+## Articles isora
+URL des articles: https://isora-xi.vercel.app/blog/
+Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
 ### Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste
 - URL: https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/

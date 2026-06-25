@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Blog isora</title>
+    <title>Articles isora</title>
     <link>https://isora-xi.vercel.app/blog/</link>
     <description>Veille isora sur les nouveaux rapports et tendances.</description>
     <language>fr-FR</language>

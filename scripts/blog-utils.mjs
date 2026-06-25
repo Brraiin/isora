@@ -389,7 +389,7 @@ function renderArticleHtml(post, config) {
           {
             "@type": "ListItem",
             position: 2,
-            name: "Blog",
+            name: "Articles",
             item: getBlogUrl(config),
           },
           {
@@ -437,7 +437,7 @@ function renderArticleHtml(post, config) {
         </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel</a>
-          <a href="/blog/">Blog</a>
+          <a href="/blog/">Articles</a>
           <a href="/llms.txt">llms.txt</a>
         </nav>
       </div>
@@ -526,7 +526,7 @@ function renderBlogIndex(posts, config) {
       {
         "@type": "Blog",
         "@id": `${blogUrl}#blog`,
-        name: "Blog isora",
+        name: "Articles isora",
         url: blogUrl,
         description,
         inLanguage: "fr-FR",
@@ -558,12 +558,12 @@ function renderBlogIndex(posts, config) {
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(blogUrl)}" />
-    <meta property="og:title" content="Blog isora - Veille" />
+    <meta property="og:title" content="Articles isora - Veille" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(blogUrl)}" />
-    <link rel="alternate" type="application/json" title="Index JSON du blog isora" href="/blog/index.json" />
+    <link rel="alternate" type="application/json" title="Index JSON des articles isora" href="/blog/index.json" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
-    <title>Blog isora - Veille</title>
+    <title>Articles isora - Veille</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
   </head>
@@ -581,7 +581,7 @@ function renderBlogIndex(posts, config) {
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <h1>Blog</h1>
+        <h1>Articles</h1>
         <p class="lead">${htmlEscape(heroDescription)}</p>
       </div>
     </section>
@@ -621,7 +621,7 @@ function renderRss(posts, config) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Blog isora</title>
+    <title>Articles isora</title>
     <link>${xmlEscape(blogUrl)}</link>
     <description>Veille isora sur les nouveaux rapports et tendances.</description>
     <language>fr-FR</language>
@@ -647,7 +647,7 @@ function renderRss(posts, config) {
 function renderBlogJson(posts, config) {
   return JSON.stringify(
     {
-      name: "Blog isora",
+      name: "Articles isora",
       url: getBlogUrl(config),
       language: "fr-FR",
       generatedAt: new Date().toISOString(),
@@ -673,7 +673,7 @@ function renderBlogJson(posts, config) {
 
 function renderBlogLlms(posts, config) {
   const lines = [
-    "# Blog isora",
+    "# Articles isora",
     "",
     "Veille de rapports, donnees et tendances concernant les asymetries documentees selon le sexe.",
     "",
@@ -750,17 +750,17 @@ export function renderSitemapEntries(entries) {
 export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
   if (posts.length === 0) {
     return locale === "en"
-      ? "## isora blog\n- Daily blog URL: " + getBlogUrl(config) + "\n- No blog post has been published yet.\n"
-      : "## Blog isora\n- URL du blog quotidien: " + getBlogUrl(config) + "\n- Aucun article publie pour le moment.\n";
+      ? "## isora articles\n- Daily articles URL: " + getBlogUrl(config) + "\n- No article has been published yet.\n"
+      : "## Articles isora\n- URL des articles: " + getBlogUrl(config) + "\n- Aucun article publie pour le moment.\n";
   }
 
   const recent = posts.slice(0, 8);
 
   if (locale === "en") {
     return [
-      "## isora blog",
-      `Daily blog URL: ${getBlogUrl(config)}`,
-      "The blog is written in French and summarizes recent reports and trends with source links.",
+      "## isora articles",
+      `Daily articles URL: ${getBlogUrl(config)}`,
+      "The articles are written in French and summarize recent reports and trends with source links.",
       "",
       ...recent.flatMap((post) => [
         `### ${post.title}`,
@@ -775,9 +775,9 @@ export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
   }
 
   return [
-    "## Blog isora",
-    `URL du blog quotidien: ${getBlogUrl(config)}`,
-    "Le blog synthétise les nouveaux rapports et tendances avec sources, périmètre et limites.",
+    "## Articles isora",
+    `URL des articles: ${getBlogUrl(config)}`,
+    "Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.",
     "",
     ...recent.flatMap((post) => [
       `### ${post.title}`,
