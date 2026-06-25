@@ -1,10 +1,10 @@
 {
-  "name": "Isora - référentiel des asymétries documentées selon le sexe",
+  "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
   "generatedAt": "2026-06-25T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
-  "license": "Sources externes citees fiche par fiche; donnees editoriales Isora consultables avec attribution.",
+  "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
   "editorialMethod": [
     "Chaque fiche cite au moins une source externe.",
     "Les champs pays ou zone, periode, statut temporel, population mesuree et nuance sont conserves pour limiter les lectures hors contexte.",

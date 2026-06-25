@@ -70,7 +70,7 @@ function normalizeGeneratedPost(raw, config) {
 
   const topic = config.topics.find((item) => item.id === raw.topicId) ?? config.topics[0] ?? {
     id: "veille",
-    label: "Veille Isora",
+    label: "Veille isora",
   };
   const title = textLine(raw.title);
   const description = textLine(raw.description);
@@ -197,16 +197,17 @@ const existingContext = existingPosts
   .join("\n");
 
 const systemPrompt = `
-Tu es l'agent de veille éditoriale d'Isora.
+Tu es l'agent de veille éditoriale d'isora.
 Objectif: produire un article de blog quotidien bien indexable par Google et par les IA, sans contenu dupliqué ni scraping réécrit sans valeur.
 
 Règles éditoriales:
-- Isora documente des asymétries selon le sexe; ne centre pas l'article sur l'identité de genre, la transition ou les catégories trans.
+- Le site s'écrit toujours "isora" en minuscules. Dans les textes HTML, le rendu mettra automatiquement ce mot en italique.
+- isora documente des asymétries selon le sexe; ne centre pas l'article sur l'identité de genre, la transition ou les catégories trans.
 - Reste neutre, factuel, mesuré. Pas de formulation militante, hostile ou rhétorique.
 - Ne prétends pas qu'une source mesure les chromosomes si elle mesure seulement women/men, femmes/hommes, sexe déclaré, sexe légal ou autre catégorie.
 - Préserve les pays, périodes, populations mesurées, limites et incertitudes.
 - Cite des sources primaires, institutionnelles ou scientifiques quand elles existent.
-- Apporte une valeur originale: explique ce qui change, ce qui est mesuré, ce qui ne l'est pas, et ce qu'Isora devrait surveiller.
+- Apporte une valeur originale: explique ce qui change, ce qui est mesuré, ce qui ne l'est pas, et ce qu'isora devrait surveiller.
 - Ne copie pas de longs passages. Résume avec tes propres mots.
 - Si aucun sujet fiable et récent n'est trouvé, réponds {"skip": true, "reason": "..."}.
 
@@ -214,7 +215,7 @@ Réponds uniquement en JSON strict, sans Markdown.
 `;
 
 const userPrompt = `
-Nous sommes le ${today}. Trouve un sujet récent pour le blog quotidien Isora.
+Nous sommes le ${today}. Trouve un sujet récent pour le blog quotidien isora.
 
 Priorités de sources:
 ${config.sourcePriorities.map((source) => `- ${source}`).join("\n")}
@@ -244,7 +245,7 @@ Schéma JSON attendu:
       "paragraphs": ["paragraphe 1"]
     },
     {
-      "heading": "Pourquoi c'est utile pour Isora",
+      "heading": "Pourquoi c'est utile pour isora",
       "paragraphs": ["paragraphe 1"]
     },
     {

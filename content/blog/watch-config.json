@@ -1,10 +1,10 @@
 {
   "siteUrl": "https://isora-xi.vercel.app",
-  "brand": "Isora",
+  "brand": "isora",
   "language": "fr-FR",
   "timezone": "Europe/Paris",
   "author": {
-    "name": "Isora",
+    "name": "isora",
     "url": "https://isora-xi.vercel.app/"
   },
   "quality": {

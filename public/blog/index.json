@@ -1,8 +1,8 @@
 {
-  "name": "Blog Isora",
+  "name": "Blog isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-25T10:03:19.229Z",
+  "generatedAt": "2026-06-25T10:12:46.329Z",
   "posts": [
     {
       "id": "2026-06-25-superieur-stem-emploi-asymetries-sexe",
@@ -23,6 +23,7 @@
         "OCDE Education at a Glance 2025",
         "emploi parents diplômés"
       ],
+      "relatedClaimIds": [],
       "readingMinutes": 5,
       "sources": [
         {
@@ -74,6 +75,7 @@
         "DREES 2026",
         "asymétries selon le sexe"
       ],
+      "relatedClaimIds": [],
       "readingMinutes": 5,
       "sources": [
         {

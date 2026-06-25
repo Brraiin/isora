@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Blog Isora</title>
+    <title>Blog isora</title>
     <link>https://isora-xi.vercel.app/blog/</link>
-    <description>Veille Isora sur les nouveaux rapports et tendances.</description>
+    <description>Veille isora sur les nouveaux rapports et tendances.</description>
     <language>fr-FR</language>
     <item>
       <title>Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d&apos;emploi qui persiste</title>

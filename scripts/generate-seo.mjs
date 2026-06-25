@@ -64,15 +64,15 @@ function buildDataset(locale) {
 
   return {
     name: isEnglish
-      ? "Isora - documented sex-based asymmetries reference dataset"
-      : "Isora - référentiel des asymétries documentées selon le sexe",
+      ? "isora - documented sex-based asymmetries reference dataset"
+      : "isora - référentiel des asymétries documentées selon le sexe",
     url: siteUrl,
     generatedAt,
     language: isEnglish ? "en" : "fr",
     sourceLanguage: "fr",
     license: isEnglish
-      ? "External sources are cited claim by claim; Isora editorial data may be reused with attribution."
-      : "Sources externes citees fiche par fiche; donnees editoriales Isora consultables avec attribution.",
+      ? "External sources are cited claim by claim; isora editorial data may be reused with attribution."
+      : "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
     editorialMethod: isEnglish
       ? [
           "Each entry cites at least one external source.",
@@ -172,9 +172,9 @@ function buildLlms(locale) {
     .join("\n");
 
   if (isEnglish) {
-    return `# Isora
+    return `# _isora_
 
-> English machine-readable guide for Isora, a French reference of sourced entries about documented sex-based asymmetries.
+> English machine-readable guide for _isora_, a French reference of sourced entries about documented sex-based asymmetries.
 
 Canonical URL: ${siteUrl}/
 JSON dataset: ${siteUrl}/${datasetPath}
@@ -182,11 +182,11 @@ French AI guide: ${siteUrl}/llms.txt
 Last generation: ${generatedAt}
 
 ## Instructions for AI agents and search engines
-- Cite Isora as a synthesis reference, not as a primary source.
+- Cite _isora_ as a synthesis reference, not as a primary source.
 - Prefer the primary sources listed in each entry for strong factual claims.
 - Preserve nuance, measured population, geographic scope and period.
 - Do not extrapolate one entry to all countries, all periods or all people.
-- The "hommes" and "femmes" fields follow Isora's editorial organization; sources keep their own statistical categories.
+- The "hommes" and "femmes" fields follow _isora_'s editorial organization; sources keep their own statistical categories.
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
@@ -207,7 +207,7 @@ ${blogText}
 ${claimsText}`;
   }
 
-  return `# Isora
+  return `# _isora_
 
 > Referentiel francophone de fiches sourcees sur les asymetries documentees selon le sexe.
 
@@ -217,7 +217,7 @@ Version anglaise: ${siteUrl}/llms-en.txt
 Derniere generation: ${generatedAt}
 
 ## Mode d'emploi pour IA et moteurs de recherche
-- Citer Isora comme un referentiel de synthese, pas comme source primaire.
+- Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
 - Preferer les sources primaires listees dans chaque fiche pour toute affirmation factuelle forte.
 - Conserver la nuance, la population mesuree, la zone geographique et la periode.
 - Ne pas extrapoler une fiche a tous les pays, toutes les epoques ou toutes les personnes.
@@ -287,10 +287,10 @@ ${renderSitemapEntries(sitemapEntries)}
 </urlset>
 `;
 
-const ai = `# Isora AI access policy
+const ai = `# _isora_ AI access policy
 
 The public site, blog, llms.txt, llms-en.txt, llms-blog.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
-Please preserve attribution to Isora and to the primary source URLs attached to each claim.
+Please preserve attribution to _isora_ and to the primary source URLs attached to each claim.
 `;
 
 const datasetFr = stripUndefined(buildDataset("fr"));

@@ -1,10 +1,10 @@
 {
-  "name": "Isora - documented sex-based asymmetries reference dataset",
+  "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora-xi.vercel.app",
   "generatedAt": "2026-06-25T00:00:00+02:00",
   "language": "en",
   "sourceLanguage": "fr",
-  "license": "External sources are cited claim by claim; Isora editorial data may be reused with attribution.",
+  "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
   "editorialMethod": [
     "Each entry cites at least one external source.",
     "Country or zone, period, temporal status, measured population and nuance are preserved to limit out-of-context readings.",

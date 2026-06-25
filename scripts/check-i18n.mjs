@@ -32,7 +32,7 @@ const missing = claims
   .filter((claim) => claim.missingFields.length > 0);
 
 if (missing.length > 0) {
-  console.error(`Isora i18n check failed: ${missing.length}/${claims.length} claims miss reviewed English translations.`);
+  console.error(`isora i18n check failed: ${missing.length}/${claims.length} claims miss reviewed English translations.`);
   console.error(
     missing
       .slice(0, 30)
@@ -47,4 +47,4 @@ if (missing.length > 0) {
   process.exit(1);
 }
 
-console.log(`Isora i18n check passed: ${claims.length} claims have reviewed English translations.`);
+console.log(`isora i18n check passed: ${claims.length} claims have reviewed English translations.`);

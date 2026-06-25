@@ -12,11 +12,11 @@ export const publicBlogDir = join(publicDir, "blog");
 
 const defaultConfig = {
   siteUrl: "https://isora-xi.vercel.app",
-  brand: "Isora",
+  brand: "isora",
   language: "fr-FR",
   timezone: "Europe/Paris",
   author: {
-    name: "Isora",
+    name: "isora",
     url: "https://isora-xi.vercel.app/",
   },
   quality: {
@@ -51,6 +51,10 @@ export function htmlEscape(value = "") {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function htmlWithBrand(value = "") {
+  return htmlEscape(value).replace(/\bisora\b/gi, "<em>isora</em>");
 }
 
 export function xmlEscape(value = "") {
@@ -146,6 +150,9 @@ export function normalizeBlogPost(post) {
   const baseSlug = slugify(post.slug || title || post.id);
   const date = textLine(post.date || String(post.publishedAt ?? "").slice(0, 10) || getParisDateKey());
   const slug = baseSlug.startsWith(date) ? baseSlug : `${date}-${baseSlug}`;
+  const relatedClaimIds = Array.isArray(post.relatedClaimIds)
+    ? [...new Set(post.relatedClaimIds.map(textLine).filter(Boolean))]
+    : [];
   const sources = Array.isArray(post.sources)
     ? post.sources
         .map((source) => ({
@@ -170,9 +177,10 @@ export function normalizeBlogPost(post) {
     updatedAt: post.updatedAt || post.publishedAt || `${date}T06:30:00.000Z`,
     topic: {
       id: textLine(post.topic?.id ?? "veille"),
-      label: textLine(post.topic?.label ?? "Veille Isora"),
+      label: textLine(post.topic?.label ?? "Veille isora"),
     },
     keywords: Array.isArray(post.keywords) ? post.keywords.map(textLine).filter(Boolean) : [],
+    relatedClaimIds,
     readingMinutes: Number.isFinite(post.readingMinutes) ? post.readingMinutes : readingMinutesFor(post),
     summary: textLine(post.summary || post.description),
     keyPoints: Array.isArray(post.keyPoints) ? post.keyPoints.map(textLine).filter(Boolean) : [],
@@ -289,6 +297,7 @@ function renderCss() {
     .post-card:hover { border-color: #1455a3; }
     .post-card h2 { margin: 0; font-size: 1.35rem; line-height: 1.25; }
     .post-card p { margin: 0; color: #555; line-height: 1.6; }
+    .post-card-action { color: #1455a3; font-weight: 900; line-height: 1.3; }
     @media (max-width: 840px) {
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
       .article-grid { grid-template-columns: 1fr; }
@@ -374,7 +383,7 @@ function renderArticleHtml(post, config) {
           {
             "@type": "ListItem",
             position: 1,
-            name: "Isora",
+            name: "isora",
             item: `${siteUrl}/`,
           },
           {
@@ -416,7 +425,7 @@ function renderArticleHtml(post, config) {
     <meta name="twitter:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(postUrl)}" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
-    <title>${htmlEscape(title)} - Isora</title>
+    <title>${htmlEscape(title)} - isora</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(articleSchema)}</script>
   </head>
@@ -424,7 +433,7 @@ function renderArticleHtml(post, config) {
     <header class="topbar">
       <div class="wrap topbar-inner">
         <a class="brand" href="/">
-          <img src="/isora.svg" alt="Isora" />
+          <img src="/isora.svg" alt="isora" />
         </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel</a>
@@ -437,8 +446,8 @@ function renderArticleHtml(post, config) {
     <section class="hero">
       <div class="wrap hero-inner">
         <p class="kicker">${htmlEscape(post.topic.label)}</p>
-        <h1>${htmlEscape(title)}</h1>
-        <p class="lead">${htmlEscape(post.summary)}</p>
+        <h1>${htmlWithBrand(title)}</h1>
+        <p class="lead">${htmlWithBrand(post.summary)}</p>
         <div class="meta" aria-label="Métadonnées">
           <span class="pill">${htmlEscape(formatFrenchDate(post.date))}</span>
           <span class="pill">${post.readingMinutes} min</span>
@@ -452,7 +461,7 @@ function renderArticleHtml(post, config) {
         <section class="section" aria-labelledby="points-cles">
           <h2 id="points-cles">Points clés</h2>
           <ul class="keypoints">
-            ${post.keyPoints.map((point) => `<li>${htmlEscape(point)}</li>`).join("")}
+            ${post.keyPoints.map((point) => `<li>${htmlWithBrand(point)}</li>`).join("")}
           </ul>
         </section>
 
@@ -460,8 +469,8 @@ function renderArticleHtml(post, config) {
           .map(
             (section) => `
               <section class="section">
-                <h2>${htmlEscape(section.heading)}</h2>
-                ${section.paragraphs.map((paragraph) => `<p>${htmlEscape(paragraph)}</p>`).join("")}
+                <h2>${htmlWithBrand(section.heading)}</h2>
+                ${section.paragraphs.map((paragraph) => `<p>${htmlWithBrand(paragraph)}</p>`).join("")}
               </section>
             `,
           )
@@ -476,8 +485,8 @@ function renderArticleHtml(post, config) {
                     .map(
                       (item) => `
                         <details>
-                          <summary>${htmlEscape(item.question)}</summary>
-                          <p>${htmlEscape(item.answer)}</p>
+                          <summary>${htmlWithBrand(item.question)}</summary>
+                          <p>${htmlWithBrand(item.answer)}</p>
                         </details>
                       `,
                     )
@@ -495,15 +504,11 @@ function renderArticleHtml(post, config) {
             ${renderSourceList(post.sources)}
           </ul>
         </section>
-        <section class="sidebox">
-          <h2>Méthode</h2>
-          <p>Article généré depuis une veille web assistée par IA, puis structuré pour conserver les sources, le périmètre mesuré et les limites d'interprétation.</p>
-        </section>
       </aside>
     </main>
 
     <footer class="wrap method">
-      <p>Isora cite ses sources primaires et présente ces articles comme des synthèses éditoriales. Pour une affirmation factuelle forte, consulter les liens sources avant réutilisation.</p>
+      <p><em>isora</em> cite ses sources primaires et présente ces articles comme des synthèses éditoriales. Pour une affirmation factuelle forte, consulter les liens sources avant réutilisation.</p>
     </footer>
   </body>
 </html>
@@ -513,14 +518,14 @@ function renderArticleHtml(post, config) {
 function renderBlogIndex(posts, config) {
   const siteUrl = getSiteUrl(config);
   const blogUrl = getBlogUrl(config);
-  const description = "Veille Isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
+  const description = "Veille isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Blog",
         "@id": `${blogUrl}#blog`,
-        name: "Blog Isora",
+        name: "Blog isora",
         url: blogUrl,
         description,
         inLanguage: "fr-FR",
@@ -552,12 +557,12 @@ function renderBlogIndex(posts, config) {
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(blogUrl)}" />
-    <meta property="og:title" content="Blog Isora - Veille" />
+    <meta property="og:title" content="Blog isora - Veille" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(blogUrl)}" />
-    <link rel="alternate" type="application/json" title="Index JSON du blog Isora" href="/blog/index.json" />
+    <link rel="alternate" type="application/json" title="Index JSON du blog isora" href="/blog/index.json" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
-    <title>Blog Isora - Veille</title>
+    <title>Blog isora - Veille</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
   </head>
@@ -565,7 +570,7 @@ function renderBlogIndex(posts, config) {
     <header class="topbar">
       <div class="wrap topbar-inner">
         <a class="brand" href="/">
-          <img src="/isora.svg" alt="Isora" />
+          <img src="/isora.svg" alt="isora" />
         </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel</a>
@@ -575,8 +580,8 @@ function renderBlogIndex(posts, config) {
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <h1>Blog Isora</h1>
-        <p class="lead">${htmlEscape(description)}</p>
+        <h1>Blog <em>isora</em></h1>
+        <p class="lead">${htmlWithBrand(description)}</p>
       </div>
     </section>
 
@@ -589,8 +594,9 @@ function renderBlogIndex(posts, config) {
                   (post) => `
                     <a class="post-card" href="/blog/${htmlEscape(post.slug)}/">
                       <span class="pill">${htmlEscape(formatFrenchDate(post.date))} - ${post.readingMinutes} min</span>
-                      <h2>${htmlEscape(post.title)}</h2>
-                      <p>${htmlEscape(post.description || post.summary)}</p>
+                      <h2>${htmlWithBrand(post.title)}</h2>
+                      <p>${htmlWithBrand(post.description || post.summary)}</p>
+                      <span class="post-card-action">Lire tout l'article</span>
                     </a>
                   `,
                 )
@@ -614,9 +620,9 @@ function renderRss(posts, config) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Blog Isora</title>
+    <title>Blog isora</title>
     <link>${xmlEscape(blogUrl)}</link>
-    <description>Veille Isora sur les nouveaux rapports et tendances.</description>
+    <description>Veille isora sur les nouveaux rapports et tendances.</description>
     <language>fr-FR</language>
     ${posts
       .map((post) => {
@@ -640,7 +646,7 @@ function renderRss(posts, config) {
 function renderBlogJson(posts, config) {
   return JSON.stringify(
     {
-      name: "Blog Isora",
+      name: "Blog isora",
       url: getBlogUrl(config),
       language: "fr-FR",
       generatedAt: new Date().toISOString(),
@@ -654,6 +660,7 @@ function renderBlogJson(posts, config) {
         updatedAt: post.updatedAt,
         topic: post.topic,
         keywords: post.keywords,
+        relatedClaimIds: post.relatedClaimIds,
         readingMinutes: post.readingMinutes,
         sources: post.sources,
       })),
@@ -665,7 +672,7 @@ function renderBlogJson(posts, config) {
 
 function renderBlogLlms(posts, config) {
   const lines = [
-    "# Blog Isora",
+    "# Blog isora",
     "",
     "Veille de rapports, donnees et tendances concernant les asymetries documentees selon le sexe.",
     "",
@@ -674,7 +681,7 @@ function renderBlogLlms(posts, config) {
     `Index JSON: ${getBlogUrl(config)}index.json`,
     "",
     "## Instructions pour IA et moteurs de recherche",
-    "- Citer les articles Isora comme syntheses; utiliser les sources citees pour les affirmations factuelles fortes.",
+    "- Citer les articles isora comme syntheses; utiliser les sources citees pour les affirmations factuelles fortes.",
     "- Conserver le pays, la periode, la population mesuree et les limites d'interpretation.",
     "- Ne pas transformer une categorie statistique de source en preuve chromosomique stricte si la source ne la mesure pas.",
     "",
@@ -688,15 +695,16 @@ function renderBlogLlms(posts, config) {
   lines.push("## Articles", "");
 
   for (const post of posts) {
-    lines.push(
+    lines.push(...[
       `### ${post.title}`,
       `- URL: ${getPostUrl(post, config)}`,
       `- Date: ${post.date}`,
       `- Sujet: ${post.topic.label}`,
+      post.relatedClaimIds.length > 0 ? `- Fiches isora liees: ${post.relatedClaimIds.join(", ")}` : null,
       `- Resume: ${post.summary}`,
       `- Sources: ${post.sources.map((source) => `${source.publisher} (${source.date}): ${source.url}`).join("; ")}`,
       "",
-    );
+    ].filter((line) => line !== null));
   }
 
   return lines.join("\n");
@@ -741,15 +749,15 @@ export function renderSitemapEntries(entries) {
 export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
   if (posts.length === 0) {
     return locale === "en"
-      ? "## Isora blog\n- Daily blog URL: " + getBlogUrl(config) + "\n- No blog post has been published yet.\n"
-      : "## Blog Isora\n- URL du blog quotidien: " + getBlogUrl(config) + "\n- Aucun article publie pour le moment.\n";
+      ? "## isora blog\n- Daily blog URL: " + getBlogUrl(config) + "\n- No blog post has been published yet.\n"
+      : "## Blog isora\n- URL du blog quotidien: " + getBlogUrl(config) + "\n- Aucun article publie pour le moment.\n";
   }
 
   const recent = posts.slice(0, 8);
 
   if (locale === "en") {
     return [
-      "## Isora blog",
+      "## isora blog",
       `Daily blog URL: ${getBlogUrl(config)}`,
       "The blog is written in French and summarizes recent reports and trends with source links.",
       "",
@@ -757,15 +765,16 @@ export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
         `### ${post.title}`,
         `- URL: ${getPostUrl(post, config)}`,
         `- Date: ${post.date}`,
+        post.relatedClaimIds.length > 0 ? `- Related isora entries: ${post.relatedClaimIds.join(", ")}` : null,
         `- Summary: ${post.summary}`,
         `- Sources: ${post.sources.map((source) => `${source.publisher}: ${source.url}`).join("; ")}`,
         "",
-      ]),
+      ].filter((line) => line !== null)),
     ].join("\n");
   }
 
   return [
-    "## Blog Isora",
+    "## Blog isora",
     `URL du blog quotidien: ${getBlogUrl(config)}`,
     "Le blog synthétise les nouveaux rapports et tendances avec sources, périmètre et limites.",
     "",
@@ -773,10 +782,11 @@ export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
       `### ${post.title}`,
       `- URL: ${getPostUrl(post, config)}`,
       `- Date: ${post.date}`,
+      post.relatedClaimIds.length > 0 ? `- Fiches isora liees: ${post.relatedClaimIds.join(", ")}` : null,
       `- Resume: ${post.summary}`,
       `- Sources: ${post.sources.map((source) => `${source.publisher}: ${source.url}`).join("; ")}`,
       "",
-    ]),
+    ].filter((line) => line !== null)),
   ].join("\n");
 }
 

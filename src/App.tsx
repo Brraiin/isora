@@ -20,7 +20,7 @@ import {
   X,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import type { FormEvent } from "react";
+import type { FormEvent, ReactNode } from "react";
 import { useEffect, useMemo, useState } from "react";
 import packageJson from "../package.json";
 import isoraLogoUrl from "./assets/isora.svg";
@@ -139,9 +139,9 @@ const uiText: Record<Locale, Record<string, string>> = {
     heroKicker: "Données sourcées, contexte lisible, contribution ouverte",
     heroTitle: "Liste les asymétries documentées selon le sexe",
     heroBody:
-      "Isora recense des asymétries documentées par pays, période, domaine et angle d'analyse. Chaque fiche précise sa source, son contexte et la population réellement mesurée, pour rendre la donnée lisible, vérifiable et corrigeable.",
+      "isora recense des asymétries documentées par pays, période, domaine et angle d'analyse. Chaque fiche précise sa source, son contexte et la population réellement mesurée, pour rendre la donnée lisible, vérifiable et corrigeable.",
     mobileHeroBody:
-      "Isora recense des asymétries documentées par pays, période, domaine et angle, avec source et contexte vérifiables.",
+      "isora recense des asymétries documentées par pays, période, domaine et angle, avec source et contexte vérifiables.",
     menAsymmetries: "Asymétries concernant les hommes",
     womenAsymmetries: "Asymétries concernant les femmes",
     contribution: "Contribution",
@@ -193,9 +193,9 @@ const uiText: Record<Locale, Record<string, string>> = {
     heroKicker: "Sourced data, readable context, open contribution",
     heroTitle: "Browse documented sex-based asymmetries",
     heroBody:
-      "Isora tracks documented asymmetries by country, period, domain and editorial angle. Each entry states its source, context and actually measured population so the data stays readable, verifiable and correctable.",
+      "isora tracks documented asymmetries by country, period, domain and editorial angle. Each entry states its source, context and actually measured population so the data stays readable, verifiable and correctable.",
     mobileHeroBody:
-      "Isora tracks documented asymmetries by country, period, domain and angle, with verifiable source and context.",
+      "isora tracks documented asymmetries by country, period, domain and angle, with verifiable source and context.",
     menAsymmetries: "Asymmetries concerning men",
     womenAsymmetries: "Asymmetries concerning women",
     contribution: "Contribution",
@@ -412,7 +412,29 @@ function cn(...classes: Array<string | false | null | undefined>) {
   return classes.filter(Boolean).join(" ");
 }
 
-function IsoraWordmark({ className }: { className?: string }) {
+function BrandText({ text }: { text: string }) {
+  const parts: ReactNode[] = [];
+  const pattern = /\bisora\b/gi;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+
+    parts.push(<em key={`${match.index}-${match[0]}`}>isora</em>);
+    lastIndex = match.index + match[0].length;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+
+  return <>{parts}</>;
+}
+
+function BrandWordmark({ className }: { className?: string }) {
   return (
     <img
       className={cn("block h-auto object-contain", className)}
@@ -424,7 +446,7 @@ function IsoraWordmark({ className }: { className?: string }) {
 
 function getNextDailyRun(date: Date) {
   const next = new Date(date);
-  next.setHours(7, 30, 0, 0);
+  next.setHours(20, 30, 0, 0);
 
   if (next <= date) {
     next.setDate(next.getDate() + 1);
@@ -548,7 +570,7 @@ function ContributionInbox({
       <main className={cn(pageWidth, "min-h-screen py-8")}>
         <header className="flex flex-wrap items-center justify-between gap-4 border-b border-neutral-300 pb-5">
           <div>
-            <IsoraWordmark className="w-24" />
+            <BrandWordmark className="w-24" />
             <h1 className="mt-5 text-3xl font-extrabold leading-tight text-neutral-900">Retours utilisateurs</h1>
             <p className="mt-2 max-w-2xl leading-relaxed text-neutral-600">
               Vue non référencée pour vérifier les contestations et propositions avant modification des asymétries.
@@ -768,7 +790,7 @@ function App() {
     if (!isRequestsView) return undefined;
 
     const previousTitle = document.title;
-    document.title = "Retours utilisateurs - Isora";
+    document.title = "Retours utilisateurs - isora";
 
     let robotsMeta = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
     const previousRobots = robotsMeta?.getAttribute("content") ?? null;
@@ -1009,7 +1031,7 @@ function App() {
           "@type": "WebPage",
           "@id": `${canonicalUrl}#webpage`,
           url: canonicalUrl,
-          name: "Isora - Asymétries documentées selon le sexe",
+          name: "isora - asymétries documentées selon le sexe",
           description:
             "Référentiel de fiches sourcées sur les asymétries documentées selon le sexe, avec source, pays ou zone, période, population mesurée et nuance.",
           inLanguage: "fr-FR",
@@ -1022,7 +1044,7 @@ function App() {
         {
           "@type": "ItemList",
           "@id": `${canonicalUrl}#claims`,
-          name: "Fiches documentées Isora",
+          name: "Fiches documentées isora",
           numberOfItems: claims.length,
           itemListElement: claims.slice(0, 60).map((claim, index) => ({
             "@type": "ListItem",
@@ -1134,7 +1156,7 @@ function App() {
     );
 
     try {
-      await sendContribution(`Suggestion Isora - ${suggestion.title}`, suggestion);
+      await sendContribution(`Suggestion isora - ${suggestion.title}`, suggestion);
       form.reset();
       setSuggestionSources([""]);
       setSubmitted(true);
@@ -1194,7 +1216,7 @@ function App() {
     );
 
     try {
-      await sendContribution(`Contestation Isora - ${contestedClaim.title}`, contestation);
+      await sendContribution(`Contestation isora - ${contestedClaim.title}`, contestation);
       form.reset();
       setContestSources([""]);
       setContestSubmitted(true);
@@ -1231,7 +1253,7 @@ function App() {
           <div className="flex items-baseline gap-4 max-[760px]:gap-2.5">
             <div className="flex items-end gap-3.5 max-[760px]:gap-3">
               <a className="text-neutral-900 no-underline" href="/" aria-label="Accueil isora">
-                <IsoraWordmark className="w-28 max-[760px]:w-24" />
+                <BrandWordmark className="w-28 max-[760px]:w-24" />
               </a>
               <p className="m-0 translate-y-1 leading-[1.45] text-neutral-500 max-[760px]:max-w-[19rem] max-[760px]:translate-y-[3px] max-[760px]:text-[0.92rem] max-[760px]:leading-[1.35]">
                 <span className="max-[760px]:hidden">{text.tagline}</span>
@@ -1317,8 +1339,8 @@ function App() {
                 {text.heroTitle}
               </h1>
               <p className="mt-[22px] max-w-[720px] text-[1.15rem] leading-[1.65] text-neutral-700">
-                <span className="max-[760px]:hidden">{text.heroBody}</span>
-                <span className="hidden max-[760px]:inline">{text.mobileHeroBody}</span>
+                <span className="max-[760px]:hidden"><BrandText text={text.heroBody} /></span>
+                <span className="hidden max-[760px]:inline"><BrandText text={text.mobileHeroBody} /></span>
               </p>
             </div>
           </div>
