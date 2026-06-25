@@ -1,0 +1,112 @@
+{
+  "id": "2026-06-25-superieur-stem-emploi-asymetries-sexe",
+  "slug": "2026-06-25-superieur-stem-emploi-asymetries-sexe",
+  "status": "published",
+  "language": "fr",
+  "title": "Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste",
+  "description": "Les données européennes 2024-2026 montrent une majorité féminine dans les diplômes du supérieur, mais pas dans les filières STEM ni dans l'emploi des parents diplômés.",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-25T18:30:00.000Z",
+  "updatedAt": "2026-06-25T18:30:00.000Z",
+  "topic": {
+    "id": "education-orientation",
+    "label": "Éducation, orientation et formation"
+  },
+  "keywords": [
+    "diplômées du supérieur femmes hommes",
+    "STEM femmes hommes",
+    "Eurostat 2026 enseignement supérieur",
+    "OCDE Education at a Glance 2025",
+    "emploi parents diplômés"
+  ],
+  "readingMinutes": 5,
+  "summary": "Les publications récentes d'Eurostat et de l'OCDE montrent une asymétrie qui ne va pas dans un seul sens. Les femmes sont désormais plus nombreuses parmi les diplômés du supérieur et les jeunes adultes diplômés, mais les hommes restent nettement plus représentés dans les filières STEM et conservent un avantage d'emploi quand des enfants vivent au foyer, y compris parmi les plus diplômés.",
+  "keyPoints": [
+    "Eurostat indique que 57,8 % de l'ensemble des diplômés du supérieur dans l'UE en 2024 sont des femmes, et que tous les pays de l'UE comptent plus de diplômées que de diplômés.",
+    "Dans l'UE en 2024, 49,8 % des femmes âgées de 25 à 34 ans ont un diplôme du supérieur, contre 38,6 % des hommes du même âge selon Eurostat.",
+    "Toujours selon Eurostat, les diplômés STEM restent bien plus souvent des hommes : en 2023, l'UE compte 29,0 diplômés STEM pour 1 000 hommes de 20 à 29 ans contre 15,5 pour 1 000 femmes.",
+    "L'OCDE relève qu'en moyenne, 48 % des femmes entrant en bachelor terminent dans la durée théorique, contre 37 % des hommes; trois ans plus tard, l'écart reste de 75 % contre 63 %.",
+    "Eurostat observe qu'en 2024, parmi les 25-49 ans vivant avec des enfants, un niveau d'études élevé réduit l'écart d'emploi entre les sexes sans l'effacer : avec trois enfants ou plus, 81,8 % des femmes très diplômées sont en emploi contre 95,4 % des hommes."
+  ],
+  "sections": [
+    {
+      "heading": "Ce qui est nouveau dans la veille",
+      "paragraphs": [
+        "Les publications 2025-2026 d'Eurostat et de l'OCDE permettent de lire ensemble trois indicateurs souvent séparés : l'obtention d'un diplôme du supérieur, la répartition par filière et l'emploi après les études. Le tableau qui en ressort est asymétrique, mais pas dans un seul sens.",
+        "D'un côté, les femmes sont plus nombreuses parmi les diplômés du supérieur et parmi les jeunes adultes déjà titulaires d'un diplôme. De l'autre, les hommes restent davantage représentés dans les filières STEM et gardent, dans les ménages avec enfants, des taux d'emploi supérieurs même quand le niveau d'études est élevé."
+      ]
+    },
+    {
+      "heading": "Ce que mesurent les sources",
+      "paragraphs": [
+        "Eurostat mesure ici plusieurs populations distinctes. Les données de niveau de diplôme portent sur les 25-34 ans dans l'Union européenne en 2024. Les données sur les diplômés du supérieur portent sur l'ensemble des personnes diplômées en 2024, avec des données 2023 pour la Tchéquie et l'Irlande dans certaines séries. Les données STEM rapportent le nombre de diplômés à la population des 20-29 ans.",
+        "L'OCDE mesure de son côté des cohortes d'entrants en bachelor et suit leur obtention d'un diplôme dans la durée théorique, puis un et trois ans après. Enfin, la note Eurostat de mars 2026 sur l'emploi observe les 25-49 ans vivant dans des ménages avec enfants, selon le sexe, le niveau de diplôme et le nombre d'enfants présents au foyer."
+      ]
+    },
+    {
+      "heading": "Une asymétrie qui change selon l'indicateur",
+      "paragraphs": [
+        "Si l'on regarde l'accès et la réussite dans le supérieur, l'avantage mesuré est aujourd'hui plutôt féminin dans les données européennes citées. Les femmes sont majoritaires parmi les diplômés du supérieur, atteignent plus souvent un niveau tertiaire entre 25 et 34 ans, et terminent plus souvent un bachelor dans les délais observés par l'OCDE.",
+        "Si l'on regarde la distribution des filières, le sens de l'écart change. Eurostat indique qu'en 2024 il y a davantage d'hommes parmi les diplômés des filières ingénierie, fabrication, construction et technologies de l'information, et qu'en 2023 l'intensité de diplomation STEM rapportée à la population des 20-29 ans reste presque deux fois plus élevée chez les hommes que chez les femmes.",
+        "Si l'on regarde enfin l'emploi des adultes avec enfants, le niveau d'études réduit l'écart entre femmes et hommes mais ne le supprime pas. Les données Eurostat de 2024 montrent qu'un diplôme élevé rapproche les taux d'emploi, mais que l'écart reste visible quand le nombre d'enfants augmente."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Ces sources parlent de femmes et d'hommes au sens des catégories statistiques utilisées par Eurostat et l'OCDE. Elles ne mesurent pas les chromosomes, et Isora doit donc conserver le libellé de source ainsi que le périmètre exact de chaque indicateur.",
+        "Les résultats ne décrivent pas une cause unique. Les choix de filière, les systèmes d'orientation, les durées de cursus, les conditions économiques, la présence d'enfants et l'organisation du travail peuvent tous modifier les écarts observés. De plus, l'ensemble n'est pas centré sur la France seule : il s'agit surtout de moyennes UE ou OCDE, utiles pour la tendance mais pas suffisantes pour décrire chaque pays."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les femmes sont-elles désormais majoritaires dans le supérieur ?",
+      "answer": "Dans les sources européennes citées ici, oui pour plusieurs indicateurs : les femmes sont majoritaires parmi les diplômés du supérieur et plus nombreuses parmi les 25-34 ans titulaires d'un diplôme tertiaire. En revanche, cette majorité ne vaut pas pour toutes les filières."
+    },
+    {
+      "question": "Pourquoi parler encore d'asymétrie si les femmes diplômées sont plus nombreuses ?",
+      "answer": "Parce que le sens de l'écart dépend de ce qui est mesuré. Les femmes apparaissent davantage dans l'obtention des diplômes et la réussite en bachelor, tandis que les hommes restent plus nombreux dans certaines filières STEM et ont des taux d'emploi plus élevés parmi les adultes avec enfants."
+    },
+    {
+      "question": "Peut-on transposer directement ces chiffres à la France ?",
+      "answer": "Non. Les sources principales décrivent surtout des moyennes de l'Union européenne ou de l'OCDE. Elles sont utiles pour repérer une tendance générale, mais elles ne remplacent pas une lecture par pays ou par établissement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Women in the EU",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Women_in_the_EU",
+      "date": "données extraites en février 2026",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Tertiary education statistics",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Tertiary_education_statistics",
+      "date": "mise à jour 2026",
+      "type": "jeu de données et synthèse"
+    },
+    {
+      "title": "Education at a Glance 2025: OECD Indicators",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en.html",
+      "date": "9 septembre 2025",
+      "type": "rapport"
+    },
+    {
+      "title": "Higher education reduces gender employment gap",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1",
+      "date": "6 mars 2026",
+      "type": "note statistique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille assistée Codex",
+    "model": "codex",
+    "generatedAt": "2026-06-25T18:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}
