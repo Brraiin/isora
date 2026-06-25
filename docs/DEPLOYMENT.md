@@ -138,7 +138,7 @@ Le token doit avoir le droit de creer des issues sur le depot `Brraiin/isora`. S
 
 ## Blog quotidien
 
-La voie normale ne passe pas par GitHub Actions ni par une cle OpenAI API. Elle passe par l'automatisation Codex app `Veille quotidienne Isora`, active tous les matins vers 07:30 heure de Paris.
+La voie normale ne passe pas par GitHub Actions ni par une cle OpenAI API. Elle passe par l'automatisation Codex app `Veille quotidienne Isora`, active tous les jours vers 20:30 heure de Paris.
 
 Cette automatisation travaille dans :
 
@@ -155,6 +155,8 @@ Elle doit :
 - commit et push sur `main` si le build passe.
 
 Le commit sur `main` declenche ensuite le deploiement Vercel habituel.
+
+Si l'ordinateur etait eteint a l'heure prevue, lancer manuellement l'automatisation `Veille quotidienne Isora` depuis Codex des que la machine est disponible. A defaut, demander dans un thread Codex : "Lance la veille quotidienne Isora maintenant".
 
 Avant de publier manuellement une veille, verifier :
 

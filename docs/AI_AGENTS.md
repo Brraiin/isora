@@ -73,7 +73,7 @@ La configuration editoriale est dans :
 
 - `content/blog/watch-config.json` : themes, priorites de sources, seuils qualite.
 - `content/blog/posts/` : memoire des articles publies, un JSON par article.
-- Automatisation Codex app `Veille quotidienne Isora` : voie normale, sans cle API, lancee tous les matins vers 07:30.
+- Automatisation Codex app `Veille quotidienne Isora` : voie normale, sans cle API, lancee tous les jours vers 20:30.
 - `scripts/blog-utils.mjs` : rend les pages HTML statiques, RSS, JSON, `llms-blog.txt` et les entrees sitemap.
 - `scripts/generate-daily-blog.mjs` : voie optionnelle par API OpenAI, utile seulement si une cle API est ajoutee plus tard.
 
@@ -85,6 +85,8 @@ npm run build
 ```
 
 La veille quotidienne ne depend pas de `OPENAI_API_KEY` : Codex fait la recherche, cree le JSON d'article, regenere les sorties publiques, lance le build, commit et pousse sur GitHub. Le script `npm run blog:daily` reste disponible comme mode API optionnel, mais ce n'est pas le chemin normal du projet.
+
+Si l'ordinateur etait eteint a l'heure prevue, lancer manuellement l'automatisation `Veille quotidienne Isora` depuis Codex des que la machine est disponible. A defaut, demander dans un thread Codex : "Lance la veille quotidienne Isora maintenant".
 
 Principes editoriaux du blog :
 
