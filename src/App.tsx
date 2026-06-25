@@ -30,7 +30,7 @@ import type { FormEvent, ReactNode } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import packageJson from "../package.json";
 import isoraLogoUrl from "./assets/isora.svg";
-import { homeBlogUpdates, type HomeBlogUpdate } from "./data/blog-updates";
+import { homeBlogUpdates as generatedBlogUpdates, type HomeBlogUpdate } from "./data/blog-updates";
 import {
   claims,
   domains,
@@ -38,8 +38,12 @@ import {
   type Claim,
   type Domain,
   type Side,
+  type Source,
   type StatutTemporel,
 } from "./data/claims";
+import { manualClaimUpdates } from "./data/manual-claim-updates";
+
+const homeBlogUpdates = [...manualClaimUpdates, ...generatedBlogUpdates] as const satisfies readonly HomeBlogUpdate[];
 
 const sideLabels: Record<Side | "tous", string> = {
   tous: "Tous",
@@ -221,15 +225,16 @@ const uiText: Record<Locale, Record<string, string>> = {
       "isora recense des asymétries documentées par pays, période, domaine et angle, avec source et contexte vérifiables.",
     menAsymmetries: "Asymétries concernant les hommes",
     womenAsymmetries: "Asymétries concernant les femmes",
-    blogSyncSingular: "fiche modifiée via les articles",
-    blogSyncPlural: "fiches modifiées via les articles",
+    blogSyncSingular: "fiche modifiée par veille",
+    blogSyncPlural: "fiches modifiées par veille",
     blogSyncLatest: "Dernière veille",
     modifiedClaims: "Fiches modifiées",
     modifiedClaimChange: "Mise à jour",
     currentMetric: "Mesure actuelle",
     relatedArticle: "Article lié",
+    updateSource: "Source",
     claimUpdated: "Fiche modifiée",
-    modifiedClaimsDialogIntro: "Historique des fiches reliées à la veille, avec leur mesure actuelle et l'article qui explique la mise à jour.",
+    modifiedClaimsDialogIntro: "Historique des fiches reliées à la veille, avec leur mesure actuelle et la source ou l'article qui documente la mise à jour.",
     contribution: "Contribution",
     proposeClaim: "Proposer une asymétrie",
     searchPlaceholder: "Rechercher une fiche, un pays, une source...",
@@ -287,15 +292,16 @@ const uiText: Record<Locale, Record<string, string>> = {
       "isora tracks documented asymmetries by country, period, domain and angle, with verifiable source and context.",
     menAsymmetries: "Asymmetries concerning men",
     womenAsymmetries: "Asymmetries concerning women",
-    blogSyncSingular: "entry updated through articles",
-    blogSyncPlural: "entries updated through articles",
+    blogSyncSingular: "entry updated through monitoring",
+    blogSyncPlural: "entries updated through monitoring",
     blogSyncLatest: "Latest watch",
     modifiedClaims: "Updated entries",
     modifiedClaimChange: "Update",
     currentMetric: "Current metric",
     relatedArticle: "Related article",
+    updateSource: "Source",
     claimUpdated: "Updated entry",
-    modifiedClaimsDialogIntro: "History of entries connected to the watch, with their current metric and the article explaining the update.",
+    modifiedClaimsDialogIntro: "History of entries connected to the watch, with their current metric and the source or article documenting the update.",
     contribution: "Contribution",
     proposeClaim: "Suggest an asymmetry",
     searchPlaceholder: "Search an entry, country, source...",
@@ -948,6 +954,14 @@ function formatHomeBlogUpdateDate(value: string, locale: Locale) {
   }).format(date);
 }
 
+function isSourceUpdate(update: HomeBlogUpdate) {
+  return !update.blogUrl.startsWith("/blog/");
+}
+
+function getUpdateLinkLabel(update: HomeBlogUpdate, text: Record<string, string>) {
+  return isSourceUpdate(update) ? text.updateSource : text.relatedArticle;
+}
+
 function compareHomeBlogUpdates(left: HomeBlogUpdate, right: HomeBlogUpdate) {
   const byUpdate = String(right.updatedAt).localeCompare(String(left.updatedAt));
   return byUpdate || left.claimTitle.localeCompare(right.claimTitle, "fr");
@@ -1064,9 +1078,28 @@ function interleaveClaimsBySide(list: Claim[]) {
   return ordered;
 }
 
-function getClaimIdFromHash() {
-  const id = decodeURIComponent(window.location.hash.slice(1));
-  return claims.some((claim) => claim.id === id) ? id : null;
+function findClaimId(value: string) {
+  return claims.some((claim) => claim.id === value) ? value : null;
+}
+
+function getClaimIdFromPath() {
+  const [, section, rawId] = window.location.pathname.split("/");
+  if (section !== "fiches" || !rawId) return null;
+
+  try {
+    return findClaimId(decodeURIComponent(rawId));
+  } catch {
+    return null;
+  }
+}
+
+function getSharedClaimIdFromLocation() {
+  try {
+    const hashId = decodeURIComponent(window.location.hash.slice(1));
+    return findClaimId(hashId) ?? getClaimIdFromPath();
+  } catch {
+    return getClaimIdFromPath();
+  }
 }
 
 function HighlightedSummary({ text }: { text: string }) {
@@ -1211,6 +1244,30 @@ function EmptyDashboardBlock({ children }: { children: ReactNode }) {
     <div className={cn(panel, "grid min-h-32 place-items-center p-5 text-center font-bold text-neutral-500")}>
       {children}
     </div>
+  );
+}
+
+function ClaimSourceLink({ source, tone = "secondary" }: { source: Source; tone?: "primary" | "secondary" }) {
+  return (
+    <a
+      className={cn(
+        icon18,
+        "flex min-h-[42px] items-center gap-2 px-2.5 py-[9px] text-[0.86rem] font-bold text-blue-800 ring-1 ring-inset ring-neutral-300 hover:bg-blue-50",
+        tone === "primary" ? "mt-3 bg-white" : "mt-2 bg-neutral-100",
+      )}
+      href={source.url}
+      target="_blank"
+      rel="noreferrer"
+    >
+      <FileText aria-hidden="true" />
+      <span className="min-w-0 flex-1">
+        <span className="block leading-snug [overflow-wrap:anywhere]">{source.label}</span>
+        <span className="mt-1 block text-[0.78rem] leading-snug text-neutral-600">
+          {source.publisher} - {source.date}
+        </span>
+      </span>
+      <ExternalLink aria-hidden="true" />
+    </a>
   );
 }
 
@@ -1705,6 +1762,7 @@ function HomeBlogUpdatesPanel({
       <div className="mt-3 grid gap-2.5">
         {updates.map((update) => {
           const tone = getHomeBlogUpdateTone(update.side);
+          const isExternalSource = isSourceUpdate(update);
 
           return (
             <div
@@ -1736,10 +1794,12 @@ function HomeBlogUpdatesPanel({
               <a
                 className={cn(icon18, "mt-2 inline-flex max-w-full items-start gap-1.5 text-[0.78rem] font-bold leading-snug text-blue-800 underline underline-offset-2")}
                 href={update.blogUrl}
+                rel={isExternalSource ? "noreferrer" : undefined}
+                target={isExternalSource ? "_blank" : undefined}
               >
                 <FileText className="mt-0.5" aria-hidden="true" />
                 <span className="min-w-0 [overflow-wrap:anywhere]">
-                  {text.modifiedClaimChange} : {update.blogTitle}
+                  {getUpdateLinkLabel(update, text)} : {update.blogTitle}
                 </span>
               </a>
             </div>
@@ -1768,7 +1828,7 @@ function App() {
   const [suggestionSources, setSuggestionSources] = useState([""]);
   const [submitted, setSubmitted] = useState(false);
   const [submissionError, setSubmissionError] = useState(false);
-  const [sharedClaimId, setSharedClaimId] = useState(() => getClaimIdFromHash());
+  const [sharedClaimId, setSharedClaimId] = useState(() => getSharedClaimIdFromLocation());
   const [isSingleColumn, setIsSingleColumn] = useState(false);
   const [contestedClaim, setContestedClaim] = useState<Claim | null>(null);
   const [contestSources, setContestSources] = useState([""]);
@@ -2035,12 +2095,16 @@ function App() {
 
   useEffect(() => {
     function syncSharedClaim() {
-      setSharedClaimId(getClaimIdFromHash());
+      setSharedClaimId(getSharedClaimIdFromLocation());
     }
 
     window.addEventListener("hashchange", syncSharedClaim);
+    window.addEventListener("popstate", syncSharedClaim);
 
-    return () => window.removeEventListener("hashchange", syncSharedClaim);
+    return () => {
+      window.removeEventListener("hashchange", syncSharedClaim);
+      window.removeEventListener("popstate", syncSharedClaim);
+    };
   }, []);
 
   useEffect(() => {
@@ -3422,6 +3486,7 @@ function ClaimCard({
   const [copied, setCopied] = useState(false);
   const [isMobileExpanded, setIsMobileExpanded] = useState(false);
   const latestBlogUpdate = blogUpdates[0] ?? null;
+  const latestBlogUpdateIsExternalSource = latestBlogUpdate ? isSourceUpdate(latestBlogUpdate) : false;
   const claimTranslation = locale === "en" ? claim.translations?.en : undefined;
   const claimTitle = claimTranslation?.title ?? claim.title;
   const claimSummary = claimTranslation?.summary ?? claim.summary;
@@ -3466,8 +3531,7 @@ function ClaimCard({
   };
 
   async function copyShareLink() {
-    const url = new URL(`${window.location.origin}${window.location.pathname}`);
-    url.hash = claim.id;
+    const url = new URL(`/fiches/${encodeURIComponent(claim.id)}/`, window.location.origin);
     const shareUrl = url.toString();
 
     function copyWithFallback() {
@@ -3606,10 +3670,12 @@ function ClaimCard({
             <a
               className={cn(icon18, "mt-2 inline-flex max-w-full items-start gap-2 text-[0.86rem] font-bold leading-snug text-blue-800 underline underline-offset-2")}
               href={latestBlogUpdate.blogUrl}
+              rel={latestBlogUpdateIsExternalSource ? "noreferrer" : undefined}
+              target={latestBlogUpdateIsExternalSource ? "_blank" : undefined}
             >
               <FileText className="mt-0.5" aria-hidden="true" />
               <span className="min-w-0 [overflow-wrap:anywhere]">
-                {text.relatedArticle} : {latestBlogUpdate.blogTitle}
+                {getUpdateLinkLabel(latestBlogUpdate, text)} : {latestBlogUpdate.blogTitle}
               </span>
             </a>
           </div>
@@ -3724,32 +3790,9 @@ function ClaimCard({
       </button>
       </div>
 
-      <a
-        className={cn(icon18, "mt-3 flex min-h-[42px] items-center gap-2 bg-white px-2.5 py-[9px] text-[0.86rem] font-bold text-blue-800 ring-1 ring-inset ring-neutral-300 hover:bg-blue-50")}
-        href={claim.source.url}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <FileText aria-hidden="true" />
-        <span className="min-w-0 flex-1">
-          {claim.source.publisher} - {claim.source.date}
-        </span>
-        <ExternalLink aria-hidden="true" />
-      </a>
+      <ClaimSourceLink source={claim.source} tone="primary" />
       {claim.additionalSources?.map((source) => (
-        <a
-          className={cn(icon18, "mt-2 flex min-h-[42px] items-center gap-2 bg-neutral-100 px-2.5 py-[9px] text-[0.86rem] font-bold text-blue-800 ring-1 ring-inset ring-neutral-300 hover:bg-blue-50")}
-          href={source.url}
-          target="_blank"
-          rel="noreferrer"
-          key={source.url}
-        >
-          <FileText aria-hidden="true" />
-          <span className="min-w-0 flex-1">
-            {source.publisher} - {source.date}
-          </span>
-          <ExternalLink aria-hidden="true" />
-        </a>
+        <ClaimSourceLink key={source.url} source={source} />
       ))}
       <button
         className={cn(icon18, "mt-3 hidden min-h-[42px] w-full items-center justify-center gap-2 border border-neutral-300 bg-white px-2.5 py-[9px] text-[0.86rem] font-bold text-blue-800 hover:bg-blue-50 max-[760px]:flex")}

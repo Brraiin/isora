@@ -1,0 +1,62 @@
+[
+  {
+    "claimId": "hommes-panama-fraude-paternite-crime-2026",
+    "side": "hommes",
+    "claimTitle": "Panama crée un délit spécifique de fraude à la paternité",
+    "claimMetric": "2 à 5 ans",
+    "blogTitle": "Gaceta Oficial n° 30550 - Ley n° 535 que sanciona el fraude de paternidad en la República de Panamá",
+    "blogUrl": "https://www.gacetaoficial.gob.pa/storage/gacetas/2026/06/30550/GacetaNo_30550_20260619.pdf",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T23:20:00Z"
+  },
+  {
+    "claimId": "hommes-femmes-taxe-rose-prix-genres",
+    "side": "femmes",
+    "claimTitle": "Taxe rose : des prix genrés existent, sans surcoût féminin généralisé",
+    "claimMetric": "écarts mixtes",
+    "blogTitle": "Gender-Based Pricing in Consumer Packaged Goods: A Pink Tax?",
+    "blogUrl": "https://doi.org/10.1287/mksc.2023.1452",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T20:41:22.000Z"
+  },
+  {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Emploi - Caractéristiques des emplois en 2024",
+    "blogUrl": "https://www.insee.fr/fr/statistiques/8612530",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T20:41:17Z"
+  },
+  {
+    "claimId": "femmes-canada-sterilisations-sans-consentement-autochtones",
+    "side": "femmes",
+    "claimTitle": "Femmes autochtones au Canada visées par des stérilisations sans consentement",
+    "claimMetric": "1948-2025",
+    "blogTitle": "The Scars that We Carry: Forced and Coerced Sterilization of Persons in Canada - Part II",
+    "blogUrl": "https://publications.gc.ca/site/eng/9.913511/publication.html",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T15:25:39.000Z"
+  },
+  {
+    "claimId": "hommes-viol-force-penetration-2018",
+    "side": "hommes",
+    "claimTitle": "Qualification du viol élargie aux victimes forcées à pénétrer",
+    "claimMetric": "2018",
+    "blogTitle": "Légifrance - LOI n° 2018-703 du 3 août 2018",
+    "blogUrl": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037284450",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T12:34:42.000Z"
+  },
+  {
+    "claimId": "femmes-violences-sexuelles",
+    "side": "femmes",
+    "claimTitle": "Femmes victimes de violences sexuelles très peu déclarées",
+    "claimMetric": "7 % plainte",
+    "blogTitle": "Arrêtons les violences / SSMSI - chiffres de référence sur les violences faites aux femmes",
+    "blogUrl": "https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T12:34:42.000Z"
+  }
+]

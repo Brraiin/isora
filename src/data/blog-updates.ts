@@ -42,6 +42,16 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-06-25T18:30:00.000Z"
   },
   {
+    "claimId": "hommes-femme-principale-pourvoyeuse-satisfaction",
+    "side": "hommes",
+    "claimTitle": "Quand la femme assure seule le revenu, la baisse de satisfaction est plus marquée chez les hommes",
+    "claimMetric": "pénalité de bien-être",
+    "blogTitle": "Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée",
+    "blogUrl": "/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T15:55:00.000Z"
+  },
+  {
     "claimId": "hommes-suicide-monde",
     "side": "hommes",
     "claimTitle": "Hommes beaucoup plus exposés à la mort par suicide",

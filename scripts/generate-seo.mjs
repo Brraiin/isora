@@ -19,6 +19,7 @@ const publicWellKnownDir = join(publicDir, ".well-known");
 const publicClaimsDir = join(publicDir, "fiches");
 const sourceFile = join(root, "src", "data", "claims.ts");
 const homeBlogUpdatesFile = join(root, "src", "data", "blog-updates.ts");
+const manualClaimUpdatesFile = join(root, "src", "data", "manual-claim-updates.json");
 const logoFile = join(root, "src", "assets", "isora.svg");
 const tempFile = join(root, "node_modules", ".cache", "isora-claims.mjs");
 const siteUrl = "https://isora-xi.vercel.app";
@@ -26,6 +27,7 @@ const generatedDate = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe
 const generatedAt = `${generatedDate}T00:00:00+02:00`;
 const blogConfig = await loadBlogConfig();
 const blogPosts = await loadBlogPosts();
+const manualClaimUpdates = JSON.parse(await readFile(manualClaimUpdatesFile, "utf8"));
 
 function textLine(value) {
   return String(value).replace(/\s+/g, " ").trim();
@@ -170,6 +172,109 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = ${JSON.stringify(updates, null, 2)} as const satisfies readonly HomeBlogUpdate[];
 `;
+}
+
+function buildClaimUpdatesById(updates) {
+  const updatesByClaimId = new Map();
+
+  for (const update of updates) {
+    if (!claimById.has(update.claimId)) continue;
+    const claimUpdates = updatesByClaimId.get(update.claimId) ?? [];
+    claimUpdates.push(update);
+    updatesByClaimId.set(
+      update.claimId,
+      claimUpdates.sort((left, right) => String(right.updatedAt).localeCompare(String(left.updatedAt))),
+    );
+  }
+
+  return updatesByClaimId;
+}
+
+function isSourceUpdate(update) {
+  return !String(update.blogUrl).startsWith("/blog/");
+}
+
+function hasIdentifiableSourceLabel(sourceItem) {
+  const label = textLine(sourceItem.label ?? "");
+  if (label.length < 12) return false;
+
+  const normalizedLabel = label.toLocaleLowerCase("fr-FR");
+  const normalizedPublisher = textLine(sourceItem.publisher ?? "").toLocaleLowerCase("fr-FR");
+  const normalizedDate = textLine(sourceItem.date ?? "").toLocaleLowerCase("fr-FR");
+
+  return normalizedLabel !== normalizedPublisher && normalizedLabel !== normalizedDate;
+}
+
+function assertClaimSourceLabels() {
+  const incompleteSources = [];
+
+  for (const claim of claims) {
+    for (const sourceItem of [claim.source, ...(claim.additionalSources ?? [])]) {
+      if (!hasIdentifiableSourceLabel(sourceItem)) {
+        incompleteSources.push(`${claim.id}: ${sourceItem.url}`);
+      }
+    }
+  }
+
+  if (incompleteSources.length > 0) {
+    throw new Error(
+      [
+        "Chaque source de fiche doit avoir un label visible et identifiable, pas seulement un editeur ou une date.",
+        ...incompleteSources.map((item) => `- ${item}`),
+      ].join("\n"),
+    );
+  }
+}
+
+function assertManualClaimUpdateSources(updates) {
+  const missingSources = [];
+  const weakSourceLabels = [];
+
+  for (const update of updates) {
+    if (!isSourceUpdate(update)) continue;
+
+    const claim = claimById.get(update.claimId);
+    if (!claim) {
+      missingSources.push(`${update.claimId}: fiche introuvable pour ${update.blogUrl}`);
+      continue;
+    }
+
+    const updateUrl = normalizeUrlForMatch(update.blogUrl);
+    const matchingSource = [claim.source, ...(claim.additionalSources ?? [])].find(
+      (sourceItem) => normalizeUrlForMatch(sourceItem.url) === updateUrl,
+    );
+
+    if (!matchingSource) {
+      missingSources.push(`${update.claimId}: ${update.blogUrl}`);
+      continue;
+    }
+
+    if (!hasIdentifiableSourceLabel(matchingSource)) {
+      weakSourceLabels.push(`${update.claimId}: ${update.blogUrl}`);
+    }
+  }
+
+  if (missingSources.length > 0 || weakSourceLabels.length > 0) {
+    throw new Error(
+      [
+        "Chaque source externe de manual-claim-updates.json doit aussi apparaitre dans source ou additionalSources de la fiche.",
+        "Cette source doit avoir un label visible et identifiable en fin de card.",
+        ...missingSources.map((item) => `- source absente: ${item}`),
+        ...weakSourceLabels.map((item) => `- label insuffisant: ${item}`),
+      ].join("\n"),
+    );
+  }
+}
+
+function formatClaimUpdateDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value).slice(0, 10);
+
+  return new Intl.DateTimeFormat("fr-FR", {
+    day: "numeric",
+    month: "long",
+    timeZone: "Europe/Paris",
+  }).format(date);
 }
 
 function buildDataset(locale) {
@@ -396,6 +501,11 @@ function renderClaimCss() {
     .source-list li, .claim-list li { min-width: 0; line-height: 1.48; }
     .source-list a, .claim-list a { overflow-wrap: anywhere; font-weight: 850; }
     .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
+    .update-box { background: #eff6ff; border: 1px solid #bfdbfe; border-left: 4px solid #1455a3; margin-bottom: 18px; padding: 18px; }
+    .update-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: #1455a3; font-size: 0.88rem; font-weight: 900; }
+    .update-date { color: #666; font-weight: 800; }
+    .update-box p { margin: 8px 0 0; color: #3f3f3f; line-height: 1.55; }
+    .update-box a { display: inline-block; margin-top: 8px; font-weight: 850; overflow-wrap: anywhere; }
     aside { position: sticky; top: 18px; display: grid; gap: 14px; }
     .index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding: 34px 0 64px; }
     .claim-card { display: grid; gap: 10px; text-decoration: none; color: inherit; }
@@ -424,6 +534,26 @@ function renderClaimSourceList(claim) {
       `,
     )
     .join("");
+}
+
+function renderClaimUpdateBox(claim) {
+  const update = claimUpdatesById.get(claim.id)?.[0];
+  if (!update) return "";
+
+  const isExternalSource = isSourceUpdate(update);
+  const linkAttributes = isExternalSource ? ` rel="noreferrer" target="_blank"` : "";
+  const linkLabel = isExternalSource ? "Source" : "Article lié";
+
+  return `
+        <section class="update-box" aria-labelledby="mise-a-jour">
+          <div class="update-head">
+            <span id="mise-a-jour">Fiche modifiée</span>
+            <span class="update-date">${htmlEscape(formatClaimUpdateDate(update.updatedAt))}</span>
+          </div>
+          <p><strong>Mesure actuelle :</strong> ${htmlEscape(update.claimMetric)}</p>
+          <a href="${htmlEscape(update.blogUrl)}"${linkAttributes}>${linkLabel} : ${htmlEscape(update.blogTitle)}</a>
+        </section>
+  `;
 }
 
 function getClaimPeriod(claim) {
@@ -574,6 +704,7 @@ function renderClaimHtml(claim) {
 
     <main class="wrap">
       <article>
+        ${renderClaimUpdateBox(claim)}
         <section class="section" aria-labelledby="mesure">
           <h2 id="mesure">Mesure clé</h2>
           <p class="metric">${htmlEscape(claim.metric)}</p>
@@ -815,6 +946,9 @@ const datasetEn = stripUndefined(buildDataset("en"));
 const llmsFr = buildLlms("fr");
 const llmsEn = buildLlms("en");
 const homeBlogUpdates = buildHomeBlogUpdates();
+assertClaimSourceLabels();
+assertManualClaimUpdateSources(manualClaimUpdates);
+const claimUpdatesById = buildClaimUpdatesById([...manualClaimUpdates, ...homeBlogUpdates]);
 
 await Promise.all([
   copyFile(logoFile, join(publicDir, "isora.svg")),

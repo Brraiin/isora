@@ -1,0 +1,177 @@
+{
+  "id": "2026-06-25-peres-absents-adolescentes-etudes-limites",
+  "slug": "2026-06-25-peres-absents-adolescentes-etudes-limites",
+  "status": "published",
+  "language": "fr",
+  "title": "Pères absents et adolescentes : ce que les études permettent vraiment de dire",
+  "description": "Les études citées dans une vidéo virale documentent surtout l'absence du père et certains risques chez les filles, mais ne prouvent pas que les filles élevées uniquement par leur père auraient globalement de meilleurs résultats.",
+  "date": "2026-06-25",
+  "publishedAt": "2026-06-25T20:00:00.000Z",
+  "updatedAt": "2026-06-25T20:00:00.000Z",
+  "topic": {
+    "id": "famille-justice",
+    "label": "Famille, justice et droits"
+  },
+  "keywords": [
+    "absence du père adolescentes",
+    "père seul mère seule adolescentes",
+    "grossesse adolescente père absent",
+    "dépression adolescentes père absent",
+    "familles monoparentales filles"
+  ],
+  "relatedClaimIds": [],
+  "readingMinutes": 7,
+  "summary": "Une vidéo récente rassemble plusieurs études sur les filles, l'absence du père, la grossesse adolescente et les symptômes dépressifs. Le corpus est intéressant pour isora parce qu'il rappelle que la présence paternelle peut être une variable mesurable, parfois plus prédictive chez les filles que chez les garçons. Mais il ne faut pas lui faire dire autre chose : ces sources ne démontrent pas que les filles élevées uniquement par leur père iraient mieux que celles élevées par leur mère. Les rares comparaisons directes mère seule / père seul disponibles dans ce périmètre trouvent plutôt peu de différences, et les résultats sont fortement liés au contexte socioéconomique, familial et temporel.",
+  "keyPoints": [
+    "L'étude Child Development de 2003 suit des filles aux États-Unis et en Nouvelle-Zélande et associe une exposition plus forte à l'absence du père à davantage d'activité sexuelle précoce et de grossesse adolescente.",
+    "Les études ALSPAC britanniques de 2013 et 2015 associent l'absence du père en petite enfance à davantage de symptômes dépressifs chez les adolescentes, avec un effet plus marqué chez les filles et une médiation partielle par une ménarche plus précoce.",
+    "L'étude BJOG de 2018 documente une transmission intergénérationnelle de la grossesse adolescente, mais elle ne prouve pas que cette transmission serait causée par les mères seules.",
+    "La publication DREES de 2003 décrit les familles monoparentales françaises de 1999 : elle est utile pour le contexte social, mais trop ancienne et descriptive pour conclure sur l'effet éducatif d'un parent seul.",
+    "Une comparaison directe d'adolescents vivant avec une mère seule ou un père seul, publiée en 2018, trouve peu de différences sur les résultats sexuels étudiés; une étude scolaire plus ancienne trouvait aussi des performances proches entre familles monoparentales maternelles et paternelles.",
+    "Le résultat éditorial prudent n'est donc pas père contre mère, mais présence ou absence du père, âge de l'enfant, ressources familiales, conflit, santé mentale parentale et contexte social."
+  ],
+  "sections": [
+    {
+      "heading": "Ce que la vidéo permet de repérer",
+      "paragraphs": [
+        "La vidéo met en avant une idée forte : le père aurait une importance particulière pour les filles, surtout à l'adolescence. Les sources affichées à l'écran sont majoritairement de vraies sources scientifiques ou institutionnelles : Child Development, BJOG, Psychological Medicine, Journal of Abnormal Child Psychology, Springer, PubMed et DREES.",
+        "Le point à corriger tout de suite est le périmètre. Ces sources parlent surtout d'absence du père, de familles monoparentales ou de comportements parentaux en contexte de mère seule. Elles ne mesurent pas directement une catégorie simple du type filles élevées uniquement par leur père et comparées, toutes choses égales par ailleurs, à des filles élevées uniquement par leur mère."
+      ]
+    },
+    {
+      "heading": "Père absent, sexualité précoce et grossesse adolescente",
+      "paragraphs": [
+        "La source la plus centrale est l'article de Bruce Ellis et ses coauteurs publié en 2003 dans Child Development. Il porte sur deux cohortes longitudinales, l'une aux États-Unis et l'autre en Nouvelle-Zélande, où des filles sont suivies de l'enfance à environ 18 ans. Les auteurs observent qu'une exposition plus forte à l'absence du père est associée à un risque plus élevé d'activité sexuelle précoce et de grossesse adolescente.",
+        "L'article est plus solide qu'une simple opinion parce qu'il suit les enfants dans le temps et contrôle plusieurs covariables familiales, écologiques et individuelles. Mais il reste prudent : il discute plusieurs modèles explicatifs possibles et ne transforme pas l'association en preuve unique d'un mécanisme moral ou éducatif.",
+        "La vidéo ajoute aussi une étude BJOG de 2018 sur la grossesse adolescente intergénérationnelle. Cette source est utile pour montrer que les filles de mères ayant connu une grossesse adolescente ont elles-mêmes un risque plus élevé de grossesse adolescente. En revanche, ce n'est pas une preuve directe contre les mères : l'étude mesure une association intergénérationnelle dans un contexte social et familial plus large."
+      ]
+    },
+    {
+      "heading": "Père absent et symptômes dépressifs",
+      "paragraphs": [
+        "Deux sources britanniques issues de la cohorte ALSPAC vont dans le même sens sur un autre indicateur. L'article publié dans Psychological Medicine en 2013 associe l'absence du père dans les cinq premières années de vie à une probabilité plus élevée de symptômes dépressifs à 14 ans. L'association est décrite comme plus forte chez les filles que chez les garçons et persiste après ajustement pour plusieurs facteurs socioéconomiques, maternels et familiaux mesurés avant le départ du père.",
+        "L'article de 2015 dans Journal of Abnormal Child Psychology explore un mécanisme possible chez les filles : une partie de l'association entre absence du père en petite enfance et symptômes dépressifs à 14 ans passerait par une ménarche plus précoce. Cette médiation est partielle, pas totale. Elle rend le sujet biologiquement et psychosocialement plausible sans autoriser une lecture simplifiée."
+      ]
+    },
+    {
+      "heading": "Mère seule ne veut pas dire cause unique",
+      "paragraphs": [
+        "L'article Single Mother Parenting and Adolescent Psychopathology, publié en 2016, est souvent facile à surinterpréter. Il indique que les adolescents élevés dans des familles de mère seule sont plus exposés à certains symptômes psychopathologiques, et il examine le rôle de comportements maternels psychologiquement contrôlants ou rejetants.",
+        "Mais l'intérêt de cette étude est justement de chercher des mécanismes, pas de déclarer les mères seules intrinsèquement défaillantes. Les auteurs replacent les comportements parentaux dans des contraintes de stress, de ressources, de santé mentale et de contexte socioéconomique. Pour isora, cette nuance est essentielle : une famille monoparentale peut être un marqueur de vulnérabilité sans être une cause morale simple."
+      ]
+    },
+    {
+      "heading": "Ce que dit le contexte français",
+      "paragraphs": [
+        "La source DREES affichée dans la vidéo date de février 2003 et décrit les familles monoparentales françaises à partir du recensement de 1999 et de l'enquête Étude de l'histoire familiale. Elle indique notamment que près de 17 % des familles avec au moins un enfant de moins de 25 ans étaient monoparentales en 1999, qu'un enfant sur sept vivait avec un seul parent, le plus souvent sa mère, et que les parents les plus jeunes de familles monoparentales étaient moins diplômés que ceux vivant en couple.",
+        "Cette source est utile pour ne pas parler de monoparentalité dans le vide. Elle reste cependant ancienne et descriptive. Elle ne permet pas de conclure que la présence d'une mère seule cause les difficultés, ni qu'un père seul produirait mécaniquement de meilleurs résultats."
+      ]
+    },
+    {
+      "heading": "Père seul contre mère seule : les données directes sont moins nettes",
+      "paragraphs": [
+        "Pour tester l'affirmation filles élevées uniquement par leur père, il faut des études qui comparent directement les foyers mère seule et père seul. L'une des sources utiles, publiée dans Journal of Child and Family Studies, compare des adolescents de 15 à 19 ans vivant avec une mère seule ou un père seul dans la National Longitudinal Study of Adolescent to Adult Health. Les résultats indiquent peu de différences entre familles de mère seule et de père seul sur les outcomes sexuels étudiés.",
+        "Une étude plus ancienne sur la performance scolaire va dans une direction comparable : les enfants de familles de père seul et de mère seule performent globalement de façon proche à l'école, tandis que les enfants vivant avec deux parents biologiques obtiennent de meilleurs résultats en moyenne. Les mécanismes explicatifs ne sont pas identiques : les contraintes économiques pèsent davantage dans certaines familles de mère seule, tandis que d'autres ressources relationnelles peuvent manquer dans certaines familles de père seul.",
+        "Ces résultats ne disent pas que les pères ne comptent pas. Ils disent plutôt que l'opposition père seul meilleur que mère seule n'est pas démontrée par les sources repérées dans cette vidéo. Le signal le plus solide porte sur l'absence du père, surtout tôt dans l'enfance, pas sur une supériorité générale d'un parent seul selon son sexe."
+      ]
+    },
+    {
+      "heading": "Pourquoi le sujet est utile pour isora",
+      "paragraphs": [
+        "isora documente les asymétries qui disparaissent quand le débat public les résume trop vite. Ici, l'asymétrie n'est pas une statistique simple contre les femmes ou contre les hommes. Elle porte sur la façon dont la présence paternelle peut être une variable spécifique, mesurable, parfois associée à des résultats différents chez les filles.",
+        "Le sujet est donc pertinent parce qu'il oblige à dire deux choses à la fois. D'un côté, certaines études sérieuses associent l'absence du père à des risques accrus chez les adolescentes. De l'autre, ces études ne justifient pas de transformer les mères seules en explication unique, ni d'affirmer que les pères seuls offriraient globalement une éducation plus saine.",
+        "La formulation la plus solide est celle-ci : la présence du père peut compter fortement dans certaines trajectoires de filles, en particulier lorsque son absence intervient tôt; mais les résultats observés dépendent aussi des ressources économiques, du conflit familial, de la santé mentale parentale, de l'âge de l'enfant, du soutien social et du pays étudié."
+      ]
+    },
+    {
+      "heading": "Limites à garder en tête",
+      "paragraphs": [
+        "Les sources principales sont anciennes pour certaines, majoritairement anglo-saxonnes, et ne mesurent pas toutes la même chose. Une cohorte américaine ou néo-zélandaise du début des années 2000 ne se transpose pas automatiquement à la France de 2026.",
+        "Les études utilisent les catégories familiales disponibles dans leurs données : père biologique présent ou absent, mère seule, père seul, famille monoparentale, fille ou garçon. Elles ne mesurent pas les chromosomes et ne décrivent pas toute la diversité des situations parentales.",
+        "Enfin, les associations ne suffisent pas toujours à établir une causalité. L'absence d'un parent peut être liée à une séparation, un conflit, un deuil, une précarité, une santé mentale fragile, une recomposition familiale ou d'autres facteurs qui influencent aussi les résultats des enfants. C'est précisément pour cela que le sujet mérite un article plutôt qu'une tuile simplifiée."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ces sources prouvent-elles que le père est plus important que la mère ?",
+      "answer": "Non. Elles montrent que l'absence du père peut être associée à certains risques chez les filles, notamment activité sexuelle précoce, grossesse adolescente et symptômes dépressifs. Elles ne mesurent pas une hiérarchie globale père contre mère."
+    },
+    {
+      "question": "La vidéo prouve-t-elle que les filles élevées uniquement par leur père vont mieux ?",
+      "answer": "Non. Les sources affichées portent surtout sur l'absence du père ou la monoparentalité. Les comparaisons directes mère seule / père seul retrouvées dans ce périmètre trouvent plutôt peu de différences sur les outcomes étudiés."
+    },
+    {
+      "question": "Pourquoi ne pas créer une tuile d'asymétrie simple ?",
+      "answer": "Parce que le résultat n'est pas un indicateur unique et stable. Il dépend de la période, du pays, de l'âge au moment de l'absence, du niveau socioéconomique, du conflit familial, de la santé mentale parentale et des outcomes mesurés."
+    },
+    {
+      "question": "Quel est le point utile pour isora ?",
+      "answer": "Le point utile est de documenter que la présence paternelle n'est pas une variable secondaire dans plusieurs études sur les filles. Mais l'interprétation doit rester limitée à ce qui est mesuré : absence du père, associations statistiques et facteurs de contexte."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Does Father Absence Place Daughters at Special Risk for Early Sexual Activity and Teenage Pregnancy?",
+      "publisher": "Child Development / Oxford Academic",
+      "url": "https://academic.oup.com/chidev/article/74/3/801/8276316",
+      "date": "16 mai 2003",
+      "type": "article scientifique"
+    },
+    {
+      "title": "Intergenerational teen pregnancy: a population-based cohort study",
+      "publisher": "BJOG / Wiley",
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.15297",
+      "date": "décembre 2018",
+      "type": "article scientifique"
+    },
+    {
+      "title": "Les familles monoparentales : des caractéristiques liées à leur histoire matrimoniale",
+      "publisher": "DREES",
+      "url": "https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-familles-monoparentales-des-caracteristiques-liees-leur",
+      "date": "février 2003",
+      "type": "statistique publique"
+    },
+    {
+      "title": "Single Mother Parenting and Adolescent Psychopathology",
+      "publisher": "Journal of Abnormal Child Psychology / Springer",
+      "url": "https://link.springer.com/article/10.1007/s10802-016-0128-x",
+      "date": "janvier 2016",
+      "type": "article scientifique"
+    },
+    {
+      "title": "Father absence and depressive symptoms in adolescence: findings from a UK cohort",
+      "publisher": "Psychological Medicine / Cambridge University Press",
+      "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/father-absence-and-depressive-symptoms-in-adolescence-findings-from-a-uk-cohort/4E039EFA52486C698B17948633083254",
+      "date": "14 mai 2013",
+      "type": "article scientifique"
+    },
+    {
+      "title": "Early Childhood Father Absence and Depressive Symptoms in Adolescent Girls from a UK Cohort",
+      "publisher": "Journal of Abnormal Child Psychology / Springer",
+      "url": "https://link.springer.com/article/10.1007/s10802-014-9960-z",
+      "date": "novembre 2014",
+      "type": "article scientifique"
+    },
+    {
+      "title": "Single Parenthood and Adolescent Sexual Outcomes",
+      "publisher": "Journal of Child and Family Studies / BYU ScholarsArchive",
+      "url": "https://scholarsarchive.byu.edu/facpub/2773/",
+      "date": "mars 2018",
+      "type": "article scientifique"
+    },
+    {
+      "title": "The School Performance of Children from Single-Mother and Single-Father Families",
+      "publisher": "Journal of Family Issues / SAGE",
+      "url": "https://journals.sagepub.com/doi/10.1177/019251394015001006",
+      "date": "mars 1994",
+      "type": "article scientifique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "intake vidéo assisté par Codex",
+    "model": "codex",
+    "generatedAt": "2026-06-25T20:00:00.000Z",
+    "requiresHumanReview": false
+  }
+}

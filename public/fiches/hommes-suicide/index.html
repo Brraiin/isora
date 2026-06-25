@@ -58,6 +58,11 @@
     .source-list li, .claim-list li { min-width: 0; line-height: 1.48; }
     .source-list a, .claim-list a { overflow-wrap: anywhere; font-weight: 850; }
     .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
+    .update-box { background: #eff6ff; border: 1px solid #bfdbfe; border-left: 4px solid #1455a3; margin-bottom: 18px; padding: 18px; }
+    .update-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: #1455a3; font-size: 0.88rem; font-weight: 900; }
+    .update-date { color: #666; font-weight: 800; }
+    .update-box p { margin: 8px 0 0; color: #3f3f3f; line-height: 1.55; }
+    .update-box a { display: inline-block; margin-top: 8px; font-weight: 850; overflow-wrap: anywhere; }
     aside { position: sticky; top: 18px; display: grid; gap: 14px; }
     .index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding: 34px 0 64px; }
     .claim-card { display: grid; gap: 10px; text-decoration: none; color: inherit; }
@@ -208,6 +213,16 @@
 
     <main class="wrap">
       <article>
+        
+        <section class="update-box" aria-labelledby="mise-a-jour">
+          <div class="update-head">
+            <span id="mise-a-jour">Fiche modifiée</span>
+            <span class="update-date">25 juin</span>
+          </div>
+          <p><strong>Mesure actuelle :</strong> 75 %</p>
+          <a href="/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/">Article lié : Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026</a>
+        </section>
+  
         <section class="section" aria-labelledby="mesure">
           <h2 id="mesure">Mesure clé</h2>
           <p class="metric">75 %</p>

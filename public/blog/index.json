@@ -2,7 +2,7 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-25T12:02:39.807Z",
+  "generatedAt": "2026-06-25T21:20:21.958Z",
   "posts": [
     {
       "id": "2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie",
@@ -115,6 +115,86 @@
       ]
     },
     {
+      "id": "2026-06-25-peres-absents-adolescentes-etudes-limites",
+      "title": "Pères absents et adolescentes : ce que les études permettent vraiment de dire",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-25-peres-absents-adolescentes-etudes-limites/",
+      "description": "Les études citées dans une vidéo virale documentent surtout l'absence du père et certains risques chez les filles, mais ne prouvent pas que les filles élevées uniquement par leur père auraient globalement de meilleurs résultats.",
+      "date": "2026-06-25",
+      "publishedAt": "2026-06-25T20:00:00.000Z",
+      "updatedAt": "2026-06-25T20:00:00.000Z",
+      "topic": {
+        "id": "famille-justice",
+        "label": "Famille, justice et droits"
+      },
+      "keywords": [
+        "absence du père adolescentes",
+        "père seul mère seule adolescentes",
+        "grossesse adolescente père absent",
+        "dépression adolescentes père absent",
+        "familles monoparentales filles"
+      ],
+      "relatedClaimIds": [],
+      "readingMinutes": 7,
+      "sources": [
+        {
+          "title": "Does Father Absence Place Daughters at Special Risk for Early Sexual Activity and Teenage Pregnancy?",
+          "publisher": "Child Development / Oxford Academic",
+          "url": "https://academic.oup.com/chidev/article/74/3/801/8276316",
+          "date": "16 mai 2003",
+          "type": "article scientifique"
+        },
+        {
+          "title": "Intergenerational teen pregnancy: a population-based cohort study",
+          "publisher": "BJOG / Wiley",
+          "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.15297",
+          "date": "décembre 2018",
+          "type": "article scientifique"
+        },
+        {
+          "title": "Les familles monoparentales : des caractéristiques liées à leur histoire matrimoniale",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-familles-monoparentales-des-caracteristiques-liees-leur",
+          "date": "février 2003",
+          "type": "statistique publique"
+        },
+        {
+          "title": "Single Mother Parenting and Adolescent Psychopathology",
+          "publisher": "Journal of Abnormal Child Psychology / Springer",
+          "url": "https://link.springer.com/article/10.1007/s10802-016-0128-x",
+          "date": "janvier 2016",
+          "type": "article scientifique"
+        },
+        {
+          "title": "Father absence and depressive symptoms in adolescence: findings from a UK cohort",
+          "publisher": "Psychological Medicine / Cambridge University Press",
+          "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/father-absence-and-depressive-symptoms-in-adolescence-findings-from-a-uk-cohort/4E039EFA52486C698B17948633083254",
+          "date": "14 mai 2013",
+          "type": "article scientifique"
+        },
+        {
+          "title": "Early Childhood Father Absence and Depressive Symptoms in Adolescent Girls from a UK Cohort",
+          "publisher": "Journal of Abnormal Child Psychology / Springer",
+          "url": "https://link.springer.com/article/10.1007/s10802-014-9960-z",
+          "date": "novembre 2014",
+          "type": "article scientifique"
+        },
+        {
+          "title": "Single Parenthood and Adolescent Sexual Outcomes",
+          "publisher": "Journal of Child and Family Studies / BYU ScholarsArchive",
+          "url": "https://scholarsarchive.byu.edu/facpub/2773/",
+          "date": "mars 2018",
+          "type": "article scientifique"
+        },
+        {
+          "title": "The School Performance of Children from Single-Mother and Single-Father Families",
+          "publisher": "Journal of Family Issues / SAGE",
+          "url": "https://journals.sagepub.com/doi/10.1177/019251394015001006",
+          "date": "mars 1994",
+          "type": "article scientifique"
+        }
+      ]
+    },
+    {
       "id": "2026-06-25-superieur-stem-emploi-asymetries-sexe",
       "title": "Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste",
       "url": "https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/",
@@ -165,6 +245,58 @@
           "publisher": "Eurostat",
           "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1",
           "date": "6 mars 2026",
+          "type": "note statistique"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-femme-gagne-plus-separation-satisfaction-france",
+      "title": "Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/",
+      "description": "Les sources françaises récentes confirment une hausse du risque de séparation quand la femme apporte plus de 55 % du revenu du couple, mais ne confirment pas une baisse de satisfaction masculine simplement liée à cette configuration.",
+      "date": "2026-06-25",
+      "publishedAt": "2026-06-25T15:55:00.000Z",
+      "updatedAt": "2026-06-25T15:55:00.000Z",
+      "topic": {
+        "id": "famille-justice",
+        "label": "Famille, justice et droits"
+      },
+      "keywords": [
+        "femme gagne plus séparation France",
+        "revenu du couple satisfaction France",
+        "INED breadwinner France",
+        "CEPREMAP Monsieur Gagnepain",
+        "risque de séparation revenu du couple"
+      ],
+      "relatedClaimIds": [],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Les différences de revenus au sein du couple augmentent-elles le risque de séparation ?",
+          "publisher": "INED",
+          "url": "https://www.ined.fr/fr/tout-savoir-population/memos-demo/focus/differences-revenus-au-sein-couple-augmentent-elles-le-risque-separation",
+          "date": "2 octobre 2024",
+          "type": "synthèse institutionnelle"
+        },
+        {
+          "title": "Are Female-Breadwinner Couples Always Less Stable? Evidence from French Administrative Data",
+          "publisher": "European Journal of Population / Springer",
+          "url": "https://link.springer.com/article/10.1007/s10680-024-09705-7",
+          "date": "13 juin 2024",
+          "type": "article scientifique"
+        },
+        {
+          "title": "De l'argent à la satisfaction, une affaire de couple",
+          "publisher": "CEPREMAP",
+          "url": "https://www.cepremap.fr/depot/2025/02/2025-06-Une-affaire-de-couple.pdf",
+          "date": "10 février 2025",
+          "type": "note de recherche"
+        },
+        {
+          "title": "Écarts de revenus au sein des couples",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/1281400",
+          "date": "3 mars 2014",
           "type": "note statistique"
         }
       ]

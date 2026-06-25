@@ -12,10 +12,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 88,
-    "hommes": 36,
-    "femmes": 52,
-    "sources": 178
+    "total": 92,
+    "hommes": 39,
+    "femmes": 53,
+    "sources": 196
   },
   "domains": [
     "Travail",
@@ -36,6 +36,7 @@
     "Afghanistan",
     "aide aux victimes",
     "Arabie saoudite",
+    "autonomie",
     "autonomie corporelle",
     "autonomie économique",
     "body count",
@@ -50,6 +51,7 @@
     "contraception",
     "contrôle vestimentaire",
     "coparentalité",
+    "couple",
     "coût",
     "cybersexisme",
     "décrochage",
@@ -69,12 +71,14 @@
     "espace public",
     "espaces non mixtes",
     "États-Unis",
+    "Europe",
     "exploitation",
     "famille",
     "fausses accusations",
     "féminicides",
     "féminisme",
     "femmes",
+    "femmes autochtones",
     "filiation",
     "filles",
     "France",
@@ -109,6 +113,7 @@
     "OCDE",
     "opinion",
     "orientation",
+    "Panama",
     "parentalité",
     "parité",
     "partenaire intime",
@@ -134,6 +139,7 @@
     "route",
     "Royaume-Uni",
     "santé",
+    "satisfaction",
     "sécurité",
     "séparation",
     "sexisme",
@@ -155,6 +161,7 @@
     "travail domestique",
     "Ukraine",
     "variable selon pays",
+    "viol",
     "violence domestique",
     "violence exercée par les hommes sur les femmes",
     "violences",
@@ -355,6 +362,65 @@
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
+      "id": "hommes-femme-principale-pourvoyeuse-satisfaction",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-femme-principale-pourvoyeuse-satisfaction",
+      "title": "When the woman is the sole earner, the drop in life satisfaction is steeper for men",
+      "originalTitle": "Quand la femme assure seule le revenu, la baisse de satisfaction est plus marquée chez les hommes",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Famille",
+      "metric": "pénalité de bien-être",
+      "summary": "In a study covering nine European countries, women and men on average report lower life satisfaction when the woman is the sole breadwinner than when the main income comes from the man or is shared; the decline is steeper for men, especially when the man is unemployed. A UK study of married couples also finds that increases in men's relative earnings raise their life satisfaction, while no equivalent effect appears for women.",
+      "originalSummary": "Dans une étude sur 9 pays européens, les femmes et les hommes déclarent en moyenne une satisfaction de vie plus basse quand la femme est la seule pourvoyeuse de revenus que lorsque le revenu principal vient de l'homme ou est partagé; la baisse est plus marquée chez les hommes, surtout quand l'homme est au chômage. Une étude britannique sur les couples mariés trouve aussi qu'une hausse du revenu relatif des hommes augmente leur satisfaction, alors qu'un effet équivalent n'apparaît pas chez les femmes.",
+      "nuance": "These studies measure self-reported life satisfaction and statistical associations in heterosexual couples. They do not prove that every man feels emasculated or that a woman earning more mechanically causes separation. A 2024 French administrative study does find a higher risk of union dissolution in female-breadwinner couples, while also showing that near-equal earnings can be the most stable arrangement for some younger cohabiting or civil-union couples.",
+      "originalNuance": "Ces travaux mesurent une satisfaction déclarée et des associations statistiques dans des couples hétérosexuels; ils ne prouvent ni qu'un homme se sente individuellement « émasculé », ni qu'une femme qui gagne plus entraîne mécaniquement une rupture. L'étude française de 2024 trouve bien un risque de dissolution plus élevé dans les couples où la femme gagne davantage, mais elle montre aussi que des revenus proches peuvent être la configuration la plus stable chez certains couples plus jeunes en cohabitation ou en PACS.",
+      "tags": [
+        "family",
+        "income",
+        "couples",
+        "life satisfaction",
+        "Europe",
+        "United Kingdom"
+      ],
+      "countryScope": "Royaume-Uni, France et 9 pays européens",
+      "regionScope": "Europe",
+      "periodStart": "2004",
+      "periodEnd": "2018",
+      "currentStatus": "persistant",
+      "sourcePopulation": "Population measured by the sources: people in heterosexual couples surveyed in nine European countries in the European Social Survey (2004-2018), married co-resident couples in the UK Household Longitudinal Study, and couples observed in French administrative data for union dissolution. The sources use women/men categories and do not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : personnes en couple hétérosexuel interrogées dans 9 pays européens dans l'European Social Survey (2004-2018), couples mariés co-résidents dans le UK Household Longitudinal Study et couples observés dans des données administratives françaises sur les séparations. Les sources utilisent les catégories women/men et ne mesurent pas les chromosomes.",
+      "confidence": "moyenne",
+      "lastChecked": "25 juin 2026",
+      "source": {
+        "label": "The female-breadwinner well-being 'penalty': differences by men's (un)employment and country",
+        "publisher": "European Sociological Review / Oxford Academic",
+        "url": "https://academic.oup.com/esr/article/40/2/293/7190495",
+        "date": "2024"
+      },
+      "additionalSources": [
+        {
+          "label": "The Partner Pay Gap: Associations between Spouses' Relative Earnings and Life Satisfaction among Couples in the UK",
+          "publisher": "Work, Employment and Society / SAGE",
+          "url": "https://journals.sagepub.com/doi/10.1177/0950017020946657",
+          "date": "2021"
+        },
+        {
+          "label": "Are Female-Breadwinner Couples Always Less Stable? Evidence from French Administrative Data",
+          "publisher": "European Journal of Population / Springer",
+          "url": "https://link.springer.com/article/10.1007/s10680-024-09705-7",
+          "date": "2024"
+        },
+        {
+          "label": "Unlucky at work, unlucky in love: job loss and marital stability",
+          "publisher": "Review of Economics of the Household / Springer",
+          "url": "https://link.springer.com/article/10.1007/s11150-020-09506-x",
+          "date": "2021"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
       "id": "hommes-filiation-paternite-test-adn-judiciaire",
       "url": "https://isora-xi.vercel.app/fiches/hommes-filiation-paternite-test-adn-judiciaire/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire",
@@ -421,6 +487,53 @@
           "publisher": "American Journal of Qualitative Research",
           "url": "https://www.ajqr.org/article/discovering-misattributed-paternity-after-dna-testing-and-its-impact-on-psychological-well-being-and-12611",
           "date": "2022"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-panama-fraude-paternite-crime-2026",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-panama-fraude-paternite-crime-2026/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-panama-fraude-paternite-crime-2026",
+      "title": "Panama creates a specific criminal offence for paternity fraud",
+      "originalTitle": "Panama crée un délit spécifique de fraude à la paternité",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Justice",
+      "metric": "2 à 5 ans",
+      "summary": "In Panama, Law No. 535 published on June 19, 2026 creates a standalone criminal offence of paternity fraud. The law provides for 2 to 5 years in prison and 100 to 500 day-fines when a man is led, through deception or deliberate concealment, to acknowledge as his own a child who is not biologically his and to assume the corresponding legal, economic, and patrimonial responsibilities.",
+      "originalSummary": "Au Panama, la loi n° 535 publiée le 19 juin 2026 crée un délit autonome de fraude à la paternité. Le texte prévoit 2 à 5 ans d'emprisonnement et 100 à 500 jours-amende lorsqu'un homme est amené, par tromperie ou dissimulation délibérée, à reconnaître comme sien un enfant qui n'est pas biologiquement le sien et à en assumer les responsabilités juridiques, économiques et patrimoniales.",
+      "nuance": "This card concerns Panamanian criminal law as enacted in June 2026; it does not describe French law or a universal rule. The offence targets a specific form of deception tied to legal acknowledgement of a child and assumed responsibilities. The law also provides aggravated penalties when the fraud lasts more than five years, concerns two or more minors, or produces repeated economic benefit.",
+      "originalNuance": "Cette fiche décrit le droit pénal panaméen adopté en juin 2026; elle ne vaut ni pour la France ni pour tous les pays. Le texte vise une tromperie ou dissimulation délibérée conduisant un homme à reconnaître un enfant non biologique et à en assumer les conséquences juridiques et économiques. La peine peut être aggravée si la fraude dure plus de cinq ans, concerne au moins deux mineurs ou procure un bénéfice économique répété.",
+      "tags": [
+        "justice",
+        "family",
+        "paternity",
+        "filiation",
+        "Panama",
+        "criminal law"
+      ],
+      "countryScope": "Panama",
+      "regionScope": "Amérique centrale",
+      "periodStart": "2026",
+      "periodEnd": "2026",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the sources: people concerned by Panamanian paternity acknowledgement, filiation and criminal law rules. The legal sources do not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : personnes concernées par la reconnaissance de paternité, la filiation et le droit pénal panaméens. Les sources juridiques ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "25 juin 2026",
+      "source": {
+        "label": "Gaceta Oficial n° 30550 - Ley n° 535 que sanciona el fraude de paternidad en la República de Panamá",
+        "publisher": "Gaceta Oficial de Panamá",
+        "url": "https://www.gacetaoficial.gob.pa/storage/gacetas/2026/06/30550/GacetaNo_30550_20260619.pdf",
+        "date": "19 juin 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "Tipificarán fraude de paternidad con aumento por agravantes",
+          "publisher": "Asamblea Nacional de Panamá",
+          "url": "https://asamblea.gob.pa/Noticias/Actualidad/TIPIFICARAN-FRAUDE-DE-PATERNIDAD-CON-AUMENTO-POR-AGRAVANTES--",
+          "date": "juin 2026"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -1003,7 +1116,7 @@
           "date": "2025"
         },
         {
-          "label": "SOS Hommes Battus France",
+          "label": "Site d'aide aux hommes victimes de violences conjugales",
           "publisher": "SOS Hommes Battus France",
           "url": "https://soshommesbattus.org/",
           "date": "consulté 2026"
@@ -1163,6 +1276,70 @@
           "publisher": "National Sexual Violence Resource Center",
           "url": "https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/",
           "date": "consulté 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-viol-force-penetration-2018",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-viol-force-penetration-2018/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-viol-force-penetration-2018",
+      "title": "Rape qualification extended to victims forced to penetrate",
+      "originalTitle": "Qualification du viol élargie aux victimes forcées à pénétrer",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Justice",
+      "metric": "2018",
+      "summary": "Until 6 August 2018, Article 222-23 of the French Criminal Code defined rape as sexual penetration committed on another person's body. The Law of 3 August 2018 added acts committed on the perpetrator's body, explicitly covering situations in which a victim is forced to penetrate the perpetrator, a configuration that can notably concern male victims of a woman.",
+      "originalSummary": "Jusqu'au 6 août 2018, l'article 222-23 du Code pénal définissait le viol comme un acte de pénétration sexuelle commis sur la personne d'autrui. La loi du 3 août 2018 a ajouté les actes commis sur la personne de l'auteur, couvrant explicitement les situations où une victime est contrainte de pénétrer l'agresseur, configuration qui peut concerner notamment des hommes victimes d'une femme.",
+      "nuance": "Update tracked on 25 June 2026: this entry documents a legal qualification, not the prevalence of these cases. Before 2018, such acts could still fall under other sexual offences depending on the facts, but the rape definition was narrower. Marital rape follows a separate legal history and should not be confused with the 2018 extension.",
+      "originalNuance": "Suivi ajouté le 25 juin 2026: cette fiche documente une qualification juridique, pas la fréquence de ces situations. Avant 2018, ces faits pouvaient relever d'autres infractions sexuelles selon les circonstances, mais la définition du viol était plus étroite. Le viol conjugal relève d'une chronologie juridique distincte et ne doit pas être confondu avec l'extension de 2018.",
+      "tags": [
+        "sexual violence",
+        "rape",
+        "criminal law",
+        "France",
+        "men"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "1994",
+      "periodEnd": "2018",
+      "currentStatus": "partiellement réformé",
+      "sourcePopulation": "Population measured by the sources: French criminal law texts and versions of Article 222-23. The sources do not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : textes du droit pénal français et versions successives de l'article 222-23 du Code pénal. Les sources ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "25 juin 2026",
+      "source": {
+        "label": "Code pénal - Article 222-23, version antérieure à la loi du 3 août 2018",
+        "publisher": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417678/2002-01-01",
+        "date": "version en vigueur du 1er mars 1994 au 6 août 2018"
+      },
+      "additionalSources": [
+        {
+          "label": "LOI n° 2018-703 du 3 août 2018 renforçant la lutte contre les violences sexuelles et sexistes",
+          "publisher": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037284450",
+          "date": "3 août 2018"
+        },
+        {
+          "label": "Code pénal - Article 222-23, version issue de la loi du 3 août 2018",
+          "publisher": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037289535/2018-08-06",
+          "date": "version en vigueur du 6 août 2018 au 23 avril 2021"
+        },
+        {
+          "label": "Code pénal - Article 222-23",
+          "publisher": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535571",
+          "date": "version en vigueur depuis le 8 novembre 2025"
+        },
+        {
+          "label": "LOI n° 2006-399 du 4 avril 2006 renforçant la prévention et la répression des violences au sein du couple ou commises contre les mineurs",
+          "publisher": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000422042",
+          "date": "4 avril 2006"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -1495,7 +1672,7 @@
       "confidence": "forte",
       "lastChecked": "25 juin 2026",
       "source": {
-        "label": "masculinisme",
+        "label": "Grand dictionnaire terminologique - masculinisme",
         "publisher": "Office québécois de la langue française / Grand dictionnaire terminologique",
         "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme",
         "date": "2020"
@@ -1508,13 +1685,13 @@
           "date": "consulté le 25 juin 2026"
         },
         {
-          "label": "masculinisme",
+          "label": "Définition Le Robert : masculinisme",
           "publisher": "Le Robert",
           "url": "https://dictionnaire.lerobert.com/definition/masculinisme",
           "date": "consulté le 25 juin 2026"
         },
         {
-          "label": "masculinisme",
+          "label": "Dictionnaire de l'Académie française - masculinisme",
           "publisher": "Académie française, 10e édition",
           "url": "https://www.dictionnaire-academie.fr/article/B0M00085",
           "date": "publié en juin 2026"
@@ -1526,7 +1703,7 @@
           "date": "consulté le 25 juin 2026"
         },
         {
-          "label": "féminisme",
+          "label": "Dictionnaire de l'Académie française - féminisme",
           "publisher": "Académie française, 9e édition",
           "url": "https://www.dictionnaire-academie.fr/article/A9F0434",
           "date": "consulté le 25 juin 2026"
@@ -1562,7 +1739,7 @@
           "date": "consulté le 25 juin 2026"
         },
         {
-          "label": "MenEngage Alliance",
+          "label": "Alliance internationale MenEngage - page d'accueil",
           "publisher": "MenEngage Alliance",
           "url": "https://menengage.org/",
           "date": "consulté le 25 juin 2026"
@@ -1971,10 +2148,10 @@
       "angle": "récit_sur_le_sexe",
       "domain": "Revenus",
       "metric": "écarts mixtes",
-      "summary": "In France, the National Consumer Council opinion on differentiated marketing states that price checks on a limited scope found differences alternately disadvantaging men and women, without showing a generalized surcharge for women, except for moisturizing creams. In the United States, the GAO also found that some comparable personal care products were more expensive for women, while some men's products, such as razors, cost more.",
-      "originalSummary": "En France, l'avis du Conseil national de la consommation sur le marketing différencié indique que les relevés de prix réalisés sur un périmètre limité ont trouvé des différences tour à tour en défaveur des hommes et des femmes, sans faire ressortir de surcoût généralisé pour les femmes, sauf pour les crèmes hydratantes. Aux États-Unis, le GAO observe aussi que certains produits d'hygiène comparables sont plus chers côté femmes, tandis que certains produits hommes, comme les rasoirs, coûtent davantage.",
-      "nuance": "The pink tax is not a legal tax. The evidence supports a narrower claim: gendered marketing can create price differences for some similar products, but the direction varies by category. Prices can also reflect packaging, formulation, volumes, services, brand positioning, demand and willingness to pay. Market segmentation may still rely on gender norms, so the phenomenon is neither imaginary nor universally one-sided.",
-      "originalNuance": "La taxe rose n'est pas une taxe légale. Les sources soutiennent une conclusion plus étroite: le marketing genré peut créer des écarts de prix sur certains produits similaires, mais le sens varie selon les catégories. Les prix peuvent aussi refléter l'emballage, la composition, les volumes, la prestation, le positionnement de marque, la demande et la disposition à payer. La segmentation de marché peut néanmoins s'appuyer sur des normes de genre: le phénomène n'est donc ni imaginaire ni universellement à sens unique.",
+      "summary": "In France, the National Consumer Council opinion on differentiated marketing states that price checks on a limited scope found differences alternately disadvantaging men and women, without showing a generalized surcharge for women, except for moisturizing creams. In the United States, the 2023 Marketing Science article on consumer packaged goods likewise found no systematic female surcharge: some gaps favored women, others men.",
+      "originalSummary": "En France, l'avis du Conseil national de la consommation sur le marketing différencié indique que les relevés de prix réalisés sur un périmètre limité ont trouvé des différences tour à tour en défaveur des hommes et des femmes, sans faire ressortir de surcoût généralisé pour les femmes, sauf pour les crèmes hydratantes. Aux États-Unis, l'article publié en 2023 dans Marketing Science sur les produits de grande consommation ne trouve pas non plus de surcoût féminin systématique: certains écarts vont dans un sens, d'autres dans l'autre.",
+      "nuance": "The pink tax is not a legal tax. The evidence supports a narrower claim: gendered marketing can create price differences for some similar products, but the direction varies by category. The 2023 Marketing Science article also reports that more than 80% of the products studied were gendered, while apples-to-apples comparisons with similar ingredients did not show a systematic premium for women's variants. Prices can also reflect packaging, formulation, volumes, services, brand positioning, demand and willingness to pay. Market segmentation may still rely on gender norms, so the phenomenon is neither imaginary nor universally one-sided.",
+      "originalNuance": "La taxe rose n'est pas une taxe légale. Les sources soutiennent une conclusion plus étroite: le marketing genré peut créer des écarts de prix sur certains produits similaires, mais le sens varie selon les catégories. L'article publié en 2023 dans Marketing Science indique aussi que plus de 80 % des produits étudiés sont genrés, tout en ne trouvant pas de surcoût systématique pour les variantes féminines à ingrédients comparables. Les prix peuvent aussi refléter l'emballage, la composition, les volumes, la prestation, le positionnement de marque, la demande et la disposition à payer. La segmentation de marché peut néanmoins s'appuyer sur des normes de genre: le phénomène n'est donc ni imaginaire ni universellement à sens unique.",
       "tags": [
         "women",
         "men",
@@ -1991,7 +2168,7 @@
       "sourcePopulation": "Population measured by the sources: gendered consumer products and services compared in France and the United States. The sources do not measure chromosomes.",
       "originalSourcePopulation": "Population mesurée par les sources : produits et services genrés comparés en France et aux États-Unis, avec catégories destinées aux femmes et aux hommes. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "21 juin 2026",
+      "lastChecked": "25 juin 2026",
       "source": {
         "label": "Avis du Conseil national de la consommation - Marketing différencié",
         "publisher": "Conseil national de la consommation / DGCCRF",
@@ -1999,6 +2176,12 @@
         "date": "13 décembre 2016"
       },
       "additionalSources": [
+        {
+          "label": "Gender-Based Pricing in Consumer Packaged Goods: A Pink Tax?",
+          "publisher": "Marketing Science / INFORMS",
+          "url": "https://doi.org/10.1287/mksc.2023.1452",
+          "date": "2023"
+        },
         {
           "label": "Gender-Related Price Differences for Goods and Services",
           "publisher": "U.S. Government Accountability Office",
@@ -2018,14 +2201,14 @@
       "id": "femmes-temps-partiel",
       "url": "https://isora-xi.vercel.app/fiches/femmes-temps-partiel/",
       "appUrl": "https://isora-xi.vercel.app/#femmes-temps-partiel",
-      "title": "Women are much more often employed part-time",
-      "originalTitle": "Femmes beaucoup plus souvent salariées à temps partiel",
+      "title": "Women are much more often in part-time employment",
+      "originalTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",
       "side": "femmes",
       "angle": "récit_sur_le_sexe",
       "domain": "Travail",
-      "metric": "26,6 % vs 7,8 %",
-      "summary": "In 2023, 26.6% of women employees worked part-time, compared with 7.8% of men. Women accounted for 77.9% of part-time employees.",
-      "originalSummary": "En 2023, 26,6 % des femmes salariées sont à temps partiel contre 7,8 % des hommes. Les femmes représentent 77,9 % des salariés à temps partiel.",
+      "metric": "26,8 % vs 8,7 %",
+      "summary": "In 2024, 26.8% of women in employment worked part-time, compared with 8.7% of men. Looking only at employees, 26.7% of women and 7.9% of men worked part-time; women made up 77.5% of part-time employees.",
+      "originalSummary": "En 2024, 26,8 % des femmes en emploi travaillent à temps partiel contre 8,7 % des hommes. Parmi les seuls salariés, 26,7 % des femmes et 7,9 % des hommes sont à temps partiel; 77,5 % des salariés à temps partiel sont des femmes.",
       "nuance": "This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary. Conversely, men may also be discouraged from reducing working time for family or professional reasons when employer culture values full-time availability, long hours or the breadwinner role.",
       "originalNuance": "Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie. Inversement, des hommes peuvent aussi être découragés de réduire leur temps de travail pour raisons familiales ou professionnelles lorsque la culture d'entreprise valorise la disponibilité à temps plein, les longues heures ou le rôle de pourvoyeur principal.",
       "tags": [
@@ -2037,20 +2220,26 @@
       ],
       "countryScope": "France",
       "regionScope": "",
-      "periodStart": "2024",
+      "periodStart": "14 novembre 2024",
       "periodEnd": null,
       "currentStatus": "actuel",
-      "sourcePopulation": "Population measured by the source: women and men employees in Insee statistics. The source does not measure chromosomes.",
-      "originalSourcePopulation": "Population mesurée par les sources : femmes et hommes salariés dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Population measured by the sources: women and men in employment in Insee labour-market statistics, plus employees and parents in the complementary sources. The source does not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : femmes et hommes en emploi dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "25 juin 2026",
       "source": {
-        "label": "Temps partiel - Emploi, chômage, revenus du travail",
+        "label": "Emploi - Caractéristiques des emplois en 2024",
         "publisher": "Insee",
-        "url": "https://www.insee.fr/fr/statistiques/7767077?sommaire=7767424",
-        "date": "2024"
+        "url": "https://www.insee.fr/fr/statistiques/8612530",
+        "date": "14 novembre 2024"
       },
       "additionalSources": [
+        {
+          "label": "Temps partiel - Emploi, chômage, revenus du travail",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/8376858?sommaire=8376908",
+          "date": "2025"
+        },
         {
           "label": "Fathers' Perceptions of the Availability of Flexible Working Arrangements: Evidence from the UK",
           "publisher": "Work, Employment and Society / SAGE",
@@ -2116,8 +2305,8 @@
       "metric": "7 % plainte",
       "summary": "The number of adult women victims of rape, attempted rape or sexual assault in 2023 is estimated at 277,000. Only 7% say they filed a complaint. This under-reporting is not specific to women: several international sources also show massive under-reporting among male victims, sometimes higher depending on the measured scope.",
       "originalSummary": "Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.",
-      "nuance": "The main figure remains a French estimate for women living in ordinary housing within the survey scope. It does not measure men's reporting levels: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.",
-      "originalNuance": "La donnée principale reste une estimation française sur les femmes vivant en logement ordinaire dans le champ de l'enquête. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
+      "nuance": "Update tracked on 25 June 2026: the main figure is a weighted estimate from the French VRS victimization survey for adult women living in ordinary housing within the survey scope. It is not a judicial count or an exact count of incidents: one victim may have experienced several incidents, and survey scope, weighting and statistical uncertainty matter. It does not measure men's reporting levels: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.",
+      "originalNuance": "Suivi ajouté le 25 juin 2026: la donnée principale est une estimation pondérée issue de l'enquête de victimation VRS, sur les femmes majeures vivant en logement ordinaire dans le champ de l'enquête. Ce n'est ni un décompte judiciaire ni un nombre exact de faits: une même victime peut avoir subi plusieurs faits, et le champ, la pondération et l'incertitude statistique doivent être conservés. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
       "tags": [
         "violence",
         "justice",
@@ -2126,21 +2315,39 @@
         "men"
       ],
       "countryScope": "France",
-      "regionScope": "",
-      "periodStart": "2024",
+      "regionScope": "Europe",
+      "periodStart": "2023",
       "periodEnd": null,
       "currentStatus": "actuel",
-      "sourcePopulation": "Population measured by the source: adult women in a victimization survey. The source does not measure chromosomes.",
-      "originalSourcePopulation": "Population mesurée par la source : femmes majeures en enquête de victimation. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population measured by the source: adult women living in ordinary housing in the VRS victimization survey scope. The source does not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par la source : femmes majeures vivant en logement ordinaire dans le champ de l'enquête de victimation VRS. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "25 juin 2026",
       "source": {
         "label": "Les chiffres de référence sur les violences faites aux femmes",
         "publisher": "Arrêtons les violences / SSMSI",
         "url": "https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes",
-        "date": "2024"
+        "date": "données 2023, consulté le 25 juin 2026"
       },
       "additionalSources": [
+        {
+          "label": "Les violences sexistes et sexuelles en France en 2024",
+          "publisher": "Arrêtons les violences / SSMSI",
+          "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
+          "date": "novembre 2025"
+        },
+        {
+          "label": "Lettre de l'Observatoire national des violences faites aux femmes",
+          "publisher": "Miprof / SSMSI",
+          "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2024-03/Lettre-Observatoire-national-des-violences-faites-aux-femmes-Miprof-Mars-2024.pdf",
+          "date": "mars 2024"
+        },
+        {
+          "label": "L'enquête Vécu et ressenti en matière de sécurité (VRS)",
+          "publisher": "Ministère de l'Intérieur / SSMSI",
+          "url": "https://www.interieur.gouv.fr/Interstats/L-enquete-Vecu-et-ressenti-en-matiere-de-securite-VRS",
+          "date": "consulté le 25 juin 2026"
+        },
         {
           "label": "Male Victims of Sexual Violence and Factors Associated With Reporting to Law Enforcement in the United States",
           "publisher": "The Journal of Men's Studies / SAGE",
@@ -3328,7 +3535,7 @@
           "date": "2023"
         },
         {
-          "label": "Statistics",
+          "label": "Sexual violence statistics",
           "publisher": "National Sexual Violence Resource Center",
           "url": "https://www.nsvrc.org/statistics/",
           "date": "consulté 2026"
@@ -3701,7 +3908,7 @@
       },
       "additionalSources": [
         {
-          "label": "Afghanistan",
+          "label": "Afghanistan: focus on gender equality and women's rights",
           "publisher": "ONU Femmes",
           "url": "https://www.unwomen.org/en/articles/in-focus/afghanistan",
           "date": "2026"
@@ -3807,6 +4014,58 @@
           "label": "10 Things to Know About Abortion Access Since the Dobbs Decision",
           "publisher": "KFF",
           "url": "https://www.kff.org/womens-health-policy/10-things-to-know-about-abortion-access-since-the-dobbs-decision/",
+          "date": "2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "femmes-canada-sterilisations-sans-consentement-autochtones",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-canada-sterilisations-sans-consentement-autochtones/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-canada-sterilisations-sans-consentement-autochtones",
+      "title": "Femmes autochtones au Canada visées par des stérilisations sans consentement",
+      "originalTitle": "Femmes autochtones au Canada visées par des stérilisations sans consentement",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Autonomie",
+      "metric": "1948-2025",
+      "summary": "Au Canada, des rapports parlementaires et documents fédéraux décrivent des stérilisations forcées ou contraintes touchant particulièrement des femmes autochtones. Une note de Health Canada évoquait en 2019 des litiges portant sur des cas allégués entre 1948 et le présent, et des travaux parlementaires rapportaient encore des incidents signalés en 2025.",
+      "originalSummary": "Au Canada, des rapports parlementaires et documents fédéraux décrivent des stérilisations forcées ou contraintes touchant particulièrement des femmes autochtones. Une note de Health Canada évoquait en 2019 des litiges portant sur des cas allégués entre 1948 et le présent, et des travaux parlementaires rapportaient encore des incidents signalés en 2025.",
+      "nuance": "La fiche porte sur l'absence de consentement libre, préalable et éclairé dans des contextes médicaux, pas sur la stérilisation volontaire ni sur l'ensemble des politiques de contraception. Les travaux cités soulignent que d'autres groupes ont aussi été touchés, mais que les femmes autochtones reviennent de façon centrale dans les témoignages, les études parlementaires et les réponses publiques. Les sources documentent des signalements, enquêtes, litiges et témoignages, pas une mesure exhaustive de prévalence nationale.",
+      "originalNuance": "La fiche porte sur l'absence de consentement libre, préalable et éclairé dans des contextes médicaux, pas sur la stérilisation volontaire ni sur l'ensemble des politiques de contraception. Les travaux cités soulignent que d'autres groupes ont aussi été touchés, mais que les femmes autochtones reviennent de façon centrale dans les témoignages, les études parlementaires et les réponses publiques. Les sources documentent des signalements, enquêtes, litiges et témoignages, pas une mesure exhaustive de prévalence nationale.",
+      "tags": [
+        "autonomie",
+        "Canada",
+        "santé",
+        "consentement",
+        "femmes autochtones"
+      ],
+      "countryScope": "Canada",
+      "regionScope": "Amérique du Nord",
+      "periodStart": "1948",
+      "periodEnd": "2025",
+      "currentStatus": "persistant",
+      "sourcePopulation": "Population mesurée par les sources : personnes ayant subi ou allégué une stérilisation forcée ou contrainte au Canada, avec un accent particulier sur les femmes autochtones dans les témoignages, les litiges et les travaux parlementaires. Les sources ne mesurent pas les chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : personnes ayant subi ou allégué une stérilisation forcée ou contrainte au Canada, avec un accent particulier sur les femmes autochtones dans les témoignages, les litiges et les travaux parlementaires. Les sources ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "25 juin 2026",
+      "source": {
+        "label": "The Scars that We Carry: Forced and Coerced Sterilization of Persons in Canada - Part II",
+        "publisher": "Standing Senate Committee on Human Rights",
+        "url": "https://publications.gc.ca/site/eng/9.913511/publication.html",
+        "date": "2022"
+      },
+      "additionalSources": [
+        {
+          "label": "Question Period Note: FORCED AND COERCED STERILIZATION",
+          "publisher": "Health Canada",
+          "url": "https://search.open.canada.ca/qpnotes/record/hc-sc%2CHC-2019-QP-00010",
+          "date": "2019"
+        },
+        {
+          "label": "Evidence No. 26 - Bill S-228 and forced or coerced sterilization",
+          "publisher": "Standing Committee on Indigenous and Northern Affairs",
+          "url": "https://publications.gc.ca/collections/collection_2026/parl/xc35-1/XC35-1-2-451-26-eng.pdf",
           "date": "2026"
         }
       ],
@@ -3992,7 +4251,7 @@
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
-        "label": "Menopause",
+        "label": "Menopause fact sheet",
         "publisher": "Organisation mondiale de la Santé",
         "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
         "date": "2024"
@@ -4023,7 +4282,7 @@
           "date": "consulté 2026"
         },
         {
-          "label": "Our Cause",
+          "label": "Movember men's health cause",
           "publisher": "Movember",
           "url": "https://us.movember.com/about/cause",
           "date": "consulté 2026"
@@ -4213,7 +4472,7 @@
       "confidence": "moyenne",
       "lastChecked": "16 juin 2026",
       "source": {
-        "label": "Queens",
+        "label": "Queens: Working Paper 23337",
         "publisher": "NBER",
         "url": "https://www.nber.org/system/files/working_papers/w23337/w23337.pdf",
         "date": "2017"

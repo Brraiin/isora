@@ -17,10 +17,10 @@ Last generation: 2026-06-25T00:00:00+02:00
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 88
-- Entries about men: 36
-- Entries about women: 52
-- Distinct sources: 178
+- Entries: 92
+- Entries about men: 39
+- Entries about women: 53
+- Distinct sources: 196
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -40,12 +40,24 @@ The articles are written in French and summarize recent reports and trends with 
 - Summary: Les définitions consultées font apparaître une asymétrie lexicale nette : le féminisme est généralement défini par un objectif de droits ou d'égalité, tandis que le masculinisme est majoritairement défini par ses usages antiféministes, sexistes ou réactionnels. Cette différence ne tranche pas le débat politique, mais elle montre qu'il existe peu de vocabulaire neutre pour parler des vulnérabilités masculines sans les rabattre sur la haine des femmes. Les exemples repérés de mouvements féministes ou pro-féministes défendant une asymétrie défavorable aux hommes existent surtout sur la paternité, le congé parental et le soin; ils ne constituent pas une prise en charge générale des désavantages masculins.
 - Sources: Larousse: https://www.larousse.fr/dictionnaires/francais/masculinisme/49698; Le Robert: https://dictionnaire.lerobert.com/definition/masculinisme; Académie française, 10e édition: https://www.dictionnaire-academie.fr/article/B0M00085; Office québécois de la langue française / Grand dictionnaire terminologique: https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme; Larousse: https://www.larousse.fr/dictionnaires/francais/f%C3%A9minisme/33213; Académie française, 9e édition: https://www.dictionnaire-academie.fr/article/A9F0434; Larousse: https://www.larousse.fr/dictionnaires/francais/misogyne/51773; Larousse: https://www.larousse.fr/dictionnaires/francais/misandre/51743; The Fawcett Society: https://www.fawcettsociety.org.uk/blog/its-time-to-revolutionise-parental-leave-for-women-for-families-for-our-future; Women’s Budget Group: https://www.wbg.org.uk/publication/maternity-paternity-and-parental-leave-briefing-for-a-new-government/; Equimundo / MenCare: https://www.equimundo.org/state-of-the-worlds-fathers-research/; MenEngage Alliance: https://menengage.org/
 
+### Pères absents et adolescentes : ce que les études permettent vraiment de dire
+- URL: https://isora-xi.vercel.app/blog/2026-06-25-peres-absents-adolescentes-etudes-limites/
+- Date: 2026-06-25
+- Summary: Une vidéo récente rassemble plusieurs études sur les filles, l'absence du père, la grossesse adolescente et les symptômes dépressifs. Le corpus est intéressant pour isora parce qu'il rappelle que la présence paternelle peut être une variable mesurable, parfois plus prédictive chez les filles que chez les garçons. Mais il ne faut pas lui faire dire autre chose : ces sources ne démontrent pas que les filles élevées uniquement par leur père iraient mieux que celles élevées par leur mère. Les rares comparaisons directes mère seule / père seul disponibles dans ce périmètre trouvent plutôt peu de différences, et les résultats sont fortement liés au contexte socioéconomique, familial et temporel.
+- Sources: Child Development / Oxford Academic: https://academic.oup.com/chidev/article/74/3/801/8276316; BJOG / Wiley: https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.15297; DREES: https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-familles-monoparentales-des-caracteristiques-liees-leur; Journal of Abnormal Child Psychology / Springer: https://link.springer.com/article/10.1007/s10802-016-0128-x; Psychological Medicine / Cambridge University Press: https://www.cambridge.org/core/journals/psychological-medicine/article/father-absence-and-depressive-symptoms-in-adolescence-findings-from-a-uk-cohort/4E039EFA52486C698B17948633083254; Journal of Abnormal Child Psychology / Springer: https://link.springer.com/article/10.1007/s10802-014-9960-z; Journal of Child and Family Studies / BYU ScholarsArchive: https://scholarsarchive.byu.edu/facpub/2773/; Journal of Family Issues / SAGE: https://journals.sagepub.com/doi/10.1177/019251394015001006
+
 ### Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste
 - URL: https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/
 - Date: 2026-06-25
 - Related isora entries: femmes-ingenierie, hommes-bourses-stem-reservees-femmes
 - Summary: Les publications récentes d'Eurostat et de l'OCDE montrent une asymétrie qui ne va pas dans un seul sens. Les femmes sont désormais plus nombreuses parmi les diplômés du supérieur et les jeunes adultes diplômés, mais les hommes restent nettement plus représentés dans les filières STEM et conservent un avantage d'emploi quand des enfants vivent au foyer, y compris parmi les plus diplômés.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Women_in_the_EU; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Tertiary_education_statistics; OCDE: https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en.html; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1
+
+### Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée
+- URL: https://isora-xi.vercel.app/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/
+- Date: 2026-06-25
+- Summary: Les sources françaises récentes invitent à distinguer deux résultats différents. Les données administratives analysées par Ferrari, Solaz et Vitali montrent un risque de séparation plus élevé lorsque la femme apporte plus de 55 % du revenu du couple. En revanche, la note CEPREMAP publiée en 2025 indique qu'à revenu de ménage donné, les données françaises ne confirment pas une baisse de satisfaction des hommes simplement parce que leur conjointe gagne plus, alors que des travaux britanniques et européens trouvent une pénalité de bien-être dans d'autres contextes.
+- Sources: INED: https://www.ined.fr/fr/tout-savoir-population/memos-demo/focus/differences-revenus-au-sein-couple-augmentent-elles-le-risque-separation; European Journal of Population / Springer: https://link.springer.com/article/10.1007/s10680-024-09705-7; CEPREMAP: https://www.cepremap.fr/depot/2025/02/2025-06-Une-affaire-de-couple.pdf; Insee: https://www.insee.fr/fr/statistiques/1281400
 
 ### Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026
 - URL: https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/
@@ -140,6 +152,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Insee (janvier 2025): https://www.insee.fr/fr/statistiques/8310621
 
+## When the woman is the sole earner, the drop in life satisfaction is steeper for men
+- ID: hommes-femme-principale-pourvoyeuse-satisfaction
+- URL: https://isora-xi.vercel.app/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/
+- Interactive app URL: https://isora-xi.vercel.app/#hommes-femme-principale-pourvoyeuse-satisfaction
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Famille
+- Zone: Royaume-Uni, France et 9 pays européens
+- Period: 2004-2018
+- Status: persistant
+- Key measure: pénalité de bien-être
+- Summary: In a study covering nine European countries, women and men on average report lower life satisfaction when the woman is the sole breadwinner than when the main income comes from the man or is shared; the decline is steeper for men, especially when the man is unemployed. A UK study of married couples also finds that increases in men's relative earnings raise their life satisfaction, while no equivalent effect appears for women.
+- Nuance: These studies measure self-reported life satisfaction and statistical associations in heterosexual couples. They do not prove that every man feels emasculated or that a woman earning more mechanically causes separation. A 2024 French administrative study does find a higher risk of union dissolution in female-breadwinner couples, while also showing that near-equal earnings can be the most stable arrangement for some younger cohabiting or civil-union couples.
+- Measured population: Population measured by the sources: people in heterosexual couples surveyed in nine European countries in the European Social Survey (2004-2018), married co-resident couples in the UK Household Longitudinal Study, and couples observed in French administrative data for union dissolution. The sources use women/men categories and do not measure chromosomes.
+- Sources: European Sociological Review / Oxford Academic (2024): https://academic.oup.com/esr/article/40/2/293/7190495; Work, Employment and Society / SAGE (2021): https://journals.sagepub.com/doi/10.1177/0950017020946657; European Journal of Population / Springer (2024): https://link.springer.com/article/10.1007/s10680-024-09705-7; Review of Economics of the Household / Springer (2021): https://link.springer.com/article/10.1007/s11150-020-09506-x
+
 ## Biological paternity can only be verified through a court procedure
 - ID: hommes-filiation-paternite-test-adn-judiciaire
 - URL: https://isora-xi.vercel.app/fiches/hommes-filiation-paternite-test-adn-judiciaire/
@@ -155,6 +183,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Nuance: Saying that the woman faces no risk would be too absolute: organized fraud can lead to action by the public prosecutor, annulment of filiation, damages, or criminal penalties if it supports a qualified fraud. However, there is no general offence punishing the mere act of lying to a man about his biological paternity. The test must be ordered by a judge and the consent of the people concerned is still required; refusal is not an absolute veto, because the judge may interpret it as evidence of paternity or non-paternity. Available psychosocial studies point to a potentially strong impact of misattributed paternity, but the phenomenon remains less studied than other family disclosures.
 - Measured population: Population measured by the sources: people concerned by French proceedings on filiation, paternity contestation or paternity testing. The legal sources do not measure chromosomes.
 - Sources: Service-Public.fr / DILA (30 janvier 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F14042; Service-Public.fr / DILA (5 août 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F10428; Cour de cassation (4 mars 2026): https://www.courdecassation.fr/decision/69a7e390cdc6046d4773ed5f; Service-Public.fr / DILA (25 mars 2025): https://www.service-public.gouv.fr/particuliers/vosdroits/F940; Journal of Family Issues / Monash University (2024): https://research.monash.edu/en/publications/psychosocial-consequences-of-disclosing-misattributed-paternity-a/; American Journal of Qualitative Research (2022): https://www.ajqr.org/article/discovering-misattributed-paternity-after-dna-testing-and-its-impact-on-psychological-well-being-and-12611
+
+## Panama creates a specific criminal offence for paternity fraud
+- ID: hommes-panama-fraude-paternite-crime-2026
+- URL: https://isora-xi.vercel.app/fiches/hommes-panama-fraude-paternite-crime-2026/
+- Interactive app URL: https://isora-xi.vercel.app/#hommes-panama-fraude-paternite-crime-2026
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Justice
+- Zone: Panama
+- Period: 2026-2026
+- Status: actuel
+- Key measure: 2 à 5 ans
+- Summary: In Panama, Law No. 535 published on June 19, 2026 creates a standalone criminal offence of paternity fraud. The law provides for 2 to 5 years in prison and 100 to 500 day-fines when a man is led, through deception or deliberate concealment, to acknowledge as his own a child who is not biologically his and to assume the corresponding legal, economic, and patrimonial responsibilities.
+- Nuance: This card concerns Panamanian criminal law as enacted in June 2026; it does not describe French law or a universal rule. The offence targets a specific form of deception tied to legal acknowledgement of a child and assumed responsibilities. The law also provides aggravated penalties when the fraud lasts more than five years, concerns two or more minors, or produces repeated economic benefit.
+- Measured population: Population measured by the sources: people concerned by Panamanian paternity acknowledgement, filiation and criminal law rules. The legal sources do not measure chromosomes.
+- Sources: Gaceta Oficial de Panamá (19 juin 2026): https://www.gacetaoficial.gob.pa/storage/gacetas/2026/06/30550/GacetaNo_30550_20260619.pdf; Asamblea Nacional de Panamá (juin 2026): https://asamblea.gob.pa/Noticias/Actualidad/TIPIFICARAN-FRAUDE-DE-PATERNIDAD-CON-AUMENTO-POR-AGRAVANTES--
 
 ## Garçons plus touchés par les sorties précoces du système scolaire
 - ID: hommes-sorties-precoces
@@ -428,6 +472,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html; Rape Crisis England & Wales (2025): https://rapecrisis.org.uk/get-informed/statistics-sexual-violence/; National Sexual Violence Resource Center (consulté 2026): https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/
 
+## Rape qualification extended to victims forced to penetrate
+- ID: hommes-viol-force-penetration-2018
+- URL: https://isora-xi.vercel.app/fiches/hommes-viol-force-penetration-2018/
+- Interactive app URL: https://isora-xi.vercel.app/#hommes-viol-force-penetration-2018
+- Group: hommes
+- Angle: désavantage_subi
+- Domain: Justice
+- Zone: France
+- Period: 1994-2018
+- Status: partiellement réformé
+- Key measure: 2018
+- Summary: Until 6 August 2018, Article 222-23 of the French Criminal Code defined rape as sexual penetration committed on another person's body. The Law of 3 August 2018 added acts committed on the perpetrator's body, explicitly covering situations in which a victim is forced to penetrate the perpetrator, a configuration that can notably concern male victims of a woman.
+- Nuance: Update tracked on 25 June 2026: this entry documents a legal qualification, not the prevalence of these cases. Before 2018, such acts could still fall under other sexual offences depending on the facts, but the rape definition was narrower. Marital rape follows a separate legal history and should not be confused with the 2018 extension.
+- Measured population: Population measured by the sources: French criminal law texts and versions of Article 222-23. The sources do not measure chromosomes.
+- Sources: Légifrance (version en vigueur du 1er mars 1994 au 6 août 2018): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417678/2002-01-01; Légifrance (3 août 2018): https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037284450; Légifrance (version en vigueur du 6 août 2018 au 23 avril 2021): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037289535/2018-08-06; Légifrance (version en vigueur depuis le 8 novembre 2025): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535571; Légifrance (4 avril 2006): https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000422042
+
 ## Hommes majoritaires parmi les mis en cause pour violences conjugales
 - ID: hommes-mis-en-cause-violences-conjugales-france
 - URL: https://isora-xi.vercel.app/fiches/hommes-mis-en-cause-violences-conjugales-france/
@@ -685,12 +745,12 @@ The articles are written in French and summarize recent reports and trends with 
 - Period: 2015-2018
 - Status: persistant
 - Key measure: écarts mixtes
-- Summary: In France, the National Consumer Council opinion on differentiated marketing states that price checks on a limited scope found differences alternately disadvantaging men and women, without showing a generalized surcharge for women, except for moisturizing creams. In the United States, the GAO also found that some comparable personal care products were more expensive for women, while some men's products, such as razors, cost more.
-- Nuance: The pink tax is not a legal tax. The evidence supports a narrower claim: gendered marketing can create price differences for some similar products, but the direction varies by category. Prices can also reflect packaging, formulation, volumes, services, brand positioning, demand and willingness to pay. Market segmentation may still rely on gender norms, so the phenomenon is neither imaginary nor universally one-sided.
+- Summary: In France, the National Consumer Council opinion on differentiated marketing states that price checks on a limited scope found differences alternately disadvantaging men and women, without showing a generalized surcharge for women, except for moisturizing creams. In the United States, the 2023 Marketing Science article on consumer packaged goods likewise found no systematic female surcharge: some gaps favored women, others men.
+- Nuance: The pink tax is not a legal tax. The evidence supports a narrower claim: gendered marketing can create price differences for some similar products, but the direction varies by category. The 2023 Marketing Science article also reports that more than 80% of the products studied were gendered, while apples-to-apples comparisons with similar ingredients did not show a systematic premium for women's variants. Prices can also reflect packaging, formulation, volumes, services, brand positioning, demand and willingness to pay. Market segmentation may still rely on gender norms, so the phenomenon is neither imaginary nor universally one-sided.
 - Measured population: Population measured by the sources: gendered consumer products and services compared in France and the United States. The sources do not measure chromosomes.
-- Sources: Conseil national de la consommation / DGCCRF (13 décembre 2016): https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/2017/17_02/avis-cnc-marketing.pdf; U.S. Government Accountability Office (2018): https://www.gao.gov/products/gao-18-500; New York City Department of Consumer Affairs (2015): https://www.nyc.gov/assets/dca/downloads/pdf/partners/Study-of-Gender-Pricing-in-NYC.pdf
+- Sources: Conseil national de la consommation / DGCCRF (13 décembre 2016): https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/2017/17_02/avis-cnc-marketing.pdf; Marketing Science / INFORMS (2023): https://doi.org/10.1287/mksc.2023.1452; U.S. Government Accountability Office (2018): https://www.gao.gov/products/gao-18-500; New York City Department of Consumer Affairs (2015): https://www.nyc.gov/assets/dca/downloads/pdf/partners/Study-of-Gender-Pricing-in-NYC.pdf
 
-## Women are much more often employed part-time
+## Women are much more often in part-time employment
 - ID: femmes-temps-partiel
 - URL: https://isora-xi.vercel.app/fiches/femmes-temps-partiel/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-temps-partiel
@@ -698,13 +758,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: récit_sur_le_sexe
 - Domain: Travail
 - Zone: France
-- Period: 2024+
+- Period: 14 novembre 2024+
 - Status: actuel
-- Key measure: 26,6 % vs 7,8 %
-- Summary: In 2023, 26.6% of women employees worked part-time, compared with 7.8% of men. Women accounted for 77.9% of part-time employees.
+- Key measure: 26,8 % vs 8,7 %
+- Summary: In 2024, 26.8% of women in employment worked part-time, compared with 8.7% of men. Looking only at employees, 26.7% of women and 7.9% of men worked part-time; women made up 77.5% of part-time employees.
 - Nuance: This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary. Conversely, men may also be discouraged from reducing working time for family or professional reasons when employer culture values full-time availability, long hours or the breadwinner role.
-- Measured population: Population measured by the source: women and men employees in Insee statistics. The source does not measure chromosomes.
-- Sources: Insee (2024): https://www.insee.fr/fr/statistiques/7767077?sommaire=7767424; Work, Employment and Society / SAGE (2021): https://journals.sagepub.com/doi/10.1177/0950017020946687; OCDE (2025): https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html
+- Measured population: Population measured by the sources: women and men in employment in Insee labour-market statistics, plus employees and parents in the complementary sources. The source does not measure chromosomes.
+- Sources: Insee (14 novembre 2024): https://www.insee.fr/fr/statistiques/8612530; Insee (2025): https://www.insee.fr/fr/statistiques/8376858?sommaire=8376908; Work, Employment and Society / SAGE (2021): https://journals.sagepub.com/doi/10.1177/0950017020946687; OCDE (2025): https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html
 
 ## Femmes majoritaires parmi les victimes conjugales enregistrées
 - ID: femmes-violences-conjugales
@@ -731,13 +791,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: désavantage_subi
 - Domain: Violences
 - Zone: France
-- Period: 2024+
+- Period: 2023+
 - Status: actuel
 - Key measure: 7 % plainte
 - Summary: The number of adult women victims of rape, attempted rape or sexual assault in 2023 is estimated at 277,000. Only 7% say they filed a complaint. This under-reporting is not specific to women: several international sources also show massive under-reporting among male victims, sometimes higher depending on the measured scope.
-- Nuance: The main figure remains a French estimate for women living in ordinary housing within the survey scope. It does not measure men's reporting levels: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.
-- Measured population: Population measured by the source: adult women in a victimization survey. The source does not measure chromosomes.
-- Sources: Arrêtons les violences / SSMSI (2024): https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes; The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html
+- Nuance: Update tracked on 25 June 2026: the main figure is a weighted estimate from the French VRS victimization survey for adult women living in ordinary housing within the survey scope. It is not a judicial count or an exact count of incidents: one victim may have experienced several incidents, and survey scope, weighting and statistical uncertainty matter. It does not measure men's reporting levels: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.
+- Measured population: Population measured by the source: adult women living in ordinary housing in the VRS victimization survey scope. The source does not measure chromosomes.
+- Sources: Arrêtons les violences / SSMSI (données 2023, consulté le 25 juin 2026): https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes; Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Miprof / SSMSI (mars 2024): https://arretonslesviolences.gouv.fr/sites/default/files/2024-03/Lettre-Observatoire-national-des-violences-faites-aux-femmes-Miprof-Mars-2024.pdf; Ministère de l'Intérieur / SSMSI (consulté le 25 juin 2026): https://www.interieur.gouv.fr/Interstats/L-enquete-Vecu-et-ressenti-en-matiere-de-securite-VRS; The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html
 
 ## Women more often perceive sexism as a disadvantage
 - ID: femmes-perception-desavantage-hce-2025
@@ -1325,6 +1385,23 @@ The articles are written in French and summarize recent reports and trends with 
 - Measured population: Population mesurée par les sources : women / personnes cherchant un avortement selon les catégories juridiques. La source ne mesure pas les chromosomes.
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Supreme Court of the United States (2022): https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf; KFF (2026): https://www.kff.org/womens-health-policy/10-things-to-know-about-abortion-access-since-the-dobbs-decision/
+
+## Femmes autochtones au Canada visées par des stérilisations sans consentement
+- ID: femmes-canada-sterilisations-sans-consentement-autochtones
+- URL: https://isora-xi.vercel.app/fiches/femmes-canada-sterilisations-sans-consentement-autochtones/
+- Interactive app URL: https://isora-xi.vercel.app/#femmes-canada-sterilisations-sans-consentement-autochtones
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Autonomie
+- Zone: Canada
+- Period: 1948-2025
+- Status: persistant
+- Key measure: 1948-2025
+- Summary: Au Canada, des rapports parlementaires et documents fédéraux décrivent des stérilisations forcées ou contraintes touchant particulièrement des femmes autochtones. Une note de Health Canada évoquait en 2019 des litiges portant sur des cas allégués entre 1948 et le présent, et des travaux parlementaires rapportaient encore des incidents signalés en 2025.
+- Nuance: La fiche porte sur l'absence de consentement libre, préalable et éclairé dans des contextes médicaux, pas sur la stérilisation volontaire ni sur l'ensemble des politiques de contraception. Les travaux cités soulignent que d'autres groupes ont aussi été touchés, mais que les femmes autochtones reviennent de façon centrale dans les témoignages, les études parlementaires et les réponses publiques. Les sources documentent des signalements, enquêtes, litiges et témoignages, pas une mesure exhaustive de prévalence nationale.
+- Measured population: Population mesurée par les sources : personnes ayant subi ou allégué une stérilisation forcée ou contrainte au Canada, avec un accent particulier sur les femmes autochtones dans les témoignages, les litiges et les travaux parlementaires. Les sources ne mesurent pas les chromosomes.
+- Translation status: claim text is maintained in French until a reviewed English translation is added.
+- Sources: Standing Senate Committee on Human Rights (2022): https://publications.gc.ca/site/eng/9.913511/publication.html; Health Canada (2019): https://search.open.canada.ca/qpnotes/record/hc-sc%2CHC-2019-QP-00010; Standing Committee on Indigenous and Northern Affairs (2026): https://publications.gc.ca/collections/collection_2026/parl/xc35-1/XC35-1-2-451-26-eng.pdf
 
 ## Décès liés aux avortements non sécurisés
 - ID: femmes-avortement-non-securise
