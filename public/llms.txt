@@ -32,6 +32,13 @@ Derniere generation: 2026-06-26T00:00:00+02:00
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l'UE
+- URL: https://isora-xi.vercel.app/blog/2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe/
+- Date: 2026-06-26
+- Fiches isora liees: femmes-temps-partiel
+- Resume: Les publications récentes montrent une asymétrie stable plutôt qu'un retournement. En France, l'Insee indique qu'en 2025, 26,6 % des femmes en emploi travaillent à temps partiel contre 9,2 % des hommes, et que le sous-emploi concerne 6,1 % des femmes contre 2,8 % des hommes. Au niveau de l'Union européenne, Eurostat observe en 2024 un écart comparable sur le temps partiel, qui s'accentue lorsque des enfants vivent dans le foyer. Les sources invitent toutefois à distinguer le temps partiel choisi, le temps partiel contraint et les effets spécifiques de la parentalité.
+- Sources: Insee: https://www.insee.fr/fr/statistiques/8901327; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260303-1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Part-time_and_full-time_employment_-_statistics; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Labour_market_slack_-_employment_supply_and_demand_mismatch; Insee: https://www.insee.fr/fr/statistiques/8376858
+
 ### Masculinisme et féminisme : une asymétrie de vocabulaire dans les dictionnaires
 - URL: https://isora-xi.vercel.app/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/
 - Date: 2026-06-25

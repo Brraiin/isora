@@ -1,0 +1,128 @@
+{
+  "id": "2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe",
+  "slug": "2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe",
+  "status": "published",
+  "language": "fr",
+  "title": "Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l'UE",
+  "description": "Les données 2025-2026 confirment un temps partiel et un sous-emploi plus fréquents chez les femmes, avec un écart encore plus marqué quand des enfants vivent au foyer.",
+  "date": "2026-06-26",
+  "publishedAt": "2026-06-26T18:03:14.000Z",
+  "updatedAt": "2026-06-26T18:03:14.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "temps partiel femmes hommes France 2025",
+    "sous-emploi femmes hommes France",
+    "Eurostat temps partiel enfants 2024",
+    "labour market slack femmes hommes UE",
+    "emploi parental femmes hommes"
+  ],
+  "relatedClaimIds": [
+    "femmes-temps-partiel"
+  ],
+  "readingMinutes": 5,
+  "summary": "Les publications récentes montrent une asymétrie stable plutôt qu'un retournement. En France, l'Insee indique qu'en 2025, 26,6 % des femmes en emploi travaillent à temps partiel contre 9,2 % des hommes, et que le sous-emploi concerne 6,1 % des femmes contre 2,8 % des hommes. Au niveau de l'Union européenne, Eurostat observe en 2024 un écart comparable sur le temps partiel, qui s'accentue lorsque des enfants vivent dans le foyer. Les sources invitent toutefois à distinguer le temps partiel choisi, le temps partiel contraint et les effets spécifiques de la parentalité.",
+  "keyPoints": [
+    "L'Insee indique qu'en 2025, 26,6 % des femmes en emploi travaillent à temps partiel contre 9,2 % des hommes en France.",
+    "Toujours selon l'Insee, le sous-emploi atteint 6,1 % chez les femmes en emploi contre 2,8 % chez les hommes en 2025.",
+    "Eurostat estime qu'en 2024, 27,8 % des femmes en emploi âgées de 20 a 64 ans travaillent à temps partiel dans l'UE, contre 7,7 % des hommes.",
+    "Parmi les 25-54 ans avec enfants dans l'UE, 31,7 % des femmes en emploi travaillent à temps partiel contre 5,1 % des hommes, soit un ecart de 26,6 points.",
+    "Les sources françaises de detail rappellent que le temps partiel ne renvoie pas a une seule situation: en 2024, 22,0 % des femmes salariees a temps partiel et 25,1 % des hommes a temps partiel declarent ne pas avoir trouve un emploi a temps complet."
+  ],
+  "sections": [
+    {
+      "heading": "Ce que montrent les données françaises les plus récentes",
+      "paragraphs": [
+        "L'Insee a publié le 25 mars 2026 une photographie du marché du travail en 2025 qui confirme un écart net entre femmes et hommes sur le temps partiel. En moyenne annuelle, 17,7 % des personnes en emploi travaillent a temps partiel en France, mais la proportion monte a 26,6 % pour les femmes et descend a 9,2 % pour les hommes.",
+        "Le même document distingue aussi le sous-emploi, c'est-a-dire principalement les personnes a temps partiel qui souhaitent travailler davantage et sont disponibles pour le faire, ainsi que certaines situations de chômage partiel. En 2025, ce sous-emploi concerne 6,1 % des femmes en emploi contre 2,8 % des hommes."
+      ]
+    },
+    {
+      "heading": "Ce que la comparaison européenne ajoute",
+      "paragraphs": [
+        "Eurostat retrouve une asymétrie proche a l'échelle de l'Union européenne. Dans sa note du 3 mars 2026 et dans sa synthèse statistique dédiée, l'organisme indique qu'en 2024, 27,8 % des femmes en emploi âgées de 20 a 64 ans travaillent a temps partiel, contre 7,7 % des hommes.",
+        "L'écart devient encore plus marqué quand on regarde la présence d'enfants dans le foyer. Parmi les 25-54 ans en emploi dans l'UE, 31,7 % des femmes avec enfants travaillent a temps partiel, contre 19,1 % des femmes sans enfants. Chez les hommes, les proportions sont beaucoup plus basses, avec 5,1 % pour ceux qui ont des enfants et 7,4 % pour ceux qui n'en ont pas."
+      ]
+    },
+    {
+      "heading": "Temps partiel, sous-emploi et disponibilité au travail ne mesurent pas la même chose",
+      "paragraphs": [
+        "L'écart de temps partiel ne suffit pas a lui seul a decrire toute l'offre de travail non satisfaite. Eurostat mesure aussi le labour market slack, c'est-a-dire l'ensemble des besoins d'emploi non satisfaits au sens large. En 2024, 13,5 % des femmes dans la population active élargie de l'UE relevent de ce slack, contre 10,2 % des hommes.",
+        "Il faut donc distinguer trois plans. Le temps partiel mesure une quotité de travail. Le sous-emploi mesure une partie du temps partiel subi ou insuffisant. Le slack ajoute aussi des personnes disponibles pour travailler ou cherchant un emploi dans des conditions qui ne rentrent pas entièrement dans le chômage standard."
+      ]
+    },
+    {
+      "heading": "Ce que disent les motifs déclarés et la parentalité",
+      "paragraphs": [
+        "La publication Insee Références sur le temps partiel, parue le 26 juin 2025, montre que les raisons déclarées diffèrent selon le sexe. En 2024, 29,5 % des femmes salariées a temps partiel disent l'être principalement pour s'occuper de leurs enfants ou d'un proche, contre 8,3 % des hommes. En parallèle, 22,0 % des femmes et 25,1 % des hommes a temps partiel déclarent ne pas avoir trouvé d'emploi a temps complet.",
+        "Cette même source montre aussi que la part du temps partiel augmente avec le nombre d'enfants chez les femmes. En 2024, 35,1 % des femmes salariées ayant au moins trois enfants a charge travaillent a temps partiel, contre 7,1 % des hommes dans la même situation. La source mesure ici des salariés vivant en logement ordinaire en France hors Mayotte; elle décrit une répartition observée, pas une cause unique."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les sources n'observent pas exactement les mêmes populations. L'Insee 2025 porte sur les personnes en emploi vivant en logement ordinaire en France. Sa publication détaillée sur le temps partiel isole parfois les seuls salariés hors apprentis et certaines figures par nombre d'enfants. Eurostat utilise le Labour Force Survey européen, avec des indicateurs calculés tantôt sur les 20-64 ans, tantôt sur les 25-54 ans avec ou sans enfants.",
+        "Ces données parlent de femmes et d'hommes au sens des catégories statistiques retenues dans les enquêtes et bases publiques; elles ne mesurent pas les chromosomes. Elles ne permettent pas non plus de conclure qu'un écart relève entièrement d'un choix personnel, d'une contrainte économique ou d'une norme familiale: selon l'indicateur retenu, une partie du temps partiel est choisie, une autre est subie, et les écarts varient selon l'âge, le secteur, la catégorie d'emploi et la composition du foyer."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Le temps partiel est-il toujours subi par les femmes ?",
+      "answer": "Non. Les sources distinguent des situations différentes. Une partie du temps partiel est déclarée pour raisons familiales, une autre parce qu'un emploi a temps complet n'a pas été trouvé, et une autre encore pour raisons de santé, d'etudes ou de temps libre."
+    },
+    {
+      "question": "Pourquoi l'article parle-t-il aussi de sous-emploi et de labour market slack ?",
+      "answer": "Parce que ces indicateurs ne mesurent pas la même chose. Le temps partiel décrit un volume horaire, le sous-emploi mesure notamment le souhait de travailler davantage, et le labour market slack ajoute des formes plus larges de besoin d'emploi non satisfait."
+    },
+    {
+      "question": "Peut-on conclure que les enfants expliquent a eux seuls l'écart femmes-hommes ?",
+      "answer": "Non. Les données montrent que l'ecart augmente souvent avec la presence d'enfants, mais elles n'isolent pas a elles seules tous les mécanismes. Les secteurs d'activité, les horaires, les revenus, l'organisation du soin et les normes professionnelles peuvent aussi peser sur les écarts observés."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Une photographie du marché du travail en 2025",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/8901327",
+      "date": "25 mars 2026",
+      "type": "statistique publique"
+    },
+    {
+      "title": "Women at work: a snapshot of EU's gender employment gap",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260303-1",
+      "date": "3 mars 2026",
+      "type": "note statistique"
+    },
+    {
+      "title": "Part-time and full-time employment - statistics",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Part-time_and_full-time_employment_-_statistics",
+      "date": "données 2024, page mise à jour en octobre 2025",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Labour market slack - employment supply and demand mismatch",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Labour_market_slack_-_employment_supply_and_demand_mismatch",
+      "date": "données extraites en octobre 2025",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Temps partiel",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/8376858",
+      "date": "26 juin 2025",
+      "type": "référence statistique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-06-26T18:03:14.000Z",
+    "requiresHumanReview": false
+  }
+}

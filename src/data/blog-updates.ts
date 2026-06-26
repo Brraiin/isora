@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l'UE",
+    "blogUrl": "/blog/2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe/",
+    "date": "2026-06-26",
+    "updatedAt": "2026-06-26T18:03:14.000Z"
+  },
+  {
     "claimId": "hommes-vocabulaire-masculinisme-pejoratif",
     "side": "hommes",
     "claimTitle": "Masculinisme défini surtout par ses usages péjoratifs",
