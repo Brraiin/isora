@@ -31,7 +31,8 @@ Current production setup:
 - GitHub URL: `https://github.com/Brraiin/isora`
 - Production branch: `main`
 - Vercel project: `isora`
-- Current Vercel URL: `https://isora-xi.vercel.app`
+- Production domain: `https://isora.info`
+- Technical Vercel URL: `https://isora-xi.vercel.app`
 
 A push to `main` triggers a Vercel production deployment.
 
@@ -63,6 +64,16 @@ The working directory must be `/Users/eve/Web dev/Isora`, and `npm run build` mu
 - Do not infer intent or social meaning beyond what sources establish. Prefer formulations like "la source mesure", "les donnees indiquent", "le droit visait", "les resultats varient selon".
 - When an asymmetry affects both sexes differently, state both sides plainly before explaining where the documented asymmetry is stronger. Example: "moyens contraceptifs pour les hommes, comme les preservatifs, et moyens contraceptifs pour les femmes", then explain the additional pregnancy, birth, medical, legal, or social burden where sourced.
 - Nuance blocks should clarify scope without defending a side: what is measured, what is not measured, what can and cannot be concluded.
+
+## Claim traceability
+
+- When editing any asymmetry card in `src/data/claims.ts`, update `lastChecked` to the current date.
+- Also update the claim detail itself: add or adjust the relevant nuance, source, source population, metadata, confidence, or translation so the reason for the change is visible from the fiche.
+- Do not make silent claim/card edits. If the change comes from an intake video, record the useful detail as a methodological nuance, source update, scope correction, or interpretation limit.
+- If an intake video triggers a visible "updated card" banner, cite the primary or institutional source behind the edit, not the social video, account, or influencer.
+- Any external source shown in an updated-card banner must also be present in the fiche's own `source` or `additionalSources` list, so it appears at the end of the card with an identifiable visible label, not only a publisher/date. `npm run seo` validates this for `src/data/manual-claim-updates.json`.
+- If the change affects scope or meaning, also update `sourcePopulationLabels`, `claimMetadata`, `additionalSources`, and `translations.en` where applicable.
+- After claim edits, run `npm run seo` and `npm run build`; report which fiches were dated and detailed.
 
 ## Key files
 

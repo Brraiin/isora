@@ -111,6 +111,32 @@ Principes editoriaux du blog :
 
 La version anglaise doit traduire le sens editorial sans ajouter de fait absent de la version francaise. Les sources restent identiques entre les deux versions.
 
+## Tracabilite des fiches modifiees
+
+Toute modification d'une fiche ou card d'asymetrie dans `src/data/claims.ts`
+doit laisser une trace visible dans la fiche:
+
+- mettre `lastChecked` a la date du jour;
+- ajouter ou ajuster le detail utile dans `nuance`, `source`,
+  `additionalSources`, `sourcePopulation`, `confidence` ou les metadonnees;
+- mettre a jour `sourcePopulationLabels` et `claimMetadata` si le perimetre, la
+  periode, la zone, le statut ou la population mesuree changent;
+- mettre a jour `translations.en` quand la fiche possede une traduction relue;
+- ne pas modifier silencieusement un chiffre, une source ou une formulation
+  importante.
+- si une video reseau social declenche un bandeau public de fiche modifiee,
+  afficher la source primaire ou institutionnelle de l'edit, pas la video, le
+  compte ou l'influenceur.
+- la source externe affichee dans un bandeau de fiche modifiee doit aussi etre
+  presente dans `source` ou `additionalSources`, pour apparaitre en fin de card;
+  son libelle visible en bas doit identifier le document, pas seulement l'editeur
+  ou la date; `npm run seo` valide ce point pour
+  `src/data/manual-claim-updates.json`.
+
+Apres modification de fiches, regenerer les sorties publiques avec `npm run seo`
+et verifier avec `npm run build`. Le compte-rendu final doit nommer les fiches
+modifiees et confirmer que la date et le detail ont ete mis a jour.
+
 ## Traductions dans les donnees
 
 Une fiche peut porter une traduction anglaise relue dans `src/data/claims.ts` via `translations.en` :

@@ -11,7 +11,8 @@ cd "/Users/eve/Web dev/Isora"
 - Repo GitHub: https://github.com/Brraiin/isora
 - Branche de production: `main`
 - Projet Vercel: `isora`
-- URL Vercel actuelle: https://isora-xi.vercel.app
+- Domaine public principal: https://isora.info
+- URL Vercel technique: https://isora-xi.vercel.app
 - Build command Vercel: `npm run build`
 - Output directory Vercel: `dist`
 
@@ -86,9 +87,10 @@ Ensuite verifier le deploiement:
 
 ```bash
 npm exec -- vercel inspect isora-xi.vercel.app
+npm exec -- vercel domains inspect isora.info
 ```
 
-Le statut doit etre `Ready`.
+Le deploiement doit etre `Ready` et le domaine doit pointer vers Vercel.
 
 ## Deploiement manuel Vercel
 
@@ -170,24 +172,33 @@ Le script `npm run blog:daily` reste un mode API optionnel, mais il n'est pas ut
 Pour consulter les retours sans exposer de page publique, utiliser la vue non referencee:
 
 ```text
-https://isora-xi.vercel.app/?admin=contributions
+https://isora.info/?admin=contributions
 ```
 
 Cette vue n'est liee nulle part dans le site et force `noindex,nofollow`. Elle affiche les retours sauvegardes dans le navigateur courant et, en production avec `GITHUB_ISSUE_TOKEN`, les issues GitHub ouvertes portant le label `contribution`.
 
 ## Domaine IONOS
 
-Quand le domaine definitif est connu, l'ajouter d'abord au projet Vercel, puis suivre les enregistrements DNS indiques par Vercel:
+Le domaine public principal d'Isora est:
 
-```bash
-npm exec -- vercel domains add exemple.fr
-npm exec -- vercel domains inspect exemple.fr
+```text
+https://isora.info
 ```
 
-Chez IONOS, la configuration habituelle est:
+Etat au 25 juin 2026:
 
-- domaine racine `@`: record `A` vers `76.76.21.21`
-- sous-domaine `www`: record `CNAME` vers la cible indiquee par Vercel, souvent `cname.vercel-dns-0.com`
+- `isora.info` est ajoute au projet Vercel `isora`.
+- `www.isora.info` est ajoute au projet Vercel `isora`.
+- `www.isora.info` redirige vers `isora.info` en `308`.
+
+Configuration DNS IONOS:
+
+| Nom d'hote | Type | Valeur |
+| --- | --- | --- |
+| `@` | `A` | `76.76.21.21` |
+| `www` | `CNAME` | `cname.vercel-dns-0.com` |
+
+Ne pas supprimer les records mail IONOS (`MX`, `TXT`, `_dmarc`, `domainkey`, `autodiscover`). Ne pas creer a la fois un `A` et un `CNAME` pour `www`.
 
 Toujours preferer la sortie de `vercel domains inspect` aux valeurs generiques, car Vercel peut demander un TXT de verification.
 

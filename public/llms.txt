@@ -6,7 +6,7 @@ URL canonique: https://isora-xi.vercel.app/
 Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-06-25T00:00:00+02:00
+Derniere generation: 2026-06-26T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -297,14 +297,14 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
-- Zone: France
-- Periode: 2023+
+- Zone: Monde
+- Periode: 2026+
 - Statut: actuel
 - Mesure cle: 3x
 - Resume: L'OMS indique que les hommes sont typiquement trois fois plus susceptibles que les femmes de mourir dans un accident de la route.
 - Nuance: Les comportements de conduite, les usages professionnels de la route et l'exposition kilométrique peuvent contribuer à l'écart.
 - Population mesuree: Population mesurée par la source : males / females dans la fiche OMS. La source ne mesure pas les chromosomes.
-- Sources: Organisation mondiale de la Santé (2023): https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
+- Sources: Organisation mondiale de la Santé (2026): https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
 
 ## Service militaire obligatoire souvent ciblé sur les hommes
 - ID: hommes-conscription

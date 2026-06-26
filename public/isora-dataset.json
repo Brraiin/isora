@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-06-25T00:00:00+02:00",
+  "generatedAt": "2026-06-26T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -752,19 +752,19 @@
         "route",
         "mortalité"
       ],
-      "countryScope": "France",
-      "regionScope": "",
-      "periodStart": "2023",
+      "countryScope": "Monde",
+      "regionScope": "Monde",
+      "periodStart": "2026",
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : males / females dans la fiche OMS. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "25 juin 2026",
       "source": {
         "label": "Road traffic injuries",
         "publisher": "Organisation mondiale de la Santé",
         "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
-        "date": "2023"
+        "date": "2026"
       },
       "additionalSources": [],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."

@@ -529,10 +529,10 @@ const rawClaims: RawClaim[] = [
       label: "Road traffic injuries",
       publisher: "Organisation mondiale de la Santé",
       url: "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
-      date: "2023",
+      date: "2026",
     },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "25 juin 2026",
     nuance:
       "Les comportements de conduite, les usages professionnels de la route et l'exposition kilométrique peuvent contribuer à l'écart.",
   },
@@ -3530,6 +3530,14 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "éducation",
+  },
+  "hommes-accidents-route-monde": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "sécurité routière",
   },
   "hommes-deces-professionnels-etats-unis-2024": {
     pays_ou_zone: "États-Unis",
