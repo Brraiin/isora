@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-esperance-vie-monde",
+    "side": "hommes",
+    "claimTitle": "Espérance de vie masculine plus courte dans presque tous les pays",
+    "claimMetric": "quasi tous pays",
+    "blogTitle": "Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue",
+    "blogUrl": "/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/",
+    "date": "2026-06-28",
+    "updatedAt": "2026-06-28T08:58:00.000Z"
+  },
+  {
+    "claimId": "hommes-esperance-vie",
+    "side": "hommes",
+    "claimTitle": "Espérance de vie plus courte pour les hommes en France",
+    "claimMetric": "-5,6 ans",
+    "blogTitle": "Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue",
+    "blogUrl": "/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/",
+    "date": "2026-06-28",
+    "updatedAt": "2026-06-28T08:58:00.000Z"
+  },
+  {
     "claimId": "femmes-temps-partiel",
     "side": "femmes",
     "claimTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",

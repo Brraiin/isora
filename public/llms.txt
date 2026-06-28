@@ -6,7 +6,7 @@ URL canonique: https://isora-xi.vercel.app/
 Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-06-26T00:00:00+02:00
+Derniere generation: 2026-06-28T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -31,6 +31,13 @@ Derniere generation: 2026-06-26T00:00:00+02:00
 ## Articles isora
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
+
+### Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue
+- URL: https://isora-xi.vercel.app/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/
+- Date: 2026-06-28
+- Fiches isora liees: hommes-esperance-vie, hommes-esperance-vie-monde
+- Resume: Les sources publiques récentes confirment deux constats différents selon l'indicateur retenu. En France comme dans l'Union européenne, les femmes vivent plus longtemps que les hommes. Mais lorsque l'on mesure les années vécues sans incapacité ou sans limitation d'activité, l'écart se réduit fortement: en France, la DREES estime en 2023 une espérance de vie sans incapacité à la naissance de 64,1 ans pour les femmes contre 63,7 ans pour les hommes, alors que l'écart d'espérance de vie totale atteint 5,6 ans en 2025 selon l'Insee. Les années de vie supplémentaires observées chez les femmes ne sont donc pas toutes des années sans limitation déclarée.
+- Sources: Insee: https://www.insee.fr/fr/statistiques/2416631; DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260122-ER-esperance-de-vie-sans-incapacite; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260313-3; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthy_life_years_statistics
 
 ### Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l'UE
 - URL: https://isora-xi.vercel.app/blog/2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe/

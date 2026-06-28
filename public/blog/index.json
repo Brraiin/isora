@@ -2,8 +2,63 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-26T18:07:29.503Z",
+  "generatedAt": "2026-06-28T08:59:03.977Z",
   "posts": [
+    {
+      "id": "2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue",
+      "title": "Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/",
+      "description": "Les publications 2026 confirment un avantage féminin net sur la durée de vie totale, mais un écart bien plus réduit sur les années vécues sans incapacité en France comme dans l'Union européenne.",
+      "date": "2026-06-28",
+      "publishedAt": "2026-06-28T08:58:00.000Z",
+      "updatedAt": "2026-06-28T08:58:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "espérance de vie femmes hommes France 2025",
+        "années sans incapacité femmes hommes France 2023",
+        "healthy life years women men EU 2023",
+        "DREES EVSI 2026",
+        "Eurostat life expectancy 2024"
+      ],
+      "relatedClaimIds": [
+        "hommes-esperance-vie",
+        "hommes-esperance-vie-monde"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Espérance de vie à divers âges",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/2416631",
+          "date": "13 janvier 2026",
+          "type": "table statistique"
+        },
+        {
+          "title": "L'espérance de vie sans incapacité à 65 ans est de 11,8 ans pour les femmes et de 10,5 ans pour les hommes en 2023",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260122-ER-esperance-de-vie-sans-incapacite",
+          "date": "22 janvier 2026",
+          "type": "étude statistique"
+        },
+        {
+          "title": "EU life expectancy increases again and hits 81.5 years",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260313-3",
+          "date": "13 mars 2026",
+          "type": "note statistique"
+        },
+        {
+          "title": "Healthy life years statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthy_life_years_statistics",
+          "date": "données 2023, page actualisée en 2026",
+          "type": "synthèse statistique"
+        }
+      ]
+    },
     {
       "id": "2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe",
       "title": "Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l'UE",
