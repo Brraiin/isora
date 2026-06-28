@@ -1,0 +1,121 @@
+{
+  "id": "2026-06-28-sinistralite-travail-femmes-hommes-france-europe",
+  "slug": "2026-06-28-sinistralite-travail-femmes-hommes-france-europe",
+  "status": "published",
+  "language": "fr",
+  "title": "Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes",
+  "description": "Les sources 2025-2026 montrent une asymétrie stable mais non uniforme selon l'indicateur retenu : les accidents du travail reconnus restent majoritairement masculins, tandis que les maladies professionnelles reconnues sont désormais légèrement plus fréquentes chez les femmes.",
+  "date": "2026-06-28",
+  "publishedAt": "2026-06-28T18:40:00.000Z",
+  "updatedAt": "2026-06-28T18:40:00.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "accidents du travail femmes hommes France 2024",
+    "maladies professionnelles femmes hommes 2024",
+    "TMS femmes hommes Assurance Maladie 2026",
+    "Eurostat accidents du travail hommes femmes 2023",
+    "sinistralité au travail selon le sexe"
+  ],
+  "relatedClaimIds": [
+    "hommes-accidents-travail"
+  ],
+  "readingMinutes": 5,
+  "summary": "Les publications récentes sur la sinistralité au travail invitent à distinguer plusieurs réalités. En France, le focus genre du rapport annuel 2024 de l'Assurance Maladie montre qu'en 2023 les hommes concentrent 62 % des accidents du travail reconnus, tandis que les femmes sont légèrement majoritaires dans les accidents de trajet et dans les maladies professionnelles reconnues. Le jeu de données 2024 sur les maladies professionnelles confirme cette légère majorité féminine dans le total, mais aussi une forte dissymétrie selon les pathologies : davantage de TMS et de troubles psychiques reconnus chez les femmes, davantage de cancers professionnels et de décès chez les hommes. A l'échelle européenne, Eurostat observe aussi une majorité masculine dans les accidents du travail non mortels.",
+  "keyPoints": [
+    "Dans le focus genre publié fin 2025 par l'Assurance Maladie, les hommes représentent 62 % des accidents du travail reconnus en 2023, contre 38 % pour les femmes.",
+    "La même source indique qu'en 2023 les femmes représentent 52 % des accidents de trajet reconnus et 52 % des maladies professionnelles reconnues, dont 55 % des TMS.",
+    "Toujours selon ce rapport, entre 2000 et 2023 le nombre d'accidents du travail reconnus baisse de 40 % chez les hommes mais augmente de 26 % chez les femmes.",
+    "Le jeu de données Assurance Maladie sur les maladies professionnelles 2024 recense 26 014 cas féminins contre 24 584 masculins; les femmes concentrent 54,4 % des TMS reconnus, alors que les hommes concentrent 96,2 % des cancers professionnels et 97,2 % des décès liés aux maladies professionnelles dans ce fichier.",
+    "Eurostat indique qu'en 2023, 67,6 % des accidents du travail non mortels recensés dans l'UE concernent des hommes."
+  ],
+  "sections": [
+    {
+      "heading": "Les dernières sources ne décrivent pas une seule asymétrie",
+      "paragraphs": [
+        "Les sources 2025-2026 utiles pour cette veille montrent d'abord qu'il faut séparer trois indicateurs : les accidents du travail, les accidents de trajet et les maladies professionnelles. L'Assurance Maladie ne retrouve pas la même répartition femmes-hommes selon le type de sinistre.",
+        "Dans son rapport annuel 2024 publié en novembre 2025, l'organisme rappelle qu'en 2024 il y a eu 549 614 accidents du travail reconnus avec arrêt ou incapacité, 94 654 accidents de trajet et 50 598 maladies professionnelles. Le focus spécifique selon le genre porte cependant sur l'année 2023, qui est la dernière année détaillée de cette manière dans le rapport."
+      ]
+    },
+    {
+      "heading": "En France, les accidents du travail reconnus restent d'abord masculins",
+      "paragraphs": [
+        "Le focus genre de l'Assurance Maladie indique qu'en 2023 les hommes représentent 53 % des salariés relevant du régime général étudié, mais 62 % des accidents du travail reconnus. Le rapport dénombre près de 564 000 accidents du travail reconnus en premier règlement cette année-là, dont près de six sur dix chez des hommes.",
+        "La même publication souligne une évolution longue période qui ne va pas dans le même sens selon le sexe. Entre 2000 et 2023, le nombre d'accidents du travail reconnus diminue de 40 % chez les hommes, alors qu'il augmente de 26 % chez les femmes. Le rapport précise aussi que cette différence agrégée dépend en partie de la structure sectorielle de l'emploi et des tâches exercées dans un même secteur."
+      ]
+    },
+    {
+      "heading": "Les maladies professionnelles reconnues deviennent plus mixtes, mais pas pour les mêmes pathologies",
+      "paragraphs": [
+        "Le même focus montre qu'en 2023 les femmes sont légèrement majoritaires dans les maladies professionnelles reconnues, avec 52 % des cas, et plus nettement dans les troubles musculosquelettiques, avec 55 % des TMS. Le rapport souligne aussi que les maladies professionnelles sont devenues presque aussi nombreuses chez les femmes que chez les hommes après une progression plus rapide côté féminin depuis les années 2000.",
+        "Le fichier détaillé mis en ligne en mars 2026 sur les maladies professionnelles 2024 confirme ce basculement modéré dans le total : 26 014 cas reconnus chez les femmes contre 24 584 chez les hommes. Mais l'équilibre global masque des profils très différents. Les femmes concentrent 24 321 TMS reconnus contre 20 402 chez les hommes, ainsi que la majorité des épisodes dépressifs reconnus hors tableaux. A l'inverse, les hommes concentrent presque tous les cancers professionnels repérables dans ce fichier, avec 1 456 cas contre 58, et 209 des 215 décès liés aux maladies professionnelles."
+      ]
+    },
+    {
+      "heading": "Les accidents de trajet et la comparaison européenne évitent une lecture trop simple",
+      "paragraphs": [
+        "Le rapport annuel français montre aussi qu'en 2023 les accidents de trajet reconnus concernent davantage les femmes, à 52 % contre 48 % pour les hommes. Les profils diffèrent là encore : les chutes et faux pas sont davantage présents chez les femmes, tandis que la perte de contrôle d'un moyen de transport est plus fréquente chez les hommes.",
+        "A l'échelle européenne, Eurostat retrouve malgré tout une majorité masculine nette pour les accidents du travail non mortels. L'organisme estime qu'en 2023, 67,6 % des accidents du travail non mortels dans l'Union européenne concernent des hommes. Cette comparaison confirme une surreprésentation masculine globale sur l'accident du travail, mais elle ne contredit pas le fait qu'en France certaines maladies professionnelles reconnues et certains accidents de trajet touchent légèrement plus de femmes."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les chiffres français ne couvrent pas toute la population active. Le rapport annuel 2024 de l'Assurance Maladie porte surtout sur les assurés affiliés au régime général, organisés ici autour de neuf comités techniques nationaux; il n'inclut pas les exploitants et salariés agricoles, l'ensemble des agents publics ni tous les travailleurs indépendants. Le focus genre 2023 utilise en plus une approximation de la population salariée par sexe à partir de l'Enquête emploi de l'Insee.",
+        "Les données européennes d'Eurostat reposent sur la méthodologie ESAW. Elles définissent les accidents du travail non mortels comme ceux qui impliquent au moins quatre jours complets d'absence et les accidents mortels comme ceux qui entraînent un décès dans l'année suivant l'accident. Eurostat rappelle aussi que les systèmes nationaux de déclaration et de reconnaissance ne sont pas strictement identiques; la France a notamment un système de notification large, ce qui limite les comparaisons directes de niveaux avec d'autres pays. Enfin, ces sources parlent de femmes et d'hommes au sens des catégories statistiques utilisées par les organismes producteurs; elles ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Peut-on dire que les hommes sont plus exposés au risque professionnel en général ?",
+      "answer": "Les sources récentes soutiennent clairement une surreprésentation masculine dans les accidents du travail reconnus. En revanche, elles ne montrent pas la même hiérarchie pour tous les sinistres, puisque les accidents de trajet et certaines maladies professionnelles reconnues concernent légèrement plus de femmes."
+    },
+    {
+      "question": "Pourquoi l'article sépare-t-il accidents du travail, accidents de trajet et maladies professionnelles ?",
+      "answer": "Parce que ces catégories n'observent pas la même chose. Un accident du travail est un événement survenu pendant le travail, un accident de trajet concerne le déplacement lié au travail, et une maladie professionnelle renvoie à une pathologie reconnue d'origine professionnelle. Les répartitions femmes-hommes diffèrent selon chacune."
+    },
+    {
+      "question": "La France est-elle directement comparable aux chiffres de l'Union européenne ?",
+      "answer": "Oui pour situer un ordre de grandeur, mais pas pour comparer mécaniquement tous les niveaux. Eurostat précise que les systèmes nationaux de déclaration et de reconnaissance diffèrent, et la France a un système de notification qui peut conduire à des volumes plus élevés que dans d'autres pays."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rapport annuel 2024 de l'Assurance Maladie - Risques professionnels",
+      "publisher": "Assurance Maladie - Risques professionnels",
+      "url": "https://www.assurance-maladie.ameli.fr/sites/default/files/rapport_annuel_2024_de_lassurance_maladie_-_risques_professionnels_novembre_2025.pdf",
+      "date": "novembre 2025",
+      "type": "rapport statistique"
+    },
+    {
+      "title": "Maladies professionnelles 2024 : indicateurs selon l'âge, le sexe, la profession et la durée d'exposition",
+      "publisher": "Assurance Maladie - Risques professionnels",
+      "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/mp-indicateurs-selon-age-sexe-profession-exposition",
+      "date": "20 mars 2026",
+      "type": "jeu de données"
+    },
+    {
+      "title": "EU non-fatal work accidents incidence rate drops in 2023",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260428-1",
+      "date": "28 avril 2026",
+      "type": "note statistique"
+    },
+    {
+      "title": "Accidents at work statistics",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Accidents_at_work_statistics",
+      "date": "données 2023, page consultée en juin 2026",
+      "type": "synthèse statistique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-06-28T18:40:00.000Z",
+    "requiresHumanReview": false
+  }
+}

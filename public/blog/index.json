@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-28T08:59:03.977Z",
+  "generatedAt": "2026-06-28T18:10:09.216Z",
   "posts": [
+    {
+      "id": "2026-06-28-sinistralite-travail-femmes-hommes-france-europe",
+      "title": "Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/",
+      "description": "Les sources 2025-2026 montrent une asymétrie stable mais non uniforme selon l'indicateur retenu : les accidents du travail reconnus restent majoritairement masculins, tandis que les maladies professionnelles reconnues sont désormais légèrement plus fréquentes chez les femmes.",
+      "date": "2026-06-28",
+      "publishedAt": "2026-06-28T18:40:00.000Z",
+      "updatedAt": "2026-06-28T18:40:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "accidents du travail femmes hommes France 2024",
+        "maladies professionnelles femmes hommes 2024",
+        "TMS femmes hommes Assurance Maladie 2026",
+        "Eurostat accidents du travail hommes femmes 2023",
+        "sinistralité au travail selon le sexe"
+      ],
+      "relatedClaimIds": [
+        "hommes-accidents-travail"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Rapport annuel 2024 de l'Assurance Maladie - Risques professionnels",
+          "publisher": "Assurance Maladie - Risques professionnels",
+          "url": "https://www.assurance-maladie.ameli.fr/sites/default/files/rapport_annuel_2024_de_lassurance_maladie_-_risques_professionnels_novembre_2025.pdf",
+          "date": "novembre 2025",
+          "type": "rapport statistique"
+        },
+        {
+          "title": "Maladies professionnelles 2024 : indicateurs selon l'âge, le sexe, la profession et la durée d'exposition",
+          "publisher": "Assurance Maladie - Risques professionnels",
+          "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/mp-indicateurs-selon-age-sexe-profession-exposition",
+          "date": "20 mars 2026",
+          "type": "jeu de données"
+        },
+        {
+          "title": "EU non-fatal work accidents incidence rate drops in 2023",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260428-1",
+          "date": "28 avril 2026",
+          "type": "note statistique"
+        },
+        {
+          "title": "Accidents at work statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Accidents_at_work_statistics",
+          "date": "données 2023, page consultée en juin 2026",
+          "type": "synthèse statistique"
+        }
+      ]
+    },
     {
       "id": "2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue",
       "title": "Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue",

@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-accidents-travail",
+    "side": "hommes",
+    "claimTitle": "Hommes très majoritaires parmi les morts au travail",
+    "claimMetric": ">90 %",
+    "blogTitle": "Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes",
+    "blogUrl": "/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/",
+    "date": "2026-06-28",
+    "updatedAt": "2026-06-28T18:40:00.000Z"
+  },
+  {
     "claimId": "hommes-esperance-vie-monde",
     "side": "hommes",
     "claimTitle": "Espérance de vie masculine plus courte dans presque tous les pays",
