@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-charge-domestique-soin",
+    "side": "femmes",
+    "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
+    "claimMetric": "2,5x",
+    "blogTitle": "Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée",
+    "blogUrl": "/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/",
+    "date": "2026-06-29",
+    "updatedAt": "2026-06-29T07:20:00.000Z"
+  },
+  {
+    "claimId": "femmes-soin-non-remunere-emploi",
+    "side": "femmes",
+    "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
+    "claimMetric": "708 M",
+    "blogTitle": "Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée",
+    "blogUrl": "/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/",
+    "date": "2026-06-29",
+    "updatedAt": "2026-06-29T07:20:00.000Z"
+  },
+  {
     "claimId": "hommes-accidents-travail",
     "side": "hommes",
     "claimTitle": "Hommes très majoritaires parmi les morts au travail",

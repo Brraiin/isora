@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée
+- URL: https://isora-xi.vercel.app/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/
+- Date: 2026-06-29
+- Sujet: Droits, autonomie et accès aux services
+- Fiches isora liees: femmes-soin-non-remunere-emploi, femmes-charge-domestique-soin
+- Resume: Les publications récentes invitent à séparer deux périmètres. Dans l'étude DREES publiée en décembre 2025, 7,1 millions de personnes aident régulièrement un proche à domicile en France métropolitaine, et 58 % sont des femmes. Dans l'étude DREES publiée en juin 2026, le champ plus étroit de l'aide à la vie quotidienne recense 5,3 millions d'aidants de 16 ans ou plus, dont 57 % de femmes, avec une baisse de 6 % depuis 2008 malgré la hausse des besoins déclarés. Cette même source indique aussi que l'implication des hommes aidants s'intensifie et que certaines tâches domestiques sont moins exclusivement féminines qu'en 2008. Les comparaisons OCDE et Eurostat confirment toutefois qu'à grande échelle, les femmes restent plus souvent impliquées dans le soin et le travail domestique non rémunérés.
+- Sources: DREES (17 décembre 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/251217-ER-etudes-et-resultats/proches-aidants; DREES (juin 2026): https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-06/ER1377_Proches_aidants.pdf; OCDE (18 novembre 2025): https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/informal-carers_6f243c4d.html; Eurostat (page actualisée en 2026, données 2008-2015 selon pays): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=How_do_women_and_men_use_their_time_-_statistics
+
 ### Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes
 - URL: https://isora-xi.vercel.app/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/
 - Date: 2026-06-28

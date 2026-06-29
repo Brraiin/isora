@@ -2,8 +2,63 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-28T18:10:09.216Z",
+  "generatedAt": "2026-06-29T18:09:26.181Z",
   "posts": [
+    {
+      "id": "2026-06-29-proches-aidants-femmes-hommes-france-ocde",
+      "title": "Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/",
+      "description": "Les sources 2025-2026 montrent une asymétrie persistante mais plus nuancée qu'un simple partage figé des rôles : les femmes restent majoritaires parmi les proches aidants en France comme dans les comparaisons OCDE, tandis que la participation masculine progresse dans plusieurs tâches de la vie quotidienne.",
+      "date": "2026-06-29",
+      "publishedAt": "2026-06-29T07:20:00.000Z",
+      "updatedAt": "2026-06-29T07:20:00.000Z",
+      "topic": {
+        "id": "droits-autonomie",
+        "label": "Droits, autonomie et accès aux services"
+      },
+      "keywords": [
+        "proches aidants femmes hommes France 2022",
+        "DREES aidants 2026",
+        "DREES aidants 2025",
+        "informal carers OECD 2025 women men",
+        "Eurostat unpaid care France women men"
+      ],
+      "relatedClaimIds": [
+        "femmes-soin-non-remunere-emploi",
+        "femmes-charge-domestique-soin"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Trois aidants sur dix accompagnent seuls leur proche, six sur dix sont en activité ou étudiants",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/251217-ER-etudes-et-resultats/proches-aidants",
+          "date": "17 décembre 2025",
+          "type": "étude statistique"
+        },
+        {
+          "title": "Le nombre de proches aidants à la vie quotidienne baisse de 6 % entre 2008 et 2022, et l'aide apportée s'intensifie",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-06/ER1377_Proches_aidants.pdf",
+          "date": "juin 2026",
+          "type": "étude statistique"
+        },
+        {
+          "title": "Informal carers: Health at a Glance 2025",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/informal-carers_6f243c4d.html",
+          "date": "18 novembre 2025",
+          "type": "synthèse internationale"
+        },
+        {
+          "title": "How do women and men use their time - statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=How_do_women_and_men_use_their_time_-_statistics",
+          "date": "page actualisée en 2026, données 2008-2015 selon pays",
+          "type": "synthèse statistique"
+        }
+      ]
+    },
     {
       "id": "2026-06-28-sinistralite-travail-femmes-hommes-france-europe",
       "title": "Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes",
