@@ -12,6 +12,36 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-filles-hors-ecole",
+    "side": "femmes",
+    "claimTitle": "Enfants hors de l'école : estimations mondiales proches selon le sexe",
+    "claimMetric": "133 M filles vs 140 M garçons",
+    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
+    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
+    "date": "2026-06-30",
+    "updatedAt": "2026-06-30T07:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-decrochage-garcons-monde",
+    "side": "hommes",
+    "claimTitle": "Garçons massivement hors de l'école ou en redoublement",
+    "claimMetric": "140 M",
+    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
+    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
+    "date": "2026-06-30",
+    "updatedAt": "2026-06-30T07:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-sorties-precoces",
+    "side": "hommes",
+    "claimTitle": "Garçons plus touchés par les sorties précoces du système scolaire",
+    "claimMetric": "9,5 % vs 5,6 %",
+    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
+    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
+    "date": "2026-06-30",
+    "updatedAt": "2026-06-30T07:30:00.000Z"
+  },
+  {
     "claimId": "femmes-charge-domestique-soin",
     "side": "femmes",
     "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",

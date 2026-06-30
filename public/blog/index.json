@@ -2,8 +2,70 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-29T18:09:26.181Z",
+  "generatedAt": "2026-06-30T18:06:14.601Z",
   "posts": [
+    {
+      "id": "2026-06-30-sorties-precoces-jeunes-hommes-europe-france",
+      "title": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
+      "url": "https://isora-xi.vercel.app/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
+      "description": "Les données publiées en juin 2026 par Eurostat confirment une asymétrie masculine persistante dans les sorties précoces d'éducation et de formation au sein de l'Union européenne. Les séries françaises de l'Insee, le cadrage OCDE et les repères UNESCO montrent toutefois que cette asymétrie dépend du territoire, de l'âge observé et du niveau scolaire retenu.",
+      "date": "2026-06-30",
+      "publishedAt": "2026-06-30T07:30:00.000Z",
+      "updatedAt": "2026-06-30T07:30:00.000Z",
+      "topic": {
+        "id": "education-orientation",
+        "label": "Éducation, orientation et formation"
+      },
+      "keywords": [
+        "sorties précoces femmes hommes Europe 2025",
+        "Eurostat early leavers 2026 sex",
+        "Insee sorties précoces hommes femmes France 2023",
+        "OCDE upper secondary men women 2025",
+        "UNESCO boys disengagement education"
+      ],
+      "relatedClaimIds": [
+        "hommes-sorties-precoces",
+        "hommes-decrochage-garcons-monde"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Early school leavers down to 9.1% in 2025",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260604-1",
+          "date": "4 juin 2026",
+          "type": "brève statistique"
+        },
+        {
+          "title": "Early leavers from education and training",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Early_leavers_from_education_and_training",
+          "date": "page actualisée en 2026",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Sorties précoces du système scolaire",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778",
+          "date": "6 janvier 2025",
+          "type": "indicateur statistique"
+        },
+        {
+          "title": "To what level have adults studied?: Education at a Glance 2025",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/to-what-level-have-adults-studied_c1d483b0.html",
+          "date": "9 septembre 2025",
+          "type": "rapport comparatif"
+        },
+        {
+          "title": "Boys’ disengagement from education",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/gender-equality/education/boys",
+          "date": "consulté le 30 juin 2026",
+          "type": "page de cadrage institutionnelle"
+        }
+      ]
+    },
     {
       "id": "2026-06-29-proches-aidants-femmes-hommes-france-ocde",
       "title": "Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée",

@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe
+- URL: https://isora-xi.vercel.app/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/
+- Date: 2026-06-30
+- Sujet: Éducation, orientation et formation
+- Fiches isora liees: hommes-sorties-precoces, hommes-decrochage-garcons-monde
+- Resume: Eurostat a publié le 4 juin 2026 une nouvelle synthèse sur les sorties précoces d'éducation et de formation dans l'Union européenne. En 2025, 9,1 % des 18-24 ans de l'UE sont classés comme sortants précoces, avec un écart persistant entre jeunes hommes (10,6 %) et jeunes femmes (7,5 %). La source précise que cette asymétrie vaut dans presque tous les pays de l'UE, sauf en Roumanie et en Bulgarie. En France, la dernière série détaillée disponible dans la publication Insee du 6 janvier 2025 porte sur 2023 et mesure 9,5 % pour les hommes contre 5,6 % pour les femmes. L'OCDE et l'UNESCO ajoutent que ce désavantage masculin coexiste avec d'autres configurations: les jeunes femmes dépassent les jeunes hommes dans le supérieur dans de nombreux pays, tandis que les filles restent plus exposées à l'exclusion scolaire primaire dans certains contextes mondiaux.
+- Sources: Eurostat (4 juin 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260604-1; Eurostat (page actualisée en 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Early_leavers_from_education_and_training; Insee (6 janvier 2025): https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778; OCDE (9 septembre 2025): https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/to-what-level-have-adults-studied_c1d483b0.html; UNESCO (consulté le 30 juin 2026): https://www.unesco.org/en/gender-equality/education/boys
+
 ### Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée
 - URL: https://isora-xi.vercel.app/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/
 - Date: 2026-06-29

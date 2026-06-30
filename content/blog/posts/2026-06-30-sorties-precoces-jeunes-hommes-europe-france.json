@@ -1,0 +1,136 @@
+{
+  "id": "2026-06-30-sorties-precoces-jeunes-hommes-europe-france",
+  "slug": "2026-06-30-sorties-precoces-jeunes-hommes-europe-france",
+  "status": "published",
+  "language": "fr",
+  "title": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
+  "description": "Les données publiées en juin 2026 par Eurostat confirment une asymétrie masculine persistante dans les sorties précoces d'éducation et de formation au sein de l'Union européenne. Les séries françaises de l'Insee, le cadrage OCDE et les repères UNESCO montrent toutefois que cette asymétrie dépend du territoire, de l'âge observé et du niveau scolaire retenu.",
+  "date": "2026-06-30",
+  "publishedAt": "2026-06-30T07:30:00.000Z",
+  "updatedAt": "2026-06-30T07:30:00.000Z",
+  "topic": {
+    "id": "education-orientation",
+    "label": "Éducation, orientation et formation"
+  },
+  "keywords": [
+    "sorties précoces femmes hommes Europe 2025",
+    "Eurostat early leavers 2026 sex",
+    "Insee sorties précoces hommes femmes France 2023",
+    "OCDE upper secondary men women 2025",
+    "UNESCO boys disengagement education"
+  ],
+  "relatedClaimIds": [
+    "hommes-sorties-precoces",
+    "hommes-decrochage-garcons-monde"
+  ],
+  "readingMinutes": 5,
+  "summary": "Eurostat a publié le 4 juin 2026 une nouvelle synthèse sur les sorties précoces d'éducation et de formation dans l'Union européenne. En 2025, 9,1 % des 18-24 ans de l'UE sont classés comme sortants précoces, avec un écart persistant entre jeunes hommes (10,6 %) et jeunes femmes (7,5 %). La source précise que cette asymétrie vaut dans presque tous les pays de l'UE, sauf en Roumanie et en Bulgarie. En France, la dernière série détaillée disponible dans la publication Insee du 6 janvier 2025 porte sur 2023 et mesure 9,5 % pour les hommes contre 5,6 % pour les femmes. L'OCDE et l'UNESCO ajoutent que ce désavantage masculin coexiste avec d'autres configurations: les jeunes femmes dépassent les jeunes hommes dans le supérieur dans de nombreux pays, tandis que les filles restent plus exposées à l'exclusion scolaire primaire dans certains contextes mondiaux.",
+  "keyPoints": [
+    "Eurostat indique qu'en 2025, 9,1 % des 18-24 ans de l'Union européenne ont quitté précocement l'éducation ou la formation, contre 11,0 % en 2015.",
+    "Toujours selon Eurostat, la part des sortants précoces atteint 10,6 % chez les jeunes hommes contre 7,5 % chez les jeunes femmes dans l'UE en 2025.",
+    "L'article Statistics Explained d'Eurostat précise que presque tous les pays de l'UE ont une proportion plus élevée de sortants précoces masculins, sauf la Roumanie et la Bulgarie; les écarts les plus larges sont observés en Espagne, en Lettonie, à Malte et en Slovénie.",
+    "La dernière série détaillée de l'Insee pour la France mesure en 2023 des sorties précoces à 9,5 % chez les hommes et 5,6 % chez les femmes, avec une note de prudence sur les ruptures de série de l'enquête Emploi.",
+    "L'OCDE estime en 2024 que 14 % des jeunes hommes de 25-34 ans n'ont pas de diplôme du second cycle du secondaire, contre 11 % des jeunes femmes en moyenne dans l'OCDE; l'UNESCO rappelle en parallèle qu'à l'échelle mondiale 140 millions de garçons et 133 millions de filles sont hors de l'école, tout en signalant que les filles restent plus exclues du primaire dans certains contextes."
+  ],
+  "sections": [
+    {
+      "heading": "Le signal récent d'Eurostat porte sur l'Union européenne en 2025",
+      "paragraphs": [
+        "Dans son article de veille publié le 4 juin 2026, Eurostat indique qu'en 2025 la part des sortants précoces d'éducation et de formation dans l'Union européenne est descendue à 9,1 % des 18-24 ans. La source rappelle que l'objectif européen pour 2030 est de passer sous 9,0 %, ce qui place l'UE tout près de sa cible sans l'avoir encore atteinte.",
+        "Eurostat définit ici les sortants précoces comme les 18-24 ans ayant au plus un niveau inférieur au second cycle du secondaire et n'ayant suivi ni éducation ni formation, formelle ou non formelle, au cours des quatre semaines précédant l'enquête. L'indicateur ne mesure donc ni toute la réussite scolaire ni toutes les formes de décrochage subjectif; il mesure un statut statistique précis à un âge donné."
+      ]
+    },
+    {
+      "heading": "L'écart reste surtout masculin dans l'UE, avec quelques exceptions nationales",
+      "paragraphs": [
+        "Eurostat indique qu'en 2025 la proportion de sortants précoces est de 10,6 % chez les jeunes hommes et de 7,5 % chez les jeunes femmes dans l'UE. L'écart est donc de 3,1 points au niveau européen. La baisse observée depuis 2015 concerne les deux sexes, mais elle ne supprime pas l'asymétrie.",
+        "L'article Statistics Explained d'Eurostat ajoute que presque tous les pays de l'Union enregistrent une proportion plus élevée de sortants précoces masculins, à l'exception de la Roumanie et de la Bulgarie. Les écarts les plus marqués apparaissent en Espagne, en Lettonie, à Malte et en Slovénie. Cette précision est importante: le désavantage masculin est fréquent dans l'UE, mais il n'est pas strictement universel."
+      ]
+    },
+    {
+      "heading": "La France présente aussi un écart masculin dans sa dernière série détaillée",
+      "paragraphs": [
+        "La publication Insee mise en ligne le 6 janvier 2025 donne le dernier tableau détaillé consolidé par sexe pour la France sur l'année 2023. Elle mesure 9,5 % de sorties précoces chez les hommes contre 5,6 % chez les femmes, soit un total de 7,6 % pour la France.",
+        "L'Insee appelle toutefois à la prudence sur les comparaisons fines dans le temps. La source mentionne une correction de rupture de série après le changement de questionnaire de l'enquête Emploi en 2013, puis une nouvelle modification du questionnaire en 2021. Autrement dit, le sens de l'écart hommes-femmes est net dans la dernière série publiée, mais les variations annuelles doivent être lues avec précaution."
+      ]
+    },
+    {
+      "heading": "Au-delà du décrochage strict, l'OCDE observe aussi un déficit masculin au seuil du secondaire",
+      "paragraphs": [
+        "Dans Education at a Glance 2025, publié le 9 septembre 2025, l'OCDE indique qu'en moyenne 13 % des 25-34 ans des pays OCDE n'ont pas de diplôme du second cycle du secondaire en 2024. La même source précise que ce taux est de 14 % chez les jeunes hommes contre 11 % chez les jeunes femmes. Le périmètre n'est pas identique à celui d'Eurostat, mais il va dans le même sens: le non-achèvement du secondaire reste plus fréquent chez les jeunes hommes dans la plupart des pays observés.",
+        "Cette lecture doit cependant être complétée par un autre résultat du même rapport. L'OCDE indique aussi qu'à l'autre extrémité de la distribution scolaire, la part des 25-34 ans diplômés du supérieur reste en moyenne plus élevée chez les jeunes femmes que chez les jeunes hommes. Les asymétries éducatives récentes ne se résument donc pas à une hiérarchie simple; elles varient selon le seuil scolaire mesuré."
+      ]
+    },
+    {
+      "heading": "L'UNESCO rappelle que les écarts mondiaux ne prennent pas partout la même forme",
+      "paragraphs": [
+        "La page de cadrage de l'UNESCO consacrée au désengagement scolaire des garçons rappelle qu'à l'échelle mondiale 140 millions de garçons sont hors de l'école, contre 133 millions de filles. Elle ajoute que, dans de nombreux contextes, les garçons sont davantage à risque de redoublement, de non-progression et de non-achèvement.",
+        "Mais la même source signale aussi qu'au primaire, les filles restent dans certains contextes plus exposées que les garçons à l'exclusion scolaire. Cette nuance évite de transformer un constat fréquent dans l'UE ou dans plusieurs pays OCDE en règle valable pour tous les âges et tous les pays."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les sources ne portent pas sur la même population. Eurostat mesure ici les 18-24 ans ayant au plus un niveau inférieur au second cycle du secondaire et n'étant plus en éducation ou formation au cours des quatre semaines précédant l'enquête. L'Insee reprend cet indicateur pour la France avec les conventions de son enquête Emploi. L'OCDE observe surtout les 25-34 ans selon leur plus haut niveau de diplôme atteint. L'UNESCO parle plus largement d'enfants et de jeunes hors de l'école ou à risque de non-achèvement selon des contextes mondiaux hétérogènes.",
+        "Les catégories femmes et hommes correspondent aux classifications statistiques utilisées par chaque organisme producteur. Elles ne mesurent pas les chromosomes. Enfin, une comparaison directe entre le chiffre UE 2025 et le détail France 2023 doit être évitée si l'on cherche un classement strict, car les millésimes ne sont pas les mêmes et l'Insee signale en plus des ruptures de série dans le temps."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Peut-on dire que les garçons décrochent plus partout ?",
+      "answer": "Non, pas partout. Les sources récentes montrent un écart surtout masculin dans l'Union européenne et dans la plupart des pays OCDE observés, mais Eurostat signale des exceptions comme la Roumanie et la Bulgarie. L'UNESCO rappelle aussi qu'au primaire, les filles peuvent rester plus exposées à l'exclusion scolaire dans certains contextes."
+    },
+    {
+      "question": "Le chiffre français est-il directement comparable au chiffre européen 2025 ?",
+      "answer": "Pas pour un classement strict. Eurostat publie ici un résultat UE pour 2025, tandis que la dernière série détaillée de l'Insee citée dans cet article porte sur 2023. En plus, l'Insee demande de lire avec prudence les évolutions temporelles en raison de changements de questionnaire dans l'enquête Emploi."
+    },
+    {
+      "question": "Pourquoi ajouter l'OCDE et l'UNESCO si l'article parle des sorties précoces ?",
+      "answer": "Parce que ces deux sources aident à situer l'indicateur. L'OCDE montre que l'écart masculin réapparaît aussi quand on regarde l'absence de diplôme du secondaire chez les 25-34 ans. L'UNESCO rappelle au contraire que les asymétries scolaires mondiales ne suivent pas partout le même sens selon l'âge, le pays et le niveau d'enseignement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Early school leavers down to 9.1% in 2025",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260604-1",
+      "date": "4 juin 2026",
+      "type": "brève statistique"
+    },
+    {
+      "title": "Early leavers from education and training",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Early_leavers_from_education_and_training",
+      "date": "page actualisée en 2026",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Sorties précoces du système scolaire",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778",
+      "date": "6 janvier 2025",
+      "type": "indicateur statistique"
+    },
+    {
+      "title": "To what level have adults studied?: Education at a Glance 2025",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/to-what-level-have-adults-studied_c1d483b0.html",
+      "date": "9 septembre 2025",
+      "type": "rapport comparatif"
+    },
+    {
+      "title": "Boys’ disengagement from education",
+      "publisher": "UNESCO",
+      "url": "https://www.unesco.org/en/gender-equality/education/boys",
+      "date": "consulté le 30 juin 2026",
+      "type": "page de cadrage institutionnelle"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-06-30T07:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}
