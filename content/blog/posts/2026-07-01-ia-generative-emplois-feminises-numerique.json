@@ -1,0 +1,135 @@
+{
+  "id": "2026-07-01-ia-generative-emplois-feminises-numerique",
+  "slug": "2026-07-01-ia-generative-emplois-feminises-numerique",
+  "status": "published",
+  "language": "fr",
+  "title": "IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins",
+  "description": "Les sources récentes de l'OIT, de l'OCDE et d'Eurostat décrivent une asymétrie double : les emplois de bureau davantage féminisés apparaissent plus exposés à l'automatisation potentielle par l'IA générative, tandis que l'usage des outils et les métiers ICT restent encore plus masculins en moyenne dans l'Union européenne.",
+  "date": "2026-07-01",
+  "publishedAt": "2026-07-01T17:00:00.000Z",
+  "updatedAt": "2026-07-01T17:00:00.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "IA générative femmes hommes emploi 2025 2026",
+    "OIT GenAI jobs women men 2025",
+    "OCDE Algorithm and Eve 2024",
+    "Eurostat generative AI women men 2025",
+    "femmes hommes métiers ICT Europe 2025"
+  ],
+  "relatedClaimIds": [
+    "femmes-ingenierie"
+  ],
+  "readingMinutes": 5,
+  "summary": "Les publications récentes sur l'IA générative invitent à distinguer plusieurs niveaux d'analyse. L'OIT estime qu'un quart des emplois dans le monde se situent dans des occupations potentiellement exposées à l'IA générative, avec une exposition plus forte dans les pays à revenu élevé et, dans ces pays, une part de l'emploi féminin plus élevée dans les occupations les plus automatisables. L'OCDE ajoute que l'exposition moyenne des femmes et des hommes n'est pas radicalement différente à l'échelle des occupations observées, mais qu'elle se distribue différemment : davantage de femmes dans certains emplois administratifs très exposés, davantage d'hommes dans les métiers ICT et dans plusieurs professions au sommet de l'échelle d'exposition. Eurostat montre enfin qu'en 2025 les hommes déclaraient utiliser un peu plus souvent les outils d'IA générative que les femmes dans l'UE, et que les métiers ICT restaient très majoritairement masculins.",
+  "keyPoints": [
+    "L'OIT indique en mai 2025 que 25 % de l'emploi mondial relève d'occupations potentiellement exposées à l'IA générative, et 34 % dans les pays à revenu élevé.",
+    "Toujours selon l'OIT, dans les pays à revenu élevé, les emplois au plus haut risque d'automatisation représentent 9,6 % de l'emploi féminin contre 3,5 % de l'emploi masculin.",
+    "L'OIT précise cependant que la transformation des tâches est plus probable que la disparition complète des emplois, et que les postes de bureau restent les plus exposés.",
+    "L'OCDE observe que l'exposition moyenne à l'IA est proche entre femmes et hommes sur 22 pays, mais que les femmes restent concentrées dans plusieurs emplois administratifs très exposés et sous-représentées parmi les travailleurs de l'IA, les utilisateurs de l'IA au travail et les diplômés ICT.",
+    "Eurostat mesure en 2025 un usage récent de l'IA générative de 34,9 % chez les hommes contre 30,5 % chez les femmes dans l'UE, ainsi qu'une part de femmes limitée à 19,5 % de l'emploi ICT."
+  ],
+  "sections": [
+    {
+      "heading": "L'OIT décrit une exposition potentielle plus forte pour certains emplois féminisés",
+      "paragraphs": [
+        "Le signal le plus net de cette veille vient de l'Organisation internationale du travail. Dans sa mise à jour publiée le 20 mai 2025, l'OIT estime que 25 % de l'emploi mondial appartient à des occupations potentiellement exposées à l'IA générative, et que cette part monte à 34 % dans les pays à revenu élevé.",
+        "La même source souligne une asymétrie plus marquée dans le segment le plus exposé à l'automatisation potentielle. Dans les pays à revenu élevé, les emplois situés dans cette zone représentent 9,6 % de l'emploi féminin contre 3,5 % de l'emploi masculin. L'OIT relie cet écart à la forte présence des femmes dans plusieurs emplois de bureau et de soutien administratif, qui contiennent davantage de tâches formalisées, textuelles ou répétitives."
+      ]
+    },
+    {
+      "heading": "Exposition ne veut pas dire suppression immédiate des emplois",
+      "paragraphs": [
+        "L'OIT insiste toutefois sur un point méthodologique central : l'exposition mesurée ne correspond pas à des licenciements observés ni à une disparition automatique des postes. La source parle d'abord de potentiel de transformation des tâches. Elle rappelle que beaucoup d'activités restent partiellement automatisables mais continuent d'exiger une supervision humaine, des arbitrages relationnels, des responsabilités juridiques ou une connaissance fine du contexte de travail.",
+        "Cette nuance évite une lecture trop simple du type femmes plus exposées donc femmes plus pénalisées. Les effets attendus dépendent aussi des infrastructures numériques, des choix des employeurs, des règles de protection du travail et de l'accès concret à la formation."
+      ]
+    },
+    {
+      "heading": "L'OCDE montre une asymétrie de structure plus qu'une opposition frontale",
+      "paragraphs": [
+        "Le brief OCDE Algorithm and Eve, publié en décembre 2024, complète ce constat. Sur 22 pays, l'organisation indique que l'exposition occupationnelle moyenne à l'IA reste globalement proche entre femmes et hommes. En revanche, la distribution par métier n'est pas la même.",
+        "D'un côté, plusieurs emplois administratifs très exposés, comme les fonctions de saisie, de service client ou d'enregistrement numérique, restent très féminisés. De l'autre, l'OCDE note que plusieurs métiers tout en haut de l'échelle d'exposition, notamment dans l'informatique, les sciences de l'ingénieur ou certaines fonctions dirigeantes, demeurent majoritairement masculins. Le même brief ajoute que les femmes sont sous-représentées parmi les travailleurs de l'IA, parmi les utilisateurs de l'IA au travail et parmi les diplômés ICT, et qu'une étude citée y observe un usage de ChatGPT inférieur de 20 points chez les femmes par rapport aux hommes dans une même occupation."
+      ]
+    },
+    {
+      "heading": "Eurostat confirme un usage un peu plus masculin et un vivier ICT encore très masculin",
+      "paragraphs": [
+        "Les données Eurostat sur l'Union européenne montrent une autre facette de l'asymétrie. Dans l'enquête 2025 sur l'usage de l'IA par les individus, 34,9 % des hommes de 16 à 74 ans déclarent avoir utilisé un outil d'IA générative au cours des trois derniers mois, contre 30,5 % des femmes. L'écart existe, mais il reste nettement plus faible que celui observé sur la composition sexuée de certains métiers.",
+        "Eurostat ajoute que 59 % des femmes et 62 % des hommes disposent d'au moins des compétences numériques de base dans l'UE en 2025. La même publication montre pourtant que l'écart n'est pas uniforme selon l'âge : avant 45 ans, les femmes font souvent jeu égal ou légèrement mieux, tandis que l'avantage masculin réapparaît surtout après 45 ans. En parallèle, les métiers ICT restent très masculins : les femmes ne représentent que 19,5 % des spécialistes ICT dans l'UE en 2025, et l'emploi ICT pèse 2,2 % de l'emploi féminin contre 7,8 % de l'emploi masculin."
+      ]
+    },
+    {
+      "heading": "La tendance récente tient donc en deux asymétries distinctes",
+      "paragraphs": [
+        "Les sources réunies ici ne décrivent pas une seule hiérarchie stable entre femmes et hommes face à l'IA. Elles montrent plutôt deux asymétries qui peuvent coexister. Les emplois administratifs et de bureau, où les femmes sont plus présentes dans plusieurs pays, apparaissent plus exposés à une automatisation ou une réorganisation par l'IA générative. Dans le même temps, les métiers qui conçoivent, déploient ou encadrent les outils numériques restent largement masculins, tout comme une partie de l'usage déclaré des outils.",
+        "Autrement dit, une exposition plus forte à l'IA et une présence plus forte dans les métiers de l'IA ne désignent pas la même chose. Cette distinction compte pour la veille *isora* : elle évite de présenter comme un avantage ou un désavantage unique des réalités qui touchent des populations, des qualifications et des positions professionnelles différentes."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les sources mobilisées ne portent pas sur la même population. L'OIT mesure une exposition potentielle des occupations à l'IA générative à partir de tâches professionnelles harmonisées à l'échelle internationale, puis rapporte cette exposition à des structures d'emploi nationales. L'OCDE observe surtout des occupations et des enquêtes sur 22 pays, avec une attention particulière aux métiers exposés et aux usages de l'IA au travail. Eurostat mesure, selon les tableaux, soit des individus âgés de 16 à 74 ans déclarant un usage récent de l'IA générative, soit des personnes en emploi classées comme spécialistes ICT dans l'UE.",
+        "Ces chiffres ne permettent donc pas de conclure directement à des pertes d'emploi effectives, ni de comparer sans précaution l'exposition potentielle, l'adoption déclarée d'un outil et la composition sexuée d'un secteur professionnel. Enfin, toutes ces sources utilisent les catégories statistiques femmes et hommes propres à leurs enquêtes ou bases administratives; elles ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "L'article dit-il que l'IA générative supprime surtout des emplois occupés par des femmes ?",
+      "answer": "Non. Les sources citées parlent surtout d'exposition potentielle et de transformation des tâches. L'OIT précise explicitement que l'effet le plus probable est souvent la réorganisation du travail plutôt que la suppression complète des emplois."
+    },
+    {
+      "question": "Pourquoi parler à la fois des emplois de bureau et des métiers ICT ?",
+      "answer": "Parce qu'il s'agit de deux réalités différentes. Les emplois de bureau féminisés sont davantage exposés à certaines automatisations potentielles, tandis que les métiers qui produisent ou encadrent les technologies numériques restent beaucoup plus masculins. Confondre les deux ferait perdre une partie de l'asymétrie documentée."
+    },
+    {
+      "question": "Les hommes utilisent-ils vraiment plus l'IA générative que les femmes ?",
+      "answer": "Dans les données Eurostat 2025 pour l'UE, oui, mais l'écart reste modéré : 34,9 % des hommes contre 30,5 % des femmes déclarent un usage au cours des trois derniers mois. Cet indicateur mélange plusieurs usages, privés, professionnels ou liés aux études, et ne décrit pas à lui seul l'impact de l'IA sur l'emploi."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+      "publisher": "OIT",
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+      "date": "20 mai 2025",
+      "type": "working paper"
+    },
+    {
+      "title": "One in four jobs at risk of being transformed by GenAI, new ILO-NASK Global Index shows",
+      "publisher": "OIT",
+      "url": "https://www.ilo.org/resource/news/one-four-jobs-risk-being-transformed-genai-new-ilo%E2%80%93nask-global-index-shows",
+      "date": "20 mai 2025",
+      "type": "note institutionnelle"
+    },
+    {
+      "title": "Algorithm and Eve: How AI will impact women at work",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/algorithm-and-eve_a1603510-en.html",
+      "date": "6 décembre 2024",
+      "type": "policy brief"
+    },
+    {
+      "title": "The use of artificial intelligence (AI) technologies in the European Union",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/documents/7870049/23260410/KS-01-26-009-EN-N.pdf/37d063cb-28cf-3b4e-91f3-c3784c970842?t=1774528533658&version=1.1",
+      "date": "2026, données 2025",
+      "type": "rapport statistique"
+    },
+    {
+      "title": "Towards Digital Decade targets for Europe",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Towards_Digital_Decade_targets_for_Europe",
+      "date": "juin 2026, données 2025",
+      "type": "synthèse statistique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-07-01T17:00:00.000Z",
+    "requiresHumanReview": false
+  }
+}
