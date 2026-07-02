@@ -1,0 +1,120 @@
+{
+  "id": "2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue",
+  "slug": "2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue",
+  "status": "published",
+  "language": "fr",
+  "title": "Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE",
+  "description": "Les publications 2026 de l'ONISR, d'Eurostat et de la Commission européenne décrivent une asymétrie stable : les hommes représentent environ les trois quarts des décès routiers observés en France métropolitaine comme dans l'Union européenne, avec des écarts encore plus marqués sur certains modes de déplacement.",
+  "date": "2026-07-02",
+  "publishedAt": "2026-07-02T18:15:00.000Z",
+  "updatedAt": "2026-07-02T18:15:00.000Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "sécurité routière femmes hommes France 2025",
+    "ONISR 2025 hommes femmes route",
+    "Eurostat road safety men women 2024",
+    "Commission européenne road deaths 2025",
+    "mortalité routière masculine Europe"
+  ],
+  "relatedClaimIds": [
+    "hommes-accidents-route-monde"
+  ],
+  "readingMinutes": 5,
+  "summary": "La veille du 2 juillet 2026 fait ressortir une asymétrie documentée mais à lire avec précision. En France métropolitaine, l'ONISR indique qu'en 2025 les hommes représentent 2 523 des 3 263 personnes décédées sur la route, soit 77 %. Eurostat décrit une structure très proche dans l'Union européenne en 2024, avec 15 332 hommes et 4 552 femmes parmi les décès dont le sexe est renseigné, soit environ trois quarts de victimes masculines sur la décennie récente. La Commission européenne ajoute qu'en 2025 la mortalité routière totale dans l'UE recule d'environ 3 %, sans signaler à ce stade un retournement de cette asymétrie de sexe.",
+  "keyPoints": [
+    "L'ONISR mesure 3 263 décès routiers en France métropolitaine en 2025, dont 2 523 hommes et 740 femmes, soit 77 % de victimes masculines.",
+    "Selon la même source, la part masculine monte à 93 % des tués en deux-roues motorisés et 98 % en poids lourds, contre 73 % en voiture et 58 % à pied.",
+    "Eurostat indique qu'en 2024 l'UE compte 15 332 hommes et 4 552 femmes tués sur la route, avec une majorité masculine restée autour de trois quarts entre 2014 et 2024.",
+    "La Commission européenne estime à environ 19 400 le nombre total de morts sur les routes de l'UE en 2025, soit 3 % de moins qu'en 2024, mais précise que la plupart des États membres ne sont pas encore sur la trajectoire de l'objectif 2030."
+  ],
+  "sections": [
+    {
+      "heading": "En France, le bilan 2025 reste nettement masculin",
+      "paragraphs": [
+        "Le signal le plus récent vient du bilan 2025 de l'Observatoire national interministériel de la sécurité routière, publié en juin 2026. Pour la France métropolitaine, l'ONISR recense 3 263 personnes décédées sur les routes en 2025, dont 2 523 hommes et 740 femmes.",
+        "Autrement dit, environ 77 % des personnes tuées sont des hommes. La source souligne aussi que cette proportion est identique à celle observée en 2024 et en 2019, ce qui décrit moins une rupture récente qu'une asymétrie durable."
+      ]
+    },
+    {
+      "heading": "L'écart varie fortement selon le mode de déplacement",
+      "paragraphs": [
+        "Le même bilan ONISR montre que la répartition n'est pas uniforme selon les usages de la route. En 2025, la part masculine des décès atteint 98 % pour les poids lourds et 93 % pour les deux-roues motorisés. Elle descend à 73 % pour les véhicules de tourisme et à 58 % pour la marche à pied.",
+        "Cette lecture est importante pour *isora* car elle évite de présenter la mortalité routière comme un risque identique pour toutes les situations. Les résultats observés mélangent des écarts de conduite, d'exposition kilométrique, de pratiques professionnelles et de composition sexuée des différents modes de transport."
+      ]
+    },
+    {
+      "heading": "L'Union européenne présente une structure très proche",
+      "paragraphs": [
+        "Les statistiques routières d'Eurostat confirment que la structure française n'est pas isolée. Dans l'Union européenne, 19 934 personnes sont mortes sur la route en 2024. Parmi les décès dont le sexe est renseigné, Eurostat dénombre 15 332 hommes et 4 552 femmes.",
+        "L'organisme résume cette série par une formule prudente : entre 2014 et 2024, les hommes représentent autour de trois quarts des décès routiers dans l'UE, tandis que les femmes en représentent environ un quart. Eurostat indique aussi que la baisse sur dix ans est plus forte chez les femmes que chez les hommes, avec -18,4 % contre -12,6 % entre 2014 et 2024."
+      ]
+    },
+    {
+      "heading": "La tendance 2025 dans l'UE est à la baisse, sans inversion de l'asymétrie",
+      "paragraphs": [
+        "La Commission européenne a publié le 24 mars 2026 une estimation préliminaire pour 2025 : environ 19 400 personnes seraient mortes sur les routes de l'UE, soit 580 de moins qu'en 2024, ce qui correspond à une baisse d'environ 3 %. La Commission précise toutefois que la plupart des États membres ne sont pas encore sur la trajectoire qui permettrait de diviser par deux les décès d'ici 2030.",
+        "Cette note préliminaire n'apporte pas encore de ventilation détaillée par sexe pour 2025 à l'échelle de toute l'Union. En l'état, le meilleur point de comparaison harmonisé reste donc la série Eurostat 2024, qui ne montre pas de retournement de la surreprésentation masculine."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les sources ne portent pas exactement sur la même population. L'ONISR décrit les accidents corporels enregistrés par les forces de l'ordre en France métropolitaine en 2025, avec des estimations séparées pour les blessés. Eurostat exploite la base CARE de l'UE pour les décès routiers observés en 2024 dans les États membres, avec un petit nombre de cas dont le sexe n'est pas renseigné. La Commission européenne diffuse enfin un total préliminaire 2025, encore susceptible d'être révisé à l'automne 2026.",
+        "Ces chiffres ne mesurent pas un risque individuel à exposition égale. Ils ne disent pas, à eux seuls, qu'un homme et une femme ayant le même kilométrage, le même véhicule, le même métier et les mêmes horaires auraient exactement le même niveau de risque. Ils décrivent une distribution observée des décès routiers selon les catégories statistiques de sexe utilisées par les organismes producteurs; ils ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "L'article dit-il que les hommes conduisent forcément plus dangereusement ?",
+      "answer": "Non. Les sources citées décrivent une répartition observée des décès selon le sexe, pas une cause unique. L'écart peut combiner plusieurs facteurs, comme les types de véhicules utilisés, l'exposition professionnelle, les distances parcourues, l'âge et certains comportements de conduite."
+    },
+    {
+      "question": "Pourquoi comparer la France 2025 à l'UE 2024 ?",
+      "answer": "Parce que les sources harmonisées ne sont pas publiées au même moment. Le bilan ONISR 2025 est déjà disponible pour la France, tandis que le détail comparable le plus solide à l'échelle de l'UE reste la série Eurostat 2024. La Commission européenne n'a publié pour 2025 qu'un total préliminaire, sans ventilation détaillée par sexe."
+    },
+    {
+      "question": "Peut-on conclure que les femmes sont peu concernées par la sécurité routière ?",
+      "answer": "Non. Les femmes restent directement concernées par la mortalité et les blessures routières. L'article montre seulement que, dans les données récentes disponibles, les hommes représentent une part beaucoup plus élevée des décès, surtout pour certains modes de déplacement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bilan 2025 de la sécurité routière",
+      "publisher": "ONISR",
+      "url": "https://www.onisr.securite-routiere.gouv.fr/etat-de-linsecurite-routiere/bilans-annuels-de-la-securite-routiere/bilan-2025-de-la-securite-routiere",
+      "date": "juin 2026, données 2025",
+      "type": "bilan annuel"
+    },
+    {
+      "title": "Road safety statistics in the EU",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_safety_statistics_in_the_EU",
+      "date": "2026, données 2024",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Annual statistical report on road safety in the EU 2026",
+      "publisher": "Commission européenne / CARE / ERSO",
+      "url": "https://road-safety.transport.ec.europa.eu/document/download/ed29ad84-b2f1-429e-97ca-2b713e7dc1b1_en?filename=ERSOnext_AnnualReport_20260323.pdf",
+      "date": "23 mars 2026",
+      "type": "rapport statistique"
+    },
+    {
+      "title": "EU road deaths drop by 3% in 2025",
+      "publisher": "Commission européenne",
+      "url": "https://transport.ec.europa.eu/news-events/news/eu-road-deaths-drop-3-2025-2026-03-24_en",
+      "date": "24 mars 2026",
+      "type": "note institutionnelle"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-07-02T18:15:00.000Z",
+    "requiresHumanReview": false
+  }
+}
