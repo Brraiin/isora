@@ -967,20 +967,20 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Femmes Ingénieures / IESF (2025): https://www.femmes-ingenieures.org/offres/file_inline_src/82/82_P_38037_690cc4ba6342f_33.pdf; DEPP / Ministère de l'Éducation nationale (2024): https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2024-413799; DREES (2025): https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/MS2025%20-%20Fiche%2032%20-%20Les%20bourses%20sur%20crit%C3%A8res%20sociaux%20%28BCS%29.pdf; MESR / SIES (2022): https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2022-03/esri---vers-l-galit-femmes-hommes---2022-17027.pdf
 
-## Femmes plus appauvries après une séparation
+## Niveau de vie des femmes plus touché après séparation
 - ID: femmes-separation-niveau-vie
 - URL: https://isora-xi.vercel.app/fiches/femmes-separation-niveau-vie/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-separation-niveau-vie
 - Group: femmes
 - Angle: désavantage_subi
 - Domain: Famille
-- Zone: France
-- Period: 2025+
+- Zone: Occitanie (France)
+- Period: 2014-2020
 - Status: actuel
 - Key measure: -17 % vs -7 %
-- Summary: Dans l'étude Insee Occitanie, l'année de la séparation, le niveau de vie médian diminue de 17 % pour les femmes contre 7 % pour les hommes. La pauvreté touche alors 26 % des femmes séparées contre 18 % des hommes.
-- Nuance: L'étude porte sur l'Occitanie. Elle est cohérente avec d'autres travaux, mais une fiche nationale serait préférable.
-- Measured population: Population mesurée par la source : femmes et hommes séparés dans les données Insee. La source ne mesure pas les chromosomes.
+- Summary: Dans l'étude Insee Occitanie, l'année de la séparation, le niveau de vie médian diminue de 17 % pour les femmes contre 7 % pour les hommes. L'écart reflète notamment la perte d'un niveau de vie de couple où les revenus du conjoint étaient mutualisés.
+- Nuance: L'Insee mesure le niveau de vie du ménage après séparation, pas un appauvrissement personnel au sens strict. Avant la séparation, le niveau de vie du foyer est calculé avec les revenus mis en commun; après la séparation, les revenus du conjoint ne bénéficient plus au nouveau ménage. L'Insee indique qu'avant rupture les femmes contribuent en moyenne à 36 % des revenus d'activité du ménage, leurs revenus d'activité étant souvent plus faibles que ceux de leur conjoint. L'autre facteur cité est la garde des enfants, plus souvent assumée par les mères, qui réduit le niveau de vie mesuré. Chez les femmes des ménages les plus modestes, une partie reprend ou augmente une activité: leur revenu d'activité individuel moyen passe de 607 à 707 euros l'année de la séparation, mais les autres revenus du ménage diminuent. Le champ reste l'Occitanie, pour des séparations observées entre 2014 et 2020; une fiche nationale serait préférable.
+- Measured population: Population mesurée par la source : femmes et hommes ayant connu une séparation entre 2014 et 2020, résidant en Occitanie l'année de la séparation et suivis dans l'échantillon démographique permanent de l'Insee. La source mesure le niveau de vie du ménage et les composantes du revenu disponible, pas les chromosomes.
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Insee (2025): https://www.insee.fr/fr/statistiques/8338430
 

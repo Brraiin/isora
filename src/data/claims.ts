@@ -2085,10 +2085,10 @@ const rawClaims: RawClaim[] = [
     id: "femmes-separation-niveau-vie",
     side: "femmes",
     domain: "Famille",
-    title: "Femmes plus appauvries après une séparation",
+    title: "Niveau de vie des femmes plus touché après séparation",
     metric: "-17 % vs -7 %",
     summary:
-      "Dans l'étude Insee Occitanie, l'année de la séparation, le niveau de vie médian diminue de 17 % pour les femmes contre 7 % pour les hommes. La pauvreté touche alors 26 % des femmes séparées contre 18 % des hommes.",
+      "Dans l'étude Insee Occitanie, l'année de la séparation, le niveau de vie médian diminue de 17 % pour les femmes contre 7 % pour les hommes. L'écart reflète notamment la perte d'un niveau de vie de couple où les revenus du conjoint étaient mutualisés.",
     tags: ["famille", "revenus", "séparation", "sociétal"],
     source: {
       label:
@@ -2098,9 +2098,9 @@ const rawClaims: RawClaim[] = [
       date: "2025",
     },
     confidence: "moyenne",
-    lastChecked: "15 juin 2026",
+    lastChecked: "3 juillet 2026",
     nuance:
-      "L'étude porte sur l'Occitanie. Elle est cohérente avec d'autres travaux, mais une fiche nationale serait préférable.",
+      "L'Insee mesure le niveau de vie du ménage après séparation, pas un appauvrissement personnel au sens strict. Avant la séparation, le niveau de vie du foyer est calculé avec les revenus mis en commun; après la séparation, les revenus du conjoint ne bénéficient plus au nouveau ménage. L'Insee indique qu'avant rupture les femmes contribuent en moyenne à 36 % des revenus d'activité du ménage, leurs revenus d'activité étant souvent plus faibles que ceux de leur conjoint. L'autre facteur cité est la garde des enfants, plus souvent assumée par les mères, qui réduit le niveau de vie mesuré. Chez les femmes des ménages les plus modestes, une partie reprend ou augmente une activité: leur revenu d'activité individuel moyen passe de 607 à 707 euros l'année de la séparation, mais les autres revenus du ménage diminuent. Le champ reste l'Occitanie, pour des séparations observées entre 2014 et 2020; une fiche nationale serait préférable.",
   },
   {
     id: "femmes-discrimination-religieuse",
@@ -3378,7 +3378,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-ingenierie":
     "Population mesurée par les sources : femmes ingénieures et diplômées selon l'enquête IESF, filles et garçons dans les statistiques DEPP de réussite et d'orientation, et bénéficiaires de bourses sur critères sociaux. Les sources ne mesurent pas les chromosomes.",
   "femmes-separation-niveau-vie":
-    "Population mesurée par la source : femmes et hommes séparés dans les données Insee. La source ne mesure pas les chromosomes.",
+    "Population mesurée par la source : femmes et hommes ayant connu une séparation entre 2014 et 2020, résidant en Occitanie l'année de la séparation et suivis dans l'échantillon démographique permanent de l'Insee. La source mesure le niveau de vie du ménage et les composantes du revenu disponible, pas les chromosomes.",
   "femmes-discrimination-religieuse":
     "Population mesurée par la source : candidate visée par une décision juridique liée au sexe et à la religion. La source ne mesure pas les chromosomes.",
   "femmes-france-droit-vote-1944":
@@ -3703,6 +3703,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "faible à moyenne",
     legalType: "prix genrés et marketing différencié",
+  },
+  "femmes-separation-niveau-vie": {
+    pays_ou_zone: "Occitanie (France)",
+    regionScope: "Europe",
+    periode_debut: "2014",
+    periode_fin: "2020",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "niveau de vie du ménage après séparation",
   },
   "femmes-france-droit-vote-1944": {
     pays_ou_zone: "France",
