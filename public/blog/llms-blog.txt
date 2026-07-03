@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart
+- URL: https://isora-xi.vercel.app/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/
+- Date: 2026-07-03
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-temps-partiel, femmes-charge-domestique-soin, hommes-conge-paternite-ocde
+- Resume: La veille du 3 juillet 2026 fait ressortir un schéma stable dans plusieurs sources publiques. A l'échelle de l'UE, Eurostat indique qu'en 2024 l'écart d'emploi entre femmes et hommes de 25 a 54 ans vivant avec des enfants atteint 16,5 points, avec 75,4 % de femmes en emploi contre 91,9 % d'hommes. En France, l'Insee et la DREES montrent que les mères reduisent plus souvent leur activité ou restent plus souvent seules avec les jeunes enfants, meme lorsque les pères sont davantage presents qu'au debut des annees 2000. L'OCDE ajoute que les droits de congé paye reserves aux pères se sont etendus, mais restent plus courts que ceux reserves aux mères dans la plupart des pays membres.
+- Sources: Eurostat (juin 2026, donnees 2024-2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=SDG_5_-_Gender_equality; Eurostat (6 mars 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1; DREES (25 novembre 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/communique-de-presse/251120-prise-en-charge-des-jeunes-enfants; OCDE (novembre 2025): https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html; Insee (2025, donnees 2023): https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/
+
 ### Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE
 - URL: https://isora-xi.vercel.app/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/
 - Date: 2026-07-02

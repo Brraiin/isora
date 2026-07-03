@@ -1,0 +1,137 @@
+{
+  "id": "2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde",
+  "slug": "2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde",
+  "status": "published",
+  "language": "fr",
+  "title": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
+  "description": "Les sources 2025-2026 convergent vers une asymétrie persistante mais nuancée : avec enfants, l'emploi et le temps partiel se déplacent surtout du côté des mères, tandis que les pères passent plus de temps avec les jeunes enfants et disposent de droits au congé plus développés qu'avant, sans symétrie complète.",
+  "date": "2026-07-03",
+  "publishedAt": "2026-07-03T18:30:00.000Z",
+  "updatedAt": "2026-07-03T18:30:00.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "parentalité emploi mères pères Europe 2024",
+    "DREES temps parental jeunes enfants 2025",
+    "Eurostat gender employment gap children 2026",
+    "OCDE paid leave for fathers 2025",
+    "Insee mères pères activité temps partiel 2023"
+  ],
+  "relatedClaimIds": [
+    "femmes-temps-partiel",
+    "femmes-charge-domestique-soin",
+    "hommes-conge-paternite-ocde"
+  ],
+  "readingMinutes": 5,
+  "summary": "La veille du 3 juillet 2026 fait ressortir un schéma stable dans plusieurs sources publiques. A l'échelle de l'UE, Eurostat indique qu'en 2024 l'écart d'emploi entre femmes et hommes de 25 a 54 ans vivant avec des enfants atteint 16,5 points, avec 75,4 % de femmes en emploi contre 91,9 % d'hommes. En France, l'Insee et la DREES montrent que les mères reduisent plus souvent leur activité ou restent plus souvent seules avec les jeunes enfants, meme lorsque les pères sont davantage presents qu'au debut des annees 2000. L'OCDE ajoute que les droits de congé paye reserves aux pères se sont etendus, mais restent plus courts que ceux reserves aux mères dans la plupart des pays membres.",
+  "keyPoints": [
+    "Eurostat indique qu'en 2024, parmi les 25-54 ans vivant avec des enfants dans l'UE, le taux d'emploi est de 75,4 % pour les femmes contre 91,9 % pour les hommes, soit un écart de 16,5 points.",
+    "Le meme article Eurostat signale que, parmi les personnes hautement diplômées avec trois enfants ou plus, le taux d'emploi reste de 81,8 % pour les femmes contre 95,4 % pour les hommes.",
+    "L'Insee indique qu'en France en 2023, le taux d'activité des mères de deux enfants dont un de moins de 3 ans est de 79 %, contre 96 % pour les pères ; pour trois enfants ou plus avec un enfant de moins de 3 ans, il est de 54 % contre 92 %.",
+    "La DREES mesure en 2021 que les mères d'enfants de moins de 6 ans sont seules en charge des enfants 23 heures par semaine en moyenne, soit quatre fois plus longtemps que les pères ; 45 % des enfants de moins de 6 ans ne sont jamais pris en charge par leur père seul au cours d'une semaine habituelle.",
+    "L'OCDE indique qu'en 2024 les periodes de congé payé reservees aux mères atteignent en moyenne 25,4 semaines dans l'OCDE, contre 12,7 semaines reservees aux pères, dont 2,4 semaines de congé paternité payé en moyenne."
+  ],
+  "sections": [
+    {
+      "heading": "L'écart d'emploi avec enfants reste d'abord un écart femmes-hommes",
+      "paragraphs": [
+        "Le signal recent le plus lisible vient d'Eurostat. Dans son suivi 2026 de l'objectif europeen d'egalite, l'organisme indique qu'en 2024 l'ecart d'emploi entre femmes et hommes ages de 25 a 54 ans vivant avec des enfants atteint 16,5 points dans l'Union europeenne. Les hommes avec enfants ont un taux d'emploi de 91,9 %, contre 83,9 % pour les hommes sans enfants, alors que les femmes avec enfants sont a 75,4 %, contre 80,2 % pour les femmes sans enfants.",
+        "Autrement dit, la presence d'enfants est associee a une hausse d'emploi chez les hommes et a une baisse chez les femmes dans cette tranche d'age. Eurostat ajoute qu'en 2025, 27,5 % des femmes en emploi de 20 a 64 ans travaillent a temps partiel dans l'UE, contre 7,8 % des hommes, et que les responsabilites de soin sont une raison principale plus souvent citee par les femmes."
+      ]
+    },
+    {
+      "heading": "Le niveau d'etudes reduit l'ecart sans l'annuler",
+      "paragraphs": [
+        "Le detail publie par Eurostat en mars 2026 montre que le niveau d'etudes amortit partiellement l'asymetrie sans la faire disparaitre. Chez les adultes tres diplomes vivant avec des enfants, les taux d'emploi restent eleves pour les deux sexes, mais les femmes ne rejoignent pas les niveaux masculins.",
+        "Par exemple, dans les menages avec deux enfants, le taux d'emploi atteint 88,0 % pour les femmes tres diplomees contre 96,7 % pour les hommes. Avec trois enfants ou plus, il descend a 81,8 % pour les femmes contre 95,4 % pour les hommes. La source montre donc un ecart plus faible qu'aux niveaux d'etudes bas ou moyens, mais pas une symetrie complete."
+      ]
+    },
+    {
+      "heading": "En France, les mères restent plus souvent seules avec les jeunes enfants",
+      "paragraphs": [
+        "Les sources francaises recentes decrivent un tableau proche. Dans sa synthese 2025 sur l'evolution des inegalites entre les femmes et les hommes, l'Insee indique qu'en 2023 le taux d'activite des femmes de 25 a 49 ans sans enfant est proche de celui des hommes sans enfant, autour de 89 %. Mais ce rapprochement se defait avec les jeunes enfants : pour deux enfants dont un de moins de 3 ans, le taux d'activite est de 79 % pour les mères contre 96 % pour les peres ; pour trois enfants ou plus avec un enfant de moins de 3 ans, il tombe a 54 % contre 92 %.",
+        "La meme source indique aussi que, parmi les salaries, 29 % des femmes ayant deux enfants a charge et 35 % de celles ayant trois enfants ou plus travaillent a temps partiel, contre 5 % et 7 % des peres. La DREES ajoute, pour l'annee 2021, que les mères d'enfants de moins de 6 ans sont seules en charge des enfants 23 heures par semaine en moyenne, soit quatre fois plus longtemps que les peres. Elle note egalement que 45 % des enfants de moins de 6 ans ne sont jamais pris en charge par leur pere seul au cours d'une semaine habituelle."
+      ]
+    },
+    {
+      "heading": "Les pères sont plus presents qu'avant, mais surtout en tandem",
+      "paragraphs": [
+        "La publication DREES de novembre 2025 n'indique pas une immobilite complete. Elle mesure au contraire une hausse du temps de presence des peres aupres des jeunes enfants : +2 heures 30 par semaine entre 2002 et 2021, dont +3 heures 15 par rapport a 2013.",
+        "Mais ce rattrapage reste partiel. La DREES precise que cette hausse se fait surtout en presence de la mere, pas davantage seul avec les enfants. Dans les couples ou les deux parents travaillent a temps complet, les mères disposent encore de 3 heures 10 de moins par semaine de temps sans travail ni enfant, soit 20 % de moins que les peres."
+      ]
+    },
+    {
+      "heading": "Les droits au congé des pères progressent, sans rejoindre ceux des mères",
+      "paragraphs": [
+        "Le rapport OCDE publie fin 2025 sur les conges payes pour les peres montre que le cadre juridique evolue lui aussi, mais de facon asymetrique. Au printemps 2024, 35 des 38 pays de l'OCDE offrent un conge paye reserve aux peres, soit sous forme de conge paternite, soit via une part de conge parental non transferable.",
+        "Cette progression n'efface pas l'ecart de duree. L'OCDE calcule en moyenne 25,4 semaines de conge paye reservees aux mères, contre 12,7 reservees aux peres, dont 2,4 semaines de conge paternite paye en moyenne. La source ajoute que les peres prennent davantage de conges qu'il y a dix ans, mais que l'usage reste loin d'etre partage a egalite."
+      ]
+    },
+    {
+      "heading": "Population mesuree et limites",
+      "paragraphs": [
+        "Les sources mobilisees ici ne mesurent pas exactement la meme population. Eurostat observe des adultes vivant dans des menages avec ou sans enfants dans l'UE et publie des indicateurs d'emploi ou de temps partiel selon le sexe, l'age, le nombre d'enfants et parfois le niveau d'etudes. L'Insee decrit la France hors Mayotte a partir de l'enquete Emploi 2023. La DREES observe surtout les enfants de moins de 6 ans et leurs parents en France metropolitaine, avec un focus specifique sur l'organisation hebdomadaire du temps. L'OCDE compare des droits legaux au conge dans ses pays membres, pas l'usage reel de chaque famille a population equivalente.",
+        "Ces chiffres ne suffisent donc pas a attribuer une cause unique a l'asymetrie. Ils ne distinguent pas toujours ce qui releve des preferences, des revenus du couple, du cout des modes d'accueil, des contraintes d'employeur, de la sante ou des normes sociales. Enfin, toutes ces sources utilisent les categories statistiques femmes et hommes propres a leurs enquêtes ou bases administratives ; elles ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "L'article dit-il que tous les peres s'occupent moins des enfants que toutes les mères ?",
+      "answer": "Non. Les sources decrivent des moyennes de population et montrent aussi une progression de l'implication paternelle. Elles indiquent seulement qu'a grande echelle, la reduction d'activite et la prise en charge en solo restent plus frequentes du cote des mères."
+    },
+    {
+      "question": "Pourquoi parler ensemble d'emploi, de temps parental et de conges ?",
+      "answer": "Parce que les trois sujets sont lies sans se confondre. Le taux d'emploi mesure la participation au marche du travail, le temps parental decrit l'organisation concrete de la semaine, et les conges renseignent les droits disponibles. Les recentes publications montrent une asymetrie dans chacun de ces registres."
+    },
+    {
+      "question": "Le niveau d'etudes annule-t-il l'ecart entre mères et peres ?",
+      "answer": "Non. Eurostat montre qu'un niveau d'etudes eleve est associe a des taux d'emploi plus hauts et a un ecart plus faible, mais pas a une egalite complete. Avec plusieurs enfants, les femmes tres diplomees restent moins souvent en emploi que les hommes tres diplomes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SDG 5 - Gender equality",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=SDG_5_-_Gender_equality",
+      "date": "juin 2026, donnees 2024-2025",
+      "type": "synthese statistique"
+    },
+    {
+      "title": "Higher education reduces gender employment gap",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1",
+      "date": "6 mars 2026",
+      "type": "note statistique"
+    },
+    {
+      "title": "Prise en charge des jeunes enfants : evolution du temps parental et organisation des familles sur une semaine habituelle",
+      "publisher": "DREES",
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/communique-de-presse/251120-prise-en-charge-des-jeunes-enfants",
+      "date": "25 novembre 2025",
+      "type": "communique de presse et etudes"
+    },
+    {
+      "title": "Paid leave for fathers",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html",
+      "date": "novembre 2025",
+      "type": "policy brief"
+    },
+    {
+      "title": "Evolution des inegalites entre les femmes et les hommes",
+      "publisher": "Insee",
+      "url": "https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/",
+      "date": "2025, donnees 2023",
+      "type": "synthese statistique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistee par Codex",
+    "model": "codex",
+    "generatedAt": "2026-07-03T18:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}

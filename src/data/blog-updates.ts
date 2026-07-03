@@ -12,6 +12,36 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-charge-domestique-soin",
+    "side": "femmes",
+    "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
+    "claimMetric": "2,5x",
+    "blogTitle": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
+    "blogUrl": "/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
+    "date": "2026-07-03",
+    "updatedAt": "2026-07-03T18:30:00.000Z"
+  },
+  {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
+    "blogUrl": "/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
+    "date": "2026-07-03",
+    "updatedAt": "2026-07-03T18:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-conge-paternite-ocde",
+    "side": "hommes",
+    "claimTitle": "Pères limités par un congé paternité payé très court",
+    "claimMetric": "2,4 sem.",
+    "blogTitle": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
+    "blogUrl": "/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
+    "date": "2026-07-03",
+    "updatedAt": "2026-07-03T18:30:00.000Z"
+  },
+  {
     "claimId": "hommes-accidents-route-monde",
     "side": "hommes",
     "claimTitle": "Hommes beaucoup plus exposés à la mortalité routière",
@@ -62,16 +92,6 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-06-30T07:30:00.000Z"
   },
   {
-    "claimId": "femmes-charge-domestique-soin",
-    "side": "femmes",
-    "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
-    "claimMetric": "2,5x",
-    "blogTitle": "Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée",
-    "blogUrl": "/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/",
-    "date": "2026-06-29",
-    "updatedAt": "2026-06-29T07:20:00.000Z"
-  },
-  {
     "claimId": "femmes-soin-non-remunere-emploi",
     "side": "femmes",
     "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
@@ -110,16 +130,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/",
     "date": "2026-06-28",
     "updatedAt": "2026-06-28T08:58:00.000Z"
-  },
-  {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l'UE",
-    "blogUrl": "/blog/2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe/",
-    "date": "2026-06-26",
-    "updatedAt": "2026-06-26T18:03:14.000Z"
   },
   {
     "claimId": "hommes-vocabulaire-masculinisme-pejoratif",
