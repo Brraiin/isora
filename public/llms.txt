@@ -6,7 +6,7 @@ URL canonique: https://isora-xi.vercel.app/
 Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-06-28T00:00:00+02:00
+Derniere generation: 2026-07-03T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -19,7 +19,7 @@ Derniere generation: 2026-06-28T00:00:00+02:00
 - Fiches: 92
 - Fiches concernant les hommes: 39
 - Fiches concernant les femmes: 53
-- Sources distinctes: 196
+- Sources distinctes: 197
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -31,6 +31,41 @@ Derniere generation: 2026-06-28T00:00:00+02:00
 ## Articles isora
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
+
+### Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE
+- URL: https://isora-xi.vercel.app/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/
+- Date: 2026-07-02
+- Fiches isora liees: hommes-accidents-route-monde
+- Resume: La veille du 2 juillet 2026 fait ressortir une asymétrie documentée mais à lire avec précision. En France métropolitaine, l'ONISR indique qu'en 2025 les hommes représentent 2 523 des 3 263 personnes décédées sur la route, soit 77 %. Eurostat décrit une structure très proche dans l'Union européenne en 2024, avec 15 332 hommes et 4 552 femmes parmi les décès dont le sexe est renseigné, soit environ trois quarts de victimes masculines sur la décennie récente. La Commission européenne ajoute qu'en 2025 la mortalité routière totale dans l'UE recule d'environ 3 %, sans signaler à ce stade un retournement de cette asymétrie de sexe.
+- Sources: ONISR: https://www.onisr.securite-routiere.gouv.fr/etat-de-linsecurite-routiere/bilans-annuels-de-la-securite-routiere/bilan-2025-de-la-securite-routiere; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_safety_statistics_in_the_EU; Commission européenne / CARE / ERSO: https://road-safety.transport.ec.europa.eu/document/download/ed29ad84-b2f1-429e-97ca-2b713e7dc1b1_en?filename=ERSOnext_AnnualReport_20260323.pdf; Commission européenne: https://transport.ec.europa.eu/news-events/news/eu-road-deaths-drop-3-2025-2026-03-24_en
+
+### IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins
+- URL: https://isora-xi.vercel.app/blog/2026-07-01-ia-generative-emplois-feminises-numerique/
+- Date: 2026-07-01
+- Fiches isora liees: femmes-ingenierie
+- Resume: Les publications récentes sur l'IA générative invitent à distinguer plusieurs niveaux d'analyse. L'OIT estime qu'un quart des emplois dans le monde se situent dans des occupations potentiellement exposées à l'IA générative, avec une exposition plus forte dans les pays à revenu élevé et, dans ces pays, une part de l'emploi féminin plus élevée dans les occupations les plus automatisables. L'OCDE ajoute que l'exposition moyenne des femmes et des hommes n'est pas radicalement différente à l'échelle des occupations observées, mais qu'elle se distribue différemment : davantage de femmes dans certains emplois administratifs très exposés, davantage d'hommes dans les métiers ICT et dans plusieurs professions au sommet de l'échelle d'exposition. Eurostat montre enfin qu'en 2025 les hommes déclaraient utiliser un peu plus souvent les outils d'IA générative que les femmes dans l'UE, et que les métiers ICT restaient très majoritairement masculins.
+- Sources: OIT: https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure; OIT: https://www.ilo.org/resource/news/one-four-jobs-risk-being-transformed-genai-new-ilo%E2%80%93nask-global-index-shows; OCDE: https://www.oecd.org/en/publications/algorithm-and-eve_a1603510-en.html; Eurostat: https://ec.europa.eu/eurostat/documents/7870049/23260410/KS-01-26-009-EN-N.pdf/37d063cb-28cf-3b4e-91f3-c3784c970842?t=1774528533658&version=1.1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Towards_Digital_Decade_targets_for_Europe
+
+### Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe
+- URL: https://isora-xi.vercel.app/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/
+- Date: 2026-06-30
+- Fiches isora liees: hommes-sorties-precoces, hommes-decrochage-garcons-monde
+- Resume: Eurostat a publié le 4 juin 2026 une nouvelle synthèse sur les sorties précoces d'éducation et de formation dans l'Union européenne. En 2025, 9,1 % des 18-24 ans de l'UE sont classés comme sortants précoces, avec un écart persistant entre jeunes hommes (10,6 %) et jeunes femmes (7,5 %). La source précise que cette asymétrie vaut dans presque tous les pays de l'UE, sauf en Roumanie et en Bulgarie. En France, la dernière série détaillée disponible dans la publication Insee du 6 janvier 2025 porte sur 2023 et mesure 9,5 % pour les hommes contre 5,6 % pour les femmes. L'OCDE et l'UNESCO ajoutent que ce désavantage masculin coexiste avec d'autres configurations: les jeunes femmes dépassent les jeunes hommes dans le supérieur dans de nombreux pays, tandis que les filles restent plus exposées à l'exclusion scolaire primaire dans certains contextes mondiaux.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260604-1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Early_leavers_from_education_and_training; Insee: https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778; OCDE: https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/to-what-level-have-adults-studied_c1d483b0.html; UNESCO: https://www.unesco.org/en/gender-equality/education/boys
+
+### Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée
+- URL: https://isora-xi.vercel.app/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/
+- Date: 2026-06-29
+- Fiches isora liees: femmes-soin-non-remunere-emploi, femmes-charge-domestique-soin
+- Resume: Les publications récentes invitent à séparer deux périmètres. Dans l'étude DREES publiée en décembre 2025, 7,1 millions de personnes aident régulièrement un proche à domicile en France métropolitaine, et 58 % sont des femmes. Dans l'étude DREES publiée en juin 2026, le champ plus étroit de l'aide à la vie quotidienne recense 5,3 millions d'aidants de 16 ans ou plus, dont 57 % de femmes, avec une baisse de 6 % depuis 2008 malgré la hausse des besoins déclarés. Cette même source indique aussi que l'implication des hommes aidants s'intensifie et que certaines tâches domestiques sont moins exclusivement féminines qu'en 2008. Les comparaisons OCDE et Eurostat confirment toutefois qu'à grande échelle, les femmes restent plus souvent impliquées dans le soin et le travail domestique non rémunérés.
+- Sources: DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/251217-ER-etudes-et-resultats/proches-aidants; DREES: https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-06/ER1377_Proches_aidants.pdf; OCDE: https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/informal-carers_6f243c4d.html; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=How_do_women_and_men_use_their_time_-_statistics
+
+### Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes
+- URL: https://isora-xi.vercel.app/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/
+- Date: 2026-06-28
+- Fiches isora liees: hommes-accidents-travail
+- Resume: Les publications récentes sur la sinistralité au travail invitent à distinguer plusieurs réalités. En France, le focus genre du rapport annuel 2024 de l'Assurance Maladie montre qu'en 2023 les hommes concentrent 62 % des accidents du travail reconnus, tandis que les femmes sont légèrement majoritaires dans les accidents de trajet et dans les maladies professionnelles reconnues. Le jeu de données 2024 sur les maladies professionnelles confirme cette légère majorité féminine dans le total, mais aussi une forte dissymétrie selon les pathologies : davantage de TMS et de troubles psychiques reconnus chez les femmes, davantage de cancers professionnels et de décès chez les hommes. A l'échelle européenne, Eurostat observe aussi une majorité masculine dans les accidents du travail non mortels.
+- Sources: Assurance Maladie - Risques professionnels: https://www.assurance-maladie.ameli.fr/sites/default/files/rapport_annuel_2024_de_lassurance_maladie_-_risques_professionnels_novembre_2025.pdf; Assurance Maladie - Risques professionnels: https://www.assurance-maladie.ameli.fr/etudes-et-donnees/mp-indicateurs-selon-age-sexe-profession-exposition; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260428-1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Accidents_at_work_statistics
 
 ### Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue
 - URL: https://isora-xi.vercel.app/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/
@@ -52,32 +87,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: hommes-vocabulaire-masculinisme-pejoratif
 - Resume: Les définitions consultées font apparaître une asymétrie lexicale nette : le féminisme est généralement défini par un objectif de droits ou d'égalité, tandis que le masculinisme est majoritairement défini par ses usages antiféministes, sexistes ou réactionnels. Cette différence ne tranche pas le débat politique, mais elle montre qu'il existe peu de vocabulaire neutre pour parler des vulnérabilités masculines sans les rabattre sur la haine des femmes. Les exemples repérés de mouvements féministes ou pro-féministes défendant une asymétrie défavorable aux hommes existent surtout sur la paternité, le congé parental et le soin; ils ne constituent pas une prise en charge générale des désavantages masculins.
 - Sources: Larousse: https://www.larousse.fr/dictionnaires/francais/masculinisme/49698; Le Robert: https://dictionnaire.lerobert.com/definition/masculinisme; Académie française, 10e édition: https://www.dictionnaire-academie.fr/article/B0M00085; Office québécois de la langue française / Grand dictionnaire terminologique: https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme; Larousse: https://www.larousse.fr/dictionnaires/francais/f%C3%A9minisme/33213; Académie française, 9e édition: https://www.dictionnaire-academie.fr/article/A9F0434; Larousse: https://www.larousse.fr/dictionnaires/francais/misogyne/51773; Larousse: https://www.larousse.fr/dictionnaires/francais/misandre/51743; The Fawcett Society: https://www.fawcettsociety.org.uk/blog/its-time-to-revolutionise-parental-leave-for-women-for-families-for-our-future; Women’s Budget Group: https://www.wbg.org.uk/publication/maternity-paternity-and-parental-leave-briefing-for-a-new-government/; Equimundo / MenCare: https://www.equimundo.org/state-of-the-worlds-fathers-research/; MenEngage Alliance: https://menengage.org/
-
-### Pères absents et adolescentes : ce que les études permettent vraiment de dire
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-peres-absents-adolescentes-etudes-limites/
-- Date: 2026-06-25
-- Resume: Une vidéo récente rassemble plusieurs études sur les filles, l'absence du père, la grossesse adolescente et les symptômes dépressifs. Le corpus est intéressant pour isora parce qu'il rappelle que la présence paternelle peut être une variable mesurable, parfois plus prédictive chez les filles que chez les garçons. Mais il ne faut pas lui faire dire autre chose : ces sources ne démontrent pas que les filles élevées uniquement par leur père iraient mieux que celles élevées par leur mère. Les rares comparaisons directes mère seule / père seul disponibles dans ce périmètre trouvent plutôt peu de différences, et les résultats sont fortement liés au contexte socioéconomique, familial et temporel.
-- Sources: Child Development / Oxford Academic: https://academic.oup.com/chidev/article/74/3/801/8276316; BJOG / Wiley: https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.15297; DREES: https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-familles-monoparentales-des-caracteristiques-liees-leur; Journal of Abnormal Child Psychology / Springer: https://link.springer.com/article/10.1007/s10802-016-0128-x; Psychological Medicine / Cambridge University Press: https://www.cambridge.org/core/journals/psychological-medicine/article/father-absence-and-depressive-symptoms-in-adolescence-findings-from-a-uk-cohort/4E039EFA52486C698B17948633083254; Journal of Abnormal Child Psychology / Springer: https://link.springer.com/article/10.1007/s10802-014-9960-z; Journal of Child and Family Studies / BYU ScholarsArchive: https://scholarsarchive.byu.edu/facpub/2773/; Journal of Family Issues / SAGE: https://journals.sagepub.com/doi/10.1177/019251394015001006
-
-### Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/
-- Date: 2026-06-25
-- Fiches isora liees: femmes-ingenierie, hommes-bourses-stem-reservees-femmes
-- Resume: Les publications récentes d'Eurostat et de l'OCDE montrent une asymétrie qui ne va pas dans un seul sens. Les femmes sont désormais plus nombreuses parmi les diplômés du supérieur et les jeunes adultes diplômés, mais les hommes restent nettement plus représentés dans les filières STEM et conservent un avantage d'emploi quand des enfants vivent au foyer, y compris parmi les plus diplômés.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Women_in_the_EU; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Tertiary_education_statistics; OCDE: https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en.html; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1
-
-### Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/
-- Date: 2026-06-25
-- Resume: Les sources françaises récentes invitent à distinguer deux résultats différents. Les données administratives analysées par Ferrari, Solaz et Vitali montrent un risque de séparation plus élevé lorsque la femme apporte plus de 55 % du revenu du couple. En revanche, la note CEPREMAP publiée en 2025 indique qu'à revenu de ménage donné, les données françaises ne confirment pas une baisse de satisfaction des hommes simplement parce que leur conjointe gagne plus, alors que des travaux britanniques et européens trouvent une pénalité de bien-être dans d'autres contextes.
-- Sources: INED: https://www.ined.fr/fr/tout-savoir-population/memos-demo/focus/differences-revenus-au-sein-couple-augmentent-elles-le-risque-separation; European Journal of Population / Springer: https://link.springer.com/article/10.1007/s10680-024-09705-7; CEPREMAP: https://www.cepremap.fr/depot/2025/02/2025-06-Une-affaire-de-couple.pdf; Insee: https://www.insee.fr/fr/statistiques/1281400
-
-### Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/
-- Date: 2026-06-25
-- Fiches isora liees: hommes-suicide, hommes-suicide-monde
-- Resume: Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.
-- Sources: DREES: https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf; DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/250511_hospitalisations-pour-tentatives-de-suicide; Santé publique France: https://www.santepubliquefrance.fr/sante-mentale/suicides-et-tentatives-de-suicide; OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473
 
 
 ## Hommes très majoritaires parmi les morts au travail
@@ -280,13 +289,13 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Angle: désavantage_subi
 - Domaine: Violences
 - Zone: Monde
-- Periode: 2023+
+- Periode: 2024+
 - Statut: actuel
 - Mesure cle: 80 %
-- Resume: En 2023, environ 80 % des victimes d'homicide dans le monde étaient des hommes. Le même rapport souligne que les femmes sont davantage tuées dans la sphère intime ou familiale.
-- Nuance: Les profils de victimation diffèrent selon le contexte. Ce chiffre documente une exposition masculine forte à la violence létale hors sphère intime.
+- Resume: En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.
+- Nuance: Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.
 - Population mesuree: Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.
-- Sources: UN Women / UNODC (2023): https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf
+- Sources: UN Women / UNODC (2024): https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; UNODC (25 novembre 2025): https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html
 
 ## Hommes davantage exposés à la mortalité liée au travail
 - ID: hommes-mortalite-travail-monde
@@ -686,7 +695,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Resume: Aux États-Unis, les femmes représentent 8,1 % des décès professionnels recensés en 2024, soit environ 91,9 % pour les hommes. Le risque global a fortement baissé depuis les années 1970, mais l'asymétrie masculine persiste.
 - Nuance: Dans les pays industrialisés, prévention, mécanisation et droit du travail ont réduit le risque depuis 1970. Les données récentes montrent néanmoins une surreprésentation masculine dans les accidents mortels au travail.
 - Population mesuree: Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.
-- Sources: OSHA (2024): https://www.osha.gov/data/commonstats; BLS (2024): https://www.bls.gov/news.release/cfoi.nr0.htm
+- Sources: BLS (2024): https://www.bls.gov/news.release/cfoi.nr0.htm; OSHA (2026): https://www.osha.gov/data/commonstats
 
 ## Hommes ukrainiens d'âge militaire limités à la frontière
 - ID: hommes-ukraine-restrictions-sortie-2022-2025

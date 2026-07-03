@@ -483,18 +483,26 @@ const rawClaims: RawClaim[] = [
     title: "Hommes majoritaires parmi les victimes d'homicide",
     metric: "80 %",
     summary:
-      "En 2023, environ 80 % des victimes d'homicide dans le monde étaient des hommes. Le même rapport souligne que les femmes sont davantage tuées dans la sphère intime ou familiale.",
+      "En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.",
     tags: ["violences", "sécurité", "homicide", "monde"],
     source: {
-      label: "Femicides in 2023: global estimates of intimate partner/family member femicides",
+      label: "Femicides in 2024: global estimates of intimate partner/family member femicides",
       publisher: "UN Women / UNODC",
-      url: "https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
-      date: "2023",
+      url: "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+      date: "2024",
     },
+    additionalSources: [
+      {
+        label: "137 women and girls killed every day by intimate partners or family members in 2024",
+        publisher: "UNODC",
+        url: "https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html",
+        date: "25 novembre 2025",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "30 juin 2026",
     nuance:
-      "Les profils de victimation diffèrent selon le contexte. Ce chiffre documente une exposition masculine forte à la violence létale hors sphère intime.",
+      "Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.",
   },
   {
     id: "hommes-mortalite-travail-monde",
@@ -1435,21 +1443,21 @@ const rawClaims: RawClaim[] = [
       "Aux États-Unis, les femmes représentent 8,1 % des décès professionnels recensés en 2024, soit environ 91,9 % pour les hommes. Le risque global a fortement baissé depuis les années 1970, mais l'asymétrie masculine persiste.",
     tags: ["travail", "sécurité", "États-Unis", "mortalité"],
     source: {
-      label: "Commonly Used Statistics",
-      publisher: "OSHA",
-      url: "https://www.osha.gov/data/commonstats",
+      label: "National Census of Fatal Occupational Injuries in 2024",
+      publisher: "BLS",
+      url: "https://www.bls.gov/news.release/cfoi.nr0.htm",
       date: "2024",
     },
     additionalSources: [
       {
-        label: "National Census of Fatal Occupational Injuries in 2024",
-        publisher: "BLS",
-        url: "https://www.bls.gov/news.release/cfoi.nr0.htm",
-        date: "2024",
+        label: "Commonly Used Statistics",
+        publisher: "OSHA",
+        url: "https://www.osha.gov/data/commonstats",
+        date: "2026",
       },
     ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "30 juin 2026",
     nuance:
       "Dans les pays industrialisés, prévention, mécanisation et droit du travail ont réduit le risque depuis 1970. Les données récentes montrent néanmoins une surreprésentation masculine dans les accidents mortels au travail.",
   },
@@ -2911,6 +2919,16 @@ const rawClaims: RawClaim[] = [
     lastChecked: "25 juin 2026",
     nuance:
       "La fiche porte sur l'absence de consentement libre, préalable et éclairé dans des contextes médicaux, pas sur la stérilisation volontaire ni sur l'ensemble des politiques de contraception. Les travaux cités soulignent que d'autres groupes ont aussi été touchés, mais que les femmes autochtones reviennent de façon centrale dans les témoignages, les études parlementaires et les réponses publiques. Les sources documentent des signalements, enquêtes, litiges et témoignages, pas une mesure exhaustive de prévalence nationale.",
+    translations: {
+      en: {
+        title: "Indigenous women in Canada targeted by non-consensual sterilizations",
+        summary:
+          "In Canada, parliamentary reports and federal documents describe forced or coerced sterilizations particularly affecting Indigenous women. A Health Canada note referred in 2019 to litigation over alleged cases between 1948 and the present, and parliamentary work still reported incidents raised in 2025.",
+        nuance:
+          "This entry concerns the absence of free, prior and informed consent in medical contexts, not voluntary sterilization or all contraception policies. The cited work notes that other groups were also affected, but Indigenous women are central in testimony, parliamentary studies and public responses. The sources document reports, investigations, litigation and testimony, not an exhaustive measure of national prevalence.",
+        sourcePopulation: "Indigenous women and other persons affected by forced or coerced sterilization in Canada",
+      },
+    },
   },
   {
     id: "femmes-avortement-non-securise",

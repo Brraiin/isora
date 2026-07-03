@@ -7,7 +7,6 @@
   var defaultCategories = {
     necessary: true,
     analytics: false,
-    marketing: false,
   };
   var currentConsent = readConsent();
 
@@ -21,14 +20,16 @@
   }
 
   function consentCategories(consent) {
-    return Object.assign({}, defaultCategories, consent && consent.categories ? consent.categories : {}, {
+    var savedCategories = consent && consent.categories ? consent.categories : {};
+
+    return {
       necessary: true,
-    });
+      analytics: Boolean(savedCategories.analytics),
+    };
   }
 
   function consentStatus(categories) {
-    if (categories.analytics && categories.marketing) return "accepted";
-    if (categories.analytics || categories.marketing) return "partial";
+    if (categories.analytics) return "accepted";
     return currentConsent ? "rejected" : "pending";
   }
 
@@ -72,7 +73,8 @@
     currentConsent = {
       version: 1,
       savedAt: new Date().toISOString(),
-      categories: Object.assign({}, defaultCategories, categories, {
+      categories: Object.assign({}, defaultCategories, {
+        analytics: Boolean(categories.analytics),
         necessary: true,
       }),
     };
@@ -260,9 +262,9 @@
       <section class="isora-cookie-consent__panel" aria-labelledby="isora-cookie-consent-title">
         <div class="isora-cookie-consent__bar">
           <div>
-            <p class="isora-cookie-consent__title" id="isora-cookie-consent-title">Cookies et traceurs sur isora</p>
+            <p class="isora-cookie-consent__title" id="isora-cookie-consent-title">Cookies et traceurs sur <em>isora</em></p>
             <p class="isora-cookie-consent__text">
-              Les traceurs strictement nécessaires restent actifs. La mesure d'audience et le marketing restent désactivés tant que vous ne les acceptez pas.
+              Les traceurs strictement nécessaires restent actifs. La mesure d'audience interne reste désactivée tant que vous ne l'acceptez pas.
             </p>
           </div>
 
@@ -286,17 +288,9 @@
             <label class="isora-cookie-consent__choice">
               <span>
                 <strong>Mesure d'audience</strong>
-                <span>Aide à comprendre les pages consultées et les recherches utiles dans isora.</span>
+                <span>Aide à compter les pages consultées et les recherches utiles dans <em>isora</em>, sans publicité.</span>
               </span>
               <input type="checkbox" data-isora-cookie-category="analytics">
-            </label>
-
-            <label class="isora-cookie-consent__choice">
-              <span>
-                <strong>Marketing</strong>
-                <span>Aucun outil actif pour l'instant. Cette catégorie reste prête si des campagnes sont ajoutées.</span>
-              </span>
-              <input type="checkbox" data-isora-cookie-category="marketing">
             </label>
           </div>
 
@@ -316,12 +310,12 @@
       var action = actionElement.dataset.isoraCookieAction;
 
       if (action === "accept") {
-        saveConsent({ analytics: true, marketing: true });
+        saveConsent({ analytics: true });
         return;
       }
 
       if (action === "reject") {
-        saveConsent({ analytics: false, marketing: false });
+        saveConsent({ analytics: false });
         return;
       }
 

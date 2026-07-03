@@ -29,64 +29,144 @@
     :root {
       color-scheme: light;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f4f4f0;
+      background: #f6f4ee;
       color: #171717;
+      --paper: #f6f4ee;
+      --surface: #ffffff;
+      --surface-soft: #fbfaf6;
+      --ink: #171717;
+      --muted: #57534e;
+      --line: #d8d3c7;
+      --blue: #1455a3;
+      --blue-soft: #eaf2fb;
+      --green: #147467;
+      --green-soft: #e4f3ed;
+      --amber: #8b5c12;
+      --amber-soft: #fff2d5;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: #f4f4f0; color: #171717; }
-    a { color: #1455a3; text-underline-offset: 0.18em; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--paper); color: var(--ink); }
+    a { color: var(--blue); text-underline-offset: 0.18em; }
     .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
-    .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
+    .topbar { border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, 0.96); }
     .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
-    .brand { display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; font-weight: 900; }
+    .brand { display: inline-flex; align-items: center; gap: 14px; color: var(--ink); text-decoration: none; font-weight: 900; }
     .brand img { width: 106px; height: auto; display: block; }
     .nav { display: flex; flex-wrap: wrap; gap: 10px; font-weight: 800; }
-    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; }
-    .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
-    .hero-inner { padding: 58px 0 48px; }
-    .kicker { margin: 0 0 14px; color: #13519c; font-weight: 900; }
-    h1 { margin: 0; max-width: 820px; font-size: clamp(2.1rem, 5vw, 4.1rem); line-height: 1.06; letter-spacing: 0; }
-    .lead { max-width: 780px; margin: 22px 0 0; font-size: 1.16rem; line-height: 1.72; color: #4b4b4b; }
+    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; border: 1px solid transparent; text-decoration: none; }
+    .nav a:hover { border-color: var(--line); background: var(--surface-soft); }
+    .hero { background: var(--surface); border-bottom: 1px solid var(--line); }
+    .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 30px; align-items: end; padding: 58px 0 46px; }
+    .hero-inner-simple { display: block; padding: 56px 0 42px; }
+    .hero-copy { min-width: 0; }
+    .hero-panel { display: grid; gap: 14px; align-self: stretch; background: var(--surface-soft); border: 1px solid var(--line); padding: 20px; }
+    .hero-panel strong { font-size: 1.08rem; line-height: 1.35; }
+    .hero-panel dl { display: grid; gap: 12px; margin: 0; }
+    .hero-panel div { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+    .hero-panel dt { color: var(--muted); font-size: 0.86rem; font-weight: 800; }
+    .hero-panel dd { margin: 0; color: var(--ink); font-size: 1.2rem; font-weight: 950; }
+    .panel-kicker,
+    .kicker { margin: 0 0 14px; color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .panel-kicker { margin: 0; }
+    h1 { margin: 0; max-width: 880px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 1.03; letter-spacing: 0; }
+    .lead { max-width: 820px; margin: 22px 0 0; font-size: 1.12rem; line-height: 1.72; color: var(--muted); }
     .meta { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
-    .pill { display: inline-flex; min-height: 32px; align-items: center; background: #fff; border: 1px solid #d8d8d0; padding: 5px 10px; font-size: 0.88rem; font-weight: 800; color: #3a3a3a; }
+    .pill,
+    .meta-chip { display: inline-flex; min-height: 32px; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--line); padding: 5px 10px; font-size: 0.88rem; font-weight: 820; color: #3a3732; }
+    .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
+    .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
+    .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
     main { padding-bottom: 64px; }
-    .article-grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 34px; align-items: start; padding-top: 34px; }
+    .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
-    .section { background: #fff; border: 1px solid #d8d8d0; padding: 26px; margin-bottom: 18px; }
-    .section h2 { margin: 0 0 14px; font-size: 1.42rem; line-height: 1.22; }
-    .section p { margin: 0 0 13px; color: #3f3f3f; line-height: 1.72; }
+    .article-grid > article { background: var(--surface); border: 1px solid var(--line); padding: 34px; }
+    .section { border-bottom: 1px solid var(--line); padding: 0 0 30px; margin-bottom: 30px; }
+    .section:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    .section h2 { margin: 0 0 14px; font-size: 1.55rem; line-height: 1.2; }
+    .section p { margin: 0 0 14px; color: #3f3a34; line-height: 1.78; font-size: 1.02rem; }
     .section p:last-child { margin-bottom: 0; }
-    .keypoints { display: grid; gap: 10px; padding: 0; list-style: none; }
-    .keypoints li { border-left: 4px solid #1455a3; background: #eef4fb; padding: 12px 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints { counter-reset: point; display: grid; gap: 10px; padding: 0; list-style: none; }
+    .keypoints li { counter-increment: point; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; background: var(--blue-soft); border: 1px solid #c8dbef; padding: 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints li::before { content: counter(point); display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: var(--blue); color: #fff; font-weight: 950; }
     aside { position: sticky; top: 18px; display: grid; gap: 14px; }
-    .sidebox { background: #fff; border: 1px solid #d8d8d0; padding: 18px; }
+    .sidebox { background: var(--surface); border: 1px solid var(--line); padding: 18px; }
     .sidebox h2 { margin: 0 0 10px; font-size: 1rem; }
-    .sources { display: grid; gap: 12px; padding: 0; list-style: none; }
-    .sources li { min-width: 0; line-height: 1.45; }
-    .sources a { overflow-wrap: anywhere; font-weight: 850; }
-    .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
+    ul.sources { display: grid; gap: 12px; padding: 0; list-style: none; }
+    ul.sources li { min-width: 0; line-height: 1.45; }
+    ul.sources a { overflow-wrap: anywhere; font-weight: 850; }
+    .source-meta { display: block; color: var(--muted); font-size: 0.88rem; margin-top: 3px; }
     .faq { display: grid; gap: 14px; }
-    details { border: 1px solid #d8d8d0; padding: 16px 18px 18px; background: #fff; }
+    details { border: 1px solid var(--line); padding: 16px 18px 18px; background: var(--surface-soft); }
     summary { cursor: pointer; font-weight: 900; line-height: 1.45; padding-bottom: 4px; }
     details[open] summary { margin-bottom: 8px; }
     .section details p { margin: 0 0 6px; line-height: 1.68; }
     .section details p:last-child { margin-bottom: 6px; }
-    .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
+    .method { border-top: 1px solid var(--line); padding: 28px 0 42px; color: var(--muted); line-height: 1.65; }
     .method-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
-    .cookie-settings-button { min-height: 40px; border: 1px solid #d8d8d0; background: #fff; color: #1455a3; padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
-    .cookie-settings-button:hover { background: #eef4fb; }
-    .post-list { display: grid; gap: 14px; padding: 34px 0 64px; }
-    .post-card { display: grid; gap: 10px; background: #fff; border: 1px solid #d8d8d0; padding: 22px; text-decoration: none; color: inherit; }
-    .post-card:hover { border-color: #1455a3; }
-    .post-card h2 { margin: 0; font-size: 1.35rem; line-height: 1.25; }
-    .post-card p { margin: 0; color: #555; line-height: 1.6; }
-    .post-card-action { color: #1455a3; font-weight: 900; line-height: 1.3; }
+    .cookie-settings-button { min-height: 40px; border: 1px solid var(--line); background: var(--surface); color: var(--blue); padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
+    .cookie-settings-button:hover { background: var(--blue-soft); }
+    .blog-index { padding: 0 0 72px; }
+    .blog-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); gap: 24px; align-items: end; padding: 30px 0 24px; border-bottom: 1px solid var(--line); }
+    .blog-toolbar h2,
+    .archive-head h2 { margin: 0; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .blog-toolbar p,
+    .archive-head p { margin: 8px 0 0; color: var(--muted); line-height: 1.55; }
+    .searchbox { display: grid; gap: 8px; }
+    .searchbox span { color: var(--muted); font-size: 0.88rem; font-weight: 850; }
+    .searchbox input { width: 100%; min-height: 46px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 13px; font: inherit; font-weight: 720; }
+    .searchbox input:focus { outline: 3px solid #c8dbef; outline-offset: 2px; border-color: var(--blue); }
+    .featured-grid { display: grid; gap: 18px; padding-top: 24px; }
+    .recent-stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .post-card { min-width: 0; display: grid; gap: 12px; align-content: start; background: var(--surface); border: 1px solid var(--line); padding: 22px; text-decoration: none; color: inherit; transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease; }
+    .post-card:hover { border-color: var(--blue); box-shadow: 0 14px 32px rgba(23, 23, 23, 0.08); transform: translateY(-1px); }
+    .post-card:focus-visible { outline: 3px solid #c8dbef; outline-offset: 3px; }
+    .post-card-featured { grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr); align-items: end; padding: 30px; background: var(--green-soft); border-color: #b7d7cd; }
+    .post-card-featured h2 { font-size: clamp(2rem, 4vw, 3.35rem); line-height: 1.04; }
+    .post-card-featured .post-meta-row { grid-column: 1; }
+    .post-card-featured .post-card-action { grid-column: 2; justify-self: start; }
+    .post-card-compact h2 { font-size: 1.22rem; }
+    .post-card-archive { grid-template-columns: minmax(0, 1fr) auto; align-items: start; }
+    .post-card-archive .post-summary,
+    .post-card-archive .post-meta-row { grid-column: 1 / -1; }
+    .post-card-archive .post-card-action { grid-column: 2; grid-row: 1; align-self: center; }
+    .post-eyebrow { color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .post-card h2 { margin: 0; font-size: 1.38rem; line-height: 1.22; overflow-wrap: anywhere; }
+    .post-card p { margin: 0; color: var(--muted); line-height: 1.62; }
+    .post-summary { max-width: 72ch; }
+    .post-meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .post-card-action { color: var(--blue); font-weight: 950; line-height: 1.3; }
+    .archive-section { padding-top: 34px; }
+    .archive-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+    .archive-list { display: grid; gap: 12px; }
+    .pagination { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 28px; border-top: 1px solid var(--line); padding-top: 22px; }
+    .pagination a,
+    .pagination span { min-height: 38px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; color: var(--blue); font-weight: 900; text-decoration: none; }
+    .pagination span[aria-current="page"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .pagination a:hover { background: var(--blue-soft); border-color: var(--blue); }
+    .pagination .pagination-spacer { border-color: transparent; background: transparent; color: var(--muted); padding: 0 6px; }
+    .empty-search { margin: 18px 0 0; background: var(--surface); border: 1px solid var(--line); padding: 18px; color: var(--muted); font-weight: 780; }
+    @media (max-width: 1040px) {
+      .recent-stack,
+      .post-card-featured { grid-template-columns: 1fr; }
+      .post-card-featured .post-meta-row,
+      .post-card-featured .post-card-action { grid-column: auto; }
+    }
     @media (max-width: 840px) {
       .wrap { width: min(100% - 24px, 1200px); }
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .hero-inner,
+      .blog-toolbar,
+      .featured-grid { grid-template-columns: 1fr; }
+      .hero-inner { padding: 42px 0 34px; }
+      .hero-inner-simple { display: block; }
       .article-grid { grid-template-columns: 1fr; }
+      .article-grid > article { padding: 22px; }
       aside { position: static; }
-      .section { padding: 20px; }
+      .post-card-featured { min-height: 0; }
+      .post-card-archive { grid-template-columns: 1fr; }
+      .post-card-archive .post-card-action { grid-column: auto; grid-row: auto; }
+      .archive-head { align-items: start; flex-direction: column; }
     }
   </style>
     <script type="application/ld+json">{
@@ -224,13 +304,33 @@
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <p class="kicker">Travail, revenus et conditions d&#39;emploi</p>
-        <h1>Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes</h1>
-        <p class="lead">Les publications récentes sur la sinistralité au travail invitent à distinguer plusieurs réalités. En France, le focus genre du rapport annuel 2024 de l&#39;Assurance Maladie montre qu&#39;en 2023 les hommes concentrent 62 % des accidents du travail reconnus, tandis que les femmes sont légèrement majoritaires dans les accidents de trajet et dans les maladies professionnelles reconnues. Le jeu de données 2024 sur les maladies professionnelles confirme cette légère majorité féminine dans le total, mais aussi une forte dissymétrie selon les pathologies : davantage de TMS et de troubles psychiques reconnus chez les femmes, davantage de cancers professionnels et de décès chez les hommes. A l&#39;échelle européenne, Eurostat observe aussi une majorité masculine dans les accidents du travail non mortels.</p>
-        <div class="meta" aria-label="Métadonnées">
-          <span class="pill">28 juin 2026</span>
-          <span class="pill">5 min</span>
-          <span class="pill">4 sources</span>
+        <div class="hero-copy">
+          <p class="kicker">Travail, revenus et conditions d&#39;emploi</p>
+          <h1>Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes</h1>
+          <p class="lead">Les publications récentes sur la sinistralité au travail invitent à distinguer plusieurs réalités. En France, le focus genre du rapport annuel 2024 de l&#39;Assurance Maladie montre qu&#39;en 2023 les hommes concentrent 62 % des accidents du travail reconnus, tandis que les femmes sont légèrement majoritaires dans les accidents de trajet et dans les maladies professionnelles reconnues. Le jeu de données 2024 sur les maladies professionnelles confirme cette légère majorité féminine dans le total, mais aussi une forte dissymétrie selon les pathologies : davantage de TMS et de troubles psychiques reconnus chez les femmes, davantage de cancers professionnels et de décès chez les hommes. A l&#39;échelle européenne, Eurostat observe aussi une majorité masculine dans les accidents du travail non mortels.</p>
+          <div class="meta" aria-label="Métadonnées">
+            <span class="pill">28 juin 2026</span>
+            <span class="pill">5 min</span>
+            <span class="pill">4 sources</span>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Repères de lecture">
+          <p class="panel-kicker">Article de veille</p>
+          <strong>Travail, revenus et conditions d&#39;emploi</strong>
+          <dl>
+            <div>
+              <dt>Lecture</dt>
+              <dd>5 min</dd>
+            </div>
+            <div>
+              <dt>Sources</dt>
+              <dd>4</dd>
+            </div>
+            <div>
+              <dt>Fiches reliées</dt>
+              <dd>1</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </section>
@@ -244,81 +344,89 @@
           </ul>
         </section>
 
-        
+
               <section class="section">
                 <h2>Les dernières sources ne décrivent pas une seule asymétrie</h2>
                 <p>Les sources 2025-2026 utiles pour cette veille montrent d&#39;abord qu&#39;il faut séparer trois indicateurs : les accidents du travail, les accidents de trajet et les maladies professionnelles. L&#39;Assurance Maladie ne retrouve pas la même répartition femmes-hommes selon le type de sinistre.</p><p>Dans son rapport annuel 2024 publié en novembre 2025, l&#39;organisme rappelle qu&#39;en 2024 il y a eu 549 614 accidents du travail reconnus avec arrêt ou incapacité, 94 654 accidents de trajet et 50 598 maladies professionnelles. Le focus spécifique selon le genre porte cependant sur l&#39;année 2023, qui est la dernière année détaillée de cette manière dans le rapport.</p>
               </section>
-            
+
               <section class="section">
                 <h2>En France, les accidents du travail reconnus restent d&#39;abord masculins</h2>
                 <p>Le focus genre de l&#39;Assurance Maladie indique qu&#39;en 2023 les hommes représentent 53 % des salariés relevant du régime général étudié, mais 62 % des accidents du travail reconnus. Le rapport dénombre près de 564 000 accidents du travail reconnus en premier règlement cette année-là, dont près de six sur dix chez des hommes.</p><p>La même publication souligne une évolution longue période qui ne va pas dans le même sens selon le sexe. Entre 2000 et 2023, le nombre d&#39;accidents du travail reconnus diminue de 40 % chez les hommes, alors qu&#39;il augmente de 26 % chez les femmes. Le rapport précise aussi que cette différence agrégée dépend en partie de la structure sectorielle de l&#39;emploi et des tâches exercées dans un même secteur.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Les maladies professionnelles reconnues deviennent plus mixtes, mais pas pour les mêmes pathologies</h2>
                 <p>Le même focus montre qu&#39;en 2023 les femmes sont légèrement majoritaires dans les maladies professionnelles reconnues, avec 52 % des cas, et plus nettement dans les troubles musculosquelettiques, avec 55 % des TMS. Le rapport souligne aussi que les maladies professionnelles sont devenues presque aussi nombreuses chez les femmes que chez les hommes après une progression plus rapide côté féminin depuis les années 2000.</p><p>Le fichier détaillé mis en ligne en mars 2026 sur les maladies professionnelles 2024 confirme ce basculement modéré dans le total : 26 014 cas reconnus chez les femmes contre 24 584 chez les hommes. Mais l&#39;équilibre global masque des profils très différents. Les femmes concentrent 24 321 TMS reconnus contre 20 402 chez les hommes, ainsi que la majorité des épisodes dépressifs reconnus hors tableaux. A l&#39;inverse, les hommes concentrent presque tous les cancers professionnels repérables dans ce fichier, avec 1 456 cas contre 58, et 209 des 215 décès liés aux maladies professionnelles.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Les accidents de trajet et la comparaison européenne évitent une lecture trop simple</h2>
                 <p>Le rapport annuel français montre aussi qu&#39;en 2023 les accidents de trajet reconnus concernent davantage les femmes, à 52 % contre 48 % pour les hommes. Les profils diffèrent là encore : les chutes et faux pas sont davantage présents chez les femmes, tandis que la perte de contrôle d&#39;un moyen de transport est plus fréquente chez les hommes.</p><p>A l&#39;échelle européenne, Eurostat retrouve malgré tout une majorité masculine nette pour les accidents du travail non mortels. L&#39;organisme estime qu&#39;en 2023, 67,6 % des accidents du travail non mortels dans l&#39;Union européenne concernent des hommes. Cette comparaison confirme une surreprésentation masculine globale sur l&#39;accident du travail, mais elle ne contredit pas le fait qu&#39;en France certaines maladies professionnelles reconnues et certains accidents de trajet touchent légèrement plus de femmes.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Population mesurée et limites</h2>
                 <p>Les chiffres français ne couvrent pas toute la population active. Le rapport annuel 2024 de l&#39;Assurance Maladie porte surtout sur les assurés affiliés au régime général, organisés ici autour de neuf comités techniques nationaux; il n&#39;inclut pas les exploitants et salariés agricoles, l&#39;ensemble des agents publics ni tous les travailleurs indépendants. Le focus genre 2023 utilise en plus une approximation de la population salariée par sexe à partir de l&#39;Enquête emploi de l&#39;Insee.</p><p>Les données européennes d&#39;Eurostat reposent sur la méthodologie ESAW. Elles définissent les accidents du travail non mortels comme ceux qui impliquent au moins quatre jours complets d&#39;absence et les accidents mortels comme ceux qui entraînent un décès dans l&#39;année suivant l&#39;accident. Eurostat rappelle aussi que les systèmes nationaux de déclaration et de reconnaissance ne sont pas strictement identiques; la France a notamment un système de notification large, ce qui limite les comparaisons directes de niveaux avec d&#39;autres pays. Enfin, ces sources parlent de femmes et d&#39;hommes au sens des catégories statistiques utilisées par les organismes producteurs; elles ne mesurent pas les chromosomes.</p>
               </section>
-            
+
 
         <section class="section" aria-labelledby="faq">
                 <h2 id="faq">Questions fréquentes</h2>
                 <div class="faq">
-                  
+
                         <details>
                           <summary>Peut-on dire que les hommes sont plus exposés au risque professionnel en général ?</summary>
                           <p>Les sources récentes soutiennent clairement une surreprésentation masculine dans les accidents du travail reconnus. En revanche, elles ne montrent pas la même hiérarchie pour tous les sinistres, puisque les accidents de trajet et certaines maladies professionnelles reconnues concernent légèrement plus de femmes.</p>
                         </details>
-                      
+
                         <details>
                           <summary>Pourquoi l&#39;article sépare-t-il accidents du travail, accidents de trajet et maladies professionnelles ?</summary>
                           <p>Parce que ces catégories n&#39;observent pas la même chose. Un accident du travail est un événement survenu pendant le travail, un accident de trajet concerne le déplacement lié au travail, et une maladie professionnelle renvoie à une pathologie reconnue d&#39;origine professionnelle. Les répartitions femmes-hommes diffèrent selon chacune.</p>
                         </details>
-                      
+
                         <details>
                           <summary>La France est-elle directement comparable aux chiffres de l&#39;Union européenne ?</summary>
                           <p>Oui pour situer un ordre de grandeur, mais pas pour comparer mécaniquement tous les niveaux. Eurostat précise que les systèmes nationaux de déclaration et de reconnaissance diffèrent, et la France a un système de notification qui peut conduire à des volumes plus élevés que dans d&#39;autres pays.</p>
                         </details>
-                      
+
                 </div>
               </section>
       </article>
 
       <aside aria-label="Sources et contexte">
         <section class="sidebox">
+          <h2>Repères</h2>
+          <div class="post-meta-row">
+            <span class="meta-chip topic">Travail, revenus et conditions d&#39;emploi</span>
+            <span class="meta-chip">28 juin 2026</span>
+            <span class="meta-chip">5 min</span>
+          </div>
+        </section>
+        <section class="sidebox">
           <h2>Sources citées</h2>
           <ul class="sources">
-            
+
         <li>
           <a href="https://www.assurance-maladie.ameli.fr/sites/default/files/rapport_annuel_2024_de_lassurance_maladie_-_risques_professionnels_novembre_2025.pdf" rel="noreferrer" target="_blank">Rapport annuel 2024 de l&#39;Assurance Maladie - Risques professionnels</a>
           <span class="source-meta">Assurance Maladie - Risques professionnels - novembre 2025</span>
         </li>
-      
+
         <li>
           <a href="https://www.assurance-maladie.ameli.fr/etudes-et-donnees/mp-indicateurs-selon-age-sexe-profession-exposition" rel="noreferrer" target="_blank">Maladies professionnelles 2024 : indicateurs selon l&#39;âge, le sexe, la profession et la durée d&#39;exposition</a>
           <span class="source-meta">Assurance Maladie - Risques professionnels - 20 mars 2026</span>
         </li>
-      
+
         <li>
           <a href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260428-1" rel="noreferrer" target="_blank">EU non-fatal work accidents incidence rate drops in 2023</a>
           <span class="source-meta">Eurostat - 28 avril 2026</span>
         </li>
-      
+
         <li>
           <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Accidents_at_work_statistics" rel="noreferrer" target="_blank">Accidents at work statistics</a>
           <span class="source-meta">Eurostat - données 2023, page consultée en juin 2026</span>
         </li>
-      
+
           </ul>
         </section>
       </aside>

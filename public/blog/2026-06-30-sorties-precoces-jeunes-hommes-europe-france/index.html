@@ -29,64 +29,144 @@
     :root {
       color-scheme: light;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f4f4f0;
+      background: #f6f4ee;
       color: #171717;
+      --paper: #f6f4ee;
+      --surface: #ffffff;
+      --surface-soft: #fbfaf6;
+      --ink: #171717;
+      --muted: #57534e;
+      --line: #d8d3c7;
+      --blue: #1455a3;
+      --blue-soft: #eaf2fb;
+      --green: #147467;
+      --green-soft: #e4f3ed;
+      --amber: #8b5c12;
+      --amber-soft: #fff2d5;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: #f4f4f0; color: #171717; }
-    a { color: #1455a3; text-underline-offset: 0.18em; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--paper); color: var(--ink); }
+    a { color: var(--blue); text-underline-offset: 0.18em; }
     .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
-    .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
+    .topbar { border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, 0.96); }
     .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
-    .brand { display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; font-weight: 900; }
+    .brand { display: inline-flex; align-items: center; gap: 14px; color: var(--ink); text-decoration: none; font-weight: 900; }
     .brand img { width: 106px; height: auto; display: block; }
     .nav { display: flex; flex-wrap: wrap; gap: 10px; font-weight: 800; }
-    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; }
-    .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
-    .hero-inner { padding: 58px 0 48px; }
-    .kicker { margin: 0 0 14px; color: #13519c; font-weight: 900; }
-    h1 { margin: 0; max-width: 820px; font-size: clamp(2.1rem, 5vw, 4.1rem); line-height: 1.06; letter-spacing: 0; }
-    .lead { max-width: 780px; margin: 22px 0 0; font-size: 1.16rem; line-height: 1.72; color: #4b4b4b; }
+    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; border: 1px solid transparent; text-decoration: none; }
+    .nav a:hover { border-color: var(--line); background: var(--surface-soft); }
+    .hero { background: var(--surface); border-bottom: 1px solid var(--line); }
+    .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 30px; align-items: end; padding: 58px 0 46px; }
+    .hero-inner-simple { display: block; padding: 56px 0 42px; }
+    .hero-copy { min-width: 0; }
+    .hero-panel { display: grid; gap: 14px; align-self: stretch; background: var(--surface-soft); border: 1px solid var(--line); padding: 20px; }
+    .hero-panel strong { font-size: 1.08rem; line-height: 1.35; }
+    .hero-panel dl { display: grid; gap: 12px; margin: 0; }
+    .hero-panel div { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+    .hero-panel dt { color: var(--muted); font-size: 0.86rem; font-weight: 800; }
+    .hero-panel dd { margin: 0; color: var(--ink); font-size: 1.2rem; font-weight: 950; }
+    .panel-kicker,
+    .kicker { margin: 0 0 14px; color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .panel-kicker { margin: 0; }
+    h1 { margin: 0; max-width: 880px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 1.03; letter-spacing: 0; }
+    .lead { max-width: 820px; margin: 22px 0 0; font-size: 1.12rem; line-height: 1.72; color: var(--muted); }
     .meta { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
-    .pill { display: inline-flex; min-height: 32px; align-items: center; background: #fff; border: 1px solid #d8d8d0; padding: 5px 10px; font-size: 0.88rem; font-weight: 800; color: #3a3a3a; }
+    .pill,
+    .meta-chip { display: inline-flex; min-height: 32px; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--line); padding: 5px 10px; font-size: 0.88rem; font-weight: 820; color: #3a3732; }
+    .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
+    .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
+    .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
     main { padding-bottom: 64px; }
-    .article-grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 34px; align-items: start; padding-top: 34px; }
+    .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
-    .section { background: #fff; border: 1px solid #d8d8d0; padding: 26px; margin-bottom: 18px; }
-    .section h2 { margin: 0 0 14px; font-size: 1.42rem; line-height: 1.22; }
-    .section p { margin: 0 0 13px; color: #3f3f3f; line-height: 1.72; }
+    .article-grid > article { background: var(--surface); border: 1px solid var(--line); padding: 34px; }
+    .section { border-bottom: 1px solid var(--line); padding: 0 0 30px; margin-bottom: 30px; }
+    .section:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    .section h2 { margin: 0 0 14px; font-size: 1.55rem; line-height: 1.2; }
+    .section p { margin: 0 0 14px; color: #3f3a34; line-height: 1.78; font-size: 1.02rem; }
     .section p:last-child { margin-bottom: 0; }
-    .keypoints { display: grid; gap: 10px; padding: 0; list-style: none; }
-    .keypoints li { border-left: 4px solid #1455a3; background: #eef4fb; padding: 12px 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints { counter-reset: point; display: grid; gap: 10px; padding: 0; list-style: none; }
+    .keypoints li { counter-increment: point; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; background: var(--blue-soft); border: 1px solid #c8dbef; padding: 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints li::before { content: counter(point); display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: var(--blue); color: #fff; font-weight: 950; }
     aside { position: sticky; top: 18px; display: grid; gap: 14px; }
-    .sidebox { background: #fff; border: 1px solid #d8d8d0; padding: 18px; }
+    .sidebox { background: var(--surface); border: 1px solid var(--line); padding: 18px; }
     .sidebox h2 { margin: 0 0 10px; font-size: 1rem; }
-    .sources { display: grid; gap: 12px; padding: 0; list-style: none; }
-    .sources li { min-width: 0; line-height: 1.45; }
-    .sources a { overflow-wrap: anywhere; font-weight: 850; }
-    .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
+    ul.sources { display: grid; gap: 12px; padding: 0; list-style: none; }
+    ul.sources li { min-width: 0; line-height: 1.45; }
+    ul.sources a { overflow-wrap: anywhere; font-weight: 850; }
+    .source-meta { display: block; color: var(--muted); font-size: 0.88rem; margin-top: 3px; }
     .faq { display: grid; gap: 14px; }
-    details { border: 1px solid #d8d8d0; padding: 16px 18px 18px; background: #fff; }
+    details { border: 1px solid var(--line); padding: 16px 18px 18px; background: var(--surface-soft); }
     summary { cursor: pointer; font-weight: 900; line-height: 1.45; padding-bottom: 4px; }
     details[open] summary { margin-bottom: 8px; }
     .section details p { margin: 0 0 6px; line-height: 1.68; }
     .section details p:last-child { margin-bottom: 6px; }
-    .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
+    .method { border-top: 1px solid var(--line); padding: 28px 0 42px; color: var(--muted); line-height: 1.65; }
     .method-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
-    .cookie-settings-button { min-height: 40px; border: 1px solid #d8d8d0; background: #fff; color: #1455a3; padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
-    .cookie-settings-button:hover { background: #eef4fb; }
-    .post-list { display: grid; gap: 14px; padding: 34px 0 64px; }
-    .post-card { display: grid; gap: 10px; background: #fff; border: 1px solid #d8d8d0; padding: 22px; text-decoration: none; color: inherit; }
-    .post-card:hover { border-color: #1455a3; }
-    .post-card h2 { margin: 0; font-size: 1.35rem; line-height: 1.25; }
-    .post-card p { margin: 0; color: #555; line-height: 1.6; }
-    .post-card-action { color: #1455a3; font-weight: 900; line-height: 1.3; }
+    .cookie-settings-button { min-height: 40px; border: 1px solid var(--line); background: var(--surface); color: var(--blue); padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
+    .cookie-settings-button:hover { background: var(--blue-soft); }
+    .blog-index { padding: 0 0 72px; }
+    .blog-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); gap: 24px; align-items: end; padding: 30px 0 24px; border-bottom: 1px solid var(--line); }
+    .blog-toolbar h2,
+    .archive-head h2 { margin: 0; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .blog-toolbar p,
+    .archive-head p { margin: 8px 0 0; color: var(--muted); line-height: 1.55; }
+    .searchbox { display: grid; gap: 8px; }
+    .searchbox span { color: var(--muted); font-size: 0.88rem; font-weight: 850; }
+    .searchbox input { width: 100%; min-height: 46px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 13px; font: inherit; font-weight: 720; }
+    .searchbox input:focus { outline: 3px solid #c8dbef; outline-offset: 2px; border-color: var(--blue); }
+    .featured-grid { display: grid; gap: 18px; padding-top: 24px; }
+    .recent-stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .post-card { min-width: 0; display: grid; gap: 12px; align-content: start; background: var(--surface); border: 1px solid var(--line); padding: 22px; text-decoration: none; color: inherit; transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease; }
+    .post-card:hover { border-color: var(--blue); box-shadow: 0 14px 32px rgba(23, 23, 23, 0.08); transform: translateY(-1px); }
+    .post-card:focus-visible { outline: 3px solid #c8dbef; outline-offset: 3px; }
+    .post-card-featured { grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr); align-items: end; padding: 30px; background: var(--green-soft); border-color: #b7d7cd; }
+    .post-card-featured h2 { font-size: clamp(2rem, 4vw, 3.35rem); line-height: 1.04; }
+    .post-card-featured .post-meta-row { grid-column: 1; }
+    .post-card-featured .post-card-action { grid-column: 2; justify-self: start; }
+    .post-card-compact h2 { font-size: 1.22rem; }
+    .post-card-archive { grid-template-columns: minmax(0, 1fr) auto; align-items: start; }
+    .post-card-archive .post-summary,
+    .post-card-archive .post-meta-row { grid-column: 1 / -1; }
+    .post-card-archive .post-card-action { grid-column: 2; grid-row: 1; align-self: center; }
+    .post-eyebrow { color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .post-card h2 { margin: 0; font-size: 1.38rem; line-height: 1.22; overflow-wrap: anywhere; }
+    .post-card p { margin: 0; color: var(--muted); line-height: 1.62; }
+    .post-summary { max-width: 72ch; }
+    .post-meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .post-card-action { color: var(--blue); font-weight: 950; line-height: 1.3; }
+    .archive-section { padding-top: 34px; }
+    .archive-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+    .archive-list { display: grid; gap: 12px; }
+    .pagination { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 28px; border-top: 1px solid var(--line); padding-top: 22px; }
+    .pagination a,
+    .pagination span { min-height: 38px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; color: var(--blue); font-weight: 900; text-decoration: none; }
+    .pagination span[aria-current="page"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .pagination a:hover { background: var(--blue-soft); border-color: var(--blue); }
+    .pagination .pagination-spacer { border-color: transparent; background: transparent; color: var(--muted); padding: 0 6px; }
+    .empty-search { margin: 18px 0 0; background: var(--surface); border: 1px solid var(--line); padding: 18px; color: var(--muted); font-weight: 780; }
+    @media (max-width: 1040px) {
+      .recent-stack,
+      .post-card-featured { grid-template-columns: 1fr; }
+      .post-card-featured .post-meta-row,
+      .post-card-featured .post-card-action { grid-column: auto; }
+    }
     @media (max-width: 840px) {
       .wrap { width: min(100% - 24px, 1200px); }
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .hero-inner,
+      .blog-toolbar,
+      .featured-grid { grid-template-columns: 1fr; }
+      .hero-inner { padding: 42px 0 34px; }
+      .hero-inner-simple { display: block; }
       .article-grid { grid-template-columns: 1fr; }
+      .article-grid > article { padding: 22px; }
       aside { position: static; }
-      .section { padding: 20px; }
+      .post-card-featured { min-height: 0; }
+      .post-card-archive { grid-template-columns: 1fr; }
+      .post-card-archive .post-card-action { grid-column: auto; grid-row: auto; }
+      .archive-head { align-items: start; flex-direction: column; }
     }
   </style>
     <script type="application/ld+json">{
@@ -225,13 +305,33 @@
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <p class="kicker">Éducation, orientation et formation</p>
-        <h1>Sorties précoces d&#39;études : les jeunes hommes restent plus exposés en Europe</h1>
-        <p class="lead">Eurostat a publié le 4 juin 2026 une nouvelle synthèse sur les sorties précoces d&#39;éducation et de formation dans l&#39;Union européenne. En 2025, 9,1 % des 18-24 ans de l&#39;UE sont classés comme sortants précoces, avec un écart persistant entre jeunes hommes (10,6 %) et jeunes femmes (7,5 %). La source précise que cette asymétrie vaut dans presque tous les pays de l&#39;UE, sauf en Roumanie et en Bulgarie. En France, la dernière série détaillée disponible dans la publication Insee du 6 janvier 2025 porte sur 2023 et mesure 9,5 % pour les hommes contre 5,6 % pour les femmes. L&#39;OCDE et l&#39;UNESCO ajoutent que ce désavantage masculin coexiste avec d&#39;autres configurations: les jeunes femmes dépassent les jeunes hommes dans le supérieur dans de nombreux pays, tandis que les filles restent plus exposées à l&#39;exclusion scolaire primaire dans certains contextes mondiaux.</p>
-        <div class="meta" aria-label="Métadonnées">
-          <span class="pill">30 juin 2026</span>
-          <span class="pill">5 min</span>
-          <span class="pill">5 sources</span>
+        <div class="hero-copy">
+          <p class="kicker">Éducation, orientation et formation</p>
+          <h1>Sorties précoces d&#39;études : les jeunes hommes restent plus exposés en Europe</h1>
+          <p class="lead">Eurostat a publié le 4 juin 2026 une nouvelle synthèse sur les sorties précoces d&#39;éducation et de formation dans l&#39;Union européenne. En 2025, 9,1 % des 18-24 ans de l&#39;UE sont classés comme sortants précoces, avec un écart persistant entre jeunes hommes (10,6 %) et jeunes femmes (7,5 %). La source précise que cette asymétrie vaut dans presque tous les pays de l&#39;UE, sauf en Roumanie et en Bulgarie. En France, la dernière série détaillée disponible dans la publication Insee du 6 janvier 2025 porte sur 2023 et mesure 9,5 % pour les hommes contre 5,6 % pour les femmes. L&#39;OCDE et l&#39;UNESCO ajoutent que ce désavantage masculin coexiste avec d&#39;autres configurations: les jeunes femmes dépassent les jeunes hommes dans le supérieur dans de nombreux pays, tandis que les filles restent plus exposées à l&#39;exclusion scolaire primaire dans certains contextes mondiaux.</p>
+          <div class="meta" aria-label="Métadonnées">
+            <span class="pill">30 juin 2026</span>
+            <span class="pill">5 min</span>
+            <span class="pill">5 sources</span>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Repères de lecture">
+          <p class="panel-kicker">Article de veille</p>
+          <strong>Éducation, orientation et formation</strong>
+          <dl>
+            <div>
+              <dt>Lecture</dt>
+              <dd>5 min</dd>
+            </div>
+            <div>
+              <dt>Sources</dt>
+              <dd>5</dd>
+            </div>
+            <div>
+              <dt>Fiches reliées</dt>
+              <dd>2</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </section>
@@ -245,91 +345,99 @@
           </ul>
         </section>
 
-        
+
               <section class="section">
                 <h2>Le signal récent d&#39;Eurostat porte sur l&#39;Union européenne en 2025</h2>
                 <p>Dans son article de veille publié le 4 juin 2026, Eurostat indique qu&#39;en 2025 la part des sortants précoces d&#39;éducation et de formation dans l&#39;Union européenne est descendue à 9,1 % des 18-24 ans. La source rappelle que l&#39;objectif européen pour 2030 est de passer sous 9,0 %, ce qui place l&#39;UE tout près de sa cible sans l&#39;avoir encore atteinte.</p><p>Eurostat définit ici les sortants précoces comme les 18-24 ans ayant au plus un niveau inférieur au second cycle du secondaire et n&#39;ayant suivi ni éducation ni formation, formelle ou non formelle, au cours des quatre semaines précédant l&#39;enquête. L&#39;indicateur ne mesure donc ni toute la réussite scolaire ni toutes les formes de décrochage subjectif; il mesure un statut statistique précis à un âge donné.</p>
               </section>
-            
+
               <section class="section">
                 <h2>L&#39;écart reste surtout masculin dans l&#39;UE, avec quelques exceptions nationales</h2>
                 <p>Eurostat indique qu&#39;en 2025 la proportion de sortants précoces est de 10,6 % chez les jeunes hommes et de 7,5 % chez les jeunes femmes dans l&#39;UE. L&#39;écart est donc de 3,1 points au niveau européen. La baisse observée depuis 2015 concerne les deux sexes, mais elle ne supprime pas l&#39;asymétrie.</p><p>L&#39;article Statistics Explained d&#39;Eurostat ajoute que presque tous les pays de l&#39;Union enregistrent une proportion plus élevée de sortants précoces masculins, à l&#39;exception de la Roumanie et de la Bulgarie. Les écarts les plus marqués apparaissent en Espagne, en Lettonie, à Malte et en Slovénie. Cette précision est importante: le désavantage masculin est fréquent dans l&#39;UE, mais il n&#39;est pas strictement universel.</p>
               </section>
-            
+
               <section class="section">
                 <h2>La France présente aussi un écart masculin dans sa dernière série détaillée</h2>
                 <p>La publication Insee mise en ligne le 6 janvier 2025 donne le dernier tableau détaillé consolidé par sexe pour la France sur l&#39;année 2023. Elle mesure 9,5 % de sorties précoces chez les hommes contre 5,6 % chez les femmes, soit un total de 7,6 % pour la France.</p><p>L&#39;Insee appelle toutefois à la prudence sur les comparaisons fines dans le temps. La source mentionne une correction de rupture de série après le changement de questionnaire de l&#39;enquête Emploi en 2013, puis une nouvelle modification du questionnaire en 2021. Autrement dit, le sens de l&#39;écart hommes-femmes est net dans la dernière série publiée, mais les variations annuelles doivent être lues avec précaution.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Au-delà du décrochage strict, l&#39;OCDE observe aussi un déficit masculin au seuil du secondaire</h2>
                 <p>Dans Education at a Glance 2025, publié le 9 septembre 2025, l&#39;OCDE indique qu&#39;en moyenne 13 % des 25-34 ans des pays OCDE n&#39;ont pas de diplôme du second cycle du secondaire en 2024. La même source précise que ce taux est de 14 % chez les jeunes hommes contre 11 % chez les jeunes femmes. Le périmètre n&#39;est pas identique à celui d&#39;Eurostat, mais il va dans le même sens: le non-achèvement du secondaire reste plus fréquent chez les jeunes hommes dans la plupart des pays observés.</p><p>Cette lecture doit cependant être complétée par un autre résultat du même rapport. L&#39;OCDE indique aussi qu&#39;à l&#39;autre extrémité de la distribution scolaire, la part des 25-34 ans diplômés du supérieur reste en moyenne plus élevée chez les jeunes femmes que chez les jeunes hommes. Les asymétries éducatives récentes ne se résument donc pas à une hiérarchie simple; elles varient selon le seuil scolaire mesuré.</p>
               </section>
-            
+
               <section class="section">
                 <h2>L&#39;UNESCO rappelle que les écarts mondiaux ne prennent pas partout la même forme</h2>
                 <p>La page de cadrage de l&#39;UNESCO consacrée au désengagement scolaire des garçons rappelle qu&#39;à l&#39;échelle mondiale 140 millions de garçons sont hors de l&#39;école, contre 133 millions de filles. Elle ajoute que, dans de nombreux contextes, les garçons sont davantage à risque de redoublement, de non-progression et de non-achèvement.</p><p>Mais la même source signale aussi qu&#39;au primaire, les filles restent dans certains contextes plus exposées que les garçons à l&#39;exclusion scolaire. Cette nuance évite de transformer un constat fréquent dans l&#39;UE ou dans plusieurs pays OCDE en règle valable pour tous les âges et tous les pays.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Population mesurée et limites</h2>
                 <p>Les sources ne portent pas sur la même population. Eurostat mesure ici les 18-24 ans ayant au plus un niveau inférieur au second cycle du secondaire et n&#39;étant plus en éducation ou formation au cours des quatre semaines précédant l&#39;enquête. L&#39;Insee reprend cet indicateur pour la France avec les conventions de son enquête Emploi. L&#39;OCDE observe surtout les 25-34 ans selon leur plus haut niveau de diplôme atteint. L&#39;UNESCO parle plus largement d&#39;enfants et de jeunes hors de l&#39;école ou à risque de non-achèvement selon des contextes mondiaux hétérogènes.</p><p>Les catégories femmes et hommes correspondent aux classifications statistiques utilisées par chaque organisme producteur. Elles ne mesurent pas les chromosomes. Enfin, une comparaison directe entre le chiffre UE 2025 et le détail France 2023 doit être évitée si l&#39;on cherche un classement strict, car les millésimes ne sont pas les mêmes et l&#39;Insee signale en plus des ruptures de série dans le temps.</p>
               </section>
-            
+
 
         <section class="section" aria-labelledby="faq">
                 <h2 id="faq">Questions fréquentes</h2>
                 <div class="faq">
-                  
+
                         <details>
                           <summary>Peut-on dire que les garçons décrochent plus partout ?</summary>
                           <p>Non, pas partout. Les sources récentes montrent un écart surtout masculin dans l&#39;Union européenne et dans la plupart des pays OCDE observés, mais Eurostat signale des exceptions comme la Roumanie et la Bulgarie. L&#39;UNESCO rappelle aussi qu&#39;au primaire, les filles peuvent rester plus exposées à l&#39;exclusion scolaire dans certains contextes.</p>
                         </details>
-                      
+
                         <details>
                           <summary>Le chiffre français est-il directement comparable au chiffre européen 2025 ?</summary>
                           <p>Pas pour un classement strict. Eurostat publie ici un résultat UE pour 2025, tandis que la dernière série détaillée de l&#39;Insee citée dans cet article porte sur 2023. En plus, l&#39;Insee demande de lire avec prudence les évolutions temporelles en raison de changements de questionnaire dans l&#39;enquête Emploi.</p>
                         </details>
-                      
+
                         <details>
                           <summary>Pourquoi ajouter l&#39;OCDE et l&#39;UNESCO si l&#39;article parle des sorties précoces ?</summary>
                           <p>Parce que ces deux sources aident à situer l&#39;indicateur. L&#39;OCDE montre que l&#39;écart masculin réapparaît aussi quand on regarde l&#39;absence de diplôme du secondaire chez les 25-34 ans. L&#39;UNESCO rappelle au contraire que les asymétries scolaires mondiales ne suivent pas partout le même sens selon l&#39;âge, le pays et le niveau d&#39;enseignement.</p>
                         </details>
-                      
+
                 </div>
               </section>
       </article>
 
       <aside aria-label="Sources et contexte">
         <section class="sidebox">
+          <h2>Repères</h2>
+          <div class="post-meta-row">
+            <span class="meta-chip topic">Éducation, orientation et formation</span>
+            <span class="meta-chip">30 juin 2026</span>
+            <span class="meta-chip">5 min</span>
+          </div>
+        </section>
+        <section class="sidebox">
           <h2>Sources citées</h2>
           <ul class="sources">
-            
+
         <li>
           <a href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260604-1" rel="noreferrer" target="_blank">Early school leavers down to 9.1% in 2025</a>
           <span class="source-meta">Eurostat - 4 juin 2026</span>
         </li>
-      
+
         <li>
           <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Early_leavers_from_education_and_training" rel="noreferrer" target="_blank">Early leavers from education and training</a>
           <span class="source-meta">Eurostat - page actualisée en 2026</span>
         </li>
-      
+
         <li>
           <a href="https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778" rel="noreferrer" target="_blank">Sorties précoces du système scolaire</a>
           <span class="source-meta">Insee - 6 janvier 2025</span>
         </li>
-      
+
         <li>
           <a href="https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/to-what-level-have-adults-studied_c1d483b0.html" rel="noreferrer" target="_blank">To what level have adults studied?: Education at a Glance 2025</a>
           <span class="source-meta">OCDE - 9 septembre 2025</span>
         </li>
-      
+
         <li>
           <a href="https://www.unesco.org/en/gender-equality/education/boys" rel="noreferrer" target="_blank">Boys’ disengagement from education</a>
           <span class="source-meta">UNESCO - consulté le 30 juin 2026</span>
         </li>
-      
+
           </ul>
         </section>
       </aside>

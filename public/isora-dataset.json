@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-06-26T00:00:00+02:00",
+  "generatedAt": "2026-07-03T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -15,7 +15,7 @@
     "total": 92,
     "hommes": 39,
     "femmes": 53,
-    "sources": 196
+    "sources": 197
   },
   "domains": [
     "Travail",
@@ -676,8 +676,8 @@
       "angle": "désavantage_subi",
       "domain": "Violences",
       "metric": "80 %",
-      "summary": "En 2023, environ 80 % des victimes d'homicide dans le monde étaient des hommes. Le même rapport souligne que les femmes sont davantage tuées dans la sphère intime ou familiale.",
-      "nuance": "Les profils de victimation diffèrent selon le contexte. Ce chiffre documente une exposition masculine forte à la violence létale hors sphère intime.",
+      "summary": "En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.",
+      "nuance": "Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.",
       "tags": [
         "violences",
         "sécurité",
@@ -686,19 +686,26 @@
       ],
       "countryScope": "Monde",
       "regionScope": "Monde",
-      "periodStart": "2023",
+      "periodStart": "2024",
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "30 juin 2026",
       "source": {
-        "label": "Femicides in 2023: global estimates of intimate partner/family member femicides",
+        "label": "Femicides in 2024: global estimates of intimate partner/family member femicides",
         "publisher": "UN Women / UNODC",
-        "url": "https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
-        "date": "2023"
+        "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+        "date": "2024"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "137 women and girls killed every day by intimate partners or family members in 2024",
+          "publisher": "UNODC",
+          "url": "https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html",
+          "date": "25 novembre 2025"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -1867,19 +1874,19 @@
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "30 juin 2026",
       "source": {
-        "label": "Commonly Used Statistics",
-        "publisher": "OSHA",
-        "url": "https://www.osha.gov/data/commonstats",
+        "label": "National Census of Fatal Occupational Injuries in 2024",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/cfoi.nr0.htm",
         "date": "2024"
       },
       "additionalSources": [
         {
-          "label": "National Census of Fatal Occupational Injuries in 2024",
-          "publisher": "BLS",
-          "url": "https://www.bls.gov/news.release/cfoi.nr0.htm",
-          "date": "2024"
+          "label": "Commonly Used Statistics",
+          "publisher": "OSHA",
+          "url": "https://www.osha.gov/data/commonstats",
+          "date": "2026"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."

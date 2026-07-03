@@ -1,7 +1,7 @@
 {
   "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-06-26T00:00:00+02:00",
+  "generatedAt": "2026-07-03T00:00:00+02:00",
   "language": "en",
   "sourceLanguage": "fr",
   "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
@@ -15,7 +15,7 @@
     "total": 92,
     "hommes": 39,
     "femmes": 53,
-    "sources": 196
+    "sources": 197
   },
   "domains": [
     "Travail",
@@ -725,10 +725,10 @@
       "angle": "désavantage_subi",
       "domain": "Violences",
       "metric": "80 %",
-      "summary": "En 2023, environ 80 % des victimes d'homicide dans le monde étaient des hommes. Le même rapport souligne que les femmes sont davantage tuées dans la sphère intime ou familiale.",
-      "originalSummary": "En 2023, environ 80 % des victimes d'homicide dans le monde étaient des hommes. Le même rapport souligne que les femmes sont davantage tuées dans la sphère intime ou familiale.",
-      "nuance": "Les profils de victimation diffèrent selon le contexte. Ce chiffre documente une exposition masculine forte à la violence létale hors sphère intime.",
-      "originalNuance": "Les profils de victimation diffèrent selon le contexte. Ce chiffre documente une exposition masculine forte à la violence létale hors sphère intime.",
+      "summary": "En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.",
+      "originalSummary": "En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.",
+      "nuance": "Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.",
+      "originalNuance": "Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.",
       "tags": [
         "violences",
         "sécurité",
@@ -737,20 +737,27 @@
       ],
       "countryScope": "Monde",
       "regionScope": "Monde",
-      "periodStart": "2023",
+      "periodStart": "2024",
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
       "originalSourcePopulation": "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "30 juin 2026",
       "source": {
-        "label": "Femicides in 2023: global estimates of intimate partner/family member femicides",
+        "label": "Femicides in 2024: global estimates of intimate partner/family member femicides",
         "publisher": "UN Women / UNODC",
-        "url": "https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
-        "date": "2023"
+        "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+        "date": "2024"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "137 women and girls killed every day by intimate partners or family members in 2024",
+          "publisher": "UNODC",
+          "url": "https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html",
+          "date": "25 novembre 2025"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -2019,19 +2026,19 @@
       "sourcePopulation": "Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.",
       "originalSourcePopulation": "Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "30 juin 2026",
       "source": {
-        "label": "Commonly Used Statistics",
-        "publisher": "OSHA",
-        "url": "https://www.osha.gov/data/commonstats",
+        "label": "National Census of Fatal Occupational Injuries in 2024",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/cfoi.nr0.htm",
         "date": "2024"
       },
       "additionalSources": [
         {
-          "label": "National Census of Fatal Occupational Injuries in 2024",
-          "publisher": "BLS",
-          "url": "https://www.bls.gov/news.release/cfoi.nr0.htm",
-          "date": "2024"
+          "label": "Commonly Used Statistics",
+          "publisher": "OSHA",
+          "url": "https://www.osha.gov/data/commonstats",
+          "date": "2026"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -4023,15 +4030,15 @@
       "id": "femmes-canada-sterilisations-sans-consentement-autochtones",
       "url": "https://isora-xi.vercel.app/fiches/femmes-canada-sterilisations-sans-consentement-autochtones/",
       "appUrl": "https://isora-xi.vercel.app/#femmes-canada-sterilisations-sans-consentement-autochtones",
-      "title": "Femmes autochtones au Canada visées par des stérilisations sans consentement",
+      "title": "Indigenous women in Canada targeted by non-consensual sterilizations",
       "originalTitle": "Femmes autochtones au Canada visées par des stérilisations sans consentement",
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Autonomie",
       "metric": "1948-2025",
-      "summary": "Au Canada, des rapports parlementaires et documents fédéraux décrivent des stérilisations forcées ou contraintes touchant particulièrement des femmes autochtones. Une note de Health Canada évoquait en 2019 des litiges portant sur des cas allégués entre 1948 et le présent, et des travaux parlementaires rapportaient encore des incidents signalés en 2025.",
+      "summary": "In Canada, parliamentary reports and federal documents describe forced or coerced sterilizations particularly affecting Indigenous women. A Health Canada note referred in 2019 to litigation over alleged cases between 1948 and the present, and parliamentary work still reported incidents raised in 2025.",
       "originalSummary": "Au Canada, des rapports parlementaires et documents fédéraux décrivent des stérilisations forcées ou contraintes touchant particulièrement des femmes autochtones. Une note de Health Canada évoquait en 2019 des litiges portant sur des cas allégués entre 1948 et le présent, et des travaux parlementaires rapportaient encore des incidents signalés en 2025.",
-      "nuance": "La fiche porte sur l'absence de consentement libre, préalable et éclairé dans des contextes médicaux, pas sur la stérilisation volontaire ni sur l'ensemble des politiques de contraception. Les travaux cités soulignent que d'autres groupes ont aussi été touchés, mais que les femmes autochtones reviennent de façon centrale dans les témoignages, les études parlementaires et les réponses publiques. Les sources documentent des signalements, enquêtes, litiges et témoignages, pas une mesure exhaustive de prévalence nationale.",
+      "nuance": "This entry concerns the absence of free, prior and informed consent in medical contexts, not voluntary sterilization or all contraception policies. The cited work notes that other groups were also affected, but Indigenous women are central in testimony, parliamentary studies and public responses. The sources document reports, investigations, litigation and testimony, not an exhaustive measure of national prevalence.",
       "originalNuance": "La fiche porte sur l'absence de consentement libre, préalable et éclairé dans des contextes médicaux, pas sur la stérilisation volontaire ni sur l'ensemble des politiques de contraception. Les travaux cités soulignent que d'autres groupes ont aussi été touchés, mais que les femmes autochtones reviennent de façon centrale dans les témoignages, les études parlementaires et les réponses publiques. Les sources documentent des signalements, enquêtes, litiges et témoignages, pas une mesure exhaustive de prévalence nationale.",
       "tags": [
         "autonomie",
@@ -4045,7 +4052,7 @@
       "periodStart": "1948",
       "periodEnd": "2025",
       "currentStatus": "persistant",
-      "sourcePopulation": "Population mesurée par les sources : personnes ayant subi ou allégué une stérilisation forcée ou contrainte au Canada, avec un accent particulier sur les femmes autochtones dans les témoignages, les litiges et les travaux parlementaires. Les sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Indigenous women and other persons affected by forced or coerced sterilization in Canada",
       "originalSourcePopulation": "Population mesurée par les sources : personnes ayant subi ou allégué une stérilisation forcée ou contrainte au Canada, avec un accent particulier sur les femmes autochtones dans les témoignages, les litiges et les travaux parlementaires. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
       "lastChecked": "25 juin 2026",

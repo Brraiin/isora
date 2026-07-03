@@ -29,64 +29,144 @@
     :root {
       color-scheme: light;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f4f4f0;
+      background: #f6f4ee;
       color: #171717;
+      --paper: #f6f4ee;
+      --surface: #ffffff;
+      --surface-soft: #fbfaf6;
+      --ink: #171717;
+      --muted: #57534e;
+      --line: #d8d3c7;
+      --blue: #1455a3;
+      --blue-soft: #eaf2fb;
+      --green: #147467;
+      --green-soft: #e4f3ed;
+      --amber: #8b5c12;
+      --amber-soft: #fff2d5;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: #f4f4f0; color: #171717; }
-    a { color: #1455a3; text-underline-offset: 0.18em; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--paper); color: var(--ink); }
+    a { color: var(--blue); text-underline-offset: 0.18em; }
     .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
-    .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
+    .topbar { border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, 0.96); }
     .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
-    .brand { display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; font-weight: 900; }
+    .brand { display: inline-flex; align-items: center; gap: 14px; color: var(--ink); text-decoration: none; font-weight: 900; }
     .brand img { width: 106px; height: auto; display: block; }
     .nav { display: flex; flex-wrap: wrap; gap: 10px; font-weight: 800; }
-    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; }
-    .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
-    .hero-inner { padding: 58px 0 48px; }
-    .kicker { margin: 0 0 14px; color: #13519c; font-weight: 900; }
-    h1 { margin: 0; max-width: 820px; font-size: clamp(2.1rem, 5vw, 4.1rem); line-height: 1.06; letter-spacing: 0; }
-    .lead { max-width: 780px; margin: 22px 0 0; font-size: 1.16rem; line-height: 1.72; color: #4b4b4b; }
+    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; border: 1px solid transparent; text-decoration: none; }
+    .nav a:hover { border-color: var(--line); background: var(--surface-soft); }
+    .hero { background: var(--surface); border-bottom: 1px solid var(--line); }
+    .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 30px; align-items: end; padding: 58px 0 46px; }
+    .hero-inner-simple { display: block; padding: 56px 0 42px; }
+    .hero-copy { min-width: 0; }
+    .hero-panel { display: grid; gap: 14px; align-self: stretch; background: var(--surface-soft); border: 1px solid var(--line); padding: 20px; }
+    .hero-panel strong { font-size: 1.08rem; line-height: 1.35; }
+    .hero-panel dl { display: grid; gap: 12px; margin: 0; }
+    .hero-panel div { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+    .hero-panel dt { color: var(--muted); font-size: 0.86rem; font-weight: 800; }
+    .hero-panel dd { margin: 0; color: var(--ink); font-size: 1.2rem; font-weight: 950; }
+    .panel-kicker,
+    .kicker { margin: 0 0 14px; color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .panel-kicker { margin: 0; }
+    h1 { margin: 0; max-width: 880px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 1.03; letter-spacing: 0; }
+    .lead { max-width: 820px; margin: 22px 0 0; font-size: 1.12rem; line-height: 1.72; color: var(--muted); }
     .meta { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
-    .pill { display: inline-flex; min-height: 32px; align-items: center; background: #fff; border: 1px solid #d8d8d0; padding: 5px 10px; font-size: 0.88rem; font-weight: 800; color: #3a3a3a; }
+    .pill,
+    .meta-chip { display: inline-flex; min-height: 32px; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--line); padding: 5px 10px; font-size: 0.88rem; font-weight: 820; color: #3a3732; }
+    .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
+    .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
+    .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
     main { padding-bottom: 64px; }
-    .article-grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 34px; align-items: start; padding-top: 34px; }
+    .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
-    .section { background: #fff; border: 1px solid #d8d8d0; padding: 26px; margin-bottom: 18px; }
-    .section h2 { margin: 0 0 14px; font-size: 1.42rem; line-height: 1.22; }
-    .section p { margin: 0 0 13px; color: #3f3f3f; line-height: 1.72; }
+    .article-grid > article { background: var(--surface); border: 1px solid var(--line); padding: 34px; }
+    .section { border-bottom: 1px solid var(--line); padding: 0 0 30px; margin-bottom: 30px; }
+    .section:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    .section h2 { margin: 0 0 14px; font-size: 1.55rem; line-height: 1.2; }
+    .section p { margin: 0 0 14px; color: #3f3a34; line-height: 1.78; font-size: 1.02rem; }
     .section p:last-child { margin-bottom: 0; }
-    .keypoints { display: grid; gap: 10px; padding: 0; list-style: none; }
-    .keypoints li { border-left: 4px solid #1455a3; background: #eef4fb; padding: 12px 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints { counter-reset: point; display: grid; gap: 10px; padding: 0; list-style: none; }
+    .keypoints li { counter-increment: point; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; background: var(--blue-soft); border: 1px solid #c8dbef; padding: 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints li::before { content: counter(point); display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: var(--blue); color: #fff; font-weight: 950; }
     aside { position: sticky; top: 18px; display: grid; gap: 14px; }
-    .sidebox { background: #fff; border: 1px solid #d8d8d0; padding: 18px; }
+    .sidebox { background: var(--surface); border: 1px solid var(--line); padding: 18px; }
     .sidebox h2 { margin: 0 0 10px; font-size: 1rem; }
-    .sources { display: grid; gap: 12px; padding: 0; list-style: none; }
-    .sources li { min-width: 0; line-height: 1.45; }
-    .sources a { overflow-wrap: anywhere; font-weight: 850; }
-    .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
+    ul.sources { display: grid; gap: 12px; padding: 0; list-style: none; }
+    ul.sources li { min-width: 0; line-height: 1.45; }
+    ul.sources a { overflow-wrap: anywhere; font-weight: 850; }
+    .source-meta { display: block; color: var(--muted); font-size: 0.88rem; margin-top: 3px; }
     .faq { display: grid; gap: 14px; }
-    details { border: 1px solid #d8d8d0; padding: 16px 18px 18px; background: #fff; }
+    details { border: 1px solid var(--line); padding: 16px 18px 18px; background: var(--surface-soft); }
     summary { cursor: pointer; font-weight: 900; line-height: 1.45; padding-bottom: 4px; }
     details[open] summary { margin-bottom: 8px; }
     .section details p { margin: 0 0 6px; line-height: 1.68; }
     .section details p:last-child { margin-bottom: 6px; }
-    .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
+    .method { border-top: 1px solid var(--line); padding: 28px 0 42px; color: var(--muted); line-height: 1.65; }
     .method-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
-    .cookie-settings-button { min-height: 40px; border: 1px solid #d8d8d0; background: #fff; color: #1455a3; padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
-    .cookie-settings-button:hover { background: #eef4fb; }
-    .post-list { display: grid; gap: 14px; padding: 34px 0 64px; }
-    .post-card { display: grid; gap: 10px; background: #fff; border: 1px solid #d8d8d0; padding: 22px; text-decoration: none; color: inherit; }
-    .post-card:hover { border-color: #1455a3; }
-    .post-card h2 { margin: 0; font-size: 1.35rem; line-height: 1.25; }
-    .post-card p { margin: 0; color: #555; line-height: 1.6; }
-    .post-card-action { color: #1455a3; font-weight: 900; line-height: 1.3; }
+    .cookie-settings-button { min-height: 40px; border: 1px solid var(--line); background: var(--surface); color: var(--blue); padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
+    .cookie-settings-button:hover { background: var(--blue-soft); }
+    .blog-index { padding: 0 0 72px; }
+    .blog-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); gap: 24px; align-items: end; padding: 30px 0 24px; border-bottom: 1px solid var(--line); }
+    .blog-toolbar h2,
+    .archive-head h2 { margin: 0; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .blog-toolbar p,
+    .archive-head p { margin: 8px 0 0; color: var(--muted); line-height: 1.55; }
+    .searchbox { display: grid; gap: 8px; }
+    .searchbox span { color: var(--muted); font-size: 0.88rem; font-weight: 850; }
+    .searchbox input { width: 100%; min-height: 46px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 13px; font: inherit; font-weight: 720; }
+    .searchbox input:focus { outline: 3px solid #c8dbef; outline-offset: 2px; border-color: var(--blue); }
+    .featured-grid { display: grid; gap: 18px; padding-top: 24px; }
+    .recent-stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .post-card { min-width: 0; display: grid; gap: 12px; align-content: start; background: var(--surface); border: 1px solid var(--line); padding: 22px; text-decoration: none; color: inherit; transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease; }
+    .post-card:hover { border-color: var(--blue); box-shadow: 0 14px 32px rgba(23, 23, 23, 0.08); transform: translateY(-1px); }
+    .post-card:focus-visible { outline: 3px solid #c8dbef; outline-offset: 3px; }
+    .post-card-featured { grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr); align-items: end; padding: 30px; background: var(--green-soft); border-color: #b7d7cd; }
+    .post-card-featured h2 { font-size: clamp(2rem, 4vw, 3.35rem); line-height: 1.04; }
+    .post-card-featured .post-meta-row { grid-column: 1; }
+    .post-card-featured .post-card-action { grid-column: 2; justify-self: start; }
+    .post-card-compact h2 { font-size: 1.22rem; }
+    .post-card-archive { grid-template-columns: minmax(0, 1fr) auto; align-items: start; }
+    .post-card-archive .post-summary,
+    .post-card-archive .post-meta-row { grid-column: 1 / -1; }
+    .post-card-archive .post-card-action { grid-column: 2; grid-row: 1; align-self: center; }
+    .post-eyebrow { color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .post-card h2 { margin: 0; font-size: 1.38rem; line-height: 1.22; overflow-wrap: anywhere; }
+    .post-card p { margin: 0; color: var(--muted); line-height: 1.62; }
+    .post-summary { max-width: 72ch; }
+    .post-meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .post-card-action { color: var(--blue); font-weight: 950; line-height: 1.3; }
+    .archive-section { padding-top: 34px; }
+    .archive-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+    .archive-list { display: grid; gap: 12px; }
+    .pagination { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 28px; border-top: 1px solid var(--line); padding-top: 22px; }
+    .pagination a,
+    .pagination span { min-height: 38px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; color: var(--blue); font-weight: 900; text-decoration: none; }
+    .pagination span[aria-current="page"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .pagination a:hover { background: var(--blue-soft); border-color: var(--blue); }
+    .pagination .pagination-spacer { border-color: transparent; background: transparent; color: var(--muted); padding: 0 6px; }
+    .empty-search { margin: 18px 0 0; background: var(--surface); border: 1px solid var(--line); padding: 18px; color: var(--muted); font-weight: 780; }
+    @media (max-width: 1040px) {
+      .recent-stack,
+      .post-card-featured { grid-template-columns: 1fr; }
+      .post-card-featured .post-meta-row,
+      .post-card-featured .post-card-action { grid-column: auto; }
+    }
     @media (max-width: 840px) {
       .wrap { width: min(100% - 24px, 1200px); }
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .hero-inner,
+      .blog-toolbar,
+      .featured-grid { grid-template-columns: 1fr; }
+      .hero-inner { padding: 42px 0 34px; }
+      .hero-inner-simple { display: block; }
       .article-grid { grid-template-columns: 1fr; }
+      .article-grid > article { padding: 22px; }
       aside { position: static; }
-      .section { padding: 20px; }
+      .post-card-featured { min-height: 0; }
+      .post-card-archive { grid-template-columns: 1fr; }
+      .post-card-archive .post-card-action { grid-column: auto; grid-row: auto; }
+      .archive-head { align-items: start; flex-direction: column; }
     }
   </style>
     <script type="application/ld+json">{
@@ -224,13 +304,33 @@
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <p class="kicker">Famille, justice et droits</p>
-        <h1>Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée</h1>
-        <p class="lead">Les sources françaises récentes invitent à distinguer deux résultats différents. Les données administratives analysées par Ferrari, Solaz et Vitali montrent un risque de séparation plus élevé lorsque la femme apporte plus de 55 % du revenu du couple. En revanche, la note CEPREMAP publiée en 2025 indique qu&#39;à revenu de ménage donné, les données françaises ne confirment pas une baisse de satisfaction des hommes simplement parce que leur conjointe gagne plus, alors que des travaux britanniques et européens trouvent une pénalité de bien-être dans d&#39;autres contextes.</p>
-        <div class="meta" aria-label="Métadonnées">
-          <span class="pill">25 juin 2026</span>
-          <span class="pill">4 min</span>
-          <span class="pill">4 sources</span>
+        <div class="hero-copy">
+          <p class="kicker">Famille, justice et droits</p>
+          <h1>Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée</h1>
+          <p class="lead">Les sources françaises récentes invitent à distinguer deux résultats différents. Les données administratives analysées par Ferrari, Solaz et Vitali montrent un risque de séparation plus élevé lorsque la femme apporte plus de 55 % du revenu du couple. En revanche, la note CEPREMAP publiée en 2025 indique qu&#39;à revenu de ménage donné, les données françaises ne confirment pas une baisse de satisfaction des hommes simplement parce que leur conjointe gagne plus, alors que des travaux britanniques et européens trouvent une pénalité de bien-être dans d&#39;autres contextes.</p>
+          <div class="meta" aria-label="Métadonnées">
+            <span class="pill">25 juin 2026</span>
+            <span class="pill">4 min</span>
+            <span class="pill">4 sources</span>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Repères de lecture">
+          <p class="panel-kicker">Article de veille</p>
+          <strong>Famille, justice et droits</strong>
+          <dl>
+            <div>
+              <dt>Lecture</dt>
+              <dd>4 min</dd>
+            </div>
+            <div>
+              <dt>Sources</dt>
+              <dd>4</dd>
+            </div>
+            <div>
+              <dt>Fiches reliées</dt>
+              <dd>0</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </section>
@@ -244,76 +344,84 @@
           </ul>
         </section>
 
-        
+
               <section class="section">
                 <h2>Ce que les données françaises confirment sur les séparations</h2>
                 <p>Le point le plus solide des sources récentes concerne le risque de séparation. La synthèse INED publiée en octobre 2024, fondée sur un article paru dans l&#39;European Journal of Population, indique qu&#39;en France le risque de séparation augmente lorsque la part des revenus de la femme dépasse 55 % du revenu total du couple.</p><p>Le document INED résume l&#39;ordre de grandeur ainsi : le risque de rupture est supérieur de 11 % à 40 % par rapport aux couples dont les revenus sont plus proches, selon l&#39;ampleur de la contribution féminine. L&#39;article scientifique sous-jacent précise que l&#39;échantillon final comprend 992 217 couples et 5 536 503 années-couple observées.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Ce que la source française récente dit sur la satisfaction</h2>
                 <p>Les sources françaises primaires ou institutionnelles retrouvées pour cette question ne confirment pas un tableau simple où le fait que la femme gagne plus suffirait à faire baisser la satisfaction masculine. Surtout, une note CEPREMAP publiée le 10 février 2025 aboutit à une conclusion différente pour la France : elle ne met pas en évidence de norme de genre de type « Monsieur Gagnepain » dans la satisfaction de vie des conjoints.</p><p>La note indique qu&#39;à revenu du ménage donné, la satisfaction dépend davantage de la situation économique d&#39;ensemble du foyer que du fait, pris isolément, que la femme gagne plus ou moins que son conjoint. Autrement dit, le résultat français disponible ne confirme pas à lui seul l&#39;idée d&#39;une insatisfaction masculine automatiquement causée par cette configuration. Cela n&#39;annule pas les résultats britanniques et européens trouvés dans d&#39;autres jeux de données; cela montre surtout que les résultats varient selon le pays, la période et la mesure retenue.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Pourquoi le débat public peut mélanger deux plans différents</h2>
                 <p>Une association entre configuration de revenus et risque de séparation ne démontre pas, à elle seule, un mécanisme psychologique précis. Les auteurs évoquent l&#39;hypothèse de normes de genre durables autour du rôle de pourvoyeur, mais rappellent aussi qu&#39;une femme disposant de davantage de ressources peut plus facilement envisager une séparation en cas d&#39;insatisfaction conjugale.</p><p>Autre point utile : les couples où la femme gagne davantage ne forment pas un bloc homogène. Certaines situations relèvent d&#39;un couple bi-actif proche de l&#39;égalité, d&#39;autres d&#39;un revenu masculin faible ou absent. Confondre ces cas avec un tableau unique sur la satisfaction des hommes simplifie excessivement ce que mesurent les sources.</p>
               </section>
-            
+
               <section class="section">
                 <h2>Population mesurée et limites</h2>
                 <p>Les sources sur la séparation parlent de couples femmes-hommes observés dans des données administratives françaises et suivent des unions entre 2011 et 2017. Elles mesurent une probabilité relative de rupture selon la part de revenu féminin, pas un sentiment subjectif directement interrogé auprès de chaque conjoint.</p><p>La note CEPREMAP, elle, repose sur des enquêtes de bien-être et sur des modèles économétriques portant sur la satisfaction déclarée. Les deux sources sont donc complémentaires mais ne répondent pas exactement à la même question. Elles utilisent les catégories statistiques de femmes et d&#39;hommes disponibles dans leurs jeux de données; elles ne mesurent pas les chromosomes.</p>
               </section>
-            
+
 
         <section class="section" aria-labelledby="faq">
                 <h2 id="faq">Questions fréquentes</h2>
                 <div class="faq">
-                  
+
                         <details>
                           <summary>Peut-on dire que les couples se séparent parce que l&#39;homme supporte mal que la femme gagne plus ?</summary>
                           <p>Non, pas de façon certaine à partir de ces seules sources. L&#39;étude française montre une association statistique entre configuration des revenus et risque de séparation, mais elle ne prouve pas un motif psychologique unique pour chaque rupture.</p>
                         </details>
-                      
+
                         <details>
                           <summary>La France confirme-t-elle une baisse de satisfaction des hommes quand leur conjointe gagne plus ?</summary>
                           <p>La source française récente retrouvée pour cette question, la note CEPREMAP de février 2025, ne confirme pas cet effet propre. Elle indique plutôt que la satisfaction dépend d&#39;abord de la situation économique globale du ménage.</p>
                         </details>
-                      
+
                         <details>
                           <summary>Le résultat sur la séparation suffit-il à publier une fiche d&#39;asymétrie simple ?</summary>
                           <p>Oui, à condition de préciser le périmètre. Une fiche dédiée devrait distinguer l&#39;association française avec le risque de séparation, les études européennes et britanniques sur la satisfaction déclarée, et les limites qui empêchent d&#39;attribuer chaque rupture ou chaque baisse de bien-être à une cause unique.</p>
                         </details>
-                      
+
                 </div>
               </section>
       </article>
 
       <aside aria-label="Sources et contexte">
         <section class="sidebox">
+          <h2>Repères</h2>
+          <div class="post-meta-row">
+            <span class="meta-chip topic">Famille, justice et droits</span>
+            <span class="meta-chip">25 juin 2026</span>
+            <span class="meta-chip">4 min</span>
+          </div>
+        </section>
+        <section class="sidebox">
           <h2>Sources citées</h2>
           <ul class="sources">
-            
+
         <li>
           <a href="https://www.ined.fr/fr/tout-savoir-population/memos-demo/focus/differences-revenus-au-sein-couple-augmentent-elles-le-risque-separation" rel="noreferrer" target="_blank">Les différences de revenus au sein du couple augmentent-elles le risque de séparation ?</a>
           <span class="source-meta">INED - 2 octobre 2024</span>
         </li>
-      
+
         <li>
           <a href="https://link.springer.com/article/10.1007/s10680-024-09705-7" rel="noreferrer" target="_blank">Are Female-Breadwinner Couples Always Less Stable? Evidence from French Administrative Data</a>
           <span class="source-meta">European Journal of Population / Springer - 13 juin 2024</span>
         </li>
-      
+
         <li>
           <a href="https://www.cepremap.fr/depot/2025/02/2025-06-Une-affaire-de-couple.pdf" rel="noreferrer" target="_blank">De l&#39;argent à la satisfaction, une affaire de couple</a>
           <span class="source-meta">CEPREMAP - 10 février 2025</span>
         </li>
-      
+
         <li>
           <a href="https://www.insee.fr/fr/statistiques/1281400" rel="noreferrer" target="_blank">Écarts de revenus au sein des couples</a>
           <span class="source-meta">Insee - 3 mars 2014</span>
         </li>
-      
+
           </ul>
         </section>
       </aside>

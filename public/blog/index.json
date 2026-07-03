@@ -2,8 +2,123 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-06-30T18:06:14.601Z",
+  "generatedAt": "2026-07-03T10:40:01.864Z",
   "posts": [
+    {
+      "id": "2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue",
+      "title": "Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/",
+      "description": "Les publications 2026 de l'ONISR, d'Eurostat et de la Commission européenne décrivent une asymétrie stable : les hommes représentent environ les trois quarts des décès routiers observés en France métropolitaine comme dans l'Union européenne, avec des écarts encore plus marqués sur certains modes de déplacement.",
+      "date": "2026-07-02",
+      "publishedAt": "2026-07-02T18:15:00.000Z",
+      "updatedAt": "2026-07-02T18:15:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "sécurité routière femmes hommes France 2025",
+        "ONISR 2025 hommes femmes route",
+        "Eurostat road safety men women 2024",
+        "Commission européenne road deaths 2025",
+        "mortalité routière masculine Europe"
+      ],
+      "relatedClaimIds": [
+        "hommes-accidents-route-monde"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Bilan 2025 de la sécurité routière",
+          "publisher": "ONISR",
+          "url": "https://www.onisr.securite-routiere.gouv.fr/etat-de-linsecurite-routiere/bilans-annuels-de-la-securite-routiere/bilan-2025-de-la-securite-routiere",
+          "date": "juin 2026, données 2025",
+          "type": "bilan annuel"
+        },
+        {
+          "title": "Road safety statistics in the EU",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_safety_statistics_in_the_EU",
+          "date": "2026, données 2024",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Annual statistical report on road safety in the EU 2026",
+          "publisher": "Commission européenne / CARE / ERSO",
+          "url": "https://road-safety.transport.ec.europa.eu/document/download/ed29ad84-b2f1-429e-97ca-2b713e7dc1b1_en?filename=ERSOnext_AnnualReport_20260323.pdf",
+          "date": "23 mars 2026",
+          "type": "rapport statistique"
+        },
+        {
+          "title": "EU road deaths drop by 3% in 2025",
+          "publisher": "Commission européenne",
+          "url": "https://transport.ec.europa.eu/news-events/news/eu-road-deaths-drop-3-2025-2026-03-24_en",
+          "date": "24 mars 2026",
+          "type": "note institutionnelle"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-ia-generative-emplois-feminises-numerique",
+      "title": "IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-01-ia-generative-emplois-feminises-numerique/",
+      "description": "Les sources récentes de l'OIT, de l'OCDE et d'Eurostat décrivent une asymétrie double : les emplois de bureau davantage féminisés apparaissent plus exposés à l'automatisation potentielle par l'IA générative, tandis que l'usage des outils et les métiers ICT restent encore plus masculins en moyenne dans l'Union européenne.",
+      "date": "2026-07-01",
+      "publishedAt": "2026-07-01T17:00:00.000Z",
+      "updatedAt": "2026-07-01T17:00:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "IA générative femmes hommes emploi 2025 2026",
+        "OIT GenAI jobs women men 2025",
+        "OCDE Algorithm and Eve 2024",
+        "Eurostat generative AI women men 2025",
+        "femmes hommes métiers ICT Europe 2025"
+      ],
+      "relatedClaimIds": [
+        "femmes-ingenierie"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+          "publisher": "OIT",
+          "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+          "date": "20 mai 2025",
+          "type": "working paper"
+        },
+        {
+          "title": "One in four jobs at risk of being transformed by GenAI, new ILO-NASK Global Index shows",
+          "publisher": "OIT",
+          "url": "https://www.ilo.org/resource/news/one-four-jobs-risk-being-transformed-genai-new-ilo%E2%80%93nask-global-index-shows",
+          "date": "20 mai 2025",
+          "type": "note institutionnelle"
+        },
+        {
+          "title": "Algorithm and Eve: How AI will impact women at work",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/algorithm-and-eve_a1603510-en.html",
+          "date": "6 décembre 2024",
+          "type": "policy brief"
+        },
+        {
+          "title": "The use of artificial intelligence (AI) technologies in the European Union",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/documents/7870049/23260410/KS-01-26-009-EN-N.pdf/37d063cb-28cf-3b4e-91f3-c3784c970842?t=1774528533658&version=1.1",
+          "date": "2026, données 2025",
+          "type": "rapport statistique"
+        },
+        {
+          "title": "Towards Digital Decade targets for Europe",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Towards_Digital_Decade_targets_for_Europe",
+          "date": "juin 2026, données 2025",
+          "type": "synthèse statistique"
+        }
+      ]
+    },
     {
       "id": "2026-06-30-sorties-precoces-jeunes-hommes-europe-france",
       "title": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",

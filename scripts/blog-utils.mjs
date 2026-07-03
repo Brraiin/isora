@@ -10,6 +10,8 @@ export const blogPostsDir = join(blogContentDir, "posts");
 export const publicDir = join(root, "public");
 export const publicBlogDir = join(publicDir, "blog");
 
+const blogPostsPerPage = 15;
+
 const defaultConfig = {
   siteUrl: "https://isora-xi.vercel.app",
   brand: "isora",
@@ -38,6 +40,18 @@ export function getSiteUrl(config = defaultConfig) {
 
 export function getBlogUrl(config = defaultConfig) {
   return `${getSiteUrl(config)}/blog/`;
+}
+
+function getBlogPageUrl(config = defaultConfig, pageNumber = 1) {
+  return pageNumber <= 1 ? getBlogUrl(config) : `${getBlogUrl(config)}page/${pageNumber}/`;
+}
+
+function getBlogPageHref(pageNumber = 1) {
+  return pageNumber <= 1 ? "/blog/" : `/blog/page/${pageNumber}/`;
+}
+
+function getBlogPageCount(posts) {
+  return Math.max(1, Math.ceil(posts.length / blogPostsPerPage));
 }
 
 export function getPostUrl(post, config = defaultConfig) {
@@ -251,65 +265,228 @@ function renderCss() {
     :root {
       color-scheme: light;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f4f4f0;
+      background: #f6f4ee;
       color: #171717;
+      --paper: #f6f4ee;
+      --surface: #ffffff;
+      --surface-soft: #fbfaf6;
+      --ink: #171717;
+      --muted: #57534e;
+      --line: #d8d3c7;
+      --blue: #1455a3;
+      --blue-soft: #eaf2fb;
+      --green: #147467;
+      --green-soft: #e4f3ed;
+      --amber: #8b5c12;
+      --amber-soft: #fff2d5;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: #f4f4f0; color: #171717; }
-    a { color: #1455a3; text-underline-offset: 0.18em; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--paper); color: var(--ink); }
+    a { color: var(--blue); text-underline-offset: 0.18em; }
     .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
-    .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
+    .topbar { border-bottom: 1px solid var(--line); background: rgba(255, 255, 255, 0.96); }
     .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
-    .brand { display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; font-weight: 900; }
+    .brand { display: inline-flex; align-items: center; gap: 14px; color: var(--ink); text-decoration: none; font-weight: 900; }
     .brand img { width: 106px; height: auto; display: block; }
     .nav { display: flex; flex-wrap: wrap; gap: 10px; font-weight: 800; }
-    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; }
-    .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
-    .hero-inner { padding: 58px 0 48px; }
-    .kicker { margin: 0 0 14px; color: #13519c; font-weight: 900; }
-    h1 { margin: 0; max-width: 820px; font-size: clamp(2.1rem, 5vw, 4.1rem); line-height: 1.06; letter-spacing: 0; }
-    .lead { max-width: 780px; margin: 22px 0 0; font-size: 1.16rem; line-height: 1.72; color: #4b4b4b; }
+    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; border: 1px solid transparent; text-decoration: none; }
+    .nav a:hover { border-color: var(--line); background: var(--surface-soft); }
+    .hero { background: var(--surface); border-bottom: 1px solid var(--line); }
+    .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 30px; align-items: end; padding: 58px 0 46px; }
+    .hero-inner-simple { display: block; padding: 56px 0 42px; }
+    .hero-copy { min-width: 0; }
+    .hero-panel { display: grid; gap: 14px; align-self: stretch; background: var(--surface-soft); border: 1px solid var(--line); padding: 20px; }
+    .hero-panel strong { font-size: 1.08rem; line-height: 1.35; }
+    .hero-panel dl { display: grid; gap: 12px; margin: 0; }
+    .hero-panel div { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+    .hero-panel dt { color: var(--muted); font-size: 0.86rem; font-weight: 800; }
+    .hero-panel dd { margin: 0; color: var(--ink); font-size: 1.2rem; font-weight: 950; }
+    .panel-kicker,
+    .kicker { margin: 0 0 14px; color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .panel-kicker { margin: 0; }
+    h1 { margin: 0; max-width: 880px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 1.03; letter-spacing: 0; }
+    .lead { max-width: 820px; margin: 22px 0 0; font-size: 1.12rem; line-height: 1.72; color: var(--muted); }
     .meta { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
-    .pill { display: inline-flex; min-height: 32px; align-items: center; background: #fff; border: 1px solid #d8d8d0; padding: 5px 10px; font-size: 0.88rem; font-weight: 800; color: #3a3a3a; }
+    .pill,
+    .meta-chip { display: inline-flex; min-height: 32px; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--line); padding: 5px 10px; font-size: 0.88rem; font-weight: 820; color: #3a3732; }
+    .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
+    .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
+    .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
     main { padding-bottom: 64px; }
-    .article-grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 34px; align-items: start; padding-top: 34px; }
+    .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
-    .section { background: #fff; border: 1px solid #d8d8d0; padding: 26px; margin-bottom: 18px; }
-    .section h2 { margin: 0 0 14px; font-size: 1.42rem; line-height: 1.22; }
-    .section p { margin: 0 0 13px; color: #3f3f3f; line-height: 1.72; }
+    .article-grid > article { background: var(--surface); border: 1px solid var(--line); padding: 34px; }
+    .section { border-bottom: 1px solid var(--line); padding: 0 0 30px; margin-bottom: 30px; }
+    .section:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    .section h2 { margin: 0 0 14px; font-size: 1.55rem; line-height: 1.2; }
+    .section p { margin: 0 0 14px; color: #3f3a34; line-height: 1.78; font-size: 1.02rem; }
     .section p:last-child { margin-bottom: 0; }
-    .keypoints { display: grid; gap: 10px; padding: 0; list-style: none; }
-    .keypoints li { border-left: 4px solid #1455a3; background: #eef4fb; padding: 12px 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints { counter-reset: point; display: grid; gap: 10px; padding: 0; list-style: none; }
+    .keypoints li { counter-increment: point; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; background: var(--blue-soft); border: 1px solid #c8dbef; padding: 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints li::before { content: counter(point); display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: var(--blue); color: #fff; font-weight: 950; }
     aside { position: sticky; top: 18px; display: grid; gap: 14px; }
-    .sidebox { background: #fff; border: 1px solid #d8d8d0; padding: 18px; }
+    .sidebox { background: var(--surface); border: 1px solid var(--line); padding: 18px; }
     .sidebox h2 { margin: 0 0 10px; font-size: 1rem; }
-    .sources { display: grid; gap: 12px; padding: 0; list-style: none; }
-    .sources li { min-width: 0; line-height: 1.45; }
-    .sources a { overflow-wrap: anywhere; font-weight: 850; }
-    .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
+    ul.sources { display: grid; gap: 12px; padding: 0; list-style: none; }
+    ul.sources li { min-width: 0; line-height: 1.45; }
+    ul.sources a { overflow-wrap: anywhere; font-weight: 850; }
+    .source-meta { display: block; color: var(--muted); font-size: 0.88rem; margin-top: 3px; }
     .faq { display: grid; gap: 14px; }
-    details { border: 1px solid #d8d8d0; padding: 16px 18px 18px; background: #fff; }
+    details { border: 1px solid var(--line); padding: 16px 18px 18px; background: var(--surface-soft); }
     summary { cursor: pointer; font-weight: 900; line-height: 1.45; padding-bottom: 4px; }
     details[open] summary { margin-bottom: 8px; }
     .section details p { margin: 0 0 6px; line-height: 1.68; }
     .section details p:last-child { margin-bottom: 6px; }
-    .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
+    .method { border-top: 1px solid var(--line); padding: 28px 0 42px; color: var(--muted); line-height: 1.65; }
     .method-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
-    .cookie-settings-button { min-height: 40px; border: 1px solid #d8d8d0; background: #fff; color: #1455a3; padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
-    .cookie-settings-button:hover { background: #eef4fb; }
-    .post-list { display: grid; gap: 14px; padding: 34px 0 64px; }
-    .post-card { display: grid; gap: 10px; background: #fff; border: 1px solid #d8d8d0; padding: 22px; text-decoration: none; color: inherit; }
-    .post-card:hover { border-color: #1455a3; }
-    .post-card h2 { margin: 0; font-size: 1.35rem; line-height: 1.25; }
-    .post-card p { margin: 0; color: #555; line-height: 1.6; }
-    .post-card-action { color: #1455a3; font-weight: 900; line-height: 1.3; }
+    .cookie-settings-button { min-height: 40px; border: 1px solid var(--line); background: var(--surface); color: var(--blue); padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
+    .cookie-settings-button:hover { background: var(--blue-soft); }
+    .blog-index { padding: 0 0 72px; }
+    .blog-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); gap: 24px; align-items: end; padding: 30px 0 24px; border-bottom: 1px solid var(--line); }
+    .blog-toolbar h2,
+    .archive-head h2 { margin: 0; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .blog-toolbar p,
+    .archive-head p { margin: 8px 0 0; color: var(--muted); line-height: 1.55; }
+    .searchbox { display: grid; gap: 8px; }
+    .searchbox span { color: var(--muted); font-size: 0.88rem; font-weight: 850; }
+    .searchbox input { width: 100%; min-height: 46px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 13px; font: inherit; font-weight: 720; }
+    .searchbox input:focus { outline: 3px solid #c8dbef; outline-offset: 2px; border-color: var(--blue); }
+    .featured-grid { display: grid; gap: 18px; padding-top: 24px; }
+    .recent-stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .post-card { min-width: 0; display: grid; gap: 12px; align-content: start; background: var(--surface); border: 1px solid var(--line); padding: 22px; text-decoration: none; color: inherit; transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease; }
+    .post-card:hover { border-color: var(--blue); box-shadow: 0 14px 32px rgba(23, 23, 23, 0.08); transform: translateY(-1px); }
+    .post-card:focus-visible { outline: 3px solid #c8dbef; outline-offset: 3px; }
+    .post-card-featured { grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr); align-items: end; padding: 30px; background: var(--green-soft); border-color: #b7d7cd; }
+    .post-card-featured h2 { font-size: clamp(2rem, 4vw, 3.35rem); line-height: 1.04; }
+    .post-card-featured .post-meta-row { grid-column: 1; }
+    .post-card-featured .post-card-action { grid-column: 2; justify-self: start; }
+    .post-card-compact h2 { font-size: 1.22rem; }
+    .post-card-archive { grid-template-columns: minmax(0, 1fr) auto; align-items: start; }
+    .post-card-archive .post-summary,
+    .post-card-archive .post-meta-row { grid-column: 1 / -1; }
+    .post-card-archive .post-card-action { grid-column: 2; grid-row: 1; align-self: center; }
+    .post-eyebrow { color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .post-card h2 { margin: 0; font-size: 1.38rem; line-height: 1.22; overflow-wrap: anywhere; }
+    .post-card p { margin: 0; color: var(--muted); line-height: 1.62; }
+    .post-summary { max-width: 72ch; }
+    .post-meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .post-card-action { color: var(--blue); font-weight: 950; line-height: 1.3; }
+    .archive-section { padding-top: 34px; }
+    .archive-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+    .archive-list { display: grid; gap: 12px; }
+    .pagination { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 28px; border-top: 1px solid var(--line); padding-top: 22px; }
+    .pagination a,
+    .pagination span { min-height: 38px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; color: var(--blue); font-weight: 900; text-decoration: none; }
+    .pagination span[aria-current="page"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .pagination a:hover { background: var(--blue-soft); border-color: var(--blue); }
+    .pagination .pagination-spacer { border-color: transparent; background: transparent; color: var(--muted); padding: 0 6px; }
+    .empty-search { margin: 18px 0 0; background: var(--surface); border: 1px solid var(--line); padding: 18px; color: var(--muted); font-weight: 780; }
+    @media (max-width: 1040px) {
+      .recent-stack,
+      .post-card-featured { grid-template-columns: 1fr; }
+      .post-card-featured .post-meta-row,
+      .post-card-featured .post-card-action { grid-column: auto; }
+    }
     @media (max-width: 840px) {
       .wrap { width: min(100% - 24px, 1200px); }
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .hero-inner,
+      .blog-toolbar,
+      .featured-grid { grid-template-columns: 1fr; }
+      .hero-inner { padding: 42px 0 34px; }
+      .hero-inner-simple { display: block; }
       .article-grid { grid-template-columns: 1fr; }
+      .article-grid > article { padding: 22px; }
       aside { position: static; }
-      .section { padding: 20px; }
+      .post-card-featured { min-height: 0; }
+      .post-card-archive { grid-template-columns: 1fr; }
+      .post-card-archive .post-card-action { grid-column: auto; grid-row: auto; }
+      .archive-head { align-items: start; flex-direction: column; }
     }
+  `;
+}
+
+function countLabel(count, singular, plural = `${singular}s`) {
+  return `${count} ${count > 1 ? plural : singular}`;
+}
+
+function renderPostMeta(post) {
+  const relatedClaims = post.relatedClaimIds.length;
+
+  return `
+    <div class="post-meta-row" aria-label="Métadonnées de l'article">
+      <span class="meta-chip">${htmlEscape(formatFrenchDate(post.date))}</span>
+      <span class="meta-chip">${post.readingMinutes} min</span>
+      <span class="meta-chip sources">${countLabel(post.sources.length, "source")}</span>
+      ${
+        relatedClaims > 0
+          ? `<span class="meta-chip claims">${countLabel(relatedClaims, "fiche reliée", "fiches reliées")}</span>`
+          : ""
+      }
+    </div>
+  `;
+}
+
+function getPostSearchText(post) {
+  return [
+    post.title,
+    post.description,
+    post.summary,
+    post.topic.label,
+    ...post.keywords,
+    ...post.relatedClaimIds,
+    ...post.sources.flatMap((source) => [source.title, source.publisher]),
+  ]
+    .join(" ")
+    .toLowerCase();
+}
+
+function renderIndexPostCard(post, variant = "archive") {
+  const variantClass =
+    variant === "featured" ? "post-card-featured" : variant === "compact" ? "post-card-compact" : "post-card-archive";
+  const actionLabel = variant === "archive" ? "Lire" : "Lire l'article";
+
+  return `
+    <a class="post-card ${variantClass}" href="/blog/${htmlEscape(post.slug)}/" data-post-card data-search="${htmlEscape(
+      getPostSearchText(post),
+    )}">
+      <div>
+        <span class="post-eyebrow">${variant === "featured" ? "Dernier article" : htmlEscape(post.topic.label)}</span>
+        <h2>${htmlWithBrand(post.title)}</h2>
+      </div>
+      <p class="post-summary">${htmlWithBrand(post.description || post.summary)}</p>
+      ${renderPostMeta(post)}
+      <span class="post-card-action">${actionLabel}</span>
+    </a>
+  `;
+}
+
+function renderPaginationNav(currentPage, totalPages) {
+  if (totalPages <= 1) return "";
+
+  const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
+
+  return `
+    <nav class="pagination" aria-label="Pagination des articles">
+      ${
+        currentPage > 1
+          ? `<a href="${htmlEscape(getBlogPageHref(currentPage - 1))}" rel="prev">Précédent</a>`
+          : `<span class="pagination-spacer" aria-hidden="true">Précédent</span>`
+      }
+      ${pages
+        .map((pageNumber) =>
+          pageNumber === currentPage
+            ? `<span aria-current="page">${pageNumber}</span>`
+            : `<a href="${htmlEscape(getBlogPageHref(pageNumber))}">${pageNumber}</a>`,
+        )
+        .join("")}
+      ${
+        currentPage < totalPages
+          ? `<a href="${htmlEscape(getBlogPageHref(currentPage + 1))}" rel="next">Suivant</a>`
+          : `<span class="pagination-spacer" aria-hidden="true">Suivant</span>`
+      }
+    </nav>
   `;
 }
 
@@ -454,13 +631,33 @@ function renderArticleHtml(post, config) {
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <p class="kicker">${htmlEscape(post.topic.label)}</p>
-        <h1>${htmlWithBrand(title)}</h1>
-        <p class="lead">${htmlWithBrand(post.summary)}</p>
-        <div class="meta" aria-label="Métadonnées">
-          <span class="pill">${htmlEscape(formatFrenchDate(post.date))}</span>
-          <span class="pill">${post.readingMinutes} min</span>
-          <span class="pill">${post.sources.length} sources</span>
+        <div class="hero-copy">
+          <p class="kicker">${htmlEscape(post.topic.label)}</p>
+          <h1>${htmlWithBrand(title)}</h1>
+          <p class="lead">${htmlWithBrand(post.summary)}</p>
+          <div class="meta" aria-label="Métadonnées">
+            <span class="pill">${htmlEscape(formatFrenchDate(post.date))}</span>
+            <span class="pill">${post.readingMinutes} min</span>
+            <span class="pill">${countLabel(post.sources.length, "source")}</span>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Repères de lecture">
+          <p class="panel-kicker">Article de veille</p>
+          <strong>${htmlEscape(post.topic.label)}</strong>
+          <dl>
+            <div>
+              <dt>Lecture</dt>
+              <dd>${post.readingMinutes} min</dd>
+            </div>
+            <div>
+              <dt>Sources</dt>
+              <dd>${post.sources.length}</dd>
+            </div>
+            <div>
+              <dt>Fiches reliées</dt>
+              <dd>${post.relatedClaimIds.length}</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </section>
@@ -508,6 +705,14 @@ function renderArticleHtml(post, config) {
 
       <aside aria-label="Sources et contexte">
         <section class="sidebox">
+          <h2>Repères</h2>
+          <div class="post-meta-row">
+            <span class="meta-chip topic">${htmlEscape(post.topic.label)}</span>
+            <span class="meta-chip">${htmlEscape(formatFrenchDate(post.date))}</span>
+            <span class="meta-chip">${post.readingMinutes} min</span>
+          </div>
+        </section>
+        <section class="sidebox">
           <h2>Sources citées</h2>
           <ul class="sources">
             ${renderSourceList(post.sources)}
@@ -529,17 +734,32 @@ function renderArticleHtml(post, config) {
 `;
 }
 
-function renderBlogIndex(posts, config) {
+function renderBlogIndex(posts, config, { pageNumber = 1, totalPages = 1 } = {}) {
   const siteUrl = getSiteUrl(config);
-  const blogUrl = getBlogUrl(config);
-  const description = "Veille isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
-  const heroDescription = "Veille sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
+  const blogUrl = getBlogPageUrl(config, pageNumber);
+  const rootBlogUrl = getBlogUrl(config);
+  const baseDescription = "Veille isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
+  const description = pageNumber > 1 ? `${baseDescription} Page ${pageNumber}.` : baseDescription;
+  const pageTitle = pageNumber > 1 ? `Articles isora - Page ${pageNumber}` : "Articles isora - Veille";
+  const heroDescription =
+    pageNumber > 1
+      ? `Archives de veille, page ${pageNumber}, sur les asymétries documentées selon le sexe.`
+      : "Veille sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
+  const featuredPost = posts[0] ?? null;
+  const recentPosts = pageNumber === 1 ? posts.slice(1, 4) : [];
+  const archivePosts = pageNumber === 1 ? posts.slice(4) : posts;
+  const showFeaturedLayout = pageNumber === 1;
+  const archiveTitle = pageNumber === 1 ? "Archives" : `Articles - page ${pageNumber}`;
+  const archiveIntro =
+    pageNumber === 1
+      ? "Les articles plus anciens restent disponibles pour suivre l'évolution des sources et des constats."
+      : "Suite des articles de veille, avec les mêmes repères de lecture et de sources.";
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Blog",
-        "@id": `${blogUrl}#blog`,
+        "@id": `${rootBlogUrl}#blog`,
         name: "Articles isora",
         url: blogUrl,
         description,
@@ -572,15 +792,17 @@ function renderBlogIndex(posts, config) {
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(blogUrl)}" />
-    <meta property="og:title" content="Articles isora - Veille" />
+    <meta property="og:title" content="${htmlEscape(pageTitle)}" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(blogUrl)}" />
+    ${pageNumber > 1 ? `<link rel="prev" href="${htmlEscape(getBlogPageUrl(config, pageNumber - 1))}" />` : ""}
+    ${pageNumber < totalPages ? `<link rel="next" href="${htmlEscape(getBlogPageUrl(config, pageNumber + 1))}" />` : ""}
     <link rel="alternate" type="application/rss+xml" title="Articles isora" href="/blog/feed.xml" />
     <link rel="alternate" type="application/json" title="Index JSON des articles isora" href="/blog/index.json" />
     <link rel="alternate" type="text/plain" title="Articles isora pour IA" href="/blog/llms-blog.txt" />
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
     <link rel="icon" type="image/svg+xml" href="/isora.svg" />
-    <title>Articles isora - Veille</title>
+    <title>${htmlEscape(pageTitle)}</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
   </head>
@@ -597,36 +819,102 @@ function renderBlogIndex(posts, config) {
     </header>
 
     <section class="hero">
-      <div class="wrap hero-inner">
-        <h1>Articles</h1>
-        <p class="lead">${htmlEscape(heroDescription)}</p>
+      <div class="wrap hero-inner hero-inner-simple">
+        <div class="hero-copy">
+          <p class="kicker">Veille documentée</p>
+          <h1>Articles</h1>
+          <p class="lead">${htmlEscape(heroDescription)}</p>
+        </div>
       </div>
     </section>
 
-    <main class="wrap">
-      <section class="post-list" aria-label="Articles">
+    <main class="wrap blog-index">
+      <section class="blog-toolbar" aria-labelledby="articles-recents">
+        <div>
+          <h2 id="articles-recents">${pageNumber === 1 ? "Articles récents" : `Articles - page ${pageNumber}`}</h2>
+          <p>${pageNumber === 1 ? "Dernières synthèses de veille, avec date, temps de lecture, sources et fiches reliées quand elles existent." : "Suite des synthèses de veille, paginées par groupes de quinze articles."}</p>
+        </div>
+        <label class="searchbox">
+          <span>Rechercher dans les articles</span>
+          <input type="search" placeholder="Sujet, source, fiche..." data-post-search autocomplete="off" />
+        </label>
+      </section>
+
         ${
-          posts.length > 0
-            ? posts
-                .map(
-                  (post) => `
-                    <a class="post-card" href="/blog/${htmlEscape(post.slug)}/">
-                      <span class="pill">${htmlEscape(formatFrenchDate(post.date))} - ${post.readingMinutes} min</span>
-                      <h2>${htmlWithBrand(post.title)}</h2>
-                      <p>${htmlWithBrand(post.description || post.summary)}</p>
-                      <span class="post-card-action">Lire tout l'article</span>
-                    </a>
-                  `,
-                )
-                .join("")
+          featuredPost && showFeaturedLayout
+            ? `<section class="featured-grid" aria-label="Sélection d'articles">
+                ${renderIndexPostCard(featuredPost, "featured")}
+                ${
+                  recentPosts.length > 0
+                    ? `<div class="recent-stack">
+                        ${recentPosts.map((post) => renderIndexPostCard(post, "compact")).join("")}
+                      </div>`
+                    : ""
+                }
+              </section>
+
+              ${
+                archivePosts.length > 0
+                  ? `<section class="archive-section" aria-labelledby="archives-articles">
+                      <div class="archive-head">
+                        <div>
+                          <h2 id="archives-articles">${htmlEscape(archiveTitle)}</h2>
+                          <p>${htmlEscape(archiveIntro)}</p>
+                        </div>
+                        <a class="post-card-action" href="/blog/feed.xml">Flux RSS</a>
+                      </div>
+                      <div class="archive-list">
+                        ${archivePosts.map((post) => renderIndexPostCard(post, "archive")).join("")}
+                      </div>
+                    </section>`
+                  : ""
+              }`
+            : featuredPost
+              ? `<section class="archive-section" aria-labelledby="archives-articles">
+                  <div class="archive-head">
+                    <div>
+                      <h2 id="archives-articles">${htmlEscape(archiveTitle)}</h2>
+                      <p>${htmlEscape(archiveIntro)}</p>
+                    </div>
+                    <a class="post-card-action" href="/blog/feed.xml">Flux RSS</a>
+                  </div>
+                  <div class="archive-list">
+                    ${archivePosts.map((post) => renderIndexPostCard(post, "archive")).join("")}
+                  </div>
+                </section>`
             : `<article class="post-card">
                 <span class="pill">Automatisation prête</span>
                 <h2>Le premier article sera publié par la veille quotidienne</h2>
                 <p>L'automatisation Codex génère un article chaque matin sans clé API.</p>
               </article>`
         }
-      </section>
+      ${renderPaginationNav(pageNumber, totalPages)}
+      <p class="empty-search" data-post-empty hidden>Aucun article ne correspond à cette recherche.</p>
     </main>
+    <script>
+      (() => {
+        const input = document.querySelector("[data-post-search]");
+        const cards = Array.from(document.querySelectorAll("[data-post-card]"));
+        const empty = document.querySelector("[data-post-empty]");
+        if (!input || cards.length === 0) return;
+        const normalize = (value) =>
+          String(value || "")
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\\u0300-\\u036f]/g, "");
+        const update = () => {
+          const query = normalize(input.value.trim());
+          let visible = 0;
+          for (const card of cards) {
+            const matches = !query || normalize(card.dataset.search || card.textContent).includes(query);
+            card.hidden = !matches;
+            if (matches) visible += 1;
+          }
+          if (empty) empty.hidden = visible !== 0;
+        };
+        input.addEventListener("input", update);
+      })();
+    </script>
   </body>
 </html>
 `;
@@ -729,6 +1017,8 @@ function renderBlogLlms(posts, config) {
 }
 
 export function buildBlogSitemapEntries(posts, config = defaultConfig, generatedDate = getParisDateKey()) {
+  const totalPages = getBlogPageCount(posts);
+
   return [
     {
       loc: getBlogUrl(config),
@@ -736,6 +1026,16 @@ export function buildBlogSitemapEntries(posts, config = defaultConfig, generated
       changefreq: "daily",
       priority: "0.8",
     },
+    ...Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+      const pageNumber = index + 2;
+
+      return {
+        loc: getBlogPageUrl(config, pageNumber),
+        lastmod: generatedDate,
+        changefreq: "daily",
+        priority: "0.6",
+      };
+    }),
     {
       loc: `${getBlogUrl(config)}feed.xml`,
       lastmod: generatedDate,
@@ -811,16 +1111,37 @@ export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
 export async function renderBlogAssets({ config, posts } = {}) {
   const resolvedConfig = config ?? (await loadBlogConfig());
   const resolvedPosts = posts ?? (await loadBlogPosts());
+  const totalPages = getBlogPageCount(resolvedPosts);
+  const postPages = Array.from({ length: totalPages }, (_, index) => {
+    const pageNumber = index + 1;
+    const start = index * blogPostsPerPage;
+
+    return {
+      pageNumber,
+      posts: resolvedPosts.slice(start, start + blogPostsPerPage),
+    };
+  });
 
   await rm(publicBlogDir, { recursive: true, force: true });
   await mkdir(publicBlogDir, { recursive: true });
 
   await Promise.all([
-    writeFile(join(publicBlogDir, "index.html"), renderBlogIndex(resolvedPosts, resolvedConfig), "utf8"),
     writeFile(join(publicBlogDir, "feed.xml"), renderRss(resolvedPosts, resolvedConfig), "utf8"),
     writeFile(join(publicBlogDir, "index.json"), `${renderBlogJson(resolvedPosts, resolvedConfig)}\n`, "utf8"),
     writeFile(join(publicBlogDir, "llms-blog.txt"), renderBlogLlms(resolvedPosts, resolvedConfig), "utf8"),
   ]);
+
+  await Promise.all(
+    postPages.map(async ({ pageNumber, posts: pagePosts }) => {
+      const pageDir = pageNumber === 1 ? publicBlogDir : join(publicBlogDir, "page", String(pageNumber));
+      await mkdir(pageDir, { recursive: true });
+      await writeFile(
+        join(pageDir, "index.html"),
+        renderBlogIndex(pagePosts, resolvedConfig, { pageNumber, totalPages }),
+        "utf8",
+      );
+    }),
+  );
 
   await Promise.all(
     resolvedPosts.map(async (post) => {

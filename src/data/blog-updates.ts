@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-accidents-route-monde",
+    "side": "hommes",
+    "claimTitle": "Hommes beaucoup plus exposés à la mortalité routière",
+    "claimMetric": "3x",
+    "blogTitle": "Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE",
+    "blogUrl": "/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/",
+    "date": "2026-07-02",
+    "updatedAt": "2026-07-02T18:15:00.000Z"
+  },
+  {
+    "claimId": "femmes-ingenierie",
+    "side": "femmes",
+    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
+    "claimMetric": "24 %",
+    "blogTitle": "IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins",
+    "blogUrl": "/blog/2026-07-01-ia-generative-emplois-feminises-numerique/",
+    "date": "2026-07-01",
+    "updatedAt": "2026-07-01T17:00:00.000Z"
+  },
+  {
     "claimId": "femmes-filles-hors-ecole",
     "side": "femmes",
     "claimTitle": "Enfants hors de l'école : estimations mondiales proches selon le sexe",
@@ -110,16 +130,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
     "date": "2026-06-25",
     "updatedAt": "2026-06-25T21:05:00.000Z"
-  },
-  {
-    "claimId": "femmes-ingenierie",
-    "side": "femmes",
-    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
-    "claimMetric": "24 %",
-    "blogTitle": "Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste",
-    "blogUrl": "/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/",
-    "date": "2026-06-25",
-    "updatedAt": "2026-06-25T18:30:00.000Z"
   },
   {
     "claimId": "hommes-bourses-stem-reservees-femmes",

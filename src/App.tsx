@@ -174,7 +174,7 @@ type HomeBlogUpdateSideStats = {
   updates: HomeBlogUpdate[];
 };
 
-type CookieConsentCategory = "necessary" | "analytics" | "marketing";
+type CookieConsentCategory = "necessary" | "analytics";
 type CookieConsentCategories = Record<CookieConsentCategory, boolean>;
 
 const sideLabelsByLocale: Record<Locale, Record<Side | "tous", string>> = {
@@ -384,7 +384,6 @@ const cookieConsentStorageKey = "isora:cookie-consent-v1";
 const defaultCookieConsentCategories: CookieConsentCategories = {
   necessary: true,
   analytics: false,
-  marketing: false,
 };
 const adminAuthLocalAttemptsKey = "isora:admin-auth-attempts";
 const adminPasswordDevHash = "274bdf294021dcdc4d40e6d04b4384e329a903caeaef616615ddd0d24929fea2";
@@ -674,10 +673,10 @@ function readCookieConsentCategories() {
 
   try {
     const consent = JSON.parse(window.localStorage.getItem(cookieConsentStorageKey) ?? "null");
+
     return {
-      ...defaultCookieConsentCategories,
-      ...(consent?.categories ?? {}),
       necessary: true,
+      analytics: Boolean(consent?.categories?.analytics),
     };
   } catch {
     return defaultCookieConsentCategories;
