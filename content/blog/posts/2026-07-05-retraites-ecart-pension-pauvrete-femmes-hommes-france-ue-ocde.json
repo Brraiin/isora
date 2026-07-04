@@ -1,0 +1,123 @@
+{
+  "id": "2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde",
+  "slug": "2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde",
+  "status": "published",
+  "language": "fr",
+  "title": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
+  "description": "Les publications 2025-2026 d'Eurostat, de l'OCDE et de la DREES décrivent une asymétrie persistante en fin de carrière : les pensions des femmes âgées restent plus basses que celles des hommes, et leur risque de pauvreté monétaire demeure plus élevé dans la plupart des comparaisons, même si certains dispositifs comme la réversion atténuent partiellement l'écart.",
+  "date": "2026-07-05",
+  "publishedAt": "2026-07-05T07:30:00.000Z",
+  "updatedAt": "2026-07-05T07:30:00.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "écart pension femmes hommes UE 2024",
+    "Eurostat pauvreté monétaire personnes âgées femmes hommes 2026",
+    "OCDE gender pension gap 2025",
+    "DREES retraites femmes hommes 2025",
+    "pension de réversion femmes France 2023"
+  ],
+  "relatedClaimIds": [
+    "femmes-ecart-salaire",
+    "femmes-temps-partiel",
+    "femmes-soin-non-remunere-emploi"
+  ],
+  "readingMinutes": 5,
+  "summary": "La veille du 5 juillet 2026 met en avant un cumul d'écarts de long terme plutôt qu'un seul indicateur isolé. Eurostat indique qu'en 2024, dans l'Union européenne, la pension moyenne des femmes de 65 ans ou plus est inférieure de 24,5 % à celle des hommes, et que le risque de pauvreté des femmes de cet âge est plus élevé dans 22 pays de l'UE. L'OCDE retrouve un écart moyen voisin, à 23 % en 2024, et un taux de pauvreté monétaire des 65 ans ou plus de 17 % pour les femmes contre 12 % pour les hommes en moyenne. En France, la DREES indique qu'en 2023 la pension de droit direct moyenne des femmes résidant en France reste inférieure de 38 % à celle des hommes, écart ramené à 25 % en incluant l'éventuelle pension de réversion.",
+  "keyPoints": [
+    "Eurostat indique qu'en 2024, dans l'UE, la pension moyenne des femmes de 65 ans ou plus est inférieure de 24,5 % à celle des hommes.",
+    "La même source indique qu'en 2024, le risque de pauvreté des femmes de 65 ans ou plus est plus élevé que celui des hommes dans 22 pays de l'UE, avec un écart moyen de 5,6 points en faveur des hommes à l'échelle de l'UE.",
+    "L'OCDE indique qu'en 2024 l'écart moyen de pension entre femmes et hommes parmi les retraités de 65 ans ou plus est de 23 % dans ses pays membres.",
+    "Toujours selon l'OCDE, le taux de pauvreté monétaire des 65 ans ou plus atteint 17 % pour les femmes contre 12 % pour les hommes en moyenne dans l'OCDE.",
+    "La DREES indique qu'en France en 2023, la pension de droit direct moyenne des femmes résidant en France est inférieure de 38 % à celle des hommes; en incluant l'éventuelle pension de réversion, l'écart reste de 25 %, et 87 % des bénéficiaires d'une pension de réversion sont des femmes."
+  ],
+  "sections": [
+    {
+      "heading": "Les nouveaux chiffres européens décrivent un écart de pension encore proche d'un quart",
+      "paragraphs": [
+        "Eurostat a publié en février 2026 une synthèse dédiée à la pauvreté monétaire des personnes âgées. L'organisme indique qu'en 2024, dans l'Union européenne, la pension moyenne des femmes de 65 ans ou plus est inférieure de 24,5 % à celle des hommes. La médiane raconte presque la même chose, avec un écart de 24,9 %, ce qui suggère que le phénomène ne dépend pas seulement de quelques très hautes pensions masculines.",
+        "Cette même synthèse montre aussi que les hommes de 65 ans ou plus sont légèrement plus souvent couverts par une pension que les femmes à l'échelle de l'UE, avec un écart de couverture de 4,1 points. L'asymétrie documentée ne porte donc pas uniquement sur le montant reçu, mais aussi sur la probabilité même de percevoir une pension dans certains pays."
+      ]
+    },
+    {
+      "heading": "La pauvreté monétaire en vieillesse reste plus fréquente chez les femmes dans la plupart des comparaisons",
+      "paragraphs": [
+        "Eurostat indique qu'en 2024 le risque de pauvreté des femmes de 65 ans ou plus est plus élevé que celui des hommes du même âge dans 22 pays de l'Union européenne. A l'échelle de l'UE, l'écart est de 5,6 points en défaveur des femmes âgées. La source précise cependant que le profil national varie: quelques pays, comme le Luxembourg, la Suède ou le Danemark, présentent l'écart inverse.",
+        "L'OCDE retrouve un signal de même sens dans son édition 2025 de Pensions at a Glance. L'organisation indique qu'au sein des pays de l'OCDE, le taux de pauvreté monétaire des personnes de 65 ans ou plus atteint 17 % pour les femmes et 12 % pour les hommes en moyenne. Elle précise aussi que cet écart existe dans tous les pays sauf le Costa Rica et l'Islande."
+      ]
+    },
+    {
+      "heading": "Le rattrapage existe, sans effacer le cumul de carrière",
+      "paragraphs": [
+        "L'OCDE souligne que l'écart moyen de pension entre femmes et hommes s'est réduit dans le temps, passant de 28 % en 2007 à 23 % en 2024 en moyenne parmi les retraités de 65 ans ou plus. Le mouvement va donc dans le sens d'un rapprochement, mais il ne conduit pas encore à une symétrie des revenus de retraite.",
+        "L'organisation relie explicitement cet écart aux différences accumulées au cours de la vie active: durée de carrière, nombre d'heures travaillées et rémunération horaire. Autrement dit, les pensions ne sont pas un sujet isolé; elles prolongent des asymétries déjà mesurées plus tôt dans l'emploi, le temps partiel et le soin non rémunéré."
+      ]
+    },
+    {
+      "heading": "En France, la réversion réduit l'écart sans l'annuler",
+      "paragraphs": [
+        "La DREES, dans son panorama 2025 sur les retraités et les retraites, indique qu'en 2023 la pension de droit direct moyenne des femmes résidant en France est inférieure de 38 % à celle des hommes. En incluant l'éventuelle pension de réversion, l'écart descend à 25 %. La publication décrit donc un amortissement réel, mais partiel.",
+        "La même source rappelle que fin 2023, 4,4 millions de personnes bénéficient d'une pension de réversion et que 87 % de ces bénéficiaires sont des femmes. Elle ajoute aussi une nuance importante pour éviter les raccourcis: en 2022, le taux de pauvreté de l'ensemble des retraités en France reste inférieur à celui de l'ensemble de la population, avec 10,0 % contre 14,4 %. Une pension plus faible pour les femmes ne signifie donc pas que toutes les femmes retraitées seraient pauvres, mais l'écart moyen de ressources individuelles demeure documenté."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les sources mobilisées ici n'observent pas exactement la même population ni la même définition de la pension. Eurostat s'appuie sur EU-SILC et observe les personnes de 65 ans ou plus vivant en ménages ordinaires, avec des indicateurs distincts sur pension moyenne, pension médiane, couverture et risque de pauvreté. La définition de la pension inclut les pensions de vieillesse, les pensions de survivants et les pensions individuelles privées régulières.",
+        "L'OCDE observe les retraités de 65 ans ou plus pour l'écart de pension et mesure la pauvreté monétaire au niveau du ménage, avec un seuil fixé à 50 % du revenu disponible médian équivalent de l'ensemble de la population. La DREES décrit la France à partir des systèmes de retraite et des revenus observés dans ses panoramas nationaux. Ces chiffres ne permettent donc pas d'attribuer une cause unique à l'écart, ni de déduire la situation de chaque personne individuellement. Enfin, les organismes cités utilisent leurs catégories statistiques de femmes et d'hommes; ils ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "L'article dit-il que les femmes retraitées sont en moyenne pauvres en Europe ?",
+      "answer": "Non. Il dit que leur risque de pauvreté monétaire est plus élevé que celui des hommes dans la plupart des comparaisons récentes. Cela décrit un écart de population, pas la situation de chaque femme retraitée."
+    },
+    {
+      "question": "Pourquoi citer à la fois l'UE, l'OCDE et la France ?",
+      "answer": "Parce que ces sources éclairent des niveaux différents. Eurostat mesure les écarts dans l'UE, l'OCDE compare ses pays membres sur des indicateurs harmonisés, et la DREES précise comment les retraites et la réversion se distribuent en France."
+    },
+    {
+      "question": "La pension de réversion efface-t-elle l'écart entre femmes et hommes en France ?",
+      "answer": "Non. Selon la DREES, elle réduit l'écart moyen entre pensions, mais ne le supprime pas. L'écart passe de 38 % pour la seule pension de droit direct à 25 % en incluant l'éventuelle réversion."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Living conditions in Europe - monetary poverty among the elderly",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Living_conditions_in_Europe_-_monetary_poverty_among_the_elderly",
+      "date": "25 février 2026, données 2024",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Gender pension gap: Pensions at a Glance 2025",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html",
+      "date": "novembre 2025",
+      "type": "chapitre de rapport"
+    },
+    {
+      "title": "Old-age income poverty: Pensions at a Glance 2025",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/old-age-income-poverty_3cd946d7.html",
+      "date": "novembre 2025",
+      "type": "chapitre de rapport"
+    },
+    {
+      "title": "Les retraités et les retraites - Édition 2025",
+      "publisher": "DREES",
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/250731_PANORAMAS-retraites",
+      "date": "31 juillet 2025, données 2022-2023",
+      "type": "panorama statistique"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-07-05T07:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}
