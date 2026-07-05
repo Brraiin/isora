@@ -13,6 +13,22 @@ export const lexiconNotice =
 
 export const lexiconEntries: LexiconEntry[] = [
   {
+    slug: "fille-femme",
+    term: "Fille / femme",
+    category: "repere",
+    definition: "Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XX.",
+    detail:
+      "Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle de femmes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XX, isora conserve le libellé de la source et précise la population réellement mesurée.",
+  },
+  {
+    slug: "garcon-homme",
+    term: "Garçon / homme",
+    category: "repere",
+    definition: "Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XY.",
+    detail:
+      "Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle d'hommes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XY, isora conserve le libellé de la source et précise la population réellement mesurée.",
+  },
+  {
     slug: "feminisme",
     term: "Féminisme",
     category: "repere",

@@ -176,6 +176,26 @@
     "notice": "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d'un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.",
     "entries": [
       {
+        "slug": "fille-femme",
+        "term": "Fille / femme",
+        "category": "repere",
+        "definition": "Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XX.",
+        "detail": "Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle de femmes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XX, isora conserve le libellé de la source et précise la population réellement mesurée.",
+        "url": "https://isora-xi.vercel.app/lexique/#fille-femme",
+        "categoryLabel": "Repère",
+        "relatedClaims": []
+      },
+      {
+        "slug": "garcon-homme",
+        "term": "Garçon / homme",
+        "category": "repere",
+        "definition": "Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XY.",
+        "detail": "Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle d'hommes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XY, isora conserve le libellé de la source et précise la population réellement mesurée.",
+        "url": "https://isora-xi.vercel.app/lexique/#garcon-homme",
+        "categoryLabel": "Repère",
+        "relatedClaims": []
+      },
+      {
         "slug": "feminisme",
         "term": "Féminisme",
         "category": "repere",

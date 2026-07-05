@@ -969,22 +969,42 @@ function renderLexiconEntryLinks(entry) {
 
   if (!entry.doNotConfuseWith?.length && relatedClaims.length === 0) return "";
 
-  return `
-        <div class="term-links">
-          ${
-            entry.doNotConfuseWith?.length
-              ? `<p>À ne pas confondre : ${htmlEscape(entry.doNotConfuseWith.join(", "))}</p>`
-              : ""
-          }
-          ${relatedClaims
-            .map(
-              (claim) => `
-                <a href="/fiches/${htmlEscape(claim.id)}/">Fiche liée : ${htmlEscape(claim.title)}</a>
-              `,
-            )
-            .join("")}
-        </div>
-  `;
+  return [
+    `<div class="term-links">`,
+    entry.doNotConfuseWith?.length
+      ? `  <p>À ne pas confondre : ${htmlEscape(entry.doNotConfuseWith.join(", "))}</p>`
+      : null,
+    ...relatedClaims.map(
+      (claim) => `  <a href="/fiches/${htmlEscape(claim.id)}/">Fiche liée : ${htmlEscape(claim.title)}</a>`,
+    ),
+    `</div>`,
+  ]
+    .filter(Boolean)
+    .join("\n");
+}
+
+function indentHtml(value, spaces = 16) {
+  const indentation = " ".repeat(spaces);
+  return value
+    .split("\n")
+    .map((line) => `${indentation}${line}`)
+    .join("\n");
+}
+
+function renderLexiconEntryHtml(entry) {
+  const links = renderLexiconEntryLinks(entry);
+
+  return [
+    `              <article class="lexicon-card" id="${htmlEscape(entry.slug)}">`,
+    `                <p class="meta-label">${htmlEscape(getLexiconCategoryLabel(entry.category))}</p>`,
+    `                <h2>${htmlEscape(entry.term)}</h2>`,
+    `                <p class="definition">${htmlEscape(entry.definition)}</p>`,
+    `                <p>${htmlEscape(entry.detail)}</p>`,
+    links ? indentHtml(links) : null,
+    `              </article>`,
+  ]
+    .filter(Boolean)
+    .join("\n");
 }
 
 function renderLexiconHtml() {
@@ -1097,19 +1117,7 @@ function renderLexiconHtml() {
       </section>
 
       <section class="lexicon-grid" aria-label="Termes du lexique">
-        ${lexiconEntries
-          .map(
-            (entry) => `
-              <article class="lexicon-card" id="${htmlEscape(entry.slug)}">
-                <p class="meta-label">${htmlEscape(getLexiconCategoryLabel(entry.category))}</p>
-                <h2>${htmlEscape(entry.term)}</h2>
-                <p class="definition">${htmlEscape(entry.definition)}</p>
-                <p>${htmlEscape(entry.detail)}</p>
-                ${renderLexiconEntryLinks(entry)}
-              </article>
-            `,
-          )
-          .join("")}
+${lexiconEntries.map(renderLexiconEntryHtml).join("\n")}
       </section>
     </main>
 
