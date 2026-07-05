@@ -12,16 +12,6 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
-    "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
-    "date": "2026-07-05",
-    "updatedAt": "2026-07-05T07:30:00.000Z"
-  },
-  {
     "claimId": "femmes-soin-non-remunere-emploi",
     "side": "femmes",
     "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
@@ -36,6 +26,16 @@ export const homeBlogUpdates = [
     "side": "femmes",
     "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
     "claimMetric": "3,0-4,8 %",
+    "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
+    "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
+    "date": "2026-07-05",
+    "updatedAt": "2026-07-05T07:30:00.000Z"
+  },
+  {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
     "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
     "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
     "date": "2026-07-05",

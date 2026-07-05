@@ -56,7 +56,7 @@ const angleLabels: Record<ClaimAngle | "tous", string> = {
   tous: "Tous les angles",
   désavantage_subi: "Désavantage subi",
   violence_exercée: "Violence exercée",
-  récit_sur_le_sexe: "Récit sur le sexe",
+  perception: "Perception",
 };
 
 const periodFilterLabels: Record<StatutTemporel | "tous", string> = {
@@ -193,7 +193,7 @@ const angleLabelsByLocale: Record<Locale, Record<ClaimAngle | "tous", string>> =
     tous: "All angles",
     désavantage_subi: "Disadvantage experienced",
     violence_exercée: "Violence perpetrated",
-    récit_sur_le_sexe: "Sex-based narrative",
+    perception: "Perception",
   },
 };
 

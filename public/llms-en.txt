@@ -113,11 +113,11 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 - Definition: Asymétrie portant sur les auteurs, mis en cause ou comportements violents mesurés.
 - Detail: Cet angle sert à ne pas mélanger la victimisation, les auteurs déclarés, les mis en cause, les condamnations et les représentations. Chaque source mesure un champ différent.
 
-### Récit sur le sexe
-- URL: https://isora-xi.vercel.app/lexique/#recit-sur-le-sexe
+### Perception
+- URL: https://isora-xi.vercel.app/lexique/#perception
 - Category: Angle d'analyse
 - Definition: Asymétrie de vocabulaire, perception, norme sociale ou représentation.
-- Detail: Cet angle couvre les mots disponibles, les cadrages publics, les stéréotypes, les opinions et les récits sociaux. Il demande une prudence particulière, car il ne mesure pas toujours un droit ou un comportement.
+- Detail: Cet angle couvre ce qui est perçu, dit ou cadré socialement: mots disponibles, stéréotypes, opinions, normes et représentations. Une perception peut signaler une asymétrie réelle ou ressentie, mais elle ne suffit pas toujours à prouver un droit, un accès concret ou un effet mesuré.
 
 
 ## isora articles
@@ -557,7 +557,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-agressions-sexuelles-minimisees/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-agressions-sexuelles-minimisees
 - Group: hommes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Violences
 - Zone: États-Unis
 - Period: 2017+
@@ -640,7 +640,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-sexisme-hostile-hce-2025/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-sexisme-hostile-hce-2025
 - Group: hommes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Droits
 - Zone: France
 - Period: 2025+
@@ -656,7 +656,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-femmes-sexisme-paternaliste-hce-2025/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-femmes-sexisme-paternaliste-hce-2025
 - Group: hommes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Droits
 - Zone: France
 - Period: 2025+
@@ -688,7 +688,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-recits-antifeministes-hce-2025/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-recits-antifeministes-hce-2025
 - Group: hommes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Droits
 - Zone: France
 - Period: 2025+
@@ -704,7 +704,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-vocabulaire-masculinisme-pejoratif
 - Group: hommes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Droits
 - Zone: Francophonie
 - Period: 2020-2026
@@ -720,7 +720,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-perception-garde-enfants-hce-2025/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-perception-garde-enfants-hce-2025
 - Group: hommes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Justice
 - Zone: France
 - Period: 2013-2025
@@ -736,7 +736,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles
 - Group: hommes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Justice
 - Zone: France
 - Period: 2018-2024
@@ -853,7 +853,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-femmes-taxe-rose-prix-genres/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-femmes-taxe-rose-prix-genres
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Revenus
 - Zone: France et États-Unis
 - Period: 2015-2018
@@ -864,19 +864,19 @@ The articles are written in French and summarize recent reports and trends with 
 - Measured population: Population measured by the sources: gendered consumer products and services compared in France and the United States. The sources do not measure chromosomes.
 - Sources: Conseil national de la consommation / DGCCRF (13 décembre 2016): https://www.economie.gouv.fr/files/files/directions_services/dgccrf/boccrf/2017/17_02/avis-cnc-marketing.pdf; Marketing Science / INFORMS (2023): https://doi.org/10.1287/mksc.2023.1452; U.S. Government Accountability Office (2018): https://www.gao.gov/products/gao-18-500; New York City Department of Consumer Affairs (2015): https://www.nyc.gov/assets/dca/downloads/pdf/partners/Study-of-Gender-Pricing-in-NYC.pdf
 
-## Women are much more often in part-time employment
+## Part-time work is more frequent among women, with an ambivalent reading
 - ID: femmes-temps-partiel
 - URL: https://isora-xi.vercel.app/fiches/femmes-temps-partiel/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-temps-partiel
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Travail
 - Zone: France
 - Period: 14 novembre 2024+
 - Status: actuel
 - Key measure: 26,8 % vs 8,7 %
-- Summary: In 2024, 26.8% of women in employment worked part-time, compared with 8.7% of men. Looking only at employees, 26.7% of women and 7.9% of men worked part-time; women made up 77.5% of part-time employees.
-- Nuance: This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary. Conversely, men may also be discouraged from reducing working time for family or professional reasons when employer culture values full-time availability, long hours or the breadwinner role.
+- Summary: In 2024, 26.8% of women in employment worked part-time, compared with 8.7% of men. This higher use does not by itself show whether the asymmetry is a disadvantage, more accepted access, or a mix of both depending on the situation.
+- Nuance: This entry describes a gendered asymmetry in the use and perception of part-time work, not an automatic disadvantage experienced by every woman working part-time. Part-time work can reduce income, career progression or pension rights when it is constrained or poorly paid; it can also represent more socially accepted access to reduced working time for women. Conversely, the asymmetry may disadvantage men when reduced working time is less offered, less accepted or harder to obtain for family or professional reasons. The Insee source measures part-time employment, not all requests accepted or refused by sex; the complementary sources concern perceived access to flexible arrangements and fathers' leave.
 - Measured population: Population measured by the sources: women and men in employment in Insee labour-market statistics, plus employees and parents in the complementary sources. The source does not measure chromosomes.
 - Sources: Insee (14 novembre 2024): https://www.insee.fr/fr/statistiques/8612530; Insee (2025): https://www.insee.fr/fr/statistiques/8376858?sommaire=8376908; Work, Employment and Society / SAGE (2021): https://journals.sagepub.com/doi/10.1177/0950017020946687; OCDE (2025): https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html
 
@@ -918,7 +918,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/femmes-perception-desavantage-hce-2025/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-perception-desavantage-hce-2025
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Droits
 - Zone: France
 - Period: 2025+
@@ -1046,7 +1046,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/femmes-ingenierie/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-ingenierie
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Éducation
 - Zone: France
 - Period: 2025+
@@ -1301,7 +1301,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-femmes-body-count-double-standard/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-femmes-body-count-double-standard
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Autonomie
 - Zone: Monde
 - Period: 2020-2025
@@ -1318,7 +1318,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/hommes-femmes-peurs-consentement-sexuel/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Violences
 - Zone: Monde, États-Unis et Royaume-Uni
 - Period: 2000-2025
@@ -1369,7 +1369,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/femmes-filles-hors-ecole/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-filles-hors-ecole
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Éducation
 - Zone: Monde
 - Period: 2024+
@@ -1572,7 +1572,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/femmes-menopause-soins/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-menopause-soins
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Santé
 - Zone: Monde, France et OCDE
 - Period: 2019-2025
@@ -1657,7 +1657,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/fiches/femmes-dirigeantes-paix-essentialisme/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-dirigeantes-paix-essentialisme
 - Group: femmes
-- Angle: récit_sur_le_sexe
+- Angle: perception
 - Domain: Conflits
 - Zone: Europe
 - Period: 1480-1913

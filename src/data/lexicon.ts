@@ -117,11 +117,11 @@ export const lexiconEntries: LexiconEntry[] = [
       "Cet angle sert à ne pas mélanger la victimisation, les auteurs déclarés, les mis en cause, les condamnations et les représentations. Chaque source mesure un champ différent.",
   },
   {
-    slug: "recit-sur-le-sexe",
-    term: "Récit sur le sexe",
+    slug: "perception",
+    term: "Perception",
     category: "angle",
     definition: "Asymétrie de vocabulaire, perception, norme sociale ou représentation.",
     detail:
-      "Cet angle couvre les mots disponibles, les cadrages publics, les stéréotypes, les opinions et les récits sociaux. Il demande une prudence particulière, car il ne mesure pas toujours un droit ou un comportement.",
+      "Cet angle couvre ce qui est perçu, dit ou cadré socialement: mots disponibles, stéréotypes, opinions, normes et représentations. Une perception peut signaler une asymétrie réelle ou ressentie, mais elle ne suffit pas toujours à prouver un droit, un accès concret ou un effet mesuré.",
   },
 ];

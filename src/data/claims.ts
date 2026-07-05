@@ -1,5 +1,5 @@
 export type Side = "hommes" | "femmes";
-export type ClaimAngle = "désavantage_subi" | "violence_exercée" | "récit_sur_le_sexe";
+export type ClaimAngle = "désavantage_subi" | "violence_exercée" | "perception";
 
 export type Domain =
   | "Travail"
@@ -746,7 +746,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-agressions-sexuelles-minimisees",
     side: "hommes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Violences",
     title: "Hommes moins enclins à reconnaître certaines agressions sexuelles",
     metric: "48 % vs 60 %",
@@ -961,7 +961,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-sexisme-hostile-hce-2025",
     side: "hommes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Droits",
     title: "Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes",
     metric: "23 % vs 12 %",
@@ -1014,7 +1014,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-femmes-sexisme-paternaliste-hce-2025",
     side: "hommes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Droits",
     title: "Sexisme paternaliste mesuré chez les deux sexes, plus souvent chez les hommes",
     metric: "27 % vs 18 %",
@@ -1114,7 +1114,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-recits-antifeministes-hce-2025",
     side: "hommes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Droits",
     title: "Récits antiféministes plus déclarés chez les hommes",
     metric: "60 %",
@@ -1155,7 +1155,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-vocabulaire-masculinisme-pejoratif",
     side: "hommes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Droits",
     title: "Défense des hommes : pas de terme neutre stabilisé",
     metric: "mot manquant",
@@ -1268,7 +1268,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-perception-garde-enfants-hce-2025",
     side: "hommes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Justice",
     title: "Garde des enfants : perception d'un avantage aux mères et demandes des pères",
     metric: "64 % vs 48 %",
@@ -1309,7 +1309,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-attribution-laxisme-justice-violences-sexuelles",
     side: "hommes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Justice",
     title: "Violences sexuelles : le 'laxisme judiciaire' n'est pas imputable aux hommes",
     metric: "70 % / 63 %",
@@ -1557,7 +1557,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-femmes-taxe-rose-prix-genres",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Revenus",
     title: "Taxe rose : des prix genrés existent, sans surcoût féminin généralisé",
     metric: "écarts mixtes",
@@ -1610,12 +1610,12 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-temps-partiel",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Travail",
-    title: "Femmes beaucoup plus souvent en emploi à temps partiel",
+    title: "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
     metric: "26,8 % vs 8,7 %",
     summary:
-      "En 2024, 26,8 % des femmes en emploi travaillent à temps partiel contre 8,7 % des hommes. Parmi les seuls salariés, 26,7 % des femmes et 7,9 % des hommes sont à temps partiel; 77,5 % des salariés à temps partiel sont des femmes.",
+      "En 2024, 26,8 % des femmes en emploi travaillent à temps partiel contre 8,7 % des hommes. Ce recours plus fréquent ne dit pas à lui seul si l'asymétrie est un désavantage, un accès plus accepté ou un mélange des deux selon les situations.",
     tags: ["travail", "famille", "revenus", "sociétal", "hommes"],
     source: {
       label: "Emploi - Caractéristiques des emplois en 2024",
@@ -1646,20 +1646,20 @@ const rawClaims: RawClaim[] = [
     ],
     translations: {
       en: {
-        title: "Women are much more often in part-time employment",
+        title: "Part-time work is more frequent among women, with an ambivalent reading",
         summary:
-          "In 2024, 26.8% of women in employment worked part-time, compared with 8.7% of men. Looking only at employees, 26.7% of women and 7.9% of men worked part-time; women made up 77.5% of part-time employees.",
+          "In 2024, 26.8% of women in employment worked part-time, compared with 8.7% of men. This higher use does not by itself show whether the asymmetry is a disadvantage, more accepted access, or a mix of both depending on the situation.",
         nuance:
-          "This entry describes a gendered norm around work and care, not automatically a disadvantage experienced by every woman working part-time. Some part-time work is chosen and some is involuntary. Conversely, men may also be discouraged from reducing working time for family or professional reasons when employer culture values full-time availability, long hours or the breadwinner role.",
+          "This entry describes a gendered asymmetry in the use and perception of part-time work, not an automatic disadvantage experienced by every woman working part-time. Part-time work can reduce income, career progression or pension rights when it is constrained or poorly paid; it can also represent more socially accepted access to reduced working time for women. Conversely, the asymmetry may disadvantage men when reduced working time is less offered, less accepted or harder to obtain for family or professional reasons. The Insee source measures part-time employment, not all requests accepted or refused by sex; the complementary sources concern perceived access to flexible arrangements and fathers' leave.",
         sourcePopulation:
           "Population measured by the sources: women and men in employment in Insee labour-market statistics, plus employees and parents in the complementary sources. The source does not measure chromosomes.",
         tags: ["work", "family", "income", "social", "men"],
       },
     },
     confidence: "forte",
-    lastChecked: "25 juin 2026",
+    lastChecked: "5 juillet 2026",
     nuance:
-      "Cette fiche décrit une norme genrée du travail et du soin, pas automatiquement un désavantage subi par chaque femme à temps partiel. Une partie du temps partiel est choisie, une partie subie. Inversement, des hommes peuvent aussi être découragés de réduire leur temps de travail pour raisons familiales ou professionnelles lorsque la culture d'entreprise valorise la disponibilité à temps plein, les longues heures ou le rôle de pourvoyeur principal.",
+      "Cette fiche décrit une asymétrie d'usage et de perception du temps partiel, pas automatiquement un désavantage subi par chaque femme à temps partiel. Le temps partiel peut réduire le revenu, la progression professionnelle ou les droits à retraite lorsqu'il est contraint ou peu rémunéré; il peut aussi correspondre à un accès plus accepté à une réduction du temps de travail pour les femmes. Inversement, l'asymétrie peut défavoriser des hommes lorsque le temps partiel est moins proposé, moins accepté ou plus difficile à obtenir pour raisons familiales ou professionnelles. La source Insee mesure l'emploi à temps partiel, pas l'ensemble des demandes acceptées ou refusées selon le sexe; les sources complémentaires portent sur l'accès perçu aux arrangements flexibles et sur le congé des pères.",
   },
   {
     id: "femmes-violences-conjugales",
@@ -1749,7 +1749,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-perception-desavantage-hce-2025",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Droits",
     title: "Perception du sexisme comme désavantage plus forte chez les femmes",
     metric: "54 % vs 42 %",
@@ -2054,7 +2054,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-ingenierie",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Éducation",
     title: "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
     metric: "24 %",
@@ -2508,7 +2508,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-femmes-body-count-double-standard",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Autonomie",
     title: "Nombre de partenaires sexuels passés : résultats variables selon les études",
     metric: "5 331",
@@ -2552,7 +2552,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "hommes-femmes-peurs-consentement-sexuel",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Violences",
     title: "Consentement sexuel : peurs asymétriques en début de relation",
     metric: "56,1 % / 2-10 %",
@@ -2668,7 +2668,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-filles-hors-ecole",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Éducation",
     title: "Enfants hors de l'école : estimations mondiales proches selon le sexe",
     metric: "133 M filles vs 140 M garçons",
@@ -3037,7 +3037,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-menopause-soins",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Santé",
     title: "Soins sexospécifiques insuffisants des deux côtés",
     metric: "accès inégal",
@@ -3170,7 +3170,7 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-dirigeantes-paix-essentialisme",
     side: "femmes",
-    angle: "récit_sur_le_sexe",
+    angle: "perception",
     domain: "Conflits",
     title: "Dirigeantes femmes : le pouvoir n'implique pas automatiquement la paix",
     metric: "+27 %",
