@@ -217,7 +217,6 @@ const uiText: Record<Locale, Record<string, string>> = {
   fr: {
     tagline: "Le référentiel des asymétries liées au sexe",
     mobileTagline: "Référentiel des asymétries de sexe",
-    verifiedSources: "sources vérifiées",
     heroKicker: "Données sourcées, contexte lisible, contribution ouverte",
     heroTitle: "Liste les asymétries documentées selon le sexe",
     heroBody:
@@ -291,7 +290,6 @@ const uiText: Record<Locale, Record<string, string>> = {
   en: {
     tagline: "The reference for sex-based asymmetries",
     mobileTagline: "Sex-based asymmetry reference",
-    verifiedSources: "verified sources",
     heroKicker: "Sourced data, readable context, open contribution",
     heroTitle: "Browse documented sex-based asymmetries",
     heroBody:
@@ -2892,12 +2890,6 @@ function App() {
             </div>
           </div>
           <div className="flex flex-wrap items-center justify-end gap-2 max-[760px]:w-full max-[760px]:justify-between">
-            <a
-              className="inline-flex min-h-10 items-center px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50 max-[760px]:hidden"
-              href="#fiches"
-            >
-              {counts.sources} {text.verifiedSources}
-            </a>
             <a
               className={cn(icon18, "inline-flex min-h-10 items-center gap-2 px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50")}
               href="/lexique/"

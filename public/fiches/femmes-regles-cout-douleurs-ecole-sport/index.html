@@ -40,7 +40,8 @@
     .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
     .brand img { width: 106px; height: auto; display: block; }
     .nav { display: flex; flex-wrap: wrap; gap: 10px; font-weight: 800; }
-    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; }
+    .nav a { min-height: 40px; display: inline-flex; align-items: center; gap: 8px; padding: 0 12px; }
+    .nav svg { width: 18px; height: 18px; flex: 0 0 auto; }
     .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
     .hero-inner { padding: 54px 0 46px; }
     .kicker { margin: 0 0 14px; color: #13519c; font-weight: 900; }
@@ -217,11 +218,24 @@
           <img src="/isora.svg" alt="isora" />
         </a>
         <nav class="nav" aria-label="Navigation">
-          <a href="/">Référentiel interactif</a>
-          <a href="/fiches/">Fiches HTML</a>
-          <a href="/lexique/">Lexique</a>
-          <a href="/blog/">Articles</a>
-          <a href="/llms.txt">llms.txt</a>
+          <a href="/lexique/">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13.17 2a2 2 0 0 1 1.42.59l6.7 6.7a2.4 2.4 0 0 1 0 3.42l-4.58 4.58a2.4 2.4 0 0 1-3.42 0l-6.7-6.7A2 2 0 0 1 6 9.17V3a1 1 0 0 1 1-1z" />
+              <path d="M2 7v6.17a2 2 0 0 0 .59 1.42l6.7 6.7a2.4 2.4 0 0 0 3.19.19" />
+              <circle cx="10.5" cy="6.5" r=".5" fill="currentColor" />
+            </svg>
+            Lexique
+          </a>
+          <a href="/blog/">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" />
+              <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+              <path d="M10 9H8" />
+              <path d="M16 13H8" />
+              <path d="M16 17H8" />
+            </svg>
+            Articles
+          </a>
         </nav>
       </div>
     </header>
