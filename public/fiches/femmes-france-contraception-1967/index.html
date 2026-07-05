@@ -38,11 +38,12 @@
     .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
 .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; line-height: 1.5; }
 .topbar-inner { min-height: 106px; display: flex; align-items: stretch; justify-content: space-between; gap: 24px; }
-.brand { margin-left: -16px; padding: 0 16px; display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; font-weight: 400; }
+.brand { margin-left: -16px; padding: 0 16px; display: inline-flex; align-items: center; color: #171717; text-decoration: none; font-weight: 400; }
+.brand-line { display: inline-flex; align-items: baseline; gap: 14px; }
 .brand:hover, .brand:focus-visible { background: #f6f6f6; }
 .brand:focus-visible { outline: 2px solid #1455a3; outline-offset: -2px; }
 .brand img { width: 106px; height: auto; display: block; }
-.brand span { max-width: 25rem; color: #3f3f3f; font-size: 0.96rem; font-weight: 700; line-height: 1.35; }
+.brand-tagline { max-width: 25rem; color: #3f3f3f; font-size: 0.96rem; font-weight: 700; line-height: 1.35; }
 .nav { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px; align-self: center; font-weight: 400; }
 .nav a { min-height: 32px; display: inline-flex; align-items: center; gap: 8px; padding: 0 8px; color: #000091; text-decoration: none; font-weight: 800; line-height: 1.5; }
 .nav a:hover { background: #f6f6f6; }
@@ -52,7 +53,8 @@
 @media (max-width: 760px) {
   .wrap { width: min(100% - 24px, 1200px); }
   .topbar-inner { min-height: 0; align-items: stretch; flex-direction: column; gap: 8px; padding: 8px 0; }
-  .brand { margin: 0 -8px; padding: 12px 8px; align-items: flex-start; flex-direction: column; gap: 8px; }
+  .brand { margin: 0 -8px; padding: 12px 8px; align-items: flex-start; }
+  .brand-line { align-items: flex-start; flex-direction: column; gap: 8px; }
   .nav { margin-left: 0; align-self: stretch; justify-content: flex-end; }
 }
     .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
@@ -219,8 +221,10 @@
     <header class="topbar">
       <div class="wrap topbar-inner">
         <a class="brand" href="/" aria-label="Accueil isora - Le référentiel des asymétries de sexe">
-            <img src="/isora.svg" alt="isora" />
-            <span>Le référentiel des asymétries de sexe</span>
+            <span class="brand-line">
+              <img src="/isora.svg" alt="isora" />
+              <span class="brand-tagline">Le référentiel des asymétries de sexe</span>
+            </span>
           </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/lexique/">
