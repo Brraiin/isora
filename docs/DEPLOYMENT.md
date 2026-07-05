@@ -18,6 +18,100 @@ cd "/Users/eve/Web dev/Isora"
 
 Vercel est connecte au repo GitHub. Un push sur `main` declenche automatiquement un deploiement.
 
+## Tests bloquants avant chaque mise en production
+
+Ces tests sont obligatoires avant de pousser sur `main`, meme pour une petite correction. Ne pas publier si une fonctionnalite marche seulement dans un worktree local, un fichier non suivi, ou un diff qui n'est pas committe.
+
+### 1. Etat Git et dependances
+
+```bash
+git status --short
+git diff
+npm ci
+```
+
+- `git status --short` doit montrer tous les fichiers a publier avant le commit.
+- Les fichiers non suivis importants doivent etre ajoutes ou volontairement ecartes.
+- Verifier en particulier les fichiers de recherche: `src/search.ts`, `scripts/sync-algolia.mjs`, `package.json`, `package-lock.json` et les variables Vercel `VITE_ALGOLIA_APP_ID`, `VITE_ALGOLIA_SEARCH_KEY`, `VITE_ALGOLIA_INDEX_NAME`.
+
+### 2. Build et generation
+
+```bash
+npm run build
+```
+
+Le build est bloquant. Si la publication modifie les traductions ou annonce un etat bilingue complet, lancer aussi:
+
+```bash
+npm run i18n:check
+```
+
+Si les fiches ou les articles ont change et que les variables d'administration Algolia sont disponibles, resynchroniser les index:
+
+```bash
+npm run search:sync
+```
+
+### 3. Tests navigateur en local
+
+Lancer une preview locale puis tester au navigateur:
+
+```bash
+npm run preview
+```
+
+Tests minimum:
+
+- Accueil `/`: la page charge, pas d'overlay Vite/React, pas d'erreur console bloquante.
+- Recherche exacte: chercher `masculinisme`; des fiches sortent et les mots correspondants sont entoures par des balises `<mark>`.
+- Recherche avec faute: chercher `masculinsme` ou `paternite`; la recherche doit rester tolerante, afficher des fiches pertinentes et surligner les termes proches.
+- Repli sans Algolia: si les variables `VITE_ALGOLIA_*` ne sont pas presentes en local, la recherche fuzzy locale doit quand meme fonctionner et surligner.
+- Bouton de remise a zero: "Tout effacer" doit vider la recherche, retirer les filtres et restaurer la liste complete.
+- Filtres: sexe, angle, domaine, zone, statut, periode et tags doivent pouvoir etre actives puis desactives.
+- Fiche directe: `/fiches/hommes-vocabulaire-masculinisme-pejoratif/` doit afficher une seule fiche, les sources et le bouton de retour/copie sans erreur.
+- Lexique `/lexique/`: le menu, le gabarit, le titre de page `isora - lexique` et le contenu doivent etre stables.
+- Blog `/blog/`: la liste charge, la recherche interne du blog fonctionne, un article s'ouvre.
+- Navigation douce: accueil -> lexique -> blog -> article -> retour accueil ne doit pas dupliquer le header, casser les scripts ou provoquer de saut visuel important.
+- Titres navigateur: chaque route testee doit commencer par `isora - ...`.
+- Favicon: `/favicon.ico` et `/site.webmanifest` doivent repondre.
+- Cookies/analytics: le bouton de preferences cookies s'ouvre; apres navigation douce, les scripts d'analytics et de consentement restent fonctionnels.
+- Mobile: tester au moins une largeur proche de `390x844`; pas de texte qui se chevauche, pas de menu decale, pas de carte inutilisable.
+
+### 4. Tests production apres deploiement
+
+Apres le push et le deploiement Vercel, refaire les tests critiques sur le domaine public, pas seulement sur l'URL technique:
+
+```text
+https://isora.info
+```
+
+Verifier aussi:
+
+```bash
+npm exec -- vercel inspect isora-xi.vercel.app
+npm exec -- vercel domains inspect isora.info
+```
+
+- Le deploiement doit etre `Ready`.
+- Le domaine `isora.info` doit pointer vers le deploiement attendu.
+- Les logs Vercel ne doivent pas montrer d'erreur runtime nouvelle.
+- La recherche typo + surlignage doit etre testee en production apres chaque mise en prod qui touche `src/App.tsx`, `src/search.ts`, Algolia, les donnees de fiches, le build ou les variables Vercel.
+
+### Recherche Algolia
+
+La recherche publique a deux niveaux:
+
+- un repli local fuzzy, embarque dans le bundle, qui tolere les fautes courantes et produit les surlignages `<mark>` sans variable externe;
+- Algolia, utilise seulement si les variables publiques suivantes existent au build Vercel: `VITE_ALGOLIA_APP_ID`, `VITE_ALGOLIA_SEARCH_KEY`, `VITE_ALGOLIA_INDEX_NAME`.
+
+Pour synchroniser les index Algolia depuis un environnement qui possede la cle d'administration:
+
+```bash
+ALGOLIA_APP_ID=... ALGOLIA_ADMIN_KEY=... npm run search:sync
+```
+
+Ne jamais committer les cles Algolia. Les ajouter dans Vercel avec `vercel env add` ou depuis l'interface Vercel, puis redeployer pour que les variables `VITE_` soient injectees au build.
+
 ## Avant de publier
 
 1. Verifier le dossier courant:

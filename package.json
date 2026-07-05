@@ -1,12 +1,13 @@
 {
   "name": "isora",
   "private": true,
-  "version": "0.1.27",
+  "version": "0.1.28",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "i18n:check": "node scripts/check-i18n.mjs",
     "seo": "node scripts/generate-seo.mjs",
+    "search:sync": "node scripts/sync-algolia.mjs",
     "blog:daily": "node scripts/generate-daily-blog.mjs",
     "prebuild": "node scripts/generate-seo.mjs",
     "build": "tsc -b && vite build",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
+    "algoliasearch": "^5.55.1",
     "lucide-react": "^0.468.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -43,6 +43,14 @@ import {
 } from "./data/claims";
 import { lexiconEntries, lexiconNotice } from "./data/lexicon";
 import { manualClaimUpdates } from "./data/manual-claim-updates";
+import {
+  getSearchHighlightRanges,
+  getSearchTerms,
+  hasAlgoliaSearchConfig,
+  rankSearchCandidates,
+  searchAlgoliaClaimIds,
+  type SearchField,
+} from "./search";
 
 const homeBlogUpdates = [...manualClaimUpdates, ...generatedBlogUpdates] as const satisfies readonly HomeBlogUpdate[];
 
@@ -173,6 +181,12 @@ type HomeBlogUpdateSideStats = {
   total: number;
   latest: HomeBlogUpdate | null;
   updates: HomeBlogUpdate[];
+};
+
+type AlgoliaSearchState = {
+  query: string;
+  ranks: Map<string, number> | null;
+  status: "disabled" | "idle" | "loading" | "ready" | "error";
 };
 
 type CookieConsentCategory = "necessary" | "analytics";
@@ -1039,6 +1053,43 @@ function getPeriodLabel(claim: Claim) {
   return `${claim.periode_debut}${claim.periode_fin ? `-${claim.periode_fin}` : "+"}`;
 }
 
+function addSearchField(fields: SearchField[], value: unknown, weight: number) {
+  if (Array.isArray(value)) {
+    value.forEach((item) => addSearchField(fields, item, weight));
+    return;
+  }
+
+  const textValue = String(value ?? "").replace(/\s+/g, " ").trim();
+  if (textValue) fields.push({ value: textValue, weight });
+}
+
+function buildClaimSearchFields(claim: Claim): SearchField[] {
+  const fields: SearchField[] = [];
+  const sources = [claim.source, ...(claim.additionalSources ?? [])];
+  const englishTranslation = claim.translations?.en;
+  const periodLabel = getPeriodLabel(claim);
+
+  addSearchField(fields, claim.title, 16);
+  addSearchField(fields, englishTranslation?.title, 14);
+  addSearchField(fields, claim.summary, 10);
+  addSearchField(fields, englishTranslation?.summary, 9);
+  addSearchField(fields, claim.metric, 9);
+  addSearchField(fields, sources.flatMap((source) => [source.label, source.publisher, source.date, source.url]), 8);
+  addSearchField(fields, claim.sourcePopulation, 7);
+  addSearchField(fields, englishTranslation?.sourcePopulation, 7);
+  addSearchField(fields, [claim.domain, claim.pays_ou_zone, zoneLabels[claim.pays_ou_zone], periodLabel], 6);
+  addSearchField(fields, [claim.statut_temporel, periodFilterLabels[claim.statut_temporel], periodFilterLabelsByLocale.en[claim.statut_temporel]], 6);
+  addSearchField(fields, [angleLabels[claim.angle], angleLabelsByLocale.en[claim.angle]], 6);
+  addSearchField(fields, [sideLabels[claim.side], sideLabelsByLocale.en[claim.side]], 5);
+  addSearchField(fields, claim.tags, 5);
+  addSearchField(fields, englishTranslation?.tags, 5);
+  addSearchField(fields, claim.nuance, 4);
+  addSearchField(fields, englishTranslation?.nuance, 4);
+  addSearchField(fields, [claim.lastChecked, claim.countryScope, claim.regionScope, claim.legalType, claim.methodNote], 3);
+
+  return fields;
+}
+
 function toggleValue<T>(values: T[], value: T) {
   return values.includes(value) ? values.filter((currentValue) => currentValue !== value) : [...values, value];
 }
@@ -1120,7 +1171,35 @@ function isLexiconPath() {
   return window.location.pathname.replace(/\/+$/, "") === "/lexique";
 }
 
-function HighlightedSummary({ text }: { text: string }) {
+function SearchHighlight({ text, query }: { text: string; query: string }) {
+  const ranges = getSearchHighlightRanges(text, query);
+
+  if (ranges.length === 0) return <>{text}</>;
+
+  const parts: ReactNode[] = [];
+  let lastIndex = 0;
+
+  ranges.forEach((range, index) => {
+    if (range.start > lastIndex) {
+      parts.push(<span key={`plain-${index}`}>{text.slice(lastIndex, range.start)}</span>);
+    }
+
+    parts.push(
+      <mark className="rounded-[2px] bg-amber-100 px-0.5 font-extrabold text-blue-900" key={`highlight-${index}`}>
+        {text.slice(range.start, range.end)}
+      </mark>,
+    );
+    lastIndex = range.end;
+  });
+
+  if (lastIndex < text.length) {
+    parts.push(<span key="plain-end">{text.slice(lastIndex)}</span>);
+  }
+
+  return <>{parts}</>;
+}
+
+function HighlightedSummary({ text, searchQuery }: { text: string; searchQuery: string }) {
   const metricPattern =
     /((?:environ|près de|plus de|moins de|autour de|à plus de|à moins de)?\s*\d[\d\s]*(?:,\d+)?(?:\s*(?:%|M\b|millions?|ans?|semaines?|sem\.|pour 100 000|\/an))?(?:\s*(?:contre|vs|à|-)\s*\d[\d\s]*(?:,\d+)?(?:\s*(?:%|M\b|millions?|ans?))?)?)/gi;
   const parts = text.split(metricPattern).filter(Boolean);
@@ -1130,10 +1209,12 @@ function HighlightedSummary({ text }: { text: string }) {
       {parts.map((part, index) =>
         /\d/.test(part) ? (
           <strong className="font-semibold text-neutral-900" key={`${part}-${index}`}>
-            {part}
+            <SearchHighlight text={part} query={searchQuery} />
           </strong>
         ) : (
-          <span key={`${part}-${index}`}>{part}</span>
+          <span key={`${part}-${index}`}>
+            <SearchHighlight text={part} query={searchQuery} />
+          </span>
         ),
       )}
     </p>
@@ -1265,7 +1346,15 @@ function EmptyDashboardBlock({ children }: { children: ReactNode }) {
   );
 }
 
-function ClaimSourceLink({ source, tone = "secondary" }: { source: Source; tone?: "primary" | "secondary" }) {
+function ClaimSourceLink({
+  source,
+  tone = "secondary",
+  searchQuery,
+}: {
+  source: Source;
+  tone?: "primary" | "secondary";
+  searchQuery: string;
+}) {
   return (
     <a
       className={cn(
@@ -1279,9 +1368,11 @@ function ClaimSourceLink({ source, tone = "secondary" }: { source: Source; tone?
     >
       <FileText aria-hidden="true" />
       <span className="min-w-0 flex-1">
-        <span className="block leading-snug [overflow-wrap:anywhere]">{source.label}</span>
+        <span className="block leading-snug [overflow-wrap:anywhere]">
+          <SearchHighlight text={source.label} query={searchQuery} />
+        </span>
         <span className="mt-1 block text-[0.78rem] leading-snug text-neutral-600">
-          {source.publisher} - {source.date}
+          <SearchHighlight text={`${source.publisher} - ${source.date}`} query={searchQuery} />
         </span>
       </span>
       <ExternalLink aria-hidden="true" />
@@ -1923,6 +2014,11 @@ function App() {
   const [domain, setDomain] = useState<Domain | "tous">("tous");
   const [angle, setAngle] = useState<ClaimAngle | "tous">("tous");
   const [query, setQuery] = useState("");
+  const [algoliaSearch, setAlgoliaSearch] = useState<AlgoliaSearchState>(() => ({
+    query: "",
+    ranks: null,
+    status: hasAlgoliaSearchConfig ? "idle" : "disabled",
+  }));
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [isUpdatesOpen, setIsUpdatesOpen] = useState(false);
   const [suggestionSources, setSuggestionSources] = useState([""]);
@@ -1984,6 +2080,14 @@ function App() {
   const visibleAnalyticsStats = useMemo(
     () => mergeAnalyticsStats(analyticsStats, localAnalyticsStats),
     [analyticsStats, localAnalyticsStats],
+  );
+  const searchCandidates = useMemo(
+    () => claims.map((claim) => ({ claim, fields: buildClaimSearchFields(claim) })),
+    [],
+  );
+  const localSearchScores = useMemo(
+    () => rankSearchCandidates(searchCandidates, query),
+    [query, searchCandidates],
   );
 
   useEffect(() => {
@@ -2229,6 +2333,57 @@ function App() {
   }, []);
 
   useEffect(() => {
+    const trimmedQuery = query.trim();
+
+    if (!hasAlgoliaSearchConfig || getSearchTerms(trimmedQuery).length === 0) {
+      setAlgoliaSearch((currentSearch) =>
+        currentSearch.query === "" && currentSearch.ranks === null
+          ? currentSearch
+          : {
+              query: "",
+              ranks: null,
+              status: hasAlgoliaSearchConfig ? "idle" : "disabled",
+            },
+      );
+      return undefined;
+    }
+
+    let isCancelled = false;
+    const timeoutId = window.setTimeout(() => {
+      setAlgoliaSearch((currentSearch) => ({
+        query: trimmedQuery,
+        ranks: currentSearch.query === trimmedQuery ? currentSearch.ranks : null,
+        status: "loading",
+      }));
+
+      void searchAlgoliaClaimIds(trimmedQuery, claims.length)
+        .then((claimIds) => {
+          if (isCancelled) return;
+
+          setAlgoliaSearch({
+            query: trimmedQuery,
+            ranks: new Map(claimIds.map((claimId, index) => [claimId, index])),
+            status: "ready",
+          });
+        })
+        .catch(() => {
+          if (isCancelled) return;
+
+          setAlgoliaSearch({
+            query: trimmedQuery,
+            ranks: null,
+            status: "error",
+          });
+        });
+    }, 160);
+
+    return () => {
+      isCancelled = true;
+      window.clearTimeout(timeoutId);
+    };
+  }, [query]);
+
+  useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 760px)");
 
     function syncColumnMode() {
@@ -2249,8 +2404,9 @@ function App() {
   }, [isSingleColumn]);
 
   const filteredClaims = useMemo(() => {
-    const normalizedQuery = normalize(query);
-    const queryTerms = normalizedQuery.split(/\s+/).filter(Boolean);
+    const queryTerms = getSearchTerms(query);
+    const hasSearchQuery = queryTerms.length > 0;
+    const algoliaRanks = algoliaSearch.query === query.trim() ? algoliaSearch.ranks : null;
 
     const matchingClaims = claims.filter((claim) => {
       const matchesSide = side === "tous" || claim.side === side;
@@ -2270,27 +2426,8 @@ function App() {
         selectedPeriods.length === 0 || selectedPeriods.includes(getPeriodLabel(claim));
       const matchesDomain = domain === "tous" || claim.domain === domain;
       const matchesAngle = angle === "tous" || claim.angle === angle;
-      const searchable = normalize(
-        [
-          claim.title,
-          claim.summary,
-          claim.translations?.en?.title ?? "",
-          claim.translations?.en?.summary ?? "",
-          claim.translations?.en?.nuance ?? "",
-          claim.translations?.en?.sourcePopulation ?? "",
-          claim.translations?.en?.tags?.join(" ") ?? "",
-          claim.metric,
-          angleLabels[claim.angle],
-          angleLabelsByLocale.en[claim.angle],
-          claim.domain,
-          claim.pays_ou_zone,
-          claim.statut_temporel,
-          claim.sourcePopulation ?? "",
-          claim.source.publisher,
-          claim.tags.join(" "),
-        ].join(" "),
-      );
-      const matchesQuery = queryTerms.length === 0 || queryTerms.every((term) => searchable.includes(term));
+      const matchesQuery =
+        !hasSearchQuery || localSearchScores.has(claim.id) || Boolean(algoliaRanks?.has(claim.id));
 
       return (
         matchesSide &&
@@ -2305,12 +2442,55 @@ function App() {
       );
     });
 
+    if (hasSearchQuery) {
+      return matchingClaims
+        .map((claim, index) => ({
+          claim,
+          index,
+          algoliaRank: algoliaRanks?.get(claim.id),
+          localScore: localSearchScores.get(claim.id) ?? 0,
+        }))
+        .sort((left, right) => {
+          const leftHasAlgoliaRank = left.algoliaRank !== undefined;
+          const rightHasAlgoliaRank = right.algoliaRank !== undefined;
+
+          if (leftHasAlgoliaRank || rightHasAlgoliaRank) {
+            if (leftHasAlgoliaRank && rightHasAlgoliaRank) {
+              return (
+                Number(left.algoliaRank) - Number(right.algoliaRank) ||
+                right.localScore - left.localScore ||
+                left.index - right.index
+              );
+            }
+
+            return leftHasAlgoliaRank ? -1 : 1;
+          }
+
+          return right.localScore - left.localScore || left.index - right.index;
+        })
+        .map((item) => item.claim);
+    }
+
     const orderedClaims = side === "tous" ? interleaveClaimsBySide(matchingClaims) : matchingClaims;
 
     return hasMenTagFilter && hasWomenTagFilter
       ? orderClaimsForCombinedSideTags(orderedClaims)
       : orderedClaims;
-  }, [angle, domain, hasMenTagFilter, hasWomenTagFilter, query, selectedPeriods, selectedStatuses, selectedTopicTags, selectedZones, side]);
+  }, [
+    algoliaSearch.query,
+    algoliaSearch.ranks,
+    angle,
+    domain,
+    hasMenTagFilter,
+    hasWomenTagFilter,
+    localSearchScores,
+    query,
+    selectedPeriods,
+    selectedStatuses,
+    selectedTopicTags,
+    selectedZones,
+    side,
+  ]);
 
   useEffect(() => {
     if (isRequestsView || !hasAnalyticsConsent) return undefined;
@@ -2495,6 +2675,7 @@ function App() {
 
   function clearFilters() {
     setSide("tous");
+    setQuery("");
     setSelectedTags([]);
     setSelectedZones([]);
     setSelectedStatuses([]);
@@ -2937,6 +3118,7 @@ function App() {
                 selectedAngle={angle}
                 selectedDomain={domain}
                 selectedPeriods={selectedPeriods}
+                searchQuery={query}
                 selectedSide={side}
                 selectedStatuses={selectedStatuses}
                 selectedTags={selectedTags}
@@ -3286,6 +3468,7 @@ function App() {
                         selectedAngle={angle}
                         selectedDomain={domain}
                         selectedPeriods={selectedPeriods}
+                        searchQuery={query}
                         selectedSide={side}
                         selectedStatuses={selectedStatuses}
                         selectedTags={selectedTags}
@@ -3571,6 +3754,7 @@ function ClaimCard({
   selectedStatuses,
   selectedTags,
   selectedZones,
+  searchQuery,
   text,
 }: {
   blogUpdates: HomeBlogUpdate[];
@@ -3591,6 +3775,7 @@ function ClaimCard({
   selectedStatuses: StatutTemporel[];
   selectedTags: string[];
   selectedZones: string[];
+  searchQuery: string;
   text: Record<string, string>;
 }) {
   const [copied, setCopied] = useState(false);
@@ -3695,7 +3880,7 @@ function ClaimCard({
               aria-pressed={selectedTags.includes(label)}
               onClick={() => onTagClick(label)}
             >
-              {formatTagLabel(label)}
+              <SearchHighlight text={formatTagLabel(label)} query={searchQuery} />
             </button>
           ))}
           {shouldShowSideChip && (
@@ -3705,7 +3890,7 @@ function ClaimCard({
               aria-pressed={selectedSide === claim.side}
               onClick={() => onSideClick(claim.side)}
             >
-              {displaySideLabels[claim.side]}
+              <SearchHighlight text={displaySideLabels[claim.side]} query={searchQuery} />
             </button>
           )}
           <button
@@ -3714,7 +3899,7 @@ function ClaimCard({
             aria-pressed={selectedAngle === claim.angle}
             onClick={() => onAngleClick(claim.angle)}
           >
-            {displayAngleLabels[claim.angle]}
+            <SearchHighlight text={displayAngleLabels[claim.angle]} query={searchQuery} />
           </button>
         </div>
         <div className="flex items-center gap-2">
@@ -3730,7 +3915,7 @@ function ClaimCard({
             onClick={() => onDomainClick(claim.domain)}
           >
             <Icon aria-hidden="true" />
-            {claim.domain}
+            <SearchHighlight text={claim.domain} query={searchQuery} />
           </button>
           <button
             className={cn(
@@ -3751,7 +3936,7 @@ function ClaimCard({
       <div className="mt-7 space-y-4 max-[760px]:mt-5">
         <div className="flex items-start justify-between gap-3">
           <h3 className="m-0 flex-1 text-[1.35rem] font-extrabold leading-[1.24] text-neutral-900 max-[760px]:text-[1.08rem]">
-            {claimTitle}
+            <SearchHighlight text={claimTitle} query={searchQuery} />
           </h3>
           <button
             className="hidden min-h-8 shrink-0 items-center justify-center border border-blue-200 bg-blue-50 px-2.5 py-1 text-[0.78rem] font-extrabold text-blue-800 hover:bg-blue-100 max-[760px]:inline-flex"
@@ -3775,7 +3960,7 @@ function ClaimCard({
             </div>
             <p className="mt-2 text-[0.86rem] leading-snug text-neutral-700">
               <span className="font-extrabold text-neutral-900">{text.currentMetric} :</span>{" "}
-              {latestBlogUpdate.claimMetric}
+              <SearchHighlight text={latestBlogUpdate.claimMetric} query={searchQuery} />
             </p>
             <a
               className={cn(icon18, "mt-2 inline-flex max-w-full items-start gap-2 text-[0.86rem] font-bold leading-snug text-blue-800 underline underline-offset-2")}
@@ -3785,7 +3970,8 @@ function ClaimCard({
             >
               <FileText className="mt-0.5" aria-hidden="true" />
               <span className="min-w-0 [overflow-wrap:anywhere]">
-                {getUpdateLinkLabel(latestBlogUpdate, text)} : {latestBlogUpdate.blogTitle}
+                {getUpdateLinkLabel(latestBlogUpdate, text)} :{" "}
+                <SearchHighlight text={latestBlogUpdate.blogTitle} query={searchQuery} />
               </span>
             </a>
           </div>
@@ -3794,7 +3980,7 @@ function ClaimCard({
 
       <div className={cn("contents", !isMobileExpanded && "max-[760px]:hidden")} id={mobileDetailsId}>
       <div className="mt-4">
-        <HighlightedSummary text={claimSummary} />
+        <HighlightedSummary text={claimSummary} searchQuery={searchQuery} />
       </div>
 
       <div className="mt-8 border-t border-neutral-200 pt-4">
@@ -3809,7 +3995,7 @@ function ClaimCard({
             aria-pressed={selectedZones.includes(claim.pays_ou_zone)}
             onClick={() => onZoneClick(claim.pays_ou_zone)}
           >
-            {zoneLabels[claim.pays_ou_zone] ?? claim.pays_ou_zone}
+            <SearchHighlight text={zoneLabels[claim.pays_ou_zone] ?? claim.pays_ou_zone} query={searchQuery} />
           </button>
           <button
             className={cn(
@@ -3821,7 +4007,7 @@ function ClaimCard({
             aria-pressed={selectedStatuses.includes(claim.statut_temporel)}
             onClick={() => onStatusClick(claim.statut_temporel)}
           >
-            {displayPeriodLabels[claim.statut_temporel]}
+            <SearchHighlight text={displayPeriodLabels[claim.statut_temporel]} query={searchQuery} />
           </button>
           <button
             className={cn(
@@ -3833,7 +4019,7 @@ function ClaimCard({
             aria-pressed={selectedPeriods.includes(periodLabel)}
             onClick={() => onPeriodClick(periodLabel)}
           >
-            {periodLabel}
+            <SearchHighlight text={periodLabel} query={searchQuery} />
           </button>
         </div>
       </div>
@@ -3863,7 +4049,7 @@ function ClaimCard({
               aria-pressed={selectedTags.includes(sourceTag)}
               onClick={() => onTagClick(sourceTag)}
             >
-              {formatTagLabel(label)}
+              <SearchHighlight text={formatTagLabel(label)} query={searchQuery} />
             </button>
           );
         })}
@@ -3872,7 +4058,9 @@ function ClaimCard({
       <div className="mt-auto pt-6">
         <div className={cn(icon18, "flex items-start gap-2 border-t border-neutral-200 pt-4 text-[0.86rem] leading-[1.48] text-neutral-700")}>
           <AlertTriangle className="mt-0.5 text-red-700" aria-hidden="true" />
-          <span>{claimNuance}</span>
+          <span>
+            <SearchHighlight text={claimNuance} query={searchQuery} />
+          </span>
         </div>
       </div>
 
@@ -3881,14 +4069,16 @@ function ClaimCard({
           <summary className={cn("cursor-pointer px-3 py-2.5 font-bold", sideColor)}>
             {text.measuredPopulation}
           </summary>
-          <div className="border-t border-neutral-300 px-3 py-3">{claimSourcePopulation}</div>
+          <div className="border-t border-neutral-300 px-3 py-3">
+            <SearchHighlight text={claimSourcePopulation} query={searchQuery} />
+          </div>
         </details>
       )}
 
       <div className="mt-3 grid grid-cols-[minmax(0,1fr)_auto] gap-2 max-[460px]:grid-cols-1">
         <div className={cn(icon18, "flex min-h-[38px] items-center gap-2 bg-neutral-200 px-[9px] py-[7px] text-[0.82rem] font-bold text-neutral-700")}>
         <CalendarSync className="text-blue-800" aria-hidden="true" />
-        {text.verifiedOn} {claim.lastChecked}
+        {text.verifiedOn} <SearchHighlight text={claim.lastChecked} query={searchQuery} />
         </div>
         <button
           className={cn(icon18, "flex min-h-[38px] items-center justify-center gap-2 border border-neutral-300 bg-white px-2.5 py-[7px] text-[0.86rem] font-bold text-blue-800 hover:bg-blue-50 max-[760px]:hidden")}
@@ -3900,9 +4090,9 @@ function ClaimCard({
       </button>
       </div>
 
-      <ClaimSourceLink source={claim.source} tone="primary" />
+      <ClaimSourceLink source={claim.source} tone="primary" searchQuery={searchQuery} />
       {claim.additionalSources?.map((source) => (
-        <ClaimSourceLink key={source.url} source={source} />
+        <ClaimSourceLink key={source.url} source={source} searchQuery={searchQuery} />
       ))}
       <button
         className={cn(icon18, "mt-3 hidden min-h-[42px] w-full items-center justify-center gap-2 border border-neutral-300 bg-white px-2.5 py-[9px] text-[0.86rem] font-bold text-blue-800 hover:bg-blue-50 max-[760px]:flex")}
