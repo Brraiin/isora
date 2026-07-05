@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté
+- URL: https://isora-xi.vercel.app/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/
+- Date: 2026-07-05
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel, femmes-soin-non-remunere-emploi
+- Resume: La veille du 5 juillet 2026 met en avant un cumul d'écarts de long terme plutôt qu'un seul indicateur isolé. Eurostat indique qu'en 2024, dans l'Union européenne, la pension moyenne des femmes de 65 ans ou plus est inférieure de 24,5 % à celle des hommes, et que le risque de pauvreté des femmes de cet âge est plus élevé dans 22 pays de l'UE. L'OCDE retrouve un écart moyen voisin, à 23 % en 2024, et un taux de pauvreté monétaire des 65 ans ou plus de 17 % pour les femmes contre 12 % pour les hommes en moyenne. En France, la DREES indique qu'en 2023 la pension de droit direct moyenne des femmes résidant en France reste inférieure de 38 % à celle des hommes, écart ramené à 25 % en incluant l'éventuelle pension de réversion.
+- Sources: Eurostat (25 février 2026, données 2024): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Living_conditions_in_Europe_-_monetary_poverty_among_the_elderly; OCDE (novembre 2025): https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html; OCDE (novembre 2025): https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/old-age-income-poverty_3cd946d7.html; DREES (31 juillet 2025, données 2022-2023): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/250731_PANORAMAS-retraites
+
 ### Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart
 - URL: https://isora-xi.vercel.app/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/
 - Date: 2026-07-03

@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-07-03T00:00:00+02:00",
+  "generatedAt": "2026-07-05T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -15,7 +15,7 @@
     "total": 92,
     "hommes": 39,
     "femmes": 53,
-    "sources": 197
+    "sources": 198
   },
   "domains": [
     "Travail",
@@ -1528,13 +1528,13 @@
       "id": "hommes-vocabulaire-masculinisme-pejoratif",
       "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-vocabulaire-masculinisme-pejoratif",
-      "title": "Masculinisme défini surtout par ses usages péjoratifs",
+      "title": "Défense des hommes : pas de terme neutre stabilisé",
       "side": "hommes",
       "angle": "récit_sur_le_sexe",
       "domain": "Droits",
-      "metric": "mot péjoratif",
-      "summary": "Les sources lexicographiques consultées ne donnent pas au masculinisme un statut symétrique au féminisme. Le féminisme est couramment défini par les droits ou l'égalité, mais cette définition ne mesure pas les pratiques militantes réelles ni leur prise en compte des asymétries défavorables aux hommes. Les exemples féministes ou pro-féministes repérés en ce sens existent surtout sur la paternité, le congé parental et le soin. À l'inverse, Larousse, Le Robert et l'Académie française rattachent le masculinisme à des usages antiféministes, sexistes, réactionnels ou virilistes, tandis que l'OQLF propose une définition plus large mais précise que le mot reste péjoratif.",
-      "nuance": "Cette fiche documente des définitions de dictionnaires et de terminologie, ainsi que quelques exemples d'acteurs féministes ou pro-féministes mobilisés sur le congé des pères et le soin. Elle ne mesure pas toute l'histoire des groupes de défense des hommes, des mouvements féministes ni tous les usages de ces mots. Une définition du féminisme centrée sur l'égalité ne prouve pas que tous les espaces féministes traitent symétriquement les désavantages masculins; une définition péjorative du masculinisme ne prouve pas que toute défense des vulnérabilités masculines soit misogyne. Misogynie et misandrie restent les termes spécifiques pour le mépris ou la haine des femmes et des hommes.",
+      "metric": "mot manquant",
+      "summary": "Les sources lexicographiques et institutionnelles consultées ne donnent pas au masculinisme un statut symétrique au féminisme. Le féminisme est couramment défini par les droits ou l'égalité des femmes, notamment face aux violences et injustices qui les concernent, ce qui donne au mot un cadrage public plutôt légitimant. Il manque en revanche un terme français aussi stabilisé pour désigner les personnes, hommes ou femmes, qui défendent factuellement les hommes face aux injustices ou asymétries défavorables aux hommes sans rabaisser les femmes. Larousse, Le Robert, l'Académie française, le HCE et le Sénat rattachent surtout le masculinisme à des usages antiféministes, sexistes, réactionnels, virilistes ou misogynes, tandis que l'OQLF propose une définition plus large mais précise que le mot reste péjoratif.",
+      "nuance": "Cette fiche documente des définitions de dictionnaires et de terminologie, les rapports publics 2026 du HCE et du Sénat, ainsi que quelques exemples d'acteurs féministes ou pro-féministes mobilisés sur le congé des pères et le soin. Elle ne mesure pas toute l'histoire des groupes de défense des hommes, des mouvements féministes ni tous les usages de ces mots. Elle distingue trois niveaux : un mouvement centré sur les droits ou injustices touchant les femmes, couramment appelé féminisme; la défense factuelle des vulnérabilités et désavantages masculins, pour laquelle le français manque d'un terme public aussi neutre; et la haine ou le mépris d'un sexe. La haine des femmes relève de la misogynie; la haine des hommes relève de la misandrie, quel que soit le sexe de la personne qui l'exprime. Une revendication centrée sur un sexe ne relève pas automatiquement de la haine de l'autre; l'analyse change quand le discours rabaisse, déshumanise ou vise le retrait de droits. Une définition du féminisme centrée sur l'égalité ne prouve pas que tous les espaces féministes traitent symétriquement les désavantages masculins; une définition péjorative du masculinisme ne prouve pas que toute défense des vulnérabilités masculines soit misogyne.",
       "tags": [
         "vocabulaire",
         "masculinisme",
@@ -1547,9 +1547,9 @@
       "periodStart": "2020",
       "periodEnd": "2026",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, ainsi que prises de position publiques d'organisations féministes ou pro-féministes sur les pères, le congé parental et le soin. Ces sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat sur les usages institutionnels de masculinisme, ainsi que prises de position publiques d'organisations féministes ou pro-féministes sur les pères, le congé parental et le soin. Ces sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "25 juin 2026",
+      "lastChecked": "5 juillet 2026",
       "source": {
         "label": "Grand dictionnaire terminologique - masculinisme",
         "publisher": "Office québécois de la langue française / Grand dictionnaire terminologique",
@@ -1574,6 +1574,18 @@
           "publisher": "Académie française, 10e édition",
           "url": "https://www.dictionnaire-academie.fr/article/B0M00085",
           "date": "publié en juin 2026"
+        },
+        {
+          "label": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+          "publisher": "Haut Conseil à l'Égalité",
+          "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
+          "date": "21 janvier 2026"
+        },
+        {
+          "label": "Mascus : la nouvelle offensive contre les femmes",
+          "publisher": "Sénat, Délégation aux droits des femmes",
+          "url": "https://www.senat.fr/rap/r25-776-1/r25-776-1_mono.html",
+          "date": "23 juin 2026"
         },
         {
           "label": "Définitions : féminisme",

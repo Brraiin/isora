@@ -12,20 +12,40 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
-    "claimId": "femmes-charge-domestique-soin",
-    "side": "femmes",
-    "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
-    "claimMetric": "2,5x",
-    "blogTitle": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
-    "blogUrl": "/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
-    "date": "2026-07-03",
-    "updatedAt": "2026-07-03T18:30:00.000Z"
-  },
-  {
     "claimId": "femmes-temps-partiel",
     "side": "femmes",
     "claimTitle": "Femmes beaucoup plus souvent en emploi à temps partiel",
     "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
+    "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
+    "date": "2026-07-05",
+    "updatedAt": "2026-07-05T07:30:00.000Z"
+  },
+  {
+    "claimId": "femmes-soin-non-remunere-emploi",
+    "side": "femmes",
+    "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
+    "claimMetric": "708 M",
+    "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
+    "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
+    "date": "2026-07-05",
+    "updatedAt": "2026-07-05T07:30:00.000Z"
+  },
+  {
+    "claimId": "femmes-ecart-salaire",
+    "side": "femmes",
+    "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
+    "claimMetric": "3,0-4,8 %",
+    "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
+    "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
+    "date": "2026-07-05",
+    "updatedAt": "2026-07-05T07:30:00.000Z"
+  },
+  {
+    "claimId": "femmes-charge-domestique-soin",
+    "side": "femmes",
+    "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
+    "claimMetric": "2,5x",
     "blogTitle": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
     "blogUrl": "/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
     "date": "2026-07-03",
@@ -92,16 +112,6 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-06-30T07:30:00.000Z"
   },
   {
-    "claimId": "femmes-soin-non-remunere-emploi",
-    "side": "femmes",
-    "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
-    "claimMetric": "708 M",
-    "blogTitle": "Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée",
-    "blogUrl": "/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/",
-    "date": "2026-06-29",
-    "updatedAt": "2026-06-29T07:20:00.000Z"
-  },
-  {
     "claimId": "hommes-accidents-travail",
     "side": "hommes",
     "claimTitle": "Hommes très majoritaires parmi les morts au travail",
@@ -134,8 +144,8 @@ export const homeBlogUpdates = [
   {
     "claimId": "hommes-vocabulaire-masculinisme-pejoratif",
     "side": "hommes",
-    "claimTitle": "Masculinisme défini surtout par ses usages péjoratifs",
-    "claimMetric": "mot péjoratif",
+    "claimTitle": "Défense des hommes : pas de terme neutre stabilisé",
+    "claimMetric": "mot manquant",
     "blogTitle": "Masculinisme et féminisme : une asymétrie de vocabulaire dans les dictionnaires",
     "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
     "date": "2026-06-25",

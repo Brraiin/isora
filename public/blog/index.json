@@ -2,8 +2,127 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-03T10:40:01.864Z",
+  "generatedAt": "2026-07-05T20:06:38.174Z",
   "posts": [
+    {
+      "id": "2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde",
+      "title": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
+      "description": "Les publications 2025-2026 d'Eurostat, de l'OCDE et de la DREES décrivent une asymétrie persistante en fin de carrière : les pensions des femmes âgées restent plus basses que celles des hommes, et leur risque de pauvreté monétaire demeure plus élevé dans la plupart des comparaisons, même si certains dispositifs comme la réversion atténuent partiellement l'écart.",
+      "date": "2026-07-05",
+      "publishedAt": "2026-07-05T07:30:00.000Z",
+      "updatedAt": "2026-07-05T07:30:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "écart pension femmes hommes UE 2024",
+        "Eurostat pauvreté monétaire personnes âgées femmes hommes 2026",
+        "OCDE gender pension gap 2025",
+        "DREES retraites femmes hommes 2025",
+        "pension de réversion femmes France 2023"
+      ],
+      "relatedClaimIds": [
+        "femmes-ecart-salaire",
+        "femmes-temps-partiel",
+        "femmes-soin-non-remunere-emploi"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Living conditions in Europe - monetary poverty among the elderly",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Living_conditions_in_Europe_-_monetary_poverty_among_the_elderly",
+          "date": "25 février 2026, données 2024",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Gender pension gap: Pensions at a Glance 2025",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html",
+          "date": "novembre 2025",
+          "type": "chapitre de rapport"
+        },
+        {
+          "title": "Old-age income poverty: Pensions at a Glance 2025",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/old-age-income-poverty_3cd946d7.html",
+          "date": "novembre 2025",
+          "type": "chapitre de rapport"
+        },
+        {
+          "title": "Les retraités et les retraites - Édition 2025",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/250731_PANORAMAS-retraites",
+          "date": "31 juillet 2025, données 2022-2023",
+          "type": "panorama statistique"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde",
+      "title": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
+      "description": "Les sources 2025-2026 convergent vers une asymétrie persistante mais nuancée : avec enfants, l'emploi et le temps partiel se déplacent surtout du côté des mères, tandis que les pères passent plus de temps avec les jeunes enfants et disposent de droits au congé plus développés qu'avant, sans symétrie complète.",
+      "date": "2026-07-03",
+      "publishedAt": "2026-07-03T18:30:00.000Z",
+      "updatedAt": "2026-07-03T18:30:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "parentalité emploi mères pères Europe 2024",
+        "DREES temps parental jeunes enfants 2025",
+        "Eurostat gender employment gap children 2026",
+        "OCDE paid leave for fathers 2025",
+        "Insee mères pères activité temps partiel 2023"
+      ],
+      "relatedClaimIds": [
+        "femmes-temps-partiel",
+        "femmes-charge-domestique-soin",
+        "hommes-conge-paternite-ocde"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "SDG 5 - Gender equality",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=SDG_5_-_Gender_equality",
+          "date": "juin 2026, donnees 2024-2025",
+          "type": "synthese statistique"
+        },
+        {
+          "title": "Higher education reduces gender employment gap",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1",
+          "date": "6 mars 2026",
+          "type": "note statistique"
+        },
+        {
+          "title": "Prise en charge des jeunes enfants : evolution du temps parental et organisation des familles sur une semaine habituelle",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/communique-de-presse/251120-prise-en-charge-des-jeunes-enfants",
+          "date": "25 novembre 2025",
+          "type": "communique de presse et etudes"
+        },
+        {
+          "title": "Paid leave for fathers",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html",
+          "date": "novembre 2025",
+          "type": "policy brief"
+        },
+        {
+          "title": "Evolution des inegalites entre les femmes et les hommes",
+          "publisher": "Insee",
+          "url": "https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/",
+          "date": "2025, donnees 2023",
+          "type": "synthese statistique"
+        }
+      ]
+    },
     {
       "id": "2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue",
       "title": "Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE",
