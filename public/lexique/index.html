@@ -32,20 +32,26 @@
     * { box-sizing: border-box; }
     body { margin: 0; background: #f4f4f0; color: #171717; }
     a { color: #1455a3; text-underline-offset: 0.18em; }
-    .wrap { width: min(100% - 48px, 1120px); margin: 0 auto; }
-    .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
-    .topbar-inner { min-height: 106px; display: flex; align-items: stretch; justify-content: space-between; gap: 24px; }
-    .brand { margin-left: -16px; padding: 0 16px; display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; }
-    .brand:hover, .brand:focus-visible { background: #f6f6f6; }
-    .brand:focus-visible { outline: 2px solid #1455a3; outline-offset: -2px; }
-    .brand img { width: 106px; height: auto; display: block; }
-    .brand span { max-width: 25rem; color: #3f3f3f; font-size: 0.96rem; font-weight: 700; line-height: 1.35; }
-    .nav { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px; align-self: center; font-weight: 800; }
-    .nav a { min-height: 32px; display: inline-flex; align-items: center; gap: 8px; padding: 0 8px; color: #000091; text-decoration: none; }
-    .nav a:hover { background: #f6f6f6; }
-    .nav a:active { background: #ededed; }
-    .nav a:focus-visible { outline: 2px solid #1455a3; outline-offset: 2px; }
-    .nav svg { width: 18px; height: 18px; flex: 0 0 auto; }
+    .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
+.topbar { border-bottom: 1px solid #d8d8d0; background: #fff; font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; line-height: 1.5; }
+.topbar-inner { min-height: 106px; display: flex; align-items: stretch; justify-content: space-between; gap: 24px; }
+.brand { margin-left: -16px; padding: 0 16px; display: inline-flex; align-items: center; gap: 14px; color: #171717; text-decoration: none; font-weight: 400; }
+.brand:hover, .brand:focus-visible { background: #f6f6f6; }
+.brand:focus-visible { outline: 2px solid #1455a3; outline-offset: -2px; }
+.brand img { width: 106px; height: auto; display: block; }
+.brand span { max-width: 25rem; color: #3f3f3f; font-size: 0.96rem; font-weight: 700; line-height: 1.35; }
+.nav { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px; align-self: center; font-weight: 400; }
+.nav a { min-height: 32px; display: inline-flex; align-items: center; gap: 8px; padding: 0 8px; color: #000091; text-decoration: none; font-weight: 800; line-height: 1.5; }
+.nav a:hover { background: #f6f6f6; }
+.nav a:active { background: #ededed; }
+.nav a:focus-visible { outline: 2px solid #1455a3; outline-offset: 2px; }
+.nav svg { width: 18px; height: 18px; flex: 0 0 auto; }
+@media (max-width: 760px) {
+  .wrap { width: min(100% - 24px, 1200px); }
+  .topbar-inner { min-height: 0; align-items: stretch; flex-direction: column; gap: 8px; padding: 8px 0; }
+  .brand { margin: 0 -8px; padding: 12px 8px; align-items: flex-start; flex-direction: column; gap: 8px; }
+  .nav { margin-left: 0; align-self: stretch; justify-content: flex-end; }
+}
     .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
     .hero-inner { padding: 54px 0 46px; }
     .kicker { margin: 0 0 14px; color: #13519c; font-weight: 900; }
@@ -88,10 +94,6 @@
     .term-links a { font-size: 0.92rem; font-weight: 850; }
     .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
     @media (max-width: 860px) {
-      .wrap { width: min(100% - 24px, 1120px); }
-      .topbar-inner { min-height: 0; align-items: stretch; flex-direction: column; gap: 8px; padding: 8px 0; }
-      .brand { margin: 0 -8px; padding: 12px 8px; align-items: flex-start; flex-direction: column; gap: 8px; }
-      .nav { margin-left: 0; align-self: stretch; justify-content: flex-end; }
       main, .index-grid, .lexicon-grid { grid-template-columns: 1fr; }
       aside { position: static; }
       .section, .sidebox, .claim-card, .lexicon-card, .notice { padding: 20px; }

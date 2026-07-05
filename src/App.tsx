@@ -2869,25 +2869,22 @@ function App() {
   return (
     <div className="min-w-80 bg-neutral-100 font-sans text-neutral-900 antialiased">
       <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
-      <header className="border-b border-neutral-300 bg-white" role="banner">
+      <header className="border-b border-[#d8d8d0] bg-white" role="banner">
         <div className={cn(pageWidth, "flex min-h-[106px] items-stretch justify-between gap-6 max-[760px]:min-h-0 max-[760px]:flex-col max-[760px]:gap-2 max-[760px]:py-2")}>
           <a className="-ml-4 inline-flex items-center gap-3.5 px-4 text-neutral-900 no-underline hover:bg-[#f6f6f6] focus-visible:bg-[#f6f6f6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[#1455a3] max-[760px]:-mx-2 max-[760px]:flex-col max-[760px]:items-start max-[760px]:gap-2 max-[760px]:px-2 max-[760px]:py-3" href="/" aria-label="Accueil isora - Le référentiel des asymétries de sexe">
-            <BrandWordmark className="w-28 max-[760px]:w-24" />
-            <span className="max-w-[25rem] leading-[1.35] font-bold text-neutral-600 max-[760px]:text-[0.92rem]">
-              <span className="max-[760px]:hidden">{text.tagline}</span>
-              <span className="hidden max-[760px]:inline">{text.mobileTagline}</span>
-            </span>
+            <BrandWordmark className="w-[106px]" />
+            <span className="max-w-[25rem] text-[0.96rem] leading-[1.35] font-bold text-[#3f3f3f]">{text.tagline}</span>
           </a>
           <nav className="ml-auto flex flex-wrap items-center justify-end gap-1 self-center max-[760px]:w-full max-[760px]:justify-end" aria-label="Navigation">
             <a
-              className={cn(icon18, "inline-flex min-h-8 items-center gap-2 px-2 font-bold text-[#000091] no-underline hover:bg-[#f6f6f6] active:bg-[#ededed] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1455a3]")}
+              className={cn(icon18, "inline-flex min-h-8 items-center gap-2 px-2 font-extrabold text-[#000091] no-underline hover:bg-[#f6f6f6] active:bg-[#ededed] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1455a3]")}
               href="/lexique/"
             >
               <Tags aria-hidden="true" />
               {text.lexicon}
             </a>
             <a
-              className={cn(icon18, "inline-flex min-h-8 items-center gap-2 px-2 font-bold text-[#000091] no-underline hover:bg-[#f6f6f6] active:bg-[#ededed] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1455a3]")}
+              className={cn(icon18, "inline-flex min-h-8 items-center gap-2 px-2 font-extrabold text-[#000091] no-underline hover:bg-[#f6f6f6] active:bg-[#ededed] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1455a3]")}
               href="/blog/"
             >
               <FileText aria-hidden="true" />
