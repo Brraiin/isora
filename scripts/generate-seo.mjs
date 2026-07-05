@@ -17,11 +17,14 @@ const root = join(__dirname, "..");
 const publicDir = join(root, "public");
 const publicWellKnownDir = join(publicDir, ".well-known");
 const publicClaimsDir = join(publicDir, "fiches");
+const publicLexiconDir = join(publicDir, "lexique");
 const sourceFile = join(root, "src", "data", "claims.ts");
+const lexiconFile = join(root, "src", "data", "lexicon.ts");
 const homeBlogUpdatesFile = join(root, "src", "data", "blog-updates.ts");
 const manualClaimUpdatesFile = join(root, "src", "data", "manual-claim-updates.json");
 const logoFile = join(root, "src", "assets", "isora.svg");
 const tempFile = join(root, "node_modules", ".cache", "isora-claims.mjs");
+const lexiconTempFile = join(root, "node_modules", ".cache", "isora-lexicon.mjs");
 const siteUrl = "https://isora-xi.vercel.app";
 const generatedDate = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Paris" });
 const generatedAt = `${generatedDate}T00:00:00+02:00`;
@@ -60,6 +63,19 @@ await writeFile(tempFile, transpiled, "utf8");
 const { claims, domains, tagLabels } = await import(`${pathToFileURL(tempFile).href}?t=${Date.now()}`);
 await rm(tempFile, { force: true });
 
+const lexiconSource = await readFile(lexiconFile, "utf8");
+const lexiconTranspiled = ts.transpileModule(lexiconSource, {
+  compilerOptions: {
+    module: ts.ModuleKind.ESNext,
+    target: ts.ScriptTarget.ES2022,
+    verbatimModuleSyntax: false,
+  },
+}).outputText;
+
+await writeFile(lexiconTempFile, lexiconTranspiled, "utf8");
+const { lexiconEntries, lexiconNotice } = await import(`${pathToFileURL(lexiconTempFile).href}?t=${Date.now()}`);
+await rm(lexiconTempFile, { force: true });
+
 const counts = {
   total: claims.length,
   hommes: claims.filter((claim) => claim.side === "hommes").length,
@@ -71,6 +87,17 @@ const counts = {
     ]),
   ).size,
 };
+
+const lexiconCategoryLabels = {
+  repere: "Repère",
+  haine: "Haine de sexe",
+  methode: "Méthode",
+  angle: "Angle d'analyse",
+};
+
+function getLexiconCategoryLabel(category) {
+  return lexiconCategoryLabels[category] ?? category;
+}
 
 function getClaimTranslation(claim, locale) {
   return claim.translations?.[locale] ?? {};
@@ -307,6 +334,23 @@ function buildDataset(locale) {
     counts,
     domains,
     tags: tagLabels,
+    lexicon: {
+      url: `${siteUrl}/lexique/`,
+      notice: lexiconNotice,
+      entries: lexiconEntries.map((entry) => ({
+        ...entry,
+        url: `${siteUrl}/lexique/#${entry.slug}`,
+        categoryLabel: getLexiconCategoryLabel(entry.category),
+        relatedClaims: (entry.relatedClaimIds ?? [])
+          .map((claimId) => claimById.get(claimId))
+          .filter(Boolean)
+          .map((claim) => ({
+            id: claim.id,
+            title: claim.title,
+            url: `${siteUrl}/fiches/${slugPath(claim.id)}/`,
+          })),
+      })),
+    },
     claims: claims.map((claim) => {
       const translation = getClaimTranslation(claim, locale);
 
@@ -346,10 +390,47 @@ function stripUndefined(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
+function renderLexiconForLlms(locale) {
+  const isEnglish = locale === "en";
+
+  return [
+    isEnglish ? "## Lexicon" : "## Lexique",
+    lexiconNotice,
+    "",
+    ...lexiconEntries.map((entry) => {
+      const relatedClaims = (entry.relatedClaimIds ?? [])
+        .map((claimId) => claimById.get(claimId))
+        .filter(Boolean)
+        .map((claim) => `${claim.title} (${siteUrl}/fiches/${slugPath(claim.id)}/)`)
+        .join("; ");
+
+      return [
+        `### ${entry.term}`,
+        `- URL: ${siteUrl}/lexique/#${entry.slug}`,
+        isEnglish
+          ? `- Category: ${getLexiconCategoryLabel(entry.category)}`
+          : `- Categorie: ${getLexiconCategoryLabel(entry.category)}`,
+        isEnglish ? `- Definition: ${entry.definition}` : `- Definition: ${entry.definition}`,
+        isEnglish ? `- Detail: ${textLine(entry.detail)}` : `- Detail: ${textLine(entry.detail)}`,
+        entry.doNotConfuseWith?.length
+          ? isEnglish
+            ? `- Do not confuse with: ${entry.doNotConfuseWith.join(", ")}`
+            : `- A ne pas confondre avec: ${entry.doNotConfuseWith.join(", ")}`
+          : null,
+        relatedClaims ? (isEnglish ? `- Related entry: ${relatedClaims}` : `- Fiche liee: ${relatedClaims}`) : null,
+        "",
+      ]
+        .filter((line) => line !== null)
+        .join("\n");
+    }),
+  ].join("\n");
+}
+
 function buildLlms(locale) {
   const isEnglish = locale === "en";
   const datasetPath = isEnglish ? "isora-dataset-en.json" : "isora-dataset.json";
   const blogText = renderBlogSummaryForLlms(blogPosts, blogConfig, locale);
+  const lexiconText = renderLexiconForLlms(locale);
   const claimsText = claims
     .map((claim) => {
       const translation = getClaimTranslation(claim, locale);
@@ -399,6 +480,7 @@ function buildLlms(locale) {
 Canonical URL: ${siteUrl}/
 JSON dataset: ${siteUrl}/${datasetPath}
 Static HTML claim index: ${siteUrl}/fiches/
+Lexicon: ${siteUrl}/lexique/
 French AI guide: ${siteUrl}/llms.txt
 Last generation: ${generatedAt}
 
@@ -423,6 +505,8 @@ Last generation: ${generatedAt}
 - Data is classified by country or zone, period, domain, angle and temporal status.
 - Entries can be corrected when better sources appear.
 
+${lexiconText}
+
 ${blogText}
 
 ${claimsText}`;
@@ -435,6 +519,7 @@ ${claimsText}`;
 URL canonique: ${siteUrl}/
 Dataset JSON: ${siteUrl}/${datasetPath}
 Index HTML des fiches: ${siteUrl}/fiches/
+Lexique: ${siteUrl}/lexique/
 Version anglaise: ${siteUrl}/llms-en.txt
 Derniere generation: ${generatedAt}
 
@@ -457,6 +542,8 @@ Derniere generation: ${generatedAt}
 - Chaque fiche associe un fait resume, une mesure cle, une source, une date de verification et une nuance.
 - Les donnees sont classees par pays ou zone, periode, domaine, angle et statut temporel.
 - Les fiches peuvent etre corrigees lorsque de meilleures sources apparaissent.
+
+${lexiconText}
 
 ${blogText}
 
@@ -512,13 +599,25 @@ function renderClaimCss() {
     .claim-card:hover { border-color: #1455a3; }
     .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
     .claim-card p { margin: 0; color: #555; line-height: 1.58; }
+    .lexicon-main { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 34px 0 64px; }
+    .notice { background: #fff; border: 1px solid #d8d8d0; border-left: 4px solid #1455a3; padding: 22px; }
+    .notice p { margin: 0; color: #3f3f3f; line-height: 1.72; }
+    .lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .lexicon-card { background: #fff; border: 1px solid #d8d8d0; padding: 22px; scroll-margin-top: 22px; }
+    .lexicon-card h2 { margin: 4px 0 0; font-size: 1.45rem; line-height: 1.18; }
+    .lexicon-card p { color: #3f3f3f; line-height: 1.68; }
+    .lexicon-card .definition { margin: 18px 0 0; color: #171717; font-size: 1.08rem; font-weight: 900; line-height: 1.45; }
+    .meta-label { margin: 0; color: #1455a3; font-size: 0.78rem; font-weight: 900; text-transform: uppercase; }
+    .term-links { border-top: 1px solid #d8d8d0; display: grid; gap: 8px; margin-top: 18px; padding-top: 14px; }
+    .term-links p { margin: 0; font-size: 0.92rem; font-weight: 800; line-height: 1.42; }
+    .term-links a { font-size: 0.92rem; font-weight: 850; }
     .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
     @media (max-width: 860px) {
       .wrap { width: min(100% - 24px, 1120px); }
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
-      main, .index-grid { grid-template-columns: 1fr; }
+      main, .index-grid, .lexicon-grid { grid-template-columns: 1fr; }
       aside { position: static; }
-      .section, .sidebox, .claim-card { padding: 20px; }
+      .section, .sidebox, .claim-card, .lexicon-card, .notice { padding: 20px; }
     }
   `;
 }
@@ -681,6 +780,7 @@ function renderClaimHtml(claim) {
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel interactif</a>
           <a href="/fiches/">Fiches HTML</a>
+          <a href="/lexique/">Lexique</a>
           <a href="/blog/">Articles</a>
           <a href="/llms.txt">llms.txt</a>
         </nav>
@@ -812,6 +912,7 @@ function renderClaimIndexHtml() {
         </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel interactif</a>
+          <a href="/lexique/">Lexique</a>
           <a href="/blog/">Articles</a>
           <a href="/llms.txt">llms.txt</a>
         </nav>
@@ -848,6 +949,170 @@ function renderClaimIndexHtml() {
 `;
 }
 
+function renderLexiconEntryLinks(entry) {
+  const relatedClaims = (entry.relatedClaimIds ?? [])
+    .map((claimId) => claimById.get(claimId))
+    .filter(Boolean);
+
+  if (!entry.doNotConfuseWith?.length && relatedClaims.length === 0) return "";
+
+  return `
+        <div class="term-links">
+          ${
+            entry.doNotConfuseWith?.length
+              ? `<p>À ne pas confondre : ${htmlEscape(entry.doNotConfuseWith.join(", "))}</p>`
+              : ""
+          }
+          ${relatedClaims
+            .map(
+              (claim) => `
+                <a href="/fiches/${htmlEscape(claim.id)}/">Fiche liée : ${htmlEscape(claim.title)}</a>
+              `,
+            )
+            .join("")}
+        </div>
+  `;
+}
+
+function renderLexiconHtml() {
+  const pageUrl = `${siteUrl}/lexique/`;
+  const description =
+    "Lexique isora pour distinguer féminisme, masculinisme, misandrie, misogynie, asymétrie documentée et champ réellement mesuré par les sources.";
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: "Lexique isora",
+        description,
+        inLanguage: "fr-FR",
+        isPartOf: {
+          "@id": `${siteUrl}/#website`,
+        },
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": `${pageUrl}#lexique`,
+        name: "Lexique isora",
+        description: lexiconNotice,
+        url: pageUrl,
+        hasDefinedTerm: lexiconEntries.map((entry) => ({
+          "@type": "DefinedTerm",
+          "@id": `${pageUrl}#${entry.slug}`,
+          name: entry.term,
+          description: entry.definition,
+          termCode: entry.slug,
+          url: `${pageUrl}#${entry.slug}`,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "isora",
+            item: `${siteUrl}/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Lexique",
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  };
+
+  return `<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="description" content="${htmlEscape(description)}" />
+    <meta property="og:site_name" content="isora" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:url" content="${htmlEscape(pageUrl)}" />
+    <meta property="og:title" content="Lexique isora" />
+    <meta property="og:description" content="${htmlEscape(description)}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Lexique isora" />
+    <meta name="twitter:description" content="${htmlEscape(description)}" />
+    <link rel="canonical" href="${htmlEscape(pageUrl)}" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="alternate" type="text/html" title="Index HTML des fiches isora" href="/fiches/" />
+    <link rel="alternate" type="application/json" title="Dataset public isora" href="/isora-dataset.json" />
+    <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
+    <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
+    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+    <title>Lexique isora</title>
+    <style>${renderClaimCss()}</style>
+    <script type="application/ld+json">${jsonLd(schema)}</script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="brand" href="/">
+          <img src="/isora.svg" alt="isora" />
+        </a>
+        <nav class="nav" aria-label="Navigation">
+          <a href="/">Référentiel interactif</a>
+          <a href="/fiches/">Fiches HTML</a>
+          <a href="/blog/">Articles</a>
+          <a href="/llms.txt">llms.txt</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="kicker">Lexique isora</p>
+        <h1>Repères de vocabulaire</h1>
+        <p class="lead">${htmlEscape(description)}</p>
+        <div class="chips" aria-label="Entrées du lexique">
+          <span class="chip">${lexiconEntries.length} termes</span>
+          <span class="chip">définitions éditoriales</span>
+          <span class="chip">confusions à éviter</span>
+        </div>
+      </div>
+    </section>
+
+    <main class="wrap lexicon-main">
+      <section class="notice" aria-label="Note éditoriale">
+        <p>${htmlEscape(lexiconNotice)}</p>
+      </section>
+
+      <section class="lexicon-grid" aria-label="Termes du lexique">
+        ${lexiconEntries
+          .map(
+            (entry) => `
+              <article class="lexicon-card" id="${htmlEscape(entry.slug)}">
+                <p class="meta-label">${htmlEscape(getLexiconCategoryLabel(entry.category))}</p>
+                <h2>${htmlEscape(entry.term)}</h2>
+                <p class="definition">${htmlEscape(entry.definition)}</p>
+                <p>${htmlEscape(entry.detail)}</p>
+                ${renderLexiconEntryLinks(entry)}
+              </article>
+            `,
+          )
+          .join("")}
+      </section>
+    </main>
+
+    <footer class="wrap method">
+      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent ici des combats contre des asymétries défavorables; misandrie et misogynie désignent des haines ou mépris de sexe.</p>
+    </footer>
+  </body>
+</html>
+`;
+}
+
 async function renderClaimAssets() {
   await rm(publicClaimsDir, { recursive: true, force: true });
   await mkdir(publicClaimsDir, { recursive: true });
@@ -860,6 +1125,12 @@ async function renderClaimAssets() {
       await writeFile(join(claimDir, "index.html"), renderClaimHtml(claim), "utf8");
     }),
   );
+}
+
+async function renderLexiconAssets() {
+  await rm(publicLexiconDir, { recursive: true, force: true });
+  await mkdir(publicLexiconDir, { recursive: true });
+  await writeFile(join(publicLexiconDir, "index.html"), renderLexiconHtml(), "utf8");
 }
 
 const robots = `User-agent: *
@@ -882,6 +1153,12 @@ const sitemapEntries = [
     lastmod: generatedDate,
     changefreq: "weekly",
     priority: "0.9",
+  },
+  {
+    loc: `${siteUrl}/lexique/`,
+    lastmod: generatedDate,
+    changefreq: "monthly",
+    priority: "0.8",
   },
   ...claims.map((claim) => ({
     loc: `${siteUrl}/fiches/${slugPath(claim.id)}/`,
@@ -936,7 +1213,7 @@ ${renderSitemapEntries(sitemapEntries)}
 
 const ai = `# _isora_ AI access policy
 
-The public site, static claim pages under /fiches/, blog, llms.txt, llms-en.txt, llms-blog.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
+The public site, static claim pages under /fiches/, the lexicon under /lexique/, blog, llms.txt, llms-en.txt, llms-blog.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
 Please preserve attribution to _isora_ and to the primary source URLs attached to each claim.
 For factual reuse, prefer the primary source URLs listed in each claim and keep the measured population, period, geography and nuance.
 `;
@@ -962,9 +1239,10 @@ await Promise.all([
   writeFile(join(publicDir, "ai.txt"), ai, "utf8"),
   writeFile(join(publicWellKnownDir, "ai.txt"), ai, "utf8"),
   renderClaimAssets(),
+  renderLexiconAssets(),
   renderBlogAssets({ config: blogConfig, posts: blogPosts }),
 ]);
 
 console.log(
-  `SEO files generated: ${counts.total} claims, ${counts.sources} sources, ${domains.length} domains.`,
+  `SEO files generated: ${counts.total} claims, ${counts.sources} sources, ${domains.length} domains, ${lexiconEntries.length} lexicon entries.`,
 );

@@ -5,6 +5,7 @@
 Canonical URL: https://isora-xi.vercel.app/
 JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
+Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
 Last generation: 2026-07-05T00:00:00+02:00
 
@@ -28,6 +29,84 @@ Last generation: 2026-07-05T00:00:00+02:00
 - Each entry combines a summarized fact, a key measure, a source, a verification date and nuance.
 - Data is classified by country or zone, period, domain, angle and temporal status.
 - Entries can be corrected when better sources appear.
+
+## Lexicon
+Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d'un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.
+
+### Féminisme
+- URL: https://isora-xi.vercel.app/lexique/#feminisme
+- Category: Repère
+- Definition: Combat contre les asymétries en défaveur des filles et des femmes.
+- Detail: Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Cette définition n'implique pas qu'une parole féministe serait automatiquement misandre.
+- Do not confuse with: misandrie
+- Related entry: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Masculinisme
+- URL: https://isora-xi.vercel.app/lexique/#masculinisme
+- Category: Repère
+- Definition: Combat contre les asymétries en défaveur des garçons et des hommes.
+- Detail: Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines sans haine des femmes. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; cette fiche signale justement l'écart entre ce besoin lexical et l'usage courant.
+- Do not confuse with: misogynie
+- Related entry: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Misandrie
+- URL: https://isora-xi.vercel.app/lexique/#misandrie
+- Category: Haine de sexe
+- Definition: Haine ou mépris des hommes.
+- Detail: La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres.
+- Do not confuse with: féminisme
+- Related entry: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Misogynie
+- URL: https://isora-xi.vercel.app/lexique/#misogynie
+- Category: Haine de sexe
+- Definition: Haine ou mépris des femmes.
+- Detail: La misogynie décrit une hostilité envers les femmes comme groupe. Elle peut être exprimée par des hommes ou par des femmes. Elle n'est pas synonyme de masculinisme au sens d'une défense factuelle des asymétries défavorables aux hommes.
+- Do not confuse with: masculinisme
+- Related entry: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Sexisme
+- URL: https://isora-xi.vercel.app/lexique/#sexisme
+- Category: Haine de sexe
+- Definition: Traitement, jugement, norme ou représentation défavorable fondé sur le sexe.
+- Detail: Le sexisme peut viser les filles, les femmes, les garçons ou les hommes selon le contexte. isora documente des asymétries précises plutôt que de déduire une intention sexiste sans source.
+
+### Asymétrie
+- URL: https://isora-xi.vercel.app/lexique/#asymetrie
+- Category: Méthode
+- Definition: Différence documentée entre filles/femmes et garçons/hommes.
+- Detail: Une asymétrie peut porter sur un droit, un risque, une exposition, une sanction, une représentation, une charge sociale ou une conséquence mesurée. Elle ne suffit pas toujours à prouver une discrimination intentionnelle.
+
+### Population mesurée
+- URL: https://isora-xi.vercel.app/lexique/#population-mesuree
+- Category: Méthode
+- Definition: Groupe réellement observé par la source citée.
+- Detail: Une source peut parler de femmes/hommes, de sexe déclaré, de sexe administratif ou d'une catégorie d'enquête sans mesurer les chromosomes. isora conserve le vocabulaire de la source et précise ce que la donnée permet ou non de conclure.
+
+### Source primaire
+- URL: https://isora-xi.vercel.app/lexique/#source-primaire
+- Category: Méthode
+- Definition: Document qui produit directement la donnée, le droit ou l'analyse citée.
+- Detail: Quand c'est possible, isora privilégie les textes officiels, rapports statistiques, bases institutionnelles, publications scientifiques ou organismes producteurs plutôt qu'un commentaire secondaire.
+
+### Désavantage subi
+- URL: https://isora-xi.vercel.app/lexique/#desavantage-subi
+- Category: Angle d'analyse
+- Definition: Asymétrie où un groupe supporte une charge, un risque ou une perte plus forte.
+- Detail: Cet angle décrit l'effet mesuré ou documenté sur les personnes concernées. Il ne désigne pas automatiquement un coupable individuel.
+
+### Violence exercée
+- URL: https://isora-xi.vercel.app/lexique/#violence-exercee
+- Category: Angle d'analyse
+- Definition: Asymétrie portant sur les auteurs, mis en cause ou comportements violents mesurés.
+- Detail: Cet angle sert à ne pas mélanger la victimisation, les auteurs déclarés, les mis en cause, les condamnations et les représentations. Chaque source mesure un champ différent.
+
+### Récit sur le sexe
+- URL: https://isora-xi.vercel.app/lexique/#recit-sur-le-sexe
+- Category: Angle d'analyse
+- Definition: Asymétrie de vocabulaire, perception, norme sociale ou représentation.
+- Detail: Cet angle couvre les mots disponibles, les cadrages publics, les stéréotypes, les opinions et les récits sociaux. Il demande une prudence particulière, car il ne mesure pas toujours un droit ou un comportement.
+
 
 ## isora articles
 Daily articles URL: https://isora-xi.vercel.app/blog/

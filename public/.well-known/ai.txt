@@ -1,5 +1,5 @@
 # _isora_ AI access policy
 
-The public site, static claim pages under /fiches/, blog, llms.txt, llms-en.txt, llms-blog.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
+The public site, static claim pages under /fiches/, the lexicon under /lexique/, blog, llms.txt, llms-en.txt, llms-blog.txt, isora-dataset.json and isora-dataset-en.json are intended to be readable by search engines and AI agents.
 Please preserve attribution to _isora_ and to the primary source URLs attached to each claim.
 For factual reuse, prefer the primary source URLs listed in each claim and keep the measured population, period, geography and nuance.

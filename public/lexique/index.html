@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="description" content="Lexique isora pour distinguer féminisme, masculinisme, misandrie, misogynie, asymétrie documentée et champ réellement mesuré par les sources." />
+    <meta property="og:site_name" content="isora" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:url" content="https://isora-xi.vercel.app/lexique/" />
+    <meta property="og:title" content="Lexique isora" />
+    <meta property="og:description" content="Lexique isora pour distinguer féminisme, masculinisme, misandrie, misogynie, asymétrie documentée et champ réellement mesuré par les sources." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Lexique isora" />
+    <meta name="twitter:description" content="Lexique isora pour distinguer féminisme, masculinisme, misandrie, misogynie, asymétrie documentée et champ réellement mesuré par les sources." />
+    <link rel="canonical" href="https://isora-xi.vercel.app/lexique/" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="alternate" type="text/html" title="Index HTML des fiches isora" href="/fiches/" />
+    <link rel="alternate" type="application/json" title="Dataset public isora" href="/isora-dataset.json" />
+    <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
+    <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
+    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+    <title>Lexique isora</title>
+    <style>
+    :root {
+      color-scheme: light;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f4f4f0;
+      color: #171717;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f4f0; color: #171717; }
+    a { color: #1455a3; text-underline-offset: 0.18em; }
+    .wrap { width: min(100% - 48px, 1120px); margin: 0 auto; }
+    .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
+    .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .brand img { width: 106px; height: auto; display: block; }
+    .nav { display: flex; flex-wrap: wrap; gap: 10px; font-weight: 800; }
+    .nav a { min-height: 40px; display: inline-flex; align-items: center; padding: 0 12px; }
+    .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
+    .hero-inner { padding: 54px 0 46px; }
+    .kicker { margin: 0 0 14px; color: #13519c; font-weight: 900; }
+    h1 { margin: 0; max-width: 860px; font-size: clamp(2rem, 4.8vw, 3.8rem); line-height: 1.08; letter-spacing: 0; }
+    .lead { max-width: 820px; margin: 22px 0 0; font-size: 1.13rem; line-height: 1.72; color: #3f3f3f; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+    .chip { display: inline-flex; min-height: 32px; align-items: center; background: #fff; border: 1px solid #d8d8d0; padding: 5px 10px; font-size: 0.88rem; font-weight: 850; color: #333; }
+    main { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 28px; align-items: start; padding: 34px 0 64px; }
+    .section, .sidebox, .claim-card { background: #fff; border: 1px solid #d8d8d0; padding: 24px; }
+    .section { margin-bottom: 18px; }
+    .section h2, .sidebox h2 { margin: 0 0 12px; font-size: 1.22rem; line-height: 1.25; }
+    .section p, .sidebox p { margin: 0; color: #3f3f3f; line-height: 1.72; }
+    .metric { margin: 0; font-size: 2.4rem; line-height: 1; font-weight: 900; color: #1455a3; }
+    .source-list, .claim-list { display: grid; gap: 12px; padding: 0; margin: 0; list-style: none; }
+    .source-list li, .claim-list li { min-width: 0; line-height: 1.48; }
+    .source-list a, .claim-list a { overflow-wrap: anywhere; font-weight: 850; }
+    .source-meta { display: block; color: #666; font-size: 0.88rem; margin-top: 3px; }
+    .update-box { background: #eff6ff; border: 1px solid #bfdbfe; border-left: 4px solid #1455a3; margin-bottom: 18px; padding: 18px; }
+    .update-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: #1455a3; font-size: 0.88rem; font-weight: 900; }
+    .update-date { color: #666; font-weight: 800; }
+    .update-box p { margin: 8px 0 0; color: #3f3f3f; line-height: 1.55; }
+    .update-box a { display: inline-block; margin-top: 8px; font-weight: 850; overflow-wrap: anywhere; }
+    aside { position: sticky; top: 18px; display: grid; gap: 14px; }
+    .index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding: 34px 0 64px; }
+    .claim-card { display: grid; gap: 10px; text-decoration: none; color: inherit; }
+    .claim-card:hover { border-color: #1455a3; }
+    .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
+    .claim-card p { margin: 0; color: #555; line-height: 1.58; }
+    .lexicon-main { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 34px 0 64px; }
+    .notice { background: #fff; border: 1px solid #d8d8d0; border-left: 4px solid #1455a3; padding: 22px; }
+    .notice p { margin: 0; color: #3f3f3f; line-height: 1.72; }
+    .lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .lexicon-card { background: #fff; border: 1px solid #d8d8d0; padding: 22px; scroll-margin-top: 22px; }
+    .lexicon-card h2 { margin: 4px 0 0; font-size: 1.45rem; line-height: 1.18; }
+    .lexicon-card p { color: #3f3f3f; line-height: 1.68; }
+    .lexicon-card .definition { margin: 18px 0 0; color: #171717; font-size: 1.08rem; font-weight: 900; line-height: 1.45; }
+    .meta-label { margin: 0; color: #1455a3; font-size: 0.78rem; font-weight: 900; text-transform: uppercase; }
+    .term-links { border-top: 1px solid #d8d8d0; display: grid; gap: 8px; margin-top: 18px; padding-top: 14px; }
+    .term-links p { margin: 0; font-size: 0.92rem; font-weight: 800; line-height: 1.42; }
+    .term-links a { font-size: 0.92rem; font-weight: 850; }
+    .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
+    @media (max-width: 860px) {
+      .wrap { width: min(100% - 24px, 1120px); }
+      .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      main, .index-grid, .lexicon-grid { grid-template-columns: 1fr; }
+      aside { position: static; }
+      .section, .sidebox, .claim-card, .lexicon-card, .notice { padding: 20px; }
+    }
+  </style>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://isora-xi.vercel.app/lexique/#webpage",
+      "url": "https://isora-xi.vercel.app/lexique/",
+      "name": "Lexique isora",
+      "description": "Lexique isora pour distinguer féminisme, masculinisme, misandrie, misogynie, asymétrie documentée et champ réellement mesuré par les sources.",
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+        "@id": "https://isora-xi.vercel.app/#website"
+      }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://isora-xi.vercel.app/lexique/#lexique",
+      "name": "Lexique isora",
+      "description": "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d'un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.",
+      "url": "https://isora-xi.vercel.app/lexique/",
+      "hasDefinedTerm": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#feminisme",
+          "name": "Féminisme",
+          "description": "Combat contre les asymétries en défaveur des filles et des femmes.",
+          "termCode": "feminisme",
+          "url": "https://isora-xi.vercel.app/lexique/#feminisme"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#masculinisme",
+          "name": "Masculinisme",
+          "description": "Combat contre les asymétries en défaveur des garçons et des hommes.",
+          "termCode": "masculinisme",
+          "url": "https://isora-xi.vercel.app/lexique/#masculinisme"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#misandrie",
+          "name": "Misandrie",
+          "description": "Haine ou mépris des hommes.",
+          "termCode": "misandrie",
+          "url": "https://isora-xi.vercel.app/lexique/#misandrie"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#misogynie",
+          "name": "Misogynie",
+          "description": "Haine ou mépris des femmes.",
+          "termCode": "misogynie",
+          "url": "https://isora-xi.vercel.app/lexique/#misogynie"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#sexisme",
+          "name": "Sexisme",
+          "description": "Traitement, jugement, norme ou représentation défavorable fondé sur le sexe.",
+          "termCode": "sexisme",
+          "url": "https://isora-xi.vercel.app/lexique/#sexisme"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#asymetrie",
+          "name": "Asymétrie",
+          "description": "Différence documentée entre filles/femmes et garçons/hommes.",
+          "termCode": "asymetrie",
+          "url": "https://isora-xi.vercel.app/lexique/#asymetrie"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#population-mesuree",
+          "name": "Population mesurée",
+          "description": "Groupe réellement observé par la source citée.",
+          "termCode": "population-mesuree",
+          "url": "https://isora-xi.vercel.app/lexique/#population-mesuree"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#source-primaire",
+          "name": "Source primaire",
+          "description": "Document qui produit directement la donnée, le droit ou l'analyse citée.",
+          "termCode": "source-primaire",
+          "url": "https://isora-xi.vercel.app/lexique/#source-primaire"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#desavantage-subi",
+          "name": "Désavantage subi",
+          "description": "Asymétrie où un groupe supporte une charge, un risque ou une perte plus forte.",
+          "termCode": "desavantage-subi",
+          "url": "https://isora-xi.vercel.app/lexique/#desavantage-subi"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#violence-exercee",
+          "name": "Violence exercée",
+          "description": "Asymétrie portant sur les auteurs, mis en cause ou comportements violents mesurés.",
+          "termCode": "violence-exercee",
+          "url": "https://isora-xi.vercel.app/lexique/#violence-exercee"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#recit-sur-le-sexe",
+          "name": "Récit sur le sexe",
+          "description": "Asymétrie de vocabulaire, perception, norme sociale ou représentation.",
+          "termCode": "recit-sur-le-sexe",
+          "url": "https://isora-xi.vercel.app/lexique/#recit-sur-le-sexe"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://isora-xi.vercel.app/lexique/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "isora",
+          "item": "https://isora-xi.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Lexique",
+          "item": "https://isora-xi.vercel.app/lexique/"
+        }
+      ]
+    }
+  ]
+}</script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="brand" href="/">
+          <img src="/isora.svg" alt="isora" />
+        </a>
+        <nav class="nav" aria-label="Navigation">
+          <a href="/">Référentiel interactif</a>
+          <a href="/fiches/">Fiches HTML</a>
+          <a href="/blog/">Articles</a>
+          <a href="/llms.txt">llms.txt</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="kicker">Lexique isora</p>
+        <h1>Repères de vocabulaire</h1>
+        <p class="lead">Lexique isora pour distinguer féminisme, masculinisme, misandrie, misogynie, asymétrie documentée et champ réellement mesuré par les sources.</p>
+        <div class="chips" aria-label="Entrées du lexique">
+          <span class="chip">11 termes</span>
+          <span class="chip">définitions éditoriales</span>
+          <span class="chip">confusions à éviter</span>
+        </div>
+      </div>
+    </section>
+
+    <main class="wrap lexicon-main">
+      <section class="notice" aria-label="Note éditoriale">
+        <p>Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d&#39;un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.</p>
+      </section>
+
+      <section class="lexicon-grid" aria-label="Termes du lexique">
+        
+              <article class="lexicon-card" id="feminisme">
+                <p class="meta-label">Repère</p>
+                <h2>Féminisme</h2>
+                <p class="definition">Combat contre les asymétries en défaveur des filles et des femmes.</p>
+                <p>Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Cette définition n&#39;implique pas qu&#39;une parole féministe serait automatiquement misandre.</p>
+                
+        <div class="term-links">
+          <p>À ne pas confondre : misandrie</p>
+          
+                <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+              
+        </div>
+  
+              </article>
+            
+              <article class="lexicon-card" id="masculinisme">
+                <p class="meta-label">Repère</p>
+                <h2>Masculinisme</h2>
+                <p class="definition">Combat contre les asymétries en défaveur des garçons et des hommes.</p>
+                <p>Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines sans haine des femmes. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; cette fiche signale justement l&#39;écart entre ce besoin lexical et l&#39;usage courant.</p>
+                
+        <div class="term-links">
+          <p>À ne pas confondre : misogynie</p>
+          
+                <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+              
+        </div>
+  
+              </article>
+            
+              <article class="lexicon-card" id="misandrie">
+                <p class="meta-label">Haine de sexe</p>
+                <h2>Misandrie</h2>
+                <p class="definition">Haine ou mépris des hommes.</p>
+                <p>La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n&#39;est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres.</p>
+                
+        <div class="term-links">
+          <p>À ne pas confondre : féminisme</p>
+          
+                <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+              
+        </div>
+  
+              </article>
+            
+              <article class="lexicon-card" id="misogynie">
+                <p class="meta-label">Haine de sexe</p>
+                <h2>Misogynie</h2>
+                <p class="definition">Haine ou mépris des femmes.</p>
+                <p>La misogynie décrit une hostilité envers les femmes comme groupe. Elle peut être exprimée par des hommes ou par des femmes. Elle n&#39;est pas synonyme de masculinisme au sens d&#39;une défense factuelle des asymétries défavorables aux hommes.</p>
+                
+        <div class="term-links">
+          <p>À ne pas confondre : masculinisme</p>
+          
+                <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+              
+        </div>
+  
+              </article>
+            
+              <article class="lexicon-card" id="sexisme">
+                <p class="meta-label">Haine de sexe</p>
+                <h2>Sexisme</h2>
+                <p class="definition">Traitement, jugement, norme ou représentation défavorable fondé sur le sexe.</p>
+                <p>Le sexisme peut viser les filles, les femmes, les garçons ou les hommes selon le contexte. isora documente des asymétries précises plutôt que de déduire une intention sexiste sans source.</p>
+                
+              </article>
+            
+              <article class="lexicon-card" id="asymetrie">
+                <p class="meta-label">Méthode</p>
+                <h2>Asymétrie</h2>
+                <p class="definition">Différence documentée entre filles/femmes et garçons/hommes.</p>
+                <p>Une asymétrie peut porter sur un droit, un risque, une exposition, une sanction, une représentation, une charge sociale ou une conséquence mesurée. Elle ne suffit pas toujours à prouver une discrimination intentionnelle.</p>
+                
+              </article>
+            
+              <article class="lexicon-card" id="population-mesuree">
+                <p class="meta-label">Méthode</p>
+                <h2>Population mesurée</h2>
+                <p class="definition">Groupe réellement observé par la source citée.</p>
+                <p>Une source peut parler de femmes/hommes, de sexe déclaré, de sexe administratif ou d&#39;une catégorie d&#39;enquête sans mesurer les chromosomes. isora conserve le vocabulaire de la source et précise ce que la donnée permet ou non de conclure.</p>
+                
+              </article>
+            
+              <article class="lexicon-card" id="source-primaire">
+                <p class="meta-label">Méthode</p>
+                <h2>Source primaire</h2>
+                <p class="definition">Document qui produit directement la donnée, le droit ou l&#39;analyse citée.</p>
+                <p>Quand c&#39;est possible, isora privilégie les textes officiels, rapports statistiques, bases institutionnelles, publications scientifiques ou organismes producteurs plutôt qu&#39;un commentaire secondaire.</p>
+                
+              </article>
+            
+              <article class="lexicon-card" id="desavantage-subi">
+                <p class="meta-label">Angle d&#39;analyse</p>
+                <h2>Désavantage subi</h2>
+                <p class="definition">Asymétrie où un groupe supporte une charge, un risque ou une perte plus forte.</p>
+                <p>Cet angle décrit l&#39;effet mesuré ou documenté sur les personnes concernées. Il ne désigne pas automatiquement un coupable individuel.</p>
+                
+              </article>
+            
+              <article class="lexicon-card" id="violence-exercee">
+                <p class="meta-label">Angle d&#39;analyse</p>
+                <h2>Violence exercée</h2>
+                <p class="definition">Asymétrie portant sur les auteurs, mis en cause ou comportements violents mesurés.</p>
+                <p>Cet angle sert à ne pas mélanger la victimisation, les auteurs déclarés, les mis en cause, les condamnations et les représentations. Chaque source mesure un champ différent.</p>
+                
+              </article>
+            
+              <article class="lexicon-card" id="recit-sur-le-sexe">
+                <p class="meta-label">Angle d&#39;analyse</p>
+                <h2>Récit sur le sexe</h2>
+                <p class="definition">Asymétrie de vocabulaire, perception, norme sociale ou représentation.</p>
+                <p>Cet angle couvre les mots disponibles, les cadrages publics, les stéréotypes, les opinions et les récits sociaux. Il demande une prudence particulière, car il ne mesure pas toujours un droit ou un comportement.</p>
+                
+              </article>
+            
+      </section>
+    </main>
+
+    <footer class="wrap method">
+      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent ici des combats contre des asymétries défavorables; misandrie et misogynie désignent des haines ou mépris de sexe.</p>
+    </footer>
+  </body>
+</html>

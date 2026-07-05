@@ -69,13 +69,25 @@
     .claim-card:hover { border-color: #1455a3; }
     .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
     .claim-card p { margin: 0; color: #555; line-height: 1.58; }
+    .lexicon-main { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 34px 0 64px; }
+    .notice { background: #fff; border: 1px solid #d8d8d0; border-left: 4px solid #1455a3; padding: 22px; }
+    .notice p { margin: 0; color: #3f3f3f; line-height: 1.72; }
+    .lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .lexicon-card { background: #fff; border: 1px solid #d8d8d0; padding: 22px; scroll-margin-top: 22px; }
+    .lexicon-card h2 { margin: 4px 0 0; font-size: 1.45rem; line-height: 1.18; }
+    .lexicon-card p { color: #3f3f3f; line-height: 1.68; }
+    .lexicon-card .definition { margin: 18px 0 0; color: #171717; font-size: 1.08rem; font-weight: 900; line-height: 1.45; }
+    .meta-label { margin: 0; color: #1455a3; font-size: 0.78rem; font-weight: 900; text-transform: uppercase; }
+    .term-links { border-top: 1px solid #d8d8d0; display: grid; gap: 8px; margin-top: 18px; padding-top: 14px; }
+    .term-links p { margin: 0; font-size: 0.92rem; font-weight: 800; line-height: 1.42; }
+    .term-links a { font-size: 0.92rem; font-weight: 850; }
     .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
     @media (max-width: 860px) {
       .wrap { width: min(100% - 24px, 1120px); }
       .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
-      main, .index-grid { grid-template-columns: 1fr; }
+      main, .index-grid, .lexicon-grid { grid-template-columns: 1fr; }
       aside { position: static; }
-      .section, .sidebox, .claim-card { padding: 20px; }
+      .section, .sidebox, .claim-card, .lexicon-card, .notice { padding: 20px; }
     }
   </style>
     <script type="application/ld+json">{
@@ -217,6 +229,7 @@
         <nav class="nav" aria-label="Navigation">
           <a href="/">Référentiel interactif</a>
           <a href="/fiches/">Fiches HTML</a>
+          <a href="/lexique/">Lexique</a>
           <a href="/blog/">Articles</a>
           <a href="/llms.txt">llms.txt</a>
         </nav>

@@ -12,6 +12,7 @@ Isora publie des fichiers lisibles par les moteurs de recherche, crawlers et age
 - `/blog/llms-blog.txt` : guide agent dedie au blog.
 - `/fiches/` : index HTML statique de toutes les fiches, lisible sans JavaScript.
 - `/fiches/<id>/` : page HTML statique canonique d'une fiche, avec sources et JSON-LD.
+- `/lexique/` : lexique HTML statique des reperes editoriaux et confusions a eviter.
 - `/isora-dataset.json` : dataset JSON francais.
 - `/isora-dataset-en.json` : dataset JSON anglais.
 - `/ai.txt` : politique courte d'acces IA.
@@ -78,7 +79,7 @@ La configuration editoriale est dans :
 - `content/blog/posts/` : memoire des articles publies, un JSON par article.
 - Automatisation Codex app `Veille quotidienne Isora` : voie normale, sans cle API, lancee tous les jours vers 20:30.
 - `scripts/blog-utils.mjs` : rend les pages HTML statiques, RSS, JSON, `llms-blog.txt` et les entrees sitemap.
-- `scripts/generate-seo.mjs` : genere aussi les pages statiques `/fiches/` et `/fiches/<id>/`, le sitemap, `llms.txt`, `llms-en.txt`, `ai.txt`, `/.well-known/ai.txt` et les datasets publics.
+- `scripts/generate-seo.mjs` : genere aussi les pages statiques `/fiches/`, `/fiches/<id>/` et `/lexique/`, le sitemap, `llms.txt`, `llms-en.txt`, `ai.txt`, `/.well-known/ai.txt` et les datasets publics.
 - `scripts/generate-daily-blog.mjs` : voie optionnelle par API OpenAI, utile seulement si une cle API est ajoutee plus tard.
 
 Commandes utiles :

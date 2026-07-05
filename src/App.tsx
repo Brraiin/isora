@@ -41,6 +41,7 @@ import {
   type Source,
   type StatutTemporel,
 } from "./data/claims";
+import { lexiconEntries, lexiconNotice } from "./data/lexicon";
 import { manualClaimUpdates } from "./data/manual-claim-updates";
 
 const homeBlogUpdates = [...manualClaimUpdates, ...generatedBlogUpdates] as const satisfies readonly HomeBlogUpdate[];
@@ -240,6 +241,13 @@ const uiText: Record<Locale, Record<string, string>> = {
     searchPlaceholder: "Rechercher une fiche, un pays, une source...",
     searchLabel: "Recherche",
     blog: "Articles",
+    lexicon: "Lexique",
+    lexiconTitle: "Lexique isora",
+    lexiconBody:
+      "Repères de vocabulaire pour distinguer une asymétrie documentée, un combat centré sur un sexe, une haine de sexe et le champ réellement mesuré par les sources.",
+    lexiconNotice,
+    lexiconDoNotConfuse: "À ne pas confondre",
+    lexiconRelatedClaim: "Fiche liée",
     weeklyWatch: "Veille quotidienne",
     cookieSettings: "Gérer les cookies",
     cookieFooter:
@@ -307,6 +315,13 @@ const uiText: Record<Locale, Record<string, string>> = {
     searchPlaceholder: "Search an entry, country, source...",
     searchLabel: "Search",
     blog: "Articles",
+    lexicon: "Lexicon",
+    lexiconTitle: "isora lexicon",
+    lexiconBody:
+      "Vocabulary markers to distinguish a documented asymmetry, advocacy centred on one sex, hatred toward a sex, and the population actually measured by sources.",
+    lexiconNotice,
+    lexiconDoNotConfuse: "Do not confuse with",
+    lexiconRelatedClaim: "Related entry",
     weeklyWatch: "Daily watch",
     cookieSettings: "Manage cookies",
     cookieFooter: "isora uses necessary trackers and, only with your agreement, internal audience measurement.",
@@ -883,6 +898,12 @@ const primaryAction =
 const field =
   "min-h-[42px] w-full border-0 border-b-2 border-blue-800 bg-neutral-200 px-2.5 text-neutral-900 outline-0";
 const homeBlogUpdateVisibilityMs = 7 * 24 * 60 * 60 * 1000;
+const lexiconCategoryLabels = {
+  repere: "Repère",
+  haine: "Haine de sexe",
+  methode: "Méthode",
+  angle: "Angle d'analyse",
+};
 
 function cn(...classes: Array<string | false | null | undefined>) {
   return classes.filter(Boolean).join(" ");
@@ -1099,6 +1120,10 @@ function getSharedClaimIdFromLocation() {
   } catch {
     return getClaimIdFromPath();
   }
+}
+
+function isLexiconPath() {
+  return window.location.pathname.replace(/\/+$/, "") === "/lexique";
 }
 
 function HighlightedSummary({ text }: { text: string }) {
@@ -1733,6 +1758,91 @@ function ContributionPreviewCard({
   );
 }
 
+function LexiconPage({ text }: { text: Record<string, string> }) {
+  return (
+    <>
+      <section className="border-b border-neutral-300 bg-emerald-50">
+        <div className={cn(pageWidth, "py-14 max-[760px]:py-10")}>
+          <div className="max-w-[840px]">
+            <p className={cn(icon18, "m-0 inline-flex items-center gap-2 text-base font-extrabold leading-normal text-blue-800")}>
+              <Tags aria-hidden="true" />
+              {text.lexicon}
+            </p>
+            <h1 className="mt-3.5 max-w-[760px] text-[3.15rem] font-extrabold leading-[1.1] tracking-normal text-neutral-900 max-[760px]:text-[2.2rem]">
+              {text.lexiconTitle}
+            </h1>
+            <p className="mt-[22px] max-w-[760px] text-[1.08rem] leading-[1.65] text-neutral-700">
+              <BrandText text={text.lexiconBody} />
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className={cn(pageWidth, "grid gap-5 py-8 pb-14")}>
+        <div className="border-l-4 border-l-blue-800 bg-white p-5 ring-1 ring-inset ring-neutral-300">
+          <p className="m-0 leading-[1.68] text-neutral-700">
+            <BrandText text={text.lexiconNotice} />
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 items-start gap-4 max-[860px]:grid-cols-1">
+          {lexiconEntries.map((entry) => {
+            const relatedClaims =
+              entry.relatedClaimIds
+                ?.map((claimId) => claims.find((claim) => claim.id === claimId))
+                .filter((claim): claim is Claim => Boolean(claim)) ?? [];
+
+            return (
+              <article className={cn(panel, "grid gap-4 p-5")} id={entry.slug} key={entry.slug}>
+                <div className="flex flex-wrap items-start justify-between gap-3">
+                  <div>
+                    <p className="m-0 text-xs font-extrabold uppercase leading-tight tracking-normal text-blue-800">
+                      {lexiconCategoryLabels[entry.category]}
+                    </p>
+                    <h2 className="mt-1 text-[1.45rem] font-extrabold leading-tight text-neutral-900">
+                      {entry.term}
+                    </h2>
+                  </div>
+                  <a
+                    className={cn(icon18, "inline-flex min-h-9 items-center gap-1.5 bg-neutral-200 px-2.5 text-sm font-bold text-blue-800 hover:bg-blue-100")}
+                    href={`#${entry.slug}`}
+                    aria-label={`Lien direct vers ${entry.term}`}
+                  >
+                    <Link aria-hidden="true" />
+                  </a>
+                </div>
+
+                <p className="m-0 text-lg font-extrabold leading-snug text-neutral-900">{entry.definition}</p>
+                <p className="m-0 leading-[1.68] text-neutral-700">{entry.detail}</p>
+
+                {(entry.doNotConfuseWith?.length || relatedClaims.length) && (
+                  <div className="grid gap-2 border-t border-neutral-300 pt-3">
+                    {entry.doNotConfuseWith?.length ? (
+                      <p className="m-0 text-sm font-bold leading-snug text-neutral-700">
+                        {text.lexiconDoNotConfuse} :{" "}
+                        <span className="text-neutral-900">{entry.doNotConfuseWith.join(", ")}</span>
+                      </p>
+                    ) : null}
+                    {relatedClaims.map((claim) => (
+                      <a
+                        className="text-sm font-bold leading-snug text-blue-800 underline decoration-1 underline-offset-[3px]"
+                        href={`/fiches/${encodeURIComponent(claim.id)}/`}
+                        key={claim.id}
+                      >
+                        {text.lexiconRelatedClaim} : {claim.title}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    </>
+  );
+}
+
 function HomeBlogUpdatesPanel({
   stats,
   locale,
@@ -1834,6 +1944,7 @@ function App() {
   const [contestSubmitted, setContestSubmitted] = useState(false);
   const [contestError, setContestError] = useState(false);
   const [isRequestsView] = useState(() => isContributionAdminView());
+  const [isLexiconView] = useState(() => isLexiconPath());
   const [adminAuthStatus, setAdminAuthStatus] = useState<AdminAuthStatus>(() =>
     isContributionAdminView() ? "checking" : "unauthenticated",
   );
@@ -1888,6 +1999,17 @@ function App() {
     document.documentElement.lang = locale === "en" ? "en" : "fr";
     window.localStorage.setItem("isora:locale", locale);
   }, [locale]);
+
+  useEffect(() => {
+    if (!isLexiconView || isRequestsView) return undefined;
+
+    const previousTitle = document.title;
+    document.title = text.lexiconTitle;
+
+    return () => {
+      document.title = previousTitle;
+    };
+  }, [isLexiconView, isRequestsView, text.lexiconTitle]);
 
   useEffect(() => {
     function syncCookieConsent(event?: Event) {
@@ -2778,6 +2900,13 @@ function App() {
             </a>
             <a
               className={cn(icon18, "inline-flex min-h-10 items-center gap-2 px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50")}
+              href="/lexique/"
+            >
+              <Tags aria-hidden="true" />
+              {text.lexicon}
+            </a>
+            <a
+              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50")}
               href="/blog/"
             >
               <FileText aria-hidden="true" />
@@ -2836,6 +2965,8 @@ function App() {
               />
             </div>
           </section>
+        ) : isLexiconView ? (
+          <LexiconPage text={text} />
         ) : (
           <>
         <section className="border-b border-neutral-300 bg-emerald-50">
