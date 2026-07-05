@@ -1009,8 +1009,7 @@ function renderLexiconEntryHtml(entry) {
 
 function renderLexiconHtml() {
   const pageUrl = `${siteUrl}/lexique/`;
-  const description =
-    "Lexique isora pour distinguer féminisme, masculinisme, misandrie, misogynie, asymétrie documentée et champ réellement mesuré par les sources.";
+  const description = "Repères de vocabulaire isora.";
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -1102,7 +1101,6 @@ function renderLexiconHtml() {
       <div class="wrap hero-inner">
         <p class="kicker">Lexique isora</p>
         <h1>Repères de vocabulaire</h1>
-        <p class="lead">${htmlEscape(description)}</p>
         <div class="chips" aria-label="Entrées du lexique">
           <span class="chip">${lexiconEntries.length} termes</span>
           <span class="chip">définitions éditoriales</span>

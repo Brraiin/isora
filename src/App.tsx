@@ -242,8 +242,6 @@ const uiText: Record<Locale, Record<string, string>> = {
     blog: "Articles",
     lexicon: "Lexique",
     lexiconTitle: "Lexique isora",
-    lexiconBody:
-      "Repères de vocabulaire pour distinguer une asymétrie documentée, un combat centré sur un sexe, une haine de sexe et le champ réellement mesuré par les sources.",
     lexiconNotice,
     lexiconDoNotConfuse: "À ne pas confondre",
     lexiconRelatedClaim: "Fiche liée",
@@ -315,8 +313,6 @@ const uiText: Record<Locale, Record<string, string>> = {
     blog: "Articles",
     lexicon: "Lexicon",
     lexiconTitle: "isora lexicon",
-    lexiconBody:
-      "Vocabulary markers to distinguish a documented asymmetry, advocacy centred on one sex, hatred toward a sex, and the population actually measured by sources.",
     lexiconNotice,
     lexiconDoNotConfuse: "Do not confuse with",
     lexiconRelatedClaim: "Related entry",
@@ -1769,9 +1765,6 @@ function LexiconPage({ text }: { text: Record<string, string> }) {
             <h1 className="mt-3.5 max-w-[760px] text-[3.15rem] font-extrabold leading-[1.1] tracking-normal text-neutral-900 max-[760px]:text-[2.2rem]">
               {text.lexiconTitle}
             </h1>
-            <p className="mt-[22px] max-w-[760px] text-[1.08rem] leading-[1.65] text-neutral-700">
-              <BrandText text={text.lexiconBody} />
-            </p>
           </div>
         </div>
       </section>
