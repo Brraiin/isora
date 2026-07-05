@@ -292,8 +292,8 @@ function renderCss() {
     a { color: var(--blue); text-underline-offset: 0.18em; }
     ${renderStaticHeaderCss()}
     .hero { background: var(--surface); border-bottom: 1px solid var(--line); }
-    .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 30px; align-items: end; padding: 58px 0 46px; }
-    .hero-inner-simple { display: block; padding: 56px 0 42px; }
+    .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 30px; align-items: end; padding: 56px 0 46px; }
+    .hero-inner-simple { display: block; padding: 56px 0 46px; }
     .hero-copy { min-width: 0; }
     .hero-panel { display: grid; gap: 14px; align-self: stretch; background: var(--surface-soft); border: 1px solid var(--line); padding: 20px; }
     .hero-panel strong { font-size: 1.08rem; line-height: 1.35; }
