@@ -716,6 +716,7 @@ ${renderFaviconLinks()}
     </footer>
     <script src="/isora-cookie-consent.js" defer></script>
     <script src="/isora-analytics.js" defer></script>
+    <script src="/isora-soft-navigation.js" defer></script>
   </body>
 </html>
 `;
@@ -893,6 +894,7 @@ ${renderFaviconLinks()}
         input.addEventListener("input", update);
       })();
     </script>
+    <script src="/isora-soft-navigation.js" defer></script>
   </body>
 </html>
 `;

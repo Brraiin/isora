@@ -832,6 +832,7 @@ ${renderFaviconLinks()}
     <footer class="wrap method">
       <p><em>isora</em> est un référentiel de synthèse. Pour une affirmation factuelle forte, consulter les sources citées et conserver la population mesurée, la période et les limites d'interprétation.</p>
     </footer>
+    <script src="/isora-soft-navigation.js" defer></script>
   </body>
 </html>
 `;
@@ -921,6 +922,7 @@ ${renderFaviconLinks()}
         )
         .join("")}
     </main>
+    <script src="/isora-soft-navigation.js" defer></script>
   </body>
 </html>
 `;
@@ -1080,6 +1082,7 @@ ${lexiconEntries.map(renderLexiconEntryHtml).join("\n")}
     <footer class="wrap method">
       <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent ici des combats contre des asymétries défavorables; misandrie et misogynie désignent des haines ou mépris de sexe.</p>
     </footer>
+    <script src="/isora-soft-navigation.js" defer></script>
   </body>
 </html>
 `;

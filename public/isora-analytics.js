@@ -1,10 +1,22 @@
 (function () {
+  if (window.__isoraAnalyticsLoaded) {
+    window.dispatchEvent(new Event("isora:analytics-check"));
+    return;
+  }
+
+  window.__isoraAnalyticsLoaded = true;
+
   var localEventsKey = "isora:analytics-local-events";
   var consentStorageKey = "isora:cookie-consent-v1";
-  var path = window.location.pathname || "/";
+  var trackedArticlePaths = window.__isoraTrackedArticlePaths || (window.__isoraTrackedArticlePaths = {});
 
-  if (!path.startsWith("/blog/") || path === "/blog/") return;
-  if (window.__isoraBlogArticleTracked) return;
+  function getPath() {
+    return window.location.pathname || "/";
+  }
+
+  function isArticlePath(path) {
+    return path.startsWith("/blog/") && path !== "/blog/";
+  }
 
   function hasAnalyticsConsent() {
     if (window.IsoraCookieConsent) {
@@ -58,13 +70,16 @@
   }
 
   function trackArticleView() {
-    if (window.__isoraBlogArticleTracked || !hasAnalyticsConsent()) return;
+    var path = getPath();
+    var normalizedPath = normalizePath(path);
 
-    window.__isoraBlogArticleTracked = true;
+    if (!isArticlePath(path) || trackedArticlePaths[normalizedPath] || !hasAnalyticsConsent()) return;
+
+    trackedArticlePaths[normalizedPath] = true;
     sendEvent({
       type: "page_view",
       pageType: "article",
-      path: normalizePath(path),
+      path: normalizedPath,
       title: document.title.replace(/^isora\s+-\s+/i, "").replace(/\s+-\s+isora\s*$/i, "").trim(),
       at: new Date().toISOString(),
     });
@@ -72,4 +87,6 @@
 
   trackArticleView();
   window.addEventListener("isora:cookie-consent", trackArticleView);
+  window.addEventListener("isora:soft-navigation", trackArticleView);
+  window.addEventListener("isora:analytics-check", trackArticleView);
 })();

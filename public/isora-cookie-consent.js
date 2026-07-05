@@ -405,6 +405,14 @@
   };
 
   window.addEventListener("isora:open-cookie-preferences", openBanner);
+  window.addEventListener("isora:soft-navigation", function () {
+    currentConsent = readConsent();
+    exposeConsent(currentConsent);
+
+    if (!currentConsent) {
+      openBanner();
+    }
+  });
 
   if (currentConsent) {
     exposeConsent(currentConsent);
