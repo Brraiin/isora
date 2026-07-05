@@ -11,6 +11,7 @@ import {
   renderBlogSummaryForLlms,
   renderSitemapEntries,
 } from "./blog-utils.mjs";
+import { renderFaviconLinks } from "./favicon-links.mjs";
 import { renderStaticHeader, renderStaticHeaderCss } from "./static-header.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -760,7 +761,7 @@ function renderClaimHtml(claim) {
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
     <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
     <link rel="alternate" type="text/plain" title="Politique d'accès IA isora" href="/ai.txt" />
-    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+${renderFaviconLinks()}
     <title>${htmlEscape(claim.title)} - fiche isora</title>
     <style>${renderClaimCss()}</style>
     <script type="application/ld+json">${jsonLd(pageSchema)}</script>
@@ -880,7 +881,7 @@ function renderClaimIndexHtml() {
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
     <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
     <link rel="alternate" type="text/plain" title="Politique d'accès IA isora" href="/ai.txt" />
-    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+${renderFaviconLinks()}
     <title>Fiches isora - index HTML</title>
     <style>${renderClaimCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
@@ -1038,7 +1039,7 @@ function renderLexiconHtml() {
     <link rel="alternate" type="application/json" title="Dataset public isora" href="/isora-dataset.json" />
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
     <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
-    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+${renderFaviconLinks()}
     <title>Lexique isora</title>
     <style>${renderClaimCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>

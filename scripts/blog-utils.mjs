@@ -1,6 +1,7 @@
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { renderFaviconLinks } from "./favicon-links.mjs";
 import { renderStaticHeader, renderStaticHeaderCss } from "./static-header.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -603,7 +604,7 @@ function renderArticleHtml(post, config) {
     <link rel="alternate" type="application/json" title="Index JSON des articles isora" href="/blog/index.json" />
     <link rel="alternate" type="text/plain" title="Articles isora pour IA" href="/blog/llms-blog.txt" />
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
-    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+${renderFaviconLinks()}
     <title>${htmlEscape(title)} - isora</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(articleSchema)}</script>
@@ -783,7 +784,7 @@ function renderBlogIndex(posts, config, { pageNumber = 1, totalPages = 1 } = {})
     <link rel="alternate" type="application/json" title="Index JSON des articles isora" href="/blog/index.json" />
     <link rel="alternate" type="text/plain" title="Articles isora pour IA" href="/blog/llms-blog.txt" />
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
-    <link rel="icon" type="image/svg+xml" href="/isora.svg" />
+${renderFaviconLinks()}
     <title>${htmlEscape(pageTitle)}</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
