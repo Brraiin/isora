@@ -556,6 +556,10 @@ function jsonLd(value) {
   return JSON.stringify(value, null, 2).replaceAll("<", "\\u003c");
 }
 
+function renderPageTitle(title) {
+  return `isora - ${title}`;
+}
+
 function renderClaimCss() {
   return `
     :root {
@@ -658,6 +662,7 @@ function renderClaimHtml(claim) {
   const claimUrl = `${siteUrl}/fiches/${slugPath(claim.id)}/`;
   const appUrl = `${siteUrl}/#${encodeURIComponent(claim.id)}`;
   const description = truncateDescription(claim.summary);
+  const pageTitle = renderPageTitle(claim.title);
   const allSources = [claim.source, ...(claim.additionalSources ?? [])];
   const pageSchema = {
     "@context": "https://schema.org",
@@ -673,7 +678,7 @@ function renderClaimHtml(claim) {
         "@type": "WebPage",
         "@id": `${claimUrl}#webpage`,
         url: claimUrl,
-        name: `${claim.title} - fiche isora`,
+        name: pageTitle,
         description,
         inLanguage: "fr-FR",
         isPartOf: {
@@ -748,10 +753,10 @@ function renderClaimHtml(claim) {
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(claimUrl)}" />
-    <meta property="og:title" content="${htmlEscape(claim.title)} - isora" />
+    <meta property="og:title" content="${htmlEscape(pageTitle)}" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="${htmlEscape(claim.title)} - isora" />
+    <meta name="twitter:title" content="${htmlEscape(pageTitle)}" />
     <meta name="twitter:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(claimUrl)}" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
@@ -762,7 +767,7 @@ function renderClaimHtml(claim) {
     <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
     <link rel="alternate" type="text/plain" title="Politique d'accès IA isora" href="/ai.txt" />
 ${renderFaviconLinks()}
-    <title>${htmlEscape(claim.title)} - fiche isora</title>
+    <title>${htmlEscape(pageTitle)}</title>
     <style>${renderClaimCss()}</style>
     <script type="application/ld+json">${jsonLd(pageSchema)}</script>
   </head>
@@ -834,6 +839,7 @@ ${renderFaviconLinks()}
 function renderClaimIndexHtml() {
   const pageUrl = `${siteUrl}/fiches/`;
   const description = "Index HTML statique des fiches isora, lisible sans JavaScript par les moteurs de recherche, crawlers et agents IA.";
+  const pageTitle = renderPageTitle("fiches");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -841,7 +847,7 @@ function renderClaimIndexHtml() {
         "@type": "CollectionPage",
         "@id": `${pageUrl}#webpage`,
         url: pageUrl,
-        name: "Fiches isora",
+        name: pageTitle,
         description,
         inLanguage: "fr-FR",
         isPartOf: {
@@ -872,7 +878,7 @@ function renderClaimIndexHtml() {
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(pageUrl)}" />
-    <meta property="og:title" content="Fiches isora" />
+    <meta property="og:title" content="${htmlEscape(pageTitle)}" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(pageUrl)}" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
@@ -882,7 +888,7 @@ function renderClaimIndexHtml() {
     <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
     <link rel="alternate" type="text/plain" title="Politique d'accès IA isora" href="/ai.txt" />
 ${renderFaviconLinks()}
-    <title>Fiches isora - index HTML</title>
+    <title>${htmlEscape(pageTitle)}</title>
     <style>${renderClaimCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
   </head>
@@ -967,6 +973,7 @@ function renderLexiconEntryHtml(entry) {
 function renderLexiconHtml() {
   const pageUrl = `${siteUrl}/lexique/`;
   const description = "Repères de vocabulaire isora.";
+  const pageTitle = renderPageTitle("lexique");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -974,7 +981,7 @@ function renderLexiconHtml() {
         "@type": "WebPage",
         "@id": `${pageUrl}#webpage`,
         url: pageUrl,
-        name: "Lexique isora",
+        name: pageTitle,
         description,
         inLanguage: "fr-FR",
         isPartOf: {
@@ -984,7 +991,7 @@ function renderLexiconHtml() {
       {
         "@type": "DefinedTermSet",
         "@id": `${pageUrl}#lexique`,
-        name: "Lexique isora",
+        name: pageTitle,
         description: lexiconNotice,
         url: pageUrl,
         hasDefinedTerm: lexiconEntries.map((entry) => ({
@@ -1028,10 +1035,10 @@ function renderLexiconHtml() {
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(pageUrl)}" />
-    <meta property="og:title" content="Lexique isora" />
+    <meta property="og:title" content="${htmlEscape(pageTitle)}" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Lexique isora" />
+    <meta name="twitter:title" content="${htmlEscape(pageTitle)}" />
     <meta name="twitter:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(pageUrl)}" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
@@ -1040,7 +1047,7 @@ function renderLexiconHtml() {
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
     <link rel="alternate" type="text/plain" hreflang="en" title="isora for AI agents" href="/llms-en.txt" />
 ${renderFaviconLinks()}
-    <title>Lexique isora</title>
+    <title>${htmlEscape(pageTitle)}</title>
     <style>${renderClaimCss()}</style>
     <script type="application/ld+json">${jsonLd(schema)}</script>
   </head>

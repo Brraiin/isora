@@ -65,7 +65,7 @@
       type: "page_view",
       pageType: "article",
       path: normalizePath(path),
-      title: document.title.replace(/\s+-\s+isora\s*$/i, "").trim(),
+      title: document.title.replace(/^isora\s+-\s+/i, "").replace(/\s+-\s+isora\s*$/i, "").trim(),
       at: new Date().toISOString(),
     });
   }

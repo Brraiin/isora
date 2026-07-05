@@ -1995,12 +1995,12 @@ function App() {
     if (!isLexiconView || isRequestsView) return undefined;
 
     const previousTitle = document.title;
-    document.title = text.lexiconTitle;
+    document.title = locale === "en" ? "isora - lexicon" : "isora - lexique";
 
     return () => {
       document.title = previousTitle;
     };
-  }, [isLexiconView, isRequestsView, text.lexiconTitle]);
+  }, [isLexiconView, isRequestsView, locale]);
 
   useEffect(() => {
     function syncCookieConsent(event?: Event) {
@@ -2026,7 +2026,7 @@ function App() {
     if (!isRequestsView) return undefined;
 
     const previousTitle = document.title;
-    document.title = "Dashboard - isora";
+    document.title = "isora - dashboard";
 
     let robotsMeta = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
     const previousRobots = robotsMeta?.getAttribute("content") ?? null;

@@ -262,6 +262,10 @@ function jsonLd(value) {
   return JSON.stringify(value, null, 2).replaceAll("<", "\\u003c");
 }
 
+function renderPageTitle(title) {
+  return `isora - ${title}`;
+}
+
 function renderCss() {
   return `
     :root {
@@ -592,12 +596,12 @@ function renderArticleHtml(post, config) {
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:url" content="${htmlEscape(postUrl)}" />
-    <meta property="og:title" content="${htmlEscape(title)}" />
+    <meta property="og:title" content="${htmlEscape(renderPageTitle(title))}" />
     <meta property="og:description" content="${htmlEscape(description)}" />
     <meta property="article:published_time" content="${htmlEscape(post.publishedAt)}" />
     <meta property="article:modified_time" content="${htmlEscape(post.updatedAt)}" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="${htmlEscape(title)}" />
+    <meta name="twitter:title" content="${htmlEscape(renderPageTitle(title))}" />
     <meta name="twitter:description" content="${htmlEscape(description)}" />
     <link rel="canonical" href="${htmlEscape(postUrl)}" />
     <link rel="alternate" type="application/rss+xml" title="Articles isora" href="/blog/feed.xml" />
@@ -605,7 +609,7 @@ function renderArticleHtml(post, config) {
     <link rel="alternate" type="text/plain" title="Articles isora pour IA" href="/blog/llms-blog.txt" />
     <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
 ${renderFaviconLinks()}
-    <title>${htmlEscape(title)} - isora</title>
+    <title>${htmlEscape(renderPageTitle(title))}</title>
     <style>${renderCss()}</style>
     <script type="application/ld+json">${jsonLd(articleSchema)}</script>
   </head>
@@ -723,7 +727,7 @@ function renderBlogIndex(posts, config, { pageNumber = 1, totalPages = 1 } = {})
   const rootBlogUrl = getBlogUrl(config);
   const baseDescription = "Veille isora sur les nouveaux rapports et tendances concernant les asymétries documentées selon le sexe.";
   const description = pageNumber > 1 ? `${baseDescription} Page ${pageNumber}.` : baseDescription;
-  const pageTitle = pageNumber > 1 ? `Articles isora - Page ${pageNumber}` : "Articles isora - Veille";
+  const pageTitle = pageNumber > 1 ? renderPageTitle(`articles - page ${pageNumber}`) : renderPageTitle("articles");
   const heroDescription =
     pageNumber > 1
       ? `Archives de veille, page ${pageNumber}, sur les asymétries documentées selon le sexe.`
