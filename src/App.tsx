@@ -215,7 +215,7 @@ const periodFilterLabelsByLocale: Record<Locale, Record<StatutTemporel | "tous",
 
 const uiText: Record<Locale, Record<string, string>> = {
   fr: {
-    tagline: "Le référentiel des asymétries liées au sexe",
+    tagline: "Le référentiel des asymétries de sexe",
     mobileTagline: "Référentiel des asymétries de sexe",
     heroKicker: "Données sourcées, contexte lisible, contribution ouverte",
     heroTitle: "Liste les asymétries documentées selon le sexe",
@@ -2869,34 +2869,31 @@ function App() {
   return (
     <div className="min-w-80 bg-neutral-100 font-sans text-neutral-900 antialiased">
       <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
-      <header className="border-neutral-300 bg-white" role="banner">
-        <div className={cn(pageWidth, "flex min-h-[76px] items-center justify-between gap-6 max-[760px]:flex-col max-[760px]:items-start max-[760px]:py-3.5")}>
-          <div className="flex items-baseline gap-4 max-[760px]:gap-2.5">
-            <div className="flex items-end gap-3.5 max-[760px]:gap-3">
-              <a className="text-neutral-900 no-underline" href="/" aria-label="Accueil isora">
-                <BrandWordmark className="w-28 max-[760px]:w-24" />
-              </a>
-              <p className="m-0 translate-y-1 leading-[1.45] text-neutral-500 max-[760px]:max-w-[19rem] max-[760px]:translate-y-[3px] max-[760px]:text-[0.92rem] max-[760px]:leading-[1.35]">
-                <span className="max-[760px]:hidden">{text.tagline}</span>
-                <span className="hidden max-[760px]:inline">{text.mobileTagline}</span>
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-wrap items-center justify-end gap-2 max-[760px]:w-full max-[760px]:justify-between">
+      <header className="border-b border-neutral-300 bg-white" role="banner">
+        <div className={cn(pageWidth, "flex min-h-[106px] flex-col items-start justify-center gap-4 py-4 max-[760px]:min-h-0 max-[760px]:py-3.5")}>
+          <a className="inline-flex items-end gap-3.5 text-neutral-900 no-underline max-[760px]:flex-col max-[760px]:items-start max-[760px]:gap-2" href="/" aria-label="Accueil isora - Le référentiel des asymétries de sexe">
+            <BrandWordmark className="w-28 max-[760px]:w-24" />
+            <span className="max-w-[25rem] leading-[1.35] text-neutral-500 max-[760px]:text-[0.92rem]">
+              <span className="max-[760px]:hidden">{text.tagline}</span>
+              <span className="hidden max-[760px]:inline">{text.mobileTagline}</span>
+            </span>
+          </a>
+          <nav className="flex flex-wrap items-center justify-start gap-6" aria-label="Navigation">
             <a
-              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50")}
+              className={cn(icon18, "inline-flex items-center gap-[7px] font-extrabold text-blue-800 underline decoration-1 underline-offset-[3px] hover:decoration-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-800")}
               href="/lexique/"
             >
               <Tags aria-hidden="true" />
               {text.lexicon}
             </a>
             <a
-              className={cn(icon18, "inline-flex min-h-10 items-center gap-2 px-3.5 font-bold text-blue-800 underline decoration-1 underline-offset-[3px] hover:bg-blue-50")}
+              className={cn(icon18, "inline-flex items-center gap-[7px] font-extrabold text-blue-800 underline decoration-1 underline-offset-[3px] hover:decoration-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-800")}
               href="/blog/"
             >
               <FileText aria-hidden="true" />
               {text.blog}
             </a>
+          </nav>
             {/*
             <div
               className="inline-flex min-h-10 items-center gap-1 bg-neutral-100 p-1 ring-1 ring-inset ring-neutral-300"
@@ -2919,7 +2916,6 @@ function App() {
               ))}
             </div>
             */}
-          </div>
         </div>
       </header>
 

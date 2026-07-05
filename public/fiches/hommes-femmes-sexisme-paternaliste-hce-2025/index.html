@@ -37,10 +37,14 @@
     a { color: #1455a3; text-underline-offset: 0.18em; }
     .wrap { width: min(100% - 48px, 1120px); margin: 0 auto; }
     .topbar { border-bottom: 1px solid #d8d8d0; background: #fff; }
-    .topbar-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .topbar-inner { min-height: 106px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 16px; padding: 16px 0; }
+    .brand { display: inline-flex; align-items: flex-end; gap: 14px; color: #171717; text-decoration: none; }
     .brand img { width: 106px; height: auto; display: block; }
-    .nav { display: flex; flex-wrap: wrap; gap: 10px; font-weight: 800; }
-    .nav a { min-height: 40px; display: inline-flex; align-items: center; gap: 8px; padding: 0 12px; }
+    .brand span { max-width: 25rem; color: #555; font-size: 0.96rem; font-weight: 700; line-height: 1.35; }
+    .nav { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-weight: 800; }
+    .nav a { display: inline-flex; align-items: center; gap: 7px; color: #1455a3; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+    .nav a:hover { text-decoration-thickness: 2px; }
+    .nav a:focus-visible { outline: 2px solid #1455a3; outline-offset: 4px; }
     .nav svg { width: 18px; height: 18px; flex: 0 0 auto; }
     .hero { background: #dff3ea; border-bottom: 1px solid #d8d8d0; }
     .hero-inner { padding: 54px 0 46px; }
@@ -85,7 +89,8 @@
     .method { border-top: 1px solid #d8d8d0; padding: 28px 0 42px; color: #555; line-height: 1.65; }
     @media (max-width: 860px) {
       .wrap { width: min(100% - 24px, 1120px); }
-      .topbar-inner { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .topbar-inner { min-height: 0; padding: 14px 0; }
+      .brand { align-items: flex-start; flex-direction: column; gap: 8px; }
       main, .index-grid, .lexicon-grid { grid-template-columns: 1fr; }
       aside { position: static; }
       .section, .sidebox, .claim-card, .lexicon-card, .notice { padding: 20px; }
@@ -204,9 +209,10 @@
   <body>
     <header class="topbar">
       <div class="wrap topbar-inner">
-        <a class="brand" href="/">
-          <img src="/isora.svg" alt="isora" />
-        </a>
+        <a class="brand" href="/" aria-label="Accueil isora - Le référentiel des asymétries de sexe">
+            <img src="/isora.svg" alt="isora" />
+            <span>Le référentiel des asymétries de sexe</span>
+          </a>
         <nav class="nav" aria-label="Navigation">
           <a href="/lexique/">
             <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
