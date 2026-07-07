@@ -2,8 +2,119 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-05T21:01:27.606Z",
+  "generatedAt": "2026-07-07T18:05:33.754Z",
   "posts": [
+    {
+      "id": "2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres",
+      "title": "Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/",
+      "description": "Les publications 2025-2026 d'Eurostat, de l'Insee et de l'OCDE montrent qu'un même sujet peut produire des écarts différents selon que l'on mesure le salaire horaire brut, le salaire en équivalent temps plein, le revenu salarial annuel ou le même poste dans le même établissement.",
+      "date": "2026-07-07",
+      "publishedAt": "2026-07-07T06:30:00.000Z",
+      "updatedAt": "2026-07-07T06:30:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "écart de salaire femmes hommes UE 2024",
+        "Eurostat gender pay gap 2024 11,1%",
+        "Insee écart de salaire 2024 21,8 14,0 3,6",
+        "OCDE pay transparency 2026 gender pay gap",
+        "asymétrie salaire revenu annuel temps partiel"
+      ],
+      "relatedClaimIds": [
+        "femmes-ecart-salaire",
+        "femmes-temps-partiel"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Gender pay gap statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics",
+          "date": "données extraites en février 2026, données 2024 provisoires",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Écart de salaire entre femmes et hommes en 2024",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/8743657",
+          "date": "26 février 2026",
+          "type": "focus statistique"
+        },
+        {
+          "title": "Pay Transparency in Progress: Valuing Jobs, Closing Gender Pay Gaps",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/pay-transparency-in-progress_121f268d-en.html",
+          "date": "17 avril 2026",
+          "type": "rapport"
+        },
+        {
+          "title": "Gender gaps in paid and unpaid work persist",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/gender-gaps-in-paid-and-unpaid-work-persist_de465299/25a6c5dc-en.pdf",
+          "date": "15 septembre 2025",
+          "type": "brief"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale",
+      "title": "Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/",
+      "description": "Les sources 2025-2026 utiles pour la veille Isora décrivent une asymétrie double plutôt qu'un classement unique : les hommes restent très majoritaires parmi les victimes d'homicide au total, tandis que les femmes sont davantage exposées aux homicides commis par un partenaire intime ou un membre de la famille.",
+      "date": "2026-07-06",
+      "publishedAt": "2026-07-06T06:30:00.000Z",
+      "updatedAt": "2026-07-06T06:30:00.000Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "homicides femmes hommes monde 2024",
+        "UNODC femicides 2024 80% hommes",
+        "Eurostat homicide partenaire famille 2024",
+        "France morts violentes couple 2024 femmes hommes",
+        "asymétrie homicide sphère intime familiale"
+      ],
+      "relatedClaimIds": [
+        "hommes-victimes-homicide-monde",
+        "femmes-feminicides-monde-2024",
+        "femmes-violences-physiques-sexuelles-monde"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Femicides in 2024: global estimates of intimate partner/family member femicides",
+          "publisher": "UNODC / ONU Femmes",
+          "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+          "date": "novembre 2025, données 2024",
+          "type": "brief statistique"
+        },
+        {
+          "title": "Crime statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Crime_statistics",
+          "date": "avril 2026, données 2024",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Étude nationale sur les morts violentes au sein du couple en 2024",
+          "publisher": "Ministère de l'Intérieur",
+          "url": "https://www.interieur.gouv.fr/documentation/etudes-et-statistiques/etude-nationale-sur-morts-violentes-au-sein-du-couple-en-2024.html-0",
+          "date": "2 octobre 2025",
+          "type": "étude nationale"
+        },
+        {
+          "title": "Victimes des violences au sein du couple - Chiffres clefs 2024",
+          "publisher": "arretonslesviolences.gouv.fr / MIPROF",
+          "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-10/Chiffres%20clefs_DAV_2025_Miprof_VF.pdf",
+          "date": "octobre 2025, données 2024",
+          "type": "chiffres clefs"
+        }
+      ]
+    },
     {
       "id": "2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde",
       "title": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",

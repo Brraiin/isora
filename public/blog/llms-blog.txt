@@ -13,6 +13,22 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE
+- URL: https://isora-xi.vercel.app/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/
+- Date: 2026-07-07
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel
+- Resume: Les sources retenues pour la veille du 7 juillet 2026 ne décrivent pas un seul chiffre magique. Eurostat indique qu'en 2024 l'écart de salaire horaire brut non ajusté atteint 11,1 % dans l'Union européenne. L'Insee montre qu'en France, dans le secteur privé, le revenu salarial annuel moyen des femmes reste inférieur de 21,8 % à celui des hommes, tandis que l'écart tombe à 14,0 % en équivalent temps plein et à 3,6 % pour le même emploi dans le même établissement. L'OCDE rappelle de son côté qu'en 2024, l'écart médian de rémunération des salariés à temps plein reste proche de 10 % à l'échelle de l'OCDE, et que les obligations de transparence salariale continuent de s'étendre.
+- Sources: Eurostat (données extraites en février 2026, données 2024 provisoires): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics; Insee (26 février 2026): https://www.insee.fr/fr/statistiques/8743657; OCDE (17 avril 2026): https://www.oecd.org/en/publications/pay-transparency-in-progress_121f268d-en.html; OCDE (15 septembre 2025): https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/gender-gaps-in-paid-and-unpaid-work-persist_de465299/25a6c5dc-en.pdf
+
+### Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale
+- URL: https://isora-xi.vercel.app/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/
+- Date: 2026-07-06
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: hommes-victimes-homicide-monde, femmes-feminicides-monde-2024, femmes-violences-physiques-sexuelles-monde
+- Resume: La veille du 6 juillet 2026 conduit à distinguer deux contextes. Le brief 2025 d'UNODC et d'ONU Femmes indique qu'en 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons, mais que 60 % des homicides de femmes et filles ont été commis par un partenaire intime ou un membre de la famille, contre 11 % des homicides masculins. Eurostat observe dans l'Union européenne qu'en 2024 le taux de victimes d'homicide tuées par un partenaire intime ou un membre de la famille atteint 3,9 pour un million de femmes contre 2,3 pour un million d'hommes. En France, l'étude publiée par le ministère de l'Intérieur pour l'année 2024 recense 138 morts violentes au sein du couple, dont 107 femmes et 31 hommes.
+- Sources: UNODC / ONU Femmes (novembre 2025, données 2024): https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Eurostat (avril 2026, données 2024): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Crime_statistics; Ministère de l'Intérieur (2 octobre 2025): https://www.interieur.gouv.fr/documentation/etudes-et-statistiques/etude-nationale-sur-morts-violentes-au-sein-du-couple-en-2024.html-0; arretonslesviolences.gouv.fr / MIPROF (octobre 2025, données 2024): https://arretonslesviolences.gouv.fr/sites/default/files/2025-10/Chiffres%20clefs_DAV_2025_Miprof_VF.pdf
+
 ### Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté
 - URL: https://isora-xi.vercel.app/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/
 - Date: 2026-07-05

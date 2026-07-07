@@ -1,0 +1,122 @@
+{
+  "id": "2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres",
+  "slug": "2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres",
+  "status": "published",
+  "language": "fr",
+  "title": "Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE",
+  "description": "Les publications 2025-2026 d'Eurostat, de l'Insee et de l'OCDE montrent qu'un même sujet peut produire des écarts différents selon que l'on mesure le salaire horaire brut, le salaire en équivalent temps plein, le revenu salarial annuel ou le même poste dans le même établissement.",
+  "date": "2026-07-07",
+  "publishedAt": "2026-07-07T06:30:00.000Z",
+  "updatedAt": "2026-07-07T06:30:00.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "écart de salaire femmes hommes UE 2024",
+    "Eurostat gender pay gap 2024 11,1%",
+    "Insee écart de salaire 2024 21,8 14,0 3,6",
+    "OCDE pay transparency 2026 gender pay gap",
+    "asymétrie salaire revenu annuel temps partiel"
+  ],
+  "relatedClaimIds": [
+    "femmes-ecart-salaire",
+    "femmes-temps-partiel"
+  ],
+  "readingMinutes": 5,
+  "summary": "Les sources retenues pour la veille du 7 juillet 2026 ne décrivent pas un seul chiffre magique. Eurostat indique qu'en 2024 l'écart de salaire horaire brut non ajusté atteint 11,1 % dans l'Union européenne. L'Insee montre qu'en France, dans le secteur privé, le revenu salarial annuel moyen des femmes reste inférieur de 21,8 % à celui des hommes, tandis que l'écart tombe à 14,0 % en équivalent temps plein et à 3,6 % pour le même emploi dans le même établissement. L'OCDE rappelle de son côté qu'en 2024, l'écart médian de rémunération des salariés à temps plein reste proche de 10 % à l'échelle de l'OCDE, et que les obligations de transparence salariale continuent de s'étendre.",
+  "keyPoints": [
+    "Eurostat indique qu'en 2024 l'écart de salaire horaire brut non ajusté atteint 11,1 % dans l'Union européenne, avec des écarts nationaux allant de -0,8 % au Luxembourg à 18,8 % en Estonie.",
+    "L'Insee estime qu'en 2024, dans le secteur privé français, le revenu salarial annuel moyen des femmes est inférieur de 21,8 % à celui des hommes, alors que l'écart de salaire en équivalent temps plein est de 14,0 %.",
+    "Toujours selon l'Insee, pour le même emploi dans le même établissement, l'écart de salaire net en équivalent temps plein se réduit à 3,6 %.",
+    "L'OCDE rappelle que les écarts d'heures travaillées, le temps partiel, la ségrégation professionnelle et le travail non rémunéré contribuent à maintenir des écarts de revenus et de carrière.",
+    "Les chiffres récents convergent donc vers une idée simple : les écarts existent, mais leur ampleur dépend fortement de la population observée et de l'indicateur choisi."
+  ],
+  "sections": [
+    {
+      "heading": "L'Union européenne mesure d'abord un écart horaire brut",
+      "paragraphs": [
+        "La mise à jour d'Eurostat extraite en février 2026 indique qu'en 2024 l'écart de salaire entre femmes et hommes dans l'Union européenne atteint 11,1 %. Il s'agit d'un indicateur non ajusté fondé sur les gains horaires bruts moyens des salariés. Autrement dit, la source compare un salaire horaire moyen, et non le revenu annuel total.",
+        "Cette publication montre aussi que l'écart varie fortement selon les pays et les secteurs. Eurostat situe l'écart entre -0,8 % au Luxembourg et 18,8 % en Estonie en 2024, et précise qu'il est généralement plus élevé dans le secteur privé que dans le secteur public. L'organisme rappelle enfin que les données 2024 restent provisoires jusqu'à l'intégration des données de l'enquête sur la structure des salaires attendues fin 2026."
+      ]
+    },
+    {
+      "heading": "En France, l'Insee distingue revenu annuel, équivalent temps plein et même poste",
+      "paragraphs": [
+        "L'Insee, dans son Focus publié le 26 février 2026 sur l'année 2024, mesure d'abord un revenu salarial annuel net. Sur ce champ, le revenu salarial moyen des femmes dans le secteur privé est inférieur de 21,8 % à celui des hommes. L'institut attribue une partie de cet écart au moindre volume annuel de travail moyen des femmes, qui sont moins souvent en emploi sur toute l'année et plus souvent à temps partiel.",
+        "Quand l'Insee neutralise ces différences de volume de travail et raisonne en équivalent temps plein, l'écart descend à 14,0 %. Puis, quand la comparaison porte sur le même emploi dans le même établissement, il se réduit à 3,6 %. La même publication rappelle aussi que les femmes représentent 42 % des postes salariés du privé en équivalent temps plein, mais seulement 24 % du centile des postes les mieux rémunérés."
+      ]
+    },
+    {
+      "heading": "Ces écarts ne se contredisent pas car ils ne portent pas sur la même population",
+      "paragraphs": [
+        "Comparer directement 11,1 %, 21,8 %, 14,0 % et 3,6 % sans regarder la méthode conduit à des raccourcis. Eurostat raisonne sur le salaire horaire brut moyen dans l'Union européenne, l'Insee sur le revenu salarial annuel net ou sur le salaire en équivalent temps plein dans le secteur privé français, puis sur une comparaison très resserrée à même emploi et même établissement.",
+        "Les synthèses récentes de l'OCDE aident à lire ces écarts sans les confondre. Le brief publié le 15 septembre 2025 sur les écarts de travail rémunéré et non rémunéré rappelle que les femmes ont plus souvent des carrières interrompues, davantage de temps partiel et une présence plus forte dans des métiers moins rémunérés. Ces mécanismes peuvent élargir l'écart de revenu annuel sans signifier que tous les indicateurs doivent afficher la même amplitude."
+      ]
+    },
+    {
+      "heading": "La transparence salariale progresse, mais ses effets restent discutés",
+      "paragraphs": [
+        "Le rapport de l'OCDE publié le 17 avril 2026 sur la transparence salariale indique qu'en 2024, à l'échelle de l'OCDE, la femme salariée à temps plein au niveau médian gagne encore environ 10 % de moins que son homologue masculin. Le rapport ajoute qu'à la fin de 2026, 84 % des pays de l'OCDE devraient imposer une forme de reporting des écarts de rémunération dans le secteur privé.",
+        "La même source précise toutefois que l'évaluation des outils de transparence reste limitée et mixte. Certaines configurations semblent associées à des réductions d'écarts, surtout lorsqu'il existe une publication accessible et un contrôle tiers, mais l'OCDE souligne aussi que la transparence ne suffit pas à elle seule à corriger la ségrégation des métiers, les écarts d'heures travaillées ou les interruptions de carrière."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les quatre sources mobilisées ici n'observent ni la même aire géographique, ni le même type de rémunération, ni le même périmètre d'emploi. Eurostat publie un écart horaire brut non ajusté pour l'Union européenne. L'Insee décrit le secteur privé français avec un revenu salarial annuel net, puis un salaire en équivalent temps plein, puis une comparaison à même poste dans le même établissement. Les deux publications de l'OCDE travaillent sur un périmètre multi-pays avec des indicateurs encore différents, dont un écart médian parmi les salariés à temps plein.",
+        "Ces résultats ne permettent donc pas d'attribuer mécaniquement tout l'écart observé à une cause unique. Ils ne mesurent pas de façon exhaustive l'ancienneté, l'expérience, les interruptions de carrière, les primes, les heures, l'accès aux emplois les plus rémunérés ou l'ensemble des contraintes familiales. Enfin, les sources utilisent leurs catégories statistiques de femmes et d'hommes; elles ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Pourquoi l'article cite-t-il plusieurs pourcentages différents pour un même sujet ?",
+      "answer": "Parce que les sources ne mesurent pas la même chose. Un écart horaire brut à l'échelle européenne, un revenu salarial annuel net en France, un salaire en équivalent temps plein ou une comparaison à même poste dans le même établissement répondent à des questions différentes."
+    },
+    {
+      "question": "Le chiffre de 3,6 % signifie-t-il que le reste de l'écart disparaît ?",
+      "answer": "Non. Il signifie seulement que, dans la comparaison très resserrée retenue par l'Insee, l'écart est plus faible. Les autres écarts reflètent aussi la répartition inégale des emplois, du temps partiel, des carrières interrompues et de l'accès aux plus hauts salaires."
+    },
+    {
+      "question": "Peut-on conclure à une discrimination directe unique à partir de ces sources ?",
+      "answer": "Non. Les sources documentent des écarts observés et certaines composantes possibles, mais elles ne suffisent pas à elles seules pour isoler une cause unique. Elles invitent surtout à distinguer les niveaux de comparaison avant d'interpréter le chiffre."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gender pay gap statistics",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics",
+      "date": "données extraites en février 2026, données 2024 provisoires",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Écart de salaire entre femmes et hommes en 2024",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/8743657",
+      "date": "26 février 2026",
+      "type": "focus statistique"
+    },
+    {
+      "title": "Pay Transparency in Progress: Valuing Jobs, Closing Gender Pay Gaps",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/pay-transparency-in-progress_121f268d-en.html",
+      "date": "17 avril 2026",
+      "type": "rapport"
+    },
+    {
+      "title": "Gender gaps in paid and unpaid work persist",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/gender-gaps-in-paid-and-unpaid-work-persist_de465299/25a6c5dc-en.pdf",
+      "date": "15 septembre 2025",
+      "type": "brief"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-07-07T06:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}
