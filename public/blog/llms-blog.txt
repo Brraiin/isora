@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France
+- URL: https://isora-xi.vercel.app/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/
+- Date: 2026-07-08
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: femmes-menopause-soins
+- Resume: Les sources institutionnelles récentes décrivent moins une hiérarchie simple qu'une organisation différente de la prévention selon le sexe. En France, Santé publique France indique qu'en 2024-2025 la participation au dépistage organisé du cancer colorectal atteint 30,7 % de la population cible, avec 31,8 % chez les femmes et 29,6 % chez les hommes. Dans le même temps, les tests positifs sont plus fréquents chez les hommes en 2025, et Eurostat rappelle que les taux de mortalité colorectale standardisés restent plus élevés chez les hommes dans tous les pays de l'Union européenne. À l'inverse, les femmes sont les seules à relever d'un programme organisé du cancer du sein à grande échelle, avec 46,5 % de participation sur 2022-2023. Pour la prostate, l'Institut national du cancer indique qu'aucun programme de dépistage systématique n'est recommandé à ce jour.
+- Sources: Santé publique France (11 mars 2026): https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullnat_Depistage_Cancer_colorectal_20260311.pdf; Drees (19 février 2026): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260219-depistage-cancer-in%C3%A9galit%C3%A9s-sociales; Santé publique France (données 2022-2023, page consultée en juillet 2026): https://www.santepubliquefrance.fr/cancers/cancer-du-sein/taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-en-2022-2023-et-evolution; Eurostat (juin 2026, données 2022): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Cancer_statistics_-_specific_cancers; Institut national du cancer (page consultée en juillet 2026): https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate
+
 ### Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE
 - URL: https://isora-xi.vercel.app/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/
 - Date: 2026-07-07

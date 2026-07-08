@@ -2,8 +2,69 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-07T18:05:33.754Z",
+  "generatedAt": "2026-07-08T18:05:22.225Z",
   "posts": [
+    {
+      "id": "2026-07-08-depistage-cancers-prevention-femmes-hommes-france",
+      "title": "Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/",
+      "description": "Les publications 2025-2026 de Santé publique France, de la Drees, de l'Institut national du cancer et d'Eurostat montrent que les écarts de prévention ne vont pas tous dans le même sens : les femmes participent un peu plus au dépistage organisé du cancer colorectal et disposent d'un programme organisé du sein, tandis que les hommes restent davantage touchés par la mortalité colorectale et ne font pas l'objet d'un dépistage systématique de la prostate.",
+      "date": "2026-07-08",
+      "publishedAt": "2026-07-08T06:30:00.000Z",
+      "updatedAt": "2026-07-08T06:30:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "dépistage colorectal femmes hommes France 2025 2026",
+        "Santé publique France dépistage colorectal 30,7 31,8 29,6",
+        "dépistage cancer sein 46,5% 2022 2023",
+        "prostate PSA dépistage systématique France",
+        "asymétrie prévention cancer femmes hommes"
+      ],
+      "relatedClaimIds": [
+        "femmes-menopause-soins"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Participation au programme national de dépistage organisé du cancer colorectal. Période 2024-2025 et évolution depuis 2010",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullnat_Depistage_Cancer_colorectal_20260311.pdf",
+          "date": "11 mars 2026",
+          "type": "bulletin national"
+        },
+        {
+          "title": "Dépistage du cancer : les personnes modestes y recourent moins souvent",
+          "publisher": "Drees",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260219-depistage-cancer-in%C3%A9galit%C3%A9s-sociales",
+          "date": "19 février 2026",
+          "type": "études et résultats"
+        },
+        {
+          "title": "Taux de participation au programme de dépistage organisé du cancer du sein en 2022-2023 et évolution depuis 2005",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/cancers/cancer-du-sein/taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-en-2022-2023-et-evolution",
+          "date": "données 2022-2023, page consultée en juillet 2026",
+          "type": "indicateur national"
+        },
+        {
+          "title": "Cancer statistics - specific cancers",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Cancer_statistics_-_specific_cancers",
+          "date": "juin 2026, données 2022",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Le dépistage du cancer de la prostate",
+          "publisher": "Institut national du cancer",
+          "url": "https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate",
+          "date": "page consultée en juillet 2026",
+          "type": "recommandation institutionnelle"
+        }
+      ]
+    },
     {
       "id": "2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres",
       "title": "Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE",

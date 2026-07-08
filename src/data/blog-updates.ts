@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-menopause-soins",
+    "side": "femmes",
+    "claimTitle": "Soins sexospécifiques insuffisants des deux côtés",
+    "claimMetric": "accès inégal",
+    "blogTitle": "Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France",
+    "blogUrl": "/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/",
+    "date": "2026-07-08",
+    "updatedAt": "2026-07-08T06:30:00.000Z"
+  },
+  {
     "claimId": "femmes-ecart-salaire",
     "side": "femmes",
     "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",

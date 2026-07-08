@@ -1,0 +1,128 @@
+{
+  "id": "2026-07-08-depistage-cancers-prevention-femmes-hommes-france",
+  "slug": "2026-07-08-depistage-cancers-prevention-femmes-hommes-france",
+  "status": "published",
+  "language": "fr",
+  "title": "Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France",
+  "description": "Les publications 2025-2026 de Santé publique France, de la Drees, de l'Institut national du cancer et d'Eurostat montrent que les écarts de prévention ne vont pas tous dans le même sens : les femmes participent un peu plus au dépistage organisé du cancer colorectal et disposent d'un programme organisé du sein, tandis que les hommes restent davantage touchés par la mortalité colorectale et ne font pas l'objet d'un dépistage systématique de la prostate.",
+  "date": "2026-07-08",
+  "publishedAt": "2026-07-08T06:30:00.000Z",
+  "updatedAt": "2026-07-08T06:30:00.000Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "dépistage colorectal femmes hommes France 2025 2026",
+    "Santé publique France dépistage colorectal 30,7 31,8 29,6",
+    "dépistage cancer sein 46,5% 2022 2023",
+    "prostate PSA dépistage systématique France",
+    "asymétrie prévention cancer femmes hommes"
+  ],
+  "relatedClaimIds": [
+    "femmes-menopause-soins"
+  ],
+  "readingMinutes": 5,
+  "summary": "Les sources institutionnelles récentes décrivent moins une hiérarchie simple qu'une organisation différente de la prévention selon le sexe. En France, Santé publique France indique qu'en 2024-2025 la participation au dépistage organisé du cancer colorectal atteint 30,7 % de la population cible, avec 31,8 % chez les femmes et 29,6 % chez les hommes. Dans le même temps, les tests positifs sont plus fréquents chez les hommes en 2025, et Eurostat rappelle que les taux de mortalité colorectale standardisés restent plus élevés chez les hommes dans tous les pays de l'Union européenne. À l'inverse, les femmes sont les seules à relever d'un programme organisé du cancer du sein à grande échelle, avec 46,5 % de participation sur 2022-2023. Pour la prostate, l'Institut national du cancer indique qu'aucun programme de dépistage systématique n'est recommandé à ce jour.",
+  "keyPoints": [
+    "Santé publique France estime qu'en France entière, sur la période 2024-2025, 30,7 % de la population cible de 50 à 74 ans a participé au dépistage organisé du cancer colorectal, avec 31,8 % chez les femmes et 29,6 % chez les hommes.",
+    "Pour la seule année 2025, la même source observe 34,3 % de participation chez les femmes contre 31,8 % chez les hommes, tandis que la proportion de tests positifs atteint 4,0 % chez les hommes contre 2,8 % chez les femmes.",
+    "Eurostat indique que, dans tous les pays de l'Union européenne, les taux standardisés de mortalité par cancer colorectal restent plus élevés chez les hommes que chez les femmes.",
+    "Santé publique France mesure 5 045 065 mammographies de dépistage organisé sur 2022-2023, soit 46,5 % de participation parmi 10 825 132 femmes éligibles.",
+    "L'Institut national du cancer rappelle qu'aucun pays n'a mis en place de programme organisé de dépistage du cancer de la prostate et que le dosage systématique du PSA n'est pas recommandé en l'état des connaissances."
+  ],
+  "sections": [
+    {
+      "heading": "Le dépistage colorectal reste faible, mais les femmes y participent un peu plus",
+      "paragraphs": [
+        "Le signal le plus récent vient du bulletin national publié par Santé publique France le 11 mars 2026. Pour la période 2024-2025, 6,4 millions de personnes ont réalisé un test de dépistage colorectal en France entière, soit 30,7 % de la population cible de 50 à 74 ans. Ce niveau reste inférieur au seuil européen acceptable de 45 % rappelé dans le même document.",
+        "La ventilation par sexe montre un écart modéré mais constant : 31,8 % de participation chez les femmes contre 29,6 % chez les hommes sur 2024-2025. Pour la seule année 2025, l'écart reste proche, avec 34,3 % chez les femmes et 31,8 % chez les hommes. La source décrit donc un programme mixte où la participation féminine est légèrement plus élevée."
+      ]
+    },
+    {
+      "heading": "Les hommes restent plus concernés par les signaux défavorables sur le colorectal",
+      "paragraphs": [
+        "Une participation un peu plus faible des hommes ne signifie pas que la prévention les concernerait moins. Dans le même bulletin 2026, Santé publique France indique qu'en 2025 la proportion de tests immunologiques positifs atteint 4,0 % chez les hommes contre 2,8 % chez les femmes. Cela ne mesure pas directement une incidence comparable à exposition égale, mais cela montre que les résultats positifs sont plus fréquents du côté masculin dans le programme observé.",
+        "Le cadrage européen va dans le même sens sur la mortalité. Dans sa mise à jour de juin 2026 sur les cancers spécifiques, Eurostat indique qu'en 2022 les taux standardisés de mortalité par cancer colorectal sont plus élevés chez les hommes que chez les femmes dans tous les pays de l'Union européenne. Les écarts de prévention et les écarts de mortalité ne racontent donc pas la même chose, mais ils vont ici dans des directions cohérentes."
+      ]
+    },
+    {
+      "heading": "Les femmes cumulent aussi des parcours de dépistage spécifiques",
+      "paragraphs": [
+        "L'autre versant de l'asymétrie tient au fait que certaines campagnes organisées visent exclusivement ou principalement les femmes. Santé publique France estime qu'en 2022-2023, 10 825 132 femmes relevaient du programme organisé de dépistage du cancer du sein et que 5 045 065 ont réalisé une mammographie, soit un taux standardisé de 46,5 %. La participation remonte à 48,2 % en 2023 après 44,8 % en 2022.",
+        "La Drees ajoute, dans son étude publiée le 19 février 2026, que les écarts sociaux restent marqués sur ces parcours. Pour le dépistage du sein, la participation organisée des femmes de 50 à 74 ans passe de 33 % parmi les 10 % les plus modestes à 48 % parmi les 10 % les plus aisés sur la période 2015-2020. Le même document rappelle aussi que le dépistage du col de l'utérus concerne les femmes de 25 à 65 ans. Autrement dit, les femmes sont à la fois un peu plus présentes dans certains dépistages mixtes et davantage exposées à des parcours préventifs spécifiquement féminins."
+      ]
+    },
+    {
+      "heading": "Pour la prostate, l'absence de dépistage systématique ne signifie pas absence de risque",
+      "paragraphs": [
+        "La situation est différente pour le cancer de la prostate. L'Institut national du cancer rappelle qu'aucun pays n'a déployé de programme organisé de dépistage de la prostate à ce jour et qu'en France il n'y a pas lieu de recommander un dépistage systématique par dosage du PSA. L'organisme rattache cette position à des résultats jugés incertains sur le bénéfice en mortalité et à un risque de surdiagnostic et de surtraitement.",
+        "Ce point compte pour une lecture équilibrée des asymétries. Les hommes ne disposent pas d'un équivalent organisé au dépistage du sein, mais cela ne découle pas simplement d'un oubli institutionnel. La source parle d'abord d'une balance bénéfices-risques encore contestée pour un dépistage généralisé, ce qui distingue ce cas d'un simple défaut d'accès."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "Les sources mobilisées ici ne portent pas sur la même population ni sur la même période. Santé publique France observe le programme français de dépistage colorectal chez les personnes de 50 à 74 ans et le programme organisé du sein chez les femmes éligibles. La Drees étudie surtout les gradients sociaux de recours entre 2015 et 2020 ou entre 2017 et 2020 en France hors Mayotte. Eurostat décrit la mortalité colorectale observée en 2022 dans les pays de l'Union européenne. L'Institut national du cancer synthétise enfin les recommandations françaises sur la prostate.",
+        "Ces résultats ne permettent donc pas d'affirmer qu'un sexe serait globalement mieux ou moins bien pris en charge sur l'ensemble de la prévention oncologique. Ils décrivent des parcours différents selon le type de cancer, les critères d'éligibilité, les bénéfices attendus et les risques de surdiagnostic. Enfin, les organismes cités utilisent les catégories statistiques de femmes et d'hommes de leurs enquêtes, programmes ou bases administratives ; ils ne mesurent pas les chromosomes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "L'article dit-il que les femmes sont mieux protégées que les hommes contre le cancer ?",
+      "answer": "Non. Il montre seulement que les parcours de prévention diffèrent selon le type de cancer. Les femmes participent un peu plus au dépistage colorectal en France et relèvent d'un programme organisé du sein, tandis que les hommes restent davantage touchés par la mortalité colorectale et n'ont pas de dépistage systématique recommandé pour la prostate."
+    },
+    {
+      "question": "Pourquoi parler du sein et de la prostate dans le même article si ce ne sont pas les mêmes cancers ?",
+      "answer": "Parce que la question posée ici porte sur l'organisation de la prévention selon le sexe, pas sur l'identité biologique d'un seul cancer. Comparer les parcours permet de montrer que certaines campagnes sont spécifiquement féminines, alors que d'autres risques restent davantage masculins sans conduire pour autant à un dépistage systématique."
+    },
+    {
+      "question": "Peut-on conclure qu'un dépistage plus fréquent chez les femmes suffit à expliquer l'écart de mortalité colorectal ?",
+      "answer": "Non. Les sources ne relient pas mécaniquement les deux phénomènes. L'écart de mortalité peut aussi dépendre de l'incidence, de l'âge, des comorbidités, du recours au diagnostic hors programme et des délais de prise en charge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Participation au programme national de dépistage organisé du cancer colorectal. Période 2024-2025 et évolution depuis 2010",
+      "publisher": "Santé publique France",
+      "url": "https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullnat_Depistage_Cancer_colorectal_20260311.pdf",
+      "date": "11 mars 2026",
+      "type": "bulletin national"
+    },
+    {
+      "title": "Dépistage du cancer : les personnes modestes y recourent moins souvent",
+      "publisher": "Drees",
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260219-depistage-cancer-in%C3%A9galit%C3%A9s-sociales",
+      "date": "19 février 2026",
+      "type": "études et résultats"
+    },
+    {
+      "title": "Taux de participation au programme de dépistage organisé du cancer du sein en 2022-2023 et évolution depuis 2005",
+      "publisher": "Santé publique France",
+      "url": "https://www.santepubliquefrance.fr/cancers/cancer-du-sein/taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-en-2022-2023-et-evolution",
+      "date": "données 2022-2023, page consultée en juillet 2026",
+      "type": "indicateur national"
+    },
+    {
+      "title": "Cancer statistics - specific cancers",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Cancer_statistics_-_specific_cancers",
+      "date": "juin 2026, données 2022",
+      "type": "synthèse statistique"
+    },
+    {
+      "title": "Le dépistage du cancer de la prostate",
+      "publisher": "Institut national du cancer",
+      "url": "https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate",
+      "date": "page consultée en juillet 2026",
+      "type": "recommandation institutionnelle"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-07-08T06:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}
