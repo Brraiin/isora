@@ -2,8 +2,76 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-08T18:05:22.225Z",
+  "generatedAt": "2026-07-13T20:31:35.088Z",
   "posts": [
+    {
+      "id": "2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue",
+      "title": "Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/",
+      "description": "Les mises à jour Eurostat de juillet 2026 et les documents UNHCR 2026 montrent une structure de population durablement asymétrique parmi les bénéficiaires de la protection temporaire : les femmes et les mineurs restent majoritaires dans l'Union européenne, tandis que la part des hommes adultes demeure nettement plus faible.",
+      "date": "2026-07-13",
+      "publishedAt": "2026-07-13T06:30:00.000Z",
+      "updatedAt": "2026-07-13T06:30:00.000Z",
+      "topic": {
+        "id": "droits-autonomie",
+        "label": "Droits, autonomie et accès aux services"
+      },
+      "keywords": [
+        "protection temporaire Ukraine femmes hommes enfants UE juillet 2026",
+        "Eurostat 43,4% femmes 26,8% hommes 29,8% mineurs mai 2026",
+        "réfugiés Ukraine Union européenne composition par sexe 2026",
+        "UNHCR majorité femmes enfants réfugiés Ukraine 2026",
+        "asymétrie sexe protection temporaire Ukraine"
+      ],
+      "relatedClaimIds": [
+        "hommes-ukraine-restrictions-sortie-2022-2025"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "4.38 million under temporary protection in May 2026",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-1",
+          "date": "10 juillet 2026",
+          "type": "note statistique"
+        },
+        {
+          "title": "Temporary protection for 4.38 million in January 2026",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260310-1",
+          "date": "10 mars 2026",
+          "type": "note statistique"
+        },
+        {
+          "title": "Temporary protection for persons fleeing Ukraine - monthly statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Temporary_protection_for_persons_fleeing_Ukraine_-_monthly_statistics",
+          "date": "mise à jour juillet 2026",
+          "type": "jeu de données et synthèse"
+        },
+        {
+          "title": "Ukraine Situation: UNHCR's 2026 plans and financial requirements",
+          "publisher": "UNHCR",
+          "url": "https://data.unhcr.org/en/documents/download/120716",
+          "date": "26 janvier 2026",
+          "type": "plan et synthèse de besoins"
+        },
+        {
+          "title": "Labor market integration of Ukrainian refugees in Europe: Employment gaps, skill mismatches and economic gains",
+          "publisher": "UNHCR data portal",
+          "url": "https://data.unhcr.org/en/documents/download/120820",
+          "date": "29 janvier 2026",
+          "type": "rapport"
+        },
+        {
+          "title": "EU member states agree to extend temporary protection for refugees from Ukraine",
+          "publisher": "Council of the European Union",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/06/13/eu-member-states-agree-to-extend-temporary-protection-for-refugees-from-ukraine/",
+          "date": "13 juin 2025",
+          "type": "communiqué institutionnel"
+        }
+      ]
+    },
     {
       "id": "2026-07-08-depistage-cancers-prevention-femmes-hommes-france",
       "title": "Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France",

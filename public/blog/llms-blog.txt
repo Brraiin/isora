@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE
+- URL: https://isora-xi.vercel.app/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/
+- Date: 2026-07-13
+- Sujet: Droits, autonomie et accès aux services
+- Fiches isora liees: hommes-ukraine-restrictions-sortie-2022-2025
+- Resume: Le jeu de données publié par Eurostat le 10 juillet 2026 confirme qu'au 31 mai 2026, les bénéficiaires de la protection temporaire accordée aux personnes ayant fui l'Ukraine dans l'Union européenne restent majoritairement des femmes et des mineurs. Les femmes adultes représentent 43,4 % du total, les hommes adultes 26,8 % et les mineurs 29,8 %. Cette structure varie peu depuis janvier 2026. L'UNHCR rappelle dans ses documents 2026 que la population réfugiée demeure majoritairement composée de femmes et d'enfants, avec moins d'hommes adultes en raison des restrictions visant les hommes ukrainiens d'âge militaire à la sortie du pays. Le Conseil de l'Union européenne a en outre prolongé ce régime jusqu'au 4 mars 2027, ce qui inscrit cette asymétrie démographique dans une durée désormais longue.
+- Sources: Eurostat (10 juillet 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-1; Eurostat (10 mars 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260310-1; Eurostat (mise à jour juillet 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Temporary_protection_for_persons_fleeing_Ukraine_-_monthly_statistics; UNHCR (26 janvier 2026): https://data.unhcr.org/en/documents/download/120716; UNHCR data portal (29 janvier 2026): https://data.unhcr.org/en/documents/download/120820; Council of the European Union (13 juin 2025): https://www.consilium.europa.eu/en/press/press-releases/2025/06/13/eu-member-states-agree-to-extend-temporary-protection-for-refugees-from-ukraine/
+
 ### Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France
 - URL: https://isora-xi.vercel.app/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/
 - Date: 2026-07-08

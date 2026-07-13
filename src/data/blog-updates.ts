@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-ukraine-restrictions-sortie-2022-2025",
+    "side": "hommes",
+    "claimTitle": "Hommes ukrainiens d'âge militaire limités à la frontière",
+    "claimMetric": "18-60 ans",
+    "blogTitle": "Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE",
+    "blogUrl": "/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/",
+    "date": "2026-07-13",
+    "updatedAt": "2026-07-13T06:30:00.000Z"
+  },
+  {
     "claimId": "femmes-menopause-soins",
     "side": "femmes",
     "claimTitle": "Soins sexospécifiques insuffisants des deux côtés",

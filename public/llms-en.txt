@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-07-05T00:00:00+02:00
+Last generation: 2026-07-13T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -21,7 +21,7 @@ Last generation: 2026-07-05T00:00:00+02:00
 - Entries: 92
 - Entries about men: 39
 - Entries about women: 53
-- Distinct sources: 198
+- Distinct sources: 199
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -124,6 +124,34 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE
+- URL: https://isora-xi.vercel.app/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/
+- Date: 2026-07-13
+- Related isora entries: hommes-ukraine-restrictions-sortie-2022-2025
+- Summary: Le jeu de données publié par Eurostat le 10 juillet 2026 confirme qu'au 31 mai 2026, les bénéficiaires de la protection temporaire accordée aux personnes ayant fui l'Ukraine dans l'Union européenne restent majoritairement des femmes et des mineurs. Les femmes adultes représentent 43,4 % du total, les hommes adultes 26,8 % et les mineurs 29,8 %. Cette structure varie peu depuis janvier 2026. L'UNHCR rappelle dans ses documents 2026 que la population réfugiée demeure majoritairement composée de femmes et d'enfants, avec moins d'hommes adultes en raison des restrictions visant les hommes ukrainiens d'âge militaire à la sortie du pays. Le Conseil de l'Union européenne a en outre prolongé ce régime jusqu'au 4 mars 2027, ce qui inscrit cette asymétrie démographique dans une durée désormais longue.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-1; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260310-1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Temporary_protection_for_persons_fleeing_Ukraine_-_monthly_statistics; UNHCR: https://data.unhcr.org/en/documents/download/120716; UNHCR data portal: https://data.unhcr.org/en/documents/download/120820; Council of the European Union: https://www.consilium.europa.eu/en/press/press-releases/2025/06/13/eu-member-states-agree-to-extend-temporary-protection-for-refugees-from-ukraine/
+
+### Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France
+- URL: https://isora-xi.vercel.app/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/
+- Date: 2026-07-08
+- Related isora entries: femmes-menopause-soins
+- Summary: Les sources institutionnelles récentes décrivent moins une hiérarchie simple qu'une organisation différente de la prévention selon le sexe. En France, Santé publique France indique qu'en 2024-2025 la participation au dépistage organisé du cancer colorectal atteint 30,7 % de la population cible, avec 31,8 % chez les femmes et 29,6 % chez les hommes. Dans le même temps, les tests positifs sont plus fréquents chez les hommes en 2025, et Eurostat rappelle que les taux de mortalité colorectale standardisés restent plus élevés chez les hommes dans tous les pays de l'Union européenne. À l'inverse, les femmes sont les seules à relever d'un programme organisé du cancer du sein à grande échelle, avec 46,5 % de participation sur 2022-2023. Pour la prostate, l'Institut national du cancer indique qu'aucun programme de dépistage systématique n'est recommandé à ce jour.
+- Sources: Santé publique France: https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullnat_Depistage_Cancer_colorectal_20260311.pdf; Drees: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260219-depistage-cancer-in%C3%A9galit%C3%A9s-sociales; Santé publique France: https://www.santepubliquefrance.fr/cancers/cancer-du-sein/taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-en-2022-2023-et-evolution; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Cancer_statistics_-_specific_cancers; Institut national du cancer: https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate
+
+### Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE
+- URL: https://isora-xi.vercel.app/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/
+- Date: 2026-07-07
+- Related isora entries: femmes-ecart-salaire, femmes-temps-partiel
+- Summary: Les sources retenues pour la veille du 7 juillet 2026 ne décrivent pas un seul chiffre magique. Eurostat indique qu'en 2024 l'écart de salaire horaire brut non ajusté atteint 11,1 % dans l'Union européenne. L'Insee montre qu'en France, dans le secteur privé, le revenu salarial annuel moyen des femmes reste inférieur de 21,8 % à celui des hommes, tandis que l'écart tombe à 14,0 % en équivalent temps plein et à 3,6 % pour le même emploi dans le même établissement. L'OCDE rappelle de son côté qu'en 2024, l'écart médian de rémunération des salariés à temps plein reste proche de 10 % à l'échelle de l'OCDE, et que les obligations de transparence salariale continuent de s'étendre.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics; Insee: https://www.insee.fr/fr/statistiques/8743657; OCDE: https://www.oecd.org/en/publications/pay-transparency-in-progress_121f268d-en.html; OCDE: https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/gender-gaps-in-paid-and-unpaid-work-persist_de465299/25a6c5dc-en.pdf
+
+### Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale
+- URL: https://isora-xi.vercel.app/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/
+- Date: 2026-07-06
+- Related isora entries: hommes-victimes-homicide-monde, femmes-feminicides-monde-2024, femmes-violences-physiques-sexuelles-monde
+- Summary: La veille du 6 juillet 2026 conduit à distinguer deux contextes. Le brief 2025 d'UNODC et d'ONU Femmes indique qu'en 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons, mais que 60 % des homicides de femmes et filles ont été commis par un partenaire intime ou un membre de la famille, contre 11 % des homicides masculins. Eurostat observe dans l'Union européenne qu'en 2024 le taux de victimes d'homicide tuées par un partenaire intime ou un membre de la famille atteint 3,9 pour un million de femmes contre 2,3 pour un million d'hommes. En France, l'étude publiée par le ministère de l'Intérieur pour l'année 2024 recense 138 morts violentes au sein du couple, dont 107 femmes et 31 hommes.
+- Sources: UNODC / ONU Femmes: https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Crime_statistics; Ministère de l'Intérieur: https://www.interieur.gouv.fr/documentation/etudes-et-statistiques/etude-nationale-sur-morts-violentes-au-sein-du-couple-en-2024.html-0; arretonslesviolences.gouv.fr / MIPROF: https://arretonslesviolences.gouv.fr/sites/default/files/2025-10/Chiffres%20clefs_DAV_2025_Miprof_VF.pdf
+
 ### Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté
 - URL: https://isora-xi.vercel.app/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/
 - Date: 2026-07-05
@@ -151,34 +179,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-ingenierie
 - Summary: Les publications récentes sur l'IA générative invitent à distinguer plusieurs niveaux d'analyse. L'OIT estime qu'un quart des emplois dans le monde se situent dans des occupations potentiellement exposées à l'IA générative, avec une exposition plus forte dans les pays à revenu élevé et, dans ces pays, une part de l'emploi féminin plus élevée dans les occupations les plus automatisables. L'OCDE ajoute que l'exposition moyenne des femmes et des hommes n'est pas radicalement différente à l'échelle des occupations observées, mais qu'elle se distribue différemment : davantage de femmes dans certains emplois administratifs très exposés, davantage d'hommes dans les métiers ICT et dans plusieurs professions au sommet de l'échelle d'exposition. Eurostat montre enfin qu'en 2025 les hommes déclaraient utiliser un peu plus souvent les outils d'IA générative que les femmes dans l'UE, et que les métiers ICT restaient très majoritairement masculins.
 - Sources: OIT: https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure; OIT: https://www.ilo.org/resource/news/one-four-jobs-risk-being-transformed-genai-new-ilo%E2%80%93nask-global-index-shows; OCDE: https://www.oecd.org/en/publications/algorithm-and-eve_a1603510-en.html; Eurostat: https://ec.europa.eu/eurostat/documents/7870049/23260410/KS-01-26-009-EN-N.pdf/37d063cb-28cf-3b4e-91f3-c3784c970842?t=1774528533658&version=1.1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Towards_Digital_Decade_targets_for_Europe
-
-### Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe
-- URL: https://isora-xi.vercel.app/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/
-- Date: 2026-06-30
-- Related isora entries: hommes-sorties-precoces, hommes-decrochage-garcons-monde
-- Summary: Eurostat a publié le 4 juin 2026 une nouvelle synthèse sur les sorties précoces d'éducation et de formation dans l'Union européenne. En 2025, 9,1 % des 18-24 ans de l'UE sont classés comme sortants précoces, avec un écart persistant entre jeunes hommes (10,6 %) et jeunes femmes (7,5 %). La source précise que cette asymétrie vaut dans presque tous les pays de l'UE, sauf en Roumanie et en Bulgarie. En France, la dernière série détaillée disponible dans la publication Insee du 6 janvier 2025 porte sur 2023 et mesure 9,5 % pour les hommes contre 5,6 % pour les femmes. L'OCDE et l'UNESCO ajoutent que ce désavantage masculin coexiste avec d'autres configurations: les jeunes femmes dépassent les jeunes hommes dans le supérieur dans de nombreux pays, tandis que les filles restent plus exposées à l'exclusion scolaire primaire dans certains contextes mondiaux.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260604-1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Early_leavers_from_education_and_training; Insee: https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778; OCDE: https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/to-what-level-have-adults-studied_c1d483b0.html; UNESCO: https://www.unesco.org/en/gender-equality/education/boys
-
-### Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée
-- URL: https://isora-xi.vercel.app/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/
-- Date: 2026-06-29
-- Related isora entries: femmes-soin-non-remunere-emploi, femmes-charge-domestique-soin
-- Summary: Les publications récentes invitent à séparer deux périmètres. Dans l'étude DREES publiée en décembre 2025, 7,1 millions de personnes aident régulièrement un proche à domicile en France métropolitaine, et 58 % sont des femmes. Dans l'étude DREES publiée en juin 2026, le champ plus étroit de l'aide à la vie quotidienne recense 5,3 millions d'aidants de 16 ans ou plus, dont 57 % de femmes, avec une baisse de 6 % depuis 2008 malgré la hausse des besoins déclarés. Cette même source indique aussi que l'implication des hommes aidants s'intensifie et que certaines tâches domestiques sont moins exclusivement féminines qu'en 2008. Les comparaisons OCDE et Eurostat confirment toutefois qu'à grande échelle, les femmes restent plus souvent impliquées dans le soin et le travail domestique non rémunérés.
-- Sources: DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/251217-ER-etudes-et-resultats/proches-aidants; DREES: https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-06/ER1377_Proches_aidants.pdf; OCDE: https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/informal-carers_6f243c4d.html; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=How_do_women_and_men_use_their_time_-_statistics
-
-### Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes
-- URL: https://isora-xi.vercel.app/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/
-- Date: 2026-06-28
-- Related isora entries: hommes-accidents-travail
-- Summary: Les publications récentes sur la sinistralité au travail invitent à distinguer plusieurs réalités. En France, le focus genre du rapport annuel 2024 de l'Assurance Maladie montre qu'en 2023 les hommes concentrent 62 % des accidents du travail reconnus, tandis que les femmes sont légèrement majoritaires dans les accidents de trajet et dans les maladies professionnelles reconnues. Le jeu de données 2024 sur les maladies professionnelles confirme cette légère majorité féminine dans le total, mais aussi une forte dissymétrie selon les pathologies : davantage de TMS et de troubles psychiques reconnus chez les femmes, davantage de cancers professionnels et de décès chez les hommes. A l'échelle européenne, Eurostat observe aussi une majorité masculine dans les accidents du travail non mortels.
-- Sources: Assurance Maladie - Risques professionnels: https://www.assurance-maladie.ameli.fr/sites/default/files/rapport_annuel_2024_de_lassurance_maladie_-_risques_professionnels_novembre_2025.pdf; Assurance Maladie - Risques professionnels: https://www.assurance-maladie.ameli.fr/etudes-et-donnees/mp-indicateurs-selon-age-sexe-profession-exposition; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260428-1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Accidents_at_work_statistics
-
-### Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue
-- URL: https://isora-xi.vercel.app/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/
-- Date: 2026-06-28
-- Related isora entries: hommes-esperance-vie, hommes-esperance-vie-monde
-- Summary: Les sources publiques récentes confirment deux constats différents selon l'indicateur retenu. En France comme dans l'Union européenne, les femmes vivent plus longtemps que les hommes. Mais lorsque l'on mesure les années vécues sans incapacité ou sans limitation d'activité, l'écart se réduit fortement: en France, la DREES estime en 2023 une espérance de vie sans incapacité à la naissance de 64,1 ans pour les femmes contre 63,7 ans pour les hommes, alors que l'écart d'espérance de vie totale atteint 5,6 ans en 2025 selon l'Insee. Les années de vie supplémentaires observées chez les femmes ne sont donc pas toutes des années sans limitation déclarée.
-- Sources: Insee: https://www.insee.fr/fr/statistiques/2416631; DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260122-ER-esperance-de-vie-sans-incapacite; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260313-3; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthy_life_years_statistics
 
 
 ## Hommes très majoritaires parmi les morts au travail
@@ -1629,11 +1629,11 @@ The articles are written in French and summarize recent reports and trends with 
 - Period: 2026+
 - Status: actuel
 - Key measure: 2/3
-- Summary: Selon Women, Business and the Law 2026, les femmes n'ont encore qu'environ deux tiers des droits économiques des hommes et 4 % vivent dans des économies proches de l'égalité juridique complète.
-- Nuance: La mesure porte sur les droits formels et leur environnement légal. L'application réelle peut être meilleure ou pire selon les institutions.
+- Summary: Selon Women, Business and the Law 2026, fondé sur des lois et politiques en vigueur jusqu'au 1er octobre 2025 dans 190 économies, les femmes n'ont encore qu'environ deux tiers des droits économiques des hommes et moins de 4 % vivent dans des économies proches de l'égalité juridique complète.
+- Nuance: La mesure porte sur des indicateurs juridiques comparés entre 190 économies et sur des lois et politiques en vigueur au 1er octobre 2025. Le rapport distingue les droits formels, les cadres de soutien et les perceptions d'application; il ne mesure pas directement tous les revenus réels ni toutes les pratiques locales de terrain.
 - Measured population: Population mesurée par la source : women / men dans les indicateurs juridiques Women, Business and the Law. La source ne mesure pas les chromosomes.
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
-- Sources: Banque mondiale (2026): https://wbl.worldbank.org/en/publications/flagship-report
+- Sources: Banque mondiale (2026): https://wbl.worldbank.org/en/publications/flagship-report; Banque mondiale (2026): https://www.worldbank.org/en/news/press-release/2026/02/24/women-s-economic-opportunity-laws-only-half-enforced-globally
 
 ## Femmes sous-représentées dans le pouvoir politique mondial
 - ID: femmes-representation-politique-monde
