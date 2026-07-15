@@ -2,8 +2,60 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-15T08:16:59.633Z",
+  "generatedAt": "2026-07-15T18:05:17.764Z",
   "posts": [
+    {
+      "id": "2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe",
+      "title": "Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/",
+      "description": "La DREES, l'Ordre des médecins et Eurostat montrent qu'en 2026 les femmes sont désormais majoritaires parmi les médecins, mais pas avec la même intensité partout.",
+      "date": "2026-07-15",
+      "publishedAt": "2026-07-15T18:04:01.000Z",
+      "updatedAt": "2026-07-15T18:04:01.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "médecins femmes hommes France 2026 DREES",
+        "démographie médicale France 2026 Ordre des médecins",
+        "professions de santé femmes hommes France",
+        "femmes majoritaires médecins Europe Eurostat",
+        "kinés pharmaciens dentistes femmes hommes 2026"
+      ],
+      "relatedClaimIds": [],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "5 000 médecins supplémentaires en activité en France au 1er janvier 2026",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-medecins-supplementaires-en-activite-en-France-au-1er-janvier-2026",
+          "date": "2 juillet 2026",
+          "type": "jeu de données"
+        },
+        {
+          "title": "Les effectifs de kinésithérapeutes, pharmaciens, chirurgiens-dentistes, sages-femmes et pédicures-podologues continuent de progresser entre début 2025 et début 2026",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-les-effectifs-des-professionnels-de-sant%C3%A9",
+          "date": "2 juillet 2026",
+          "type": "jeu de données"
+        },
+        {
+          "title": "Atlas de la démographie médicale en France 2026 - Tome 1",
+          "publisher": "Conseil national de l'Ordre des médecins",
+          "url": "https://www.conseil-national.medecin.fr/sites/default/files/CNOM-ATLAS-DEMOGRAPHIE-2026-TOME-1.pdf",
+          "date": "31 mars 2026",
+          "type": "atlas statistique"
+        },
+        {
+          "title": "Healthcare personnel statistics - physicians",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_personnel_statistics_-_physicians",
+          "date": "mise à jour 2026, données extraites en septembre 2025",
+          "type": "synthèse statistique"
+        }
+      ]
+    },
     {
       "id": "2026-07-15-monoparentalite-europe-femmes-precarite-france",
       "title": "Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins",

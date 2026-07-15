@@ -13,6 +13,13 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe
+- URL: https://isora-xi.vercel.app/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/
+- Date: 2026-07-15
+- Sujet: Santé, mortalité et parcours de soin
+- Resume: La DREES a mis à jour le 2 juillet 2026 la démographie des professions de santé en France : 242 200 médecins sont en activité au 1er janvier 2026 et 51 % sont des femmes. Croisées avec l'Atlas 2026 du Conseil national de l'Ordre des médecins et avec le panorama Eurostat sur les médecins en Europe, ces données montrent une féminisation nette mais inégale selon l'âge, la profession et le mode d'exercice.
+- Sources: DREES (2 juillet 2026): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-medecins-supplementaires-en-activite-en-France-au-1er-janvier-2026; DREES (2 juillet 2026): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-les-effectifs-des-professionnels-de-sant%C3%A9; Conseil national de l'Ordre des médecins (31 mars 2026): https://www.conseil-national.medecin.fr/sites/default/files/CNOM-ATLAS-DEMOGRAPHIE-2026-TOME-1.pdf; Eurostat (mise à jour 2026, données extraites en septembre 2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_personnel_statistics_-_physicians
+
 ### Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins
 - URL: https://isora-xi.vercel.app/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/
 - Date: 2026-07-15
