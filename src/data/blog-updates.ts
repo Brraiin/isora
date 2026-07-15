@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-separation-niveau-vie",
+    "side": "femmes",
+    "claimTitle": "Niveau de vie des femmes plus touché après séparation",
+    "claimMetric": "-17 % vs -7 %",
+    "blogTitle": "Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins",
+    "blogUrl": "/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/",
+    "date": "2026-07-15",
+    "updatedAt": "2026-07-15T06:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-residence-alternee",
+    "side": "hommes",
+    "claimTitle": "Résidence alternée encore rare pour les pères séparés",
+    "claimMetric": "14 %",
+    "blogTitle": "Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins",
+    "blogUrl": "/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/",
+    "date": "2026-07-15",
+    "updatedAt": "2026-07-15T06:30:00.000Z"
+  },
+  {
     "claimId": "hommes-ukraine-restrictions-sortie-2022-2025",
     "side": "hommes",
     "claimTitle": "Hommes ukrainiens d'âge militaire limités à la frontière",

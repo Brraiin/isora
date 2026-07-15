@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-07-13T00:00:00+02:00
+Last generation: 2026-07-15T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -124,6 +124,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins
+- URL: https://isora-xi.vercel.app/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/
+- Date: 2026-07-15
+- Related isora entries: femmes-separation-niveau-vie
+- Summary: Eurostat a publié le 1er juin 2026 une mise à jour montrant qu'en 2025 l'Union européenne comptait environ 6,1 millions de foyers avec enfants reposant sur un seul adulte, soit 12,9 % des ménages avec enfants, et que 81,6 % d'entre eux étaient dirigés par des femmes. Les sources françaises ne mesurent pas exactement la même chose, mais elles convergent sur une forte concentration de la monoparentalité du côté maternel. L'Insee indique qu'en 2023, 23 % des enfants mineurs vivant en famille résident dans une famille monoparentale, dont 19 % avec leur mère et 4 % avec leur père. Les publications Insee et DREES décrivent aussi des contraintes plus fortes sur ces ménages, avec davantage de privation matérielle, plus de chômage chez les mères seules et un recours plus fréquent aux proches pour garder les jeunes enfants.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260601-1; Insee: https://www.insee.fr/fr/statistiques/8967255; Insee: https://www.insee.fr/fr/statistiques/8310621; Blog Insee: https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/; DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250130_ER_monoparentalites-solidarites-familales
+
 ### Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE
 - URL: https://isora-xi.vercel.app/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/
 - Date: 2026-07-13
@@ -172,13 +179,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: hommes-accidents-route-monde
 - Summary: La veille du 2 juillet 2026 fait ressortir une asymétrie documentée mais à lire avec précision. En France métropolitaine, l'ONISR indique qu'en 2025 les hommes représentent 2 523 des 3 263 personnes décédées sur la route, soit 77 %. Eurostat décrit une structure très proche dans l'Union européenne en 2024, avec 15 332 hommes et 4 552 femmes parmi les décès dont le sexe est renseigné, soit environ trois quarts de victimes masculines sur la décennie récente. La Commission européenne ajoute qu'en 2025 la mortalité routière totale dans l'UE recule d'environ 3 %, sans signaler à ce stade un retournement de cette asymétrie de sexe.
 - Sources: ONISR: https://www.onisr.securite-routiere.gouv.fr/etat-de-linsecurite-routiere/bilans-annuels-de-la-securite-routiere/bilan-2025-de-la-securite-routiere; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_safety_statistics_in_the_EU; Commission européenne / CARE / ERSO: https://road-safety.transport.ec.europa.eu/document/download/ed29ad84-b2f1-429e-97ca-2b713e7dc1b1_en?filename=ERSOnext_AnnualReport_20260323.pdf; Commission européenne: https://transport.ec.europa.eu/news-events/news/eu-road-deaths-drop-3-2025-2026-03-24_en
-
-### IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins
-- URL: https://isora-xi.vercel.app/blog/2026-07-01-ia-generative-emplois-feminises-numerique/
-- Date: 2026-07-01
-- Related isora entries: femmes-ingenierie
-- Summary: Les publications récentes sur l'IA générative invitent à distinguer plusieurs niveaux d'analyse. L'OIT estime qu'un quart des emplois dans le monde se situent dans des occupations potentiellement exposées à l'IA générative, avec une exposition plus forte dans les pays à revenu élevé et, dans ces pays, une part de l'emploi féminin plus élevée dans les occupations les plus automatisables. L'OCDE ajoute que l'exposition moyenne des femmes et des hommes n'est pas radicalement différente à l'échelle des occupations observées, mais qu'elle se distribue différemment : davantage de femmes dans certains emplois administratifs très exposés, davantage d'hommes dans les métiers ICT et dans plusieurs professions au sommet de l'échelle d'exposition. Eurostat montre enfin qu'en 2025 les hommes déclaraient utiliser un peu plus souvent les outils d'IA générative que les femmes dans l'UE, et que les métiers ICT restaient très majoritairement masculins.
-- Sources: OIT: https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure; OIT: https://www.ilo.org/resource/news/one-four-jobs-risk-being-transformed-genai-new-ilo%E2%80%93nask-global-index-shows; OCDE: https://www.oecd.org/en/publications/algorithm-and-eve_a1603510-en.html; Eurostat: https://ec.europa.eu/eurostat/documents/7870049/23260410/KS-01-26-009-EN-N.pdf/37d063cb-28cf-3b4e-91f3-c3784c970842?t=1774528533658&version=1.1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Towards_Digital_Decade_targets_for_Europe
 
 
 ## Hommes très majoritaires parmi les morts au travail

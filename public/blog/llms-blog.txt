@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins
+- URL: https://isora-xi.vercel.app/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/
+- Date: 2026-07-15
+- Sujet: Famille, justice et droits
+- Fiches isora liees: femmes-separation-niveau-vie
+- Resume: Eurostat a publié le 1er juin 2026 une mise à jour montrant qu'en 2025 l'Union européenne comptait environ 6,1 millions de foyers avec enfants reposant sur un seul adulte, soit 12,9 % des ménages avec enfants, et que 81,6 % d'entre eux étaient dirigés par des femmes. Les sources françaises ne mesurent pas exactement la même chose, mais elles convergent sur une forte concentration de la monoparentalité du côté maternel. L'Insee indique qu'en 2023, 23 % des enfants mineurs vivant en famille résident dans une famille monoparentale, dont 19 % avec leur mère et 4 % avec leur père. Les publications Insee et DREES décrivent aussi des contraintes plus fortes sur ces ménages, avec davantage de privation matérielle, plus de chômage chez les mères seules et un recours plus fréquent aux proches pour garder les jeunes enfants.
+- Sources: Eurostat (1 juin 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260601-1; Insee (15 avril 2026): https://www.insee.fr/fr/statistiques/8967255; Insee (14 janvier 2025): https://www.insee.fr/fr/statistiques/8310621; Blog Insee (6 mars 2025): https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/; DREES (30 janvier 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250130_ER_monoparentalites-solidarites-familales
+
 ### Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE
 - URL: https://isora-xi.vercel.app/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/
 - Date: 2026-07-13

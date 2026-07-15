@@ -2,8 +2,69 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-13T20:31:35.088Z",
+  "generatedAt": "2026-07-15T08:16:59.633Z",
   "posts": [
+    {
+      "id": "2026-07-15-monoparentalite-europe-femmes-precarite-france",
+      "title": "Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/",
+      "description": "La mise à jour Eurostat du 1er juin 2026, croisée avec les publications Insee et DREES 2025-2026, montre une asymétrie durable : les foyers avec enfants à un seul adulte sont surtout dirigés par des femmes, et plusieurs indicateurs français décrivent une exposition plus forte à la précarité matérielle, au chômage et aux contraintes d'organisation lorsque les enfants vivent avec leur mère seule.",
+      "date": "2026-07-15",
+      "publishedAt": "2026-07-15T06:30:00.000Z",
+      "updatedAt": "2026-07-15T06:30:00.000Z",
+      "topic": {
+        "id": "famille-justice",
+        "label": "Famille, justice et droits"
+      },
+      "keywords": [
+        "monoparentalité Europe femmes hommes Eurostat 2026",
+        "familles monoparentales France Insee 2025 2026",
+        "mères seules précarité matérielle sociale France",
+        "enfants vivant avec un seul parent Insee 2023",
+        "asymétrie sexe familles monoparentales"
+      ],
+      "relatedClaimIds": [
+        "femmes-separation-niveau-vie"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "1 in 8 EU households with children rely on one adult",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260601-1",
+          "date": "1 juin 2026",
+          "type": "note statistique"
+        },
+        {
+          "title": "Privation matérielle et sociale en 2025",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/8967255",
+          "date": "15 avril 2026",
+          "type": "étude statistique"
+        },
+        {
+          "title": "En 2023, trois enfants sur dix vivent avec un seul de leurs parents",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/8310621",
+          "date": "14 janvier 2025",
+          "type": "Insee Première"
+        },
+        {
+          "title": "Évolution des inégalités entre les femmes et les hommes",
+          "publisher": "Blog Insee",
+          "url": "https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/",
+          "date": "6 mars 2025",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Monoparentalités : les solidarités familiales, un relais important au quotidien pour la prise en charge des jeunes enfants",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250130_ER_monoparentalites-solidarites-familales",
+          "date": "30 janvier 2025",
+          "type": "Études et Résultats"
+        }
+      ]
+    },
     {
       "id": "2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue",
       "title": "Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE",
