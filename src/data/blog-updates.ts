@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-soin-non-remunere-emploi",
+    "side": "femmes",
+    "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
+    "claimMetric": "708 M",
+    "blogTitle": "Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025",
+    "blogUrl": "/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/",
+    "date": "2026-07-16",
+    "updatedAt": "2026-07-16T18:30:00.000Z"
+  },
+  {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025",
+    "blogUrl": "/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/",
+    "date": "2026-07-16",
+    "updatedAt": "2026-07-16T18:30:00.000Z"
+  },
+  {
     "claimId": "femmes-separation-niveau-vie",
     "side": "femmes",
     "claimTitle": "Niveau de vie des femmes plus touché après séparation",
@@ -62,16 +82,6 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-07-07T06:30:00.000Z"
   },
   {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE",
-    "blogUrl": "/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/",
-    "date": "2026-07-07",
-    "updatedAt": "2026-07-07T06:30:00.000Z"
-  },
-  {
     "claimId": "femmes-feminicides-monde-2024",
     "side": "femmes",
     "claimTitle": "Femmes et filles tuées par des proches ou partenaires",
@@ -100,16 +110,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/",
     "date": "2026-07-06",
     "updatedAt": "2026-07-06T06:30:00.000Z"
-  },
-  {
-    "claimId": "femmes-soin-non-remunere-emploi",
-    "side": "femmes",
-    "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
-    "claimMetric": "708 M",
-    "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
-    "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
-    "date": "2026-07-05",
-    "updatedAt": "2026-07-05T07:30:00.000Z"
   },
   {
     "claimId": "femmes-charge-domestique-soin",

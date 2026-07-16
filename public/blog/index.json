@@ -2,8 +2,63 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-15T18:05:17.764Z",
+  "generatedAt": "2026-07-16T21:36:27.247Z",
   "posts": [
+    {
+      "id": "2026-07-16-duree-vie-travail-femmes-hommes-ue-france",
+      "title": "Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/",
+      "description": "La mise à jour Eurostat du 16 juillet 2026 montre une hausse de la durée de vie au travail dans l'UE, avec un écart toujours favorable aux hommes malgré une réduction depuis 2016.",
+      "date": "2026-07-16",
+      "publishedAt": "2026-07-16T18:30:00.000Z",
+      "updatedAt": "2026-07-16T18:30:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "durée de vie au travail femmes hommes UE 2025",
+        "Eurostat durée de vie au travail 2026",
+        "écart emploi femmes hommes Union européenne",
+        "taux d'emploi femmes hommes France 2026 Insee",
+        "participation au marché du travail femmes hommes"
+      ],
+      "relatedClaimIds": [
+        "femmes-temps-partiel",
+        "femmes-soin-non-remunere-emploi"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Duration of working life reached 37.5 years in 2025",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260716-2",
+          "date": "16 juillet 2026",
+          "type": "note statistique"
+        },
+        {
+          "title": "Duration of working life - statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Duration_of_working_life_-_statistics",
+          "date": "mise à jour juillet 2026, données extraites en juin 2026",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Employment - annual statistics",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_-_annual_statistics",
+          "date": "mise à jour 2026, données 2025",
+          "type": "synthèse statistique"
+        },
+        {
+          "title": "Au premier trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,1 %",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/8989990",
+          "date": "13 mai 2026",
+          "type": "statistique publique"
+        }
+      ]
+    },
     {
       "id": "2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe",
       "title": "Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe",
