@@ -2,8 +2,76 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-07-16T21:36:27.247Z",
+  "generatedAt": "2026-07-19T19:58:33.871Z",
   "posts": [
+    {
+      "id": "2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre",
+      "title": "Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré",
+      "url": "https://isora-xi.vercel.app/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/",
+      "description": "Les derniers comptages officiels 2025-2026 en Angleterre confirment une forte majorité masculine dans le rough sleeping, mais les sources plus larges sur l'hébergement temporaire et les formes moins visibles de sans-abrisme conduisent à une lecture moins simple.",
+      "date": "2026-07-19",
+      "publishedAt": "2026-07-19T19:56:40.000Z",
+      "updatedAt": "2026-07-19T19:56:40.000Z",
+      "topic": {
+        "id": "droits-autonomie",
+        "label": "Droits, autonomie et accès aux services"
+      },
+      "keywords": [
+        "sans-abrisme hommes femmes Angleterre 2026",
+        "rough sleeping England men women March 2026",
+        "rough sleeping snapshot autumn 2025 sex",
+        "homelessness England women hidden homelessness OECD",
+        "ONS homelessness census 2021 men women"
+      ],
+      "relatedClaimIds": [
+        "hommes-sans-abrisme"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Rough sleeping data framework: January to March 2026 release",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-release",
+          "date": "25 juin 2026",
+          "type": "statistique officielle"
+        },
+        {
+          "title": "Rough sleeping data framework: January to March 2026 technical notes",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-technical-notes",
+          "date": "25 juin 2026",
+          "type": "notice méthodologique"
+        },
+        {
+          "title": "Rough sleeping snapshot in England: autumn 2025",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/statistics/rough-sleeping-snapshot-in-england-autumn-2025/rough-sleeping-snapshot-in-england-autumn-2025",
+          "date": "26 février 2026",
+          "type": "statistique officielle"
+        },
+        {
+          "title": "People experiencing homelessness, England and Wales: Census 2021",
+          "publisher": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/peopleexperiencinghomelessnessenglandandwales/census2021",
+          "date": "6 décembre 2023",
+          "type": "analyse statistique"
+        },
+        {
+          "title": "Toolkit to Combat Homelessness - Measurement",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/topics/sub-issues/homelessness-and-housing-exclusion/toolkit-to-combat-homelessness/measurement.html",
+          "date": "page consultée en juillet 2026",
+          "type": "synthèse méthodologique"
+        },
+        {
+          "title": "OECD Homelessness Country Note - United Kingdom",
+          "publisher": "OECD",
+          "url": "https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf",
+          "date": "2024",
+          "type": "note pays"
+        }
+      ]
+    },
     {
       "id": "2026-07-16-duree-vie-travail-femmes-hommes-ue-france",
       "title": "Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025",

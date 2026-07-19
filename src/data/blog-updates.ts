@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-sans-abrisme",
+    "side": "hommes",
+    "claimTitle": "Hommes plus souvent sans-abri dans la plupart des pays",
+    "claimMetric": "majorité hommes",
+    "blogTitle": "Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré",
+    "blogUrl": "/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/",
+    "date": "2026-07-19",
+    "updatedAt": "2026-07-19T19:56:40.000Z"
+  },
+  {
     "claimId": "femmes-soin-non-remunere-emploi",
     "side": "femmes",
     "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
