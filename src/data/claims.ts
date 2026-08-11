@@ -1157,11 +1157,19 @@ const rawClaims: RawClaim[] = [
     side: "hommes",
     angle: "perception",
     domain: "Droits",
-    title: "Défense des hommes : pas de terme neutre stabilisé",
-    metric: "mot manquant",
+    title: "Masculinisme : défense des hommes ou terme péjoratif ?",
+    metric: "2 usages",
     summary:
-      "Les sources lexicographiques et institutionnelles consultées ne donnent pas au masculinisme un statut symétrique au féminisme. Le féminisme est couramment défini par les droits ou l'égalité des femmes, notamment face aux violences et injustices qui les concernent, ce qui donne au mot un cadrage public plutôt légitimant. Il manque en revanche un terme français aussi stabilisé pour désigner les personnes, hommes ou femmes, qui défendent factuellement les hommes face aux injustices ou asymétries défavorables aux hommes sans rabaisser les femmes. Larousse, Le Robert, l'Académie française, le HCE et le Sénat rattachent surtout le masculinisme à des usages antiféministes, sexistes, réactionnels, virilistes ou misogynes, tandis que l'OQLF propose une définition plus large mais précise que le mot reste péjoratif.",
-    tags: ["vocabulaire", "masculinisme", "féminisme", "dictionnaires", "représentations"],
+      "Isora emploie masculinisme pour le combat contre les asymétries en défaveur des garçons et des hommes, indépendamment du féminisme, du virilisme et de la misogynie. Les sources lexicographiques et institutionnelles consultées donnent toutefois souvent au mot un sens antiféministe, réactionnel, viriliste ou misogyne. Cette fiche documente le conflit d'usage et le choix éditorial d'isora sans présenter l'un des sens comme l'unique usage existant.",
+    tags: [
+      "vocabulaire",
+      "masculinisme",
+      "féminisme",
+      "virilisme",
+      "féminilisme",
+      "dictionnaires",
+      "représentations",
+    ],
     source: {
       label: "Grand dictionnaire terminologique - masculinisme",
       publisher: "Office québécois de la langue française / Grand dictionnaire terminologique",
@@ -1212,6 +1220,18 @@ const rawClaims: RawClaim[] = [
         date: "consulté le 25 juin 2026",
       },
       {
+        label: "Virilité défensive, masculinité créatrice",
+        publisher: "Pascale Molinier / Travail, genre et sociétés",
+        url: "https://shs.cairn.info/revue-travail-genre-et-societes-2000-1-page-25?lang=fr",
+        date: "2000",
+      },
+      {
+        label: "Faut-il repenser le concept de masculinité hégémonique ?",
+        publisher: "R. W. Connell et James W. Messerschmidt / Terrains & travaux",
+        url: "https://shs.cairn.info/revue-terrains-et-travaux-2015-2-page-151?lang=fr",
+        date: "traduction française 2015, article original 2005",
+      },
+      {
         label: "Définitions : misogyne",
         publisher: "Larousse",
         url: "https://www.larousse.fr/dictionnaires/francais/misogyne/51773",
@@ -1250,20 +1270,28 @@ const rawClaims: RawClaim[] = [
     ],
     translations: {
       en: {
-        title: "Defending men lacks a stabilized neutral term",
+        title: "Masculinism: advocacy for men or a pejorative label?",
         summary:
-          "The lexicographic and institutional sources consulted do not give masculinism a symmetrical status to feminism. Feminism is commonly defined through women's rights or equality, especially in relation to violence and injustices affecting women, which gives the word a broadly legitimating public framing. There is still no equally stabilized neutral French term for people, men or women, who factually defend men against injustices or asymmetries disadvantaging men without belittling women. Larousse, Le Robert, the Académie française, the HCE and the Senate mostly connect masculinism to anti-feminist, sexist, reactionary, virilist or misogynistic uses, while the OQLF gives a broader definition but notes that the word remains pejorative.",
+          "Isora uses masculinism for action against asymmetries disadvantaging boys and men, independently from feminism, virilism and misogyny. The lexicographic and institutional sources consulted nevertheless often give the French word masculinisme an anti-feminist, reactionary, virilist or misogynistic meaning. This entry documents the usage conflict and isora's editorial choice without presenting either meaning as the only existing use.",
         nuance:
-          "This entry documents dictionary and terminology definitions, public reports by the HCE and the French Senate, plus a few examples of feminist or pro-feminist advocacy on fathers' leave and care. It does not measure the whole history of male advocacy groups, feminist movements, or every use of these words. Terminological marker used here: feminism = action against asymmetries disadvantaging girls and women; masculinism = action against asymmetries disadvantaging boys and men; misandry = hatred or contempt of men; misogyny = hatred or contempt of women. One should therefore avoid confusing feminism with misandry, or masculinism with misogyny. A claim focused on one sex is not automatically hatred of the other; the analysis changes when the discourse belittles, dehumanizes or seeks to remove rights. A dictionary definition centred on equality does not prove that all feminist spaces treat male-specific disadvantages symmetrically; a pejorative definition of masculinism does not prove that every defence of male vulnerabilities is misogynistic.",
+          "Updated on 11 August 2026: isora now separates three independent axes. Advocacy: feminism addresses asymmetries disadvantaging girls and women; masculinism addresses those disadvantaging boys and men. Traditional gender-role norms: virilism prescribes a traditional virile male role; the editorial neologism féminilisme prescribes a traditional feminine female role and is related to the sociological concept of emphasized femininity. Hostility: misandry means hatred or contempt of men; misogyny means hatred or contempt of women. One person may combine positions across these axes, but no category is inferred from another. Personal enjoyment of traits perceived as masculine or feminine is not enough; virilism and féminilisme refer to turning them into sex-based expectations or hierarchies.",
         sourcePopulation:
-          "Population measured by the sources: dictionary and terminology entries for the French words masculinisme, féminisme, misogyne and misandre, 2026 public reports by the HCE and the French Senate on institutional uses of masculinisme, plus public positions by feminist or pro-feminist organizations on fathers, parental leave and care. These sources do not measure chromosomes.",
-        tags: ["vocabulary", "masculinism", "feminism", "dictionaries", "representations"],
+          "Material examined by the sources: dictionary and terminology entries for the French words masculinisme, féminisme, misogyne and misandre; 2026 public reports by the HCE and the French Senate; and social-science work on virility, hegemonic masculinity and emphasized femininity. These sources do not measure chromosomes.",
+        tags: [
+          "vocabulary",
+          "masculinism",
+          "feminism",
+          "virilism",
+          "féminilisme",
+          "dictionaries",
+          "representations",
+        ],
       },
     },
     confidence: "forte",
-    lastChecked: "5 juillet 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Cette fiche documente des définitions de dictionnaires et de terminologie, les rapports publics 2026 du HCE et du Sénat, ainsi que quelques exemples d'acteurs féministes ou pro-féministes mobilisés sur le congé des pères et le soin. Elle ne mesure pas toute l'histoire des groupes de défense des hommes, des mouvements féministes ni tous les usages de ces mots. Repère terminologique utilisé ici : féminisme = combat contre les asymétries en défaveur des filles et des femmes; masculinisme = combat contre les asymétries en défaveur des garçons et des hommes; misandrie = haine ou mépris des hommes; misogynie = haine ou mépris des femmes. Il faut donc éviter de confondre féminisme avec misandrie, ou masculinisme avec misogynie. Une revendication centrée sur un sexe ne relève pas automatiquement de la haine de l'autre; l'analyse change quand le discours rabaisse, déshumanise ou vise le retrait de droits. Une définition du féminisme centrée sur l'égalité ne prouve pas que tous les espaces féministes traitent symétriquement les désavantages masculins; une définition péjorative du masculinisme ne prouve pas que toute défense des vulnérabilités masculines soit misogyne.",
+      "Mise à jour du 11 août 2026 : isora sépare désormais trois axes indépendants. Combat : féminisme pour les asymétries en défaveur des filles et des femmes; masculinisme pour celles en défaveur des garçons et des hommes. Normes de rôles traditionnels : virilisme pour la prescription d'un rôle masculin viril; féminilisme, néologisme éditorial relié au concept sociologique de féminité accentuée, pour la prescription d'un rôle féminin traditionnel. Hostilité : misandrie pour la haine ou le mépris des hommes; misogynie pour la haine ou le mépris des femmes. Une personne peut cumuler des positions sur plusieurs axes, mais aucune catégorie n'est déduite d'une autre. Aimer personnellement des traits perçus comme masculins ou féminins ne suffit pas : virilisme et féminilisme visent leur transformation en attentes ou hiérarchies fondées sur le sexe.",
   },
   {
     id: "hommes-perception-garde-enfants-hce-2025",
@@ -3342,7 +3370,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-recits-antifeministes-hce-2025":
     "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.",
   "hommes-vocabulaire-masculinisme-pejoratif":
-    "Population mesurée par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat sur les usages institutionnels de masculinisme, ainsi que prises de position publiques d'organisations féministes ou pro-féministes sur les pères, le congé parental et le soin. Ces sources ne mesurent pas les chromosomes.",
+    "Matériau examiné par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat, et travaux de sciences sociales sur la virilité, la masculinité hégémonique et la féminité accentuée. Ces sources ne mesurent pas les chromosomes.",
   "hommes-perception-garde-enfants-hce-2025":
     "Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.",
   "hommes-attribution-laxisme-justice-violences-sexuelles":

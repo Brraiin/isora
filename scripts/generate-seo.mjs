@@ -1080,7 +1080,7 @@ ${lexiconEntries.map(renderLexiconEntryHtml).join("\n")}
     </main>
 
     <footer class="wrap method">
-      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent ici des combats contre des asymétries défavorables; misandrie et misogynie désignent des haines ou mépris de sexe.</p>
+      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent l'objet d'un combat; virilisme et féminilisme désignent l'adhésion à des rôles sexués traditionnels; misandrie et misogynie désignent des haines ou mépris de sexe. Ces trois axes sont indépendants.</p>
     </footer>
     <script src="/isora-soft-navigation.js" defer></script>
   </body>

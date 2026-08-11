@@ -9,7 +9,7 @@ export type LexiconEntry = {
 };
 
 export const lexiconNotice =
-  "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d'un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.";
+  "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sépare trois axes indépendants, le combat contre une asymétrie, l'adhésion à des rôles sexués traditionnels et la haine d'un sexe. Féminisme et masculinisme nomment ici l'objet d'un combat; virilisme et féminilisme nomment des normes de rôles; misandrie et misogynie nomment des haines ou des mépris.";
 
 export const lexiconEntries: LexiconEntry[] = [
   {
@@ -34,8 +34,8 @@ export const lexiconEntries: LexiconEntry[] = [
     category: "repere",
     definition: "Combat contre les asymétries en défaveur des filles et des femmes.",
     detail:
-      "Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Cette définition n'implique pas qu'une parole féministe serait automatiquement misandre.",
-    doNotConfuseWith: ["misandrie"],
+      "Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Il ne décrit à lui seul ni une opinion sur les hommes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être féministe et masculiniste selon les asymétries qu'elle défend.",
+    doNotConfuseWith: ["féminilisme", "misandrie"],
     relatedClaimIds: ["hommes-vocabulaire-masculinisme-pejoratif"],
   },
   {
@@ -44,8 +44,30 @@ export const lexiconEntries: LexiconEntry[] = [
     category: "repere",
     definition: "Combat contre les asymétries en défaveur des garçons et des hommes.",
     detail:
-      "Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines sans haine des femmes. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; cette fiche signale justement l'écart entre ce besoin lexical et l'usage courant.",
-    doNotConfuseWith: ["misogynie"],
+      "Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines. Il ne décrit à lui seul ni une opinion sur les femmes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être masculiniste et féministe selon les asymétries qu'elle défend. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; la fiche liée documente cet écart d'usage.",
+    doNotConfuseWith: ["virilisme", "misogynie"],
+    relatedClaimIds: ["hommes-vocabulaire-masculinisme-pejoratif"],
+  },
+  {
+    slug: "virilisme",
+    term: "Virilisme",
+    category: "repere",
+    definition:
+      "Adhésion à un modèle traditionnel de virilité et aux rôles patriarcaux attendus des hommes.",
+    detail:
+      "Le virilisme valorise ou prescrit selon le sexe des qualités et obligations comme la force, la dureté, la domination, l'initiative, la prise de risque, la protection matérielle ou le refus de la vulnérabilité. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme virils ne suffit pas : le repère vise leur transformation en norme attendue ou hiérarchiquement supérieure. Une personne de l'un ou l'autre sexe peut porter cette position.",
+    doNotConfuseWith: ["masculinisme", "misogynie"],
+    relatedClaimIds: ["hommes-vocabulaire-masculinisme-pejoratif"],
+  },
+  {
+    slug: "feminilisme",
+    term: "Féminilisme",
+    category: "repere",
+    definition:
+      "Néologisme éditorial d'isora : adhésion à un modèle traditionnel de féminité et aux rôles patriarcaux attendus des femmes.",
+    detail:
+      "Le féminilisme valorise ou prescrit selon le sexe des qualités, apparences et rôles comme la douceur, la retenue, le soin, la séduction, la dépendance matérielle ou l'attente de galanterie, de protection et de prise en charge par les hommes. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme féminins ou apprécier un geste galant ne suffit pas : le repère vise leur transformation en norme sexuée. Le concept sociologique de « féminité accentuée » décrit un phénomène voisin de conformité au patriarcat. Une personne de l'un ou l'autre sexe peut porter cette position.",
+    doNotConfuseWith: ["féminisme", "misandrie"],
     relatedClaimIds: ["hommes-vocabulaire-masculinisme-pejoratif"],
   },
   {
