@@ -976,7 +976,8 @@ const rawClaims: RawClaim[] = [
     },
     additionalSources: [
       {
-        label: "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+        label:
+          "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste — intitulé de la source, non repris par Isora",
         publisher: "Haut Conseil à l'Égalité",
         url: "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
         date: "21 janvier 2026",
@@ -1000,16 +1001,16 @@ const rawClaims: RawClaim[] = [
         summary:
           "In the HCE/Toluna Harris survey conducted from 13 to 21 November 2025, the HCE-LAPSCO analysis estimates that 17% of people aged 15 and over are favourable to hostile sexism. This endorsement concerns 23% of surveyed men and 12% of surveyed women, corresponding to around six million men and three and a half million women in France.",
         nuance:
-          "In this source, hostile sexism refers to negative, contemptuous or aggressive attitudes toward women. The indicator measures endorsement of opinion items in a representative survey; it does not measure hostile acts committed by each person, hostility toward men, anti-male statements by feminist actors, or parliamentary rhetoric. Women also endorse these items, but the measured level is higher among men. A symmetrical assessment of misandry or stigmatizing discourse toward all men would require other items and other sources.",
+          "In this source, hostile sexism refers to negative, contemptuous or aggressive attitudes toward women. The indicator measures endorsement of opinion items in a representative survey; it does not measure hostile acts committed by each person, hostility toward men, anti-male statements by feminist actors, or parliamentary rhetoric. Women also endorse these items, but the measured level is higher among men. A symmetrical assessment of misandry or stigmatizing discourse toward all men would require other items and other sources. The HCE report title uses the French word masculiniste; Isora preserves that title for traceability but classifies the measured content as hostile sexism, not as masculinism in Isora's editorial sense.",
         sourcePopulation:
           "Population measured by the source: people aged 15 and over in France, with a men/women comparison in the November 2025 HCE/Toluna Harris survey. The source does not measure chromosomes.",
         tags: ["sexism", "stereotypes", "France", "HCE", "opinion"],
       },
     },
     confidence: "forte",
-    lastChecked: "22 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources.",
+      "Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources. Le titre du rapport HCE emploie le mot « masculiniste »; Isora conserve cet intitulé pour la traçabilité, mais classe ici le contenu mesuré comme sexisme hostile et non comme masculinisme au sens éditorial du site.",
   },
   {
     id: "hommes-femmes-sexisme-paternaliste-hce-2025",
@@ -1029,7 +1030,8 @@ const rawClaims: RawClaim[] = [
     },
     additionalSources: [
       {
-        label: "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+        label:
+          "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste — intitulé de la source, non repris par Isora",
         publisher: "Haut Conseil à l'Égalité",
         url: "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
         date: "21 janvier 2026",
@@ -1053,16 +1055,16 @@ const rawClaims: RawClaim[] = [
         summary:
           "In the same November 2025 HCE/Toluna Harris survey, 23% of respondents are favourable to paternalistic sexism. It is measured among 27% of surveyed men and 18% of surveyed women, corresponding to around 7.5 million men and 5 million women in France.",
         nuance:
-          "This entry does not present paternalistic sexism as a property of one sex. It describes a frequency asymmetry in the survey: men are higher in proportion and in estimated volume, while a measurable share of women also endorse these norms. The source measures opinions, not individual behaviour or causality.",
+          "This entry does not present paternalistic sexism as a property of one sex. It describes a frequency asymmetry in the survey: men are higher in proportion and in estimated volume, while a measurable share of women also endorse these norms. The source measures opinions, not individual behaviour or causality. The HCE report title uses the French word masculiniste; Isora preserves that title for traceability but classifies this entry as paternalistic sexism. Virilism or misogyny must be established separately from the content of each item.",
         sourcePopulation:
           "Population measured by the source: people aged 15 and over in France, with a men/women comparison in the November 2025 HCE/Toluna Harris survey. The source does not measure chromosomes.",
         tags: ["sexism", "stereotypes", "France", "HCE", "opinion"],
       },
     },
     confidence: "forte",
-    lastChecked: "21 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité.",
+      "Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité. Le titre du rapport HCE emploie le mot « masculiniste »; Isora conserve cet intitulé pour la traçabilité, mais classe cette fiche comme sexisme paternaliste. Le virilisme ou la misogynie doivent être établis séparément à partir du contenu de chaque item.",
   },
   {
     id: "hommes-consentement-rapports-sexuels-hce-2025",
@@ -1120,7 +1122,7 @@ const rawClaims: RawClaim[] = [
     metric: "60 %",
     summary:
       "Dans le baromètre cité par le HCE, 60 % des hommes pensent que les féministes veulent que les femmes aient plus de pouvoir que les hommes, et 60 % estiment que les féministes ont des demandes exagérées envers les hommes. Le rapport indique aussi que 39 % des hommes, contre 25 % des femmes, estiment que le féminisme menace la place et le rôle des hommes dans la société.",
-    tags: ["féminisme", "masculinisme", "opinion", "France", "HCE"],
+    tags: ["féminisme", "antiféminisme", "opinion", "France", "HCE"],
     source: {
       label: "Rapport 2026 sur l'état des lieux du sexisme en France",
       publisher: "Haut Conseil à l'Égalité",
@@ -1141,26 +1143,26 @@ const rawClaims: RawClaim[] = [
         summary:
           "In the barometer cited by the HCE, 60% of men think feminists want women to have more power than men, and 60% think feminists make excessive demands on men. The report also states that 39% of men, compared with 25% of women, think feminism threatens men's place and role in society.",
         nuance:
-          "These figures measure agreement with opinion statements, not membership in a movement or intent. The comparison also shows that some women endorse the same statements, while the level measured among men is higher.",
+          "These figures measure agreement with opinion statements, not membership in a movement or intent. The comparison also shows that some women endorse the same statements, while the level measured among men is higher. Isora classifies these items as anti-feminist opinions; they do not establish masculinism in Isora's editorial sense, virilism, misogyny or violent conduct.",
         sourcePopulation:
           "Population measured by the source: people surveyed in France in the November 2025 HCE/Toluna Harris barometer, with several items reported for men and one men/women comparison. The source does not measure chromosomes.",
-        tags: ["feminism", "masculinism", "opinion", "France", "HCE"],
+        tags: ["feminism", "anti-feminism", "opinion", "France", "HCE"],
       },
     },
     confidence: "forte",
-    lastChecked: "21 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes.",
+      "Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes. Isora classe ces items comme opinions antiféministes; ils n'établissent ni un masculinisme au sens éditorial du site, ni un virilisme, ni une misogynie, ni un comportement violent.",
   },
   {
     id: "hommes-vocabulaire-masculinisme-pejoratif",
     side: "hommes",
     angle: "perception",
     domain: "Droits",
-    title: "Masculinisme : défense des hommes ou terme péjoratif ?",
-    metric: "2 usages",
+    title: "Masculinisme : définition Isora et usages péjoratifs des sources",
+    metric: "3 axes",
     summary:
-      "Isora emploie masculinisme pour le combat contre les asymétries en défaveur des garçons et des hommes, indépendamment du féminisme, du virilisme et de la misogynie. Les sources lexicographiques et institutionnelles consultées donnent toutefois souvent au mot un sens antiféministe, réactionnel, viriliste ou misogyne. Cette fiche documente le conflit d'usage et le choix éditorial d'isora sans présenter l'un des sens comme l'unique usage existant.",
+      "Isora emploie masculinisme pour le combat factuel et pacifique contre les asymétries en défaveur des garçons et des hommes. Lorsqu'une source utilise ce mot pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, le site conserve son intitulé exact pour la traçabilité mais ne reprend pas cette qualification à son compte. Chaque élément est classé séparément selon son contenu observable.",
     tags: [
       "vocabulaire",
       "masculinisme",
@@ -1196,13 +1198,15 @@ const rawClaims: RawClaim[] = [
         date: "publié en juin 2026",
       },
       {
-        label: "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+        label:
+          "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste — intitulé de la source, non repris par Isora",
         publisher: "Haut Conseil à l'Égalité",
         url: "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
         date: "21 janvier 2026",
       },
       {
-        label: "Mascus : la nouvelle offensive contre les femmes",
+        label:
+          "Mascus : la nouvelle offensive contre les femmes — intitulé de la source, non repris par Isora",
         publisher: "Sénat, Délégation aux droits des femmes",
         url: "https://www.senat.fr/rap/r25-776-1/r25-776-1_mono.html",
         date: "23 juin 2026",
@@ -1270,11 +1274,11 @@ const rawClaims: RawClaim[] = [
     ],
     translations: {
       en: {
-        title: "Masculinism: advocacy for men or a pejorative label?",
+        title: "Masculinism: Isora's definition and sources' pejorative uses",
         summary:
-          "Isora uses masculinism for action against asymmetries disadvantaging boys and men, independently from feminism, virilism and misogyny. The lexicographic and institutional sources consulted nevertheless often give the French word masculinisme an anti-feminist, reactionary, virilist or misogynistic meaning. This entry documents the usage conflict and isora's editorial choice without presenting either meaning as the only existing use.",
+          "Isora uses masculinism for factual and peaceful action against asymmetries disadvantaging boys and men. When a source uses the French word masculinisme for anti-feminism, virilism, misogyny or violent acts, the site preserves the exact source title for traceability but does not adopt that classification. Each element is classified separately from observable content.",
         nuance:
-          "Updated on 11 August 2026: isora now separates three independent axes. Advocacy: feminism addresses asymmetries disadvantaging girls and women; masculinism addresses those disadvantaging boys and men. Traditional gender-role norms: virilism prescribes a traditional virile male role; the editorial neologism féminilisme prescribes a traditional feminine female role and is related to the sociological concept of emphasized femininity. Hostility: misandry means hatred or contempt of men; misogyny means hatred or contempt of women. One person may combine positions across these axes, but no category is inferred from another. Personal enjoyment of traits perceived as masculine or feminine is not enough; virilism and féminilisme refer to turning them into sex-based expectations or hierarchies.",
+          "Updated on 11 August 2026: Isora separates three independent axes. Advocacy: feminism addresses asymmetries disadvantaging girls and women; masculinism addresses those disadvantaging boys and men. Traditional gender-role norms: virilism prescribes a traditional virile male role; the editorial neologism féminilisme prescribes a traditional feminine female role. Hostility: misandry means hatred or contempt of men; misogyny means hatred or contempt of women. A source title or quotation is preserved exactly, but its terminology does not control Isora's classification. Anti-feminism, virilism, misogyny and violent conduct require separate observable evidence. Peaceful advocacy for men must never be assigned to those categories by association alone.",
         sourcePopulation:
           "Material examined by the sources: dictionary and terminology entries for the French words masculinisme, féminisme, misogyne and misandre; 2026 public reports by the HCE and the French Senate; and social-science work on virility, hegemonic masculinity and emphasized femininity. These sources do not measure chromosomes.",
         tags: [
@@ -1291,7 +1295,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "11 août 2026",
     nuance:
-      "Mise à jour du 11 août 2026 : isora sépare désormais trois axes indépendants. Combat : féminisme pour les asymétries en défaveur des filles et des femmes; masculinisme pour celles en défaveur des garçons et des hommes. Normes de rôles traditionnels : virilisme pour la prescription d'un rôle masculin viril; féminilisme, néologisme éditorial relié au concept sociologique de féminité accentuée, pour la prescription d'un rôle féminin traditionnel. Hostilité : misandrie pour la haine ou le mépris des hommes; misogynie pour la haine ou le mépris des femmes. Une personne peut cumuler des positions sur plusieurs axes, mais aucune catégorie n'est déduite d'une autre. Aimer personnellement des traits perçus comme masculins ou féminins ne suffit pas : virilisme et féminilisme visent leur transformation en attentes ou hiérarchies fondées sur le sexe.",
+      "Mise à jour du 11 août 2026 : Isora sépare trois axes indépendants. Combat : féminisme pour les asymétries en défaveur des filles et des femmes; masculinisme pour celles en défaveur des garçons et des hommes. Normes de rôles traditionnels : virilisme et féminilisme. Hostilité : misandrie et misogynie. Le titre ou la citation d'une source reste exact, mais son vocabulaire ne détermine pas la qualification d'Isora. Antiféminisme, virilisme, misogynie et violence exigent chacun un contenu observable distinct. Une revendication masculine pacifique ne doit jamais leur être assimilée par simple association. L'effacement systématique d'une telle revendication à cause du sexe qu'elle défend peut être décrit comme une disqualification sexiste ou une violence lexicale, sans présenter cette qualification éditoriale comme une infraction pénale automatiquement établie.",
   },
   {
     id: "hommes-perception-garde-enfants-hce-2025",

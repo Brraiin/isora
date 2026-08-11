@@ -44,7 +44,7 @@ export const lexiconEntries: LexiconEntry[] = [
     category: "repere",
     definition: "Combat contre les asymétries en défaveur des garçons et des hommes.",
     detail:
-      "Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines. Il ne décrit à lui seul ni une opinion sur les femmes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être masculiniste et féministe selon les asymétries qu'elle défend. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; la fiche liée documente cet écart d'usage.",
+      "Dans isora, ce repère sert à nommer la défense factuelle et pacifique des vulnérabilités masculines. Il ne décrit à lui seul ni une opinion sur les femmes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être masculiniste et féministe selon les asymétries qu'elle défend. Lorsqu'un dictionnaire, un média ou un rapport public emploie masculinisme pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, isora conserve le titre exact pour la traçabilité mais ne reprend pas cette qualification à son compte : chaque élément est reclassé séparément selon son contenu observable.",
     doNotConfuseWith: ["virilisme", "misogynie"],
     relatedClaimIds: ["hommes-vocabulaire-masculinisme-pejoratif"],
   },
@@ -76,7 +76,7 @@ export const lexiconEntries: LexiconEntry[] = [
     category: "haine",
     definition: "Haine ou mépris des hommes.",
     detail:
-      "La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres.",
+      "La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres. La disqualification générale d'une revendication masculine pacifique à cause du sexe qu'elle défend peut être étudiée comme une disqualification sexiste; la misandrie ne doit toutefois être retenue que si une haine ou un mépris des hommes est observable.",
     doNotConfuseWith: ["féminisme"],
     relatedClaimIds: ["hommes-vocabulaire-masculinisme-pejoratif"],
   },

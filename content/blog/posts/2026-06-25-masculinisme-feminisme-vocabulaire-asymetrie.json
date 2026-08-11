@@ -7,7 +7,7 @@
   "description": "Isora sépare le combat contre une asymétrie, l'adhésion aux rôles sexués traditionnels et la haine d'un sexe, et propose féminilisme comme pendant éditorial de virilisme.",
   "date": "2026-06-25",
   "publishedAt": "2026-06-25T20:30:00.000Z",
-  "updatedAt": "2026-08-11T12:00:00.000Z",
+  "updatedAt": "2026-08-11T14:00:00.000Z",
   "topic": {
     "id": "droits-autonomie",
     "label": "Droits, autonomie et accès aux services"
@@ -37,7 +37,7 @@
     "Féminilisme est un néologisme éditorial d'isora pour la prescription des rôles féminins traditionnels; il n'est pas synonyme de féminisme.",
     "Le simple goût personnel pour une apparence féminine, une attitude virile ou un geste galant ne suffit pas : virilisme et féminilisme commencent lorsque ces choix deviennent des attentes fondées sur le sexe.",
     "Misandrie et misogynie désignent respectivement la haine ou le mépris des hommes et des femmes; ces notions forment un troisième axe indépendant.",
-    "Les dictionnaires français donnent souvent à masculinisme un sens antiféministe ou viriliste. Isora documente cet usage, mais annonce explicitement son propre repère éditorial."
+    "Quand une source emploie masculinisme dans un sens péjoratif, Isora conserve son intitulé pour la traçabilité sans reprendre cette qualification à son compte. Le contenu est reclassé séparément en antiféminisme, virilisme, misogynie, violence ou misandrie lorsqu'un élément observable l'établit."
   ],
   "sections": [
     {
@@ -74,11 +74,12 @@
       ]
     },
     {
-      "heading": "Pourquoi l'usage courant de masculinisme reste documenté",
+      "heading": "Lire les sources sans adopter leur amalgame",
       "paragraphs": [
         "Le choix d'isora ne change pas automatiquement l'usage dominant. L'Académie française définit actuellement le masculinisme comme un mouvement qui voit les avancées du féminisme comme une menace et qui valorise un homme viril et dominateur. Le HCE emploie également le mot pour une forme structurée d'antiféminisme. L'OQLF retient une définition plus large liée à la condition masculine, tout en signalant une connotation péjorative.",
-        "Ces sources établissent qu'un lecteur peut comprendre masculinisme dans un sens différent de celui d'isora. Le site conservera donc une note explicite : définition éditoriale d'isora d'un côté, usages lexicographiques et institutionnels de l'autre.",
-        "La divergence elle-même constitue une asymétrie de vocabulaire documentable. Elle ne justifie toutefois pas d'attribuer automatiquement une intention hostile à chaque dictionnaire, journaliste, association ou personne qui emploie le sens courant."
+        "Isora conserve le titre exact de ces documents et les citations verbatim, car les modifier falsifierait la source. En revanche, leur vocabulaire n'impose pas celui du site. Une opposition au féminisme est classée comme antiféminisme; la prescription d'un homme viril et dominateur comme virilisme; la haine ou le mépris des femmes comme misogynie; une menace ou une violence comme l'acte précis qui est documenté.",
+        "Une revendication pacifique contre une asymétrie défavorable aux hommes reste du masculinisme au sens d'isora. Elle ne devient ni viriliste, ni misogyne, ni violente parce qu'un rapport, un gouvernement ou un média l'associe à ces catégories. Une telle assimilation peut constituer une disqualification sexiste ou une violence lexicale lorsqu'elle efface la revendication à cause du sexe qu'elle défend; cette qualification éditoriale ne doit pas être confondue avec une infraction pénale automatiquement établie.",
+        "La divergence constitue donc une asymétrie de vocabulaire documentable. Isora n'attribue pas automatiquement une intention misandre à l'auteur d'une source : il sépare les données mesurées, l'interprétation de la source et sa propre qualification fondée sur le contenu observable."
       ]
     },
     {
@@ -121,7 +122,7 @@
     },
     {
       "question": "Pourquoi isora n'utilise-t-il pas simplement les définitions des dictionnaires ?",
-      "answer": "Le site documente ces définitions mais adopte un lexique éditorial pour séparer l'objet d'un combat, les normes de rôles et la haine d'un sexe. La divergence est annoncée afin que le lecteur sache toujours quel sens est utilisé."
+      "answer": "Le site documente ces définitions mais adopte un lexique éditorial pour séparer l'objet d'un combat, les normes de rôles et la haine d'un sexe. Le titre exact d'une source est conservé, puis son contenu est requalifié selon les faits observables. Une revendication masculine pacifique n'est jamais assimilée au virilisme, à la misogynie ou à la violence sans preuve."
     }
   ],
   "sources": [
@@ -147,7 +148,7 @@
       "type": "dictionnaire"
     },
     {
-      "title": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+      "title": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste [intitulé de la source, non repris par Isora]",
       "publisher": "Haut Conseil à l'Égalité",
       "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
       "date": "21 janvier 2026",
@@ -171,7 +172,7 @@
   "editorialChecks": {
     "generatedBy": "mise à jour éditoriale Codex",
     "model": "codex",
-    "generatedAt": "2026-08-11T12:00:00.000Z",
+    "generatedAt": "2026-08-11T14:00:00.000Z",
     "requiresHumanReview": false
   }
 }

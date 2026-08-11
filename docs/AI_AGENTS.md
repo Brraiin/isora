@@ -103,6 +103,21 @@ Principes editoriaux du blog :
 - renseigner `relatedClaimIds` avec les IDs des fiches existantes quand un article actualise ou contextualise leur donnee; `npm run seo` regenere ensuite les tuiles de la home depuis cette relation;
 - produire une page HTML statique indexable, avec schema.org `BlogPosting`, FAQ, canonical, RSS et entree sitemap.
 
+### Terminologie féminisme / masculinisme
+
+Avant d'utiliser une source qui emploie `masculinisme`, lire et appliquer :
+
+```text
+/Users/eve/Web dev/Isora/docs/TERMINOLOGIE_MASCULINISME.md
+```
+
+Conserver le titre exact et les citations de la source, mais ne jamais reprendre
+automatiquement sa qualification. Isora réserve `masculinisme` au combat contre
+les asymétries en défaveur des garçons et des hommes. Requalifier séparément,
+selon le contenu observable, l'antiféminisme, le virilisme, la misogynie, la
+violence ou la misandrie. Ne jamais assimiler une revendication masculine
+pacifique à l'une de ces catégories sans preuve.
+
 ## Veille et nouvelles fiches
 
 `scripts/research-agent.mjs` demande aux agents de veille de produire chaque proposition avec deux blocs :
