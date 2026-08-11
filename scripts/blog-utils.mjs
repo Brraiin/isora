@@ -1,6 +1,7 @@
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import ts from "typescript";
 import { renderFaviconLinks } from "./favicon-links.mjs";
 import { renderStaticHeader, renderStaticHeaderCss } from "./static-header.mjs";
 
@@ -11,6 +12,8 @@ export const blogContentDir = join(root, "content", "blog");
 export const blogPostsDir = join(blogContentDir, "posts");
 export const publicDir = join(root, "public");
 export const publicBlogDir = join(publicDir, "blog");
+const lexiconFile = join(root, "src", "data", "lexicon.ts");
+const lexiconTempFile = join(root, "node_modules", ".cache", "isora-blog-lexicon.mjs");
 
 const blogPostsPerPage = 15;
 
@@ -71,6 +74,61 @@ export function htmlEscape(value = "") {
 
 function htmlWithBrand(value = "") {
   return htmlEscape(value).replace(/\bisora\b/gi, "<em>isora</em>");
+}
+
+let lexiconModulePromise;
+
+async function loadLexiconModule() {
+  if (!lexiconModulePromise) {
+    lexiconModulePromise = (async () => {
+      const source = await readFile(lexiconFile, "utf8");
+      const transpiled = ts.transpileModule(source, {
+        compilerOptions: {
+          module: ts.ModuleKind.ESNext,
+          target: ts.ScriptTarget.ES2022,
+          verbatimModuleSyntax: false,
+        },
+      }).outputText;
+
+      await mkdir(dirname(lexiconTempFile), { recursive: true });
+      await writeFile(lexiconTempFile, transpiled, "utf8");
+      const module = await import(`${pathToFileURL(lexiconTempFile).href}?t=${Date.now()}`);
+      await rm(lexiconTempFile, { force: true });
+      return module;
+    })();
+  }
+
+  return lexiconModulePromise;
+}
+
+function htmlWithVocabulary(value, lexiconModule, locale = "fr") {
+  const text = String(value ?? "");
+  const matches = lexiconModule.getLexiconMatches(text, locale);
+
+  if (matches.length === 0) return htmlWithBrand(text);
+
+  const tooltip = locale === "fr" ? "Voir la définition dans le lexique" : "View the definition in the lexicon";
+  const parts = [];
+  let lastIndex = 0;
+
+  for (const match of matches) {
+    if (match.start > lastIndex) {
+      parts.push(htmlWithBrand(text.slice(lastIndex, match.start)));
+    }
+
+    parts.push(
+      `<a class="lexicon-term" href="/lexique/#${htmlEscape(match.entry.slug)}" aria-label="${htmlEscape(
+        `${match.text} — ${tooltip}`,
+      )}" data-tooltip="${htmlEscape(tooltip)}">${htmlEscape(match.text)}</a>`,
+    );
+    lastIndex = match.end;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(htmlWithBrand(text.slice(lastIndex)));
+  }
+
+  return parts.join("");
 }
 
 export function xmlEscape(value = "") {
@@ -312,6 +370,10 @@ function renderCss() {
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -500,7 +562,7 @@ function renderSourceList(sources) {
     .join("");
 }
 
-function renderArticleHtml(post, config) {
+function renderArticleHtml(post, config, lexiconModule) {
   const siteUrl = getSiteUrl(config);
   const postUrl = getPostUrl(post, config);
   const title = post.title;
@@ -620,8 +682,8 @@ ${renderFaviconLinks()}
       <div class="wrap hero-inner">
         <div class="hero-copy">
           <p class="kicker">${htmlEscape(post.topic.label)}</p>
-          <h1>${htmlWithBrand(title)}</h1>
-          <p class="lead">${htmlWithBrand(post.summary)}</p>
+          <h1>${htmlWithVocabulary(title, lexiconModule)}</h1>
+          <p class="lead">${htmlWithVocabulary(post.summary, lexiconModule)}</p>
           <div class="meta" aria-label="Métadonnées">
             <span class="pill">${htmlEscape(formatFrenchDate(post.date))}</span>
             <span class="pill">${post.readingMinutes} min</span>
@@ -654,7 +716,7 @@ ${renderFaviconLinks()}
         <section class="section" aria-labelledby="points-cles">
           <h2 id="points-cles">Points clés</h2>
           <ul class="keypoints">
-            ${post.keyPoints.map((point) => `<li>${htmlWithBrand(point)}</li>`).join("")}
+            ${post.keyPoints.map((point) => `<li>${htmlWithVocabulary(point, lexiconModule)}</li>`).join("")}
           </ul>
         </section>
 
@@ -662,8 +724,8 @@ ${renderFaviconLinks()}
           .map(
             (section) => `
               <section class="section">
-                <h2>${htmlWithBrand(section.heading)}</h2>
-                ${section.paragraphs.map((paragraph) => `<p>${htmlWithBrand(paragraph)}</p>`).join("")}
+                <h2>${htmlWithVocabulary(section.heading, lexiconModule)}</h2>
+                ${section.paragraphs.map((paragraph) => `<p>${htmlWithVocabulary(paragraph, lexiconModule)}</p>`).join("")}
               </section>
             `,
           )
@@ -678,8 +740,8 @@ ${renderFaviconLinks()}
                     .map(
                       (item) => `
                         <details>
-                          <summary>${htmlWithBrand(item.question)}</summary>
-                          <p>${htmlWithBrand(item.answer)}</p>
+                          <summary>${htmlWithVocabulary(item.question, lexiconModule)}</summary>
+                          <p>${htmlWithVocabulary(item.answer, lexiconModule)}</p>
                         </details>
                       `,
                     )
@@ -1091,6 +1153,7 @@ export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
 export async function renderBlogAssets({ config, posts } = {}) {
   const resolvedConfig = config ?? (await loadBlogConfig());
   const resolvedPosts = posts ?? (await loadBlogPosts());
+  const lexiconModule = await loadLexiconModule();
   const totalPages = getBlogPageCount(resolvedPosts);
   const postPages = Array.from({ length: totalPages }, (_, index) => {
     const pageNumber = index + 1;
@@ -1127,7 +1190,7 @@ export async function renderBlogAssets({ config, posts } = {}) {
     resolvedPosts.map(async (post) => {
       const postDir = join(publicBlogDir, post.slug);
       await mkdir(postDir, { recursive: true });
-      await writeFile(join(postDir, "index.html"), renderArticleHtml(post, resolvedConfig), "utf8");
+      await writeFile(join(postDir, "index.html"), renderArticleHtml(post, resolvedConfig, lexiconModule), "utf8");
     }),
   );
 

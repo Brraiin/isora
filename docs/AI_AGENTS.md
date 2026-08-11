@@ -153,6 +153,22 @@ Apres modification de fiches, regenerer les sorties publiques avec `npm run seo`
 et verifier avec `npm run build`. Le compte-rendu final doit nommer les fiches
 modifiees et confirmer que la date et le detail ont ete mis a jour.
 
+## Vocabulaire cliquable
+
+Les articles, fiches et tuiles d'asymetrie rendent automatiquement les termes
+declares dans `src/data/lexicon.ts` cliquables vers leur definition dans
+`/lexique/`, avec l'infobulle accessible « Voir la definition dans le lexique ».
+Lors de l'ajout d'un terme editorial, renseigner ses variantes francaises et
+anglaises dans son champ `forms`; ne pas coder une liste parallele dans un
+composant ou un generateur.
+
+`antifeminisme` designe l'opposition de principe au feminisme ou la
+disqualification systematique des combats feministes pacifiques.
+`antimasculinisme` designe symetriquement l'opposition de principe au
+masculinisme ou la disqualification systematique des combats masculinistes
+pacifiques. Un desaccord ponctuel avec une statistique, une methode ou une
+revendication ne suffit pas a retenir l'un de ces termes.
+
 ## Traductions dans les donnees
 
 Une fiche peut porter une traduction anglaise relue dans `src/data/claims.ts` via `translations.en` :

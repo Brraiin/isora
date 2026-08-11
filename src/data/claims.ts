@@ -1160,13 +1160,15 @@ const rawClaims: RawClaim[] = [
     angle: "perception",
     domain: "Droits",
     title: "Masculinisme : définition Isora et usages péjoratifs des sources",
-    metric: "3 axes",
+    metric: "4 axes",
     summary:
-      "Isora emploie masculinisme pour le combat factuel et pacifique contre les asymétries en défaveur des garçons et des hommes. Lorsqu'une source utilise ce mot pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, le site conserve son intitulé exact pour la traçabilité mais ne reprend pas cette qualification à son compte. Chaque élément est classé séparément selon son contenu observable.",
+      "Isora emploie masculinisme pour le combat factuel et pacifique contre les asymétries en défaveur des garçons et des hommes. Lorsqu'une source utilise ce mot pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, le site conserve son intitulé exact pour la traçabilité mais ne reprend pas cette qualification à son compte. L'opposition de principe ou la disqualification systématique de ce combat pacifique relève de l'antimasculinisme. Chaque élément est classé séparément selon son contenu observable.",
     tags: [
       "vocabulaire",
       "masculinisme",
       "féminisme",
+      "antiféminisme",
+      "antimasculinisme",
       "virilisme",
       "féminilisme",
       "dictionnaires",
@@ -1276,15 +1278,17 @@ const rawClaims: RawClaim[] = [
       en: {
         title: "Masculinism: Isora's definition and sources' pejorative uses",
         summary:
-          "Isora uses masculinism for factual and peaceful action against asymmetries disadvantaging boys and men. When a source uses the French word masculinisme for anti-feminism, virilism, misogyny or violent acts, the site preserves the exact source title for traceability but does not adopt that classification. Each element is classified separately from observable content.",
+          "Isora uses masculinism for factual and peaceful action against asymmetries disadvantaging boys and men. When a source uses the French word masculinisme for anti-feminism, virilism, misogyny or violent acts, the site preserves the exact source title for traceability but does not adopt that classification. Principled opposition to, or systematic disqualification of, that peaceful advocacy is anti-masculinism. Each element is classified separately from observable content.",
         nuance:
-          "Updated on 11 August 2026: Isora separates three independent axes. Advocacy: feminism addresses asymmetries disadvantaging girls and women; masculinism addresses those disadvantaging boys and men. Traditional gender-role norms: virilism prescribes a traditional virile male role; the editorial neologism féminilisme prescribes a traditional feminine female role. Hostility: misandry means hatred or contempt of men; misogyny means hatred or contempt of women. A source title or quotation is preserved exactly, but its terminology does not control Isora's classification. Anti-feminism, virilism, misogyny and violent conduct require separate observable evidence. Peaceful advocacy for men must never be assigned to those categories by association alone.",
+          "Updated on 11 August 2026: Isora separates four independent axes. Advocacy: feminism addresses asymmetries disadvantaging girls and women; masculinism addresses those disadvantaging boys and men. Principled opposition or systematic disqualification: anti-feminism and anti-masculinism. Traditional gender-role norms: virilism prescribes a traditional virile male role; the editorial neologism féminilisme prescribes a traditional feminine female role. Hostility: misandry means hatred or contempt of men; misogyny means hatred or contempt of women. A source title or quotation is preserved exactly, but its terminology does not control Isora's classification. Each qualification requires separate observable evidence, and a disagreement with one statistic, method or claim is not enough.",
         sourcePopulation:
           "Material examined by the sources: dictionary and terminology entries for the French words masculinisme, féminisme, misogyne and misandre; 2026 public reports by the HCE and the French Senate; and social-science work on virility, hegemonic masculinity and emphasized femininity. These sources do not measure chromosomes.",
         tags: [
           "vocabulary",
           "masculinism",
           "feminism",
+          "anti-feminism",
+          "anti-masculinism",
           "virilism",
           "féminilisme",
           "dictionaries",
@@ -1295,7 +1299,7 @@ const rawClaims: RawClaim[] = [
     confidence: "forte",
     lastChecked: "11 août 2026",
     nuance:
-      "Mise à jour du 11 août 2026 : Isora sépare trois axes indépendants. Combat : féminisme pour les asymétries en défaveur des filles et des femmes; masculinisme pour celles en défaveur des garçons et des hommes. Normes de rôles traditionnels : virilisme et féminilisme. Hostilité : misandrie et misogynie. Le titre ou la citation d'une source reste exact, mais son vocabulaire ne détermine pas la qualification d'Isora. Antiféminisme, virilisme, misogynie et violence exigent chacun un contenu observable distinct. Une revendication masculine pacifique ne doit jamais leur être assimilée par simple association. L'effacement systématique d'une telle revendication à cause du sexe qu'elle défend peut être décrit comme une disqualification sexiste ou une violence lexicale, sans présenter cette qualification éditoriale comme une infraction pénale automatiquement établie.",
+      "Mise à jour du 11 août 2026 : Isora sépare quatre axes indépendants. Combat : féminisme pour les asymétries en défaveur des filles et des femmes; masculinisme pour celles en défaveur des garçons et des hommes. Opposition de principe ou disqualification systématique : antiféminisme et antimasculinisme. Normes de rôles traditionnels : virilisme et féminilisme. Hostilité : misandrie et misogynie. Le titre ou la citation d'une source reste exact, mais son vocabulaire ne détermine pas la qualification d'Isora. Chaque qualification exige un contenu observable distinct, et un désaccord avec une statistique, une méthode ou une revendication précise ne suffit pas. Une revendication masculine pacifique ne doit jamais être assimilée à l'antiféminisme, au virilisme, à la misogynie ou à la violence par simple association.",
   },
   {
     id: "hommes-perception-garde-enfants-hce-2025",

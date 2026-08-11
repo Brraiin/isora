@@ -41,7 +41,7 @@ import {
   type Source,
   type StatutTemporel,
 } from "./data/claims";
-import { lexiconEntries, lexiconNotice } from "./data/lexicon";
+import { getLexiconMatches, lexiconEntries, lexiconNotice } from "./data/lexicon";
 import { manualClaimUpdates } from "./data/manual-claim-updates";
 import {
   getSearchHighlightRanges,
@@ -908,6 +908,7 @@ const field =
 const homeBlogUpdateVisibilityMs = 7 * 24 * 60 * 60 * 1000;
 const lexiconCategoryLabels = {
   repere: "Repère",
+  opposition: "Opposition à un combat",
   haine: "Haine de sexe",
   methode: "Méthode",
   angle: "Angle d'analyse",
@@ -1199,7 +1200,51 @@ function SearchHighlight({ text, query }: { text: string; query: string }) {
   return <>{parts}</>;
 }
 
-function HighlightedSummary({ text, searchQuery }: { text: string; searchQuery: string }) {
+function LexiconText({
+  text,
+  locale,
+  searchQuery = "",
+}: {
+  text: string;
+  locale: Locale;
+  searchQuery?: string;
+}) {
+  const matches = useMemo(() => getLexiconMatches(text, locale), [locale, text]);
+
+  if (matches.length === 0) return <SearchHighlight text={text} query={searchQuery} />;
+
+  const parts: ReactNode[] = [];
+  const tooltip = locale === "fr" ? "Voir la définition dans le lexique" : "View the definition in the lexicon";
+  let lastIndex = 0;
+
+  matches.forEach((match, index) => {
+    if (match.start > lastIndex) {
+      const plainText = text.slice(lastIndex, match.start);
+      parts.push(<SearchHighlight key={`plain-${index}`} text={plainText} query={searchQuery} />);
+    }
+
+    parts.push(
+      <a
+        aria-label={`${match.text} — ${tooltip}`}
+        className="lexicon-term"
+        data-tooltip={tooltip}
+        href={`/lexique/#${match.entry.slug}`}
+        key={`${match.entry.slug}-${match.start}`}
+      >
+        <SearchHighlight text={match.text} query={searchQuery} />
+      </a>,
+    );
+    lastIndex = match.end;
+  });
+
+  if (lastIndex < text.length) {
+    parts.push(<SearchHighlight key="plain-end" text={text.slice(lastIndex)} query={searchQuery} />);
+  }
+
+  return <>{parts}</>;
+}
+
+function HighlightedSummary({ text, searchQuery, locale }: { text: string; searchQuery: string; locale: Locale }) {
   const metricPattern =
     /((?:environ|près de|plus de|moins de|autour de|à plus de|à moins de)?\s*\d[\d\s]*(?:,\d+)?(?:\s*(?:%|M\b|millions?|ans?|semaines?|sem\.|pour 100 000|\/an))?(?:\s*(?:contre|vs|à|-)\s*\d[\d\s]*(?:,\d+)?(?:\s*(?:%|M\b|millions?|ans?))?)?)/gi;
   const parts = text.split(metricPattern).filter(Boolean);
@@ -1209,11 +1254,11 @@ function HighlightedSummary({ text, searchQuery }: { text: string; searchQuery: 
       {parts.map((part, index) =>
         /\d/.test(part) ? (
           <strong className="font-semibold text-neutral-900" key={`${part}-${index}`}>
-            <SearchHighlight text={part} query={searchQuery} />
+            <LexiconText text={part} locale={locale} searchQuery={searchQuery} />
           </strong>
         ) : (
           <span key={`${part}-${index}`}>
-            <SearchHighlight text={part} query={searchQuery} />
+            <LexiconText text={part} locale={locale} searchQuery={searchQuery} />
           </span>
         ),
       )}
@@ -1843,7 +1888,16 @@ function ContributionPreviewCard({
   );
 }
 
-function LexiconPage({ text }: { text: Record<string, string> }) {
+function LexiconPage({ locale, text }: { locale: Locale; text: Record<string, string> }) {
+  useEffect(() => {
+    const targetId = decodeURIComponent(window.location.hash.slice(1));
+    if (!targetId) return;
+
+    window.requestAnimationFrame(() => {
+      document.getElementById(targetId)?.scrollIntoView({ block: "start" });
+    });
+  }, []);
+
   return (
     <>
       <section className="border-b border-neutral-300 bg-emerald-50">
@@ -1902,7 +1956,20 @@ function LexiconPage({ text }: { text: Record<string, string> }) {
                     {entry.doNotConfuseWith?.length ? (
                       <p className="m-0 text-sm font-bold leading-snug text-neutral-700">
                         {text.lexiconDoNotConfuse} :{" "}
-                        <span className="text-neutral-900">{entry.doNotConfuseWith.join(", ")}</span>
+                        <span className="text-neutral-900">
+                          {entry.doNotConfuseWith.map((term, index) => {
+                            const linkedEntry = lexiconEntries.find(
+                              (candidate) => candidate.term.toLocaleLowerCase("fr-FR") === term.toLocaleLowerCase("fr-FR"),
+                            );
+
+                            return (
+                              <span key={term}>
+                                {index > 0 ? ", " : null}
+                                {linkedEntry ? <a href={`#${linkedEntry.slug}`}>{term}</a> : term}
+                              </span>
+                            );
+                          })}
+                        </span>
                       </p>
                     ) : null}
                     {relatedClaims.map((claim) => (
@@ -3128,7 +3195,7 @@ function App() {
             </div>
           </section>
         ) : isLexiconView ? (
-          <LexiconPage text={text} />
+          <LexiconPage locale={locale} text={text} />
         ) : (
           <>
         <section className="border-b border-neutral-300 bg-emerald-50">
@@ -3936,7 +4003,7 @@ function ClaimCard({
       <div className="mt-7 space-y-4 max-[760px]:mt-5">
         <div className="flex items-start justify-between gap-3">
           <h3 className="m-0 flex-1 text-[1.35rem] font-extrabold leading-[1.24] text-neutral-900 max-[760px]:text-[1.08rem]">
-            <SearchHighlight text={claimTitle} query={searchQuery} />
+            <LexiconText text={claimTitle} locale={locale} searchQuery={searchQuery} />
           </h3>
           <button
             className="hidden min-h-8 shrink-0 items-center justify-center border border-blue-200 bg-blue-50 px-2.5 py-1 text-[0.78rem] font-extrabold text-blue-800 hover:bg-blue-100 max-[760px]:inline-flex"
@@ -3960,7 +4027,7 @@ function ClaimCard({
             </div>
             <p className="mt-2 text-[0.86rem] leading-snug text-neutral-700">
               <span className="font-extrabold text-neutral-900">{text.currentMetric} :</span>{" "}
-              <SearchHighlight text={latestBlogUpdate.claimMetric} query={searchQuery} />
+              <LexiconText text={latestBlogUpdate.claimMetric} locale={locale} searchQuery={searchQuery} />
             </p>
             <a
               className={cn(icon18, "mt-2 inline-flex max-w-full items-start gap-2 text-[0.86rem] font-bold leading-snug text-blue-800 underline underline-offset-2")}
@@ -3980,7 +4047,7 @@ function ClaimCard({
 
       <div className={cn("contents", !isMobileExpanded && "max-[760px]:hidden")} id={mobileDetailsId}>
       <div className="mt-4">
-        <HighlightedSummary text={claimSummary} searchQuery={searchQuery} />
+        <HighlightedSummary text={claimSummary} locale={locale} searchQuery={searchQuery} />
       </div>
 
       <div className="mt-8 border-t border-neutral-200 pt-4">
@@ -4059,7 +4126,7 @@ function ClaimCard({
         <div className={cn(icon18, "flex items-start gap-2 border-t border-neutral-200 pt-4 text-[0.86rem] leading-[1.48] text-neutral-700")}>
           <AlertTriangle className="mt-0.5 text-red-700" aria-hidden="true" />
           <span>
-            <SearchHighlight text={claimNuance} query={searchQuery} />
+            <LexiconText text={claimNuance} locale={locale} searchQuery={searchQuery} />
           </span>
         </div>
       </div>
@@ -4067,10 +4134,10 @@ function ClaimCard({
       {claimSourcePopulation && (
         <details className="mt-3 bg-neutral-100 text-[0.86rem] leading-[1.48] text-neutral-700 ring-1 ring-inset ring-neutral-300">
           <summary className={cn("cursor-pointer px-3 py-2.5 font-bold", sideColor)}>
-            {text.measuredPopulation}
+            <LexiconText text={text.measuredPopulation} locale={locale} />
           </summary>
           <div className="border-t border-neutral-300 px-3 py-3">
-            <SearchHighlight text={claimSourcePopulation} query={searchQuery} />
+            <LexiconText text={claimSourcePopulation} locale={locale} searchQuery={searchQuery} />
           </div>
         </details>
       )}

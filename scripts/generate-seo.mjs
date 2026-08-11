@@ -75,7 +75,9 @@ const lexiconTranspiled = ts.transpileModule(lexiconSource, {
 }).outputText;
 
 await writeFile(lexiconTempFile, lexiconTranspiled, "utf8");
-const { lexiconEntries, lexiconNotice } = await import(`${pathToFileURL(lexiconTempFile).href}?t=${Date.now()}`);
+const { getLexiconMatches, lexiconEntries, lexiconNotice } = await import(
+  `${pathToFileURL(lexiconTempFile).href}?t=${Date.now()}`,
+);
 await rm(lexiconTempFile, { force: true });
 
 const counts = {
@@ -92,6 +94,7 @@ const counts = {
 
 const lexiconCategoryLabels = {
   repere: "Repère",
+  opposition: "Opposition à un combat",
   haine: "Haine de sexe",
   methode: "Méthode",
   angle: "Angle d'analyse",
@@ -99,6 +102,36 @@ const lexiconCategoryLabels = {
 
 function getLexiconCategoryLabel(category) {
   return lexiconCategoryLabels[category] ?? category;
+}
+
+function renderVocabularyHtml(value, locale = "fr") {
+  const text = String(value ?? "");
+  const matches = getLexiconMatches(text, locale);
+
+  if (matches.length === 0) return htmlEscape(text);
+
+  const tooltip = locale === "fr" ? "Voir la définition dans le lexique" : "View the definition in the lexicon";
+  const parts = [];
+  let lastIndex = 0;
+
+  for (const match of matches) {
+    if (match.start > lastIndex) {
+      parts.push(htmlEscape(text.slice(lastIndex, match.start)));
+    }
+
+    parts.push(
+      `<a class="lexicon-term" href="/lexique/#${htmlEscape(match.entry.slug)}" aria-label="${htmlEscape(
+        `${match.text} — ${tooltip}`,
+      )}" data-tooltip="${htmlEscape(tooltip)}">${htmlEscape(match.text)}</a>`,
+    );
+    lastIndex = match.end;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(htmlEscape(text.slice(lastIndex)));
+  }
+
+  return parts.join("");
 }
 
 function getClaimTranslation(claim, locale) {
@@ -600,11 +633,17 @@ function renderClaimCss() {
     .claim-card:hover { border-color: #1455a3; }
     .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
     .claim-card p { margin: 0; color: #555; line-height: 1.58; }
+    .claim-card-action { justify-self: start; font-weight: 850; }
+    .lexicon-term { position: relative; color: #1455a3; font-weight: 800; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfdbfe; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     .lexicon-main { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 34px 0 64px; }
     .notice { background: #fff; border: 1px solid #d8d8d0; border-left: 4px solid #1455a3; padding: 22px; }
     .notice p { margin: 0; color: #3f3f3f; line-height: 1.72; }
     .lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
     .lexicon-card { background: #fff; border: 1px solid #d8d8d0; padding: 22px; scroll-margin-top: 22px; }
+    .lexicon-card:target { outline: 3px solid #60a5fa; outline-offset: 3px; }
     .lexicon-card h2 { margin: 4px 0 0; font-size: 1.45rem; line-height: 1.18; }
     .lexicon-card p { color: #3f3f3f; line-height: 1.68; }
     .lexicon-card .definition { margin: 18px 0 0; color: #171717; font-size: 1.08rem; font-weight: 900; line-height: 1.45; }
@@ -649,7 +688,7 @@ function renderClaimUpdateBox(claim) {
             <span id="mise-a-jour">Fiche modifiée</span>
             <span class="update-date">${htmlEscape(formatClaimUpdateDate(update.updatedAt))}</span>
           </div>
-          <p><strong>Mesure actuelle :</strong> ${htmlEscape(update.claimMetric)}</p>
+          <p><strong>Mesure actuelle :</strong> ${renderVocabularyHtml(update.claimMetric)}</p>
           <a href="${htmlEscape(update.blogUrl)}"${linkAttributes}>${linkLabel} : ${htmlEscape(update.blogTitle)}</a>
         </section>
   `;
@@ -778,8 +817,8 @@ ${renderFaviconLinks()}
     <section class="hero">
       <div class="wrap hero-inner">
         <p class="kicker">Fiche documentée isora</p>
-        <h1>${htmlEscape(claim.title)}</h1>
-        <p class="lead">${htmlEscape(claim.summary)}</p>
+        <h1>${renderVocabularyHtml(claim.title)}</h1>
+        <p class="lead">${renderVocabularyHtml(claim.summary)}</p>
         <div class="chips" aria-label="Métadonnées">
           <span class="chip">${htmlEscape(claim.side)}</span>
           <span class="chip">${htmlEscape(claim.domain)}</span>
@@ -799,15 +838,15 @@ ${renderFaviconLinks()}
         </section>
         <section class="section" aria-labelledby="nuance">
           <h2 id="nuance">Nuance</h2>
-          <p>${htmlEscape(claim.nuance)}</p>
+          <p>${renderVocabularyHtml(claim.nuance)}</p>
         </section>
         <section class="section" aria-labelledby="population">
-          <h2 id="population">Population mesurée</h2>
-          <p>${htmlEscape(claim.sourcePopulation ?? claim.methodNote ?? "Population mesurée indiquée par la source citée.")}</p>
+          <h2 id="population">${renderVocabularyHtml("Population mesurée")}</h2>
+          <p>${renderVocabularyHtml(claim.sourcePopulation ?? claim.methodNote ?? "Population mesurée indiquée par la source citée.")}</p>
         </section>
         <section class="section" aria-labelledby="tags">
           <h2 id="tags">Classement</h2>
-          <p>${htmlEscape(claim.tags.map((tag) => `#${tag}`).join(" "))}</p>
+          <p>${renderVocabularyHtml(claim.tags.map((tag) => `#${tag}`).join(" "))}</p>
         </section>
       </article>
 
@@ -913,11 +952,12 @@ ${renderFaviconLinks()}
       ${claims
         .map(
           (claim) => `
-            <a class="claim-card" href="/fiches/${htmlEscape(claim.id)}/">
+            <article class="claim-card">
               <span class="chip">${htmlEscape(claim.side)} · ${htmlEscape(claim.domain)} · ${htmlEscape(claim.metric)}</span>
-              <h2>${htmlEscape(claim.title)}</h2>
-              <p>${htmlEscape(truncateDescription(claim.summary, 210))}</p>
-            </a>
+              <h2>${renderVocabularyHtml(claim.title)}</h2>
+              <p>${renderVocabularyHtml(truncateDescription(claim.summary, 210))}</p>
+              <a class="claim-card-action" href="/fiches/${htmlEscape(claim.id)}/">Voir la fiche</a>
+            </article>
           `,
         )
         .join("")}
@@ -938,7 +978,16 @@ function renderLexiconEntryLinks(entry) {
   return [
     `<div class="term-links">`,
     entry.doNotConfuseWith?.length
-      ? `  <p>À ne pas confondre : ${htmlEscape(entry.doNotConfuseWith.join(", "))}</p>`
+      ? `  <p>À ne pas confondre : ${entry.doNotConfuseWith
+          .map((term) => {
+            const linkedEntry = lexiconEntries.find(
+              (candidate) => candidate.term.toLocaleLowerCase("fr-FR") === term.toLocaleLowerCase("fr-FR"),
+            );
+            return linkedEntry
+              ? `<a href="#${htmlEscape(linkedEntry.slug)}">${htmlEscape(term)}</a>`
+              : htmlEscape(term);
+          })
+          .join(", ")}</p>`
       : null,
     ...relatedClaims.map(
       (claim) => `  <a href="/fiches/${htmlEscape(claim.id)}/">Fiche liée : ${htmlEscape(claim.title)}</a>`,
@@ -1080,7 +1129,7 @@ ${lexiconEntries.map(renderLexiconEntryHtml).join("\n")}
     </main>
 
     <footer class="wrap method">
-      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent l'objet d'un combat; virilisme et féminilisme désignent l'adhésion à des rôles sexués traditionnels; misandrie et misogynie désignent des haines ou mépris de sexe. Ces trois axes sont indépendants.</p>
+      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent l'objet d'un combat; antiféminisme et antimasculinisme désignent son opposition systématique; virilisme et féminilisme désignent l'adhésion à des rôles sexués traditionnels; misandrie et misogynie désignent des haines ou mépris de sexe. Ces quatre axes sont indépendants.</p>
     </footer>
     <script src="/isora-soft-navigation.js" defer></script>
   </body>

@@ -5,15 +5,26 @@ traductions et réponses produites pour Isora.
 
 ## Définitions internes
 
-Isora sépare trois axes indépendants :
+Isora sépare quatre axes indépendants :
 
 - féminisme : combat contre les asymétries en défaveur des filles et des femmes ;
 - masculinisme : combat contre les asymétries en défaveur des garçons et des hommes ;
+- antiféminisme : opposition de principe au féminisme ou disqualification
+  systématique des combats pacifiques contre les asymétries en défaveur des
+  filles et des femmes ;
+- antimasculinisme : opposition de principe au masculinisme ou disqualification
+  systématique des combats pacifiques contre les asymétries en défaveur des
+  garçons et des hommes ;
 - virilisme et féminilisme : prescription de rôles sexués traditionnels ;
 - misandrie et misogynie : haine ou mépris des hommes et des femmes.
 
 Une personne ou un mouvement peut relever de plusieurs catégories, mais aucune
 catégorie ne doit être déduite automatiquement d'une autre.
+
+Un désaccord avec une statistique, une méthode, une mesure ou une revendication
+précise ne suffit pas à caractériser l'antiféminisme ou l'antimasculinisme. Il
+faut établir une opposition de principe ou une disqualification systématique du
+combat pacifique concerné.
 
 ## Quand une source emploie « masculinisme » dans un sens péjoratif
 
@@ -42,8 +53,12 @@ décrit. Utiliser ensuite le terme précis :
 
 - revendication pacifique contre une asymétrie défavorable aux hommes :
   masculinisme ;
-- opposition au féminisme ou à certaines revendications féministes :
-  antiféminisme, sans déduire automatiquement misogynie ou virilisme ;
+- opposition de principe au féminisme ou disqualification systématique des
+  revendications féministes pacifiques : antiféminisme, sans déduire
+  automatiquement misogynie, virilisme ou masculinisme ;
+- opposition de principe au masculinisme ou disqualification systématique des
+  revendications masculinistes pacifiques : antimasculinisme, sans déduire
+  automatiquement misandrie, féminilisme ou féminisme ;
 - virilité traditionnelle, domination masculine, devoir de force, de protection
   ou de pourvoyeur érigé en norme : virilisme ;
 - haine, mépris, déshumanisation ou retrait de droits visant les femmes :
@@ -71,7 +86,8 @@ l'effacement d'une revendication à cause du groupe sexué qu'elle défend, et n
 une infraction pénale automatiquement établie.
 
 La même règle vaut symétriquement pour le féminisme : une revendication centrée
-sur les femmes ne permet pas de déduire la misandrie ou le féminilisme.
+sur les femmes ne permet pas de déduire la misandrie, le féminilisme ou
+l'antimasculinisme.
 
 ## Formulations interdites sans preuve
 
@@ -95,6 +111,16 @@ Pour chaque occurrence de « masculinisme » venant d'une source :
 4. qualifier séparément les faits selon le contenu observable ;
 5. vérifier qu'aucune revendication masculine pacifique n'est disqualifiée par
    simple association ;
-6. appliquer la même exigence de preuve au féminisme, à la misandrie, à la
-   misogynie, au virilisme et au féminilisme ;
+6. appliquer la même exigence de preuve au féminisme, à l'antiféminisme, à
+   l'antimasculinisme, à la misandrie, à la misogynie, au virilisme et au
+   féminilisme ;
 7. vérifier les tags français et anglais avant le build.
+
+## Liens vers le lexique
+
+Dans les articles, fiches et tuiles d'asymétrie, les formes répertoriées dans
+`src/data/lexicon.ts` doivent être rendues cliquables vers l'ancre de leur
+définition dans `/lexique/`. Le lien doit porter l'infobulle accessible « Voir la
+définition dans le lexique ». Ajouter les variantes lexicales d'un nouveau terme
+au champ `forms` de son entrée afin que les rendus React et statiques restent
+alignés.
