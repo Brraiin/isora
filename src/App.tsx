@@ -1105,10 +1105,6 @@ function getHybridParticipantTags(claim: Claim) {
 
   if (participantTags.length > 1) return participantTags;
 
-  if (claim.id === "femmes-filles-hors-ecole" || claim.id === "femmes-menopause-soins") {
-    return ["femmes", "hommes"];
-  }
-
   return [];
 }
 

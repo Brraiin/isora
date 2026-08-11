@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -341,8 +345,8 @@
       <div class="wrap hero-inner">
         <div class="hero-copy">
           <p class="kicker">Santé, mortalité et parcours de soin</p>
-          <h1>Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026</h1>
-          <p class="lead">Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour <em>isora</em>, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.</p>
+          <h1>Suicide et gestes auto-infligés : deux <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétries — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétries</a> de sexe à lire séparément en 2026</h1>
+          <p class="lead">Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour <em>isora</em>, le sujet illustre une règle éditoriale centrale : une <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> peut changer de sens selon ce qui est mesuré.</p>
           <div class="meta" aria-label="Métadonnées">
             <span class="pill">25 juin 2026</span>
             <span class="pill">5 min</span>
@@ -392,7 +396,7 @@
             
               <section class="section">
                 <h2>Pourquoi c&#39;est utile pour <em>isora</em></h2>
-                <p>Pour une fiche <em>isora</em>, le risque serait de résumer trop vite le sujet par une formule unique du type &quot;les hommes sont plus touchés&quot; ou &quot;les femmes sont plus touchées&quot;. Les données montrent plutôt deux asymétries simultanées : une mortalité par suicide plus élevée chez les hommes, et des hospitalisations pour gestes auto-infligés plus fréquentes chez les femmes, surtout jeunes.</p><p>Cette distinction aide aussi à éviter les lectures concurrentielles. Les indicateurs ne s&#39;annulent pas. Ils pointent vers des besoins de prévention différents : repérage du risque létal, accompagnement des hommes âgés ou socialement exposés, prise en charge des adolescentes et jeunes femmes hospitalisées, et suivi des jeunes hommes dont les gestes auto-infligés augmentent également.</p>
+                <p>Pour une fiche <em>isora</em>, le risque serait de résumer trop vite le sujet par une formule unique du type &quot;les hommes sont plus touchés&quot; ou &quot;les femmes sont plus touchées&quot;. Les données montrent plutôt deux <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétries — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétries</a> simultanées : une mortalité par suicide plus élevée chez les hommes, et des hospitalisations pour gestes auto-infligés plus fréquentes chez les femmes, surtout jeunes.</p><p>Cette distinction aide aussi à éviter les lectures concurrentielles. Les indicateurs ne s&#39;annulent pas. Ils pointent vers des besoins de prévention différents : repérage du risque létal, accompagnement des hommes âgés ou socialement exposés, prise en charge des adolescentes et jeunes femmes hospitalisées, et suivi des jeunes hommes dont les gestes auto-infligés augmentent également.</p>
               </section>
             
               <section class="section">

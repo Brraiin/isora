@@ -90,6 +90,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -200,6 +204,24 @@
       "blogPost": [
         {
           "@type": "BlogPosting",
+          "headline": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
+          "url": "https://isora-xi.vercel.app/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
+          "datePublished": "2026-08-11T17:40:00.000Z"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée",
+          "url": "https://isora-xi.vercel.app/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/",
+          "datePublished": "2026-08-11T17:35:00.000Z"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
+          "url": "https://isora-xi.vercel.app/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
+          "datePublished": "2026-08-11T17:30:00.000Z"
+        },
+        {
+          "@type": "BlogPosting",
           "headline": "Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré",
           "url": "https://isora-xi.vercel.app/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/",
           "datePublished": "2026-07-19T19:56:40.000Z"
@@ -269,24 +291,6 @@
           "headline": "IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins",
           "url": "https://isora-xi.vercel.app/blog/2026-07-01-ia-generative-emplois-feminises-numerique/",
           "datePublished": "2026-07-01T17:00:00.000Z"
-        },
-        {
-          "@type": "BlogPosting",
-          "headline": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
-          "url": "https://isora-xi.vercel.app/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
-          "datePublished": "2026-06-30T07:30:00.000Z"
-        },
-        {
-          "@type": "BlogPosting",
-          "headline": "Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée",
-          "url": "https://isora-xi.vercel.app/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/",
-          "datePublished": "2026-06-29T07:20:00.000Z"
-        },
-        {
-          "@type": "BlogPosting",
-          "headline": "Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes",
-          "url": "https://isora-xi.vercel.app/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/",
-          "datePublished": "2026-06-28T18:40:00.000Z"
         }
       ]
     }
@@ -349,9 +353,62 @@
 
         <section class="featured-grid" aria-label="Sélection d'articles">
                 
-    <a class="post-card post-card-featured" href="/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/" data-post-card data-search="sans-abrisme en angleterre : les hommes dominent les comptes de rue, mais l&#39;asymétrie dépend du périmètre mesuré les derniers comptages officiels 2025-2026 en angleterre confirment une forte majorité masculine dans le rough sleeping, mais les sources plus larges sur l&#39;hébergement temporaire et les formes moins visibles de sans-abrisme conduisent à une lecture moins simple. les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en angleterre, les hommes restent très majoritaires. le cadre mensuel publié le 25 juin 2026 estime qu&#39;en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. le snapshot d&#39;automne 2025 retrouve une structure voisine avec 82 % d&#39;hommes. mais ces chiffres décrivent surtout la rue visible. les notes méthodologiques britanniques et les synthèses ocde rappellent qu&#39;une partie du sans-abrisme féminin passe plus souvent par des formes moins visibles, comme l&#39;hébergement provisoire chez des proches ou l&#39;hébergement temporaire, ce qui réduit ou inverse parfois l&#39;écart selon la source retenue. droits, autonomie et accès aux services sans-abrisme hommes femmes angleterre 2026 rough sleeping england men women march 2026 rough sleeping snapshot autumn 2025 sex homelessness england women hidden homelessness oecd ons homelessness census 2021 men women hommes-sans-abrisme rough sleeping data framework: january to march 2026 release uk government rough sleeping data framework: january to march 2026 technical notes uk government rough sleeping snapshot in england: autumn 2025 uk government people experiencing homelessness, england and wales: census 2021 office for national statistics toolkit to combat homelessness - measurement oecd oecd homelessness country note - united kingdom oecd">
+    <a class="post-card post-card-featured" href="/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/" data-post-card data-search="violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes dire que les auteurs déclarés sont presque toujours des hommes ne signifie pas que presque tous les hommes sont auteurs. un classement ne prouve ni un mensonge ni la culpabilité, et les études disponibles ne donnent pas de taux général français de fausses plaintes. quatre questions souvent confondues utilisent des dénominateurs et des règles de preuve différents. dans l&#39;enquête vrs 2024, parmi les femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle et ayant renseigné le sexe des auteurs, 99 % désignent exclusivement un ou plusieurs hommes. cette part parmi les auteurs déclarés ne mesure pas la part de l&#39;ensemble des hommes qui commettraient ces faits. en justice, 69 % des personnes mises en cause dans les affaires de viol ou d&#39;agression sexuelle traitées par les parquets en 2024 relèvent d&#39;affaires non poursuivables; plus de 80 % de ces cas sont classés parce que l&#39;infraction est insuffisamment caractérisée. cela ne prouve ni que les déclarations sont fausses ni que les faits ont eu lieu. les fausses allégations existent, mais les études de contexte disponibles n&#39;établissent pas un taux général applicable à la france. violences, sécurité et justice pénale 99% auteurs violences sexuelles hommes ne signifie pas 99% hommes classement sans suite viol fausse plainte présomption innocence témoignage preuve viol france taux fausses accusations viol france statistiques justice violences sexuelles 2024 hommes-agresseurs-declares-violences-sexuelles-femmes-france hommes-part-auteurs-violences-sexuelles-perception hommes-femmes-peurs-consentement-sexuel hommes-attribution-laxisme-justice-violences-sexuelles hommes-reconnaissance-viol-lois-europe les violences sexistes et sexuelles en france en 2024 arrêtons les violences / ssmsi références statistiques justice 2025 - les violences sexuelles ministère de la justice / sser références statistiques justice 2025 - les moyens et personnels de la justice ministère de la justice / sser article 427 du code de procédure pénale légifrance les règles générales d&#39;un procès pénal ministère de la justice / cour d&#39;appel de nancy false allegations of sexual assault: an analysis of ten years of reported cases violence against women / pubmed key facts about how the cps prosecutes allegations of rape crown prosecution service">
       <div>
         <span class="post-eyebrow">Dernier article</span>
+        <h2>Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes</h2>
+      </div>
+      <p class="post-summary">Dire que les auteurs déclarés sont presque toujours des hommes ne signifie pas que presque tous les hommes sont auteurs. Un classement ne prouve ni un mensonge ni la culpabilité, et les études disponibles ne donnent pas de taux général français de fausses plaintes.</p>
+      
+    <div class="post-meta-row" aria-label="Métadonnées de l'article">
+      <span class="meta-chip">11 août 2026</span>
+      <span class="meta-chip">7 min</span>
+      <span class="meta-chip sources">7 sources</span>
+      <span class="meta-chip claims">5 fiches reliées</span>
+    </div>
+  
+      <span class="post-card-action">Lire l'article</span>
+    </a>
+  
+                <div class="recent-stack">
+                        
+    <a class="post-card post-card-compact" href="/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/" data-post-card data-search="arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée une méta-analyse de 2025 documente une application moins fréquente des électrodes d&#39;un défibrillateur chez les femmes. les enquêtes de perception évoquent la crainte d&#39;un contact inapproprié ou d&#39;une accusation, sans prouver que des plaintes expliquent l&#39;écart. la meilleure synthèse récente repérée par isora réunit 15 cohortes et 499 854 arrêts cardiaques extrahospitaliers. elle associe le sexe féminin à une moindre probabilité d&#39;application, par un témoin, des électrodes d&#39;un défibrillateur automatisé externe, avec un odds ratio de 0,79 et une certitude jugée modérée. en revanche, les résultats sur le déclenchement de la réanimation cardio-pulmonaire sont très hétérogènes. une enquête américaine de 2024 montre que le public cite parfois la crainte d&#39;un contact inapproprié ou d&#39;une accusation parmi les explications possibles, mais elle mesure des perceptions, pas les motivations observées des sauveteurs ni le nombre de plaintes. le récit viral d&#39;une femme ayant poursuivi l&#39;homme qui l&#39;aurait sauvée a par ailleurs été identifié comme une histoire satirique, pas comme un fait établi. santé, mortalité et parcours de soin rcp femmes hommes témoins arrêt cardiaque défibrillateur femmes électrodes or 0,79 peur accusation agression sexuelle massage cardiaque bystander cpr women inappropriate touching fausse information femme plainte sauveteur rcp femmes-arret-cardiaque-defibrillation-temoins association between bystander cardiopulmonary resuscitation initiation and patient&#39;s sex resuscitation plus / pubmed central gender disparities among adult recipients of bystander cardiopulmonary resuscitation in the public circulation: cardiovascular quality and outcomes / pubmed examining the impact of layperson rescuer gender on the receipt of bystander cpr for women pubmed no, una mujer no ha denunciado al hombre que la rescató por tocarla sin permiso maldita.es">
+      <div>
+        <span class="post-eyebrow">Santé, mortalité et parcours de soin</span>
+        <h2>Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée</h2>
+      </div>
+      <p class="post-summary">Une méta-analyse de 2025 documente une application moins fréquente des électrodes d&#39;un défibrillateur chez les femmes. Les enquêtes de perception évoquent la crainte d&#39;un contact inapproprié ou d&#39;une accusation, sans prouver que des plaintes expliquent l&#39;écart.</p>
+      
+    <div class="post-meta-row" aria-label="Métadonnées de l'article">
+      <span class="meta-chip">11 août 2026</span>
+      <span class="meta-chip">5 min</span>
+      <span class="meta-chip sources">4 sources</span>
+      <span class="meta-chip claims">1 fiche reliée</span>
+    </div>
+  
+      <span class="post-card-action">Lire l'article</span>
+    </a>
+  
+    <a class="post-card post-card-compact" href="/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/" data-post-card data-search="violences enregistrées en france : les hommes sont majoritaires hors famille, les femmes dans la famille les données policières de 2025 montrent que le sexe majoritaire parmi les victimes change selon la nature des violences et leur contexte : 68 % d&#39;hommes hors famille, 73 % de femmes dans la famille et 85 % de femmes pour les violences sexuelles. la publication interstats portant sur les crimes et délits enregistrés en 2025 interdit de réduire la violence à une seule opposition entre les sexes. les hommes représentent 68 % des victimes de violences physiques hors du cadre familial. dans le cadre familial, les femmes représentent 73 % des victimes de violences physiques. tous contextes confondus, elles constituent aussi 85 % des victimes enregistrées de violences sexuelles. ces indicateurs sont compatibles parce qu&#39;ils ne portent ni sur les mêmes faits ni sur les mêmes situations. ils documentent des asymétries différentes, qui appellent des politiques de prévention différentes. violences, sécurité et justice pénale victimes violences hommes femmes france 2025 violences physiques hors famille 68% hommes violences familiales 73% femmes violences sexuelles enregistrées 85% femmes interstats ssmsi violences 2025 hommes-violences-physiques-hors-famille-france-2025 femmes-violences-conjugales hommes-mis-en-cause-violences-conjugales-france hommes-agresseurs-declares-violences-sexuelles-femmes-france victimes de violences physiques et sexuelles enregistrées en hausse en 2025 ministère de l&#39;intérieur / ssmsi / interstats">
+      <div>
+        <span class="post-eyebrow">Violences, sécurité et justice pénale</span>
+        <h2>Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille</h2>
+      </div>
+      <p class="post-summary">Les données policières de 2025 montrent que le sexe majoritaire parmi les victimes change selon la nature des violences et leur contexte : 68 % d&#39;hommes hors famille, 73 % de femmes dans la famille et 85 % de femmes pour les violences sexuelles.</p>
+      
+    <div class="post-meta-row" aria-label="Métadonnées de l'article">
+      <span class="meta-chip">11 août 2026</span>
+      <span class="meta-chip">4 min</span>
+      <span class="meta-chip sources">1 source</span>
+      <span class="meta-chip claims">4 fiches reliées</span>
+    </div>
+  
+      <span class="post-card-action">Lire l'article</span>
+    </a>
+  
+    <a class="post-card post-card-compact" href="/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/" data-post-card data-search="sans-abrisme en angleterre : les hommes dominent les comptes de rue, mais l&#39;asymétrie dépend du périmètre mesuré les derniers comptages officiels 2025-2026 en angleterre confirment une forte majorité masculine dans le rough sleeping, mais les sources plus larges sur l&#39;hébergement temporaire et les formes moins visibles de sans-abrisme conduisent à une lecture moins simple. les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en angleterre, les hommes restent très majoritaires. le cadre mensuel publié le 25 juin 2026 estime qu&#39;en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. le snapshot d&#39;automne 2025 retrouve une structure voisine avec 82 % d&#39;hommes. mais ces chiffres décrivent surtout la rue visible. les notes méthodologiques britanniques et les synthèses ocde rappellent qu&#39;une partie du sans-abrisme féminin passe plus souvent par des formes moins visibles, comme l&#39;hébergement provisoire chez des proches ou l&#39;hébergement temporaire, ce qui réduit ou inverse parfois l&#39;écart selon la source retenue. droits, autonomie et accès aux services sans-abrisme hommes femmes angleterre 2026 rough sleeping england men women march 2026 rough sleeping snapshot autumn 2025 sex homelessness england women hidden homelessness oecd ons homelessness census 2021 men women hommes-sans-abrisme rough sleeping data framework: january to march 2026 release uk government rough sleeping data framework: january to march 2026 technical notes uk government rough sleeping snapshot in england: autumn 2025 uk government people experiencing homelessness, england and wales: census 2021 office for national statistics toolkit to combat homelessness - measurement oecd oecd homelessness country note - united kingdom oecd">
+      <div>
+        <span class="post-eyebrow">Droits, autonomie et accès aux services</span>
         <h2>Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l&#39;asymétrie dépend du périmètre mesuré</h2>
       </div>
       <p class="post-summary">Les derniers comptages officiels 2025-2026 en Angleterre confirment une forte majorité masculine dans le rough sleeping, mais les sources plus larges sur l&#39;hébergement temporaire et les formes moins visibles de sans-abrisme conduisent à une lecture moins simple.</p>
@@ -360,59 +417,6 @@
       <span class="meta-chip">19 juillet 2026</span>
       <span class="meta-chip">5 min</span>
       <span class="meta-chip sources">6 sources</span>
-      <span class="meta-chip claims">1 fiche reliée</span>
-    </div>
-  
-      <span class="post-card-action">Lire l'article</span>
-    </a>
-  
-                <div class="recent-stack">
-                        
-    <a class="post-card post-card-compact" href="/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/" data-post-card data-search="durée de vie au travail dans l&#39;ue : l&#39;écart femmes-hommes recule, mais reste de 4,1 ans en 2025 la mise à jour eurostat du 16 juillet 2026 montre une hausse de la durée de vie au travail dans l&#39;ue, avec un écart toujours favorable aux hommes malgré une réduction depuis 2016. eurostat a mis à jour le 16 juillet 2026 sa statistique sur la durée de vie au travail. en 2025, une personne de 15 ans dans l&#39;union européenne peut espérer passer en moyenne 37,5 ans dans la population active, contre 39,5 ans pour les hommes et 35,4 ans pour les femmes. l&#39;écart recule par rapport à 2016, où il atteignait 5,0 ans, mais il reste net. les données européennes sur l&#39;emploi et le point trimestriel de l&#39;insee pour la france suggèrent que cet écart de durée s&#39;inscrit dans une participation au marché du travail encore plus élevée chez les hommes, même si les écarts d&#39;emploi observés à un instant donné sont plus faibles que l&#39;écart cumulé de durée de vie au travail. travail, revenus et conditions d&#39;emploi durée de vie au travail femmes hommes ue 2025 eurostat durée de vie au travail 2026 écart emploi femmes hommes union européenne taux d&#39;emploi femmes hommes france 2026 insee participation au marché du travail femmes hommes femmes-temps-partiel femmes-soin-non-remunere-emploi duration of working life reached 37.5 years in 2025 eurostat duration of working life - statistics eurostat employment - annual statistics eurostat au premier trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,1 % insee">
-      <div>
-        <span class="post-eyebrow">Travail, revenus et conditions d&#39;emploi</span>
-        <h2>Durée de vie au travail dans l&#39;UE : l&#39;écart femmes-hommes recule, mais reste de 4,1 ans en 2025</h2>
-      </div>
-      <p class="post-summary">La mise à jour Eurostat du 16 juillet 2026 montre une hausse de la durée de vie au travail dans l&#39;UE, avec un écart toujours favorable aux hommes malgré une réduction depuis 2016.</p>
-      
-    <div class="post-meta-row" aria-label="Métadonnées de l'article">
-      <span class="meta-chip">16 juillet 2026</span>
-      <span class="meta-chip">5 min</span>
-      <span class="meta-chip sources">4 sources</span>
-      <span class="meta-chip claims">2 fiches reliées</span>
-    </div>
-  
-      <span class="post-card-action">Lire l'article</span>
-    </a>
-  
-    <a class="post-card post-card-compact" href="/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/" data-post-card data-search="professions de santé : les femmes deviennent majoritaires parmi les médecins en france, dans une dynamique déjà visible en europe la drees, l&#39;ordre des médecins et eurostat montrent qu&#39;en 2026 les femmes sont désormais majoritaires parmi les médecins, mais pas avec la même intensité partout. la drees a mis à jour le 2 juillet 2026 la démographie des professions de santé en france : 242 200 médecins sont en activité au 1er janvier 2026 et 51 % sont des femmes. croisées avec l&#39;atlas 2026 du conseil national de l&#39;ordre des médecins et avec le panorama eurostat sur les médecins en europe, ces données montrent une féminisation nette mais inégale selon l&#39;âge, la profession et le mode d&#39;exercice. santé, mortalité et parcours de soin médecins femmes hommes france 2026 drees démographie médicale france 2026 ordre des médecins professions de santé femmes hommes france femmes majoritaires médecins europe eurostat kinés pharmaciens dentistes femmes hommes 2026 5 000 médecins supplémentaires en activité en france au 1er janvier 2026 drees les effectifs de kinésithérapeutes, pharmaciens, chirurgiens-dentistes, sages-femmes et pédicures-podologues continuent de progresser entre début 2025 et début 2026 drees atlas de la démographie médicale en france 2026 - tome 1 conseil national de l&#39;ordre des médecins healthcare personnel statistics - physicians eurostat">
-      <div>
-        <span class="post-eyebrow">Santé, mortalité et parcours de soin</span>
-        <h2>Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe</h2>
-      </div>
-      <p class="post-summary">La DREES, l&#39;Ordre des médecins et Eurostat montrent qu&#39;en 2026 les femmes sont désormais majoritaires parmi les médecins, mais pas avec la même intensité partout.</p>
-      
-    <div class="post-meta-row" aria-label="Métadonnées de l'article">
-      <span class="meta-chip">15 juillet 2026</span>
-      <span class="meta-chip">5 min</span>
-      <span class="meta-chip sources">4 sources</span>
-      
-    </div>
-  
-      <span class="post-card-action">Lire l'article</span>
-    </a>
-  
-    <a class="post-card post-card-compact" href="/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/" data-post-card data-search="monoparentalité : en europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins la mise à jour eurostat du 1er juin 2026, croisée avec les publications insee et drees 2025-2026, montre une asymétrie durable : les foyers avec enfants à un seul adulte sont surtout dirigés par des femmes, et plusieurs indicateurs français décrivent une exposition plus forte à la précarité matérielle, au chômage et aux contraintes d&#39;organisation lorsque les enfants vivent avec leur mère seule. eurostat a publié le 1er juin 2026 une mise à jour montrant qu&#39;en 2025 l&#39;union européenne comptait environ 6,1 millions de foyers avec enfants reposant sur un seul adulte, soit 12,9 % des ménages avec enfants, et que 81,6 % d&#39;entre eux étaient dirigés par des femmes. les sources françaises ne mesurent pas exactement la même chose, mais elles convergent sur une forte concentration de la monoparentalité du côté maternel. l&#39;insee indique qu&#39;en 2023, 23 % des enfants mineurs vivant en famille résident dans une famille monoparentale, dont 19 % avec leur mère et 4 % avec leur père. les publications insee et drees décrivent aussi des contraintes plus fortes sur ces ménages, avec davantage de privation matérielle, plus de chômage chez les mères seules et un recours plus fréquent aux proches pour garder les jeunes enfants. famille, justice et droits monoparentalité europe femmes hommes eurostat 2026 familles monoparentales france insee 2025 2026 mères seules précarité matérielle sociale france enfants vivant avec un seul parent insee 2023 asymétrie sexe familles monoparentales femmes-separation-niveau-vie 1 in 8 eu households with children rely on one adult eurostat privation matérielle et sociale en 2025 insee en 2023, trois enfants sur dix vivent avec un seul de leurs parents insee évolution des inégalités entre les femmes et les hommes blog insee monoparentalités : les solidarités familiales, un relais important au quotidien pour la prise en charge des jeunes enfants drees">
-      <div>
-        <span class="post-eyebrow">Famille, justice et droits</span>
-        <h2>Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins</h2>
-      </div>
-      <p class="post-summary">La mise à jour Eurostat du 1er juin 2026, croisée avec les publications Insee et DREES 2025-2026, montre une asymétrie durable : les foyers avec enfants à un seul adulte sont surtout dirigés par des femmes, et plusieurs indicateurs français décrivent une exposition plus forte à la précarité matérielle, au chômage et aux contraintes d&#39;organisation lorsque les enfants vivent avec leur mère seule.</p>
-      
-    <div class="post-meta-row" aria-label="Métadonnées de l'article">
-      <span class="meta-chip">15 juillet 2026</span>
-      <span class="meta-chip">5 min</span>
-      <span class="meta-chip sources">5 sources</span>
       <span class="meta-chip claims">1 fiche reliée</span>
     </div>
   
@@ -432,6 +436,57 @@
                       </div>
                       <div class="archive-list">
                         
+    <a class="post-card post-card-archive" href="/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/" data-post-card data-search="durée de vie au travail dans l&#39;ue : l&#39;écart femmes-hommes recule, mais reste de 4,1 ans en 2025 la mise à jour eurostat du 16 juillet 2026 montre une hausse de la durée de vie au travail dans l&#39;ue, avec un écart toujours favorable aux hommes malgré une réduction depuis 2016. eurostat a mis à jour le 16 juillet 2026 sa statistique sur la durée de vie au travail. en 2025, une personne de 15 ans dans l&#39;union européenne peut espérer passer en moyenne 37,5 ans dans la population active, contre 39,5 ans pour les hommes et 35,4 ans pour les femmes. l&#39;écart recule par rapport à 2016, où il atteignait 5,0 ans, mais il reste net. les données européennes sur l&#39;emploi et le point trimestriel de l&#39;insee pour la france suggèrent que cet écart de durée s&#39;inscrit dans une participation au marché du travail encore plus élevée chez les hommes, même si les écarts d&#39;emploi observés à un instant donné sont plus faibles que l&#39;écart cumulé de durée de vie au travail. travail, revenus et conditions d&#39;emploi durée de vie au travail femmes hommes ue 2025 eurostat durée de vie au travail 2026 écart emploi femmes hommes union européenne taux d&#39;emploi femmes hommes france 2026 insee participation au marché du travail femmes hommes femmes-temps-partiel femmes-soin-non-remunere-emploi duration of working life reached 37.5 years in 2025 eurostat duration of working life - statistics eurostat employment - annual statistics eurostat au premier trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,1 % insee">
+      <div>
+        <span class="post-eyebrow">Travail, revenus et conditions d&#39;emploi</span>
+        <h2>Durée de vie au travail dans l&#39;UE : l&#39;écart femmes-hommes recule, mais reste de 4,1 ans en 2025</h2>
+      </div>
+      <p class="post-summary">La mise à jour Eurostat du 16 juillet 2026 montre une hausse de la durée de vie au travail dans l&#39;UE, avec un écart toujours favorable aux hommes malgré une réduction depuis 2016.</p>
+      
+    <div class="post-meta-row" aria-label="Métadonnées de l'article">
+      <span class="meta-chip">16 juillet 2026</span>
+      <span class="meta-chip">5 min</span>
+      <span class="meta-chip sources">4 sources</span>
+      <span class="meta-chip claims">2 fiches reliées</span>
+    </div>
+  
+      <span class="post-card-action">Lire</span>
+    </a>
+  
+    <a class="post-card post-card-archive" href="/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/" data-post-card data-search="professions de santé : les femmes deviennent majoritaires parmi les médecins en france, dans une dynamique déjà visible en europe la drees, l&#39;ordre des médecins et eurostat montrent qu&#39;en 2026 les femmes sont désormais majoritaires parmi les médecins, mais pas avec la même intensité partout. la drees a mis à jour le 2 juillet 2026 la démographie des professions de santé en france : 242 200 médecins sont en activité au 1er janvier 2026 et 51 % sont des femmes. croisées avec l&#39;atlas 2026 du conseil national de l&#39;ordre des médecins et avec le panorama eurostat sur les médecins en europe, ces données montrent une féminisation nette mais inégale selon l&#39;âge, la profession et le mode d&#39;exercice. santé, mortalité et parcours de soin médecins femmes hommes france 2026 drees démographie médicale france 2026 ordre des médecins professions de santé femmes hommes france femmes majoritaires médecins europe eurostat kinés pharmaciens dentistes femmes hommes 2026 5 000 médecins supplémentaires en activité en france au 1er janvier 2026 drees les effectifs de kinésithérapeutes, pharmaciens, chirurgiens-dentistes, sages-femmes et pédicures-podologues continuent de progresser entre début 2025 et début 2026 drees atlas de la démographie médicale en france 2026 - tome 1 conseil national de l&#39;ordre des médecins healthcare personnel statistics - physicians eurostat">
+      <div>
+        <span class="post-eyebrow">Santé, mortalité et parcours de soin</span>
+        <h2>Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe</h2>
+      </div>
+      <p class="post-summary">La DREES, l&#39;Ordre des médecins et Eurostat montrent qu&#39;en 2026 les femmes sont désormais majoritaires parmi les médecins, mais pas avec la même intensité partout.</p>
+      
+    <div class="post-meta-row" aria-label="Métadonnées de l'article">
+      <span class="meta-chip">15 juillet 2026</span>
+      <span class="meta-chip">5 min</span>
+      <span class="meta-chip sources">4 sources</span>
+      
+    </div>
+  
+      <span class="post-card-action">Lire</span>
+    </a>
+  
+    <a class="post-card post-card-archive" href="/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/" data-post-card data-search="monoparentalité : en europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins la mise à jour eurostat du 1er juin 2026, croisée avec les publications insee et drees 2025-2026, montre une asymétrie durable : les foyers avec enfants à un seul adulte sont surtout dirigés par des femmes, et plusieurs indicateurs français décrivent une exposition plus forte à la précarité matérielle, au chômage et aux contraintes d&#39;organisation lorsque les enfants vivent avec leur mère seule. eurostat a publié le 1er juin 2026 une mise à jour montrant qu&#39;en 2025 l&#39;union européenne comptait environ 6,1 millions de foyers avec enfants reposant sur un seul adulte, soit 12,9 % des ménages avec enfants, et que 81,6 % d&#39;entre eux étaient dirigés par des femmes. les sources françaises ne mesurent pas exactement la même chose, mais elles convergent sur une forte concentration de la monoparentalité du côté maternel. l&#39;insee indique qu&#39;en 2023, 23 % des enfants mineurs vivant en famille résident dans une famille monoparentale, dont 19 % avec leur mère et 4 % avec leur père. les publications insee et drees décrivent aussi des contraintes plus fortes sur ces ménages, avec davantage de privation matérielle, plus de chômage chez les mères seules et un recours plus fréquent aux proches pour garder les jeunes enfants. famille, justice et droits monoparentalité europe femmes hommes eurostat 2026 familles monoparentales france insee 2025 2026 mères seules précarité matérielle sociale france enfants vivant avec un seul parent insee 2023 asymétrie sexe familles monoparentales femmes-separation-niveau-vie 1 in 8 eu households with children rely on one adult eurostat privation matérielle et sociale en 2025 insee en 2023, trois enfants sur dix vivent avec un seul de leurs parents insee évolution des inégalités entre les femmes et les hommes blog insee monoparentalités : les solidarités familiales, un relais important au quotidien pour la prise en charge des jeunes enfants drees">
+      <div>
+        <span class="post-eyebrow">Famille, justice et droits</span>
+        <h2>Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins</h2>
+      </div>
+      <p class="post-summary">La mise à jour Eurostat du 1er juin 2026, croisée avec les publications Insee et DREES 2025-2026, montre une asymétrie durable : les foyers avec enfants à un seul adulte sont surtout dirigés par des femmes, et plusieurs indicateurs français décrivent une exposition plus forte à la précarité matérielle, au chômage et aux contraintes d&#39;organisation lorsque les enfants vivent avec leur mère seule.</p>
+      
+    <div class="post-meta-row" aria-label="Métadonnées de l'article">
+      <span class="meta-chip">15 juillet 2026</span>
+      <span class="meta-chip">5 min</span>
+      <span class="meta-chip sources">5 sources</span>
+      <span class="meta-chip claims">1 fiche reliée</span>
+    </div>
+  
+      <span class="post-card-action">Lire</span>
+    </a>
+  
     <a class="post-card post-card-archive" href="/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/" data-post-card data-search="protection temporaire des déplacés d&#39;ukraine : femmes et enfants restent majoritaires dans l&#39;ue les mises à jour eurostat de juillet 2026 et les documents unhcr 2026 montrent une structure de population durablement asymétrique parmi les bénéficiaires de la protection temporaire : les femmes et les mineurs restent majoritaires dans l&#39;union européenne, tandis que la part des hommes adultes demeure nettement plus faible. le jeu de données publié par eurostat le 10 juillet 2026 confirme qu&#39;au 31 mai 2026, les bénéficiaires de la protection temporaire accordée aux personnes ayant fui l&#39;ukraine dans l&#39;union européenne restent majoritairement des femmes et des mineurs. les femmes adultes représentent 43,4 % du total, les hommes adultes 26,8 % et les mineurs 29,8 %. cette structure varie peu depuis janvier 2026. l&#39;unhcr rappelle dans ses documents 2026 que la population réfugiée demeure majoritairement composée de femmes et d&#39;enfants, avec moins d&#39;hommes adultes en raison des restrictions visant les hommes ukrainiens d&#39;âge militaire à la sortie du pays. le conseil de l&#39;union européenne a en outre prolongé ce régime jusqu&#39;au 4 mars 2027, ce qui inscrit cette asymétrie démographique dans une durée désormais longue. droits, autonomie et accès aux services protection temporaire ukraine femmes hommes enfants ue juillet 2026 eurostat 43,4% femmes 26,8% hommes 29,8% mineurs mai 2026 réfugiés ukraine union européenne composition par sexe 2026 unhcr majorité femmes enfants réfugiés ukraine 2026 asymétrie sexe protection temporaire ukraine hommes-ukraine-restrictions-sortie-2022-2025 4.38 million under temporary protection in may 2026 eurostat temporary protection for 4.38 million in january 2026 eurostat temporary protection for persons fleeing ukraine - monthly statistics eurostat ukraine situation: unhcr&#39;s 2026 plans and financial requirements unhcr labor market integration of ukrainian refugees in europe: employment gaps, skill mismatches and economic gains unhcr data portal eu member states agree to extend temporary protection for refugees from ukraine council of the european union">
       <div>
         <span class="post-eyebrow">Droits, autonomie et accès aux services</span>
@@ -562,57 +617,6 @@
       <span class="meta-chip">1 juillet 2026</span>
       <span class="meta-chip">5 min</span>
       <span class="meta-chip sources">5 sources</span>
-      <span class="meta-chip claims">1 fiche reliée</span>
-    </div>
-  
-      <span class="post-card-action">Lire</span>
-    </a>
-  
-    <a class="post-card post-card-archive" href="/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/" data-post-card data-search="sorties précoces d&#39;études : les jeunes hommes restent plus exposés en europe les données publiées en juin 2026 par eurostat confirment une asymétrie masculine persistante dans les sorties précoces d&#39;éducation et de formation au sein de l&#39;union européenne. les séries françaises de l&#39;insee, le cadrage ocde et les repères unesco montrent toutefois que cette asymétrie dépend du territoire, de l&#39;âge observé et du niveau scolaire retenu. eurostat a publié le 4 juin 2026 une nouvelle synthèse sur les sorties précoces d&#39;éducation et de formation dans l&#39;union européenne. en 2025, 9,1 % des 18-24 ans de l&#39;ue sont classés comme sortants précoces, avec un écart persistant entre jeunes hommes (10,6 %) et jeunes femmes (7,5 %). la source précise que cette asymétrie vaut dans presque tous les pays de l&#39;ue, sauf en roumanie et en bulgarie. en france, la dernière série détaillée disponible dans la publication insee du 6 janvier 2025 porte sur 2023 et mesure 9,5 % pour les hommes contre 5,6 % pour les femmes. l&#39;ocde et l&#39;unesco ajoutent que ce désavantage masculin coexiste avec d&#39;autres configurations: les jeunes femmes dépassent les jeunes hommes dans le supérieur dans de nombreux pays, tandis que les filles restent plus exposées à l&#39;exclusion scolaire primaire dans certains contextes mondiaux. éducation, orientation et formation sorties précoces femmes hommes europe 2025 eurostat early leavers 2026 sex insee sorties précoces hommes femmes france 2023 ocde upper secondary men women 2025 unesco boys disengagement education hommes-sorties-precoces hommes-decrochage-garcons-monde early school leavers down to 9.1% in 2025 eurostat early leavers from education and training eurostat sorties précoces du système scolaire insee to what level have adults studied?: education at a glance 2025 ocde boys’ disengagement from education unesco">
-      <div>
-        <span class="post-eyebrow">Éducation, orientation et formation</span>
-        <h2>Sorties précoces d&#39;études : les jeunes hommes restent plus exposés en Europe</h2>
-      </div>
-      <p class="post-summary">Les données publiées en juin 2026 par Eurostat confirment une asymétrie masculine persistante dans les sorties précoces d&#39;éducation et de formation au sein de l&#39;Union européenne. Les séries françaises de l&#39;Insee, le cadrage OCDE et les repères UNESCO montrent toutefois que cette asymétrie dépend du territoire, de l&#39;âge observé et du niveau scolaire retenu.</p>
-      
-    <div class="post-meta-row" aria-label="Métadonnées de l'article">
-      <span class="meta-chip">30 juin 2026</span>
-      <span class="meta-chip">5 min</span>
-      <span class="meta-chip sources">5 sources</span>
-      <span class="meta-chip claims">2 fiches reliées</span>
-    </div>
-  
-      <span class="post-card-action">Lire</span>
-    </a>
-  
-    <a class="post-card post-card-archive" href="/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/" data-post-card data-search="proches aidants : les femmes restent majoritaires, mais l&#39;aide quotidienne devient moins genrée les sources 2025-2026 montrent une asymétrie persistante mais plus nuancée qu&#39;un simple partage figé des rôles : les femmes restent majoritaires parmi les proches aidants en france comme dans les comparaisons ocde, tandis que la participation masculine progresse dans plusieurs tâches de la vie quotidienne. les publications récentes invitent à séparer deux périmètres. dans l&#39;étude drees publiée en décembre 2025, 7,1 millions de personnes aident régulièrement un proche à domicile en france métropolitaine, et 58 % sont des femmes. dans l&#39;étude drees publiée en juin 2026, le champ plus étroit de l&#39;aide à la vie quotidienne recense 5,3 millions d&#39;aidants de 16 ans ou plus, dont 57 % de femmes, avec une baisse de 6 % depuis 2008 malgré la hausse des besoins déclarés. cette même source indique aussi que l&#39;implication des hommes aidants s&#39;intensifie et que certaines tâches domestiques sont moins exclusivement féminines qu&#39;en 2008. les comparaisons ocde et eurostat confirment toutefois qu&#39;à grande échelle, les femmes restent plus souvent impliquées dans le soin et le travail domestique non rémunérés. droits, autonomie et accès aux services proches aidants femmes hommes france 2022 drees aidants 2026 drees aidants 2025 informal carers oecd 2025 women men eurostat unpaid care france women men femmes-soin-non-remunere-emploi femmes-charge-domestique-soin trois aidants sur dix accompagnent seuls leur proche, six sur dix sont en activité ou étudiants drees le nombre de proches aidants à la vie quotidienne baisse de 6 % entre 2008 et 2022, et l&#39;aide apportée s&#39;intensifie drees informal carers: health at a glance 2025 ocde how do women and men use their time - statistics eurostat">
-      <div>
-        <span class="post-eyebrow">Droits, autonomie et accès aux services</span>
-        <h2>Proches aidants : les femmes restent majoritaires, mais l&#39;aide quotidienne devient moins genrée</h2>
-      </div>
-      <p class="post-summary">Les sources 2025-2026 montrent une asymétrie persistante mais plus nuancée qu&#39;un simple partage figé des rôles : les femmes restent majoritaires parmi les proches aidants en France comme dans les comparaisons OCDE, tandis que la participation masculine progresse dans plusieurs tâches de la vie quotidienne.</p>
-      
-    <div class="post-meta-row" aria-label="Métadonnées de l'article">
-      <span class="meta-chip">29 juin 2026</span>
-      <span class="meta-chip">5 min</span>
-      <span class="meta-chip sources">4 sources</span>
-      <span class="meta-chip claims">2 fiches reliées</span>
-    </div>
-  
-      <span class="post-card-action">Lire</span>
-    </a>
-  
-    <a class="post-card post-card-archive" href="/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/" data-post-card data-search="sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes les sources 2025-2026 montrent une asymétrie stable mais non uniforme selon l&#39;indicateur retenu : les accidents du travail reconnus restent majoritairement masculins, tandis que les maladies professionnelles reconnues sont désormais légèrement plus fréquentes chez les femmes. les publications récentes sur la sinistralité au travail invitent à distinguer plusieurs réalités. en france, le focus genre du rapport annuel 2024 de l&#39;assurance maladie montre qu&#39;en 2023 les hommes concentrent 62 % des accidents du travail reconnus, tandis que les femmes sont légèrement majoritaires dans les accidents de trajet et dans les maladies professionnelles reconnues. le jeu de données 2024 sur les maladies professionnelles confirme cette légère majorité féminine dans le total, mais aussi une forte dissymétrie selon les pathologies : davantage de tms et de troubles psychiques reconnus chez les femmes, davantage de cancers professionnels et de décès chez les hommes. a l&#39;échelle européenne, eurostat observe aussi une majorité masculine dans les accidents du travail non mortels. travail, revenus et conditions d&#39;emploi accidents du travail femmes hommes france 2024 maladies professionnelles femmes hommes 2024 tms femmes hommes assurance maladie 2026 eurostat accidents du travail hommes femmes 2023 sinistralité au travail selon le sexe hommes-accidents-travail rapport annuel 2024 de l&#39;assurance maladie - risques professionnels assurance maladie - risques professionnels maladies professionnelles 2024 : indicateurs selon l&#39;âge, le sexe, la profession et la durée d&#39;exposition assurance maladie - risques professionnels eu non-fatal work accidents incidence rate drops in 2023 eurostat accidents at work statistics eurostat">
-      <div>
-        <span class="post-eyebrow">Travail, revenus et conditions d&#39;emploi</span>
-        <h2>Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes</h2>
-      </div>
-      <p class="post-summary">Les sources 2025-2026 montrent une asymétrie stable mais non uniforme selon l&#39;indicateur retenu : les accidents du travail reconnus restent majoritairement masculins, tandis que les maladies professionnelles reconnues sont désormais légèrement plus fréquentes chez les femmes.</p>
-      
-    <div class="post-meta-row" aria-label="Métadonnées de l'article">
-      <span class="meta-chip">28 juin 2026</span>
-      <span class="meta-chip">5 min</span>
-      <span class="meta-chip sources">4 sources</span>
       <span class="meta-chip claims">1 fiche reliée</span>
     </div>
   

@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -401,7 +405,7 @@
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>La durée de vie au travail ne doit pas être confondue avec des années effectivement passées en emploi continu. L&#39;indicateur Eurostat combine des tables d&#39;espérance de vie et des taux de participation par âge; il inclut donc à la fois l&#39;emploi et le chômage dans la population active, sans décrire chaque interruption individuelle de carrière.</p><p>Les sources mobilisées ici ne portent pas exactement sur la même population. Eurostat mesure d&#39;un côté une durée attendue à partir de personnes âgées de 15 ans et, de l&#39;autre, des taux d&#39;emploi observés chez les 20-64 ans. L&#39;Insee observe la France hors Mayotte à partir de l&#39;enquête Emploi et publie ici un taux trimestriel pour les 15-64 ans. Ces sources utilisent leurs catégories statistiques de femmes et d&#39;hommes; elles ne mesurent pas les chromosomes. Elles ne suffisent pas non plus à attribuer une cause unique à l&#39;écart, qu&#39;il s&#39;agisse du temps partiel, du soin non rémunéré, des structures sectorielles, de la santé, du chômage ou des politiques familiales.</p>
               </section>
             

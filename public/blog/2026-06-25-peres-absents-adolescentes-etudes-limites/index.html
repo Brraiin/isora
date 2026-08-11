@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -424,7 +428,7 @@
             
               <section class="section">
                 <h2>Pourquoi le sujet est utile pour <em>isora</em></h2>
-                <p><em>isora</em> documente les asymétries qui disparaissent quand le débat public les résume trop vite. Ici, l&#39;asymétrie n&#39;est pas une statistique simple contre les femmes ou contre les hommes. Elle porte sur la façon dont la présence paternelle peut être une variable spécifique, mesurable, parfois associée à des résultats différents chez les filles.</p><p>Le sujet est donc pertinent parce qu&#39;il oblige à dire deux choses à la fois. D&#39;un côté, certaines études sérieuses associent l&#39;absence du père à des risques accrus chez les adolescentes. De l&#39;autre, ces études ne justifient pas de transformer les mères seules en explication unique, ni d&#39;affirmer que les pères seuls offriraient globalement une éducation plus saine.</p><p>La formulation la plus solide est celle-ci : la présence du père peut compter fortement dans certaines trajectoires de filles, en particulier lorsque son absence intervient tôt; mais les résultats observés dépendent aussi des ressources économiques, du conflit familial, de la santé mentale parentale, de l&#39;âge de l&#39;enfant, du soutien social et du pays étudié.</p>
+                <p><em>isora</em> documente les <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétries — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétries</a> qui disparaissent quand le débat public les résume trop vite. Ici, l&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> n&#39;est pas une statistique simple contre les femmes ou contre les hommes. Elle porte sur la façon dont la présence paternelle peut être une variable spécifique, mesurable, parfois associée à des résultats différents chez les filles.</p><p>Le sujet est donc pertinent parce qu&#39;il oblige à dire deux choses à la fois. D&#39;un côté, certaines études sérieuses associent l&#39;absence du père à des risques accrus chez les adolescentes. De l&#39;autre, ces études ne justifient pas de transformer les mères seules en explication unique, ni d&#39;affirmer que les pères seuls offriraient globalement une éducation plus saine.</p><p>La formulation la plus solide est celle-ci : la présence du père peut compter fortement dans certaines trajectoires de filles, en particulier lorsque son absence intervient tôt; mais les résultats observés dépendent aussi des ressources économiques, du conflit familial, de la santé mentale parentale, de l&#39;âge de l&#39;enfant, du soutien social et du pays étudié.</p>
               </section>
             
               <section class="section">
@@ -448,7 +452,7 @@
                         </details>
                       
                         <details>
-                          <summary>Pourquoi ne pas créer une tuile d&#39;asymétrie simple ?</summary>
+                          <summary>Pourquoi ne pas créer une tuile d&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> simple ?</summary>
                           <p>Parce que le résultat n&#39;est pas un indicateur unique et stable. Il dépend de la période, du pays, de l&#39;âge au moment de l&#39;absence, du niveau socioéconomique, du conflit familial, de la santé mentale parentale et des outcomes mesurés.</p>
                         </details>
                       

@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -387,7 +391,7 @@
             
               <section class="section">
                 <h2>En France, les femmes restent majoritaires parmi les proches aidants</h2>
-                <p>Sur le champ large de l&#39;enquête Autonomie-Ménages 2022, la DREES estime que 7,1 millions de personnes, soit 11 % de la population âgée de 5 ans ou plus, sont proches aidants en France métropolitaine. La source précise que 58 % sont des femmes. Les aidants accompagnent le plus souvent un parent, un conjoint ou un enfant.</p><p>Sur le champ plus étroit de l&#39;aide à la vie quotidienne, la publication de juin 2026 retrouve une majorité féminine très proche: 57 % de femmes parmi 5,3 millions d&#39;aidants de 16 ans ou plus. L&#39;asymétrie documentée ne disparaît donc pas lorsqu&#39;on resserre l&#39;observation sur les gestes concrets du quotidien.</p>
+                <p>Sur le champ large de l&#39;enquête Autonomie-Ménages 2022, la DREES estime que 7,1 millions de personnes, soit 11 % de la population âgée de 5 ans ou plus, sont proches aidants en France métropolitaine. La source précise que 58 % sont des femmes. Les aidants accompagnent le plus souvent un parent, un conjoint ou un enfant.</p><p>Sur le champ plus étroit de l&#39;aide à la vie quotidienne, la publication de juin 2026 retrouve une majorité féminine très proche: 57 % de femmes parmi 5,3 millions d&#39;aidants de 16 ans ou plus. L&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> documentée ne disparaît donc pas lorsqu&#39;on resserre l&#39;observation sur les gestes concrets du quotidien.</p>
               </section>
             
               <section class="section">
@@ -406,7 +410,7 @@
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Les deux publications DREES citées ici ne portent pas sur la même population. Celle de décembre 2025 inclut les aidants de 5 ans ou plus identifiés dans le volet Aidants de l&#39;enquête Autonomie-Ménages 2022 et couvre plusieurs types d&#39;aide à des personnes vivant en logement ordinaire en France métropolitaine. Celle de juin 2026 ne retient que les aidants de 16 ans ou plus apportant une aide régulière à la vie quotidienne, et compare 2022 à 2008 sur un champ rendu comparable entre deux enquêtes différentes.</p><p>Les sources OCDE et Eurostat ne sont pas non plus directement superposables aux chiffres français. L&#39;OCDE observe ici les 50 ans ou plus à partir d&#39;enquêtes internationales et nationales dont les définitions de l&#39;aide informelle varient. Eurostat utilise des enquêtes d&#39;emploi du temps sur les activités domestiques et familiales, pas un recensement des seuls proches aidants. Enfin, toutes ces sources parlent de femmes et d&#39;hommes au sens des catégories statistiques employées par les organismes producteurs; elles ne mesurent pas les chromosomes.</p>
               </section>
             

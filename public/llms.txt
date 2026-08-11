@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-07-15T00:00:00+02:00
+Derniere generation: 2026-08-11T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -17,10 +17,10 @@ Derniere generation: 2026-07-15T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 92
-- Fiches concernant les hommes: 39
-- Fiches concernant les femmes: 53
-- Sources distinctes: 199
+- Fiches: 96
+- Fiches concernant les hommes: 44
+- Fiches concernant les femmes: 52
+- Sources distinctes: 196
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -30,7 +30,7 @@ Derniere generation: 2026-07-15T00:00:00+02:00
 - Les fiches peuvent etre corrigees lorsque de meilleures sources apparaissent.
 
 ## Lexique
-Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d'un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.
+Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sépare quatre axes indépendants, le combat contre une asymétrie, l'opposition de principe à ce combat, l'adhésion à des rôles sexués traditionnels et la haine d'un sexe. Féminisme et masculinisme nomment ici l'objet d'un combat; antiféminisme et antimasculinisme nomment son opposition systématique; virilisme et féminilisme nomment des normes de rôles; misandrie et misogynie nomment des haines ou des mépris.
 
 ### Fille / femme
 - URL: https://isora-xi.vercel.app/lexique/#fille-femme
@@ -48,33 +48,65 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 - URL: https://isora-xi.vercel.app/lexique/#feminisme
 - Categorie: Repère
 - Definition: Combat contre les asymétries en défaveur des filles et des femmes.
-- Detail: Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Cette définition n'implique pas qu'une parole féministe serait automatiquement misandre.
-- A ne pas confondre avec: misandrie
-- Fiche liee: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Detail: Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Il ne décrit à lui seul ni une opinion sur les hommes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être féministe et masculiniste selon les asymétries qu'elle défend.
+- A ne pas confondre avec: féminilisme, misandrie, antimasculinisme
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Masculinisme
 - URL: https://isora-xi.vercel.app/lexique/#masculinisme
 - Categorie: Repère
 - Definition: Combat contre les asymétries en défaveur des garçons et des hommes.
-- Detail: Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines sans haine des femmes. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; cette fiche signale justement l'écart entre ce besoin lexical et l'usage courant.
-- A ne pas confondre avec: misogynie
-- Fiche liee: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Detail: Dans isora, ce repère sert à nommer la défense factuelle et pacifique des vulnérabilités masculines. Il ne décrit à lui seul ni une opinion sur les femmes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être masculiniste et féministe selon les asymétries qu'elle défend. Lorsqu'un dictionnaire, un média ou un rapport public emploie masculinisme pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, isora conserve le titre exact pour la traçabilité mais ne reprend pas cette qualification à son compte : chaque élément est reclassé séparément selon son contenu observable.
+- A ne pas confondre avec: virilisme, misogynie, antiféminisme
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Antiféminisme
+- URL: https://isora-xi.vercel.app/lexique/#antifeminisme
+- Categorie: Opposition à un combat
+- Definition: Opposition de principe au féminisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des filles et des femmes.
+- Detail: Dans isora, le terme vise l'opposition générale à la légitimité du combat féministe, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication féministe précise ne suffit pas à caractériser l'antiféminisme : il faut observer une opposition de principe ou une disqualification systématique. L'antiféminisme n'implique pas automatiquement la misogynie, le virilisme ou le masculinisme.
+- A ne pas confondre avec: misogynie, virilisme, masculinisme
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Antimasculinisme
+- URL: https://isora-xi.vercel.app/lexique/#antimasculinisme
+- Categorie: Opposition à un combat
+- Definition: Opposition de principe au masculinisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des garçons et des hommes.
+- Detail: Dans isora, le terme vise l'opposition générale à la légitimité du combat masculiniste, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication masculiniste précise ne suffit pas à caractériser l'antimasculinisme : il faut observer une opposition de principe ou une disqualification systématique. L'antimasculinisme n'implique pas automatiquement la misandrie, le féminilisme ou le féminisme.
+- A ne pas confondre avec: misandrie, féminilisme, féminisme
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Virilisme
+- URL: https://isora-xi.vercel.app/lexique/#virilisme
+- Categorie: Repère
+- Definition: Adhésion à un modèle traditionnel de virilité et aux rôles patriarcaux attendus des hommes.
+- Detail: Le virilisme valorise ou prescrit selon le sexe des qualités et obligations comme la force, la dureté, la domination, l'initiative, la prise de risque, la protection matérielle ou le refus de la vulnérabilité. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme virils ne suffit pas : le repère vise leur transformation en norme attendue ou hiérarchiquement supérieure. Une personne de l'un ou l'autre sexe peut porter cette position.
+- A ne pas confondre avec: masculinisme, misogynie
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+
+### Féminilisme
+- URL: https://isora-xi.vercel.app/lexique/#feminilisme
+- Categorie: Repère
+- Definition: Néologisme éditorial d'isora : adhésion à un modèle traditionnel de féminité et aux rôles patriarcaux attendus des femmes.
+- Detail: Le féminilisme valorise ou prescrit selon le sexe des qualités, apparences et rôles comme la douceur, la retenue, le soin, la séduction, la dépendance matérielle ou l'attente de galanterie, de protection et de prise en charge par les hommes. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme féminins ou apprécier un geste galant ne suffit pas : le repère vise leur transformation en norme sexuée. Le concept sociologique de « féminité accentuée » décrit un phénomène voisin de conformité au patriarcat. Une personne de l'un ou l'autre sexe peut porter cette position.
+- A ne pas confondre avec: féminisme, misandrie
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Misandrie
 - URL: https://isora-xi.vercel.app/lexique/#misandrie
 - Categorie: Haine de sexe
 - Definition: Haine ou mépris des hommes.
-- Detail: La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres.
-- A ne pas confondre avec: féminisme
-- Fiche liee: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Detail: La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres. La disqualification générale d'une revendication masculine pacifique à cause du sexe qu'elle défend peut être étudiée comme une disqualification sexiste; la misandrie ne doit toutefois être retenue que si une haine ou un mépris des hommes est observable.
+- A ne pas confondre avec: féminisme, antimasculinisme
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Misogynie
 - URL: https://isora-xi.vercel.app/lexique/#misogynie
 - Categorie: Haine de sexe
 - Definition: Haine ou mépris des femmes.
 - Detail: La misogynie décrit une hostilité envers les femmes comme groupe. Elle peut être exprimée par des hommes ou par des femmes. Elle n'est pas synonyme de masculinisme au sens d'une défense factuelle des asymétries défavorables aux hommes.
-- A ne pas confondre avec: masculinisme
-- Fiche liee: Défense des hommes : pas de terme neutre stabilisé (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- A ne pas confondre avec: masculinisme, antiféminisme
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Sexisme
 - URL: https://isora-xi.vercel.app/lexique/#sexisme
@@ -123,6 +155,47 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes
+- URL: https://isora-xi.vercel.app/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/
+- Date: 2026-08-11
+- Fiches isora liees: hommes-agresseurs-declares-violences-sexuelles-femmes-france, hommes-part-auteurs-violences-sexuelles-perception, hommes-femmes-peurs-consentement-sexuel, hommes-attribution-laxisme-justice-violences-sexuelles, hommes-reconnaissance-viol-lois-europe
+- Resume: Quatre questions souvent confondues utilisent des dénominateurs et des règles de preuve différents. Dans l'enquête VRS 2024, parmi les femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle et ayant renseigné le sexe des auteurs, 99 % désignent exclusivement un ou plusieurs hommes. Cette part parmi les auteurs déclarés ne mesure pas la part de l'ensemble des hommes qui commettraient ces faits. En justice, 69 % des personnes mises en cause dans les affaires de viol ou d'agression sexuelle traitées par les parquets en 2024 relèvent d'affaires non poursuivables; plus de 80 % de ces cas sont classés parce que l'infraction est insuffisamment caractérisée. Cela ne prouve ni que les déclarations sont fausses ni que les faits ont eu lieu. Les fausses allégations existent, mais les études de contexte disponibles n'établissent pas un taux général applicable à la France.
+- Sources: Arrêtons les violences / SSMSI: https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Ministère de la Justice / SSER: https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice / SSER: https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Légifrance: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037108959; Ministère de la Justice / Cour d'appel de Nancy: https://www.cours-appel.justice.fr/nancy/les-regles-generales-dun-proces-penal; Violence Against Women / PubMed: https://pubmed.ncbi.nlm.nih.gov/21164210/; Crown Prosecution Service: https://www.cps.gov.uk/index.php/publication/key-facts-about-how-CPS-prosecutes-allegations-rape
+
+### Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée
+- URL: https://isora-xi.vercel.app/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/
+- Date: 2026-08-11
+- Fiches isora liees: femmes-arret-cardiaque-defibrillation-temoins
+- Resume: La meilleure synthèse récente repérée par Isora réunit 15 cohortes et 499 854 arrêts cardiaques extrahospitaliers. Elle associe le sexe féminin à une moindre probabilité d'application, par un témoin, des électrodes d'un défibrillateur automatisé externe, avec un odds ratio de 0,79 et une certitude jugée modérée. En revanche, les résultats sur le déclenchement de la réanimation cardio-pulmonaire sont très hétérogènes. Une enquête américaine de 2024 montre que le public cite parfois la crainte d'un contact inapproprié ou d'une accusation parmi les explications possibles, mais elle mesure des perceptions, pas les motivations observées des sauveteurs ni le nombre de plaintes. Le récit viral d'une femme ayant poursuivi l'homme qui l'aurait sauvée a par ailleurs été identifié comme une histoire satirique, pas comme un fait établi.
+- Sources: Resuscitation Plus / PubMed Central: https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/; Circulation: Cardiovascular Quality and Outcomes / PubMed: https://pubmed.ncbi.nlm.nih.gov/30354377/; PubMed: https://pubmed.ncbi.nlm.nih.gov/38533649/; Maldita.es: https://maldita.es/feminismo/bulo/20241001/mujer-denuncia-hombre-rescate-sin-permiso/
+
+### Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille
+- URL: https://isora-xi.vercel.app/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/
+- Date: 2026-08-11
+- Fiches isora liees: hommes-violences-physiques-hors-famille-france-2025, femmes-violences-conjugales, hommes-mis-en-cause-violences-conjugales-france, hommes-agresseurs-declares-violences-sexuelles-femmes-france
+- Resume: La publication Interstats portant sur les crimes et délits enregistrés en 2025 interdit de réduire la violence à une seule opposition entre les sexes. Les hommes représentent 68 % des victimes de violences physiques hors du cadre familial. Dans le cadre familial, les femmes représentent 73 % des victimes de violences physiques. Tous contextes confondus, elles constituent aussi 85 % des victimes enregistrées de violences sexuelles. Ces indicateurs sont compatibles parce qu'ils ne portent ni sur les mêmes faits ni sur les mêmes situations. Ils documentent des asymétries différentes, qui appellent des politiques de prévention différentes.
+- Sources: Ministère de l'Intérieur / SSMSI / Interstats: https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs
+
+### Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré
+- URL: https://isora-xi.vercel.app/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/
+- Date: 2026-07-19
+- Fiches isora liees: hommes-sans-abrisme
+- Resume: Les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en Angleterre, les hommes restent très majoritaires. Le cadre mensuel publié le 25 juin 2026 estime qu'en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. Le snapshot d'automne 2025 retrouve une structure voisine avec 82 % d'hommes. Mais ces chiffres décrivent surtout la rue visible. Les notes méthodologiques britanniques et les synthèses OCDE rappellent qu'une partie du sans-abrisme féminin passe plus souvent par des formes moins visibles, comme l'hébergement provisoire chez des proches ou l'hébergement temporaire, ce qui réduit ou inverse parfois l'écart selon la source retenue.
+- Sources: UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-release; UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-technical-notes; UK Government: https://www.gov.uk/government/statistics/rough-sleeping-snapshot-in-england-autumn-2025/rough-sleeping-snapshot-in-england-autumn-2025; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/peopleexperiencinghomelessnessenglandandwales/census2021; OECD: https://www.oecd.org/en/topics/sub-issues/homelessness-and-housing-exclusion/toolkit-to-combat-homelessness/measurement.html; OECD: https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf
+
+### Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025
+- URL: https://isora-xi.vercel.app/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/
+- Date: 2026-07-16
+- Fiches isora liees: femmes-temps-partiel, femmes-soin-non-remunere-emploi
+- Resume: Eurostat a mis à jour le 16 juillet 2026 sa statistique sur la durée de vie au travail. En 2025, une personne de 15 ans dans l'Union européenne peut espérer passer en moyenne 37,5 ans dans la population active, contre 39,5 ans pour les hommes et 35,4 ans pour les femmes. L'écart recule par rapport à 2016, où il atteignait 5,0 ans, mais il reste net. Les données européennes sur l'emploi et le point trimestriel de l'Insee pour la France suggèrent que cet écart de durée s'inscrit dans une participation au marché du travail encore plus élevée chez les hommes, même si les écarts d'emploi observés à un instant donné sont plus faibles que l'écart cumulé de durée de vie au travail.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260716-2; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Duration_of_working_life_-_statistics; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_-_annual_statistics; Insee: https://www.insee.fr/fr/statistiques/8989990
+
+### Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe
+- URL: https://isora-xi.vercel.app/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/
+- Date: 2026-07-15
+- Resume: La DREES a mis à jour le 2 juillet 2026 la démographie des professions de santé en France : 242 200 médecins sont en activité au 1er janvier 2026 et 51 % sont des femmes. Croisées avec l'Atlas 2026 du Conseil national de l'Ordre des médecins et avec le panorama Eurostat sur les médecins en Europe, ces données montrent une féminisation nette mais inégale selon l'âge, la profession et le mode d'exercice.
+- Sources: DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-medecins-supplementaires-en-activite-en-France-au-1er-janvier-2026; DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-les-effectifs-des-professionnels-de-sant%C3%A9; Conseil national de l'Ordre des médecins: https://www.conseil-national.medecin.fr/sites/default/files/CNOM-ATLAS-DEMOGRAPHIE-2026-TOME-1.pdf; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_personnel_statistics_-_physicians
+
 ### Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins
 - URL: https://isora-xi.vercel.app/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/
 - Date: 2026-07-15
@@ -137,50 +210,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Resume: Le jeu de données publié par Eurostat le 10 juillet 2026 confirme qu'au 31 mai 2026, les bénéficiaires de la protection temporaire accordée aux personnes ayant fui l'Ukraine dans l'Union européenne restent majoritairement des femmes et des mineurs. Les femmes adultes représentent 43,4 % du total, les hommes adultes 26,8 % et les mineurs 29,8 %. Cette structure varie peu depuis janvier 2026. L'UNHCR rappelle dans ses documents 2026 que la population réfugiée demeure majoritairement composée de femmes et d'enfants, avec moins d'hommes adultes en raison des restrictions visant les hommes ukrainiens d'âge militaire à la sortie du pays. Le Conseil de l'Union européenne a en outre prolongé ce régime jusqu'au 4 mars 2027, ce qui inscrit cette asymétrie démographique dans une durée désormais longue.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-1; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260310-1; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Temporary_protection_for_persons_fleeing_Ukraine_-_monthly_statistics; UNHCR: https://data.unhcr.org/en/documents/download/120716; UNHCR data portal: https://data.unhcr.org/en/documents/download/120820; Council of the European Union: https://www.consilium.europa.eu/en/press/press-releases/2025/06/13/eu-member-states-agree-to-extend-temporary-protection-for-refugees-from-ukraine/
 
-### Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France
-- URL: https://isora-xi.vercel.app/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/
-- Date: 2026-07-08
-- Fiches isora liees: femmes-menopause-soins
-- Resume: Les sources institutionnelles récentes décrivent moins une hiérarchie simple qu'une organisation différente de la prévention selon le sexe. En France, Santé publique France indique qu'en 2024-2025 la participation au dépistage organisé du cancer colorectal atteint 30,7 % de la population cible, avec 31,8 % chez les femmes et 29,6 % chez les hommes. Dans le même temps, les tests positifs sont plus fréquents chez les hommes en 2025, et Eurostat rappelle que les taux de mortalité colorectale standardisés restent plus élevés chez les hommes dans tous les pays de l'Union européenne. À l'inverse, les femmes sont les seules à relever d'un programme organisé du cancer du sein à grande échelle, avec 46,5 % de participation sur 2022-2023. Pour la prostate, l'Institut national du cancer indique qu'aucun programme de dépistage systématique n'est recommandé à ce jour.
-- Sources: Santé publique France: https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullnat_Depistage_Cancer_colorectal_20260311.pdf; Drees: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260219-depistage-cancer-in%C3%A9galit%C3%A9s-sociales; Santé publique France: https://www.santepubliquefrance.fr/cancers/cancer-du-sein/taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-en-2022-2023-et-evolution; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Cancer_statistics_-_specific_cancers; Institut national du cancer: https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate
 
-### Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE
-- URL: https://isora-xi.vercel.app/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/
-- Date: 2026-07-07
-- Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel
-- Resume: Les sources retenues pour la veille du 7 juillet 2026 ne décrivent pas un seul chiffre magique. Eurostat indique qu'en 2024 l'écart de salaire horaire brut non ajusté atteint 11,1 % dans l'Union européenne. L'Insee montre qu'en France, dans le secteur privé, le revenu salarial annuel moyen des femmes reste inférieur de 21,8 % à celui des hommes, tandis que l'écart tombe à 14,0 % en équivalent temps plein et à 3,6 % pour le même emploi dans le même établissement. L'OCDE rappelle de son côté qu'en 2024, l'écart médian de rémunération des salariés à temps plein reste proche de 10 % à l'échelle de l'OCDE, et que les obligations de transparence salariale continuent de s'étendre.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics; Insee: https://www.insee.fr/fr/statistiques/8743657; OCDE: https://www.oecd.org/en/publications/pay-transparency-in-progress_121f268d-en.html; OCDE: https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/gender-gaps-in-paid-and-unpaid-work-persist_de465299/25a6c5dc-en.pdf
-
-### Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale
-- URL: https://isora-xi.vercel.app/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/
-- Date: 2026-07-06
-- Fiches isora liees: hommes-victimes-homicide-monde, femmes-feminicides-monde-2024, femmes-violences-physiques-sexuelles-monde
-- Resume: La veille du 6 juillet 2026 conduit à distinguer deux contextes. Le brief 2025 d'UNODC et d'ONU Femmes indique qu'en 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons, mais que 60 % des homicides de femmes et filles ont été commis par un partenaire intime ou un membre de la famille, contre 11 % des homicides masculins. Eurostat observe dans l'Union européenne qu'en 2024 le taux de victimes d'homicide tuées par un partenaire intime ou un membre de la famille atteint 3,9 pour un million de femmes contre 2,3 pour un million d'hommes. En France, l'étude publiée par le ministère de l'Intérieur pour l'année 2024 recense 138 morts violentes au sein du couple, dont 107 femmes et 31 hommes.
-- Sources: UNODC / ONU Femmes: https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Crime_statistics; Ministère de l'Intérieur: https://www.interieur.gouv.fr/documentation/etudes-et-statistiques/etude-nationale-sur-morts-violentes-au-sein-du-couple-en-2024.html-0; arretonslesviolences.gouv.fr / MIPROF: https://arretonslesviolences.gouv.fr/sites/default/files/2025-10/Chiffres%20clefs_DAV_2025_Miprof_VF.pdf
-
-### Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté
-- URL: https://isora-xi.vercel.app/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/
-- Date: 2026-07-05
-- Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel, femmes-soin-non-remunere-emploi
-- Resume: La veille du 5 juillet 2026 met en avant un cumul d'écarts de long terme plutôt qu'un seul indicateur isolé. Eurostat indique qu'en 2024, dans l'Union européenne, la pension moyenne des femmes de 65 ans ou plus est inférieure de 24,5 % à celle des hommes, et que le risque de pauvreté des femmes de cet âge est plus élevé dans 22 pays de l'UE. L'OCDE retrouve un écart moyen voisin, à 23 % en 2024, et un taux de pauvreté monétaire des 65 ans ou plus de 17 % pour les femmes contre 12 % pour les hommes en moyenne. En France, la DREES indique qu'en 2023 la pension de droit direct moyenne des femmes résidant en France reste inférieure de 38 % à celle des hommes, écart ramené à 25 % en incluant l'éventuelle pension de réversion.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Living_conditions_in_Europe_-_monetary_poverty_among_the_elderly; OCDE: https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html; OCDE: https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/old-age-income-poverty_3cd946d7.html; DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/250731_PANORAMAS-retraites
-
-### Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart
-- URL: https://isora-xi.vercel.app/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/
-- Date: 2026-07-03
-- Fiches isora liees: femmes-temps-partiel, femmes-charge-domestique-soin, hommes-conge-paternite-ocde
-- Resume: La veille du 3 juillet 2026 fait ressortir un schéma stable dans plusieurs sources publiques. A l'échelle de l'UE, Eurostat indique qu'en 2024 l'écart d'emploi entre femmes et hommes de 25 a 54 ans vivant avec des enfants atteint 16,5 points, avec 75,4 % de femmes en emploi contre 91,9 % d'hommes. En France, l'Insee et la DREES montrent que les mères reduisent plus souvent leur activité ou restent plus souvent seules avec les jeunes enfants, meme lorsque les pères sont davantage presents qu'au debut des annees 2000. L'OCDE ajoute que les droits de congé paye reserves aux pères se sont etendus, mais restent plus courts que ceux reserves aux mères dans la plupart des pays membres.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=SDG_5_-_Gender_equality; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1; DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/communique-de-presse/251120-prise-en-charge-des-jeunes-enfants; OCDE: https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html; Insee: https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/
-
-### Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE
-- URL: https://isora-xi.vercel.app/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/
-- Date: 2026-07-02
-- Fiches isora liees: hommes-accidents-route-monde
-- Resume: La veille du 2 juillet 2026 fait ressortir une asymétrie documentée mais à lire avec précision. En France métropolitaine, l'ONISR indique qu'en 2025 les hommes représentent 2 523 des 3 263 personnes décédées sur la route, soit 77 %. Eurostat décrit une structure très proche dans l'Union européenne en 2024, avec 15 332 hommes et 4 552 femmes parmi les décès dont le sexe est renseigné, soit environ trois quarts de victimes masculines sur la décennie récente. La Commission européenne ajoute qu'en 2025 la mortalité routière totale dans l'UE recule d'environ 3 %, sans signaler à ce stade un retournement de cette asymétrie de sexe.
-- Sources: ONISR: https://www.onisr.securite-routiere.gouv.fr/etat-de-linsecurite-routiere/bilans-annuels-de-la-securite-routiere/bilan-2025-de-la-securite-routiere; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_safety_statistics_in_the_EU; Commission européenne / CARE / ERSO: https://road-safety.transport.ec.europa.eu/document/download/ed29ad84-b2f1-429e-97ca-2b713e7dc1b1_en?filename=ERSOnext_AnnualReport_20260323.pdf; Commission européenne: https://transport.ec.europa.eu/news-events/news/eu-road-deaths-drop-3-2025-2026-03-24_en
-
-
-## Hommes très majoritaires parmi les morts au travail
+## Hommes toujours davantage touchés par les accidents du travail
 - ID: hommes-accidents-travail
 - URL: https://isora-xi.vercel.app/fiches/hommes-accidents-travail/
 - URL interactive: https://isora-xi.vercel.app/#hommes-accidents-travail
@@ -188,13 +219,13 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Angle: désavantage_subi
 - Domaine: Travail
 - Zone: France
-- Periode: 2022+
+- Periode: 2023-2023
 - Statut: persistant
 - Mesure cle: >90 %
-- Resume: Les accidents du travail mortels concernent à plus de 90 % des hommes dans tous les secteurs étudiés. Les métiers du BTP, du transport, de la manutention et d'autres activités exposées restent fortement masculinisés.
-- Nuance: Le constat documente une exposition au risque. Il ne prouve pas à lui seul une règle juridique défavorable aux hommes.
+- Resume: La Dares comptabilise 668 510 accidents du travail avec au moins un jour d'arrêt en France en 2023, dont 818 mortels, et indique que les hommes restent plus touchés que les femmes. L'Anact estimait déjà que plus de 90 % des accidents du travail mortels concernaient des hommes dans les secteurs étudiés.
+- Nuance: Les écarts reflètent notamment les métiers exercés, les expositions, l'âge et les secteurs d'activité. La Dares précise que la différence entre femmes et hommes s'amenuise avec l'âge. Le seuil de 90 % vient de la publication Anact antérieure, tandis que les volumes 2023 viennent de la Dares.
 - Population mesuree: Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.
-- Sources: ANACT (2022): https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe
+- Sources: Dares (22 juillet 2026): https://dares.travail-emploi.gouv.fr/publication/quels-salaries-sont-le-plus-souvent-victimes-daccidents-du-travail-en-2023; ANACT (2022): https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe
 
 ## Surmortalité masculine par suicide
 - ID: hommes-suicide
@@ -224,11 +255,27 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Statut: persistant
 - Mesure cle: -5,6 ans
 - Resume: En 2025, l'Insee estime l'espérance de vie à la naissance à 80,3 ans pour les hommes contre 85,9 ans pour les femmes en France.
-- Nuance: L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques.
+- Nuance: L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins.
 - Population mesuree: Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.
-- Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631
+- Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631; Santé publique France / Bulletin épidémiologique hebdomadaire (juillet 2026): https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html
 
-## Pères presque toujours débiteurs des pensions alimentaires
+## Hommes moins nombreux à parler de leur mal-être à un professionnel
+- ID: hommes-mal-etre-recours-professionnel
+- URL: https://isora-xi.vercel.app/fiches/hommes-mal-etre-recours-professionnel/
+- URL interactive: https://isora-xi.vercel.app/#hommes-mal-etre-recours-professionnel
+- Groupe: hommes
+- Angle: désavantage_subi
+- Domaine: Santé
+- Zone: France
+- Periode: 2022-2023
+- Statut: actuel
+- Mesure cle: 25 % vs 32 %
+- Resume: Parmi les 2 919 personnes ayant déclaré un mal-être ou des difficultés psychologiques dans l'enquête CoviPrev 2022-2023, 25 % des hommes contre 32 % des femmes disent en avoir parlé à un professionnel de santé ou de santé mentale. L'écart est particulièrement marqué après 65 ans: 18 % contre 34 %.
+- Nuance: L'enquête repose sur un échantillonnage par quotas au sein d'un access panel et mesure une parole déclarée, pas un diagnostic ni l'aboutissement d'un parcours de soins. Les jeunes hommes de 18 à 24 ans déclarent avoir parlé à quelqu'un aussi souvent que les jeunes femmes, mais utilisent davantage des canaux alternatifs. Le résultat justifie donc une prévention ciblée, pas l'affirmation qu'aucun homme ne demande d'aide.
+- Population mesuree: Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.
+- Sources: Santé publique France / Bulletin épidémiologique hebdomadaire (24 mars 2026): https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html
+
+## Dans les décisions étudiées en 2012, le père était débiteur dans 97 % des pensions fixées
 - ID: hommes-pensions-alimentaires
 - URL: https://isora-xi.vercel.app/fiches/hommes-pensions-alimentaires/
 - URL interactive: https://isora-xi.vercel.app/#hommes-pensions-alimentaires
@@ -239,12 +286,12 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Periode: 2013+
 - Statut: données insuffisantes
 - Mesure cle: 97 %
-- Resume: Dans les décisions étudiées par le ministère de la Justice, quand une contribution à l'entretien et à l'éducation de l'enfant est fixée, le parent débiteur est presque toujours le père.
-- Nuance: La donnée est ancienne et reflète aussi la résidence principale des enfants. Elle doit être actualisée avant d'en faire un argument juridique fort.
+- Resume: Dans les décisions rendues en 2012 et étudiées par le ministère de la Justice, lorsqu'une contribution à l'entretien et à l'éducation de l'enfant était fixée, le père en était le débiteur dans 97 % des cas.
+- Nuance: Cette donnée est historique et reflète notamment le fait que les enfants résidaient plus souvent principalement chez leur mère. Elle ne démontre pas à elle seule un biais judiciaire et ne permet pas d'affirmer que l'homme paie toujours après une séparation.
 - Population mesuree: Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.
 - Sources: Ministère de la Justice (2013): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/pension-alimentaire-fixee-juges-deux-tiers-enfants-parents-separes
 
-## Résidence alternée encore rare pour les pères séparés
+## En 2023, 14 % des enfants de parents séparés vivent à temps égal chez chacun
 - ID: hommes-residence-alternee
 - URL: https://isora-xi.vercel.app/fiches/hommes-residence-alternee/
 - URL interactive: https://isora-xi.vercel.app/#hommes-residence-alternee
@@ -255,12 +302,12 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Periode: 2023+
 - Statut: actuel
 - Mesure cle: 14 %
-- Resume: L'Insee indique qu'en 2023, 14 % des enfants dont les parents sont séparés vivent en résidence alternée. Le reste vit principalement avec un seul parent, le plus souvent la mère selon les publications antérieures.
+- Resume: L'Insee indique qu'en 2023, 14 % des enfants dont les parents sont séparés partagent leur temps à égalité entre les deux domiciles. La majorité vit principalement avec un seul parent, le plus souvent la mère.
 - Nuance: La résidence dépend de l'âge de l'enfant, du logement, des demandes parentales, des revenus et des décisions judiciaires. Le chiffre ne suffit pas à isoler un biais du juge.
 - Population mesuree: Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.
 - Sources: Insee (janvier 2025): https://www.insee.fr/fr/statistiques/8310621
 
-## Quand la femme assure seule le revenu, la baisse de satisfaction est plus marquée chez les hommes
+## Dans neuf pays, satisfaction déclarée plus basse quand la femme assure seule le revenu
 - ID: hommes-femme-principale-pourvoyeuse-satisfaction
 - URL: https://isora-xi.vercel.app/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/
 - URL interactive: https://isora-xi.vercel.app/#hommes-femme-principale-pourvoyeuse-satisfaction
@@ -427,14 +474,30 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Droits
-- Zone: France
-- Periode: 2026+
-- Statut: actuel
-- Mesure cle: nombreux pays
-- Resume: De nombreux pays imposent encore un service militaire obligatoire visant surtout ou uniquement les hommes, avec des obligations civiques et militaires différenciées selon le sexe.
-- Nuance: Les règles varient fortement selon les pays, les exemptions et les situations de guerre. L'asymétrie juridique doit être vérifiée pays par pays.
-- Population mesuree: Population mesurée par la source : men / males selon les règles nationales recensées, à vérifier pays par pays. La source ne mesure pas les chromosomes.
-- Sources: World Population Review (2026): https://worldpopulationreview.com/country-rankings/countries-with-mandatory-military-service
+- Zone: Union européenne
+- Periode: 2025-2026
+- Statut: variable selon pays
+- Mesure cle: règles variables
+- Resume: En mars 2025, le Parlement européen recensait neuf États membres de l'Union européenne appliquant une conscription en temps de paix; la Suède était alors le seul de ces pays à l'appliquer aux deux sexes. Le Danemark a depuis instauré une conscription juridiquement identique pour les femmes et les hommes à partir de 2025-2026.
+- Nuance: Les règles évoluent rapidement et diffèrent selon le pays, l'âge, les exemptions, la durée et les situations de guerre. Le chiffre de neuf décrit l'Union européenne en mars 2025; il ne constitue pas un total mondial actuel. Chaque situation nationale doit être datée et vérifiée.
+- Population mesuree: Population mesurée par les sources : personnes soumises aux règles nationales de conscription dans l'Union européenne, selon les catégories femmes/hommes des textes. Les sources ne mesurent pas les chromosomes.
+- Sources: Service de recherche du Parlement européen (19 mars 2025): https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)769541; Défense danoise (consulté le 11 août 2026): https://karriere.forsvaret.dk/vaernepligt/vaernepligt-for-kvinder/
+
+## Âge normal de retraite encore plus élevé pour les hommes dans certains pays
+- ID: hommes-age-retraite-differencie-ocde
+- URL: https://isora-xi.vercel.app/fiches/hommes-age-retraite-differencie-ocde/
+- URL interactive: https://isora-xi.vercel.app/#hommes-age-retraite-differencie-ocde
+- Groupe: hommes
+- Angle: désavantage_subi
+- Domaine: Droits
+- Zone: OCDE
+- Periode: 2024-2024
+- Statut: variable selon pays
+- Mesure cle: 64,7 vs 63,9 ans
+- Resume: Pour les personnes parties à la retraite en 2024, l'OCDE calcule un âge normal moyen de 64,7 ans pour les hommes contre 63,9 ans pour les femmes. Neuf pays de l'OCDE conservaient un âge normal inférieur pour les femmes, avec des écarts pouvant atteindre cinq ans.
+- Nuance: L'indicateur mesure l'âge normal prévu pour une carrière-type, pas l'âge moyen de sortie effective du marché du travail. Un âge inférieur constitue un avantage juridique de calendrier pour les femmes, mais peut aussi raccourcir leur carrière contributive et réduire leur pension mensuelle. Les deux effets doivent rester visibles.
+- Population mesuree: Population mesurée par la source : carrières-types de femmes et d'hommes partant à la retraite en 2024 selon les législations des pays de l'OCDE. La source ne mesure pas les chromosomes.
+- Sources: OCDE (2025): https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/current-retirement-ages_0f63b747.html; OCDE (2025): https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html
 
 ## Hommes très majoritaires dans la population carcérale mondiale
 - ID: hommes-population-carcerale-monde
@@ -452,7 +515,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par la source : men / male prisoners dans le brief UNODC. La source ne mesure pas les chromosomes.
 - Sources: UNODC (2023): https://www.unodc.org/documents/data-and-analysis/prison/Prison_brief_2025.pdf
 
-## Garçons massivement hors de l'école ou en redoublement
+## Garçons plus nombreux hors de l'école dans l'estimation mondiale récente
 - ID: hommes-decrochage-garcons-monde
 - URL: https://isora-xi.vercel.app/fiches/hommes-decrochage-garcons-monde/
 - URL interactive: https://isora-xi.vercel.app/#hommes-decrochage-garcons-monde
@@ -462,11 +525,11 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Zone: Monde
 - Periode: 2024+
 - Statut: actuel
-- Mesure cle: 140 M
-- Resume: L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles. Elle souligne aussi que les garçons sont plus souvent à risque de redoublement, de non-progression et de non-achèvement dans de nombreux contextes.
-- Nuance: Le décrochage des garçons varie selon la pauvreté, le territoire, les conflits et les attentes sociales. Il ne contredit pas les obstacles spécifiques rencontrés par les filles ailleurs, notamment au primaire dans certains pays ou au secondaire dans des contextes de mariage précoce, pauvreté et insécurité.
+- Mesure cle: 140 M vs 133 M
+- Resume: L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles, et souligne que le désengagement scolaire masculin reste insuffisamment pris en compte dans certaines politiques. En France, l'édition 2026 de la DEPP mesure aussi des réussites plus faibles pour les garçons au brevet, au baccalauréat et à la sortie avec un master ou plus.
+- Nuance: Le décrochage varie selon la pauvreté, le territoire, les conflits, l'âge et le niveau observé. En France, les filles obtiennent plus souvent le brevet (89 % contre 83 %), le baccalauréat dans une génération (85 % contre 75 %) et un master ou plus (29 % contre 22 %), tandis que les garçons conservent certains avantages en mathématiques et que les diplômés hommes d'un master occupent plus souvent un CDI dans la mesure publiée.
 - Population mesuree: Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.
-- Sources: UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education/boys; UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education; UNESCO (2022): https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education
+- Sources: UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education/boys; UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education; UNESCO (2022): https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education; UNESCO (16 juin 2026): https://www.unesco.org/en/articles/lifting-barriers-boys-disengagement-education-volume-1-scoping-study; Ministère de l'Éducation nationale / DEPP (2026): https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2026-469418
 
 ## Hommes plus souvent sans-abri dans la plupart des pays
 - ID: hommes-sans-abrisme
@@ -483,6 +546,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Nuance: Les formes de sans-abrisme sont parfois moins visibles chez les femmes. La comparaison dépend fortement des définitions nationales.
 - Population mesuree: Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.
 - Sources: Our World in Data (données actualisées): https://ourworldindata.org/homelessness
+
+## Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille
+- ID: hommes-violences-physiques-hors-famille-france-2025
+- URL: https://isora-xi.vercel.app/fiches/hommes-violences-physiques-hors-famille-france-2025/
+- URL interactive: https://isora-xi.vercel.app/#hommes-violences-physiques-hors-famille-france-2025
+- Groupe: hommes
+- Angle: désavantage_subi
+- Domaine: Violences
+- Zone: France
+- Periode: 2025-2025
+- Statut: actuel
+- Mesure cle: 68 % H / 73 % F
+- Resume: En 2025, les hommes représentent 68 % des victimes enregistrées de violences physiques commises hors du cadre familial. Dans le cadre familial, les femmes représentent au contraire 73 % des victimes; elles constituent aussi 85 % des victimes enregistrées de violences sexuelles, quel que soit le contexte.
+- Nuance: Il s'agit de victimes enregistrées par la police et la gendarmerie, pas d'une estimation de toute la victimation. Le dépôt de plainte, l'enregistrement et la qualification des faits influencent les volumes. Le résultat montre néanmoins pourquoi une affirmation générale sur le sexe le plus souvent victime de violences est trompeuse sans préciser le type et le contexte.
+- Population mesuree: Population mesurée par la source : victimes de violences physiques et sexuelles enregistrées comme crimes ou délits par la police et la gendarmerie françaises en 2025. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.
+- Sources: Ministère de l'Intérieur / SSMSI (27 février 2026): https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs
 
 ## Hommes victimes de violence par partenaire intime
 - ID: hommes-violence-partenaire-etats-unis
@@ -523,14 +602,14 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Violences
-- Zone: France, Royaume-Uni et Canada
-- Periode: 1971-2025
+- Zone: France et Royaume-Uni
+- Periode: 2024-2025
 - Statut: persistant
 - Mesure cle: 4,4 % aidés
-- Resume: En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais seulement 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou hébergement sûr disponibles pour hommes en septembre 2025, dont 130 dédiées aux hommes. Au Canada, le refuge privé MASH d'Earl Silverman à Calgary a fermé en 2013 faute de financement public ou fédéral/provincial.
-- Nuance: Le Royaume-Uni recense des places pour hommes et des lignes spécialisées existent. L'asymétrie documentée porte sur la rareté, la faible visibilité, le financement limité et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.
-- Population mesuree: Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux, places d'hébergement sûr au Royaume-Uni, et cas historiques Erin Pizzey/Earl Silverman. Les sources ne mesurent pas les chromosomes.
-- Sources: Assemblée nationale / Réponse ministérielle (2025): https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5235; Service-Public.fr (2025): https://lannuaire.service-public.gouv.fr/centres-contact/R167; SOS Hommes Battus France (consulté 2026): https://soshommesbattus.org/; ManKind Initiative (2025): https://mankind.org.uk/statistics/statistics-on-male-victims-of-domestic-abuse/; CityNews Calgary (2013): https://calgary.citynews.ca/2013/03/21/shelter-for-male-victims-of-domestic-abuse-forced-to-close-its-doors/; Hansard / UK Parliament (2014): https://hansard.parliament.uk/commons/2014-04-10/debates/14041077000001/DomesticViolence%28PoliceResponse%29; Sandra Orozco-Stapleton Foundation (2006): https://www.sossandra.org/erin-pizzey-excerpts; The Respondent (consulté 2026): https://www.therespondent.com/blogs/episodes/erin-pizzey
+- Resume: En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou d'hébergement sûr ouvertes aux hommes en septembre 2025, dont 130 réservées aux hommes.
+- Nuance: Des lignes et places spécialisées pour hommes existent. La comparaison britannique provient toutefois d'une association et rapproche une enquête nationale de victimation d'un ensemble de services locaux: elle signale un écart d'accès documenté, sans constituer une mesure exhaustive de tous les dispositifs britanniques ni français.
+- Population mesuree: Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux et places d'hébergement sûr au Royaume-Uni. Les sources ne mesurent pas les chromosomes.
+- Sources: Assemblée nationale / Réponse ministérielle (2025): https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE5235; Service-Public.fr (2025): https://lannuaire.service-public.gouv.fr/centres-contact/R167; SOS Hommes Battus France (consulté 2026): https://soshommesbattus.org/; ManKind Initiative (2025): https://mankind.org.uk/statistics/statistics-on-male-victims-of-domestic-abuse/
 
 ## Hommes moins enclins à reconnaître certaines agressions sexuelles
 - ID: hommes-agressions-sexuelles-minimisees
@@ -544,25 +623,9 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Statut: persistant
 - Mesure cle: 48 % vs 60 %
 - Resume: Une enquête NSVRC/YouGov de 2017 indique que les hommes américains qualifient moins souvent que les femmes certaines conduites d'agression sexuelle: 48 % des hommes contre 60 % des femmes pour des remarques sexuelles non sollicitées, 67 % contre 79 % pour un rapport obtenu sous pression, et 56 % contre 72 % pour le voyeurisme. Des travaux sur les mythes du viol masculin montrent aussi que les hommes acceptent davantage ces mythes, surtout quand l'auteure est une femme.
-- Nuance: L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. Les sources portent sur une asymétrie de perception et de minimisation; elles ne mesurent ni toutes les situations de victimes masculines, ni la fréquence des agressions commises par des femmes.
+- Nuance: L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle aux États-Unis en 2017, pas l'acceptation d'un cas particulier. Le Conseil de l'Europe documente en 2025 la persistance de stéréotypes d'invulnérabilité masculine et de difficultés de reconnaissance. Ces sources ne mesurent ni toutes les victimes masculines ni la fréquence globale des auteures femmes.
 - Population mesuree: Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.
-- Sources: National Sexual Violence Resource Center / YouGov (2017): https://www.nsvrc.org/blog_post/new-data-reveals-high-awareness-among-us-adults-what-constitutes-sexual/; Sex Roles / Springer (1992): https://link.springer.com/article/10.1007/BF00290011; International Review of Victimology / SAGE (2022): https://journals.sagepub.com/doi/10.1177/02697580211048552; CDC (2024): https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html; National Sexual Violence Resource Center (consulté 2026): https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/; Violence Against Women / SAGE (2024): https://journals.sagepub.com/doi/10.1177/10778012241263104
-
-## Hommes victimes de violences sexuelles très peu déclarées
-- ID: hommes-violences-sexuelles-sous-declaration
-- URL: https://isora-xi.vercel.app/fiches/hommes-violences-sexuelles-sous-declaration/
-- URL interactive: https://isora-xi.vercel.app/#hommes-violences-sexuelles-sous-declaration
-- Groupe: hommes
-- Angle: désavantage_subi
-- Domaine: Violences
-- Zone: États-Unis, Canada et Angleterre/Pays de Galles
-- Periode: 1992-2025
-- Statut: persistant
-- Mesure cle: 16 %
-- Resume: Une étude américaine de 2024 utilisant les données NCVS 1992-2020 indique que seuls 16 % des hommes victimes de violences sexuelles ont signalé les faits aux forces de l'ordre. Au Canada, Justice Canada rapporte que 70 % des survivants masculins d'abus ou agressions sexuelles à l'âge adulte n'avaient pas signalé les faits, contre 59 % dans l'échantillon féminin. En Angleterre et au pays de Galles, Rape Crisis indique que 7 hommes violés sur 8 ne signalent pas les faits à la police, contre 5 femmes sur 6.
-- Nuance: Les chiffres ne sont pas directement comparables à la fiche française sur les femmes: pays, périodes, définitions et enquêtes diffèrent. Ils montrent toutefois que la sous-déclaration masculine est massive et peut être plus forte, notamment à cause de la honte, des normes de virilité, du doute d'être cru et de la difficulté à nommer les faits comme violence sexuelle.
-- Population mesuree: Population mesurée par les sources : hommes victimes de violences sexuelles dans l'enquête NCVS américaine, échantillons masculins et féminins de survivants au Canada, et victimes de viol en Angleterre et au pays de Galles. Les sources ne mesurent pas les chromosomes.
-- Sources: The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html; Rape Crisis England & Wales (2025): https://rapecrisis.org.uk/get-informed/statistics-sexual-violence/; National Sexual Violence Resource Center (consulté 2026): https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/
+- Sources: National Sexual Violence Resource Center / YouGov (2017): https://www.nsvrc.org/blog_post/new-data-reveals-high-awareness-among-us-adults-what-constitutes-sexual/; Sex Roles / Springer (1992): https://link.springer.com/article/10.1007/BF00290011; International Review of Victimology / SAGE (2022): https://journals.sagepub.com/doi/10.1177/02697580211048552; CDC (2024): https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html; National Sexual Violence Resource Center (consulté 2026): https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/; Violence Against Women / SAGE (2024): https://journals.sagepub.com/doi/10.1177/10778012241263104; Assemblée parlementaire du Conseil de l'Europe (14 septembre 2025): https://pace.coe.int/fr/files/34546/html
 
 ## Qualification du viol élargie aux victimes forcées à pénétrer
 - ID: hommes-viol-force-penetration-2018
@@ -579,6 +642,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Nuance: Suivi ajouté le 25 juin 2026: cette fiche documente une qualification juridique, pas la fréquence de ces situations. Avant 2018, ces faits pouvaient relever d'autres infractions sexuelles selon les circonstances, mais la définition du viol était plus étroite. Le viol conjugal relève d'une chronologie juridique distincte et ne doit pas être confondu avec l'extension de 2018.
 - Population mesuree: Population mesurée par les sources : textes du droit pénal français et versions successives de l'article 222-23 du Code pénal. Les sources ne mesurent pas les chromosomes.
 - Sources: Légifrance (version en vigueur du 1er mars 1994 au 6 août 2018): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417678/2002-01-01; Légifrance (3 août 2018): https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037284450; Légifrance (version en vigueur du 6 août 2018 au 23 avril 2021): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037289535/2018-08-06; Légifrance (version en vigueur depuis le 8 novembre 2025): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535571; Légifrance (4 avril 2006): https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000422042
+
+## Certaines lois européennes ne reconnaissent pas pleinement les hommes comme victimes de viol
+- ID: hommes-reconnaissance-viol-lois-europe
+- URL: https://isora-xi.vercel.app/fiches/hommes-reconnaissance-viol-lois-europe/
+- URL interactive: https://isora-xi.vercel.app/#hommes-reconnaissance-viol-lois-europe
+- Groupe: hommes
+- Angle: désavantage_subi
+- Domaine: Justice
+- Zone: Europe
+- Periode: 2025-2025
+- Statut: variable selon pays
+- Mesure cle: 4 pays cités
+- Resume: Le rapport 2025 de l'Assemblée parlementaire du Conseil de l'Europe cite l'Albanie, l'Arménie, la Bulgarie et la République slovaque parmi les pays dont la définition du viol exclut certaines victimes masculines. Dans d'autres systèmes, comme en Irlande ou au Royaume-Uni, un homme peut être reconnu victime mais la définition principale du viol désigne uniquement un auteur masculin.
+- Nuance: Il s'agit d'une comparaison juridique datée, pas d'une estimation de prévalence. Des actes exclus de la qualification de viol peuvent relever d'une autre infraction sexuelle, mais la différence de qualification et de peine peut produire une reconnaissance inégale. Les lois nationales pouvant évoluer, chaque pays devra être revérifié lors des prochaines mises à jour.
+- Population mesuree: Matériau mesuré par la source : définitions pénales du viol et règles de reconnaissance des victimes examinées par le Conseil de l'Europe en 2025. La source ne mesure pas les chromosomes.
+- Sources: Assemblée parlementaire du Conseil de l'Europe (14 septembre 2025): https://pace.coe.int/fr/files/34546/html
 
 ## Hommes majoritaires parmi les mis en cause pour violences conjugales
 - ID: hommes-mis-en-cause-violences-conjugales-france
@@ -612,6 +691,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.
 - Sources: Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Haut Conseil à l'Égalité (2025): https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles
 
+## Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs
+- ID: hommes-part-auteurs-violences-sexuelles-perception
+- URL: https://isora-xi.vercel.app/fiches/hommes-part-auteurs-violences-sexuelles-perception/
+- URL interactive: https://isora-xi.vercel.app/#hommes-part-auteurs-violences-sexuelles-perception
+- Groupe: hommes
+- Angle: perception
+- Domaine: Violences
+- Zone: France
+- Periode: 2023-2024
+- Statut: actuel
+- Mesure cle: 99 % ≠ 99 %
+- Resume: Dans l'enquête VRS 2024, 99 % des femmes victimes ayant renseigné le sexe du ou des agresseurs déclarent uniquement des hommes. Ce pourcentage décrit le sexe des auteurs déclarés dans ce sous-ensemble de victimations; il ne mesure pas la part de l'ensemble des hommes qui commettent un viol ou une agression sexuelle.
+- Nuance: Il s'agit de deux probabilités conditionnelles différentes: la part des hommes parmi les auteurs déclarés par des femmes victimes n'est pas la part des auteurs parmi tous les hommes. L'enquête ne dénombre pas des auteurs uniques et ne permet pas de savoir si une même personne a commis plusieurs faits. La sous-déclaration et les fausses déclarations créent des incertitudes différentes, mais aucune ne permet de convertir 99 % en taux de prévalence pour l'ensemble des hommes. Isora ne publie donc pas le chiffre de 0,02 % sans période, population, infraction et numérateur validés.
+- Population mesuree: Population mesurée par la source principale : femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle dans l'enquête VRS et ayant renseigné le sexe du ou des agresseurs. La source ne mesure pas l'ensemble des hommes ni les chromosomes.
+- Sources: Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf
+
 ## Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes
 - ID: hommes-sexisme-hostile-hce-2025
 - URL: https://isora-xi.vercel.app/fiches/hommes-sexisme-hostile-hce-2025/
@@ -624,7 +719,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Statut: actuel
 - Mesure cle: 23 % vs 12 %
 - Resume: Dans le baromètre HCE/Toluna Harris administré du 13 au 21 novembre 2025, l'analyse HCE-LAPSCO estime que 17 % des personnes de 15 ans et plus sont favorables au sexisme hostile. Cette adhésion concerne 23 % des hommes sondés et 12 % des femmes sondées, soit environ six millions d'hommes et trois millions et demi de femmes en France.
-- Nuance: Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources.
+- Nuance: Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources. Le titre du rapport HCE emploie le mot « masculiniste »; Isora conserve cet intitulé pour la traçabilité, mais classe ici le contenu mesuré comme sexisme hostile et non comme masculinisme au sens éditorial du site.
 - Population mesuree: Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.
 - Sources: Haut Conseil à l'Égalité / LAPSCO-CNRS (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-03/Note%20comple%CC%80te%20HCE-CNRS%20Annexe%20Rapport%20Sexisme.pdf; Haut Conseil à l'Égalité (21 janvier 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf; data.gouv.fr / Haut Conseil à l'Égalité (10 mars 2026): https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1
 
@@ -640,7 +735,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Statut: actuel
 - Mesure cle: 27 % vs 18 %
 - Resume: Dans le même baromètre HCE/Toluna Harris de novembre 2025, 23 % des personnes interrogées sont favorables au sexisme paternaliste. Il est mesuré chez 27 % des hommes sondés et 18 % des femmes sondées, soit environ 7,5 millions d'hommes et 5 millions de femmes en France.
-- Nuance: Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité.
+- Nuance: Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité. Le titre du rapport HCE emploie le mot « masculiniste »; Isora conserve cet intitulé pour la traçabilité, mais classe cette fiche comme sexisme paternaliste. Le virilisme ou la misogynie doivent être établis séparément à partir du contenu de chaque item.
 - Population mesuree: Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.
 - Sources: Haut Conseil à l'Égalité / LAPSCO-CNRS (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-03/Note%20comple%CC%80te%20HCE-CNRS%20Annexe%20Rapport%20Sexisme.pdf; Haut Conseil à l'Égalité (21 janvier 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf; data.gouv.fr / Haut Conseil à l'Égalité (10 mars 2026): https://www.data.gouv.fr/datasets/barometre-sexisme-2026-1
 
@@ -672,11 +767,11 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Statut: actuel
 - Mesure cle: 60 %
 - Resume: Dans le baromètre cité par le HCE, 60 % des hommes pensent que les féministes veulent que les femmes aient plus de pouvoir que les hommes, et 60 % estiment que les féministes ont des demandes exagérées envers les hommes. Le rapport indique aussi que 39 % des hommes, contre 25 % des femmes, estiment que le féminisme menace la place et le rôle des hommes dans la société.
-- Nuance: Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes.
+- Nuance: Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes. Isora classe ces items comme opinions antiféministes; ils n'établissent ni un masculinisme au sens éditorial du site, ni un virilisme, ni une misogynie, ni un comportement violent.
 - Population mesuree: Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.
 - Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf
 
-## Défense des hommes : pas de terme neutre stabilisé
+## Masculinisme : définition Isora et usages péjoratifs des sources
 - ID: hommes-vocabulaire-masculinisme-pejoratif
 - URL: https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/
 - URL interactive: https://isora-xi.vercel.app/#hommes-vocabulaire-masculinisme-pejoratif
@@ -686,11 +781,11 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Zone: Francophonie
 - Periode: 2020-2026
 - Statut: actuel
-- Mesure cle: mot manquant
-- Resume: Les sources lexicographiques et institutionnelles consultées ne donnent pas au masculinisme un statut symétrique au féminisme. Le féminisme est couramment défini par les droits ou l'égalité des femmes, notamment face aux violences et injustices qui les concernent, ce qui donne au mot un cadrage public plutôt légitimant. Il manque en revanche un terme français aussi stabilisé pour désigner les personnes, hommes ou femmes, qui défendent factuellement les hommes face aux injustices ou asymétries défavorables aux hommes sans rabaisser les femmes. Larousse, Le Robert, l'Académie française, le HCE et le Sénat rattachent surtout le masculinisme à des usages antiféministes, sexistes, réactionnels, virilistes ou misogynes, tandis que l'OQLF propose une définition plus large mais précise que le mot reste péjoratif.
-- Nuance: Cette fiche documente des définitions de dictionnaires et de terminologie, les rapports publics 2026 du HCE et du Sénat, ainsi que quelques exemples d'acteurs féministes ou pro-féministes mobilisés sur le congé des pères et le soin. Elle ne mesure pas toute l'histoire des groupes de défense des hommes, des mouvements féministes ni tous les usages de ces mots. Repère terminologique utilisé ici : féminisme = combat contre les asymétries en défaveur des filles et des femmes; masculinisme = combat contre les asymétries en défaveur des garçons et des hommes; misandrie = haine ou mépris des hommes; misogynie = haine ou mépris des femmes. Il faut donc éviter de confondre féminisme avec misandrie, ou masculinisme avec misogynie. Une revendication centrée sur un sexe ne relève pas automatiquement de la haine de l'autre; l'analyse change quand le discours rabaisse, déshumanise ou vise le retrait de droits. Une définition du féminisme centrée sur l'égalité ne prouve pas que tous les espaces féministes traitent symétriquement les désavantages masculins; une définition péjorative du masculinisme ne prouve pas que toute défense des vulnérabilités masculines soit misogyne.
-- Population mesuree: Population mesurée par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat sur les usages institutionnels de masculinisme, ainsi que prises de position publiques d'organisations féministes ou pro-féministes sur les pères, le congé parental et le soin. Ces sources ne mesurent pas les chromosomes.
-- Sources: Office québécois de la langue française / Grand dictionnaire terminologique (2020): https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/masculinisme/49698; Le Robert (consulté le 25 juin 2026): https://dictionnaire.lerobert.com/definition/masculinisme; Académie française, 10e édition (publié en juin 2026): https://www.dictionnaire-academie.fr/article/B0M00085; Haut Conseil à l'Égalité (21 janvier 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste; Sénat, Délégation aux droits des femmes (23 juin 2026): https://www.senat.fr/rap/r25-776-1/r25-776-1_mono.html; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/f%C3%A9minisme/33213; Académie française, 9e édition (consulté le 25 juin 2026): https://www.dictionnaire-academie.fr/article/A9F0434; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/misogyne/51773; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/misandre/51743; The Fawcett Society (2025): https://www.fawcettsociety.org.uk/blog/its-time-to-revolutionise-parental-leave-for-women-for-families-for-our-future; Women's Budget Group (17 juin 2024): https://www.wbg.org.uk/publication/maternity-paternity-and-parental-leave-briefing-for-a-new-government/; Equimundo / MenCare (consulté le 25 juin 2026): https://www.equimundo.org/state-of-the-worlds-fathers-research/; MenEngage Alliance (consulté le 25 juin 2026): https://menengage.org/
+- Mesure cle: 4 axes
+- Resume: Isora emploie masculinisme pour le combat factuel et pacifique contre les asymétries en défaveur des garçons et des hommes. Lorsqu'une source utilise ce mot pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, le site conserve son intitulé exact pour la traçabilité mais ne reprend pas cette qualification à son compte. L'opposition de principe ou la disqualification systématique de ce combat pacifique relève de l'antimasculinisme. Chaque élément est classé séparément selon son contenu observable.
+- Nuance: Mise à jour du 11 août 2026 : Isora sépare quatre axes indépendants. Combat : féminisme pour les asymétries en défaveur des filles et des femmes; masculinisme pour celles en défaveur des garçons et des hommes. Opposition de principe ou disqualification systématique : antiféminisme et antimasculinisme. Normes de rôles traditionnels : virilisme et féminilisme. Hostilité : misandrie et misogynie. Le titre ou la citation d'une source reste exact, mais son vocabulaire ne détermine pas la qualification d'Isora. Chaque qualification exige un contenu observable distinct, et un désaccord avec une statistique, une méthode ou une revendication précise ne suffit pas. Une revendication masculine pacifique ne doit jamais être assimilée à l'antiféminisme, au virilisme, à la misogynie ou à la violence par simple association.
+- Population mesuree: Matériau examiné par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat, et travaux de sciences sociales sur la virilité, la masculinité hégémonique et la féminité accentuée. Ces sources ne mesurent pas les chromosomes.
+- Sources: Office québécois de la langue française / Grand dictionnaire terminologique (2020): https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/masculinisme/49698; Le Robert (consulté le 25 juin 2026): https://dictionnaire.lerobert.com/definition/masculinisme; Académie française, 10e édition (publié en juin 2026): https://www.dictionnaire-academie.fr/article/B0M00085; Haut Conseil à l'Égalité (21 janvier 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste; Sénat, Délégation aux droits des femmes (23 juin 2026): https://www.senat.fr/rap/r25-776-1/r25-776-1_mono.html; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/f%C3%A9minisme/33213; Académie française, 9e édition (consulté le 25 juin 2026): https://www.dictionnaire-academie.fr/article/A9F0434; Pascale Molinier / Travail, genre et sociétés (2000): https://shs.cairn.info/revue-travail-genre-et-societes-2000-1-page-25?lang=fr; R. W. Connell et James W. Messerschmidt / Terrains & travaux (traduction française 2015, article original 2005): https://shs.cairn.info/revue-terrains-et-travaux-2015-2-page-151?lang=fr; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/misogyne/51773; Larousse (consulté le 25 juin 2026): https://www.larousse.fr/dictionnaires/francais/misandre/51743; The Fawcett Society (2025): https://www.fawcettsociety.org.uk/blog/its-time-to-revolutionise-parental-leave-for-women-for-families-for-our-future; Women's Budget Group (17 juin 2024): https://www.wbg.org.uk/publication/maternity-paternity-and-parental-leave-briefing-for-a-new-government/; Equimundo / MenCare (consulté le 25 juin 2026): https://www.equimundo.org/state-of-the-worlds-fathers-research/; MenEngage Alliance (consulté le 25 juin 2026): https://menengage.org/
 
 ## Garde des enfants : perception d'un avantage aux mères et demandes des pères
 - ID: hommes-perception-garde-enfants-hce-2025
@@ -708,7 +803,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.
 - Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Ministère de la Justice (2013): https://www.justice.gouv.fr/documentation/ressources/residence-enfants-parents-separes
 
-## Violences sexuelles : le 'laxisme judiciaire' n'est pas imputable aux hommes
+## Violences sexuelles : la justice française n'est pas un corps exclusivement masculin
 - ID: hommes-attribution-laxisme-justice-violences-sexuelles
 - URL: https://isora-xi.vercel.app/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/
 - URL interactive: https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles
@@ -719,7 +814,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Periode: 2018-2024
 - Statut: actuel
 - Mesure cle: 70 % / 63 %
-- Resume: En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres contredisent l'idée qu'un éventuel 'laxisme judiciaire' en matière de violences sexuelles serait mécaniquement décidé par un corps judiciaire masculin.
+- Resume: En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres réfutent l'affirmation selon laquelle la justice française serait composée uniquement ou majoritairement d'hommes.
 - Nuance: La donnée ne prouve pas l'argument inverse, selon lequel les femmes seraient responsables du laxisme. Les greffiers ne décident ni de la culpabilité ni de la peine, et les affaires de violences sexuelles passent par l'enquête, le parquet, parfois l'instruction, les contraintes de preuve, la qualification juridique, l'audience et les voies de recours. Le point est plus limité: attribuer la réponse judiciaire à des 'hommes de justice' comme groupe n'est pas étayé par la composition sexuée des effectifs.
 - Population mesuree: Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.
 - Sources: Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Ministère de la Justice / Infostat Justice (2019, mis à jour le 26 juillet 2024): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/greffiers-directeurs-services-greffes-corps-professionnels-justice-feminises; Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice (2022, mis à jour): https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
@@ -867,22 +962,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Nuance: Les données enregistrées dépendent du dépôt de plainte et des conditions d'accueil. Les enquêtes de victimation complètent ce tableau.
 - Population mesuree: Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.
 - Sources: Ministère de l'Intérieur / SSMSI (23 octobre 2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024
-
-## Femmes victimes de violences sexuelles très peu déclarées
-- ID: femmes-violences-sexuelles
-- URL: https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles/
-- URL interactive: https://isora-xi.vercel.app/#femmes-violences-sexuelles
-- Groupe: femmes
-- Angle: désavantage_subi
-- Domaine: Violences
-- Zone: France
-- Periode: 2023+
-- Statut: actuel
-- Mesure cle: 7 % plainte
-- Resume: Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.
-- Nuance: Suivi ajouté le 25 juin 2026: la donnée principale est une estimation pondérée issue de l'enquête de victimation VRS, sur les femmes majeures vivant en logement ordinaire dans le champ de l'enquête. Ce n'est ni un décompte judiciaire ni un nombre exact de faits: une même victime peut avoir subi plusieurs faits, et le champ, la pondération et l'incertitude statistique doivent être conservés. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.
-- Population mesuree: Population mesurée par la source : femmes majeures vivant en logement ordinaire dans le champ de l'enquête de victimation VRS. La source ne mesure pas les chromosomes.
-- Sources: Arrêtons les violences / SSMSI (données 2023, consulté le 25 juin 2026): https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes; Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Miprof / SSMSI (mars 2024): https://arretonslesviolences.gouv.fr/sites/default/files/2024-03/Lettre-Observatoire-national-des-violences-faites-aux-femmes-Miprof-Mars-2024.pdf; Ministère de l'Intérieur / SSMSI (consulté le 25 juin 2026): https://www.interieur.gouv.fr/Interstats/L-enquete-Vecu-et-ressenti-en-matiere-de-securite-VRS; The Journal of Men's Studies / SAGE (2024): https://journals.sagepub.com/doi/abs/10.1177/10608265241249937; Justice Canada (2019): https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html
 
 ## Perception du sexisme comme désavantage plus forte chez les femmes
 - ID: femmes-perception-desavantage-hce-2025
@@ -1044,7 +1123,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par la source : femmes et hommes ayant connu une séparation entre 2014 et 2020, résidant en Occitanie l'année de la séparation et suivis dans l'échantillon démographique permanent de l'Insee. La source mesure le niveau de vie du ménage et les composantes du revenu disponible, pas les chromosomes.
 - Sources: Insee (2025): https://www.insee.fr/fr/statistiques/8338430
 
-## Candidate voilée discriminée à l'embauche
+## Étude de cas : candidate voilée discriminée à l'embauche en 2025
 - ID: femmes-discrimination-religieuse
 - URL: https://isora-xi.vercel.app/fiches/femmes-discrimination-religieuse/
 - URL interactive: https://isora-xi.vercel.app/#femmes-discrimination-religieuse
@@ -1132,13 +1211,13 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Angle: désavantage_subi
 - Domaine: Violences
 - Zone: Monde
-- Periode: 2024+
-- Statut: actuel
+- Periode: 2000-2023
+- Statut: persistant
 - Mesure cle: 1 sur 3
-- Resume: L'OMS estime qu'environ une femme sur trois dans le monde a subi des violences physiques et/ou sexuelles par un partenaire intime, ou des violences sexuelles par un non-partenaire, au cours de sa vie. Cet indicateur ne mesure pas toutes les violences subies par sexe.
+- Resume: Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois.
 - Nuance: Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.
 - Population mesuree: Population mesurée par les sources : femmes dans les enquêtes OMS sur violences conjugales physiques/sexuelles et violences sexuelles hors couple, avec sources comparatives sur victimations, homicides, travail et suicide. Les sources ne mesurent pas les chromosomes.
-- Sources: Organisation mondiale de la Santé (2024): https://www.who.int/news-room/fact-sheets/detail/violence-against-women; Insee / SSMSI (2024): https://www.insee.fr/fr/statistiques/8242369?sommaire=8242421; Ministère de l'Intérieur / SSMSI (2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024; UN Women / UNODC (2024): https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Organisation internationale du Travail (2023): https://www.ilo.org/resource/news/nearly-3-million-people-die-work-related-accidents-and-diseases; Organisation mondiale de la Santé (2021): https://www.who.int/publications/i/item/9789240110069
+- Sources: Organisation mondiale de la Santé (19 novembre 2025): https://www.who.int/fr/news/item/19-11-2025-lifetime-toll--840-million-women-faced-partner-or-sexual-violence; Insee / SSMSI (2024): https://www.insee.fr/fr/statistiques/8242369?sommaire=8242421; Ministère de l'Intérieur / SSMSI (2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024; UN Women / UNODC (2024): https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf
 
 ## Détenues plus exposées à la victimisation sexuelle en prison
 - ID: femmes-prison-victimisation-sexuelle-etats-unis
@@ -1188,7 +1267,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par les sources : cas vérifiés de violences sexuelles liées aux conflits, victimes civiles par sexe dans les rapports ONU, et cas documentés par l'UE ou Amnesty dans certains conflits. Les sources ne mesurent pas les chromosomes.
 - Sources: Nations unies (2026): https://docs.un.org/S/2026/321; Nations unies - Peacekeeping (consulté 2026): https://peacekeeping.un.org/en/conflict-related-sexual-violence; Nations unies - Genève (2024): https://www.ungeneva.org/en/news-media/news/2024/10/99495/percentage-women-killed-war-doubled-2023-un-report; Conseil de l'Union européenne (2024): https://www.consilium.europa.eu/en/press/press-releases/2024/04/12/7-october-2023-terrorist-attacks-in-israel-council-sanctions-three-entities-over-widespread-sexual-and-gender-based-violence/; Amnesty International (2021): https://www.amnesty.org/fr/latest/news/2021/03/nigeria-boko-haram-brutality-against-women-and-girls-needs-urgent-response-new-research/
 
-## Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur
+## Entre 1996 et 2015, femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur
 - ID: femmes-homicides-mineurs-condamnations
 - URL: https://isora-xi.vercel.app/fiches/femmes-homicides-mineurs-condamnations/
 - URL interactive: https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations
@@ -1268,21 +1347,21 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par les sources : participants femmes et hommes à des études sur l'évaluation d'historiques sexuels masculins et féminins, ainsi que corpus de 99 études sur les doubles standards sexuels. Les sources ne mesurent pas les chromosomes.
 - Sources: Scientific Reports (2025): https://www.nature.com/articles/s41598-025-12607-1; Personality and Social Psychology Review / PubMed (2020): https://pubmed.ncbi.nlm.nih.gov/31880971/; Sexuality & Culture / Springer (2024): https://link.springer.com/article/10.1007/s12119-024-10246-8; Social Psychological and Personality Science (2025): https://journals.sagepub.com/doi/10.1177/19485506241237288
 
-## Consentement sexuel : peurs asymétriques en début de relation
+## Classement, fausse plainte et culpabilité : trois notions distinctes
 - ID: hommes-femmes-peurs-consentement-sexuel
 - URL: https://isora-xi.vercel.app/fiches/hommes-femmes-peurs-consentement-sexuel/
 - URL interactive: https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel
-- Groupe: femmes
+- Groupe: hommes
 - Angle: perception
-- Domaine: Violences
-- Zone: Monde, États-Unis et Royaume-Uni
-- Periode: 2000-2025
+- Domaine: Justice
+- Zone: France, États-Unis et Royaume-Uni
+- Periode: 2010-2024
 - Statut: actuel
-- Mesure cle: 56,1 % / 2-10 %
-- Resume: Les enquêtes sur les violences sexuelles montrent que les femmes victimes connaissent le plus souvent l'auteur: dans le NISVS 2016-2017, 56,1 % des victimes féminines de viol déclarent un agresseur faisant partie de leurs connaissances et 39,3 % un partenaire intime. En parallèle, les faux signalements d'agression sexuelle sont estimés minoritaires, souvent entre 2 % et 10 % des signalements, mais des études documentent une peur masculine d'être faussement accusé et son lien avec les pratiques de consentement explicite.
-- Nuance: Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. L'ancienneté des faits peut compliquer l'établissement judiciaire pour les deux parties: preuves matérielles plus rares, souvenirs et témoins moins accessibles, corroboration plus difficile pour la plaignante et défense plus difficile pour la personne mise en cause. Les sources de procédure insistent sur une évaluation fondée sur les preuves, le contradictoire et la compréhension des délais de révélation, sans remplacer la preuve par l'émotion ou par des stéréotypes.
-- Population mesuree: Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, signalements d'agression sexuelle étudiés dans les estimations de faux signalements, et dossiers anciens évoqués dans les sources judiciaires. Les sources ne mesurent pas les chromosomes.
-- Sources: CDC (2022): https://www.cdc.gov/nisvs/documentation/nisvsReportonSexualViolence.pdf; Aggression and Violent Behavior / PubMed (2000): https://pubmed.ncbi.nlm.nih.gov/25705115/; Journal of School Violence / ERIC (2023): https://eric.ed.gov/?id=EJ1378168; National Sexual Violence Resource Center (consulté 2026): https://www.nsvrc.org/statistics/; Crown Prosecution Service (consulté 2026): https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly; Associated Press (2023): https://apnews.com/article/uk-fake-sex-abuse-claims-racial-tensions-8207569f6809f03f159e518065fcf26d; Australian Institute of Criminology (2020): https://www.aic.gov.au/sites/default/files/2020-11/ti611_misconceptions_of_sexual_crimes_against_adult_victims.pdf; Assemblée nationale (2025): https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L17B2685.html
+- Mesure cle: 69 % ≠ faux
+- Resume: En 2024, 69 % des personnes mises en cause pour viol ou agression sexuelle dans les affaires traitées par les parquets se trouvent dans des affaires non poursuivables; dans plus de 80 % de ces situations, l'infraction est jugée insuffisamment caractérisée. Cette décision ne prouve ni que la plainte était mensongère ni que les faits ont eu lieu. Les fausses accusations existent, mais leur fréquence ne peut pas être déduite du taux de classement.
+- Nuance: En matière pénale française, la personne suspectée ou poursuivie reste présumée innocente. Le témoignage est un mode de preuve possible, comme d'autres éléments, mais le juge ne peut se fonder que sur les preuves apportées et contradictoirement discutées. Une infraction insuffisamment caractérisée n'est pas une catégorie statistique de mensonge démontré. Réciproquement, la sous-déclaration ne prouve pas que chaque plainte est exacte. Une étude de 2010 a codé 8 signalements sur 136 comme faux dans un contexte institutionnel précis; un comptage britannique des poursuites pour fausse allégation utilise encore un autre dénominateur. Aucun de ces résultats ne fournit un taux général français.
+- Population mesuree: Matériau mesuré par les sources : personnes impliquées dans les affaires de viol et d'agression sexuelle traitées par la justice française, règles françaises de preuve et de présomption d'innocence, ainsi que deux études de contexte sur les fausses allégations aux États-Unis et au Royaume-Uni. Ces sources ne permettent pas de calculer un taux général de plaintes mensongères en France et ne mesurent pas les chromosomes.
+- Sources: Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Légifrance (version en vigueur consultée le 11 août 2026): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037108959; Ministère de la Justice / Cour d'appel de Nancy (2021): https://www.cours-appel.justice.fr/nancy/les-regles-generales-dun-proces-penal; Violence Against Women / PubMed (2010): https://pubmed.ncbi.nlm.nih.gov/21164210/; Crown Prosecution Service (consulté le 11 août 2026): https://www.cps.gov.uk/index.php/publication/key-facts-about-how-CPS-prosecutes-allegations-rape
 
 ## Filles et femmes victimes de mutilations génitales
 - ID: femmes-mutilations-genitales
@@ -1315,22 +1394,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Nuance: Le chiffre renvoie à des déséquilibres démographiques et sociaux, pas à une caractéristique biologique des filles ou des garçons.
 - Population mesuree: Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.
 - Sources: UNFPA (2024): https://www.unfpa.org/son-preference
-
-## Enfants hors de l'école : estimations mondiales proches selon le sexe
-- ID: femmes-filles-hors-ecole
-- URL: https://isora-xi.vercel.app/fiches/femmes-filles-hors-ecole/
-- URL interactive: https://isora-xi.vercel.app/#femmes-filles-hors-ecole
-- Groupe: femmes
-- Angle: perception
-- Domaine: Éducation
-- Zone: Monde
-- Periode: 2024+
-- Statut: actuel
-- Mesure cle: 133 M filles vs 140 M garçons
-- Resume: Les estimations UNESCO/GEM/UIS indiquent 273 millions d'enfants et jeunes hors de l'école dans le monde, dont 133 millions de filles et 140 millions de garçons.
-- Nuance: Les barrières genrées qui touchent les filles varient selon les pays et les niveaux scolaires. Dans le total mondial récent, les estimations UNESCO/GEM/UIS comptent légèrement plus de garçons hors de l'école et les sources signalent aussi des risques de décrochage spécifiques aux garçons.
-- Population mesuree: Population mesurée par les sources : filles et garçons hors de l'école selon les estimations UNESCO/GEM/UIS et UNICEF. Les sources ne mesurent pas les chromosomes.
-- Sources: UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education; UNESCO / GEM Report / UIS (consulté 2026): https://www.unesco.org/en/education/view/outofschool; UNICEF (2024): https://www.unicef.org/education/girls-education; UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education/boys
 
 ## Adolescentes privées d'enseignement secondaire en Afghanistan
 - ID: femmes-afghanistan-education
@@ -1486,11 +1549,11 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Zone: France et pays comparables
 - Periode: 2019-2026
 - Statut: persistant
-- Mesure cle: 3 800 € / 40 %
-- Resume: Une estimation du Monde chiffre les protections et antidouleurs à environ 7,50 euros par cycle moyen, soit près de 3 800 euros sur une vie, hors consultations ou linge abîmé. En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.
+- Mesure cle: 90 % / 40 %
+- Resume: En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.
 - Nuance: Le coût de 3 800 euros est une estimation basse fondée sur des hypothèses de cycle, de protections et d'antidouleurs; il varie selon les produits, le flux, l'âge des premières et dernières règles, les soins et les protections réutilisables. Toutes les personnes réglées ne ressentent pas les mêmes douleurs et le sport peut réduire certaines douleurs légères à modérées, mais les symptômes forts ne doivent pas être banalisés. Les pistes nutritionnelles, comme les oméga-3 ou une alimentation moins inflammatoire, existent dans la littérature mais ne remplacent pas l'accès à l'information, aux protections, à des aménagements raisonnables et à un avis médical en cas de douleurs importantes.
 - Population mesuree: Population mesurée par les sources : femmes et filles ou personnes menstruées dans des estimations de coût, de douleurs menstruelles, de protections périodiques et de participation à l'activité physique. Les sources ne mesurent pas les chromosomes.
-- Sources: Le Monde - Les Décodeurs (2019): https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html; Ministère chargé de l'Égalité entre les femmes et les hommes (2026): https://www.egalite-femmes-hommes.gouv.fr/28-mai-2026-journee-mondiale-de-lhygiene-menstruelle; Inserm (2023): https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/; Health and Care Research Wales Evidence Centre / Cardiff University (2024): https://orca.cardiff.ac.uk/id/eprint/172396/1/Post-print_RES0035_HCRW-EC_Supporting%20people%20who%20menstruate_July%202024.pdf; Journal of Human Nutrition and Dietetics / PubMed (2023): https://pubmed.ncbi.nlm.nih.gov/37545015/; Assemblée nationale (2020): https://www.assemblee-nationale.fr/dyn/15/rapports/ega/l15b2691_rapport-information
+- Sources: Inserm (2023): https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/; Ministère chargé de l'Égalité entre les femmes et les hommes (2026): https://www.egalite-femmes-hommes.gouv.fr/28-mai-2026-journee-mondiale-de-lhygiene-menstruelle; Le Monde - Les Décodeurs (2019): https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html; Health and Care Research Wales Evidence Centre / Cardiff University (2024): https://orca.cardiff.ac.uk/id/eprint/172396/1/Post-print_RES0035_HCRW-EC_Supporting%20people%20who%20menstruate_July%202024.pdf; Journal of Human Nutrition and Dietetics / PubMed (2023): https://pubmed.ncbi.nlm.nih.gov/37545015/; Assemblée nationale (2020): https://www.assemblee-nationale.fr/dyn/15/rapports/ega/l15b2691_rapport-information
 
 ## Femmes et filles massivement touchées par l'endométriose
 - ID: femmes-endometriose
@@ -1508,21 +1571,53 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.
 - Sources: Organisation mondiale de la Santé (2023): https://www.who.int/news-room/fact-sheets/detail/endometriosis
 
-## Soins sexospécifiques insuffisants des deux côtés
+## Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin
+- ID: femmes-arret-cardiaque-defibrillation-temoins
+- URL: https://isora-xi.vercel.app/fiches/femmes-arret-cardiaque-defibrillation-temoins/
+- URL interactive: https://isora-xi.vercel.app/#femmes-arret-cardiaque-defibrillation-temoins
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Santé
+- Zone: Plusieurs pays
+- Periode: 2018-2025
+- Statut: persistant
+- Mesure cle: OR 0,79
+- Resume: Une méta-analyse de 2025 réunissant 15 cohortes et 499 854 arrêts cardiaques associe le sexe féminin à une probabilité plus faible d'application des électrodes d'un défibrillateur automatisé externe par un témoin: OR 0,79, avec un niveau de certitude modéré.
+- Nuance: Les résultats sur le déclenchement de la RCP elle-même sont très hétérogènes et de très faible certitude. Une cohorte de 2018 trouvait 39 % de RCP pour les femmes contre 45 % pour les hommes dans les lieux publics, mais des taux presque identiques en privé. Une enquête de 2024 mesure les raisons que le public imagine, dont la peur d'un contact inapproprié ou d'une accusation; elle ne recense pas des plaintes et ne prouve pas les motivations réelles des sauveteurs. Aucune fréquence crédible de plaintes pour agression sexuelle après RCP n'a été identifiée.
+- Population mesuree: Population mesurée par les sources : femmes et hommes victimes d'un arrêt cardiaque extrahospitalier dans quinze cohortes internationales, et personnes interrogées aux États-Unis sur leurs perceptions des obstacles à la réanimation. Les catégories femmes/hommes proviennent des études; les sources ne mesurent pas les chromosomes.
+- Sources: Resuscitation Plus / PubMed Central (2025): https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/; Circulation: Cardiovascular Quality and Outcomes / PubMed (2018): https://pubmed.ncbi.nlm.nih.gov/30354377/; PubMed (2024): https://pubmed.ncbi.nlm.nih.gov/38533649/
+
+## À choc routier comparable, certains risques de blessure restent plus élevés pour les femmes
+- ID: femmes-risque-blessure-choc-routier
+- URL: https://isora-xi.vercel.app/fiches/femmes-risque-blessure-choc-routier/
+- URL interactive: https://isora-xi.vercel.app/#femmes-risque-blessure-choc-routier
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Santé
+- Zone: États-Unis
+- Periode: 2026-2026
+- Statut: actuel
+- Mesure cle: 26 % des modèles
+- Resume: Dans une étude publiée en 2026, la NHTSA observe un risque féminin significativement plus élevé dans 26 % des 150 modèles de blessures analysés, plus souvent pour des blessures modérées. L'agence poursuit le développement de mannequins féminins plus représentatifs.
+- Nuance: Ce résultat ne signifie pas que les femmes meurent davantage sur la route au total: les hommes restent majoritaires parmi les décès routiers, notamment en raison de différences d'exposition et de comportements. La comparaison porte sur des occupants placés dans des configurations de choc plus comparables. Beaucoup d'écarts de blessures graves ne sont pas significatifs et l'écart de mortalité femmes-hommes s'est fortement réduit dans les véhicules récents.
+- Population mesuree: Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.
+- Sources: National Highway Traffic Safety Administration (8 janvier 2026): https://www.nhtsa.gov/press-releases/nhtsa-study-affirms-need-female-crash-test-dummy-approved-by-trump-administration; National Highway Traffic Safety Administration (2026): https://www.nhtsa.gov/document/report-congress-progress-thor-05f-worldsid-05f-and-female-crash-safety-research
+
+## Information et accès aux soins liés à la ménopause encore insuffisants
 - ID: femmes-menopause-soins
 - URL: https://isora-xi.vercel.app/fiches/femmes-menopause-soins/
 - URL interactive: https://isora-xi.vercel.app/#femmes-menopause-soins
 - Groupe: femmes
-- Angle: perception
+- Angle: désavantage_subi
 - Domaine: Santé
-- Zone: Monde, France et OCDE
+- Zone: Monde
 - Periode: 2019-2025
 - Statut: persistant
 - Mesure cle: accès inégal
-- Resume: L'OMS souligne que l'information et l'accès aux soins liés à la ménopause restent insuffisants dans beaucoup de pays. Mais ce constat ne prouve pas un désavantage global féminin dans le recours aux soins: en France, l'Insee/Drees indique que les hommes consultent moins souvent médecins généralistes et spécialistes, et l'OCDE rappelle leur surmortalité prématurée.
-- Nuance: La ménopause reste un angle documenté de sous-information et de formation médicale insuffisante. Sur le recours aux soins en général, les sources françaises indiquent que les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.
-- Population mesuree: Population mesurée par les sources : femmes concernées par la ménopause selon l'OMS, femmes et hommes dans les statistiques françaises de recours aux soins, et hommes concernés par les enjeux prostate, testicule et santé mentale. Les sources ne mesurent pas les chromosomes.
-- Sources: Organisation mondiale de la Santé (2024): https://www.who.int/news-room/fact-sheets/detail/menopause; Insee / Drees (2022): https://www.insee.fr/fr/statistiques/6047751?sommaire=6047805; OCDE (2025): https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/which-diseases-affect-men-and-women-differently-and-why-this-matters_c7602de9.html; Institut national du cancer (consulté 2026): https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate; Institut national du cancer (consulté 2026): https://jefaismondepistage.cancer.fr/cancers-du-sein/; Movember (consulté 2026): https://us.movember.com/about/cause
+- Resume: L'OMS souligne que la ménopause peut affecter le bien-être physique, émotionnel, mental et social, tandis que l'information, la formation des soignants et l'accès à des services de qualité restent insuffisants dans de nombreux pays.
+- Nuance: La fiche porte uniquement sur les besoins liés à la ménopause; elle ne compare pas l'ensemble du recours aux soins entre femmes et hommes. L'OMS ne fournit pas ici un taux mondial unique d'accès insuffisant, car les services et les besoins varient fortement selon les pays et les personnes.
+- Population mesuree: Population mesurée par les sources : femmes concernées par la ménopause et par son information ou sa prise en charge. Les sources ne mesurent pas les chromosomes.
+- Sources: Organisation mondiale de la Santé (2024): https://www.who.int/news-room/fact-sheets/detail/menopause
 
 ## Femmes tenues hors de l'emploi par le soin non rémunéré
 - ID: femmes-soin-non-remunere-emploi
@@ -1643,11 +1738,11 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Numérique
-- Zone: Monde
-- Periode: 2024+
+- Zone: Union européenne
+- Periode: 2020-2026
 - Statut: actuel
-- Mesure cle: 16-58 %
-- Resume: Les études compilées par ONU Femmes estiment que 16 % à 58 % des femmes ont subi des violences facilitées par la technologie.
-- Nuance: La fourchette large reflète des définitions et méthodes différentes. Le phénomène doit être lu avec prudence mais il est suffisamment documenté pour être visible.
+- Mesure cle: 8,5 % / 7 %
+- Resume: L'enquête européenne publiée en 2026 indique que 8,5 % des femmes ont subi du cyberstalking et que 7 % des femmes en emploi ont été victimes de harcèlement sexuel en ligne. Les deux indicateurs mesurent des comportements distincts.
+- Nuance: Le cyberstalking et le harcèlement sexuel en ligne ne doivent pas être additionnés: une même personne peut avoir subi les deux. Certaines questions numériques détaillées n'ont été posées que dans huit États membres; le champ exact de chaque indicateur doit rester associé au rapport.
 - Population mesuree: Population mesurée par la source : women / femmes dans des études aux méthodes variables. La source ne mesure pas les chromosomes.
-- Sources: ONU Femmes (2024): https://www.unwomen.org/en/articles/faqs/digital-abuse-trolling-stalking-and-other-forms-of-technology-facilitated-violence-against-women
+- Sources: Agence des droits fondamentaux de l'Union européenne / EIGE (mars 2026): https://fra.europa.eu/en/news-and-events/stories/eu-gender-based-violence-silent-epidemic; Agence des droits fondamentaux de l'Union européenne (2026): https://fra.europa.eu/en/publication/2026/eu-gender-based-violence-survey-evidence

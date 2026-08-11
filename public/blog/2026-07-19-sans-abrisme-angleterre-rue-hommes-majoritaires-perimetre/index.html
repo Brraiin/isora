@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -343,7 +347,7 @@
       <div class="wrap hero-inner">
         <div class="hero-copy">
           <p class="kicker">Droits, autonomie et accès aux services</p>
-          <h1>Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l&#39;asymétrie dépend du périmètre mesuré</h1>
+          <h1>Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> dépend du périmètre mesuré</h1>
           <p class="lead">Les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en Angleterre, les hommes restent très majoritaires. Le cadre mensuel publié le 25 juin 2026 estime qu&#39;en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. Le snapshot d&#39;automne 2025 retrouve une structure voisine avec 82 % d&#39;hommes. Mais ces chiffres décrivent surtout la rue visible. Les notes méthodologiques britanniques et les synthèses OCDE rappellent qu&#39;une partie du sans-abrisme féminin passe plus souvent par des formes moins visibles, comme l&#39;hébergement provisoire chez des proches ou l&#39;hébergement temporaire, ce qui réduit ou inverse parfois l&#39;écart selon la source retenue.</p>
           <div class="meta" aria-label="Métadonnées">
             <span class="pill">19 juillet 2026</span>
@@ -394,7 +398,7 @@
             
               <section class="section">
                 <h2>Les sources officielles rappellent que le sans-abrisme féminin n&#39;est pas toujours visible dans la rue</h2>
-                <p>Les notes techniques du rough sleeping data framework et du snapshot britannique appellent à ne pas confondre rough sleeping et ensemble du sans-abrisme. Elles signalent que les parcours féminins peuvent être plus cachés, plus intermittents et plus transitoires, avec des situations de nuitées chez des proches, d&#39;hébergement provisoire ou d&#39;évitement de l&#39;espace public visible.</p><p>L&#39;OCDE formule une nuance proche dans son Toolkit to Combat Homelessness. L&#39;organisation indique que les femmes sont moins susceptibles de dormir à la rue et peuvent passer plus souvent par un hébergement temporaire chez la famille ou des amis avant d&#39;accéder à un hébergement d&#39;urgence. Cela signifie qu&#39;un indicateur centré sur la rue visible tend à documenter plus fortement l&#39;asymétrie masculine qu&#39;un indicateur couvrant aussi d&#39;autres formes de privation de logement.</p>
+                <p>Les notes techniques du rough sleeping data framework et du snapshot britannique appellent à ne pas confondre rough sleeping et ensemble du sans-abrisme. Elles signalent que les parcours féminins peuvent être plus cachés, plus intermittents et plus transitoires, avec des situations de nuitées chez des proches, d&#39;hébergement provisoire ou d&#39;évitement de l&#39;espace public visible.</p><p>L&#39;OCDE formule une nuance proche dans son Toolkit to Combat Homelessness. L&#39;organisation indique que les femmes sont moins susceptibles de dormir à la rue et peuvent passer plus souvent par un hébergement temporaire chez la famille ou des amis avant d&#39;accéder à un hébergement d&#39;urgence. Cela signifie qu&#39;un indicateur centré sur la rue visible tend à documenter plus fortement l&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> masculine qu&#39;un indicateur couvrant aussi d&#39;autres formes de privation de logement.</p>
               </section>
             
               <section class="section">
@@ -403,7 +407,7 @@
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Le rough sleeping data framework de juin 2026 mesure des personnes vues en rough sleeping au moins une fois dans le mois en Angleterre; il s&#39;agit d&#39;une série de pilotage qui n&#39;est pas directement équivalente au snapshot annuel sur une seule nuit. Le rough sleeping snapshot 2025 mesure lui aussi seulement la rue visible, à partir de comptages locaux ou d&#39;estimations locales sur une nuit donnée.</p><p>Le Census 2021 de l&#39;ONS porte sur des personnes identifiées comme homeless dans le recensement en Angleterre et au pays de Galles; il ne mesure pas tous les parcours de mal-logement ou de logement précaire. La note pays OCDE agrège encore un autre champ, qui ne se compare pas mécaniquement aux comptes de rue. Les sources citées parlent d&#39;hommes et de femmes selon leurs catégories statistiques administratives; elles ne mesurent pas les chromosomes.</p>
               </section>
             
@@ -424,7 +428,7 @@
                       
                         <details>
                           <summary>Les chiffres anglais sont-ils comparables à tous les pays ?</summary>
-                          <p>Non. Les définitions du sans-abrisme, les méthodes de comptage et les catégories administratives varient fortement selon les pays. Les données anglaises sont utiles pour documenter une asymétrie dans ce contexte précis, mais elles ne suffisent pas à décrire mécaniquement toutes les situations internationales.</p>
+                          <p>Non. Les définitions du sans-abrisme, les méthodes de comptage et les catégories administratives varient fortement selon les pays. Les données anglaises sont utiles pour documenter une <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> dans ce contexte précis, mais elles ne suffisent pas à décrire mécaniquement toutes les situations internationales.</p>
                         </details>
                       
                 </div>

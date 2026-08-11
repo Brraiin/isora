@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -343,7 +347,7 @@
         <div class="hero-copy">
           <p class="kicker">Travail, revenus et conditions d&#39;emploi</p>
           <h1>Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l&#39;UE</h1>
-          <p class="lead">Les publications récentes montrent une asymétrie stable plutôt qu&#39;un retournement. En France, l&#39;Insee indique qu&#39;en 2025, 26,6 % des femmes en emploi travaillent à temps partiel contre 9,2 % des hommes, et que le sous-emploi concerne 6,1 % des femmes contre 2,8 % des hommes. Au niveau de l&#39;Union européenne, Eurostat observe en 2024 un écart comparable sur le temps partiel, qui s&#39;accentue lorsque des enfants vivent dans le foyer. Les sources invitent toutefois à distinguer le temps partiel choisi, le temps partiel contraint et les effets spécifiques de la parentalité.</p>
+          <p class="lead">Les publications récentes montrent une <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> stable plutôt qu&#39;un retournement. En France, l&#39;Insee indique qu&#39;en 2025, 26,6 % des femmes en emploi travaillent à temps partiel contre 9,2 % des hommes, et que le sous-emploi concerne 6,1 % des femmes contre 2,8 % des hommes. Au niveau de l&#39;Union européenne, Eurostat observe en 2024 un écart comparable sur le temps partiel, qui s&#39;accentue lorsque des enfants vivent dans le foyer. Les sources invitent toutefois à distinguer le temps partiel choisi, le temps partiel contraint et les effets spécifiques de la parentalité.</p>
           <div class="meta" aria-label="Métadonnées">
             <span class="pill">26 juin 2026</span>
             <span class="pill">5 min</span>
@@ -388,7 +392,7 @@
             
               <section class="section">
                 <h2>Ce que la comparaison européenne ajoute</h2>
-                <p>Eurostat retrouve une asymétrie proche a l&#39;échelle de l&#39;Union européenne. Dans sa note du 3 mars 2026 et dans sa synthèse statistique dédiée, l&#39;organisme indique qu&#39;en 2024, 27,8 % des femmes en emploi âgées de 20 a 64 ans travaillent a temps partiel, contre 7,7 % des hommes.</p><p>L&#39;écart devient encore plus marqué quand on regarde la présence d&#39;enfants dans le foyer. Parmi les 25-54 ans en emploi dans l&#39;UE, 31,7 % des femmes avec enfants travaillent a temps partiel, contre 19,1 % des femmes sans enfants. Chez les hommes, les proportions sont beaucoup plus basses, avec 5,1 % pour ceux qui ont des enfants et 7,4 % pour ceux qui n&#39;en ont pas.</p>
+                <p>Eurostat retrouve une <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> proche a l&#39;échelle de l&#39;Union européenne. Dans sa note du 3 mars 2026 et dans sa synthèse statistique dédiée, l&#39;organisme indique qu&#39;en 2024, 27,8 % des femmes en emploi âgées de 20 a 64 ans travaillent a temps partiel, contre 7,7 % des hommes.</p><p>L&#39;écart devient encore plus marqué quand on regarde la présence d&#39;enfants dans le foyer. Parmi les 25-54 ans en emploi dans l&#39;UE, 31,7 % des femmes avec enfants travaillent a temps partiel, contre 19,1 % des femmes sans enfants. Chez les hommes, les proportions sont beaucoup plus basses, avec 5,1 % pour ceux qui ont des enfants et 7,4 % pour ceux qui n&#39;en ont pas.</p>
               </section>
             
               <section class="section">
@@ -402,7 +406,7 @@
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Les sources n&#39;observent pas exactement les mêmes populations. L&#39;Insee 2025 porte sur les personnes en emploi vivant en logement ordinaire en France. Sa publication détaillée sur le temps partiel isole parfois les seuls salariés hors apprentis et certaines figures par nombre d&#39;enfants. Eurostat utilise le Labour Force Survey européen, avec des indicateurs calculés tantôt sur les 20-64 ans, tantôt sur les 25-54 ans avec ou sans enfants.</p><p>Ces données parlent de femmes et d&#39;hommes au sens des catégories statistiques retenues dans les enquêtes et bases publiques; elles ne mesurent pas les chromosomes. Elles ne permettent pas non plus de conclure qu&#39;un écart relève entièrement d&#39;un choix personnel, d&#39;une contrainte économique ou d&#39;une norme familiale: selon l&#39;indicateur retenu, une partie du temps partiel est choisie, une autre est subie, et les écarts varient selon l&#39;âge, le secteur, la catégorie d&#39;emploi et la composition du foyer.</p>
               </section>
             

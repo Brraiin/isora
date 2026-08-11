@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -382,7 +386,7 @@
         
               <section class="section">
                 <h2>Deux indicateurs récents, deux lectures différentes</h2>
-                <p>Les publications 2026 utiles pour la veille <em>isora</em> ne décrivent pas toutes la même chose. L&#39;Insee mesure l&#39;espérance de vie totale, c&#39;est-a-dire le nombre moyen d&#39;années qu&#39;une personne peut espérer vivre si les conditions de mortalité du moment restaient inchangées. La DREES et Eurostat publient en plus une mesure des années vécues sans incapacité ou sans limitation d&#39;activité déclarée.</p><p>Cette distinction change la lecture de l&#39;asymétrie selon le sexe. Les femmes gardent un avantage net sur la durée de vie totale, mais cet avantage devient beaucoup plus faible quand on regarde la partie de la vie vécue sans incapacité.</p>
+                <p>Les publications 2026 utiles pour la veille <em>isora</em> ne décrivent pas toutes la même chose. L&#39;Insee mesure l&#39;espérance de vie totale, c&#39;est-a-dire le nombre moyen d&#39;années qu&#39;une personne peut espérer vivre si les conditions de mortalité du moment restaient inchangées. La DREES et Eurostat publient en plus une mesure des années vécues sans incapacité ou sans limitation d&#39;activité déclarée.</p><p>Cette distinction change la lecture de l&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> selon le sexe. Les femmes gardent un avantage net sur la durée de vie totale, mais cet avantage devient beaucoup plus faible quand on regarde la partie de la vie vécue sans incapacité.</p>
               </section>
             
               <section class="section">
@@ -392,7 +396,7 @@
             
               <section class="section">
                 <h2>A 65 ans, l&#39;avantage féminin existe aussi, mais il reste plus réduit que sur l&#39;espérance de vie totale</h2>
-                <p>La DREES estime qu&#39;en 2023, a 65 ans, les femmes en France peuvent espérer vivre encore 11,8 ans sans incapacité, contre 10,5 ans pour les hommes. L&#39;avantage féminin subsiste donc aussi après 65 ans.</p><p>La même publication rappelle toutefois qu&#39;il faut distinguer cette mesure de l&#39;espérance de vie totale a 65 ans. Les femmes vivent en moyenne plus longtemps, mais elles passent aussi davantage d&#39;années avec incapacité ou limitation déclarée. L&#39;asymétrie n&#39;est donc pas la même selon qu&#39;on mesure la survie ou la santé vécue.</p>
+                <p>La DREES estime qu&#39;en 2023, a 65 ans, les femmes en France peuvent espérer vivre encore 11,8 ans sans incapacité, contre 10,5 ans pour les hommes. L&#39;avantage féminin subsiste donc aussi après 65 ans.</p><p>La même publication rappelle toutefois qu&#39;il faut distinguer cette mesure de l&#39;espérance de vie totale a 65 ans. Les femmes vivent en moyenne plus longtemps, mais elles passent aussi davantage d&#39;années avec incapacité ou limitation déclarée. L&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> n&#39;est donc pas la même selon qu&#39;on mesure la survie ou la santé vécue.</p>
               </section>
             
               <section class="section">
@@ -401,7 +405,7 @@
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Les sources ne portent pas exactement sur les mêmes populations. L&#39;Insee mesure ici la population résidant en France a partir des tables de mortalité 2025. La DREES combine des tables de mortalité avec des réponses déclaratives issues de l&#39;enquête Statistiques sur les ressources et conditions de vie de l&#39;Insee pour estimer les années sans incapacité en 2023. Eurostat produit des indicateurs harmonisés pour l&#39;Union européenne.</p><p>Ces données parlent de femmes et d&#39;hommes au sens des catégories statistiques retenues par les organismes publics; elles ne mesurent pas les chromosomes. Elles doivent aussi être lues avec prudence d&#39;une année sur l&#39;autre pour l&#39;incapacité déclarée, car l&#39;indicateur dépend d&#39;une enquête et de réponses subjectives sur les limitations. Enfin, elles ne permettent pas a elles seules d&#39;identifier une cause unique: comportements de santé, prévention, conditions de travail, handicaps, morbidité chronique et recours aux soins peuvent tous peser sur les écarts observés.</p>
               </section>
             

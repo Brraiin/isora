@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -396,7 +400,7 @@
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Les sources sur la séparation parlent de couples femmes-hommes observés dans des données administratives françaises et suivent des unions entre 2011 et 2017. Elles mesurent une probabilité relative de rupture selon la part de revenu féminin, pas un sentiment subjectif directement interrogé auprès de chaque conjoint.</p><p>La note CEPREMAP, elle, repose sur des enquêtes de bien-être et sur des modèles économétriques portant sur la satisfaction déclarée. Les deux sources sont donc complémentaires mais ne répondent pas exactement à la même question. Elles utilisent les catégories statistiques de femmes et d&#39;hommes disponibles dans leurs jeux de données; elles ne mesurent pas les chromosomes.</p>
               </section>
             
@@ -416,7 +420,7 @@
                         </details>
                       
                         <details>
-                          <summary>Le résultat sur la séparation suffit-il à publier une fiche d&#39;asymétrie simple ?</summary>
+                          <summary>Le résultat sur la séparation suffit-il à publier une fiche d&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> simple ?</summary>
                           <p>Oui, à condition de préciser le périmètre. Une fiche dédiée devrait distinguer l&#39;association française avec le risque de séparation, les études européennes et britanniques sur la satisfaction déclarée, et les limites qui empêchent d&#39;attribuer chaque rupture ou chaque baisse de bien-être à une cause unique.</p>
                         </details>
                       

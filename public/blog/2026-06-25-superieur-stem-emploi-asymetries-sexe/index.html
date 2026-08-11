@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -342,7 +346,7 @@
         <div class="hero-copy">
           <p class="kicker">Éducation, orientation et formation</p>
           <h1>Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d&#39;emploi qui persiste</h1>
-          <p class="lead">Les publications récentes d&#39;Eurostat et de l&#39;OCDE montrent une asymétrie qui ne va pas dans un seul sens. Les femmes sont désormais plus nombreuses parmi les diplômés du supérieur et les jeunes adultes diplômés, mais les hommes restent nettement plus représentés dans les filières STEM et conservent un avantage d&#39;emploi quand des enfants vivent au foyer, y compris parmi les plus diplômés.</p>
+          <p class="lead">Les publications récentes d&#39;Eurostat et de l&#39;OCDE montrent une <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> qui ne va pas dans un seul sens. Les femmes sont désormais plus nombreuses parmi les diplômés du supérieur et les jeunes adultes diplômés, mais les hommes restent nettement plus représentés dans les filières STEM et conservent un avantage d&#39;emploi quand des enfants vivent au foyer, y compris parmi les plus diplômés.</p>
           <div class="meta" aria-label="Métadonnées">
             <span class="pill">25 juin 2026</span>
             <span class="pill">5 min</span>
@@ -391,12 +395,12 @@
               </section>
             
               <section class="section">
-                <h2>Une asymétrie qui change selon l&#39;indicateur</h2>
+                <h2>Une <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> qui change selon l&#39;indicateur</h2>
                 <p>Si l&#39;on regarde l&#39;accès et la réussite dans le supérieur, l&#39;avantage mesuré est aujourd&#39;hui plutôt féminin dans les données européennes citées. Les femmes sont majoritaires parmi les diplômés du supérieur, atteignent plus souvent un niveau tertiaire entre 25 et 34 ans, et terminent plus souvent un bachelor dans les délais observés par l&#39;OCDE.</p><p>Si l&#39;on regarde la distribution des filières, le sens de l&#39;écart change. Eurostat indique qu&#39;en 2024 il y a davantage d&#39;hommes parmi les diplômés des filières ingénierie, fabrication, construction et technologies de l&#39;information, et qu&#39;en 2023 l&#39;intensité de diplomation STEM rapportée à la population des 20-29 ans reste presque deux fois plus élevée chez les hommes que chez les femmes.</p><p>Si l&#39;on regarde enfin l&#39;emploi des adultes avec enfants, le niveau d&#39;études réduit l&#39;écart entre femmes et hommes mais ne le supprime pas. Les données Eurostat de 2024 montrent qu&#39;un diplôme élevé rapproche les taux d&#39;emploi, mais que l&#39;écart reste visible quand le nombre d&#39;enfants augmente.</p>
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Ces sources parlent de femmes et d&#39;hommes au sens des catégories statistiques utilisées par Eurostat et l&#39;OCDE. Elles ne mesurent pas les chromosomes, et <em>isora</em> doit donc conserver le libellé de source ainsi que le périmètre exact de chaque indicateur.</p><p>Les résultats ne décrivent pas une cause unique. Les choix de filière, les systèmes d&#39;orientation, les durées de cursus, les conditions économiques, la présence d&#39;enfants et l&#39;organisation du travail peuvent tous modifier les écarts observés. De plus, l&#39;ensemble n&#39;est pas centré sur la France seule : il s&#39;agit surtout de moyennes UE ou OCDE, utiles pour la tendance mais pas suffisantes pour décrire chaque pays.</p>
               </section>
             
@@ -411,7 +415,7 @@
                         </details>
                       
                         <details>
-                          <summary>Pourquoi parler encore d&#39;asymétrie si les femmes diplômées sont plus nombreuses ?</summary>
+                          <summary>Pourquoi parler encore d&#39;<a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> si les femmes diplômées sont plus nombreuses ?</summary>
                           <p>Parce que le sens de l&#39;écart dépend de ce qui est mesuré. Les femmes apparaissent davantage dans l&#39;obtention des diplômes et la réussite en bachelor, tandis que les hommes restent plus nombreux dans certaines filières STEM et ont des taux d&#39;emploi plus élevés parmi les adultes avec enfants.</p>
                         </details>
                       

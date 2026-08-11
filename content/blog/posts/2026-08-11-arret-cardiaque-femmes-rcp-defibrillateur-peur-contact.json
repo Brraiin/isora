@@ -1,0 +1,121 @@
+{
+  "id": "2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact",
+  "slug": "2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact",
+  "status": "published",
+  "language": "fr",
+  "title": "Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée",
+  "description": "Une méta-analyse de 2025 documente une application moins fréquente des électrodes d'un défibrillateur chez les femmes. Les enquêtes de perception évoquent la crainte d'un contact inapproprié ou d'une accusation, sans prouver que des plaintes expliquent l'écart.",
+  "date": "2026-08-11",
+  "publishedAt": "2026-08-11T17:35:00.000Z",
+  "updatedAt": "2026-08-11T17:35:00.000Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "RCP femmes hommes témoins arrêt cardiaque",
+    "défibrillateur femmes électrodes OR 0,79",
+    "peur accusation agression sexuelle massage cardiaque",
+    "bystander CPR women inappropriate touching",
+    "fausse information femme plainte sauveteur RCP"
+  ],
+  "relatedClaimIds": [
+    "femmes-arret-cardiaque-defibrillation-temoins"
+  ],
+  "readingMinutes": 5,
+  "summary": "La meilleure synthèse récente repérée par Isora réunit 15 cohortes et 499 854 arrêts cardiaques extrahospitaliers. Elle associe le sexe féminin à une moindre probabilité d'application, par un témoin, des électrodes d'un défibrillateur automatisé externe, avec un odds ratio de 0,79 et une certitude jugée modérée. En revanche, les résultats sur le déclenchement de la réanimation cardio-pulmonaire sont très hétérogènes. Une enquête américaine de 2024 montre que le public cite parfois la crainte d'un contact inapproprié ou d'une accusation parmi les explications possibles, mais elle mesure des perceptions, pas les motivations observées des sauveteurs ni le nombre de plaintes. Le récit viral d'une femme ayant poursuivi l'homme qui l'aurait sauvée a par ailleurs été identifié comme une histoire satirique, pas comme un fait établi.",
+  "keyPoints": [
+    "La méta-analyse de 2025 regroupe 15 cohortes et 499 854 arrêts cardiaques extrahospitaliers.",
+    "Les femmes ont une probabilité plus faible d'application des électrodes d'un défibrillateur par un témoin, avec OR 0,79 et une certitude modérée.",
+    "Pour le début de la RCP, l'hétérogénéité entre études est forte et la certitude globale très faible.",
+    "Une enquête de perception cite la peur d'un contact inapproprié ou d'une accusation, mais ne mesure ni les plaintes réelles ni la causalité de l'écart de secours.",
+    "Aucune donnée solide repérée ne permet d'affirmer que des pompiers ou des témoins refusent fréquemment de secourir des femmes à cause de plaintes."
+  ],
+  "sections": [
+    {
+      "heading": "Ce qui est mesuré : un écart pour l'application du défibrillateur",
+      "paragraphs": [
+        "La revue systématique publiée en 2025 conclut, avec un niveau de certitude modéré, que les électrodes d'un défibrillateur automatisé externe sont moins souvent appliquées aux femmes par un témoin. L'odds ratio de 0,79 exprime une différence de probabilité relative dans les données regroupées; il ne signifie pas que 21 % des femmes seraient volontairement privées de secours.",
+        "Cette étape peut être influencée par plusieurs facteurs : lieu de l'arrêt, présence d'un témoin, reconnaissance des symptômes, accessibilité du thorax, vêtements, formation et représentation de la victime. La méta-analyse décrit une association et ne permet pas d'isoler une cause unique."
+      ]
+    },
+    {
+      "heading": "Pour la RCP elle-même, le résultat dépend fortement du lieu et des études",
+      "paragraphs": [
+        "Une étude de 2018 trouvait, dans les lieux publics, une RCP pratiquée sur 39 % des femmes contre 45 % des hommes. Dans les lieux privés, les proportions étaient proches : 35 % et 36 %. La synthèse de 2025 relève des résultats très variables entre pays et cohortes, avec une certitude très faible sur l'effet global du sexe pour le démarrage de la RCP.",
+        "La distinction entre lieux publics et privés est essentielle. Les personnes présentes, le lien avec la victime, la visibilité de l'arrêt et l'accès à un défibrillateur ne sont pas les mêmes. Une moyenne sans ce contexte peut masquer les mécanismes utiles à la prévention."
+      ]
+    },
+    {
+      "heading": "Ce que mesure réellement la peur d'une accusation",
+      "paragraphs": [
+        "Dans une enquête américaine publiée en 2024, lorsque le sauveteur hypothétique était un homme, 36,2 % des répondants citaient la peur d'une accusation et 34 % la crainte d'un contact inapproprié parmi les raisons qu'ils imaginaient pour expliquer l'hésitation à secourir une femme. Ces réponses indiquent qu'une représentation sociale existe.",
+        "Elles ne constituent toutefois ni un registre de plaintes, ni une observation des gestes effectués lors de vrais arrêts cardiaques, ni la preuve que cette peur cause l'écart statistique. Isora conserve donc cette hypothèse comme perception documentée, sans la présenter comme fréquence réelle."
+      ]
+    },
+    {
+      "heading": "Le récit viral de la plainte après sauvetage n'est pas une preuve",
+      "paragraphs": [
+        "Une histoire très partagée affirme qu'une femme aurait poursuivi un homme pour l'avoir touchée sans consentement pendant qu'il lui sauvait la vie. Le média de vérification Maldita a retracé ce récit jusqu'à un site satirique et n'a trouvé ni décision, ni juridiction, ni source crédible correspondant à l'histoire.",
+        "Une anecdote non vérifiée ne doit donc pas servir à expliquer une asymétrie médicale. La bonne réponse consiste à former davantage de personnes à reconnaître l'arrêt cardiaque, à pratiquer la RCP et à utiliser un défibrillateur sur toute victime, en rappelant que les gestes de secours nécessaires ont un objectif médical."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "La méta-analyse porte sur des adultes victimes d'un arrêt cardiaque extrahospitalier dans 15 cohortes observationnelles. Les études classent les patients comme femmes ou hommes et ne mesurent pas les chromosomes. Les protocoles, pays et périodes diffèrent.",
+        "Les enquêtes de perception portent sur des réponses à des scénarios hypothétiques. Elles sont utiles pour concevoir la formation du public, mais ne permettent pas de compter les plaintes ni de mesurer directement le comportement de pompiers, policiers ou secouristes professionnels."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les hommes refusent-ils souvent de pratiquer une RCP sur une femme par peur d'une plainte ?",
+      "answer": "Aucune fréquence solide de ce comportement n'a été identifiée. Une enquête montre que cette peur fait partie des explications imaginées par le public, mais elle ne mesure pas les refus réels ni les plaintes."
+    },
+    {
+      "question": "Les femmes reçoivent-elles toujours moins de RCP ?",
+      "answer": "Non. Les résultats varient fortement selon les études et le lieu. L'écart est plus net dans certains espaces publics, tandis que des études trouvent des taux proches dans les lieux privés."
+    },
+    {
+      "question": "L'histoire de la femme ayant porté plainte contre son sauveteur est-elle vraie ?",
+      "answer": "Le récit viral étudié par Maldita provenait d'un contenu satirique et n'était accompagné d'aucune décision de justice vérifiable. Il ne doit pas être utilisé comme fait établi."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Association between bystander cardiopulmonary resuscitation initiation and patient's sex",
+      "publisher": "Resuscitation Plus / PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/",
+      "date": "2025",
+      "type": "revue systématique et méta-analyse"
+    },
+    {
+      "title": "Gender Disparities Among Adult Recipients of Bystander Cardiopulmonary Resuscitation in the Public",
+      "publisher": "Circulation: Cardiovascular Quality and Outcomes / PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30354377/",
+      "date": "2018",
+      "type": "étude de cohorte"
+    },
+    {
+      "title": "Examining the Impact of Layperson Rescuer Gender on the Receipt of Bystander CPR for Women",
+      "publisher": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38533649/",
+      "date": "2024",
+      "type": "enquête de perception"
+    },
+    {
+      "title": "No, una mujer no ha denunciado al hombre que la rescató por tocarla sin permiso",
+      "publisher": "Maldita.es",
+      "url": "https://maldita.es/feminismo/bulo/20241001/mujer-denuncia-hombre-rescate-sin-permiso/",
+      "date": "1er octobre 2024",
+      "type": "vérification d'une information virale"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-08-11T17:35:00.000Z",
+    "requiresHumanReview": false
+  }
+}

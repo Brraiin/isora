@@ -89,11 +89,17 @@
     .claim-card:hover { border-color: #1455a3; }
     .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
     .claim-card p { margin: 0; color: #555; line-height: 1.58; }
+    .claim-card-action { justify-self: start; font-weight: 850; }
+    .lexicon-term { position: relative; color: #1455a3; font-weight: 800; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfdbfe; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     .lexicon-main { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 34px 0 64px; }
     .notice { background: #fff; border: 1px solid #d8d8d0; border-left: 4px solid #1455a3; padding: 22px; }
     .notice p { margin: 0; color: #3f3f3f; line-height: 1.72; }
     .lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
     .lexicon-card { background: #fff; border: 1px solid #d8d8d0; padding: 22px; scroll-margin-top: 22px; }
+    .lexicon-card:target { outline: 3px solid #60a5fa; outline-offset: 3px; }
     .lexicon-card h2 { margin: 4px 0 0; font-size: 1.45rem; line-height: 1.18; }
     .lexicon-card p { color: #3f3f3f; line-height: 1.68; }
     .lexicon-card .definition { margin: 18px 0 0; color: #171717; font-size: 1.08rem; font-weight: 900; line-height: 1.45; }
@@ -130,7 +136,7 @@
         "@id": "https://isora-xi.vercel.app/#website"
       },
       "primaryImageOfPage": "https://isora-xi.vercel.app/isora.svg",
-      "dateModified": "2026-07-06",
+      "dateModified": "2026-08-11",
       "about": [
         {
           "@type": "Thing",
@@ -170,7 +176,7 @@
       "articleSection": "Éducation",
       "inLanguage": "fr-FR",
       "isAccessibleForFree": true,
-      "dateModified": "2026-07-06",
+      "dateModified": "2026-08-11",
       "author": {
         "@id": "https://isora-xi.vercel.app/#organization"
       },
@@ -280,11 +286,11 @@
         </section>
         <section class="section" aria-labelledby="nuance">
           <h2 id="nuance">Nuance</h2>
-          <p>La sous-représentation ne mesure pas à elle seule un désavantage subi ni une interdiction formelle. Les filles obtiennent de meilleurs résultats sur plusieurs indicateurs scolaires, notamment au DNB, au baccalauréat et dans l&#39;accès au niveau master, mais pas uniformément en mathématiques. Les bourses sur critères sociaux dépendent des ressources et charges familiales: les femmes sont majoritaires parmi les bénéficiaires en général, mais l&#39;écart femmes-hommes est faible ou nul en formation d&#39;ingénieur selon les sources disponibles.</p>
+          <p>La sous-représentation ne mesure pas à elle seule un <a class="lexicon-term" href="/lexique/#desavantage-subi" aria-label="désavantage subi — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">désavantage subi</a> ni une interdiction formelle. Les filles obtiennent de meilleurs résultats sur plusieurs indicateurs scolaires, notamment au DNB, au baccalauréat et dans l&#39;accès au niveau master, mais pas uniformément en mathématiques. Les bourses sur critères sociaux dépendent des ressources et charges familiales: les femmes sont majoritaires parmi les bénéficiaires en général, mais l&#39;écart femmes-hommes est faible ou nul en formation d&#39;ingénieur selon les sources disponibles.</p>
         </section>
         <section class="section" aria-labelledby="population">
-          <h2 id="population">Population mesurée</h2>
-          <p>Population mesurée par les sources : femmes ingénieures et diplômées selon l&#39;enquête IESF, filles et garçons dans les statistiques DEPP de réussite et d&#39;orientation, et bénéficiaires de bourses sur critères sociaux. Les sources ne mesurent pas les chromosomes.</p>
+          <h2 id="population"><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a></h2>
+          <p><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> par les sources : femmes ingénieures et diplômées selon l&#39;enquête IESF, filles et garçons dans les statistiques DEPP de réussite et d&#39;orientation, et bénéficiaires de bourses sur critères sociaux. Les sources ne mesurent pas les chromosomes.</p>
         </section>
         <section class="section" aria-labelledby="tags">
           <h2 id="tags">Classement</h2>

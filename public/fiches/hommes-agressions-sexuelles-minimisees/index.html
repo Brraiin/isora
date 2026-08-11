@@ -89,11 +89,17 @@
     .claim-card:hover { border-color: #1455a3; }
     .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
     .claim-card p { margin: 0; color: #555; line-height: 1.58; }
+    .claim-card-action { justify-self: start; font-weight: 850; }
+    .lexicon-term { position: relative; color: #1455a3; font-weight: 800; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfdbfe; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     .lexicon-main { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 34px 0 64px; }
     .notice { background: #fff; border: 1px solid #d8d8d0; border-left: 4px solid #1455a3; padding: 22px; }
     .notice p { margin: 0; color: #3f3f3f; line-height: 1.72; }
     .lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
     .lexicon-card { background: #fff; border: 1px solid #d8d8d0; padding: 22px; scroll-margin-top: 22px; }
+    .lexicon-card:target { outline: 3px solid #60a5fa; outline-offset: 3px; }
     .lexicon-card h2 { margin: 4px 0 0; font-size: 1.45rem; line-height: 1.18; }
     .lexicon-card p { color: #3f3f3f; line-height: 1.68; }
     .lexicon-card .definition { margin: 18px 0 0; color: #171717; font-size: 1.08rem; font-weight: 900; line-height: 1.45; }
@@ -130,7 +136,7 @@
         "@id": "https://isora-xi.vercel.app/#website"
       },
       "primaryImageOfPage": "https://isora-xi.vercel.app/isora.svg",
-      "dateModified": "2026-07-06",
+      "dateModified": "2026-08-11",
       "about": [
         {
           "@type": "Thing",
@@ -170,7 +176,7 @@
       "articleSection": "Violences",
       "inLanguage": "fr-FR",
       "isAccessibleForFree": true,
-      "dateModified": "2026-07-06",
+      "dateModified": "2026-08-11",
       "author": {
         "@id": "https://isora-xi.vercel.app/#organization"
       },
@@ -186,7 +192,8 @@
         "https://journals.sagepub.com/doi/10.1177/02697580211048552",
         "https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html",
         "https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/",
-        "https://journals.sagepub.com/doi/10.1177/10778012241263104"
+        "https://journals.sagepub.com/doi/10.1177/10778012241263104",
+        "https://pace.coe.int/fr/files/34546/html"
       ],
       "keywords": "hommes, perception, Violences, États-Unis, violences sexuelles, consentement, récit, États-Unis"
     },
@@ -273,11 +280,11 @@
         </section>
         <section class="section" aria-labelledby="nuance">
           <h2 id="nuance">Nuance</h2>
-          <p>L&#39;enquête NSVRC mesure la reconnaissance de catégories d&#39;agression sexuelle, pas l&#39;acceptation d&#39;un cas Instagram précis. Les sources portent sur une asymétrie de perception et de minimisation; elles ne mesurent ni toutes les situations de victimes masculines, ni la fréquence des agressions commises par des femmes.</p>
+          <p>L&#39;enquête NSVRC mesure la reconnaissance de catégories d&#39;agression sexuelle aux États-Unis en 2017, pas l&#39;acceptation d&#39;un cas particulier. Le Conseil de l&#39;Europe documente en 2025 la persistance de stéréotypes d&#39;invulnérabilité masculine et de difficultés de reconnaissance. Ces sources ne mesurent ni toutes les victimes masculines ni la fréquence globale des auteures femmes.</p>
         </section>
         <section class="section" aria-labelledby="population">
-          <h2 id="population">Population mesurée</h2>
-          <p>Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.</p>
+          <h2 id="population"><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a></h2>
+          <p><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.</p>
         </section>
         <section class="section" aria-labelledby="tags">
           <h2 id="tags">Classement</h2>
@@ -320,11 +327,16 @@
           <span class="source-meta">2024 - Whom Would You Help? The Impact of Perpetrator and Victim Gender on Bystander Behavior During a Sexual Assault</span>
         </li>
       
+        <li>
+          <a href="https://pace.coe.int/fr/files/34546/html" rel="noreferrer" target="_blank">Assemblée parlementaire du Conseil de l&#39;Europe</a>
+          <span class="source-meta">14 septembre 2025 - Violences sexuelles à l&#39;encontre des hommes et des garçons</span>
+        </li>
+      
           </ul>
         </section>
         <section class="sidebox">
           <h2>Contexte</h2>
-          <p>Statut: persistant<br />Dernière vérification: 16 juin 2026<br />Confiance: moyenne</p>
+          <p>Statut: persistant<br />Dernière vérification: 11 août 2026<br />Confiance: moyenne</p>
         </section>
         <section class="sidebox">
           <h2>Version interactive</h2>

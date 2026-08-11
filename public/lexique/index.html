@@ -86,11 +86,17 @@
     .claim-card:hover { border-color: #1455a3; }
     .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
     .claim-card p { margin: 0; color: #555; line-height: 1.58; }
+    .claim-card-action { justify-self: start; font-weight: 850; }
+    .lexicon-term { position: relative; color: #1455a3; font-weight: 800; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfdbfe; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     .lexicon-main { display: grid; grid-template-columns: 1fr; gap: 18px; padding: 34px 0 64px; }
     .notice { background: #fff; border: 1px solid #d8d8d0; border-left: 4px solid #1455a3; padding: 22px; }
     .notice p { margin: 0; color: #3f3f3f; line-height: 1.72; }
     .lexicon-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
     .lexicon-card { background: #fff; border: 1px solid #d8d8d0; padding: 22px; scroll-margin-top: 22px; }
+    .lexicon-card:target { outline: 3px solid #60a5fa; outline-offset: 3px; }
     .lexicon-card h2 { margin: 4px 0 0; font-size: 1.45rem; line-height: 1.18; }
     .lexicon-card p { color: #3f3f3f; line-height: 1.68; }
     .lexicon-card .definition { margin: 18px 0 0; color: #171717; font-size: 1.08rem; font-weight: 900; line-height: 1.45; }
@@ -124,7 +130,7 @@
       "@type": "DefinedTermSet",
       "@id": "https://isora-xi.vercel.app/lexique/#lexique",
       "name": "isora - lexique",
-      "description": "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d'un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.",
+      "description": "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sépare quatre axes indépendants, le combat contre une asymétrie, l'opposition de principe à ce combat, l'adhésion à des rôles sexués traditionnels et la haine d'un sexe. Féminisme et masculinisme nomment ici l'objet d'un combat; antiféminisme et antimasculinisme nomment son opposition systématique; virilisme et féminilisme nomment des normes de rôles; misandrie et misogynie nomment des haines ou des mépris.",
       "url": "https://isora-xi.vercel.app/lexique/",
       "hasDefinedTerm": [
         {
@@ -158,6 +164,38 @@
           "description": "Combat contre les asymétries en défaveur des garçons et des hommes.",
           "termCode": "masculinisme",
           "url": "https://isora-xi.vercel.app/lexique/#masculinisme"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#antifeminisme",
+          "name": "Antiféminisme",
+          "description": "Opposition de principe au féminisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des filles et des femmes.",
+          "termCode": "antifeminisme",
+          "url": "https://isora-xi.vercel.app/lexique/#antifeminisme"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#antimasculinisme",
+          "name": "Antimasculinisme",
+          "description": "Opposition de principe au masculinisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des garçons et des hommes.",
+          "termCode": "antimasculinisme",
+          "url": "https://isora-xi.vercel.app/lexique/#antimasculinisme"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#virilisme",
+          "name": "Virilisme",
+          "description": "Adhésion à un modèle traditionnel de virilité et aux rôles patriarcaux attendus des hommes.",
+          "termCode": "virilisme",
+          "url": "https://isora-xi.vercel.app/lexique/#virilisme"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://isora-xi.vercel.app/lexique/#feminilisme",
+          "name": "Féminilisme",
+          "description": "Néologisme éditorial d'isora : adhésion à un modèle traditionnel de féminité et aux rôles patriarcaux attendus des femmes.",
+          "termCode": "feminilisme",
+          "url": "https://isora-xi.vercel.app/lexique/#feminilisme"
         },
         {
           "@type": "DefinedTerm",
@@ -291,7 +329,7 @@
         <p class="kicker">Lexique isora</p>
         <h1>Repères de vocabulaire</h1>
         <div class="chips" aria-label="Entrées du lexique">
-          <span class="chip">13 termes</span>
+          <span class="chip">17 termes</span>
           <span class="chip">définitions éditoriales</span>
           <span class="chip">confusions à éviter</span>
         </div>
@@ -300,7 +338,7 @@
 
     <main class="wrap lexicon-main">
       <section class="notice" aria-label="Note éditoriale">
-        <p>Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d&#39;un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.</p>
+        <p>Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sépare quatre axes indépendants, le combat contre une asymétrie, l&#39;opposition de principe à ce combat, l&#39;adhésion à des rôles sexués traditionnels et la haine d&#39;un sexe. Féminisme et masculinisme nomment ici l&#39;objet d&#39;un combat; antiféminisme et antimasculinisme nomment son opposition systématique; virilisme et féminilisme nomment des normes de rôles; misandrie et misogynie nomment des haines ou des mépris.</p>
       </section>
 
       <section class="lexicon-grid" aria-label="Termes du lexique">
@@ -320,30 +358,70 @@
                 <p class="meta-label">Repère</p>
                 <h2>Féminisme</h2>
                 <p class="definition">Combat contre les asymétries en défaveur des filles et des femmes.</p>
-                <p>Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Cette définition n&#39;implique pas qu&#39;une parole féministe serait automatiquement misandre.</p>
+                <p>Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Il ne décrit à lui seul ni une opinion sur les hommes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être féministe et masculiniste selon les asymétries qu&#39;elle défend.</p>
                 <div class="term-links">
-                  <p>À ne pas confondre : misandrie</p>
-                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+                  <p>À ne pas confondre : <a href="#feminilisme">féminilisme</a>, <a href="#misandrie">misandrie</a>, <a href="#antimasculinisme">antimasculinisme</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
                 </div>
               </article>
               <article class="lexicon-card" id="masculinisme">
                 <p class="meta-label">Repère</p>
                 <h2>Masculinisme</h2>
                 <p class="definition">Combat contre les asymétries en défaveur des garçons et des hommes.</p>
-                <p>Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines sans haine des femmes. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; cette fiche signale justement l&#39;écart entre ce besoin lexical et l&#39;usage courant.</p>
+                <p>Dans isora, ce repère sert à nommer la défense factuelle et pacifique des vulnérabilités masculines. Il ne décrit à lui seul ni une opinion sur les femmes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être masculiniste et féministe selon les asymétries qu&#39;elle défend. Lorsqu&#39;un dictionnaire, un média ou un rapport public emploie masculinisme pour désigner l&#39;antiféminisme, le virilisme, la misogynie ou des actes violents, isora conserve le titre exact pour la traçabilité mais ne reprend pas cette qualification à son compte : chaque élément est reclassé séparément selon son contenu observable.</p>
                 <div class="term-links">
-                  <p>À ne pas confondre : misogynie</p>
-                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+                  <p>À ne pas confondre : <a href="#virilisme">virilisme</a>, <a href="#misogynie">misogynie</a>, <a href="#antifeminisme">antiféminisme</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
+                </div>
+              </article>
+              <article class="lexicon-card" id="antifeminisme">
+                <p class="meta-label">Opposition à un combat</p>
+                <h2>Antiféminisme</h2>
+                <p class="definition">Opposition de principe au féminisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des filles et des femmes.</p>
+                <p>Dans isora, le terme vise l&#39;opposition générale à la légitimité du combat féministe, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication féministe précise ne suffit pas à caractériser l&#39;antiféminisme : il faut observer une opposition de principe ou une disqualification systématique. L&#39;antiféminisme n&#39;implique pas automatiquement la misogynie, le virilisme ou le masculinisme.</p>
+                <div class="term-links">
+                  <p>À ne pas confondre : <a href="#misogynie">misogynie</a>, <a href="#virilisme">virilisme</a>, <a href="#masculinisme">masculinisme</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
+                </div>
+              </article>
+              <article class="lexicon-card" id="antimasculinisme">
+                <p class="meta-label">Opposition à un combat</p>
+                <h2>Antimasculinisme</h2>
+                <p class="definition">Opposition de principe au masculinisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des garçons et des hommes.</p>
+                <p>Dans isora, le terme vise l&#39;opposition générale à la légitimité du combat masculiniste, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication masculiniste précise ne suffit pas à caractériser l&#39;antimasculinisme : il faut observer une opposition de principe ou une disqualification systématique. L&#39;antimasculinisme n&#39;implique pas automatiquement la misandrie, le féminilisme ou le féminisme.</p>
+                <div class="term-links">
+                  <p>À ne pas confondre : <a href="#misandrie">misandrie</a>, <a href="#feminilisme">féminilisme</a>, <a href="#feminisme">féminisme</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
+                </div>
+              </article>
+              <article class="lexicon-card" id="virilisme">
+                <p class="meta-label">Repère</p>
+                <h2>Virilisme</h2>
+                <p class="definition">Adhésion à un modèle traditionnel de virilité et aux rôles patriarcaux attendus des hommes.</p>
+                <p>Le virilisme valorise ou prescrit selon le sexe des qualités et obligations comme la force, la dureté, la domination, l&#39;initiative, la prise de risque, la protection matérielle ou le refus de la vulnérabilité. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme virils ne suffit pas : le repère vise leur transformation en norme attendue ou hiérarchiquement supérieure. Une personne de l&#39;un ou l&#39;autre sexe peut porter cette position.</p>
+                <div class="term-links">
+                  <p>À ne pas confondre : <a href="#masculinisme">masculinisme</a>, <a href="#misogynie">misogynie</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
+                </div>
+              </article>
+              <article class="lexicon-card" id="feminilisme">
+                <p class="meta-label">Repère</p>
+                <h2>Féminilisme</h2>
+                <p class="definition">Néologisme éditorial d&#39;isora : adhésion à un modèle traditionnel de féminité et aux rôles patriarcaux attendus des femmes.</p>
+                <p>Le féminilisme valorise ou prescrit selon le sexe des qualités, apparences et rôles comme la douceur, la retenue, le soin, la séduction, la dépendance matérielle ou l&#39;attente de galanterie, de protection et de prise en charge par les hommes. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme féminins ou apprécier un geste galant ne suffit pas : le repère vise leur transformation en norme sexuée. Le concept sociologique de « féminité accentuée » décrit un phénomène voisin de conformité au patriarcat. Une personne de l&#39;un ou l&#39;autre sexe peut porter cette position.</p>
+                <div class="term-links">
+                  <p>À ne pas confondre : <a href="#feminisme">féminisme</a>, <a href="#misandrie">misandrie</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
                 </div>
               </article>
               <article class="lexicon-card" id="misandrie">
                 <p class="meta-label">Haine de sexe</p>
                 <h2>Misandrie</h2>
                 <p class="definition">Haine ou mépris des hommes.</p>
-                <p>La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n&#39;est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres.</p>
+                <p>La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n&#39;est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres. La disqualification générale d&#39;une revendication masculine pacifique à cause du sexe qu&#39;elle défend peut être étudiée comme une disqualification sexiste; la misandrie ne doit toutefois être retenue que si une haine ou un mépris des hommes est observable.</p>
                 <div class="term-links">
-                  <p>À ne pas confondre : féminisme</p>
-                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+                  <p>À ne pas confondre : <a href="#feminisme">féminisme</a>, <a href="#antimasculinisme">antimasculinisme</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
                 </div>
               </article>
               <article class="lexicon-card" id="misogynie">
@@ -352,8 +430,8 @@
                 <p class="definition">Haine ou mépris des femmes.</p>
                 <p>La misogynie décrit une hostilité envers les femmes comme groupe. Elle peut être exprimée par des hommes ou par des femmes. Elle n&#39;est pas synonyme de masculinisme au sens d&#39;une défense factuelle des asymétries défavorables aux hommes.</p>
                 <div class="term-links">
-                  <p>À ne pas confondre : masculinisme</p>
-                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Défense des hommes : pas de terme neutre stabilisé</a>
+                  <p>À ne pas confondre : <a href="#masculinisme">masculinisme</a>, <a href="#antifeminisme">antiféminisme</a></p>
+                  <a href="/fiches/hommes-vocabulaire-masculinisme-pejoratif/">Fiche liée : Masculinisme : définition Isora et usages péjoratifs des sources</a>
                 </div>
               </article>
               <article class="lexicon-card" id="sexisme">
@@ -402,7 +480,7 @@
     </main>
 
     <footer class="wrap method">
-      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent ici des combats contre des asymétries défavorables; misandrie et misogynie désignent des haines ou mépris de sexe.</p>
+      <p><em>isora</em> emploie ce lexique comme repère éditorial : féminisme et masculinisme désignent l'objet d'un combat; antiféminisme et antimasculinisme désignent son opposition systématique; virilisme et féminilisme désignent l'adhésion à des rôles sexués traditionnels; misandrie et misogynie désignent des haines ou mépris de sexe. Ces quatre axes sont indépendants.</p>
     </footer>
     <script src="/isora-soft-navigation.js" defer></script>
   </body>

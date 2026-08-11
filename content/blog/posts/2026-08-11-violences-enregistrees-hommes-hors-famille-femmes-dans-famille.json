@@ -1,0 +1,96 @@
+{
+  "id": "2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille",
+  "slug": "2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille",
+  "status": "published",
+  "language": "fr",
+  "title": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
+  "description": "Les données policières de 2025 montrent que le sexe majoritaire parmi les victimes change selon la nature des violences et leur contexte : 68 % d'hommes hors famille, 73 % de femmes dans la famille et 85 % de femmes pour les violences sexuelles.",
+  "date": "2026-08-11",
+  "publishedAt": "2026-08-11T17:30:00.000Z",
+  "updatedAt": "2026-08-11T17:30:00.000Z",
+  "topic": {
+    "id": "violences-securite",
+    "label": "Violences, sécurité et justice pénale"
+  },
+  "keywords": [
+    "victimes violences hommes femmes France 2025",
+    "violences physiques hors famille 68% hommes",
+    "violences familiales 73% femmes",
+    "violences sexuelles enregistrées 85% femmes",
+    "Interstats SSMSI violences 2025"
+  ],
+  "relatedClaimIds": [
+    "hommes-violences-physiques-hors-famille-france-2025",
+    "femmes-violences-conjugales",
+    "hommes-mis-en-cause-violences-conjugales-france",
+    "hommes-agresseurs-declares-violences-sexuelles-femmes-france"
+  ],
+  "readingMinutes": 4,
+  "summary": "La publication Interstats portant sur les crimes et délits enregistrés en 2025 interdit de réduire la violence à une seule opposition entre les sexes. Les hommes représentent 68 % des victimes de violences physiques hors du cadre familial. Dans le cadre familial, les femmes représentent 73 % des victimes de violences physiques. Tous contextes confondus, elles constituent aussi 85 % des victimes enregistrées de violences sexuelles. Ces indicateurs sont compatibles parce qu'ils ne portent ni sur les mêmes faits ni sur les mêmes situations. Ils documentent des asymétries différentes, qui appellent des politiques de prévention différentes.",
+  "keyPoints": [
+    "En 2025, 248 900 victimes de violences physiques hors du cadre familial ont été enregistrées par la police et la gendarmerie françaises; 68 % sont des hommes.",
+    "Dans le cadre familial, les femmes représentent 73 % des victimes enregistrées de violences physiques.",
+    "Pour les violences sexuelles enregistrées, tous contextes confondus, 85 % des victimes sont des femmes.",
+    "Ces données portent sur les victimes connues des services de sécurité, pas sur l'ensemble des violences réellement subies.",
+    "Dire quel sexe est majoritaire exige donc de préciser au minimum le type de violence, le contexte, l'âge, le territoire et la source statistique."
+  ],
+  "sections": [
+    {
+      "heading": "Hors de la famille, les victimes enregistrées de violences physiques sont majoritairement des hommes",
+      "paragraphs": [
+        "Le SSMSI comptabilise 248 900 victimes de violences physiques commises hors du cadre familial en 2025. Les hommes représentent 68 % de ces victimes enregistrées. Ce résultat rend visible une exposition masculine forte dans la rue, les espaces publics, les relations entre connaissances ou d'autres contextes non familiaux.",
+        "Cette majorité ne permet pas, à elle seule, d'identifier les causes de l'écart. L'âge, les activités, les lieux fréquentés, l'exposition professionnelle, les comportements à risque et le sexe des auteurs peuvent tous intervenir. La fiche Isora décrit le résultat mesuré sans attribuer automatiquement la responsabilité à un sexe entier."
+      ]
+    },
+    {
+      "heading": "Dans la famille et pour les violences sexuelles, l'asymétrie s'inverse",
+      "paragraphs": [
+        "La même publication mesure une autre structure dans le cadre familial : 73 % des victimes enregistrées de violences physiques sont des femmes. Pour les violences sexuelles, quel que soit le contexte, les femmes représentent 85 % des victimes enregistrées.",
+        "Ces écarts ne s'annulent pas. Ils montrent que la catégorie générale « violences » est trop large pour soutenir un récit unique. Reconnaître l'exposition masculine hors famille ne minimise pas les violences familiales ou sexuelles subies par les femmes; documenter celles-ci ne doit pas rendre invisibles les hommes victimes dans d'autres contextes."
+      ]
+    },
+    {
+      "heading": "Une statistique enregistrée n'est pas toute la victimation",
+      "paragraphs": [
+        "Interstats mesure les crimes et délits enregistrés par la police et la gendarmerie. Le résultat dépend donc du dépôt de plainte, du signalement par un tiers, de l'enregistrement et de la qualification de l'infraction. Certaines victimes ne contactent jamais les services de sécurité, et cette sous-déclaration peut varier selon le sexe et le type de violence.",
+        "Les enquêtes de victimation complètent ces données en interrogeant directement la population, mais elles ont elles aussi leur champ, leur questionnaire et leur incertitude. Une lecture sérieuse conserve le périmètre de chaque source au lieu de transformer une part parmi les victimes enregistrées en estimation universelle."
+      ]
+    },
+    {
+      "heading": "Population mesurée et portée de la comparaison",
+      "paragraphs": [
+        "La source porte sur les victimes de violences physiques et sexuelles enregistrées comme crimes ou délits par les services de sécurité français en 2025. Elle utilise les catégories femmes et hommes des fichiers administratifs et ne mesure pas les chromosomes.",
+        "Les pourcentages décrivent la répartition des victimes au sein de chaque catégorie d'infraction. Ils ne disent pas quelle part de l'ensemble des femmes ou de l'ensemble des hommes a subi une violence, et ne décrivent pas automatiquement le sexe des auteurs."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Peut-on dire que les hommes sont les principales victimes de violence ?",
+      "answer": "Seulement pour un périmètre défini. Dans les données françaises de 2025, ils sont majoritaires parmi les victimes enregistrées de violences physiques hors famille. Les femmes sont majoritaires dans le cadre familial et parmi les victimes de violences sexuelles enregistrées."
+    },
+    {
+      "question": "Ces chiffres correspondent-ils à toutes les violences subies ?",
+      "answer": "Non. Ils correspondent aux faits enregistrés par la police et la gendarmerie. Les violences non signalées ou non enregistrées n'y figurent pas."
+    },
+    {
+      "question": "Une majorité de victimes masculines implique-t-elle une majorité d'auteurs féminins ?",
+      "answer": "Non. La répartition des victimes et celle des auteurs sont deux variables différentes. Cette publication ne permet pas d'inférer le sexe de l'auteur à partir du seul sexe de la victime."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Victimes de violences physiques et sexuelles enregistrées en hausse en 2025",
+      "publisher": "Ministère de l'Intérieur / SSMSI / Interstats",
+      "url": "https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs",
+      "date": "27 février 2026",
+      "type": "statistique officielle"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-08-11T17:30:00.000Z",
+    "requiresHumanReview": false
+  }
+}

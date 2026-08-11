@@ -110,22 +110,30 @@ const rawClaims: RawClaim[] = [
     id: "hommes-accidents-travail",
     side: "hommes",
     domain: "Travail",
-    title: "Hommes très majoritaires parmi les morts au travail",
+    title: "Hommes toujours davantage touchés par les accidents du travail",
     metric: ">90 %",
     summary:
-      "Les accidents du travail mortels concernent à plus de 90 % des hommes dans tous les secteurs étudiés. Les métiers du BTP, du transport, de la manutention et d'autres activités exposées restent fortement masculinisés.",
+      "La Dares comptabilise 668 510 accidents du travail avec au moins un jour d'arrêt en France en 2023, dont 818 mortels, et indique que les hommes restent plus touchés que les femmes. L'Anact estimait déjà que plus de 90 % des accidents du travail mortels concernaient des hommes dans les secteurs étudiés.",
     tags: ["travail", "sécurité", "sociétal", "métiers dangereux"],
     source: {
-      label:
-        "Photographie statistique de la sinistralité au travail en France selon le sexe",
-      publisher: "ANACT",
-      url: "https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe",
-      date: "2022",
+      label: "Quels salariés sont le plus souvent victimes d'accidents du travail en 2023 ?",
+      publisher: "Dares",
+      url: "https://dares.travail-emploi.gouv.fr/publication/quels-salaries-sont-le-plus-souvent-victimes-daccidents-du-travail-en-2023",
+      date: "22 juillet 2026",
     },
+    additionalSources: [
+      {
+        label:
+          "Photographie statistique de la sinistralité au travail en France selon le sexe",
+        publisher: "ANACT",
+        url: "https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe",
+        date: "2022",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Le constat documente une exposition au risque. Il ne prouve pas à lui seul une règle juridique défavorable aux hommes.",
+      "Les écarts reflètent notamment les métiers exercés, les expositions, l'âge et les secteurs d'activité. La Dares précise que la différence entre femmes et hommes s'amenuise avec l'âge. Le seuil de 90 % vient de la publication Anact antérieure, tandis que les volumes 2023 viennent de la Dares.",
   },
   {
     id: "hommes-suicide",
@@ -162,19 +170,59 @@ const rawClaims: RawClaim[] = [
       url: "https://www.insee.fr/fr/statistiques/2416631",
       date: "13 janvier 2026",
     },
+    additionalSources: [
+      {
+        label: "Grandes causes de mortalité et principales causes associées en France en 2024",
+        publisher: "Santé publique France / Bulletin épidémiologique hebdomadaire",
+        url: "https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html",
+        date: "juillet 2026",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques.",
+      "L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins.",
+  },
+  {
+    id: "hommes-mal-etre-recours-professionnel",
+    side: "hommes",
+    domain: "Santé",
+    title: "Hommes moins nombreux à parler de leur mal-être à un professionnel",
+    metric: "25 % vs 32 %",
+    summary:
+      "Parmi les 2 919 personnes ayant déclaré un mal-être ou des difficultés psychologiques dans l'enquête CoviPrev 2022-2023, 25 % des hommes contre 32 % des femmes disent en avoir parlé à un professionnel de santé ou de santé mentale. L'écart est particulièrement marqué après 65 ans: 18 % contre 34 %.",
+    tags: ["santé mentale", "recours aux soins", "prévention", "France"],
+    source: {
+      label: "Parler de son mal-être ou de ses difficultés psychologiques : résultats de l'enquête CoviPrev",
+      publisher: "Santé publique France / Bulletin épidémiologique hebdomadaire",
+      url: "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
+      date: "24 mars 2026",
+    },
+    translations: {
+      en: {
+        title: "Men are less likely to discuss psychological distress with a professional",
+        summary:
+          "Among the 2,919 people who reported psychological distress or difficulties in the 2022-2023 CoviPrev survey, 25% of men versus 32% of women said they had discussed it with a health or mental-health professional. The gap was particularly large after age 65: 18% versus 34%.",
+        nuance:
+          "The survey used quota sampling from an access panel and measures self-reported conversations, not diagnoses or completed care pathways. Young men aged 18-24 reported talking to someone as often as young women but used alternative channels more frequently. The finding therefore supports targeted outreach rather than a claim that no man seeks help.",
+        sourcePopulation:
+          "Population measured by the source: people in France who reported psychological distress or difficulties during the previous 12 months in CoviPrev waves 34 to 37. The source uses women/men categories and does not measure chromosomes.",
+        tags: ["mental health", "healthcare access", "prevention", "France"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
+    nuance:
+      "L'enquête repose sur un échantillonnage par quotas au sein d'un access panel et mesure une parole déclarée, pas un diagnostic ni l'aboutissement d'un parcours de soins. Les jeunes hommes de 18 à 24 ans déclarent avoir parlé à quelqu'un aussi souvent que les jeunes femmes, mais utilisent davantage des canaux alternatifs. Le résultat justifie donc une prévention ciblée, pas l'affirmation qu'aucun homme ne demande d'aide.",
   },
   {
     id: "hommes-pensions-alimentaires",
     side: "hommes",
     domain: "Justice",
-    title: "Pères presque toujours débiteurs des pensions alimentaires",
+    title: "Dans les décisions étudiées en 2012, le père était débiteur dans 97 % des pensions fixées",
     metric: "97 %",
     summary:
-      "Dans les décisions étudiées par le ministère de la Justice, quand une contribution à l'entretien et à l'éducation de l'enfant est fixée, le parent débiteur est presque toujours le père.",
+      "Dans les décisions rendues en 2012 et étudiées par le ministère de la Justice, lorsqu'une contribution à l'entretien et à l'éducation de l'enfant était fixée, le père en était le débiteur dans 97 % des cas.",
     tags: ["justice", "famille", "juridique", "séparation"],
     source: {
       label:
@@ -184,18 +232,18 @@ const rawClaims: RawClaim[] = [
       date: "2013",
     },
     confidence: "moyenne",
-    lastChecked: "15 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "La donnée est ancienne et reflète aussi la résidence principale des enfants. Elle doit être actualisée avant d'en faire un argument juridique fort.",
+      "Cette donnée est historique et reflète notamment le fait que les enfants résidaient plus souvent principalement chez leur mère. Elle ne démontre pas à elle seule un biais judiciaire et ne permet pas d'affirmer que l'homme paie toujours après une séparation.",
   },
   {
     id: "hommes-residence-alternee",
     side: "hommes",
     domain: "Famille",
-    title: "Résidence alternée encore rare pour les pères séparés",
+    title: "En 2023, 14 % des enfants de parents séparés vivent à temps égal chez chacun",
     metric: "14 %",
     summary:
-      "L'Insee indique qu'en 2023, 14 % des enfants dont les parents sont séparés vivent en résidence alternée. Le reste vit principalement avec un seul parent, le plus souvent la mère selon les publications antérieures.",
+      "L'Insee indique qu'en 2023, 14 % des enfants dont les parents sont séparés partagent leur temps à égalité entre les deux domiciles. La majorité vit principalement avec un seul parent, le plus souvent la mère.",
     tags: ["famille", "coparentalité", "sociétal", "juridique"],
     source: {
       label: "En 2023, trois enfants sur dix vivent avec un seul de leurs parents",
@@ -204,7 +252,7 @@ const rawClaims: RawClaim[] = [
       date: "janvier 2025",
     },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
       "La résidence dépend de l'âge de l'enfant, du logement, des demandes parentales, des revenus et des décisions judiciaires. Le chiffre ne suffit pas à isoler un biais du juge.",
   },
@@ -213,7 +261,7 @@ const rawClaims: RawClaim[] = [
     side: "hommes",
     domain: "Famille",
     title:
-      "Quand la femme assure seule le revenu, la baisse de satisfaction est plus marquée chez les hommes",
+      "Dans neuf pays, satisfaction déclarée plus basse quand la femme assure seule le revenu",
     metric: "pénalité de bien-être",
     summary:
       "Dans une étude sur 9 pays européens, les femmes et les hommes déclarent en moyenne une satisfaction de vie plus basse quand la femme est la seule pourvoyeuse de revenus que lorsque le revenu principal vient de l'homme ou est partagé; la baisse est plus marquée chez les hommes, surtout quand l'homme est au chômage. Une étude britannique sur les couples mariés trouve aussi qu'une hausse du revenu relatif des hommes augmente leur satisfaction, alors qu'un effet équivalent n'apparaît pas chez les femmes.",
@@ -325,7 +373,7 @@ const rawClaims: RawClaim[] = [
       },
     },
     confidence: "forte",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
       "Dire que la femme n'encourt aucun risque serait trop absolu: une fraude organisée peut entraîner opposition du procureur, annulation de la filiation, dommages et intérêts, ou sanctions pénales si elle sert une fraude qualifiée. En revanche, il n'existe pas de délit général sanctionnant le simple fait de mentir à un homme sur sa paternité biologique. Le test doit être ordonné par un juge et le consentement des personnes concernées reste nécessaire; un refus n'est pas un veto absolu, car le juge peut l'interpréter comme un indice de paternité ou de non-paternité. Les études psychosociales disponibles signalent un fort retentissement possible de la paternité attribuée à tort, mais le phénomène reste moins étudié que d'autres révélations familiales.",
   },
@@ -549,20 +597,68 @@ const rawClaims: RawClaim[] = [
     side: "hommes",
     domain: "Droits",
     title: "Service militaire obligatoire souvent ciblé sur les hommes",
-    metric: "nombreux pays",
+    metric: "règles variables",
     summary:
-      "De nombreux pays imposent encore un service militaire obligatoire visant surtout ou uniquement les hommes, avec des obligations civiques et militaires différenciées selon le sexe.",
+      "En mars 2025, le Parlement européen recensait neuf États membres de l'Union européenne appliquant une conscription en temps de paix; la Suède était alors le seul de ces pays à l'appliquer aux deux sexes. Le Danemark a depuis instauré une conscription juridiquement identique pour les femmes et les hommes à partir de 2025-2026.",
     tags: ["droits", "conscription", "devoirs civiques", "international"],
     source: {
-      label: "Countries with mandatory military service",
-      publisher: "World Population Review",
-      url: "https://worldpopulationreview.com/country-rankings/countries-with-mandatory-military-service",
-      date: "2026",
+      label: "Conscription as an element in European Union preparedness",
+      publisher: "Service de recherche du Parlement européen",
+      url: "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)769541",
+      date: "19 mars 2025",
     },
-    confidence: "moyenne",
-    lastChecked: "15 juin 2026",
+    additionalSources: [
+      {
+        label: "Værnepligt for kvinder - Fuld ligestilling i værnepligten",
+        publisher: "Défense danoise",
+        url: "https://karriere.forsvaret.dk/vaernepligt/vaernepligt-for-kvinder/",
+        date: "consulté le 11 août 2026",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "11 août 2026",
     nuance:
-      "Les règles varient fortement selon les pays, les exemptions et les situations de guerre. L'asymétrie juridique doit être vérifiée pays par pays.",
+      "Les règles évoluent rapidement et diffèrent selon le pays, l'âge, les exemptions, la durée et les situations de guerre. Le chiffre de neuf décrit l'Union européenne en mars 2025; il ne constitue pas un total mondial actuel. Chaque situation nationale doit être datée et vérifiée.",
+  },
+  {
+    id: "hommes-age-retraite-differencie-ocde",
+    side: "hommes",
+    domain: "Droits",
+    title: "Âge normal de retraite encore plus élevé pour les hommes dans certains pays",
+    metric: "64,7 vs 63,9 ans",
+    summary:
+      "Pour les personnes parties à la retraite en 2024, l'OCDE calcule un âge normal moyen de 64,7 ans pour les hommes contre 63,9 ans pour les femmes. Neuf pays de l'OCDE conservaient un âge normal inférieur pour les femmes, avec des écarts pouvant atteindre cinq ans.",
+    tags: ["retraite", "droits", "obligations", "OCDE", "comparaison"],
+    source: {
+      label: "Current retirement ages - Pensions at a Glance 2025",
+      publisher: "OCDE",
+      url: "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/current-retirement-ages_0f63b747.html",
+      date: "2025",
+    },
+    additionalSources: [
+      {
+        label: "Gender pension gap - Pensions at a Glance 2025",
+        publisher: "OCDE",
+        url: "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html",
+        date: "2025",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Normal retirement age remains higher for men in some countries",
+        summary:
+          "For people retiring in 2024, the OECD calculates an average normal retirement age of 64.7 for men and 63.9 for women. Nine OECD countries retained a lower normal age for women, with gaps of up to five years.",
+        nuance:
+          "The indicator measures the normal statutory age for a model career, not the average effective labour-market exit age. A lower age is a legal advantage in the timing of entitlement for women, but it can also shorten contribution careers and reduce women's monthly pensions. Both effects must remain visible.",
+        sourcePopulation:
+          "Population measured by the source: model careers of women and men retiring in 2024 under pension legislation in OECD countries. The source does not measure chromosomes.",
+        tags: ["retirement", "rights", "obligations", "OECD", "comparison"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
+    nuance:
+      "L'indicateur mesure l'âge normal prévu pour une carrière-type, pas l'âge moyen de sortie effective du marché du travail. Un âge inférieur constitue un avantage juridique de calendrier pour les femmes, mais peut aussi raccourcir leur carrière contributive et réduire leur pension mensuelle. Les deux effets doivent rester visibles.",
   },
   {
     id: "hommes-population-carcerale-monde",
@@ -588,10 +684,10 @@ const rawClaims: RawClaim[] = [
     id: "hommes-decrochage-garcons-monde",
     side: "hommes",
     domain: "Éducation",
-    title: "Garçons massivement hors de l'école ou en redoublement",
-    metric: "140 M",
+    title: "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
+    metric: "140 M vs 133 M",
     summary:
-      "L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles. Elle souligne aussi que les garçons sont plus souvent à risque de redoublement, de non-progression et de non-achèvement dans de nombreux contextes.",
+      "L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles, et souligne que le désengagement scolaire masculin reste insuffisamment pris en compte dans certaines politiques. En France, l'édition 2026 de la DEPP mesure aussi des réussites plus faibles pour les garçons au brevet, au baccalauréat et à la sortie avec un master ou plus.",
     tags: ["éducation", "jeunesse", "monde", "décrochage"],
     source: {
       label: "Boys' disengagement from education",
@@ -613,11 +709,23 @@ const rawClaims: RawClaim[] = [
         url: "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education",
         date: "2022",
       },
+      {
+        label: "Lifting barriers: boys' disengagement from education - Volume 1",
+        publisher: "UNESCO",
+        url: "https://www.unesco.org/en/articles/lifting-barriers-boys-disengagement-education-volume-1-scoping-study",
+        date: "16 juin 2026",
+      },
+      {
+        label: "Filles et garçons sur le chemin de l'égalité, édition 2026",
+        publisher: "Ministère de l'Éducation nationale / DEPP",
+        url: "https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2026-469418",
+        date: "2026",
+      },
     ],
     confidence: "forte",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Le décrochage des garçons varie selon la pauvreté, le territoire, les conflits et les attentes sociales. Il ne contredit pas les obstacles spécifiques rencontrés par les filles ailleurs, notamment au primaire dans certains pays ou au secondaire dans des contextes de mariage précoce, pauvreté et insécurité.",
+      "Le décrochage varie selon la pauvreté, le territoire, les conflits, l'âge et le niveau observé. En France, les filles obtiennent plus souvent le brevet (89 % contre 83 %), le baccalauréat dans une génération (85 % contre 75 %) et un master ou plus (29 % contre 22 %), tandis que les garçons conservent certains avantages en mathématiques et que les diplômés hommes d'un master occupent plus souvent un CDI dans la mesure publiée.",
   },
   {
     id: "hommes-sans-abrisme",
@@ -638,6 +746,38 @@ const rawClaims: RawClaim[] = [
     lastChecked: "15 juin 2026",
     nuance:
       "Les formes de sans-abrisme sont parfois moins visibles chez les femmes. La comparaison dépend fortement des définitions nationales.",
+  },
+  {
+    id: "hommes-violences-physiques-hors-famille-france-2025",
+    side: "hommes",
+    domain: "Violences",
+    title: "Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille",
+    metric: "68 % H / 73 % F",
+    summary:
+      "En 2025, les hommes représentent 68 % des victimes enregistrées de violences physiques commises hors du cadre familial. Dans le cadre familial, les femmes représentent au contraire 73 % des victimes; elles constituent aussi 85 % des victimes enregistrées de violences sexuelles, quel que soit le contexte.",
+    tags: ["hommes", "femmes", "violences physiques", "famille", "France", "comparaison"],
+    source: {
+      label: "Victimes de violences physiques et sexuelles enregistrées en 2025",
+      publisher: "Ministère de l'Intérieur / SSMSI",
+      url: "https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs",
+      date: "27 février 2026",
+    },
+    translations: {
+      en: {
+        title: "Recorded violence: men are the majority outside families, women within families",
+        summary:
+          "In 2025, men accounted for 68% of recorded victims of physical violence outside the family setting. Within families, women instead accounted for 73% of victims; they also represented 85% of recorded sexual-violence victims across settings.",
+        nuance:
+          "These are victims recorded by the French police and gendarmerie, not an estimate of all victimisation. Reporting, recording and offence classification affect the counts. The result nevertheless shows why a single statement about who is most often a victim of violence is misleading without specifying the type and context.",
+        sourcePopulation:
+          "Population measured by the source: victims of physical and sexual offences recorded as crimes or offences by French police and gendarmerie in 2025. The source uses women/men categories and does not measure chromosomes.",
+        tags: ["men", "women", "physical violence", "family", "France", "comparison"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
+    nuance:
+      "Il s'agit de victimes enregistrées par la police et la gendarmerie, pas d'une estimation de toute la victimation. Le dépôt de plainte, l'enregistrement et la qualification des faits influencent les volumes. Le résultat montre néanmoins pourquoi une affirmation générale sur le sexe le plus souvent victime de violences est trompeuse sans préciser le type et le contexte.",
   },
   {
     id: "hommes-violence-partenaire-etats-unis",
@@ -686,8 +826,8 @@ const rawClaims: RawClaim[] = [
     title: "Hommes victimes orientés vers des aides moins spécialisées",
     metric: "4,4 % aidés",
     summary:
-      "En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais seulement 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou hébergement sûr disponibles pour hommes en septembre 2025, dont 130 dédiées aux hommes. Au Canada, le refuge privé MASH d'Earl Silverman à Calgary a fermé en 2013 faute de financement public ou fédéral/provincial.",
-    tags: ["violences conjugales", "aide aux victimes", "France", "Royaume-Uni", "Canada"],
+      "En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou d'hébergement sûr ouvertes aux hommes en septembre 2025, dont 130 réservées aux hommes.",
+    tags: ["violences conjugales", "aide aux victimes", "France", "Royaume-Uni"],
     source: {
       label: "Ouverture du numéro 3919 aux hommes victimes de violences conjugales",
       publisher: "Assemblée nationale / Réponse ministérielle",
@@ -713,35 +853,11 @@ const rawClaims: RawClaim[] = [
         url: "https://mankind.org.uk/statistics/statistics-on-male-victims-of-domestic-abuse/",
         date: "2025",
       },
-      {
-        label: "Shelter for male victims of domestic abuse forced to close its doors",
-        publisher: "CityNews Calgary",
-        url: "https://calgary.citynews.ca/2013/03/21/shelter-for-male-victims-of-domestic-abuse-forced-to-close-its-doors/",
-        date: "2013",
-      },
-      {
-        label: "Domestic Violence (Police Response)",
-        publisher: "Hansard / UK Parliament",
-        url: "https://hansard.parliament.uk/commons/2014-04-10/debates/14041077000001/DomesticViolence%28PoliceResponse%29",
-        date: "2014",
-      },
-      {
-        label: "Erin Pizzey Excerpts - Domestic Violence Is Not A Gender Issue",
-        publisher: "Sandra Orozco-Stapleton Foundation",
-        url: "https://www.sossandra.org/erin-pizzey-excerpts",
-        date: "2006",
-      },
-      {
-        label: "The Respondent Episode 34: Erin Pizzey",
-        publisher: "The Respondent",
-        url: "https://www.therespondent.com/blogs/episodes/erin-pizzey",
-        date: "consulté 2026",
-      },
     ],
     confidence: "moyenne",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Le Royaume-Uni recense des places pour hommes et des lignes spécialisées existent. L'asymétrie documentée porte sur la rareté, la faible visibilité, le financement limité et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.",
+      "Des lignes et places spécialisées pour hommes existent. La comparaison britannique provient toutefois d'une association et rapproche une enquête nationale de victimation d'un ensemble de services locaux: elle signale un écart d'accès documenté, sans constituer une mesure exhaustive de tous les dispositifs britanniques ni français.",
   },
   {
     id: "hommes-agressions-sexuelles-minimisees",
@@ -790,51 +906,17 @@ const rawClaims: RawClaim[] = [
         url: "https://journals.sagepub.com/doi/10.1177/10778012241263104",
         date: "2024",
       },
-    ],
-    confidence: "moyenne",
-    lastChecked: "16 juin 2026",
-    nuance:
-      "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. Les sources portent sur une asymétrie de perception et de minimisation; elles ne mesurent ni toutes les situations de victimes masculines, ni la fréquence des agressions commises par des femmes.",
-  },
-  {
-    id: "hommes-violences-sexuelles-sous-declaration",
-    side: "hommes",
-    domain: "Violences",
-    title: "Hommes victimes de violences sexuelles très peu déclarées",
-    metric: "16 %",
-    summary:
-      "Une étude américaine de 2024 utilisant les données NCVS 1992-2020 indique que seuls 16 % des hommes victimes de violences sexuelles ont signalé les faits aux forces de l'ordre. Au Canada, Justice Canada rapporte que 70 % des survivants masculins d'abus ou agressions sexuelles à l'âge adulte n'avaient pas signalé les faits, contre 59 % dans l'échantillon féminin. En Angleterre et au pays de Galles, Rape Crisis indique que 7 hommes violés sur 8 ne signalent pas les faits à la police, contre 5 femmes sur 6.",
-    tags: ["violences sexuelles", "plainte", "sous-déclaration", "hommes"],
-    source: {
-      label: "Male Victims of Sexual Violence and Factors Associated With Reporting to Law Enforcement in the United States",
-      publisher: "The Journal of Men's Studies / SAGE",
-      url: "https://journals.sagepub.com/doi/abs/10.1177/10608265241249937",
-      date: "2024",
-    },
-    additionalSources: [
       {
-        label: "JustFacts - Sexual Assault",
-        publisher: "Justice Canada",
-        url: "https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html",
-        date: "2019",
-      },
-      {
-        label: "Rape, sexual assault and child sexual abuse statistics",
-        publisher: "Rape Crisis England & Wales",
-        url: "https://rapecrisis.org.uk/get-informed/statistics-sexual-violence/",
-        date: "2025",
-      },
-      {
-        label: "Understanding Male Socialization, Stigma, and Reactions to Sexual Violence",
-        publisher: "National Sexual Violence Resource Center",
-        url: "https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/",
-        date: "consulté 2026",
+        label: "Violences sexuelles à l'encontre des hommes et des garçons",
+        publisher: "Assemblée parlementaire du Conseil de l'Europe",
+        url: "https://pace.coe.int/fr/files/34546/html",
+        date: "14 septembre 2025",
       },
     ],
     confidence: "moyenne",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "Les chiffres ne sont pas directement comparables à la fiche française sur les femmes: pays, périodes, définitions et enquêtes diffèrent. Ils montrent toutefois que la sous-déclaration masculine est massive et peut être plus forte, notamment à cause de la honte, des normes de virilité, du doute d'être cru et de la difficulté à nommer les faits comme violence sexuelle.",
+      "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle aux États-Unis en 2017, pas l'acceptation d'un cas particulier. Le Conseil de l'Europe documente en 2025 la persistance de stéréotypes d'invulnérabilité masculine et de difficultés de reconnaissance. Ces sources ne mesurent ni toutes les victimes masculines ni la fréquence globale des auteures femmes.",
   },
   {
     id: "hommes-viol-force-penetration-2018",
@@ -893,6 +975,38 @@ const rawClaims: RawClaim[] = [
     lastChecked: "25 juin 2026",
     nuance:
       "Suivi ajouté le 25 juin 2026: cette fiche documente une qualification juridique, pas la fréquence de ces situations. Avant 2018, ces faits pouvaient relever d'autres infractions sexuelles selon les circonstances, mais la définition du viol était plus étroite. Le viol conjugal relève d'une chronologie juridique distincte et ne doit pas être confondu avec l'extension de 2018.",
+  },
+  {
+    id: "hommes-reconnaissance-viol-lois-europe",
+    side: "hommes",
+    domain: "Justice",
+    title: "Certaines lois européennes ne reconnaissent pas pleinement les hommes comme victimes de viol",
+    metric: "4 pays cités",
+    summary:
+      "Le rapport 2025 de l'Assemblée parlementaire du Conseil de l'Europe cite l'Albanie, l'Arménie, la Bulgarie et la République slovaque parmi les pays dont la définition du viol exclut certaines victimes masculines. Dans d'autres systèmes, comme en Irlande ou au Royaume-Uni, un homme peut être reconnu victime mais la définition principale du viol désigne uniquement un auteur masculin.",
+    tags: ["viol", "violences sexuelles", "droit pénal", "hommes", "Europe"],
+    source: {
+      label: "Violences sexuelles à l'encontre des hommes et des garçons",
+      publisher: "Assemblée parlementaire du Conseil de l'Europe",
+      url: "https://pace.coe.int/fr/files/34546/html",
+      date: "14 septembre 2025",
+    },
+    translations: {
+      en: {
+        title: "Some European laws do not fully recognise men as rape victims",
+        summary:
+          "A 2025 Parliamentary Assembly of the Council of Europe report cites Albania, Armenia, Bulgaria and the Slovak Republic among countries whose rape definitions exclude some male victims. In other systems, including Ireland and the United Kingdom, a man may be recognised as a victim while the principal rape offence defines only a male perpetrator.",
+        nuance:
+          "This is a dated legal comparison, not a prevalence estimate. Acts excluded from the legal label of rape may be prosecuted under another sexual offence, but different labels and penalties can still create unequal recognition. National laws can change, so each country must be checked again before future publication updates.",
+        sourcePopulation:
+          "Material measured by the source: criminal-law definitions and victim-recognition rules reviewed by the Council of Europe in 2025. The source does not measure chromosomes.",
+        tags: ["rape", "sexual violence", "criminal law", "men", "Europe"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
+    nuance:
+      "Il s'agit d'une comparaison juridique datée, pas d'une estimation de prévalence. Des actes exclus de la qualification de viol peuvent relever d'une autre infraction sexuelle, mais la différence de qualification et de peine peut produire une reconnaissance inégale. Les lois nationales pouvant évoluer, chaque pays devra être revérifié lors des prochaines mises à jour.",
   },
   {
     id: "hommes-mis-en-cause-violences-conjugales-france",
@@ -957,6 +1071,47 @@ const rawClaims: RawClaim[] = [
     lastChecked: "16 juin 2026",
     nuance:
       "La donnée principale vient d'une enquête de victimation et repose sur les déclarations des victimes ayant renseigné le sexe de l'agresseur. Elle porte sur les viols, tentatives de viol et agressions sexuelles déclarés par des femmes majeures; elle ne mesure pas tous les faits réellement commis ni les chromosomes des auteurs.",
+  },
+  {
+    id: "hommes-part-auteurs-violences-sexuelles-perception",
+    side: "hommes",
+    angle: "perception",
+    domain: "Violences",
+    title: "Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs",
+    metric: "99 % ≠ 99 %",
+    summary:
+      "Dans l'enquête VRS 2024, 99 % des femmes victimes ayant renseigné le sexe du ou des agresseurs déclarent uniquement des hommes. Ce pourcentage décrit le sexe des auteurs déclarés dans ce sous-ensemble de victimations; il ne mesure pas la part de l'ensemble des hommes qui commettent un viol ou une agression sexuelle.",
+    tags: ["hommes", "violences sexuelles", "statistiques", "récit", "perception", "France"],
+    source: {
+      label: "Les violences sexistes et sexuelles en France en 2024",
+      publisher: "Arrêtons les violences / SSMSI",
+      url: "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
+      date: "novembre 2025",
+    },
+    additionalSources: [
+      {
+        label: "Références Statistiques Justice 2025 - Les violences sexuelles",
+        publisher: "Ministère de la Justice / SSER",
+        url: "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf",
+        date: "données 2024, publication 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "A male majority among perpetrators does not mean that most men are perpetrators",
+        summary:
+          "In the 2024 VRS survey, 99% of women victims who reported the sex of the perpetrator or perpetrators named men only. This percentage describes the sex of reported perpetrators within that subset of victimisation reports; it does not measure the share of all men who commit rape or sexual assault.",
+        nuance:
+          "These are two different conditional probabilities: the share of men among perpetrators reported by women victims is not the share of perpetrators among all men. The survey does not count unique perpetrators and cannot show whether the same person committed several acts. Under-reporting and false reports create different uncertainties, but neither permits converting 99% into a prevalence rate for all men. Isora therefore does not publish the claimed 0.02% figure without a defined period, population, offence and validated numerator.",
+        sourcePopulation:
+          "Population measured by the main source: adult women reporting rape, attempted rape or sexual assault in the VRS survey who also reported the sex of the perpetrator or perpetrators. The source does not measure all men or chromosomes.",
+        tags: ["men", "sexual violence", "statistics", "narrative", "perception", "France"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
+    nuance:
+      "Il s'agit de deux probabilités conditionnelles différentes: la part des hommes parmi les auteurs déclarés par des femmes victimes n'est pas la part des auteurs parmi tous les hommes. L'enquête ne dénombre pas des auteurs uniques et ne permet pas de savoir si une même personne a commis plusieurs faits. La sous-déclaration et les fausses déclarations créent des incertitudes différentes, mais aucune ne permet de convertir 99 % en taux de prévalence pour l'ensemble des hommes. Isora ne publie donc pas le chiffre de 0,02 % sans période, population, infraction et numérateur validés.",
   },
   {
     id: "hommes-sexisme-hostile-hce-2025",
@@ -1347,10 +1502,10 @@ const rawClaims: RawClaim[] = [
     side: "hommes",
     angle: "perception",
     domain: "Justice",
-    title: "Violences sexuelles : le 'laxisme judiciaire' n'est pas imputable aux hommes",
+    title: "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
     metric: "70 % / 63 %",
     summary:
-      "En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres contredisent l'idée qu'un éventuel 'laxisme judiciaire' en matière de violences sexuelles serait mécaniquement décidé par un corps judiciaire masculin.",
+      "En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres réfutent l'affirmation selon laquelle la justice française serait composée uniquement ou majoritairement d'hommes.",
     tags: ["justice", "violences sexuelles", "magistrats", "greffiers", "France"],
     source: {
       label: "Références Statistiques Justice 2025 - Les moyens et personnels de la justice",
@@ -1380,9 +1535,9 @@ const rawClaims: RawClaim[] = [
     ],
     translations: {
       en: {
-        title: "Sexual violence: alleged judicial leniency cannot be attributed to men",
+        title: "Sexual violence: the French justice system is not an exclusively male body",
         summary:
-          "In 2024, women represented 70% of professional judges and 63% of prosecutors; court and prosecution office staff were 81% female. Clerks and court registry directors were 88% female on 1 January 2018. These figures contradict the idea that alleged judicial leniency in sexual violence cases is mechanically decided by a male judiciary.",
+          "In 2024, women represented 70% of professional judges and 63% of prosecutors; court and prosecution office staff were 81% female. Clerks and court registry directors were 88% female on 1 January 2018. These figures refute the claim that the French justice system is composed only or mainly of men.",
         nuance:
           "The data does not prove the opposite claim, that women are responsible for leniency. Registry staff do not decide guilt or sentencing, and sexual-violence cases move through police investigation, prosecution, instruction, evidentiary constraints, legal qualification, hearings and possible appeals. The point is narrower: blaming 'men in justice' as a group is not supported by the workforce composition data.",
         sourcePopulation:
@@ -1391,7 +1546,7 @@ const rawClaims: RawClaim[] = [
       },
     },
     confidence: "forte",
-    lastChecked: "21 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
       "La donnée ne prouve pas l'argument inverse, selon lequel les femmes seraient responsables du laxisme. Les greffiers ne décident ni de la culpabilité ni de la peine, et les affaires de violences sexuelles passent par l'enquête, le parquet, parfois l'instruction, les contraintes de preuve, la qualification juridique, l'audience et les voies de recours. Le point est plus limité: attribuer la réponse judiciaire à des 'hommes de justice' comme groupe n'est pas étayé par la composition sexuée des effectifs.",
   },
@@ -1717,70 +1872,6 @@ const rawClaims: RawClaim[] = [
     lastChecked: "15 juin 2026",
     nuance:
       "Les données enregistrées dépendent du dépôt de plainte et des conditions d'accueil. Les enquêtes de victimation complètent ce tableau.",
-  },
-  {
-    id: "femmes-violences-sexuelles",
-    side: "femmes",
-    domain: "Violences",
-    title: "Femmes victimes de violences sexuelles très peu déclarées",
-    metric: "7 % plainte",
-    summary:
-      "Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.",
-    tags: ["violences", "justice", "santé", "sociétal", "hommes"],
-    source: {
-      label: "Les chiffres de référence sur les violences faites aux femmes",
-      publisher: "Arrêtons les violences / SSMSI",
-      url: "https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes",
-      date: "données 2023, consulté le 25 juin 2026",
-    },
-    additionalSources: [
-      {
-        label: "Les violences sexistes et sexuelles en France en 2024",
-        publisher: "Arrêtons les violences / SSMSI",
-        url: "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
-        date: "novembre 2025",
-      },
-      {
-        label: "Lettre de l'Observatoire national des violences faites aux femmes",
-        publisher: "Miprof / SSMSI",
-        url: "https://arretonslesviolences.gouv.fr/sites/default/files/2024-03/Lettre-Observatoire-national-des-violences-faites-aux-femmes-Miprof-Mars-2024.pdf",
-        date: "mars 2024",
-      },
-      {
-        label: "L'enquête Vécu et ressenti en matière de sécurité (VRS)",
-        publisher: "Ministère de l'Intérieur / SSMSI",
-        url: "https://www.interieur.gouv.fr/Interstats/L-enquete-Vecu-et-ressenti-en-matiere-de-securite-VRS",
-        date: "consulté le 25 juin 2026",
-      },
-      {
-        label: "Male Victims of Sexual Violence and Factors Associated With Reporting to Law Enforcement in the United States",
-        publisher: "The Journal of Men's Studies / SAGE",
-        url: "https://journals.sagepub.com/doi/abs/10.1177/10608265241249937",
-        date: "2024",
-      },
-      {
-        label: "JustFacts - Sexual Assault",
-        publisher: "Justice Canada",
-        url: "https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html",
-        date: "2019",
-      },
-    ],
-    translations: {
-      en: {
-        title: "Sexual violence against women is very rarely reported",
-        summary:
-          "The number of adult women victims of rape, attempted rape or sexual assault in 2023 is estimated at 277,000. Only 7% say they filed a complaint. This under-reporting is not specific to women: several international sources also show massive under-reporting among male victims, sometimes higher depending on the measured scope.",
-        nuance:
-          "Update tracked on 25 June 2026: the main figure is a weighted estimate from the French VRS victimization survey for adult women living in ordinary housing within the survey scope. It is not a judicial count or an exact count of incidents: one victim may have experienced several incidents, and survey scope, weighting and statistical uncertainty matter. It does not measure men's reporting levels: male sexual violence is also very rarely reported, with international sources sometimes indicating even stronger under-reporting.",
-        sourcePopulation:
-          "Population measured by the source: adult women living in ordinary housing in the VRS victimization survey scope. The source does not measure chromosomes.",
-        tags: ["violence", "justice", "health", "social", "men"],
-      },
-    },
-    confidence: "forte",
-    lastChecked: "25 juin 2026",
-    nuance:
-      "Suivi ajouté le 25 juin 2026: la donnée principale est une estimation pondérée issue de l'enquête de victimation VRS, sur les femmes majeures vivant en logement ordinaire dans le champ de l'enquête. Ce n'est ni un décompte judiciaire ni un nombre exact de faits: une même victime peut avoir subi plusieurs faits, et le champ, la pondération et l'incertitude statistique doivent être conservés. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
   },
   {
     id: "femmes-perception-desavantage-hce-2025",
@@ -2154,7 +2245,7 @@ const rawClaims: RawClaim[] = [
     id: "femmes-discrimination-religieuse",
     side: "femmes",
     domain: "Religieux",
-    title: "Candidate voilée discriminée à l'embauche",
+    title: "Étude de cas : candidate voilée discriminée à l'embauche en 2025",
     metric: "cas 2025",
     summary:
       "Le Défenseur des droits a constaté en 2025 une discrimination intersectionnelle directe liée aux convictions religieuses et au sexe dans un refus d'embauche visant une candidate portant le foulard.",
@@ -2167,7 +2258,7 @@ const rawClaims: RawClaim[] = [
       date: "18 avril 2025",
     },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
       "C'est une décision sur un cas précis. Elle sert d'exemple juridique sourcé, pas de mesure statistique générale.",
   },
@@ -2280,13 +2371,13 @@ const rawClaims: RawClaim[] = [
     title: "Femmes exposées aux violences conjugales physiques ou sexuelles",
     metric: "1 sur 3",
     summary:
-      "L'OMS estime qu'environ une femme sur trois dans le monde a subi des violences physiques et/ou sexuelles par un partenaire intime, ou des violences sexuelles par un non-partenaire, au cours de sa vie. Cet indicateur ne mesure pas toutes les violences subies par sexe.",
+      "Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois.",
     tags: ["violences", "santé", "monde", "prévention"],
     source: {
-      label: "Violence against women",
+      label: "Le bilan est lourd : 840 millions de femmes sont victimes de violences conjugales ou sexuelles",
       publisher: "Organisation mondiale de la Santé",
-      url: "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
-      date: "2024",
+      url: "https://www.who.int/fr/news/item/19-11-2025-lifetime-toll--840-million-women-faced-partner-or-sexual-violence",
+      date: "19 novembre 2025",
     },
     additionalSources: [
       {
@@ -2309,21 +2400,9 @@ const rawClaims: RawClaim[] = [
         url: "https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
         date: "2024",
       },
-      {
-        label: "Nearly 3 million people die of work-related accidents and diseases",
-        publisher: "Organisation internationale du Travail",
-        url: "https://www.ilo.org/resource/news/nearly-3-million-people-die-work-related-accidents-and-diseases",
-        date: "2023",
-      },
-      {
-        label: "Suicide worldwide in 2021: global health estimates",
-        publisher: "Organisation mondiale de la Santé",
-        url: "https://www.who.int/publications/i/item/9789240110069",
-        date: "2021",
-      },
     ],
     confidence: "forte",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
       "Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.",
   },
@@ -2436,7 +2515,7 @@ const rawClaims: RawClaim[] = [
     side: "femmes",
     angle: "violence_exercée",
     domain: "Violences",
-    title: "Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
+    title: "Entre 1996 et 2015, femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
     metric: "70 %",
     summary:
       "L'ONDRP indique qu'entre 1996 et 2015, la Justice française a prononcé 325 condamnations pour homicide volontaire sur mineur de moins de 15 ans, dont 227 contre des femmes, soit 70 %. Le rapport interministériel de 2018 nuance le tableau intrafamilial: dans sa synthèse, pères et mères mis en cause sont à égalité dans les 45 dossiers étudiés, mais les néonaticides relèvent d'une situation particulière de mères accouchant seules.",
@@ -2462,7 +2541,7 @@ const rawClaims: RawClaim[] = [
       },
     ],
     confidence: "forte",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
       "Le 70 % porte sur des condamnations pour homicide volontaire sur mineur de moins de 15 ans, pas sur tous les décès violents d'enfants ni sur toutes les mises en cause. Le rapport Justice rappelle que la qualification pénale évolue, que les chiffres de police et de justice ne couvrent pas exactement le même champ, et que les pères sont notamment cités pour les morts de nourrissons victimes du syndrome du bébé secoué.",
   },
@@ -2587,79 +2666,71 @@ const rawClaims: RawClaim[] = [
   },
   {
     id: "hommes-femmes-peurs-consentement-sexuel",
-    side: "femmes",
+    side: "hommes",
     angle: "perception",
-    domain: "Violences",
-    title: "Consentement sexuel : peurs asymétriques en début de relation",
-    metric: "56,1 % / 2-10 %",
+    domain: "Justice",
+    title: "Classement, fausse plainte et culpabilité : trois notions distinctes",
+    metric: "69 % ≠ faux",
     summary:
-      "Les enquêtes sur les violences sexuelles montrent que les femmes victimes connaissent le plus souvent l'auteur: dans le NISVS 2016-2017, 56,1 % des victimes féminines de viol déclarent un agresseur faisant partie de leurs connaissances et 39,3 % un partenaire intime. En parallèle, les faux signalements d'agression sexuelle sont estimés minoritaires, souvent entre 2 % et 10 % des signalements, mais des études documentent une peur masculine d'être faussement accusé et son lien avec les pratiques de consentement explicite.",
+      "En 2024, 69 % des personnes mises en cause pour viol ou agression sexuelle dans les affaires traitées par les parquets se trouvent dans des affaires non poursuivables; dans plus de 80 % de ces situations, l'infraction est jugée insuffisamment caractérisée. Cette décision ne prouve ni que la plainte était mensongère ni que les faits ont eu lieu. Les fausses accusations existent, mais leur fréquence ne peut pas être déduite du taux de classement.",
     tags: [
-      "femmes",
       "hommes",
-      "sexualité",
-      "consentement",
+      "femmes",
+      "justice",
       "violences sexuelles",
       "fausses accusations",
-      "peur sociale",
       "récit",
-      "monde",
+      "présomption d'innocence",
+      "France",
     ],
     source: {
-      label: "The National Intimate Partner and Sexual Violence Survey: 2016/2017 Report on Sexual Violence",
-      publisher: "CDC",
-      url: "https://www.cdc.gov/nisvs/documentation/nisvsReportonSexualViolence.pdf",
-      date: "2022",
+      label: "Références Statistiques Justice 2025 - Les violences sexuelles",
+      publisher: "Ministère de la Justice / SSER",
+      url: "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf",
+      date: "données 2024, publication 2026",
     },
     additionalSources: [
       {
-        label: "Risk perception for acquaintance sexual aggression: a social-cognitive perspective",
-        publisher: "Aggression and Violent Behavior / PubMed",
-        url: "https://pubmed.ncbi.nlm.nih.gov/25705115/",
-        date: "2000",
+        label: "Article 427 du Code de procédure pénale",
+        publisher: "Légifrance",
+        url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037108959",
+        date: "version en vigueur consultée le 11 août 2026",
       },
       {
-        label: "Fear and Consent: An Exploratory Study of Fear of False Accusations of Sexual Assault and Consent-Seeking Practices",
-        publisher: "Journal of School Violence / ERIC",
-        url: "https://eric.ed.gov/?id=EJ1378168",
-        date: "2023",
+        label: "Les règles générales d'un procès pénal",
+        publisher: "Ministère de la Justice / Cour d'appel de Nancy",
+        url: "https://www.cours-appel.justice.fr/nancy/les-regles-generales-dun-proces-penal",
+        date: "2021",
       },
       {
-        label: "Sexual violence statistics",
-        publisher: "National Sexual Violence Resource Center",
-        url: "https://www.nsvrc.org/statistics/",
-        date: "consulté 2026",
+        label: "False allegations of sexual assault: an analysis of ten years of reported cases",
+        publisher: "Violence Against Women / PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/21164210/",
+        date: "2010",
       },
       {
-        label:
-          "Perverting the Course of Justice and Wasting Police Time in Cases involving Allegedly False Allegations of Rape and / or Domestic Abuse",
+        label: "Key facts about how the CPS prosecutes allegations of rape",
         publisher: "Crown Prosecution Service",
-        url: "https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly",
-        date: "consulté 2026",
-      },
-      {
-        label: "Fake sex abuse claims get British woman 8.5 year prison term",
-        publisher: "Associated Press",
-        url: "https://apnews.com/article/uk-fake-sex-abuse-claims-racial-tensions-8207569f6809f03f159e518065fcf26d",
-        date: "2023",
-      },
-      {
-        label: "Misconceptions of sexual crimes against adult victims: Barriers to justice",
-        publisher: "Australian Institute of Criminology",
-        url: "https://www.aic.gov.au/sites/default/files/2020-11/ti611_misconceptions_of_sexual_crimes_against_adult_victims.pdf",
-        date: "2020",
-      },
-      {
-        label: "Rapport d'information sur l'imprescriptibilité des violences commises sur les mineurs",
-        publisher: "Assemblée nationale",
-        url: "https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L17B2685.html",
-        date: "2025",
+        url: "https://www.cps.gov.uk/index.php/publication/key-facts-about-how-CPS-prosecutes-allegations-rape",
+        date: "consulté le 11 août 2026",
       },
     ],
-    confidence: "moyenne",
-    lastChecked: "16 juin 2026",
+    translations: {
+      en: {
+        title: "Case dismissal, false report and guilt are three different notions",
+        summary:
+          "In 2024, 69% of people named in rape or sexual-assault cases processed by French prosecutors were in non-prosecutable cases; in more than 80% of those situations, the offence was considered insufficiently established. This decision proves neither that the report was false nor that the alleged acts occurred. False reports exist, but their frequency cannot be inferred from dismissal rates.",
+        nuance:
+          "In French criminal proceedings, the suspect or defendant remains presumed innocent. Testimony is an admissible form of evidence, as are other forms of evidence, but the judge may rely only on material presented and contested during proceedings. An insufficiently established offence is not a statistical category for a proven lie. Conversely, under-reporting estimates do not show that every report is accurate. A 2010 study coded 8 of 136 reports as false in one institutional setting, while a UK prosecution count used a different denominator and method; neither supplies a general French rate.",
+        sourcePopulation:
+          "Population measured by the main source: people named in rape and sexual-assault cases processed by French prosecutors in 2024. Supplementary studies cover specific US and UK reporting or prosecution contexts. The sources do not measure chromosomes.",
+        tags: ["men", "women", "justice", "sexual violence", "false reports", "presumption of innocence", "France"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
     nuance:
-      "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. L'ancienneté des faits peut compliquer l'établissement judiciaire pour les deux parties: preuves matérielles plus rares, souvenirs et témoins moins accessibles, corroboration plus difficile pour la plaignante et défense plus difficile pour la personne mise en cause. Les sources de procédure insistent sur une évaluation fondée sur les preuves, le contradictoire et la compréhension des délais de révélation, sans remplacer la preuve par l'émotion ou par des stéréotypes.",
+      "En matière pénale française, la personne suspectée ou poursuivie reste présumée innocente. Le témoignage est un mode de preuve possible, comme d'autres éléments, mais le juge ne peut se fonder que sur les preuves apportées et contradictoirement discutées. Une infraction insuffisamment caractérisée n'est pas une catégorie statistique de mensonge démontré. Réciproquement, la sous-déclaration ne prouve pas que chaque plainte est exacte. Une étude de 2010 a codé 8 signalements sur 136 comme faux dans un contexte institutionnel précis; un comptage britannique des poursuites pour fausse allégation utilise encore un autre dénominateur. Aucun de ces résultats ne fournit un taux général français.",
   },
   {
     id: "femmes-mutilations-genitales",
@@ -2700,47 +2771,6 @@ const rawClaims: RawClaim[] = [
     lastChecked: "15 juin 2026",
     nuance:
       "Le chiffre renvoie à des déséquilibres démographiques et sociaux, pas à une caractéristique biologique des filles ou des garçons.",
-  },
-  {
-    id: "femmes-filles-hors-ecole",
-    side: "femmes",
-    angle: "perception",
-    domain: "Éducation",
-    title: "Enfants hors de l'école : estimations mondiales proches selon le sexe",
-    metric: "133 M filles vs 140 M garçons",
-    summary:
-      "Les estimations UNESCO/GEM/UIS indiquent 273 millions d'enfants et jeunes hors de l'école dans le monde, dont 133 millions de filles et 140 millions de garçons.",
-    tags: ["femmes", "hommes", "comparaison", "éducation", "jeunesse", "monde"],
-    source: {
-      label: "Gender equality and education",
-      publisher: "UNESCO",
-      url: "https://www.unesco.org/en/gender-equality/education",
-      date: "consulté 2026",
-    },
-    additionalSources: [
-      {
-        label: "Out-of-school rate",
-        publisher: "UNESCO / GEM Report / UIS",
-        url: "https://www.unesco.org/en/education/view/outofschool",
-        date: "consulté 2026",
-      },
-      {
-        label: "Girls' education",
-        publisher: "UNICEF",
-        url: "https://www.unicef.org/education/girls-education",
-        date: "2024",
-      },
-      {
-        label: "Boys' disengagement from education",
-        publisher: "UNESCO",
-        url: "https://www.unesco.org/en/gender-equality/education/boys",
-        date: "consulté 2026",
-      },
-    ],
-    confidence: "forte",
-    lastChecked: "16 juin 2026",
-    nuance:
-      "Les barrières genrées qui touchent les filles varient selon les pays et les niveaux scolaires. Dans le total mondial récent, les estimations UNESCO/GEM/UIS comptent légèrement plus de garçons hors de l'école et les sources signalent aussi des risques de décrochage spécifiques aux garçons.",
   },
   {
     id: "femmes-afghanistan-education",
@@ -3003,15 +3033,15 @@ const rawClaims: RawClaim[] = [
     side: "femmes",
     domain: "Santé",
     title: "Règles : coût, douleurs et adaptations scolaires ou sportives",
-    metric: "3 800 € / 40 %",
+    metric: "90 % / 40 %",
     summary:
-      "Une estimation du Monde chiffre les protections et antidouleurs à environ 7,50 euros par cycle moyen, soit près de 3 800 euros sur une vie, hors consultations ou linge abîmé. En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.",
+      "En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.",
     tags: ["santé", "règles", "douleur", "éducation", "sport", "coût", "France"],
     source: {
-      label: "Combien les règles coûtent-elles dans la vie d'une femme ?",
-      publisher: "Le Monde - Les Décodeurs",
-      url: "https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html",
-      date: "2019",
+      label: "C'est normal d'avoir mal pendant les règles, vraiment ?",
+      publisher: "Inserm",
+      url: "https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/",
+      date: "2023",
     },
     additionalSources: [
       {
@@ -3021,10 +3051,10 @@ const rawClaims: RawClaim[] = [
         date: "2026",
       },
       {
-        label: "C'est normal d'avoir mal pendant les règles, vraiment ?",
-        publisher: "Inserm",
-        url: "https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/",
-        date: "2023",
+        label: "Combien les règles coûtent-elles dans la vie d'une femme ?",
+        publisher: "Le Monde - Les Décodeurs",
+        url: "https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html",
+        date: "2019",
       },
       {
         label: "Supporting women, girls and people who menstruate to participate in physical activity",
@@ -3046,7 +3076,7 @@ const rawClaims: RawClaim[] = [
       },
     ],
     confidence: "moyenne",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
       "Le coût de 3 800 euros est une estimation basse fondée sur des hypothèses de cycle, de protections et d'antidouleurs; il varie selon les produits, le flux, l'âge des premières et dernières règles, les soins et les protections réutilisables. Toutes les personnes réglées ne ressentent pas les mêmes douleurs et le sport peut réduire certaines douleurs légères à modérées, mais les symptômes forts ne doivent pas être banalisés. Les pistes nutritionnelles, comme les oméga-3 ou une alimentation moins inflammatoire, existent dans la littérature mais ne remplacent pas l'accès à l'information, aux protections, à des aménagements raisonnables et à un avis médical en cas de douleurs importantes.",
   },
@@ -3071,57 +3101,110 @@ const rawClaims: RawClaim[] = [
       "L'endométriose est souvent diagnostiquée tardivement. Le chiffre ne couvre pas toute l'expérience des douleurs et pertes de qualité de vie.",
   },
   {
+    id: "femmes-arret-cardiaque-defibrillation-temoins",
+    side: "femmes",
+    domain: "Santé",
+    title: "Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin",
+    metric: "OR 0,79",
+    summary:
+      "Une méta-analyse de 2025 réunissant 15 cohortes et 499 854 arrêts cardiaques associe le sexe féminin à une probabilité plus faible d'application des électrodes d'un défibrillateur automatisé externe par un témoin: OR 0,79, avec un niveau de certitude modéré.",
+    tags: ["santé", "arrêt cardiaque", "RCP", "défibrillateur", "secours", "femmes"],
+    source: {
+      label: "Association between bystander cardiopulmonary resuscitation initiation and patient's sex",
+      publisher: "Resuscitation Plus / PubMed Central",
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/",
+      date: "2025",
+    },
+    additionalSources: [
+      {
+        label: "Gender Disparities Among Adult Recipients of Bystander Cardiopulmonary Resuscitation in the Public",
+        publisher: "Circulation: Cardiovascular Quality and Outcomes / PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/30354377/",
+        date: "2018",
+      },
+      {
+        label: "Examining the Impact of Layperson Rescuer Gender on the Receipt of Bystander CPR for Women",
+        publisher: "PubMed",
+        url: "https://pubmed.ncbi.nlm.nih.gov/38533649/",
+        date: "2024",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Women are less likely to have defibrillator pads applied by a bystander",
+        summary:
+          "A 2025 meta-analysis of 15 cohorts and 499,854 cardiac arrests associated female sex with lower odds of automated external-defibrillator pad application by a bystander: OR 0.79, with moderate-certainty evidence.",
+        nuance:
+          "Evidence on CPR initiation itself was highly heterogeneous and of very low certainty. A 2018 public-location cohort found CPR for 39% of women and 45% of men, but nearly equal rates in private settings. A 2024 survey measured what respondents believed might explain hesitation, including fear of inappropriate touching or an accusation; it did not count complaints or prove actual rescuers' motives. No credible prevalence of sexual-assault complaints after CPR was identified.",
+        sourcePopulation:
+          "Population measured by the main source: adults experiencing out-of-hospital cardiac arrest in 15 observational cohorts. The sources classify patients as female or male and do not measure chromosomes.",
+        tags: ["health", "cardiac arrest", "CPR", "defibrillator", "emergency care", "women"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
+    nuance:
+      "Les résultats sur le déclenchement de la RCP elle-même sont très hétérogènes et de très faible certitude. Une cohorte de 2018 trouvait 39 % de RCP pour les femmes contre 45 % pour les hommes dans les lieux publics, mais des taux presque identiques en privé. Une enquête de 2024 mesure les raisons que le public imagine, dont la peur d'un contact inapproprié ou d'une accusation; elle ne recense pas des plaintes et ne prouve pas les motivations réelles des sauveteurs. Aucune fréquence crédible de plaintes pour agression sexuelle après RCP n'a été identifiée.",
+  },
+  {
+    id: "femmes-risque-blessure-choc-routier",
+    side: "femmes",
+    domain: "Santé",
+    title: "À choc routier comparable, certains risques de blessure restent plus élevés pour les femmes",
+    metric: "26 % des modèles",
+    summary:
+      "Dans une étude publiée en 2026, la NHTSA observe un risque féminin significativement plus élevé dans 26 % des 150 modèles de blessures analysés, plus souvent pour des blessures modérées. L'agence poursuit le développement de mannequins féminins plus représentatifs.",
+    tags: ["santé", "sécurité routière", "blessures", "véhicules", "États-Unis", "femmes"],
+    source: {
+      label: "NHTSA Study Affirms Need for Female Crash Test Dummy",
+      publisher: "National Highway Traffic Safety Administration",
+      url: "https://www.nhtsa.gov/press-releases/nhtsa-study-affirms-need-female-crash-test-dummy-approved-by-trump-administration",
+      date: "8 janvier 2026",
+    },
+    additionalSources: [
+      {
+        label: "Report to Congress: Progress on THOR-05F, WorldSID-05F and Female Crash Safety Research",
+        publisher: "National Highway Traffic Safety Administration",
+        url: "https://www.nhtsa.gov/document/report-congress-progress-thor-05f-worldsid-05f-and-female-crash-safety-research",
+        date: "2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "In comparable road crashes, some injury risks remain higher for women",
+        summary:
+          "In research published in 2026, NHTSA found a significantly higher female risk in 26% of 150 injury models, more often for moderate injuries. The agency is continuing the development of more representative female crash-test dummies.",
+        nuance:
+          "This result does not mean women suffer more road deaths overall: men remain the majority of road fatalities because exposure and behaviour differ. The comparison examines occupants in more comparable crash configurations. Many serious-injury differences were not statistically significant, and the female-male fatality gap has narrowed sharply in newer vehicles.",
+        sourcePopulation:
+          "Population measured by the source: female and male motor-vehicle occupants included in US crash databases and injury-risk models. The source does not measure chromosomes.",
+        tags: ["health", "road safety", "injury", "vehicles", "United States", "women"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "11 août 2026",
+    nuance:
+      "Ce résultat ne signifie pas que les femmes meurent davantage sur la route au total: les hommes restent majoritaires parmi les décès routiers, notamment en raison de différences d'exposition et de comportements. La comparaison porte sur des occupants placés dans des configurations de choc plus comparables. Beaucoup d'écarts de blessures graves ne sont pas significatifs et l'écart de mortalité femmes-hommes s'est fortement réduit dans les véhicules récents.",
+  },
+  {
     id: "femmes-menopause-soins",
     side: "femmes",
-    angle: "perception",
     domain: "Santé",
-    title: "Soins sexospécifiques insuffisants des deux côtés",
+    title: "Information et accès aux soins liés à la ménopause encore insuffisants",
     metric: "accès inégal",
     summary:
-      "L'OMS souligne que l'information et l'accès aux soins liés à la ménopause restent insuffisants dans beaucoup de pays. Mais ce constat ne prouve pas un désavantage global féminin dans le recours aux soins: en France, l'Insee/Drees indique que les hommes consultent moins souvent médecins généralistes et spécialistes, et l'OCDE rappelle leur surmortalité prématurée.",
-    tags: ["santé", "ménopause", "prévention", "soins", "femmes", "hommes"],
+      "L'OMS souligne que la ménopause peut affecter le bien-être physique, émotionnel, mental et social, tandis que l'information, la formation des soignants et l'accès à des services de qualité restent insuffisants dans de nombreux pays.",
+    tags: ["santé", "ménopause", "prévention", "soins", "femmes"],
     source: {
       label: "Menopause fact sheet",
       publisher: "Organisation mondiale de la Santé",
       url: "https://www.who.int/news-room/fact-sheets/detail/menopause",
       date: "2024",
     },
-    additionalSources: [
-      {
-        label: "Santé et recours aux soins",
-        publisher: "Insee / Drees",
-        url: "https://www.insee.fr/fr/statistiques/6047751?sommaire=6047805",
-        date: "2022",
-      },
-      {
-        label: "Which diseases affect men and women differently - and why this matters",
-        publisher: "OCDE",
-        url: "https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/which-diseases-affect-men-and-women-differently-and-why-this-matters_c7602de9.html",
-        date: "2025",
-      },
-      {
-        label: "Dépistage du cancer de la prostate",
-        publisher: "Institut national du cancer",
-        url: "https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate",
-        date: "consulté 2026",
-      },
-      {
-        label: "Dépistage des cancers du sein",
-        publisher: "Institut national du cancer",
-        url: "https://jefaismondepistage.cancer.fr/cancers-du-sein/",
-        date: "consulté 2026",
-      },
-      {
-        label: "Movember men's health cause",
-        publisher: "Movember",
-        url: "https://us.movember.com/about/cause",
-        date: "consulté 2026",
-      },
-    ],
     confidence: "forte",
-    lastChecked: "16 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "La ménopause reste un angle documenté de sous-information et de formation médicale insuffisante. Sur le recours aux soins en général, les sources françaises indiquent que les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.",
+      "La fiche porte uniquement sur les besoins liés à la ménopause; elle ne compare pas l'ensemble du recours aux soins entre femmes et hommes. L'OMS ne fournit pas ici un taux mondial unique d'accès insuffisant, car les services et les besoins varient fortement selon les pays et les personnes.",
   },
   {
     id: "femmes-soin-non-remunere-emploi",
@@ -3170,7 +3253,7 @@ const rawClaims: RawClaim[] = [
     title: "Femmes privées d'une égalité complète de droits économiques",
     metric: "2/3",
     summary:
-      "Selon Women, Business and the Law 2026, les femmes n'ont encore qu'environ deux tiers des droits économiques des hommes et 4 % vivent dans des économies proches de l'égalité juridique complète.",
+      "Selon Women, Business and the Law 2026, fondé sur des lois et politiques en vigueur jusqu'au 1er octobre 2025 dans 190 économies, les femmes n'ont encore qu'environ deux tiers des droits économiques des hommes et moins de 4 % vivent dans des économies proches de l'égalité juridique complète.",
     tags: ["droits", "économie", "travail", "monde"],
     source: {
       label: "Women, Business and the Law 2026",
@@ -3178,10 +3261,19 @@ const rawClaims: RawClaim[] = [
       url: "https://wbl.worldbank.org/en/publications/flagship-report",
       date: "2026",
     },
+    additionalSources: [
+      {
+        label:
+          "Women's Economic-Opportunity Laws Only Half-Enforced Globally",
+        publisher: "Banque mondiale",
+        url: "https://www.worldbank.org/en/news/press-release/2026/02/24/women-s-economic-opportunity-laws-only-half-enforced-globally",
+        date: "2026",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "7 juillet 2026",
     nuance:
-      "La mesure porte sur les droits formels et leur environnement légal. L'application réelle peut être meilleure ou pire selon les institutions.",
+      "La mesure porte sur des indicateurs juridiques comparés entre 190 économies et sur des lois et politiques en vigueur au 1er octobre 2025. Le rapport distingue les droits formels, les cadres de soutien et les perceptions d'application; il ne mesure pas directement tous les revenus réels ni toutes les pratiques locales de terrain.",
   },
   {
     id: "femmes-representation-politique-monde",
@@ -3297,20 +3389,28 @@ const rawClaims: RawClaim[] = [
     side: "femmes",
     domain: "Numérique",
     title: "Femmes visées par les violences facilitées par la technologie",
-    metric: "16-58 %",
+    metric: "8,5 % / 7 %",
     summary:
-      "Les études compilées par ONU Femmes estiment que 16 % à 58 % des femmes ont subi des violences facilitées par la technologie.",
-    tags: ["numérique", "violences", "harcèlement", "monde"],
+      "L'enquête européenne publiée en 2026 indique que 8,5 % des femmes ont subi du cyberstalking et que 7 % des femmes en emploi ont été victimes de harcèlement sexuel en ligne. Les deux indicateurs mesurent des comportements distincts.",
+    tags: ["numérique", "violences", "harcèlement", "Union européenne"],
     source: {
-      label: "Digital abuse, trolling, stalking and other forms of technology-facilitated violence",
-      publisher: "ONU Femmes",
-      url: "https://www.unwomen.org/en/articles/faqs/digital-abuse-trolling-stalking-and-other-forms-of-technology-facilitated-violence-against-women",
-      date: "2024",
+      label: "EU gender-based violence - a silent epidemic",
+      publisher: "Agence des droits fondamentaux de l'Union européenne / EIGE",
+      url: "https://fra.europa.eu/en/news-and-events/stories/eu-gender-based-violence-silent-epidemic",
+      date: "mars 2026",
     },
+    additionalSources: [
+      {
+        label: "EU gender-based violence survey - Evidence for policy and practice",
+        publisher: "Agence des droits fondamentaux de l'Union européenne",
+        url: "https://fra.europa.eu/en/publication/2026/eu-gender-based-violence-survey-evidence",
+        date: "2026",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "11 août 2026",
     nuance:
-      "La fourchette large reflète des définitions et méthodes différentes. Le phénomène doit être lu avec prudence mais il est suffisamment documenté pour être visible.",
+      "Le cyberstalking et le harcèlement sexuel en ligne ne doivent pas être additionnés: une même personne peut avoir subi les deux. Certaines questions numériques détaillées n'ont été posées que dans huit États membres; le champ exact de chaque indicateur doit rester associé au rapport.",
   },
 ];
 
@@ -3321,6 +3421,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : hommes dans les statistiques françaises de décès. La source ne mesure pas les chromosomes.",
   "hommes-esperance-vie":
     "Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.",
+  "hommes-mal-etre-recours-professionnel":
+    "Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "hommes-pensions-alimentaires":
     "Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.",
   "hommes-residence-alternee":
@@ -3346,29 +3448,35 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-accidents-route-monde":
     "Population mesurée par la source : males / females dans la fiche OMS. La source ne mesure pas les chromosomes.",
   "hommes-conscription":
-    "Population mesurée par la source : men / males selon les règles nationales recensées, à vérifier pays par pays. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : personnes soumises aux règles nationales de conscription dans l'Union européenne, selon les catégories femmes/hommes des textes. Les sources ne mesurent pas les chromosomes.",
+  "hommes-age-retraite-differencie-ocde":
+    "Population mesurée par la source : carrières-types de femmes et d'hommes partant à la retraite en 2024 selon les législations des pays de l'OCDE. La source ne mesure pas les chromosomes.",
   "hommes-population-carcerale-monde":
     "Population mesurée par la source : men / male prisoners dans le brief UNODC. La source ne mesure pas les chromosomes.",
   "hommes-decrochage-garcons-monde":
     "Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.",
   "hommes-sans-abrisme":
     "Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.",
+  "hommes-violences-physiques-hors-famille-france-2025":
+    "Population mesurée par la source : victimes de violences physiques et sexuelles enregistrées comme crimes ou délits par la police et la gendarmerie françaises en 2025. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "hommes-violence-partenaire-etats-unis":
     "Population mesurée par la source : men / male victims dans l'enquête CDC. La source ne mesure pas les chromosomes.",
   "hommes-violence-domestique-royaume-uni":
     "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
   "hommes-violences-conjugales-aides-specialisees":
-    "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux, places d'hébergement sûr au Royaume-Uni, et cas historiques Erin Pizzey/Earl Silverman. Les sources ne mesurent pas les chromosomes.",
+    "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux et places d'hébergement sûr au Royaume-Uni. Les sources ne mesurent pas les chromosomes.",
   "hommes-agressions-sexuelles-minimisees":
     "Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.",
-  "hommes-violences-sexuelles-sous-declaration":
-    "Population mesurée par les sources : hommes victimes de violences sexuelles dans l'enquête NCVS américaine, échantillons masculins et féminins de survivants au Canada, et victimes de viol en Angleterre et au pays de Galles. Les sources ne mesurent pas les chromosomes.",
   "hommes-viol-force-penetration-2018":
     "Population mesurée par les sources : textes du droit pénal français et versions successives de l'article 222-23 du Code pénal. Les sources ne mesurent pas les chromosomes.",
+  "hommes-reconnaissance-viol-lois-europe":
+    "Matériau mesuré par la source : définitions pénales du viol et règles de reconnaissance des victimes examinées par le Conseil de l'Europe en 2025. La source ne mesure pas les chromosomes.",
   "hommes-mis-en-cause-violences-conjugales-france":
     "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
   "hommes-agresseurs-declares-violences-sexuelles-femmes-france":
     "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
+  "hommes-part-auteurs-violences-sexuelles-perception":
+    "Population mesurée par la source principale : femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle dans l'enquête VRS et ayant renseigné le sexe du ou des agresseurs. La source ne mesure pas l'ensemble des hommes ni les chromosomes.",
   "hommes-sexisme-hostile-hce-2025":
     "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
   "hommes-femmes-sexisme-paternaliste-hce-2025":
@@ -3401,8 +3509,6 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : femmes et hommes en emploi dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
   "femmes-violences-conjugales":
     "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
-  "femmes-violences-sexuelles":
-    "Population mesurée par la source : femmes majeures vivant en logement ordinaire dans le champ de l'enquête de victimation VRS. La source ne mesure pas les chromosomes.",
   "femmes-perception-desavantage-hce-2025":
     "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaisons hommes/femmes et par âge dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
   "femmes-violences-sexuelles-transports-hce-2025":
@@ -3454,13 +3560,11 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-femmes-body-count-double-standard":
     "Population mesurée par les sources : participants femmes et hommes à des études sur l'évaluation d'historiques sexuels masculins et féminins, ainsi que corpus de 99 études sur les doubles standards sexuels. Les sources ne mesurent pas les chromosomes.",
   "hommes-femmes-peurs-consentement-sexuel":
-    "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, signalements d'agression sexuelle étudiés dans les estimations de faux signalements, et dossiers anciens évoqués dans les sources judiciaires. Les sources ne mesurent pas les chromosomes.",
+    "Matériau mesuré par les sources : personnes impliquées dans les affaires de viol et d'agression sexuelle traitées par la justice française, règles françaises de preuve et de présomption d'innocence, ainsi que deux études de contexte sur les fausses allégations aux États-Unis et au Royaume-Uni. Ces sources ne permettent pas de calculer un taux général de plaintes mensongères en France et ne mesurent pas les chromosomes.",
   "femmes-mutilations-genitales":
     "Population mesurée par la source : girls and women / filles et femmes ayant subi une MGF. La source ne mesure pas les chromosomes.",
   "femmes-preference-garcons":
     "Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.",
-  "femmes-filles-hors-ecole":
-    "Population mesurée par les sources : filles et garçons hors de l'école selon les estimations UNESCO/GEM/UIS et UNICEF. Les sources ne mesurent pas les chromosomes.",
   "femmes-afghanistan-education":
     "Population mesurée par la source : adolescent girls / adolescentes en Afghanistan. La source ne mesure pas les chromosomes.",
   "femmes-mortalite-maternelle":
@@ -3483,8 +3587,12 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : femmes et filles ou personnes menstruées dans des estimations de coût, de douleurs menstruelles, de protections périodiques et de participation à l'activité physique. Les sources ne mesurent pas les chromosomes.",
   "femmes-endometriose":
     "Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.",
+  "femmes-arret-cardiaque-defibrillation-temoins":
+    "Population mesurée par les sources : femmes et hommes victimes d'un arrêt cardiaque extrahospitalier dans quinze cohortes internationales, et personnes interrogées aux États-Unis sur leurs perceptions des obstacles à la réanimation. Les catégories femmes/hommes proviennent des études; les sources ne mesurent pas les chromosomes.",
+  "femmes-risque-blessure-choc-routier":
+    "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "femmes-menopause-soins":
-    "Population mesurée par les sources : femmes concernées par la ménopause selon l'OMS, femmes et hommes dans les statistiques françaises de recours aux soins, et hommes concernés par les enjeux prostate, testicule et santé mentale. Les sources ne mesurent pas les chromosomes.",
+    "Population mesurée par les sources : femmes concernées par la ménopause et par son information ou sa prise en charge. Les sources ne mesurent pas les chromosomes.",
   "femmes-soin-non-remunere-emploi":
     "Population mesurée par la source : women / men âgés de 15 ans ou plus hors force de travail pour raisons de soin. La source ne mesure pas les chromosomes.",
   "femmes-charge-domestique-soin":
@@ -3514,7 +3622,8 @@ type ClaimMeta = {
 const claimMetadata: Record<string, ClaimMeta> = {
   "hommes-accidents-travail": {
     pays_ou_zone: "France",
-    periode_debut: "2022",
+    periode_debut: "2023",
+    periode_fin: "2023",
     statut_temporel: "persistant",
     intensite_contextuelle: "forte",
     legalType: "santé et sécurité au travail",
@@ -3532,6 +3641,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "persistant",
     intensite_contextuelle: "moyenne",
     legalType: "démographie",
+  },
+  "hommes-mal-etre-recours-professionnel": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2022",
+    periode_fin: "2023",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "santé mentale et recours aux soins",
   },
   "hommes-pensions-alimentaires": {
     pays_ou_zone: "France",
@@ -3597,6 +3715,24 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "éducation",
   },
+  "hommes-conscription": {
+    pays_ou_zone: "Union européenne",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2026",
+    statut_temporel: "variable selon pays",
+    intensite_contextuelle: "forte",
+    legalType: "conscription et obligations militaires",
+  },
+  "hommes-age-retraite-differencie-ocde": {
+    pays_ou_zone: "OCDE",
+    regionScope: "Pays de l'OCDE",
+    periode_debut: "2024",
+    periode_fin: "2024",
+    statut_temporel: "variable selon pays",
+    intensite_contextuelle: "moyenne",
+    legalType: "âge légal de retraite et droits à pension",
+  },
   "hommes-accidents-route-monde": {
     pays_ou_zone: "Monde",
     regionScope: "Monde",
@@ -3623,10 +3759,19 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "extrême",
     legalType: "loi martiale et mobilité",
   },
+  "hommes-violences-physiques-hors-famille-france-2025": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "violences physiques enregistrées hors cadre familial",
+  },
   "hommes-violences-conjugales-aides-specialisees": {
-    pays_ou_zone: "France, Royaume-Uni et Canada",
-    regionScope: "Europe et Amérique du Nord",
-    periode_debut: "1971",
+    pays_ou_zone: "France et Royaume-Uni",
+    regionScope: "Europe",
+    periode_debut: "2024",
     periode_fin: "2025",
     statut_temporel: "persistant",
     intensite_contextuelle: "forte",
@@ -3640,15 +3785,6 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "violences sexuelles et perception sociale",
   },
-  "hommes-violences-sexuelles-sous-declaration": {
-    pays_ou_zone: "États-Unis, Canada et Angleterre/Pays de Galles",
-    regionScope: "Amérique du Nord et Europe",
-    periode_debut: "1992",
-    periode_fin: "2025",
-    statut_temporel: "persistant",
-    intensite_contextuelle: "forte",
-    legalType: "signalement des violences sexuelles",
-  },
   "hommes-viol-force-penetration-2018": {
     pays_ou_zone: "France",
     regionScope: "Europe",
@@ -3657,6 +3793,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "partiellement réformé",
     intensite_contextuelle: "forte",
     legalType: "définition pénale du viol",
+  },
+  "hommes-reconnaissance-viol-lois-europe": {
+    pays_ou_zone: "Europe",
+    regionScope: "Conseil de l'Europe",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "variable selon pays",
+    intensite_contextuelle: "forte",
+    legalType: "définition pénale du viol et reconnaissance des victimes",
   },
   "hommes-mis-en-cause-violences-conjugales-france": {
     pays_ou_zone: "France",
@@ -3674,6 +3819,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "viols, tentatives de viol et agressions sexuelles",
+  },
+  "hommes-part-auteurs-violences-sexuelles-perception": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2023",
+    periode_fin: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "interprétation statistique des violences sexuelles déclarées",
   },
   "hommes-sexisme-hostile-hce-2025": {
     pays_ou_zone: "France",
@@ -3843,14 +3997,6 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "forte",
     legalType: "homicide volontaire sur mineur de moins de 15 ans",
   },
-  "femmes-violences-sexuelles": {
-    pays_ou_zone: "France",
-    regionScope: "Europe",
-    periode_debut: "2023",
-    statut_temporel: "actuel",
-    intensite_contextuelle: "forte",
-    legalType: "enquête de victimation et violences sexuelles",
-  },
   "femmes-perception-desavantage-hce-2025": {
     pays_ou_zone: "France",
     regionScope: "Europe",
@@ -3937,15 +4083,26 @@ const claimMetadata: Record<string, ClaimMeta> = {
     intensite_contextuelle: "extrême",
     legalType: "violences sexuelles liées aux conflits",
   },
-  "femmes-filles-hors-ecole": {
-    pays_ou_zone: "Monde",
-    periode_debut: "2024",
+  "femmes-arret-cardiaque-defibrillation-temoins": {
+    pays_ou_zone: "Plusieurs pays",
+    regionScope: "International",
+    periode_debut: "2018",
+    periode_fin: "2025",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "secours d'urgence, réanimation et défibrillation",
+  },
+  "femmes-risque-blessure-choc-routier": {
+    pays_ou_zone: "États-Unis",
+    regionScope: "Amérique du Nord",
+    periode_debut: "2026",
+    periode_fin: "2026",
     statut_temporel: "actuel",
-    intensite_contextuelle: "moyenne",
-    legalType: "éducation",
+    intensite_contextuelle: "forte",
+    legalType: "sécurité routière et risque de blessure",
   },
   "femmes-menopause-soins": {
-    pays_ou_zone: "Monde, France et OCDE",
+    pays_ou_zone: "Monde",
     regionScope: "Monde",
     periode_debut: "2019",
     periode_fin: "2025",
@@ -3981,13 +4138,31 @@ const claimMetadata: Record<string, ClaimMeta> = {
     legalType: "normes sexuelles et réputation",
   },
   "hommes-femmes-peurs-consentement-sexuel": {
-    pays_ou_zone: "Monde, États-Unis et Royaume-Uni",
-    regionScope: "Monde",
-    periode_debut: "2000",
-    periode_fin: "2025",
+    pays_ou_zone: "France, États-Unis et Royaume-Uni",
+    regionScope: "Europe et Amérique du Nord",
+    periode_debut: "2010",
+    periode_fin: "2024",
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
-    legalType: "consentement, violences sexuelles et fausses accusations",
+    legalType: "preuve pénale, classements et fausses allégations",
+  },
+  "femmes-violences-physiques-sexuelles-monde": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2000",
+    periode_fin: "2023",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "extrême",
+    legalType: "violences conjugales et sexuelles",
+  },
+  "femmes-violence-numerique": {
+    pays_ou_zone: "Union européenne",
+    regionScope: "Europe",
+    periode_debut: "2020",
+    periode_fin: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "cyberharcèlement et violences sexuelles en ligne",
   },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",

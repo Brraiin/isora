@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -392,7 +396,7 @@
             
               <section class="section">
                 <h2>La majorité féminine n&#39;a pas la même intensité selon les professions et les formes d&#39;exercice</h2>
-                <p>La même journée du 2 juillet 2026, la DREES a publié la mise à jour d&#39;autres professions de santé. Elle indique que 68 % des pharmaciens en activité sont des femmes, de même que 53 % des kinésithérapeutes, 51 % des chirurgiens-dentistes et 66 % des pédicures-podologues.</p><p>Ces asymétries ne portent pas seulement sur les effectifs. La DREES précise aussi que les femmes kinésithérapeutes sont plus souvent salariées que les hommes, avec 24 % de salariées contre 13 % chez les hommes. Chez les pharmaciens, 70 % des femmes exercent en salarié, alors que les hommes se répartissent de manière plus équilibrée entre salariat et exercice libéral. La source mesure donc une féminisation des professions, mais pas une uniformité des positions occupées.</p>
+                <p>La même journée du 2 juillet 2026, la DREES a publié la mise à jour d&#39;autres professions de santé. Elle indique que 68 % des pharmaciens en activité sont des femmes, de même que 53 % des kinésithérapeutes, 51 % des chirurgiens-dentistes et 66 % des pédicures-podologues.</p><p>Ces <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétries — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétries</a> ne portent pas seulement sur les effectifs. La DREES précise aussi que les femmes kinésithérapeutes sont plus souvent salariées que les hommes, avec 24 % de salariées contre 13 % chez les hommes. Chez les pharmaciens, 70 % des femmes exercent en salarié, alors que les hommes se répartissent de manière plus équilibrée entre salariat et exercice libéral. La source mesure donc une féminisation des professions, mais pas une uniformité des positions occupées.</p>
               </section>
             
               <section class="section">
@@ -401,7 +405,7 @@
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Les sources mobilisées ici ne décrivent pas exactement la même population. La DREES compte les professionnels en activité au 1er janvier 2026 exerçant au moins une activité en France à partir du RPPS. Un même professionnel peut cumuler plusieurs activités, mais l&#39;effectif présenté est un effectif de personnes en activité. Le Conseil national de l&#39;Ordre des médecins retient pour sa part les médecins en activité régulière inscrits au Tableau, ce qui constitue un champ plus resserré que l&#39;ensemble des médecins en activité décrit par la DREES.</p><p>Eurostat privilégie la notion de médecins praticiens, c&#39;est-à-dire les médecins fournissant directement des soins aux patients, mais certaines séries nationales reposent selon les pays sur des concepts voisins comme les médecins professionnellement actifs ou autorisés à exercer. Les millésimes ne sont donc pas parfaitement alignés entre la France 2026 et l&#39;échelle européenne 2023. Enfin, ces organismes utilisent leurs catégories statistiques de femmes et d&#39;hommes; ils ne mesurent pas les chromosomes.</p>
               </section>
             

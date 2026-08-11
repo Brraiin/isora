@@ -12,6 +12,166 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-part-auteurs-violences-sexuelles-perception",
+    "side": "hommes",
+    "claimTitle": "Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs",
+    "claimMetric": "99 % ≠ 99 %",
+    "blogTitle": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
+    "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:40:00.000Z"
+  },
+  {
+    "claimId": "hommes-reconnaissance-viol-lois-europe",
+    "side": "hommes",
+    "claimTitle": "Certaines lois européennes ne reconnaissent pas pleinement les hommes comme victimes de viol",
+    "claimMetric": "4 pays cités",
+    "blogTitle": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
+    "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:40:00.000Z"
+  },
+  {
+    "claimId": "hommes-femmes-peurs-consentement-sexuel",
+    "side": "hommes",
+    "claimTitle": "Classement, fausse plainte et culpabilité : trois notions distinctes",
+    "claimMetric": "69 % ≠ faux",
+    "blogTitle": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
+    "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:40:00.000Z"
+  },
+  {
+    "claimId": "hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+    "side": "hommes",
+    "claimTitle": "Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles",
+    "claimMetric": "99 %",
+    "blogTitle": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
+    "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:40:00.000Z"
+  },
+  {
+    "claimId": "hommes-attribution-laxisme-justice-violences-sexuelles",
+    "side": "hommes",
+    "claimTitle": "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
+    "claimMetric": "70 % / 63 %",
+    "blogTitle": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
+    "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:40:00.000Z"
+  },
+  {
+    "claimId": "femmes-arret-cardiaque-defibrillation-temoins",
+    "side": "femmes",
+    "claimTitle": "Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin",
+    "claimMetric": "OR 0,79",
+    "blogTitle": "Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée",
+    "blogUrl": "/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:35:00.000Z"
+  },
+  {
+    "claimId": "femmes-violences-conjugales",
+    "side": "femmes",
+    "claimTitle": "Femmes majoritaires parmi les victimes conjugales enregistrées",
+    "claimMetric": "84 %",
+    "blogTitle": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
+    "blogUrl": "/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-mis-en-cause-violences-conjugales-france",
+    "side": "hommes",
+    "claimTitle": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
+    "claimMetric": "85 %",
+    "blogTitle": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
+    "blogUrl": "/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-violences-physiques-hors-famille-france-2025",
+    "side": "hommes",
+    "claimTitle": "Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille",
+    "claimMetric": "68 % H / 73 % F",
+    "blogTitle": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
+    "blogUrl": "/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
+    "date": "2026-08-11",
+    "updatedAt": "2026-08-11T17:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-sexisme-hostile-hce-2025",
+    "side": "hommes",
+    "claimTitle": "Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes",
+    "claimMetric": "23 % vs 12 %",
+    "blogTitle": "Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer",
+    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-08-11T16:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-pensions-alimentaires",
+    "side": "hommes",
+    "claimTitle": "Dans les décisions étudiées en 2012, le père était débiteur dans 97 % des pensions fixées",
+    "claimMetric": "97 %",
+    "blogTitle": "Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer",
+    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-08-11T16:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-residence-alternee",
+    "side": "hommes",
+    "claimTitle": "En 2023, 14 % des enfants de parents séparés vivent à temps égal chez chacun",
+    "claimMetric": "14 %",
+    "blogTitle": "Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer",
+    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-08-11T16:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-mortalite-travail-monde",
+    "side": "hommes",
+    "claimTitle": "Hommes davantage exposés à la mortalité liée au travail",
+    "claimMetric": "51,4 vs 17,2",
+    "blogTitle": "Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer",
+    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-08-11T16:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-bourses-stem-reservees-femmes",
+    "side": "hommes",
+    "claimTitle": "Hommes exclus de certaines bourses STEM réservées aux femmes",
+    "claimMetric": "15 000 €",
+    "blogTitle": "Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer",
+    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-08-11T16:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-vocabulaire-masculinisme-pejoratif",
+    "side": "hommes",
+    "claimTitle": "Masculinisme : définition Isora et usages péjoratifs des sources",
+    "claimMetric": "4 axes",
+    "blogTitle": "Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer",
+    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-08-11T16:30:00.000Z"
+  },
+  {
+    "claimId": "hommes-femmes-sexisme-paternaliste-hce-2025",
+    "side": "hommes",
+    "claimTitle": "Sexisme paternaliste mesuré chez les deux sexes, plus souvent chez les hommes",
+    "claimMetric": "27 % vs 18 %",
+    "blogTitle": "Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer",
+    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-08-11T16:30:00.000Z"
+  },
+  {
     "claimId": "hommes-sans-abrisme",
     "side": "hommes",
     "claimTitle": "Hommes plus souvent sans-abri dans la plupart des pays",
@@ -52,16 +212,6 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-07-15T06:30:00.000Z"
   },
   {
-    "claimId": "hommes-residence-alternee",
-    "side": "hommes",
-    "claimTitle": "Résidence alternée encore rare pour les pères séparés",
-    "claimMetric": "14 %",
-    "blogTitle": "Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins",
-    "blogUrl": "/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/",
-    "date": "2026-07-15",
-    "updatedAt": "2026-07-15T06:30:00.000Z"
-  },
-  {
     "claimId": "hommes-ukraine-restrictions-sortie-2022-2025",
     "side": "hommes",
     "claimTitle": "Hommes ukrainiens d'âge militaire limités à la frontière",
@@ -74,7 +224,7 @@ export const homeBlogUpdates = [
   {
     "claimId": "femmes-menopause-soins",
     "side": "femmes",
-    "claimTitle": "Soins sexospécifiques insuffisants des deux côtés",
+    "claimTitle": "Information et accès aux soins liés à la ménopause encore insuffisants",
     "claimMetric": "accès inégal",
     "blogTitle": "Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France",
     "blogUrl": "/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/",
@@ -122,6 +272,16 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-07-06T06:30:00.000Z"
   },
   {
+    "claimId": "hommes-age-retraite-differencie-ocde",
+    "side": "hommes",
+    "claimTitle": "Âge normal de retraite encore plus élevé pour les hommes dans certains pays",
+    "claimMetric": "64,7 vs 63,9 ans",
+    "blogTitle": "Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté",
+    "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
+    "date": "2026-07-05",
+    "updatedAt": "2026-07-05T07:30:00.000Z"
+  },
+  {
     "claimId": "femmes-charge-domestique-soin",
     "side": "femmes",
     "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
@@ -162,20 +322,10 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-07-01T17:00:00.000Z"
   },
   {
-    "claimId": "femmes-filles-hors-ecole",
-    "side": "femmes",
-    "claimTitle": "Enfants hors de l'école : estimations mondiales proches selon le sexe",
-    "claimMetric": "133 M filles vs 140 M garçons",
-    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
-    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
-    "date": "2026-06-30",
-    "updatedAt": "2026-06-30T07:30:00.000Z"
-  },
-  {
     "claimId": "hommes-decrochage-garcons-monde",
     "side": "hommes",
-    "claimTitle": "Garçons massivement hors de l'école ou en redoublement",
-    "claimMetric": "140 M",
+    "claimTitle": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
+    "claimMetric": "140 M vs 133 M",
     "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
     "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
     "date": "2026-06-30",
@@ -194,7 +344,7 @@ export const homeBlogUpdates = [
   {
     "claimId": "hommes-accidents-travail",
     "side": "hommes",
-    "claimTitle": "Hommes très majoritaires parmi les morts au travail",
+    "claimTitle": "Hommes toujours davantage touchés par les accidents du travail",
     "claimMetric": ">90 %",
     "blogTitle": "Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes",
     "blogUrl": "/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/",
@@ -222,29 +372,9 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-06-28T08:58:00.000Z"
   },
   {
-    "claimId": "hommes-vocabulaire-masculinisme-pejoratif",
-    "side": "hommes",
-    "claimTitle": "Défense des hommes : pas de terme neutre stabilisé",
-    "claimMetric": "mot manquant",
-    "blogTitle": "Masculinisme et féminisme : une asymétrie de vocabulaire dans les dictionnaires",
-    "blogUrl": "/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/",
-    "date": "2026-06-25",
-    "updatedAt": "2026-06-25T21:05:00.000Z"
-  },
-  {
-    "claimId": "hommes-bourses-stem-reservees-femmes",
-    "side": "hommes",
-    "claimTitle": "Hommes exclus de certaines bourses STEM réservées aux femmes",
-    "claimMetric": "15 000 €",
-    "blogTitle": "Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste",
-    "blogUrl": "/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/",
-    "date": "2026-06-25",
-    "updatedAt": "2026-06-25T18:30:00.000Z"
-  },
-  {
     "claimId": "hommes-femme-principale-pourvoyeuse-satisfaction",
     "side": "hommes",
-    "claimTitle": "Quand la femme assure seule le revenu, la baisse de satisfaction est plus marquée chez les hommes",
+    "claimTitle": "Dans neuf pays, satisfaction déclarée plus basse quand la femme assure seule le revenu",
     "claimMetric": "pénalité de bien-être",
     "blogTitle": "Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée",
     "blogUrl": "/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/",

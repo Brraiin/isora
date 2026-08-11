@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-07-05T00:00:00+02:00",
+  "generatedAt": "2026-08-11T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -12,10 +12,10 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 92,
-    "hommes": 39,
-    "femmes": 53,
-    "sources": 198
+    "total": 96,
+    "hommes": 44,
+    "femmes": 52,
+    "sources": 196
   },
   "domains": [
     "Travail",
@@ -35,10 +35,14 @@
     "actuel",
     "Afghanistan",
     "aide aux victimes",
+    "antiféminisme",
+    "antimasculinisme",
     "Arabie saoudite",
+    "arrêt cardiaque",
     "autonomie",
     "autonomie corporelle",
     "autonomie économique",
+    "blessures",
     "body count",
     "bourses",
     "Canada",
@@ -56,6 +60,7 @@
     "cybersexisme",
     "décrochage",
     "deepfake",
+    "défibrillateur",
     "détention",
     "devoirs civiques",
     "diagnostic",
@@ -76,6 +81,7 @@
     "famille",
     "fausses accusations",
     "féminicides",
+    "féminilisme",
     "féminisme",
     "femmes",
     "femmes autochtones",
@@ -110,6 +116,7 @@
     "monde",
     "mortalité",
     "numérique",
+    "obligations",
     "OCDE",
     "opinion",
     "orientation",
@@ -121,34 +128,39 @@
     "paternité",
     "peines",
     "perception",
-    "peur sociale",
-    "plainte",
     "politique",
     "pouvoir",
     "précarité",
     "préjudice psychologique",
+    "présomption d'innocence",
     "prévention",
     "prison",
     "prix genrés",
+    "RCP",
     "récit",
+    "recours aux soins",
     "règles",
     "religieux",
     "représentation",
     "représentations",
+    "retraite",
     "revenus",
     "route",
     "Royaume-Uni",
     "santé",
+    "santé mentale",
     "satisfaction",
+    "secours",
     "sécurité",
+    "sécurité routière",
     "séparation",
     "sexisme",
     "sexualité",
     "sociétal",
     "soin",
     "soins",
-    "sous-déclaration",
     "sport",
+    "statistiques",
     "STEM",
     "stéréotypes",
     "suicide",
@@ -160,20 +172,24 @@
     "travail",
     "travail domestique",
     "Ukraine",
+    "Union européenne",
     "variable selon pays",
+    "véhicules",
     "viol",
     "violence domestique",
     "violence exercée par les hommes sur les femmes",
     "violences",
     "violences conjugales",
+    "violences physiques",
     "violences sexuelles",
     "viols",
     "virginité",
+    "virilisme",
     "vocabulaire"
   ],
   "lexicon": {
     "url": "https://isora-xi.vercel.app/lexique/",
-    "notice": "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sert à éviter les confusions entre combat contre une asymétrie, haine d'un sexe, source statistique et interprétation. Attention à ne pas confondre féminisme avec misandrie, ni masculinisme avec misogynie.",
+    "notice": "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sépare quatre axes indépendants, le combat contre une asymétrie, l'opposition de principe à ce combat, l'adhésion à des rôles sexués traditionnels et la haine d'un sexe. Féminisme et masculinisme nomment ici l'objet d'un combat; antiféminisme et antimasculinisme nomment son opposition systématique; virilisme et féminilisme nomment des normes de rôles; misandrie et misogynie nomment des haines ou des mépris.",
     "entries": [
       {
         "slug": "fille-femme",
@@ -200,9 +216,23 @@
         "term": "Féminisme",
         "category": "repere",
         "definition": "Combat contre les asymétries en défaveur des filles et des femmes.",
-        "detail": "Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Cette définition n'implique pas qu'une parole féministe serait automatiquement misandre.",
+        "detail": "Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Il ne décrit à lui seul ni une opinion sur les hommes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être féministe et masculiniste selon les asymétries qu'elle défend.",
+        "forms": {
+          "fr": [
+            "féminisme",
+            "féministe",
+            "féministes"
+          ],
+          "en": [
+            "feminism",
+            "feminist",
+            "feminists"
+          ]
+        },
         "doNotConfuseWith": [
-          "misandrie"
+          "féminilisme",
+          "misandrie",
+          "antimasculinisme"
         ],
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
@@ -212,7 +242,7 @@
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
-            "title": "Défense des hommes : pas de terme neutre stabilisé",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
             "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
@@ -222,9 +252,23 @@
         "term": "Masculinisme",
         "category": "repere",
         "definition": "Combat contre les asymétries en défaveur des garçons et des hommes.",
-        "detail": "Dans isora, ce repère sert à nommer la défense factuelle des vulnérabilités masculines sans haine des femmes. Les dictionnaires et rapports publics francophones donnent souvent au mot un sens péjoratif ou antiféministe; cette fiche signale justement l'écart entre ce besoin lexical et l'usage courant.",
+        "detail": "Dans isora, ce repère sert à nommer la défense factuelle et pacifique des vulnérabilités masculines. Il ne décrit à lui seul ni une opinion sur les femmes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être masculiniste et féministe selon les asymétries qu'elle défend. Lorsqu'un dictionnaire, un média ou un rapport public emploie masculinisme pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, isora conserve le titre exact pour la traçabilité mais ne reprend pas cette qualification à son compte : chaque élément est reclassé séparément selon son contenu observable.",
+        "forms": {
+          "fr": [
+            "masculinisme",
+            "masculiniste",
+            "masculinistes"
+          ],
+          "en": [
+            "masculinism",
+            "masculinist",
+            "masculinists"
+          ]
+        },
         "doNotConfuseWith": [
-          "misogynie"
+          "virilisme",
+          "misogynie",
+          "antiféminisme"
         ],
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
@@ -234,7 +278,155 @@
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
-            "title": "Défense des hommes : pas de terme neutre stabilisé",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
+            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+          }
+        ]
+      },
+      {
+        "slug": "antifeminisme",
+        "term": "Antiféminisme",
+        "category": "opposition",
+        "definition": "Opposition de principe au féminisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des filles et des femmes.",
+        "detail": "Dans isora, le terme vise l'opposition générale à la légitimité du combat féministe, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication féministe précise ne suffit pas à caractériser l'antiféminisme : il faut observer une opposition de principe ou une disqualification systématique. L'antiféminisme n'implique pas automatiquement la misogynie, le virilisme ou le masculinisme.",
+        "forms": {
+          "fr": [
+            "antiféminisme",
+            "antiféministe",
+            "antiféministes"
+          ],
+          "en": [
+            "antifeminism",
+            "anti-feminism",
+            "antifeminist",
+            "anti-feminist",
+            "antifeminists",
+            "anti-feminists"
+          ]
+        },
+        "doNotConfuseWith": [
+          "misogynie",
+          "virilisme",
+          "masculinisme"
+        ],
+        "relatedClaimIds": [
+          "hommes-vocabulaire-masculinisme-pejoratif"
+        ],
+        "url": "https://isora-xi.vercel.app/lexique/#antifeminisme",
+        "categoryLabel": "Opposition à un combat",
+        "relatedClaims": [
+          {
+            "id": "hommes-vocabulaire-masculinisme-pejoratif",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
+            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+          }
+        ]
+      },
+      {
+        "slug": "antimasculinisme",
+        "term": "Antimasculinisme",
+        "category": "opposition",
+        "definition": "Opposition de principe au masculinisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des garçons et des hommes.",
+        "detail": "Dans isora, le terme vise l'opposition générale à la légitimité du combat masculiniste, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication masculiniste précise ne suffit pas à caractériser l'antimasculinisme : il faut observer une opposition de principe ou une disqualification systématique. L'antimasculinisme n'implique pas automatiquement la misandrie, le féminilisme ou le féminisme.",
+        "forms": {
+          "fr": [
+            "antimasculinisme",
+            "antimasculiniste",
+            "antimasculinistes"
+          ],
+          "en": [
+            "antimasculinism",
+            "anti-masculinism",
+            "antimasculinist",
+            "anti-masculinist",
+            "antimasculinists",
+            "anti-masculinists"
+          ]
+        },
+        "doNotConfuseWith": [
+          "misandrie",
+          "féminilisme",
+          "féminisme"
+        ],
+        "relatedClaimIds": [
+          "hommes-vocabulaire-masculinisme-pejoratif"
+        ],
+        "url": "https://isora-xi.vercel.app/lexique/#antimasculinisme",
+        "categoryLabel": "Opposition à un combat",
+        "relatedClaims": [
+          {
+            "id": "hommes-vocabulaire-masculinisme-pejoratif",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
+            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+          }
+        ]
+      },
+      {
+        "slug": "virilisme",
+        "term": "Virilisme",
+        "category": "repere",
+        "definition": "Adhésion à un modèle traditionnel de virilité et aux rôles patriarcaux attendus des hommes.",
+        "detail": "Le virilisme valorise ou prescrit selon le sexe des qualités et obligations comme la force, la dureté, la domination, l'initiative, la prise de risque, la protection matérielle ou le refus de la vulnérabilité. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme virils ne suffit pas : le repère vise leur transformation en norme attendue ou hiérarchiquement supérieure. Une personne de l'un ou l'autre sexe peut porter cette position.",
+        "forms": {
+          "fr": [
+            "virilisme",
+            "viriliste",
+            "virilistes"
+          ],
+          "en": [
+            "virilism",
+            "virilist",
+            "virilists"
+          ]
+        },
+        "doNotConfuseWith": [
+          "masculinisme",
+          "misogynie"
+        ],
+        "relatedClaimIds": [
+          "hommes-vocabulaire-masculinisme-pejoratif"
+        ],
+        "url": "https://isora-xi.vercel.app/lexique/#virilisme",
+        "categoryLabel": "Repère",
+        "relatedClaims": [
+          {
+            "id": "hommes-vocabulaire-masculinisme-pejoratif",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
+            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+          }
+        ]
+      },
+      {
+        "slug": "feminilisme",
+        "term": "Féminilisme",
+        "category": "repere",
+        "definition": "Néologisme éditorial d'isora : adhésion à un modèle traditionnel de féminité et aux rôles patriarcaux attendus des femmes.",
+        "detail": "Le féminilisme valorise ou prescrit selon le sexe des qualités, apparences et rôles comme la douceur, la retenue, le soin, la séduction, la dépendance matérielle ou l'attente de galanterie, de protection et de prise en charge par les hommes. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme féminins ou apprécier un geste galant ne suffit pas : le repère vise leur transformation en norme sexuée. Le concept sociologique de « féminité accentuée » décrit un phénomène voisin de conformité au patriarcat. Une personne de l'un ou l'autre sexe peut porter cette position.",
+        "forms": {
+          "fr": [
+            "féminilisme",
+            "féminiliste",
+            "féminilistes"
+          ],
+          "en": [
+            "feminilism",
+            "feminilist",
+            "feminilists"
+          ]
+        },
+        "doNotConfuseWith": [
+          "féminisme",
+          "misandrie"
+        ],
+        "relatedClaimIds": [
+          "hommes-vocabulaire-masculinisme-pejoratif"
+        ],
+        "url": "https://isora-xi.vercel.app/lexique/#feminilisme",
+        "categoryLabel": "Repère",
+        "relatedClaims": [
+          {
+            "id": "hommes-vocabulaire-masculinisme-pejoratif",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
             "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
@@ -244,9 +436,22 @@
         "term": "Misandrie",
         "category": "haine",
         "definition": "Haine ou mépris des hommes.",
-        "detail": "La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres.",
+        "detail": "La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres. La disqualification générale d'une revendication masculine pacifique à cause du sexe qu'elle défend peut être étudiée comme une disqualification sexiste; la misandrie ne doit toutefois être retenue que si une haine ou un mépris des hommes est observable.",
+        "forms": {
+          "fr": [
+            "misandrie",
+            "misandre",
+            "misandres"
+          ],
+          "en": [
+            "misandry",
+            "misandrist",
+            "misandrists"
+          ]
+        },
         "doNotConfuseWith": [
-          "féminisme"
+          "féminisme",
+          "antimasculinisme"
         ],
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
@@ -256,7 +461,7 @@
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
-            "title": "Défense des hommes : pas de terme neutre stabilisé",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
             "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
@@ -267,8 +472,21 @@
         "category": "haine",
         "definition": "Haine ou mépris des femmes.",
         "detail": "La misogynie décrit une hostilité envers les femmes comme groupe. Elle peut être exprimée par des hommes ou par des femmes. Elle n'est pas synonyme de masculinisme au sens d'une défense factuelle des asymétries défavorables aux hommes.",
+        "forms": {
+          "fr": [
+            "misogynie",
+            "misogyne",
+            "misogynes"
+          ],
+          "en": [
+            "misogyny",
+            "misogynist",
+            "misogynists"
+          ]
+        },
         "doNotConfuseWith": [
-          "masculinisme"
+          "masculinisme",
+          "antiféminisme"
         ],
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
@@ -278,7 +496,7 @@
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
-            "title": "Défense des hommes : pas de terme neutre stabilisé",
+            "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
             "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
@@ -289,6 +507,18 @@
         "category": "haine",
         "definition": "Traitement, jugement, norme ou représentation défavorable fondé sur le sexe.",
         "detail": "Le sexisme peut viser les filles, les femmes, les garçons ou les hommes selon le contexte. isora documente des asymétries précises plutôt que de déduire une intention sexiste sans source.",
+        "forms": {
+          "fr": [
+            "sexisme",
+            "sexiste",
+            "sexistes"
+          ],
+          "en": [
+            "sexism",
+            "sexist",
+            "sexists"
+          ]
+        },
         "url": "https://isora-xi.vercel.app/lexique/#sexisme",
         "categoryLabel": "Haine de sexe",
         "relatedClaims": []
@@ -299,6 +529,16 @@
         "category": "methode",
         "definition": "Différence documentée entre filles/femmes et garçons/hommes.",
         "detail": "Une asymétrie peut porter sur un droit, un risque, une exposition, une sanction, une représentation, une charge sociale ou une conséquence mesurée. Elle ne suffit pas toujours à prouver une discrimination intentionnelle.",
+        "forms": {
+          "fr": [
+            "asymétrie",
+            "asymétries"
+          ],
+          "en": [
+            "asymmetry",
+            "asymmetries"
+          ]
+        },
         "url": "https://isora-xi.vercel.app/lexique/#asymetrie",
         "categoryLabel": "Méthode",
         "relatedClaims": []
@@ -309,6 +549,16 @@
         "category": "methode",
         "definition": "Groupe réellement observé par la source citée.",
         "detail": "Une source peut parler de femmes/hommes, de sexe déclaré, de sexe administratif ou d'une catégorie d'enquête sans mesurer les chromosomes. isora conserve le vocabulaire de la source et précise ce que la donnée permet ou non de conclure.",
+        "forms": {
+          "fr": [
+            "population mesurée",
+            "populations mesurées"
+          ],
+          "en": [
+            "measured population",
+            "measured populations"
+          ]
+        },
         "url": "https://isora-xi.vercel.app/lexique/#population-mesuree",
         "categoryLabel": "Méthode",
         "relatedClaims": []
@@ -319,6 +569,16 @@
         "category": "methode",
         "definition": "Document qui produit directement la donnée, le droit ou l'analyse citée.",
         "detail": "Quand c'est possible, isora privilégie les textes officiels, rapports statistiques, bases institutionnelles, publications scientifiques ou organismes producteurs plutôt qu'un commentaire secondaire.",
+        "forms": {
+          "fr": [
+            "source primaire",
+            "sources primaires"
+          ],
+          "en": [
+            "primary source",
+            "primary sources"
+          ]
+        },
         "url": "https://isora-xi.vercel.app/lexique/#source-primaire",
         "categoryLabel": "Méthode",
         "relatedClaims": []
@@ -329,6 +589,16 @@
         "category": "angle",
         "definition": "Asymétrie où un groupe supporte une charge, un risque ou une perte plus forte.",
         "detail": "Cet angle décrit l'effet mesuré ou documenté sur les personnes concernées. Il ne désigne pas automatiquement un coupable individuel.",
+        "forms": {
+          "fr": [
+            "désavantage subi",
+            "désavantages subis"
+          ],
+          "en": [
+            "suffered disadvantage",
+            "suffered disadvantages"
+          ]
+        },
         "url": "https://isora-xi.vercel.app/lexique/#desavantage-subi",
         "categoryLabel": "Angle d'analyse",
         "relatedClaims": []
@@ -339,6 +609,16 @@
         "category": "angle",
         "definition": "Asymétrie portant sur les auteurs, mis en cause ou comportements violents mesurés.",
         "detail": "Cet angle sert à ne pas mélanger la victimisation, les auteurs déclarés, les mis en cause, les condamnations et les représentations. Chaque source mesure un champ différent.",
+        "forms": {
+          "fr": [
+            "violence exercée",
+            "violences exercées"
+          ],
+          "en": [
+            "violence committed",
+            "violence perpetrated"
+          ]
+        },
         "url": "https://isora-xi.vercel.app/lexique/#violence-exercee",
         "categoryLabel": "Angle d'analyse",
         "relatedClaims": []
@@ -349,6 +629,16 @@
         "category": "angle",
         "definition": "Asymétrie de vocabulaire, perception, norme sociale ou représentation.",
         "detail": "Cet angle couvre ce qui est perçu, dit ou cadré socialement: mots disponibles, stéréotypes, opinions, normes et représentations. Une perception peut signaler une asymétrie réelle ou ressentie, mais elle ne suffit pas toujours à prouver un droit, un accès concret ou un effet mesuré.",
+        "forms": {
+          "fr": [
+            "perception",
+            "perceptions"
+          ],
+          "en": [
+            "perception",
+            "perceptions"
+          ]
+        },
         "url": "https://isora-xi.vercel.app/lexique/#perception",
         "categoryLabel": "Angle d'analyse",
         "relatedClaims": []
@@ -360,13 +650,13 @@
       "id": "hommes-accidents-travail",
       "url": "https://isora-xi.vercel.app/fiches/hommes-accidents-travail/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-accidents-travail",
-      "title": "Hommes très majoritaires parmi les morts au travail",
+      "title": "Hommes toujours davantage touchés par les accidents du travail",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Travail",
       "metric": ">90 %",
-      "summary": "Les accidents du travail mortels concernent à plus de 90 % des hommes dans tous les secteurs étudiés. Les métiers du BTP, du transport, de la manutention et d'autres activités exposées restent fortement masculinisés.",
-      "nuance": "Le constat documente une exposition au risque. Il ne prouve pas à lui seul une règle juridique défavorable aux hommes.",
+      "summary": "La Dares comptabilise 668 510 accidents du travail avec au moins un jour d'arrêt en France en 2023, dont 818 mortels, et indique que les hommes restent plus touchés que les femmes. L'Anact estimait déjà que plus de 90 % des accidents du travail mortels concernaient des hommes dans les secteurs étudiés.",
+      "nuance": "Les écarts reflètent notamment les métiers exercés, les expositions, l'âge et les secteurs d'activité. La Dares précise que la différence entre femmes et hommes s'amenuise avec l'âge. Le seuil de 90 % vient de la publication Anact antérieure, tandis que les volumes 2023 viennent de la Dares.",
       "tags": [
         "travail",
         "sécurité",
@@ -375,19 +665,26 @@
       ],
       "countryScope": "France",
       "regionScope": "",
-      "periodStart": "2022",
-      "periodEnd": null,
+      "periodStart": "2023",
+      "periodEnd": "2023",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
-        "label": "Photographie statistique de la sinistralité au travail en France selon le sexe",
-        "publisher": "ANACT",
-        "url": "https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe",
-        "date": "2022"
+        "label": "Quels salariés sont le plus souvent victimes d'accidents du travail en 2023 ?",
+        "publisher": "Dares",
+        "url": "https://dares.travail-emploi.gouv.fr/publication/quels-salaries-sont-le-plus-souvent-victimes-daccidents-du-travail-en-2023",
+        "date": "22 juillet 2026"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Photographie statistique de la sinistralité au travail en France selon le sexe",
+          "publisher": "ANACT",
+          "url": "https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe",
+          "date": "2022"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -434,7 +731,7 @@
       "domain": "Santé",
       "metric": "-5,6 ans",
       "summary": "En 2025, l'Insee estime l'espérance de vie à la naissance à 80,3 ans pour les hommes contre 85,9 ans pour les femmes en France.",
-      "nuance": "L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques.",
+      "nuance": "L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins.",
       "tags": [
         "santé",
         "mortalité",
@@ -447,12 +744,53 @@
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Espérance de vie à divers âges",
         "publisher": "Insee",
         "url": "https://www.insee.fr/fr/statistiques/2416631",
         "date": "13 janvier 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "Grandes causes de mortalité et principales causes associées en France en 2024",
+          "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+          "url": "https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html",
+          "date": "juillet 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-mal-etre-recours-professionnel",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-mal-etre-recours-professionnel/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-mal-etre-recours-professionnel",
+      "title": "Hommes moins nombreux à parler de leur mal-être à un professionnel",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "25 % vs 32 %",
+      "summary": "Parmi les 2 919 personnes ayant déclaré un mal-être ou des difficultés psychologiques dans l'enquête CoviPrev 2022-2023, 25 % des hommes contre 32 % des femmes disent en avoir parlé à un professionnel de santé ou de santé mentale. L'écart est particulièrement marqué après 65 ans: 18 % contre 34 %.",
+      "nuance": "L'enquête repose sur un échantillonnage par quotas au sein d'un access panel et mesure une parole déclarée, pas un diagnostic ni l'aboutissement d'un parcours de soins. Les jeunes hommes de 18 à 24 ans déclarent avoir parlé à quelqu'un aussi souvent que les jeunes femmes, mais utilisent davantage des canaux alternatifs. Le résultat justifie donc une prévention ciblée, pas l'affirmation qu'aucun homme ne demande d'aide.",
+      "tags": [
+        "santé mentale",
+        "recours aux soins",
+        "prévention",
+        "France"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2022",
+      "periodEnd": "2023",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
+      "source": {
+        "label": "Parler de son mal-être ou de ses difficultés psychologiques : résultats de l'enquête CoviPrev",
+        "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+        "url": "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
+        "date": "24 mars 2026"
       },
       "additionalSources": [],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -461,13 +799,13 @@
       "id": "hommes-pensions-alimentaires",
       "url": "https://isora-xi.vercel.app/fiches/hommes-pensions-alimentaires/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-pensions-alimentaires",
-      "title": "Pères presque toujours débiteurs des pensions alimentaires",
+      "title": "Dans les décisions étudiées en 2012, le père était débiteur dans 97 % des pensions fixées",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Justice",
       "metric": "97 %",
-      "summary": "Dans les décisions étudiées par le ministère de la Justice, quand une contribution à l'entretien et à l'éducation de l'enfant est fixée, le parent débiteur est presque toujours le père.",
-      "nuance": "La donnée est ancienne et reflète aussi la résidence principale des enfants. Elle doit être actualisée avant d'en faire un argument juridique fort.",
+      "summary": "Dans les décisions rendues en 2012 et étudiées par le ministère de la Justice, lorsqu'une contribution à l'entretien et à l'éducation de l'enfant était fixée, le père en était le débiteur dans 97 % des cas.",
+      "nuance": "Cette donnée est historique et reflète notamment le fait que les enfants résidaient plus souvent principalement chez leur mère. Elle ne démontre pas à elle seule un biais judiciaire et ne permet pas d'affirmer que l'homme paie toujours après une séparation.",
       "tags": [
         "justice",
         "famille",
@@ -481,7 +819,7 @@
       "currentStatus": "données insuffisantes",
       "sourcePopulation": "Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.",
       "confidence": "moyenne",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Une pension alimentaire fixée par les juges pour deux tiers des enfants de parents séparés",
         "publisher": "Ministère de la Justice",
@@ -495,12 +833,12 @@
       "id": "hommes-residence-alternee",
       "url": "https://isora-xi.vercel.app/fiches/hommes-residence-alternee/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-residence-alternee",
-      "title": "Résidence alternée encore rare pour les pères séparés",
+      "title": "En 2023, 14 % des enfants de parents séparés vivent à temps égal chez chacun",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Famille",
       "metric": "14 %",
-      "summary": "L'Insee indique qu'en 2023, 14 % des enfants dont les parents sont séparés vivent en résidence alternée. Le reste vit principalement avec un seul parent, le plus souvent la mère selon les publications antérieures.",
+      "summary": "L'Insee indique qu'en 2023, 14 % des enfants dont les parents sont séparés partagent leur temps à égalité entre les deux domiciles. La majorité vit principalement avec un seul parent, le plus souvent la mère.",
       "nuance": "La résidence dépend de l'âge de l'enfant, du logement, des demandes parentales, des revenus et des décisions judiciaires. Le chiffre ne suffit pas à isoler un biais du juge.",
       "tags": [
         "famille",
@@ -515,7 +853,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "En 2023, trois enfants sur dix vivent avec un seul de leurs parents",
         "publisher": "Insee",
@@ -529,7 +867,7 @@
       "id": "hommes-femme-principale-pourvoyeuse-satisfaction",
       "url": "https://isora-xi.vercel.app/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-femme-principale-pourvoyeuse-satisfaction",
-      "title": "Quand la femme assure seule le revenu, la baisse de satisfaction est plus marquée chez les hommes",
+      "title": "Dans neuf pays, satisfaction déclarée plus basse quand la femme assure seule le revenu",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Famille",
@@ -606,7 +944,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : personnes concernées par une procédure française de filiation, de contestation de paternité ou de test de paternité. Les sources juridiques ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Dans quel cadre peut-on effectuer un test de paternité ?",
         "publisher": "Service-Public.fr / DILA",
@@ -968,30 +1306,79 @@
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Droits",
-      "metric": "nombreux pays",
-      "summary": "De nombreux pays imposent encore un service militaire obligatoire visant surtout ou uniquement les hommes, avec des obligations civiques et militaires différenciées selon le sexe.",
-      "nuance": "Les règles varient fortement selon les pays, les exemptions et les situations de guerre. L'asymétrie juridique doit être vérifiée pays par pays.",
+      "metric": "règles variables",
+      "summary": "En mars 2025, le Parlement européen recensait neuf États membres de l'Union européenne appliquant une conscription en temps de paix; la Suède était alors le seul de ces pays à l'appliquer aux deux sexes. Le Danemark a depuis instauré une conscription juridiquement identique pour les femmes et les hommes à partir de 2025-2026.",
+      "nuance": "Les règles évoluent rapidement et diffèrent selon le pays, l'âge, les exemptions, la durée et les situations de guerre. Le chiffre de neuf décrit l'Union européenne en mars 2025; il ne constitue pas un total mondial actuel. Chaque situation nationale doit être datée et vérifiée.",
       "tags": [
         "droits",
         "conscription",
         "devoirs civiques",
         "international"
       ],
-      "countryScope": "France",
-      "regionScope": "",
-      "periodStart": "2026",
-      "periodEnd": null,
-      "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : men / males selon les règles nationales recensées, à vérifier pays par pays. La source ne mesure pas les chromosomes.",
-      "confidence": "moyenne",
-      "lastChecked": "15 juin 2026",
+      "countryScope": "Union européenne",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2026",
+      "currentStatus": "variable selon pays",
+      "sourcePopulation": "Population mesurée par les sources : personnes soumises aux règles nationales de conscription dans l'Union européenne, selon les catégories femmes/hommes des textes. Les sources ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
       "source": {
-        "label": "Countries with mandatory military service",
-        "publisher": "World Population Review",
-        "url": "https://worldpopulationreview.com/country-rankings/countries-with-mandatory-military-service",
-        "date": "2026"
+        "label": "Conscription as an element in European Union preparedness",
+        "publisher": "Service de recherche du Parlement européen",
+        "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2025)769541",
+        "date": "19 mars 2025"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Værnepligt for kvinder - Fuld ligestilling i værnepligten",
+          "publisher": "Défense danoise",
+          "url": "https://karriere.forsvaret.dk/vaernepligt/vaernepligt-for-kvinder/",
+          "date": "consulté le 11 août 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-age-retraite-differencie-ocde",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-age-retraite-differencie-ocde/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-age-retraite-differencie-ocde",
+      "title": "Âge normal de retraite encore plus élevé pour les hommes dans certains pays",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Droits",
+      "metric": "64,7 vs 63,9 ans",
+      "summary": "Pour les personnes parties à la retraite en 2024, l'OCDE calcule un âge normal moyen de 64,7 ans pour les hommes contre 63,9 ans pour les femmes. Neuf pays de l'OCDE conservaient un âge normal inférieur pour les femmes, avec des écarts pouvant atteindre cinq ans.",
+      "nuance": "L'indicateur mesure l'âge normal prévu pour une carrière-type, pas l'âge moyen de sortie effective du marché du travail. Un âge inférieur constitue un avantage juridique de calendrier pour les femmes, mais peut aussi raccourcir leur carrière contributive et réduire leur pension mensuelle. Les deux effets doivent rester visibles.",
+      "tags": [
+        "retraite",
+        "droits",
+        "obligations",
+        "OCDE",
+        "comparaison"
+      ],
+      "countryScope": "OCDE",
+      "regionScope": "Pays de l'OCDE",
+      "periodStart": "2024",
+      "periodEnd": "2024",
+      "currentStatus": "variable selon pays",
+      "sourcePopulation": "Population mesurée par la source : carrières-types de femmes et d'hommes partant à la retraite en 2024 selon les législations des pays de l'OCDE. La source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
+      "source": {
+        "label": "Current retirement ages - Pensions at a Glance 2025",
+        "publisher": "OCDE",
+        "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/current-retirement-ages_0f63b747.html",
+        "date": "2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Gender pension gap - Pensions at a Glance 2025",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html",
+          "date": "2025"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -1032,13 +1419,13 @@
       "id": "hommes-decrochage-garcons-monde",
       "url": "https://isora-xi.vercel.app/fiches/hommes-decrochage-garcons-monde/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-decrochage-garcons-monde",
-      "title": "Garçons massivement hors de l'école ou en redoublement",
+      "title": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Éducation",
-      "metric": "140 M",
-      "summary": "L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles. Elle souligne aussi que les garçons sont plus souvent à risque de redoublement, de non-progression et de non-achèvement dans de nombreux contextes.",
-      "nuance": "Le décrochage des garçons varie selon la pauvreté, le territoire, les conflits et les attentes sociales. Il ne contredit pas les obstacles spécifiques rencontrés par les filles ailleurs, notamment au primaire dans certains pays ou au secondaire dans des contextes de mariage précoce, pauvreté et insécurité.",
+      "metric": "140 M vs 133 M",
+      "summary": "L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles, et souligne que le désengagement scolaire masculin reste insuffisamment pris en compte dans certaines politiques. En France, l'édition 2026 de la DEPP mesure aussi des réussites plus faibles pour les garçons au brevet, au baccalauréat et à la sortie avec un master ou plus.",
+      "nuance": "Le décrochage varie selon la pauvreté, le territoire, les conflits, l'âge et le niveau observé. En France, les filles obtiennent plus souvent le brevet (89 % contre 83 %), le baccalauréat dans une génération (85 % contre 75 %) et un master ou plus (29 % contre 22 %), tandis que les garçons conservent certains avantages en mathématiques et que les diplômés hommes d'un master occupent plus souvent un CDI dans la mesure publiée.",
       "tags": [
         "éducation",
         "jeunesse",
@@ -1052,7 +1439,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Boys' disengagement from education",
         "publisher": "UNESCO",
@@ -1071,6 +1458,18 @@
           "publisher": "UNESCO",
           "url": "https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education",
           "date": "2022"
+        },
+        {
+          "label": "Lifting barriers: boys' disengagement from education - Volume 1",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/articles/lifting-barriers-boys-disengagement-education-volume-1-scoping-study",
+          "date": "16 juin 2026"
+        },
+        {
+          "label": "Filles et garçons sur le chemin de l'égalité, édition 2026",
+          "publisher": "Ministère de l'Éducation nationale / DEPP",
+          "url": "https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2026-469418",
+          "date": "2026"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -1105,6 +1504,42 @@
         "publisher": "Our World in Data",
         "url": "https://ourworldindata.org/homelessness",
         "date": "données actualisées"
+      },
+      "additionalSources": [],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-violences-physiques-hors-famille-france-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-violences-physiques-hors-famille-france-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-violences-physiques-hors-famille-france-2025",
+      "title": "Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Violences",
+      "metric": "68 % H / 73 % F",
+      "summary": "En 2025, les hommes représentent 68 % des victimes enregistrées de violences physiques commises hors du cadre familial. Dans le cadre familial, les femmes représentent au contraire 73 % des victimes; elles constituent aussi 85 % des victimes enregistrées de violences sexuelles, quel que soit le contexte.",
+      "nuance": "Il s'agit de victimes enregistrées par la police et la gendarmerie, pas d'une estimation de toute la victimation. Le dépôt de plainte, l'enregistrement et la qualification des faits influencent les volumes. Le résultat montre néanmoins pourquoi une affirmation générale sur le sexe le plus souvent victime de violences est trompeuse sans préciser le type et le contexte.",
+      "tags": [
+        "hommes",
+        "femmes",
+        "violences physiques",
+        "famille",
+        "France",
+        "comparaison"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2025",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par la source : victimes de violences physiques et sexuelles enregistrées comme crimes ou délits par la police et la gendarmerie françaises en 2025. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
+      "source": {
+        "label": "Victimes de violences physiques et sexuelles enregistrées en 2025",
+        "publisher": "Ministère de l'Intérieur / SSMSI",
+        "url": "https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs",
+        "date": "27 février 2026"
       },
       "additionalSources": [],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -1188,23 +1623,22 @@
       "angle": "désavantage_subi",
       "domain": "Violences",
       "metric": "4,4 % aidés",
-      "summary": "En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais seulement 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou hébergement sûr disponibles pour hommes en septembre 2025, dont 130 dédiées aux hommes. Au Canada, le refuge privé MASH d'Earl Silverman à Calgary a fermé en 2013 faute de financement public ou fédéral/provincial.",
-      "nuance": "Le Royaume-Uni recense des places pour hommes et des lignes spécialisées existent. L'asymétrie documentée porte sur la rareté, la faible visibilité, le financement limité et le décalage entre la part d'hommes victimes et leur accès effectif aux services spécialisés. Les exemples Pizzey et Silverman sont des cas historiques de refuges masculins fragiles, pas une statistique mondiale exhaustive.",
+      "summary": "En France, une réponse ministérielle de 2025 confirme que le 3919 - Violences Femmes Info est dédié aux femmes, tandis que les hommes victimes sont orientés vers des dispositifs généralistes comme le 116 006 ou le 3039. Au Royaume-Uni, ManKind Initiative indique que les hommes représentent 41 % des victimes annuelles de violences domestiques dans les données ONS 2024/25, mais 4,4 % des victimes accompagnées par les services locaux; l'association recense aussi 429 places de refuge ou d'hébergement sûr ouvertes aux hommes en septembre 2025, dont 130 réservées aux hommes.",
+      "nuance": "Des lignes et places spécialisées pour hommes existent. La comparaison britannique provient toutefois d'une association et rapproche une enquête nationale de victimation d'un ensemble de services locaux: elle signale un écart d'accès documenté, sans constituer une mesure exhaustive de tous les dispositifs britanniques ni français.",
       "tags": [
         "violences conjugales",
         "aide aux victimes",
         "France",
-        "Royaume-Uni",
-        "Canada"
+        "Royaume-Uni"
       ],
-      "countryScope": "France, Royaume-Uni et Canada",
-      "regionScope": "Europe et Amérique du Nord",
-      "periodStart": "1971",
+      "countryScope": "France et Royaume-Uni",
+      "regionScope": "Europe",
+      "periodStart": "2024",
       "periodEnd": "2025",
       "currentStatus": "persistant",
-      "sourcePopulation": "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux, places d'hébergement sûr au Royaume-Uni, et cas historiques Erin Pizzey/Earl Silverman. Les sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux et places d'hébergement sûr au Royaume-Uni. Les sources ne mesurent pas les chromosomes.",
       "confidence": "moyenne",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Ouverture du numéro 3919 aux hommes victimes de violences conjugales",
         "publisher": "Assemblée nationale / Réponse ministérielle",
@@ -1229,30 +1663,6 @@
           "publisher": "ManKind Initiative",
           "url": "https://mankind.org.uk/statistics/statistics-on-male-victims-of-domestic-abuse/",
           "date": "2025"
-        },
-        {
-          "label": "Shelter for male victims of domestic abuse forced to close its doors",
-          "publisher": "CityNews Calgary",
-          "url": "https://calgary.citynews.ca/2013/03/21/shelter-for-male-victims-of-domestic-abuse-forced-to-close-its-doors/",
-          "date": "2013"
-        },
-        {
-          "label": "Domestic Violence (Police Response)",
-          "publisher": "Hansard / UK Parliament",
-          "url": "https://hansard.parliament.uk/commons/2014-04-10/debates/14041077000001/DomesticViolence%28PoliceResponse%29",
-          "date": "2014"
-        },
-        {
-          "label": "Erin Pizzey Excerpts - Domestic Violence Is Not A Gender Issue",
-          "publisher": "Sandra Orozco-Stapleton Foundation",
-          "url": "https://www.sossandra.org/erin-pizzey-excerpts",
-          "date": "2006"
-        },
-        {
-          "label": "The Respondent Episode 34: Erin Pizzey",
-          "publisher": "The Respondent",
-          "url": "https://www.therespondent.com/blogs/episodes/erin-pizzey",
-          "date": "consulté 2026"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -1267,7 +1677,7 @@
       "domain": "Violences",
       "metric": "48 % vs 60 %",
       "summary": "Une enquête NSVRC/YouGov de 2017 indique que les hommes américains qualifient moins souvent que les femmes certaines conduites d'agression sexuelle: 48 % des hommes contre 60 % des femmes pour des remarques sexuelles non sollicitées, 67 % contre 79 % pour un rapport obtenu sous pression, et 56 % contre 72 % pour le voyeurisme. Des travaux sur les mythes du viol masculin montrent aussi que les hommes acceptent davantage ces mythes, surtout quand l'auteure est une femme.",
-      "nuance": "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle, pas l'acceptation d'un cas Instagram précis. Les sources portent sur une asymétrie de perception et de minimisation; elles ne mesurent ni toutes les situations de victimes masculines, ni la fréquence des agressions commises par des femmes.",
+      "nuance": "L'enquête NSVRC mesure la reconnaissance de catégories d'agression sexuelle aux États-Unis en 2017, pas l'acceptation d'un cas particulier. Le Conseil de l'Europe documente en 2025 la persistance de stéréotypes d'invulnérabilité masculine et de difficultés de reconnaissance. Ces sources ne mesurent ni toutes les victimes masculines ni la fréquence globale des auteures femmes.",
       "tags": [
         "violences sexuelles",
         "consentement",
@@ -1281,7 +1691,7 @@
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.",
       "confidence": "moyenne",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "New Data Reveals High Awareness Among U.S. Adults on What Constitutes Sexual Assault",
         "publisher": "National Sexual Violence Resource Center / YouGov",
@@ -1318,59 +1728,12 @@
           "publisher": "Violence Against Women / SAGE",
           "url": "https://journals.sagepub.com/doi/10.1177/10778012241263104",
           "date": "2024"
-        }
-      ],
-      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
-    },
-    {
-      "id": "hommes-violences-sexuelles-sous-declaration",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-violences-sexuelles-sous-declaration/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-violences-sexuelles-sous-declaration",
-      "title": "Hommes victimes de violences sexuelles très peu déclarées",
-      "side": "hommes",
-      "angle": "désavantage_subi",
-      "domain": "Violences",
-      "metric": "16 %",
-      "summary": "Une étude américaine de 2024 utilisant les données NCVS 1992-2020 indique que seuls 16 % des hommes victimes de violences sexuelles ont signalé les faits aux forces de l'ordre. Au Canada, Justice Canada rapporte que 70 % des survivants masculins d'abus ou agressions sexuelles à l'âge adulte n'avaient pas signalé les faits, contre 59 % dans l'échantillon féminin. En Angleterre et au pays de Galles, Rape Crisis indique que 7 hommes violés sur 8 ne signalent pas les faits à la police, contre 5 femmes sur 6.",
-      "nuance": "Les chiffres ne sont pas directement comparables à la fiche française sur les femmes: pays, périodes, définitions et enquêtes diffèrent. Ils montrent toutefois que la sous-déclaration masculine est massive et peut être plus forte, notamment à cause de la honte, des normes de virilité, du doute d'être cru et de la difficulté à nommer les faits comme violence sexuelle.",
-      "tags": [
-        "violences sexuelles",
-        "plainte",
-        "sous-déclaration",
-        "hommes"
-      ],
-      "countryScope": "États-Unis, Canada et Angleterre/Pays de Galles",
-      "regionScope": "Amérique du Nord et Europe",
-      "periodStart": "1992",
-      "periodEnd": "2025",
-      "currentStatus": "persistant",
-      "sourcePopulation": "Population mesurée par les sources : hommes victimes de violences sexuelles dans l'enquête NCVS américaine, échantillons masculins et féminins de survivants au Canada, et victimes de viol en Angleterre et au pays de Galles. Les sources ne mesurent pas les chromosomes.",
-      "confidence": "moyenne",
-      "lastChecked": "16 juin 2026",
-      "source": {
-        "label": "Male Victims of Sexual Violence and Factors Associated With Reporting to Law Enforcement in the United States",
-        "publisher": "The Journal of Men's Studies / SAGE",
-        "url": "https://journals.sagepub.com/doi/abs/10.1177/10608265241249937",
-        "date": "2024"
-      },
-      "additionalSources": [
-        {
-          "label": "JustFacts - Sexual Assault",
-          "publisher": "Justice Canada",
-          "url": "https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html",
-          "date": "2019"
         },
         {
-          "label": "Rape, sexual assault and child sexual abuse statistics",
-          "publisher": "Rape Crisis England & Wales",
-          "url": "https://rapecrisis.org.uk/get-informed/statistics-sexual-violence/",
-          "date": "2025"
-        },
-        {
-          "label": "Understanding Male Socialization, Stigma, and Reactions to Sexual Violence",
-          "publisher": "National Sexual Violence Resource Center",
-          "url": "https://www.nsvrc.org/working-male-survivors-sexual-violence/understanding/",
-          "date": "consulté 2026"
+          "label": "Violences sexuelles à l'encontre des hommes et des garçons",
+          "publisher": "Assemblée parlementaire du Conseil de l'Europe",
+          "url": "https://pace.coe.int/fr/files/34546/html",
+          "date": "14 septembre 2025"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -1433,6 +1796,41 @@
           "date": "4 avril 2006"
         }
       ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "hommes-reconnaissance-viol-lois-europe",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-reconnaissance-viol-lois-europe/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-reconnaissance-viol-lois-europe",
+      "title": "Certaines lois européennes ne reconnaissent pas pleinement les hommes comme victimes de viol",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Justice",
+      "metric": "4 pays cités",
+      "summary": "Le rapport 2025 de l'Assemblée parlementaire du Conseil de l'Europe cite l'Albanie, l'Arménie, la Bulgarie et la République slovaque parmi les pays dont la définition du viol exclut certaines victimes masculines. Dans d'autres systèmes, comme en Irlande ou au Royaume-Uni, un homme peut être reconnu victime mais la définition principale du viol désigne uniquement un auteur masculin.",
+      "nuance": "Il s'agit d'une comparaison juridique datée, pas d'une estimation de prévalence. Des actes exclus de la qualification de viol peuvent relever d'une autre infraction sexuelle, mais la différence de qualification et de peine peut produire une reconnaissance inégale. Les lois nationales pouvant évoluer, chaque pays devra être revérifié lors des prochaines mises à jour.",
+      "tags": [
+        "viol",
+        "violences sexuelles",
+        "droit pénal",
+        "hommes",
+        "Europe"
+      ],
+      "countryScope": "Europe",
+      "regionScope": "Conseil de l'Europe",
+      "periodStart": "2025",
+      "periodEnd": "2025",
+      "currentStatus": "variable selon pays",
+      "sourcePopulation": "Matériau mesuré par la source : définitions pénales du viol et règles de reconnaissance des victimes examinées par le Conseil de l'Europe en 2025. La source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
+      "source": {
+        "label": "Violences sexuelles à l'encontre des hommes et des garçons",
+        "publisher": "Assemblée parlementaire du Conseil de l'Europe",
+        "url": "https://pace.coe.int/fr/files/34546/html",
+        "date": "14 septembre 2025"
+      },
+      "additionalSources": [],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -1511,6 +1909,49 @@
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
+      "id": "hommes-part-auteurs-violences-sexuelles-perception",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-part-auteurs-violences-sexuelles-perception/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-part-auteurs-violences-sexuelles-perception",
+      "title": "Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs",
+      "side": "hommes",
+      "angle": "perception",
+      "domain": "Violences",
+      "metric": "99 % ≠ 99 %",
+      "summary": "Dans l'enquête VRS 2024, 99 % des femmes victimes ayant renseigné le sexe du ou des agresseurs déclarent uniquement des hommes. Ce pourcentage décrit le sexe des auteurs déclarés dans ce sous-ensemble de victimations; il ne mesure pas la part de l'ensemble des hommes qui commettent un viol ou une agression sexuelle.",
+      "nuance": "Il s'agit de deux probabilités conditionnelles différentes: la part des hommes parmi les auteurs déclarés par des femmes victimes n'est pas la part des auteurs parmi tous les hommes. L'enquête ne dénombre pas des auteurs uniques et ne permet pas de savoir si une même personne a commis plusieurs faits. La sous-déclaration et les fausses déclarations créent des incertitudes différentes, mais aucune ne permet de convertir 99 % en taux de prévalence pour l'ensemble des hommes. Isora ne publie donc pas le chiffre de 0,02 % sans période, population, infraction et numérateur validés.",
+      "tags": [
+        "hommes",
+        "violences sexuelles",
+        "statistiques",
+        "récit",
+        "perception",
+        "France"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2023",
+      "periodEnd": "2024",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par la source principale : femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle dans l'enquête VRS et ayant renseigné le sexe du ou des agresseurs. La source ne mesure pas l'ensemble des hommes ni les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
+      "source": {
+        "label": "Les violences sexistes et sexuelles en France en 2024",
+        "publisher": "Arrêtons les violences / SSMSI",
+        "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
+        "date": "novembre 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Références Statistiques Justice 2025 - Les violences sexuelles",
+          "publisher": "Ministère de la Justice / SSER",
+          "url": "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf",
+          "date": "données 2024, publication 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
       "id": "hommes-sexisme-hostile-hce-2025",
       "url": "https://isora-xi.vercel.app/fiches/hommes-sexisme-hostile-hce-2025/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-sexisme-hostile-hce-2025",
@@ -1520,7 +1961,7 @@
       "domain": "Droits",
       "metric": "23 % vs 12 %",
       "summary": "Dans le baromètre HCE/Toluna Harris administré du 13 au 21 novembre 2025, l'analyse HCE-LAPSCO estime que 17 % des personnes de 15 ans et plus sont favorables au sexisme hostile. Cette adhésion concerne 23 % des hommes sondés et 12 % des femmes sondées, soit environ six millions d'hommes et trois millions et demi de femmes en France.",
-      "nuance": "Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources.",
+      "nuance": "Dans cette source, le sexisme hostile désigne des attitudes négatives, méprisantes ou agressives envers les femmes. L'indicateur mesure l'accord avec des items d'opinion dans un échantillon représentatif; il ne mesure pas des actes hostiles commis par chaque personne, l'hostilité envers les hommes, les propos anti-hommes de certains acteurs féministes, ni la rhétorique parlementaire. Des femmes adhèrent aussi à ces items, mais le niveau mesuré est plus élevé chez les hommes. Une mesure symétrique de la misandrie ou des discours stigmatisant tous les hommes nécessiterait d'autres items et d'autres sources. Le titre du rapport HCE emploie le mot « masculiniste »; Isora conserve cet intitulé pour la traçabilité, mais classe ici le contenu mesuré comme sexisme hostile et non comme masculinisme au sens éditorial du site.",
       "tags": [
         "sexisme",
         "stéréotypes",
@@ -1535,7 +1976,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "22 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Note complète HCE-CNRS - Annexe Rapport Sexisme",
         "publisher": "Haut Conseil à l'Égalité / LAPSCO-CNRS",
@@ -1544,7 +1985,7 @@
       },
       "additionalSources": [
         {
-          "label": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+          "label": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste — intitulé de la source, non repris par Isora",
           "publisher": "Haut Conseil à l'Égalité",
           "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
           "date": "21 janvier 2026"
@@ -1574,7 +2015,7 @@
       "domain": "Droits",
       "metric": "27 % vs 18 %",
       "summary": "Dans le même baromètre HCE/Toluna Harris de novembre 2025, 23 % des personnes interrogées sont favorables au sexisme paternaliste. Il est mesuré chez 27 % des hommes sondés et 18 % des femmes sondées, soit environ 7,5 millions d'hommes et 5 millions de femmes en France.",
-      "nuance": "Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité.",
+      "nuance": "Cette fiche ne présente pas le sexisme paternaliste comme une caractéristique d'un sexe. Elle décrit une asymétrie de fréquence dans l'enquête: les hommes sont plus nombreux en proportion et en volume estimé, tandis qu'une part mesurable de femmes adhère aussi à ces normes. La source mesure des opinions, pas des comportements individuels ni une causalité. Le titre du rapport HCE emploie le mot « masculiniste »; Isora conserve cet intitulé pour la traçabilité, mais classe cette fiche comme sexisme paternaliste. Le virilisme ou la misogynie doivent être établis séparément à partir du contenu de chaque item.",
       "tags": [
         "sexisme",
         "stéréotypes",
@@ -1589,7 +2030,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "21 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Note complète HCE-CNRS - Annexe Rapport Sexisme",
         "publisher": "Haut Conseil à l'Égalité / LAPSCO-CNRS",
@@ -1598,7 +2039,7 @@
       },
       "additionalSources": [
         {
-          "label": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+          "label": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste — intitulé de la source, non repris par Isora",
           "publisher": "Haut Conseil à l'Égalité",
           "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
           "date": "21 janvier 2026"
@@ -1676,10 +2117,10 @@
       "domain": "Droits",
       "metric": "60 %",
       "summary": "Dans le baromètre cité par le HCE, 60 % des hommes pensent que les féministes veulent que les femmes aient plus de pouvoir que les hommes, et 60 % estiment que les féministes ont des demandes exagérées envers les hommes. Le rapport indique aussi que 39 % des hommes, contre 25 % des femmes, estiment que le féminisme menace la place et le rôle des hommes dans la société.",
-      "nuance": "Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes.",
+      "nuance": "Ces chiffres mesurent l'accord avec des affirmations d'opinion, pas l'appartenance à un mouvement ni une intention individuelle. La comparaison indique aussi qu'une partie des femmes adhère à certaines formulations, avec un niveau mesuré plus élevé chez les hommes. Isora classe ces items comme opinions antiféministes; ils n'établissent ni un masculinisme au sens éditorial du site, ni un virilisme, ni une misogynie, ni un comportement violent.",
       "tags": [
         "féminisme",
-        "masculinisme",
+        "antiféminisme",
         "opinion",
         "France",
         "HCE"
@@ -1691,7 +2132,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "21 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Rapport 2026 sur l'état des lieux du sexisme en France",
         "publisher": "Haut Conseil à l'Égalité",
@@ -1712,17 +2153,21 @@
       "id": "hommes-vocabulaire-masculinisme-pejoratif",
       "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-vocabulaire-masculinisme-pejoratif",
-      "title": "Défense des hommes : pas de terme neutre stabilisé",
+      "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
       "side": "hommes",
       "angle": "perception",
       "domain": "Droits",
-      "metric": "mot manquant",
-      "summary": "Les sources lexicographiques et institutionnelles consultées ne donnent pas au masculinisme un statut symétrique au féminisme. Le féminisme est couramment défini par les droits ou l'égalité des femmes, notamment face aux violences et injustices qui les concernent, ce qui donne au mot un cadrage public plutôt légitimant. Il manque en revanche un terme français aussi stabilisé pour désigner les personnes, hommes ou femmes, qui défendent factuellement les hommes face aux injustices ou asymétries défavorables aux hommes sans rabaisser les femmes. Larousse, Le Robert, l'Académie française, le HCE et le Sénat rattachent surtout le masculinisme à des usages antiféministes, sexistes, réactionnels, virilistes ou misogynes, tandis que l'OQLF propose une définition plus large mais précise que le mot reste péjoratif.",
-      "nuance": "Cette fiche documente des définitions de dictionnaires et de terminologie, les rapports publics 2026 du HCE et du Sénat, ainsi que quelques exemples d'acteurs féministes ou pro-féministes mobilisés sur le congé des pères et le soin. Elle ne mesure pas toute l'histoire des groupes de défense des hommes, des mouvements féministes ni tous les usages de ces mots. Repère terminologique utilisé ici : féminisme = combat contre les asymétries en défaveur des filles et des femmes; masculinisme = combat contre les asymétries en défaveur des garçons et des hommes; misandrie = haine ou mépris des hommes; misogynie = haine ou mépris des femmes. Il faut donc éviter de confondre féminisme avec misandrie, ou masculinisme avec misogynie. Une revendication centrée sur un sexe ne relève pas automatiquement de la haine de l'autre; l'analyse change quand le discours rabaisse, déshumanise ou vise le retrait de droits. Une définition du féminisme centrée sur l'égalité ne prouve pas que tous les espaces féministes traitent symétriquement les désavantages masculins; une définition péjorative du masculinisme ne prouve pas que toute défense des vulnérabilités masculines soit misogyne.",
+      "metric": "4 axes",
+      "summary": "Isora emploie masculinisme pour le combat factuel et pacifique contre les asymétries en défaveur des garçons et des hommes. Lorsqu'une source utilise ce mot pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, le site conserve son intitulé exact pour la traçabilité mais ne reprend pas cette qualification à son compte. L'opposition de principe ou la disqualification systématique de ce combat pacifique relève de l'antimasculinisme. Chaque élément est classé séparément selon son contenu observable.",
+      "nuance": "Mise à jour du 11 août 2026 : Isora sépare quatre axes indépendants. Combat : féminisme pour les asymétries en défaveur des filles et des femmes; masculinisme pour celles en défaveur des garçons et des hommes. Opposition de principe ou disqualification systématique : antiféminisme et antimasculinisme. Normes de rôles traditionnels : virilisme et féminilisme. Hostilité : misandrie et misogynie. Le titre ou la citation d'une source reste exact, mais son vocabulaire ne détermine pas la qualification d'Isora. Chaque qualification exige un contenu observable distinct, et un désaccord avec une statistique, une méthode ou une revendication précise ne suffit pas. Une revendication masculine pacifique ne doit jamais être assimilée à l'antiféminisme, au virilisme, à la misogynie ou à la violence par simple association.",
       "tags": [
         "vocabulaire",
         "masculinisme",
         "féminisme",
+        "antiféminisme",
+        "antimasculinisme",
+        "virilisme",
+        "féminilisme",
         "dictionnaires",
         "représentations"
       ],
@@ -1731,9 +2176,9 @@
       "periodStart": "2020",
       "periodEnd": "2026",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat sur les usages institutionnels de masculinisme, ainsi que prises de position publiques d'organisations féministes ou pro-féministes sur les pères, le congé parental et le soin. Ces sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Matériau examiné par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat, et travaux de sciences sociales sur la virilité, la masculinité hégémonique et la féminité accentuée. Ces sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "5 juillet 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Grand dictionnaire terminologique - masculinisme",
         "publisher": "Office québécois de la langue française / Grand dictionnaire terminologique",
@@ -1760,13 +2205,13 @@
           "date": "publié en juin 2026"
         },
         {
-          "label": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste",
+          "label": "Rapport 2026 sur l'état des lieux du sexisme en France : la menace masculiniste — intitulé de la source, non repris par Isora",
           "publisher": "Haut Conseil à l'Égalité",
           "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste",
           "date": "21 janvier 2026"
         },
         {
-          "label": "Mascus : la nouvelle offensive contre les femmes",
+          "label": "Mascus : la nouvelle offensive contre les femmes — intitulé de la source, non repris par Isora",
           "publisher": "Sénat, Délégation aux droits des femmes",
           "url": "https://www.senat.fr/rap/r25-776-1/r25-776-1_mono.html",
           "date": "23 juin 2026"
@@ -1782,6 +2227,18 @@
           "publisher": "Académie française, 9e édition",
           "url": "https://www.dictionnaire-academie.fr/article/A9F0434",
           "date": "consulté le 25 juin 2026"
+        },
+        {
+          "label": "Virilité défensive, masculinité créatrice",
+          "publisher": "Pascale Molinier / Travail, genre et sociétés",
+          "url": "https://shs.cairn.info/revue-travail-genre-et-societes-2000-1-page-25?lang=fr",
+          "date": "2000"
+        },
+        {
+          "label": "Faut-il repenser le concept de masculinité hégémonique ?",
+          "publisher": "R. W. Connell et James W. Messerschmidt / Terrains & travaux",
+          "url": "https://shs.cairn.info/revue-terrains-et-travaux-2015-2-page-151?lang=fr",
+          "date": "traduction française 2015, article original 2005"
         },
         {
           "label": "Définitions : misogyne",
@@ -1868,12 +2325,12 @@
       "id": "hommes-attribution-laxisme-justice-violences-sexuelles",
       "url": "https://isora-xi.vercel.app/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles",
-      "title": "Violences sexuelles : le 'laxisme judiciaire' n'est pas imputable aux hommes",
+      "title": "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
       "side": "hommes",
       "angle": "perception",
       "domain": "Justice",
       "metric": "70 % / 63 %",
-      "summary": "En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres contredisent l'idée qu'un éventuel 'laxisme judiciaire' en matière de violences sexuelles serait mécaniquement décidé par un corps judiciaire masculin.",
+      "summary": "En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres réfutent l'affirmation selon laquelle la justice française serait composée uniquement ou majoritairement d'hommes.",
       "nuance": "La donnée ne prouve pas l'argument inverse, selon lequel les femmes seraient responsables du laxisme. Les greffiers ne décident ni de la culpabilité ni de la peine, et les affaires de violences sexuelles passent par l'enquête, le parquet, parfois l'instruction, les contraintes de preuve, la qualification juridique, l'audience et les voies de recours. Le point est plus limité: attribuer la réponse judiciaire à des 'hommes de justice' comme groupe n'est pas étayé par la composition sexuée des effectifs.",
       "tags": [
         "justice",
@@ -1889,7 +2346,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "21 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Références Statistiques Justice 2025 - Les moyens et personnels de la justice",
         "publisher": "Ministère de la Justice / SSER",
@@ -2325,72 +2782,6 @@
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
-      "id": "femmes-violences-sexuelles",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles",
-      "title": "Femmes victimes de violences sexuelles très peu déclarées",
-      "side": "femmes",
-      "angle": "désavantage_subi",
-      "domain": "Violences",
-      "metric": "7 % plainte",
-      "summary": "Le nombre de femmes majeures victimes de viols, tentatives de viol ou agressions sexuelles en 2023 est estimé à 277 000. Seules 7 % déclarent avoir porté plainte. Cette sous-déclaration n'est pas propre aux femmes: plusieurs sources internationales montrent aussi une sous-déclaration masculine massive, parfois plus forte selon les champs mesurés.",
-      "nuance": "Suivi ajouté le 25 juin 2026: la donnée principale est une estimation pondérée issue de l'enquête de victimation VRS, sur les femmes majeures vivant en logement ordinaire dans le champ de l'enquête. Ce n'est ni un décompte judiciaire ni un nombre exact de faits: une même victime peut avoir subi plusieurs faits, et le champ, la pondération et l'incertitude statistique doivent être conservés. Elle ne mesure pas le niveau de déclaration des hommes: les violences sexuelles masculines sont elles aussi très peu signalées, avec des sources internationales indiquant parfois une sous-déclaration encore plus forte.",
-      "tags": [
-        "violences",
-        "justice",
-        "santé",
-        "sociétal",
-        "hommes"
-      ],
-      "countryScope": "France",
-      "regionScope": "Europe",
-      "periodStart": "2023",
-      "periodEnd": null,
-      "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : femmes majeures vivant en logement ordinaire dans le champ de l'enquête de victimation VRS. La source ne mesure pas les chromosomes.",
-      "confidence": "forte",
-      "lastChecked": "25 juin 2026",
-      "source": {
-        "label": "Les chiffres de référence sur les violences faites aux femmes",
-        "publisher": "Arrêtons les violences / SSMSI",
-        "url": "https://arretonslesviolences.gouv.fr/je-suis-professionnel/chiffres-de-reference-violences-faites-aux-femmes",
-        "date": "données 2023, consulté le 25 juin 2026"
-      },
-      "additionalSources": [
-        {
-          "label": "Les violences sexistes et sexuelles en France en 2024",
-          "publisher": "Arrêtons les violences / SSMSI",
-          "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf",
-          "date": "novembre 2025"
-        },
-        {
-          "label": "Lettre de l'Observatoire national des violences faites aux femmes",
-          "publisher": "Miprof / SSMSI",
-          "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2024-03/Lettre-Observatoire-national-des-violences-faites-aux-femmes-Miprof-Mars-2024.pdf",
-          "date": "mars 2024"
-        },
-        {
-          "label": "L'enquête Vécu et ressenti en matière de sécurité (VRS)",
-          "publisher": "Ministère de l'Intérieur / SSMSI",
-          "url": "https://www.interieur.gouv.fr/Interstats/L-enquete-Vecu-et-ressenti-en-matiere-de-securite-VRS",
-          "date": "consulté le 25 juin 2026"
-        },
-        {
-          "label": "Male Victims of Sexual Violence and Factors Associated With Reporting to Law Enforcement in the United States",
-          "publisher": "The Journal of Men's Studies / SAGE",
-          "url": "https://journals.sagepub.com/doi/abs/10.1177/10608265241249937",
-          "date": "2024"
-        },
-        {
-          "label": "JustFacts - Sexual Assault",
-          "publisher": "Justice Canada",
-          "url": "https://www.justice.gc.ca/eng/rp-pr/jr/jf-pf/2019/apr01.html",
-          "date": "2019"
-        }
-      ],
-      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
-    },
-    {
       "id": "femmes-perception-desavantage-hce-2025",
       "url": "https://isora-xi.vercel.app/fiches/femmes-perception-desavantage-hce-2025/",
       "appUrl": "https://isora-xi.vercel.app/#femmes-perception-desavantage-hce-2025",
@@ -2803,7 +3194,7 @@
       "id": "femmes-discrimination-religieuse",
       "url": "https://isora-xi.vercel.app/fiches/femmes-discrimination-religieuse/",
       "appUrl": "https://isora-xi.vercel.app/#femmes-discrimination-religieuse",
-      "title": "Candidate voilée discriminée à l'embauche",
+      "title": "Étude de cas : candidate voilée discriminée à l'embauche en 2025",
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Religieux",
@@ -2823,7 +3214,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : candidate visée par une décision juridique liée au sexe et à la religion. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Décision 2025-069 relative à un refus d'embauche discriminatoire",
         "publisher": "Défenseur des droits",
@@ -3000,7 +3391,7 @@
       "angle": "désavantage_subi",
       "domain": "Violences",
       "metric": "1 sur 3",
-      "summary": "L'OMS estime qu'environ une femme sur trois dans le monde a subi des violences physiques et/ou sexuelles par un partenaire intime, ou des violences sexuelles par un non-partenaire, au cours de sa vie. Cet indicateur ne mesure pas toutes les violences subies par sexe.",
+      "summary": "Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois.",
       "nuance": "Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.",
       "tags": [
         "violences",
@@ -3010,17 +3401,17 @@
       ],
       "countryScope": "Monde",
       "regionScope": "Monde",
-      "periodStart": "2024",
-      "periodEnd": null,
-      "currentStatus": "actuel",
+      "periodStart": "2000",
+      "periodEnd": "2023",
+      "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes dans les enquêtes OMS sur violences conjugales physiques/sexuelles et violences sexuelles hors couple, avec sources comparatives sur victimations, homicides, travail et suicide. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
-        "label": "Violence against women",
+        "label": "Le bilan est lourd : 840 millions de femmes sont victimes de violences conjugales ou sexuelles",
         "publisher": "Organisation mondiale de la Santé",
-        "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
-        "date": "2024"
+        "url": "https://www.who.int/fr/news/item/19-11-2025-lifetime-toll--840-million-women-faced-partner-or-sexual-violence",
+        "date": "19 novembre 2025"
       },
       "additionalSources": [
         {
@@ -3040,18 +3431,6 @@
           "publisher": "UN Women / UNODC",
           "url": "https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
           "date": "2024"
-        },
-        {
-          "label": "Nearly 3 million people die of work-related accidents and diseases",
-          "publisher": "Organisation internationale du Travail",
-          "url": "https://www.ilo.org/resource/news/nearly-3-million-people-die-work-related-accidents-and-diseases",
-          "date": "2023"
-        },
-        {
-          "label": "Suicide worldwide in 2021: global health estimates",
-          "publisher": "Organisation mondiale de la Santé",
-          "url": "https://www.who.int/publications/i/item/9789240110069",
-          "date": "2021"
         }
       ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -3197,7 +3576,7 @@
       "id": "femmes-homicides-mineurs-condamnations",
       "url": "https://isora-xi.vercel.app/fiches/femmes-homicides-mineurs-condamnations/",
       "appUrl": "https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations",
-      "title": "Femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
+      "title": "Entre 1996 et 2015, femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
       "side": "femmes",
       "angle": "violence_exercée",
       "domain": "Violences",
@@ -3217,7 +3596,7 @@
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : femmes et hommes condamnés par la Justice française pour homicide volontaire sur mineur de moins de 15 ans. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Les homicides volontaires sur mineur de 15 ans",
         "publisher": "ONDRP / IHEMI",
@@ -3416,83 +3795,64 @@
       "id": "hommes-femmes-peurs-consentement-sexuel",
       "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-peurs-consentement-sexuel/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel",
-      "title": "Consentement sexuel : peurs asymétriques en début de relation",
-      "side": "femmes",
+      "title": "Classement, fausse plainte et culpabilité : trois notions distinctes",
+      "side": "hommes",
       "angle": "perception",
-      "domain": "Violences",
-      "metric": "56,1 % / 2-10 %",
-      "summary": "Les enquêtes sur les violences sexuelles montrent que les femmes victimes connaissent le plus souvent l'auteur: dans le NISVS 2016-2017, 56,1 % des victimes féminines de viol déclarent un agresseur faisant partie de leurs connaissances et 39,3 % un partenaire intime. En parallèle, les faux signalements d'agression sexuelle sont estimés minoritaires, souvent entre 2 % et 10 % des signalements, mais des études documentent une peur masculine d'être faussement accusé et son lien avec les pratiques de consentement explicite.",
-      "nuance": "Cette fiche ne mesure pas une peur universelle chez toutes les femmes ou tous les hommes. Elle met en regard deux phénomènes distincts: un risque féminin documenté d'agression sexuelle par partenaire, connaissance ou rencontre, et une peur masculine d'accusation fausse ou contestée, socialement visible malgré la faible proportion estimée de faux signalements. L'ancienneté des faits peut compliquer l'établissement judiciaire pour les deux parties: preuves matérielles plus rares, souvenirs et témoins moins accessibles, corroboration plus difficile pour la plaignante et défense plus difficile pour la personne mise en cause. Les sources de procédure insistent sur une évaluation fondée sur les preuves, le contradictoire et la compréhension des délais de révélation, sans remplacer la preuve par l'émotion ou par des stéréotypes.",
+      "domain": "Justice",
+      "metric": "69 % ≠ faux",
+      "summary": "En 2024, 69 % des personnes mises en cause pour viol ou agression sexuelle dans les affaires traitées par les parquets se trouvent dans des affaires non poursuivables; dans plus de 80 % de ces situations, l'infraction est jugée insuffisamment caractérisée. Cette décision ne prouve ni que la plainte était mensongère ni que les faits ont eu lieu. Les fausses accusations existent, mais leur fréquence ne peut pas être déduite du taux de classement.",
+      "nuance": "En matière pénale française, la personne suspectée ou poursuivie reste présumée innocente. Le témoignage est un mode de preuve possible, comme d'autres éléments, mais le juge ne peut se fonder que sur les preuves apportées et contradictoirement discutées. Une infraction insuffisamment caractérisée n'est pas une catégorie statistique de mensonge démontré. Réciproquement, la sous-déclaration ne prouve pas que chaque plainte est exacte. Une étude de 2010 a codé 8 signalements sur 136 comme faux dans un contexte institutionnel précis; un comptage britannique des poursuites pour fausse allégation utilise encore un autre dénominateur. Aucun de ces résultats ne fournit un taux général français.",
       "tags": [
-        "femmes",
         "hommes",
-        "sexualité",
-        "consentement",
+        "femmes",
+        "justice",
         "violences sexuelles",
         "fausses accusations",
-        "peur sociale",
         "récit",
-        "monde"
+        "présomption d'innocence",
+        "France"
       ],
-      "countryScope": "Monde, États-Unis et Royaume-Uni",
-      "regionScope": "Monde",
-      "periodStart": "2000",
-      "periodEnd": "2025",
+      "countryScope": "France, États-Unis et Royaume-Uni",
+      "regionScope": "Europe et Amérique du Nord",
+      "periodStart": "2010",
+      "periodEnd": "2024",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par les sources : victimes femmes et hommes de violences sexuelles dans l'enquête NISVS, femmes étudiées dans la littérature sur la perception du risque d'agression sexuelle par connaissance, étudiants interrogés sur la peur de fausse accusation, signalements d'agression sexuelle étudiés dans les estimations de faux signalements, et dossiers anciens évoqués dans les sources judiciaires. Les sources ne mesurent pas les chromosomes.",
-      "confidence": "moyenne",
-      "lastChecked": "16 juin 2026",
+      "sourcePopulation": "Matériau mesuré par les sources : personnes impliquées dans les affaires de viol et d'agression sexuelle traitées par la justice française, règles françaises de preuve et de présomption d'innocence, ainsi que deux études de contexte sur les fausses allégations aux États-Unis et au Royaume-Uni. Ces sources ne permettent pas de calculer un taux général de plaintes mensongères en France et ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
       "source": {
-        "label": "The National Intimate Partner and Sexual Violence Survey: 2016/2017 Report on Sexual Violence",
-        "publisher": "CDC",
-        "url": "https://www.cdc.gov/nisvs/documentation/nisvsReportonSexualViolence.pdf",
-        "date": "2022"
+        "label": "Références Statistiques Justice 2025 - Les violences sexuelles",
+        "publisher": "Ministère de la Justice / SSER",
+        "url": "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf",
+        "date": "données 2024, publication 2026"
       },
       "additionalSources": [
         {
-          "label": "Risk perception for acquaintance sexual aggression: a social-cognitive perspective",
-          "publisher": "Aggression and Violent Behavior / PubMed",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/25705115/",
-          "date": "2000"
+          "label": "Article 427 du Code de procédure pénale",
+          "publisher": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037108959",
+          "date": "version en vigueur consultée le 11 août 2026"
         },
         {
-          "label": "Fear and Consent: An Exploratory Study of Fear of False Accusations of Sexual Assault and Consent-Seeking Practices",
-          "publisher": "Journal of School Violence / ERIC",
-          "url": "https://eric.ed.gov/?id=EJ1378168",
-          "date": "2023"
+          "label": "Les règles générales d'un procès pénal",
+          "publisher": "Ministère de la Justice / Cour d'appel de Nancy",
+          "url": "https://www.cours-appel.justice.fr/nancy/les-regles-generales-dun-proces-penal",
+          "date": "2021"
         },
         {
-          "label": "Sexual violence statistics",
-          "publisher": "National Sexual Violence Resource Center",
-          "url": "https://www.nsvrc.org/statistics/",
-          "date": "consulté 2026"
+          "label": "False allegations of sexual assault: an analysis of ten years of reported cases",
+          "publisher": "Violence Against Women / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21164210/",
+          "date": "2010"
         },
         {
-          "label": "Perverting the Course of Justice and Wasting Police Time in Cases involving Allegedly False Allegations of Rape and / or Domestic Abuse",
+          "label": "Key facts about how the CPS prosecutes allegations of rape",
           "publisher": "Crown Prosecution Service",
-          "url": "https://www.cps.gov.uk/prosecution-guidance/perverting-course-justice-and-wasting-police-time-cases-involving-allegedly",
-          "date": "consulté 2026"
-        },
-        {
-          "label": "Fake sex abuse claims get British woman 8.5 year prison term",
-          "publisher": "Associated Press",
-          "url": "https://apnews.com/article/uk-fake-sex-abuse-claims-racial-tensions-8207569f6809f03f159e518065fcf26d",
-          "date": "2023"
-        },
-        {
-          "label": "Misconceptions of sexual crimes against adult victims: Barriers to justice",
-          "publisher": "Australian Institute of Criminology",
-          "url": "https://www.aic.gov.au/sites/default/files/2020-11/ti611_misconceptions_of_sexual_crimes_against_adult_victims.pdf",
-          "date": "2020"
-        },
-        {
-          "label": "Rapport d'information sur l'imprescriptibilité des violences commises sur les mineurs",
-          "publisher": "Assemblée nationale",
-          "url": "https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L17B2685.html",
-          "date": "2025"
+          "url": "https://www.cps.gov.uk/index.php/publication/key-facts-about-how-CPS-prosecutes-allegations-rape",
+          "date": "consulté le 11 août 2026"
         }
       ],
-      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
       "id": "femmes-mutilations-genitales",
@@ -3560,61 +3920,6 @@
         "date": "2024"
       },
       "additionalSources": [],
-      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
-    },
-    {
-      "id": "femmes-filles-hors-ecole",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-filles-hors-ecole/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-filles-hors-ecole",
-      "title": "Enfants hors de l'école : estimations mondiales proches selon le sexe",
-      "side": "femmes",
-      "angle": "perception",
-      "domain": "Éducation",
-      "metric": "133 M filles vs 140 M garçons",
-      "summary": "Les estimations UNESCO/GEM/UIS indiquent 273 millions d'enfants et jeunes hors de l'école dans le monde, dont 133 millions de filles et 140 millions de garçons.",
-      "nuance": "Les barrières genrées qui touchent les filles varient selon les pays et les niveaux scolaires. Dans le total mondial récent, les estimations UNESCO/GEM/UIS comptent légèrement plus de garçons hors de l'école et les sources signalent aussi des risques de décrochage spécifiques aux garçons.",
-      "tags": [
-        "femmes",
-        "hommes",
-        "comparaison",
-        "éducation",
-        "jeunesse",
-        "monde"
-      ],
-      "countryScope": "Monde",
-      "regionScope": "Monde",
-      "periodStart": "2024",
-      "periodEnd": null,
-      "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par les sources : filles et garçons hors de l'école selon les estimations UNESCO/GEM/UIS et UNICEF. Les sources ne mesurent pas les chromosomes.",
-      "confidence": "forte",
-      "lastChecked": "16 juin 2026",
-      "source": {
-        "label": "Gender equality and education",
-        "publisher": "UNESCO",
-        "url": "https://www.unesco.org/en/gender-equality/education",
-        "date": "consulté 2026"
-      },
-      "additionalSources": [
-        {
-          "label": "Out-of-school rate",
-          "publisher": "UNESCO / GEM Report / UIS",
-          "url": "https://www.unesco.org/en/education/view/outofschool",
-          "date": "consulté 2026"
-        },
-        {
-          "label": "Girls' education",
-          "publisher": "UNICEF",
-          "url": "https://www.unicef.org/education/girls-education",
-          "date": "2024"
-        },
-        {
-          "label": "Boys' disengagement from education",
-          "publisher": "UNESCO",
-          "url": "https://www.unesco.org/en/gender-equality/education/boys",
-          "date": "consulté 2026"
-        }
-      ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -3996,8 +4301,8 @@
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Santé",
-      "metric": "3 800 € / 40 %",
-      "summary": "Une estimation du Monde chiffre les protections et antidouleurs à environ 7,50 euros par cycle moyen, soit près de 3 800 euros sur une vie, hors consultations ou linge abîmé. En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.",
+      "metric": "90 % / 40 %",
+      "summary": "En France, une étude relayée par l'Inserm indique qu'environ 90 % des femmes réglées de 18 à 49 ans déclarent des douleurs de règles et 40 % des douleurs modérées à sévères. Une synthèse 2024 sur activité physique et menstruations identifie aussi des barrières liées au cycle: douleur, inconfort, tabou, manque de connaissances, ressources insuffisantes et communication limitée avec les encadrants.",
       "nuance": "Le coût de 3 800 euros est une estimation basse fondée sur des hypothèses de cycle, de protections et d'antidouleurs; il varie selon les produits, le flux, l'âge des premières et dernières règles, les soins et les protections réutilisables. Toutes les personnes réglées ne ressentent pas les mêmes douleurs et le sport peut réduire certaines douleurs légères à modérées, mais les symptômes forts ne doivent pas être banalisés. Les pistes nutritionnelles, comme les oméga-3 ou une alimentation moins inflammatoire, existent dans la littérature mais ne remplacent pas l'accès à l'information, aux protections, à des aménagements raisonnables et à un avis médical en cas de douleurs importantes.",
       "tags": [
         "santé",
@@ -4015,12 +4320,12 @@
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes et filles ou personnes menstruées dans des estimations de coût, de douleurs menstruelles, de protections périodiques et de participation à l'activité physique. Les sources ne mesurent pas les chromosomes.",
       "confidence": "moyenne",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
-        "label": "Combien les règles coûtent-elles dans la vie d'une femme ?",
-        "publisher": "Le Monde - Les Décodeurs",
-        "url": "https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html",
-        "date": "2019"
+        "label": "C'est normal d'avoir mal pendant les règles, vraiment ?",
+        "publisher": "Inserm",
+        "url": "https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/",
+        "date": "2023"
       },
       "additionalSources": [
         {
@@ -4030,10 +4335,10 @@
           "date": "2026"
         },
         {
-          "label": "C'est normal d'avoir mal pendant les règles, vraiment ?",
-          "publisher": "Inserm",
-          "url": "https://presse.inserm.fr/canal-detox/cest-normal-davoir-mal-pendant-les-regles-vraiment/",
-          "date": "2023"
+          "label": "Combien les règles coûtent-elles dans la vie d'une femme ?",
+          "publisher": "Le Monde - Les Décodeurs",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2019/07/02/precarite-menstruelle-combien-coutent-ses-regles-dans-la-vie-d-une-femme_5484140_4355770.html",
+          "date": "2019"
         },
         {
           "label": "Supporting women, girls and people who menstruate to participate in physical activity",
@@ -4091,70 +4396,130 @@
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
+      "id": "femmes-arret-cardiaque-defibrillation-temoins",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-arret-cardiaque-defibrillation-temoins/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-arret-cardiaque-defibrillation-temoins",
+      "title": "Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "OR 0,79",
+      "summary": "Une méta-analyse de 2025 réunissant 15 cohortes et 499 854 arrêts cardiaques associe le sexe féminin à une probabilité plus faible d'application des électrodes d'un défibrillateur automatisé externe par un témoin: OR 0,79, avec un niveau de certitude modéré.",
+      "nuance": "Les résultats sur le déclenchement de la RCP elle-même sont très hétérogènes et de très faible certitude. Une cohorte de 2018 trouvait 39 % de RCP pour les femmes contre 45 % pour les hommes dans les lieux publics, mais des taux presque identiques en privé. Une enquête de 2024 mesure les raisons que le public imagine, dont la peur d'un contact inapproprié ou d'une accusation; elle ne recense pas des plaintes et ne prouve pas les motivations réelles des sauveteurs. Aucune fréquence crédible de plaintes pour agression sexuelle après RCP n'a été identifiée.",
+      "tags": [
+        "santé",
+        "arrêt cardiaque",
+        "RCP",
+        "défibrillateur",
+        "secours",
+        "femmes"
+      ],
+      "countryScope": "Plusieurs pays",
+      "regionScope": "International",
+      "periodStart": "2018",
+      "periodEnd": "2025",
+      "currentStatus": "persistant",
+      "sourcePopulation": "Population mesurée par les sources : femmes et hommes victimes d'un arrêt cardiaque extrahospitalier dans quinze cohortes internationales, et personnes interrogées aux États-Unis sur leurs perceptions des obstacles à la réanimation. Les catégories femmes/hommes proviennent des études; les sources ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
+      "source": {
+        "label": "Association between bystander cardiopulmonary resuscitation initiation and patient's sex",
+        "publisher": "Resuscitation Plus / PubMed Central",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/",
+        "date": "2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Gender Disparities Among Adult Recipients of Bystander Cardiopulmonary Resuscitation in the Public",
+          "publisher": "Circulation: Cardiovascular Quality and Outcomes / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30354377/",
+          "date": "2018"
+        },
+        {
+          "label": "Examining the Impact of Layperson Rescuer Gender on the Receipt of Bystander CPR for Women",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38533649/",
+          "date": "2024"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "femmes-risque-blessure-choc-routier",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-risque-blessure-choc-routier/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-risque-blessure-choc-routier",
+      "title": "À choc routier comparable, certains risques de blessure restent plus élevés pour les femmes",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "26 % des modèles",
+      "summary": "Dans une étude publiée en 2026, la NHTSA observe un risque féminin significativement plus élevé dans 26 % des 150 modèles de blessures analysés, plus souvent pour des blessures modérées. L'agence poursuit le développement de mannequins féminins plus représentatifs.",
+      "nuance": "Ce résultat ne signifie pas que les femmes meurent davantage sur la route au total: les hommes restent majoritaires parmi les décès routiers, notamment en raison de différences d'exposition et de comportements. La comparaison porte sur des occupants placés dans des configurations de choc plus comparables. Beaucoup d'écarts de blessures graves ne sont pas significatifs et l'écart de mortalité femmes-hommes s'est fortement réduit dans les véhicules récents.",
+      "tags": [
+        "santé",
+        "sécurité routière",
+        "blessures",
+        "véhicules",
+        "États-Unis",
+        "femmes"
+      ],
+      "countryScope": "États-Unis",
+      "regionScope": "Amérique du Nord",
+      "periodStart": "2026",
+      "periodEnd": "2026",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "11 août 2026",
+      "source": {
+        "label": "NHTSA Study Affirms Need for Female Crash Test Dummy",
+        "publisher": "National Highway Traffic Safety Administration",
+        "url": "https://www.nhtsa.gov/press-releases/nhtsa-study-affirms-need-female-crash-test-dummy-approved-by-trump-administration",
+        "date": "8 janvier 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "Report to Congress: Progress on THOR-05F, WorldSID-05F and Female Crash Safety Research",
+          "publisher": "National Highway Traffic Safety Administration",
+          "url": "https://www.nhtsa.gov/document/report-congress-progress-thor-05f-worldsid-05f-and-female-crash-safety-research",
+          "date": "2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
       "id": "femmes-menopause-soins",
       "url": "https://isora-xi.vercel.app/fiches/femmes-menopause-soins/",
       "appUrl": "https://isora-xi.vercel.app/#femmes-menopause-soins",
-      "title": "Soins sexospécifiques insuffisants des deux côtés",
+      "title": "Information et accès aux soins liés à la ménopause encore insuffisants",
       "side": "femmes",
-      "angle": "perception",
+      "angle": "désavantage_subi",
       "domain": "Santé",
       "metric": "accès inégal",
-      "summary": "L'OMS souligne que l'information et l'accès aux soins liés à la ménopause restent insuffisants dans beaucoup de pays. Mais ce constat ne prouve pas un désavantage global féminin dans le recours aux soins: en France, l'Insee/Drees indique que les hommes consultent moins souvent médecins généralistes et spécialistes, et l'OCDE rappelle leur surmortalité prématurée.",
-      "nuance": "La ménopause reste un angle documenté de sous-information et de formation médicale insuffisante. Sur le recours aux soins en général, les sources françaises indiquent que les hommes consultent moins souvent, sont moins captés par certains parcours de prévention et subissent une mortalité prématurée plus forte. L'absence de dépistage organisé du cancer de la prostate relève aussi d'une balance bénéfice-risque jugée insuffisante par les autorités, pas seulement d'un manque d'attention ou de budget.",
+      "summary": "L'OMS souligne que la ménopause peut affecter le bien-être physique, émotionnel, mental et social, tandis que l'information, la formation des soignants et l'accès à des services de qualité restent insuffisants dans de nombreux pays.",
+      "nuance": "La fiche porte uniquement sur les besoins liés à la ménopause; elle ne compare pas l'ensemble du recours aux soins entre femmes et hommes. L'OMS ne fournit pas ici un taux mondial unique d'accès insuffisant, car les services et les besoins varient fortement selon les pays et les personnes.",
       "tags": [
         "santé",
         "ménopause",
         "prévention",
         "soins",
-        "femmes",
-        "hommes"
+        "femmes"
       ],
-      "countryScope": "Monde, France et OCDE",
+      "countryScope": "Monde",
       "regionScope": "Monde",
       "periodStart": "2019",
       "periodEnd": "2025",
       "currentStatus": "persistant",
-      "sourcePopulation": "Population mesurée par les sources : femmes concernées par la ménopause selon l'OMS, femmes et hommes dans les statistiques françaises de recours aux soins, et hommes concernés par les enjeux prostate, testicule et santé mentale. Les sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par les sources : femmes concernées par la ménopause et par son information ou sa prise en charge. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
         "label": "Menopause fact sheet",
         "publisher": "Organisation mondiale de la Santé",
         "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
         "date": "2024"
       },
-      "additionalSources": [
-        {
-          "label": "Santé et recours aux soins",
-          "publisher": "Insee / Drees",
-          "url": "https://www.insee.fr/fr/statistiques/6047751?sommaire=6047805",
-          "date": "2022"
-        },
-        {
-          "label": "Which diseases affect men and women differently - and why this matters",
-          "publisher": "OCDE",
-          "url": "https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/which-diseases-affect-men-and-women-differently-and-why-this-matters_c7602de9.html",
-          "date": "2025"
-        },
-        {
-          "label": "Dépistage du cancer de la prostate",
-          "publisher": "Institut national du cancer",
-          "url": "https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate",
-          "date": "consulté 2026"
-        },
-        {
-          "label": "Dépistage des cancers du sein",
-          "publisher": "Institut national du cancer",
-          "url": "https://jefaismondepistage.cancer.fr/cancers-du-sein/",
-          "date": "consulté 2026"
-        },
-        {
-          "label": "Movember men's health cause",
-          "publisher": "Movember",
-          "url": "https://us.movember.com/about/cause",
-          "date": "consulté 2026"
-        }
-      ],
+      "additionalSources": [],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -4234,8 +4599,8 @@
       "angle": "désavantage_subi",
       "domain": "Droits",
       "metric": "2/3",
-      "summary": "Selon Women, Business and the Law 2026, les femmes n'ont encore qu'environ deux tiers des droits économiques des hommes et 4 % vivent dans des économies proches de l'égalité juridique complète.",
-      "nuance": "La mesure porte sur les droits formels et leur environnement légal. L'application réelle peut être meilleure ou pire selon les institutions.",
+      "summary": "Selon Women, Business and the Law 2026, fondé sur des lois et politiques en vigueur jusqu'au 1er octobre 2025 dans 190 économies, les femmes n'ont encore qu'environ deux tiers des droits économiques des hommes et moins de 4 % vivent dans des économies proches de l'égalité juridique complète.",
+      "nuance": "La mesure porte sur des indicateurs juridiques comparés entre 190 économies et sur des lois et politiques en vigueur au 1er octobre 2025. Le rapport distingue les droits formels, les cadres de soutien et les perceptions d'application; il ne mesure pas directement tous les revenus réels ni toutes les pratiques locales de terrain.",
       "tags": [
         "droits",
         "économie",
@@ -4249,14 +4614,21 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women / men dans les indicateurs juridiques Women, Business and the Law. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "7 juillet 2026",
       "source": {
         "label": "Women, Business and the Law 2026",
         "publisher": "Banque mondiale",
         "url": "https://wbl.worldbank.org/en/publications/flagship-report",
         "date": "2026"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Women's Economic-Opportunity Laws Only Half-Enforced Globally",
+          "publisher": "Banque mondiale",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/02/24/women-s-economic-opportunity-laws-only-half-enforced-globally",
+          "date": "2026"
+        }
+      ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -4429,30 +4801,37 @@
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Numérique",
-      "metric": "16-58 %",
-      "summary": "Les études compilées par ONU Femmes estiment que 16 % à 58 % des femmes ont subi des violences facilitées par la technologie.",
-      "nuance": "La fourchette large reflète des définitions et méthodes différentes. Le phénomène doit être lu avec prudence mais il est suffisamment documenté pour être visible.",
+      "metric": "8,5 % / 7 %",
+      "summary": "L'enquête européenne publiée en 2026 indique que 8,5 % des femmes ont subi du cyberstalking et que 7 % des femmes en emploi ont été victimes de harcèlement sexuel en ligne. Les deux indicateurs mesurent des comportements distincts.",
+      "nuance": "Le cyberstalking et le harcèlement sexuel en ligne ne doivent pas être additionnés: une même personne peut avoir subi les deux. Certaines questions numériques détaillées n'ont été posées que dans huit États membres; le champ exact de chaque indicateur doit rester associé au rapport.",
       "tags": [
         "numérique",
         "violences",
         "harcèlement",
-        "monde"
+        "Union européenne"
       ],
-      "countryScope": "Monde",
-      "regionScope": "Monde",
-      "periodStart": "2024",
-      "periodEnd": null,
+      "countryScope": "Union européenne",
+      "regionScope": "Europe",
+      "periodStart": "2020",
+      "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women / femmes dans des études aux méthodes variables. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "11 août 2026",
       "source": {
-        "label": "Digital abuse, trolling, stalking and other forms of technology-facilitated violence",
-        "publisher": "ONU Femmes",
-        "url": "https://www.unwomen.org/en/articles/faqs/digital-abuse-trolling-stalking-and-other-forms-of-technology-facilitated-violence-against-women",
-        "date": "2024"
+        "label": "EU gender-based violence - a silent epidemic",
+        "publisher": "Agence des droits fondamentaux de l'Union européenne / EIGE",
+        "url": "https://fra.europa.eu/en/news-and-events/stories/eu-gender-based-violence-silent-epidemic",
+        "date": "mars 2026"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "EU gender-based violence survey - Evidence for policy and practice",
+          "publisher": "Agence des droits fondamentaux de l'Union européenne",
+          "url": "https://fra.europa.eu/en/publication/2026/eu-gender-based-violence-survey-evidence",
+          "date": "2026"
+        }
+      ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     }
   ]

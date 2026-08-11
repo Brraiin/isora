@@ -95,6 +95,10 @@
     .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
     .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
     .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
     main { padding-bottom: 64px; }
     .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
     article { min-width: 0; }
@@ -344,7 +348,7 @@
         <div class="hero-copy">
           <p class="kicker">Droits, autonomie et accès aux services</p>
           <h1>Protection temporaire des déplacés d&#39;Ukraine : femmes et enfants restent majoritaires dans l&#39;UE</h1>
-          <p class="lead">Le jeu de données publié par Eurostat le 10 juillet 2026 confirme qu&#39;au 31 mai 2026, les bénéficiaires de la protection temporaire accordée aux personnes ayant fui l&#39;Ukraine dans l&#39;Union européenne restent majoritairement des femmes et des mineurs. Les femmes adultes représentent 43,4 % du total, les hommes adultes 26,8 % et les mineurs 29,8 %. Cette structure varie peu depuis janvier 2026. L&#39;UNHCR rappelle dans ses documents 2026 que la population réfugiée demeure majoritairement composée de femmes et d&#39;enfants, avec moins d&#39;hommes adultes en raison des restrictions visant les hommes ukrainiens d&#39;âge militaire à la sortie du pays. Le Conseil de l&#39;Union européenne a en outre prolongé ce régime jusqu&#39;au 4 mars 2027, ce qui inscrit cette asymétrie démographique dans une durée désormais longue.</p>
+          <p class="lead">Le jeu de données publié par Eurostat le 10 juillet 2026 confirme qu&#39;au 31 mai 2026, les bénéficiaires de la protection temporaire accordée aux personnes ayant fui l&#39;Ukraine dans l&#39;Union européenne restent majoritairement des femmes et des mineurs. Les femmes adultes représentent 43,4 % du total, les hommes adultes 26,8 % et les mineurs 29,8 %. Cette structure varie peu depuis janvier 2026. L&#39;UNHCR rappelle dans ses documents 2026 que la population réfugiée demeure majoritairement composée de femmes et d&#39;enfants, avec moins d&#39;hommes adultes en raison des restrictions visant les hommes ukrainiens d&#39;âge militaire à la sortie du pays. Le Conseil de l&#39;Union européenne a en outre prolongé ce régime jusqu&#39;au 4 mars 2027, ce qui inscrit cette <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> démographique dans une durée désormais longue.</p>
           <div class="meta" aria-label="Métadonnées">
             <span class="pill">13 juillet 2026</span>
             <span class="pill">5 min</span>
@@ -398,12 +402,12 @@
               </section>
             
               <section class="section">
-                <h2>Cette asymétrie a aussi des effets concrets sur l&#39;accueil et l&#39;insertion</h2>
+                <h2>Cette <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> a aussi des effets concrets sur l&#39;accueil et l&#39;insertion</h2>
                 <p>La composition de la population accueillie ne décrit pas seulement une répartition statistique. Le Conseil de l&#39;UE rappelle que la protection temporaire ouvre des droits à la résidence, à l&#39;accès au marché du travail, au logement, aux soins et à l&#39;éducation des enfants. Lorsque la population accueillie est majoritairement composée de femmes et de mineurs, les besoins d&#39;accompagnement scolaire, de garde, de logement familial et de protection contre l&#39;exploitation prennent mécaniquement davantage de place dans l&#39;organisation de l&#39;accueil.</p><p>Le portail de données de l&#39;UNHCR ajoute qu&#39;un rapport publié le 29 janvier 2026 estime à 57 % la part des réfugiés ukrainiens en Europe ayant un emploi, tout en relevant un écart de 22 points avec les ressortissants des pays d&#39;accueil. Ce chiffre ne compare pas directement femmes et hommes réfugiés entre eux, mais il montre que l&#39;insertion économique reste incomplète dans une population où les ménages féminins et les enfants sont fortement présents.</p>
               </section>
             
               <section class="section">
-                <h2>Population mesurée et limites</h2>
+                <h2><a class="lexicon-term" href="/lexique/#population-mesuree" aria-label="Population mesurée — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">Population mesurée</a> et limites</h2>
                 <p>Les sources citées ici ne portent pas exactement sur la même population. Eurostat mesure les personnes bénéficiant d&#39;un statut administratif précis de protection temporaire dans l&#39;Union européenne, à une date donnée, avec une ventilation par âge et sexe fondée sur les dossiers disponibles. L&#39;institution signale que la répartition par âge et sexe exclut les cas dont la valeur est inconnue, que les procédures de radiation varient selon les pays et que, pour mai 2026, l&#39;agrégat UE réutilise encore les données tchèques d&#39;avril 2026. Eurostat précise aussi que les données françaises excluent généralement les mineurs.</p><p>L&#39;UNHCR utilise un périmètre plus large de réfugiés et de besoins de protection, pas uniquement les enregistrements administratifs Eurostat du même mois. Les pourcentages UNHCR et Eurostat ne doivent donc pas être additionnés ni lus comme une seule série homogène. Enfin, ces organismes emploient les catégories statistiques de femmes, hommes, filles et garçons de leurs propres bases; ils ne mesurent pas les chromosomes. L&#39;article décrit une structure de population observée, pas la situation individuelle de chaque personne déplacée.</p>
               </section>
             
@@ -424,7 +428,7 @@
                       
                         <details>
                           <summary>Peut-on conclure qu&#39;il s&#39;agit d&#39;un désavantage exclusivement masculin ou exclusivement féminin ?</summary>
-                          <p>Non. Les données documentent d&#39;abord une asymétrie de composition. Les hommes d&#39;âge militaire sont moins présents parmi les déplacés enregistrés dans l&#39;UE, tandis que la majorité féminine et la forte présence d&#39;enfants exposent davantage les femmes et les ménages qu&#39;elles dirigent à des besoins spécifiques d&#39;accueil, de logement, d&#39;emploi et de protection.</p>
+                          <p>Non. Les données documentent d&#39;abord une <a class="lexicon-term" href="/lexique/#asymetrie" aria-label="asymétrie — Voir la définition dans le lexique" data-tooltip="Voir la définition dans le lexique">asymétrie</a> de composition. Les hommes d&#39;âge militaire sont moins présents parmi les déplacés enregistrés dans l&#39;UE, tandis que la majorité féminine et la forte présence d&#39;enfants exposent davantage les femmes et les ménages qu&#39;elles dirigent à des besoins spécifiques d&#39;accueil, de logement, d&#39;emploi et de protection.</p>
                         </details>
                       
                 </div>
