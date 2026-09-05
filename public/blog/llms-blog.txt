@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France
+- URL: https://isora-xi.vercel.app/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/
+- Date: 2026-09-05
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-temps-partiel, femmes-soin-non-remunere-emploi
+- Resume: La publication Eurostat du 1er septembre 2026 montre que le taux de chômage reste un peu plus élevé chez les femmes dans l’Union européenne : 6,3 % contre 5,9 % chez les hommes en juillet. La France présente alors un écart faible dans l’autre sens, avec 8,4 % chez les hommes et 8,2 % chez les femmes. L’Insee mesure une structure proche au deuxième trimestre, mais précise que le niveau et l’évolution du taux sont estimés à plus ou moins 0,3 point. Les données ne permettent donc pas de transformer ces écarts étroits en règle générale ni en preuve d’une cause liée au sexe.
+- Sources: Eurostat (1er septembre 2026): https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp; Eurostat (données jusqu’en juillet 2026): https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table; Insee (7 août 2026): https://www.insee.fr/fr/statistiques/9032359; Dares (3 septembre 2026): https://dares.travail-emploi.gouv.fr/publication/la-situation-sur-le-marche-du-travail-au-2e-trimestre-2026
+
 ### Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes
 - URL: https://isora-xi.vercel.app/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/
 - Date: 2026-08-11

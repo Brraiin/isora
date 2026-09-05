@@ -1180,7 +1180,7 @@ export async function renderBlogAssets({ config, posts } = {}) {
       await mkdir(pageDir, { recursive: true });
       await writeFile(
         join(pageDir, "index.html"),
-        renderBlogIndex(pagePosts, resolvedConfig, { pageNumber, totalPages }),
+        renderBlogIndex(pagePosts, resolvedConfig, { pageNumber, totalPages }).replace(/[ \t]+$/gm, ""),
         "utf8",
       );
     }),
@@ -1190,7 +1190,11 @@ export async function renderBlogAssets({ config, posts } = {}) {
     resolvedPosts.map(async (post) => {
       const postDir = join(publicBlogDir, post.slug);
       await mkdir(postDir, { recursive: true });
-      await writeFile(join(postDir, "index.html"), renderArticleHtml(post, resolvedConfig, lexiconModule), "utf8");
+      await writeFile(
+        join(postDir, "index.html"),
+        renderArticleHtml(post, resolvedConfig, lexiconModule).replace(/[ \t]+$/gm, ""),
+        "utf8",
+      );
     }),
   );
 

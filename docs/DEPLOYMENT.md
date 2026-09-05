@@ -232,6 +232,16 @@ GITHUB_ISSUE_TOKEN
 
 Le token doit avoir le droit de creer des issues sur le depot `Brraiin/isora`. Sans cette variable, les formulaires restent sauvegardes localement dans le navigateur de l'utilisateur mais ne sont pas transmis.
 
+Pour recevoir un email a chaque proposition ou signalement public, configurer aussi Resend dans les variables d'environnement Vercel:
+
+```text
+RESEND_API_KEY
+ISORA_CONTRIBUTION_NOTIFY_TO
+ISORA_CONTRIBUTION_NOTIFY_FROM
+```
+
+`ISORA_CONTRIBUTION_NOTIFY_TO` peut contenir une ou plusieurs adresses separees par des virgules. `ISORA_CONTRIBUTION_NOTIFY_FROM` doit etre une adresse autorisee par Resend, par exemple `isora <notifications@isora.info>` apres verification du domaine. L'envoi d'email est non bloquant: si Resend est absent ou indisponible, la creation d'issue GitHub reste prioritaire.
+
 ## Blog quotidien
 
 La voie normale ne passe pas par GitHub Actions ni par une cle OpenAI API. Elle passe par l'automatisation Codex app `Veille quotidienne Isora`, active tous les jours vers 20:30 heure de Paris.

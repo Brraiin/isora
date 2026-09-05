@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-soin-non-remunere-emploi",
+    "side": "femmes",
+    "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
+    "claimMetric": "708 M",
+    "blogTitle": "Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France",
+    "blogUrl": "/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/",
+    "date": "2026-09-05",
+    "updatedAt": "2026-09-05T18:42:00.000Z"
+  },
+  {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France",
+    "blogUrl": "/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/",
+    "date": "2026-09-05",
+    "updatedAt": "2026-09-05T18:42:00.000Z"
+  },
+  {
     "claimId": "hommes-part-auteurs-violences-sexuelles-perception",
     "side": "hommes",
     "claimTitle": "Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs",
@@ -180,26 +200,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/",
     "date": "2026-07-19",
     "updatedAt": "2026-07-19T19:56:40.000Z"
-  },
-  {
-    "claimId": "femmes-soin-non-remunere-emploi",
-    "side": "femmes",
-    "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
-    "claimMetric": "708 M",
-    "blogTitle": "Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025",
-    "blogUrl": "/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/",
-    "date": "2026-07-16",
-    "updatedAt": "2026-07-16T18:30:00.000Z"
-  },
-  {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025",
-    "blogUrl": "/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/",
-    "date": "2026-07-16",
-    "updatedAt": "2026-07-16T18:30:00.000Z"
   },
   {
     "claimId": "femmes-separation-niveau-vie",

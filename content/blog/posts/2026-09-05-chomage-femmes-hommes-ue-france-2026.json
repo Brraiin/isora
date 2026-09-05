@@ -1,0 +1,122 @@
+{
+  "id": "2026-09-05-chomage-femmes-hommes-ue-france-2026",
+  "slug": "2026-09-05-chomage-femmes-hommes-ue-france-2026",
+  "status": "published",
+  "language": "fr",
+  "title": "Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France",
+  "description": "En juillet 2026, Eurostat mesure 6,3 % de chômage chez les femmes contre 5,9 % chez les hommes dans l’UE, mais 8,2 % contre 8,4 % en France. Ces écarts faibles changent de sens selon le périmètre.",
+  "date": "2026-09-05",
+  "publishedAt": "2026-09-05T18:42:00.000Z",
+  "updatedAt": "2026-09-05T18:42:00.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "chômage femmes hommes UE juillet 2026",
+    "taux de chômage par sexe France 2026",
+    "Eurostat chômage femmes hommes",
+    "Insee chômage deuxième trimestre 2026",
+    "écart chômage femmes hommes France Europe"
+  ],
+  "relatedClaimIds": [
+    "femmes-temps-partiel",
+    "femmes-soin-non-remunere-emploi"
+  ],
+  "readingMinutes": 5,
+  "summary": "La publication Eurostat du 1er septembre 2026 montre que le taux de chômage reste un peu plus élevé chez les femmes dans l’Union européenne : 6,3 % contre 5,9 % chez les hommes en juillet. La France présente alors un écart faible dans l’autre sens, avec 8,4 % chez les hommes et 8,2 % chez les femmes. L’Insee mesure une structure proche au deuxième trimestre, mais précise que le niveau et l’évolution du taux sont estimés à plus ou moins 0,3 point. Les données ne permettent donc pas de transformer ces écarts étroits en règle générale ni en preuve d’une cause liée au sexe.",
+  "keyPoints": [
+    "En juillet 2026, le taux de chômage atteint 6,3 % chez les femmes et 5,9 % chez les hommes dans l’Union européenne, selon Eurostat.",
+    "Dans la zone euro, Eurostat mesure le même écart de 0,4 point : 6,6 % pour les femmes contre 6,2 % pour les hommes.",
+    "En France, la série mensuelle harmonisée de juillet indique au contraire 8,4 % pour les hommes et 8,2 % pour les femmes.",
+    "Au deuxième trimestre 2026, l’Insee mesure 8,5 % chez les hommes et 8,2 % chez les femmes ; sur un an, le taux augmente de 0,8 point pour les deux sexes.",
+    "L’Insee estime le niveau du taux et son évolution trimestrielle à plus ou moins 0,3 point : le petit écart français doit donc être lu avec prudence."
+  ],
+  "sections": [
+    {
+      "heading": "Dans l’Union européenne, le chômage reste légèrement plus élevé chez les femmes",
+      "paragraphs": [
+        "Le signal récent vient de la publication Eurostat du 1er septembre 2026. En juillet, le taux de chômage corrigé des variations saisonnières atteint 6,3 % chez les femmes dans l’Union européenne, contre 5,9 % chez les hommes. Les deux taux sont stables par rapport à juin. Dans la zone euro, l’écart est identique : 6,6 % pour les femmes et 6,2 % pour les hommes.",
+        "Il s’agit d’un taux au sens du Bureau international du travail, rapporté à la population active. Eurostat compte comme chômeuses les personnes de 15 à 74 ans qui sont sans emploi, disponibles dans les deux semaines et qui ont recherché activement un emploi pendant les quatre semaines précédentes. Ce taux ne correspond donc ni à la part de toutes les femmes ou de tous les hommes sans emploi, ni au nombre de personnes inscrites auprès d’un service public de l’emploi."
+      ]
+    },
+    {
+      "heading": "En France, le petit écart observé va dans l’autre sens",
+      "paragraphs": [
+        "Pour la France, la série mensuelle harmonisée publiée par Eurostat indique en juillet 2026 un taux de 8,4 % chez les hommes et de 8,2 % chez les femmes. L’écart de 0,2 point est donc de sens opposé à celui de l’ensemble de l’Union européenne.",
+        "La publication trimestrielle de l’Insee donne une image proche. Au deuxième trimestre 2026, le taux de chômage atteint 8,5 % chez les hommes et 8,2 % chez les femmes. Sur le trimestre, il reste stable chez les hommes et augmente de 0,4 point chez les femmes. Sur un an, il progresse toutefois de 0,8 point pour chacun des deux sexes."
+      ]
+    },
+    {
+      "heading": "Ces différences étroites ne décrivent pas une règle durable",
+      "paragraphs": [
+        "Les écarts observés sont faibles : 0,4 point au niveau de l’Union et 0,2 à 0,3 point en France selon la fréquence retenue. L’Insee précise que le niveau du taux de chômage et son évolution d’un trimestre à l’autre sont estimés à plus ou moins 0,3 point. Il serait donc excessif de présenter le résultat français comme la preuve d’un désavantage stable des hommes ou le résultat européen comme une situation uniforme des femmes dans tous les pays.",
+        "La comparaison montre surtout que le sens de l’asymétrie dépend du territoire, de la période et de la population active considérée. Dans plusieurs pays européens, le taux féminin est nettement supérieur ; dans d’autres, le taux masculin est plus élevé. Une moyenne européenne n’efface pas ces configurations nationales."
+      ]
+    },
+    {
+      "heading": "Chômage, inscription à France Travail et absence d’emploi ne sont pas synonymes",
+      "paragraphs": [
+        "Le point de conjoncture publié par la Dares le 3 septembre confirme que le taux de chômage français a augmenté pour le sixième trimestre consécutif et atteint 8,3 % au deuxième trimestre 2026. Il reprend le cadre de l’enquête Emploi et la définition du BIT, distincts du décompte administratif des personnes inscrites à France Travail.",
+        "Une personne inscrite peut avoir travaillé pendant le mois ou ne pas remplir au même moment tous les critères du chômage au sens du BIT. À l’inverse, une personne au chômage au sens du BIT peut ne pas être inscrite. Comparer les sexes exige donc de conserver le même indicateur, la même tranche d’âge, la même période et le même champ géographique."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "La série mensuelle Eurostat couvre les personnes de 15 à 74 ans et harmonise les enquêtes sur les forces de travail des États membres. La publication Insee porte sur les personnes de 15 ans ou plus vivant en logement ordinaire en France et utilise une moyenne trimestrielle corrigée des variations saisonnières. Les chiffres de juillet et du deuxième trimestre sont cohérents, mais ils ne sont pas strictement interchangeables.",
+        "Les sources utilisent leurs catégories statistiques de femmes et d’hommes ; elles ne mesurent pas les chromosomes. Elles décrivent des taux dans la population active et ne suffisent pas à attribuer l’écart à une cause unique. Les secteurs d’activité, l’âge, les qualifications, les trajectoires d’emploi, le temps partiel, les responsabilités familiales et la conjoncture peuvent contribuer aux différences observées sans être isolés par ces seuls taux."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les femmes sont-elles toujours plus touchées par le chômage que les hommes ?",
+      "answer": "Non. En juillet 2026, le taux féminin est légèrement plus élevé dans l’ensemble de l’Union européenne, mais le taux masculin est légèrement plus élevé en France. Le sens et l’intensité de l’écart varient selon les pays, les périodes et les groupes d’âge."
+    },
+    {
+      "question": "Peut-on conclure que les hommes sont significativement plus exposés au chômage en France ?",
+      "answer": "Pas à partir du seul écart du deuxième trimestre 2026. L’Insee mesure 0,3 point de différence et indique une précision de plus ou moins 0,3 point pour le niveau du taux et son évolution trimestrielle. Une série plus longue et des analyses complémentaires sont nécessaires."
+    },
+    {
+      "question": "Le nombre d’inscrits à France Travail mesure-t-il le chômage au sens du BIT ?",
+      "answer": "Non. L’inscription est une situation administrative. Le chômage au sens du BIT repose sur trois critères : être sans emploi, rechercher activement un emploi et être disponible rapidement. Les deux populations se recoupent sans être identiques."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Euro area unemployment at 6.4%",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp",
+      "date": "1er septembre 2026",
+      "type": "statistique publique européenne"
+    },
+    {
+      "title": "Unemployment by sex and age - monthly data",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table",
+      "date": "données jusqu’en juillet 2026",
+      "type": "jeu de données harmonisé"
+    },
+    {
+      "title": "Au deuxième trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,3 %",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/9032359",
+      "date": "7 août 2026",
+      "type": "statistique publique"
+    },
+    {
+      "title": "La situation sur le marché du travail au 2e trimestre 2026",
+      "publisher": "Dares",
+      "url": "https://dares.travail-emploi.gouv.fr/publication/la-situation-sur-le-marche-du-travail-au-2e-trimestre-2026",
+      "date": "3 septembre 2026",
+      "type": "synthèse de conjoncture"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-09-05T18:42:00.000Z",
+    "requiresHumanReview": false
+  }
+}

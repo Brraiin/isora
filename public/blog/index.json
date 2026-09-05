@@ -2,8 +2,63 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-08-11T15:43:43.194Z",
+  "generatedAt": "2026-09-05T22:01:09.893Z",
   "posts": [
+    {
+      "id": "2026-09-05-chomage-femmes-hommes-ue-france-2026",
+      "title": "Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/",
+      "description": "En juillet 2026, Eurostat mesure 6,3 % de chômage chez les femmes contre 5,9 % chez les hommes dans l’UE, mais 8,2 % contre 8,4 % en France. Ces écarts faibles changent de sens selon le périmètre.",
+      "date": "2026-09-05",
+      "publishedAt": "2026-09-05T18:42:00.000Z",
+      "updatedAt": "2026-09-05T18:42:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "chômage femmes hommes UE juillet 2026",
+        "taux de chômage par sexe France 2026",
+        "Eurostat chômage femmes hommes",
+        "Insee chômage deuxième trimestre 2026",
+        "écart chômage femmes hommes France Europe"
+      ],
+      "relatedClaimIds": [
+        "femmes-temps-partiel",
+        "femmes-soin-non-remunere-emploi"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Euro area unemployment at 6.4%",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp",
+          "date": "1er septembre 2026",
+          "type": "statistique publique européenne"
+        },
+        {
+          "title": "Unemployment by sex and age - monthly data",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table",
+          "date": "données jusqu’en juillet 2026",
+          "type": "jeu de données harmonisé"
+        },
+        {
+          "title": "Au deuxième trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,3 %",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/9032359",
+          "date": "7 août 2026",
+          "type": "statistique publique"
+        },
+        {
+          "title": "La situation sur le marché du travail au 2e trimestre 2026",
+          "publisher": "Dares",
+          "url": "https://dares.travail-emploi.gouv.fr/publication/la-situation-sur-le-marche-du-travail-au-2e-trimestre-2026",
+          "date": "3 septembre 2026",
+          "type": "synthèse de conjoncture"
+        }
+      ]
+    },
     {
       "id": "2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques",
       "title": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
