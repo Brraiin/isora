@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-decrochage-garcons-monde",
+    "side": "hommes",
+    "claimTitle": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
+    "claimMetric": "140 M vs 133 M",
+    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
+    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
+    "date": "2026-06-30",
+    "updatedAt": "2026-09-07T19:03:37.000Z"
+  },
+  {
+    "claimId": "hommes-sorties-precoces",
+    "side": "hommes",
+    "claimTitle": "Garçons plus touchés par les sorties précoces du système scolaire",
+    "claimMetric": "9,5 % vs 5,6 %",
+    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
+    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
+    "date": "2026-06-30",
+    "updatedAt": "2026-09-07T19:03:37.000Z"
+  },
+  {
     "claimId": "femmes-soin-non-remunere-emploi",
     "side": "femmes",
     "claimTitle": "Femmes tenues hors de l'emploi par le soin non rémunéré",
@@ -320,26 +340,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-01-ia-generative-emplois-feminises-numerique/",
     "date": "2026-07-01",
     "updatedAt": "2026-07-01T17:00:00.000Z"
-  },
-  {
-    "claimId": "hommes-decrochage-garcons-monde",
-    "side": "hommes",
-    "claimTitle": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
-    "claimMetric": "140 M vs 133 M",
-    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
-    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
-    "date": "2026-06-30",
-    "updatedAt": "2026-06-30T07:30:00.000Z"
-  },
-  {
-    "claimId": "hommes-sorties-precoces",
-    "side": "hommes",
-    "claimTitle": "Garçons plus touchés par les sorties précoces du système scolaire",
-    "claimMetric": "9,5 % vs 5,6 %",
-    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
-    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
-    "date": "2026-06-30",
-    "updatedAt": "2026-06-30T07:30:00.000Z"
   },
   {
     "claimId": "hommes-accidents-travail",

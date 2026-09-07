@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-09-06T00:00:00+02:00
+Derniere generation: 2026-09-07T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -20,7 +20,7 @@ Derniere generation: 2026-09-06T00:00:00+02:00
 - Fiches: 96
 - Fiches concernant les hommes: 44
 - Fiches concernant les femmes: 52
-- Sources distinctes: 196
+- Sources distinctes: 198
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -526,10 +526,10 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Periode: 2024+
 - Statut: actuel
 - Mesure cle: 140 M vs 133 M
-- Resume: L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles, et souligne que le désengagement scolaire masculin reste insuffisamment pris en compte dans certaines politiques. En France, l'édition 2026 de la DEPP mesure aussi des réussites plus faibles pour les garçons au brevet, au baccalauréat et à la sortie avec un master ou plus.
-- Nuance: Le décrochage varie selon la pauvreté, le territoire, les conflits, l'âge et le niveau observé. En France, les filles obtiennent plus souvent le brevet (89 % contre 83 %), le baccalauréat dans une génération (85 % contre 75 %) et un master ou plus (29 % contre 22 %), tandis que les garçons conservent certains avantages en mathématiques et que les diplômés hommes d'un master occupent plus souvent un CDI dans la mesure publiée.
+- Resume: Le rapport GEM 2026 de l'UNESCO estime que 140 millions de garçons étaient hors de l'école dans le monde en 2024, contre 133 millions de filles. En France, l'édition 2026 de la DEPP mesure aussi des réussites plus faibles pour les garçons au brevet, au baccalauréat et à la sortie avec un master ou plus.
+- Nuance: Le total mondial additionne plusieurs âges scolaires et ne mesure pas le même indicateur que les sorties précoces européennes. Le rapport GEM 2026 souligne aussi que le sens de l'écart varie avec le contexte : dans les pays à faible revenu, 79 jeunes femmes achèvent le secondaire supérieur pour 100 jeunes hommes, contre 106 dans les pays à revenu élevé. En France, les filles obtiennent plus souvent le brevet (89 % contre 83 %), le baccalauréat dans une génération (85 % contre 75 %) et un master ou plus (29 % contre 22 %), tandis que les garçons conservent certains avantages en mathématiques et que les diplômés hommes d'un master occupent plus souvent un CDI dans la mesure publiée.
 - Population mesuree: Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.
-- Sources: UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education/boys; UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education; UNESCO (2022): https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education; UNESCO (16 juin 2026): https://www.unesco.org/en/articles/lifting-barriers-boys-disengagement-education-volume-1-scoping-study; Ministère de l'Éducation nationale / DEPP (2026): https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2026-469418
+- Sources: UNESCO / GEM Report (7 septembre 2026): https://www.unesco.org/reports/gem-report/en/2026-monitoring-sdg4; UNESCO / GEM Report (7 septembre 2026): https://www.unesco.org/gem-report/en/articles/what-does-2026-gem-report-say-about-access-and-equity-education; UNESCO (consulté le 7 septembre 2026): https://www.unesco.org/en/gender-equality/education/boys; UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education; UNESCO (2022): https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education; UNESCO (16 juin 2026): https://www.unesco.org/en/articles/lifting-barriers-boys-disengagement-education-volume-1-scoping-study; Ministère de l'Éducation nationale / DEPP (2026): https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2026-469418
 
 ## Hommes plus souvent sans-abri dans la plupart des pays
 - ID: hommes-sans-abrisme

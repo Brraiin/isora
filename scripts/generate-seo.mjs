@@ -1140,13 +1140,21 @@ ${lexiconEntries.map(renderLexiconEntryHtml).join("\n")}
 async function renderClaimAssets() {
   await rm(publicClaimsDir, { recursive: true, force: true });
   await mkdir(publicClaimsDir, { recursive: true });
-  await writeFile(join(publicClaimsDir, "index.html"), renderClaimIndexHtml(), "utf8");
+  await writeFile(
+    join(publicClaimsDir, "index.html"),
+    renderClaimIndexHtml().replace(/[ \t]+$/gm, ""),
+    "utf8",
+  );
 
   await Promise.all(
     claims.map(async (claim) => {
       const claimDir = join(publicClaimsDir, claim.id);
       await mkdir(claimDir, { recursive: true });
-      await writeFile(join(claimDir, "index.html"), renderClaimHtml(claim), "utf8");
+      await writeFile(
+        join(claimDir, "index.html"),
+        renderClaimHtml(claim).replace(/[ \t]+$/gm, ""),
+        "utf8",
+      );
     }),
   );
 }
@@ -1154,7 +1162,11 @@ async function renderClaimAssets() {
 async function renderLexiconAssets() {
   await rm(publicLexiconDir, { recursive: true, force: true });
   await mkdir(publicLexiconDir, { recursive: true });
-  await writeFile(join(publicLexiconDir, "index.html"), renderLexiconHtml(), "utf8");
+  await writeFile(
+    join(publicLexiconDir, "index.html"),
+    renderLexiconHtml().replace(/[ \t]+$/gm, ""),
+    "utf8",
+  );
 }
 
 const robots = `User-agent: *

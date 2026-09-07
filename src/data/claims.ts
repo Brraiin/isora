@@ -687,15 +687,27 @@ const rawClaims: RawClaim[] = [
     title: "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
     metric: "140 M vs 133 M",
     summary:
-      "L'UNESCO estime que 140 millions de garçons sont hors de l'école dans le monde, contre 133 millions de filles, et souligne que le désengagement scolaire masculin reste insuffisamment pris en compte dans certaines politiques. En France, l'édition 2026 de la DEPP mesure aussi des réussites plus faibles pour les garçons au brevet, au baccalauréat et à la sortie avec un master ou plus.",
+      "Le rapport GEM 2026 de l'UNESCO estime que 140 millions de garçons étaient hors de l'école dans le monde en 2024, contre 133 millions de filles. En France, l'édition 2026 de la DEPP mesure aussi des réussites plus faibles pour les garçons au brevet, au baccalauréat et à la sortie avec un master ou plus.",
     tags: ["éducation", "jeunesse", "monde", "décrochage"],
     source: {
-      label: "Boys' disengagement from education",
-      publisher: "UNESCO",
-      url: "https://www.unesco.org/en/gender-equality/education/boys",
-      date: "consulté 2026",
+      label: "Monitoring education in the SDGs — 2026 Global Education Monitoring Report",
+      publisher: "UNESCO / GEM Report",
+      url: "https://www.unesco.org/reports/gem-report/en/2026-monitoring-sdg4",
+      date: "7 septembre 2026",
     },
     additionalSources: [
+      {
+        label: "What does the 2026 GEM Report say about access and equity in education?",
+        publisher: "UNESCO / GEM Report",
+        url: "https://www.unesco.org/gem-report/en/articles/what-does-2026-gem-report-say-about-access-and-equity-education",
+        date: "7 septembre 2026",
+      },
+      {
+        label: "Boys' disengagement from education",
+        publisher: "UNESCO",
+        url: "https://www.unesco.org/en/gender-equality/education/boys",
+        date: "consulté le 7 septembre 2026",
+      },
       {
         label: "Gender equality and education",
         publisher: "UNESCO",
@@ -723,9 +735,9 @@ const rawClaims: RawClaim[] = [
       },
     ],
     confidence: "forte",
-    lastChecked: "11 août 2026",
+    lastChecked: "7 septembre 2026",
     nuance:
-      "Le décrochage varie selon la pauvreté, le territoire, les conflits, l'âge et le niveau observé. En France, les filles obtiennent plus souvent le brevet (89 % contre 83 %), le baccalauréat dans une génération (85 % contre 75 %) et un master ou plus (29 % contre 22 %), tandis que les garçons conservent certains avantages en mathématiques et que les diplômés hommes d'un master occupent plus souvent un CDI dans la mesure publiée.",
+      "Le total mondial additionne plusieurs âges scolaires et ne mesure pas le même indicateur que les sorties précoces européennes. Le rapport GEM 2026 souligne aussi que le sens de l'écart varie avec le contexte : dans les pays à faible revenu, 79 jeunes femmes achèvent le secondaire supérieur pour 100 jeunes hommes, contre 106 dans les pays à revenu élevé. En France, les filles obtiennent plus souvent le brevet (89 % contre 83 %), le baccalauréat dans une génération (85 % contre 75 %) et un master ou plus (29 % contre 22 %), tandis que les garçons conservent certains avantages en mathématiques et que les diplômés hommes d'un master occupent plus souvent un CDI dans la mesure publiée.",
   },
   {
     id: "hommes-sans-abrisme",

@@ -2,7 +2,7 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-05T22:01:09.893Z",
+  "generatedAt": "2026-09-07T19:06:00.253Z",
   "posts": [
     {
       "id": "2026-09-05-chomage-femmes-hommes-ue-france-2026",
@@ -945,7 +945,7 @@
       "description": "Les données publiées en juin 2026 par Eurostat confirment une asymétrie masculine persistante dans les sorties précoces d'éducation et de formation au sein de l'Union européenne. Les séries françaises de l'Insee, le cadrage OCDE et les repères UNESCO montrent toutefois que cette asymétrie dépend du territoire, de l'âge observé et du niveau scolaire retenu.",
       "date": "2026-06-30",
       "publishedAt": "2026-06-30T07:30:00.000Z",
-      "updatedAt": "2026-06-30T07:30:00.000Z",
+      "updatedAt": "2026-09-07T19:03:37.000Z",
       "topic": {
         "id": "education-orientation",
         "label": "Éducation, orientation et formation"
@@ -992,10 +992,24 @@
           "type": "rapport comparatif"
         },
         {
+          "title": "Monitoring education in the SDGs — 2026 Global Education Monitoring Report",
+          "publisher": "UNESCO / GEM Report",
+          "url": "https://www.unesco.org/reports/gem-report/en/2026-monitoring-sdg4",
+          "date": "7 septembre 2026",
+          "type": "rapport mondial"
+        },
+        {
+          "title": "What does the 2026 GEM Report say about access and equity in education?",
+          "publisher": "UNESCO / GEM Report",
+          "url": "https://www.unesco.org/gem-report/en/articles/what-does-2026-gem-report-say-about-access-and-equity-education",
+          "date": "7 septembre 2026",
+          "type": "présentation institutionnelle du rapport"
+        },
+        {
           "title": "Boys’ disengagement from education",
           "publisher": "UNESCO",
           "url": "https://www.unesco.org/en/gender-equality/education/boys",
-          "date": "consulté le 30 juin 2026",
+          "date": "consulté le 7 septembre 2026",
           "type": "page de cadrage institutionnelle"
         }
       ]
