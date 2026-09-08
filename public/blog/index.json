@@ -2,8 +2,70 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-07T19:06:00.253Z",
+  "generatedAt": "2026-09-08T18:43:07.962Z",
   "posts": [
+    {
+      "id": "2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons",
+      "title": "PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/",
+      "description": "Les résultats PISA 2025 montrent deux asymétries de sens opposé en France : les filles devancent les garçons en compréhension de l’écrit, tandis que les garçons obtiennent un score supérieur en culture mathématique. En sciences, les performances sont similaires.",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T18:34:46.403Z",
+      "updatedAt": "2026-09-08T18:34:46.403Z",
+      "topic": {
+        "id": "education-orientation",
+        "label": "Éducation, orientation et formation"
+      },
+      "keywords": [
+        "PISA 2025 filles garçons France",
+        "écart lecture filles garçons PISA",
+        "écart mathématiques filles garçons PISA",
+        "DEPP PISA 2025 France",
+        "performances scolaires selon le sexe"
+      ],
+      "relatedClaimIds": [
+        "hommes-decrochage-garcons-monde",
+        "femmes-ingenierie"
+      ],
+      "readingMinutes": 6,
+      "sources": [
+        {
+          "title": "PISA 2025 Results (Volume I): Learning and Equity in Education",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html",
+          "date": "8 septembre 2026",
+          "type": "rapport international"
+        },
+        {
+          "title": "Student performance in PISA 2025",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html",
+          "date": "8 septembre 2026",
+          "type": "chapitre statistique"
+        },
+        {
+          "title": "PISA 2025 : les acquis des élèves de 15 ans en compréhension de l’écrit et en culture mathématique en baisse en France et dans l’OCDE",
+          "publisher": "Ministère de l’Éducation nationale / DEPP",
+          "url": "https://www.education.gouv.fr/depp/pisa-2025-les-acquis-des-eleves-de-15-ans-en-comprehension-de-l-ecrit-et-en-culture-mathematique-en-505645",
+          "date": "8 septembre 2026",
+          "type": "Note d’Information n° 26.40"
+        },
+        {
+          "title": "PISA 2025 : en culture scientifique, le score baisse par rapport à 2015 en France comme dans l’OCDE, et les performances sont similaires entre les filles et les garçons",
+          "publisher": "Ministère de l’Éducation nationale / DEPP",
+          "url": "https://www.education.gouv.fr/depp/pisa-2025-en-culture-scientifique-le-score-baisse-par-rapport-2015-en-france-comme-dans-l-ocde-et-505639",
+          "date": "8 septembre 2026",
+          "type": "Note d’Information n° 26.39"
+        },
+        {
+          "title": "PISA 2025: Students’ reading and mathematics performance declined sharply across the OECD",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html",
+          "date": "8 septembre 2026",
+          "type": "communiqué institutionnel"
+        }
+      ]
+    },
     {
       "id": "2026-09-05-chomage-femmes-hommes-ue-france-2026",
       "title": "Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France",

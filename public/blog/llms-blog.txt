@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques
+- URL: https://isora-xi.vercel.app/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/
+- Date: 2026-09-08
+- Sujet: Éducation, orientation et formation
+- Fiches isora liees: hommes-decrochage-garcons-monde, femmes-ingenierie
+- Resume: Publié le 8 septembre 2026, PISA 2025 fait apparaître en France des écarts entre filles et garçons qui changent de sens selon la matière. Les filles obtiennent 32 points de plus en compréhension de l’écrit et les garçons 13 points de plus en culture mathématique. La difficulté en lecture concerne 39 % des garçons contre 26 % des filles. En sciences, la DEPP ne relève pas de différence significative entre les deux groupes. Ces résultats décrivent des performances moyennes d’élèves scolarisés de 15 ans ; ils ne prouvent ni une aptitude naturelle ni une cause unique liée au sexe.
+- Sources: OCDE (8 septembre 2026): https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html; OCDE (8 septembre 2026): https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html; Ministère de l’Éducation nationale / DEPP (8 septembre 2026): https://www.education.gouv.fr/depp/pisa-2025-les-acquis-des-eleves-de-15-ans-en-comprehension-de-l-ecrit-et-en-culture-mathematique-en-505645; Ministère de l’Éducation nationale / DEPP (8 septembre 2026): https://www.education.gouv.fr/depp/pisa-2025-en-culture-scientifique-le-score-baisse-par-rapport-2015-en-france-comme-dans-l-ocde-et-505639; OCDE (8 septembre 2026): https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html
+
 ### Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France
 - URL: https://isora-xi.vercel.app/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/
 - Date: 2026-09-05

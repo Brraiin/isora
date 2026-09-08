@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-09-07T00:00:00+02:00
+Last generation: 2026-09-08T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques
+- URL: https://isora-xi.vercel.app/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/
+- Date: 2026-09-08
+- Related isora entries: hommes-decrochage-garcons-monde, femmes-ingenierie
+- Summary: Publié le 8 septembre 2026, PISA 2025 fait apparaître en France des écarts entre filles et garçons qui changent de sens selon la matière. Les filles obtiennent 32 points de plus en compréhension de l’écrit et les garçons 13 points de plus en culture mathématique. La difficulté en lecture concerne 39 % des garçons contre 26 % des filles. En sciences, la DEPP ne relève pas de différence significative entre les deux groupes. Ces résultats décrivent des performances moyennes d’élèves scolarisés de 15 ans ; ils ne prouvent ni une aptitude naturelle ni une cause unique liée au sexe.
+- Sources: OCDE: https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html; OCDE: https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html; Ministère de l’Éducation nationale / DEPP: https://www.education.gouv.fr/depp/pisa-2025-les-acquis-des-eleves-de-15-ans-en-comprehension-de-l-ecrit-et-en-culture-mathematique-en-505645; Ministère de l’Éducation nationale / DEPP: https://www.education.gouv.fr/depp/pisa-2025-en-culture-scientifique-le-score-baisse-par-rapport-2015-en-france-comme-dans-l-ocde-et-505639; OCDE: https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html
+
 ### Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France
 - URL: https://isora-xi.vercel.app/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/
 - Date: 2026-09-05
@@ -203,13 +210,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Date: 2026-07-15
 - Summary: La DREES a mis à jour le 2 juillet 2026 la démographie des professions de santé en France : 242 200 médecins sont en activité au 1er janvier 2026 et 51 % sont des femmes. Croisées avec l'Atlas 2026 du Conseil national de l'Ordre des médecins et avec le panorama Eurostat sur les médecins en Europe, ces données montrent une féminisation nette mais inégale selon l'âge, la profession et le mode d'exercice.
 - Sources: DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-medecins-supplementaires-en-activite-en-France-au-1er-janvier-2026; DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-les-effectifs-des-professionnels-de-sant%C3%A9; Conseil national de l'Ordre des médecins: https://www.conseil-national.medecin.fr/sites/default/files/CNOM-ATLAS-DEMOGRAPHIE-2026-TOME-1.pdf; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_personnel_statistics_-_physicians
-
-### Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins
-- URL: https://isora-xi.vercel.app/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/
-- Date: 2026-07-15
-- Related isora entries: femmes-separation-niveau-vie
-- Summary: Eurostat a publié le 1er juin 2026 une mise à jour montrant qu'en 2025 l'Union européenne comptait environ 6,1 millions de foyers avec enfants reposant sur un seul adulte, soit 12,9 % des ménages avec enfants, et que 81,6 % d'entre eux étaient dirigés par des femmes. Les sources françaises ne mesurent pas exactement la même chose, mais elles convergent sur une forte concentration de la monoparentalité du côté maternel. L'Insee indique qu'en 2023, 23 % des enfants mineurs vivant en famille résident dans une famille monoparentale, dont 19 % avec leur mère et 4 % avec leur père. Les publications Insee et DREES décrivent aussi des contraintes plus fortes sur ces ménages, avec davantage de privation matérielle, plus de chômage chez les mères seules et un recours plus fréquent aux proches pour garder les jeunes enfants.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260601-1; Insee: https://www.insee.fr/fr/statistiques/8967255; Insee: https://www.insee.fr/fr/statistiques/8310621; Blog Insee: https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/; DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250130_ER_monoparentalites-solidarites-familales
 
 
 ## Hommes toujours davantage touchés par les accidents du travail

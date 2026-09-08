@@ -12,14 +12,24 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-ingenierie",
+    "side": "femmes",
+    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
+    "claimMetric": "24 %",
+    "blogTitle": "PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques",
+    "blogUrl": "/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/",
+    "date": "2026-09-08",
+    "updatedAt": "2026-09-08T18:34:46.403Z"
+  },
+  {
     "claimId": "hommes-decrochage-garcons-monde",
     "side": "hommes",
     "claimTitle": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
     "claimMetric": "140 M vs 133 M",
-    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
-    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
-    "date": "2026-06-30",
-    "updatedAt": "2026-09-07T19:03:37.000Z"
+    "blogTitle": "PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques",
+    "blogUrl": "/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/",
+    "date": "2026-09-08",
+    "updatedAt": "2026-09-08T18:34:46.403Z"
   },
   {
     "claimId": "hommes-sorties-precoces",
@@ -330,16 +340,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/",
     "date": "2026-07-02",
     "updatedAt": "2026-07-02T18:15:00.000Z"
-  },
-  {
-    "claimId": "femmes-ingenierie",
-    "side": "femmes",
-    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
-    "claimMetric": "24 %",
-    "blogTitle": "IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins",
-    "blogUrl": "/blog/2026-07-01-ia-generative-emplois-feminises-numerique/",
-    "date": "2026-07-01",
-    "updatedAt": "2026-07-01T17:00:00.000Z"
   },
   {
     "claimId": "hommes-accidents-travail",
