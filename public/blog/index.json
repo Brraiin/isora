@@ -2,7 +2,7 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-08T18:43:07.962Z",
+  "generatedAt": "2026-09-09T18:36:16.289Z",
   "posts": [
     {
       "id": "2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons",
@@ -1568,10 +1568,10 @@
       "id": "2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe",
       "title": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
       "url": "https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
-      "description": "Les données 2026 distinguent décès par suicide, plus masculins, et hospitalisations pour gestes auto-infligés, plus féminines chez les jeunes.",
+      "description": "Eurostat mesure en 2023 un taux brut de décès par suicide de 16,9 pour 100 000 hommes contre 5,0 pour 100 000 femmes dans l’UE. En France, les hospitalisations pour gestes auto-infligés restent plus féminines chez les jeunes.",
       "date": "2026-06-25",
       "publishedAt": "2026-06-25T06:30:00.000Z",
-      "updatedAt": "2026-06-25T06:30:00.000Z",
+      "updatedAt": "2026-09-09T18:31:51.219Z",
       "topic": {
         "id": "sante-mortalite",
         "label": "Santé, mortalité et parcours de soin"
@@ -1616,6 +1616,13 @@
           "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473",
           "date": "5 novembre 2025",
           "type": "rapport"
+        },
+        {
+          "title": "Deaths by suicide in the EU: a slight decline in 2023",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/edn-20260909-1",
+          "date": "9 septembre 2026",
+          "type": "statistique publique européenne"
         }
       ]
     }

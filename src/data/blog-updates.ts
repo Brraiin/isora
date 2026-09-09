@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-suicide",
+    "side": "hommes",
+    "claimTitle": "Décès par suicide : surmortalité masculine en France et dans l'UE",
+    "claimMetric": "75 % FR · 76,4 % UE",
+    "blogTitle": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
+    "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-09-09T18:31:51.219Z"
+  },
+  {
+    "claimId": "hommes-suicide-monde",
+    "side": "hommes",
+    "claimTitle": "Hommes beaucoup plus exposés à la mort par suicide",
+    "claimMetric": ">2x",
+    "blogTitle": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
+    "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
+    "date": "2026-06-25",
+    "updatedAt": "2026-09-09T18:31:51.219Z"
+  },
+  {
     "claimId": "femmes-ingenierie",
     "side": "femmes",
     "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
@@ -380,25 +400,5 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/",
     "date": "2026-06-25",
     "updatedAt": "2026-06-25T15:55:00.000Z"
-  },
-  {
-    "claimId": "hommes-suicide-monde",
-    "side": "hommes",
-    "claimTitle": "Hommes beaucoup plus exposés à la mort par suicide",
-    "claimMetric": ">2x",
-    "blogTitle": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
-    "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
-    "date": "2026-06-25",
-    "updatedAt": "2026-06-25T06:30:00.000Z"
-  },
-  {
-    "claimId": "hommes-suicide",
-    "side": "hommes",
-    "claimTitle": "Surmortalité masculine par suicide",
-    "claimMetric": "75 %",
-    "blogTitle": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
-    "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
-    "date": "2026-06-25",
-    "updatedAt": "2026-06-25T06:30:00.000Z"
   }
 ] as const satisfies readonly HomeBlogUpdate[];

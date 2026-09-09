@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-09-08T00:00:00+02:00
+Derniere generation: 2026-09-09T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -20,7 +20,7 @@ Derniere generation: 2026-09-08T00:00:00+02:00
 - Fiches: 96
 - Fiches concernant les hommes: 44
 - Fiches concernant les femmes: 52
-- Sources distinctes: 198
+- Sources distinctes: 200
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -227,21 +227,21 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.
 - Sources: Dares (22 juillet 2026): https://dares.travail-emploi.gouv.fr/publication/quels-salaries-sont-le-plus-souvent-victimes-daccidents-du-travail-en-2023; ANACT (2022): https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe
 
-## Surmortalité masculine par suicide
+## Décès par suicide : surmortalité masculine en France et dans l'UE
 - ID: hommes-suicide
 - URL: https://isora-xi.vercel.app/fiches/hommes-suicide/
 - URL interactive: https://isora-xi.vercel.app/#hommes-suicide
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
-- Zone: France
-- Periode: 2023+
+- Zone: France et Union européenne
+- Periode: 2023-2023
 - Statut: actuel
-- Mesure cle: 75 %
-- Resume: En France, 8 848 décès par suicide ont été recensés en 2023 et 75 % concernent des hommes. L'isolement, la précarité et les ruptures de parcours sont cités parmi les déterminants sociaux à surveiller.
-- Nuance: Le taux varie fortement selon l'âge, le niveau de vie et le territoire. La lecture doit rester sanitaire et sociale, pas accusatoire.
-- Population mesuree: Population mesurée par la source : hommes dans les statistiques françaises de décès. La source ne mesure pas les chromosomes.
-- Sources: Ministère du Travail et des Solidarités (2026): https://solidarites.gouv.fr/prevention-du-suicide-le-lien-social-comme-rempart-contre-lisolement
+- Mesure cle: 75 % FR · 76,4 % UE
+- Resume: En 2023, 75 % des 8 848 décès par suicide recensés en France concernent des hommes. Dans l'Union européenne, Eurostat mesure une proportion proche de 76,4 %, avec un taux brut de 16,9 pour 100 000 hommes contre 5,0 pour 100 000 femmes.
+- Nuance: Les chiffres français et européens portent sur des décès classés à partir des certificats de décès, pas sur l'ensemble des pensées suicidaires ou tentatives. Les taux par sexe d'Eurostat sont des taux bruts et ne doivent pas être confondus avec le taux standardisé de la population totale. Les écarts restent importants selon l'âge, le pays, le niveau de vie et la situation sociale ; ils ne permettent pas d'attribuer la surmortalité masculine à une cause unique.
+- Population mesuree: Population mesurée par les sources : femmes et hommes dont le décès a été classé comme suicide ou lésion auto-infligée intentionnelle en France et dans les États membres de l'Union européenne en 2023. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.
+- Sources: Ministère du Travail et des Solidarités (2026): https://solidarites.gouv.fr/prevention-du-suicide-le-lien-social-comme-rempart-contre-lisolement; DREES (janvier 2026): https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf; Eurostat (9 septembre 2026, données 2023): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/edn-20260909-1
 
 ## Espérance de vie plus courte pour les hommes en France
 - ID: hommes-esperance-vie

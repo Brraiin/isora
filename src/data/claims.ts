@@ -139,10 +139,10 @@ const rawClaims: RawClaim[] = [
     id: "hommes-suicide",
     side: "hommes",
     domain: "Santé",
-    title: "Surmortalité masculine par suicide",
-    metric: "75 %",
+    title: "Décès par suicide : surmortalité masculine en France et dans l'UE",
+    metric: "75 % FR · 76,4 % UE",
     summary:
-      "En France, 8 848 décès par suicide ont été recensés en 2023 et 75 % concernent des hommes. L'isolement, la précarité et les ruptures de parcours sont cités parmi les déterminants sociaux à surveiller.",
+      "En 2023, 75 % des 8 848 décès par suicide recensés en France concernent des hommes. Dans l'Union européenne, Eurostat mesure une proportion proche de 76,4 %, avec un taux brut de 16,9 pour 100 000 hommes contre 5,0 pour 100 000 femmes.",
     tags: ["santé", "isolement", "sociétal", "prévention"],
     source: {
       label: "Prévention du suicide : le lien social comme rempart",
@@ -150,10 +150,36 @@ const rawClaims: RawClaim[] = [
       url: "https://solidarites.gouv.fr/prevention-du-suicide-le-lien-social-comme-rempart-contre-lisolement",
       date: "2026",
     },
+    additionalSources: [
+      {
+        label: "Le suicide, trois fois plus fréquent chez les hommes, deux fois plus chez les plus modestes",
+        publisher: "DREES",
+        url: "https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf",
+        date: "janvier 2026",
+      },
+      {
+        label: "Deaths by suicide in the EU: a slight decline in 2023",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/edn-20260909-1",
+        date: "9 septembre 2026, données 2023",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Deaths by suicide: higher male mortality in France and the EU",
+        summary:
+          "In 2023, men accounted for 75% of the 8,848 deaths by suicide recorded in France. Across the European Union, Eurostat reports a similar share of 76.4%, with a crude death rate of 16.9 per 100,000 men versus 5.0 per 100,000 women.",
+        nuance:
+          "The French and EU figures concern deaths recorded from death certificates, not all suicidal thoughts or attempts. Eurostat's sex-specific rates are crude rates and should not be confused with the age-standardised rate for the total population. Differences by age, country, income and social situation remain substantial, so the gap cannot be attributed to a single cause.",
+        sourcePopulation:
+          "Population measured by the sources: women and men whose deaths were classified as suicide or intentional self-harm in France and EU Member States in 2023. The sources use women/men categories and do not measure chromosomes.",
+        tags: ["health", "suicide", "mortality", "prevention", "France", "European Union"],
+      },
+    },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "9 septembre 2026",
     nuance:
-      "Le taux varie fortement selon l'âge, le niveau de vie et le territoire. La lecture doit rester sanitaire et sociale, pas accusatoire.",
+      "Les chiffres français et européens portent sur des décès classés à partir des certificats de décès, pas sur l'ensemble des pensées suicidaires ou tentatives. Les taux par sexe d'Eurostat sont des taux bruts et ne doivent pas être confondus avec le taux standardisé de la population totale. Les écarts restent importants selon l'âge, le pays, le niveau de vie et la situation sociale ; ils ne permettent pas d'attribuer la surmortalité masculine à une cause unique.",
   },
   {
     id: "hommes-esperance-vie",
@@ -3430,7 +3456,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-accidents-travail":
     "Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.",
   "hommes-suicide":
-    "Population mesurée par la source : hommes dans les statistiques françaises de décès. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : femmes et hommes dont le décès a été classé comme suicide ou lésion auto-infligée intentionnelle en France et dans les États membres de l'Union européenne en 2023. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
   "hommes-esperance-vie":
     "Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.",
   "hommes-mal-etre-recours-professionnel":
@@ -3641,8 +3667,10 @@ const claimMetadata: Record<string, ClaimMeta> = {
     legalType: "santé et sécurité au travail",
   },
   "hommes-suicide": {
-    pays_ou_zone: "France",
+    pays_ou_zone: "France et Union européenne",
+    regionScope: "Europe",
     periode_debut: "2023",
+    periode_fin: "2023",
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "santé publique",

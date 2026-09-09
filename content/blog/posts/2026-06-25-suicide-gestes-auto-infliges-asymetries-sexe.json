@@ -4,10 +4,10 @@
   "status": "published",
   "language": "fr",
   "title": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
-  "description": "Les données 2026 distinguent décès par suicide, plus masculins, et hospitalisations pour gestes auto-infligés, plus féminines chez les jeunes.",
+  "description": "Eurostat mesure en 2023 un taux brut de décès par suicide de 16,9 pour 100 000 hommes contre 5,0 pour 100 000 femmes dans l’UE. En France, les hospitalisations pour gestes auto-infligés restent plus féminines chez les jeunes.",
   "date": "2026-06-25",
   "publishedAt": "2026-06-25T06:30:00.000Z",
-  "updatedAt": "2026-06-25T06:30:00.000Z",
+  "updatedAt": "2026-09-09T18:31:51.219Z",
   "topic": {
     "id": "sante-mortalite",
     "label": "Santé, mortalité et parcours de soin"
@@ -24,9 +24,10 @@
     "hommes-suicide-monde"
   ],
   "readingMinutes": 5,
-  "summary": "Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Pour isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.",
+  "summary": "Les publications récentes invitent à ne pas mélanger deux indicateurs : les décès par suicide restent nettement plus fréquents chez les hommes, tandis que les hospitalisations pour gestes auto-infligés concernent davantage les femmes, surtout les adolescentes et jeunes femmes. Le 9 septembre 2026, Eurostat a précisé qu’en 2023 les hommes représentaient 76,4 % des décès par suicide dans l’Union européenne, avec un taux brut de 16,9 pour 100 000 contre 5,0 chez les femmes. Pour Isora, le sujet illustre une règle éditoriale centrale : une asymétrie peut changer de sens selon ce qui est mesuré.",
   "keyPoints": [
     "La DREES indique qu'entre 2011 et 2021, le taux annuel moyen de décès par suicide est de 21,2 pour 100 000 chez les hommes et de 6,5 chez les femmes en France.",
+    "Dans l’Union européenne en 2023, Eurostat mesure un taux brut de décès par suicide de 16,9 pour 100 000 hommes contre 5,0 pour 100 000 femmes ; les hommes représentent 76,4 % des 48 370 décès recensés.",
     "Le jeu de données DREES paru en mai 2026 mesure les hospitalisations pour gestes auto-infligés en 2025 : 64 % des patients hospitalisés en soins somatiques sont des femmes.",
     "Chez les 10-19 ans, le taux féminin d'hospitalisation pour geste auto-infligé atteint 482 pour 100 000 en 2025, niveau le plus élevé des groupes d'âge et de sexe suivis par la DREES.",
     "Santé publique France rappelle que la surveillance doit distinguer pensées suicidaires, tentatives, hospitalisations et décès, car ces indicateurs ne décrivent pas la même situation.",
@@ -36,8 +37,15 @@
     {
       "heading": "Ce qui change",
       "paragraphs": [
-        "La veille du jour fait apparaître un sujet utile pour isora parce qu'il oblige à séparer les indicateurs. En janvier 2026, la DREES publie une étude sur les décès par suicide selon le sexe, le niveau de vie et plusieurs caractéristiques sociales. En mai 2026, elle complète le tableau avec un jeu de données sur les hospitalisations liées aux gestes auto-infligés en 2025.",
+        "La mise à jour Eurostat du 9 septembre 2026 apporte une mesure harmonisée des décès par suicide dans l’Union européenne en 2023. Elle complète l’étude publiée par la DREES en janvier 2026 sur les décès selon le sexe, le niveau de vie et plusieurs caractéristiques sociales en France, ainsi que le jeu de données de mai 2026 sur les hospitalisations liées aux gestes auto-infligés en 2025.",
         "Ces deux publications ne racontent pas la même chose. Les décès par suicide documentent une mortalité fortement masculine. Les hospitalisations pour gestes auto-infligés, elles, captent des tentatives de suicide ou des automutilations non suicidaires et font ressortir une hausse très marquée chez les adolescentes et jeunes femmes."
+      ]
+    },
+    {
+      "heading": "Dans l’Union européenne, plus de trois décès sur quatre concernent des hommes",
+      "paragraphs": [
+        "Eurostat recense 48 370 décès par lésions auto-infligées intentionnelles dans l’Union européenne en 2023. Les hommes représentent 76,4 % de ces décès. Le taux brut atteint 16,9 décès pour 100 000 hommes, contre 5,0 pour 100 000 femmes, soit un rapport d’environ 3,4 entre les deux taux.",
+        "L’écart masculin apparaît dans toutes les classes d’âge sauf chez les moins de 15 ans, où les taux sont similaires. La part masculine varie aussi selon le pays, de 70,2 % aux Pays-Bas à 90,3 % à Malte. Ces différences nationales rappellent qu’une moyenne européenne décrit un ensemble, pas une situation identique dans chaque État membre."
       ]
     },
     {
@@ -48,17 +56,17 @@
       ]
     },
     {
-      "heading": "Pourquoi c'est utile pour isora",
+      "heading": "Pourquoi c'est utile pour Isora",
       "paragraphs": [
-        "Pour une fiche isora, le risque serait de résumer trop vite le sujet par une formule unique du type \"les hommes sont plus touchés\" ou \"les femmes sont plus touchées\". Les données montrent plutôt deux asymétries simultanées : une mortalité par suicide plus élevée chez les hommes, et des hospitalisations pour gestes auto-infligés plus fréquentes chez les femmes, surtout jeunes.",
+        "Pour une fiche Isora, le risque serait de résumer trop vite le sujet par une formule unique du type \"les hommes sont plus touchés\" ou \"les femmes sont plus touchées\". Les données montrent plutôt deux asymétries simultanées : une mortalité par suicide plus élevée chez les hommes, et des hospitalisations pour gestes auto-infligés plus fréquentes chez les femmes, surtout jeunes.",
         "Cette distinction aide aussi à éviter les lectures concurrentielles. Les indicateurs ne s'annulent pas. Ils pointent vers des besoins de prévention différents : repérage du risque létal, accompagnement des hommes âgés ou socialement exposés, prise en charge des adolescentes et jeunes femmes hospitalisées, et suivi des jeunes hommes dont les gestes auto-infligés augmentent également."
       ]
     },
     {
       "heading": "Limites à garder en tête",
       "paragraphs": [
-        "Les sources utilisent les catégories statistiques disponibles dans les systèmes de santé et d'état civil. Elles parlent de femmes et d'hommes tels que les bases les enregistrent; elles ne mesurent pas les chromosomes. isora doit donc conserver le libellé de source et préciser la population effectivement observée.",
-        "Les hospitalisations ne couvrent pas tous les gestes auto-infligés : certains ne donnent pas lieu à hospitalisation, d'autres relèvent de la psychiatrie plutôt que des soins somatiques, et les pratiques de codage peuvent évoluer. À l'inverse, les décès par suicide sont un indicateur de mortalité, pas un indicateur direct de souffrance psychique totale."
+        "Les sources utilisent les catégories statistiques disponibles dans les systèmes de santé et d'état civil. Elles parlent de femmes et d'hommes tels que les bases les enregistrent; elles ne mesurent pas les chromosomes. Isora doit donc conserver le libellé de source et préciser la population effectivement observée.",
+        "Les hospitalisations ne couvrent pas tous les gestes auto-infligés : certains ne donnent pas lieu à hospitalisation, d'autres relèvent de la psychiatrie plutôt que des soins somatiques, et les pratiques de codage peuvent évoluer. À l'inverse, les décès par suicide sont un indicateur de mortalité, pas un indicateur direct de souffrance psychique totale. Les taux de 16,9 et 5,0 publiés par Eurostat sont des taux bruts par sexe ; ils ne doivent pas être confondus avec le taux européen standardisé de 10,4 pour 100 000, ajusté sur une population d’âge de référence."
       ]
     }
   ],
@@ -68,7 +76,7 @@
       "answer": "Pour les décès par suicide, les hommes sont nettement plus concernés dans les données françaises citées par la DREES. Pour les hospitalisations liées à des gestes auto-infligés, les femmes, surtout les adolescentes et jeunes femmes, apparaissent davantage concernées."
     },
     {
-      "question": "Pourquoi isora sépare-t-il décès par suicide et gestes auto-infligés ?",
+      "question": "Pourquoi Isora sépare-t-il décès par suicide et gestes auto-infligés ?",
       "answer": "Parce que ces indicateurs ne mesurent pas la même chose. Un décès par suicide mesure une mortalité; une hospitalisation pour geste auto-infligé mesure un passage hospitalier après tentative ou automutilation non suicidaire."
     },
     {
@@ -104,12 +112,19 @@
       "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2025-12824-52598-81473",
       "date": "5 novembre 2025",
       "type": "rapport"
+    },
+    {
+      "title": "Deaths by suicide in the EU: a slight decline in 2023",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/edn-20260909-1",
+      "date": "9 septembre 2026",
+      "type": "statistique publique européenne"
     }
   ],
   "editorialChecks": {
     "generatedBy": "veille assistée Codex",
     "model": "codex",
-    "generatedAt": "2026-06-25T06:30:00.000Z",
+    "generatedAt": "2026-09-09T18:31:51.219Z",
     "requiresHumanReview": false
   }
 }
