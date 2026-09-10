@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-09-09T00:00:00+02:00
+Last generation: 2026-09-10T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -21,7 +21,7 @@ Last generation: 2026-09-09T00:00:00+02:00
 - Entries: 96
 - Entries about men: 44
 - Entries about women: 52
-- Distinct sources: 200
+- Distinct sources: 204
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -195,8 +195,8 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora-xi.vercel.app/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/
 - Date: 2026-07-19
 - Related isora entries: hommes-sans-abrisme
-- Summary: Les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en Angleterre, les hommes restent très majoritaires. Le cadre mensuel publié le 25 juin 2026 estime qu'en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. Le snapshot d'automne 2025 retrouve une structure voisine avec 82 % d'hommes. Mais ces chiffres décrivent surtout la rue visible. Les notes méthodologiques britanniques et les synthèses OCDE rappellent qu'une partie du sans-abrisme féminin passe plus souvent par des formes moins visibles, comme l'hébergement provisoire chez des proches ou l'hébergement temporaire, ce qui réduit ou inverse parfois l'écart selon la source retenue.
-- Sources: UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-release; UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-technical-notes; UK Government: https://www.gov.uk/government/statistics/rough-sleeping-snapshot-in-england-autumn-2025/rough-sleeping-snapshot-in-england-autumn-2025; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/peopleexperiencinghomelessnessenglandandwales/census2021; OECD: https://www.oecd.org/en/topics/sub-issues/homelessness-and-housing-exclusion/toolkit-to-combat-homelessness/measurement.html; OECD: https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf
+- Summary: Les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en Angleterre, les hommes restent très majoritaires. Le cadre mensuel publié le 25 juin 2026 estime qu'en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. Le snapshot d'automne 2025 retrouve une structure voisine avec 82 % d'hommes. Mais ces chiffres décrivent surtout la rue visible. Les notes pays publiées par l'OCDE le 10 septembre 2026 renforcent ce constat méthodologique : elles indiquent 87 % d'hommes au Mexique, où seule la rue est couverte, 56 % en Australie, où le champ est beaucoup plus large, et 62 % au Canada. Les années, définitions et méthodes diffèrent; ces pourcentages ne permettent donc pas de classer directement les pays.
+- Sources: UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-release; UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-technical-notes; UK Government: https://www.gov.uk/government/statistics/rough-sleeping-snapshot-in-england-autumn-2025/rough-sleeping-snapshot-in-england-autumn-2025; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/peopleexperiencinghomelessnessenglandandwales/census2021; OECD: https://www.oecd.org/en/topics/sub-issues/homelessness-and-housing-exclusion/toolkit-to-combat-homelessness/measurement.html; OECD: https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf; OECD Affordable Housing Database: https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html
 
 ### Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025
 - URL: https://isora-xi.vercel.app/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/
@@ -546,22 +546,21 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: UNESCO / GEM Report (7 septembre 2026): https://www.unesco.org/reports/gem-report/en/2026-monitoring-sdg4; UNESCO / GEM Report (7 septembre 2026): https://www.unesco.org/gem-report/en/articles/what-does-2026-gem-report-say-about-access-and-equity-education; UNESCO (consulté le 7 septembre 2026): https://www.unesco.org/en/gender-equality/education/boys; UNESCO (consulté 2026): https://www.unesco.org/en/gender-equality/education; UNESCO (2022): https://www.unesco.org/en/articles/what-you-need-know-about-unescos-global-report-boys-disengagement-education; UNESCO (16 juin 2026): https://www.unesco.org/en/articles/lifting-barriers-boys-disengagement-education-volume-1-scoping-study; Ministère de l'Éducation nationale / DEPP (2026): https://www.education.gouv.fr/depp/filles-et-garcons-sur-le-chemin-de-l-egalite-de-l-ecole-l-enseignement-superieur-edition-2026-469418
 
-## Hommes plus souvent sans-abri dans la plupart des pays
+## Men are the majority in 31 of 33 countries reported by the OECD
 - ID: hommes-sans-abrisme
 - URL: https://isora-xi.vercel.app/fiches/hommes-sans-abrisme/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-sans-abrisme
 - Group: hommes
 - Angle: désavantage_subi
 - Domain: Revenus
-- Zone: France
-- Period: données actualisées+
+- Zone: OCDE
+- Period: 2026+
 - Status: actuel
-- Key measure: majorité hommes
-- Summary: Our World in Data observe que dans la plupart des pays, les hommes sont plus susceptibles d'être sans-abri, dans beaucoup de pays, les femmes représentent 20 % à 40 % des personnes sans domicile.
-- Nuance: Les formes de sans-abrisme sont parfois moins visibles chez les femmes. La comparaison dépend fortement des définitions nationales.
-- Measured population: Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
-- Sources: Our World in Data (données actualisées): https://ourworldindata.org/homelessness
+- Key measure: 31 pays sur 33
+- Summary: The OECD comparison shows that women account for a smaller share than men among people experiencing homelessness in 31 of the 33 countries with a women-men breakdown. The 2026 country notes illustrate male majorities of 56% in Australia, 62% in Canada and 87% in Mexico, based on different years and scopes.
+- Nuance: National definitions and methods differ sharply. Mexico counts only people sleeping in public spaces, while Australia uses a much broader definition. Canada's 62% figure comes from the 2024 subgroup table, whereas its 2025 headline estimate covers 75 communities. Women experiencing hidden homelessness may be undercounted. France's 2026 note provides no sex-disaggregated subgroup table, so no women-men split can be inferred from its total.
+- Measured population: Population measured by the sources: people recorded as experiencing homelessness under national definitions and classified as men or women in the relevant national statistics. The sources do not measure chromosomes.
+- Sources: OECD Affordable Housing Database (2026): https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html
 
 ## Recorded violence: men are the majority outside families, women within families
 - ID: hommes-violences-physiques-hors-famille-france-2025

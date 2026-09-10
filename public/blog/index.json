@@ -2,7 +2,7 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-09T18:36:16.289Z",
+  "generatedAt": "2026-09-10T18:58:47.687Z",
   "posts": [
     {
       "id": "2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons",
@@ -294,10 +294,10 @@
       "id": "2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre",
       "title": "Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré",
       "url": "https://isora-xi.vercel.app/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/",
-      "description": "Les derniers comptages officiels 2025-2026 en Angleterre confirment une forte majorité masculine dans le rough sleeping, mais les sources plus larges sur l'hébergement temporaire et les formes moins visibles de sans-abrisme conduisent à une lecture moins simple.",
+      "description": "Les comptages anglais confirment une forte majorité masculine dans la rue. Les notes OCDE 2026 montrent que l'écart varie fortement selon le périmètre mesuré.",
       "date": "2026-07-19",
       "publishedAt": "2026-07-19T19:56:40.000Z",
-      "updatedAt": "2026-07-19T19:56:40.000Z",
+      "updatedAt": "2026-09-10T18:41:12.021Z",
       "topic": {
         "id": "droits-autonomie",
         "label": "Droits, autonomie et accès aux services"
@@ -307,12 +307,14 @@
         "rough sleeping England men women March 2026",
         "rough sleeping snapshot autumn 2025 sex",
         "homelessness England women hidden homelessness OECD",
-        "ONS homelessness census 2021 men women"
+        "ONS homelessness census 2021 men women",
+        "OCDE sans-abrisme hommes femmes 2026",
+        "homelessness OECD country notes 2026 sex"
       ],
       "relatedClaimIds": [
         "hommes-sans-abrisme"
       ],
-      "readingMinutes": 5,
+      "readingMinutes": 6,
       "sources": [
         {
           "title": "Rough sleeping data framework: January to March 2026 release",
@@ -354,6 +356,41 @@
           "publisher": "OECD",
           "url": "https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf",
           "date": "2024",
+          "type": "note pays"
+        },
+        {
+          "title": "HC3.1 Homeless population",
+          "publisher": "OECD Affordable Housing Database",
+          "url": "https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf",
+          "date": "2026",
+          "type": "tableau comparatif et méthodologie"
+        },
+        {
+          "title": "Data on homelessness and housing exclusion 2026: Australia",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html",
+          "date": "10 septembre 2026",
+          "type": "note pays"
+        },
+        {
+          "title": "Data on homelessness and housing exclusion 2026: Canada",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html",
+          "date": "10 septembre 2026",
+          "type": "note pays"
+        },
+        {
+          "title": "Data on homelessness and housing exclusion 2026: Mexico",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html",
+          "date": "10 septembre 2026",
+          "type": "note pays"
+        },
+        {
+          "title": "Data on homelessness and housing exclusion 2026: France",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html",
+          "date": "10 septembre 2026",
           "type": "note pays"
         }
       ]

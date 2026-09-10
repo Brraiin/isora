@@ -1,7 +1,7 @@
 {
   "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-09T00:00:00+02:00",
+  "generatedAt": "2026-09-10T00:00:00+02:00",
   "language": "en",
   "sourceLanguage": "fr",
   "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
@@ -15,7 +15,7 @@
     "total": 96,
     "hommes": 44,
     "femmes": 52,
-    "sources": 200
+    "sources": 204
   },
   "domains": [
     "Travail",
@@ -1585,38 +1585,64 @@
       "id": "hommes-sans-abrisme",
       "url": "https://isora-xi.vercel.app/fiches/hommes-sans-abrisme/",
       "appUrl": "https://isora-xi.vercel.app/#hommes-sans-abrisme",
-      "title": "Hommes plus souvent sans-abri dans la plupart des pays",
-      "originalTitle": "Hommes plus souvent sans-abri dans la plupart des pays",
+      "title": "Men are the majority in 31 of 33 countries reported by the OECD",
+      "originalTitle": "Hommes majoritaires dans 31 des 33 pays renseignés par l'OCDE",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Revenus",
-      "metric": "majorité hommes",
-      "summary": "Our World in Data observe que dans la plupart des pays, les hommes sont plus susceptibles d'être sans-abri, dans beaucoup de pays, les femmes représentent 20 % à 40 % des personnes sans domicile.",
-      "originalSummary": "Our World in Data observe que dans la plupart des pays, les hommes sont plus susceptibles d'être sans-abri, dans beaucoup de pays, les femmes représentent 20 % à 40 % des personnes sans domicile.",
-      "nuance": "Les formes de sans-abrisme sont parfois moins visibles chez les femmes. La comparaison dépend fortement des définitions nationales.",
-      "originalNuance": "Les formes de sans-abrisme sont parfois moins visibles chez les femmes. La comparaison dépend fortement des définitions nationales.",
+      "metric": "31 pays sur 33",
+      "summary": "The OECD comparison shows that women account for a smaller share than men among people experiencing homelessness in 31 of the 33 countries with a women-men breakdown. The 2026 country notes illustrate male majorities of 56% in Australia, 62% in Canada and 87% in Mexico, based on different years and scopes.",
+      "originalSummary": "Le tableau comparatif de l'OCDE indique que les femmes représentent une part plus faible que les hommes parmi les personnes sans domicile dans 31 des 33 pays disposant d'une ventilation femmes-hommes. Les notes pays 2026 illustrent une majorité masculine de 56 % en Australie, 62 % au Canada et 87 % au Mexique, avec des années et des périmètres différents.",
+      "nuance": "National definitions and methods differ sharply. Mexico counts only people sleeping in public spaces, while Australia uses a much broader definition. Canada's 62% figure comes from the 2024 subgroup table, whereas its 2025 headline estimate covers 75 communities. Women experiencing hidden homelessness may be undercounted. France's 2026 note provides no sex-disaggregated subgroup table, so no women-men split can be inferred from its total.",
+      "originalNuance": "Les définitions et méthodes nationales varient fortement. Le Mexique ne compte que les personnes dormant dans l'espace public, tandis que l'Australie retient un champ beaucoup plus large. Le taux canadien de 62 % provient du tableau de sous-groupes 2024, alors que l'estimation globale 2025 couvre 75 communautés. Le sans-abrisme caché des femmes peut être sous-compté. La note France 2026 ne fournit aucune ventilation par sexe, donc aucun partage femmes-hommes ne peut être déduit de son total.",
       "tags": [
-        "revenus",
-        "logement",
-        "précarité",
-        "international"
+        "income",
+        "housing",
+        "precarity",
+        "international",
+        "OECD"
       ],
-      "countryScope": "France",
+      "countryScope": "OCDE",
       "regionScope": "",
-      "periodStart": "données actualisées",
+      "periodStart": "2026",
       "periodEnd": null,
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.",
-      "originalSourcePopulation": "Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population measured by the sources: people recorded as experiencing homelessness under national definitions and classified as men or women in the relevant national statistics. The sources do not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : personnes enregistrées comme sans domicile selon les définitions nationales et classées comme hommes ou femmes dans les statistiques correspondantes. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "10 septembre 2026",
       "source": {
-        "label": "Homelessness",
-        "publisher": "Our World in Data",
-        "url": "https://ourworldindata.org/homelessness",
-        "date": "données actualisées"
+        "label": "HC3.1 Homeless population",
+        "publisher": "OECD Affordable Housing Database",
+        "url": "https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf",
+        "date": "2026"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Data on homelessness and housing exclusion 2026: Australia",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html",
+          "date": "10 septembre 2026"
+        },
+        {
+          "label": "Data on homelessness and housing exclusion 2026: Canada",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html",
+          "date": "10 septembre 2026"
+        },
+        {
+          "label": "Data on homelessness and housing exclusion 2026: Mexico",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html",
+          "date": "10 septembre 2026"
+        },
+        {
+          "label": "Data on homelessness and housing exclusion 2026: France",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html",
+          "date": "10 septembre 2026"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {

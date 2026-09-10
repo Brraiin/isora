@@ -769,21 +769,59 @@ const rawClaims: RawClaim[] = [
     id: "hommes-sans-abrisme",
     side: "hommes",
     domain: "Revenus",
-    title: "Hommes plus souvent sans-abri dans la plupart des pays",
-    metric: "majorité hommes",
+    title: "Hommes majoritaires dans 31 des 33 pays renseignés par l'OCDE",
+    metric: "31 pays sur 33",
     summary:
-      "Our World in Data observe que dans la plupart des pays, les hommes sont plus susceptibles d'être sans-abri, dans beaucoup de pays, les femmes représentent 20 % à 40 % des personnes sans domicile.",
-    tags: ["revenus", "logement", "précarité", "international"],
+      "Le tableau comparatif de l'OCDE indique que les femmes représentent une part plus faible que les hommes parmi les personnes sans domicile dans 31 des 33 pays disposant d'une ventilation femmes-hommes. Les notes pays 2026 illustrent une majorité masculine de 56 % en Australie, 62 % au Canada et 87 % au Mexique, avec des années et des périmètres différents.",
+    tags: ["revenus", "logement", "précarité", "international", "OCDE"],
     source: {
-      label: "Homelessness",
-      publisher: "Our World in Data",
-      url: "https://ourworldindata.org/homelessness",
-      date: "données actualisées",
+      label: "HC3.1 Homeless population",
+      publisher: "OECD Affordable Housing Database",
+      url: "https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf",
+      date: "2026",
+    },
+    additionalSources: [
+      {
+        label: "Data on homelessness and housing exclusion 2026: Australia",
+        publisher: "OECD",
+        url: "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html",
+        date: "10 septembre 2026",
+      },
+      {
+        label: "Data on homelessness and housing exclusion 2026: Canada",
+        publisher: "OECD",
+        url: "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html",
+        date: "10 septembre 2026",
+      },
+      {
+        label: "Data on homelessness and housing exclusion 2026: Mexico",
+        publisher: "OECD",
+        url: "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html",
+        date: "10 septembre 2026",
+      },
+      {
+        label: "Data on homelessness and housing exclusion 2026: France",
+        publisher: "OECD",
+        url: "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html",
+        date: "10 septembre 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Men are the majority in 31 of 33 countries reported by the OECD",
+        summary:
+          "The OECD comparison shows that women account for a smaller share than men among people experiencing homelessness in 31 of the 33 countries with a women-men breakdown. The 2026 country notes illustrate male majorities of 56% in Australia, 62% in Canada and 87% in Mexico, based on different years and scopes.",
+        nuance:
+          "National definitions and methods differ sharply. Mexico counts only people sleeping in public spaces, while Australia uses a much broader definition. Canada's 62% figure comes from the 2024 subgroup table, whereas its 2025 headline estimate covers 75 communities. Women experiencing hidden homelessness may be undercounted. France's 2026 note provides no sex-disaggregated subgroup table, so no women-men split can be inferred from its total.",
+        sourcePopulation:
+          "Population measured by the sources: people recorded as experiencing homelessness under national definitions and classified as men or women in the relevant national statistics. The sources do not measure chromosomes.",
+        tags: ["income", "housing", "precarity", "international", "OECD"],
+      },
     },
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "10 septembre 2026",
     nuance:
-      "Les formes de sans-abrisme sont parfois moins visibles chez les femmes. La comparaison dépend fortement des définitions nationales.",
+      "Les définitions et méthodes nationales varient fortement. Le Mexique ne compte que les personnes dormant dans l'espace public, tandis que l'Australie retient un champ beaucoup plus large. Le taux canadien de 62 % provient du tableau de sous-groupes 2024, alors que l'estimation globale 2025 couvre 75 communautés. Le sans-abrisme caché des femmes peut être sous-compté. La note France 2026 ne fournit aucune ventilation par sexe, donc aucun partage femmes-hommes ne peut être déduit de son total.",
   },
   {
     id: "hommes-violences-physiques-hors-famille-france-2025",
@@ -3494,7 +3532,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-decrochage-garcons-monde":
     "Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.",
   "hommes-sans-abrisme":
-    "Population mesurée par la source : men / women selon les définitions nationales du sans-abrisme. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : personnes enregistrées comme sans domicile selon les définitions nationales et classées comme hommes ou femmes dans les statistiques correspondantes. Les sources ne mesurent pas les chromosomes.",
   "hommes-violences-physiques-hors-famille-france-2025":
     "Population mesurée par la source : victimes de violences physiques et sexuelles enregistrées comme crimes ou délits par la police et la gendarmerie françaises en 2025. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "hommes-violence-partenaire-etats-unis":

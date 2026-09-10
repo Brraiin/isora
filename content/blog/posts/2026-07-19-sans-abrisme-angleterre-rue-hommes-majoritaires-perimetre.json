@@ -4,10 +4,10 @@
   "status": "published",
   "language": "fr",
   "title": "Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré",
-  "description": "Les derniers comptages officiels 2025-2026 en Angleterre confirment une forte majorité masculine dans le rough sleeping, mais les sources plus larges sur l'hébergement temporaire et les formes moins visibles de sans-abrisme conduisent à une lecture moins simple.",
+  "description": "Les comptages anglais confirment une forte majorité masculine dans la rue. Les notes OCDE 2026 montrent que l'écart varie fortement selon le périmètre mesuré.",
   "date": "2026-07-19",
   "publishedAt": "2026-07-19T19:56:40.000Z",
-  "updatedAt": "2026-07-19T19:56:40.000Z",
+  "updatedAt": "2026-09-10T18:41:12.021Z",
   "topic": {
     "id": "droits-autonomie",
     "label": "Droits, autonomie et accès aux services"
@@ -17,19 +17,22 @@
     "rough sleeping England men women March 2026",
     "rough sleeping snapshot autumn 2025 sex",
     "homelessness England women hidden homelessness OECD",
-    "ONS homelessness census 2021 men women"
+    "ONS homelessness census 2021 men women",
+    "OCDE sans-abrisme hommes femmes 2026",
+    "homelessness OECD country notes 2026 sex"
   ],
   "relatedClaimIds": [
     "hommes-sans-abrisme"
   ],
-  "readingMinutes": 5,
-  "summary": "Les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en Angleterre, les hommes restent très majoritaires. Le cadre mensuel publié le 25 juin 2026 estime qu'en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. Le snapshot d'automne 2025 retrouve une structure voisine avec 82 % d'hommes. Mais ces chiffres décrivent surtout la rue visible. Les notes méthodologiques britanniques et les synthèses OCDE rappellent qu'une partie du sans-abrisme féminin passe plus souvent par des formes moins visibles, comme l'hébergement provisoire chez des proches ou l'hébergement temporaire, ce qui réduit ou inverse parfois l'écart selon la source retenue.",
+  "readingMinutes": 6,
+  "summary": "Les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en Angleterre, les hommes restent très majoritaires. Le cadre mensuel publié le 25 juin 2026 estime qu'en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. Le snapshot d'automne 2025 retrouve une structure voisine avec 82 % d'hommes. Mais ces chiffres décrivent surtout la rue visible. Les notes pays publiées par l'OCDE le 10 septembre 2026 renforcent ce constat méthodologique : elles indiquent 87 % d'hommes au Mexique, où seule la rue est couverte, 56 % en Australie, où le champ est beaucoup plus large, et 62 % au Canada. Les années, définitions et méthodes diffèrent; ces pourcentages ne permettent donc pas de classer directement les pays.",
   "keyPoints": [
     "Le rough sleeping data framework publié le 25 juin 2026 estime qu'en mars 2026, 7 541 personnes ont été vues en rough sleeping au moins une fois dans le mois en Angleterre, dont 6 111 hommes, 1 253 femmes et 177 personnes au sexe inconnu ou non renseigné.",
     "Dans cette même source, les hommes représentent 81 % des personnes comptées en mars 2026, contre 17 % pour les femmes.",
     "Le rough sleeping snapshot d'automne 2025, fondé sur un décompte ou une estimation sur une seule nuit, recense 4 793 personnes en Angleterre, dont 82 % d'hommes et 15 % de femmes.",
     "Les notes techniques britanniques indiquent que le rough sleeping féminin peut être plus caché, plus intermittent et plus transitoire que le rough sleeping masculin, ce qui limite la portée d'un simple comptage de rue.",
-    "Le Census 2021 de l'ONS sur les personnes identifiées comme sans domicile en Angleterre et au pays de Galles mesure une majorité masculine plus faible, à 67,1 % d'hommes contre 32,9 % de femmes, tandis que la note pays OCDE sur le Royaume-Uni montre qu'un champ administratif plus large incluant surtout l'hébergement temporaire peut aboutir à une structure encore différente."
+    "Le Census 2021 de l'ONS sur les personnes identifiées comme sans domicile en Angleterre et au pays de Galles mesure une majorité masculine plus faible, à 67,1 % d'hommes contre 32,9 % de femmes, tandis que la note pays OCDE sur le Royaume-Uni montre qu'un champ administratif plus large incluant surtout l'hébergement temporaire peut aboutir à une structure encore différente.",
+    "Les notes pays OCDE 2026 illustrent le même effet de périmètre : 87 % d'hommes au Mexique dans un recensement limité aux personnes dormant dans l'espace public, 56 % en Australie dans un champ large et 62 % au Canada dans la ventilation par sous-groupes de l'enquête Everyone Counts."
   ],
   "sections": [
     {
@@ -61,10 +64,18 @@
       ]
     },
     {
+      "heading": "Les notes pays OCDE 2026 confirment surtout l'effet du périmètre",
+      "paragraphs": [
+        "Le 10 septembre 2026, l'OCDE a publié une nouvelle série de notes pays sur le sans-abrisme et l'exclusion liée au logement. Le tableau comparatif de l'organisation indique que les femmes sont minoritaires dans 31 des 33 pays disposant d'une ventilation femmes-hommes. L'OCDE avertit toutefois qu'il n'existe pas de définition internationale harmonisée et que certaines populations, notamment les femmes confrontées au sans-abrisme caché, peuvent échapper aux dispositifs de comptage.",
+        "Trois notes montrent pourquoi les pourcentages bruts doivent rester attachés à leur champ. Au Mexique, le recensement 2020 ne couvre que les personnes dormant dans l'espace public et compte 87 % d'hommes et 13 % de femmes. En Australie, le recensement 2021 inclut aussi l'hébergement d'urgence, les structures pour personnes sans domicile, les logements non conventionnels, l'hébergement chez des proches et la suroccupation sévère; la répartition est alors de 56 % d'hommes et 44 % de femmes. Au Canada, la ventilation par sous-groupes d'Everyone Counts 2024 indique 62 % d'hommes et 35 % de femmes; le solde comprend d'autres catégories ou des réponses non renseignées.",
+        "La note 2026 sur la France estime 333 000 personnes sans domicile en 2022, soit 0,49 % de la population, mais ne publie aucune ventilation par sexe dans son tableau de sous-groupes. Il serait donc incorrect de transformer ce total en deux taux femmes-hommes. La prochaine enquête nationale française, menée au printemps 2025, est annoncée comme susceptible d'être disponible à la fin de 2026."
+      ]
+    },
+    {
       "heading": "Population mesurée et limites",
       "paragraphs": [
         "Le rough sleeping data framework de juin 2026 mesure des personnes vues en rough sleeping au moins une fois dans le mois en Angleterre; il s'agit d'une série de pilotage qui n'est pas directement équivalente au snapshot annuel sur une seule nuit. Le rough sleeping snapshot 2025 mesure lui aussi seulement la rue visible, à partir de comptages locaux ou d'estimations locales sur une nuit donnée.",
-        "Le Census 2021 de l'ONS porte sur des personnes identifiées comme homeless dans le recensement en Angleterre et au pays de Galles; il ne mesure pas tous les parcours de mal-logement ou de logement précaire. La note pays OCDE agrège encore un autre champ, qui ne se compare pas mécaniquement aux comptes de rue. Les sources citées parlent d'hommes et de femmes selon leurs catégories statistiques administratives; elles ne mesurent pas les chromosomes."
+        "Le Census 2021 de l'ONS porte sur des personnes identifiées comme homeless dans le recensement en Angleterre et au pays de Galles; il ne mesure pas tous les parcours de mal-logement ou de logement précaire. Les notes OCDE rassemblent des années, définitions et méthodes nationales différentes : comptes ponctuels, recensements et données administratives. Elles documentent la composition des populations comptées, pas un risque comparable d'un pays à l'autre. Les sources citées parlent d'hommes et de femmes selon leurs catégories statistiques administratives; elles ne mesurent pas les chromosomes."
       ]
     }
   ],
@@ -124,12 +135,47 @@
       "url": "https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf",
       "date": "2024",
       "type": "note pays"
+    },
+    {
+      "title": "HC3.1 Homeless population",
+      "publisher": "OECD Affordable Housing Database",
+      "url": "https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf",
+      "date": "2026",
+      "type": "tableau comparatif et méthodologie"
+    },
+    {
+      "title": "Data on homelessness and housing exclusion 2026: Australia",
+      "publisher": "OECD",
+      "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html",
+      "date": "10 septembre 2026",
+      "type": "note pays"
+    },
+    {
+      "title": "Data on homelessness and housing exclusion 2026: Canada",
+      "publisher": "OECD",
+      "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html",
+      "date": "10 septembre 2026",
+      "type": "note pays"
+    },
+    {
+      "title": "Data on homelessness and housing exclusion 2026: Mexico",
+      "publisher": "OECD",
+      "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html",
+      "date": "10 septembre 2026",
+      "type": "note pays"
+    },
+    {
+      "title": "Data on homelessness and housing exclusion 2026: France",
+      "publisher": "OECD",
+      "url": "https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html",
+      "date": "10 septembre 2026",
+      "type": "note pays"
     }
   ],
   "editorialChecks": {
     "generatedBy": "veille web assistée par Codex",
     "model": "codex",
-    "generatedAt": "2026-07-19T19:56:40.000Z",
+    "generatedAt": "2026-09-10T18:41:12.021Z",
     "requiresHumanReview": false
   }
 }
