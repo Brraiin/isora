@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-10T00:00:00+02:00",
+  "generatedAt": "2026-09-11T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -15,7 +15,7 @@
     "total": 96,
     "hommes": 44,
     "femmes": 52,
-    "sources": 204
+    "sources": 206
   },
   "domains": [
     "Travail",
@@ -73,7 +73,6 @@
     "économie",
     "éducation",
     "enfance",
-    "espace public",
     "espaces non mixtes",
     "États-Unis",
     "Europe",
@@ -160,6 +159,7 @@
     "soin",
     "soins",
     "sport",
+    "SSMSI",
     "statistiques",
     "STEM",
     "stéréotypes",
@@ -175,6 +175,7 @@
     "Union européenne",
     "variable selon pays",
     "véhicules",
+    "victimes enregistrées",
     "viol",
     "violence domestique",
     "violence exercée par les hommes sur les femmes",
@@ -2878,40 +2879,46 @@
       "id": "femmes-violences-sexuelles-transports-hce-2025",
       "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-transports-hce-2025/",
       "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-transports-hce-2025",
-      "title": "Femmes très majoritaires parmi les victimes dans les transports",
+      "title": "Femmes très majoritaires parmi les victimes de violences sexuelles dans les transports",
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Violences",
-      "metric": "91 %",
-      "summary": "Le rapport HCE indique que plus de six femmes sur dix déclarent avoir déjà été moins bien traitées en raison de leur sexe dans la rue ou les transports. Dans les transports en commun, 91 % des victimes de violences sexistes ou sexuelles sont des femmes; 3 400 victimes de violences sexuelles y ont été recensées en 2024, avec une sous-déclaration importante.",
-      "nuance": "Les chiffres sur les transports combinent faits enregistrés et informations d'enquête sur le dépôt de plainte. Ils documentent une forte asymétrie de victimation dans un espace précis, mais les données enregistrées restent dépendantes du signalement et de l'enregistrement par les services compétents.",
+      "metric": "91 % F (2024)",
+      "summary": "En 2024, 91 % des victimes de violences sexuelles enregistrées dans les transports en commun sont des femmes. Le bilan définitif Interstats compte 3 494 victimes en 2025, soit 3 % de plus en un an, mais sa synthèse ne publie pas de répartition par sexe pour 2025 : la proportion de 2024 ne doit donc pas être appliquée automatiquement à ce nouveau total.",
+      "nuance": "La proportion de 91 % et le total de victimes de 2025 ne portent pas sur la même année. Les données enregistrées dépendent du signalement et des pratiques d'enregistrement ; les enquêtes de victimation reposent sur une autre méthode et ne doivent pas leur être additionnées.",
       "tags": [
         "transports",
-        "espace public",
         "violences sexuelles",
+        "victimes enregistrées",
         "France",
-        "HCE"
+        "SSMSI"
       ],
       "countryScope": "France",
       "regionScope": "Europe",
       "periodStart": "2024",
-      "periodEnd": "2025",
+      "periodEnd": "2026",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par les sources : femmes interrogées sur leur traitement dans l'espace public et victimes enregistrées de violences sexistes ou sexuelles dans les transports en commun. Les sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par les sources : victimes de violences sexuelles dans les transports en commun enregistrées par la police et la gendarmerie, avec une répartition femmes/hommes disponible pour 2024. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "21 juin 2026",
+      "lastChecked": "11 septembre 2026",
       "source": {
-        "label": "Rapport 2026 sur l'état des lieux du sexisme en France",
-        "publisher": "Haut Conseil à l'Égalité",
-        "url": "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
-        "date": "données 2024-2025, publication 2026"
+        "label": "Lettre n°23 - Les violences sexistes et sexuelles dans les transports en commun",
+        "publisher": "Observatoire national des violences faites aux femmes / Miprof",
+        "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf",
+        "date": "mars 2025, données 2024"
       },
       "additionalSources": [
         {
-          "label": "Lettre n°23 - Les violences sexistes et sexuelles dans les transports en commun",
-          "publisher": "Observatoire national des violences faites aux femmes / Miprof",
-          "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf",
-          "date": "mars 2025"
+          "label": "La délinquance enregistrée dans les réseaux de transports en commun en 2025",
+          "publisher": "Ministère de l'Intérieur / Interstats",
+          "url": "https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025",
+          "date": "septembre 2026, données 2025"
+        },
+        {
+          "label": "Les victimes de vols et de violences dans les réseaux de transports en commun en 2019",
+          "publisher": "Insee / SSMSI",
+          "url": "https://www.insee.fr/fr/statistiques/5763595",
+          "date": "décembre 2021, données 2019"
         }
       ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."

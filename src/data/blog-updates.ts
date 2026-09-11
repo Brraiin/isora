@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-violences-sexuelles-transports-hce-2025",
+    "side": "femmes",
+    "claimTitle": "Femmes très majoritaires parmi les victimes de violences sexuelles dans les transports",
+    "claimMetric": "91 % F (2024)",
+    "blogTitle": "Transports en commun : baisse globale des atteintes enregistrées, mais violences sexuelles en hausse",
+    "blogUrl": "/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/",
+    "date": "2026-09-11",
+    "updatedAt": "2026-09-11T18:45:55.316Z"
+  },
+  {
     "claimId": "hommes-sans-abrisme",
     "side": "hommes",
     "claimTitle": "Hommes majoritaires dans 31 des 33 pays renseignés par l'OCDE",

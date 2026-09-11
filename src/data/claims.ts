@@ -1994,41 +1994,47 @@ const rawClaims: RawClaim[] = [
     id: "femmes-violences-sexuelles-transports-hce-2025",
     side: "femmes",
     domain: "Violences",
-    title: "Femmes très majoritaires parmi les victimes dans les transports",
-    metric: "91 %",
+    title: "Femmes très majoritaires parmi les victimes de violences sexuelles dans les transports",
+    metric: "91 % F (2024)",
     summary:
-      "Le rapport HCE indique que plus de six femmes sur dix déclarent avoir déjà été moins bien traitées en raison de leur sexe dans la rue ou les transports. Dans les transports en commun, 91 % des victimes de violences sexistes ou sexuelles sont des femmes; 3 400 victimes de violences sexuelles y ont été recensées en 2024, avec une sous-déclaration importante.",
-    tags: ["transports", "espace public", "violences sexuelles", "France", "HCE"],
+      "En 2024, 91 % des victimes de violences sexuelles enregistrées dans les transports en commun sont des femmes. Le bilan définitif Interstats compte 3 494 victimes en 2025, soit 3 % de plus en un an, mais sa synthèse ne publie pas de répartition par sexe pour 2025 : la proportion de 2024 ne doit donc pas être appliquée automatiquement à ce nouveau total.",
+    tags: ["transports", "violences sexuelles", "victimes enregistrées", "France", "SSMSI"],
     source: {
-      label: "Rapport 2026 sur l'état des lieux du sexisme en France",
-      publisher: "Haut Conseil à l'Égalité",
-      url: "https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf",
-      date: "données 2024-2025, publication 2026",
+      label: "Lettre n°23 - Les violences sexistes et sexuelles dans les transports en commun",
+      publisher: "Observatoire national des violences faites aux femmes / Miprof",
+      url: "https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf",
+      date: "mars 2025, données 2024",
     },
     additionalSources: [
       {
-        label: "Lettre n°23 - Les violences sexistes et sexuelles dans les transports en commun",
-        publisher: "Observatoire national des violences faites aux femmes / Miprof",
-        url: "https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf",
-        date: "mars 2025",
+        label: "La délinquance enregistrée dans les réseaux de transports en commun en 2025",
+        publisher: "Ministère de l'Intérieur / Interstats",
+        url: "https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025",
+        date: "septembre 2026, données 2025",
+      },
+      {
+        label: "Les victimes de vols et de violences dans les réseaux de transports en commun en 2019",
+        publisher: "Insee / SSMSI",
+        url: "https://www.insee.fr/fr/statistiques/5763595",
+        date: "décembre 2021, données 2019",
       },
     ],
     translations: {
       en: {
-        title: "Women are a very large majority of victims in public transport",
+        title: "Women are a very large majority of sexual violence victims on public transport",
         summary:
-          "The HCE report states that more than six in ten women say they have already been treated worse because of their sex in the street or on transport. In public transport, 91% of victims of sexist or sexual violence are women; 3,400 victims of sexual violence in transport were recorded in 2024, with substantial under-reporting.",
+          "In 2024, women accounted for 91% of recorded victims of sexual violence on public transport. The final Interstats report counted 3,494 victims in 2025, up 3% in one year, but its summary does not publish a sex breakdown for 2025; the 2024 share should therefore not be applied automatically to the new total.",
         nuance:
-          "The transport figures combine recorded incidents and survey-based reporting information. They document a strong victimization asymmetry in a specific setting, while recorded data remains dependent on reporting and police registration practices.",
+          "The 91% share and the 2025 victim count refer to different years. Recorded data depends on reporting and police registration practices; survey-based victimization figures use a different method and should not be added to them.",
         sourcePopulation:
-          "Population measured by the sources: women surveyed on treatment in public space and recorded victims of sexist or sexual violence in public transport. The sources do not measure chromosomes.",
-        tags: ["transport", "public space", "sexual violence", "France", "HCE"],
+          "Population measured by the sources: victims of sexual violence on public transport recorded by the police and gendarmerie, with a women/men breakdown available for 2024. The sources do not measure chromosomes.",
+        tags: ["transport", "sexual violence", "recorded victims", "France", "SSMSI"],
       },
     },
     confidence: "forte",
-    lastChecked: "21 juin 2026",
+    lastChecked: "11 septembre 2026",
     nuance:
-      "Les chiffres sur les transports combinent faits enregistrés et informations d'enquête sur le dépôt de plainte. Ils documentent une forte asymétrie de victimation dans un espace précis, mais les données enregistrées restent dépendantes du signalement et de l'enregistrement par les services compétents.",
+      "La proportion de 91 % et le total de victimes de 2025 ne portent pas sur la même année. Les données enregistrées dépendent du signalement et des pratiques d'enregistrement ; les enquêtes de victimation reposent sur une autre méthode et ne doivent pas leur être additionnées.",
   },
   {
     id: "femmes-sport-inegalites-hce-2025",
@@ -3588,7 +3594,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-perception-desavantage-hce-2025":
     "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaisons hommes/femmes et par âge dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
   "femmes-violences-sexuelles-transports-hce-2025":
-    "Population mesurée par les sources : femmes interrogées sur leur traitement dans l'espace public et victimes enregistrées de violences sexistes ou sexuelles dans les transports en commun. Les sources ne mesurent pas les chromosomes.",
+    "Population mesurée par les sources : victimes de violences sexuelles dans les transports en commun enregistrées par la police et la gendarmerie, avec une répartition femmes/hommes disponible pour 2024. Les sources ne mesurent pas les chromosomes.",
   "femmes-sport-inegalites-hce-2025":
     "Population mesurée par les sources : personnes interrogées sur le sport en France, femmes déclarant une expérience personnelle, données de rémunération de la branche sport et revenus internationaux du sport d'élite. Les sources ne mesurent pas les chromosomes.",
   "femmes-cybersexisme-hce-2025":
@@ -4087,10 +4093,10 @@ const claimMetadata: Record<string, ClaimMeta> = {
     pays_ou_zone: "France",
     regionScope: "Europe",
     periode_debut: "2024",
-    periode_fin: "2025",
+    periode_fin: "2026",
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
-    legalType: "violences sexistes et sexuelles dans les transports",
+    legalType: "violences sexuelles enregistrées dans les transports",
   },
   "femmes-sport-inegalites-hce-2025": {
     pays_ou_zone: "France et monde",

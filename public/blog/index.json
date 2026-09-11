@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-10T18:58:47.687Z",
+  "generatedAt": "2026-09-11T21:48:05.574Z",
   "posts": [
+    {
+      "id": "2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025",
+      "title": "Transports en commun : baisse globale des atteintes enregistrées, mais violences sexuelles en hausse",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/",
+      "description": "En 2025, les services de sécurité ont enregistré 104 880 victimes dans les transports en commun, soit 2 % de moins en un an. Les violences sexuelles progressent toutefois de 3 %. Les dernières données sexuées disponibles, pour 2024, indiquent que 91 % de leurs victimes sont des femmes.",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T18:45:55.316Z",
+      "updatedAt": "2026-09-11T18:45:55.316Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "violences sexuelles transports femmes hommes",
+        "délinquance transports en commun 2025",
+        "victimes transports France Interstats",
+        "violences sexuelles transports 2024 femmes",
+        "sécurité transports données sexuées"
+      ],
+      "relatedClaimIds": [
+        "femmes-violences-sexuelles-transports-hce-2025"
+      ],
+      "readingMinutes": 6,
+      "sources": [
+        {
+          "title": "La délinquance enregistrée dans les réseaux de transports en commun en 2025",
+          "publisher": "Ministère de l'Intérieur / Interstats",
+          "url": "https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025",
+          "date": "10 septembre 2026",
+          "type": "rapport statistique"
+        },
+        {
+          "title": "Lettre n°23 - Les violences sexistes et sexuelles dans les transports en commun",
+          "publisher": "Observatoire national des violences faites aux femmes / Miprof",
+          "url": "https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf",
+          "date": "mars 2025",
+          "type": "lettre statistique"
+        },
+        {
+          "title": "Les victimes de vols et de violences dans les réseaux de transports en commun en 2019",
+          "publisher": "Insee / Service statistique ministériel de la sécurité intérieure",
+          "url": "https://www.insee.fr/fr/statistiques/5763595",
+          "date": "16 décembre 2021",
+          "type": "étude statistique"
+        },
+        {
+          "title": "Pour en finir avec les violences sexistes et sexuelles dans les transports en commun, le Gouvernement s'engage avec l'ensemble des acteurs du secteur",
+          "publisher": "Ministère chargé de l'Égalité entre les femmes et les hommes",
+          "url": "https://egalite-femmes-hommes.gouv.fr/pour-en-finir-avec-les-violences-sexistes-et-sexuelles-dans-les-transports-en-commun-le-gouvernement-sengage-avec-lensemble-des-acteurs-du-secteur",
+          "date": "30 mars 2026",
+          "type": "communication institutionnelle"
+        }
+      ]
+    },
     {
       "id": "2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons",
       "title": "PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques",

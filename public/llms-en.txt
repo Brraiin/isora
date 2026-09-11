@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-09-10T00:00:00+02:00
+Last generation: 2026-09-11T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -21,7 +21,7 @@ Last generation: 2026-09-10T00:00:00+02:00
 - Entries: 96
 - Entries about men: 44
 - Entries about women: 52
-- Distinct sources: 204
+- Distinct sources: 206
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Transports en commun : baisse globale des atteintes enregistrées, mais violences sexuelles en hausse
+- URL: https://isora-xi.vercel.app/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/
+- Date: 2026-09-11
+- Related isora entries: femmes-violences-sexuelles-transports-hce-2025
+- Summary: En 2025, la police et la gendarmerie ont enregistré 104 880 victimes de vols, violences, escroqueries et fraudes aux moyens de paiement dans les transports en commun en France. Ce total baisse de 2 % en un an et de 22 % depuis 2016, principalement dans un ensemble où les vols sans violence représentent 77 % des victimes. Mais les violences physiques ou sexuelles augmentent de 3 %, et 3 494 victimes de violences sexuelles sont recensées. Le bilan 2025 ne donne pas leur répartition par sexe : la dernière comparaison publiée porte sur 2024 et indique 91 % de femmes. Ces données enregistrées ne mesurent qu'une partie des faits, car beaucoup ne donnent pas lieu à une plainte.
+- Sources: Ministère de l'Intérieur / Interstats: https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025; Observatoire national des violences faites aux femmes / Miprof: https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf; Insee / Service statistique ministériel de la sécurité intérieure: https://www.insee.fr/fr/statistiques/5763595; Ministère chargé de l'Égalité entre les femmes et les hommes: https://egalite-femmes-hommes.gouv.fr/pour-en-finir-avec-les-violences-sexistes-et-sexuelles-dans-les-transports-en-commun-le-gouvernement-sengage-avec-lensemble-des-acteurs-du-secteur
+
 ### PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques
 - URL: https://isora-xi.vercel.app/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/
 - Date: 2026-09-08
@@ -204,12 +211,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-temps-partiel, femmes-soin-non-remunere-emploi
 - Summary: Eurostat a mis à jour le 16 juillet 2026 sa statistique sur la durée de vie au travail. En 2025, une personne de 15 ans dans l'Union européenne peut espérer passer en moyenne 37,5 ans dans la population active, contre 39,5 ans pour les hommes et 35,4 ans pour les femmes. L'écart recule par rapport à 2016, où il atteignait 5,0 ans, mais il reste net. Les données européennes sur l'emploi et le point trimestriel de l'Insee pour la France suggèrent que cet écart de durée s'inscrit dans une participation au marché du travail encore plus élevée chez les hommes, même si les écarts d'emploi observés à un instant donné sont plus faibles que l'écart cumulé de durée de vie au travail.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260716-2; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Duration_of_working_life_-_statistics; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_-_annual_statistics; Insee: https://www.insee.fr/fr/statistiques/8989990
-
-### Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe
-- URL: https://isora-xi.vercel.app/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/
-- Date: 2026-07-15
-- Summary: La DREES a mis à jour le 2 juillet 2026 la démographie des professions de santé en France : 242 200 médecins sont en activité au 1er janvier 2026 et 51 % sont des femmes. Croisées avec l'Atlas 2026 du Conseil national de l'Ordre des médecins et avec le panorama Eurostat sur les médecins en Europe, ces données montrent une féminisation nette mais inégale selon l'âge, la profession et le mode d'exercice.
-- Sources: DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-medecins-supplementaires-en-activite-en-France-au-1er-janvier-2026; DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-les-effectifs-des-professionnels-de-sant%C3%A9; Conseil national de l'Ordre des médecins: https://www.conseil-national.medecin.fr/sites/default/files/CNOM-ATLAS-DEMOGRAPHIE-2026-TOME-1.pdf; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_personnel_statistics_-_physicians
 
 
 ## Hommes toujours davantage touchés par les accidents du travail
@@ -1005,7 +1006,7 @@ The articles are written in French and summarize recent reports and trends with 
 - Measured population: Population measured by the source: people aged 15 and over in France, with men/women and age comparisons in the November 2025 HCE/Toluna Harris survey. The source does not measure chromosomes.
 - Sources: Haut Conseil à l'Égalité (données novembre 2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Toluna Harris Interactive / DGCS / HCE (novembre 2025): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/Rapport%20Toluna%20Harris%20-%20Barom%C3%A8tre%20sexisme%20Vague%205%20-%202025%20%28DGCS%20-%20HCE%29.pdf
 
-## Women are a very large majority of victims in public transport
+## Women are a very large majority of sexual violence victims on public transport
 - ID: femmes-violences-sexuelles-transports-hce-2025
 - URL: https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-transports-hce-2025/
 - Interactive app URL: https://isora-xi.vercel.app/#femmes-violences-sexuelles-transports-hce-2025
@@ -1013,13 +1014,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: désavantage_subi
 - Domain: Violences
 - Zone: France
-- Period: 2024-2025
+- Period: 2024-2026
 - Status: actuel
-- Key measure: 91 %
-- Summary: The HCE report states that more than six in ten women say they have already been treated worse because of their sex in the street or on transport. In public transport, 91% of victims of sexist or sexual violence are women; 3,400 victims of sexual violence in transport were recorded in 2024, with substantial under-reporting.
-- Nuance: The transport figures combine recorded incidents and survey-based reporting information. They document a strong victimization asymmetry in a specific setting, while recorded data remains dependent on reporting and police registration practices.
-- Measured population: Population measured by the sources: women surveyed on treatment in public space and recorded victims of sexist or sexual violence in public transport. The sources do not measure chromosomes.
-- Sources: Haut Conseil à l'Égalité (données 2024-2025, publication 2026): https://www.haut-conseil-egalite.gouv.fr/sites/hce/files/2026-01/HCE-2026-STER-Rapport_Sexisme--v04.pdf; Observatoire national des violences faites aux femmes / Miprof (mars 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf
+- Key measure: 91 % F (2024)
+- Summary: In 2024, women accounted for 91% of recorded victims of sexual violence on public transport. The final Interstats report counted 3,494 victims in 2025, up 3% in one year, but its summary does not publish a sex breakdown for 2025; the 2024 share should therefore not be applied automatically to the new total.
+- Nuance: The 91% share and the 2025 victim count refer to different years. Recorded data depends on reporting and police registration practices; survey-based victimization figures use a different method and should not be added to them.
+- Measured population: Population measured by the sources: victims of sexual violence on public transport recorded by the police and gendarmerie, with a women/men breakdown available for 2024. The sources do not measure chromosomes.
+- Sources: Observatoire national des violences faites aux femmes / Miprof (mars 2025, données 2024): https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf; Ministère de l'Intérieur / Interstats (septembre 2026, données 2025): https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025; Insee / SSMSI (décembre 2021, données 2019): https://www.insee.fr/fr/statistiques/5763595
 
 ## Sport: gaps in treatment, income and visibility
 - ID: femmes-sport-inegalites-hce-2025

@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Transports en commun : baisse globale des atteintes enregistrées, mais violences sexuelles en hausse
+- URL: https://isora-xi.vercel.app/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/
+- Date: 2026-09-11
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: femmes-violences-sexuelles-transports-hce-2025
+- Resume: En 2025, la police et la gendarmerie ont enregistré 104 880 victimes de vols, violences, escroqueries et fraudes aux moyens de paiement dans les transports en commun en France. Ce total baisse de 2 % en un an et de 22 % depuis 2016, principalement dans un ensemble où les vols sans violence représentent 77 % des victimes. Mais les violences physiques ou sexuelles augmentent de 3 %, et 3 494 victimes de violences sexuelles sont recensées. Le bilan 2025 ne donne pas leur répartition par sexe : la dernière comparaison publiée porte sur 2024 et indique 91 % de femmes. Ces données enregistrées ne mesurent qu'une partie des faits, car beaucoup ne donnent pas lieu à une plainte.
+- Sources: Ministère de l'Intérieur / Interstats (10 septembre 2026): https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025; Observatoire national des violences faites aux femmes / Miprof (mars 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf; Insee / Service statistique ministériel de la sécurité intérieure (16 décembre 2021): https://www.insee.fr/fr/statistiques/5763595; Ministère chargé de l'Égalité entre les femmes et les hommes (30 mars 2026): https://egalite-femmes-hommes.gouv.fr/pour-en-finir-avec-les-violences-sexistes-et-sexuelles-dans-les-transports-en-commun-le-gouvernement-sengage-avec-lensemble-des-acteurs-du-secteur
+
 ### PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques
 - URL: https://isora-xi.vercel.app/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/
 - Date: 2026-09-08
