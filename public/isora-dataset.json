@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-11T00:00:00+02:00",
+  "generatedAt": "2026-09-14T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -12,10 +12,10 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 96,
-    "hommes": 44,
+    "total": 97,
+    "hommes": 45,
     "femmes": 52,
-    "sources": 206
+    "sources": 209
   },
   "domains": [
     "Travail",
@@ -53,11 +53,13 @@
     "conscription",
     "consentement",
     "contraception",
+    "contraintes physiques",
     "contrôle vestimentaire",
     "coparentalité",
     "couple",
     "coût",
     "cybersexisme",
+    "Dares",
     "décrochage",
     "deepfake",
     "défibrillateur",
@@ -126,6 +128,7 @@
     "partiellement réformé",
     "paternité",
     "peines",
+    "pénibilité",
     "perception",
     "politique",
     "pouvoir",
@@ -647,6 +650,54 @@
     ]
   },
   "claims": [
+    {
+      "id": "hommes-contraintes-physiques-travail-france-2024",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-contraintes-physiques-travail-france-2024/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-contraintes-physiques-travail-france-2024",
+      "title": "Contraintes physiques au travail plus fréquentes chez les hommes",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Travail",
+      "metric": "+8 pts",
+      "summary": "En 2024, les hommes salariés déclarent plus souvent que les femmes être exposés à au moins trois contraintes physiques parmi les six retenues par la Dares. L'écart est de 8 points, contre 10 points en 2016. Le taux global est d'environ quatre salariés sur dix, mais il ne permet pas de reconstituer les deux taux sexués.",
+      "nuance": "Cet indicateur porte sur le cumul de contraintes physiques déclarées, pas sur l'ensemble des risques professionnels. La répartition des métiers et des tâches explique une partie de l'écart ; d'autres dimensions, notamment plusieurs risques psychosociaux, peuvent présenter une asymétrie différente.",
+      "tags": [
+        "travail",
+        "contraintes physiques",
+        "pénibilité",
+        "France",
+        "Dares"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2016",
+      "periodEnd": "2024",
+      "currentStatus": "persistant",
+      "sourcePopulation": "Population mesurée par la source : femmes et hommes salariés en France interrogés sur leurs conditions de travail en 2016 et 2024. La source utilise les catégories statistiques de sexe et ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "14 septembre 2026",
+      "source": {
+        "label": "Quelles évolutions des conditions de travail et des risques psychosociaux depuis 2016 ?",
+        "publisher": "Dares",
+        "url": "https://dares.travail-emploi.gouv.fr/publication/quelles-evolutions-des-conditions-de-travail-et-des-risques-psychosociaux-depuis-2016",
+        "date": "9 septembre 2026, données 2024"
+      },
+      "additionalSources": [
+        {
+          "label": "Métiers « de femmes », métiers « d'hommes » : en quoi les conditions de travail diffèrent-elles ?",
+          "publisher": "Insee / Dares",
+          "url": "https://www.insee.fr/fr/statistiques/6047793?sommaire=6047805",
+          "date": "mars 2022, données 2019"
+        },
+        {
+          "label": "Conditions de travail et mixité : quelles différences entre professions, et entre femmes et hommes ?",
+          "publisher": "Dares",
+          "url": "https://dares.travail-emploi.gouv.fr/publication/conditions-de-travail-et-mixite-quelles-differences-entre-professions-et-entre-femmes-et-hommes",
+          "date": "janvier 2023, données 2019"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "hommes-accidents-travail",
       "url": "https://isora-xi.vercel.app/fiches/hommes-accidents-travail/",

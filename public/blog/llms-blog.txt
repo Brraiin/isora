@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Conditions de travail : les asymétries femmes-hommes changent selon le risque observé
+- URL: https://isora-xi.vercel.app/blog/2026-09-14-conditions-travail-risques-femmes-hommes-france/
+- Date: 2026-09-14
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: hommes-contraintes-physiques-travail-france-2024
+- Resume: La Dares a publié le 9 septembre 2026 les premiers résultats de l'enquête Conditions de travail 2024-2025. Quatre salariés sur dix déclarent au moins trois contraintes physiques. Les hommes restent davantage exposés que les femmes, mais l'écart passe de 10 points en 2016 à 8 points en 2024. Cette seule mesure ne résume pas les risques professionnels : l'analyse détaillée de l'enquête 2019 montrait une pénibilité physique plus forte chez les hommes et, à durée de travail identique, une exposition féminine plus élevée à plusieurs risques psychosociaux. Les écarts tiennent notamment aux métiers exercés, mais certains subsistent au sein des mêmes groupes de professions.
+- Sources: Dares (9 septembre 2026): https://dares.travail-emploi.gouv.fr/publication/quelles-evolutions-des-conditions-de-travail-et-des-risques-psychosociaux-depuis-2016; Insee (3 mars 2022): https://www.insee.fr/fr/statistiques/6047793?sommaire=6047805; Dares (19 janvier 2023): https://dares.travail-emploi.gouv.fr/publication/conditions-de-travail-et-mixite-quelles-differences-entre-professions-et-entre-femmes-et-hommes; Dares (page consultée en septembre 2026): https://dares.travail-emploi.gouv.fr/donnees/35-ans-devolutions-des-conditions-de-travail
+
 ### Transports en commun : baisse globale des atteintes enregistrées, mais violences sexuelles en hausse
 - URL: https://isora-xi.vercel.app/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/
 - Date: 2026-09-11

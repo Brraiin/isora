@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-contraintes-physiques-travail-france-2024",
+    "side": "hommes",
+    "claimTitle": "Contraintes physiques au travail plus fréquentes chez les hommes",
+    "claimMetric": "+8 pts",
+    "blogTitle": "Conditions de travail : les asymétries femmes-hommes changent selon le risque observé",
+    "blogUrl": "/blog/2026-09-14-conditions-travail-risques-femmes-hommes-france/",
+    "date": "2026-09-14",
+    "updatedAt": "2026-09-14T07:21:38.195Z"
+  },
+  {
     "claimId": "femmes-violences-sexuelles-transports-hce-2025",
     "side": "femmes",
     "claimTitle": "Femmes très majoritaires parmi les victimes de violences sexuelles dans les transports",

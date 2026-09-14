@@ -107,6 +107,52 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "hommes-contraintes-physiques-travail-france-2024",
+    side: "hommes",
+    domain: "Travail",
+    title: "Contraintes physiques au travail plus fréquentes chez les hommes",
+    metric: "+8 pts",
+    summary:
+      "En 2024, les hommes salariés déclarent plus souvent que les femmes être exposés à au moins trois contraintes physiques parmi les six retenues par la Dares. L'écart est de 8 points, contre 10 points en 2016. Le taux global est d'environ quatre salariés sur dix, mais il ne permet pas de reconstituer les deux taux sexués.",
+    tags: ["travail", "contraintes physiques", "pénibilité", "France", "Dares"],
+    source: {
+      label: "Quelles évolutions des conditions de travail et des risques psychosociaux depuis 2016 ?",
+      publisher: "Dares",
+      url: "https://dares.travail-emploi.gouv.fr/publication/quelles-evolutions-des-conditions-de-travail-et-des-risques-psychosociaux-depuis-2016",
+      date: "9 septembre 2026, données 2024",
+    },
+    additionalSources: [
+      {
+        label: "Métiers « de femmes », métiers « d'hommes » : en quoi les conditions de travail diffèrent-elles ?",
+        publisher: "Insee / Dares",
+        url: "https://www.insee.fr/fr/statistiques/6047793?sommaire=6047805",
+        date: "mars 2022, données 2019",
+      },
+      {
+        label: "Conditions de travail et mixité : quelles différences entre professions, et entre femmes et hommes ?",
+        publisher: "Dares",
+        url: "https://dares.travail-emploi.gouv.fr/publication/conditions-de-travail-et-mixite-quelles-differences-entre-professions-et-entre-femmes-et-hommes",
+        date: "janvier 2023, données 2019",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Physical work constraints are more frequent among men",
+        summary:
+          "In 2024, male employees reported exposure to at least three of the six physical constraints selected by Dares more often than female employees. The gap was 8 percentage points, down from 10 points in 2016. The overall rate is about four employees in ten, but it cannot be used to reconstruct the two sex-specific rates.",
+        nuance:
+          "This indicator covers cumulative self-reported physical constraints, not every occupational risk. Occupation and task distributions explain part of the difference; other dimensions, especially several psychosocial risks, can show a different sex pattern.",
+        sourcePopulation:
+          "Population measured by the source: female and male employees in France surveyed about their working conditions in 2016 and 2024. The source uses statistical sex categories and does not measure chromosomes.",
+        tags: ["work", "physical constraints", "occupational risk", "France", "Dares"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "14 septembre 2026",
+    nuance:
+      "Cet indicateur porte sur le cumul de contraintes physiques déclarées, pas sur l'ensemble des risques professionnels. La répartition des métiers et des tâches explique une partie de l'écart ; d'autres dimensions, notamment plusieurs risques psychosociaux, peuvent présenter une asymétrie différente.",
+  },
+  {
     id: "hommes-accidents-travail",
     side: "hommes",
     domain: "Travail",
@@ -3497,6 +3543,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "hommes-contraintes-physiques-travail-france-2024":
+    "Population mesurée par la source : femmes et hommes salariés en France interrogés sur leurs conditions de travail en 2016 et 2024. La source utilise les catégories statistiques de sexe et ne mesure pas les chromosomes.",
   "hommes-accidents-travail":
     "Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.",
   "hommes-suicide":
@@ -3702,6 +3750,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "hommes-contraintes-physiques-travail-france-2024": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2016",
+    periode_fin: "2024",
+    statut_temporel: "persistant",
+    intensite_contextuelle: "forte",
+    legalType: "conditions de travail et exposition physique déclarée",
+  },
   "hommes-accidents-travail": {
     pays_ou_zone: "France",
     periode_debut: "2023",
