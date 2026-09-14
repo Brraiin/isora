@@ -562,7 +562,38 @@ function renderSourceList(sources) {
     .join("");
 }
 
-function renderArticleHtml(post, config, lexiconModule) {
+function renderRelatedClaimList(post, claimById) {
+  const relatedClaims = post.relatedClaimIds.map((claimId) => {
+    const claim = claimById.get(claimId);
+
+    return {
+      id: claimId,
+      title: claim?.title || claimId,
+      metric: claim?.metric || "",
+    };
+  });
+
+  if (relatedClaims.length === 0) return "";
+
+  return `
+        <section class="sidebox">
+          <h2>${countLabel(relatedClaims.length, "Fiche liée", "Fiches liées")}</h2>
+          <ul class="sources">
+            ${relatedClaims
+              .map(
+                (claim) => `
+        <li>
+          <a href="/fiches/${htmlEscape(claim.id)}/">${htmlEscape(claim.title)}</a>
+          ${claim.metric ? `<span class="source-meta">${htmlEscape(claim.metric)}</span>` : ""}
+        </li>
+      `,
+              )
+              .join("")}
+          </ul>
+        </section>`;
+}
+
+function renderArticleHtml(post, config, lexiconModule, claimById) {
   const siteUrl = getSiteUrl(config);
   const postUrl = getPostUrl(post, config);
   const title = post.title;
@@ -761,6 +792,7 @@ ${renderFaviconLinks()}
             <span class="meta-chip">${post.readingMinutes} min</span>
           </div>
         </section>
+        ${renderRelatedClaimList(post, claimById)}
         <section class="sidebox">
           <h2>Sources citées</h2>
           <ul class="sources">
@@ -1150,9 +1182,10 @@ export function renderBlogSummaryForLlms(posts, config, locale = "fr") {
   ].join("\n");
 }
 
-export async function renderBlogAssets({ config, posts } = {}) {
+export async function renderBlogAssets({ config, posts, claims = [] } = {}) {
   const resolvedConfig = config ?? (await loadBlogConfig());
   const resolvedPosts = posts ?? (await loadBlogPosts());
+  const claimById = new Map(claims.map((claim) => [claim.id, claim]));
   const lexiconModule = await loadLexiconModule();
   const totalPages = getBlogPageCount(resolvedPosts);
   const postPages = Array.from({ length: totalPages }, (_, index) => {
@@ -1192,7 +1225,7 @@ export async function renderBlogAssets({ config, posts } = {}) {
       await mkdir(postDir, { recursive: true });
       await writeFile(
         join(postDir, "index.html"),
-        renderArticleHtml(post, resolvedConfig, lexiconModule).replace(/[ \t]+$/gm, ""),
+        renderArticleHtml(post, resolvedConfig, lexiconModule, claimById).replace(/[ \t]+$/gm, ""),
         "utf8",
       );
     }),

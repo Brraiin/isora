@@ -1276,7 +1276,7 @@ await Promise.all([
   writeFile(join(publicWellKnownDir, "ai.txt"), ai, "utf8"),
   renderClaimAssets(),
   renderLexiconAssets(),
-  renderBlogAssets({ config: blogConfig, posts: blogPosts }),
+  renderBlogAssets({ config: blogConfig, posts: blogPosts, claims }),
 ]);
 
 console.log(

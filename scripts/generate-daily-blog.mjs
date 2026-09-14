@@ -209,7 +209,12 @@ const existingPosts = await loadBlogPosts({ includeDrafts: true });
 const todayPost = existingPosts.find((post) => post.date === today);
 
 if (todayPost && !force) {
-  await renderBlogAssets({ config, posts: existingPosts.filter((post) => post.status === "published") });
+  const claimReferences = await loadClaimReferences();
+  await renderBlogAssets({
+    config,
+    posts: existingPosts.filter((post) => post.status === "published"),
+    claims: claimReferences,
+  });
   console.log(`Article déjà présent pour ${today}: ${todayPost.slug}`);
   process.exit(0);
 }
@@ -379,6 +384,6 @@ if (isDuplicatePost(post, existingPosts) && !force) {
 
 const savedPost = await writeBlogPost(post);
 const publishedPosts = await loadBlogPosts();
-await renderBlogAssets({ config, posts: publishedPosts });
+await renderBlogAssets({ config, posts: publishedPosts, claims: claimReferences });
 
 console.log(`Article généré: ${savedPost.slug}`);
