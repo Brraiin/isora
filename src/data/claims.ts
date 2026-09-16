@@ -3465,6 +3465,52 @@ const rawClaims: RawClaim[] = [
       "La fiche compare des cas de pouvoir politique féminin à des épisodes de guerre ou de violence politique. Les résultats historiques européens ne se transposent pas mécaniquement aux démocraties contemporaines, et les responsabilités individuelles doivent être lues dans leur contexte institutionnel.",
   },
   {
+    id: "femmes-troubles-anxieux-monde-2021",
+    side: "femmes",
+    domain: "Santé",
+    title: "Femmes majoritaires parmi les personnes vivant avec un trouble anxieux",
+    metric: "63,3 %",
+    summary:
+      "Dans les estimations mondiales 2021 reprises par l'OMS, les personnes de sexe féminin représentent 63,3 % des personnes vivant avec un trouble anxieux, contre 36,7 % pour les personnes de sexe masculin. Il s'agit d'une répartition des cas, pas d'un taux de prévalence au sein de chaque sexe.",
+    tags: ["santé mentale", "troubles anxieux", "prévalence", "monde", "OMS"],
+    source: {
+      label: "World mental health today: latest data",
+      publisher: "Organisation mondiale de la Santé",
+      url: "https://www.who.int/publications/b/80640",
+      date: "2 septembre 2025, estimations 2021",
+    },
+    additionalSources: [
+      {
+        label: "Anxiety disorders",
+        publisher: "Organisation mondiale de la Santé",
+        url: "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
+        date: "15 septembre 2026, estimations 2023",
+      },
+      {
+        label: "2023 Global Burden of Disease Results Tool",
+        publisher: "Institute for Health Metrics and Evaluation",
+        url: "https://vizhub.healthdata.org/gbd-results/",
+        date: "2024",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Females make up the majority of people living with anxiety disorders",
+        summary:
+          "In the 2021 global estimates reported by WHO, females account for 63.3% of people living with an anxiety disorder, compared with 36.7% for males. This is the distribution of cases, not a prevalence rate within each sex.",
+        nuance:
+          "These are modelled global estimates. The 63.3% share refers to 2021 and must not be applied mechanically to WHO's estimate of 470 million cases in 2023. The sources do not establish one cause for the sex difference and do not describe every country or age group in the same way.",
+        sourcePopulation:
+          "Population measured by the source: people worldwide estimated to be living with an anxiety disorder in 2021, classified as female or male in the underlying data. The source does not measure chromosomes.",
+        tags: ["mental health", "anxiety disorders", "prevalence", "world", "WHO"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "16 septembre 2026",
+    nuance:
+      "Il s'agit d'estimations mondiales modélisées. La part de 63,3 % porte sur 2021 et ne doit pas être appliquée mécaniquement à l'estimation OMS de 470 millions de cas en 2023. Les sources n'établissent pas une cause unique à l'écart selon le sexe et ne décrivent pas chaque pays ou groupe d'âge de façon identique.",
+  },
+  {
     id: "femmes-espaces-non-mixtes-sexe",
     side: "femmes",
     domain: "Droits",
@@ -3719,6 +3765,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.",
   "femmes-arret-cardiaque-defibrillation-temoins":
     "Population mesurée par les sources : femmes et hommes victimes d'un arrêt cardiaque extrahospitalier dans quinze cohortes internationales, et personnes interrogées aux États-Unis sur leurs perceptions des obstacles à la réanimation. Les catégories femmes/hommes proviennent des études; les sources ne mesurent pas les chromosomes.",
+  "femmes-troubles-anxieux-monde-2021":
+    "Population mesurée par la source : personnes dans le monde estimées vivre avec un trouble anxieux en 2021, classées comme de sexe féminin ou masculin dans les données sous-jacentes. La source ne mesure pas les chromosomes.",
   "femmes-risque-blessure-choc-routier":
     "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "femmes-menopause-soins":
@@ -4304,6 +4352,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "cyberharcèlement et violences sexuelles en ligne",
+  },
+  "femmes-troubles-anxieux-monde-2021": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2021",
+    periode_fin: "2021",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "santé mentale et troubles anxieux",
   },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",

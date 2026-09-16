@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées
+- URL: https://isora-xi.vercel.app/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/
+- Date: 2026-09-16
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: femmes-troubles-anxieux-monde-2021
+- Resume: La fiche d'information publiée par l'OMS le 15 septembre 2026 estime que 470 millions de personnes, soit 5,8 % de la population mondiale, vivaient avec un trouble anxieux en 2023. Elle indique que les filles et les femmes sont plus susceptibles d'être concernées que les garçons et les hommes. Le rapport mondial de l'OMS fondé sur les estimations 2021 permet de préciser la composition des cas : 63,3 % des personnes vivant avec un trouble anxieux étaient de sexe féminin et 36,7 % de sexe masculin. Cette répartition des cas ne doit pas être confondue avec deux taux de prévalence au sein de chaque sexe, ni être appliquée mécaniquement au total de 2023.
+- Sources: Organisation mondiale de la Santé (15 septembre 2026): https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders; Organisation mondiale de la Santé (2 septembre 2025): https://www.who.int/publications/b/80640; Depression and Anxiety (2018): https://pmc.ncbi.nlm.nih.gov/articles/PMC6008788/
+
 ### Conditions de travail : les asymétries femmes-hommes changent selon le risque observé
 - URL: https://isora-xi.vercel.app/blog/2026-09-14-conditions-travail-risques-femmes-hommes-france/
 - Date: 2026-09-14

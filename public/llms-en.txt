@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-09-14T00:00:00+02:00
+Last generation: 2026-09-16T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -18,10 +18,10 @@ Last generation: 2026-09-14T00:00:00+02:00
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 97
+- Entries: 98
 - Entries about men: 45
-- Entries about women: 52
-- Distinct sources: 209
+- Entries about women: 53
+- Distinct sources: 212
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées
+- URL: https://isora-xi.vercel.app/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/
+- Date: 2026-09-16
+- Related isora entries: femmes-troubles-anxieux-monde-2021
+- Summary: La fiche d'information publiée par l'OMS le 15 septembre 2026 estime que 470 millions de personnes, soit 5,8 % de la population mondiale, vivaient avec un trouble anxieux en 2023. Elle indique que les filles et les femmes sont plus susceptibles d'être concernées que les garçons et les hommes. Le rapport mondial de l'OMS fondé sur les estimations 2021 permet de préciser la composition des cas : 63,3 % des personnes vivant avec un trouble anxieux étaient de sexe féminin et 36,7 % de sexe masculin. Cette répartition des cas ne doit pas être confondue avec deux taux de prévalence au sein de chaque sexe, ni être appliquée mécaniquement au total de 2023.
+- Sources: Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders; Organisation mondiale de la Santé: https://www.who.int/publications/b/80640; Depression and Anxiety: https://pmc.ncbi.nlm.nih.gov/articles/PMC6008788/
+
 ### Conditions de travail : les asymétries femmes-hommes changent selon le risque observé
 - URL: https://isora-xi.vercel.app/blog/2026-09-14-conditions-travail-risques-femmes-hommes-france/
 - Date: 2026-09-14
@@ -204,13 +211,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: hommes-violences-physiques-hors-famille-france-2025, femmes-violences-conjugales, hommes-mis-en-cause-violences-conjugales-france, hommes-agresseurs-declares-violences-sexuelles-femmes-france
 - Summary: La publication Interstats portant sur les crimes et délits enregistrés en 2025 interdit de réduire la violence à une seule opposition entre les sexes. Les hommes représentent 68 % des victimes de violences physiques hors du cadre familial. Dans le cadre familial, les femmes représentent 73 % des victimes de violences physiques. Tous contextes confondus, elles constituent aussi 85 % des victimes enregistrées de violences sexuelles. Ces indicateurs sont compatibles parce qu'ils ne portent ni sur les mêmes faits ni sur les mêmes situations. Ils documentent des asymétries différentes, qui appellent des politiques de prévention différentes.
 - Sources: Ministère de l'Intérieur / SSMSI / Interstats: https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs
-
-### Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré
-- URL: https://isora-xi.vercel.app/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/
-- Date: 2026-07-19
-- Related isora entries: hommes-sans-abrisme
-- Summary: Les dernières publications officielles britanniques convergent sur un point précis : dans les comptages de rue en Angleterre, les hommes restent très majoritaires. Le cadre mensuel publié le 25 juin 2026 estime qu'en mars 2026, 81 % des personnes repérées en rough sleeping sont des hommes, contre 17 % de femmes. Le snapshot d'automne 2025 retrouve une structure voisine avec 82 % d'hommes. Mais ces chiffres décrivent surtout la rue visible. Les notes pays publiées par l'OCDE le 10 septembre 2026 renforcent ce constat méthodologique : elles indiquent 87 % d'hommes au Mexique, où seule la rue est couverte, 56 % en Australie, où le champ est beaucoup plus large, et 62 % au Canada. Les années, définitions et méthodes diffèrent; ces pourcentages ne permettent donc pas de classer directement les pays.
-- Sources: UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-release; UK Government: https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-technical-notes; UK Government: https://www.gov.uk/government/statistics/rough-sleeping-snapshot-in-england-autumn-2025/rough-sleeping-snapshot-in-england-autumn-2025; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/peopleexperiencinghomelessnessenglandandwales/census2021; OECD: https://www.oecd.org/en/topics/sub-issues/homelessness-and-housing-exclusion/toolkit-to-combat-homelessness/measurement.html; OECD: https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf; OECD Affordable Housing Database: https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html; OECD: https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html
 
 
 ## Physical work constraints are more frequent among men
@@ -1775,6 +1775,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Measured population: Population mesurée par les sources : reines et femmes dirigeantes dans des travaux historiques et des exemples biographiques. Les sources ne mesurent pas les chromosomes.
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: NBER (2017): https://www.nber.org/system/files/working_papers/w23337/w23337.pdf; Britannica (consulté 2026): https://www.britannica.com/event/Massacre-of-Saint-Bartholomews-Day; Britannica (consulté 2026): https://www.britannica.com/biography/Ranavalona-I; Britannica (2024): https://www.britannica.com/topic/Operation-Blue-Star
+
+## Females make up the majority of people living with anxiety disorders
+- ID: femmes-troubles-anxieux-monde-2021
+- URL: https://isora-xi.vercel.app/fiches/femmes-troubles-anxieux-monde-2021/
+- Interactive app URL: https://isora-xi.vercel.app/#femmes-troubles-anxieux-monde-2021
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Monde
+- Period: 2021-2021
+- Status: actuel
+- Key measure: 63,3 %
+- Summary: In the 2021 global estimates reported by WHO, females account for 63.3% of people living with an anxiety disorder, compared with 36.7% for males. This is the distribution of cases, not a prevalence rate within each sex.
+- Nuance: These are modelled global estimates. The 63.3% share refers to 2021 and must not be applied mechanically to WHO's estimate of 470 million cases in 2023. The sources do not establish one cause for the sex difference and do not describe every country or age group in the same way.
+- Measured population: Population measured by the source: people worldwide estimated to be living with an anxiety disorder in 2021, classified as female or male in the underlying data. The source does not measure chromosomes.
+- Sources: Organisation mondiale de la Santé (2 septembre 2025, estimations 2021): https://www.who.int/publications/b/80640; Organisation mondiale de la Santé (15 septembre 2026, estimations 2023): https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders; Institute for Health Metrics and Evaluation (2024): https://vizhub.healthdata.org/gbd-results/
 
 ## Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni
 - ID: femmes-espaces-non-mixtes-sexe

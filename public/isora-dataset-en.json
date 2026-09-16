@@ -1,7 +1,7 @@
 {
   "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-14T00:00:00+02:00",
+  "generatedAt": "2026-09-16T00:00:00+02:00",
   "language": "en",
   "sourceLanguage": "fr",
   "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
@@ -12,10 +12,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 97,
+    "total": 98,
     "hommes": 45,
-    "femmes": 52,
-    "sources": 209
+    "femmes": 53,
+    "sources": 212
   },
   "domains": [
     "Travail",
@@ -119,6 +119,7 @@
     "numérique",
     "obligations",
     "OCDE",
+    "OMS",
     "opinion",
     "orientation",
     "Panama",
@@ -135,6 +136,7 @@
     "précarité",
     "préjudice psychologique",
     "présomption d'innocence",
+    "prévalence",
     "prévention",
     "prison",
     "prix genrés",
@@ -174,6 +176,7 @@
     "transports",
     "travail",
     "travail domestique",
+    "troubles anxieux",
     "Ukraine",
     "Union européenne",
     "variable selon pays",
@@ -5199,6 +5202,58 @@
           "label": "Operation Blue Star",
           "publisher": "Britannica",
           "url": "https://www.britannica.com/topic/Operation-Blue-Star",
+          "date": "2024"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "femmes-troubles-anxieux-monde-2021",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-troubles-anxieux-monde-2021/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-troubles-anxieux-monde-2021",
+      "title": "Females make up the majority of people living with anxiety disorders",
+      "originalTitle": "Femmes majoritaires parmi les personnes vivant avec un trouble anxieux",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "63,3 %",
+      "summary": "In the 2021 global estimates reported by WHO, females account for 63.3% of people living with an anxiety disorder, compared with 36.7% for males. This is the distribution of cases, not a prevalence rate within each sex.",
+      "originalSummary": "Dans les estimations mondiales 2021 reprises par l'OMS, les personnes de sexe féminin représentent 63,3 % des personnes vivant avec un trouble anxieux, contre 36,7 % pour les personnes de sexe masculin. Il s'agit d'une répartition des cas, pas d'un taux de prévalence au sein de chaque sexe.",
+      "nuance": "These are modelled global estimates. The 63.3% share refers to 2021 and must not be applied mechanically to WHO's estimate of 470 million cases in 2023. The sources do not establish one cause for the sex difference and do not describe every country or age group in the same way.",
+      "originalNuance": "Il s'agit d'estimations mondiales modélisées. La part de 63,3 % porte sur 2021 et ne doit pas être appliquée mécaniquement à l'estimation OMS de 470 millions de cas en 2023. Les sources n'établissent pas une cause unique à l'écart selon le sexe et ne décrivent pas chaque pays ou groupe d'âge de façon identique.",
+      "tags": [
+        "mental health",
+        "anxiety disorders",
+        "prevalence",
+        "world",
+        "WHO"
+      ],
+      "countryScope": "Monde",
+      "regionScope": "Monde",
+      "periodStart": "2021",
+      "periodEnd": "2021",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the source: people worldwide estimated to be living with an anxiety disorder in 2021, classified as female or male in the underlying data. The source does not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par la source : personnes dans le monde estimées vivre avec un trouble anxieux en 2021, classées comme de sexe féminin ou masculin dans les données sous-jacentes. La source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "16 septembre 2026",
+      "source": {
+        "label": "World mental health today: latest data",
+        "publisher": "Organisation mondiale de la Santé",
+        "url": "https://www.who.int/publications/b/80640",
+        "date": "2 septembre 2025, estimations 2021"
+      },
+      "additionalSources": [
+        {
+          "label": "Anxiety disorders",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
+          "date": "15 septembre 2026, estimations 2023"
+        },
+        {
+          "label": "2023 Global Burden of Disease Results Tool",
+          "publisher": "Institute for Health Metrics and Evaluation",
+          "url": "https://vizhub.healthdata.org/gbd-results/",
           "date": "2024"
         }
       ],

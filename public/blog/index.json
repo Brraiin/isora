@@ -2,8 +2,55 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-14T09:44:14.403Z",
+  "generatedAt": "2026-09-16T06:45:31.379Z",
   "posts": [
+    {
+      "id": "2026-09-16-troubles-anxieux-femmes-hommes-monde",
+      "title": "Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/",
+      "description": "La fiche OMS actualisée le 15 septembre 2026 estime que 470 millions de personnes vivaient avec un trouble anxieux en 2023. Les données mondiales disponibles montrent aussi une asymétrie selon le sexe, sans autoriser une explication unique.",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T06:43:05.000Z",
+      "updatedAt": "2026-09-16T06:43:05.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "troubles anxieux femmes hommes",
+        "anxiété selon le sexe",
+        "santé mentale mondiale",
+        "OMS troubles anxieux 2026",
+        "écart de prise en charge anxiété"
+      ],
+      "relatedClaimIds": [
+        "femmes-troubles-anxieux-monde-2021"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Anxiety disorders",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
+          "date": "15 septembre 2026",
+          "type": "fiche d'information"
+        },
+        {
+          "title": "World mental health today: latest data",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/b/80640",
+          "date": "2 septembre 2025",
+          "type": "rapport mondial"
+        },
+        {
+          "title": "Treatment gap for anxiety disorders is global: results of the World Mental Health Surveys in 21 countries",
+          "publisher": "Depression and Anxiety",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6008788/",
+          "date": "2018",
+          "type": "article scientifique"
+        }
+      ]
+    },
     {
       "id": "2026-09-14-conditions-travail-risques-femmes-hommes-france",
       "title": "Conditions de travail : les asymétries femmes-hommes changent selon le risque observé",

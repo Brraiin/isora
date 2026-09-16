@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-troubles-anxieux-monde-2021",
+    "side": "femmes",
+    "claimTitle": "Femmes majoritaires parmi les personnes vivant avec un trouble anxieux",
+    "claimMetric": "63,3 %",
+    "blogTitle": "Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées",
+    "blogUrl": "/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/",
+    "date": "2026-09-16",
+    "updatedAt": "2026-09-16T06:43:05.000Z"
+  },
+  {
     "claimId": "hommes-contraintes-physiques-travail-france-2024",
     "side": "hommes",
     "claimTitle": "Contraintes physiques au travail plus fréquentes chez les hommes",
