@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-limitations-activite-union-europeenne-2025",
+    "side": "femmes",
+    "claimTitle": "Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE",
+    "claimMetric": "26,5 % vs 21,8 %",
+    "blogTitle": "Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne",
+    "blogUrl": "/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/",
+    "date": "2026-09-17",
+    "updatedAt": "2026-09-17T19:22:00.000Z"
+  },
+  {
     "claimId": "femmes-medecins-liberaux-revenu-france-2021",
     "side": "femmes",
     "claimTitle": "Revenu d'activité moyen plus faible pour les femmes médecins libérales",

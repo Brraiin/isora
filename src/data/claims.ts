@@ -3563,6 +3563,58 @@ const rawClaims: RawClaim[] = [
       "Les montants sont les dernières estimations exhaustives appariées utilisées par la DREES, mais ils portent sur 2021. La décomposition publiée en 2026 montre que l'évolution de la composition par sexe, âge et secteur influe sur la moyenne de la profession ; elle ne mesure pas une discrimination et n'isole pas une cause unique à l'écart individuel. Les résultats 2021-2024 sont annoncés pour 2027.",
   },
   {
+    id: "femmes-limitations-activite-union-europeenne-2025",
+    side: "femmes",
+    domain: "Santé",
+    title: "Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE",
+    metric: "26,5 % vs 21,8 %",
+    summary:
+      "En 2025, 26,5 % des femmes âgées de 16 ans ou plus dans l'Union européenne déclarent une limitation modérée ou sévère de leurs activités habituelles depuis au moins six mois en raison d'un problème de santé, contre 21,8 % des hommes. Il s'agit d'un écart brut de 4,7 points, non standardisé selon l'âge.",
+    tags: ["santé", "limitations d'activité", "handicap", "Union européenne", "Eurostat"],
+    source: {
+      label: "Key figures on European living conditions – 2026 edition",
+      publisher: "Eurostat",
+      url: "https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036",
+      date: "17 septembre 2026, données 2025",
+    },
+    additionalSources: [
+      {
+        label: "People with disability according to the extent of activity limitation, sex and age",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en",
+        date: "données 2025",
+      },
+      {
+        label: "Disability methodology",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/web/disability/methodology",
+        date: "page consultée le 17 septembre 2026",
+      },
+      {
+        label: "Glossary: Disability",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Disability",
+        date: "19 mai 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Women in the EU report long-standing activity limitations more often",
+        summary:
+          "In 2025, 26.5% of women aged 16 or over in the European Union reported some or severe limitation in their usual activities for at least six months because of a health problem, compared with 21.8% of men. This is an unadjusted gap of 4.7 percentage points and is not age-standardised.",
+        nuance:
+          "Eurostat uses the self-reported Global Activity Limitation Indicator as a statistical proxy for disability. It is not a medical diagnosis or an administrative disability status. The sex comparison is not age-standardised, and the source does not identify a single cause for the gap.",
+        sourcePopulation:
+          "People aged 16 or over living in private households in the 2025 EU-SILC scope, classified as women or men in Eurostat statistics. People living in institutions are generally not covered, and the source does not measure chromosomes.",
+        tags: ["health", "activity limitations", "disability", "European Union", "Eurostat"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "17 septembre 2026",
+    nuance:
+      "Eurostat utilise l'indicateur auto-déclaré GALI comme approximation statistique du handicap. Il ne s'agit ni d'un diagnostic médical ni d'une reconnaissance administrative. La comparaison par sexe n'est pas standardisée selon l'âge et la source n'établit pas une cause unique à l'écart.",
+  },
+  {
     id: "femmes-espaces-non-mixtes-sexe",
     side: "femmes",
     domain: "Droits",
@@ -3821,6 +3873,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par la source : personnes dans le monde estimées vivre avec un trouble anxieux en 2021, classées comme de sexe féminin ou masculin dans les données sous-jacentes. La source ne mesure pas les chromosomes.",
   "femmes-medecins-liberaux-revenu-france-2021":
     "Population mesurée par les sources : médecins de 70 ans ou moins ayant une activité libérale en France métropolitaine ou dans les DROM, actifs fin 2021, avec des honoraires et un revenu libéral positifs ; les remplaçants et les médecins ayant commencé leur activité libérale dans l'année sont exclus. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+  "femmes-limitations-activite-union-europeenne-2025":
+    "Population mesurée par la source : personnes âgées de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC en 2025, classées comme femmes ou hommes par la statistique Eurostat. Les personnes en institution ne sont généralement pas couvertes et la source ne mesure pas les chromosomes.",
   "femmes-risque-blessure-choc-routier":
     "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "femmes-menopause-soins":
@@ -4424,6 +4478,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "revenus d'activité des médecins libéraux",
+  },
+  "femmes-limitations-activite-union-europeenne-2025": {
+    pays_ou_zone: "Union européenne",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "santé déclarée et limitations durables d'activité",
   },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",

@@ -17,10 +17,10 @@ Derniere generation: 2026-09-17T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 99
+- Fiches: 100
 - Fiches concernant les hommes: 45
-- Fiches concernant les femmes: 54
-- Sources distinctes: 216
+- Fiches concernant les femmes: 55
+- Sources distinctes: 220
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -155,6 +155,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne
+- URL: https://isora-xi.vercel.app/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/
+- Date: 2026-09-17
+- Fiches isora liees: femmes-limitations-activite-union-europeenne-2025
+- Resume: Dans son édition 2026 des chiffres clés sur les conditions de vie, publiée le 17 septembre, Eurostat indique qu'en 2025, 26,5 % des femmes âgées de 16 ans ou plus dans l'Union européenne déclarent être limitées, au moins depuis six mois, dans leurs activités habituelles en raison d'un problème de santé. La part est de 21,8 % chez les hommes, soit un écart de 4,7 points. Cette mesure est souvent utilisée comme approximation statistique du handicap, mais elle repose sur une autoévaluation, additionne les limitations modérées et sévères et n'est pas corrigée de la structure d'âge.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260917-1; Eurostat: https://ec.europa.eu/eurostat/web/disability/methodology; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en
+
 ### Médecins libéraux : des revenus moyens différents selon le sexe et des effets de structure à distinguer
 - URL: https://isora-xi.vercel.app/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/
 - Date: 2026-09-17
@@ -203,13 +210,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: hommes-agresseurs-declares-violences-sexuelles-femmes-france, hommes-part-auteurs-violences-sexuelles-perception, hommes-femmes-peurs-consentement-sexuel, hommes-attribution-laxisme-justice-violences-sexuelles, hommes-reconnaissance-viol-lois-europe
 - Resume: Quatre questions souvent confondues utilisent des dénominateurs et des règles de preuve différents. Dans l'enquête VRS 2024, parmi les femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle et ayant renseigné le sexe des auteurs, 99 % désignent exclusivement un ou plusieurs hommes. Cette part parmi les auteurs déclarés ne mesure pas la part de l'ensemble des hommes qui commettraient ces faits. En justice, 69 % des personnes mises en cause dans les affaires de viol ou d'agression sexuelle traitées par les parquets en 2024 relèvent d'affaires non poursuivables; plus de 80 % de ces cas sont classés parce que l'infraction est insuffisamment caractérisée. Cela ne prouve ni que les déclarations sont fausses ni que les faits ont eu lieu. Les fausses allégations existent, mais les études de contexte disponibles n'établissent pas un taux général applicable à la France.
 - Sources: Arrêtons les violences / SSMSI: https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Ministère de la Justice / SSER: https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice / SSER: https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Légifrance: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037108959; Ministère de la Justice / Cour d'appel de Nancy: https://www.cours-appel.justice.fr/nancy/les-regles-generales-dun-proces-penal; Violence Against Women / PubMed: https://pubmed.ncbi.nlm.nih.gov/21164210/; Crown Prosecution Service: https://www.cps.gov.uk/index.php/publication/key-facts-about-how-CPS-prosecutes-allegations-rape
-
-### Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée
-- URL: https://isora-xi.vercel.app/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/
-- Date: 2026-08-11
-- Fiches isora liees: femmes-arret-cardiaque-defibrillation-temoins
-- Resume: La meilleure synthèse récente repérée par Isora réunit 15 cohortes et 499 854 arrêts cardiaques extrahospitaliers. Elle associe le sexe féminin à une moindre probabilité d'application, par un témoin, des électrodes d'un défibrillateur automatisé externe, avec un odds ratio de 0,79 et une certitude jugée modérée. En revanche, les résultats sur le déclenchement de la réanimation cardio-pulmonaire sont très hétérogènes. Une enquête américaine de 2024 montre que le public cite parfois la crainte d'un contact inapproprié ou d'une accusation parmi les explications possibles, mais elle mesure des perceptions, pas les motivations observées des sauveteurs ni le nombre de plaintes. Le récit viral d'une femme ayant poursuivi l'homme qui l'aurait sauvée a par ailleurs été identifié comme une histoire satirique, pas comme un fait établi.
-- Sources: Resuscitation Plus / PubMed Central: https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/; Circulation: Cardiovascular Quality and Outcomes / PubMed: https://pubmed.ncbi.nlm.nih.gov/30354377/; PubMed: https://pubmed.ncbi.nlm.nih.gov/38533649/; Maldita.es: https://maldita.es/feminismo/bulo/20241001/mujer-denuncia-hombre-rescate-sin-permiso/
 
 
 ## Contraintes physiques au travail plus fréquentes chez les hommes
@@ -1747,6 +1747,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Nuance: Les montants sont les dernières estimations exhaustives appariées utilisées par la DREES, mais ils portent sur 2021. La décomposition publiée en 2026 montre que l'évolution de la composition par sexe, âge et secteur influe sur la moyenne de la profession ; elle ne mesure pas une discrimination et n'isole pas une cause unique à l'écart individuel. Les résultats 2021-2024 sont annoncés pour 2027.
 - Population mesuree: Population mesurée par les sources : médecins de 70 ans ou moins ayant une activité libérale en France métropolitaine ou dans les DROM, actifs fin 2021, avec des honoraires et un revenu libéral positifs ; les remplaçants et les médecins ayant commencé leur activité libérale dans l'année sont exclus. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.
 - Sources: DREES (20 décembre 2024, données 2021): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux; DREES (15 septembre 2026): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260915_Structure-d%C3%A9mographique-et-revenu-des-m%C3%A9decins-lib%C3%A9raux; DREES (20 décembre 2024): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/les-revenus-liberaux-et-salaries-des-medecins; DREES (26 août 2026): https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux
+
+## Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE
+- ID: femmes-limitations-activite-union-europeenne-2025
+- URL: https://isora-xi.vercel.app/fiches/femmes-limitations-activite-union-europeenne-2025/
+- URL interactive: https://isora-xi.vercel.app/#femmes-limitations-activite-union-europeenne-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Santé
+- Zone: Union européenne
+- Periode: 2025-2025
+- Statut: actuel
+- Mesure cle: 26,5 % vs 21,8 %
+- Resume: En 2025, 26,5 % des femmes âgées de 16 ans ou plus dans l'Union européenne déclarent une limitation modérée ou sévère de leurs activités habituelles depuis au moins six mois en raison d'un problème de santé, contre 21,8 % des hommes. Il s'agit d'un écart brut de 4,7 points, non standardisé selon l'âge.
+- Nuance: Eurostat utilise l'indicateur auto-déclaré GALI comme approximation statistique du handicap. Il ne s'agit ni d'un diagnostic médical ni d'une reconnaissance administrative. La comparaison par sexe n'est pas standardisée selon l'âge et la source n'établit pas une cause unique à l'écart.
+- Population mesuree: Population mesurée par la source : personnes âgées de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC en 2025, classées comme femmes ou hommes par la statistique Eurostat. Les personnes en institution ne sont généralement pas couvertes et la source ne mesure pas les chromosomes.
+- Sources: Eurostat (17 septembre 2026, données 2025): https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036; Eurostat (données 2025): https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en; Eurostat (page consultée le 17 septembre 2026): https://ec.europa.eu/eurostat/web/disability/methodology; Eurostat (19 mai 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Disability
 
 ## Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni
 - ID: femmes-espaces-non-mixtes-sexe

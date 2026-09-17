@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne
+- URL: https://isora-xi.vercel.app/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/
+- Date: 2026-09-17
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: femmes-limitations-activite-union-europeenne-2025
+- Resume: Dans son édition 2026 des chiffres clés sur les conditions de vie, publiée le 17 septembre, Eurostat indique qu'en 2025, 26,5 % des femmes âgées de 16 ans ou plus dans l'Union européenne déclarent être limitées, au moins depuis six mois, dans leurs activités habituelles en raison d'un problème de santé. La part est de 21,8 % chez les hommes, soit un écart de 4,7 points. Cette mesure est souvent utilisée comme approximation statistique du handicap, mais elle repose sur une autoévaluation, additionne les limitations modérées et sévères et n'est pas corrigée de la structure d'âge.
+- Sources: Eurostat (17 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036; Eurostat (17 septembre 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260917-1; Eurostat (page consultée le 17 septembre 2026): https://ec.europa.eu/eurostat/web/disability/methodology; Eurostat (données 2025): https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en
+
 ### Médecins libéraux : des revenus moyens différents selon le sexe et des effets de structure à distinguer
 - URL: https://isora-xi.vercel.app/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/
 - Date: 2026-09-17

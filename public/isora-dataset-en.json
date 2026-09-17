@@ -12,10 +12,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 99,
+    "total": 100,
     "hommes": 45,
-    "femmes": 54,
-    "sources": 216
+    "femmes": 55,
+    "sources": 220
   },
   "domains": [
     "Travail",
@@ -79,6 +79,7 @@
     "espaces non mixtes",
     "États-Unis",
     "Europe",
+    "Eurostat",
     "exploitation",
     "famille",
     "fausses accusations",
@@ -94,6 +95,7 @@
     "greffiers",
     "guerre",
     "haine en ligne",
+    "handicap",
     "harcèlement",
     "HCE",
     "historique",
@@ -106,6 +108,7 @@
     "jeunesse",
     "juridique",
     "justice",
+    "limitations d'activité",
     "logement",
     "magistrats",
     "mariage",
@@ -5316,6 +5319,64 @@
           "publisher": "DREES",
           "url": "https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux",
           "date": "26 août 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "femmes-limitations-activite-union-europeenne-2025",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-limitations-activite-union-europeenne-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-limitations-activite-union-europeenne-2025",
+      "title": "Women in the EU report long-standing activity limitations more often",
+      "originalTitle": "Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "26,5 % vs 21,8 %",
+      "summary": "In 2025, 26.5% of women aged 16 or over in the European Union reported some or severe limitation in their usual activities for at least six months because of a health problem, compared with 21.8% of men. This is an unadjusted gap of 4.7 percentage points and is not age-standardised.",
+      "originalSummary": "En 2025, 26,5 % des femmes âgées de 16 ans ou plus dans l'Union européenne déclarent une limitation modérée ou sévère de leurs activités habituelles depuis au moins six mois en raison d'un problème de santé, contre 21,8 % des hommes. Il s'agit d'un écart brut de 4,7 points, non standardisé selon l'âge.",
+      "nuance": "Eurostat uses the self-reported Global Activity Limitation Indicator as a statistical proxy for disability. It is not a medical diagnosis or an administrative disability status. The sex comparison is not age-standardised, and the source does not identify a single cause for the gap.",
+      "originalNuance": "Eurostat utilise l'indicateur auto-déclaré GALI comme approximation statistique du handicap. Il ne s'agit ni d'un diagnostic médical ni d'une reconnaissance administrative. La comparaison par sexe n'est pas standardisée selon l'âge et la source n'établit pas une cause unique à l'écart.",
+      "tags": [
+        "health",
+        "activity limitations",
+        "disability",
+        "European Union",
+        "Eurostat"
+      ],
+      "countryScope": "Union européenne",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2025",
+      "currentStatus": "actuel",
+      "sourcePopulation": "People aged 16 or over living in private households in the 2025 EU-SILC scope, classified as women or men in Eurostat statistics. People living in institutions are generally not covered, and the source does not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par la source : personnes âgées de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC en 2025, classées comme femmes ou hommes par la statistique Eurostat. Les personnes en institution ne sont généralement pas couvertes et la source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "17 septembre 2026",
+      "source": {
+        "label": "Key figures on European living conditions – 2026 edition",
+        "publisher": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036",
+        "date": "17 septembre 2026, données 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "People with disability according to the extent of activity limitation, sex and age",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en",
+          "date": "données 2025"
+        },
+        {
+          "label": "Disability methodology",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/disability/methodology",
+          "date": "page consultée le 17 septembre 2026"
+        },
+        {
+          "label": "Glossary: Disability",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Disability",
+          "date": "19 mai 2026"
         }
       ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."

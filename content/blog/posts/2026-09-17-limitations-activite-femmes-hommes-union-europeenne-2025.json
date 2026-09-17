@@ -1,0 +1,121 @@
+{
+  "id": "2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025",
+  "slug": "2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025",
+  "status": "published",
+  "language": "fr",
+  "title": "Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne",
+  "description": "Eurostat estime qu'en 2025, 26,5 % des femmes de 16 ans ou plus dans l'Union européenne déclarent une limitation durable d'activité liée à la santé, contre 21,8 % des hommes. Cet indicateur repose sur une autoévaluation et n'est pas standardisé selon l'âge.",
+  "date": "2026-09-17",
+  "publishedAt": "2026-09-17T19:22:00.000Z",
+  "updatedAt": "2026-09-17T19:22:00.000Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "limitations activité femmes hommes Union européenne",
+    "handicap femmes hommes Eurostat 2025",
+    "GALI sexe Union européenne",
+    "santé déclarée femmes hommes Europe",
+    "EU-SILC limitations durables activité"
+  ],
+  "relatedClaimIds": [
+    "femmes-limitations-activite-union-europeenne-2025"
+  ],
+  "readingMinutes": 6,
+  "summary": "Dans son édition 2026 des chiffres clés sur les conditions de vie, publiée le 17 septembre, Eurostat indique qu'en 2025, 26,5 % des femmes âgées de 16 ans ou plus dans l'Union européenne déclarent être limitées, au moins depuis six mois, dans leurs activités habituelles en raison d'un problème de santé. La part est de 21,8 % chez les hommes, soit un écart de 4,7 points. Cette mesure est souvent utilisée comme approximation statistique du handicap, mais elle repose sur une autoévaluation, additionne les limitations modérées et sévères et n'est pas corrigée de la structure d'âge.",
+  "keyPoints": [
+    "En 2025, 26,5 % des femmes de 16 ans ou plus dans l'UE déclarent une limitation d'activité durable liée à la santé, contre 21,8 % des hommes.",
+    "L'écart brut entre les deux proportions atteint 4,7 points ; il ne constitue pas une mesure ajustée à âge égal.",
+    "Eurostat observe une part plus élevée chez les femmes dans tous les pays de l'UE sauf Chypre, où les parts sont identiques.",
+    "L'indicateur GALI porte sur une limitation déclarée depuis au moins six mois dans les activités habituelles ; il ne correspond pas à un diagnostic médical ni à une reconnaissance administrative du handicap.",
+    "Les données ne permettent pas d'attribuer l'écart à une cause unique, notamment parce que l'âge, l'état de santé, les conditions de vie et les pratiques de déclaration peuvent intervenir."
+  ],
+  "sections": [
+    {
+      "heading": "26,5 % des femmes contre 21,8 % des hommes dans l'UE",
+      "paragraphs": [
+        "L'édition 2026 de Key figures on European living conditions rassemble les données les plus récentes d'Eurostat sur les conditions de vie. Pour 2025, 24,2 % des personnes de 16 ans ou plus dans l'Union européenne déclarent une limitation modérée ou sévère de leurs activités habituelles liée à un problème de santé durable.",
+        "La proportion atteint 26,5 % chez les femmes et 21,8 % chez les hommes. L'écart est donc de 4,7 points. Cette comparaison porte bien sur le même indicateur, la même année et le même périmètre européen pour les deux sexes ; elle ne reconstitue pas des taux à partir d'une moyenne globale."
+      ]
+    },
+    {
+      "heading": "Une asymétrie observée dans presque tous les pays",
+      "paragraphs": [
+        "Eurostat indique que la part déclarant une limitation est plus élevée chez les femmes dans tous les pays de l'Union européenne sauf Chypre, où les parts féminine et masculine sont identiques. La Lettonie présente l'écart le plus large, à 8,7 points.",
+        "Ces résultats nationaux ne signifient pas que l'intensité du phénomène soit identique partout. Les niveaux globaux varient fortement : Eurostat mesure les parts les plus élevées en Lettonie, en Finlande et en Estonie, et les plus faibles à Malte et en Bulgarie. Les différences de population, de santé, de réponse aux enquêtes et de systèmes sociaux compliquent les comparaisons directes."
+      ]
+    },
+    {
+      "heading": "Ce que mesure l'indicateur GALI",
+      "paragraphs": [
+        "Eurostat utilise le Global Activity Limitation Indicator, ou GALI, dans l'enquête européenne sur les revenus et les conditions de vie EU-SILC. La question demande si, depuis au moins six mois, la personne est limitée à cause d'un problème de santé dans les activités que les gens font habituellement. Les réponses distinguent une limitation sévère, une limitation non sévère et l'absence de limitation.",
+        "Dans cette publication, les catégories sévère et non sévère sont réunies. Eurostat emploie ce résultat comme approximation statistique du handicap, tout en rappelant qu'il existe plusieurs définitions opérationnelles. L'indicateur ne dit pas quelle pathologie est en cause, ne mesure pas directement les obstacles sociaux et ne correspond pas nécessairement à une reconnaissance administrative."
+      ]
+    },
+    {
+      "heading": "L'âge est une limite importante pour interpréter l'écart",
+      "paragraphs": [
+        "Les limitations déclarées augmentent fortement avec l'âge : en 2025, elles concernent 10,4 % des 16-44 ans, 23,6 % des 45-64 ans et 47,5 % des 65 ans ou plus dans l'UE. La structure d'âge peut donc influer sur toute comparaison brute entre femmes et hommes.",
+        "Les données présentées par sexe ne sont pas standardisées selon l'âge. Eurostat signalait déjà, pour les résultats 2024, que les femmes sont davantage représentées dans les groupes les plus âgés. L'écart de 4,7 points ne peut donc pas être interprété comme un effet propre du sexe, ni comme ce que l'on observerait entre femmes et hommes du même âge."
+      ]
+    },
+    {
+      "heading": "Population mesurée et limites",
+      "paragraphs": [
+        "La population comprend les personnes de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC. Les personnes vivant en institution ne sont généralement pas couvertes, alors que certaines peuvent présenter des limitations importantes. Le Luxembourg n'est pas disponible dans le graphique 2025 et les données suisses citées par la publication portent sur 2024.",
+        "Les catégories femmes et hommes sont celles de la statistique Eurostat et ne mesurent pas les chromosomes. Enfin, l'enquête établit une différence de fréquence déclarée, pas ses causes. Elle ne permet pas d'isoler le rôle respectif de l'âge, des maladies, des conditions de travail, des ressources, du recours aux soins ou des normes de déclaration."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Eurostat mesure-t-il ici toutes les personnes administrativement reconnues handicapées ?",
+      "answer": "Non. L'indicateur repose sur une question d'enquête concernant une limitation, sévère ou non sévère, des activités habituelles pendant au moins six mois à cause d'un problème de santé. Il ne dépend pas d'une reconnaissance administrative et ne correspond pas à un diagnostic médical précis."
+    },
+    {
+      "question": "Peut-on conclure que le sexe explique à lui seul l'écart de 4,7 points ?",
+      "answer": "Non. Il s'agit d'un écart brut entre proportions déclarées. Les résultats ne sont pas standardisés selon l'âge et la source n'isole pas les effets de l'état de santé, des conditions de vie, du travail, du recours aux soins ou des pratiques de réponse."
+    },
+    {
+      "question": "La différence existe-t-elle dans tous les pays de l'Union européenne ?",
+      "answer": "Eurostat observe en 2025 une part plus élevée chez les femmes dans tous les pays de l'UE sauf Chypre, où les parts sont identiques. L'ampleur de l'écart et les niveaux globaux varient cependant selon les pays."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Key figures on European living conditions – 2026 edition",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036",
+      "date": "17 septembre 2026",
+      "type": "publication statistique"
+    },
+    {
+      "title": "Key figures on European living conditions – 2026 edition : annonce de publication",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260917-1",
+      "date": "17 septembre 2026",
+      "type": "actualité statistique"
+    },
+    {
+      "title": "Disability methodology",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/disability/methodology",
+      "date": "page consultée le 17 septembre 2026",
+      "type": "méthodologie"
+    },
+    {
+      "title": "People with disability according to the extent of activity limitation, sex and age",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en",
+      "date": "données 2025",
+      "type": "jeu de données"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-09-17T19:22:00.000Z",
+    "requiresHumanReview": false
+  }
+}
