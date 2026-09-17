@@ -3511,6 +3511,58 @@ const rawClaims: RawClaim[] = [
       "Il s'agit d'estimations mondiales modélisées. La part de 63,3 % porte sur 2021 et ne doit pas être appliquée mécaniquement à l'estimation OMS de 470 millions de cas en 2023. Les sources n'établissent pas une cause unique à l'écart selon le sexe et ne décrivent pas chaque pays ou groupe d'âge de façon identique.",
   },
   {
+    id: "femmes-medecins-liberaux-revenu-france-2021",
+    side: "femmes",
+    domain: "Revenus",
+    title: "Revenu d'activité moyen plus faible pour les femmes médecins libérales",
+    metric: "90 000 € vs 148 000 €",
+    summary:
+      "En France en 2021, la DREES mesure un revenu d'activité annuel moyen de 90 000 euros pour les femmes médecins ayant une activité libérale, contre 148 000 euros pour les hommes sur le même champ. Il s'agit d'un écart brut entre moyennes, non ajusté du temps de travail, de la spécialité, de l'ancienneté, du secteur ou du lieu d'exercice.",
+    tags: ["revenus", "médecins libéraux", "santé", "travail", "France", "DREES"],
+    source: {
+      label: "Revenu des médecins libéraux : une légère hausse entre 2017 et 2021, avec de fortes disparités selon la spécialité et l'ancienneté dans l'installation",
+      publisher: "DREES",
+      url: "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux",
+      date: "20 décembre 2024, données 2021",
+    },
+    additionalSources: [
+      {
+        label: "Les changements de profil des médecins libéraux ont modéré la hausse de leur revenu moyen entre 2017 et 2021",
+        publisher: "DREES",
+        url: "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260915_Structure-d%C3%A9mographique-et-revenu-des-m%C3%A9decins-lib%C3%A9raux",
+        date: "15 septembre 2026",
+      },
+      {
+        label: "Les revenus libéraux et salariés des médecins ayant une activité libérale en France en 2021",
+        publisher: "DREES",
+        url: "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/les-revenus-liberaux-et-salaries-des-medecins",
+        date: "20 décembre 2024",
+      },
+      {
+        label: "Les médecins généralistes libéraux travaillent en moyenne 46 heures par semaine en 2025",
+        publisher: "DREES",
+        url: "https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux",
+        date: "26 août 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Female self-employed physicians have lower average activity income",
+        summary:
+          "In France in 2021, DREES measured average annual activity income of EUR 90,000 for female physicians with a self-employed practice, compared with EUR 148,000 for males in the same scope. This is an unadjusted difference between averages, not controlled for working time, specialty, seniority, contractual sector or location.",
+        nuance:
+          "The income figures are the latest exhaustive linked-data estimates used by DREES but refer to 2021. The 2026 decomposition shows that changes in sex, age and contractual-sector composition affected the profession-wide average; it does not measure discrimination or isolate one cause of the individual income gap. Results for 2021-2024 are expected in 2027.",
+        sourcePopulation:
+          "Population measured by the sources: physicians aged 70 or younger with a self-employed practice in metropolitan France or the French overseas departments, active at the end of 2021, with positive fees and self-employed income; locum physicians and new starters during the year are excluded. The sources use female/male categories and do not measure chromosomes.",
+        tags: ["income", "self-employed physicians", "health", "work", "France", "DREES"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "17 septembre 2026",
+    nuance:
+      "Les montants sont les dernières estimations exhaustives appariées utilisées par la DREES, mais ils portent sur 2021. La décomposition publiée en 2026 montre que l'évolution de la composition par sexe, âge et secteur influe sur la moyenne de la profession ; elle ne mesure pas une discrimination et n'isole pas une cause unique à l'écart individuel. Les résultats 2021-2024 sont annoncés pour 2027.",
+  },
+  {
     id: "femmes-espaces-non-mixtes-sexe",
     side: "femmes",
     domain: "Droits",
@@ -3767,6 +3819,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : femmes et hommes victimes d'un arrêt cardiaque extrahospitalier dans quinze cohortes internationales, et personnes interrogées aux États-Unis sur leurs perceptions des obstacles à la réanimation. Les catégories femmes/hommes proviennent des études; les sources ne mesurent pas les chromosomes.",
   "femmes-troubles-anxieux-monde-2021":
     "Population mesurée par la source : personnes dans le monde estimées vivre avec un trouble anxieux en 2021, classées comme de sexe féminin ou masculin dans les données sous-jacentes. La source ne mesure pas les chromosomes.",
+  "femmes-medecins-liberaux-revenu-france-2021":
+    "Population mesurée par les sources : médecins de 70 ans ou moins ayant une activité libérale en France métropolitaine ou dans les DROM, actifs fin 2021, avec des honoraires et un revenu libéral positifs ; les remplaçants et les médecins ayant commencé leur activité libérale dans l'année sont exclus. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
   "femmes-risque-blessure-choc-routier":
     "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "femmes-menopause-soins":
@@ -4361,6 +4415,15 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
     legalType: "santé mentale et troubles anxieux",
+  },
+  "femmes-medecins-liberaux-revenu-france-2021": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2021",
+    periode_fin: "2021",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "revenus d'activité des médecins libéraux",
   },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",

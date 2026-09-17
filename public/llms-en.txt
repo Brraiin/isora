@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-09-16T00:00:00+02:00
+Last generation: 2026-09-17T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -18,10 +18,10 @@ Last generation: 2026-09-16T00:00:00+02:00
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 98
+- Entries: 99
 - Entries about men: 45
-- Entries about women: 53
-- Distinct sources: 212
+- Entries about women: 54
+- Distinct sources: 216
 - Domains: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Médecins libéraux : des revenus moyens différents selon le sexe et des effets de structure à distinguer
+- URL: https://isora-xi.vercel.app/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/
+- Date: 2026-09-17
+- Related isora entries: femmes-medecins-liberaux-revenu-france-2021
+- Summary: La DREES a publié le 15 septembre 2026 une analyse des facteurs qui ont influencé l'évolution du revenu moyen des médecins libéraux entre 2017 et 2021. Elle rappelle que la part des femmes augmente dans la profession et que leur niveau d'activité est inférieur en moyenne à celui des hommes, à tout âge et dans toutes les spécialités. Les données individuelles appariées publiées auparavant mesurent, pour 2021, un revenu d'activité annuel moyen de 90 000 euros pour les femmes contre 148 000 euros pour les hommes. Ces chiffres décrivent des moyennes brutes : ils ne mesurent pas un écart à temps, spécialité, ancienneté et secteur identiques.
+- Sources: DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260915_Structure-d%C3%A9mographique-et-revenu-des-m%C3%A9decins-lib%C3%A9raux; DREES: https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux; DREES: https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/les-revenus-liberaux-et-salaries-des-medecins; DREES: https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux
+
 ### Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées
 - URL: https://isora-xi.vercel.app/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/
 - Date: 2026-09-16
@@ -204,13 +211,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-arret-cardiaque-defibrillation-temoins
 - Summary: La meilleure synthèse récente repérée par Isora réunit 15 cohortes et 499 854 arrêts cardiaques extrahospitaliers. Elle associe le sexe féminin à une moindre probabilité d'application, par un témoin, des électrodes d'un défibrillateur automatisé externe, avec un odds ratio de 0,79 et une certitude jugée modérée. En revanche, les résultats sur le déclenchement de la réanimation cardio-pulmonaire sont très hétérogènes. Une enquête américaine de 2024 montre que le public cite parfois la crainte d'un contact inapproprié ou d'une accusation parmi les explications possibles, mais elle mesure des perceptions, pas les motivations observées des sauveteurs ni le nombre de plaintes. Le récit viral d'une femme ayant poursuivi l'homme qui l'aurait sauvée a par ailleurs été identifié comme une histoire satirique, pas comme un fait établi.
 - Sources: Resuscitation Plus / PubMed Central: https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/; Circulation: Cardiovascular Quality and Outcomes / PubMed: https://pubmed.ncbi.nlm.nih.gov/30354377/; PubMed: https://pubmed.ncbi.nlm.nih.gov/38533649/; Maldita.es: https://maldita.es/feminismo/bulo/20241001/mujer-denuncia-hombre-rescate-sin-permiso/
-
-### Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille
-- URL: https://isora-xi.vercel.app/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/
-- Date: 2026-08-11
-- Related isora entries: hommes-violences-physiques-hors-famille-france-2025, femmes-violences-conjugales, hommes-mis-en-cause-violences-conjugales-france, hommes-agresseurs-declares-violences-sexuelles-femmes-france
-- Summary: La publication Interstats portant sur les crimes et délits enregistrés en 2025 interdit de réduire la violence à une seule opposition entre les sexes. Les hommes représentent 68 % des victimes de violences physiques hors du cadre familial. Dans le cadre familial, les femmes représentent 73 % des victimes de violences physiques. Tous contextes confondus, elles constituent aussi 85 % des victimes enregistrées de violences sexuelles. Ces indicateurs sont compatibles parce qu'ils ne portent ni sur les mêmes faits ni sur les mêmes situations. Ils documentent des asymétries différentes, qui appellent des politiques de prévention différentes.
-- Sources: Ministère de l'Intérieur / SSMSI / Interstats: https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs
 
 
 ## Physical work constraints are more frequent among men
@@ -1791,6 +1791,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Nuance: These are modelled global estimates. The 63.3% share refers to 2021 and must not be applied mechanically to WHO's estimate of 470 million cases in 2023. The sources do not establish one cause for the sex difference and do not describe every country or age group in the same way.
 - Measured population: Population measured by the source: people worldwide estimated to be living with an anxiety disorder in 2021, classified as female or male in the underlying data. The source does not measure chromosomes.
 - Sources: Organisation mondiale de la Santé (2 septembre 2025, estimations 2021): https://www.who.int/publications/b/80640; Organisation mondiale de la Santé (15 septembre 2026, estimations 2023): https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders; Institute for Health Metrics and Evaluation (2024): https://vizhub.healthdata.org/gbd-results/
+
+## Female self-employed physicians have lower average activity income
+- ID: femmes-medecins-liberaux-revenu-france-2021
+- URL: https://isora-xi.vercel.app/fiches/femmes-medecins-liberaux-revenu-france-2021/
+- Interactive app URL: https://isora-xi.vercel.app/#femmes-medecins-liberaux-revenu-france-2021
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Revenus
+- Zone: France
+- Period: 2021-2021
+- Status: actuel
+- Key measure: 90 000 € vs 148 000 €
+- Summary: In France in 2021, DREES measured average annual activity income of EUR 90,000 for female physicians with a self-employed practice, compared with EUR 148,000 for males in the same scope. This is an unadjusted difference between averages, not controlled for working time, specialty, seniority, contractual sector or location.
+- Nuance: The income figures are the latest exhaustive linked-data estimates used by DREES but refer to 2021. The 2026 decomposition shows that changes in sex, age and contractual-sector composition affected the profession-wide average; it does not measure discrimination or isolate one cause of the individual income gap. Results for 2021-2024 are expected in 2027.
+- Measured population: Population measured by the sources: physicians aged 70 or younger with a self-employed practice in metropolitan France or the French overseas departments, active at the end of 2021, with positive fees and self-employed income; locum physicians and new starters during the year are excluded. The sources use female/male categories and do not measure chromosomes.
+- Sources: DREES (20 décembre 2024, données 2021): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux; DREES (15 septembre 2026): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260915_Structure-d%C3%A9mographique-et-revenu-des-m%C3%A9decins-lib%C3%A9raux; DREES (20 décembre 2024): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/les-revenus-liberaux-et-salaries-des-medecins; DREES (26 août 2026): https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux
 
 ## Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni
 - ID: femmes-espaces-non-mixtes-sexe

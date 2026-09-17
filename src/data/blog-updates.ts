@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-medecins-liberaux-revenu-france-2021",
+    "side": "femmes",
+    "claimTitle": "Revenu d'activité moyen plus faible pour les femmes médecins libérales",
+    "claimMetric": "90 000 € vs 148 000 €",
+    "blogTitle": "Médecins libéraux : des revenus moyens différents selon le sexe et des effets de structure à distinguer",
+    "blogUrl": "/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/",
+    "date": "2026-09-17",
+    "updatedAt": "2026-09-17T14:54:00.000Z"
+  },
+  {
     "claimId": "femmes-troubles-anxieux-monde-2021",
     "side": "femmes",
     "claimTitle": "Femmes majoritaires parmi les personnes vivant avec un trouble anxieux",

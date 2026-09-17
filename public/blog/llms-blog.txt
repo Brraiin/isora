@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Médecins libéraux : des revenus moyens différents selon le sexe et des effets de structure à distinguer
+- URL: https://isora-xi.vercel.app/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/
+- Date: 2026-09-17
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-medecins-liberaux-revenu-france-2021
+- Resume: La DREES a publié le 15 septembre 2026 une analyse des facteurs qui ont influencé l'évolution du revenu moyen des médecins libéraux entre 2017 et 2021. Elle rappelle que la part des femmes augmente dans la profession et que leur niveau d'activité est inférieur en moyenne à celui des hommes, à tout âge et dans toutes les spécialités. Les données individuelles appariées publiées auparavant mesurent, pour 2021, un revenu d'activité annuel moyen de 90 000 euros pour les femmes contre 148 000 euros pour les hommes. Ces chiffres décrivent des moyennes brutes : ils ne mesurent pas un écart à temps, spécialité, ancienneté et secteur identiques.
+- Sources: DREES (15 septembre 2026): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260915_Structure-d%C3%A9mographique-et-revenu-des-m%C3%A9decins-lib%C3%A9raux; DREES (20 décembre 2024, mise à jour le 23 juillet 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux; DREES (20 décembre 2024): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/les-revenus-liberaux-et-salaries-des-medecins; DREES (26 août 2026): https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux
+
 ### Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées
 - URL: https://isora-xi.vercel.app/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/
 - Date: 2026-09-16

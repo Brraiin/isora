@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-16T06:45:31.379Z",
+  "generatedAt": "2026-09-17T14:55:55.439Z",
   "posts": [
+    {
+      "id": "2026-09-17-revenus-medecins-liberaux-femmes-hommes-france",
+      "title": "Médecins libéraux : des revenus moyens différents selon le sexe et des effets de structure à distinguer",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/",
+      "description": "La DREES mesure en 2021 un revenu d'activité annuel moyen de 90 000 euros pour les femmes médecins libérales contre 148 000 euros pour les hommes. Sa nouvelle étude du 15 septembre 2026 distingue cet écart individuel de l'effet de la composition de la profession sur l'évolution du revenu moyen.",
+      "date": "2026-09-17",
+      "publishedAt": "2026-09-17T14:54:00.000Z",
+      "updatedAt": "2026-09-17T14:54:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "revenu médecins libéraux femmes hommes",
+        "écart de revenu médecins France 2021",
+        "activité médecins femmes hommes",
+        "DREES revenus médecins 2026",
+        "temps de travail médecins généralistes sexe"
+      ],
+      "relatedClaimIds": [
+        "femmes-medecins-liberaux-revenu-france-2021"
+      ],
+      "readingMinutes": 6,
+      "sources": [
+        {
+          "title": "Les changements de profil des médecins libéraux ont modéré la hausse de leur revenu moyen entre 2017 et 2021",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260915_Structure-d%C3%A9mographique-et-revenu-des-m%C3%A9decins-lib%C3%A9raux",
+          "date": "15 septembre 2026",
+          "type": "Études et Résultats n° 1383"
+        },
+        {
+          "title": "Revenu des médecins libéraux : une légère hausse entre 2017 et 2021, avec de fortes disparités selon la spécialité et l'ancienneté dans l'installation",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux",
+          "date": "20 décembre 2024, mise à jour le 23 juillet 2025",
+          "type": "Études et Résultats n° 1322"
+        },
+        {
+          "title": "Les revenus libéraux et salariés des médecins ayant une activité libérale en France en 2021",
+          "publisher": "DREES",
+          "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/les-revenus-liberaux-et-salaries-des-medecins",
+          "date": "20 décembre 2024",
+          "type": "jeu de données"
+        },
+        {
+          "title": "Les médecins généralistes libéraux travaillent en moyenne 46 heures par semaine en 2025",
+          "publisher": "DREES",
+          "url": "https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux",
+          "date": "26 août 2026",
+          "type": "Études et Résultats n° 1381"
+        }
+      ]
+    },
     {
       "id": "2026-09-16-troubles-anxieux-femmes-hommes-monde",
       "title": "Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées",
