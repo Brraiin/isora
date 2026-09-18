@@ -1,7 +1,7 @@
 {
   "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-17T00:00:00+02:00",
+  "generatedAt": "2026-09-18T00:00:00+02:00",
   "language": "en",
   "sourceLanguage": "fr",
   "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
@@ -12,10 +12,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 100,
+    "total": 101,
     "hommes": 45,
-    "femmes": 55,
-    "sources": 220
+    "femmes": 56,
+    "sources": 224
   },
   "domains": [
     "Travail",
@@ -35,6 +35,7 @@
     "actuel",
     "Afghanistan",
     "aide aux victimes",
+    "aide sociale",
     "antiféminisme",
     "antimasculinisme",
     "Arabie saoudite",
@@ -73,6 +74,7 @@
     "DREES",
     "droit pénal",
     "droits",
+    "écart de rémunération",
     "économie",
     "éducation",
     "enfance",
@@ -5377,6 +5379,65 @@
           "publisher": "Eurostat",
           "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Disability",
           "date": "19 mai 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "femmes-personnel-sante-ecart-remuneration-region-europe-2026",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-personnel-sante-ecart-remuneration-region-europe-2026/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-personnel-sante-ecart-remuneration-region-europe-2026",
+      "title": "Women in health and care have lower average pay",
+      "originalTitle": "Rémunération moyenne plus faible pour les femmes du secteur de la santé et de l'aide sociale",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Revenus",
+      "metric": "−19 %/h · −28 %/mois",
+      "summary": "In an analysis covering 43 countries in the WHO European Region, women in health and care earn on average 19% less per hour and 28% less per month than men. After adjustment for age, education, working hours and public- or private-sector employment, the estimated gaps are 6% and 10%.",
+      "originalSummary": "Dans une analyse couvrant 43 pays de la région européenne de l'OMS, les femmes du secteur de la santé et de l'aide sociale gagnent en moyenne 19 % de moins par heure et 28 % de moins par mois que les hommes. Après ajustement sur l'âge, les études, les heures travaillées et le secteur public ou privé, les écarts estimés sont de 6 % et 10 %.",
+      "nuance": "The headline figures are pooled average gaps across countries, occupations and levels of responsibility, not an equal-job estimate. The remaining adjusted difference is unexplained by the four measured factors but is not, by itself, a direct measure of discrimination. National data sources and reference years vary.",
+      "originalNuance": "Les chiffres principaux sont des écarts moyens agrégés entre pays, professions et niveaux de responsabilité, pas une estimation à poste identique. La différence ajustée reste inexpliquée par les quatre facteurs mesurés, mais ne constitue pas à elle seule une mesure directe de discrimination. Les sources nationales et années de référence varient.",
+      "tags": [
+        "income",
+        "health",
+        "social care",
+        "Europe",
+        "gender pay gap",
+        "WHO"
+      ],
+      "countryScope": "Région européenne de l'OMS",
+      "regionScope": "Europe et Asie centrale",
+      "periodStart": "années de référence variables selon le pays",
+      "periodEnd": null,
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the sources: wage employees in health and social care covered by nationally representative labour-force or household surveys in 43 WHO European Region Member States with sufficient data. The source uses women/men statistical categories and does not measure chromosomes.",
+      "originalSourcePopulation": "Population mesurée par les sources : personnes salariées de la santé et de l'aide sociale couvertes par des enquêtes nationales représentatives sur la population active ou les ménages dans 43 États membres de la région européenne de l'OMS disposant de données suffisantes. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "18 septembre 2026",
+      "source": {
+        "label": "Gender pay gap in the health and care sector in the WHO European Region: evidence brief",
+        "publisher": "Organisation mondiale de la Santé – Europe",
+        "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-83924",
+        "date": "18 septembre 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "Health workers earn less if they are women",
+          "publisher": "Organisation mondiale de la Santé – Europe",
+          "url": "https://www.who.int/europe/news/item/18-09-2026-health-workers-earn-less-if-they-are-women",
+          "date": "18 septembre 2026"
+        },
+        {
+          "label": "Web annex A – national data sources",
+          "publisher": "Organisation mondiale de la Santé – Europe",
+          "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84227",
+          "date": "18 septembre 2026"
+        },
+        {
+          "label": "Web annex C – methodology for decomposing the gender pay gap in the health and care sector",
+          "publisher": "Organisation mondiale de la Santé – Europe",
+          "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84229",
+          "date": "18 septembre 2026"
         }
       ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."

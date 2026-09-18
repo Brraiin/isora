@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-17T19:25:35.845Z",
+  "generatedAt": "2026-09-18T18:35:14.727Z",
   "posts": [
+    {
+      "id": "2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe",
+      "title": "Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/",
+      "description": "Une analyse OMS/Europe portant sur 43 pays mesure, dans la santé et l'aide sociale, un écart brut moyen de rémunération de 19 % par heure et de 28 % par mois en défaveur des femmes. Après ajustement sur quatre caractéristiques observées, les écarts restent de 6 % et 10 %.",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T18:33:00.000Z",
+      "updatedAt": "2026-09-18T18:33:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "écart rémunération santé femmes hommes Europe",
+        "personnel de santé salaire femmes hommes OMS",
+        "gender pay gap health care Europe 2026",
+        "rémunération horaire mensuelle secteur santé",
+        "femmes personnel santé 43 pays"
+      ],
+      "relatedClaimIds": [
+        "femmes-personnel-sante-ecart-remuneration-region-europe-2026"
+      ],
+      "readingMinutes": 6,
+      "sources": [
+        {
+          "title": "Gender pay gap in the health and care sector in the WHO European Region: evidence brief",
+          "publisher": "OMS Europe",
+          "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-83924",
+          "date": "18 septembre 2026",
+          "type": "rapport"
+        },
+        {
+          "title": "Health workers earn less if they are women",
+          "publisher": "OMS Europe",
+          "url": "https://www.who.int/europe/news/item/18-09-2026-health-workers-earn-less-if-they-are-women",
+          "date": "18 septembre 2026",
+          "type": "communiqué"
+        },
+        {
+          "title": "Web annex A – national data sources",
+          "publisher": "OMS Europe",
+          "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84227",
+          "date": "18 septembre 2026",
+          "type": "annexe sur les sources"
+        },
+        {
+          "title": "Web annex C – methodology for decomposing the gender pay gap in the health and care sector",
+          "publisher": "OMS Europe",
+          "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84229",
+          "date": "18 septembre 2026",
+          "type": "annexe méthodologique"
+        }
+      ]
+    },
     {
       "id": "2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025",
       "title": "Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne",

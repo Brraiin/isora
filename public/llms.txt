@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-09-17T00:00:00+02:00
+Derniere generation: 2026-09-18T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -17,10 +17,10 @@ Derniere generation: 2026-09-17T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 100
+- Fiches: 101
 - Fiches concernant les hommes: 45
-- Fiches concernant les femmes: 55
-- Sources distinctes: 220
+- Fiches concernant les femmes: 56
+- Sources distinctes: 224
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -155,6 +155,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS
+- URL: https://isora-xi.vercel.app/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/
+- Date: 2026-09-18
+- Fiches isora liees: femmes-personnel-sante-ecart-remuneration-region-europe-2026
+- Resume: Le Bureau régional de l'OMS pour l'Europe a publié le 18 septembre 2026 une analyse des rémunérations dans le secteur de la santé et de l'aide sociale, fondée sur des enquêtes nationales représentatives disponibles pour 43 pays. Les femmes représentent près de 77 % des effectifs couverts, mais leur rémunération moyenne est inférieure de 19 % par heure et de 28 % par mois à celle des hommes. Une décomposition tenant compte de l'âge, du niveau d'études, du temps de travail et du secteur public ou privé réduit les écarts à 6 % par heure et 10 % par mois. La part restante n'est pas expliquée par ces variables mesurées, mais elle ne constitue pas à elle seule une mesure de discrimination à poste identique.
+- Sources: OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-83924; OMS Europe: https://www.who.int/europe/news/item/18-09-2026-health-workers-earn-less-if-they-are-women; OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84227; OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84229
+
 ### Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne
 - URL: https://isora-xi.vercel.app/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/
 - Date: 2026-09-17
@@ -203,13 +210,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-temps-partiel, femmes-soin-non-remunere-emploi
 - Resume: La publication Eurostat du 1er septembre 2026 montre que le taux de chômage reste un peu plus élevé chez les femmes dans l’Union européenne : 6,3 % contre 5,9 % chez les hommes en juillet. La France présente alors un écart faible dans l’autre sens, avec 8,4 % chez les hommes et 8,2 % chez les femmes. L’Insee mesure une structure proche au deuxième trimestre, mais précise que le niveau et l’évolution du taux sont estimés à plus ou moins 0,3 point. Les données ne permettent donc pas de transformer ces écarts étroits en règle générale ni en preuve d’une cause liée au sexe.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table; Insee: https://www.insee.fr/fr/statistiques/9032359; Dares: https://dares.travail-emploi.gouv.fr/publication/la-situation-sur-le-marche-du-travail-au-2e-trimestre-2026
-
-### Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes
-- URL: https://isora-xi.vercel.app/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/
-- Date: 2026-08-11
-- Fiches isora liees: hommes-agresseurs-declares-violences-sexuelles-femmes-france, hommes-part-auteurs-violences-sexuelles-perception, hommes-femmes-peurs-consentement-sexuel, hommes-attribution-laxisme-justice-violences-sexuelles, hommes-reconnaissance-viol-lois-europe
-- Resume: Quatre questions souvent confondues utilisent des dénominateurs et des règles de preuve différents. Dans l'enquête VRS 2024, parmi les femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle et ayant renseigné le sexe des auteurs, 99 % désignent exclusivement un ou plusieurs hommes. Cette part parmi les auteurs déclarés ne mesure pas la part de l'ensemble des hommes qui commettraient ces faits. En justice, 69 % des personnes mises en cause dans les affaires de viol ou d'agression sexuelle traitées par les parquets en 2024 relèvent d'affaires non poursuivables; plus de 80 % de ces cas sont classés parce que l'infraction est insuffisamment caractérisée. Cela ne prouve ni que les déclarations sont fausses ni que les faits ont eu lieu. Les fausses allégations existent, mais les études de contexte disponibles n'établissent pas un taux général applicable à la France.
-- Sources: Arrêtons les violences / SSMSI: https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Ministère de la Justice / SSER: https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice / SSER: https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Légifrance: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037108959; Ministère de la Justice / Cour d'appel de Nancy: https://www.cours-appel.justice.fr/nancy/les-regles-generales-dun-proces-penal; Violence Against Women / PubMed: https://pubmed.ncbi.nlm.nih.gov/21164210/; Crown Prosecution Service: https://www.cps.gov.uk/index.php/publication/key-facts-about-how-CPS-prosecutes-allegations-rape
 
 
 ## Contraintes physiques au travail plus fréquentes chez les hommes
@@ -1763,6 +1763,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Nuance: Eurostat utilise l'indicateur auto-déclaré GALI comme approximation statistique du handicap. Il ne s'agit ni d'un diagnostic médical ni d'une reconnaissance administrative. La comparaison par sexe n'est pas standardisée selon l'âge et la source n'établit pas une cause unique à l'écart.
 - Population mesuree: Population mesurée par la source : personnes âgées de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC en 2025, classées comme femmes ou hommes par la statistique Eurostat. Les personnes en institution ne sont généralement pas couvertes et la source ne mesure pas les chromosomes.
 - Sources: Eurostat (17 septembre 2026, données 2025): https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036; Eurostat (données 2025): https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en; Eurostat (page consultée le 17 septembre 2026): https://ec.europa.eu/eurostat/web/disability/methodology; Eurostat (19 mai 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Disability
+
+## Rémunération moyenne plus faible pour les femmes du secteur de la santé et de l'aide sociale
+- ID: femmes-personnel-sante-ecart-remuneration-region-europe-2026
+- URL: https://isora-xi.vercel.app/fiches/femmes-personnel-sante-ecart-remuneration-region-europe-2026/
+- URL interactive: https://isora-xi.vercel.app/#femmes-personnel-sante-ecart-remuneration-region-europe-2026
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Revenus
+- Zone: Région européenne de l'OMS
+- Periode: années de référence variables selon le pays+
+- Statut: actuel
+- Mesure cle: −19 %/h · −28 %/mois
+- Resume: Dans une analyse couvrant 43 pays de la région européenne de l'OMS, les femmes du secteur de la santé et de l'aide sociale gagnent en moyenne 19 % de moins par heure et 28 % de moins par mois que les hommes. Après ajustement sur l'âge, les études, les heures travaillées et le secteur public ou privé, les écarts estimés sont de 6 % et 10 %.
+- Nuance: Les chiffres principaux sont des écarts moyens agrégés entre pays, professions et niveaux de responsabilité, pas une estimation à poste identique. La différence ajustée reste inexpliquée par les quatre facteurs mesurés, mais ne constitue pas à elle seule une mesure directe de discrimination. Les sources nationales et années de référence varient.
+- Population mesuree: Population mesurée par les sources : personnes salariées de la santé et de l'aide sociale couvertes par des enquêtes nationales représentatives sur la population active ou les ménages dans 43 États membres de la région européenne de l'OMS disposant de données suffisantes. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.
+- Sources: Organisation mondiale de la Santé – Europe (18 septembre 2026): https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-83924; Organisation mondiale de la Santé – Europe (18 septembre 2026): https://www.who.int/europe/news/item/18-09-2026-health-workers-earn-less-if-they-are-women; Organisation mondiale de la Santé – Europe (18 septembre 2026): https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84227; Organisation mondiale de la Santé – Europe (18 septembre 2026): https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84229
 
 ## Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni
 - ID: femmes-espaces-non-mixtes-sexe

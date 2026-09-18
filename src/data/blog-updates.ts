@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-personnel-sante-ecart-remuneration-region-europe-2026",
+    "side": "femmes",
+    "claimTitle": "Rémunération moyenne plus faible pour les femmes du secteur de la santé et de l'aide sociale",
+    "claimMetric": "−19 %/h · −28 %/mois",
+    "blogTitle": "Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS",
+    "blogUrl": "/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/",
+    "date": "2026-09-18",
+    "updatedAt": "2026-09-18T18:33:00.000Z"
+  },
+  {
     "claimId": "femmes-limitations-activite-union-europeenne-2025",
     "side": "femmes",
     "claimTitle": "Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE",

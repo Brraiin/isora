@@ -3615,6 +3615,58 @@ const rawClaims: RawClaim[] = [
       "Eurostat utilise l'indicateur auto-déclaré GALI comme approximation statistique du handicap. Il ne s'agit ni d'un diagnostic médical ni d'une reconnaissance administrative. La comparaison par sexe n'est pas standardisée selon l'âge et la source n'établit pas une cause unique à l'écart.",
   },
   {
+    id: "femmes-personnel-sante-ecart-remuneration-region-europe-2026",
+    side: "femmes",
+    domain: "Revenus",
+    title: "Rémunération moyenne plus faible pour les femmes du secteur de la santé et de l'aide sociale",
+    metric: "−19 %/h · −28 %/mois",
+    summary:
+      "Dans une analyse couvrant 43 pays de la région européenne de l'OMS, les femmes du secteur de la santé et de l'aide sociale gagnent en moyenne 19 % de moins par heure et 28 % de moins par mois que les hommes. Après ajustement sur l'âge, les études, les heures travaillées et le secteur public ou privé, les écarts estimés sont de 6 % et 10 %.",
+    tags: ["revenus", "santé", "aide sociale", "Europe", "écart de rémunération", "OMS"],
+    source: {
+      label: "Gender pay gap in the health and care sector in the WHO European Region: evidence brief",
+      publisher: "Organisation mondiale de la Santé – Europe",
+      url: "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-83924",
+      date: "18 septembre 2026",
+    },
+    additionalSources: [
+      {
+        label: "Health workers earn less if they are women",
+        publisher: "Organisation mondiale de la Santé – Europe",
+        url: "https://www.who.int/europe/news/item/18-09-2026-health-workers-earn-less-if-they-are-women",
+        date: "18 septembre 2026",
+      },
+      {
+        label: "Web annex A – national data sources",
+        publisher: "Organisation mondiale de la Santé – Europe",
+        url: "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84227",
+        date: "18 septembre 2026",
+      },
+      {
+        label: "Web annex C – methodology for decomposing the gender pay gap in the health and care sector",
+        publisher: "Organisation mondiale de la Santé – Europe",
+        url: "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84229",
+        date: "18 septembre 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Women in health and care have lower average pay",
+        summary:
+          "In an analysis covering 43 countries in the WHO European Region, women in health and care earn on average 19% less per hour and 28% less per month than men. After adjustment for age, education, working hours and public- or private-sector employment, the estimated gaps are 6% and 10%.",
+        nuance:
+          "The headline figures are pooled average gaps across countries, occupations and levels of responsibility, not an equal-job estimate. The remaining adjusted difference is unexplained by the four measured factors but is not, by itself, a direct measure of discrimination. National data sources and reference years vary.",
+        sourcePopulation:
+          "Population measured by the sources: wage employees in health and social care covered by nationally representative labour-force or household surveys in 43 WHO European Region Member States with sufficient data. The source uses women/men statistical categories and does not measure chromosomes.",
+        tags: ["income", "health", "social care", "Europe", "gender pay gap", "WHO"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "18 septembre 2026",
+    nuance:
+      "Les chiffres principaux sont des écarts moyens agrégés entre pays, professions et niveaux de responsabilité, pas une estimation à poste identique. La différence ajustée reste inexpliquée par les quatre facteurs mesurés, mais ne constitue pas à elle seule une mesure directe de discrimination. Les sources nationales et années de référence varient.",
+  },
+  {
     id: "femmes-espaces-non-mixtes-sexe",
     side: "femmes",
     domain: "Droits",
@@ -3875,6 +3927,8 @@ const sourcePopulationLabels: Record<string, string> = {
     "Population mesurée par les sources : médecins de 70 ans ou moins ayant une activité libérale en France métropolitaine ou dans les DROM, actifs fin 2021, avec des honoraires et un revenu libéral positifs ; les remplaçants et les médecins ayant commencé leur activité libérale dans l'année sont exclus. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
   "femmes-limitations-activite-union-europeenne-2025":
     "Population mesurée par la source : personnes âgées de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC en 2025, classées comme femmes ou hommes par la statistique Eurostat. Les personnes en institution ne sont généralement pas couvertes et la source ne mesure pas les chromosomes.",
+  "femmes-personnel-sante-ecart-remuneration-region-europe-2026":
+    "Population mesurée par les sources : personnes salariées de la santé et de l'aide sociale couvertes par des enquêtes nationales représentatives sur la population active ou les ménages dans 43 États membres de la région européenne de l'OMS disposant de données suffisantes. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
   "femmes-risque-blessure-choc-routier":
     "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
   "femmes-menopause-soins":
@@ -4487,6 +4541,14 @@ const claimMetadata: Record<string, ClaimMeta> = {
     statut_temporel: "actuel",
     intensite_contextuelle: "moyenne",
     legalType: "santé déclarée et limitations durables d'activité",
+  },
+  "femmes-personnel-sante-ecart-remuneration-region-europe-2026": {
+    pays_ou_zone: "Région européenne de l'OMS",
+    regionScope: "Europe et Asie centrale",
+    periode_debut: "années de référence variables selon le pays",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "rémunération du travail salarié dans la santé et l'aide sociale",
   },
   "femmes-espaces-non-mixtes-sexe": {
     pays_ou_zone: "Royaume-Uni",
