@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-violences-physiques-sexuelles-monde",
+    "side": "femmes",
+    "claimTitle": "Femmes exposées aux violences conjugales physiques ou sexuelles",
+    "claimMetric": "1 sur 3",
+    "blogTitle": "Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer",
+    "blogUrl": "/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/",
+    "date": "2026-09-20",
+    "updatedAt": "2026-09-20T15:37:00.000Z"
+  },
+  {
     "claimId": "femmes-personnel-sante-ecart-remuneration-region-europe-2026",
     "side": "femmes",
     "claimTitle": "Rémunération moyenne plus faible pour les femmes du secteur de la santé et de l'aide sociale",
@@ -356,16 +366,6 @@ export const homeBlogUpdates = [
     "side": "femmes",
     "claimTitle": "Femmes et filles tuées par des proches ou partenaires",
     "claimMetric": "50 000",
-    "blogTitle": "Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale",
-    "blogUrl": "/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/",
-    "date": "2026-07-06",
-    "updatedAt": "2026-07-06T06:30:00.000Z"
-  },
-  {
-    "claimId": "femmes-violences-physiques-sexuelles-monde",
-    "side": "femmes",
-    "claimTitle": "Femmes exposées aux violences conjugales physiques ou sexuelles",
-    "claimMetric": "1 sur 3",
     "blogTitle": "Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale",
     "blogUrl": "/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/",
     "date": "2026-07-06",

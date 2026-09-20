@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer
+- URL: https://isora-xi.vercel.app/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
+- Date: 2026-09-20
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: femmes-violences-physiques-sexuelles-monde
+- Resume: Une note technique de l'Organisation mondiale de la Santé, mise en avant le 18 septembre 2026, examine la mesure des violences sexuelles commises contre les femmes et les filles par une personne autre qu'un partenaire intime. L'estimation mondiale disponible porte sur 263 millions de femmes et de filles âgées de 15 ans ou plus, soit 8 %, ayant subi au moins une fois ce type de violence depuis l'âge de 15 ans. Mais l'OMS souligne que les définitions, les questions, les tranches d'âge et les populations interrogées diffèrent fortement. Parmi 140 pays disposant d'au moins une enquête éligible entre 2000 et 2023, 42 n'avaient pas actualisé ces données depuis plus de dix ans. Le chiffre doit donc être lu comme une estimation minimale dans un champ précis, et non comme une mesure exhaustive ou une comparaison femmes-hommes.
+- Sources: Organisation mondiale de la Santé (24 août 2026): https://www.who.int/publications/i/item/B09836; Organisation mondiale de la Santé (18 septembre 2026): https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women; Organisation mondiale de la Santé (31 juillet 2026): https://www.who.int/publications/i/item/B09860; Organisation mondiale de la Santé (19 novembre 2025): https://www.who.int/publications/i/item/9789240116962
+
 ### Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS
 - URL: https://isora-xi.vercel.app/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/
 - Date: 2026-09-18

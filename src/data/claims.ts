@@ -2499,7 +2499,7 @@ const rawClaims: RawClaim[] = [
     title: "Femmes exposées aux violences conjugales physiques ou sexuelles",
     metric: "1 sur 3",
     summary:
-      "Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois.",
+      "Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois. Dans le seul champ des violences sexuelles hors couple depuis l'âge de 15 ans, l'OMS estime 263 millions de femmes et de filles concernées, soit 8 %.",
     tags: ["violences", "santé", "monde", "prévention"],
     source: {
       label: "Le bilan est lourd : 840 millions de femmes sont victimes de violences conjugales ou sexuelles",
@@ -2508,6 +2508,26 @@ const rawClaims: RawClaim[] = [
       date: "19 novembre 2025",
     },
     additionalSources: [
+      {
+        label:
+          "Measuring non-partner sexual violence against women: data availability, methodological issues and recommendations for good practice",
+        publisher: "Organisation mondiale de la Santé",
+        url: "https://www.who.int/publications/i/item/B09836",
+        date: "24 août 2026",
+      },
+      {
+        label:
+          "New brief highlights gaps and recommendations for improving violence data on women",
+        publisher: "Organisation mondiale de la Santé",
+        url: "https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women",
+        date: "18 septembre 2026",
+      },
+      {
+        label: "Violence against women prevalence estimates, 2023: global overview",
+        publisher: "Organisation mondiale de la Santé",
+        url: "https://www.who.int/publications/i/item/B09860",
+        date: "31 juillet 2026",
+      },
       {
         label: "Insécurité, victimation - France, portrait social",
         publisher: "Insee / SSMSI",
@@ -2529,10 +2549,22 @@ const rawClaims: RawClaim[] = [
         date: "2024",
       },
     ],
+    translations: {
+      en: {
+        title: "Women exposed to physical or sexual intimate-partner violence",
+        summary:
+          "WHO estimates published in November 2025 indicate that around 840 million women have experienced physical or sexual violence by an intimate partner, or sexual violence by a non-partner, in their lifetime—nearly one woman in three. For non-partner sexual violence alone since age 15, WHO estimates 263 million women and girls, or 8%.",
+        nuance:
+          "This entry covers two separate scopes: the one-in-three estimate combines intimate-partner physical or sexual violence with non-partner sexual violence, while the 8% estimate concerns non-partner sexual violence since age 15 only. WHO warns that under-reporting, old or missing surveys, and differences in definitions and questions probably lead to underestimation. The new methodological brief does not provide a male rate produced with the same protocol, so no women-men comparison can be inferred from it.",
+        sourcePopulation:
+          "Population measured by the sources: women and girls aged 15 or over in WHO population-based surveys on intimate-partner violence and non-partner sexual violence. The sources do not measure chromosomes.",
+        tags: ["violence", "health", "world", "prevention"],
+      },
+    },
     confidence: "forte",
-    lastChecked: "11 août 2026",
+    lastChecked: "20 septembre 2026",
     nuance:
-      "Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.",
+      "Cette fiche rassemble deux périmètres distincts : l'estimation d'une femme sur trois combine violences physiques ou sexuelles du partenaire et violences sexuelles hors couple, tandis que le taux de 8 % porte uniquement sur les violences sexuelles hors couple depuis l'âge de 15 ans. L'OMS souligne que la sous-déclaration, l'ancienneté ou l'absence d'enquêtes et les différences de définition et de questionnaire conduisent probablement à sous-estimer la prévalence. La nouvelle note méthodologique ne publie pas de taux masculin construit avec le même protocole : elle ne permet donc pas de déduire une comparaison femmes-hommes.",
   },
   {
     id: "femmes-prison-victimisation-sexuelle-etats-unis",
@@ -3876,7 +3908,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-france-ivg-1975-1979":
     "Population mesurée par la source : femmes concernées par le droit à l'IVG en France. La source ne mesure pas les chromosomes.",
   "femmes-violences-physiques-sexuelles-monde":
-    "Population mesurée par les sources : femmes dans les enquêtes OMS sur violences conjugales physiques/sexuelles et violences sexuelles hors couple, avec sources comparatives sur victimations, homicides, travail et suicide. Les sources ne mesurent pas les chromosomes.",
+    "Population mesurée par les sources : femmes et filles âgées de 15 ans ou plus dans les enquêtes de population de l'OMS sur les violences physiques ou sexuelles du partenaire intime et les violences sexuelles hors couple. Les sources ne mesurent pas les chromosomes.",
   "femmes-prison-victimisation-sexuelle-etats-unis":
     "Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.",
   "femmes-feminicides-monde-2024":

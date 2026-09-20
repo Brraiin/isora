@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-09-18T00:00:00+02:00
+Derniere generation: 2026-09-20T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -20,7 +20,7 @@ Derniere generation: 2026-09-18T00:00:00+02:00
 - Fiches: 101
 - Fiches concernant les hommes: 45
 - Fiches concernant les femmes: 56
-- Sources distinctes: 224
+- Sources distinctes: 227
 - Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -155,6 +155,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer
+- URL: https://isora-xi.vercel.app/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
+- Date: 2026-09-20
+- Fiches isora liees: femmes-violences-physiques-sexuelles-monde
+- Resume: Une note technique de l'Organisation mondiale de la Santé, mise en avant le 18 septembre 2026, examine la mesure des violences sexuelles commises contre les femmes et les filles par une personne autre qu'un partenaire intime. L'estimation mondiale disponible porte sur 263 millions de femmes et de filles âgées de 15 ans ou plus, soit 8 %, ayant subi au moins une fois ce type de violence depuis l'âge de 15 ans. Mais l'OMS souligne que les définitions, les questions, les tranches d'âge et les populations interrogées diffèrent fortement. Parmi 140 pays disposant d'au moins une enquête éligible entre 2000 et 2023, 42 n'avaient pas actualisé ces données depuis plus de dix ans. Le chiffre doit donc être lu comme une estimation minimale dans un champ précis, et non comme une mesure exhaustive ou une comparaison femmes-hommes.
+- Sources: Organisation mondiale de la Santé: https://www.who.int/publications/i/item/B09836; Organisation mondiale de la Santé: https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/B09860; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240116962
+
 ### Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS
 - URL: https://isora-xi.vercel.app/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/
 - Date: 2026-09-18
@@ -203,13 +210,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: hommes-decrochage-garcons-monde, femmes-ingenierie
 - Resume: Publié le 8 septembre 2026, PISA 2025 fait apparaître en France des écarts entre filles et garçons qui changent de sens selon la matière. Les filles obtiennent 32 points de plus en compréhension de l’écrit et les garçons 13 points de plus en culture mathématique. La difficulté en lecture concerne 39 % des garçons contre 26 % des filles. En sciences, la DEPP ne relève pas de différence significative entre les deux groupes. Ces résultats décrivent des performances moyennes d’élèves scolarisés de 15 ans ; ils ne prouvent ni une aptitude naturelle ni une cause unique liée au sexe.
 - Sources: OCDE: https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html; OCDE: https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html; Ministère de l’Éducation nationale / DEPP: https://www.education.gouv.fr/depp/pisa-2025-les-acquis-des-eleves-de-15-ans-en-comprehension-de-l-ecrit-et-en-culture-mathematique-en-505645; Ministère de l’Éducation nationale / DEPP: https://www.education.gouv.fr/depp/pisa-2025-en-culture-scientifique-le-score-baisse-par-rapport-2015-en-france-comme-dans-l-ocde-et-505639; OCDE: https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html
-
-### Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France
-- URL: https://isora-xi.vercel.app/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/
-- Date: 2026-09-05
-- Fiches isora liees: femmes-temps-partiel, femmes-soin-non-remunere-emploi
-- Resume: La publication Eurostat du 1er septembre 2026 montre que le taux de chômage reste un peu plus élevé chez les femmes dans l’Union européenne : 6,3 % contre 5,9 % chez les hommes en juillet. La France présente alors un écart faible dans l’autre sens, avec 8,4 % chez les hommes et 8,2 % chez les femmes. L’Insee mesure une structure proche au deuxième trimestre, mais précise que le niveau et l’évolution du taux sont estimés à plus ou moins 0,3 point. Les données ne permettent donc pas de transformer ces écarts étroits en règle générale ni en preuve d’une cause liée au sexe.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table; Insee: https://www.insee.fr/fr/statistiques/9032359; Dares: https://dares.travail-emploi.gouv.fr/publication/la-situation-sur-le-marche-du-travail-au-2e-trimestre-2026
 
 
 ## Contraintes physiques au travail plus fréquentes chez les hommes
@@ -1231,10 +1231,10 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Periode: 2000-2023
 - Statut: persistant
 - Mesure cle: 1 sur 3
-- Resume: Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois.
-- Nuance: Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.
-- Population mesuree: Population mesurée par les sources : femmes dans les enquêtes OMS sur violences conjugales physiques/sexuelles et violences sexuelles hors couple, avec sources comparatives sur victimations, homicides, travail et suicide. Les sources ne mesurent pas les chromosomes.
-- Sources: Organisation mondiale de la Santé (19 novembre 2025): https://www.who.int/fr/news/item/19-11-2025-lifetime-toll--840-million-women-faced-partner-or-sexual-violence; Insee / SSMSI (2024): https://www.insee.fr/fr/statistiques/8242369?sommaire=8242421; Ministère de l'Intérieur / SSMSI (2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024; UN Women / UNODC (2024): https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf
+- Resume: Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois. Dans le seul champ des violences sexuelles hors couple depuis l'âge de 15 ans, l'OMS estime 263 millions de femmes et de filles concernées, soit 8 %.
+- Nuance: Cette fiche rassemble deux périmètres distincts : l'estimation d'une femme sur trois combine violences physiques ou sexuelles du partenaire et violences sexuelles hors couple, tandis que le taux de 8 % porte uniquement sur les violences sexuelles hors couple depuis l'âge de 15 ans. L'OMS souligne que la sous-déclaration, l'ancienneté ou l'absence d'enquêtes et les différences de définition et de questionnaire conduisent probablement à sous-estimer la prévalence. La nouvelle note méthodologique ne publie pas de taux masculin construit avec le même protocole : elle ne permet donc pas de déduire une comparaison femmes-hommes.
+- Population mesuree: Population mesurée par les sources : femmes et filles âgées de 15 ans ou plus dans les enquêtes de population de l'OMS sur les violences physiques ou sexuelles du partenaire intime et les violences sexuelles hors couple. Les sources ne mesurent pas les chromosomes.
+- Sources: Organisation mondiale de la Santé (19 novembre 2025): https://www.who.int/fr/news/item/19-11-2025-lifetime-toll--840-million-women-faced-partner-or-sexual-violence; Organisation mondiale de la Santé (24 août 2026): https://www.who.int/publications/i/item/B09836; Organisation mondiale de la Santé (18 septembre 2026): https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women; Organisation mondiale de la Santé (31 juillet 2026): https://www.who.int/publications/i/item/B09860; Insee / SSMSI (2024): https://www.insee.fr/fr/statistiques/8242369?sommaire=8242421; Ministère de l'Intérieur / SSMSI (2025): https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024; UN Women / UNODC (2024): https://www.unwomen.org/sites/default/files/2024-11/femicides-in-2023-global-estimates-of-intimate-partner-family-member-femicides-en.pdf
 
 ## Détenues plus exposées à la victimisation sexuelle en prison
 - ID: femmes-prison-victimisation-sexuelle-etats-unis

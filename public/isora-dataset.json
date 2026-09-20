@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-18T00:00:00+02:00",
+  "generatedAt": "2026-09-20T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -15,7 +15,7 @@
     "total": 101,
     "hommes": 45,
     "femmes": 56,
-    "sources": 224
+    "sources": 227
   },
   "domains": [
     "Travail",
@@ -3510,8 +3510,8 @@
       "angle": "désavantage_subi",
       "domain": "Violences",
       "metric": "1 sur 3",
-      "summary": "Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois.",
-      "nuance": "Cette fiche porte sur les violences intimes et sexuelles, pas sur l'ensemble des violences toutes catégories confondues. Les femmes sont nettement plus exposées aux violences sexuelles et conjugales dans les enquêtes disponibles, tandis que les hommes sont davantage exposés à d'autres violences ou morts violentes: homicides, violences publiques, risques professionnels, suicide et, selon les contextes, mobilisation militaire.",
+      "summary": "Les estimations OMS publiées en novembre 2025 évaluent à environ 840 millions le nombre de femmes ayant subi au cours de leur vie des violences physiques ou sexuelles d'un partenaire intime, ou des violences sexuelles d'un non-partenaire, soit près d'une femme sur trois. Dans le seul champ des violences sexuelles hors couple depuis l'âge de 15 ans, l'OMS estime 263 millions de femmes et de filles concernées, soit 8 %.",
+      "nuance": "Cette fiche rassemble deux périmètres distincts : l'estimation d'une femme sur trois combine violences physiques ou sexuelles du partenaire et violences sexuelles hors couple, tandis que le taux de 8 % porte uniquement sur les violences sexuelles hors couple depuis l'âge de 15 ans. L'OMS souligne que la sous-déclaration, l'ancienneté ou l'absence d'enquêtes et les différences de définition et de questionnaire conduisent probablement à sous-estimer la prévalence. La nouvelle note méthodologique ne publie pas de taux masculin construit avec le même protocole : elle ne permet donc pas de déduire une comparaison femmes-hommes.",
       "tags": [
         "violences",
         "santé",
@@ -3523,9 +3523,9 @@
       "periodStart": "2000",
       "periodEnd": "2023",
       "currentStatus": "persistant",
-      "sourcePopulation": "Population mesurée par les sources : femmes dans les enquêtes OMS sur violences conjugales physiques/sexuelles et violences sexuelles hors couple, avec sources comparatives sur victimations, homicides, travail et suicide. Les sources ne mesurent pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par les sources : femmes et filles âgées de 15 ans ou plus dans les enquêtes de population de l'OMS sur les violences physiques ou sexuelles du partenaire intime et les violences sexuelles hors couple. Les sources ne mesurent pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "11 août 2026",
+      "lastChecked": "20 septembre 2026",
       "source": {
         "label": "Le bilan est lourd : 840 millions de femmes sont victimes de violences conjugales ou sexuelles",
         "publisher": "Organisation mondiale de la Santé",
@@ -3533,6 +3533,24 @@
         "date": "19 novembre 2025"
       },
       "additionalSources": [
+        {
+          "label": "Measuring non-partner sexual violence against women: data availability, methodological issues and recommendations for good practice",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/B09836",
+          "date": "24 août 2026"
+        },
+        {
+          "label": "New brief highlights gaps and recommendations for improving violence data on women",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women",
+          "date": "18 septembre 2026"
+        },
+        {
+          "label": "Violence against women prevalence estimates, 2023: global overview",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/B09860",
+          "date": "31 juillet 2026"
+        },
         {
           "label": "Insécurité, victimation - France, portrait social",
           "publisher": "Insee / SSMSI",

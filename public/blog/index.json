@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-18T18:35:14.727Z",
+  "generatedAt": "2026-09-20T15:41:31.146Z",
   "posts": [
+    {
+      "id": "2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale",
+      "title": "Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/",
+      "description": "L'OMS estime que 263 millions de femmes et de filles de 15 ans ou plus ont subi des violences sexuelles d'un non-partenaire depuis l'âge de 15 ans. Une nouvelle note explique pourquoi ce chiffre de 8 % est probablement sous-estimé et difficile à comparer entre pays.",
+      "date": "2026-09-20",
+      "publishedAt": "2026-09-20T15:37:00.000Z",
+      "updatedAt": "2026-09-20T15:37:00.000Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "violences sexuelles hors couple femmes OMS",
+        "violences sexuelles non-partenaire 263 millions",
+        "mesure violences sexuelles enquêtes population",
+        "8 % femmes filles violences sexuelles monde",
+        "sous-déclaration violences sexuelles statistiques"
+      ],
+      "relatedClaimIds": [
+        "femmes-violences-physiques-sexuelles-monde"
+      ],
+      "readingMinutes": 6,
+      "sources": [
+        {
+          "title": "Measuring non-partner sexual violence against women: data availability, methodological issues and recommendations for good practice",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/B09836",
+          "date": "24 août 2026",
+          "type": "note technique"
+        },
+        {
+          "title": "New brief highlights gaps and recommendations for improving violence data on women",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women",
+          "date": "18 septembre 2026",
+          "type": "actualité institutionnelle"
+        },
+        {
+          "title": "Violence against women prevalence estimates, 2023: global overview",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/B09860",
+          "date": "31 juillet 2026",
+          "type": "synthèse mondiale"
+        },
+        {
+          "title": "Violence against women prevalence estimates, 2023",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/9789240116962",
+          "date": "19 novembre 2025",
+          "type": "rapport mondial"
+        }
+      ]
+    },
     {
       "id": "2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe",
       "title": "Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS",
