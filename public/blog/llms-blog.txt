@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
+- URL: https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
+- Date: 2026-09-21
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: hommes-mesotheliome-pleural-incidence-france
+- Resume: Publié le 21 septembre 2026, le bilan de Santé publique France retrace 26 années de surveillance du mésothéliome pleural, un cancer lié à l'amiante. Dans la zone suivie, 7 277 cas ont été inclus entre 1998 et 2023. Pour la France entière, l'incidence annuelle estimée et standardisée sur l'âge est, en 2018-2021, de 2,23 pour 100 000 chez les hommes et 0,72 chez les femmes. Les hommes restent davantage touchés, mais les circonstances d'exposition identifiées diffèrent : parmi les patients interrogés sur 2018-2023, une exposition professionnelle à l'amiante a été retrouvée chez 89,0 % des hommes et 28,2 % des femmes. Ces chiffres décrivent des personnes atteintes et enquêtées, non le risque de l'ensemble des travailleurs ou travailleuses.
+- Sources: Santé publique France (21 septembre 2026): https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf; Santé publique France (21 septembre 2026): https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des; Santé publique France (4 mai 2026): https://www.santepubliquefrance.fr/mesotheliomes/donnees; Santé publique France (4 mai 2026): https://www.santepubliquefrance.fr/mesotheliomes/la-maladie
+
 ### Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer
 - URL: https://isora-xi.vercel.app/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
 - Date: 2026-09-20

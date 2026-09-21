@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-20T00:00:00+02:00",
+  "generatedAt": "2026-09-21T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -12,14 +12,14 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 101,
-    "hommes": 45,
+    "total": 102,
+    "hommes": 46,
     "femmes": 56,
-    "sources": 227
+    "sources": 230
   },
   "domains": [
-    "Travail",
     "Santé",
+    "Travail",
     "Justice",
     "Famille",
     "Éducation",
@@ -36,6 +36,7 @@
     "Afghanistan",
     "aide aux victimes",
     "aide sociale",
+    "amiante",
     "antiféminisme",
     "antimasculinisme",
     "Arabie saoudite",
@@ -47,6 +48,7 @@
     "body count",
     "bourses",
     "Canada",
+    "cancer",
     "comparaison",
     "condamnations",
     "conflits",
@@ -119,6 +121,7 @@
     "maternité",
     "médecins libéraux",
     "ménopause",
+    "mésothéliome",
     "métiers dangereux",
     "mobilité",
     "monde",
@@ -660,6 +663,54 @@
     ]
   },
   "claims": [
+    {
+      "id": "hommes-mesotheliome-pleural-incidence-france",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-mesotheliome-pleural-incidence-france/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-mesotheliome-pleural-incidence-france",
+      "title": "Mésothéliome pleural : une incidence estimée plus élevée chez les hommes",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "2,23 vs 0,72 / 100 000",
+      "summary": "En France, Santé publique France estime pour 2018-2021 un taux annuel d'incidence du mésothéliome pleural standardisé sur l'âge de 2,23 pour 100 000 chez les hommes, contre 0,72 chez les femmes. Les estimations nationales proviennent du programme de surveillance couvrant une partie du territoire, rapproché des données nationales de mortalité.",
+      "nuance": "Il s'agit de taux d'incidence estimés, non de la part des cas ni d'une mesure de l'exposition actuelle à l'amiante. Les chiffres 2018-2021 sont construits selon la même méthode pour les deux sexes ; ceux de 2022-2023 reposent sur les hospitalisations et ne doivent pas être raccordés sans précaution. La couverture partielle du programme de surveillance et les faibles effectifs féminins limitent la précision.",
+      "tags": [
+        "santé",
+        "mésothéliome",
+        "amiante",
+        "cancer",
+        "France"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2018",
+      "periodEnd": "2021",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par la source : personnes classées comme femmes ou hommes dans la surveillance française du mésothéliome pleural et les statistiques nationales de mortalité. La source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "21 septembre 2026",
+      "source": {
+        "label": "Programme national de surveillance du mésothéliome pleural : 26 années de surveillance (1998-2023), tableau 11",
+        "publisher": "Santé publique France",
+        "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf",
+        "date": "21 septembre 2026, données 2018-2021"
+      },
+      "additionalSources": [
+        {
+          "label": "Présentation du rapport de surveillance du mésothéliome pleural 1998-2023",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des",
+          "date": "21 septembre 2026"
+        },
+        {
+          "label": "Mésothéliomes : surveillance et données",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/mesotheliomes/donnees",
+          "date": "4 mai 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "hommes-contraintes-physiques-travail-france-2024",
       "url": "https://isora-xi.vercel.app/fiches/hommes-contraintes-physiques-travail-france-2024/",

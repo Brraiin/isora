@@ -107,6 +107,52 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "hommes-mesotheliome-pleural-incidence-france",
+    side: "hommes",
+    domain: "Santé",
+    title: "Mésothéliome pleural : une incidence estimée plus élevée chez les hommes",
+    metric: "2,23 vs 0,72 / 100 000",
+    summary:
+      "En France, Santé publique France estime pour 2018-2021 un taux annuel d'incidence du mésothéliome pleural standardisé sur l'âge de 2,23 pour 100 000 chez les hommes, contre 0,72 chez les femmes. Les estimations nationales proviennent du programme de surveillance couvrant une partie du territoire, rapproché des données nationales de mortalité.",
+    tags: ["santé", "mésothéliome", "amiante", "cancer", "France"],
+    source: {
+      label: "Programme national de surveillance du mésothéliome pleural : 26 années de surveillance (1998-2023), tableau 11",
+      publisher: "Santé publique France",
+      url: "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf",
+      date: "21 septembre 2026, données 2018-2021",
+    },
+    additionalSources: [
+      {
+        label: "Présentation du rapport de surveillance du mésothéliome pleural 1998-2023",
+        publisher: "Santé publique France",
+        url: "https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des",
+        date: "21 septembre 2026",
+      },
+      {
+        label: "Mésothéliomes : surveillance et données",
+        publisher: "Santé publique France",
+        url: "https://www.santepubliquefrance.fr/mesotheliomes/donnees",
+        date: "4 mai 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Estimated pleural mesothelioma incidence is higher among men",
+        summary:
+          "In France, Santé publique France estimates an age-standardised annual pleural mesothelioma incidence rate for 2018–2021 of 2.23 per 100,000 among men, compared with 0.72 among women. The national estimates combine surveillance from part of the country with national mortality data.",
+        nuance:
+          "These are estimated incidence rates, not the share of cases or a measure of current asbestos exposure. The 2018–2021 estimates use the same method for both sexes. Figures for 2022–2023 use hospitalisation data instead and should not be joined to this series without qualification. The surveillance area and small female case numbers limit precision.",
+        sourcePopulation:
+          "Population measured by the source: people classified as women or men in French pleural mesothelioma surveillance and national mortality statistics. The source does not measure chromosomes.",
+        tags: ["health", "mesothelioma", "asbestos", "cancer", "France"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "21 septembre 2026",
+    nuance:
+      "Il s'agit de taux d'incidence estimés, non de la part des cas ni d'une mesure de l'exposition actuelle à l'amiante. Les chiffres 2018-2021 sont construits selon la même méthode pour les deux sexes ; ceux de 2022-2023 reposent sur les hospitalisations et ne doivent pas être raccordés sans précaution. La couverture partielle du programme de surveillance et les faibles effectifs féminins limitent la précision.",
+  },
+  {
     id: "hommes-contraintes-physiques-travail-france-2024",
     side: "hommes",
     domain: "Travail",
@@ -3777,6 +3823,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "hommes-mesotheliome-pleural-incidence-france":
+    "Population mesurée par la source : personnes classées comme femmes ou hommes dans la surveillance française du mésothéliome pleural et les statistiques nationales de mortalité. La source ne mesure pas les chromosomes.",
   "hommes-contraintes-physiques-travail-france-2024":
     "Population mesurée par la source : femmes et hommes salariés en France interrogés sur leurs conditions de travail en 2016 et 2024. La source utilise les catégories statistiques de sexe et ne mesure pas les chromosomes.",
   "hommes-accidents-travail":
@@ -3992,6 +4040,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "hommes-mesotheliome-pleural-incidence-france": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2018",
+    periode_fin: "2021",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "incidence estimée d'un cancer lié à l'amiante",
+  },
   "hommes-contraintes-physiques-travail-france-2024": {
     pays_ou_zone: "France",
     regionScope: "Europe",

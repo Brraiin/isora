@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-mesotheliome-pleural-incidence-france",
+    "side": "hommes",
+    "claimTitle": "Mésothéliome pleural : une incidence estimée plus élevée chez les hommes",
+    "claimMetric": "2,23 vs 0,72 / 100 000",
+    "blogTitle": "Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes",
+    "blogUrl": "/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/",
+    "date": "2026-09-21",
+    "updatedAt": "2026-09-21T18:30:00.000Z"
+  },
+  {
     "claimId": "femmes-violences-physiques-sexuelles-monde",
     "side": "femmes",
     "claimTitle": "Femmes exposées aux violences conjugales physiques ou sexuelles",

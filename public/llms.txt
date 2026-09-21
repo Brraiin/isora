@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-09-20T00:00:00+02:00
+Derniere generation: 2026-09-21T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -17,11 +17,11 @@ Derniere generation: 2026-09-20T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 101
-- Fiches concernant les hommes: 45
+- Fiches: 102
+- Fiches concernant les hommes: 46
 - Fiches concernant les femmes: 56
-- Sources distinctes: 227
-- Domaines: Travail, Santé, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
+- Sources distinctes: 230
+- Domaines: Santé, Travail, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
 - Donnee sourcee, contexte lisible, contribution ouverte.
@@ -155,6 +155,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
+- URL: https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
+- Date: 2026-09-21
+- Fiches isora liees: hommes-mesotheliome-pleural-incidence-france
+- Resume: Publié le 21 septembre 2026, le bilan de Santé publique France retrace 26 années de surveillance du mésothéliome pleural, un cancer lié à l'amiante. Dans la zone suivie, 7 277 cas ont été inclus entre 1998 et 2023. Pour la France entière, l'incidence annuelle estimée et standardisée sur l'âge est, en 2018-2021, de 2,23 pour 100 000 chez les hommes et 0,72 chez les femmes. Les hommes restent davantage touchés, mais les circonstances d'exposition identifiées diffèrent : parmi les patients interrogés sur 2018-2023, une exposition professionnelle à l'amiante a été retrouvée chez 89,0 % des hommes et 28,2 % des femmes. Ces chiffres décrivent des personnes atteintes et enquêtées, non le risque de l'ensemble des travailleurs ou travailleuses.
+- Sources: Santé publique France: https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf; Santé publique France: https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/donnees; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/la-maladie
+
 ### Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer
 - URL: https://isora-xi.vercel.app/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
 - Date: 2026-09-20
@@ -204,13 +211,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Resume: En 2025, la police et la gendarmerie ont enregistré 104 880 victimes de vols, violences, escroqueries et fraudes aux moyens de paiement dans les transports en commun en France. Ce total baisse de 2 % en un an et de 22 % depuis 2016, principalement dans un ensemble où les vols sans violence représentent 77 % des victimes. Mais les violences physiques ou sexuelles augmentent de 3 %, et 3 494 victimes de violences sexuelles sont recensées. Le bilan 2025 ne donne pas leur répartition par sexe : la dernière comparaison publiée porte sur 2024 et indique 91 % de femmes. Ces données enregistrées ne mesurent qu'une partie des faits, car beaucoup ne donnent pas lieu à une plainte.
 - Sources: Ministère de l'Intérieur / Interstats: https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025; Observatoire national des violences faites aux femmes / Miprof: https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf; Insee / Service statistique ministériel de la sécurité intérieure: https://www.insee.fr/fr/statistiques/5763595; Ministère chargé de l'Égalité entre les femmes et les hommes: https://egalite-femmes-hommes.gouv.fr/pour-en-finir-avec-les-violences-sexistes-et-sexuelles-dans-les-transports-en-commun-le-gouvernement-sengage-avec-lensemble-des-acteurs-du-secteur
 
-### PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques
-- URL: https://isora-xi.vercel.app/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/
-- Date: 2026-09-08
-- Fiches isora liees: hommes-decrochage-garcons-monde, femmes-ingenierie
-- Resume: Publié le 8 septembre 2026, PISA 2025 fait apparaître en France des écarts entre filles et garçons qui changent de sens selon la matière. Les filles obtiennent 32 points de plus en compréhension de l’écrit et les garçons 13 points de plus en culture mathématique. La difficulté en lecture concerne 39 % des garçons contre 26 % des filles. En sciences, la DEPP ne relève pas de différence significative entre les deux groupes. Ces résultats décrivent des performances moyennes d’élèves scolarisés de 15 ans ; ils ne prouvent ni une aptitude naturelle ni une cause unique liée au sexe.
-- Sources: OCDE: https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html; OCDE: https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html; Ministère de l’Éducation nationale / DEPP: https://www.education.gouv.fr/depp/pisa-2025-les-acquis-des-eleves-de-15-ans-en-comprehension-de-l-ecrit-et-en-culture-mathematique-en-505645; Ministère de l’Éducation nationale / DEPP: https://www.education.gouv.fr/depp/pisa-2025-en-culture-scientifique-le-score-baisse-par-rapport-2015-en-france-comme-dans-l-ocde-et-505639; OCDE: https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html
 
+## Mésothéliome pleural : une incidence estimée plus élevée chez les hommes
+- ID: hommes-mesotheliome-pleural-incidence-france
+- URL: https://isora-xi.vercel.app/fiches/hommes-mesotheliome-pleural-incidence-france/
+- URL interactive: https://isora-xi.vercel.app/#hommes-mesotheliome-pleural-incidence-france
+- Groupe: hommes
+- Angle: désavantage_subi
+- Domaine: Santé
+- Zone: France
+- Periode: 2018-2021
+- Statut: actuel
+- Mesure cle: 2,23 vs 0,72 / 100 000
+- Resume: En France, Santé publique France estime pour 2018-2021 un taux annuel d'incidence du mésothéliome pleural standardisé sur l'âge de 2,23 pour 100 000 chez les hommes, contre 0,72 chez les femmes. Les estimations nationales proviennent du programme de surveillance couvrant une partie du territoire, rapproché des données nationales de mortalité.
+- Nuance: Il s'agit de taux d'incidence estimés, non de la part des cas ni d'une mesure de l'exposition actuelle à l'amiante. Les chiffres 2018-2021 sont construits selon la même méthode pour les deux sexes ; ceux de 2022-2023 reposent sur les hospitalisations et ne doivent pas être raccordés sans précaution. La couverture partielle du programme de surveillance et les faibles effectifs féminins limitent la précision.
+- Population mesuree: Population mesurée par la source : personnes classées comme femmes ou hommes dans la surveillance française du mésothéliome pleural et les statistiques nationales de mortalité. La source ne mesure pas les chromosomes.
+- Sources: Santé publique France (21 septembre 2026, données 2018-2021): https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf; Santé publique France (21 septembre 2026): https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des; Santé publique France (4 mai 2026): https://www.santepubliquefrance.fr/mesotheliomes/donnees
 
 ## Contraintes physiques au travail plus fréquentes chez les hommes
 - ID: hommes-contraintes-physiques-travail-france-2024

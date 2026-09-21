@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-20T15:41:31.146Z",
+  "generatedAt": "2026-09-21T18:39:41.169Z",
   "posts": [
+    {
+      "id": "2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante",
+      "title": "Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/",
+      "description": "Le bilan 1998-2023 de Santé publique France éclaire l'écart femmes-hommes face au mésothéliome pleural, l'évolution de l'incidence et les différences d'exposition à l'amiante.",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T18:30:00.000Z",
+      "updatedAt": "2026-09-21T18:30:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "mésothéliome pleural femmes hommes France",
+        "amiante exposition professionnelle femmes hommes",
+        "incidence mésothéliome Santé publique France 2026",
+        "surveillance mésothéliome 1998 2023",
+        "cancer plèvre amiante différences sexe"
+      ],
+      "relatedClaimIds": [
+        "hommes-mesotheliome-pleural-incidence-france"
+      ],
+      "readingMinutes": 6,
+      "sources": [
+        {
+          "title": "Programme national de surveillance du mésothéliome pleural (PNSM) : 26 années de surveillance (1998-2023)",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf",
+          "date": "21 septembre 2026",
+          "type": "rapport de surveillance, 83 pages"
+        },
+        {
+          "title": "Présentation du rapport PNSM 1998-2023",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des",
+          "date": "21 septembre 2026",
+          "type": "notice institutionnelle"
+        },
+        {
+          "title": "Mésothéliomes : données de surveillance",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/mesotheliomes/donnees",
+          "date": "4 mai 2026",
+          "type": "données et méthode"
+        },
+        {
+          "title": "Mésothéliomes : la maladie",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/mesotheliomes/la-maladie",
+          "date": "4 mai 2026",
+          "type": "contexte médical"
+        }
+      ]
+    },
     {
       "id": "2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale",
       "title": "Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer",
