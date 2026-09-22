@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-etudes-superieures-sport-ue-2024",
+    "side": "femmes",
+    "claimTitle": "Femmes moins nombreuses dans les études supérieures de sport de l'UE",
+    "claimMetric": "83 451 vs 193 434",
+    "blogTitle": "Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024",
+    "blogUrl": "/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/",
+    "date": "2026-09-22",
+    "updatedAt": "2026-09-22T18:37:00.000Z"
+  },
+  {
     "claimId": "hommes-mesotheliome-pleural-incidence-france",
     "side": "hommes",
     "claimTitle": "Mésothéliome pleural : une incidence estimée plus élevée chez les hommes",

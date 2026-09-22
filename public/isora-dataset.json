@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-21T00:00:00+02:00",
+  "generatedAt": "2026-09-22T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -12,17 +12,17 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 102,
+    "total": 103,
     "hommes": 46,
-    "femmes": 56,
-    "sources": 230
+    "femmes": 57,
+    "sources": 233
   },
   "domains": [
+    "Éducation",
     "Santé",
     "Travail",
     "Justice",
     "Famille",
-    "Éducation",
     "Violences",
     "Droits",
     "Revenus",
@@ -80,6 +80,7 @@
     "économie",
     "éducation",
     "enfance",
+    "enseignement supérieur",
     "espaces non mixtes",
     "États-Unis",
     "Europe",
@@ -663,6 +664,54 @@
     ]
   },
   "claims": [
+    {
+      "id": "femmes-etudes-superieures-sport-ue-2024",
+      "url": "https://isora-xi.vercel.app/fiches/femmes-etudes-superieures-sport-ue-2024/",
+      "appUrl": "https://isora-xi.vercel.app/#femmes-etudes-superieures-sport-ue-2024",
+      "title": "Femmes moins nombreuses dans les études supérieures de sport de l'UE",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Éducation",
+      "metric": "83 451 vs 193 434",
+      "summary": "En 2024, Eurostat dénombre dans l'Union européenne 83 451 étudiantes et 193 434 étudiants inscrits dans le domaine du sport au niveau de l'enseignement supérieur. La comparaison porte sur les effectifs inscrits dans le même domaine, la même zone et la même année ; elle ne mesure ni la pratique sportive ni les chances individuelles d'accéder à ces études.",
+      "nuance": "Ce sont des effectifs inscrits, et non des taux rapportés à la population. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. L'emploi sportif en 2025 est un indicateur distinct et ne peut pas être attribué à ces étudiants.",
+      "tags": [
+        "éducation",
+        "sport",
+        "enseignement supérieur",
+        "Union européenne",
+        "orientation"
+      ],
+      "countryScope": "Union européenne (27 États membres)",
+      "regionScope": "Europe",
+      "periodStart": "2024",
+      "periodEnd": "2024",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "22 septembre 2026",
+      "source": {
+        "label": "Étudiants inscrits dans l'enseignement supérieur par domaine, niveau et sexe (educ_uoe_enrt03)",
+        "publisher": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en",
+        "date": "données 2024, consultées le 22 septembre 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "How many Europeans are employed in sports?",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1",
+          "date": "22 septembre 2026"
+        },
+        {
+          "label": "Sports statistics – Infographic – 2026 edition",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049",
+          "date": "septembre 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "hommes-mesotheliome-pleural-incidence-france",
       "url": "https://isora-xi.vercel.app/fiches/hommes-mesotheliome-pleural-incidence-france/",

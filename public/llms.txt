@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-09-21T00:00:00+02:00
+Derniere generation: 2026-09-22T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -17,11 +17,11 @@ Derniere generation: 2026-09-21T00:00:00+02:00
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 102
+- Fiches: 103
 - Fiches concernant les hommes: 46
-- Fiches concernant les femmes: 56
-- Sources distinctes: 230
-- Domaines: Santé, Travail, Justice, Famille, Éducation, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
+- Fiches concernant les femmes: 57
+- Sources distinctes: 233
+- Domaines: Éducation, Santé, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
 - Donnee sourcee, contexte lisible, contribution ouverte.
@@ -155,6 +155,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora-xi.vercel.app/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
+- URL: https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
+- Date: 2026-09-22
+- Fiches isora liees: femmes-etudes-superieures-sport-ue-2024
+- Resume: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport, selon la base d'inscriptions. Eurostat résume cet écart par environ deux étudiantes pour cinq étudiants. Le ratio approximatif figurait déjà dans son édition précédente pour 2023 : les nouvelles données confirment un écart, sans démontrer à elles seules qu'il s'aggrave. L'emploi sportif de 2025 offre un autre éclairage, mais porte sur une population et une méthode différentes.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1
+
 ### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
 - URL: https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
 - Date: 2026-09-21
@@ -204,13 +211,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Resume: La Dares a publié le 9 septembre 2026 les premiers résultats de l'enquête Conditions de travail 2024-2025. Quatre salariés sur dix déclarent au moins trois contraintes physiques. Les hommes restent davantage exposés que les femmes, mais l'écart passe de 10 points en 2016 à 8 points en 2024. Cette seule mesure ne résume pas les risques professionnels : l'analyse détaillée de l'enquête 2019 montrait une pénibilité physique plus forte chez les hommes et, à durée de travail identique, une exposition féminine plus élevée à plusieurs risques psychosociaux. Les écarts tiennent notamment aux métiers exercés, mais certains subsistent au sein des mêmes groupes de professions.
 - Sources: Dares: https://dares.travail-emploi.gouv.fr/publication/quelles-evolutions-des-conditions-de-travail-et-des-risques-psychosociaux-depuis-2016; Insee: https://www.insee.fr/fr/statistiques/6047793?sommaire=6047805; Dares: https://dares.travail-emploi.gouv.fr/publication/conditions-de-travail-et-mixite-quelles-differences-entre-professions-et-entre-femmes-et-hommes; Dares: https://dares.travail-emploi.gouv.fr/donnees/35-ans-devolutions-des-conditions-de-travail
 
-### Transports en commun : baisse globale des atteintes enregistrées, mais violences sexuelles en hausse
-- URL: https://isora-xi.vercel.app/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/
-- Date: 2026-09-11
-- Fiches isora liees: femmes-violences-sexuelles-transports-hce-2025
-- Resume: En 2025, la police et la gendarmerie ont enregistré 104 880 victimes de vols, violences, escroqueries et fraudes aux moyens de paiement dans les transports en commun en France. Ce total baisse de 2 % en un an et de 22 % depuis 2016, principalement dans un ensemble où les vols sans violence représentent 77 % des victimes. Mais les violences physiques ou sexuelles augmentent de 3 %, et 3 494 victimes de violences sexuelles sont recensées. Le bilan 2025 ne donne pas leur répartition par sexe : la dernière comparaison publiée porte sur 2024 et indique 91 % de femmes. Ces données enregistrées ne mesurent qu'une partie des faits, car beaucoup ne donnent pas lieu à une plainte.
-- Sources: Ministère de l'Intérieur / Interstats: https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025; Observatoire national des violences faites aux femmes / Miprof: https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf; Insee / Service statistique ministériel de la sécurité intérieure: https://www.insee.fr/fr/statistiques/5763595; Ministère chargé de l'Égalité entre les femmes et les hommes: https://egalite-femmes-hommes.gouv.fr/pour-en-finir-avec-les-violences-sexistes-et-sexuelles-dans-les-transports-en-commun-le-gouvernement-sengage-avec-lensemble-des-acteurs-du-secteur
 
+## Femmes moins nombreuses dans les études supérieures de sport de l'UE
+- ID: femmes-etudes-superieures-sport-ue-2024
+- URL: https://isora-xi.vercel.app/fiches/femmes-etudes-superieures-sport-ue-2024/
+- URL interactive: https://isora-xi.vercel.app/#femmes-etudes-superieures-sport-ue-2024
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Éducation
+- Zone: Union européenne (27 États membres)
+- Periode: 2024-2024
+- Statut: actuel
+- Mesure cle: 83 451 vs 193 434
+- Resume: En 2024, Eurostat dénombre dans l'Union européenne 83 451 étudiantes et 193 434 étudiants inscrits dans le domaine du sport au niveau de l'enseignement supérieur. La comparaison porte sur les effectifs inscrits dans le même domaine, la même zone et la même année ; elle ne mesure ni la pratique sportive ni les chances individuelles d'accéder à ces études.
+- Nuance: Ce sont des effectifs inscrits, et non des taux rapportés à la population. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. L'emploi sportif en 2025 est un indicateur distinct et ne peut pas être attribué à ces étudiants.
+- Population mesuree: Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.
+- Sources: Eurostat (données 2024, consultées le 22 septembre 2026): https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat (22 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat (septembre 2026): https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049
 
 ## Mésothéliome pleural : une incidence estimée plus élevée chez les hommes
 - ID: hommes-mesotheliome-pleural-incidence-france

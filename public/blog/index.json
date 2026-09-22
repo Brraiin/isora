@@ -2,8 +2,69 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-21T18:39:41.169Z",
+  "generatedAt": "2026-09-22T18:37:57.329Z",
   "posts": [
+    {
+      "id": "2026-09-22-etudes-sport-ue-femmes-hommes-2024",
+      "title": "Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/",
+      "description": "Les nouvelles données Eurostat sur le sport distinguent les inscriptions des femmes et des hommes dans l'enseignement supérieur en 2024, et l'emploi sportif en 2025.",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T18:37:00.000Z",
+      "updatedAt": "2026-09-22T18:37:00.000Z",
+      "topic": {
+        "id": "education-orientation",
+        "label": "Éducation, orientation et formation"
+      },
+      "keywords": [
+        "études de sport femmes hommes Union européenne 2024",
+        "enseignement supérieur sport Eurostat 2026",
+        "étudiantes étudiants sport UE",
+        "emploi sportif femmes hommes Europe 2025",
+        "orientation études sport écart femmes hommes"
+      ],
+      "relatedClaimIds": [
+        "femmes-etudes-superieures-sport-ue-2024"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "How many Europeans are employed in sports?",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1",
+          "date": "22 septembre 2026",
+          "type": "actualité statistique institutionnelle"
+        },
+        {
+          "title": "Sports statistics – Infographic – 2026 edition",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049",
+          "date": "septembre 2026",
+          "type": "infographie statistique"
+        },
+        {
+          "title": "Students enrolled in tertiary education by education level, programme orientation, sex and field of education (educ_uoe_enrt03)",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en",
+          "date": "données 2024",
+          "type": "tableau de données officielles"
+        },
+        {
+          "title": "Employment in sport",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport",
+          "date": "données extraites en juillet 2026",
+          "type": "analyse statistique et méthodologie"
+        },
+        {
+          "title": "EU sport in focus",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1",
+          "date": "22 septembre 2025",
+          "type": "édition précédente, comparaison du ratio"
+        }
+      ]
+    },
     {
       "id": "2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante",
       "title": "Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes",

@@ -107,6 +107,52 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "femmes-etudes-superieures-sport-ue-2024",
+    side: "femmes",
+    domain: "Éducation",
+    title: "Femmes moins nombreuses dans les études supérieures de sport de l'UE",
+    metric: "83 451 vs 193 434",
+    summary:
+      "En 2024, Eurostat dénombre dans l'Union européenne 83 451 étudiantes et 193 434 étudiants inscrits dans le domaine du sport au niveau de l'enseignement supérieur. La comparaison porte sur les effectifs inscrits dans le même domaine, la même zone et la même année ; elle ne mesure ni la pratique sportive ni les chances individuelles d'accéder à ces études.",
+    tags: ["éducation", "sport", "enseignement supérieur", "Union européenne", "orientation"],
+    source: {
+      label: "Étudiants inscrits dans l'enseignement supérieur par domaine, niveau et sexe (educ_uoe_enrt03)",
+      publisher: "Eurostat",
+      url: "https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en",
+      date: "données 2024, consultées le 22 septembre 2026",
+    },
+    additionalSources: [
+      {
+        label: "How many Europeans are employed in sports?",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1",
+        date: "22 septembre 2026",
+      },
+      {
+        label: "Sports statistics – Infographic – 2026 edition",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049",
+        date: "septembre 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Women are fewer in EU tertiary-level sports studies",
+        summary:
+          "In 2024, Eurostat counted 83,451 female and 193,434 male students enrolled in the sports field at tertiary level across the European Union. The comparison uses enrolment counts for the same field, area and year; it does not measure sports participation or individuals' chances of entering these programmes.",
+        nuance:
+          "These are enrolment counts, not population-adjusted rates. Eurostat's approximate ratio of two female students for every five male students was also reported for 2023, so the 2024 figure alone does not establish a new trend. The dataset flags these values as differing in definition; country-level comparability requires care. Sports employment in 2025 is a separate indicator and cannot be attributed to these students.",
+        sourcePopulation:
+          "Population measured by the source: students recorded as female or male in EU tertiary-level sports programmes (ISCED-F 1014, levels 5–8) in 2024. These are statistical sex categories; chromosomes are not measured.",
+        tags: ["education", "sports", "tertiary education", "European Union", "study choices"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "22 septembre 2026",
+    nuance:
+      "Ce sont des effectifs inscrits, et non des taux rapportés à la population. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. L'emploi sportif en 2025 est un indicateur distinct et ne peut pas être attribué à ces étudiants.",
+  },
+  {
     id: "hommes-mesotheliome-pleural-incidence-france",
     side: "hommes",
     domain: "Santé",
@@ -3823,6 +3869,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-etudes-superieures-sport-ue-2024":
+    "Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.",
   "hommes-mesotheliome-pleural-incidence-france":
     "Population mesurée par la source : personnes classées comme femmes ou hommes dans la surveillance française du mésothéliome pleural et les statistiques nationales de mortalité. La source ne mesure pas les chromosomes.",
   "hommes-contraintes-physiques-travail-france-2024":
@@ -4040,6 +4088,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-etudes-superieures-sport-ue-2024": {
+    pays_ou_zone: "Union européenne (27 États membres)",
+    regionScope: "Europe",
+    periode_debut: "2024",
+    periode_fin: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "inscriptions dans l'enseignement supérieur, domaine du sport",
+  },
   "hommes-mesotheliome-pleural-incidence-france": {
     pays_ou_zone: "France",
     regionScope: "Europe",
