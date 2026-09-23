@@ -2,16 +2,16 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-22T18:37:57.329Z",
+  "generatedAt": "2026-09-23T05:37:39.544Z",
   "posts": [
     {
       "id": "2026-09-22-etudes-sport-ue-femmes-hommes-2024",
       "title": "Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024",
       "url": "https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/",
-      "description": "Les nouvelles données Eurostat sur le sport distinguent les inscriptions des femmes et des hommes dans l'enseignement supérieur en 2024, et l'emploi sportif en 2025.",
+      "description": "L'écart femmes-hommes dans les études supérieures de sport de l'UE ne décrit pas la pratique des seniors. Les enquêtes françaises éclairent cette limite sans prouver de lien causal avec la longévité.",
       "date": "2026-09-22",
       "publishedAt": "2026-09-22T18:37:00.000Z",
-      "updatedAt": "2026-09-22T18:37:00.000Z",
+      "updatedAt": "2026-09-23T05:36:00.000Z",
       "topic": {
         "id": "education-orientation",
         "label": "Éducation, orientation et formation"
@@ -24,9 +24,10 @@
         "orientation études sport écart femmes hommes"
       ],
       "relatedClaimIds": [
-        "femmes-etudes-superieures-sport-ue-2024"
+        "femmes-etudes-superieures-sport-ue-2024",
+        "hommes-esperance-vie"
       ],
-      "readingMinutes": 5,
+      "readingMinutes": 7,
       "sources": [
         {
           "title": "How many Europeans are employed in sports?",
@@ -62,6 +63,48 @@
           "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1",
           "date": "22 septembre 2025",
           "type": "édition précédente, comparaison du ratio"
+        },
+        {
+          "title": "Activité physique : pratiques et connaissance de la recommandation. Baromètre de Santé publique France, édition 2024",
+          "publisher": "Santé publique France",
+          "url": "https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf",
+          "date": "11 décembre 2025, données 2024",
+          "type": "enquête de santé publique, tableaux 1 et 4"
+        },
+        {
+          "title": "Pratiques culturelles et sportives, vie associative (enquête nationale sur les pratiques physiques et sportives 2020)",
+          "publisher": "Insee / INJEP",
+          "url": "https://www.insee.fr/fr/statistiques/6047763",
+          "date": "données 2020",
+          "type": "comparaison historique selon l'âge et le sexe"
+        },
+        {
+          "title": "Population par sexe et groupe d'âges en 2026",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/2381474",
+          "date": "13 janvier 2026",
+          "type": "estimations démographiques"
+        },
+        {
+          "title": "Espérance de vie à divers âges, 1994-2025",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/2416631",
+          "date": "13 janvier 2026",
+          "type": "statistiques de mortalité"
+        },
+        {
+          "title": "Associations of occupational and leisure-time physical activity with all-cause mortality: an individual participant data meta-analysis",
+          "publisher": "British Journal of Sports Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39255999/",
+          "date": "2024",
+          "type": "méta-analyse de cohortes observationnelles"
+        },
+        {
+          "title": "WHO guidelines on physical activity and sedentary behaviour",
+          "publisher": "Organisation mondiale de la santé",
+          "url": "https://www.who.int/publications/i/item/9789240015128",
+          "date": "2020",
+          "type": "recommandations pour les adultes âgés"
         }
       ]
     },

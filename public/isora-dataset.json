@@ -1,7 +1,7 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-22T00:00:00+02:00",
+  "generatedAt": "2026-09-23T00:00:00+02:00",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -15,7 +15,7 @@
     "total": 103,
     "hommes": 46,
     "femmes": 57,
-    "sources": 233
+    "sources": 235
   },
   "domains": [
     "Éducation",
@@ -674,7 +674,7 @@
       "domain": "Éducation",
       "metric": "83 451 vs 193 434",
       "summary": "En 2024, Eurostat dénombre dans l'Union européenne 83 451 étudiantes et 193 434 étudiants inscrits dans le domaine du sport au niveau de l'enseignement supérieur. La comparaison porte sur les effectifs inscrits dans le même domaine, la même zone et la même année ; elle ne mesure ni la pratique sportive ni les chances individuelles d'accéder à ces études.",
-      "nuance": "Ce sont des effectifs inscrits, et non des taux rapportés à la population. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. L'emploi sportif en 2025 est un indicateur distinct et ne peut pas être attribué à ces étudiants.",
+      "nuance": "Ce sont des effectifs inscrits, non des taux rapportés à la population ni une mesure de la pratique sportive à tout âge. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. Une enquête distincte de Santé publique France sur les loisirs en 2024 donne des taux proches chez les femmes et hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures ; elle ne mesure ni les salles de sport ni les 80 ans et plus. L'emploi sportif en 2025 est encore un autre indicateur.",
       "tags": [
         "éducation",
         "sport",
@@ -689,7 +689,7 @@
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "22 septembre 2026",
+      "lastChecked": "23 septembre 2026",
       "source": {
         "label": "Étudiants inscrits dans l'enseignement supérieur par domaine, niveau et sexe (educ_uoe_enrt03)",
         "publisher": "Eurostat",
@@ -708,6 +708,12 @@
           "publisher": "Eurostat",
           "url": "https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049",
           "date": "septembre 2026"
+        },
+        {
+          "label": "Activité physique : pratiques et connaissance de la recommandation, Baromètre 2024, tableau 4",
+          "publisher": "Santé publique France",
+          "url": "https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf",
+          "date": "11 décembre 2025, données 2024"
         }
       ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -906,20 +912,20 @@
       "domain": "Santé",
       "metric": "-5,6 ans",
       "summary": "En 2025, l'Insee estime l'espérance de vie à la naissance à 80,3 ans pour les hommes contre 85,9 ans pour les femmes en France.",
-      "nuance": "L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins.",
+      "nuance": "Cet écart démographique n'identifie pas une cause unique. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins. Une méta-analyse internationale observationnelle distingue les associations de l'activité physique professionnelle et de loisirs avec la mortalité, mais ne quantifie pas la contribution du travail physique ni des comportements à la retraite à l'écart français. Les chiffres de l'Insee ne suivent pas les parcours individuels de travail et d'activité.",
       "tags": [
         "santé",
         "mortalité",
         "sociétal"
       ],
       "countryScope": "France",
-      "regionScope": "",
+      "regionScope": "Europe",
       "periodStart": "2025",
-      "periodEnd": null,
+      "periodEnd": "2025",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.",
       "confidence": "forte",
-      "lastChecked": "11 août 2026",
+      "lastChecked": "23 septembre 2026",
       "source": {
         "label": "Espérance de vie à divers âges",
         "publisher": "Insee",
@@ -932,6 +938,12 @@
           "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
           "url": "https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html",
           "date": "juillet 2026"
+        },
+        {
+          "label": "Associations of occupational and leisure-time physical activity with all-cause mortality: an individual participant data meta-analysis",
+          "publisher": "British Journal of Sports Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39255999/",
+          "date": "2024, 11 pays ; ne quantifie pas l'écart français"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."

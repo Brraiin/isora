@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-09-22T00:00:00+02:00
+Last generation: 2026-09-23T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -21,7 +21,7 @@ Last generation: 2026-09-22T00:00:00+02:00
 - Entries: 103
 - Entries about men: 46
 - Entries about women: 57
-- Distinct sources: 233
+- Distinct sources: 235
 - Domains: Éducation, Santé, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -159,9 +159,9 @@ The articles are written in French and summarize recent reports and trends with 
 ### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
 - URL: https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
 - Date: 2026-09-22
-- Related isora entries: femmes-etudes-superieures-sport-ue-2024
-- Summary: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport, selon la base d'inscriptions. Eurostat résume cet écart par environ deux étudiantes pour cinq étudiants. Le ratio approximatif figurait déjà dans son édition précédente pour 2023 : les nouvelles données confirment un écart, sans démontrer à elles seules qu'il s'aggrave. L'emploi sportif de 2025 offre un autre éclairage, mais porte sur une population et une méthode différentes.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1
+- Related isora entries: femmes-etudes-superieures-sport-ue-2024, hommes-esperance-vie
+- Summary: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport. Ce constat ne porte pas sur la pratique sportive à tous les âges. En France, une enquête de Santé publique France montre en 2024 des taux de pratique physique régulière pendant les loisirs proches chez les femmes et les hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures. L'écart d'espérance de vie entre les sexes est réel, mais ces données ne permettent pas de l'attribuer à un éventuel arrêt du sport après des métiers physiquement exigeants.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1; Santé publique France: https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf; Insee / INJEP: https://www.insee.fr/fr/statistiques/6047763; Insee: https://www.insee.fr/fr/statistiques/2381474; Insee: https://www.insee.fr/fr/statistiques/2416631; British Journal of Sports Medicine: https://pubmed.ncbi.nlm.nih.gov/39255999/; Organisation mondiale de la santé: https://www.who.int/publications/i/item/9789240015128
 
 ### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
 - URL: https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
@@ -225,9 +225,9 @@ The articles are written in French and summarize recent reports and trends with 
 - Status: actuel
 - Key measure: 83 451 vs 193 434
 - Summary: In 2024, Eurostat counted 83,451 female and 193,434 male students enrolled in the sports field at tertiary level across the European Union. The comparison uses enrolment counts for the same field, area and year; it does not measure sports participation or individuals' chances of entering these programmes.
-- Nuance: These are enrolment counts, not population-adjusted rates. Eurostat's approximate ratio of two female students for every five male students was also reported for 2023, so the 2024 figure alone does not establish a new trend. The dataset flags these values as differing in definition; country-level comparability requires care. Sports employment in 2025 is a separate indicator and cannot be attributed to these students.
+- Nuance: These are enrolment counts, not population-adjusted rates or a measure of sports participation at any age. Eurostat's approximate ratio of two female students for every five male students was also reported for 2023, so the 2024 figure alone does not establish a new trend. The dataset flags these values as differing in definition; country-level comparability requires care. A separate French 2024 health survey reports similar leisure-time physical activity rates for women and men aged 60–79, with slightly higher point estimates for women; it does not measure gym attendance or people aged 80 and over. Sports employment in 2025 is another distinct indicator.
 - Measured population: Population measured by the source: students recorded as female or male in EU tertiary-level sports programmes (ISCED-F 1014, levels 5–8) in 2024. These are statistical sex categories; chromosomes are not measured.
-- Sources: Eurostat (données 2024, consultées le 22 septembre 2026): https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat (22 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat (septembre 2026): https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049
+- Sources: Eurostat (données 2024, consultées le 22 septembre 2026): https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat (22 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat (septembre 2026): https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Santé publique France (11 décembre 2025, données 2024): https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf
 
 ## Estimated pleural mesothelioma incidence is higher among men
 - ID: hommes-mesotheliome-pleural-incidence-france
@@ -294,7 +294,7 @@ The articles are written in French and summarize recent reports and trends with 
 - Measured population: Population measured by the sources: women and men whose deaths were classified as suicide or intentional self-harm in France and EU Member States in 2023. The sources use women/men categories and do not measure chromosomes.
 - Sources: Ministère du Travail et des Solidarités (2026): https://solidarites.gouv.fr/prevention-du-suicide-le-lien-social-comme-rempart-contre-lisolement; DREES (janvier 2026): https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-02/ER1364_Suicide_0.pdf; Eurostat (9 septembre 2026, données 2023): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/edn-20260909-1
 
-## Espérance de vie plus courte pour les hommes en France
+## Shorter life expectancy for men in France
 - ID: hommes-esperance-vie
 - URL: https://isora-xi.vercel.app/fiches/hommes-esperance-vie/
 - Interactive app URL: https://isora-xi.vercel.app/#hommes-esperance-vie
@@ -302,14 +302,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: désavantage_subi
 - Domain: Santé
 - Zone: France
-- Period: 2025+
+- Period: 2025-2025
 - Status: persistant
 - Key measure: -5,6 ans
-- Summary: En 2025, l'Insee estime l'espérance de vie à la naissance à 80,3 ans pour les hommes contre 85,9 ans pour les femmes en France.
-- Nuance: L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins.
-- Measured population: Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
-- Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631; Santé publique France / Bulletin épidémiologique hebdomadaire (juillet 2026): https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html
+- Summary: In 2025, Insee estimated life expectancy at birth in France at 80.3 years for men and 85.9 years for women.
+- Nuance: This demographic gap does not identify a single cause. In 2024, the age-standardised mortality rate was 996.1 per 100,000 men and 613.8 per 100,000 women. An international observational meta-analysis suggests occupational and leisure-time physical activity have different associations with mortality, but it does not quantify how much physical work or retirement behaviour contributes to the French sex gap. The Insee figures do not track individual exercise or work histories.
+- Measured population: Population measured by the main source: people classified as women or men in French demographic and mortality statistics. Chromosomes are not measured.
+- Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631; Santé publique France / Bulletin épidémiologique hebdomadaire (juillet 2026): https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html; British Journal of Sports Medicine (2024, 11 pays ; ne quantifie pas l'écart français): https://pubmed.ncbi.nlm.nih.gov/39255999/
 
 ## Men are less likely to discuss psychological distress with a professional
 - ID: hommes-mal-etre-recours-professionnel

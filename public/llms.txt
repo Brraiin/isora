@@ -7,7 +7,7 @@ Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
 Index HTML des fiches: https://isora-xi.vercel.app/fiches/
 Lexique: https://isora-xi.vercel.app/lexique/
 Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-09-22T00:00:00+02:00
+Derniere generation: 2026-09-23T00:00:00+02:00
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -20,7 +20,7 @@ Derniere generation: 2026-09-22T00:00:00+02:00
 - Fiches: 103
 - Fiches concernant les hommes: 46
 - Fiches concernant les femmes: 57
-- Sources distinctes: 233
+- Sources distinctes: 235
 - Domaines: Éducation, Santé, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Methode editoriale
@@ -158,9 +158,9 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 ### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
 - URL: https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
 - Date: 2026-09-22
-- Fiches isora liees: femmes-etudes-superieures-sport-ue-2024
-- Resume: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport, selon la base d'inscriptions. Eurostat résume cet écart par environ deux étudiantes pour cinq étudiants. Le ratio approximatif figurait déjà dans son édition précédente pour 2023 : les nouvelles données confirment un écart, sans démontrer à elles seules qu'il s'aggrave. L'emploi sportif de 2025 offre un autre éclairage, mais porte sur une population et une méthode différentes.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1
+- Fiches isora liees: femmes-etudes-superieures-sport-ue-2024, hommes-esperance-vie
+- Resume: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport. Ce constat ne porte pas sur la pratique sportive à tous les âges. En France, une enquête de Santé publique France montre en 2024 des taux de pratique physique régulière pendant les loisirs proches chez les femmes et les hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures. L'écart d'espérance de vie entre les sexes est réel, mais ces données ne permettent pas de l'attribuer à un éventuel arrêt du sport après des métiers physiquement exigeants.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1; Santé publique France: https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf; Insee / INJEP: https://www.insee.fr/fr/statistiques/6047763; Insee: https://www.insee.fr/fr/statistiques/2381474; Insee: https://www.insee.fr/fr/statistiques/2416631; British Journal of Sports Medicine: https://pubmed.ncbi.nlm.nih.gov/39255999/; Organisation mondiale de la santé: https://www.who.int/publications/i/item/9789240015128
 
 ### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
 - URL: https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
@@ -224,9 +224,9 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Statut: actuel
 - Mesure cle: 83 451 vs 193 434
 - Resume: En 2024, Eurostat dénombre dans l'Union européenne 83 451 étudiantes et 193 434 étudiants inscrits dans le domaine du sport au niveau de l'enseignement supérieur. La comparaison porte sur les effectifs inscrits dans le même domaine, la même zone et la même année ; elle ne mesure ni la pratique sportive ni les chances individuelles d'accéder à ces études.
-- Nuance: Ce sont des effectifs inscrits, et non des taux rapportés à la population. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. L'emploi sportif en 2025 est un indicateur distinct et ne peut pas être attribué à ces étudiants.
+- Nuance: Ce sont des effectifs inscrits, non des taux rapportés à la population ni une mesure de la pratique sportive à tout âge. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. Une enquête distincte de Santé publique France sur les loisirs en 2024 donne des taux proches chez les femmes et hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures ; elle ne mesure ni les salles de sport ni les 80 ans et plus. L'emploi sportif en 2025 est encore un autre indicateur.
 - Population mesuree: Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.
-- Sources: Eurostat (données 2024, consultées le 22 septembre 2026): https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat (22 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat (septembre 2026): https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049
+- Sources: Eurostat (données 2024, consultées le 22 septembre 2026): https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat (22 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat (septembre 2026): https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Santé publique France (11 décembre 2025, données 2024): https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf
 
 ## Mésothéliome pleural : une incidence estimée plus élevée chez les hommes
 - ID: hommes-mesotheliome-pleural-incidence-france
@@ -300,13 +300,13 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Angle: désavantage_subi
 - Domaine: Santé
 - Zone: France
-- Periode: 2025+
+- Periode: 2025-2025
 - Statut: persistant
 - Mesure cle: -5,6 ans
 - Resume: En 2025, l'Insee estime l'espérance de vie à la naissance à 80,3 ans pour les hommes contre 85,9 ans pour les femmes en France.
-- Nuance: L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins.
+- Nuance: Cet écart démographique n'identifie pas une cause unique. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins. Une méta-analyse internationale observationnelle distingue les associations de l'activité physique professionnelle et de loisirs avec la mortalité, mais ne quantifie pas la contribution du travail physique ni des comportements à la retraite à l'écart français. Les chiffres de l'Insee ne suivent pas les parcours individuels de travail et d'activité.
 - Population mesuree: Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.
-- Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631; Santé publique France / Bulletin épidémiologique hebdomadaire (juillet 2026): https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html
+- Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631; Santé publique France / Bulletin épidémiologique hebdomadaire (juillet 2026): https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html; British Journal of Sports Medicine (2024, 11 pays ; ne quantifie pas l'écart français): https://pubmed.ncbi.nlm.nih.gov/39255999/
 
 ## Hommes moins nombreux à parler de leur mal-être à un professionnel
 - ID: hommes-mal-etre-recours-professionnel

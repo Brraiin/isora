@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-esperance-vie",
+    "side": "hommes",
+    "claimTitle": "Espérance de vie plus courte pour les hommes en France",
+    "claimMetric": "-5,6 ans",
+    "blogTitle": "Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024",
+    "blogUrl": "/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/",
+    "date": "2026-09-22",
+    "updatedAt": "2026-09-23T05:36:00.000Z"
+  },
+  {
     "claimId": "femmes-etudes-superieures-sport-ue-2024",
     "side": "femmes",
     "claimTitle": "Femmes moins nombreuses dans les études supérieures de sport de l'UE",
@@ -19,7 +29,7 @@ export const homeBlogUpdates = [
     "blogTitle": "Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024",
     "blogUrl": "/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/",
     "date": "2026-09-22",
-    "updatedAt": "2026-09-22T18:37:00.000Z"
+    "updatedAt": "2026-09-23T05:36:00.000Z"
   },
   {
     "claimId": "hommes-mesotheliome-pleural-incidence-france",
@@ -456,16 +466,6 @@ export const homeBlogUpdates = [
     "side": "hommes",
     "claimTitle": "Espérance de vie masculine plus courte dans presque tous les pays",
     "claimMetric": "quasi tous pays",
-    "blogTitle": "Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue",
-    "blogUrl": "/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/",
-    "date": "2026-06-28",
-    "updatedAt": "2026-06-28T08:58:00.000Z"
-  },
-  {
-    "claimId": "hommes-esperance-vie",
-    "side": "hommes",
-    "claimTitle": "Espérance de vie plus courte pour les hommes en France",
-    "claimMetric": "-5,6 ans",
     "blogTitle": "Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue",
     "blogUrl": "/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/",
     "date": "2026-06-28",

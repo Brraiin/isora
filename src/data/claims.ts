@@ -134,6 +134,12 @@ const rawClaims: RawClaim[] = [
         url: "https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049",
         date: "septembre 2026",
       },
+      {
+        label: "Activité physique : pratiques et connaissance de la recommandation, Baromètre 2024, tableau 4",
+        publisher: "Santé publique France",
+        url: "https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf",
+        date: "11 décembre 2025, données 2024",
+      },
     ],
     translations: {
       en: {
@@ -141,16 +147,16 @@ const rawClaims: RawClaim[] = [
         summary:
           "In 2024, Eurostat counted 83,451 female and 193,434 male students enrolled in the sports field at tertiary level across the European Union. The comparison uses enrolment counts for the same field, area and year; it does not measure sports participation or individuals' chances of entering these programmes.",
         nuance:
-          "These are enrolment counts, not population-adjusted rates. Eurostat's approximate ratio of two female students for every five male students was also reported for 2023, so the 2024 figure alone does not establish a new trend. The dataset flags these values as differing in definition; country-level comparability requires care. Sports employment in 2025 is a separate indicator and cannot be attributed to these students.",
+          "These are enrolment counts, not population-adjusted rates or a measure of sports participation at any age. Eurostat's approximate ratio of two female students for every five male students was also reported for 2023, so the 2024 figure alone does not establish a new trend. The dataset flags these values as differing in definition; country-level comparability requires care. A separate French 2024 health survey reports similar leisure-time physical activity rates for women and men aged 60–79, with slightly higher point estimates for women; it does not measure gym attendance or people aged 80 and over. Sports employment in 2025 is another distinct indicator.",
         sourcePopulation:
           "Population measured by the source: students recorded as female or male in EU tertiary-level sports programmes (ISCED-F 1014, levels 5–8) in 2024. These are statistical sex categories; chromosomes are not measured.",
         tags: ["education", "sports", "tertiary education", "European Union", "study choices"],
       },
     },
     confidence: "forte",
-    lastChecked: "22 septembre 2026",
+    lastChecked: "23 septembre 2026",
     nuance:
-      "Ce sont des effectifs inscrits, et non des taux rapportés à la population. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. L'emploi sportif en 2025 est un indicateur distinct et ne peut pas être attribué à ces étudiants.",
+      "Ce sont des effectifs inscrits, non des taux rapportés à la population ni une mesure de la pratique sportive à tout âge. Le rapport approximatif de deux étudiantes pour cinq étudiants était déjà signalé par Eurostat pour 2023 : les chiffres 2024 ne prouvent pas à eux seuls une nouvelle tendance. La série porte un indicateur de définition différente dans la base Eurostat, ce qui appelle de la prudence pour les comparaisons entre pays. Une enquête distincte de Santé publique France sur les loisirs en 2024 donne des taux proches chez les femmes et hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures ; elle ne mesure ni les salles de sport ni les 80 ans et plus. L'emploi sportif en 2025 est encore un autre indicateur.",
   },
   {
     id: "hommes-mesotheliome-pleural-incidence-france",
@@ -341,11 +347,29 @@ const rawClaims: RawClaim[] = [
         url: "https://beh.santepubliquefrance.fr/beh/2026/15/2026_15_1.html",
         date: "juillet 2026",
       },
+      {
+        label: "Associations of occupational and leisure-time physical activity with all-cause mortality: an individual participant data meta-analysis",
+        publisher: "British Journal of Sports Medicine",
+        url: "https://pubmed.ncbi.nlm.nih.gov/39255999/",
+        date: "2024, 11 pays ; ne quantifie pas l'écart français",
+      },
     ],
+    translations: {
+      en: {
+        title: "Shorter life expectancy for men in France",
+        summary:
+          "In 2025, Insee estimated life expectancy at birth in France at 80.3 years for men and 85.9 years for women.",
+        nuance:
+          "This demographic gap does not identify a single cause. In 2024, the age-standardised mortality rate was 996.1 per 100,000 men and 613.8 per 100,000 women. An international observational meta-analysis suggests occupational and leisure-time physical activity have different associations with mortality, but it does not quantify how much physical work or retirement behaviour contributes to the French sex gap. The Insee figures do not track individual exercise or work histories.",
+        sourcePopulation:
+          "Population measured by the main source: people classified as women or men in French demographic and mortality statistics. Chromosomes are not measured.",
+        tags: ["health", "mortality", "France", "life expectancy"],
+      },
+    },
     confidence: "forte",
-    lastChecked: "11 août 2026",
+    lastChecked: "23 septembre 2026",
     nuance:
-      "L'écart agrège comportements de santé, conditions de travail, exposition au risque et facteurs biologiques. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins.",
+      "Cet écart démographique n'identifie pas une cause unique. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins. Une méta-analyse internationale observationnelle distingue les associations de l'activité physique professionnelle et de loisirs avec la mortalité, mais ne quantifie pas la contribution du travail physique ni des comportements à la retraite à l'écart français. Les chiffres de l'Insee ne suivent pas les parcours individuels de travail et d'activité.",
   },
   {
     id: "hommes-mal-etre-recours-professionnel",
@@ -4134,7 +4158,9 @@ const claimMetadata: Record<string, ClaimMeta> = {
   },
   "hommes-esperance-vie": {
     pays_ou_zone: "France",
+    regionScope: "Europe",
     periode_debut: "2025",
+    periode_fin: "2025",
     statut_temporel: "persistant",
     intensite_contextuelle: "moyenne",
     legalType: "démographie",
