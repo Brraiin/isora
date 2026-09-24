@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-contraception-besoins-non-couverts",
+    "side": "femmes",
+    "claimTitle": "Femmes sans contraception moderne malgré un besoin",
+    "claimMetric": "259 M",
+    "blogTitle": "Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines",
+    "blogUrl": "/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/",
+    "date": "2026-09-24",
+    "updatedAt": "2026-09-24T00:30:00.000Z"
+  },
+  {
     "claimId": "hommes-esperance-vie",
     "side": "hommes",
     "claimTitle": "Espérance de vie plus courte pour les hommes en France",

@@ -2,8 +2,69 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-23T05:37:39.544Z",
+  "generatedAt": "2026-09-24T00:31:28.557Z",
   "posts": [
+    {
+      "id": "2026-09-24-options-contraceptives-oms-femmes-hommes",
+      "title": "Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/",
+      "description": "Les recommandations publiées par l'OMS en septembre 2026 distinguent des méthodes féminines déjà étudiées et des contraceptifs masculins encore en développement. Les chiffres de besoins non couverts ne sont pas interchangeables.",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T00:30:00.000Z",
+      "updatedAt": "2026-09-24T00:30:00.000Z",
+      "topic": {
+        "id": "droits-autonomie",
+        "label": "Droits, autonomie et accès aux services"
+      },
+      "keywords": [
+        "contraception OMS recommandations 2026",
+        "choix contraceptifs femmes hommes",
+        "contraception masculine recherche OMS",
+        "besoins non couverts contraception 164 millions 259 millions",
+        "autonomie reproductive accès contraception"
+      ],
+      "relatedClaimIds": [
+        "femmes-contraception-besoins-non-couverts"
+      ],
+      "readingMinutes": 6,
+      "sources": [
+        {
+          "title": "L'OMS élargit la gamme des options contraceptives sûres",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/fr/news/item/23-09-2026-who-expands-safe-options-for-contraception",
+          "date": "23 septembre 2026",
+          "type": "communiqué institutionnel"
+        },
+        {
+          "title": "WHO guidelines on expanding contraceptive options",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/9789240124578",
+          "date": "23 septembre 2026",
+          "type": "ligne directrice"
+        },
+        {
+          "title": "Target product profiles for development of novel male contraceptive methods",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/9789240124950",
+          "date": "22 septembre 2026",
+          "type": "cadre de développement de produits"
+        },
+        {
+          "title": "Socio-behavioral factors linked to willingness to use new male contraceptives",
+          "publisher": "Contraception",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42176837/",
+          "date": "22 mai 2026, enquête menée en 2023",
+          "type": "étude scientifique transversale"
+        },
+        {
+          "title": "Family planning",
+          "publisher": "Fonds des Nations unies pour la population",
+          "url": "https://www.unfpa.org/family-planning",
+          "date": "données 2024",
+          "type": "fiche institutionnelle sur les besoins contraceptifs"
+        }
+      ]
+    },
     {
       "id": "2026-09-22-etudes-sport-ue-femmes-hommes-2024",
       "title": "Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024",

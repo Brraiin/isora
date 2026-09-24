@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines
+- URL: https://isora-xi.vercel.app/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
+- Date: 2026-09-24
+- Sujet: Droits, autonomie et accès aux services
+- Fiches isora liees: femmes-contraception-besoins-non-couverts
+- Resume: Le 23 septembre 2026, l'OMS a publié de nouvelles recommandations sur plusieurs méthodes ou modalités de contraception, dont l'usage prolongé de certaines pilules et d'un implant, ainsi que la mifépristone comme option de contraception d'urgence. La veille, elle avait publié des critères destinés au développement de futures méthodes masculines réversibles : ce document n'annonce pas leur disponibilité. L'asymétrie actuelle des options peut évoluer, mais une enquête sur l'intention d'utiliser une méthode future ne prouve pas son adoption réelle. Enfin, les 164 millions de femmes sans contraception cités par l'OMS ne sont pas le même indicateur que les 259 millions de femmes et adolescentes sans méthode moderne fiable estimés par l'UNFPA pour 2024.
+- Sources: Organisation mondiale de la Santé (23 septembre 2026): https://www.who.int/fr/news/item/23-09-2026-who-expands-safe-options-for-contraception; Organisation mondiale de la Santé (23 septembre 2026): https://www.who.int/publications/i/item/9789240124578; Organisation mondiale de la Santé (22 septembre 2026): https://www.who.int/publications/i/item/9789240124950; Contraception (22 mai 2026, enquête menée en 2023): https://pubmed.ncbi.nlm.nih.gov/42176837/; Fonds des Nations unies pour la population (données 2024): https://www.unfpa.org/family-planning
+
 ### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
 - URL: https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
 - Date: 2026-09-22

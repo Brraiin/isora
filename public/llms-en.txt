@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-09-23T00:00:00+02:00
+Last generation: 2026-09-24T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines
+- URL: https://isora-xi.vercel.app/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
+- Date: 2026-09-24
+- Related isora entries: femmes-contraception-besoins-non-couverts
+- Summary: Le 23 septembre 2026, l'OMS a publié de nouvelles recommandations sur plusieurs méthodes ou modalités de contraception, dont l'usage prolongé de certaines pilules et d'un implant, ainsi que la mifépristone comme option de contraception d'urgence. La veille, elle avait publié des critères destinés au développement de futures méthodes masculines réversibles : ce document n'annonce pas leur disponibilité. L'asymétrie actuelle des options peut évoluer, mais une enquête sur l'intention d'utiliser une méthode future ne prouve pas son adoption réelle. Enfin, les 164 millions de femmes sans contraception cités par l'OMS ne sont pas le même indicateur que les 259 millions de femmes et adolescentes sans méthode moderne fiable estimés par l'UNFPA pour 2024.
+- Sources: Organisation mondiale de la Santé: https://www.who.int/fr/news/item/23-09-2026-who-expands-safe-options-for-contraception; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124578; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124950; Contraception: https://pubmed.ncbi.nlm.nih.gov/42176837/; Fonds des Nations unies pour la population: https://www.unfpa.org/family-planning
+
 ### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
 - URL: https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
 - Date: 2026-09-22
@@ -204,13 +211,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-troubles-anxieux-monde-2021
 - Summary: La fiche d'information publiée par l'OMS le 15 septembre 2026 estime que 470 millions de personnes, soit 5,8 % de la population mondiale, vivaient avec un trouble anxieux en 2023. Elle indique que les filles et les femmes sont plus susceptibles d'être concernées que les garçons et les hommes. Le rapport mondial de l'OMS fondé sur les estimations 2021 permet de préciser la composition des cas : 63,3 % des personnes vivant avec un trouble anxieux étaient de sexe féminin et 36,7 % de sexe masculin. Cette répartition des cas ne doit pas être confondue avec deux taux de prévalence au sein de chaque sexe, ni être appliquée mécaniquement au total de 2023.
 - Sources: Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders; Organisation mondiale de la Santé: https://www.who.int/publications/b/80640; Depression and Anxiety: https://pmc.ncbi.nlm.nih.gov/articles/PMC6008788/
-
-### Conditions de travail : les asymétries femmes-hommes changent selon le risque observé
-- URL: https://isora-xi.vercel.app/blog/2026-09-14-conditions-travail-risques-femmes-hommes-france/
-- Date: 2026-09-14
-- Related isora entries: hommes-contraintes-physiques-travail-france-2024
-- Summary: La Dares a publié le 9 septembre 2026 les premiers résultats de l'enquête Conditions de travail 2024-2025. Quatre salariés sur dix déclarent au moins trois contraintes physiques. Les hommes restent davantage exposés que les femmes, mais l'écart passe de 10 points en 2016 à 8 points en 2024. Cette seule mesure ne résume pas les risques professionnels : l'analyse détaillée de l'enquête 2019 montrait une pénibilité physique plus forte chez les hommes et, à durée de travail identique, une exposition féminine plus élevée à plusieurs risques psychosociaux. Les écarts tiennent notamment aux métiers exercés, mais certains subsistent au sein des mêmes groupes de professions.
-- Sources: Dares: https://dares.travail-emploi.gouv.fr/publication/quelles-evolutions-des-conditions-de-travail-et-des-risques-psychosociaux-depuis-2016; Insee: https://www.insee.fr/fr/statistiques/6047793?sommaire=6047805; Dares: https://dares.travail-emploi.gouv.fr/publication/conditions-de-travail-et-mixite-quelles-differences-entre-professions-et-entre-femmes-et-hommes; Dares: https://dares.travail-emploi.gouv.fr/donnees/35-ans-devolutions-des-conditions-de-travail
 
 
 ## Women are fewer in EU tertiary-level sports studies

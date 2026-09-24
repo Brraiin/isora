@@ -685,7 +685,7 @@ function renderClaimUpdateBox(claim) {
   return `
         <section class="update-box" aria-labelledby="mise-a-jour">
           <div class="update-head">
-            <span id="mise-a-jour">Fiche modifiée</span>
+            <span id="mise-a-jour">Fiche liée à la veille</span>
             <span class="update-date">${htmlEscape(formatClaimUpdateDate(update.updatedAt))}</span>
           </div>
           <p><strong>Mesure actuelle :</strong> ${renderVocabularyHtml(update.claimMetric)}</p>
