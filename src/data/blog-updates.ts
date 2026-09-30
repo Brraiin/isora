@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-direction-primaire-france-2024",
+    "side": "femmes",
+    "claimTitle": "Primaire : les femmes sont moins présentes dans la direction que dans l'enseignement",
+    "claimMetric": "69 % vs 85 %",
+    "blogTitle": "Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France",
+    "blogUrl": "/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/",
+    "date": "2026-09-30",
+    "updatedAt": "2026-09-30T10:05:00.000Z"
+  },
+  {
     "claimId": "femmes-contraception-besoins-non-couverts",
     "side": "femmes",
     "claimTitle": "Femmes sans contraception moderne malgré un besoin",

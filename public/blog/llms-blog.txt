@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France
+- URL: https://isora-xi.vercel.app/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/
+- Date: 2026-09-30
+- Sujet: Éducation, orientation et formation
+- Fiches isora liees: femmes-direction-primaire-france-2024
+- Resume: Dans sa note sur la France publiée le 29 septembre 2026, l'OCDE indique qu'en 2024 les femmes formaient 85 % du personnel enseignant du primaire et 69 % du personnel de direction de ce niveau. L'écart de 16 points concerne deux compositions professionnelles ; il ne signifie pas que 16 % des enseignantes ont été privées d'une direction. Une statistique française complémentaire, calculée avec un autre champ et un autre dénominateur, indique que les enseignants du premier degré public exerçaient plus souvent une fonction de direction que les enseignantes. Ces données décrivent une asymétrie mais n'en établissent pas la cause.
+- Sources: OCDE (29 septembre 2026, données 2024): https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026-country-notes_4b77712b/france_3915c659.html; OCDE (29 septembre 2026, données 2024): https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html; DEPP, ministère de l'Éducation nationale (octobre 2025, données de novembre 2024): https://www.education.gouv.fr/sites/default/files/2025-10/panorama-statistique-des-personnels-de-l-enseignement-scolaire-2024-2025-442251.pdf
+
 ### Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines
 - URL: https://isora-xi.vercel.app/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
 - Date: 2026-09-24

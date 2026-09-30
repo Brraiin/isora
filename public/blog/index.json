@@ -2,8 +2,55 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-24T00:31:28.557Z",
+  "generatedAt": "2026-09-30T10:09:43.826Z",
   "posts": [
+    {
+      "id": "2026-09-30-femmes-direction-ecoles-primaires-france-ocde",
+      "title": "Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France",
+      "url": "https://isora-xi.vercel.app/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/",
+      "description": "L'OCDE relève un écart de 16 points entre la part des femmes dans l'enseignement primaire et dans sa direction en 2024. Ce contraste de composition ne mesure pas les chances de promotion.",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T10:05:00.000Z",
+      "updatedAt": "2026-09-30T10:05:00.000Z",
+      "topic": {
+        "id": "education-orientation",
+        "label": "Éducation, orientation et formation"
+      },
+      "keywords": [
+        "direction école primaire femmes France 2024",
+        "enseignantes directrices école OCDE 2026",
+        "personnel direction primaire 69 pour cent femmes",
+        "DEPP direction école femmes hommes 2024",
+        "écart composition enseignement direction primaire"
+      ],
+      "relatedClaimIds": [
+        "femmes-direction-primaire-france-2024"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Education at a Glance 2026: France",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026-country-notes_4b77712b/france_3915c659.html",
+          "date": "29 septembre 2026, données 2024",
+          "type": "note pays institutionnelle"
+        },
+        {
+          "title": "Education at a Glance 2026, chapitre D5 : personnel enseignant et de direction",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html",
+          "date": "29 septembre 2026, données 2024",
+          "type": "rapport statistique, figure D5.3 et tableaux D5.1-D5.2"
+        },
+        {
+          "title": "Panorama statistique des personnels de l'enseignement scolaire 2024-2025",
+          "publisher": "DEPP, ministère de l'Éducation nationale",
+          "url": "https://www.education.gouv.fr/sites/default/files/2025-10/panorama-statistique-des-personnels-de-l-enseignement-scolaire-2024-2025-442251.pdf",
+          "date": "octobre 2025, données de novembre 2024",
+          "type": "statistiques nationales, figures 4.25 à 4.27"
+        }
+      ]
+    },
     {
       "id": "2026-09-24-options-contraceptives-oms-femmes-hommes",
       "title": "Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines",

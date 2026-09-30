@@ -107,6 +107,52 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "femmes-direction-primaire-france-2024",
+    side: "femmes",
+    domain: "Éducation",
+    title: "Primaire : les femmes sont moins présentes dans la direction que dans l'enseignement",
+    metric: "69 % vs 85 %",
+    summary:
+      "En France, selon l'OCDE, les femmes représentaient en 2024 69 % du personnel de direction de l'enseignement primaire et 85 % du personnel enseignant du même niveau, soit 16 points d'écart entre ces deux parts. Elles restent majoritaires dans les deux groupes. Ces proportions décrivent la composition des emplois, pas les chances individuelles d'obtenir une fonction de direction.",
+    tags: ["éducation", "enseignement primaire", "direction d'école", "France", "personnel enseignant"],
+    source: {
+      label: "Education at a Glance 2026: France, section Teachers, learning environment and organisation of schools",
+      publisher: "OCDE",
+      url: "https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026-country-notes_4b77712b/france_3915c659.html",
+      date: "29 septembre 2026, données 2024",
+    },
+    additionalSources: [
+      {
+        label: "Education at a Glance 2026, chapitre D5, figure D5.3 et tableaux D5.1-D5.2",
+        publisher: "OCDE",
+        url: "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html",
+        date: "29 septembre 2026, données 2024",
+      },
+      {
+        label: "Panorama statistique des personnels de l'enseignement scolaire 2024-2025, figures 4.25 et 4.27",
+        publisher: "DEPP, ministère de l'Éducation nationale",
+        url: "https://www.education.gouv.fr/sites/default/files/2025-10/panorama-statistique-des-personnels-de-l-enseignement-scolaire-2024-2025-442251.pdf",
+        date: "octobre 2025, données de novembre 2024",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Primary education: women are less represented in management than in teaching",
+        summary:
+          "In France in 2024, women accounted for 69% of primary school management staff and 85% of primary teachers, according to the OECD, a 16-percentage-point difference between these shares. Women remained the majority in both groups. These figures describe workforce composition, not individual chances of obtaining a management role.",
+        nuance:
+          "The OECD indicator compares shares of women in two different occupational groups at the primary level, expressed as full-time equivalents, not promotion probabilities or a causal measure of discrimination. France's primary school heads remain teachers, unlike lower-secondary heads. A separate 2024 DEPP statistic covers headcounts in public primary schools and reports that 12% of female and 18% of male teachers or school directors performed school-director duties; it must not be merged with the OECD series. School size and teaching-release time also vary. The source uses statistical women/men categories, not chromosome measurements.",
+        sourcePopulation:
+          "Population measured by the source: primary-level teachers and school management staff in France in 2024, classified as women or men by the OECD; figures are in full-time equivalents. Chromosomes were not measured.",
+        tags: ["education", "primary education", "school management", "France", "teachers"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "30 septembre 2026",
+    nuance:
+      "L'indicateur OCDE compare la part des femmes dans deux groupes professionnels distincts du primaire, en équivalents temps plein : il ne mesure ni une probabilité de promotion ni une cause de l'écart. En France, la direction d'école primaire reste une fonction exercée par un enseignant, contrairement au corps de direction du secondaire. Une statistique distincte de la DEPP, en personnes et pour le seul premier degré public, indique qu'en 2024 12 % des enseignantes ou directrices et 18 % des enseignants ou directeurs exerçaient des fonctions de direction ; elle ne doit pas être fusionnée avec la série OCDE. La taille des écoles et les décharges d'enseignement varient également.",
+  },
+  {
     id: "femmes-etudes-superieures-sport-ue-2024",
     side: "femmes",
     domain: "Éducation",
@@ -3893,6 +3939,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-direction-primaire-france-2024":
+    "Population mesurée par la source : personnels enseignants et de direction de l'enseignement primaire en France en 2024, classés comme femmes ou hommes par l'OCDE et comptés en équivalents temps plein. Les chromosomes ne sont pas mesurés.",
   "femmes-etudes-superieures-sport-ue-2024":
     "Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.",
   "hommes-mesotheliome-pleural-incidence-france":
@@ -4112,6 +4160,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-direction-primaire-france-2024": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2024",
+    periode_fin: "2024",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "composition du personnel enseignant et de direction du primaire",
+  },
   "femmes-etudes-superieures-sport-ue-2024": {
     pays_ou_zone: "Union européenne (27 États membres)",
     regionScope: "Europe",
