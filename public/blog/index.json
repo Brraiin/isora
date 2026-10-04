@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-09-30T10:09:43.826Z",
+  "generatedAt": "2026-10-04T19:21:29.421Z",
   "posts": [
+    {
+      "id": "2026-10-04-consommation-alcool-femmes-hommes-ue-2025",
+      "title": "Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes",
+      "url": "https://isora-xi.vercel.app/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/",
+      "description": "En 2025, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient boire de l'alcool au moins une fois par mois dans l'UE. La fréquence ne mesure ni les quantités ni les dommages.",
+      "date": "2026-10-04",
+      "publishedAt": "2026-10-04T19:18:00.000Z",
+      "updatedAt": "2026-10-04T19:18:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "consommation alcool femmes hommes Union européenne 2025",
+        "fréquence alcool Eurostat EU-SILC",
+        "alcool au moins une fois par mois hommes femmes",
+        "alcool personnes âgées UE 2025",
+        "différence femmes hommes fréquence alcool"
+      ],
+      "relatedClaimIds": [
+        "hommes-consommation-alcool-mensuelle-ue-2025"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "5% of Europeans consumed alcohol daily in 2025",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1",
+          "date": "28 septembre 2026, données 2025",
+          "type": "communiqué statistique"
+        },
+        {
+          "title": "Key figures on European living conditions – 2026 edition, p. 55",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf",
+          "date": "17 septembre 2026, données 2025",
+          "type": "rapport statistique"
+        },
+        {
+          "title": "EU-SILC: Methodological guidelines with description of variables – 2025 Operation, PH180",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated",
+          "date": "édition 2025, p. 542-543",
+          "type": "méthodologie d'enquête"
+        },
+        {
+          "title": "Alcohol – WHO fact sheet",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+          "date": "28 juin 2024",
+          "type": "fiche de santé publique, limites d'interprétation du risque"
+        }
+      ]
+    },
     {
       "id": "2026-09-30-femmes-direction-ecoles-primaires-france-ocde",
       "title": "Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France",

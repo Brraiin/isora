@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-consommation-alcool-mensuelle-ue-2025",
+    "side": "hommes",
+    "claimTitle": "Alcool : consommation au moins mensuelle plus fréquente chez les hommes dans l'UE",
+    "claimMetric": "56,5 % vs 35,9 %",
+    "blogTitle": "Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes",
+    "blogUrl": "/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/",
+    "date": "2026-10-04",
+    "updatedAt": "2026-10-04T19:18:00.000Z"
+  },
+  {
     "claimId": "femmes-direction-primaire-france-2024",
     "side": "femmes",
     "claimTitle": "Primaire : les femmes sont moins présentes dans la direction que dans l'enseignement",

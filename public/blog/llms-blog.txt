@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes
+- URL: https://isora-xi.vercel.app/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
+- Date: 2026-10-04
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: hommes-consommation-alcool-mensuelle-ue-2025
+- Resume: Eurostat rapporte qu'en 2025, dans l'Union européenne, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient consommer de l'alcool au moins une fois par mois, soit 20,6 points d'écart. Cette comparaison porte sur la même enquête et la même fréquence, pas sur les volumes bus ou les dommages sanitaires. Dans la population totale, la consommation quotidienne déclarée augmente avec l'âge, mais Eurostat ne fournit pas dans sa synthèse une comparaison femmes-hommes par tranche d'âge. L'enquête décrit une asymétrie de pratique ; elle n'en établit ni les causes ni les conséquences individuelles.
+- Sources: Eurostat (28 septembre 2026, données 2025): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1; Eurostat (17 septembre 2026, données 2025): https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf; Eurostat (édition 2025, p. 542-543): https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated; Organisation mondiale de la Santé (28 juin 2024): https://www.who.int/news-room/fact-sheets/detail/alcohol
+
 ### Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France
 - URL: https://isora-xi.vercel.app/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/
 - Date: 2026-09-30

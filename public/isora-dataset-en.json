@@ -1,7 +1,7 @@
 {
   "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-09-30T00:00:00+02:00",
+  "generatedAt": "2026-10-04T00:00:00+02:00",
   "language": "en",
   "sourceLanguage": "fr",
   "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
@@ -12,14 +12,14 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 104,
-    "hommes": 46,
+    "total": 105,
+    "hommes": 47,
     "femmes": 58,
-    "sources": 238
+    "sources": 242
   },
   "domains": [
-    "Éducation",
     "Santé",
+    "Éducation",
     "Travail",
     "Justice",
     "Famille",
@@ -36,6 +36,7 @@
     "Afghanistan",
     "aide aux victimes",
     "aide sociale",
+    "alcool",
     "amiante",
     "antiféminisme",
     "antimasculinisme",
@@ -55,6 +56,7 @@
     "conjugalité",
     "conscription",
     "consentement",
+    "consommation déclarée",
     "contraception",
     "contraintes physiques",
     "contrôle vestimentaire",
@@ -85,6 +87,7 @@
     "enseignement supérieur",
     "espaces non mixtes",
     "États-Unis",
+    "EU-SILC",
     "Europe",
     "Eurostat",
     "exploitation",
@@ -667,6 +670,64 @@
     ]
   },
   "claims": [
+    {
+      "id": "hommes-consommation-alcool-mensuelle-ue-2025",
+      "url": "https://isora-xi.vercel.app/fiches/hommes-consommation-alcool-mensuelle-ue-2025/",
+      "appUrl": "https://isora-xi.vercel.app/#hommes-consommation-alcool-mensuelle-ue-2025",
+      "title": "Monthly-or-more alcohol consumption is more common among men in the EU",
+      "originalTitle": "Alcool : consommation au moins mensuelle plus fréquente chez les hommes dans l'UE",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "56,5 % vs 35,9 %",
+      "summary": "In the European Union in 2025, 56.5% of men and 35.9% of women aged 16 or over reported drinking alcohol at least once a month, according to Eurostat. The difference is 20.6 percentage points. This measures reported frequency, not the amount consumed or alcohol-related harm.",
+      "originalSummary": "Dans l'Union européenne en 2025, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient avoir consommé de l'alcool au moins une fois par mois, selon Eurostat. L'écart est de 20,6 points. Il mesure une fréquence déclarée, pas le volume d'alcool bu ni les dommages sanitaires.",
+      "nuance": "The figures come from the same 2025 EU-SILC health module and compare the proportion within each sex reporting alcohol consumption at least monthly over the preceding 12 months. The survey question records frequency regardless of beverage or quantity, and the results are self-reported. Eurostat's daily figure of 4.8% and its age-specific figures refer to both sexes combined; they cannot be split by sex or applied to older women and men from this summary. Frequency alone does not measure heavy drinking, dependence, attributable mortality or causation. These are statistical women/men categories, not chromosome measurements.",
+      "originalNuance": "Les deux taux proviennent du même module santé EU-SILC 2025 et comparent, dans chaque sexe, les personnes déclarant une consommation au moins mensuelle durant les douze derniers mois. La question recueille la fréquence, quel que soit le type ou la quantité de boisson, et les réponses sont déclaratives. Le taux quotidien de 4,8 % et les chiffres par âge diffusés par Eurostat regroupent femmes et hommes : ils ne permettent pas de reconstituer des taux quotidiens sexués ni de transposer l'écart aux seniors. La fréquence seule ne mesure ni l'alcoolisation importante, ni la dépendance, ni la mortalité attribuable, ni une causalité.",
+      "tags": [
+        "health",
+        "alcohol",
+        "self-reported consumption",
+        "European Union",
+        "EU-SILC"
+      ],
+      "countryScope": "Union européenne (27 États membres)",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2025",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the source: people aged 16 or over living in households in the European Union, classified as men or women in the 2025 EU-SILC survey. Chromosomes were not measured.",
+      "originalSourcePopulation": "Population mesurée par la source : personnes de 16 ans ou plus vivant en ménage dans l'Union européenne, classées comme femmes ou hommes dans l'enquête EU-SILC 2025. La source ne mesure pas les chromosomes.",
+      "confidence": "forte",
+      "lastChecked": "4 octobre 2026",
+      "source": {
+        "label": "5% of Europeans consumed alcohol daily in 2025",
+        "publisher": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1",
+        "date": "28 septembre 2026, données 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Key figures on European living conditions – 2026 edition, p. 55",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf",
+          "date": "17 septembre 2026, données 2025"
+        },
+        {
+          "label": "EU-SILC: Methodological guidelines with description of variables – 2025 Operation, PH180",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated",
+          "date": "édition 2025, p. 542-543"
+        },
+        {
+          "label": "Alcohol - WHO fact sheet on health risks and drinking patterns",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+          "date": "28 juin 2024"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "femmes-direction-primaire-france-2024",
       "url": "https://isora-xi.vercel.app/fiches/femmes-direction-primaire-france-2024/",

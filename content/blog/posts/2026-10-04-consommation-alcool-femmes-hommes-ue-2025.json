@@ -1,0 +1,114 @@
+{
+  "id": "2026-10-04-consommation-alcool-femmes-hommes-ue-2025",
+  "slug": "2026-10-04-consommation-alcool-femmes-hommes-ue-2025",
+  "status": "published",
+  "language": "fr",
+  "title": "Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes",
+  "description": "En 2025, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient boire de l'alcool au moins une fois par mois dans l'UE. La fréquence ne mesure ni les quantités ni les dommages.",
+  "date": "2026-10-04",
+  "publishedAt": "2026-10-04T19:18:00.000Z",
+  "updatedAt": "2026-10-04T19:18:00.000Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "consommation alcool femmes hommes Union européenne 2025",
+    "fréquence alcool Eurostat EU-SILC",
+    "alcool au moins une fois par mois hommes femmes",
+    "alcool personnes âgées UE 2025",
+    "différence femmes hommes fréquence alcool"
+  ],
+  "relatedClaimIds": [
+    "hommes-consommation-alcool-mensuelle-ue-2025"
+  ],
+  "readingMinutes": 5,
+  "summary": "Eurostat rapporte qu'en 2025, dans l'Union européenne, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient consommer de l'alcool au moins une fois par mois, soit 20,6 points d'écart. Cette comparaison porte sur la même enquête et la même fréquence, pas sur les volumes bus ou les dommages sanitaires. Dans la population totale, la consommation quotidienne déclarée augmente avec l'âge, mais Eurostat ne fournit pas dans sa synthèse une comparaison femmes-hommes par tranche d'âge. L'enquête décrit une asymétrie de pratique ; elle n'en établit ni les causes ni les conséquences individuelles.",
+  "keyPoints": [
+    "Dans l'UE en 2025, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient boire de l'alcool au moins une fois par mois : un écart de 20,6 points.",
+    "Eurostat indique que les consommations quotidiennes, hebdomadaires et mensuelles étaient chacune plus fréquentes chez les hommes que chez les femmes, mais ne donne pas dans son communiqué les taux sexués de chaque catégorie.",
+    "Sur l'ensemble des femmes et des hommes, 4,8 % déclaraient une consommation quotidienne ; cette fréquence atteignait 8,9 % chez les 65 ans ou plus, contre 0,8 % chez les 16-24 ans.",
+    "La question d'enquête porte sur la fréquence de consommation pendant les douze derniers mois, sans mesurer la quantité par occasion, l'ivresse, la dépendance ou la mortalité attribuable à l'alcool.",
+    "La source ne permet pas de conclure que l'écart global femmes-hommes est identique chez les personnes âgées ou dans chaque pays."
+  ],
+  "sections": [
+    {
+      "heading": "Une comparaison femmes-hommes sur le même indicateur",
+      "paragraphs": [
+        "Dans sa publication du 28 septembre 2026, Eurostat exploite le module santé de l'enquête européenne sur les revenus et les conditions de vie, EU-SILC. Pour 2025, l'organisme indique que 56,5 % des hommes de 16 ans ou plus dans l'Union européenne déclaraient consommer une boisson alcoolisée au moins une fois par mois, contre 35,9 % des femmes du même âge. La soustraction donne 20,6 points de pourcentage. Ces taux ont pour dénominateur les hommes et les femmes de la population étudiée, respectivement : il ne s'agit pas de la répartition par sexe des personnes qui boivent.",
+        "Eurostat précise aussi que la consommation quotidienne, hebdomadaire et mensuelle était plus fréquente chez les hommes que chez les femmes. Sa synthèse ne chiffre toutefois pas séparément ces trois fréquences pour chaque sexe. Il serait donc incorrect de présenter les 56,5 % et 35,9 % comme des taux de consommation quotidienne, ou de déduire des taux quotidiens féminins et masculins du seul total de 4,8 %."
+      ]
+    },
+    {
+      "heading": "Le rôle de l'âge, sans inventer de comparaison chez les seniors",
+      "paragraphs": [
+        "Pour l'ensemble de la population étudiée, 4,8 % déclaraient boire chaque jour, 19,2 % chaque semaine et 21,8 % chaque mois. La part de consommation quotidienne allait de 0,8 % chez les 16-24 ans à 8,9 % chez les personnes de 65 ans ou plus. À l'autre extrémité, 40,9 % des 65 ans ou plus déclaraient n'avoir jamais bu ou n'avoir pas bu durant l'année écoulée. Le groupe des plus âgés associe donc davantage de consommation quotidienne et une part élevée de non-consommation récente ; une moyenne unique masque cette diversité.",
+        "Ces chiffres d'âge concernent femmes et hommes réunis. Ils ne permettent pas de dire si, parmi les 65 ans ou plus, l'écart entre les sexes suit exactement celui de l'ensemble des adultes. Ils ne permettent pas non plus d'interpréter la fréquence plus élevée avec l'âge comme l'effet du vieillissement sur une même cohorte : les générations comparées sont différentes."
+      ]
+    },
+    {
+      "heading": "Ce que mesure réellement la question posée",
+      "paragraphs": [
+        "Les consignes méthodologiques d'Eurostat définissent la variable PH180 comme la fréquence de consommation d'une boisson alcoolisée, quelle qu'elle soit, au cours des douze derniers mois. Les personnes répondent « tous les jours », « quelques fois par semaine », « quelques fois par mois », « quelques fois dans l'année » ou « pas du tout ». La question inclut bière, vin et spiritueux, indépendamment de la quantité bue. Elle est recueillie auprès de membres du ménage âgés d'au moins 16 ans, ou d'une personne sélectionnée lorsque le protocole national le prévoit. Le module santé est collecté tous les trois ans ; 2022 et 2025 sont deux vagues prévues.",
+        "Les résultats sont déclaratifs et soumis aux limites habituelles d'une enquête : souvenir des répondants, présentation de leur comportement, échantillonnage et différences de mise en œuvre entre pays. Ils ne renseignent pas le nombre de verres par occasion, les épisodes d'alcoolisation importante, un diagnostic de dépendance ou les décès attribuables à l'alcool. Les données EU-SILC de 2025 ne doivent pas être fusionnées sans précaution avec celles d'une autre enquête ou d'une autre période."
+      ]
+    },
+    {
+      "heading": "Une asymétrie de fréquence, pas une mesure directe du risque",
+      "paragraphs": [
+        "L'Organisation mondiale de la Santé rappelle que le risque lié à l'alcool dépend notamment de la quantité totale consommée, de la fréquence, des épisodes de forte consommation, de l'état de santé et du contexte. La fréquence mensuelle seule ne suffit donc pas à classer le risque sanitaire des femmes et des hommes, encore moins à prédire la santé ou l'espérance de vie d'une personne.",
+        "L'écart publié par Eurostat décrit une différence de déclaration dans la population de l'UE, non une explication causale. Il ne prouve ni que toutes les femmes boivent peu, ni que tous les hommes boivent beaucoup, ni qu'une norme sociale unique détermine les pratiques. Les catégories femmes et hommes sont celles des statistiques diffusées ; l'enquête ne mesure pas les chromosomes. La fiche Isora liée à cet article conserve précisément le champ UE, 16 ans ou plus, 2025 et l'indicateur « au moins mensuel »."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les 56,5 % et 35,9 % désignent-ils des personnes qui boivent tous les jours ?",
+      "answer": "Non. Ces pourcentages portent sur une consommation déclarée au moins une fois par mois en 2025. Eurostat publie séparément un taux quotidien de 4,8 % pour la population totale, sans donner dans cette synthèse sa répartition par sexe."
+    },
+    {
+      "question": "L'écart de 20,6 points signifie-t-il que les hommes subissent 20,6 % de dommages supplémentaires ?",
+      "answer": "Non. Il s'agit d'une différence de fréquence de consommation déclarée, exprimée en points de pourcentage. Elle ne mesure ni les quantités bues ni les dommages."
+    },
+    {
+      "question": "Sait-on si le même écart existe chez les femmes et hommes de 65 ans ou plus ?",
+      "answer": "Pas avec les chiffres d'âge présentés dans la synthèse Eurostat : ils regroupent les sexes. On ne doit pas transférer automatiquement l'écart global à cette tranche d'âge."
+    }
+  ],
+  "sources": [
+    {
+      "title": "5% of Europeans consumed alcohol daily in 2025",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1",
+      "date": "28 septembre 2026, données 2025",
+      "type": "communiqué statistique"
+    },
+    {
+      "title": "Key figures on European living conditions – 2026 edition, p. 55",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf",
+      "date": "17 septembre 2026, données 2025",
+      "type": "rapport statistique"
+    },
+    {
+      "title": "EU-SILC: Methodological guidelines with description of variables – 2025 Operation, PH180",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated",
+      "date": "édition 2025, p. 542-543",
+      "type": "méthodologie d'enquête"
+    },
+    {
+      "title": "Alcohol – WHO fact sheet",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+      "date": "28 juin 2024",
+      "type": "fiche de santé publique, limites d'interprétation du risque"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-10-04T19:18:00.000Z",
+    "requiresHumanReview": false
+  }
+}

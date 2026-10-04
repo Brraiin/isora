@@ -107,6 +107,58 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "hommes-consommation-alcool-mensuelle-ue-2025",
+    side: "hommes",
+    domain: "Santé",
+    title: "Alcool : consommation au moins mensuelle plus fréquente chez les hommes dans l'UE",
+    metric: "56,5 % vs 35,9 %",
+    summary:
+      "Dans l'Union européenne en 2025, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient avoir consommé de l'alcool au moins une fois par mois, selon Eurostat. L'écart est de 20,6 points. Il mesure une fréquence déclarée, pas le volume d'alcool bu ni les dommages sanitaires.",
+    tags: ["santé", "alcool", "consommation déclarée", "Union européenne", "EU-SILC"],
+    source: {
+      label: "5% of Europeans consumed alcohol daily in 2025",
+      publisher: "Eurostat",
+      url: "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1",
+      date: "28 septembre 2026, données 2025",
+    },
+    additionalSources: [
+      {
+        label: "Key figures on European living conditions – 2026 edition, p. 55",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf",
+        date: "17 septembre 2026, données 2025",
+      },
+      {
+        label: "EU-SILC: Methodological guidelines with description of variables – 2025 Operation, PH180",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated",
+        date: "édition 2025, p. 542-543",
+      },
+      {
+        label: "Alcohol - WHO fact sheet on health risks and drinking patterns",
+        publisher: "Organisation mondiale de la Santé",
+        url: "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+        date: "28 juin 2024",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Monthly-or-more alcohol consumption is more common among men in the EU",
+        summary:
+          "In the European Union in 2025, 56.5% of men and 35.9% of women aged 16 or over reported drinking alcohol at least once a month, according to Eurostat. The difference is 20.6 percentage points. This measures reported frequency, not the amount consumed or alcohol-related harm.",
+        nuance:
+          "The figures come from the same 2025 EU-SILC health module and compare the proportion within each sex reporting alcohol consumption at least monthly over the preceding 12 months. The survey question records frequency regardless of beverage or quantity, and the results are self-reported. Eurostat's daily figure of 4.8% and its age-specific figures refer to both sexes combined; they cannot be split by sex or applied to older women and men from this summary. Frequency alone does not measure heavy drinking, dependence, attributable mortality or causation. These are statistical women/men categories, not chromosome measurements.",
+        sourcePopulation:
+          "Population measured by the source: people aged 16 or over living in households in the European Union, classified as men or women in the 2025 EU-SILC survey. Chromosomes were not measured.",
+        tags: ["health", "alcohol", "self-reported consumption", "European Union", "EU-SILC"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "4 octobre 2026",
+    nuance:
+      "Les deux taux proviennent du même module santé EU-SILC 2025 et comparent, dans chaque sexe, les personnes déclarant une consommation au moins mensuelle durant les douze derniers mois. La question recueille la fréquence, quel que soit le type ou la quantité de boisson, et les réponses sont déclaratives. Le taux quotidien de 4,8 % et les chiffres par âge diffusés par Eurostat regroupent femmes et hommes : ils ne permettent pas de reconstituer des taux quotidiens sexués ni de transposer l'écart aux seniors. La fréquence seule ne mesure ni l'alcoolisation importante, ni la dépendance, ni la mortalité attribuable, ni une causalité.",
+  },
+  {
     id: "femmes-direction-primaire-france-2024",
     side: "femmes",
     domain: "Éducation",
@@ -3939,6 +3991,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "hommes-consommation-alcool-mensuelle-ue-2025":
+    "Population mesurée par la source : personnes de 16 ans ou plus vivant en ménage dans l'Union européenne, classées comme femmes ou hommes dans l'enquête EU-SILC 2025. La source ne mesure pas les chromosomes.",
   "femmes-direction-primaire-france-2024":
     "Population mesurée par la source : personnels enseignants et de direction de l'enseignement primaire en France en 2024, classés comme femmes ou hommes par l'OCDE et comptés en équivalents temps plein. Les chromosomes ne sont pas mesurés.",
   "femmes-etudes-superieures-sport-ue-2024":
@@ -4160,6 +4214,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "hommes-consommation-alcool-mensuelle-ue-2025": {
+    pays_ou_zone: "Union européenne (27 États membres)",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "fréquence autodéclarée de consommation d'alcool au moins mensuelle",
+  },
   "femmes-direction-primaire-france-2024": {
     pays_ou_zone: "France",
     regionScope: "Europe",
