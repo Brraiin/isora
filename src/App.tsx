@@ -31,6 +31,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import packageJson from "../package.json";
 import isoraLogoUrl from "./assets/isora.svg";
 import { homeBlogUpdates as generatedBlogUpdates, type HomeBlogUpdate } from "./data/blog-updates";
+import { siteMetadata } from "./data/site-metadata";
 import {
   claims,
   domains,
@@ -254,6 +255,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     searchPlaceholder: "Rechercher une fiche, un pays, une source...",
     searchLabel: "Recherche",
     blog: "Articles",
+    fiches: "Fiches",
+    editorialMethod: "Méthode",
     lexicon: "Lexique",
     lexiconTitle: "Lexique isora",
     lexiconNotice,
@@ -325,6 +328,8 @@ const uiText: Record<Locale, Record<string, string>> = {
     searchPlaceholder: "Search an entry, country, source...",
     searchLabel: "Search",
     blog: "Articles",
+    fiches: "Entries",
+    editorialMethod: "Method",
     lexicon: "Lexicon",
     lexiconTitle: "isora lexicon",
     lexiconNotice,
@@ -391,7 +396,7 @@ const domainIcons: Record<Domain, LucideIcon> = {
 };
 
 const latestCheck = "15 juin 2026";
-const canonicalUrl = "https://isora-xi.vercel.app/";
+const canonicalUrl = `${siteMetadata.siteUrl}/`;
 const localReturnsClearPassword = "Jka$n@3^iTR7E8";
 const localReturnsClearAttemptsKey = "isora:clear-local-returns-attempts";
 const legacyContributionPrefix = ["sexe", "data"].join("");
@@ -2648,7 +2653,7 @@ function App() {
           description:
             "Référentiel de fiches sourcées sur les asymétries documentées selon le sexe, avec source, pays ou zone, période, population mesurée et nuance.",
           inLanguage: "fr-FR",
-          dateModified: "2026-06-16",
+          dateModified: siteMetadata.lastModified,
           isPartOf: {
             "@id": `${canonicalUrl}#website`,
           },
@@ -3123,6 +3128,12 @@ function App() {
           </a>
           <nav className="ml-auto flex flex-wrap items-center justify-end gap-1 self-center max-[760px]:w-full max-[760px]:justify-end" aria-label="Navigation">
             <a
+              className="inline-flex min-h-8 items-center px-2 font-extrabold text-[#000091] no-underline hover:bg-[#f6f6f6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1455a3]"
+              href="/fiches/"
+            >
+              {text.fiches}
+            </a>
+            <a
               className={cn(icon18, "inline-flex min-h-8 items-center gap-2 px-2 font-extrabold text-[#000091] no-underline hover:bg-[#f6f6f6] active:bg-[#ededed] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1455a3]")}
               href="/lexique/"
             >
@@ -3135,6 +3146,12 @@ function App() {
             >
               <FileText aria-hidden="true" />
               {text.blog}
+            </a>
+            <a
+              className="inline-flex min-h-8 items-center px-2 font-extrabold text-[#000091] no-underline hover:bg-[#f6f6f6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1455a3]"
+              href="/methode/"
+            >
+              {text.editorialMethod}
             </a>
           </nav>
             {/*

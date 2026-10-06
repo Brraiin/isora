@@ -1,7 +1,8 @@
 {
   "name": "isora - référentiel des asymétries documentées selon le sexe",
-  "url": "https://isora-xi.vercel.app",
-  "generatedAt": "2026-10-06T00:00:00+02:00",
+  "url": "https://isora.info",
+  "methodUrl": "https://isora.info/methode/",
+  "generatedAt": "2026-10-06T17:00:05.725Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -215,7 +216,7 @@
     "vocabulaire"
   ],
   "lexicon": {
-    "url": "https://isora-xi.vercel.app/lexique/",
+    "url": "https://isora.info/lexique/",
     "notice": "Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sépare quatre axes indépendants, le combat contre une asymétrie, l'opposition de principe à ce combat, l'adhésion à des rôles sexués traditionnels et la haine d'un sexe. Féminisme et masculinisme nomment ici l'objet d'un combat; antiféminisme et antimasculinisme nomment son opposition systématique; virilisme et féminilisme nomment des normes de rôles; misandrie et misogynie nomment des haines ou des mépris.",
     "entries": [
       {
@@ -224,7 +225,7 @@
         "category": "repere",
         "definition": "Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XX.",
         "detail": "Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle de femmes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XX, isora conserve le libellé de la source et précise la population réellement mesurée.",
-        "url": "https://isora-xi.vercel.app/lexique/#fille-femme",
+        "url": "https://isora.info/lexique/#fille-femme",
         "categoryLabel": "Repère",
         "relatedClaims": []
       },
@@ -234,7 +235,7 @@
         "category": "repere",
         "definition": "Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XY.",
         "detail": "Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle d'hommes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XY, isora conserve le libellé de la source et précise la population réellement mesurée.",
-        "url": "https://isora-xi.vercel.app/lexique/#garcon-homme",
+        "url": "https://isora.info/lexique/#garcon-homme",
         "categoryLabel": "Repère",
         "relatedClaims": []
       },
@@ -264,13 +265,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#feminisme",
+        "url": "https://isora.info/lexique/#feminisme",
         "categoryLabel": "Repère",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -300,13 +301,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#masculinisme",
+        "url": "https://isora.info/lexique/#masculinisme",
         "categoryLabel": "Repère",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -339,13 +340,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#antifeminisme",
+        "url": "https://isora.info/lexique/#antifeminisme",
         "categoryLabel": "Opposition à un combat",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -378,13 +379,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#antimasculinisme",
+        "url": "https://isora.info/lexique/#antimasculinisme",
         "categoryLabel": "Opposition à un combat",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -413,13 +414,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#virilisme",
+        "url": "https://isora.info/lexique/#virilisme",
         "categoryLabel": "Repère",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -448,13 +449,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#feminilisme",
+        "url": "https://isora.info/lexique/#feminilisme",
         "categoryLabel": "Repère",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -483,13 +484,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#misandrie",
+        "url": "https://isora.info/lexique/#misandrie",
         "categoryLabel": "Haine de sexe",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -518,13 +519,13 @@
         "relatedClaimIds": [
           "hommes-vocabulaire-masculinisme-pejoratif"
         ],
-        "url": "https://isora-xi.vercel.app/lexique/#misogynie",
+        "url": "https://isora.info/lexique/#misogynie",
         "categoryLabel": "Haine de sexe",
         "relatedClaims": [
           {
             "id": "hommes-vocabulaire-masculinisme-pejoratif",
             "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
-            "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
+            "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/"
           }
         ]
       },
@@ -546,7 +547,7 @@
             "sexists"
           ]
         },
-        "url": "https://isora-xi.vercel.app/lexique/#sexisme",
+        "url": "https://isora.info/lexique/#sexisme",
         "categoryLabel": "Haine de sexe",
         "relatedClaims": []
       },
@@ -566,7 +567,7 @@
             "asymmetries"
           ]
         },
-        "url": "https://isora-xi.vercel.app/lexique/#asymetrie",
+        "url": "https://isora.info/lexique/#asymetrie",
         "categoryLabel": "Méthode",
         "relatedClaims": []
       },
@@ -586,7 +587,7 @@
             "measured populations"
           ]
         },
-        "url": "https://isora-xi.vercel.app/lexique/#population-mesuree",
+        "url": "https://isora.info/lexique/#population-mesuree",
         "categoryLabel": "Méthode",
         "relatedClaims": []
       },
@@ -606,7 +607,7 @@
             "primary sources"
           ]
         },
-        "url": "https://isora-xi.vercel.app/lexique/#source-primaire",
+        "url": "https://isora.info/lexique/#source-primaire",
         "categoryLabel": "Méthode",
         "relatedClaims": []
       },
@@ -626,7 +627,7 @@
             "suffered disadvantages"
           ]
         },
-        "url": "https://isora-xi.vercel.app/lexique/#desavantage-subi",
+        "url": "https://isora.info/lexique/#desavantage-subi",
         "categoryLabel": "Angle d'analyse",
         "relatedClaims": []
       },
@@ -646,7 +647,7 @@
             "violence perpetrated"
           ]
         },
-        "url": "https://isora-xi.vercel.app/lexique/#violence-exercee",
+        "url": "https://isora.info/lexique/#violence-exercee",
         "categoryLabel": "Angle d'analyse",
         "relatedClaims": []
       },
@@ -666,7 +667,7 @@
             "perceptions"
           ]
         },
-        "url": "https://isora-xi.vercel.app/lexique/#perception",
+        "url": "https://isora.info/lexique/#perception",
         "categoryLabel": "Angle d'analyse",
         "relatedClaims": []
       }
@@ -675,8 +676,8 @@
   "claims": [
     {
       "id": "femmes-douleurs-declarees-11-sites-monde",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-douleurs-declarees-11-sites-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-douleurs-declarees-11-sites-monde",
+      "url": "https://isora.info/fiches/femmes-douleurs-declarees-11-sites-monde/",
+      "appUrl": "https://isora.info/#femmes-douleurs-declarees-11-sites-monde",
       "title": "Douleurs déclarées plus fréquentes chez les femmes dans une synthèse internationale",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -697,6 +698,11 @@
       "periodEnd": "2025",
       "currentStatus": "variable selon pays",
       "sourcePopulation": "Population mesurée par la source : 6 125 459 personnes de 5 ans à plus de 100 ans issues de 902 sources d'enquêtes dans 118 pays et territoires entre 1990 et 2025, classées comme femmes ou hommes dans les données réunies. Les chromosomes ne sont pas mesurés.",
+      "libelle_source": "Population mesurée par la source : 6 125 459 personnes de 5 ans à plus de 100 ans issues de 902 sources d'enquêtes dans 118 pays et territoires entre 1990 et 2025, classées comme femmes ou hommes dans les données réunies. Les chromosomes ne sont pas mesurés.",
+      "mesure_chromosomes": false,
+      "date_consultation": "6 octobre 2026",
+      "legalType": "prévalence modélisée de douleurs autodéclarées à 11 sites anatomiques",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "6 octobre 2026",
       "source": {
@@ -723,8 +729,8 @@
     },
     {
       "id": "hommes-consommation-alcool-mensuelle-ue-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-consommation-alcool-mensuelle-ue-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-consommation-alcool-mensuelle-ue-2025",
+      "url": "https://isora.info/fiches/hommes-consommation-alcool-mensuelle-ue-2025/",
+      "appUrl": "https://isora.info/#hommes-consommation-alcool-mensuelle-ue-2025",
       "title": "Alcool : consommation au moins mensuelle plus fréquente chez les hommes dans l'UE",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -745,6 +751,11 @@
       "periodEnd": "2025",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes de 16 ans ou plus vivant en ménage dans l'Union européenne, classées comme femmes ou hommes dans l'enquête EU-SILC 2025. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes de 16 ans ou plus vivant en ménage dans l'Union européenne, classées comme femmes ou hommes dans l'enquête EU-SILC 2025. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "4 octobre 2026",
+      "legalType": "fréquence autodéclarée de consommation d'alcool au moins mensuelle",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "4 octobre 2026",
       "source": {
@@ -777,8 +788,8 @@
     },
     {
       "id": "femmes-direction-primaire-france-2024",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-direction-primaire-france-2024/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-direction-primaire-france-2024",
+      "url": "https://isora.info/fiches/femmes-direction-primaire-france-2024/",
+      "appUrl": "https://isora.info/#femmes-direction-primaire-france-2024",
       "title": "Primaire : les femmes sont moins présentes dans la direction que dans l'enseignement",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -799,6 +810,11 @@
       "periodEnd": "2024",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnels enseignants et de direction de l'enseignement primaire en France en 2024, classés comme femmes ou hommes par l'OCDE et comptés en équivalents temps plein. Les chromosomes ne sont pas mesurés.",
+      "libelle_source": "Population mesurée par la source : personnels enseignants et de direction de l'enseignement primaire en France en 2024, classés comme femmes ou hommes par l'OCDE et comptés en équivalents temps plein. Les chromosomes ne sont pas mesurés.",
+      "mesure_chromosomes": false,
+      "date_consultation": "30 septembre 2026",
+      "legalType": "composition du personnel enseignant et de direction du primaire",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "30 septembre 2026",
       "source": {
@@ -825,8 +841,8 @@
     },
     {
       "id": "femmes-etudes-superieures-sport-ue-2024",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-etudes-superieures-sport-ue-2024/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-etudes-superieures-sport-ue-2024",
+      "url": "https://isora.info/fiches/femmes-etudes-superieures-sport-ue-2024/",
+      "appUrl": "https://isora.info/#femmes-etudes-superieures-sport-ue-2024",
       "title": "Femmes moins nombreuses dans les études supérieures de sport de l'UE",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -847,6 +863,11 @@
       "periodEnd": "2024",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes classées comme étudiantes ou étudiants dans les formations supérieures de sport de l'Union européenne (CITE-F 1014, niveaux 5 à 8) en 2024. La source utilise les catégories statistiques femmes/hommes et ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "23 septembre 2026",
+      "legalType": "inscriptions dans l'enseignement supérieur, domaine du sport",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "23 septembre 2026",
       "source": {
@@ -879,8 +900,8 @@
     },
     {
       "id": "hommes-mesotheliome-pleural-incidence-france",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-mesotheliome-pleural-incidence-france/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-mesotheliome-pleural-incidence-france",
+      "url": "https://isora.info/fiches/hommes-mesotheliome-pleural-incidence-france/",
+      "appUrl": "https://isora.info/#hommes-mesotheliome-pleural-incidence-france",
       "title": "Mésothéliome pleural : une incidence estimée plus élevée chez les hommes",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -901,6 +922,11 @@
       "periodEnd": "2021",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes classées comme femmes ou hommes dans la surveillance française du mésothéliome pleural et les statistiques nationales de mortalité. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes classées comme femmes ou hommes dans la surveillance française du mésothéliome pleural et les statistiques nationales de mortalité. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 septembre 2026",
+      "legalType": "incidence estimée d'un cancer lié à l'amiante",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 septembre 2026",
       "source": {
@@ -927,8 +953,8 @@
     },
     {
       "id": "hommes-contraintes-physiques-travail-france-2024",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-contraintes-physiques-travail-france-2024/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-contraintes-physiques-travail-france-2024",
+      "url": "https://isora.info/fiches/hommes-contraintes-physiques-travail-france-2024/",
+      "appUrl": "https://isora.info/#hommes-contraintes-physiques-travail-france-2024",
       "title": "Contraintes physiques au travail plus fréquentes chez les hommes",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -949,6 +975,11 @@
       "periodEnd": "2024",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : femmes et hommes salariés en France interrogés sur leurs conditions de travail en 2016 et 2024. La source utilise les catégories statistiques de sexe et ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes et hommes salariés en France interrogés sur leurs conditions de travail en 2016 et 2024. La source utilise les catégories statistiques de sexe et ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "14 septembre 2026",
+      "legalType": "conditions de travail et exposition physique déclarée",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "14 septembre 2026",
       "source": {
@@ -975,8 +1006,8 @@
     },
     {
       "id": "hommes-accidents-travail",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-accidents-travail/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-accidents-travail",
+      "url": "https://isora.info/fiches/hommes-accidents-travail/",
+      "appUrl": "https://isora.info/#hommes-accidents-travail",
       "title": "Hommes toujours davantage touchés par les accidents du travail",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -996,6 +1027,11 @@
       "periodEnd": "2023",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "santé et sécurité au travail",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1016,8 +1052,8 @@
     },
     {
       "id": "hommes-suicide",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-suicide/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-suicide",
+      "url": "https://isora.info/fiches/hommes-suicide/",
+      "appUrl": "https://isora.info/#hommes-suicide",
       "title": "Décès par suicide : surmortalité masculine en France et dans l'UE",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1037,6 +1073,11 @@
       "periodEnd": "2023",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : femmes et hommes dont le décès a été classé comme suicide ou lésion auto-infligée intentionnelle en France et dans les États membres de l'Union européenne en 2023. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes et hommes dont le décès a été classé comme suicide ou lésion auto-infligée intentionnelle en France et dans les États membres de l'Union européenne en 2023. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "9 septembre 2026",
+      "legalType": "santé publique",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "9 septembre 2026",
       "source": {
@@ -1063,8 +1104,8 @@
     },
     {
       "id": "hommes-esperance-vie",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-esperance-vie/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-esperance-vie",
+      "url": "https://isora.info/fiches/hommes-esperance-vie/",
+      "appUrl": "https://isora.info/#hommes-esperance-vie",
       "title": "Espérance de vie plus courte pour les hommes en France",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1083,6 +1124,11 @@
       "periodEnd": "2025",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "23 septembre 2026",
+      "legalType": "démographie",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "23 septembre 2026",
       "source": {
@@ -1109,8 +1155,8 @@
     },
     {
       "id": "hommes-mal-etre-recours-professionnel",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-mal-etre-recours-professionnel/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-mal-etre-recours-professionnel",
+      "url": "https://isora.info/fiches/hommes-mal-etre-recours-professionnel/",
+      "appUrl": "https://isora.info/#hommes-mal-etre-recours-professionnel",
       "title": "Hommes moins nombreux à parler de leur mal-être à un professionnel",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1130,6 +1176,11 @@
       "periodEnd": "2023",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "santé mentale et recours aux soins",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1143,8 +1194,8 @@
     },
     {
       "id": "hommes-pensions-alimentaires",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-pensions-alimentaires/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-pensions-alimentaires",
+      "url": "https://isora.info/fiches/hommes-pensions-alimentaires/",
+      "appUrl": "https://isora.info/#hommes-pensions-alimentaires",
       "title": "Dans les décisions étudiées en 2012, le père était débiteur dans 97 % des pensions fixées",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1164,6 +1215,11 @@
       "periodEnd": null,
       "currentStatus": "données insuffisantes",
       "sourcePopulation": "Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "droit familial",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1177,8 +1233,8 @@
     },
     {
       "id": "hommes-residence-alternee",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-residence-alternee/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-residence-alternee",
+      "url": "https://isora.info/fiches/hommes-residence-alternee/",
+      "appUrl": "https://isora.info/#hommes-residence-alternee",
       "title": "En 2023, 14 % des enfants de parents séparés vivent à temps égal chez chacun",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1198,6 +1254,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : enfants de parents séparés et situation parentale, l'asymétrie père/mère vient de publications statistiques. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "droit familial",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1211,8 +1272,8 @@
     },
     {
       "id": "hommes-femme-principale-pourvoyeuse-satisfaction",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-femme-principale-pourvoyeuse-satisfaction",
+      "url": "https://isora.info/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/",
+      "appUrl": "https://isora.info/#hommes-femme-principale-pourvoyeuse-satisfaction",
       "title": "Dans neuf pays, satisfaction déclarée plus basse quand la femme assure seule le revenu",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1234,6 +1295,11 @@
       "periodEnd": "2018",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : personnes en couple hétérosexuel interrogées dans 9 pays européens dans l'European Social Survey (2004-2018), couples mariés co-résidents dans le UK Household Longitudinal Study et couples observés dans des données administratives françaises sur les séparations. Les sources utilisent les catégories women/men et ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes en couple hétérosexuel interrogées dans 9 pays européens dans l'European Social Survey (2004-2018), couples mariés co-résidents dans le UK Household Longitudinal Study et couples observés dans des données administratives françaises sur les séparations. Les sources utilisent les catégories women/men et ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "25 juin 2026",
+      "legalType": "revenus relatifs, satisfaction et stabilité du couple",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "25 juin 2026",
       "source": {
@@ -1266,8 +1332,8 @@
     },
     {
       "id": "hommes-filiation-paternite-test-adn-judiciaire",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-filiation-paternite-test-adn-judiciaire/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire",
+      "url": "https://isora.info/fiches/hommes-filiation-paternite-test-adn-judiciaire/",
+      "appUrl": "https://isora.info/#hommes-filiation-paternite-test-adn-judiciaire",
       "title": "Paternité biologique vérifiable seulement par une procédure judiciaire",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1289,6 +1355,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : personnes concernées par une procédure française de filiation, de contestation de paternité ou de test de paternité. Les sources juridiques ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes concernées par une procédure française de filiation, de contestation de paternité ou de test de paternité. Les sources juridiques ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "filiation, contestation de paternité et expertise biologique",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1333,8 +1404,8 @@
     },
     {
       "id": "hommes-panama-fraude-paternite-crime-2026",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-panama-fraude-paternite-crime-2026/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-panama-fraude-paternite-crime-2026",
+      "url": "https://isora.info/fiches/hommes-panama-fraude-paternite-crime-2026/",
+      "appUrl": "https://isora.info/#hommes-panama-fraude-paternite-crime-2026",
       "title": "Panama crée un délit spécifique de fraude à la paternité",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1356,6 +1427,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : personnes concernées par la reconnaissance de paternité, la filiation et le droit pénal panaméens. Les sources juridiques ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes concernées par la reconnaissance de paternité, la filiation et le droit pénal panaméens. Les sources juridiques ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "25 juin 2026",
+      "legalType": "droit pénal de la filiation et reconnaissance de paternité",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "25 juin 2026",
       "source": {
@@ -1376,8 +1452,8 @@
     },
     {
       "id": "hommes-sorties-precoces",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-sorties-precoces/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-sorties-precoces",
+      "url": "https://isora.info/fiches/hommes-sorties-precoces/",
+      "appUrl": "https://isora.info/#hommes-sorties-precoces",
       "title": "Garçons plus touchés par les sorties précoces du système scolaire",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1396,6 +1472,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : hommes et femmes de 18 à 24 ans. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : hommes et femmes de 18 à 24 ans. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "éducation",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -1409,8 +1490,8 @@
     },
     {
       "id": "hommes-bourses-stem-reservees-femmes",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-bourses-stem-reservees-femmes/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-bourses-stem-reservees-femmes",
+      "url": "https://isora.info/fiches/hommes-bourses-stem-reservees-femmes/",
+      "appUrl": "https://isora.info/#hommes-bourses-stem-reservees-femmes",
       "title": "Hommes exclus de certaines bourses STEM réservées aux femmes",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1431,6 +1512,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : candidates et bénéficiaires de programmes STEM ciblant les femmes, et étudiants dans les règles générales des bourses publiques. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : candidates et bénéficiaires de programmes STEM ciblant les femmes, et étudiants dans les règles générales des bourses publiques. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "aides scolaires et action positive",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -1469,8 +1555,8 @@
     },
     {
       "id": "hommes-esperance-vie-monde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-esperance-vie-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-esperance-vie-monde",
+      "url": "https://isora.info/fiches/hommes-esperance-vie-monde/",
+      "appUrl": "https://isora.info/#hommes-esperance-vie-monde",
       "title": "Espérance de vie masculine plus courte dans presque tous les pays",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1490,6 +1576,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : female-male difference / males dans les séries internationales. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : female-male difference / males dans les séries internationales. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -1503,8 +1594,8 @@
     },
     {
       "id": "hommes-suicide-monde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-suicide-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-suicide-monde",
+      "url": "https://isora.info/fiches/hommes-suicide-monde/",
+      "appUrl": "https://isora.info/#hommes-suicide-monde",
       "title": "Hommes beaucoup plus exposés à la mort par suicide",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1524,6 +1615,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : males / hommes dans les estimations OMS. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : males / hommes dans les estimations OMS. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -1537,8 +1633,8 @@
     },
     {
       "id": "hommes-victimes-homicide-monde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-victimes-homicide-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-victimes-homicide-monde",
+      "url": "https://isora.info/fiches/hommes-victimes-homicide-monde/",
+      "appUrl": "https://isora.info/#hommes-victimes-homicide-monde",
       "title": "Hommes majoritaires parmi les victimes d'homicide",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1558,6 +1654,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "30 juin 2026",
+      "legalType": "violences",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "30 juin 2026",
       "source": {
@@ -1578,8 +1679,8 @@
     },
     {
       "id": "hommes-mortalite-travail-monde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-mortalite-travail-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-mortalite-travail-monde",
+      "url": "https://isora.info/fiches/hommes-mortalite-travail-monde/",
+      "appUrl": "https://isora.info/#hommes-mortalite-travail-monde",
       "title": "Hommes davantage exposés à la mortalité liée au travail",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1599,6 +1700,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : men / women dans les estimations OIT. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : men / women dans les estimations OIT. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "travail",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -1612,8 +1718,8 @@
     },
     {
       "id": "hommes-accidents-route-monde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-accidents-route-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-accidents-route-monde",
+      "url": "https://isora.info/fiches/hommes-accidents-route-monde/",
+      "appUrl": "https://isora.info/#hommes-accidents-route-monde",
       "title": "Hommes beaucoup plus exposés à la mortalité routière",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1633,6 +1739,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : males / females dans la fiche OMS. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : males / females dans la fiche OMS. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "25 juin 2026",
+      "legalType": "sécurité routière",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "25 juin 2026",
       "source": {
@@ -1646,8 +1757,8 @@
     },
     {
       "id": "hommes-conscription",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-conscription/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-conscription",
+      "url": "https://isora.info/fiches/hommes-conscription/",
+      "appUrl": "https://isora.info/#hommes-conscription",
       "title": "Service militaire obligatoire souvent ciblé sur les hommes",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1667,6 +1778,11 @@
       "periodEnd": "2026",
       "currentStatus": "variable selon pays",
       "sourcePopulation": "Population mesurée par les sources : personnes soumises aux règles nationales de conscription dans l'Union européenne, selon les catégories femmes/hommes des textes. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes soumises aux règles nationales de conscription dans l'Union européenne, selon les catégories femmes/hommes des textes. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "conscription et obligations militaires",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1687,8 +1803,8 @@
     },
     {
       "id": "hommes-age-retraite-differencie-ocde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-age-retraite-differencie-ocde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-age-retraite-differencie-ocde",
+      "url": "https://isora.info/fiches/hommes-age-retraite-differencie-ocde/",
+      "appUrl": "https://isora.info/#hommes-age-retraite-differencie-ocde",
       "title": "Âge normal de retraite encore plus élevé pour les hommes dans certains pays",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1709,6 +1825,11 @@
       "periodEnd": "2024",
       "currentStatus": "variable selon pays",
       "sourcePopulation": "Population mesurée par la source : carrières-types de femmes et d'hommes partant à la retraite en 2024 selon les législations des pays de l'OCDE. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : carrières-types de femmes et d'hommes partant à la retraite en 2024 selon les législations des pays de l'OCDE. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "âge légal de retraite et droits à pension",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1729,8 +1850,8 @@
     },
     {
       "id": "hommes-population-carcerale-monde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-population-carcerale-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-population-carcerale-monde",
+      "url": "https://isora.info/fiches/hommes-population-carcerale-monde/",
+      "appUrl": "https://isora.info/#hommes-population-carcerale-monde",
       "title": "Hommes très majoritaires dans la population carcérale mondiale",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1750,6 +1871,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : men / male prisoners dans le brief UNODC. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : men / male prisoners dans le brief UNODC. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "justice",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -1763,8 +1889,8 @@
     },
     {
       "id": "hommes-decrochage-garcons-monde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-decrochage-garcons-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-decrochage-garcons-monde",
+      "url": "https://isora.info/fiches/hommes-decrochage-garcons-monde/",
+      "appUrl": "https://isora.info/#hommes-decrochage-garcons-monde",
       "title": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1784,6 +1910,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : boys / garçons et girls / filles hors de l'école, redoublement et achèvement scolaire selon UNESCO/GEM/UIS. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "7 septembre 2026",
+      "legalType": "éducation",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "7 septembre 2026",
       "source": {
@@ -1834,8 +1965,8 @@
     },
     {
       "id": "hommes-sans-abrisme",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-sans-abrisme/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-sans-abrisme",
+      "url": "https://isora.info/fiches/hommes-sans-abrisme/",
+      "appUrl": "https://isora.info/#hommes-sans-abrisme",
       "title": "Hommes majoritaires dans 31 des 33 pays renseignés par l'OCDE",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1856,6 +1987,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : personnes enregistrées comme sans domicile selon les définitions nationales et classées comme hommes ou femmes dans les statistiques correspondantes. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes enregistrées comme sans domicile selon les définitions nationales et classées comme hommes ou femmes dans les statistiques correspondantes. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "10 septembre 2026",
+      "legalType": "revenus",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "10 septembre 2026",
       "source": {
@@ -1894,8 +2030,8 @@
     },
     {
       "id": "hommes-violences-physiques-hors-famille-france-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-violences-physiques-hors-famille-france-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-violences-physiques-hors-famille-france-2025",
+      "url": "https://isora.info/fiches/hommes-violences-physiques-hors-famille-france-2025/",
+      "appUrl": "https://isora.info/#hommes-violences-physiques-hors-famille-france-2025",
       "title": "Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1917,6 +2053,11 @@
       "periodEnd": "2025",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : victimes de violences physiques et sexuelles enregistrées comme crimes ou délits par la police et la gendarmerie françaises en 2025. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : victimes de violences physiques et sexuelles enregistrées comme crimes ou délits par la police et la gendarmerie françaises en 2025. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "violences physiques enregistrées hors cadre familial",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -1930,8 +2071,8 @@
     },
     {
       "id": "hommes-violence-partenaire-etats-unis",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-violence-partenaire-etats-unis/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-violence-partenaire-etats-unis",
+      "url": "https://isora.info/fiches/hommes-violence-partenaire-etats-unis/",
+      "appUrl": "https://isora.info/#hommes-violence-partenaire-etats-unis",
       "title": "Hommes victimes de violence par partenaire intime",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1951,6 +2092,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : men / male victims dans l'enquête CDC. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : men / male victims dans l'enquête CDC. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "violences",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -1964,8 +2110,8 @@
     },
     {
       "id": "hommes-violence-domestique-royaume-uni",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-violence-domestique-royaume-uni/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-violence-domestique-royaume-uni",
+      "url": "https://isora.info/fiches/hommes-violence-domestique-royaume-uni/",
+      "appUrl": "https://isora.info/#hommes-violence-domestique-royaume-uni",
       "title": "Violence domestique au Royaume-Uni : victimes femmes et hommes",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -1987,6 +2133,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "violences",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -2000,8 +2151,8 @@
     },
     {
       "id": "hommes-violences-conjugales-aides-specialisees",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-violences-conjugales-aides-specialisees/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-violences-conjugales-aides-specialisees",
+      "url": "https://isora.info/fiches/hommes-violences-conjugales-aides-specialisees/",
+      "appUrl": "https://isora.info/#hommes-violences-conjugales-aides-specialisees",
       "title": "Hommes victimes orientés vers des aides moins spécialisées",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2021,6 +2172,11 @@
       "periodEnd": "2025",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux et places d'hébergement sûr au Royaume-Uni. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux et places d'hébergement sûr au Royaume-Uni. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "aide aux victimes et violences conjugales",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2053,8 +2209,8 @@
     },
     {
       "id": "hommes-agressions-sexuelles-minimisees",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-agressions-sexuelles-minimisees/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-agressions-sexuelles-minimisees",
+      "url": "https://isora.info/fiches/hommes-agressions-sexuelles-minimisees/",
+      "appUrl": "https://isora.info/#hommes-agressions-sexuelles-minimisees",
       "title": "Hommes moins enclins à reconnaître certaines agressions sexuelles",
       "side": "hommes",
       "angle": "perception",
@@ -2074,6 +2230,11 @@
       "periodEnd": null,
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : hommes et femmes adultes interrogés sur ce qui constitue une agression sexuelle, puis victimes hommes et femmes dans des études complémentaires. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "violences sexuelles et perception sociale",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2124,8 +2285,8 @@
     },
     {
       "id": "hommes-viol-force-penetration-2018",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-viol-force-penetration-2018/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-viol-force-penetration-2018",
+      "url": "https://isora.info/fiches/hommes-viol-force-penetration-2018/",
+      "appUrl": "https://isora.info/#hommes-viol-force-penetration-2018",
       "title": "Qualification du viol élargie aux victimes forcées à pénétrer",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2146,6 +2307,11 @@
       "periodEnd": "2018",
       "currentStatus": "partiellement réformé",
       "sourcePopulation": "Population mesurée par les sources : textes du droit pénal français et versions successives de l'article 222-23 du Code pénal. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : textes du droit pénal français et versions successives de l'article 222-23 du Code pénal. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "25 juin 2026",
+      "legalType": "définition pénale du viol",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "25 juin 2026",
       "source": {
@@ -2184,8 +2350,8 @@
     },
     {
       "id": "hommes-reconnaissance-viol-lois-europe",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-reconnaissance-viol-lois-europe/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-reconnaissance-viol-lois-europe",
+      "url": "https://isora.info/fiches/hommes-reconnaissance-viol-lois-europe/",
+      "appUrl": "https://isora.info/#hommes-reconnaissance-viol-lois-europe",
       "title": "Certaines lois européennes ne reconnaissent pas pleinement les hommes comme victimes de viol",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2206,6 +2372,11 @@
       "periodEnd": "2025",
       "currentStatus": "variable selon pays",
       "sourcePopulation": "Matériau mesuré par la source : définitions pénales du viol et règles de reconnaissance des victimes examinées par le Conseil de l'Europe en 2025. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Matériau mesuré par la source : définitions pénales du viol et règles de reconnaissance des victimes examinées par le Conseil de l'Europe en 2025. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "définition pénale du viol et reconnaissance des victimes",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2219,8 +2390,8 @@
     },
     {
       "id": "hommes-mis-en-cause-violences-conjugales-france",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-mis-en-cause-violences-conjugales-france/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-mis-en-cause-violences-conjugales-france",
+      "url": "https://isora.info/fiches/hommes-mis-en-cause-violences-conjugales-france/",
+      "appUrl": "https://isora.info/#hommes-mis-en-cause-violences-conjugales-france",
       "title": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
       "side": "hommes",
       "angle": "violence_exercée",
@@ -2240,6 +2411,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "violences conjugales enregistrées",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -2253,8 +2429,8 @@
     },
     {
       "id": "hommes-agresseurs-declares-violences-sexuelles-femmes-france",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-agresseurs-declares-violences-sexuelles-femmes-france/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france",
+      "url": "https://isora.info/fiches/hommes-agresseurs-declares-violences-sexuelles-femmes-france/",
+      "appUrl": "https://isora.info/#hommes-agresseurs-declares-violences-sexuelles-femmes-france",
       "title": "Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles",
       "side": "hommes",
       "angle": "violence_exercée",
@@ -2274,6 +2450,11 @@
       "periodEnd": "2024",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "viols, tentatives de viol et agressions sexuelles",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -2294,8 +2475,8 @@
     },
     {
       "id": "hommes-part-auteurs-violences-sexuelles-perception",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-part-auteurs-violences-sexuelles-perception/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-part-auteurs-violences-sexuelles-perception",
+      "url": "https://isora.info/fiches/hommes-part-auteurs-violences-sexuelles-perception/",
+      "appUrl": "https://isora.info/#hommes-part-auteurs-violences-sexuelles-perception",
       "title": "Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs",
       "side": "hommes",
       "angle": "perception",
@@ -2317,6 +2498,11 @@
       "periodEnd": "2024",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source principale : femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle dans l'enquête VRS et ayant renseigné le sexe du ou des agresseurs. La source ne mesure pas l'ensemble des hommes ni les chromosomes.",
+      "libelle_source": "Population mesurée par la source principale : femmes majeures déclarant un viol, une tentative de viol ou une agression sexuelle dans l'enquête VRS et ayant renseigné le sexe du ou des agresseurs. La source ne mesure pas l'ensemble des hommes ni les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "interprétation statistique des violences sexuelles déclarées",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2337,8 +2523,8 @@
     },
     {
       "id": "hommes-sexisme-hostile-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-sexisme-hostile-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-sexisme-hostile-hce-2025",
+      "url": "https://isora.info/fiches/hommes-sexisme-hostile-hce-2025/",
+      "appUrl": "https://isora.info/#hommes-sexisme-hostile-hce-2025",
       "title": "Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes",
       "side": "hommes",
       "angle": "perception",
@@ -2359,6 +2545,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "baromètre d'opinion et stéréotypes sexistes",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2391,8 +2582,8 @@
     },
     {
       "id": "hommes-femmes-sexisme-paternaliste-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-sexisme-paternaliste-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-sexisme-paternaliste-hce-2025",
+      "url": "https://isora.info/fiches/hommes-femmes-sexisme-paternaliste-hce-2025/",
+      "appUrl": "https://isora.info/#hommes-femmes-sexisme-paternaliste-hce-2025",
       "title": "Sexisme paternaliste mesuré chez les deux sexes, plus souvent chez les hommes",
       "side": "hommes",
       "angle": "perception",
@@ -2413,6 +2604,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaison hommes/femmes dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "baromètre d'opinion et stéréotypes sexistes",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2445,8 +2641,8 @@
     },
     {
       "id": "hommes-consentement-rapports-sexuels-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-consentement-rapports-sexuels-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-consentement-rapports-sexuels-hce-2025",
+      "url": "https://isora.info/fiches/hommes-consentement-rapports-sexuels-hce-2025/",
+      "appUrl": "https://isora.info/#hommes-consentement-rapports-sexuels-hce-2025",
       "title": "Consentement sexuel : écarts entre désapprobation et situations déclarées",
       "side": "hommes",
       "angle": "violence_exercée",
@@ -2467,6 +2663,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : hommes interrogés en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : hommes interrogés en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "baromètre d'opinion, consentement et violences sexuelles",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -2493,8 +2694,8 @@
     },
     {
       "id": "hommes-recits-antifeministes-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-recits-antifeministes-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-recits-antifeministes-hce-2025",
+      "url": "https://isora.info/fiches/hommes-recits-antifeministes-hce-2025/",
+      "appUrl": "https://isora.info/#hommes-recits-antifeministes-hce-2025",
       "title": "Récits antiféministes plus déclarés chez les hommes",
       "side": "hommes",
       "angle": "perception",
@@ -2515,6 +2716,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec plusieurs items rapportés pour les hommes et une comparaison hommes/femmes. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "baromètre d'opinion et représentations du féminisme",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2535,8 +2741,8 @@
     },
     {
       "id": "hommes-vocabulaire-masculinisme-pejoratif",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-vocabulaire-masculinisme-pejoratif",
+      "url": "https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/",
+      "appUrl": "https://isora.info/#hommes-vocabulaire-masculinisme-pejoratif",
       "title": "Masculinisme : définition Isora et usages péjoratifs des sources",
       "side": "hommes",
       "angle": "perception",
@@ -2561,6 +2767,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Matériau examiné par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat, et travaux de sciences sociales sur la virilité, la masculinité hégémonique et la féminité accentuée. Ces sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Matériau examiné par les sources : entrées de dictionnaires et de terminologie pour les mots français masculinisme, féminisme, misogyne et misandre, rapports publics 2026 du HCE et du Sénat, et travaux de sciences sociales sur la virilité, la masculinité hégémonique et la féminité accentuée. Ces sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "lexicographie et représentations publiques",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2665,8 +2876,8 @@
     },
     {
       "id": "hommes-perception-garde-enfants-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-perception-garde-enfants-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-perception-garde-enfants-hce-2025",
+      "url": "https://isora.info/fiches/hommes-perception-garde-enfants-hce-2025/",
+      "appUrl": "https://isora.info/#hommes-perception-garde-enfants-hce-2025",
       "title": "Garde des enfants : perception d'un avantage aux mères et demandes des pères",
       "side": "hommes",
       "angle": "perception",
@@ -2687,6 +2898,11 @@
       "periodEnd": "2025",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "perception de la justice familiale et résidence des enfants",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -2707,8 +2923,8 @@
     },
     {
       "id": "hommes-attribution-laxisme-justice-violences-sexuelles",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles",
+      "url": "https://isora.info/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/",
+      "appUrl": "https://isora.info/#hommes-attribution-laxisme-justice-violences-sexuelles",
       "title": "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
       "side": "hommes",
       "angle": "perception",
@@ -2729,6 +2945,11 @@
       "periodEnd": "2024",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "composition des personnels de justice et violences sexuelles",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -2761,8 +2982,8 @@
     },
     {
       "id": "hommes-sanctions-penales-plus-lourdes",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-sanctions-penales-plus-lourdes/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-sanctions-penales-plus-lourdes",
+      "url": "https://isora.info/fiches/hommes-sanctions-penales-plus-lourdes/",
+      "appUrl": "https://isora.info/#hommes-sanctions-penales-plus-lourdes",
       "title": "Hommes plus exposés aux sanctions pénales lourdes",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2783,6 +3004,11 @@
       "periodEnd": "2022",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes et hommes mis en cause, poursuivis ou condamnés dans les statistiques pénales françaises, et personnes arrêtées ou condamnées dans les affaires fédérales américaines. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes et hommes mis en cause, poursuivis ou condamnés dans les statistiques pénales françaises, et personnes arrêtées ou condamnées dans les affaires fédérales américaines. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "peines pénales et emprisonnement",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -2821,8 +3047,8 @@
     },
     {
       "id": "hommes-conge-paternite-ocde",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-conge-paternite-ocde/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-conge-paternite-ocde",
+      "url": "https://isora.info/fiches/hommes-conge-paternite-ocde/",
+      "appUrl": "https://isora.info/#hommes-conge-paternite-ocde",
       "title": "Pères limités par un congé paternité payé très court",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2842,6 +3068,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : fathers / pères dans les politiques de congé. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : fathers / pères dans les politiques de congé. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "famille",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -2855,8 +3086,8 @@
     },
     {
       "id": "hommes-autonomie-corporelle-circoncision",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-autonomie-corporelle-circoncision/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-autonomie-corporelle-circoncision",
+      "url": "https://isora.info/fiches/hommes-autonomie-corporelle-circoncision/",
+      "appUrl": "https://isora.info/#hommes-autonomie-corporelle-circoncision",
       "title": "Circoncision des garçons décidée avant leur consentement",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2876,6 +3107,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : male circumcision / males dans les estimations de prévalence. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : male circumcision / males dans les estimations de prévalence. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "autonomie",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -2889,8 +3125,8 @@
     },
     {
       "id": "hommes-deces-professionnels-etats-unis-2024",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-deces-professionnels-etats-unis-2024/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-deces-professionnels-etats-unis-2024",
+      "url": "https://isora.info/fiches/hommes-deces-professionnels-etats-unis-2024/",
+      "appUrl": "https://isora.info/#hommes-deces-professionnels-etats-unis-2024",
       "title": "Hommes très majoritaires parmi les décès professionnels aux États-Unis",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2910,6 +3146,11 @@
       "periodEnd": "2024",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women / men dans le recensement BLS des décès professionnels. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "30 juin 2026",
+      "legalType": "santé et sécurité au travail",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "30 juin 2026",
       "source": {
@@ -2930,8 +3171,8 @@
     },
     {
       "id": "hommes-ukraine-restrictions-sortie-2022-2025",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-ukraine-restrictions-sortie-2022-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-ukraine-restrictions-sortie-2022-2025",
+      "url": "https://isora.info/fiches/hommes-ukraine-restrictions-sortie-2022-2025/",
+      "appUrl": "https://isora.info/#hommes-ukraine-restrictions-sortie-2022-2025",
       "title": "Hommes ukrainiens d'âge militaire limités à la frontière",
       "side": "hommes",
       "angle": "désavantage_subi",
@@ -2951,6 +3192,11 @@
       "periodEnd": "2025",
       "currentStatus": "lié à une crise",
       "sourcePopulation": "Population mesurée par les sources : men / male Ukrainian citizens d'âge militaire. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : men / male Ukrainian citizens d'âge militaire. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "loi martiale et mobilité",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -2977,8 +3223,8 @@
     },
     {
       "id": "femmes-ecart-salaire",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-ecart-salaire/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-ecart-salaire",
+      "url": "https://isora.info/fiches/femmes-ecart-salaire/",
+      "appUrl": "https://isora.info/#femmes-ecart-salaire",
       "title": "Salaire inférieur pour une femme à profil comparable à un homme",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -2998,6 +3244,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes et hommes dans les statistiques salariales Insee. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "revenus",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -3024,8 +3275,8 @@
     },
     {
       "id": "hommes-femmes-taxe-rose-prix-genres",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-taxe-rose-prix-genres/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-taxe-rose-prix-genres",
+      "url": "https://isora.info/fiches/hommes-femmes-taxe-rose-prix-genres/",
+      "appUrl": "https://isora.info/#hommes-femmes-taxe-rose-prix-genres",
       "title": "Taxe rose : des prix genrés existent, sans surcoût féminin généralisé",
       "side": "femmes",
       "angle": "perception",
@@ -3047,6 +3298,11 @@
       "periodEnd": "2018",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : produits et services genrés comparés en France et aux États-Unis, avec catégories destinées aux femmes et aux hommes. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : produits et services genrés comparés en France et aux États-Unis, avec catégories destinées aux femmes et aux hommes. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "25 juin 2026",
+      "legalType": "prix genrés et marketing différencié",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "25 juin 2026",
       "source": {
@@ -3079,8 +3335,8 @@
     },
     {
       "id": "femmes-temps-partiel",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-temps-partiel/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-temps-partiel",
+      "url": "https://isora.info/fiches/femmes-temps-partiel/",
+      "appUrl": "https://isora.info/#femmes-temps-partiel",
       "title": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
       "side": "femmes",
       "angle": "perception",
@@ -3101,6 +3357,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : femmes et hommes en emploi dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes et hommes en emploi dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "5 juillet 2026",
+      "legalType": "travail",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "5 juillet 2026",
       "source": {
@@ -3133,8 +3394,8 @@
     },
     {
       "id": "femmes-violences-conjugales",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-conjugales/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-conjugales",
+      "url": "https://isora.info/fiches/femmes-violences-conjugales/",
+      "appUrl": "https://isora.info/#femmes-violences-conjugales",
       "title": "Femmes majoritaires parmi les victimes conjugales enregistrées",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3154,6 +3415,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "violences",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -3167,8 +3433,8 @@
     },
     {
       "id": "femmes-perception-desavantage-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-perception-desavantage-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-perception-desavantage-hce-2025",
+      "url": "https://isora.info/fiches/femmes-perception-desavantage-hce-2025/",
+      "appUrl": "https://isora.info/#femmes-perception-desavantage-hce-2025",
       "title": "Perception du sexisme comme désavantage plus forte chez les femmes",
       "side": "femmes",
       "angle": "perception",
@@ -3189,6 +3455,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaisons hommes/femmes et par âge dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaisons hommes/femmes et par âge dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "baromètre d'opinion et perception des désavantages",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -3209,8 +3480,8 @@
     },
     {
       "id": "femmes-violences-sexuelles-transports-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-transports-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-transports-hce-2025",
+      "url": "https://isora.info/fiches/femmes-violences-sexuelles-transports-hce-2025/",
+      "appUrl": "https://isora.info/#femmes-violences-sexuelles-transports-hce-2025",
       "title": "Femmes très majoritaires parmi les victimes de violences sexuelles dans les transports",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3231,6 +3502,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : victimes de violences sexuelles dans les transports en commun enregistrées par la police et la gendarmerie, avec une répartition femmes/hommes disponible pour 2024. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : victimes de violences sexuelles dans les transports en commun enregistrées par la police et la gendarmerie, avec une répartition femmes/hommes disponible pour 2024. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 septembre 2026",
+      "legalType": "violences sexuelles enregistrées dans les transports",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 septembre 2026",
       "source": {
@@ -3257,8 +3533,8 @@
     },
     {
       "id": "femmes-sport-inegalites-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-sport-inegalites-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-sport-inegalites-hce-2025",
+      "url": "https://isora.info/fiches/femmes-sport-inegalites-hce-2025/",
+      "appUrl": "https://isora.info/#femmes-sport-inegalites-hce-2025",
       "title": "Sport : écarts de traitement, de revenus et de visibilité",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3279,6 +3555,11 @@
       "periodEnd": "2025",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : personnes interrogées sur le sport en France, femmes déclarant une expérience personnelle, données de rémunération de la branche sport et revenus internationaux du sport d'élite. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes interrogées sur le sport en France, femmes déclarant une expérience personnelle, données de rémunération de la branche sport et revenus internationaux du sport d'élite. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "sport, revenus et représentation",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -3299,8 +3580,8 @@
     },
     {
       "id": "femmes-cybersexisme-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-cybersexisme-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-cybersexisme-hce-2025",
+      "url": "https://isora.info/fiches/femmes-cybersexisme-hce-2025/",
+      "appUrl": "https://isora.info/#femmes-cybersexisme-hce-2025",
       "title": "Cybersexisme : victimes majoritairement féminines selon le HCE",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3321,6 +3602,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : victimes et répondants dans les données citées par le HCE sur le cybersexisme et la haine en ligne. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : victimes et répondants dans les données citées par le HCE sur le cybersexisme et la haine en ligne. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "cybersexisme et haine en ligne",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -3334,8 +3620,8 @@
     },
     {
       "id": "femmes-deepfakes-sexuels-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-deepfakes-sexuels-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-deepfakes-sexuels-hce-2025",
+      "url": "https://isora.info/fiches/femmes-deepfakes-sexuels-hce-2025/",
+      "appUrl": "https://isora.info/#femmes-deepfakes-sexuels-hce-2025",
       "title": "Deepfakes sexuels : contenus pornographiques visant surtout des femmes",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3356,6 +3642,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : personnes visées par des contenus de deepfake ou hypertrucage sexuel, et personnes protégées par le droit pénal français. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes visées par des contenus de deepfake ou hypertrucage sexuel, et personnes protégées par le droit pénal français. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "deepfakes sexuels et droit pénal",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -3376,8 +3667,8 @@
     },
     {
       "id": "femmes-inegalites-familiales-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-inegalites-familiales-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-inegalites-familiales-hce-2025",
+      "url": "https://isora.info/fiches/femmes-inegalites-familiales-hce-2025/",
+      "appUrl": "https://isora.info/#femmes-inegalites-familiales-hce-2025",
       "title": "Famille : traitement inégal déclaré plus souvent par les femmes",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3398,6 +3689,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec comparaisons femmes/hommes et items d'opinion. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025, avec comparaisons femmes/hommes et items d'opinion. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "baromètre d'opinion, famille et travail domestique",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -3418,8 +3714,8 @@
     },
     {
       "id": "femmes-vecu-situations-sexistes-hce-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-vecu-situations-sexistes-hce-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-vecu-situations-sexistes-hce-2025",
+      "url": "https://isora.info/fiches/femmes-vecu-situations-sexistes-hce-2025/",
+      "appUrl": "https://isora.info/#femmes-vecu-situations-sexistes-hce-2025",
       "title": "Expériences sexistes déclarées par une large majorité de femmes",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3440,6 +3736,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : femmes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes interrogées en France dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "situations sexistes déclarées et violences sexuelles",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -3460,8 +3761,8 @@
     },
     {
       "id": "femmes-assemblee-nationale-parite-2024",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-assemblee-nationale-parite-2024/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-assemblee-nationale-parite-2024",
+      "url": "https://isora.info/fiches/femmes-assemblee-nationale-parite-2024/",
+      "appUrl": "https://isora.info/#femmes-assemblee-nationale-parite-2024",
       "title": "Assemblée nationale : part des députées en recul en 2024",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3482,6 +3783,11 @@
       "periodEnd": "2024",
       "currentStatus": "en baisse",
       "sourcePopulation": "Population mesurée par la source : femmes et hommes élus à l'Assemblée nationale française. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes et hommes élus à l'Assemblée nationale française. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "21 juin 2026",
+      "legalType": "représentation politique",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "21 juin 2026",
       "source": {
@@ -3495,8 +3801,8 @@
     },
     {
       "id": "femmes-ingenierie",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-ingenierie/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-ingenierie",
+      "url": "https://isora.info/fiches/femmes-ingenierie/",
+      "appUrl": "https://isora.info/#femmes-ingenierie",
       "title": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
       "side": "femmes",
       "angle": "perception",
@@ -3516,6 +3822,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : femmes ingénieures et diplômées selon l'enquête IESF, filles et garçons dans les statistiques DEPP de réussite et d'orientation, et bénéficiaires de bourses sur critères sociaux. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes ingénieures et diplômées selon l'enquête IESF, filles et garçons dans les statistiques DEPP de réussite et d'orientation, et bénéficiaires de bourses sur critères sociaux. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "éducation",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -3548,8 +3859,8 @@
     },
     {
       "id": "femmes-separation-niveau-vie",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-separation-niveau-vie/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-separation-niveau-vie",
+      "url": "https://isora.info/fiches/femmes-separation-niveau-vie/",
+      "appUrl": "https://isora.info/#femmes-separation-niveau-vie",
       "title": "Niveau de vie des femmes plus touché après séparation",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3569,6 +3880,11 @@
       "periodEnd": "2020",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : femmes et hommes ayant connu une séparation entre 2014 et 2020, résidant en Occitanie l'année de la séparation et suivis dans l'échantillon démographique permanent de l'Insee. La source mesure le niveau de vie du ménage et les composantes du revenu disponible, pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes et hommes ayant connu une séparation entre 2014 et 2020, résidant en Occitanie l'année de la séparation et suivis dans l'échantillon démographique permanent de l'Insee. La source mesure le niveau de vie du ménage et les composantes du revenu disponible, pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "3 juillet 2026",
+      "legalType": "niveau de vie du ménage après séparation",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "3 juillet 2026",
       "source": {
@@ -3582,8 +3898,8 @@
     },
     {
       "id": "femmes-discrimination-religieuse",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-discrimination-religieuse/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-discrimination-religieuse",
+      "url": "https://isora.info/fiches/femmes-discrimination-religieuse/",
+      "appUrl": "https://isora.info/#femmes-discrimination-religieuse",
       "title": "Étude de cas : candidate voilée discriminée à l'embauche en 2025",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3603,6 +3919,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : candidate visée par une décision juridique liée au sexe et à la religion. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : candidate visée par une décision juridique liée au sexe et à la religion. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "religieux",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -3616,8 +3937,8 @@
     },
     {
       "id": "femmes-france-droit-vote-1944",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-france-droit-vote-1944/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-france-droit-vote-1944",
+      "url": "https://isora.info/fiches/femmes-france-droit-vote-1944/",
+      "appUrl": "https://isora.info/#femmes-france-droit-vote-1944",
       "title": "Femmes privées du droit de vote en France jusqu'en 1944",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3637,6 +3958,11 @@
       "periodEnd": "1945",
       "currentStatus": "historique",
       "sourcePopulation": "Population mesurée par la source : femmes dans l'histoire du droit français. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes dans l'histoire du droit français. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "droits politiques",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -3650,8 +3976,8 @@
     },
     {
       "id": "femmes-france-compte-bancaire-travail-1965",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-france-compte-bancaire-travail-1965/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-france-compte-bancaire-travail-1965",
+      "url": "https://isora.info/fiches/femmes-france-compte-bancaire-travail-1965/",
+      "appUrl": "https://isora.info/#femmes-france-compte-bancaire-travail-1965",
       "title": "Femmes mariées privées d'autonomie bancaire avant 1965",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3671,6 +3997,11 @@
       "periodEnd": "1965",
       "currentStatus": "historique",
       "sourcePopulation": "Population mesurée par la source : femmes mariées dans le droit civil français. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes mariées dans le droit civil français. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "droit civil et bancaire",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -3691,8 +4022,8 @@
     },
     {
       "id": "femmes-france-contraception-1967",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-france-contraception-1967/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-france-contraception-1967",
+      "url": "https://isora.info/fiches/femmes-france-contraception-1967/",
+      "appUrl": "https://isora.info/#femmes-france-contraception-1967",
       "title": "Accès à la contraception restreint avant la loi Neuwirth",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3714,6 +4045,11 @@
       "periodEnd": "1967",
       "currentStatus": "historique",
       "sourcePopulation": "Population mesurée par les sources : personnes concernées par le droit français de la contraception et de la régulation des naissances, avec conséquences corporelles et sociales principalement documentées côté femmes. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes concernées par le droit français de la contraception et de la régulation des naissances, avec conséquences corporelles et sociales principalement documentées côté femmes. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "santé reproductive",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -3740,8 +4076,8 @@
     },
     {
       "id": "femmes-france-ivg-1975-1979",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-france-ivg-1975-1979/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-france-ivg-1975-1979",
+      "url": "https://isora.info/fiches/femmes-france-ivg-1975-1979/",
+      "appUrl": "https://isora.info/#femmes-france-ivg-1975-1979",
       "title": "IVG pénalisée en France avant la loi Veil",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3761,6 +4097,11 @@
       "periodEnd": "1979",
       "currentStatus": "historique",
       "sourcePopulation": "Population mesurée par la source : femmes concernées par le droit à l'IVG en France. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes concernées par le droit à l'IVG en France. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé reproductive",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -3774,8 +4115,8 @@
     },
     {
       "id": "femmes-violences-physiques-sexuelles-monde",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-physiques-sexuelles-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-physiques-sexuelles-monde",
+      "url": "https://isora.info/fiches/femmes-violences-physiques-sexuelles-monde/",
+      "appUrl": "https://isora.info/#femmes-violences-physiques-sexuelles-monde",
       "title": "Femmes exposées aux violences conjugales physiques ou sexuelles",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3795,6 +4136,11 @@
       "periodEnd": "2023",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes et filles âgées de 15 ans ou plus dans les enquêtes de population de l'OMS sur les violences physiques ou sexuelles du partenaire intime et les violences sexuelles hors couple. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes et filles âgées de 15 ans ou plus dans les enquêtes de population de l'OMS sur les violences physiques ou sexuelles du partenaire intime et les violences sexuelles hors couple. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "20 septembre 2026",
+      "legalType": "violences conjugales et sexuelles",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "20 septembre 2026",
       "source": {
@@ -3845,8 +4191,8 @@
     },
     {
       "id": "femmes-prison-victimisation-sexuelle-etats-unis",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-prison-victimisation-sexuelle-etats-unis/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-prison-victimisation-sexuelle-etats-unis",
+      "url": "https://isora.info/fiches/femmes-prison-victimisation-sexuelle-etats-unis/",
+      "appUrl": "https://isora.info/#femmes-prison-victimisation-sexuelle-etats-unis",
       "title": "Détenues plus exposées à la victimisation sexuelle en prison",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3866,6 +4212,11 @@
       "periodEnd": "2024",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "victimisation sexuelle en détention",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -3886,8 +4237,8 @@
     },
     {
       "id": "femmes-feminicides-monde-2024",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-feminicides-monde-2024/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-feminicides-monde-2024",
+      "url": "https://isora.info/fiches/femmes-feminicides-monde-2024/",
+      "appUrl": "https://isora.info/#femmes-feminicides-monde-2024",
       "title": "Femmes et filles tuées par des proches ou partenaires",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3907,6 +4258,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "violences",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -3920,8 +4276,8 @@
     },
     {
       "id": "femmes-violences-sexuelles-conflits",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-conflits/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-conflits",
+      "url": "https://isora.info/fiches/femmes-violences-sexuelles-conflits/",
+      "appUrl": "https://isora.info/#femmes-violences-sexuelles-conflits",
       "title": "Femmes et filles visées par les violences sexuelles liées aux conflits",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -3944,6 +4300,11 @@
       "periodEnd": "2026",
       "currentStatus": "lié à une crise",
       "sourcePopulation": "Population mesurée par les sources : cas vérifiés de violences sexuelles liées aux conflits, victimes civiles par sexe dans les rapports ONU, et cas documentés par l'UE ou Amnesty dans certains conflits. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : cas vérifiés de violences sexuelles liées aux conflits, victimes civiles par sexe dans les rapports ONU, et cas documentés par l'UE ou Amnesty dans certains conflits. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "violences sexuelles liées aux conflits",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -3982,8 +4343,8 @@
     },
     {
       "id": "femmes-homicides-mineurs-condamnations",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-homicides-mineurs-condamnations/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations",
+      "url": "https://isora.info/fiches/femmes-homicides-mineurs-condamnations/",
+      "appUrl": "https://isora.info/#femmes-homicides-mineurs-condamnations",
       "title": "Entre 1996 et 2015, femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur",
       "side": "femmes",
       "angle": "violence_exercée",
@@ -4003,6 +4364,11 @@
       "periodEnd": "2015",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par la source : femmes et hommes condamnés par la Justice française pour homicide volontaire sur mineur de moins de 15 ans. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes et hommes condamnés par la Justice française pour homicide volontaire sur mineur de moins de 15 ans. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "homicide volontaire sur mineur de moins de 15 ans",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -4029,8 +4395,8 @@
     },
     {
       "id": "femmes-violences-sexuelles-enfance",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-enfance/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-violences-sexuelles-enfance",
+      "url": "https://isora.info/fiches/femmes-violences-sexuelles-enfance/",
+      "appUrl": "https://isora.info/#femmes-violences-sexuelles-enfance",
       "title": "Filles victimes de violences sexuelles avant 18 ans",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4050,6 +4416,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "violences",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4063,8 +4434,8 @@
     },
     {
       "id": "femmes-mariage-enfants",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-mariage-enfants/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-mariage-enfants",
+      "url": "https://isora.info/fiches/femmes-mariage-enfants/",
+      "appUrl": "https://isora.info/#femmes-mariage-enfants",
       "title": "Filles mariées pendant l'enfance",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4084,6 +4455,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : girls and women / filles et femmes mariées pendant l'enfance. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : girls and women / filles et femmes mariées pendant l'enfance. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "droits",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4097,8 +4473,8 @@
     },
     {
       "id": "femmes-pression-virginite-avant-mariage",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-pression-virginite-avant-mariage/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-pression-virginite-avant-mariage",
+      "url": "https://isora.info/fiches/femmes-pression-virginite-avant-mariage/",
+      "appUrl": "https://isora.info/#femmes-pression-virginite-avant-mariage",
       "title": "Femmes ciblées par la norme de virginité avant mariage",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4119,6 +4495,11 @@
       "periodEnd": "2023",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : girls and women / filles et femmes visées par les attentes sociales et pratiques de contrôle liées à la virginité, ainsi qu'adultes interrogés sur les doubles standards sexuels dans certaines enquêtes. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : girls and women / filles et femmes visées par les attentes sociales et pratiques de contrôle liées à la virginité, ainsi qu'adultes interrogés sur les doubles standards sexuels dans certaines enquêtes. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "autonomie corporelle et normes sexuelles",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -4145,8 +4526,8 @@
     },
     {
       "id": "hommes-femmes-body-count-double-standard",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-body-count-double-standard/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-body-count-double-standard",
+      "url": "https://isora.info/fiches/hommes-femmes-body-count-double-standard/",
+      "appUrl": "https://isora.info/#hommes-femmes-body-count-double-standard",
       "title": "Nombre de partenaires sexuels passés : résultats variables selon les études",
       "side": "femmes",
       "angle": "perception",
@@ -4169,6 +4550,11 @@
       "periodEnd": "2025",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : participants femmes et hommes à des études sur l'évaluation d'historiques sexuels masculins et féminins, ainsi que corpus de 99 études sur les doubles standards sexuels. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : participants femmes et hommes à des études sur l'évaluation d'historiques sexuels masculins et féminins, ainsi que corpus de 99 études sur les doubles standards sexuels. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "normes sexuelles et réputation",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -4201,8 +4587,8 @@
     },
     {
       "id": "hommes-femmes-peurs-consentement-sexuel",
-      "url": "https://isora-xi.vercel.app/fiches/hommes-femmes-peurs-consentement-sexuel/",
-      "appUrl": "https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel",
+      "url": "https://isora.info/fiches/hommes-femmes-peurs-consentement-sexuel/",
+      "appUrl": "https://isora.info/#hommes-femmes-peurs-consentement-sexuel",
       "title": "Classement, fausse plainte et culpabilité : trois notions distinctes",
       "side": "hommes",
       "angle": "perception",
@@ -4226,6 +4612,11 @@
       "periodEnd": "2024",
       "currentStatus": "actuel",
       "sourcePopulation": "Matériau mesuré par les sources : personnes impliquées dans les affaires de viol et d'agression sexuelle traitées par la justice française, règles françaises de preuve et de présomption d'innocence, ainsi que deux études de contexte sur les fausses allégations aux États-Unis et au Royaume-Uni. Ces sources ne permettent pas de calculer un taux général de plaintes mensongères en France et ne mesurent pas les chromosomes.",
+      "libelle_source": "Matériau mesuré par les sources : personnes impliquées dans les affaires de viol et d'agression sexuelle traitées par la justice française, règles françaises de preuve et de présomption d'innocence, ainsi que deux études de contexte sur les fausses allégations aux États-Unis et au Royaume-Uni. Ces sources ne permettent pas de calculer un taux général de plaintes mensongères en France et ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "preuve pénale, classements et fausses allégations",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -4264,8 +4655,8 @@
     },
     {
       "id": "femmes-mutilations-genitales",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-mutilations-genitales/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-mutilations-genitales",
+      "url": "https://isora.info/fiches/femmes-mutilations-genitales/",
+      "appUrl": "https://isora.info/#femmes-mutilations-genitales",
       "title": "Filles et femmes victimes de mutilations génitales",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4285,6 +4676,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : girls and women / filles et femmes ayant subi une MGF. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : girls and women / filles et femmes ayant subi une MGF. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "autonomie",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4298,8 +4694,8 @@
     },
     {
       "id": "femmes-preference-garcons",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-preference-garcons/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-preference-garcons",
+      "url": "https://isora.info/fiches/femmes-preference-garcons/",
+      "appUrl": "https://isora.info/#femmes-preference-garcons",
       "title": "Filles manquantes liées à la préférence pour les fils",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4319,6 +4715,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : missing girls / filles manquantes dans les estimations démographiques. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "droits",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4332,8 +4733,8 @@
     },
     {
       "id": "femmes-afghanistan-education",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-afghanistan-education/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-afghanistan-education",
+      "url": "https://isora.info/fiches/femmes-afghanistan-education/",
+      "appUrl": "https://isora.info/#femmes-afghanistan-education",
       "title": "Adolescentes privées d'enseignement secondaire en Afghanistan",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4354,6 +4755,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : adolescent girls / adolescentes en Afghanistan. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : adolescent girls / adolescentes en Afghanistan. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "éducation",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -4374,8 +4780,8 @@
     },
     {
       "id": "femmes-mortalite-maternelle",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-mortalite-maternelle/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-mortalite-maternelle",
+      "url": "https://isora.info/fiches/femmes-mortalite-maternelle/",
+      "appUrl": "https://isora.info/#femmes-mortalite-maternelle",
       "title": "Femmes mortes de causes maternelles évitables",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4395,6 +4801,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women mortes pendant ou après grossesse/accouchement. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women mortes pendant ou après grossesse/accouchement. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4408,8 +4819,8 @@
     },
     {
       "id": "femmes-contraception-besoins-non-couverts",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-contraception-besoins-non-couverts/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-contraception-besoins-non-couverts",
+      "url": "https://isora.info/fiches/femmes-contraception-besoins-non-couverts/",
+      "appUrl": "https://isora.info/#femmes-contraception-besoins-non-couverts",
       "title": "Femmes sans contraception moderne malgré un besoin",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4429,6 +4840,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women and adolescent girls / femmes et adolescentes. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women and adolescent girls / femmes et adolescentes. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4442,8 +4858,8 @@
     },
     {
       "id": "femmes-iran-hijab-obligatoire",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-iran-hijab-obligatoire/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-iran-hijab-obligatoire",
+      "url": "https://isora.info/fiches/femmes-iran-hijab-obligatoire/",
+      "appUrl": "https://isora.info/#femmes-iran-hijab-obligatoire",
       "title": "Femmes et filles soumises au hijab obligatoire en Iran",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4464,6 +4880,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women and girls / femmes et filles en Iran. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women and girls / femmes et filles en Iran. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "contrôle vestimentaire",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -4484,8 +4905,8 @@
     },
     {
       "id": "femmes-afghanistan-taliban-restrictions",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-afghanistan-taliban-restrictions/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-afghanistan-taliban-restrictions",
+      "url": "https://isora.info/fiches/femmes-afghanistan-taliban-restrictions/",
+      "appUrl": "https://isora.info/#femmes-afghanistan-taliban-restrictions",
       "title": "Femmes afghanes exclues de pans entiers de la vie publique",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4506,6 +4927,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : women and girls / femmes et filles sous autorité talibane. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : women and girls / femmes et filles sous autorité talibane. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "contrôle vestimentaire et mobilité",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -4526,8 +4952,8 @@
     },
     {
       "id": "femmes-arabie-saoudite-reformes-tutelle",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-arabie-saoudite-reformes-tutelle/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-arabie-saoudite-reformes-tutelle",
+      "url": "https://isora.info/fiches/femmes-arabie-saoudite-reformes-tutelle/",
+      "appUrl": "https://isora.info/#femmes-arabie-saoudite-reformes-tutelle",
       "title": "Saoudiennes encore touchées par des restrictions de tutelle",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4548,6 +4974,11 @@
       "periodEnd": null,
       "currentStatus": "partiellement réformé",
       "sourcePopulation": "Population mesurée par les sources : Saudi women / femmes en Arabie saoudite. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : Saudi women / femmes en Arabie saoudite. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "tutelle et mobilité",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -4580,8 +5011,8 @@
     },
     {
       "id": "femmes-etats-unis-dobbs-avortement",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-etats-unis-dobbs-avortement/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-etats-unis-dobbs-avortement",
+      "url": "https://isora.info/fiches/femmes-etats-unis-dobbs-avortement/",
+      "appUrl": "https://isora.info/#femmes-etats-unis-dobbs-avortement",
       "title": "Américaines face à un accès à l'avortement très variable",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4601,6 +5032,11 @@
       "periodEnd": null,
       "currentStatus": "variable selon pays",
       "sourcePopulation": "Population mesurée par les sources : women / personnes cherchant un avortement selon les catégories juridiques. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : women / personnes cherchant un avortement selon les catégories juridiques. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé reproductive",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4621,8 +5057,8 @@
     },
     {
       "id": "femmes-canada-sterilisations-sans-consentement-autochtones",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-canada-sterilisations-sans-consentement-autochtones/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-canada-sterilisations-sans-consentement-autochtones",
+      "url": "https://isora.info/fiches/femmes-canada-sterilisations-sans-consentement-autochtones/",
+      "appUrl": "https://isora.info/#femmes-canada-sterilisations-sans-consentement-autochtones",
       "title": "Femmes autochtones au Canada visées par des stérilisations sans consentement",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4643,6 +5079,11 @@
       "periodEnd": "2025",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : personnes ayant subi ou allégué une stérilisation forcée ou contrainte au Canada, avec un accent particulier sur les femmes autochtones dans les témoignages, les litiges et les travaux parlementaires. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes ayant subi ou allégué une stérilisation forcée ou contrainte au Canada, avec un accent particulier sur les femmes autochtones dans les témoignages, les litiges et les travaux parlementaires. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "25 juin 2026",
+      "legalType": "consentement médical et santé reproductive",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "25 juin 2026",
       "source": {
@@ -4669,8 +5110,8 @@
     },
     {
       "id": "femmes-avortement-non-securise",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-avortement-non-securise/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-avortement-non-securise",
+      "url": "https://isora.info/fiches/femmes-avortement-non-securise/",
+      "appUrl": "https://isora.info/#femmes-avortement-non-securise",
       "title": "Décès liés aux avortements non sécurisés",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4690,6 +5131,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women and girls dans la fiche OMS. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women and girls dans la fiche OMS. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4703,8 +5149,8 @@
     },
     {
       "id": "femmes-regles-cout-douleurs-ecole-sport",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-regles-cout-douleurs-ecole-sport/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-regles-cout-douleurs-ecole-sport",
+      "url": "https://isora.info/fiches/femmes-regles-cout-douleurs-ecole-sport/",
+      "appUrl": "https://isora.info/#femmes-regles-cout-douleurs-ecole-sport",
       "title": "Règles : coût, douleurs et adaptations scolaires ou sportives",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4727,6 +5173,11 @@
       "periodEnd": "2026",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes et filles ou personnes menstruées dans des estimations de coût, de douleurs menstruelles, de protections périodiques et de participation à l'activité physique. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes et filles ou personnes menstruées dans des estimations de coût, de douleurs menstruelles, de protections périodiques et de participation à l'activité physique. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "santé menstruelle, éducation et sport",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "11 août 2026",
       "source": {
@@ -4771,8 +5222,8 @@
     },
     {
       "id": "femmes-endometriose",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-endometriose/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-endometriose",
+      "url": "https://isora.info/fiches/femmes-endometriose/",
+      "appUrl": "https://isora.info/#femmes-endometriose",
       "title": "Femmes et filles massivement touchées par l'endométriose",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4792,6 +5243,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women and girls of reproductive age / femmes et filles en âge de procréer. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "santé",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4805,8 +5261,8 @@
     },
     {
       "id": "femmes-arret-cardiaque-defibrillation-temoins",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-arret-cardiaque-defibrillation-temoins/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-arret-cardiaque-defibrillation-temoins",
+      "url": "https://isora.info/fiches/femmes-arret-cardiaque-defibrillation-temoins/",
+      "appUrl": "https://isora.info/#femmes-arret-cardiaque-defibrillation-temoins",
       "title": "Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4828,6 +5284,11 @@
       "periodEnd": "2025",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes et hommes victimes d'un arrêt cardiaque extrahospitalier dans quinze cohortes internationales, et personnes interrogées aux États-Unis sur leurs perceptions des obstacles à la réanimation. Les catégories femmes/hommes proviennent des études; les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes et hommes victimes d'un arrêt cardiaque extrahospitalier dans quinze cohortes internationales, et personnes interrogées aux États-Unis sur leurs perceptions des obstacles à la réanimation. Les catégories femmes/hommes proviennent des études; les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "secours d'urgence, réanimation et défibrillation",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -4854,8 +5315,8 @@
     },
     {
       "id": "femmes-risque-blessure-choc-routier",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-risque-blessure-choc-routier/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-risque-blessure-choc-routier",
+      "url": "https://isora.info/fiches/femmes-risque-blessure-choc-routier/",
+      "appUrl": "https://isora.info/#femmes-risque-blessure-choc-routier",
       "title": "À choc routier comparable, certains risques de blessure restent plus élevés pour les femmes",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4877,6 +5338,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : conductrices et conducteurs impliqués dans des collisions routières américaines comparables, selon 150 modèles de risque de blessure. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "sécurité routière et risque de blessure",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -4897,8 +5363,8 @@
     },
     {
       "id": "femmes-menopause-soins",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-menopause-soins/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-menopause-soins",
+      "url": "https://isora.info/fiches/femmes-menopause-soins/",
+      "appUrl": "https://isora.info/#femmes-menopause-soins",
       "title": "Information et accès aux soins liés à la ménopause encore insuffisants",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4919,6 +5385,11 @@
       "periodEnd": "2025",
       "currentStatus": "persistant",
       "sourcePopulation": "Population mesurée par les sources : femmes concernées par la ménopause et par son information ou sa prise en charge. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes concernées par la ménopause et par son information ou sa prise en charge. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "accès aux soins et prévention",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {
@@ -4932,8 +5403,8 @@
     },
     {
       "id": "femmes-soin-non-remunere-emploi",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-soin-non-remunere-emploi/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-soin-non-remunere-emploi",
+      "url": "https://isora.info/fiches/femmes-soin-non-remunere-emploi/",
+      "appUrl": "https://isora.info/#femmes-soin-non-remunere-emploi",
       "title": "Femmes tenues hors de l'emploi par le soin non rémunéré",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4953,6 +5424,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women / men âgés de 15 ans ou plus hors force de travail pour raisons de soin. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women / men âgés de 15 ans ou plus hors force de travail pour raisons de soin. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "travail",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -4966,8 +5442,8 @@
     },
     {
       "id": "femmes-charge-domestique-soin",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-charge-domestique-soin/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-charge-domestique-soin",
+      "url": "https://isora.info/fiches/femmes-charge-domestique-soin/",
+      "appUrl": "https://isora.info/#femmes-charge-domestique-soin",
       "title": "Femmes assumant beaucoup plus de soin non rémunéré",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -4987,6 +5463,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women and girls / men and boys dans les données ONU Femmes. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women and girls / men and boys dans les données ONU Femmes. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "famille",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -5000,8 +5481,8 @@
     },
     {
       "id": "femmes-droits-economiques-monde",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-droits-economiques-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-droits-economiques-monde",
+      "url": "https://isora.info/fiches/femmes-droits-economiques-monde/",
+      "appUrl": "https://isora.info/#femmes-droits-economiques-monde",
       "title": "Femmes privées d'une égalité complète de droits économiques",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5021,6 +5502,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women / men dans les indicateurs juridiques Women, Business and the Law. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women / men dans les indicateurs juridiques Women, Business and the Law. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "7 juillet 2026",
+      "legalType": "droits",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "7 juillet 2026",
       "source": {
@@ -5041,8 +5527,8 @@
     },
     {
       "id": "femmes-representation-politique-monde",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-representation-politique-monde/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-representation-politique-monde",
+      "url": "https://isora.info/fiches/femmes-representation-politique-monde/",
+      "appUrl": "https://isora.info/#femmes-representation-politique-monde",
       "title": "Femmes sous-représentées dans le pouvoir politique mondial",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5062,6 +5548,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women / femmes en responsabilités politiques. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women / femmes en responsabilités politiques. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "droits",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -5075,8 +5566,8 @@
     },
     {
       "id": "femmes-dirigeantes-paix-essentialisme",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-dirigeantes-paix-essentialisme/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-dirigeantes-paix-essentialisme",
+      "url": "https://isora.info/fiches/femmes-dirigeantes-paix-essentialisme/",
+      "appUrl": "https://isora.info/#femmes-dirigeantes-paix-essentialisme",
       "title": "Dirigeantes femmes : le pouvoir n'implique pas automatiquement la paix",
       "side": "femmes",
       "angle": "perception",
@@ -5096,6 +5587,11 @@
       "periodEnd": "1913",
       "currentStatus": "historique",
       "sourcePopulation": "Population mesurée par les sources : reines et femmes dirigeantes dans des travaux historiques et des exemples biographiques. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : reines et femmes dirigeantes dans des travaux historiques et des exemples biographiques. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "leadership politique et guerre",
+      "translationStatus": "source-language",
       "confidence": "moyenne",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -5128,8 +5624,8 @@
     },
     {
       "id": "femmes-troubles-anxieux-monde-2021",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-troubles-anxieux-monde-2021/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-troubles-anxieux-monde-2021",
+      "url": "https://isora.info/fiches/femmes-troubles-anxieux-monde-2021/",
+      "appUrl": "https://isora.info/#femmes-troubles-anxieux-monde-2021",
       "title": "Femmes majoritaires parmi les personnes vivant avec un trouble anxieux",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5150,6 +5646,11 @@
       "periodEnd": "2021",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes dans le monde estimées vivre avec un trouble anxieux en 2021, classées comme de sexe féminin ou masculin dans les données sous-jacentes. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes dans le monde estimées vivre avec un trouble anxieux en 2021, classées comme de sexe féminin ou masculin dans les données sous-jacentes. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 septembre 2026",
+      "legalType": "santé mentale et troubles anxieux",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 septembre 2026",
       "source": {
@@ -5176,8 +5677,8 @@
     },
     {
       "id": "femmes-medecins-liberaux-revenu-france-2021",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-medecins-liberaux-revenu-france-2021/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-medecins-liberaux-revenu-france-2021",
+      "url": "https://isora.info/fiches/femmes-medecins-liberaux-revenu-france-2021/",
+      "appUrl": "https://isora.info/#femmes-medecins-liberaux-revenu-france-2021",
       "title": "Revenu d'activité moyen plus faible pour les femmes médecins libérales",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5199,6 +5700,11 @@
       "periodEnd": "2021",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : médecins de 70 ans ou moins ayant une activité libérale en France métropolitaine ou dans les DROM, actifs fin 2021, avec des honoraires et un revenu libéral positifs ; les remplaçants et les médecins ayant commencé leur activité libérale dans l'année sont exclus. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : médecins de 70 ans ou moins ayant une activité libérale en France métropolitaine ou dans les DROM, actifs fin 2021, avec des honoraires et un revenu libéral positifs ; les remplaçants et les médecins ayant commencé leur activité libérale dans l'année sont exclus. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "17 septembre 2026",
+      "legalType": "revenus d'activité des médecins libéraux",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "17 septembre 2026",
       "source": {
@@ -5231,8 +5737,8 @@
     },
     {
       "id": "femmes-limitations-activite-union-europeenne-2025",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-limitations-activite-union-europeenne-2025/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-limitations-activite-union-europeenne-2025",
+      "url": "https://isora.info/fiches/femmes-limitations-activite-union-europeenne-2025/",
+      "appUrl": "https://isora.info/#femmes-limitations-activite-union-europeenne-2025",
       "title": "Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5253,6 +5759,11 @@
       "periodEnd": "2025",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : personnes âgées de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC en 2025, classées comme femmes ou hommes par la statistique Eurostat. Les personnes en institution ne sont généralement pas couvertes et la source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes âgées de 16 ans ou plus vivant en ménage privé dans le champ EU-SILC en 2025, classées comme femmes ou hommes par la statistique Eurostat. Les personnes en institution ne sont généralement pas couvertes et la source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "17 septembre 2026",
+      "legalType": "santé déclarée et limitations durables d'activité",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "17 septembre 2026",
       "source": {
@@ -5285,8 +5796,8 @@
     },
     {
       "id": "femmes-personnel-sante-ecart-remuneration-region-europe-2026",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-personnel-sante-ecart-remuneration-region-europe-2026/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-personnel-sante-ecart-remuneration-region-europe-2026",
+      "url": "https://isora.info/fiches/femmes-personnel-sante-ecart-remuneration-region-europe-2026/",
+      "appUrl": "https://isora.info/#femmes-personnel-sante-ecart-remuneration-region-europe-2026",
       "title": "Rémunération moyenne plus faible pour les femmes du secteur de la santé et de l'aide sociale",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5308,6 +5819,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par les sources : personnes salariées de la santé et de l'aide sociale couvertes par des enquêtes nationales représentatives sur la population active ou les ménages dans 43 États membres de la région européenne de l'OMS disposant de données suffisantes. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : personnes salariées de la santé et de l'aide sociale couvertes par des enquêtes nationales représentatives sur la population active ou les ménages dans 43 États membres de la région européenne de l'OMS disposant de données suffisantes. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "18 septembre 2026",
+      "legalType": "rémunération du travail salarié dans la santé et l'aide sociale",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "18 septembre 2026",
       "source": {
@@ -5340,8 +5856,8 @@
     },
     {
       "id": "femmes-espaces-non-mixtes-sexe",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-espaces-non-mixtes-sexe/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-espaces-non-mixtes-sexe",
+      "url": "https://isora.info/fiches/femmes-espaces-non-mixtes-sexe/",
+      "appUrl": "https://isora.info/#femmes-espaces-non-mixtes-sexe",
       "title": "Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5361,6 +5877,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : femmes, hommes et personnes trans dans le cadre juridique britannique sur les services séparés ou non mixtes. La source raisonne en sexe légal/biologique au sens de l'Equality Act, pas par test chromosomique individuel.",
+      "libelle_source": "Population mesurée par la source : femmes, hommes et personnes trans dans le cadre juridique britannique sur les services séparés ou non mixtes. La source raisonne en sexe légal/biologique au sens de l'Equality Act, pas par test chromosomique individuel.",
+      "mesure_chromosomes": false,
+      "date_consultation": "16 juin 2026",
+      "legalType": "services séparés ou non mixtes fondés sur le sexe",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "16 juin 2026",
       "source": {
@@ -5381,8 +5902,8 @@
     },
     {
       "id": "femmes-traite-humaine",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-traite-humaine/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-traite-humaine",
+      "url": "https://isora.info/fiches/femmes-traite-humaine/",
+      "appUrl": "https://isora.info/#femmes-traite-humaine",
       "title": "Femmes et filles majoritaires parmi les victimes de traite détectées",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5402,6 +5923,11 @@
       "periodEnd": null,
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women and girls / femmes et filles parmi les victimes détectées. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women and girls / femmes et filles parmi les victimes détectées. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 juin 2026",
+      "legalType": "violences",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "15 juin 2026",
       "source": {
@@ -5415,8 +5941,8 @@
     },
     {
       "id": "femmes-violence-numerique",
-      "url": "https://isora-xi.vercel.app/fiches/femmes-violence-numerique/",
-      "appUrl": "https://isora-xi.vercel.app/#femmes-violence-numerique",
+      "url": "https://isora.info/fiches/femmes-violence-numerique/",
+      "appUrl": "https://isora.info/#femmes-violence-numerique",
       "title": "Femmes visées par les violences facilitées par la technologie",
       "side": "femmes",
       "angle": "désavantage_subi",
@@ -5436,6 +5962,11 @@
       "periodEnd": "2026",
       "currentStatus": "actuel",
       "sourcePopulation": "Population mesurée par la source : women / femmes dans des études aux méthodes variables. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : women / femmes dans des études aux méthodes variables. La source ne mesure pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "11 août 2026",
+      "legalType": "cyberharcèlement et violences sexuelles en ligne",
+      "translationStatus": "source-language",
       "confidence": "forte",
       "lastChecked": "11 août 2026",
       "source": {

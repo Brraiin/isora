@@ -36,6 +36,7 @@ export function renderBrandLink() {
 
 export function renderTopNav() {
   return `<nav class="nav" aria-label="Navigation">
+          <a href="/fiches/">Fiches</a>
           <a href="/lexique/">
             <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M13.17 2a2 2 0 0 1 1.42.59l6.7 6.7a2.4 2.4 0 0 1 0 3.42l-4.58 4.58a2.4 2.4 0 0 1-3.42 0l-6.7-6.7A2 2 0 0 1 6 9.17V3a1 1 0 0 1 1-1z" />
@@ -54,6 +55,7 @@ export function renderTopNav() {
             </svg>
             Articles
           </a>
+          <a href="/methode/">Méthode</a>
         </nav>`;
 }
 

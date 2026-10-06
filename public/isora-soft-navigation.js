@@ -8,7 +8,7 @@
   var parser = new DOMParser();
   var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   var navigating = false;
-  var allowedPathPattern = /^\/(?:blog|fiches|lexique)(?:\/|$)/;
+  var allowedPathPattern = /^\/(?:blog|fiches|lexique|methode)(?:\/|$)/;
   var assetPathPattern = /\.(?:css|js|json|xml|txt|pdf|png|jpe?g|webp|gif|svg|ico|webmanifest|rss)$/i;
 
   if ("scrollRestoration" in window.history) {

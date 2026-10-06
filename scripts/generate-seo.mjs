@@ -10,9 +10,12 @@ import {
   renderBlogAssets,
   renderBlogSummaryForLlms,
   renderSitemapEntries,
+  slugify,
 } from "./blog-utils.mjs";
 import { renderFaviconLinks } from "./favicon-links.mjs";
 import { renderStaticHeader, renderStaticHeaderCss } from "./static-header.mjs";
+import { SITE_URL, getClaimModifiedDate, latestEditorialDate } from "./seo-utils.mjs";
+import { renderEditorialMethodHtml } from "./editorial-method.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -20,6 +23,9 @@ const publicDir = join(root, "public");
 const publicWellKnownDir = join(publicDir, ".well-known");
 const publicClaimsDir = join(publicDir, "fiches");
 const publicLexiconDir = join(publicDir, "lexique");
+const publicMethodDir = join(publicDir, "methode");
+const indexFile = join(root, "index.html");
+const siteMetadataFile = join(root, "src", "data", "site-metadata.ts");
 const sourceFile = join(root, "src", "data", "claims.ts");
 const lexiconFile = join(root, "src", "data", "lexicon.ts");
 const homeBlogUpdatesFile = join(root, "src", "data", "blog-updates.ts");
@@ -27,10 +33,14 @@ const manualClaimUpdatesFile = join(root, "src", "data", "manual-claim-updates.j
 const logoFile = join(root, "src", "assets", "isora.svg");
 const tempFile = join(root, "node_modules", ".cache", "isora-claims.mjs");
 const lexiconTempFile = join(root, "node_modules", ".cache", "isora-lexicon.mjs");
-const siteUrl = "https://isora-xi.vercel.app";
-const generatedDate = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Paris" });
-const generatedAt = `${generatedDate}T00:00:00+02:00`;
+const siteUrl = SITE_URL;
+const generatedAt = new Date().toISOString();
+// Advance only when the public templates or methodology change, never on every build.
+const seoReleaseDate = "2026-10-06";
 const blogConfig = await loadBlogConfig();
+if (blogConfig.siteUrl !== siteUrl) {
+  throw new Error(`Le domaine du blog doit correspondre au domaine public ${siteUrl}.`);
+}
 const blogPosts = await loadBlogPosts();
 const manualClaimUpdates = JSON.parse(await readFile(manualClaimUpdatesFile, "utf8"));
 
@@ -347,6 +357,7 @@ function buildDataset(locale) {
       ? "isora - documented sex-based asymmetries reference dataset"
       : "isora - référentiel des asymétries documentées selon le sexe",
     url: siteUrl,
+    methodUrl: `${siteUrl}/methode/`,
     generatedAt,
     language: isEnglish ? "en" : "fr",
     sourceLanguage: "fr",
@@ -410,6 +421,11 @@ function buildDataset(locale) {
         periodEnd: claim.periodEnd,
         currentStatus: claim.currentStatus,
         sourcePopulation: translation.sourcePopulation ?? claim.sourcePopulation,
+        libelle_source: claim.libelle_source,
+        mesure_chromosomes: claim.mesure_chromosomes,
+        date_consultation: claim.date_consultation,
+        legalType: claim.legalType,
+        translationStatus: isEnglish ? (translation.title ? "reviewed" : "source-language-fallback") : "source-language",
         originalSourcePopulation: isEnglish ? claim.sourcePopulation : undefined,
         confidence: claim.confidence,
         lastChecked: claim.lastChecked,
@@ -516,6 +532,7 @@ Canonical URL: ${siteUrl}/
 JSON dataset: ${siteUrl}/${datasetPath}
 Static HTML claim index: ${siteUrl}/fiches/
 Lexicon: ${siteUrl}/lexique/
+Editorial method: ${siteUrl}/methode/
 French AI guide: ${siteUrl}/llms.txt
 Last generation: ${generatedAt}
 
@@ -555,6 +572,7 @@ URL canonique: ${siteUrl}/
 Dataset JSON: ${siteUrl}/${datasetPath}
 Index HTML des fiches: ${siteUrl}/fiches/
 Lexique: ${siteUrl}/lexique/
+Methode editoriale: ${siteUrl}/methode/
 Version anglaise: ${siteUrl}/llms-en.txt
 Derniere generation: ${generatedAt}
 
@@ -631,7 +649,7 @@ function renderClaimCss() {
     .index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding: 34px 0 64px; }
     .claim-card { display: grid; gap: 10px; text-decoration: none; color: inherit; }
     .claim-card:hover { border-color: #1455a3; }
-    .claim-card h2 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
+    .claim-card h2, .claim-card h3 { margin: 0; font-size: 1.2rem; line-height: 1.28; }
     .claim-card p { margin: 0; color: #555; line-height: 1.58; }
     .claim-card-action { justify-self: start; font-weight: 850; }
     .lexicon-term { position: relative; color: #1455a3; font-weight: 800; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
@@ -698,6 +716,20 @@ function getClaimPeriod(claim) {
   return `${claim.periodStart}${claim.periodEnd ? `-${claim.periodEnd}` : "+"}`;
 }
 
+function getClaimPageModifiedDate(claim) {
+  return latestEditorialDate(seoReleaseDate, getClaimModifiedDate(claim, claimUpdatesById.get(claim.id)));
+}
+
+function renderClaimRelatedArticles(claim) {
+  const posts = blogPosts.filter((post) => post.relatedClaimIds.includes(claim.id));
+  if (posts.length === 0) return "";
+  return `<section class="section" aria-labelledby="articles-associes">
+          <h2 id="articles-associes">Articles associés</h2>
+          <ul class="source-list">${posts.map((post) => `<li><a href="/blog/${htmlEscape(post.slug)}/">${htmlEscape(post.title)}</a><br /><span class="source-meta">${htmlEscape(post.date)}</span></li>`).join("")}</ul>
+          <p>Ces synthèses apportent du contexte. Leur publication ne signifie pas que toute la fiche a été révisée.</p>
+        </section>`;
+}
+
 function renderClaimHtml(claim) {
   const claimUrl = `${siteUrl}/fiches/${slugPath(claim.id)}/`;
   const appUrl = `${siteUrl}/#${encodeURIComponent(claim.id)}`;
@@ -725,7 +757,7 @@ function renderClaimHtml(claim) {
           "@id": `${siteUrl}/#website`,
         },
         primaryImageOfPage: `${siteUrl}/isora.svg`,
-        dateModified: generatedDate,
+        dateModified: getClaimPageModifiedDate(claim),
         about: [
           { "@type": "Thing", name: claim.domain },
           { "@type": "Thing", name: claim.side },
@@ -741,9 +773,10 @@ function renderClaimHtml(claim) {
         articleSection: claim.domain,
         inLanguage: "fr-FR",
         isAccessibleForFree: true,
-        dateModified: generatedDate,
+        dateModified: getClaimPageModifiedDate(claim),
         author: {
           "@id": `${siteUrl}/#organization`,
+          url: `${siteUrl}/methode/`,
         },
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -848,6 +881,7 @@ ${renderFaviconLinks()}
           <h2 id="tags">Classement</h2>
           <p>${renderVocabularyHtml(claim.tags.map((tag) => `#${tag}`).join(" "))}</p>
         </section>
+        ${renderClaimRelatedArticles(claim)}
       </article>
 
       <aside aria-label="Sources et contexte">
@@ -869,7 +903,7 @@ ${renderFaviconLinks()}
     </main>
 
     <footer class="wrap method">
-      <p><em>isora</em> est un référentiel de synthèse. Pour une affirmation factuelle forte, consulter les sources citées et conserver la population mesurée, la période et les limites d'interprétation.</p>
+      <p>Synthèse éditoriale <em>isora</em> · <a href="/methode/">Méthode, sources et corrections</a>. Pour une affirmation factuelle, consulter les sources citées et conserver la population mesurée, la période et les limites d'interprétation.</p>
     </footer>
     <script src="/isora-soft-navigation.js" defer></script>
   </body>
@@ -879,8 +913,8 @@ ${renderFaviconLinks()}
 
 function renderClaimIndexHtml() {
   const pageUrl = `${siteUrl}/fiches/`;
-  const description = "Index HTML statique des fiches isora, lisible sans JavaScript par les moteurs de recherche, crawlers et agents IA.";
-  const pageTitle = renderPageTitle("fiches");
+  const description = "Parcourez les asymétries documentées entre femmes et hommes : santé, travail, revenus, éducation, famille et droits, avec chiffres, sources et limites.";
+  const pageTitle = renderPageTitle("asymétries femmes-hommes : fiches et sources");
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -938,29 +972,33 @@ ${renderFaviconLinks()}
 
     <section class="hero">
       <div class="wrap hero-inner">
-        <h1>Fiches isora</h1>
+        <h1>Asymétries femmes-hommes : fiches et sources</h1>
         <p class="lead">${htmlEscape(description)} Chaque fiche conserve son résumé, sa mesure clé, sa nuance, sa population mesurée et ses sources.</p>
         <div class="chips" aria-label="État de la base">
           <span class="chip">${counts.total} fiches</span>
           <span class="chip">${counts.sources} sources</span>
           <span class="chip">${domains.length} domaines</span>
         </div>
+        <nav class="chips" aria-label="Parcourir les fiches par domaine">
+          ${domains.map((domain) => `<a class="chip" href="#${slugify(domain)}">${htmlEscape(domain)} (${claims.filter((claim) => claim.domain === domain).length})</a>`).join("")}
+        </nav>
       </div>
     </section>
 
     <main class="wrap index-grid" aria-label="Fiches documentées">
-      ${claims
+      ${domains.map((domain) => `<h2 id="${slugify(domain)}" style="grid-column: 1 / -1; scroll-margin-top: 24px;">${htmlEscape(domain)}</h2>${claims
+        .filter((claim) => claim.domain === domain)
         .map(
           (claim) => `
             <article class="claim-card">
               <span class="chip">${htmlEscape(claim.side)} · ${htmlEscape(claim.domain)} · ${htmlEscape(claim.metric)}</span>
-              <h2>${renderVocabularyHtml(claim.title)}</h2>
+              <h3>${renderVocabularyHtml(claim.title)}</h3>
               <p>${renderVocabularyHtml(truncateDescription(claim.summary, 210))}</p>
               <a class="claim-card-action" href="/fiches/${htmlEscape(claim.id)}/">Voir la fiche</a>
             </article>
           `,
         )
-        .join("")}
+        .join("")}`).join("")}
     </main>
     <script src="/isora-soft-navigation.js" defer></script>
   </body>
@@ -1169,9 +1207,84 @@ async function renderLexiconAssets() {
   );
 }
 
+function renderInitialHomeHtml() {
+  const women = claims.filter((claim) => claim.side === "femmes").slice(0, 3);
+  const men = claims.filter((claim) => claim.side === "hommes").slice(0, 3);
+  const examples = women.flatMap((claim, index) => [claim, men[index]]).filter(Boolean);
+  return `<div id="root">
+      <style>
+        #isora-initial-content { font-family: ui-sans-serif, system-ui, sans-serif; color: #171717; background: #f4f4f0; line-height: 1.65; }
+        #isora-initial-content a { color: #1455a3; text-underline-offset: .18em; }
+        ${renderStaticHeaderCss()}
+        #isora-initial-content .initial-hero { background: #ecfdf5; border-bottom: 1px solid #d8d8d0; padding: 56px 0; }
+        #isora-initial-content h1 { max-width: 780px; margin: 0; font-size: clamp(2rem, 4.5vw, 3.45rem); line-height: 1.1; }
+        #isora-initial-content .initial-lead { max-width: 720px; font-size: 1.15rem; }
+        #isora-initial-content main { padding: 24px 0 48px; }
+        #isora-initial-content .initial-links { display: flex; flex-wrap: wrap; gap: 8px 18px; padding: 0; list-style: none; }
+        #isora-initial-content .initial-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+        #isora-initial-content article { border: 1px solid #d8d8d0; background: #fff; padding: 20px; }
+        #isora-initial-content article h3 { margin-top: 0; }
+        @media (max-width: 760px) { #isora-initial-content .initial-cards { grid-template-columns: 1fr; } }
+      </style>
+      <div id="isora-initial-content">
+        ${renderStaticHeader()}
+        <section class="initial-hero"><div class="wrap">
+          <p>Données sourcées, contexte lisible, contribution ouverte</p>
+          <h1>Liste les asymétries documentées selon le sexe</h1>
+          <p class="initial-lead"><em>isora</em> recense des asymétries documentées par pays, période, domaine et angle d’analyse. Chaque fiche précise sa source, son contexte et la population réellement mesurée, pour rendre la donnée lisible, vérifiable et corrigeable.</p>
+          <p>${counts.total} fiches · ${counts.sources} sources · ${domains.length} domaines</p>
+        </div></section>
+        <main class="wrap">
+          <section aria-labelledby="initial-domains"><h2 id="initial-domains">Parcourir les fiches par domaine</h2>
+            <ul class="initial-links">${domains.map((domain) => `<li><a href="/fiches/#${slugify(domain)}">${htmlEscape(domain)}</a></li>`).join("")}</ul>
+          </section>
+          <section aria-labelledby="initial-claims"><h2 id="initial-claims">Quelques fiches du référentiel</h2>
+            <div class="initial-cards">${examples.map((claim) => `<article><h3><a href="/fiches/${htmlEscape(claim.id)}/">${htmlEscape(claim.title)}</a></h3><p>${htmlEscape(claim.metric)} · ${htmlEscape(claim.countryScope)} · ${htmlEscape(getClaimPeriod(claim))}</p><p>${htmlEscape(truncateDescription(claim.summary, 210))}</p></article>`).join("")}</div>
+            <p><a href="/fiches/">Consulter toutes les fiches et leurs sources</a></p>
+          </section>
+          <section aria-labelledby="initial-articles"><h2 id="initial-articles">Derniers articles de veille</h2>
+            <ul>${blogPosts.slice(0, 3).map((post) => `<li><a href="/blog/${htmlEscape(post.slug)}/">${htmlEscape(post.title)}</a> — ${htmlEscape(post.date)}</li>`).join("")}</ul>
+            <p><a href="/blog/">Tous les articles</a> · <a href="/methode/">Méthode, sources et corrections</a> · <a href="/lexique/">Lexique</a></p>
+          </section>
+          <noscript><p>Les fiches, les articles et leurs sources restent consultables sans JavaScript. Activez JavaScript pour utiliser les filtres et la recherche interactive de l’accueil.</p></noscript>
+        </main>
+      </div>
+    </div>`;
+}
+
+async function renderInitialHomeAsset() {
+  const sourceHtml = await readFile(indexFile, "utf8");
+  const markerPattern = /<!-- isora-home:start -->[\s\S]*?<!-- isora-home:end -->/;
+  if (!markerPattern.test(sourceHtml)) throw new Error("Marqueurs du contenu initial de l’accueil manquants.");
+  const nextHtml = sourceHtml.replace(markerPattern, `<!-- isora-home:start -->\n    ${renderInitialHomeHtml()}\n    <!-- isora-home:end -->`);
+  if (nextHtml !== sourceHtml) await writeFile(indexFile, nextHtml, "utf8");
+}
+
+async function renderMethodAsset() {
+  await mkdir(publicMethodDir, { recursive: true });
+  await writeFile(join(publicMethodDir, "index.html"), renderEditorialMethodHtml({
+    siteUrl,
+    css: renderClaimCss(),
+    header: renderStaticHeader(),
+    faviconLinks: renderFaviconLinks(),
+    updatedDate: seoReleaseDate,
+  }).replace(/[ \t]+$/gm, ""), "utf8");
+}
+
+const homeBlogUpdates = buildHomeBlogUpdates();
+assertClaimSourceLabels();
+assertManualClaimUpdateSources(manualClaimUpdates);
+const claimUpdatesById = buildClaimUpdatesById([...manualClaimUpdates, ...homeBlogUpdates]);
+const contentModifiedDate = latestEditorialDate(
+  seoReleaseDate,
+  claims.map(getClaimPageModifiedDate),
+  blogPosts.map((post) => post.updatedAt),
+);
+
 const robots = `User-agent: *
 Allow: /
 Disallow: /*?admin=
+Disallow: /*?*&admin=
 Disallow: /api/
 
 Sitemap: ${siteUrl}/sitemap.xml
@@ -1180,65 +1293,35 @@ Sitemap: ${siteUrl}/sitemap.xml
 const sitemapEntries = [
   {
     loc: `${siteUrl}/`,
-    lastmod: generatedDate,
+    lastmod: contentModifiedDate,
     changefreq: "weekly",
     priority: "1.0",
   },
   {
     loc: `${siteUrl}/fiches/`,
-    lastmod: generatedDate,
+    lastmod: contentModifiedDate,
     changefreq: "weekly",
     priority: "0.9",
   },
   {
     loc: `${siteUrl}/lexique/`,
-    lastmod: generatedDate,
+    lastmod: seoReleaseDate,
     changefreq: "monthly",
     priority: "0.8",
   },
   ...claims.map((claim) => ({
     loc: `${siteUrl}/fiches/${slugPath(claim.id)}/`,
-    lastmod: generatedDate,
+    lastmod: getClaimPageModifiedDate(claim),
     changefreq: "monthly",
     priority: "0.7",
   })),
   {
-    loc: `${siteUrl}/llms.txt`,
-    lastmod: generatedDate,
-    changefreq: "weekly",
-    priority: "0.7",
+    loc: `${siteUrl}/methode/`,
+    lastmod: seoReleaseDate,
+    changefreq: "monthly",
+    priority: "0.8",
   },
-  {
-    loc: `${siteUrl}/llms-en.txt`,
-    lastmod: generatedDate,
-    changefreq: "weekly",
-    priority: "0.7",
-  },
-  {
-    loc: `${siteUrl}/isora-dataset.json`,
-    lastmod: generatedDate,
-    changefreq: "weekly",
-    priority: "0.6",
-  },
-  {
-    loc: `${siteUrl}/isora-dataset-en.json`,
-    lastmod: generatedDate,
-    changefreq: "weekly",
-    priority: "0.6",
-  },
-  {
-    loc: `${siteUrl}/ai.txt`,
-    lastmod: generatedDate,
-    changefreq: "weekly",
-    priority: "0.5",
-  },
-  {
-    loc: `${siteUrl}/.well-known/ai.txt`,
-    lastmod: generatedDate,
-    changefreq: "weekly",
-    priority: "0.5",
-  },
-  ...buildBlogSitemapEntries(blogPosts, blogConfig, generatedDate),
+  ...buildBlogSitemapEntries(blogPosts, blogConfig, seoReleaseDate),
 ];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -1258,14 +1341,11 @@ const datasetFr = stripUndefined(buildDataset("fr"));
 const datasetEn = stripUndefined(buildDataset("en"));
 const llmsFr = buildLlms("fr");
 const llmsEn = buildLlms("en");
-const homeBlogUpdates = buildHomeBlogUpdates();
-assertClaimSourceLabels();
-assertManualClaimUpdateSources(manualClaimUpdates);
-const claimUpdatesById = buildClaimUpdatesById([...manualClaimUpdates, ...homeBlogUpdates]);
 
 await Promise.all([
   copyFile(logoFile, join(publicDir, "isora.svg")),
   writeFile(homeBlogUpdatesFile, renderHomeBlogUpdatesModule(homeBlogUpdates), "utf8"),
+  writeFile(siteMetadataFile, `// This file is generated by scripts/generate-seo.mjs. Do not edit by hand.\nexport const siteMetadata = ${JSON.stringify({ siteUrl, lastModified: contentModifiedDate }, null, 2)} as const;\n`, "utf8"),
   writeFile(join(publicDir, "isora-dataset.json"), `${JSON.stringify(datasetFr, null, 2)}\n`, "utf8"),
   writeFile(join(publicDir, "isora-dataset-en.json"), `${JSON.stringify(datasetEn, null, 2)}\n`, "utf8"),
   writeFile(join(publicDir, "llms.txt"), llmsFr, "utf8"),
@@ -1276,6 +1356,8 @@ await Promise.all([
   writeFile(join(publicWellKnownDir, "ai.txt"), ai, "utf8"),
   renderClaimAssets(),
   renderLexiconAssets(),
+  renderMethodAsset(),
+  renderInitialHomeAsset(),
   renderBlogAssets({ config: blogConfig, posts: blogPosts, claims }),
 ]);
 

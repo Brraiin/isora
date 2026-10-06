@@ -1,11 +1,11 @@
 {
-  "siteUrl": "https://isora-xi.vercel.app",
+  "siteUrl": "https://isora.info",
   "brand": "isora",
   "language": "fr-FR",
   "timezone": "Europe/Paris",
   "author": {
     "name": "isora",
-    "url": "https://isora-xi.vercel.app/"
+    "url": "https://isora.info/methode/"
   },
   "quality": {
     "minSources": 3,

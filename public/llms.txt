@@ -2,12 +2,13 @@
 
 > Referentiel francophone de fiches sourcees sur les asymetries documentees selon le sexe.
 
-URL canonique: https://isora-xi.vercel.app/
-Dataset JSON: https://isora-xi.vercel.app/isora-dataset.json
-Index HTML des fiches: https://isora-xi.vercel.app/fiches/
-Lexique: https://isora-xi.vercel.app/lexique/
-Version anglaise: https://isora-xi.vercel.app/llms-en.txt
-Derniere generation: 2026-10-06T00:00:00+02:00
+URL canonique: https://isora.info/
+Dataset JSON: https://isora.info/isora-dataset.json
+Index HTML des fiches: https://isora.info/fiches/
+Lexique: https://isora.info/lexique/
+Methode editoriale: https://isora.info/methode/
+Version anglaise: https://isora.info/llms-en.txt
+Derniere generation: 2026-10-06T17:00:05.725Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -33,179 +34,179 @@ Derniere generation: 2026-10-06T00:00:00+02:00
 Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas remplacer les dictionnaires : il sépare quatre axes indépendants, le combat contre une asymétrie, l'opposition de principe à ce combat, l'adhésion à des rôles sexués traditionnels et la haine d'un sexe. Féminisme et masculinisme nomment ici l'objet d'un combat; antiféminisme et antimasculinisme nomment son opposition systématique; virilisme et féminilisme nomment des normes de rôles; misandrie et misogynie nomment des haines ou des mépris.
 
 ### Fille / femme
-- URL: https://isora-xi.vercel.app/lexique/#fille-femme
+- URL: https://isora.info/lexique/#fille-femme
 - Categorie: Repère
 - Definition: Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XX.
 - Detail: Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle de femmes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XX, isora conserve le libellé de la source et précise la population réellement mesurée.
 
 ### Garçon / homme
-- URL: https://isora-xi.vercel.app/lexique/#garcon-homme
+- URL: https://isora.info/lexique/#garcon-homme
 - Categorie: Repère
 - Definition: Dans le contexte éditorial d'isora : être humain (Homo sapiens) de sexe chromosomique XY.
 - Detail: Cette convention fixe le périmètre du site. Elle ne signifie pas que chaque source citée mesure les chromosomes : lorsqu'une source parle d'hommes, de sexe déclaré, de sexe assigné ou d'une catégorie administrative sans mesurer XY, isora conserve le libellé de la source et précise la population réellement mesurée.
 
 ### Féminisme
-- URL: https://isora-xi.vercel.app/lexique/#feminisme
+- URL: https://isora.info/lexique/#feminisme
 - Categorie: Repère
 - Definition: Combat contre les asymétries en défaveur des filles et des femmes.
 - Detail: Dans isora, le terme désigne un mouvement ou une position centrée sur les droits, risques, violences, représentations ou conséquences défavorables aux filles et aux femmes. Il ne décrit à lui seul ni une opinion sur les hommes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être féministe et masculiniste selon les asymétries qu'elle défend.
 - A ne pas confondre avec: féminilisme, misandrie, antimasculinisme
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Masculinisme
-- URL: https://isora-xi.vercel.app/lexique/#masculinisme
+- URL: https://isora.info/lexique/#masculinisme
 - Categorie: Repère
 - Definition: Combat contre les asymétries en défaveur des garçons et des hommes.
 - Detail: Dans isora, ce repère sert à nommer la défense factuelle et pacifique des vulnérabilités masculines. Il ne décrit à lui seul ni une opinion sur les femmes, ni une adhésion ou une opposition aux rôles sexués traditionnels. Une même personne peut donc être masculiniste et féministe selon les asymétries qu'elle défend. Lorsqu'un dictionnaire, un média ou un rapport public emploie masculinisme pour désigner l'antiféminisme, le virilisme, la misogynie ou des actes violents, isora conserve le titre exact pour la traçabilité mais ne reprend pas cette qualification à son compte : chaque élément est reclassé séparément selon son contenu observable.
 - A ne pas confondre avec: virilisme, misogynie, antiféminisme
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Antiféminisme
-- URL: https://isora-xi.vercel.app/lexique/#antifeminisme
+- URL: https://isora.info/lexique/#antifeminisme
 - Categorie: Opposition à un combat
 - Definition: Opposition de principe au féminisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des filles et des femmes.
 - Detail: Dans isora, le terme vise l'opposition générale à la légitimité du combat féministe, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication féministe précise ne suffit pas à caractériser l'antiféminisme : il faut observer une opposition de principe ou une disqualification systématique. L'antiféminisme n'implique pas automatiquement la misogynie, le virilisme ou le masculinisme.
 - A ne pas confondre avec: misogynie, virilisme, masculinisme
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Antimasculinisme
-- URL: https://isora-xi.vercel.app/lexique/#antimasculinisme
+- URL: https://isora.info/lexique/#antimasculinisme
 - Categorie: Opposition à un combat
 - Definition: Opposition de principe au masculinisme ou disqualification systématique des combats pacifiques contre les asymétries en défaveur des garçons et des hommes.
 - Detail: Dans isora, le terme vise l'opposition générale à la légitimité du combat masculiniste, ou sa disqualification répétée indépendamment des faits examinés. Contester une statistique, une méthode, une mesure ou une revendication masculiniste précise ne suffit pas à caractériser l'antimasculinisme : il faut observer une opposition de principe ou une disqualification systématique. L'antimasculinisme n'implique pas automatiquement la misandrie, le féminilisme ou le féminisme.
 - A ne pas confondre avec: misandrie, féminilisme, féminisme
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Virilisme
-- URL: https://isora-xi.vercel.app/lexique/#virilisme
+- URL: https://isora.info/lexique/#virilisme
 - Categorie: Repère
 - Definition: Adhésion à un modèle traditionnel de virilité et aux rôles patriarcaux attendus des hommes.
 - Detail: Le virilisme valorise ou prescrit selon le sexe des qualités et obligations comme la force, la dureté, la domination, l'initiative, la prise de risque, la protection matérielle ou le refus de la vulnérabilité. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme virils ne suffit pas : le repère vise leur transformation en norme attendue ou hiérarchiquement supérieure. Une personne de l'un ou l'autre sexe peut porter cette position.
 - A ne pas confondre avec: masculinisme, misogynie
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Féminilisme
-- URL: https://isora-xi.vercel.app/lexique/#feminilisme
+- URL: https://isora.info/lexique/#feminilisme
 - Categorie: Repère
 - Definition: Néologisme éditorial d'isora : adhésion à un modèle traditionnel de féminité et aux rôles patriarcaux attendus des femmes.
 - Detail: Le féminilisme valorise ou prescrit selon le sexe des qualités, apparences et rôles comme la douceur, la retenue, le soin, la séduction, la dépendance matérielle ou l'attente de galanterie, de protection et de prise en charge par les hommes. Il peut renforcer des asymétries défavorables aux femmes comme aux hommes, tout en accordant des avantages liés à certains rôles. Aimer pour soi des traits perçus comme féminins ou apprécier un geste galant ne suffit pas : le repère vise leur transformation en norme sexuée. Le concept sociologique de « féminité accentuée » décrit un phénomène voisin de conformité au patriarcat. Une personne de l'un ou l'autre sexe peut porter cette position.
 - A ne pas confondre avec: féminisme, misandrie
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Misandrie
-- URL: https://isora-xi.vercel.app/lexique/#misandrie
+- URL: https://isora.info/lexique/#misandrie
 - Categorie: Haine de sexe
 - Definition: Haine ou mépris des hommes.
 - Detail: La misandrie décrit une hostilité envers les hommes comme groupe. Elle peut être exprimée par des femmes ou par des hommes. Elle n'est pas synonyme de féminisme, même si des discours se réclamant du féminisme peuvent parfois contenir des énoncés misandres. La disqualification générale d'une revendication masculine pacifique à cause du sexe qu'elle défend peut être étudiée comme une disqualification sexiste; la misandrie ne doit toutefois être retenue que si une haine ou un mépris des hommes est observable.
 - A ne pas confondre avec: féminisme, antimasculinisme
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Misogynie
-- URL: https://isora-xi.vercel.app/lexique/#misogynie
+- URL: https://isora.info/lexique/#misogynie
 - Categorie: Haine de sexe
 - Definition: Haine ou mépris des femmes.
 - Detail: La misogynie décrit une hostilité envers les femmes comme groupe. Elle peut être exprimée par des hommes ou par des femmes. Elle n'est pas synonyme de masculinisme au sens d'une défense factuelle des asymétries défavorables aux hommes.
 - A ne pas confondre avec: masculinisme, antiféminisme
-- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
+- Fiche liee: Masculinisme : définition Isora et usages péjoratifs des sources (https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/)
 
 ### Sexisme
-- URL: https://isora-xi.vercel.app/lexique/#sexisme
+- URL: https://isora.info/lexique/#sexisme
 - Categorie: Haine de sexe
 - Definition: Traitement, jugement, norme ou représentation défavorable fondé sur le sexe.
 - Detail: Le sexisme peut viser les filles, les femmes, les garçons ou les hommes selon le contexte. isora documente des asymétries précises plutôt que de déduire une intention sexiste sans source.
 
 ### Asymétrie
-- URL: https://isora-xi.vercel.app/lexique/#asymetrie
+- URL: https://isora.info/lexique/#asymetrie
 - Categorie: Méthode
 - Definition: Différence documentée entre filles/femmes et garçons/hommes.
 - Detail: Une asymétrie peut porter sur un droit, un risque, une exposition, une sanction, une représentation, une charge sociale ou une conséquence mesurée. Elle ne suffit pas toujours à prouver une discrimination intentionnelle.
 
 ### Population mesurée
-- URL: https://isora-xi.vercel.app/lexique/#population-mesuree
+- URL: https://isora.info/lexique/#population-mesuree
 - Categorie: Méthode
 - Definition: Groupe réellement observé par la source citée.
 - Detail: Une source peut parler de femmes/hommes, de sexe déclaré, de sexe administratif ou d'une catégorie d'enquête sans mesurer les chromosomes. isora conserve le vocabulaire de la source et précise ce que la donnée permet ou non de conclure.
 
 ### Source primaire
-- URL: https://isora-xi.vercel.app/lexique/#source-primaire
+- URL: https://isora.info/lexique/#source-primaire
 - Categorie: Méthode
 - Definition: Document qui produit directement la donnée, le droit ou l'analyse citée.
 - Detail: Quand c'est possible, isora privilégie les textes officiels, rapports statistiques, bases institutionnelles, publications scientifiques ou organismes producteurs plutôt qu'un commentaire secondaire.
 
 ### Désavantage subi
-- URL: https://isora-xi.vercel.app/lexique/#desavantage-subi
+- URL: https://isora.info/lexique/#desavantage-subi
 - Categorie: Angle d'analyse
 - Definition: Asymétrie où un groupe supporte une charge, un risque ou une perte plus forte.
 - Detail: Cet angle décrit l'effet mesuré ou documenté sur les personnes concernées. Il ne désigne pas automatiquement un coupable individuel.
 
 ### Violence exercée
-- URL: https://isora-xi.vercel.app/lexique/#violence-exercee
+- URL: https://isora.info/lexique/#violence-exercee
 - Categorie: Angle d'analyse
 - Definition: Asymétrie portant sur les auteurs, mis en cause ou comportements violents mesurés.
 - Detail: Cet angle sert à ne pas mélanger la victimisation, les auteurs déclarés, les mis en cause, les condamnations et les représentations. Chaque source mesure un champ différent.
 
 ### Perception
-- URL: https://isora-xi.vercel.app/lexique/#perception
+- URL: https://isora.info/lexique/#perception
 - Categorie: Angle d'analyse
 - Definition: Asymétrie de vocabulaire, perception, norme sociale ou représentation.
 - Detail: Cet angle couvre ce qui est perçu, dit ou cadré socialement: mots disponibles, stéréotypes, opinions, normes et représentations. Une perception peut signaler une asymétrie réelle ou ressentie, mais elle ne suffit pas toujours à prouver un droit, un accès concret ou un effet mesuré.
 
 
 ## Articles isora
-URL des articles: https://isora-xi.vercel.app/blog/
+URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
 ### Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires
-- URL: https://isora-xi.vercel.app/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
+- URL: https://isora.info/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
 - Date: 2026-10-06
 - Fiches isora liees: femmes-douleurs-declarees-11-sites-monde
 - Resume: Une étude parue le 5 octobre 2026 dans Nature Medicine a harmonisé les déclarations de douleur de 6 125 459 personnes issues de 902 sources de données dans 118 pays et territoires, recueillies entre 1990 et 2025. Dans les modèles groupés, la fréquence déclarée est plus élevée chez les femmes que chez les hommes pour chacun des 11 sites anatomiques étudiés ; les rapports de prévalence vont de 1,08 à 1,83 selon le site. Ces rapports ne sont ni des écarts en points de pourcentage ni des résultats valables séparément pour chaque pays. Les enquêtes portent sur des symptômes déclarés, pas sur un diagnostic de douleur chronique ou une cause biologique déterminée.
 - Sources: Nature Medicine, Fillingim et al.: https://www.nature.com/articles/s41591-026-04696-w; Communications Medicine, Macchia et al.: https://pubmed.ncbi.nlm.nih.gov/40325153/; International Association for the Study of Pain: https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/; University of Aberdeen Research Portal: https://abdn.elsevierpure.com/en/publications/global-and-regional-reference-curves-for-pain-across-the-lifespan/
 
 ### Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes
-- URL: https://isora-xi.vercel.app/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
+- URL: https://isora.info/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
 - Date: 2026-10-04
 - Fiches isora liees: hommes-consommation-alcool-mensuelle-ue-2025
 - Resume: Eurostat rapporte qu'en 2025, dans l'Union européenne, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient consommer de l'alcool au moins une fois par mois, soit 20,6 points d'écart. Cette comparaison porte sur la même enquête et la même fréquence, pas sur les volumes bus ou les dommages sanitaires. Dans la population totale, la consommation quotidienne déclarée augmente avec l'âge, mais Eurostat ne fournit pas dans sa synthèse une comparaison femmes-hommes par tranche d'âge. L'enquête décrit une asymétrie de pratique ; elle n'en établit ni les causes ni les conséquences individuelles.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1; Eurostat: https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf; Eurostat: https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/alcohol
 
 ### Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France
-- URL: https://isora-xi.vercel.app/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/
+- URL: https://isora.info/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/
 - Date: 2026-09-30
 - Fiches isora liees: femmes-direction-primaire-france-2024
 - Resume: Dans sa note sur la France publiée le 29 septembre 2026, l'OCDE indique qu'en 2024 les femmes formaient 85 % du personnel enseignant du primaire et 69 % du personnel de direction de ce niveau. L'écart de 16 points concerne deux compositions professionnelles ; il ne signifie pas que 16 % des enseignantes ont été privées d'une direction. Une statistique française complémentaire, calculée avec un autre champ et un autre dénominateur, indique que les enseignants du premier degré public exerçaient plus souvent une fonction de direction que les enseignantes. Ces données décrivent une asymétrie mais n'en établissent pas la cause.
 - Sources: OCDE: https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026-country-notes_4b77712b/france_3915c659.html; OCDE: https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html; DEPP, ministère de l'Éducation nationale: https://www.education.gouv.fr/sites/default/files/2025-10/panorama-statistique-des-personnels-de-l-enseignement-scolaire-2024-2025-442251.pdf
 
 ### Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines
-- URL: https://isora-xi.vercel.app/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
+- URL: https://isora.info/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
 - Date: 2026-09-24
 - Fiches isora liees: femmes-contraception-besoins-non-couverts
 - Resume: Le 23 septembre 2026, l'OMS a publié de nouvelles recommandations sur plusieurs méthodes ou modalités de contraception, dont l'usage prolongé de certaines pilules et d'un implant, ainsi que la mifépristone comme option de contraception d'urgence. La veille, elle avait publié des critères destinés au développement de futures méthodes masculines réversibles : ce document n'annonce pas leur disponibilité. L'asymétrie actuelle des options peut évoluer, mais une enquête sur l'intention d'utiliser une méthode future ne prouve pas son adoption réelle. Enfin, les 164 millions de femmes sans contraception cités par l'OMS ne sont pas le même indicateur que les 259 millions de femmes et adolescentes sans méthode moderne fiable estimés par l'UNFPA pour 2024.
 - Sources: Organisation mondiale de la Santé: https://www.who.int/fr/news/item/23-09-2026-who-expands-safe-options-for-contraception; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124578; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124950; Contraception: https://pubmed.ncbi.nlm.nih.gov/42176837/; Fonds des Nations unies pour la population: https://www.unfpa.org/family-planning
 
 ### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
-- URL: https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
+- URL: https://isora.info/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
 - Date: 2026-09-22
 - Fiches isora liees: femmes-etudes-superieures-sport-ue-2024, hommes-esperance-vie
 - Resume: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport. Ce constat ne porte pas sur la pratique sportive à tous les âges. En France, une enquête de Santé publique France montre en 2024 des taux de pratique physique régulière pendant les loisirs proches chez les femmes et les hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures. L'écart d'espérance de vie entre les sexes est réel, mais ces données ne permettent pas de l'attribuer à un éventuel arrêt du sport après des métiers physiquement exigeants.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1; Santé publique France: https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf; Insee / INJEP: https://www.insee.fr/fr/statistiques/6047763; Insee: https://www.insee.fr/fr/statistiques/2381474; Insee: https://www.insee.fr/fr/statistiques/2416631; British Journal of Sports Medicine: https://pubmed.ncbi.nlm.nih.gov/39255999/; Organisation mondiale de la santé: https://www.who.int/publications/i/item/9789240015128
 
 ### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
-- URL: https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
+- URL: https://isora.info/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
 - Date: 2026-09-21
 - Fiches isora liees: hommes-mesotheliome-pleural-incidence-france
 - Resume: Publié le 21 septembre 2026, le bilan de Santé publique France retrace 26 années de surveillance du mésothéliome pleural, un cancer lié à l'amiante. Dans la zone suivie, 7 277 cas ont été inclus entre 1998 et 2023. Pour la France entière, l'incidence annuelle estimée et standardisée sur l'âge est, en 2018-2021, de 2,23 pour 100 000 chez les hommes et 0,72 chez les femmes. Les hommes restent davantage touchés, mais les circonstances d'exposition identifiées diffèrent : parmi les patients interrogés sur 2018-2023, une exposition professionnelle à l'amiante a été retrouvée chez 89,0 % des hommes et 28,2 % des femmes. Ces chiffres décrivent des personnes atteintes et enquêtées, non le risque de l'ensemble des travailleurs ou travailleuses.
 - Sources: Santé publique France: https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf; Santé publique France: https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/donnees; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/la-maladie
 
 ### Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer
-- URL: https://isora-xi.vercel.app/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
+- URL: https://isora.info/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
 - Date: 2026-09-20
 - Fiches isora liees: femmes-violences-physiques-sexuelles-monde
 - Resume: Une note technique de l'Organisation mondiale de la Santé, mise en avant le 18 septembre 2026, examine la mesure des violences sexuelles commises contre les femmes et les filles par une personne autre qu'un partenaire intime. L'estimation mondiale disponible porte sur 263 millions de femmes et de filles âgées de 15 ans ou plus, soit 8 %, ayant subi au moins une fois ce type de violence depuis l'âge de 15 ans. Mais l'OMS souligne que les définitions, les questions, les tranches d'âge et les populations interrogées diffèrent fortement. Parmi 140 pays disposant d'au moins une enquête éligible entre 2000 et 2023, 42 n'avaient pas actualisé ces données depuis plus de dix ans. Le chiffre doit donc être lu comme une estimation minimale dans un champ précis, et non comme une mesure exhaustive ou une comparaison femmes-hommes.
 - Sources: Organisation mondiale de la Santé: https://www.who.int/publications/i/item/B09836; Organisation mondiale de la Santé: https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/B09860; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240116962
 
 ### Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS
-- URL: https://isora-xi.vercel.app/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/
+- URL: https://isora.info/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/
 - Date: 2026-09-18
 - Fiches isora liees: femmes-personnel-sante-ecart-remuneration-region-europe-2026
 - Resume: Le Bureau régional de l'OMS pour l'Europe a publié le 18 septembre 2026 une analyse des rémunérations dans le secteur de la santé et de l'aide sociale, fondée sur des enquêtes nationales représentatives disponibles pour 43 pays. Les femmes représentent près de 77 % des effectifs couverts, mais leur rémunération moyenne est inférieure de 19 % par heure et de 28 % par mois à celle des hommes. Une décomposition tenant compte de l'âge, du niveau d'études, du temps de travail et du secteur public ou privé réduit les écarts à 6 % par heure et 10 % par mois. La part restante n'est pas expliquée par ces variables mesurées, mais elle ne constitue pas à elle seule une mesure de discrimination à poste identique.
@@ -214,8 +215,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Douleurs déclarées plus fréquentes chez les femmes dans une synthèse internationale
 - ID: femmes-douleurs-declarees-11-sites-monde
-- URL: https://isora-xi.vercel.app/fiches/femmes-douleurs-declarees-11-sites-monde/
-- URL interactive: https://isora-xi.vercel.app/#femmes-douleurs-declarees-11-sites-monde
+- URL: https://isora.info/fiches/femmes-douleurs-declarees-11-sites-monde/
+- URL interactive: https://isora.info/#femmes-douleurs-declarees-11-sites-monde
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -230,8 +231,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Alcool : consommation au moins mensuelle plus fréquente chez les hommes dans l'UE
 - ID: hommes-consommation-alcool-mensuelle-ue-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-consommation-alcool-mensuelle-ue-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-consommation-alcool-mensuelle-ue-2025
+- URL: https://isora.info/fiches/hommes-consommation-alcool-mensuelle-ue-2025/
+- URL interactive: https://isora.info/#hommes-consommation-alcool-mensuelle-ue-2025
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -246,8 +247,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Primaire : les femmes sont moins présentes dans la direction que dans l'enseignement
 - ID: femmes-direction-primaire-france-2024
-- URL: https://isora-xi.vercel.app/fiches/femmes-direction-primaire-france-2024/
-- URL interactive: https://isora-xi.vercel.app/#femmes-direction-primaire-france-2024
+- URL: https://isora.info/fiches/femmes-direction-primaire-france-2024/
+- URL interactive: https://isora.info/#femmes-direction-primaire-france-2024
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Éducation
@@ -262,8 +263,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes moins nombreuses dans les études supérieures de sport de l'UE
 - ID: femmes-etudes-superieures-sport-ue-2024
-- URL: https://isora-xi.vercel.app/fiches/femmes-etudes-superieures-sport-ue-2024/
-- URL interactive: https://isora-xi.vercel.app/#femmes-etudes-superieures-sport-ue-2024
+- URL: https://isora.info/fiches/femmes-etudes-superieures-sport-ue-2024/
+- URL interactive: https://isora.info/#femmes-etudes-superieures-sport-ue-2024
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Éducation
@@ -278,8 +279,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Mésothéliome pleural : une incidence estimée plus élevée chez les hommes
 - ID: hommes-mesotheliome-pleural-incidence-france
-- URL: https://isora-xi.vercel.app/fiches/hommes-mesotheliome-pleural-incidence-france/
-- URL interactive: https://isora-xi.vercel.app/#hommes-mesotheliome-pleural-incidence-france
+- URL: https://isora.info/fiches/hommes-mesotheliome-pleural-incidence-france/
+- URL interactive: https://isora.info/#hommes-mesotheliome-pleural-incidence-france
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -294,8 +295,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Contraintes physiques au travail plus fréquentes chez les hommes
 - ID: hommes-contraintes-physiques-travail-france-2024
-- URL: https://isora-xi.vercel.app/fiches/hommes-contraintes-physiques-travail-france-2024/
-- URL interactive: https://isora-xi.vercel.app/#hommes-contraintes-physiques-travail-france-2024
+- URL: https://isora.info/fiches/hommes-contraintes-physiques-travail-france-2024/
+- URL interactive: https://isora.info/#hommes-contraintes-physiques-travail-france-2024
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Travail
@@ -310,8 +311,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes toujours davantage touchés par les accidents du travail
 - ID: hommes-accidents-travail
-- URL: https://isora-xi.vercel.app/fiches/hommes-accidents-travail/
-- URL interactive: https://isora-xi.vercel.app/#hommes-accidents-travail
+- URL: https://isora.info/fiches/hommes-accidents-travail/
+- URL interactive: https://isora.info/#hommes-accidents-travail
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Travail
@@ -326,8 +327,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Décès par suicide : surmortalité masculine en France et dans l'UE
 - ID: hommes-suicide
-- URL: https://isora-xi.vercel.app/fiches/hommes-suicide/
-- URL interactive: https://isora-xi.vercel.app/#hommes-suicide
+- URL: https://isora.info/fiches/hommes-suicide/
+- URL interactive: https://isora.info/#hommes-suicide
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -342,8 +343,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Espérance de vie plus courte pour les hommes en France
 - ID: hommes-esperance-vie
-- URL: https://isora-xi.vercel.app/fiches/hommes-esperance-vie/
-- URL interactive: https://isora-xi.vercel.app/#hommes-esperance-vie
+- URL: https://isora.info/fiches/hommes-esperance-vie/
+- URL interactive: https://isora.info/#hommes-esperance-vie
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -358,8 +359,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes moins nombreux à parler de leur mal-être à un professionnel
 - ID: hommes-mal-etre-recours-professionnel
-- URL: https://isora-xi.vercel.app/fiches/hommes-mal-etre-recours-professionnel/
-- URL interactive: https://isora-xi.vercel.app/#hommes-mal-etre-recours-professionnel
+- URL: https://isora.info/fiches/hommes-mal-etre-recours-professionnel/
+- URL interactive: https://isora.info/#hommes-mal-etre-recours-professionnel
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -374,8 +375,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Dans les décisions étudiées en 2012, le père était débiteur dans 97 % des pensions fixées
 - ID: hommes-pensions-alimentaires
-- URL: https://isora-xi.vercel.app/fiches/hommes-pensions-alimentaires/
-- URL interactive: https://isora-xi.vercel.app/#hommes-pensions-alimentaires
+- URL: https://isora.info/fiches/hommes-pensions-alimentaires/
+- URL interactive: https://isora.info/#hommes-pensions-alimentaires
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Justice
@@ -390,8 +391,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## En 2023, 14 % des enfants de parents séparés vivent à temps égal chez chacun
 - ID: hommes-residence-alternee
-- URL: https://isora-xi.vercel.app/fiches/hommes-residence-alternee/
-- URL interactive: https://isora-xi.vercel.app/#hommes-residence-alternee
+- URL: https://isora.info/fiches/hommes-residence-alternee/
+- URL interactive: https://isora.info/#hommes-residence-alternee
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Famille
@@ -406,8 +407,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Dans neuf pays, satisfaction déclarée plus basse quand la femme assure seule le revenu
 - ID: hommes-femme-principale-pourvoyeuse-satisfaction
-- URL: https://isora-xi.vercel.app/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/
-- URL interactive: https://isora-xi.vercel.app/#hommes-femme-principale-pourvoyeuse-satisfaction
+- URL: https://isora.info/fiches/hommes-femme-principale-pourvoyeuse-satisfaction/
+- URL interactive: https://isora.info/#hommes-femme-principale-pourvoyeuse-satisfaction
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Famille
@@ -422,8 +423,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Paternité biologique vérifiable seulement par une procédure judiciaire
 - ID: hommes-filiation-paternite-test-adn-judiciaire
-- URL: https://isora-xi.vercel.app/fiches/hommes-filiation-paternite-test-adn-judiciaire/
-- URL interactive: https://isora-xi.vercel.app/#hommes-filiation-paternite-test-adn-judiciaire
+- URL: https://isora.info/fiches/hommes-filiation-paternite-test-adn-judiciaire/
+- URL interactive: https://isora.info/#hommes-filiation-paternite-test-adn-judiciaire
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Justice
@@ -438,8 +439,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Panama crée un délit spécifique de fraude à la paternité
 - ID: hommes-panama-fraude-paternite-crime-2026
-- URL: https://isora-xi.vercel.app/fiches/hommes-panama-fraude-paternite-crime-2026/
-- URL interactive: https://isora-xi.vercel.app/#hommes-panama-fraude-paternite-crime-2026
+- URL: https://isora.info/fiches/hommes-panama-fraude-paternite-crime-2026/
+- URL interactive: https://isora.info/#hommes-panama-fraude-paternite-crime-2026
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Justice
@@ -454,8 +455,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Garçons plus touchés par les sorties précoces du système scolaire
 - ID: hommes-sorties-precoces
-- URL: https://isora-xi.vercel.app/fiches/hommes-sorties-precoces/
-- URL interactive: https://isora-xi.vercel.app/#hommes-sorties-precoces
+- URL: https://isora.info/fiches/hommes-sorties-precoces/
+- URL interactive: https://isora.info/#hommes-sorties-precoces
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Éducation
@@ -470,8 +471,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes exclus de certaines bourses STEM réservées aux femmes
 - ID: hommes-bourses-stem-reservees-femmes
-- URL: https://isora-xi.vercel.app/fiches/hommes-bourses-stem-reservees-femmes/
-- URL interactive: https://isora-xi.vercel.app/#hommes-bourses-stem-reservees-femmes
+- URL: https://isora.info/fiches/hommes-bourses-stem-reservees-femmes/
+- URL interactive: https://isora.info/#hommes-bourses-stem-reservees-femmes
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Éducation
@@ -486,8 +487,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Espérance de vie masculine plus courte dans presque tous les pays
 - ID: hommes-esperance-vie-monde
-- URL: https://isora-xi.vercel.app/fiches/hommes-esperance-vie-monde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-esperance-vie-monde
+- URL: https://isora.info/fiches/hommes-esperance-vie-monde/
+- URL interactive: https://isora.info/#hommes-esperance-vie-monde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -502,8 +503,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes beaucoup plus exposés à la mort par suicide
 - ID: hommes-suicide-monde
-- URL: https://isora-xi.vercel.app/fiches/hommes-suicide-monde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-suicide-monde
+- URL: https://isora.info/fiches/hommes-suicide-monde/
+- URL interactive: https://isora.info/#hommes-suicide-monde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -518,8 +519,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes majoritaires parmi les victimes d'homicide
 - ID: hommes-victimes-homicide-monde
-- URL: https://isora-xi.vercel.app/fiches/hommes-victimes-homicide-monde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-victimes-homicide-monde
+- URL: https://isora.info/fiches/hommes-victimes-homicide-monde/
+- URL interactive: https://isora.info/#hommes-victimes-homicide-monde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -534,8 +535,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes davantage exposés à la mortalité liée au travail
 - ID: hommes-mortalite-travail-monde
-- URL: https://isora-xi.vercel.app/fiches/hommes-mortalite-travail-monde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-mortalite-travail-monde
+- URL: https://isora.info/fiches/hommes-mortalite-travail-monde/
+- URL interactive: https://isora.info/#hommes-mortalite-travail-monde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Travail
@@ -550,8 +551,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes beaucoup plus exposés à la mortalité routière
 - ID: hommes-accidents-route-monde
-- URL: https://isora-xi.vercel.app/fiches/hommes-accidents-route-monde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-accidents-route-monde
+- URL: https://isora.info/fiches/hommes-accidents-route-monde/
+- URL interactive: https://isora.info/#hommes-accidents-route-monde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -566,8 +567,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Service militaire obligatoire souvent ciblé sur les hommes
 - ID: hommes-conscription
-- URL: https://isora-xi.vercel.app/fiches/hommes-conscription/
-- URL interactive: https://isora-xi.vercel.app/#hommes-conscription
+- URL: https://isora.info/fiches/hommes-conscription/
+- URL interactive: https://isora.info/#hommes-conscription
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -582,8 +583,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Âge normal de retraite encore plus élevé pour les hommes dans certains pays
 - ID: hommes-age-retraite-differencie-ocde
-- URL: https://isora-xi.vercel.app/fiches/hommes-age-retraite-differencie-ocde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-age-retraite-differencie-ocde
+- URL: https://isora.info/fiches/hommes-age-retraite-differencie-ocde/
+- URL interactive: https://isora.info/#hommes-age-retraite-differencie-ocde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -598,8 +599,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes très majoritaires dans la population carcérale mondiale
 - ID: hommes-population-carcerale-monde
-- URL: https://isora-xi.vercel.app/fiches/hommes-population-carcerale-monde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-population-carcerale-monde
+- URL: https://isora.info/fiches/hommes-population-carcerale-monde/
+- URL interactive: https://isora.info/#hommes-population-carcerale-monde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Justice
@@ -614,8 +615,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Garçons plus nombreux hors de l'école dans l'estimation mondiale récente
 - ID: hommes-decrochage-garcons-monde
-- URL: https://isora-xi.vercel.app/fiches/hommes-decrochage-garcons-monde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-decrochage-garcons-monde
+- URL: https://isora.info/fiches/hommes-decrochage-garcons-monde/
+- URL interactive: https://isora.info/#hommes-decrochage-garcons-monde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Éducation
@@ -630,8 +631,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes majoritaires dans 31 des 33 pays renseignés par l'OCDE
 - ID: hommes-sans-abrisme
-- URL: https://isora-xi.vercel.app/fiches/hommes-sans-abrisme/
-- URL interactive: https://isora-xi.vercel.app/#hommes-sans-abrisme
+- URL: https://isora.info/fiches/hommes-sans-abrisme/
+- URL interactive: https://isora.info/#hommes-sans-abrisme
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Revenus
@@ -646,8 +647,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille
 - ID: hommes-violences-physiques-hors-famille-france-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-violences-physiques-hors-famille-france-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-violences-physiques-hors-famille-france-2025
+- URL: https://isora.info/fiches/hommes-violences-physiques-hors-famille-france-2025/
+- URL interactive: https://isora.info/#hommes-violences-physiques-hors-famille-france-2025
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -662,8 +663,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes victimes de violence par partenaire intime
 - ID: hommes-violence-partenaire-etats-unis
-- URL: https://isora-xi.vercel.app/fiches/hommes-violence-partenaire-etats-unis/
-- URL interactive: https://isora-xi.vercel.app/#hommes-violence-partenaire-etats-unis
+- URL: https://isora.info/fiches/hommes-violence-partenaire-etats-unis/
+- URL interactive: https://isora.info/#hommes-violence-partenaire-etats-unis
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -678,8 +679,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Violence domestique au Royaume-Uni : victimes femmes et hommes
 - ID: hommes-violence-domestique-royaume-uni
-- URL: https://isora-xi.vercel.app/fiches/hommes-violence-domestique-royaume-uni/
-- URL interactive: https://isora-xi.vercel.app/#hommes-violence-domestique-royaume-uni
+- URL: https://isora.info/fiches/hommes-violence-domestique-royaume-uni/
+- URL interactive: https://isora.info/#hommes-violence-domestique-royaume-uni
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -694,8 +695,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes victimes orientés vers des aides moins spécialisées
 - ID: hommes-violences-conjugales-aides-specialisees
-- URL: https://isora-xi.vercel.app/fiches/hommes-violences-conjugales-aides-specialisees/
-- URL interactive: https://isora-xi.vercel.app/#hommes-violences-conjugales-aides-specialisees
+- URL: https://isora.info/fiches/hommes-violences-conjugales-aides-specialisees/
+- URL interactive: https://isora.info/#hommes-violences-conjugales-aides-specialisees
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -710,8 +711,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes moins enclins à reconnaître certaines agressions sexuelles
 - ID: hommes-agressions-sexuelles-minimisees
-- URL: https://isora-xi.vercel.app/fiches/hommes-agressions-sexuelles-minimisees/
-- URL interactive: https://isora-xi.vercel.app/#hommes-agressions-sexuelles-minimisees
+- URL: https://isora.info/fiches/hommes-agressions-sexuelles-minimisees/
+- URL interactive: https://isora.info/#hommes-agressions-sexuelles-minimisees
 - Groupe: hommes
 - Angle: perception
 - Domaine: Violences
@@ -726,8 +727,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Qualification du viol élargie aux victimes forcées à pénétrer
 - ID: hommes-viol-force-penetration-2018
-- URL: https://isora-xi.vercel.app/fiches/hommes-viol-force-penetration-2018/
-- URL interactive: https://isora-xi.vercel.app/#hommes-viol-force-penetration-2018
+- URL: https://isora.info/fiches/hommes-viol-force-penetration-2018/
+- URL interactive: https://isora.info/#hommes-viol-force-penetration-2018
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Justice
@@ -742,8 +743,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Certaines lois européennes ne reconnaissent pas pleinement les hommes comme victimes de viol
 - ID: hommes-reconnaissance-viol-lois-europe
-- URL: https://isora-xi.vercel.app/fiches/hommes-reconnaissance-viol-lois-europe/
-- URL interactive: https://isora-xi.vercel.app/#hommes-reconnaissance-viol-lois-europe
+- URL: https://isora.info/fiches/hommes-reconnaissance-viol-lois-europe/
+- URL interactive: https://isora.info/#hommes-reconnaissance-viol-lois-europe
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Justice
@@ -758,8 +759,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes majoritaires parmi les mis en cause pour violences conjugales
 - ID: hommes-mis-en-cause-violences-conjugales-france
-- URL: https://isora-xi.vercel.app/fiches/hommes-mis-en-cause-violences-conjugales-france/
-- URL interactive: https://isora-xi.vercel.app/#hommes-mis-en-cause-violences-conjugales-france
+- URL: https://isora.info/fiches/hommes-mis-en-cause-violences-conjugales-france/
+- URL interactive: https://isora.info/#hommes-mis-en-cause-violences-conjugales-france
 - Groupe: hommes
 - Angle: violence_exercée
 - Domaine: Violences
@@ -774,8 +775,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles
 - ID: hommes-agresseurs-declares-violences-sexuelles-femmes-france
-- URL: https://isora-xi.vercel.app/fiches/hommes-agresseurs-declares-violences-sexuelles-femmes-france/
-- URL interactive: https://isora-xi.vercel.app/#hommes-agresseurs-declares-violences-sexuelles-femmes-france
+- URL: https://isora.info/fiches/hommes-agresseurs-declares-violences-sexuelles-femmes-france/
+- URL interactive: https://isora.info/#hommes-agresseurs-declares-violences-sexuelles-femmes-france
 - Groupe: hommes
 - Angle: violence_exercée
 - Domaine: Violences
@@ -790,8 +791,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs
 - ID: hommes-part-auteurs-violences-sexuelles-perception
-- URL: https://isora-xi.vercel.app/fiches/hommes-part-auteurs-violences-sexuelles-perception/
-- URL interactive: https://isora-xi.vercel.app/#hommes-part-auteurs-violences-sexuelles-perception
+- URL: https://isora.info/fiches/hommes-part-auteurs-violences-sexuelles-perception/
+- URL interactive: https://isora.info/#hommes-part-auteurs-violences-sexuelles-perception
 - Groupe: hommes
 - Angle: perception
 - Domaine: Violences
@@ -806,8 +807,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Adhésion au sexisme hostile envers les femmes plus fréquente chez les hommes
 - ID: hommes-sexisme-hostile-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-sexisme-hostile-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-sexisme-hostile-hce-2025
+- URL: https://isora.info/fiches/hommes-sexisme-hostile-hce-2025/
+- URL interactive: https://isora.info/#hommes-sexisme-hostile-hce-2025
 - Groupe: hommes
 - Angle: perception
 - Domaine: Droits
@@ -822,8 +823,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Sexisme paternaliste mesuré chez les deux sexes, plus souvent chez les hommes
 - ID: hommes-femmes-sexisme-paternaliste-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-femmes-sexisme-paternaliste-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-femmes-sexisme-paternaliste-hce-2025
+- URL: https://isora.info/fiches/hommes-femmes-sexisme-paternaliste-hce-2025/
+- URL interactive: https://isora.info/#hommes-femmes-sexisme-paternaliste-hce-2025
 - Groupe: hommes
 - Angle: perception
 - Domaine: Droits
@@ -838,8 +839,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Consentement sexuel : écarts entre désapprobation et situations déclarées
 - ID: hommes-consentement-rapports-sexuels-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-consentement-rapports-sexuels-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-consentement-rapports-sexuels-hce-2025
+- URL: https://isora.info/fiches/hommes-consentement-rapports-sexuels-hce-2025/
+- URL interactive: https://isora.info/#hommes-consentement-rapports-sexuels-hce-2025
 - Groupe: hommes
 - Angle: violence_exercée
 - Domaine: Violences
@@ -854,8 +855,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Récits antiféministes plus déclarés chez les hommes
 - ID: hommes-recits-antifeministes-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-recits-antifeministes-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-recits-antifeministes-hce-2025
+- URL: https://isora.info/fiches/hommes-recits-antifeministes-hce-2025/
+- URL interactive: https://isora.info/#hommes-recits-antifeministes-hce-2025
 - Groupe: hommes
 - Angle: perception
 - Domaine: Droits
@@ -870,8 +871,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Masculinisme : définition Isora et usages péjoratifs des sources
 - ID: hommes-vocabulaire-masculinisme-pejoratif
-- URL: https://isora-xi.vercel.app/fiches/hommes-vocabulaire-masculinisme-pejoratif/
-- URL interactive: https://isora-xi.vercel.app/#hommes-vocabulaire-masculinisme-pejoratif
+- URL: https://isora.info/fiches/hommes-vocabulaire-masculinisme-pejoratif/
+- URL interactive: https://isora.info/#hommes-vocabulaire-masculinisme-pejoratif
 - Groupe: hommes
 - Angle: perception
 - Domaine: Droits
@@ -886,8 +887,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Garde des enfants : perception d'un avantage aux mères et demandes des pères
 - ID: hommes-perception-garde-enfants-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-perception-garde-enfants-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-perception-garde-enfants-hce-2025
+- URL: https://isora.info/fiches/hommes-perception-garde-enfants-hce-2025/
+- URL interactive: https://isora.info/#hommes-perception-garde-enfants-hce-2025
 - Groupe: hommes
 - Angle: perception
 - Domaine: Justice
@@ -902,8 +903,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Violences sexuelles : la justice française n'est pas un corps exclusivement masculin
 - ID: hommes-attribution-laxisme-justice-violences-sexuelles
-- URL: https://isora-xi.vercel.app/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/
-- URL interactive: https://isora-xi.vercel.app/#hommes-attribution-laxisme-justice-violences-sexuelles
+- URL: https://isora.info/fiches/hommes-attribution-laxisme-justice-violences-sexuelles/
+- URL interactive: https://isora.info/#hommes-attribution-laxisme-justice-violences-sexuelles
 - Groupe: hommes
 - Angle: perception
 - Domaine: Justice
@@ -918,8 +919,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes plus exposés aux sanctions pénales lourdes
 - ID: hommes-sanctions-penales-plus-lourdes
-- URL: https://isora-xi.vercel.app/fiches/hommes-sanctions-penales-plus-lourdes/
-- URL interactive: https://isora-xi.vercel.app/#hommes-sanctions-penales-plus-lourdes
+- URL: https://isora.info/fiches/hommes-sanctions-penales-plus-lourdes/
+- URL interactive: https://isora.info/#hommes-sanctions-penales-plus-lourdes
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Justice
@@ -934,8 +935,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Pères limités par un congé paternité payé très court
 - ID: hommes-conge-paternite-ocde
-- URL: https://isora-xi.vercel.app/fiches/hommes-conge-paternite-ocde/
-- URL interactive: https://isora-xi.vercel.app/#hommes-conge-paternite-ocde
+- URL: https://isora.info/fiches/hommes-conge-paternite-ocde/
+- URL interactive: https://isora.info/#hommes-conge-paternite-ocde
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Famille
@@ -950,8 +951,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Circoncision des garçons décidée avant leur consentement
 - ID: hommes-autonomie-corporelle-circoncision
-- URL: https://isora-xi.vercel.app/fiches/hommes-autonomie-corporelle-circoncision/
-- URL interactive: https://isora-xi.vercel.app/#hommes-autonomie-corporelle-circoncision
+- URL: https://isora.info/fiches/hommes-autonomie-corporelle-circoncision/
+- URL interactive: https://isora.info/#hommes-autonomie-corporelle-circoncision
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Autonomie
@@ -966,8 +967,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes très majoritaires parmi les décès professionnels aux États-Unis
 - ID: hommes-deces-professionnels-etats-unis-2024
-- URL: https://isora-xi.vercel.app/fiches/hommes-deces-professionnels-etats-unis-2024/
-- URL interactive: https://isora-xi.vercel.app/#hommes-deces-professionnels-etats-unis-2024
+- URL: https://isora.info/fiches/hommes-deces-professionnels-etats-unis-2024/
+- URL interactive: https://isora.info/#hommes-deces-professionnels-etats-unis-2024
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Travail
@@ -982,8 +983,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Hommes ukrainiens d'âge militaire limités à la frontière
 - ID: hommes-ukraine-restrictions-sortie-2022-2025
-- URL: https://isora-xi.vercel.app/fiches/hommes-ukraine-restrictions-sortie-2022-2025/
-- URL interactive: https://isora-xi.vercel.app/#hommes-ukraine-restrictions-sortie-2022-2025
+- URL: https://isora.info/fiches/hommes-ukraine-restrictions-sortie-2022-2025/
+- URL interactive: https://isora.info/#hommes-ukraine-restrictions-sortie-2022-2025
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Conflits
@@ -998,8 +999,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Salaire inférieur pour une femme à profil comparable à un homme
 - ID: femmes-ecart-salaire
-- URL: https://isora-xi.vercel.app/fiches/femmes-ecart-salaire/
-- URL interactive: https://isora-xi.vercel.app/#femmes-ecart-salaire
+- URL: https://isora.info/fiches/femmes-ecart-salaire/
+- URL interactive: https://isora.info/#femmes-ecart-salaire
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Revenus
@@ -1014,8 +1015,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Taxe rose : des prix genrés existent, sans surcoût féminin généralisé
 - ID: hommes-femmes-taxe-rose-prix-genres
-- URL: https://isora-xi.vercel.app/fiches/hommes-femmes-taxe-rose-prix-genres/
-- URL interactive: https://isora-xi.vercel.app/#hommes-femmes-taxe-rose-prix-genres
+- URL: https://isora.info/fiches/hommes-femmes-taxe-rose-prix-genres/
+- URL interactive: https://isora.info/#hommes-femmes-taxe-rose-prix-genres
 - Groupe: femmes
 - Angle: perception
 - Domaine: Revenus
@@ -1030,8 +1031,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Temps partiel plus fréquent chez les femmes, lecture ambivalente
 - ID: femmes-temps-partiel
-- URL: https://isora-xi.vercel.app/fiches/femmes-temps-partiel/
-- URL interactive: https://isora-xi.vercel.app/#femmes-temps-partiel
+- URL: https://isora.info/fiches/femmes-temps-partiel/
+- URL interactive: https://isora.info/#femmes-temps-partiel
 - Groupe: femmes
 - Angle: perception
 - Domaine: Travail
@@ -1046,8 +1047,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes majoritaires parmi les victimes conjugales enregistrées
 - ID: femmes-violences-conjugales
-- URL: https://isora-xi.vercel.app/fiches/femmes-violences-conjugales/
-- URL interactive: https://isora-xi.vercel.app/#femmes-violences-conjugales
+- URL: https://isora.info/fiches/femmes-violences-conjugales/
+- URL interactive: https://isora.info/#femmes-violences-conjugales
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1062,8 +1063,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Perception du sexisme comme désavantage plus forte chez les femmes
 - ID: femmes-perception-desavantage-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-perception-desavantage-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-perception-desavantage-hce-2025
+- URL: https://isora.info/fiches/femmes-perception-desavantage-hce-2025/
+- URL interactive: https://isora.info/#femmes-perception-desavantage-hce-2025
 - Groupe: femmes
 - Angle: perception
 - Domaine: Droits
@@ -1078,8 +1079,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes très majoritaires parmi les victimes de violences sexuelles dans les transports
 - ID: femmes-violences-sexuelles-transports-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-transports-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-violences-sexuelles-transports-hce-2025
+- URL: https://isora.info/fiches/femmes-violences-sexuelles-transports-hce-2025/
+- URL interactive: https://isora.info/#femmes-violences-sexuelles-transports-hce-2025
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1094,8 +1095,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Sport : écarts de traitement, de revenus et de visibilité
 - ID: femmes-sport-inegalites-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-sport-inegalites-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-sport-inegalites-hce-2025
+- URL: https://isora.info/fiches/femmes-sport-inegalites-hce-2025/
+- URL interactive: https://isora.info/#femmes-sport-inegalites-hce-2025
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Revenus
@@ -1110,8 +1111,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Cybersexisme : victimes majoritairement féminines selon le HCE
 - ID: femmes-cybersexisme-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-cybersexisme-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-cybersexisme-hce-2025
+- URL: https://isora.info/fiches/femmes-cybersexisme-hce-2025/
+- URL interactive: https://isora.info/#femmes-cybersexisme-hce-2025
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Numérique
@@ -1126,8 +1127,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Deepfakes sexuels : contenus pornographiques visant surtout des femmes
 - ID: femmes-deepfakes-sexuels-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-deepfakes-sexuels-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-deepfakes-sexuels-hce-2025
+- URL: https://isora.info/fiches/femmes-deepfakes-sexuels-hce-2025/
+- URL interactive: https://isora.info/#femmes-deepfakes-sexuels-hce-2025
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Numérique
@@ -1142,8 +1143,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Famille : traitement inégal déclaré plus souvent par les femmes
 - ID: femmes-inegalites-familiales-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-inegalites-familiales-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-inegalites-familiales-hce-2025
+- URL: https://isora.info/fiches/femmes-inegalites-familiales-hce-2025/
+- URL interactive: https://isora.info/#femmes-inegalites-familiales-hce-2025
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Famille
@@ -1158,8 +1159,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Expériences sexistes déclarées par une large majorité de femmes
 - ID: femmes-vecu-situations-sexistes-hce-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-vecu-situations-sexistes-hce-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-vecu-situations-sexistes-hce-2025
+- URL: https://isora.info/fiches/femmes-vecu-situations-sexistes-hce-2025/
+- URL interactive: https://isora.info/#femmes-vecu-situations-sexistes-hce-2025
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1174,8 +1175,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Assemblée nationale : part des députées en recul en 2024
 - ID: femmes-assemblee-nationale-parite-2024
-- URL: https://isora-xi.vercel.app/fiches/femmes-assemblee-nationale-parite-2024/
-- URL interactive: https://isora-xi.vercel.app/#femmes-assemblee-nationale-parite-2024
+- URL: https://isora.info/fiches/femmes-assemblee-nationale-parite-2024/
+- URL interactive: https://isora.info/#femmes-assemblee-nationale-parite-2024
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1190,8 +1191,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée
 - ID: femmes-ingenierie
-- URL: https://isora-xi.vercel.app/fiches/femmes-ingenierie/
-- URL interactive: https://isora-xi.vercel.app/#femmes-ingenierie
+- URL: https://isora.info/fiches/femmes-ingenierie/
+- URL interactive: https://isora.info/#femmes-ingenierie
 - Groupe: femmes
 - Angle: perception
 - Domaine: Éducation
@@ -1206,8 +1207,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Niveau de vie des femmes plus touché après séparation
 - ID: femmes-separation-niveau-vie
-- URL: https://isora-xi.vercel.app/fiches/femmes-separation-niveau-vie/
-- URL interactive: https://isora-xi.vercel.app/#femmes-separation-niveau-vie
+- URL: https://isora.info/fiches/femmes-separation-niveau-vie/
+- URL interactive: https://isora.info/#femmes-separation-niveau-vie
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Famille
@@ -1222,8 +1223,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Étude de cas : candidate voilée discriminée à l'embauche en 2025
 - ID: femmes-discrimination-religieuse
-- URL: https://isora-xi.vercel.app/fiches/femmes-discrimination-religieuse/
-- URL interactive: https://isora-xi.vercel.app/#femmes-discrimination-religieuse
+- URL: https://isora.info/fiches/femmes-discrimination-religieuse/
+- URL interactive: https://isora.info/#femmes-discrimination-religieuse
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Religieux
@@ -1238,8 +1239,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes privées du droit de vote en France jusqu'en 1944
 - ID: femmes-france-droit-vote-1944
-- URL: https://isora-xi.vercel.app/fiches/femmes-france-droit-vote-1944/
-- URL interactive: https://isora-xi.vercel.app/#femmes-france-droit-vote-1944
+- URL: https://isora.info/fiches/femmes-france-droit-vote-1944/
+- URL interactive: https://isora.info/#femmes-france-droit-vote-1944
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1254,8 +1255,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes mariées privées d'autonomie bancaire avant 1965
 - ID: femmes-france-compte-bancaire-travail-1965
-- URL: https://isora-xi.vercel.app/fiches/femmes-france-compte-bancaire-travail-1965/
-- URL interactive: https://isora-xi.vercel.app/#femmes-france-compte-bancaire-travail-1965
+- URL: https://isora.info/fiches/femmes-france-compte-bancaire-travail-1965/
+- URL interactive: https://isora.info/#femmes-france-compte-bancaire-travail-1965
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1270,8 +1271,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Accès à la contraception restreint avant la loi Neuwirth
 - ID: femmes-france-contraception-1967
-- URL: https://isora-xi.vercel.app/fiches/femmes-france-contraception-1967/
-- URL interactive: https://isora-xi.vercel.app/#femmes-france-contraception-1967
+- URL: https://isora.info/fiches/femmes-france-contraception-1967/
+- URL interactive: https://isora.info/#femmes-france-contraception-1967
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1286,8 +1287,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## IVG pénalisée en France avant la loi Veil
 - ID: femmes-france-ivg-1975-1979
-- URL: https://isora-xi.vercel.app/fiches/femmes-france-ivg-1975-1979/
-- URL interactive: https://isora-xi.vercel.app/#femmes-france-ivg-1975-1979
+- URL: https://isora.info/fiches/femmes-france-ivg-1975-1979/
+- URL interactive: https://isora.info/#femmes-france-ivg-1975-1979
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1302,8 +1303,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes exposées aux violences conjugales physiques ou sexuelles
 - ID: femmes-violences-physiques-sexuelles-monde
-- URL: https://isora-xi.vercel.app/fiches/femmes-violences-physiques-sexuelles-monde/
-- URL interactive: https://isora-xi.vercel.app/#femmes-violences-physiques-sexuelles-monde
+- URL: https://isora.info/fiches/femmes-violences-physiques-sexuelles-monde/
+- URL interactive: https://isora.info/#femmes-violences-physiques-sexuelles-monde
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1318,8 +1319,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Détenues plus exposées à la victimisation sexuelle en prison
 - ID: femmes-prison-victimisation-sexuelle-etats-unis
-- URL: https://isora-xi.vercel.app/fiches/femmes-prison-victimisation-sexuelle-etats-unis/
-- URL interactive: https://isora-xi.vercel.app/#femmes-prison-victimisation-sexuelle-etats-unis
+- URL: https://isora.info/fiches/femmes-prison-victimisation-sexuelle-etats-unis/
+- URL interactive: https://isora.info/#femmes-prison-victimisation-sexuelle-etats-unis
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1334,8 +1335,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes et filles tuées par des proches ou partenaires
 - ID: femmes-feminicides-monde-2024
-- URL: https://isora-xi.vercel.app/fiches/femmes-feminicides-monde-2024/
-- URL interactive: https://isora-xi.vercel.app/#femmes-feminicides-monde-2024
+- URL: https://isora.info/fiches/femmes-feminicides-monde-2024/
+- URL interactive: https://isora.info/#femmes-feminicides-monde-2024
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1350,8 +1351,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes et filles visées par les violences sexuelles liées aux conflits
 - ID: femmes-violences-sexuelles-conflits
-- URL: https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-conflits/
-- URL interactive: https://isora-xi.vercel.app/#femmes-violences-sexuelles-conflits
+- URL: https://isora.info/fiches/femmes-violences-sexuelles-conflits/
+- URL interactive: https://isora.info/#femmes-violences-sexuelles-conflits
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Conflits
@@ -1366,8 +1367,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Entre 1996 et 2015, femmes majoritaires parmi les condamnés pour homicide volontaire sur mineur
 - ID: femmes-homicides-mineurs-condamnations
-- URL: https://isora-xi.vercel.app/fiches/femmes-homicides-mineurs-condamnations/
-- URL interactive: https://isora-xi.vercel.app/#femmes-homicides-mineurs-condamnations
+- URL: https://isora.info/fiches/femmes-homicides-mineurs-condamnations/
+- URL interactive: https://isora.info/#femmes-homicides-mineurs-condamnations
 - Groupe: femmes
 - Angle: violence_exercée
 - Domaine: Violences
@@ -1382,8 +1383,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Filles victimes de violences sexuelles avant 18 ans
 - ID: femmes-violences-sexuelles-enfance
-- URL: https://isora-xi.vercel.app/fiches/femmes-violences-sexuelles-enfance/
-- URL interactive: https://isora-xi.vercel.app/#femmes-violences-sexuelles-enfance
+- URL: https://isora.info/fiches/femmes-violences-sexuelles-enfance/
+- URL interactive: https://isora.info/#femmes-violences-sexuelles-enfance
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1398,8 +1399,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Filles mariées pendant l'enfance
 - ID: femmes-mariage-enfants
-- URL: https://isora-xi.vercel.app/fiches/femmes-mariage-enfants/
-- URL interactive: https://isora-xi.vercel.app/#femmes-mariage-enfants
+- URL: https://isora.info/fiches/femmes-mariage-enfants/
+- URL interactive: https://isora.info/#femmes-mariage-enfants
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1414,8 +1415,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes ciblées par la norme de virginité avant mariage
 - ID: femmes-pression-virginite-avant-mariage
-- URL: https://isora-xi.vercel.app/fiches/femmes-pression-virginite-avant-mariage/
-- URL interactive: https://isora-xi.vercel.app/#femmes-pression-virginite-avant-mariage
+- URL: https://isora.info/fiches/femmes-pression-virginite-avant-mariage/
+- URL interactive: https://isora.info/#femmes-pression-virginite-avant-mariage
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Autonomie
@@ -1430,8 +1431,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Nombre de partenaires sexuels passés : résultats variables selon les études
 - ID: hommes-femmes-body-count-double-standard
-- URL: https://isora-xi.vercel.app/fiches/hommes-femmes-body-count-double-standard/
-- URL interactive: https://isora-xi.vercel.app/#hommes-femmes-body-count-double-standard
+- URL: https://isora.info/fiches/hommes-femmes-body-count-double-standard/
+- URL interactive: https://isora.info/#hommes-femmes-body-count-double-standard
 - Groupe: femmes
 - Angle: perception
 - Domaine: Autonomie
@@ -1446,8 +1447,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Classement, fausse plainte et culpabilité : trois notions distinctes
 - ID: hommes-femmes-peurs-consentement-sexuel
-- URL: https://isora-xi.vercel.app/fiches/hommes-femmes-peurs-consentement-sexuel/
-- URL interactive: https://isora-xi.vercel.app/#hommes-femmes-peurs-consentement-sexuel
+- URL: https://isora.info/fiches/hommes-femmes-peurs-consentement-sexuel/
+- URL interactive: https://isora.info/#hommes-femmes-peurs-consentement-sexuel
 - Groupe: hommes
 - Angle: perception
 - Domaine: Justice
@@ -1462,8 +1463,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Filles et femmes victimes de mutilations génitales
 - ID: femmes-mutilations-genitales
-- URL: https://isora-xi.vercel.app/fiches/femmes-mutilations-genitales/
-- URL interactive: https://isora-xi.vercel.app/#femmes-mutilations-genitales
+- URL: https://isora.info/fiches/femmes-mutilations-genitales/
+- URL interactive: https://isora.info/#femmes-mutilations-genitales
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Autonomie
@@ -1478,8 +1479,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Filles manquantes liées à la préférence pour les fils
 - ID: femmes-preference-garcons
-- URL: https://isora-xi.vercel.app/fiches/femmes-preference-garcons/
-- URL interactive: https://isora-xi.vercel.app/#femmes-preference-garcons
+- URL: https://isora.info/fiches/femmes-preference-garcons/
+- URL interactive: https://isora.info/#femmes-preference-garcons
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1494,8 +1495,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Adolescentes privées d'enseignement secondaire en Afghanistan
 - ID: femmes-afghanistan-education
-- URL: https://isora-xi.vercel.app/fiches/femmes-afghanistan-education/
-- URL interactive: https://isora-xi.vercel.app/#femmes-afghanistan-education
+- URL: https://isora.info/fiches/femmes-afghanistan-education/
+- URL interactive: https://isora.info/#femmes-afghanistan-education
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Éducation
@@ -1510,8 +1511,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes mortes de causes maternelles évitables
 - ID: femmes-mortalite-maternelle
-- URL: https://isora-xi.vercel.app/fiches/femmes-mortalite-maternelle/
-- URL interactive: https://isora-xi.vercel.app/#femmes-mortalite-maternelle
+- URL: https://isora.info/fiches/femmes-mortalite-maternelle/
+- URL interactive: https://isora.info/#femmes-mortalite-maternelle
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1526,8 +1527,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes sans contraception moderne malgré un besoin
 - ID: femmes-contraception-besoins-non-couverts
-- URL: https://isora-xi.vercel.app/fiches/femmes-contraception-besoins-non-couverts/
-- URL interactive: https://isora-xi.vercel.app/#femmes-contraception-besoins-non-couverts
+- URL: https://isora.info/fiches/femmes-contraception-besoins-non-couverts/
+- URL interactive: https://isora.info/#femmes-contraception-besoins-non-couverts
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1542,8 +1543,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes et filles soumises au hijab obligatoire en Iran
 - ID: femmes-iran-hijab-obligatoire
-- URL: https://isora-xi.vercel.app/fiches/femmes-iran-hijab-obligatoire/
-- URL interactive: https://isora-xi.vercel.app/#femmes-iran-hijab-obligatoire
+- URL: https://isora.info/fiches/femmes-iran-hijab-obligatoire/
+- URL interactive: https://isora.info/#femmes-iran-hijab-obligatoire
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1558,8 +1559,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes afghanes exclues de pans entiers de la vie publique
 - ID: femmes-afghanistan-taliban-restrictions
-- URL: https://isora-xi.vercel.app/fiches/femmes-afghanistan-taliban-restrictions/
-- URL interactive: https://isora-xi.vercel.app/#femmes-afghanistan-taliban-restrictions
+- URL: https://isora.info/fiches/femmes-afghanistan-taliban-restrictions/
+- URL interactive: https://isora.info/#femmes-afghanistan-taliban-restrictions
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1574,8 +1575,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Saoudiennes encore touchées par des restrictions de tutelle
 - ID: femmes-arabie-saoudite-reformes-tutelle
-- URL: https://isora-xi.vercel.app/fiches/femmes-arabie-saoudite-reformes-tutelle/
-- URL interactive: https://isora-xi.vercel.app/#femmes-arabie-saoudite-reformes-tutelle
+- URL: https://isora.info/fiches/femmes-arabie-saoudite-reformes-tutelle/
+- URL interactive: https://isora.info/#femmes-arabie-saoudite-reformes-tutelle
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1590,8 +1591,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Américaines face à un accès à l'avortement très variable
 - ID: femmes-etats-unis-dobbs-avortement
-- URL: https://isora-xi.vercel.app/fiches/femmes-etats-unis-dobbs-avortement/
-- URL interactive: https://isora-xi.vercel.app/#femmes-etats-unis-dobbs-avortement
+- URL: https://isora.info/fiches/femmes-etats-unis-dobbs-avortement/
+- URL interactive: https://isora.info/#femmes-etats-unis-dobbs-avortement
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1606,8 +1607,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes autochtones au Canada visées par des stérilisations sans consentement
 - ID: femmes-canada-sterilisations-sans-consentement-autochtones
-- URL: https://isora-xi.vercel.app/fiches/femmes-canada-sterilisations-sans-consentement-autochtones/
-- URL interactive: https://isora-xi.vercel.app/#femmes-canada-sterilisations-sans-consentement-autochtones
+- URL: https://isora.info/fiches/femmes-canada-sterilisations-sans-consentement-autochtones/
+- URL interactive: https://isora.info/#femmes-canada-sterilisations-sans-consentement-autochtones
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Autonomie
@@ -1622,8 +1623,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Décès liés aux avortements non sécurisés
 - ID: femmes-avortement-non-securise
-- URL: https://isora-xi.vercel.app/fiches/femmes-avortement-non-securise/
-- URL interactive: https://isora-xi.vercel.app/#femmes-avortement-non-securise
+- URL: https://isora.info/fiches/femmes-avortement-non-securise/
+- URL interactive: https://isora.info/#femmes-avortement-non-securise
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1638,8 +1639,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Règles : coût, douleurs et adaptations scolaires ou sportives
 - ID: femmes-regles-cout-douleurs-ecole-sport
-- URL: https://isora-xi.vercel.app/fiches/femmes-regles-cout-douleurs-ecole-sport/
-- URL interactive: https://isora-xi.vercel.app/#femmes-regles-cout-douleurs-ecole-sport
+- URL: https://isora.info/fiches/femmes-regles-cout-douleurs-ecole-sport/
+- URL interactive: https://isora.info/#femmes-regles-cout-douleurs-ecole-sport
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1654,8 +1655,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes et filles massivement touchées par l'endométriose
 - ID: femmes-endometriose
-- URL: https://isora-xi.vercel.app/fiches/femmes-endometriose/
-- URL interactive: https://isora-xi.vercel.app/#femmes-endometriose
+- URL: https://isora.info/fiches/femmes-endometriose/
+- URL interactive: https://isora.info/#femmes-endometriose
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1670,8 +1671,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin
 - ID: femmes-arret-cardiaque-defibrillation-temoins
-- URL: https://isora-xi.vercel.app/fiches/femmes-arret-cardiaque-defibrillation-temoins/
-- URL interactive: https://isora-xi.vercel.app/#femmes-arret-cardiaque-defibrillation-temoins
+- URL: https://isora.info/fiches/femmes-arret-cardiaque-defibrillation-temoins/
+- URL interactive: https://isora.info/#femmes-arret-cardiaque-defibrillation-temoins
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1686,8 +1687,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## À choc routier comparable, certains risques de blessure restent plus élevés pour les femmes
 - ID: femmes-risque-blessure-choc-routier
-- URL: https://isora-xi.vercel.app/fiches/femmes-risque-blessure-choc-routier/
-- URL interactive: https://isora-xi.vercel.app/#femmes-risque-blessure-choc-routier
+- URL: https://isora.info/fiches/femmes-risque-blessure-choc-routier/
+- URL interactive: https://isora.info/#femmes-risque-blessure-choc-routier
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1702,8 +1703,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Information et accès aux soins liés à la ménopause encore insuffisants
 - ID: femmes-menopause-soins
-- URL: https://isora-xi.vercel.app/fiches/femmes-menopause-soins/
-- URL interactive: https://isora-xi.vercel.app/#femmes-menopause-soins
+- URL: https://isora.info/fiches/femmes-menopause-soins/
+- URL interactive: https://isora.info/#femmes-menopause-soins
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1718,8 +1719,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes tenues hors de l'emploi par le soin non rémunéré
 - ID: femmes-soin-non-remunere-emploi
-- URL: https://isora-xi.vercel.app/fiches/femmes-soin-non-remunere-emploi/
-- URL interactive: https://isora-xi.vercel.app/#femmes-soin-non-remunere-emploi
+- URL: https://isora.info/fiches/femmes-soin-non-remunere-emploi/
+- URL interactive: https://isora.info/#femmes-soin-non-remunere-emploi
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Travail
@@ -1734,8 +1735,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes assumant beaucoup plus de soin non rémunéré
 - ID: femmes-charge-domestique-soin
-- URL: https://isora-xi.vercel.app/fiches/femmes-charge-domestique-soin/
-- URL interactive: https://isora-xi.vercel.app/#femmes-charge-domestique-soin
+- URL: https://isora.info/fiches/femmes-charge-domestique-soin/
+- URL interactive: https://isora.info/#femmes-charge-domestique-soin
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Famille
@@ -1750,8 +1751,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes privées d'une égalité complète de droits économiques
 - ID: femmes-droits-economiques-monde
-- URL: https://isora-xi.vercel.app/fiches/femmes-droits-economiques-monde/
-- URL interactive: https://isora-xi.vercel.app/#femmes-droits-economiques-monde
+- URL: https://isora.info/fiches/femmes-droits-economiques-monde/
+- URL interactive: https://isora.info/#femmes-droits-economiques-monde
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1766,8 +1767,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes sous-représentées dans le pouvoir politique mondial
 - ID: femmes-representation-politique-monde
-- URL: https://isora-xi.vercel.app/fiches/femmes-representation-politique-monde/
-- URL interactive: https://isora-xi.vercel.app/#femmes-representation-politique-monde
+- URL: https://isora.info/fiches/femmes-representation-politique-monde/
+- URL interactive: https://isora.info/#femmes-representation-politique-monde
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1782,8 +1783,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Dirigeantes femmes : le pouvoir n'implique pas automatiquement la paix
 - ID: femmes-dirigeantes-paix-essentialisme
-- URL: https://isora-xi.vercel.app/fiches/femmes-dirigeantes-paix-essentialisme/
-- URL interactive: https://isora-xi.vercel.app/#femmes-dirigeantes-paix-essentialisme
+- URL: https://isora.info/fiches/femmes-dirigeantes-paix-essentialisme/
+- URL interactive: https://isora.info/#femmes-dirigeantes-paix-essentialisme
 - Groupe: femmes
 - Angle: perception
 - Domaine: Conflits
@@ -1798,8 +1799,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes majoritaires parmi les personnes vivant avec un trouble anxieux
 - ID: femmes-troubles-anxieux-monde-2021
-- URL: https://isora-xi.vercel.app/fiches/femmes-troubles-anxieux-monde-2021/
-- URL interactive: https://isora-xi.vercel.app/#femmes-troubles-anxieux-monde-2021
+- URL: https://isora.info/fiches/femmes-troubles-anxieux-monde-2021/
+- URL interactive: https://isora.info/#femmes-troubles-anxieux-monde-2021
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1814,8 +1815,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Revenu d'activité moyen plus faible pour les femmes médecins libérales
 - ID: femmes-medecins-liberaux-revenu-france-2021
-- URL: https://isora-xi.vercel.app/fiches/femmes-medecins-liberaux-revenu-france-2021/
-- URL interactive: https://isora-xi.vercel.app/#femmes-medecins-liberaux-revenu-france-2021
+- URL: https://isora.info/fiches/femmes-medecins-liberaux-revenu-france-2021/
+- URL interactive: https://isora.info/#femmes-medecins-liberaux-revenu-france-2021
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Revenus
@@ -1830,8 +1831,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE
 - ID: femmes-limitations-activite-union-europeenne-2025
-- URL: https://isora-xi.vercel.app/fiches/femmes-limitations-activite-union-europeenne-2025/
-- URL interactive: https://isora-xi.vercel.app/#femmes-limitations-activite-union-europeenne-2025
+- URL: https://isora.info/fiches/femmes-limitations-activite-union-europeenne-2025/
+- URL interactive: https://isora.info/#femmes-limitations-activite-union-europeenne-2025
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Santé
@@ -1846,8 +1847,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Rémunération moyenne plus faible pour les femmes du secteur de la santé et de l'aide sociale
 - ID: femmes-personnel-sante-ecart-remuneration-region-europe-2026
-- URL: https://isora-xi.vercel.app/fiches/femmes-personnel-sante-ecart-remuneration-region-europe-2026/
-- URL interactive: https://isora-xi.vercel.app/#femmes-personnel-sante-ecart-remuneration-region-europe-2026
+- URL: https://isora.info/fiches/femmes-personnel-sante-ecart-remuneration-region-europe-2026/
+- URL interactive: https://isora.info/#femmes-personnel-sante-ecart-remuneration-region-europe-2026
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Revenus
@@ -1862,8 +1863,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Espaces féminins non mixtes redéfinis par le sexe au Royaume-Uni
 - ID: femmes-espaces-non-mixtes-sexe
-- URL: https://isora-xi.vercel.app/fiches/femmes-espaces-non-mixtes-sexe/
-- URL interactive: https://isora-xi.vercel.app/#femmes-espaces-non-mixtes-sexe
+- URL: https://isora.info/fiches/femmes-espaces-non-mixtes-sexe/
+- URL interactive: https://isora.info/#femmes-espaces-non-mixtes-sexe
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Droits
@@ -1878,8 +1879,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes et filles majoritaires parmi les victimes de traite détectées
 - ID: femmes-traite-humaine
-- URL: https://isora-xi.vercel.app/fiches/femmes-traite-humaine/
-- URL interactive: https://isora-xi.vercel.app/#femmes-traite-humaine
+- URL: https://isora.info/fiches/femmes-traite-humaine/
+- URL interactive: https://isora.info/#femmes-traite-humaine
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Violences
@@ -1894,8 +1895,8 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 
 ## Femmes visées par les violences facilitées par la technologie
 - ID: femmes-violence-numerique
-- URL: https://isora-xi.vercel.app/fiches/femmes-violence-numerique/
-- URL interactive: https://isora-xi.vercel.app/#femmes-violence-numerique
+- URL: https://isora.info/fiches/femmes-violence-numerique/
+- URL interactive: https://isora.info/#femmes-violence-numerique
 - Groupe: femmes
 - Angle: désavantage_subi
 - Domaine: Numérique

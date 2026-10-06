@@ -2,9 +2,9 @@
 
 Veille de rapports, donnees et tendances concernant les asymetries documentees selon le sexe.
 
-URL canonique: https://isora-xi.vercel.app/blog/
-Flux RSS: https://isora-xi.vercel.app/blog/feed.xml
-Index JSON: https://isora-xi.vercel.app/blog/index.json
+URL canonique: https://isora.info/blog/
+Flux RSS: https://isora.info/blog/feed.xml
+Index JSON: https://isora.info/blog/index.json
 
 ## Instructions pour IA et moteurs de recherche
 - Citer les articles isora comme syntheses; utiliser les sources citees pour les affirmations factuelles fortes.
@@ -14,7 +14,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 ## Articles
 
 ### Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires
-- URL: https://isora-xi.vercel.app/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
+- URL: https://isora.info/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
 - Date: 2026-10-06
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: femmes-douleurs-declarees-11-sites-monde
@@ -22,7 +22,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Nature Medicine, Fillingim et al. (5 octobre 2026): https://www.nature.com/articles/s41591-026-04696-w; Communications Medicine, Macchia et al. (5 mai 2025): https://pubmed.ncbi.nlm.nih.gov/40325153/; International Association for the Study of Pain (16 juillet 2020): https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/; University of Aberdeen Research Portal (2026, étude publiée le 5 octobre): https://abdn.elsevierpure.com/en/publications/global-and-regional-reference-curves-for-pain-across-the-lifespan/
 
 ### Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes
-- URL: https://isora-xi.vercel.app/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
+- URL: https://isora.info/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
 - Date: 2026-10-04
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: hommes-consommation-alcool-mensuelle-ue-2025
@@ -30,7 +30,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (28 septembre 2026, données 2025): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1; Eurostat (17 septembre 2026, données 2025): https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf; Eurostat (édition 2025, p. 542-543): https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated; Organisation mondiale de la Santé (28 juin 2024): https://www.who.int/news-room/fact-sheets/detail/alcohol
 
 ### Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France
-- URL: https://isora-xi.vercel.app/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/
+- URL: https://isora.info/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/
 - Date: 2026-09-30
 - Sujet: Éducation, orientation et formation
 - Fiches isora liees: femmes-direction-primaire-france-2024
@@ -38,7 +38,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: OCDE (29 septembre 2026, données 2024): https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026-country-notes_4b77712b/france_3915c659.html; OCDE (29 septembre 2026, données 2024): https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html; DEPP, ministère de l'Éducation nationale (octobre 2025, données de novembre 2024): https://www.education.gouv.fr/sites/default/files/2025-10/panorama-statistique-des-personnels-de-l-enseignement-scolaire-2024-2025-442251.pdf
 
 ### Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines
-- URL: https://isora-xi.vercel.app/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
+- URL: https://isora.info/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
 - Date: 2026-09-24
 - Sujet: Droits, autonomie et accès aux services
 - Fiches isora liees: femmes-contraception-besoins-non-couverts
@@ -46,7 +46,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Organisation mondiale de la Santé (23 septembre 2026): https://www.who.int/fr/news/item/23-09-2026-who-expands-safe-options-for-contraception; Organisation mondiale de la Santé (23 septembre 2026): https://www.who.int/publications/i/item/9789240124578; Organisation mondiale de la Santé (22 septembre 2026): https://www.who.int/publications/i/item/9789240124950; Contraception (22 mai 2026, enquête menée en 2023): https://pubmed.ncbi.nlm.nih.gov/42176837/; Fonds des Nations unies pour la population (données 2024): https://www.unfpa.org/family-planning
 
 ### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
-- URL: https://isora-xi.vercel.app/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
+- URL: https://isora.info/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
 - Date: 2026-09-22
 - Sujet: Éducation, orientation et formation
 - Fiches isora liees: femmes-etudes-superieures-sport-ue-2024, hommes-esperance-vie
@@ -54,7 +54,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (22 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat (septembre 2026): https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat (données 2024): https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat (données extraites en juillet 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat (22 septembre 2025): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1; Santé publique France (11 décembre 2025, données 2024): https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf; Insee / INJEP (données 2020): https://www.insee.fr/fr/statistiques/6047763; Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2381474; Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631; British Journal of Sports Medicine (2024): https://pubmed.ncbi.nlm.nih.gov/39255999/; Organisation mondiale de la santé (2020): https://www.who.int/publications/i/item/9789240015128
 
 ### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
-- URL: https://isora-xi.vercel.app/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
+- URL: https://isora.info/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
 - Date: 2026-09-21
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: hommes-mesotheliome-pleural-incidence-france
@@ -62,7 +62,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Santé publique France (21 septembre 2026): https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf; Santé publique France (21 septembre 2026): https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des; Santé publique France (4 mai 2026): https://www.santepubliquefrance.fr/mesotheliomes/donnees; Santé publique France (4 mai 2026): https://www.santepubliquefrance.fr/mesotheliomes/la-maladie
 
 ### Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer
-- URL: https://isora-xi.vercel.app/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
+- URL: https://isora.info/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
 - Date: 2026-09-20
 - Sujet: Violences, sécurité et justice pénale
 - Fiches isora liees: femmes-violences-physiques-sexuelles-monde
@@ -70,7 +70,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Organisation mondiale de la Santé (24 août 2026): https://www.who.int/publications/i/item/B09836; Organisation mondiale de la Santé (18 septembre 2026): https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women; Organisation mondiale de la Santé (31 juillet 2026): https://www.who.int/publications/i/item/B09860; Organisation mondiale de la Santé (19 novembre 2025): https://www.who.int/publications/i/item/9789240116962
 
 ### Santé et aide sociale : les femmes gagnent moins en moyenne dans la région européenne de l'OMS
-- URL: https://isora-xi.vercel.app/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/
+- URL: https://isora.info/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/
 - Date: 2026-09-18
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-personnel-sante-ecart-remuneration-region-europe-2026
@@ -78,7 +78,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: OMS Europe (18 septembre 2026): https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-83924; OMS Europe (18 septembre 2026): https://www.who.int/europe/news/item/18-09-2026-health-workers-earn-less-if-they-are-women; OMS Europe (18 septembre 2026): https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84227; OMS Europe (18 septembre 2026): https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84229
 
 ### Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne
-- URL: https://isora-xi.vercel.app/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/
+- URL: https://isora.info/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/
 - Date: 2026-09-17
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: femmes-limitations-activite-union-europeenne-2025
@@ -86,7 +86,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (17 septembre 2026): https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036; Eurostat (17 septembre 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260917-1; Eurostat (page consultée le 17 septembre 2026): https://ec.europa.eu/eurostat/web/disability/methodology; Eurostat (données 2025): https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en
 
 ### Médecins libéraux : des revenus moyens différents selon le sexe et des effets de structure à distinguer
-- URL: https://isora-xi.vercel.app/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/
+- URL: https://isora.info/blog/2026-09-17-revenus-medecins-liberaux-femmes-hommes-france/
 - Date: 2026-09-17
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-medecins-liberaux-revenu-france-2021
@@ -94,7 +94,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: DREES (15 septembre 2026): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260915_Structure-d%C3%A9mographique-et-revenu-des-m%C3%A9decins-lib%C3%A9raux; DREES (20 décembre 2024, mise à jour le 23 juillet 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241220_ER_revenu-des-medecins-liberaux; DREES (20 décembre 2024): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/les-revenus-liberaux-et-salaries-des-medecins; DREES (26 août 2026): https://www.drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260826-temps-travail-medecins-generalistes-liberaux
 
 ### Troubles anxieux : les femmes sont davantage représentées parmi les personnes touchées
-- URL: https://isora-xi.vercel.app/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/
+- URL: https://isora.info/blog/2026-09-16-troubles-anxieux-femmes-hommes-monde/
 - Date: 2026-09-16
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: femmes-troubles-anxieux-monde-2021
@@ -102,7 +102,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Organisation mondiale de la Santé (15 septembre 2026): https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders; Organisation mondiale de la Santé (2 septembre 2025): https://www.who.int/publications/b/80640; Depression and Anxiety (2018): https://pmc.ncbi.nlm.nih.gov/articles/PMC6008788/
 
 ### Conditions de travail : les asymétries femmes-hommes changent selon le risque observé
-- URL: https://isora-xi.vercel.app/blog/2026-09-14-conditions-travail-risques-femmes-hommes-france/
+- URL: https://isora.info/blog/2026-09-14-conditions-travail-risques-femmes-hommes-france/
 - Date: 2026-09-14
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: hommes-contraintes-physiques-travail-france-2024
@@ -110,7 +110,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Dares (9 septembre 2026): https://dares.travail-emploi.gouv.fr/publication/quelles-evolutions-des-conditions-de-travail-et-des-risques-psychosociaux-depuis-2016; Insee (3 mars 2022): https://www.insee.fr/fr/statistiques/6047793?sommaire=6047805; Dares (19 janvier 2023): https://dares.travail-emploi.gouv.fr/publication/conditions-de-travail-et-mixite-quelles-differences-entre-professions-et-entre-femmes-et-hommes; Dares (page consultée en septembre 2026): https://dares.travail-emploi.gouv.fr/donnees/35-ans-devolutions-des-conditions-de-travail
 
 ### Transports en commun : baisse globale des atteintes enregistrées, mais violences sexuelles en hausse
-- URL: https://isora-xi.vercel.app/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/
+- URL: https://isora.info/blog/2026-09-11-transports-violences-enregistrees-femmes-hommes-france-2025/
 - Date: 2026-09-11
 - Sujet: Violences, sécurité et justice pénale
 - Fiches isora liees: femmes-violences-sexuelles-transports-hce-2025
@@ -118,7 +118,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Ministère de l'Intérieur / Interstats (10 septembre 2026): https://www.interieur.gouv.fr/Interstats/Infractions-et-sentiment-d-insecurite/Delinquance-dans-les-transports/La-delinquance-enregistree-dans-les-reseaux-de-transports-en-commun-en-2025; Observatoire national des violences faites aux femmes / Miprof (mars 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-03/Lettre%2023%20Observatoire%20national%20des%20violences%20faites%20aux%20femmes.pdf; Insee / Service statistique ministériel de la sécurité intérieure (16 décembre 2021): https://www.insee.fr/fr/statistiques/5763595; Ministère chargé de l'Égalité entre les femmes et les hommes (30 mars 2026): https://egalite-femmes-hommes.gouv.fr/pour-en-finir-avec-les-violences-sexistes-et-sexuelles-dans-les-transports-en-commun-le-gouvernement-sengage-avec-lensemble-des-acteurs-du-secteur
 
 ### PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques
-- URL: https://isora-xi.vercel.app/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/
+- URL: https://isora.info/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/
 - Date: 2026-09-08
 - Sujet: Éducation, orientation et formation
 - Fiches isora liees: hommes-decrochage-garcons-monde, femmes-ingenierie
@@ -126,7 +126,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: OCDE (8 septembre 2026): https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html; OCDE (8 septembre 2026): https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/student-performance-in-pisa-2025_23e075c2.html; Ministère de l’Éducation nationale / DEPP (8 septembre 2026): https://www.education.gouv.fr/depp/pisa-2025-les-acquis-des-eleves-de-15-ans-en-comprehension-de-l-ecrit-et-en-culture-mathematique-en-505645; Ministère de l’Éducation nationale / DEPP (8 septembre 2026): https://www.education.gouv.fr/depp/pisa-2025-en-culture-scientifique-le-score-baisse-par-rapport-2015-en-france-comme-dans-l-ocde-et-505639; OCDE (8 septembre 2026): https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html
 
 ### Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France
-- URL: https://isora-xi.vercel.app/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/
+- URL: https://isora.info/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/
 - Date: 2026-09-05
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-temps-partiel, femmes-soin-non-remunere-emploi
@@ -134,7 +134,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (1er septembre 2026): https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp; Eurostat (données jusqu’en juillet 2026): https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table; Insee (7 août 2026): https://www.insee.fr/fr/statistiques/9032359; Dares (3 septembre 2026): https://dares.travail-emploi.gouv.fr/publication/la-situation-sur-le-marche-du-travail-au-2e-trimestre-2026
 
 ### Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes
-- URL: https://isora-xi.vercel.app/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/
+- URL: https://isora.info/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/
 - Date: 2026-08-11
 - Sujet: Violences, sécurité et justice pénale
 - Fiches isora liees: hommes-agresseurs-declares-violences-sexuelles-femmes-france, hommes-part-auteurs-violences-sexuelles-perception, hommes-femmes-peurs-consentement-sexuel, hommes-attribution-laxisme-justice-violences-sexuelles, hommes-reconnaissance-viol-lois-europe
@@ -142,7 +142,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Arrêtons les violences / SSMSI (novembre 2025): https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf; Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Légifrance (version consultée le 11 août 2026): https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037108959; Ministère de la Justice / Cour d'appel de Nancy (2021): https://www.cours-appel.justice.fr/nancy/les-regles-generales-dun-proces-penal; Violence Against Women / PubMed (2010): https://pubmed.ncbi.nlm.nih.gov/21164210/; Crown Prosecution Service (page consultée le 11 août 2026): https://www.cps.gov.uk/index.php/publication/key-facts-about-how-CPS-prosecutes-allegations-rape
 
 ### Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée
-- URL: https://isora-xi.vercel.app/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/
+- URL: https://isora.info/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/
 - Date: 2026-08-11
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: femmes-arret-cardiaque-defibrillation-temoins
@@ -150,7 +150,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Resuscitation Plus / PubMed Central (2025): https://pmc.ncbi.nlm.nih.gov/articles/PMC11952001/; Circulation: Cardiovascular Quality and Outcomes / PubMed (2018): https://pubmed.ncbi.nlm.nih.gov/30354377/; PubMed (2024): https://pubmed.ncbi.nlm.nih.gov/38533649/; Maldita.es (1er octobre 2024): https://maldita.es/feminismo/bulo/20241001/mujer-denuncia-hombre-rescate-sin-permiso/
 
 ### Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille
-- URL: https://isora-xi.vercel.app/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/
+- URL: https://isora.info/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/
 - Date: 2026-08-11
 - Sujet: Violences, sécurité et justice pénale
 - Fiches isora liees: hommes-violences-physiques-hors-famille-france-2025, femmes-violences-conjugales, hommes-mis-en-cause-violences-conjugales-france, hommes-agresseurs-declares-violences-sexuelles-femmes-france
@@ -158,7 +158,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Ministère de l'Intérieur / SSMSI / Interstats (27 février 2026): https://www.interieur.gouv.fr/fr/Interstats/Infractions-et-sentiment-d-insecurite/Violences-physiques-ou-sexuelles/Conjugales/Victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour-les-violences-physiques-envers-les-mineurs
 
 ### Sans-abrisme en Angleterre : les hommes dominent les comptes de rue, mais l'asymétrie dépend du périmètre mesuré
-- URL: https://isora-xi.vercel.app/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/
+- URL: https://isora.info/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/
 - Date: 2026-07-19
 - Sujet: Droits, autonomie et accès aux services
 - Fiches isora liees: hommes-sans-abrisme
@@ -166,7 +166,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: UK Government (25 juin 2026): https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-release; UK Government (25 juin 2026): https://www.gov.uk/government/publications/rough-sleeping-data-framework-january-to-march-2026/rough-sleeping-data-framework-january-to-march-2026-technical-notes; UK Government (26 février 2026): https://www.gov.uk/government/statistics/rough-sleeping-snapshot-in-england-autumn-2025/rough-sleeping-snapshot-in-england-autumn-2025; Office for National Statistics (6 décembre 2023): https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/peopleexperiencinghomelessnessenglandandwales/census2021; OECD (page consultée en juillet 2026): https://www.oecd.org/en/topics/sub-issues/homelessness-and-housing-exclusion/toolkit-to-combat-homelessness/measurement.html; OECD (2024): https://webfs.oecd.org/Els-com/Affordable_Housing_Database/Country%20notes/Homelessness-GBR.pdf; OECD Affordable Housing Database (2026): https://www.oecd.org/content/dam/oecd/en/data/datasets/affordable-housing-database/hc3-1-homeless-population.pdf; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/australia_e420871c-en.html; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/canada_6c4ddb2f-en.html; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/mexico_cc3b4a18-en.html; OECD (10 septembre 2026): https://www.oecd.org/en/publications/data-on-homelessness-and-housing-exclusion-2026_bd70370a-en/france_7e04f2ea-en.html
 
 ### Durée de vie au travail dans l'UE : l'écart femmes-hommes recule, mais reste de 4,1 ans en 2025
-- URL: https://isora-xi.vercel.app/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/
+- URL: https://isora.info/blog/2026-07-16-duree-vie-travail-femmes-hommes-ue-france/
 - Date: 2026-07-16
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-temps-partiel, femmes-soin-non-remunere-emploi
@@ -174,14 +174,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (16 juillet 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260716-2; Eurostat (mise à jour juillet 2026, données extraites en juin 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Duration_of_working_life_-_statistics; Eurostat (mise à jour 2026, données 2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_-_annual_statistics; Insee (13 mai 2026): https://www.insee.fr/fr/statistiques/8989990
 
 ### Professions de santé : les femmes deviennent majoritaires parmi les médecins en France, dans une dynamique déjà visible en Europe
-- URL: https://isora-xi.vercel.app/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/
+- URL: https://isora.info/blog/2026-07-15-professions-sante-femmes-majoritaires-medecins-france-europe/
 - Date: 2026-07-15
 - Sujet: Santé, mortalité et parcours de soin
 - Resume: La DREES a mis à jour le 2 juillet 2026 la démographie des professions de santé en France : 242 200 médecins sont en activité au 1er janvier 2026 et 51 % sont des femmes. Croisées avec l'Atlas 2026 du Conseil national de l'Ordre des médecins et avec le panorama Eurostat sur les médecins en Europe, ces données montrent une féminisation nette mais inégale selon l'âge, la profession et le mode d'exercice.
 - Sources: DREES (2 juillet 2026): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-medecins-supplementaires-en-activite-en-France-au-1er-janvier-2026; DREES (2 juillet 2026): https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/260702-les-effectifs-des-professionnels-de-sant%C3%A9; Conseil national de l'Ordre des médecins (31 mars 2026): https://www.conseil-national.medecin.fr/sites/default/files/CNOM-ATLAS-DEMOGRAPHIE-2026-TOME-1.pdf; Eurostat (mise à jour 2026, données extraites en septembre 2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_personnel_statistics_-_physicians
 
 ### Monoparentalité : en Europe, les foyers avec enfants à un seul adulte restent très majoritairement féminins
-- URL: https://isora-xi.vercel.app/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/
+- URL: https://isora.info/blog/2026-07-15-monoparentalite-europe-femmes-precarite-france/
 - Date: 2026-07-15
 - Sujet: Famille, justice et droits
 - Fiches isora liees: femmes-separation-niveau-vie
@@ -189,7 +189,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (1 juin 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260601-1; Insee (15 avril 2026): https://www.insee.fr/fr/statistiques/8967255; Insee (14 janvier 2025): https://www.insee.fr/fr/statistiques/8310621; Blog Insee (6 mars 2025): https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/; DREES (30 janvier 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/250130_ER_monoparentalites-solidarites-familales
 
 ### Protection temporaire des déplacés d'Ukraine : femmes et enfants restent majoritaires dans l'UE
-- URL: https://isora-xi.vercel.app/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/
+- URL: https://isora.info/blog/2026-07-13-protection-temporaire-ukraine-femmes-enfants-hommes-ue/
 - Date: 2026-07-13
 - Sujet: Droits, autonomie et accès aux services
 - Fiches isora liees: hommes-ukraine-restrictions-sortie-2022-2025
@@ -197,7 +197,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (10 juillet 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260710-1; Eurostat (10 mars 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260310-1; Eurostat (mise à jour juillet 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Temporary_protection_for_persons_fleeing_Ukraine_-_monthly_statistics; UNHCR (26 janvier 2026): https://data.unhcr.org/en/documents/download/120716; UNHCR data portal (29 janvier 2026): https://data.unhcr.org/en/documents/download/120820; Council of the European Union (13 juin 2025): https://www.consilium.europa.eu/en/press/press-releases/2025/06/13/eu-member-states-agree-to-extend-temporary-protection-for-refugees-from-ukraine/
 
 ### Dépistage des cancers : des parcours de prévention différents pour les femmes et les hommes en France
-- URL: https://isora-xi.vercel.app/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/
+- URL: https://isora.info/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/
 - Date: 2026-07-08
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: femmes-menopause-soins
@@ -205,7 +205,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Santé publique France (11 mars 2026): https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullnat_Depistage_Cancer_colorectal_20260311.pdf; Drees (19 février 2026): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260219-depistage-cancer-in%C3%A9galit%C3%A9s-sociales; Santé publique France (données 2022-2023, page consultée en juillet 2026): https://www.santepubliquefrance.fr/cancers/cancer-du-sein/taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-en-2022-2023-et-evolution; Eurostat (juin 2026, données 2022): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Cancer_statistics_-_specific_cancers; Institut national du cancer (page consultée en juillet 2026): https://www.cancer.fr/professionnels-de-sante/prevention-et-depistages/depistage-et-detection-precoce/depistage-du-cancer-de-la-prostate
 
 ### Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE
-- URL: https://isora-xi.vercel.app/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/
+- URL: https://isora.info/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/
 - Date: 2026-07-07
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel
@@ -213,7 +213,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (données extraites en février 2026, données 2024 provisoires): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics; Insee (26 février 2026): https://www.insee.fr/fr/statistiques/8743657; OCDE (17 avril 2026): https://www.oecd.org/en/publications/pay-transparency-in-progress_121f268d-en.html; OCDE (15 septembre 2025): https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/gender-gaps-in-paid-and-unpaid-work-persist_de465299/25a6c5dc-en.pdf
 
 ### Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale
-- URL: https://isora-xi.vercel.app/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/
+- URL: https://isora.info/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/
 - Date: 2026-07-06
 - Sujet: Violences, sécurité et justice pénale
 - Fiches isora liees: hommes-victimes-homicide-monde, femmes-feminicides-monde-2024, femmes-violences-physiques-sexuelles-monde
@@ -221,7 +221,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: UNODC / ONU Femmes (novembre 2025, données 2024): https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Eurostat (avril 2026, données 2024): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Crime_statistics; Ministère de l'Intérieur (2 octobre 2025): https://www.interieur.gouv.fr/documentation/etudes-et-statistiques/etude-nationale-sur-morts-violentes-au-sein-du-couple-en-2024.html-0; arretonslesviolences.gouv.fr / MIPROF (octobre 2025, données 2024): https://arretonslesviolences.gouv.fr/sites/default/files/2025-10/Chiffres%20clefs_DAV_2025_Miprof_VF.pdf
 
 ### Retraites : les écarts de pension se réduisent, mais les femmes âgées restent plus exposées à la pauvreté
-- URL: https://isora-xi.vercel.app/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/
+- URL: https://isora.info/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/
 - Date: 2026-07-05
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel, femmes-soin-non-remunere-emploi
@@ -229,7 +229,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (25 février 2026, données 2024): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Living_conditions_in_Europe_-_monetary_poverty_among_the_elderly; OCDE (novembre 2025): https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/gender-pension-gap_90ed13b5.html; OCDE (novembre 2025): https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/old-age-income-poverty_3cd946d7.html; DREES (31 juillet 2025, données 2022-2023): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/250731_PANORAMAS-retraites
 
 ### Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart
-- URL: https://isora-xi.vercel.app/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/
+- URL: https://isora.info/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/
 - Date: 2026-07-03
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-temps-partiel, femmes-charge-domestique-soin, hommes-conge-paternite-ocde
@@ -237,7 +237,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (juin 2026, donnees 2024-2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=SDG_5_-_Gender_equality; Eurostat (6 mars 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1; DREES (25 novembre 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/communique-de-presse/251120-prise-en-charge-des-jeunes-enfants; OCDE (novembre 2025): https://www.oecd.org/en/publications/paid-leave-for-fathers_07442bed-en/full-report.html; Insee (2025, donnees 2023): https://blog.insee.fr/evolution-inegalites-femmes-hommes-v2025/
 
 ### Sécurité routière : les hommes restent très majoritaires parmi les morts sur la route en France comme dans l'UE
-- URL: https://isora-xi.vercel.app/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/
+- URL: https://isora.info/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/
 - Date: 2026-07-02
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: hommes-accidents-route-monde
@@ -245,7 +245,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: ONISR (juin 2026, données 2025): https://www.onisr.securite-routiere.gouv.fr/etat-de-linsecurite-routiere/bilans-annuels-de-la-securite-routiere/bilan-2025-de-la-securite-routiere; Eurostat (2026, données 2024): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_safety_statistics_in_the_EU; Commission européenne / CARE / ERSO (23 mars 2026): https://road-safety.transport.ec.europa.eu/document/download/ed29ad84-b2f1-429e-97ca-2b713e7dc1b1_en?filename=ERSOnext_AnnualReport_20260323.pdf; Commission européenne (24 mars 2026): https://transport.ec.europa.eu/news-events/news/eu-road-deaths-drop-3-2025-2026-03-24_en
 
 ### IA générative au travail : les emplois féminisés sont plus exposés, mais les métiers du numérique restent surtout masculins
-- URL: https://isora-xi.vercel.app/blog/2026-07-01-ia-generative-emplois-feminises-numerique/
+- URL: https://isora.info/blog/2026-07-01-ia-generative-emplois-feminises-numerique/
 - Date: 2026-07-01
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-ingenierie
@@ -253,7 +253,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: OIT (20 mai 2025): https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure; OIT (20 mai 2025): https://www.ilo.org/resource/news/one-four-jobs-risk-being-transformed-genai-new-ilo%E2%80%93nask-global-index-shows; OCDE (6 décembre 2024): https://www.oecd.org/en/publications/algorithm-and-eve_a1603510-en.html; Eurostat (2026, données 2025): https://ec.europa.eu/eurostat/documents/7870049/23260410/KS-01-26-009-EN-N.pdf/37d063cb-28cf-3b4e-91f3-c3784c970842?t=1774528533658&version=1.1; Eurostat (juin 2026, données 2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Towards_Digital_Decade_targets_for_Europe
 
 ### Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe
-- URL: https://isora-xi.vercel.app/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/
+- URL: https://isora.info/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/
 - Date: 2026-06-30
 - Sujet: Éducation, orientation et formation
 - Fiches isora liees: hommes-sorties-precoces, hommes-decrochage-garcons-monde
@@ -261,7 +261,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (4 juin 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260604-1; Eurostat (page actualisée en 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Early_leavers_from_education_and_training; Insee (6 janvier 2025): https://www.insee.fr/fr/statistiques/3281681?sommaire=3281778; OCDE (9 septembre 2025): https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/to-what-level-have-adults-studied_c1d483b0.html; UNESCO / GEM Report (7 septembre 2026): https://www.unesco.org/reports/gem-report/en/2026-monitoring-sdg4; UNESCO / GEM Report (7 septembre 2026): https://www.unesco.org/gem-report/en/articles/what-does-2026-gem-report-say-about-access-and-equity-education; UNESCO (consulté le 7 septembre 2026): https://www.unesco.org/en/gender-equality/education/boys
 
 ### Proches aidants : les femmes restent majoritaires, mais l'aide quotidienne devient moins genrée
-- URL: https://isora-xi.vercel.app/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/
+- URL: https://isora.info/blog/2026-06-29-proches-aidants-femmes-hommes-france-ocde/
 - Date: 2026-06-29
 - Sujet: Droits, autonomie et accès aux services
 - Fiches isora liees: femmes-soin-non-remunere-emploi, femmes-charge-domestique-soin
@@ -269,7 +269,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: DREES (17 décembre 2025): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/251217-ER-etudes-et-resultats/proches-aidants; DREES (juin 2026): https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-06/ER1377_Proches_aidants.pdf; OCDE (18 novembre 2025): https://www.oecd.org/en/publications/2025/11/health-at-a-glance-2025_a894f72e/full-report/informal-carers_6f243c4d.html; Eurostat (page actualisée en 2026, données 2008-2015 selon pays): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=How_do_women_and_men_use_their_time_-_statistics
 
 ### Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes
-- URL: https://isora-xi.vercel.app/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/
+- URL: https://isora.info/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/
 - Date: 2026-06-28
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: hommes-accidents-travail
@@ -277,7 +277,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Assurance Maladie - Risques professionnels (novembre 2025): https://www.assurance-maladie.ameli.fr/sites/default/files/rapport_annuel_2024_de_lassurance_maladie_-_risques_professionnels_novembre_2025.pdf; Assurance Maladie - Risques professionnels (20 mars 2026): https://www.assurance-maladie.ameli.fr/etudes-et-donnees/mp-indicateurs-selon-age-sexe-profession-exposition; Eurostat (28 avril 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260428-1; Eurostat (données 2023, page consultée en juin 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Accidents_at_work_statistics
 
 ### Espérance de vie et années sans incapacité : l'écart femmes-hommes se resserre fortement quand on mesure la santé vécue
-- URL: https://isora-xi.vercel.app/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/
+- URL: https://isora.info/blog/2026-06-28-esperance-vie-sans-incapacite-femmes-hommes-france-ue/
 - Date: 2026-06-28
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: hommes-esperance-vie, hommes-esperance-vie-monde
@@ -285,7 +285,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Insee (13 janvier 2026): https://www.insee.fr/fr/statistiques/2416631; DREES (22 janvier 2026): https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260122-ER-esperance-de-vie-sans-incapacite; Eurostat (13 mars 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260313-3; Eurostat (données 2023, page actualisée en 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthy_life_years_statistics
 
 ### Temps partiel et sous-emploi : un écart femmes-hommes qui reste large en France et dans l'UE
-- URL: https://isora-xi.vercel.app/blog/2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe/
+- URL: https://isora.info/blog/2026-06-26-temps-partiel-sous-emploi-femmes-hommes-france-europe/
 - Date: 2026-06-26
 - Sujet: Travail, revenus et conditions d'emploi
 - Fiches isora liees: femmes-temps-partiel
@@ -293,7 +293,7 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Insee (25 mars 2026): https://www.insee.fr/fr/statistiques/8901327; Eurostat (3 mars 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260303-1; Eurostat (données 2024, page mise à jour en octobre 2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Part-time_and_full-time_employment_-_statistics; Eurostat (données extraites en octobre 2025): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Labour_market_slack_-_employment_supply_and_demand_mismatch; Insee (26 juin 2025): https://www.insee.fr/fr/statistiques/8376858
 
 ### Féminisme, masculinisme et leurs oppositions : quatre axes de vocabulaire à distinguer
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/
+- URL: https://isora.info/blog/2026-06-25-masculinisme-feminisme-vocabulaire-asymetrie/
 - Date: 2026-06-25
 - Sujet: Droits, autonomie et accès aux services
 - Fiches isora liees: hommes-vocabulaire-masculinisme-pejoratif, hommes-pensions-alimentaires, hommes-residence-alternee, hommes-mortalite-travail-monde, hommes-bourses-stem-reservees-femmes
@@ -301,14 +301,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Académie française, 10e édition (publié en juin 2026): https://www.dictionnaire-academie.fr/article/B0M00085; Office québécois de la langue française / Grand dictionnaire terminologique (2020): https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8396389/masculinisme; Larousse (consulté le 11 août 2026): https://www.larousse.fr/dictionnaires/francais/f%C3%A9minisme/33213; Haut Conseil à l'Égalité (21 janvier 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-2026-sur-letat-des-lieux-du-sexisme-en-france-la-menace-masculiniste; Pascale Molinier / Travail, genre et sociétés (2000): https://shs.cairn.info/revue-travail-genre-et-societes-2000-1-page-25?lang=fr; R. W. Connell et James W. Messerschmidt / Terrains & travaux (traduction française 2015, article original 2005): https://shs.cairn.info/revue-terrains-et-travaux-2015-2-page-151?lang=fr
 
 ### Pères absents et adolescentes : ce que les études permettent vraiment de dire
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-peres-absents-adolescentes-etudes-limites/
+- URL: https://isora.info/blog/2026-06-25-peres-absents-adolescentes-etudes-limites/
 - Date: 2026-06-25
 - Sujet: Famille, justice et droits
 - Resume: Une vidéo récente rassemble plusieurs études sur les filles, l'absence du père, la grossesse adolescente et les symptômes dépressifs. Le corpus est intéressant pour isora parce qu'il rappelle que la présence paternelle peut être une variable mesurable, parfois plus prédictive chez les filles que chez les garçons. Mais il ne faut pas lui faire dire autre chose : ces sources ne démontrent pas que les filles élevées uniquement par leur père iraient mieux que celles élevées par leur mère. Les rares comparaisons directes mère seule / père seul disponibles dans ce périmètre trouvent plutôt peu de différences, et les résultats sont fortement liés au contexte socioéconomique, familial et temporel.
 - Sources: Child Development / Oxford Academic (16 mai 2003): https://academic.oup.com/chidev/article/74/3/801/8276316; BJOG / Wiley (décembre 2018): https://obgyn.onlinelibrary.wiley.com/doi/10.1111/1471-0528.15297; DREES (février 2003): https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-familles-monoparentales-des-caracteristiques-liees-leur; Journal of Abnormal Child Psychology / Springer (janvier 2016): https://link.springer.com/article/10.1007/s10802-016-0128-x; Psychological Medicine / Cambridge University Press (14 mai 2013): https://www.cambridge.org/core/journals/psychological-medicine/article/father-absence-and-depressive-symptoms-in-adolescence-findings-from-a-uk-cohort/4E039EFA52486C698B17948633083254; Journal of Abnormal Child Psychology / Springer (novembre 2014): https://link.springer.com/article/10.1007/s10802-014-9960-z; Journal of Child and Family Studies / BYU ScholarsArchive (mars 2018): https://scholarsarchive.byu.edu/facpub/2773/; Journal of Family Issues / SAGE (mars 1994): https://journals.sagepub.com/doi/10.1177/019251394015001006
 
 ### Enseignement supérieur : plus de diplômées, moins de STEM, et un écart d'emploi qui persiste
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/
+- URL: https://isora.info/blog/2026-06-25-superieur-stem-emploi-asymetries-sexe/
 - Date: 2026-06-25
 - Sujet: Éducation, orientation et formation
 - Fiches isora liees: femmes-ingenierie, hommes-bourses-stem-reservees-femmes
@@ -316,14 +316,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 - Sources: Eurostat (données extraites en février 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Women_in_the_EU; Eurostat (mise à jour 2026): https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Tertiary_education_statistics; OCDE (9 septembre 2025): https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en.html; Eurostat (6 mars 2026): https://ec.europa.eu/eurostat/web/products-eurostat-news/w/edn-20260306-1
 
 ### Quand la femme gagne plus en France : séparation plus probable, insatisfaction non confirmée
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/
+- URL: https://isora.info/blog/2026-06-25-femme-gagne-plus-separation-satisfaction-france/
 - Date: 2026-06-25
 - Sujet: Famille, justice et droits
 - Resume: Les sources françaises récentes invitent à distinguer deux résultats différents. Les données administratives analysées par Ferrari, Solaz et Vitali montrent un risque de séparation plus élevé lorsque la femme apporte plus de 55 % du revenu du couple. En revanche, la note CEPREMAP publiée en 2025 indique qu'à revenu de ménage donné, les données françaises ne confirment pas une baisse de satisfaction des hommes simplement parce que leur conjointe gagne plus, alors que des travaux britanniques et européens trouvent une pénalité de bien-être dans d'autres contextes.
 - Sources: INED (2 octobre 2024): https://www.ined.fr/fr/tout-savoir-population/memos-demo/focus/differences-revenus-au-sein-couple-augmentent-elles-le-risque-separation; European Journal of Population / Springer (13 juin 2024): https://link.springer.com/article/10.1007/s10680-024-09705-7; CEPREMAP (10 février 2025): https://www.cepremap.fr/depot/2025/02/2025-06-Une-affaire-de-couple.pdf; Insee (3 mars 2014): https://www.insee.fr/fr/statistiques/1281400
 
 ### Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026
-- URL: https://isora-xi.vercel.app/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/
+- URL: https://isora.info/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/
 - Date: 2026-06-25
 - Sujet: Santé, mortalité et parcours de soin
 - Fiches isora liees: hommes-suicide, hommes-suicide-monde

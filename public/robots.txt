@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /*?admin=
+Disallow: /*?*&admin=
 Disallow: /api/
 
-Sitemap: https://isora-xi.vercel.app/sitemap.xml
+Sitemap: https://isora.info/sitemap.xml

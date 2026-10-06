@@ -2,6 +2,10 @@
 
 Isora publie des fichiers lisibles par les moteurs de recherche, crawlers et agents IA.
 
+Le domaine canonique est `https://isora.info`. L'URL technique Vercel ne doit pas
+etre utilisee dans les canonicals, le sitemap, les identifiants JSON-LD ou les exports.
+L'exploration et l'indexation ne garantissent ni classement ni citation par une IA.
+
 ## Fichiers publics
 
 - `/llms.txt` : guide agent en francais.
@@ -13,15 +17,21 @@ Isora publie des fichiers lisibles par les moteurs de recherche, crawlers et age
 - `/fiches/` : index HTML statique de toutes les fiches, lisible sans JavaScript.
 - `/fiches/<id>/` : page HTML statique canonique d'une fiche, avec sources et JSON-LD.
 - `/lexique/` : lexique HTML statique des reperes editoriaux et confusions a eviter.
+- `/methode/` : methode editoriale publique, limites, role de l'IA et corrections.
 - `/isora-dataset.json` : dataset JSON francais.
 - `/isora-dataset-en.json` : dataset JSON anglais.
 - `/ai.txt` : politique courte d'acces IA.
 - `/.well-known/ai.txt` : copie de la politique courte d'acces IA.
-- `/sitemap.xml` : indexe les fichiers publics principaux.
+- `/sitemap.xml` : liste les pages HTML canoniques indexables.
+
+L'accueil contient une presentation et des liens utiles dans le HTML initial,
+avant l'execution de React. Les fiches et articles restent consultables sans JavaScript.
+Les fichiers `llms.txt` sont des complements documentaires, pas des leviers de classement garantis.
 
 ## Multilingue public
 
-L'interface publique expose un selecteur de langue dans le header :
+Le code de l'interface prend en charge deux langues, mais le selecteur du header
+est actuellement desactive. Il n'existe pas de routes HTML anglaises distinctes :
 
 - `FR` affiche les libelles francais.
 - `EN` affiche les libelles anglais.
@@ -40,6 +50,11 @@ Les contenus de fiches restent stockes dans `src/data/claims.ts`. Une fiche peut
 relue dans `translations.en`. Tant qu'une fiche n'a pas cette traduction relue, l'interface anglaise conserve
 le texte source francais pour la fiche elle-meme. Ce repli est volontaire : ne pas publier de traduction non relue
 comme si elle etait definitive.
+
+L'export anglais precise `translationStatus` : `reviewed` lorsque la fiche dispose
+d'une traduction, ou `source-language-fallback` lorsque le contenu francais est conserve.
+Les exports conservent aussi les libelles de population de la source, la mesure ou
+non des chromosomes et la date de consultation. Ne pas annoncer une traduction complete.
 
 Avant d'annoncer que le site est integralement bilingue, lancer :
 
@@ -63,12 +78,25 @@ Le build Vite lance aussi la generation via `prebuild` :
 npm run build
 ```
 
+`prebuild` controle les canonicals, le sitemap, le JSON-LD, les liens internes,
+les dates et les metadonnees des exports IA. Tests dedies :
+
+```bash
+npm run seo:test
+npm run seo:check
+```
+
+Les dates `lastmod` et `dateModified` correspondent aux verifications, mises a jour
+editoriales et modifications significatives des gabarits. Ne jamais remplacer
+ces dates par celle de chaque build. La constante `seoReleaseDate` du generateur
+est avancee seulement lors d'une vraie modification des gabarits publics ou de la methode.
+
 ## Blog quotidien IA + SEO
 
 Le blog quotidien Isora vit dans ce projet, au chemin canonique :
 
 ```text
-/Users/eve/Web dev/Isora
+/Users/skynn/Web dev/Isora
 ```
 
 Ne pas chercher cette automatisation dans `RGAA-auto` : `RGAA-auto` sert aux audits RGAA, tandis que le blog de veille publique appartient a Isora.
@@ -79,7 +107,7 @@ La configuration editoriale est dans :
 - `content/blog/posts/` : memoire des articles publies, un JSON par article.
 - Automatisation Codex app `Veille quotidienne Isora` : voie normale, sans cle API, lancee tous les jours vers 20:30.
 - `scripts/blog-utils.mjs` : rend les pages HTML statiques, RSS, JSON, `llms-blog.txt` et les entrees sitemap.
-- `scripts/generate-seo.mjs` : genere aussi les pages statiques `/fiches/`, `/fiches/<id>/` et `/lexique/`, le sitemap, `llms.txt`, `llms-en.txt`, `ai.txt`, `/.well-known/ai.txt` et les datasets publics.
+- `scripts/generate-seo.mjs` : genere aussi les pages statiques `/fiches/`, `/fiches/<id>/`, `/lexique/` et `/methode/`, l'accueil HTML initial, les metadonnees du site, le sitemap, `llms.txt`, `llms-en.txt`, `ai.txt`, `/.well-known/ai.txt` et les datasets publics.
 - `scripts/generate-daily-blog.mjs` : voie optionnelle par API OpenAI, utile seulement si une cle API est ajoutee plus tard.
 
 Commandes utiles :
@@ -108,7 +136,7 @@ Principes editoriaux du blog :
 Avant d'utiliser une source qui emploie `masculinisme`, lire et appliquer :
 
 ```text
-/Users/eve/Web dev/Isora/docs/TERMINOLOGIE_MASCULINISME.md
+/Users/skynn/Web dev/Isora/docs/TERMINOLOGIE_MASCULINISME.md
 ```
 
 Conserver le titre exact et les citations de la source, mais ne jamais reprendre

@@ -4,6 +4,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import ts from "typescript";
 import { renderFaviconLinks } from "./favicon-links.mjs";
 import { renderStaticHeader, renderStaticHeaderCss } from "./static-header.mjs";
+import { SITE_URL, latestEditorialDate } from "./seo-utils.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -18,13 +19,13 @@ const lexiconTempFile = join(root, "node_modules", ".cache", "isora-blog-lexicon
 const blogPostsPerPage = 15;
 
 const defaultConfig = {
-  siteUrl: "https://isora-xi.vercel.app",
+  siteUrl: SITE_URL,
   brand: "isora",
   language: "fr-FR",
   timezone: "Europe/Paris",
   author: {
     name: "isora",
-    url: "https://isora-xi.vercel.app/",
+    url: `${SITE_URL}/methode/`,
   },
   quality: {
     minSources: 3,
@@ -717,9 +718,11 @@ ${renderFaviconLinks()}
           <p class="lead">${htmlWithVocabulary(post.summary, lexiconModule)}</p>
           <div class="meta" aria-label="Métadonnées">
             <span class="pill">${htmlEscape(formatFrenchDate(post.date))}</span>
+            ${String(post.updatedAt).slice(0, 10) !== post.date ? `<span class="pill">Mis à jour le ${htmlEscape(formatFrenchDate(post.updatedAt))}</span>` : ""}
             <span class="pill">${post.readingMinutes} min</span>
             <span class="pill">${countLabel(post.sources.length, "source")}</span>
           </div>
+          <p class="source-meta">Synthèse éditoriale <em>isora</em> · <a href="/methode/">Méthode, sources et corrections</a></p>
         </div>
         <div class="hero-panel" aria-label="Repères de lecture">
           <p class="panel-kicker">Article de veille</p>
@@ -1090,13 +1093,14 @@ function renderBlogLlms(posts, config) {
   return lines.join("\n");
 }
 
-export function buildBlogSitemapEntries(posts, config = defaultConfig, generatedDate = getParisDateKey()) {
+export function buildBlogSitemapEntries(posts, config = defaultConfig, templateModifiedDate = null) {
   const totalPages = getBlogPageCount(posts);
+  const indexModifiedDate = latestEditorialDate(templateModifiedDate, posts.map((post) => post.updatedAt || post.publishedAt || post.date));
 
   return [
     {
       loc: getBlogUrl(config),
-      lastmod: generatedDate,
+      lastmod: indexModifiedDate,
       changefreq: "daily",
       priority: "0.8",
     },
@@ -1105,20 +1109,14 @@ export function buildBlogSitemapEntries(posts, config = defaultConfig, generated
 
       return {
         loc: getBlogPageUrl(config, pageNumber),
-        lastmod: generatedDate,
+        lastmod: indexModifiedDate,
         changefreq: "daily",
         priority: "0.6",
       };
     }),
-    {
-      loc: `${getBlogUrl(config)}feed.xml`,
-      lastmod: generatedDate,
-      changefreq: "daily",
-      priority: "0.4",
-    },
     ...posts.map((post) => ({
       loc: getPostUrl(post, config),
-      lastmod: String(post.updatedAt || post.publishedAt || post.date).slice(0, 10),
+      lastmod: latestEditorialDate(templateModifiedDate, post.updatedAt || post.publishedAt || post.date),
       changefreq: "monthly",
       priority: "0.7",
     })),
@@ -1130,7 +1128,7 @@ export function renderSitemapEntries(entries) {
     .map(
       (entry) => `  <url>
     <loc>${xmlEscape(entry.loc)}</loc>
-    <lastmod>${xmlEscape(entry.lastmod)}</lastmod>
+    ${entry.lastmod ? `<lastmod>${xmlEscape(entry.lastmod)}</lastmod>` : ""}
     <changefreq>${xmlEscape(entry.changefreq)}</changefreq>
     <priority>${xmlEscape(entry.priority)}</priority>
   </url>`,

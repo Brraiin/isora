@@ -19,7 +19,7 @@
     <meta property="og:site_name" content="isora" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
-    <meta property="og:url" content="https://isora-xi.vercel.app/" />
+    <meta property="og:url" content="https://isora.info/" />
     <meta property="og:title" content="isora - asymétries documentées selon le sexe" />
     <meta
       property="og:description"
@@ -31,7 +31,7 @@
       name="twitter:description"
       content="Fiches vérifiables avec source, pays, période, population mesurée et nuance éditoriale."
     />
-    <link rel="canonical" href="https://isora-xi.vercel.app/" />
+    <link rel="canonical" href="https://isora.info/" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <link rel="alternate" type="application/rss+xml" title="Articles isora" href="/blog/feed.xml" />
     <link rel="alternate" type="text/html" title="Index HTML des fiches isora" href="/fiches/" />
@@ -53,58 +53,58 @@
         "@graph": [
           {
             "@type": "Organization",
-            "@id": "https://isora-xi.vercel.app/#organization",
+            "@id": "https://isora.info/#organization",
             "name": "isora",
-            "url": "https://isora-xi.vercel.app/",
-            "logo": "https://isora-xi.vercel.app/isora.svg",
+            "url": "https://isora.info/",
+            "logo": "https://isora.info/isora.svg",
             "description": "Référentiel francophone de fiches sourcées sur les asymétries documentées selon le sexe."
           },
           {
             "@type": "WebSite",
-            "@id": "https://isora-xi.vercel.app/#website",
-            "url": "https://isora-xi.vercel.app/",
+            "@id": "https://isora.info/#website",
+            "url": "https://isora.info/",
             "name": "isora",
             "inLanguage": "fr-FR",
             "publisher": {
-              "@id": "https://isora-xi.vercel.app/#organization"
+              "@id": "https://isora.info/#organization"
             },
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://isora-xi.vercel.app/?q={search_term_string}",
+              "target": "https://isora.info/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           },
           {
             "@type": "Dataset",
-            "@id": "https://isora-xi.vercel.app/#dataset",
+            "@id": "https://isora.info/#dataset",
             "name": "isora - asymétries documentées selon le sexe",
             "description": "Fiches synthétiques avec source primaire, zone, période, domaine, population mesurée, niveau de confiance et nuance.",
-            "url": "https://isora-xi.vercel.app/",
+            "url": "https://isora.info/",
             "inLanguage": "fr-FR",
             "creator": {
-              "@id": "https://isora-xi.vercel.app/#organization"
+              "@id": "https://isora.info/#organization"
             },
             "isAccessibleForFree": true,
             "distribution": [
               {
                 "@type": "DataDownload",
                 "encodingFormat": "application/json",
-                "contentUrl": "https://isora-xi.vercel.app/isora-dataset.json"
+                "contentUrl": "https://isora.info/isora-dataset.json"
               },
               {
                 "@type": "DataDownload",
                 "encodingFormat": "application/json",
-                "contentUrl": "https://isora-xi.vercel.app/isora-dataset-en.json"
+                "contentUrl": "https://isora.info/isora-dataset-en.json"
               },
               {
                 "@type": "DataDownload",
                 "encodingFormat": "text/plain",
-                "contentUrl": "https://isora-xi.vercel.app/llms.txt"
+                "contentUrl": "https://isora.info/llms.txt"
               },
               {
                 "@type": "DataDownload",
                 "encodingFormat": "text/plain",
-                "contentUrl": "https://isora-xi.vercel.app/llms-en.txt"
+                "contentUrl": "https://isora.info/llms-en.txt"
               }
             ]
           }
@@ -114,32 +114,99 @@
     <title>isora - asymétries documentées selon le sexe</title>
   </head>
   <body>
-    <noscript>
-      <main>
-        <h1><em>isora</em> - asymétries documentées selon le sexe</h1>
-        <p>
-          <em>isora</em> recense des fiches sourcées sur les asymétries liées au sexe, avec pays ou zone,
-          période, domaine, population mesurée, niveau de confiance, nuance et source primaire.
-        </p>
-        <p>
-          La version complète nécessite JavaScript. Les agents, moteurs de recherche et lecteurs
-          techniques peuvent consulter le dataset public JSON et le fichier llms.txt.
-        </p>
-        <ul>
-          <li><a href="/isora-dataset.json">Dataset public <em>isora</em> en JSON</a></li>
-          <li><a href="/fiches/">Index HTML des fiches <em>isora</em></a></li>
-          <li><a href="/lexique/">Lexique <em>isora</em></a></li>
-          <li><a href="/isora-dataset-en.json">English public <em>isora</em> dataset in JSON</a></li>
-          <li><a href="/llms.txt">Résumé structuré pour IA et agents</a></li>
-          <li><a href="/llms-en.txt">Structured English summary for AI agents</a></li>
-          <li><a href="/blog/">Articles <em>isora</em></a></li>
-          <li><a href="/blog/feed.xml">Flux RSS des articles</a></li>
-          <li><a href="/blog/llms-blog.txt">Résumé des articles pour IA et agents</a></li>
-          <li><a href="/sitemap.xml">Sitemap XML</a></li>
-        </ul>
-      </main>
-    </noscript>
-    <div id="root"></div>
+    <!-- isora-home:start -->
+    <div id="root">
+      <style>
+        #isora-initial-content { font-family: ui-sans-serif, system-ui, sans-serif; color: #171717; background: #f4f4f0; line-height: 1.65; }
+        #isora-initial-content a { color: #1455a3; text-underline-offset: .18em; }
+        .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
+.topbar { border-bottom: 1px solid #d8d8d0; background: #fff; font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; line-height: 1.5; }
+.topbar-inner { min-height: 106px; display: flex; align-items: stretch; justify-content: space-between; gap: 24px; }
+.brand { margin-left: -16px; padding: 0 16px; display: inline-flex; align-items: center; color: #171717; text-decoration: none; font-weight: 400; }
+.brand-line { display: inline-flex; align-items: baseline; gap: 14px; }
+.brand:hover, .brand:focus-visible { background: #f6f6f6; }
+.brand:focus-visible { outline: 2px solid #1455a3; outline-offset: -2px; }
+.brand img { width: 106px; height: auto; display: block; }
+.brand-tagline { max-width: 25rem; color: #3f3f3f; font-size: 0.96rem; font-weight: 700; line-height: 1.35; }
+.nav { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px; align-self: center; font-weight: 400; }
+.nav a { min-height: 32px; display: inline-flex; align-items: center; gap: 8px; padding: 0 8px; color: #000091; text-decoration: none; font-weight: 800; line-height: 1.5; }
+.nav a:hover { background: #f6f6f6; }
+.nav a:active { background: #ededed; }
+.nav a:focus-visible { outline: 2px solid #1455a3; outline-offset: 2px; }
+.nav svg { width: 18px; height: 18px; flex: 0 0 auto; }
+@media (max-width: 760px) {
+  .wrap { width: min(100% - 24px, 1200px); }
+  .topbar-inner { min-height: 0; align-items: stretch; flex-direction: column; gap: 8px; padding: 8px 0; }
+  .brand { margin: 0 -8px; padding: 12px 8px; align-items: flex-start; }
+  .brand-line { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .nav { margin-left: 0; align-self: stretch; justify-content: flex-end; }
+}
+        #isora-initial-content .initial-hero { background: #ecfdf5; border-bottom: 1px solid #d8d8d0; padding: 56px 0; }
+        #isora-initial-content h1 { max-width: 780px; margin: 0; font-size: clamp(2rem, 4.5vw, 3.45rem); line-height: 1.1; }
+        #isora-initial-content .initial-lead { max-width: 720px; font-size: 1.15rem; }
+        #isora-initial-content main { padding: 24px 0 48px; }
+        #isora-initial-content .initial-links { display: flex; flex-wrap: wrap; gap: 8px 18px; padding: 0; list-style: none; }
+        #isora-initial-content .initial-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+        #isora-initial-content article { border: 1px solid #d8d8d0; background: #fff; padding: 20px; }
+        #isora-initial-content article h3 { margin-top: 0; }
+        @media (max-width: 760px) { #isora-initial-content .initial-cards { grid-template-columns: 1fr; } }
+      </style>
+      <div id="isora-initial-content">
+        <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="brand" href="/" aria-label="Accueil isora - Le référentiel des asymétries de sexe">
+            <span class="brand-line">
+              <img src="/isora.svg" alt="isora" />
+              <span class="brand-tagline">Le référentiel des asymétries de sexe</span>
+            </span>
+          </a>
+        <nav class="nav" aria-label="Navigation">
+          <a href="/fiches/">Fiches</a>
+          <a href="/lexique/">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13.17 2a2 2 0 0 1 1.42.59l6.7 6.7a2.4 2.4 0 0 1 0 3.42l-4.58 4.58a2.4 2.4 0 0 1-3.42 0l-6.7-6.7A2 2 0 0 1 6 9.17V3a1 1 0 0 1 1-1z" />
+              <path d="M2 7v6.17a2 2 0 0 0 .59 1.42l6.7 6.7a2.4 2.4 0 0 0 3.19.19" />
+              <circle cx="10.5" cy="6.5" r=".5" fill="currentColor" />
+            </svg>
+            Lexique
+          </a>
+          <a href="/blog/">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" />
+              <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+              <path d="M10 9H8" />
+              <path d="M16 13H8" />
+              <path d="M16 17H8" />
+            </svg>
+            Articles
+          </a>
+          <a href="/methode/">Méthode</a>
+        </nav>
+      </div>
+    </header>
+        <section class="initial-hero"><div class="wrap">
+          <p>Données sourcées, contexte lisible, contribution ouverte</p>
+          <h1>Liste les asymétries documentées selon le sexe</h1>
+          <p class="initial-lead"><em>isora</em> recense des asymétries documentées par pays, période, domaine et angle d’analyse. Chaque fiche précise sa source, son contexte et la population réellement mesurée, pour rendre la donnée lisible, vérifiable et corrigeable.</p>
+          <p>106 fiches · 245 sources · 12 domaines</p>
+        </div></section>
+        <main class="wrap">
+          <section aria-labelledby="initial-domains"><h2 id="initial-domains">Parcourir les fiches par domaine</h2>
+            <ul class="initial-links"><li><a href="/fiches/#sante">Santé</a></li><li><a href="/fiches/#education">Éducation</a></li><li><a href="/fiches/#travail">Travail</a></li><li><a href="/fiches/#justice">Justice</a></li><li><a href="/fiches/#famille">Famille</a></li><li><a href="/fiches/#violences">Violences</a></li><li><a href="/fiches/#droits">Droits</a></li><li><a href="/fiches/#revenus">Revenus</a></li><li><a href="/fiches/#autonomie">Autonomie</a></li><li><a href="/fiches/#conflits">Conflits</a></li><li><a href="/fiches/#numerique">Numérique</a></li><li><a href="/fiches/#religieux">Religieux</a></li></ul>
+          </section>
+          <section aria-labelledby="initial-claims"><h2 id="initial-claims">Quelques fiches du référentiel</h2>
+            <div class="initial-cards"><article><h3><a href="/fiches/femmes-douleurs-declarees-11-sites-monde/">Douleurs déclarées plus fréquentes chez les femmes dans une synthèse internationale</a></h3><p>RR 1,08 à 1,83 · 118 pays et territoires · 1990-2025</p><p>Dans une étude de 6,1 millions de personnes issues d&#39;enquêtes menées dans 118 pays et territoires entre 1990 et 2025, la prévalence modélisée des douleurs autodéclarées est plus élevée chez les femmes que chez…</p></article><article><h3><a href="/fiches/hommes-consommation-alcool-mensuelle-ue-2025/">Alcool : consommation au moins mensuelle plus fréquente chez les hommes dans l&#39;UE</a></h3><p>56,5 % vs 35,9 % · Union européenne (27 États membres) · 2025-2025</p><p>Dans l&#39;Union européenne en 2025, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient avoir consommé de l&#39;alcool au moins une fois par mois, selon Eurostat. L&#39;écart est de 20,6 points. Il mesur…</p></article><article><h3><a href="/fiches/femmes-direction-primaire-france-2024/">Primaire : les femmes sont moins présentes dans la direction que dans l&#39;enseignement</a></h3><p>69 % vs 85 % · France · 2024-2024</p><p>En France, selon l&#39;OCDE, les femmes représentaient en 2024 69 % du personnel de direction de l&#39;enseignement primaire et 85 % du personnel enseignant du même niveau, soit 16 points d&#39;écart entre ces deux parts.…</p></article><article><h3><a href="/fiches/hommes-mesotheliome-pleural-incidence-france/">Mésothéliome pleural : une incidence estimée plus élevée chez les hommes</a></h3><p>2,23 vs 0,72 / 100 000 · France · 2018-2021</p><p>En France, Santé publique France estime pour 2018-2021 un taux annuel d&#39;incidence du mésothéliome pleural standardisé sur l&#39;âge de 2,23 pour 100 000 chez les hommes, contre 0,72 chez les femmes. Les estimation…</p></article><article><h3><a href="/fiches/femmes-etudes-superieures-sport-ue-2024/">Femmes moins nombreuses dans les études supérieures de sport de l&#39;UE</a></h3><p>83 451 vs 193 434 · Union européenne (27 États membres) · 2024-2024</p><p>En 2024, Eurostat dénombre dans l&#39;Union européenne 83 451 étudiantes et 193 434 étudiants inscrits dans le domaine du sport au niveau de l&#39;enseignement supérieur. La comparaison porte sur les effectifs inscrit…</p></article><article><h3><a href="/fiches/hommes-contraintes-physiques-travail-france-2024/">Contraintes physiques au travail plus fréquentes chez les hommes</a></h3><p>+8 pts · France · 2016-2024</p><p>En 2024, les hommes salariés déclarent plus souvent que les femmes être exposés à au moins trois contraintes physiques parmi les six retenues par la Dares. L&#39;écart est de 8 points, contre 10 points en 2016. Le…</p></article></div>
+            <p><a href="/fiches/">Consulter toutes les fiches et leurs sources</a></p>
+          </section>
+          <section aria-labelledby="initial-articles"><h2 id="initial-articles">Derniers articles de veille</h2>
+            <ul><li><a href="/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/">Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires</a> — 2026-10-06</li><li><a href="/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/">Alcool dans l&#39;UE : une consommation au moins mensuelle plus fréquente chez les hommes</a> — 2026-10-04</li><li><a href="/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/">Écoles primaires : 85 % d&#39;enseignantes, 69 % de femmes dans la direction en France</a> — 2026-09-30</li></ul>
+            <p><a href="/blog/">Tous les articles</a> · <a href="/methode/">Méthode, sources et corrections</a> · <a href="/lexique/">Lexique</a></p>
+          </section>
+          <noscript><p>Les fiches, les articles et leurs sources restent consultables sans JavaScript. Activez JavaScript pour utiliser les filtres et la recherche interactive de l’accueil.</p></noscript>
+        </main>
+      </div>
+    </div>
+    <!-- isora-home:end -->
     <script src="/isora-cookie-consent.js" defer></script>
     <script src="/isora-soft-navigation.js" defer></script>
     <script type="module" src="/src/main.tsx"></script>
