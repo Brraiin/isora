@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-douleurs-declarees-11-sites-monde",
+    "side": "femmes",
+    "claimTitle": "Douleurs déclarées plus fréquentes chez les femmes dans une synthèse internationale",
+    "claimMetric": "RR 1,08 à 1,83",
+    "blogTitle": "Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires",
+    "blogUrl": "/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/",
+    "date": "2026-10-06",
+    "updatedAt": "2026-10-06T09:05:00.000Z"
+  },
+  {
     "claimId": "hommes-consommation-alcool-mensuelle-ue-2025",
     "side": "hommes",
     "claimTitle": "Alcool : consommation au moins mensuelle plus fréquente chez les hommes dans l'UE",

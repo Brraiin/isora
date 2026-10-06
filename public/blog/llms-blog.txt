@@ -13,6 +13,14 @@ Index JSON: https://isora-xi.vercel.app/blog/index.json
 
 ## Articles
 
+### Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires
+- URL: https://isora-xi.vercel.app/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
+- Date: 2026-10-06
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: femmes-douleurs-declarees-11-sites-monde
+- Resume: Une étude parue le 5 octobre 2026 dans Nature Medicine a harmonisé les déclarations de douleur de 6 125 459 personnes issues de 902 sources de données dans 118 pays et territoires, recueillies entre 1990 et 2025. Dans les modèles groupés, la fréquence déclarée est plus élevée chez les femmes que chez les hommes pour chacun des 11 sites anatomiques étudiés ; les rapports de prévalence vont de 1,08 à 1,83 selon le site. Ces rapports ne sont ni des écarts en points de pourcentage ni des résultats valables séparément pour chaque pays. Les enquêtes portent sur des symptômes déclarés, pas sur un diagnostic de douleur chronique ou une cause biologique déterminée.
+- Sources: Nature Medicine, Fillingim et al. (5 octobre 2026): https://www.nature.com/articles/s41591-026-04696-w; Communications Medicine, Macchia et al. (5 mai 2025): https://pubmed.ncbi.nlm.nih.gov/40325153/; International Association for the Study of Pain (16 juillet 2020): https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/; University of Aberdeen Research Portal (2026, étude publiée le 5 octobre): https://abdn.elsevierpure.com/en/publications/global-and-regional-reference-curves-for-pain-across-the-lifespan/
+
 ### Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes
 - URL: https://isora-xi.vercel.app/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
 - Date: 2026-10-04

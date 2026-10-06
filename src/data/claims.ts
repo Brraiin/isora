@@ -107,6 +107,52 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "femmes-douleurs-declarees-11-sites-monde",
+    side: "femmes",
+    domain: "Santé",
+    title: "Douleurs déclarées plus fréquentes chez les femmes dans une synthèse internationale",
+    metric: "RR 1,08 à 1,83",
+    summary:
+      "Dans une étude de 6,1 millions de personnes issues d'enquêtes menées dans 118 pays et territoires entre 1990 et 2025, la prévalence modélisée des douleurs autodéclarées est plus élevée chez les femmes que chez les hommes pour chacun des 11 sites anatomiques étudiés. Les rapports de prévalence vont de 1,08 à 1,83 selon le site ; ils ne sont ni des taux individuels, ni des écarts en points.",
+    tags: ["santé", "douleur autodéclarée", "prévalence", "femmes hommes", "enquêtes internationales"],
+    source: {
+      label: "Global and regional reference curves for pain across the lifespan in 6.1 million individuals in 118 countries",
+      publisher: "Nature Medicine, Fillingim et al.",
+      url: "https://www.nature.com/articles/s41591-026-04696-w",
+      date: "5 octobre 2026, enquêtes 1990-2025",
+    },
+    additionalSources: [
+      {
+        label: "Demographic variation in pain across 22 countries",
+        publisher: "Communications Medicine, Macchia et al.",
+        url: "https://pubmed.ncbi.nlm.nih.gov/40325153/",
+        date: "5 mai 2025, indicateur distinct",
+      },
+      {
+        label: "IASP Announces Revised Definition of Pain",
+        publisher: "International Association for the Study of Pain",
+        url: "https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/",
+        date: "16 juillet 2020",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Self-reported pain was more prevalent among women in an international synthesis",
+        summary:
+          "In a study of 6.1 million people from surveys conducted in 118 countries and territories between 1990 and 2025, modeled self-reported pain prevalence was higher among women than men at each of 11 anatomical sites. Prevalence ratios ranged from 1.08 to 1.83 by site; they are neither individual prevalence rates nor percentage-point differences.",
+        nuance:
+          "The 2026 Nature Medicine study harmonized 902 heterogeneous data sources and modeled pain reports by anatomical site, with trajectories standardized to a past-month recall period. The range of female-to-male prevalence ratios describes pooled model results, not every country, age or individual. Self-report is not a chronic-pain diagnosis, pain-intensity comparison or causal test. Most age profiles compare different people rather than following the same individuals for decades, and the 1990–2025 data do not establish a recent time trend. Statistical female/male categories from contributing surveys were used; chromosomes were not measured.",
+        sourcePopulation:
+          "Population measured by the source: 6,125,459 participants aged 5 to over 100 years in 902 population-based sources from 118 countries and territories, surveyed between 1990 and 2025 and classified as female or male in the contributing data. Chromosomes were not measured.",
+        tags: ["health", "self-reported pain", "prevalence", "women and men", "international surveys"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "6 octobre 2026",
+    nuance:
+      "L'étude Nature Medicine publiée le 5 octobre 2026 harmonise 902 sources hétérogènes et modélise les déclarations de douleur par site anatomique, avec des trajectoires standardisées sur une période de rappel d'un mois. La plage de rapports de prévalence femmes/hommes décrit les résultats groupés du modèle, pas chaque pays, âge ou personne. Une douleur déclarée n'est ni un diagnostic de douleur chronique, ni une comparaison d'intensité, ni un test de causalité. Les profils d'âge comparent surtout des personnes différentes, et les données 1990-2025 n'établissent pas une tendance annuelle récente. Les catégories statistiques féminines et masculines viennent des enquêtes ; les chromosomes ne sont pas mesurés.",
+  },
+  {
     id: "hommes-consommation-alcool-mensuelle-ue-2025",
     side: "hommes",
     domain: "Santé",
@@ -3991,6 +4037,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-douleurs-declarees-11-sites-monde":
+    "Population mesurée par la source : 6 125 459 personnes de 5 ans à plus de 100 ans issues de 902 sources d'enquêtes dans 118 pays et territoires entre 1990 et 2025, classées comme femmes ou hommes dans les données réunies. Les chromosomes ne sont pas mesurés.",
   "hommes-consommation-alcool-mensuelle-ue-2025":
     "Population mesurée par la source : personnes de 16 ans ou plus vivant en ménage dans l'Union européenne, classées comme femmes ou hommes dans l'enquête EU-SILC 2025. La source ne mesure pas les chromosomes.",
   "femmes-direction-primaire-france-2024":
@@ -4214,6 +4262,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-douleurs-declarees-11-sites-monde": {
+    pays_ou_zone: "118 pays et territoires",
+    regionScope: "Monde",
+    periode_debut: "1990",
+    periode_fin: "2025",
+    statut_temporel: "variable selon pays",
+    intensite_contextuelle: "moyenne",
+    legalType: "prévalence modélisée de douleurs autodéclarées à 11 sites anatomiques",
+  },
   "hommes-consommation-alcool-mensuelle-ue-2025": {
     pays_ou_zone: "Union européenne (27 États membres)",
     regionScope: "Europe",

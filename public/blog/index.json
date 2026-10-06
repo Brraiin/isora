@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora-xi.vercel.app/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-04T19:21:29.421Z",
+  "generatedAt": "2026-10-06T09:05:27.381Z",
   "posts": [
+    {
+      "id": "2026-10-06-douleurs-declarees-femmes-hommes-118-pays",
+      "title": "Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires",
+      "url": "https://isora-xi.vercel.app/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/",
+      "description": "Une étude publiée dans Nature Medicine le 5 octobre 2026 observe une fréquence de douleurs autodéclarées plus élevée chez les femmes pour 11 régions du corps. Ce résultat groupé ne décrit pas chaque pays ni les causes de l'écart.",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T09:05:00.000Z",
+      "updatedAt": "2026-10-06T09:05:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "douleur femmes hommes 118 pays 2026",
+        "Nature Medicine douleurs déclarées selon le sexe",
+        "douleurs par région du corps femmes hommes",
+        "douleur âge étude mondiale six millions",
+        "prévalence douleurs autodéclarées sexe"
+      ],
+      "relatedClaimIds": [
+        "femmes-douleurs-declarees-11-sites-monde"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Global and regional reference curves for pain across the lifespan in 6.1 million individuals in 118 countries",
+          "publisher": "Nature Medicine, Fillingim et al.",
+          "url": "https://www.nature.com/articles/s41591-026-04696-w",
+          "date": "5 octobre 2026",
+          "type": "étude scientifique originale en accès ouvert"
+        },
+        {
+          "title": "Demographic variation in pain across 22 countries",
+          "publisher": "Communications Medicine, Macchia et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40325153/",
+          "date": "5 mai 2025",
+          "type": "étude comparative indépendante, indicateur distinct"
+        },
+        {
+          "title": "IASP Announces Revised Definition of Pain",
+          "publisher": "International Association for the Study of Pain",
+          "url": "https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/",
+          "date": "16 juillet 2020",
+          "type": "définition et note méthodologique sur l'expérience douloureuse"
+        },
+        {
+          "title": "Global and regional reference curves for pain, notice de l'étude",
+          "publisher": "University of Aberdeen Research Portal",
+          "url": "https://abdn.elsevierpure.com/en/publications/global-and-regional-reference-curves-for-pain-across-the-lifespan/",
+          "date": "2026, étude publiée le 5 octobre",
+          "type": "notice institutionnelle de vérification"
+        }
+      ]
+    },
     {
       "id": "2026-10-04-consommation-alcool-femmes-hommes-ue-2025",
       "title": "Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes",

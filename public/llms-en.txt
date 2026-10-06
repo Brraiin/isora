@@ -7,7 +7,7 @@ JSON dataset: https://isora-xi.vercel.app/isora-dataset-en.json
 Static HTML claim index: https://isora-xi.vercel.app/fiches/
 Lexicon: https://isora-xi.vercel.app/lexique/
 French AI guide: https://isora-xi.vercel.app/llms.txt
-Last generation: 2026-10-04T00:00:00+02:00
+Last generation: 2026-10-06T00:00:00+02:00
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -18,10 +18,10 @@ Last generation: 2026-10-04T00:00:00+02:00
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 105
+- Entries: 106
 - Entries about men: 47
-- Entries about women: 58
-- Distinct sources: 242
+- Entries about women: 59
+- Distinct sources: 245
 - Domains: Santé, Éducation, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora-xi.vercel.app/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires
+- URL: https://isora-xi.vercel.app/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
+- Date: 2026-10-06
+- Related isora entries: femmes-douleurs-declarees-11-sites-monde
+- Summary: Une étude parue le 5 octobre 2026 dans Nature Medicine a harmonisé les déclarations de douleur de 6 125 459 personnes issues de 902 sources de données dans 118 pays et territoires, recueillies entre 1990 et 2025. Dans les modèles groupés, la fréquence déclarée est plus élevée chez les femmes que chez les hommes pour chacun des 11 sites anatomiques étudiés ; les rapports de prévalence vont de 1,08 à 1,83 selon le site. Ces rapports ne sont ni des écarts en points de pourcentage ni des résultats valables séparément pour chaque pays. Les enquêtes portent sur des symptômes déclarés, pas sur un diagnostic de douleur chronique ou une cause biologique déterminée.
+- Sources: Nature Medicine, Fillingim et al.: https://www.nature.com/articles/s41591-026-04696-w; Communications Medicine, Macchia et al.: https://pubmed.ncbi.nlm.nih.gov/40325153/; International Association for the Study of Pain: https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/; University of Aberdeen Research Portal: https://abdn.elsevierpure.com/en/publications/global-and-regional-reference-curves-for-pain-across-the-lifespan/
+
 ### Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes
 - URL: https://isora-xi.vercel.app/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
 - Date: 2026-10-04
@@ -205,13 +212,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Summary: Le Bureau régional de l'OMS pour l'Europe a publié le 18 septembre 2026 une analyse des rémunérations dans le secteur de la santé et de l'aide sociale, fondée sur des enquêtes nationales représentatives disponibles pour 43 pays. Les femmes représentent près de 77 % des effectifs couverts, mais leur rémunération moyenne est inférieure de 19 % par heure et de 28 % par mois à celle des hommes. Une décomposition tenant compte de l'âge, du niveau d'études, du temps de travail et du secteur public ou privé réduit les écarts à 6 % par heure et 10 % par mois. La part restante n'est pas expliquée par ces variables mesurées, mais elle ne constitue pas à elle seule une mesure de discrimination à poste identique.
 - Sources: OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-83924; OMS Europe: https://www.who.int/europe/news/item/18-09-2026-health-workers-earn-less-if-they-are-women; OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84227; OMS Europe: https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13697-53471-84229
 
-### Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne
-- URL: https://isora-xi.vercel.app/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/
-- Date: 2026-09-17
-- Related isora entries: femmes-limitations-activite-union-europeenne-2025
-- Summary: Dans son édition 2026 des chiffres clés sur les conditions de vie, publiée le 17 septembre, Eurostat indique qu'en 2025, 26,5 % des femmes âgées de 16 ans ou plus dans l'Union européenne déclarent être limitées, au moins depuis six mois, dans leurs activités habituelles en raison d'un problème de santé. La part est de 21,8 % chez les hommes, soit un écart de 4,7 points. Cette mesure est souvent utilisée comme approximation statistique du handicap, mais elle repose sur une autoévaluation, additionne les limitations modérées et sévères et n'est pas corrigée de la structure d'âge.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-key-figures/w/ks-01-26-036; Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260917-1; Eurostat: https://ec.europa.eu/eurostat/web/disability/methodology; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/hlth_silc_12/default/table?lang=en
 
+## Self-reported pain was more prevalent among women in an international synthesis
+- ID: femmes-douleurs-declarees-11-sites-monde
+- URL: https://isora-xi.vercel.app/fiches/femmes-douleurs-declarees-11-sites-monde/
+- Interactive app URL: https://isora-xi.vercel.app/#femmes-douleurs-declarees-11-sites-monde
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: 118 pays et territoires
+- Period: 1990-2025
+- Status: variable selon pays
+- Key measure: RR 1,08 à 1,83
+- Summary: In a study of 6.1 million people from surveys conducted in 118 countries and territories between 1990 and 2025, modeled self-reported pain prevalence was higher among women than men at each of 11 anatomical sites. Prevalence ratios ranged from 1.08 to 1.83 by site; they are neither individual prevalence rates nor percentage-point differences.
+- Nuance: The 2026 Nature Medicine study harmonized 902 heterogeneous data sources and modeled pain reports by anatomical site, with trajectories standardized to a past-month recall period. The range of female-to-male prevalence ratios describes pooled model results, not every country, age or individual. Self-report is not a chronic-pain diagnosis, pain-intensity comparison or causal test. Most age profiles compare different people rather than following the same individuals for decades, and the 1990–2025 data do not establish a recent time trend. Statistical female/male categories from contributing surveys were used; chromosomes were not measured.
+- Measured population: Population measured by the source: 6,125,459 participants aged 5 to over 100 years in 902 population-based sources from 118 countries and territories, surveyed between 1990 and 2025 and classified as female or male in the contributing data. Chromosomes were not measured.
+- Sources: Nature Medicine, Fillingim et al. (5 octobre 2026, enquêtes 1990-2025): https://www.nature.com/articles/s41591-026-04696-w; Communications Medicine, Macchia et al. (5 mai 2025, indicateur distinct): https://pubmed.ncbi.nlm.nih.gov/40325153/; International Association for the Study of Pain (16 juillet 2020): https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/
 
 ## Monthly-or-more alcohol consumption is more common among men in the EU
 - ID: hommes-consommation-alcool-mensuelle-ue-2025
