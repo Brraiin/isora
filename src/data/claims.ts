@@ -113,7 +113,7 @@ const rawClaims: RawClaim[] = [
     title: "Mpox : personnes de sexe masculin majoritaires parmi les cas signalés en France",
     metric: "89 % vs 11 %",
     summary:
-      "Du 1er janvier au 31 août 2026, Santé publique France rapporte 359 cas de mpox : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Ces parts décrivent les cas signalés à la surveillance française, pas le risque d'infection dans l'ensemble de chaque sexe.",
+      "La mpox, anciennement appelée « variole du singe », est une maladie virale pouvant provoquer de la fièvre et des lésions de la peau. Du 1er janvier au 31 août 2026, Santé publique France rapporte 359 cas : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Ces parts décrivent les cas signalés à la surveillance française, pas le risque d'infection dans l'ensemble de chaque sexe.",
     tags: ["santé", "mpox", "surveillance", "France", "cas signalés"],
     source: {
       label: "Variole B (mpox) en France, du 1er janvier au 31 août 2026",
@@ -129,7 +129,7 @@ const rawClaims: RawClaim[] = [
         date: "mise à jour du 26 août 2026",
       },
       {
-        label: "Mpox : fiche d'information sur la transmission",
+        label: "Mpox : fiche d'information sur la maladie et sa transmission",
         publisher: "Organisation mondiale de la Santé",
         url: "https://www.who.int/news-room/fact-sheets/detail/mpox",
         date: "26 août 2024, contexte général",
@@ -143,7 +143,7 @@ const rawClaims: RawClaim[] = [
       en: {
         title: "Mpox: males accounted for most cases reported in France",
         summary:
-          "From 1 January to 31 August 2026, Santé publique France reported 359 mpox cases: 321 males (89%) and 38 females (11%). These shares describe cases reported to French surveillance, not infection risk across the entire male or female population.",
+          "Mpox, formerly called monkeypox, is a viral disease that can cause fever and skin lesions. From 1 January to 31 August 2026, Santé publique France reported 359 cases: 321 males (89%) and 38 females (11%). These shares describe cases reported to French surveillance, not infection risk across the entire male or female population.",
         nuance:
           "The bulletin published on 2 October 2026 covers reported cases, including 15 without biological confirmation. Three cases involved children under 15, so the series is not limited to adults. The sex distribution is neither a population incidence rate nor a comparison adjusted for age, exposure or diagnostic access. It establishes no biological or social cause of the difference. Surveillance relies on reporting and may not count every infection. Male and female are the bulletin's statistical categories; chromosomes were not measured.",
         sourcePopulation:

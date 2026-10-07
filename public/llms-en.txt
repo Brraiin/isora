@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-10-07T09:33:39.997Z
+Last generation: 2026-10-07T09:46:25.485Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -161,7 +161,7 @@ The articles are written in French and summarize recent reports and trends with 
 - URL: https://isora.info/blog/2026-10-07-mpox-cas-signales-femmes-hommes-france/
 - Date: 2026-10-07
 - Related isora entries: hommes-mpox-cas-signales-france-2026
-- Summary: Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas de mpox signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.
+- Summary: La mpox, anciennement appelée « variole du singe », est une maladie virale qui peut provoquer de la fièvre et des lésions de la peau. Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.
 - Sources: Santé publique France: https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026; Santé publique France: https://www.santepubliquefrance.fr/variole-b-mpox/notre-action; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/mpox
 
 ### Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires
@@ -225,7 +225,7 @@ The articles are written in French and summarize recent reports and trends with 
 - Period: 2026-01-01-2026-08-31
 - Status: actuel
 - Key measure: 89 % vs 11 %
-- Summary: From 1 January to 31 August 2026, Santé publique France reported 359 mpox cases: 321 males (89%) and 38 females (11%). These shares describe cases reported to French surveillance, not infection risk across the entire male or female population.
+- Summary: Mpox, formerly called monkeypox, is a viral disease that can cause fever and skin lesions. From 1 January to 31 August 2026, Santé publique France reported 359 cases: 321 males (89%) and 38 females (11%). These shares describe cases reported to French surveillance, not infection risk across the entire male or female population.
 - Nuance: The bulletin published on 2 October 2026 covers reported cases, including 15 without biological confirmation. Three cases involved children under 15, so the series is not limited to adults. The sex distribution is neither a population incidence rate nor a comparison adjusted for age, exposure or diagnostic access. It establishes no biological or social cause of the difference. Surveillance relies on reporting and may not count every infection. Male and female are the bulletin's statistical categories; chromosomes were not measured.
 - Measured population: Population measured by the source: 359 mpox cases reported to French surveillance from 1 January to 31 August 2026, classified as male or female; the series includes adults and three children under 15. Chromosomes were not measured.
 - Sources: Santé publique France (2 octobre 2026, cas de janvier à août 2026): https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026; Santé publique France (mise à jour du 26 août 2026): https://www.santepubliquefrance.fr/variole-b-mpox/notre-action; Organisation mondiale de la Santé (26 août 2024, contexte général): https://www.who.int/news-room/fact-sheets/detail/mpox

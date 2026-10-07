@@ -2,7 +2,7 @@
   "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-10-07T09:33:39.997Z",
+  "generatedAt": "2026-10-07T09:46:25.485Z",
   "language": "en",
   "sourceLanguage": "fr",
   "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
@@ -687,8 +687,8 @@
       "angle": "désavantage_subi",
       "domain": "Santé",
       "metric": "89 % vs 11 %",
-      "summary": "From 1 January to 31 August 2026, Santé publique France reported 359 mpox cases: 321 males (89%) and 38 females (11%). These shares describe cases reported to French surveillance, not infection risk across the entire male or female population.",
-      "originalSummary": "Du 1er janvier au 31 août 2026, Santé publique France rapporte 359 cas de mpox : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Ces parts décrivent les cas signalés à la surveillance française, pas le risque d'infection dans l'ensemble de chaque sexe.",
+      "summary": "Mpox, formerly called monkeypox, is a viral disease that can cause fever and skin lesions. From 1 January to 31 August 2026, Santé publique France reported 359 cases: 321 males (89%) and 38 females (11%). These shares describe cases reported to French surveillance, not infection risk across the entire male or female population.",
+      "originalSummary": "La mpox, anciennement appelée « variole du singe », est une maladie virale pouvant provoquer de la fièvre et des lésions de la peau. Du 1er janvier au 31 août 2026, Santé publique France rapporte 359 cas : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Ces parts décrivent les cas signalés à la surveillance française, pas le risque d'infection dans l'ensemble de chaque sexe.",
       "nuance": "The bulletin published on 2 October 2026 covers reported cases, including 15 without biological confirmation. Three cases involved children under 15, so the series is not limited to adults. The sex distribution is neither a population incidence rate nor a comparison adjusted for age, exposure or diagnostic access. It establishes no biological or social cause of the difference. Surveillance relies on reporting and may not count every infection. Male and female are the bulletin's statistical categories; chromosomes were not measured.",
       "originalNuance": "Le bulletin publié le 2 octobre 2026 concerne les cas signalés, dont 15 sans confirmation biologique. Trois cas concernent des enfants de moins de 15 ans : la série ne se limite pas aux adultes. La répartition par sexe n'est ni un taux d'incidence dans la population ni une comparaison ajustée pour l'âge, l'exposition ou le recours au diagnostic. Elle ne démontre aucune cause biologique ou sociale de l'écart. La surveillance dépend du signalement et ne dénombre pas nécessairement toutes les infections. Les catégories masculines et féminines sont celles du bulletin ; les chromosomes ne sont pas mesurés.",
       "tags": [
@@ -726,7 +726,7 @@
           "date": "mise à jour du 26 août 2026"
         },
         {
-          "label": "Mpox : fiche d'information sur la transmission",
+          "label": "Mpox : fiche d'information sur la maladie et sa transmission",
           "publisher": "Organisation mondiale de la Santé",
           "url": "https://www.who.int/news-room/fact-sheets/detail/mpox",
           "date": "26 août 2024, contexte général"

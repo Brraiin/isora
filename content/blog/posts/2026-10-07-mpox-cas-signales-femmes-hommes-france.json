@@ -7,12 +7,12 @@
   "description": "Santé publique France rapporte 321 cas masculins et 38 féminins de mpox de janvier à août 2026. Cette répartition des signalements ne mesure pas le risque individuel dans la population.",
   "date": "2026-10-07",
   "publishedAt": "2026-10-07T09:32:00.000Z",
-  "updatedAt": "2026-10-07T09:32:00.000Z",
+  "updatedAt": "2026-10-07T09:47:00.000Z",
   "topic": { "id": "sante-mortalite", "label": "Santé, mortalité et parcours de soin" },
   "keywords": ["mpox France cas femmes hommes 2026", "Santé publique France mpox janvier août 2026", "répartition par sexe cas signalés mpox", "surveillance mpox limites comparaison"],
   "relatedClaimIds": ["hommes-mpox-cas-signales-france-2026"],
   "readingMinutes": 4,
-  "summary": "Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas de mpox signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.",
+  "summary": "La mpox, anciennement appelée « variole du singe », est une maladie virale qui peut provoquer de la fièvre et des lésions de la peau. Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.",
   "keyPoints": [
     "Le périmètre est celui des cas signalés à la surveillance française entre janvier et août 2026, pas celui de toutes les infections ni des seuls adultes.",
     "Les parts masculines et féminines viennent du même bulletin et du même indicateur ; elles ne sont pas reconstituées à partir d'un taux global.",
@@ -20,6 +20,12 @@
     "La comparaison descriptive ne départage pas les facteurs d'exposition, de diagnostic, de signalement ou les éventuels mécanismes biologiques."
   ],
   "sections": [
+    {
+      "heading": "Qu'est-ce que la mpox ?",
+      "paragraphs": [
+        "La mpox est une maladie infectieuse causée par un virus. Son ancien nom, « variole du singe », reste parfois utilisé. Selon l'Organisation mondiale de la Santé, elle peut notamment provoquer de la fièvre et des lésions de la peau, parfois douloureuses. Elle se transmet notamment par contact étroit avec une personne infectée ou par des objets contaminés. Le terme désigne donc une maladie, pas un indicateur statistique."
+      ]
+    },
     {
       "heading": "Ce que mesure le bulletin du 2 octobre",
       "paragraphs": [
