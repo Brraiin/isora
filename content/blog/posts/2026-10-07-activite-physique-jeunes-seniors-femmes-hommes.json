@@ -1,0 +1,63 @@
+{
+  "id": "2026-10-07-activite-physique-jeunes-seniors-femmes-hommes",
+  "slug": "2026-10-07-activite-physique-jeunes-seniors-femmes-hommes",
+  "status": "published",
+  "language": "fr",
+  "title": "Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors",
+  "description": "Eurostat compare femmes et hommes en 2025 : 16 % contre 20,6 % des jeunes de l'UE sont actifs 4 à 6 fois par semaine. Les seniors français présentent un autre profil.",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-07T18:51:16.000Z",
+  "updatedAt": "2026-10-07T18:51:16.000Z",
+  "topic": { "id": "sante-mortalite", "label": "Santé, mortalité et parcours de soin" },
+  "keywords": ["activité physique femmes hommes Eurostat 2025", "sport seniors France femmes hommes", "activité physique hors travail jeunes", "fréquence sport 65 74 ans", "enquête européenne conditions de vie"],
+  "relatedClaimIds": ["femmes-activite-physique-hors-travail-jeunes-ue-2025"],
+  "readingMinutes": 4,
+  "summary": "La publication Eurostat du 7 octobre 2026 porte sur l'activité physique hors travail : 16 % des femmes et 20,6 % des hommes de 16 à 29 ans dans l'UE déclarent en faire 4 à 6 fois par semaine en 2025. Cette catégorie ne comprend pas les fréquences quotidiennes. En France, le même tableau donne des taux très proches à 65-74 ans : 14,3 % pour les femmes et 14,1 % pour les hommes. Ces résultats ne comptent pas les visites en salle de sport et ne démontrent aucun lien causal avec la longévité.",
+  "keyPoints": [
+    "Dans l'UE en 2025, la catégorie 4 à 6 activités physiques hors travail par semaine concerne 16 % des femmes et 20,6 % des hommes de 16-29 ans, soit 4,6 points d'écart.",
+    "En France, pour le même indicateur, les estimations à 65-74 ans sont de 14,3 % chez les femmes et 14,1 % chez les hommes ; à 75 ans ou plus, elles sont de 9,2 % et 9,9 %.",
+    "Ces taux décrivent une catégorie précise, pas l'ensemble des personnes actives : une pratique quotidienne relève d'autres catégories.",
+    "L'enquête ne mesure ni les entrées en salle de sport, ni les effets de l'activité professionnelle ou de la retraite sur la mortalité."
+  ],
+  "sections": [
+    {
+      "heading": "Une fréquence déclarée, pas une répartition des pratiquants",
+      "paragraphs": [
+        "L'actualité publiée aujourd'hui par Eurostat s'appuie sur les données 2025 de l'enquête européenne sur les revenus et les conditions de vie, appelée EU-SILC. Son tableau permet de comparer directement femmes et hommes pour un âge, un pays et une fréquence identiques. Dans l'UE à 27, tous niveaux d'études réunis, 16 % des femmes et 20,6 % des hommes de 16 à 29 ans déclarent une activité physique hors travail 4 à 6 fois durant une semaine habituelle.",
+        "Chaque taux a pour dénominateur la population du sexe concerné, dans cette tranche d'âge. Ce ne sont donc pas les proportions de femmes et d'hommes parmi les sportifs. L'écart de 4,6 points se calcule entre les deux taux publiés ; il ne signifie pas une différence de 4,6 % de condition physique, de santé ou de durée de vie."
+      ]
+    },
+    {
+      "heading": "Quatre à six fois n'est pas « au moins quatre fois »",
+      "paragraphs": [
+        "Le tableau sépare notamment les fréquences 1 à 3 fois par semaine, 4 à 6 fois, une fois par jour et au moins deux fois par jour. Une personne active quotidiennement n'entre donc pas dans la catégorie 4 à 6 fois. On ne peut pas présenter les 16 % et 20,6 % comme la totalité des femmes et des hommes faisant régulièrement une activité physique.",
+        "La fréquence seule ne renseigne ni la durée ni l'intensité de chaque activité. Deux personnes déclarant le même nombre d'occasions peuvent avoir des pratiques différentes. Le mot « sport » peut aussi évoquer une discipline, une compétition ou une salle, alors que l'indicateur publié porte plus largement sur une activité physique hors travail."
+      ]
+    },
+    {
+      "heading": "En France, un autre profil à 65-74 ans",
+      "paragraphs": [
+        "Une lecture du même tableau pour la France, en conservant l'année 2025 et tous les niveaux d'études, donne 12,1 % des femmes contre 17,9 % des hommes de 16-29 ans dans la catégorie 4 à 6 fois par semaine. À 65-74 ans, les estimations sont presque identiques : 14,3 % pour les femmes et 14,1 % pour les hommes. À 75 ans ou plus, elles atteignent 9,2 % et 9,9 %. Le profil des jeunes ne doit donc pas être reporté automatiquement sur les seniors.",
+        "La petite différence de 0,2 point à 65-74 ans est une différence entre estimations, pas la démonstration d'une avance féminine statistiquement significative. Surtout, elle ne concerne qu'une catégorie de fréquence. Elle ne permet pas de conclure que les femmes seniors font davantage de toute forme d'activité physique, ni qu'elles fréquentent davantage les salles de sport françaises."
+      ]
+    },
+    {
+      "heading": "Les limites de population et d'interprétation",
+      "paragraphs": [
+        "La méthodologie EU-SILC couvre les personnes vivant en ménage privé ; les personnes en institution sont généralement exclues. Ce point limite particulièrement l'interprétation des résultats aux âges élevés. Les réponses sont déclaratives et les groupes d'âge comparés ne constituent pas le suivi des mêmes personnes au fil de leur vie.",
+        "Ces données ne testent pas l'hypothèse selon laquelle des hommes auraient des métiers physiquement exigeants puis cesseraient de bouger à la retraite, ce qui expliquerait leur mortalité. Le tableau mesure une pratique hors travail à une période donnée, pas des trajectoires professionnelles, musculaires ou médicales. Les catégories femmes et hommes sont celles des statistiques, sans mesure des chromosomes. La fiche liée conserve le périmètre principal UE, 16-29 ans, 2025 et présente les seniors français comme une comparaison distincte."
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "Les 16 % et 20,6 % représentent-ils tous les jeunes qui font régulièrement du sport ?", "answer": "Non. Ils concernent uniquement l'activité physique hors travail déclarée 4 à 6 fois par semaine. Les activités quotidiennes et les autres fréquences sont comptées séparément." },
+    { "question": "Les femmes seniors sont-elles plus présentes dans les salles de sport françaises ?", "answer": "Cette enquête ne le mesure pas. Pour l'activité physique hors travail 4 à 6 fois par semaine, les taux français de 2025 sont très proches à 65-74 ans : 14,3 % chez les femmes et 14,1 % chez les hommes. Cela ne prouve ni une avance statistiquement significative ni une fréquentation plus élevée des salles." },
+    { "question": "Ces chiffres expliquent-ils pourquoi les hommes vivent moins longtemps ?", "answer": "Non. Ils ne suivent pas les carrières, la retraite ou les décès et ne mesurent pas l'activité physique au travail. Ils ne permettent donc pas d'attribuer un écart de longévité à ces comportements." }
+  ],
+  "sources": [
+    { "title": "Young people more likely to be physically active", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1", "date": "7 octobre 2026, données 2025", "type": "actualité statistique institutionnelle" },
+    { "title": "Persons performing physical activity outside working time by frequency in a typical week, educational attainment level, sex and age (ilc_hch07b)", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en", "date": "données 2025, base mise à jour le 8 juin 2026, consultation le 7 octobre 2026", "type": "tableau officiel, UE et France, tous niveaux d'études" },
+    { "title": "Income and living conditions (ilc) : EU-SILC reference metadata", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm", "date": "19 décembre 2025", "type": "méthodologie et champ de population" }
+  ],
+  "editorialChecks": { "generatedBy": "veille web assistée par Codex", "model": "codex", "generatedAt": "2026-10-07T18:51:16.000Z", "requiresHumanReview": false }
+}

@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-10-07T14:20:03.950Z
+Last generation: 2026-10-07T18:53:25.624Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -19,10 +19,10 @@ Last generation: 2026-10-07T14:20:03.950Z
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 107
+- Entries: 108
 - Entries about men: 48
-- Entries about women: 59
-- Distinct sources: 248
+- Entries about women: 60
+- Distinct sources: 251
 - Domains: Santé, Éducation, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
 
 ## Editorial method
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors
+- URL: https://isora.info/blog/2026-10-07-activite-physique-jeunes-seniors-femmes-hommes/
+- Date: 2026-10-07
+- Related isora entries: femmes-activite-physique-hors-travail-jeunes-ue-2025
+- Summary: La publication Eurostat du 7 octobre 2026 porte sur l'activité physique hors travail : 16 % des femmes et 20,6 % des hommes de 16 à 29 ans dans l'UE déclarent en faire 4 à 6 fois par semaine en 2025. Cette catégorie ne comprend pas les fréquences quotidiennes. En France, le même tableau donne des taux très proches à 65-74 ans : 14,3 % pour les femmes et 14,1 % pour les hommes. Ces résultats ne comptent pas les visites en salle de sport et ne démontrent aucun lien causal avec la longévité.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm
+
 ### Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026
 - URL: https://isora.info/blog/2026-10-07-mpox-cas-signales-femmes-hommes-france/
 - Date: 2026-10-07
@@ -206,13 +213,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Summary: Publié le 21 septembre 2026, le bilan de Santé publique France retrace 26 années de surveillance du mésothéliome pleural, un cancer lié à l'amiante. Dans la zone suivie, 7 277 cas ont été inclus entre 1998 et 2023. Pour la France entière, l'incidence annuelle estimée et standardisée sur l'âge est, en 2018-2021, de 2,23 pour 100 000 chez les hommes et 0,72 chez les femmes. Les hommes restent davantage touchés, mais les circonstances d'exposition identifiées diffèrent : parmi les patients interrogés sur 2018-2023, une exposition professionnelle à l'amiante a été retrouvée chez 89,0 % des hommes et 28,2 % des femmes. Ces chiffres décrivent des personnes atteintes et enquêtées, non le risque de l'ensemble des travailleurs ou travailleuses.
 - Sources: Santé publique France: https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf; Santé publique France: https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/donnees; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/la-maladie
 
-### Violences sexuelles hors couple : pourquoi le chiffre mondial reste difficile à mesurer
-- URL: https://isora.info/blog/2026-09-20-violences-sexuelles-hors-couple-femmes-mesure-mondiale/
-- Date: 2026-09-20
-- Related isora entries: femmes-violences-physiques-sexuelles-monde
-- Summary: Une note technique de l'Organisation mondiale de la Santé, mise en avant le 18 septembre 2026, examine la mesure des violences sexuelles commises contre les femmes et les filles par une personne autre qu'un partenaire intime. L'estimation mondiale disponible porte sur 263 millions de femmes et de filles âgées de 15 ans ou plus, soit 8 %, ayant subi au moins une fois ce type de violence depuis l'âge de 15 ans. Mais l'OMS souligne que les définitions, les questions, les tranches d'âge et les populations interrogées diffèrent fortement. Parmi 140 pays disposant d'au moins une enquête éligible entre 2000 et 2023, 42 n'avaient pas actualisé ces données depuis plus de dix ans. Le chiffre doit donc être lu comme une estimation minimale dans un champ précis, et non comme une mesure exhaustive ou une comparaison femmes-hommes.
-- Sources: Organisation mondiale de la Santé: https://www.who.int/publications/i/item/B09836; Organisation mondiale de la Santé: https://www.who.int/news/item/18-09-2026-new-brief-highlights-gaps-and-recommendations-for-improving-violence-data-on-women; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/B09860; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240116962
 
+## Physical activity outside work 4–6 times a week: less often reported by young women in the EU
+- ID: femmes-activite-physique-hors-travail-jeunes-ue-2025
+- URL: https://isora.info/fiches/femmes-activite-physique-hors-travail-jeunes-ue-2025/
+- Interactive app URL: https://isora.info/#femmes-activite-physique-hors-travail-jeunes-ue-2025
+- Group: femmes
+- Angle: désavantage_subi
+- Domain: Santé
+- Zone: Union européenne (27 États membres)
+- Period: 2025-2025
+- Status: actuel
+- Key measure: 16 % vs 20,6 %
+- Summary: In the European Union in 2025, 16% of women and 20.6% of men aged 16–29 reported physical activity outside work 4–6 times during a typical week, a gap of 4.6 percentage points. This frequency category excludes daily activity and measures neither session intensity nor duration.
+- Nuance: The rates cover people aged 16–29 in private households, across all education levels, in the EU Statistics on Income and Living Conditions survey (EU-SILC). They are not the sex composition of active people. The 4–6 times a week category does not mean at least four times: daily frequencies are separate. In France, the same table gives 14.3% for women versus 14.1% for men aged 65–74, and 9.2% versus 9.9% at age 75 or over. These estimates establish neither a statistically significant senior difference nor a difference in gym attendance. They do not measure occupational exertion, follow retirement trajectories or explain mortality. Female and male are statistical categories; chromosomes were not measured.
+- Measured population: Population measured: women and men aged 16–29 living in private households in the 27-country EU, all education levels combined, EU-SILC 2025. Older-age figures refer separately to France. Chromosomes were not measured.
+- Sources: Eurostat (données 2025, consultation le 7 octobre 2026): https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en; Eurostat (7 octobre 2026): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1; Eurostat (métadonnées mises à jour le 19 décembre 2025): https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm
 
 ## Mpox: males accounted for most cases reported in France
 - ID: hommes-mpox-cas-signales-france-2026

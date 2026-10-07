@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-10-07T14:20:03.950Z",
+  "generatedAt": "2026-10-07T18:53:25.624Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -13,10 +13,10 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 107,
+    "total": 108,
     "hommes": 48,
-    "femmes": 59,
-    "sources": 248
+    "femmes": 60,
+    "sources": 251
   },
   "domains": [
     "Santé",
@@ -33,6 +33,7 @@
     "Religieux"
   ],
   "tags": [
+    "activité physique",
     "actuel",
     "Afghanistan",
     "aide aux victimes",
@@ -106,6 +107,7 @@
     "filiation",
     "filles",
     "France",
+    "fréquence déclarée",
     "garde des enfants",
     "greffiers",
     "guerre",
@@ -677,6 +679,59 @@
     ]
   },
   "claims": [
+    {
+      "id": "femmes-activite-physique-hors-travail-jeunes-ue-2025",
+      "url": "https://isora.info/fiches/femmes-activite-physique-hors-travail-jeunes-ue-2025/",
+      "appUrl": "https://isora.info/#femmes-activite-physique-hors-travail-jeunes-ue-2025",
+      "title": "Activité physique hors travail 4 à 6 fois par semaine : moins déclarée par les jeunes femmes dans l'UE",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "16 % vs 20,6 %",
+      "summary": "Dans l'Union européenne en 2025, 16 % des femmes et 20,6 % des hommes de 16 à 29 ans déclarent une activité physique hors travail 4 à 6 fois durant une semaine habituelle. L'écart est de 4,6 points de pourcentage. Cette catégorie de fréquence n'inclut pas les personnes actives quotidiennement et ne mesure ni l'intensité ni la durée des séances.",
+      "nuance": "Les taux concernent les 16-29 ans vivant en ménage privé, tous niveaux d'études réunis, dans l'enquête européenne sur les revenus et les conditions de vie (EU-SILC). Ce ne sont pas les parts des femmes et des hommes parmi les pratiquants. La catégorie 4 à 6 fois par semaine n'est pas un seuil « au moins 4 fois » : les fréquences quotidiennes sont distinctes. La même base donne, en France à 65-74 ans, 14,3 % des femmes contre 14,1 % des hommes pour cette catégorie ; à 75 ans ou plus, 9,2 % contre 9,9 %. Ces estimations ne démontrent ni un écart statistiquement significatif chez les seniors ni une différence de fréquentation des salles. Elles ne mesurent pas l'effort au travail, ne suivent pas les trajectoires de retraite et n'expliquent pas la mortalité. Les catégories femmes/hommes sont statistiques, sans mesure des chromosomes.",
+      "tags": [
+        "santé",
+        "activité physique",
+        "jeunes",
+        "Union européenne",
+        "fréquence déclarée"
+      ],
+      "countryScope": "Union européenne (27 États membres)",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2025",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée : femmes et hommes de 16 à 29 ans vivant en ménage privé dans l'UE à 27, tous niveaux d'études réunis, enquête EU-SILC 2025. Les chiffres des âges plus élevés concernent séparément la France. Les chromosomes ne sont pas mesurés.",
+      "libelle_source": "Population mesurée : femmes et hommes de 16 à 29 ans vivant en ménage privé dans l'UE à 27, tous niveaux d'études réunis, enquête EU-SILC 2025. Les chiffres des âges plus élevés concernent séparément la France. Les chromosomes ne sont pas mesurés.",
+      "mesure_chromosomes": false,
+      "date_consultation": "7 octobre 2026",
+      "legalType": "activité physique hors travail déclarée 4 à 6 fois par semaine, 16-29 ans",
+      "translationStatus": "source-language",
+      "confidence": "forte",
+      "lastChecked": "7 octobre 2026",
+      "source": {
+        "label": "Activité physique hors travail selon la fréquence, le sexe et l'âge (ilc_hch07b)",
+        "publisher": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en",
+        "date": "données 2025, consultation le 7 octobre 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "Young people more likely to be physically active",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1",
+          "date": "7 octobre 2026"
+        },
+        {
+          "label": "EU-SILC : population et méthodologie de l'enquête sur les conditions de vie",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm",
+          "date": "métadonnées mises à jour le 19 décembre 2025"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "hommes-mpox-cas-signales-france-2026",
       "url": "https://isora.info/fiches/hommes-mpox-cas-signales-france-2026/",

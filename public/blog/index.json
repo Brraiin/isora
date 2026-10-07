@@ -2,8 +2,55 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-07T14:20:04.102Z",
+  "generatedAt": "2026-10-07T18:53:25.777Z",
   "posts": [
+    {
+      "id": "2026-10-07-activite-physique-jeunes-seniors-femmes-hommes",
+      "title": "Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors",
+      "url": "https://isora.info/blog/2026-10-07-activite-physique-jeunes-seniors-femmes-hommes/",
+      "description": "Eurostat compare femmes et hommes en 2025 : 16 % contre 20,6 % des jeunes de l'UE sont actifs 4 à 6 fois par semaine. Les seniors français présentent un autre profil.",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T18:51:16.000Z",
+      "updatedAt": "2026-10-07T18:51:16.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "activité physique femmes hommes Eurostat 2025",
+        "sport seniors France femmes hommes",
+        "activité physique hors travail jeunes",
+        "fréquence sport 65 74 ans",
+        "enquête européenne conditions de vie"
+      ],
+      "relatedClaimIds": [
+        "femmes-activite-physique-hors-travail-jeunes-ue-2025"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Young people more likely to be physically active",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1",
+          "date": "7 octobre 2026, données 2025",
+          "type": "actualité statistique institutionnelle"
+        },
+        {
+          "title": "Persons performing physical activity outside working time by frequency in a typical week, educational attainment level, sex and age (ilc_hch07b)",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en",
+          "date": "données 2025, base mise à jour le 8 juin 2026, consultation le 7 octobre 2026",
+          "type": "tableau officiel, UE et France, tous niveaux d'études"
+        },
+        {
+          "title": "Income and living conditions (ilc) : EU-SILC reference metadata",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm",
+          "date": "19 décembre 2025",
+          "type": "méthodologie et champ de population"
+        }
+      ]
+    },
     {
       "id": "2026-10-07-mpox-cas-signales-femmes-hommes-france",
       "title": "Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026",

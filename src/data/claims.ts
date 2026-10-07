@@ -107,6 +107,52 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "femmes-activite-physique-hors-travail-jeunes-ue-2025",
+    side: "femmes",
+    domain: "Santé",
+    title: "Activité physique hors travail 4 à 6 fois par semaine : moins déclarée par les jeunes femmes dans l'UE",
+    metric: "16 % vs 20,6 %",
+    summary:
+      "Dans l'Union européenne en 2025, 16 % des femmes et 20,6 % des hommes de 16 à 29 ans déclarent une activité physique hors travail 4 à 6 fois durant une semaine habituelle. L'écart est de 4,6 points de pourcentage. Cette catégorie de fréquence n'inclut pas les personnes actives quotidiennement et ne mesure ni l'intensité ni la durée des séances.",
+    tags: ["santé", "activité physique", "jeunes", "Union européenne", "fréquence déclarée"],
+    source: {
+      label: "Activité physique hors travail selon la fréquence, le sexe et l'âge (ilc_hch07b)",
+      publisher: "Eurostat",
+      url: "https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en",
+      date: "données 2025, consultation le 7 octobre 2026",
+    },
+    additionalSources: [
+      {
+        label: "Young people more likely to be physically active",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1",
+        date: "7 octobre 2026",
+      },
+      {
+        label: "EU-SILC : population et méthodologie de l'enquête sur les conditions de vie",
+        publisher: "Eurostat",
+        url: "https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm",
+        date: "métadonnées mises à jour le 19 décembre 2025",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "7 octobre 2026",
+    nuance:
+      "Les taux concernent les 16-29 ans vivant en ménage privé, tous niveaux d'études réunis, dans l'enquête européenne sur les revenus et les conditions de vie (EU-SILC). Ce ne sont pas les parts des femmes et des hommes parmi les pratiquants. La catégorie 4 à 6 fois par semaine n'est pas un seuil « au moins 4 fois » : les fréquences quotidiennes sont distinctes. La même base donne, en France à 65-74 ans, 14,3 % des femmes contre 14,1 % des hommes pour cette catégorie ; à 75 ans ou plus, 9,2 % contre 9,9 %. Ces estimations ne démontrent ni un écart statistiquement significatif chez les seniors ni une différence de fréquentation des salles. Elles ne mesurent pas l'effort au travail, ne suivent pas les trajectoires de retraite et n'expliquent pas la mortalité. Les catégories femmes/hommes sont statistiques, sans mesure des chromosomes.",
+    translations: {
+      en: {
+        title: "Physical activity outside work 4–6 times a week: less often reported by young women in the EU",
+        summary:
+          "In the European Union in 2025, 16% of women and 20.6% of men aged 16–29 reported physical activity outside work 4–6 times during a typical week, a gap of 4.6 percentage points. This frequency category excludes daily activity and measures neither session intensity nor duration.",
+        nuance:
+          "The rates cover people aged 16–29 in private households, across all education levels, in the EU Statistics on Income and Living Conditions survey (EU-SILC). They are not the sex composition of active people. The 4–6 times a week category does not mean at least four times: daily frequencies are separate. In France, the same table gives 14.3% for women versus 14.1% for men aged 65–74, and 9.2% versus 9.9% at age 75 or over. These estimates establish neither a statistically significant senior difference nor a difference in gym attendance. They do not measure occupational exertion, follow retirement trajectories or explain mortality. Female and male are statistical categories; chromosomes were not measured.",
+        sourcePopulation:
+          "Population measured: women and men aged 16–29 living in private households in the 27-country EU, all education levels combined, EU-SILC 2025. Older-age figures refer separately to France. Chromosomes were not measured.",
+        tags: ["health", "physical activity", "young people", "European Union", "reported frequency"],
+      },
+    },
+  },
+  {
     id: "hommes-mpox-cas-signales-france-2026",
     side: "hommes",
     domain: "Santé",
@@ -4083,6 +4129,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-activite-physique-hors-travail-jeunes-ue-2025":
+    "Population mesurée : femmes et hommes de 16 à 29 ans vivant en ménage privé dans l'UE à 27, tous niveaux d'études réunis, enquête EU-SILC 2025. Les chiffres des âges plus élevés concernent séparément la France. Les chromosomes ne sont pas mesurés.",
   "hommes-mpox-cas-signales-france-2026":
     "Population mesurée par la source : 359 cas de mpox signalés à la surveillance française du 1er janvier au 31 août 2026, classés de sexe masculin ou féminin ; la série comprend des adultes et trois enfants de moins de 15 ans. Les chromosomes ne sont pas mesurés.",
   "femmes-douleurs-declarees-11-sites-monde":
@@ -4310,6 +4358,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-activite-physique-hors-travail-jeunes-ue-2025": {
+    pays_ou_zone: "Union européenne (27 États membres)",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "moyenne",
+    legalType: "activité physique hors travail déclarée 4 à 6 fois par semaine, 16-29 ans",
+  },
   "hommes-mpox-cas-signales-france-2026": {
     pays_ou_zone: "France",
     regionScope: "Europe",

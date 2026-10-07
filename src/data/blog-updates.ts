@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-activite-physique-hors-travail-jeunes-ue-2025",
+    "side": "femmes",
+    "claimTitle": "Activité physique hors travail 4 à 6 fois par semaine : moins déclarée par les jeunes femmes dans l'UE",
+    "claimMetric": "16 % vs 20,6 %",
+    "blogTitle": "Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors",
+    "blogUrl": "/blog/2026-10-07-activite-physique-jeunes-seniors-femmes-hommes/",
+    "date": "2026-10-07",
+    "updatedAt": "2026-10-07T18:51:16.000Z"
+  },
+  {
     "claimId": "hommes-mpox-cas-signales-france-2026",
     "side": "hommes",
     "claimTitle": "Mpox : personnes de sexe masculin majoritaires parmi les cas signalés en France",

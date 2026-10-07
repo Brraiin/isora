@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors
+- URL: https://isora.info/blog/2026-10-07-activite-physique-jeunes-seniors-femmes-hommes/
+- Date: 2026-10-07
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: femmes-activite-physique-hors-travail-jeunes-ue-2025
+- Resume: La publication Eurostat du 7 octobre 2026 porte sur l'activité physique hors travail : 16 % des femmes et 20,6 % des hommes de 16 à 29 ans dans l'UE déclarent en faire 4 à 6 fois par semaine en 2025. Cette catégorie ne comprend pas les fréquences quotidiennes. En France, le même tableau donne des taux très proches à 65-74 ans : 14,3 % pour les femmes et 14,1 % pour les hommes. Ces résultats ne comptent pas les visites en salle de sport et ne démontrent aucun lien causal avec la longévité.
+- Sources: Eurostat (7 octobre 2026, données 2025): https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1; Eurostat (données 2025, base mise à jour le 8 juin 2026, consultation le 7 octobre 2026): https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en; Eurostat (19 décembre 2025): https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm
+
 ### Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026
 - URL: https://isora.info/blog/2026-10-07-mpox-cas-signales-femmes-hommes-france/
 - Date: 2026-10-07
