@@ -32,6 +32,7 @@ import packageJson from "../package.json";
 import isoraLogoUrl from "./assets/isora.svg";
 import { homeBlogUpdates as generatedBlogUpdates, type HomeBlogUpdate } from "./data/blog-updates";
 import { siteMetadata } from "./data/site-metadata";
+import claimDisplayOrder from "./data/claim-display-order.json";
 import {
   claims,
   domains,
@@ -1113,6 +1114,13 @@ function orderClaimsForCombinedSideTags(list: Claim[]) {
     .map((claim, index) => ({ claim, index, rank: getCombinedSideFilterRank(claim) }))
     .sort((left, right) => left.rank - right.rank || left.index - right.index)
     .map((item) => item.claim);
+}
+
+const claimDisplayRanks = new Map(claimDisplayOrder.map((id, index) => [id, index]));
+
+function compareClaimDisplayOrder(left: Claim, right: Claim) {
+  // Unreviewed additions stay at the end until their editorial priority is set.
+  return (claimDisplayRanks.get(left.id) ?? Infinity) - (claimDisplayRanks.get(right.id) ?? Infinity) || 0;
 }
 
 function interleaveClaimsBySide(list: Claim[]) {
@@ -2415,7 +2423,7 @@ function App() {
         matchesAngle &&
         matchesQuery
       );
-    });
+    }).sort(compareClaimDisplayOrder);
 
     if (hasSearchQuery) {
       return matchingClaims

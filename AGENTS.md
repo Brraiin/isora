@@ -75,6 +75,27 @@ The working directory must be `/Users/eve/Web dev/Isora`, and `npm run build` mu
 - If the change affects scope or meaning, also update `sourcePopulationLabels`, `claimMetadata`, `additionalSources`, and `translations.en` where applicable.
 - After claim edits, run `npm run seo` and `npm run build`; report which fiches were dated and detailed.
 
+## Classement obligatoire à chaque veille et ajout de fiche
+
+- Lire `docs/CLAIM_DISPLAY_ORDER.md` et `src/data/claim-display-order.json` à
+  chaque veille, intake ou ajout de fiche. Revoir la pertinence par rapport à
+  l’ensemble du référentiel : population touchée, gravité, écart documenté,
+  effets sociaux et solidité des sources. Ni récence ni pourcentage isolé ne
+  donnent une priorité automatique.
+- Classer chaque fiche nouvelle ou dont la portée change ; conserver l’ordre
+  cohérent des autres. Réentrelacer hommes/femmes sans changer les priorités
+  internes ; `hommes-esperance-vie` reste première. Mettre à jour le classement
+  lors d’une suppression ou fusion et justifier les mouvements dans
+  `docs/CLAIM_ORDER_REVIEWS.md`.
+- Exécuter `npm run claims:check`, `npm run seo`, puis `npm run build` avant
+  publication. La génération et le build bloquent les fiches non classées,
+  doublons, IDs inconnus et alternances rompues. Ne pas contourner ce contrôle
+  en ajoutant une fiche en fin de liste sans évaluation éditoriale.
+- Chaque compte rendu de veille précise « classement vérifié, conservé » ou
+  les changements et leur justification. Inclure le classement dans le même
+  commit que les fiches ajoutées. Un reclassement seul ne rajeunit pas les
+  dates de vérification des faits.
+
 ## Key files
 
 - `src/App.tsx`: main UI, layout, filters, cards, contribution form

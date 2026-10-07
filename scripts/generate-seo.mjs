@@ -2,6 +2,7 @@ import { copyFile, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import ts from "typescript";
+import { validateClaimDisplayOrder } from "./claim-order.mjs";
 import {
   buildBlogSitemapEntries,
   htmlEscape,
@@ -74,6 +75,13 @@ const transpiled = ts.transpileModule(source, {
 await writeFile(tempFile, transpiled, "utf8");
 const { claims, domains, tagLabels } = await import(`${pathToFileURL(tempFile).href}?t=${Date.now()}`);
 await rm(tempFile, { force: true });
+
+const claimDisplayOrder = JSON.parse(await readFile(join(root, "src", "data", "claim-display-order.json"), "utf8"));
+validateClaimDisplayOrder(claims, claimDisplayOrder);
+const claimDisplayRanks = new Map(claimDisplayOrder.map((id, index) => [id, index]));
+const editorialClaims = [...claims].sort((left, right) =>
+  (claimDisplayRanks.get(left.id) ?? Infinity) - (claimDisplayRanks.get(right.id) ?? Infinity) || 0,
+);
 
 const lexiconSource = await readFile(lexiconFile, "utf8");
 const lexiconTranspiled = ts.transpileModule(lexiconSource, {
@@ -912,6 +920,7 @@ ${renderFaviconLinks()}
 }
 
 function renderClaimIndexHtml() {
+  const claims = editorialClaims;
   const pageUrl = `${siteUrl}/fiches/`;
   const description = "Parcourez les asymétries documentées entre femmes et hommes : santé, travail, revenus, éducation, famille et droits, avec chiffres, sources et limites.";
   const pageTitle = renderPageTitle("asymétries femmes-hommes : fiches et sources");
@@ -1208,9 +1217,7 @@ async function renderLexiconAssets() {
 }
 
 function renderInitialHomeHtml() {
-  const women = claims.filter((claim) => claim.side === "femmes").slice(0, 3);
-  const men = claims.filter((claim) => claim.side === "hommes").slice(0, 3);
-  const examples = women.flatMap((claim, index) => [claim, men[index]]).filter(Boolean);
+  const examples = editorialClaims.slice(0, 6);
   return `<div id="root">
       <style>
         #isora-initial-content { font-family: ui-sans-serif, system-ui, sans-serif; color: #171717; background: #f4f4f0; line-height: 1.65; }

@@ -1,7 +1,7 @@
 {
   "name": "isora",
   "private": true,
-  "version": "0.1.37",
+  "version": "0.1.38",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -14,7 +14,9 @@
     "prebuild": "node scripts/generate-seo.mjs && node scripts/check-seo.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "research": "node scripts/research-agent.mjs"
+    "research": "node scripts/research-agent.mjs",
+    "claims:check": "node scripts/check-claim-order.mjs",
+    "claims:test": "node --test scripts/claim-order.test.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
