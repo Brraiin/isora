@@ -2,8 +2,54 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-06T17:00:05.878Z",
+  "generatedAt": "2026-10-07T09:33:40.147Z",
   "posts": [
+    {
+      "id": "2026-10-07-mpox-cas-signales-femmes-hommes-france",
+      "title": "Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026",
+      "url": "https://isora.info/blog/2026-10-07-mpox-cas-signales-femmes-hommes-france/",
+      "description": "Santé publique France rapporte 321 cas masculins et 38 féminins de mpox de janvier à août 2026. Cette répartition des signalements ne mesure pas le risque individuel dans la population.",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T09:32:00.000Z",
+      "updatedAt": "2026-10-07T09:32:00.000Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "mpox France cas femmes hommes 2026",
+        "Santé publique France mpox janvier août 2026",
+        "répartition par sexe cas signalés mpox",
+        "surveillance mpox limites comparaison"
+      ],
+      "relatedClaimIds": [
+        "hommes-mpox-cas-signales-france-2026"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Variole B (mpox) en France, du 1er janvier au 31 août 2026",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026",
+          "date": "2 octobre 2026",
+          "type": "bulletin national de surveillance, source de la comparaison par sexe"
+        },
+        {
+          "title": "Mpox : notre action et surveillance épidémiologique",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/variole-b-mpox/notre-action",
+          "date": "mise à jour du 26 août 2026",
+          "type": "méthodologie institutionnelle et définitions de cas"
+        },
+        {
+          "title": "Mpox : fiche d'information",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mpox",
+          "date": "26 août 2024",
+          "type": "contexte général de transmission, distinct du bilan français 2026"
+        }
+      ]
+    },
     {
       "id": "2026-10-06-douleurs-declarees-femmes-hommes-118-pays",
       "title": "Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires",

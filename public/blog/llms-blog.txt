@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026
+- URL: https://isora.info/blog/2026-10-07-mpox-cas-signales-femmes-hommes-france/
+- Date: 2026-10-07
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: hommes-mpox-cas-signales-france-2026
+- Resume: Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas de mpox signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.
+- Sources: Santé publique France (2 octobre 2026): https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026; Santé publique France (mise à jour du 26 août 2026): https://www.santepubliquefrance.fr/variole-b-mpox/notre-action; Organisation mondiale de la Santé (26 août 2024): https://www.who.int/news-room/fact-sheets/detail/mpox
+
 ### Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires
 - URL: https://isora.info/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
 - Date: 2026-10-06

@@ -1,0 +1,95 @@
+{
+  "id": "2026-10-07-mpox-cas-signales-femmes-hommes-france",
+  "slug": "2026-10-07-mpox-cas-signales-femmes-hommes-france",
+  "status": "published",
+  "language": "fr",
+  "title": "Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026",
+  "description": "Santé publique France rapporte 321 cas masculins et 38 féminins de mpox de janvier à août 2026. Cette répartition des signalements ne mesure pas le risque individuel dans la population.",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-07T09:32:00.000Z",
+  "updatedAt": "2026-10-07T09:32:00.000Z",
+  "topic": { "id": "sante-mortalite", "label": "Santé, mortalité et parcours de soin" },
+  "keywords": ["mpox France cas femmes hommes 2026", "Santé publique France mpox janvier août 2026", "répartition par sexe cas signalés mpox", "surveillance mpox limites comparaison"],
+  "relatedClaimIds": ["hommes-mpox-cas-signales-france-2026"],
+  "readingMinutes": 4,
+  "summary": "Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas de mpox signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.",
+  "keyPoints": [
+    "Le périmètre est celui des cas signalés à la surveillance française entre janvier et août 2026, pas celui de toutes les infections ni des seuls adultes.",
+    "Les parts masculines et féminines viennent du même bulletin et du même indicateur ; elles ne sont pas reconstituées à partir d'un taux global.",
+    "Une part parmi les cas n'est pas un taux d'infection dans chaque sexe : les populations exposées et leurs effectifs ne sont pas les dénominateurs de ce chiffre.",
+    "La comparaison descriptive ne départage pas les facteurs d'exposition, de diagnostic, de signalement ou les éventuels mécanismes biologiques."
+  ],
+  "sections": [
+    {
+      "heading": "Ce que mesure le bulletin du 2 octobre",
+      "paragraphs": [
+        "Santé publique France inclut dans cette série des cas signalés avec ou sans confirmation biologique : 15 n'ont pas de confirmation biologique. Trois concernent des enfants de moins de 15 ans, les autres des adultes. Le mot « hommes » employé comme catégorie éditoriale ne doit donc pas faire oublier que l'indicateur du bulletin porte sur le sexe masculin, y compris chez des mineurs.",
+        "La date de publication est distincte de la période observée. Ce bilan arrêté à août ne décrit pas les infections survenues pendant tout le mois de septembre ou d'octobre. Les catégories féminines et masculines sont reprises telles que la source les fournit ; elles ne correspondent pas à une mesure des chromosomes."
+      ]
+    },
+    {
+      "heading": "Pourquoi 89 % des cas ne signifie pas 89 % des hommes",
+      "paragraphs": [
+        "Le dénominateur d'une part parmi les cas est le nombre de cas de la série. Le dénominateur d'un taux d'incidence serait une population suivie pendant une période donnée. Les deux répondent à des questions différentes : qui figure dans les signalements, d'un côté ; quelle fréquence d'infection observe-t-on dans une population définie, de l'autre.",
+        "Cette différence interdit de convertir la répartition publiée en probabilité individuelle d'être infecté. Elle interdit également de conclure qu'une femme serait protégée par son sexe, ou qu'un homme aurait nécessairement une exposition élevée. Pour comparer des risques, il faudrait définir les populations exposées, les mesurer et tenir compte des différences pertinentes. Le simple rapport entre les nombres de cas ne remplit pas ces conditions."
+      ]
+    },
+    {
+      "heading": "Une surveillance, pas un recensement de toutes les infections",
+      "paragraphs": [
+        "La page méthodologique de Santé publique France décrit un dispositif reposant notamment sur le signalement par les médecins et les biologistes aux agences régionales de santé, ainsi que sur la caractérisation des virus par les laboratoires de référence. Les définitions distinguent les cas suspects, probables et confirmés. Un cas enregistré dans ce circuit n'est pas une personne tirée au sort dans une enquête nationale de prévalence.",
+        "Pour lire une telle série, il faut garder distincts l'infection, son identification et son signalement. Le bulletin ne fournit pas ici une correction permettant d'attribuer l'écart entre sexes à chacune de ces étapes. Évoquer ces limites ne prouve pas qu'un biais déterminé explique le résultat : cela précise ce que les données seules ne peuvent départager."
+      ]
+    },
+    {
+      "heading": "Documenter l'asymétrie sans étiqueter les personnes",
+      "paragraphs": [
+        "La fiche d'information générale de l'Organisation mondiale de la Santé, datée d'août 2024, décrit une transmission possible par contact étroit, notamment peau à peau, ainsi que par des matériaux contaminés. Elle ne réserve pas l'infection à un sexe et rappelle l'importance de ne pas stigmatiser les personnes touchées. Cette ressource apporte un contexte de transmission ; elle n'est pas la source des chiffres français de 2026.",
+        "La fiche Isora associée conserve donc un libellé précis : majorité masculine parmi les cas signalés, en France, pendant une période définie. Elle ne propose ni une explication générale des comportements féminins et masculins, ni une comparaison de gravité entre sexes. L'article renvoie aux ressources officielles pour les informations de prévention : une distribution statistique ne remplace pas une évaluation médicale individuelle."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les chiffres permettent-ils de comparer le risque d'infection des femmes et des hommes en France ?",
+      "answer": "Non. Ils décrivent la répartition des cas signalés, sans utiliser l'ensemble de la population féminine ou masculine comme dénominateur. Une comparaison de risque demanderait des données et des ajustements supplémentaires."
+    },
+    {
+      "question": "Le bulletin porte-t-il uniquement sur des adultes et des cas confirmés ?",
+      "answer": "Non. La série comprend trois enfants de moins de 15 ans et 15 cas sans confirmation biologique. Il faut conserver l'appellation « cas signalés » et ne pas présenter le résultat comme celui des seuls adultes confirmés par laboratoire."
+    },
+    {
+      "question": "La majorité masculine démontre-t-elle une cause biologique ou sociale ?",
+      "answer": "Non. La répartition descriptive ne permet pas de séparer les mécanismes d'exposition, de diagnostic et de signalement, ni d'établir une causalité biologique ou sociale."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Variole B (mpox) en France, du 1er janvier au 31 août 2026",
+      "publisher": "Santé publique France",
+      "url": "https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026",
+      "date": "2 octobre 2026",
+      "type": "bulletin national de surveillance, source de la comparaison par sexe"
+    },
+    {
+      "title": "Mpox : notre action et surveillance épidémiologique",
+      "publisher": "Santé publique France",
+      "url": "https://www.santepubliquefrance.fr/variole-b-mpox/notre-action",
+      "date": "mise à jour du 26 août 2026",
+      "type": "méthodologie institutionnelle et définitions de cas"
+    },
+    {
+      "title": "Mpox : fiche d'information",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/mpox",
+      "date": "26 août 2024",
+      "type": "contexte général de transmission, distinct du bilan français 2026"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-10-07T09:32:00.000Z",
+    "requiresHumanReview": false
+  }
+}

@@ -2,7 +2,7 @@
   "name": "isora - documented sex-based asymmetries reference dataset",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-10-06T17:00:05.725Z",
+  "generatedAt": "2026-10-07T09:33:39.997Z",
   "language": "en",
   "sourceLanguage": "fr",
   "license": "External sources are cited claim by claim; isora editorial data may be reused with attribution.",
@@ -13,10 +13,10 @@
     "Entries are correctable and dated by last verification."
   ],
   "counts": {
-    "total": 106,
-    "hommes": 47,
+    "total": 107,
+    "hommes": 48,
     "femmes": 59,
-    "sources": 245
+    "sources": 248
   },
   "domains": [
     "Santé",
@@ -51,6 +51,7 @@
     "bourses",
     "Canada",
     "cancer",
+    "cas signalés",
     "comparaison",
     "condamnations",
     "conflits",
@@ -136,6 +137,7 @@
     "mobilité",
     "monde",
     "mortalité",
+    "mpox",
     "numérique",
     "obligations",
     "OCDE",
@@ -190,6 +192,7 @@
     "STEM",
     "stéréotypes",
     "suicide",
+    "surveillance",
     "taxe rose",
     "terrorisme",
     "test ADN",
@@ -674,6 +677,63 @@
     ]
   },
   "claims": [
+    {
+      "id": "hommes-mpox-cas-signales-france-2026",
+      "url": "https://isora.info/fiches/hommes-mpox-cas-signales-france-2026/",
+      "appUrl": "https://isora.info/#hommes-mpox-cas-signales-france-2026",
+      "title": "Mpox: males accounted for most cases reported in France",
+      "originalTitle": "Mpox : personnes de sexe masculin majoritaires parmi les cas signalés en France",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "89 % vs 11 %",
+      "summary": "From 1 January to 31 August 2026, Santé publique France reported 359 mpox cases: 321 males (89%) and 38 females (11%). These shares describe cases reported to French surveillance, not infection risk across the entire male or female population.",
+      "originalSummary": "Du 1er janvier au 31 août 2026, Santé publique France rapporte 359 cas de mpox : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Ces parts décrivent les cas signalés à la surveillance française, pas le risque d'infection dans l'ensemble de chaque sexe.",
+      "nuance": "The bulletin published on 2 October 2026 covers reported cases, including 15 without biological confirmation. Three cases involved children under 15, so the series is not limited to adults. The sex distribution is neither a population incidence rate nor a comparison adjusted for age, exposure or diagnostic access. It establishes no biological or social cause of the difference. Surveillance relies on reporting and may not count every infection. Male and female are the bulletin's statistical categories; chromosomes were not measured.",
+      "originalNuance": "Le bulletin publié le 2 octobre 2026 concerne les cas signalés, dont 15 sans confirmation biologique. Trois cas concernent des enfants de moins de 15 ans : la série ne se limite pas aux adultes. La répartition par sexe n'est ni un taux d'incidence dans la population ni une comparaison ajustée pour l'âge, l'exposition ou le recours au diagnostic. Elle ne démontre aucune cause biologique ou sociale de l'écart. La surveillance dépend du signalement et ne dénombre pas nécessairement toutes les infections. Les catégories masculines et féminines sont celles du bulletin ; les chromosomes ne sont pas mesurés.",
+      "tags": [
+        "health",
+        "mpox",
+        "surveillance",
+        "France",
+        "reported cases"
+      ],
+      "countryScope": "France",
+      "regionScope": "Europe",
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-08-31",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population measured by the source: 359 mpox cases reported to French surveillance from 1 January to 31 August 2026, classified as male or female; the series includes adults and three children under 15. Chromosomes were not measured.",
+      "libelle_source": "Population mesurée par la source : 359 cas de mpox signalés à la surveillance française du 1er janvier au 31 août 2026, classés de sexe masculin ou féminin ; la série comprend des adultes et trois enfants de moins de 15 ans. Les chromosomes ne sont pas mesurés.",
+      "mesure_chromosomes": false,
+      "date_consultation": "7 octobre 2026",
+      "legalType": "répartition par sexe des cas de mpox signalés",
+      "translationStatus": "reviewed",
+      "originalSourcePopulation": "Population mesurée par la source : 359 cas de mpox signalés à la surveillance française du 1er janvier au 31 août 2026, classés de sexe masculin ou féminin ; la série comprend des adultes et trois enfants de moins de 15 ans. Les chromosomes ne sont pas mesurés.",
+      "confidence": "forte",
+      "lastChecked": "7 octobre 2026",
+      "source": {
+        "label": "Variole B (mpox) en France, du 1er janvier au 31 août 2026",
+        "publisher": "Santé publique France",
+        "url": "https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026",
+        "date": "2 octobre 2026, cas de janvier à août 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "Mpox : notre action et surveillance épidémiologique",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/variole-b-mpox/notre-action",
+          "date": "mise à jour du 26 août 2026"
+        },
+        {
+          "label": "Mpox : fiche d'information sur la transmission",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/mpox",
+          "date": "26 août 2024, contexte général"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "femmes-douleurs-declarees-11-sites-monde",
       "url": "https://isora.info/fiches/femmes-douleurs-declarees-11-sites-monde/",

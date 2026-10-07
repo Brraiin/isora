@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-mpox-cas-signales-france-2026",
+    "side": "hommes",
+    "claimTitle": "Mpox : personnes de sexe masculin majoritaires parmi les cas signalés en France",
+    "claimMetric": "89 % vs 11 %",
+    "blogTitle": "Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026",
+    "blogUrl": "/blog/2026-10-07-mpox-cas-signales-femmes-hommes-france/",
+    "date": "2026-10-07",
+    "updatedAt": "2026-10-07T09:32:00.000Z"
+  },
+  {
     "claimId": "femmes-douleurs-declarees-11-sites-monde",
     "side": "femmes",
     "claimTitle": "Douleurs déclarées plus fréquentes chez les femmes dans une synthèse internationale",
