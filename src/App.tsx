@@ -1039,22 +1039,6 @@ function buildHomeBlogUpdateStats(updates: readonly HomeBlogUpdate[]) {
   } satisfies Record<Side, HomeBlogUpdateSideStats>;
 }
 
-function getHomeBlogUpdateTone(side: Side) {
-  return side === "femmes"
-    ? {
-        border: "border-l-cyan-600",
-        text: "text-cyan-700",
-        bg: "bg-cyan-50",
-        ring: "ring-cyan-200",
-      }
-    : {
-        border: "border-l-violet-700",
-        text: "text-violet-700",
-        bg: "bg-violet-50",
-        ring: "ring-violet-200",
-      };
-}
-
 function getPeriodLabel(claim: Claim) {
   return `${claim.periode_debut}${claim.periode_fin ? `-${claim.periode_fin}` : "+"}`;
 }
@@ -1993,82 +1977,6 @@ function LexiconPage({ locale, text }: { locale: Locale; text: Record<string, st
   );
 }
 
-function HomeBlogUpdatesPanel({
-  stats,
-  locale,
-  onClaimClick,
-  text,
-}: {
-  stats: Record<Side, HomeBlogUpdateSideStats>;
-  locale: Locale;
-  onClaimClick?: () => void;
-  text: Record<string, string>;
-}) {
-  const updates = [...stats.hommes.updates, ...stats.femmes.updates].sort(compareHomeBlogUpdates);
-
-  if (updates.length === 0) return null;
-
-  return (
-    <section aria-labelledby="modified-claims-title">
-      <div className={cn(icon18, "flex items-center gap-2 text-neutral-900")}>
-        <Newspaper className="text-blue-800" aria-hidden="true" />
-        <h3 id="modified-claims-title" className="m-0 text-[0.96rem] leading-tight">
-          {text.modifiedClaims}
-        </h3>
-      </div>
-      <p className="mt-1 text-sm leading-snug text-neutral-500">{text.modifiedClaimsDialogIntro}</p>
-
-      <div className="mt-3 grid gap-2.5">
-        {updates.map((update) => {
-          const tone = getHomeBlogUpdateTone(update.side);
-          const isExternalSource = isSourceUpdate(update);
-
-          return (
-            <div
-              className={cn("border-l-4 bg-neutral-100 p-3 ring-1 ring-inset ring-neutral-300", tone.border)}
-              key={`${update.claimId}-${update.updatedAt}`}
-            >
-              <div className="flex flex-wrap items-center gap-2">
-                <span className={cn("px-2 py-1 text-[0.68rem] font-extrabold uppercase leading-none ring-1 ring-inset", tone.bg, tone.text, tone.ring)}>
-                  {sideLabelsByLocale[locale][update.side]}
-                </span>
-                <span className="text-[0.72rem] font-bold text-neutral-500">
-                  {formatHomeBlogUpdateDate(update.updatedAt, locale)}
-                </span>
-              </div>
-
-              <a
-                className="mt-2 block text-sm font-extrabold leading-snug text-neutral-900 no-underline hover:text-blue-800 hover:underline"
-                href={`#${encodeURIComponent(update.claimId)}`}
-                onClick={onClaimClick}
-              >
-                {update.claimTitle}
-              </a>
-
-              <p className="mt-1 text-[0.78rem] leading-snug text-neutral-600">
-                <span className="font-extrabold text-neutral-800">{text.currentMetric} :</span>{" "}
-                {update.claimMetric}
-              </p>
-
-              <a
-                className={cn(icon18, "mt-2 inline-flex max-w-full items-start gap-1.5 text-[0.78rem] font-bold leading-snug text-blue-800 underline underline-offset-2")}
-                href={update.blogUrl}
-                rel={isExternalSource ? "noreferrer" : undefined}
-                target={isExternalSource ? "_blank" : undefined}
-              >
-                <FileText className="mt-0.5" aria-hidden="true" />
-                <span className="min-w-0 [overflow-wrap:anywhere]">
-                  {getUpdateLinkLabel(update, text)} : {update.blogTitle}
-                </span>
-              </a>
-            </div>
-          );
-        })}
-      </div>
-    </section>
-  );
-}
-
 function App() {
   const [locale, setLocale] = useState<Locale>(() => {
     if (typeof window === "undefined") return "fr";
@@ -2088,7 +1996,6 @@ function App() {
     status: hasAlgoliaSearchConfig ? "idle" : "disabled",
   }));
   const [isFormOpen, setIsFormOpen] = useState(false);
-  const [isUpdatesOpen, setIsUpdatesOpen] = useState(false);
   const [suggestionSources, setSuggestionSources] = useState([""]);
   const [submitted, setSubmitted] = useState(false);
   const [submissionError, setSubmissionError] = useState(false);
@@ -2619,11 +2526,6 @@ function App() {
     [visibleHomeBlogUpdates],
   );
 
-  const homeBlogUpdateHistoryStats = useMemo(
-    () => buildHomeBlogUpdateStats(homeBlogUpdates),
-    [],
-  );
-
   const homeBlogUpdatesByClaimId = useMemo(() => {
     const updatesByClaimId = new Map<string, HomeBlogUpdate[]>();
 
@@ -2635,11 +2537,6 @@ function App() {
 
     return updatesByClaimId;
   }, [visibleHomeBlogUpdates]);
-
-  const updatedClaimsTotal = homeBlogUpdateHistoryStats.hommes.total + homeBlogUpdateHistoryStats.femmes.total;
-  const latestHomeBlogUpdate =
-    [...homeBlogUpdateHistoryStats.hommes.updates, ...homeBlogUpdateHistoryStats.femmes.updates].sort(compareHomeBlogUpdates)[0] ??
-    null;
 
   const structuredData = useMemo(
     () => ({
@@ -3233,13 +3130,7 @@ function App() {
             className={cn(
               pageWidth,
               "grid gap-3 pt-4 max-[760px]:grid-cols-2",
-              updatedClaimsTotal > 0
-                ? showMenSummaryTile && showWomenSummaryTile
-                  ? "grid-cols-4"
-                  : "grid-cols-3"
-                : showMenSummaryTile && showWomenSummaryTile
-                  ? "grid-cols-3"
-                  : "grid-cols-2",
+              showMenSummaryTile && showWomenSummaryTile ? "grid-cols-3" : "grid-cols-2",
             )}
             aria-label="État de la base"
           >
@@ -3294,36 +3185,6 @@ function App() {
                       {homeBlogUpdateStats.femmes.latest
                         ? ` - ${text.blogSyncLatest} ${formatHomeBlogUpdateDate(homeBlogUpdateStats.femmes.latest.updatedAt, locale)}`
                         : ""}
-                    </span>
-                  )}
-                </span>
-              </button>
-            )}
-            {updatedClaimsTotal > 0 && (
-              <button
-                className="flex min-h-[118px] cursor-pointer flex-col justify-between border-0 border-l-4 border-l-blue-800 bg-white p-5 text-left ring-1 ring-inset ring-neutral-300 hover:bg-blue-50 max-[760px]:min-h-[74px] max-[760px]:p-3"
-                type="button"
-                aria-haspopup="dialog"
-                onClick={() => setIsUpdatesOpen(true)}
-              >
-                <span className="text-5xl font-extrabold leading-none text-blue-800 max-[760px]:hidden">
-                  {updatedClaimsTotal}
-                </span>
-                <span>
-                  <small className="block font-bold leading-[1.35] text-neutral-700 max-[760px]:text-[0.82rem]">
-                    {text.modifiedClaims}
-                  </small>
-                  <span className="mt-2 flex flex-wrap gap-x-2 gap-y-1 text-xs font-extrabold leading-tight">
-                    <span className="text-violet-700">
-                      {homeBlogUpdateHistoryStats.hommes.total} {displaySideLabels.hommes}
-                    </span>
-                    <span className="text-cyan-700">
-                      {homeBlogUpdateHistoryStats.femmes.total} {displaySideLabels.femmes}
-                    </span>
-                  </span>
-                  {latestHomeBlogUpdate && (
-                    <span className="mt-1 block text-xs font-bold leading-tight text-neutral-500">
-                      {text.blogSyncLatest} {formatHomeBlogUpdateDate(latestHomeBlogUpdate.updatedAt, locale)}
                     </span>
                   )}
                 </span>
@@ -3574,34 +3435,6 @@ function App() {
           </section>
         </section>
           </>
-        )}
-
-        {isUpdatesOpen && (
-          <div className="fixed inset-0 z-50 grid place-items-center bg-neutral-950/45 p-4" role="presentation">
-            <section
-              className={cn(panel, "max-h-[calc(100vh_-_32px)] w-[min(680px,100%)] overflow-auto p-5")}
-              role="dialog"
-              aria-modal="true"
-              aria-labelledby="modified-claims-title"
-            >
-              <div className="mb-4 flex justify-end">
-                <button
-                  className={cn(icon18, "inline-flex h-10 w-10 items-center justify-center border-0 bg-neutral-200 text-blue-800 hover:bg-blue-100")}
-                  type="button"
-                  onClick={() => setIsUpdatesOpen(false)}
-                  aria-label={text.close}
-                >
-                  <X aria-hidden="true" />
-                </button>
-              </div>
-              <HomeBlogUpdatesPanel
-                stats={homeBlogUpdateHistoryStats}
-                locale={locale}
-                onClaimClick={() => setIsUpdatesOpen(false)}
-                text={text}
-              />
-            </section>
-          </div>
         )}
 
         {isFormOpen && (
