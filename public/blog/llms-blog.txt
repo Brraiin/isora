@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Cœur des femmes : distinguer les décès, l’âge et les parcours de soins
+- URL: https://isora.info/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/
+- Date: 2026-10-12
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: hommes-esperance-vie, femmes-arret-cardiaque-defibrillation-temoins
+- Resume: Les maladies cardiovasculaires — celles du cœur et des vaisseaux sanguins — concernent les deux sexes. Le nouveau point de l’Assurance maladie invite à mieux reconnaître les difficultés de prise en charge des femmes, sans confondre nombre de décès et taux corrigé des différences d’âge.
+- Sources: Assurance maladie (6 octobre 2026): https://www.ameli.fr/medecin/sante-prevention/sante-cardiovasculaire/prevention-primaire/coeur-des-femmes-comprendre-et-eliminer-les-inegalites-de-diagnostic-et-de-prise-en-charge; Santé publique France, Inserm-CépiDc et DREES — BEH (8 juillet 2025 ; données 2023): https://beh.santepubliquefrance.fr/beh/2025/13/2025_13_1.html; Conseil national professionnel cardiovasculaire (page consultée le 12 octobre 2026): https://www.cnpcv.org/index.php/le_cnpcv/travaux-du-cnpcv/
+
 ### Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors
 - URL: https://isora.info/blog/2026-10-07-activite-physique-jeunes-seniors-femmes-hommes/
 - Date: 2026-10-07

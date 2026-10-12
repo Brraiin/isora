@@ -1,0 +1,67 @@
+{
+  "id": "2026-10-12-coeur-femmes-mortalite-age-parcours-soins",
+  "slug": "2026-10-12-coeur-femmes-mortalite-age-parcours-soins",
+  "status": "published",
+  "language": "fr",
+  "title": "Cœur des femmes : distinguer les décès, l’âge et les parcours de soins",
+  "description": "Le point de l’Assurance maladie du 6 octobre 2026 rappelle des inégalités de prise en charge. Les nombres de décès ne mesurent pas le risque à âge comparable.",
+  "date": "2026-10-12",
+  "publishedAt": "2026-10-12T18:35:15.886Z",
+  "updatedAt": "2026-10-12T18:35:15.886Z",
+  "topic": { "id": "sante-mortalite", "label": "Santé, mortalité et parcours de soin" },
+  "keywords": ["santé cardiovasculaire femmes hommes", "mortalité standardisée âge", "inégalités parcours soins cardiologie France"],
+  "relatedClaimIds": ["hommes-esperance-vie", "femmes-arret-cardiaque-defibrillation-temoins"],
+  "readingMinutes": 3,
+  "summary": "Les maladies cardiovasculaires — celles du cœur et des vaisseaux sanguins — concernent les deux sexes. Le nouveau point de l’Assurance maladie invite à mieux reconnaître les difficultés de prise en charge des femmes, sans confondre nombre de décès et taux corrigé des différences d’âge.",
+  "keyPoints": [
+    "L’actualité est le rappel de prévention publié le 6 octobre 2026, pas une nouvelle enquête de mortalité.",
+    "Le bilan cité porte sur 2023 : le nombre de décès et le taux standardisé répondent à deux questions différentes.",
+    "Les difficultés de prise en charge décrites chez les femmes ne démontrent pas un risque féminin supérieur pour toutes les maladies cardiovasculaires."
+  ],
+  "sections": [
+    {
+      "heading": "Un rappel récent sur les parcours de soins",
+      "paragraphs": [
+        "L’Assurance maladie signale, pour les maladies cardiovasculaires ischémiques — liées à un apport de sang insuffisant — des appels plus tardifs au Samu et un moindre recours à certains soins chez les femmes. Son article ne donne pas de taux comparatif national pour chacun de ces constats. Il ne permet donc pas de chiffrer un désavantage uniforme à toutes les étapes.",
+        "Il rappelle aussi que la douleur thoracique peut concerner les deux sexes : les symptômes féminins ne doivent pas être réduits aux seuls signes dits atypiques."
+      ]
+    },
+    {
+      "heading": "Davantage de décès féminins ne signifie pas davantage de risque à âge comparable",
+      "paragraphs": [
+        "Le bilan 2023 de Santé publique France, de l’Inserm et de la DREES recense 136 239 décès par maladies de l’appareil circulatoire, dont 47,1 % concernent les hommes. Il porte sur les personnes résidentes et décédées en France métropolitaine et dans les cinq départements et régions d’outre-mer.",
+        "La standardisation consiste à comparer les populations avec une même répartition par âge. Dans ce bilan, les taux masculins standardisés sont 2,8 fois les taux féminins pour les cardiopathies ischémiques et 1,3 fois pour les maladies cérébrovasculaires, touchant les vaisseaux du cerveau. Ces rapports portent sur ces causes précises, pas sur toute la santé cardiovasculaire. Les taux 2023 étaient encore provisoires lors de la publication en juillet 2025."
+      ]
+    },
+    {
+      "heading": "Des ressources professionnelles, pas un nouveau chiffre de risque",
+      "paragraphs": [
+        "Le Conseil national professionnel cardiovasculaire met à disposition une revue de littérature, un document destiné aux professionnels et une affiche pour les patients. Ces supports de prévention ne constituent pas une nouvelle mesure nationale de l’écart femmes-hommes.",
+        "Les fiches liées permettent d’explorer deux indicateurs distincts : la mortalité générale en France et l’application d’un défibrillateur par un témoin lors d’un arrêt cardiaque. Un arrêt cardiaque est l’arrêt de la circulation efficace du sang ; ce n’est pas un synonyme de toutes les maladies cardiovasculaires. Leurs chiffres et leurs populations ne sont pas interchangeables."
+      ]
+    },
+    {
+      "heading": "Limites d’interprétation",
+      "paragraphs": [
+        "Ces sources décrivent des catégories femmes-hommes sans mesure des chromosomes. Les écarts de soins, les décès et les taux corrigés de l’âge sont des indicateurs différents. Leur juxtaposition n’établit ni une cause unique ni la part des décès attribuable aux inégalités de prise en charge."
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "L’article présente-t-il de nouvelles statistiques pour 2026 ?", "answer": "Non. Le point de prévention est récent ; le bilan de mortalité mobilisé ici concerne 2023." },
+    { "question": "Ces données décrivent-elles les gestes des témoins lors d’un arrêt cardiaque ?", "answer": "Non. Elles concernent des parcours de soins et la mortalité. La fiche sur l’application d’un défibrillateur par un témoin porte sur un indicateur et une population distincts." }
+  ],
+  "sources": [
+    { "title": "Cœur des femmes : comprendre et éliminer les inégalités de diagnostic et de prise en charge", "publisher": "Assurance maladie", "url": "https://www.ameli.fr/medecin/sante-prevention/sante-cardiovasculaire/prevention-primaire/coeur-des-femmes-comprendre-et-eliminer-les-inegalites-de-diagnostic-et-de-prise-en-charge", "date": "6 octobre 2026", "type": "information institutionnelle de prévention" },
+    { "title": "Grandes causes de mortalité en France en 2023 et tendances récentes", "publisher": "Santé publique France, Inserm-CépiDc et DREES — BEH", "url": "https://beh.santepubliquefrance.fr/beh/2025/13/2025_13_1.html", "date": "8 juillet 2025 ; données 2023", "type": "étude nationale des causes médicales de décès" },
+    { "title": "Travaux en cours : prévention cardiovasculaire des femmes", "publisher": "Conseil national professionnel cardiovasculaire", "url": "https://www.cnpcv.org/index.php/le_cnpcv/travaux-du-cnpcv/", "date": "page consultée le 12 octobre 2026", "type": "ressources professionnelles institutionnelles" }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-10-12T12:04:39.582Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-10-12T18:35:15.886Z",
+    "reviewNote": "Sources institutionnelles revérifiées ; période 2023 conservée et indicateurs non fusionnés. Blocage de sécurité levé après publication et vérification du correctif."
+  }
+}

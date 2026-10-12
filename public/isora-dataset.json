@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-10-07T21:39:18.767Z",
+  "generatedAt": "2026-10-12T18:40:50.376Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -13,12 +13,13 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 108,
+    "total": 110,
     "hommes": 48,
-    "femmes": 60,
-    "sources": 251
+    "femmes": 62,
+    "sources": 269
   },
   "domains": [
+    "Religieux",
     "Santé",
     "Éducation",
     "Travail",
@@ -29,10 +30,11 @@
     "Revenus",
     "Autonomie",
     "Conflits",
-    "Numérique",
-    "Religieux"
+    "Numérique"
   ],
   "tags": [
+    "accès aux fonctions",
+    "accouchement",
     "activité physique",
     "actuel",
     "Afghanistan",
@@ -49,10 +51,13 @@
     "autonomie économique",
     "blessures",
     "body count",
+    "bouddhisme",
     "bourses",
     "Canada",
     "cancer",
     "cas signalés",
+    "catholicisme",
+    "christianisme",
     "comparaison",
     "condamnations",
     "conflits",
@@ -68,6 +73,7 @@
     "coût",
     "cybersexisme",
     "Dares",
+    "décès",
     "décrochage",
     "deepfake",
     "défibrillateur",
@@ -80,6 +86,7 @@
     "double standard",
     "douleur",
     "douleur autodéclarée",
+    "douleurs",
     "DREES",
     "droit pénal",
     "droits",
@@ -110,6 +117,7 @@
     "fréquence déclarée",
     "garde des enfants",
     "greffiers",
+    "grossesse",
     "guerre",
     "haine en ligne",
     "handicap",
@@ -118,11 +126,14 @@
     "historique",
     "homicide",
     "hommes",
+    "incontinence",
     "international",
     "Iran",
+    "islam",
     "isolement",
     "jeunes",
     "jeunesse",
+    "judaïsme",
     "juridique",
     "justice",
     "limitations d'activité",
@@ -139,13 +150,16 @@
     "mobilité",
     "monde",
     "mortalité",
+    "mortalité maternelle",
     "mpox",
     "numérique",
     "obligations",
     "OCDE",
     "OMS",
     "opinion",
+    "ordination",
     "orientation",
+    "orthodoxie",
     "Panama",
     "parentalité",
     "parité",
@@ -157,6 +171,7 @@
     "perception",
     "personnel enseignant",
     "politique",
+    "post-partum",
     "pouvoir",
     "précarité",
     "préjudice psychologique",
@@ -183,6 +198,7 @@
     "sécurité",
     "sécurité routière",
     "séparation",
+    "séquelles",
     "sexisme",
     "sexualité",
     "sociétal",
@@ -679,6 +695,130 @@
     ]
   },
   "claims": [
+    {
+      "id": "femmes-acces-fonctions-religieuses-reservees-hommes",
+      "url": "https://isora.info/fiches/femmes-acces-fonctions-religieuses-reservees-hommes/",
+      "appUrl": "https://isora.info/#femmes-acces-fonctions-religieuses-reservees-hommes",
+      "title": "Certaines fonctions religieuses restent réservées aux hommes",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Religieux",
+      "metric": "Restrictions d'accès",
+      "summary": "Des restrictions d'accès sont documentées dans les trois traditions monothéistes : christianisme, judaïsme et islam. Dans l'Église catholique, l'ordination — le rite donnant accès aux fonctions de diacre, prêtre ou évêque — est réservée aux hommes baptisés. L'Église orthodoxe en Amérique exclut les femmes de la prêtrise et de l'épiscopat. Dans le judaïsme orthodoxe, le Rabbinical Council of America interdit à ses membres d'ordonner ou de recruter des femmes rabbins dans les institutions orthodoxes. En Égypte, Dar al-Ifta réserve aux hommes la direction des prières collectives comprenant des hommes. Dans le bouddhisme tibétain Gelug, l'accès des femmes au plus haut diplôme de philosophie, ouvrant certaines responsabilités, a été officiellement autorisé en 2012. Ce dernier cas est une ouverture historique, pas une interdiction actuelle. Aucun de ces faits ne mesure la proportion mondiale de dirigeants religieux.",
+      "nuance": "Revue du 12 octobre 2026 : restrictions institutionnelles confirmées auprès du Saint-Siège, de l’OCA, du RCA et de Dar al-Ifta ; diplôme bouddhiste et ordination restent distingués. Les fonctions ne sont pas équivalentes : un imam dirige ici la prière, un rabbin enseigne et dirige une communauté, et un évêque exerce une responsabilité propre aux Églises concernées. Catholicisme et orthodoxie sont des branches du christianisme, pas deux religions supplémentaires. Une restriction à une fonction ne signifie pas l'exclusion de toute responsabilité. Le Rabbinical Council of America documente sa propre politique orthodoxe, pas celle de tout le judaïsme ; des initiatives orthodoxes d'ordination de femmes existent aussi, contestées par ce conseil. Dar al-Ifta est une autorité égyptienne, pas une autorité unique de tout l'islam ; son avis reconnaît des fonctions féminines d'enseignement et de conseil et mentionne une opinion minoritaire différente sur la prière. L'Église d'Angleterre ordonne des femmes prêtres depuis 1994 et a autorisé les femmes évêques en 2014. Sally Priesand a été ordonnée rabbin dans le judaïsme réformé américain en 1972. On ne peut qualifier ces ouvertures de marginales partout : 37 % des adultes juifs aux États-Unis se déclaraient réformés dans l'enquête Pew de 2020 ; ce chiffre mesure une affiliation, pas la proportion de femmes rabbins, et ne décrit pas le monde. Pour le bouddhisme, les exemples tibétains concernent notamment des institutions en Inde et au Népal, pas toute l'Asie. Le diplôme Geshema, comparable à un doctorat de philosophie bouddhiste dans la tradition Gelug, ouvre certaines responsabilités et n'est pas une ordination. En mai 2026, l'établissement de l'ordination complète des religieuses dans la tradition monastique tibétaine restait un sujet de conférence : cela ne prouve pas une interdiction universelle. Dolma Ling est passé d'un directeur homme à une direction par trois religieuses en 2025. À Taïwan, la religieuse Cheng Yen a fondé Tzu Chi en 1966. Dans le polythéisme grec antique, la Pythie, prêtresse d'Apollon à Delphes, délivrait les oracles, aux côtés de fonctions masculines. Les sources ne permettent ni un pourcentage mondial de dirigeants par sexe ni une série historique couvrant toutes les religions. La fiche ne mesure ni la participation des fidèles ni les chromosomes.",
+      "tags": [
+        "religieux",
+        "accès aux fonctions",
+        "ordination",
+        "christianisme",
+        "catholicisme",
+        "orthodoxie",
+        "judaïsme",
+        "islam",
+        "bouddhisme",
+        "historique"
+      ],
+      "countryScope": "Institutions citées : Église catholique, orthodoxie en Amérique, conseil rabbinique américain, Égypte ; contexte bouddhiste en Inde, au Népal et à Taïwan",
+      "regionScope": "Monde",
+      "periodStart": "2026",
+      "periodEnd": "2026",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Institutions sélectionnées : Église catholique, Église orthodoxe en Amérique, Rabbinical Council of America et Dar al-Ifta d'Égypte ; règles vérifiées en octobre 2026. Contexte bouddhiste : institutions tibétaines en Inde et au Népal et Tzu Chi à Taïwan. Les repères historiques distincts et l'enquête Pew 2020 auprès d'adultes juifs aux États-Unis ne constituent pas un recensement mondial de dirigeants. Les chromosomes ne sont pas mesurés.",
+      "libelle_source": "Institutions sélectionnées : Église catholique, Église orthodoxe en Amérique, Rabbinical Council of America et Dar al-Ifta d'Égypte ; règles vérifiées en octobre 2026. Contexte bouddhiste : institutions tibétaines en Inde et au Népal et Tzu Chi à Taïwan. Les repères historiques distincts et l'enquête Pew 2020 auprès d'adultes juifs aux États-Unis ne constituent pas un recensement mondial de dirigeants. Les chromosomes ne sont pas mesurés.",
+      "mesure_chromosomes": false,
+      "date_consultation": "12 octobre 2026",
+      "legalType": "règles institutionnelles d'accès à l'ordination, au rabbinat ou à la direction des prières ; ouvertures historiques et contexte bouddhiste distincts, non droit étatique général",
+      "translationStatus": "source-language",
+      "confidence": "forte",
+      "lastChecked": "12 octobre 2026",
+      "source": {
+        "label": "Code de droit canonique, canon 1024 : condition masculine de l'ordination",
+        "publisher": "Saint-Siège",
+        "url": "https://www.vatican.va/archive/cod-iuris-canonici/fra/documents/cic_libro4_cann1024-1025_fr.html",
+        "date": "texte en vigueur consulté le 7 octobre 2026"
+      },
+      "additionalSources": [
+        {
+          "label": "2015 Resolution: RCA Policy Concerning Women Rabbis : restrictions imposées aux membres",
+          "publisher": "Rabbinical Council of America",
+          "url": "https://rabbis.org/2015-resolution-rca-policy-concerning-women-rabbis/",
+          "date": "résolution de 2015, consultée le 7 octobre 2026"
+        },
+        {
+          "label": "Jewish Americans in 2020 : affiliation aux courants du judaïsme aux États-Unis",
+          "publisher": "Pew Research Center",
+          "url": "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+          "date": "11 mai 2021, enquête 2019-2020"
+        },
+        {
+          "label": "2026 Geshema Exams : diplôme ouvert aux femmes en 2012 et accès aux responsabilités",
+          "publisher": "Tibetan Nuns Project",
+          "url": "https://tnp.org/2026-geshema-exams-another-record-number-of-nuns-take-exams/",
+          "date": "2 juillet 2026"
+        },
+        {
+          "label": "Conference on Women's Empowerment in Tibetan Buddhism : discussion de l'ordination complète",
+          "publisher": "Tibetan Nuns Project",
+          "url": "https://tnp.org/conference-on-womens-empowerment-in-tibetan-buddhism/",
+          "date": "10 juin 2026, conférence des 20-21 mai 2026"
+        },
+        {
+          "label": "Nuns Take on Leadership of Dolma Ling Nunnery : direction confiée à trois religieuses en 2025",
+          "publisher": "Tibetan Nuns Project",
+          "url": "https://tnp.org/nuns-take-on-leadership-of-dolma-ling-nunnery/",
+          "date": "changement de direction célébré le 17 avril 2025"
+        },
+        {
+          "label": "About Master Cheng Yen : religieuse bouddhiste et fondatrice de Tzu Chi à Taïwan",
+          "publisher": "Tzu Chi Canada",
+          "url": "https://tzuchi.ca/master-cheng-yen/about-master-cheng-yen/",
+          "date": "biographie institutionnelle consultée le 7 octobre 2026"
+        },
+        {
+          "label": "Ordination of Women : position sur la prêtrise et l'épiscopat",
+          "publisher": "Orthodox Church in America",
+          "url": "https://www.oca.org/questions/priesthoodmonasticism/ordination-of-women",
+          "date": "page institutionnelle consultée le 7 octobre 2026"
+        },
+        {
+          "label": "A woman leading men in congregational prayers : avis religieux sur la direction des prières",
+          "publisher": "Dar al-Ifta d'Égypte",
+          "url": "https://www.dar-alifta.org/en/fatwa/details/10803/a-woman-leading-men-in-congregational-prayers",
+          "date": "21 juillet 2016, avis consulté le 7 octobre 2026"
+        },
+        {
+          "label": "Celebrations mark 25 years of women's ordination to the priesthood : premières ordinations en 1994",
+          "publisher": "Church of England",
+          "url": "https://www.churchofengland.org/media/press-releases/celebrations-mark-25-years-womens-ordination-priesthood",
+          "date": "2019, repère historique de 1994"
+        },
+        {
+          "label": "Church of England to have women bishops : autorisation de 2014",
+          "publisher": "Church of England",
+          "url": "https://www.churchofengland.org/media/press-releases/church-england-have-women-bishops",
+          "date": "14 juillet 2014"
+        },
+        {
+          "label": "Rabbi Sally Priesand '72 : une femme ordonnée rabbin en 1972",
+          "publisher": "Hebrew Union College",
+          "url": "https://huc.edu/impact_stories/rabbi-sally-priesand-72-2/",
+          "date": "commémoration des 50 ans de l'ordination de 1972"
+        },
+        {
+          "label": "The Beginnings of the Sanctuary : la Pythie, prêtresse d'Apollon à Delphes",
+          "publisher": "Site archéologique et musée de Delphes, ministère grec de la Culture",
+          "url": "https://delphi.culture.gr/the-beginnings-of-the-sanctuary/",
+          "date": "Antiquité grecque, notice consultée le 7 octobre 2026"
+        },
+        {
+          "label": "History of Delphi : fonctions masculines et oracle dans le sanctuaire",
+          "publisher": "Site archéologique et musée de Delphes, ministère grec de la Culture",
+          "url": "https://delphi.culture.gr/archaelogical-site/site-history/",
+          "date": "Antiquité grecque, notice consultée le 7 octobre 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "femmes-activite-physique-hors-travail-jeunes-ue-2025",
       "url": "https://isora.info/fiches/femmes-activite-physique-hors-travail-jeunes-ue-2025/",
@@ -4893,39 +5033,105 @@
       "id": "femmes-mortalite-maternelle",
       "url": "https://isora.info/fiches/femmes-mortalite-maternelle/",
       "appUrl": "https://isora.info/#femmes-mortalite-maternelle",
-      "title": "Femmes mortes de causes maternelles évitables",
+      "title": "Grossesse et accouchement : mortalité maternelle",
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Santé",
-      "metric": "260 000",
-      "summary": "En 2023, environ 260 000 femmes sont mortes pendant ou après une grossesse ou un accouchement, majoritairement de causes évitables.",
-      "nuance": "La mortalité maternelle dépend de l'accès aux soins, des conditions sanitaires, des inégalités économiques et de la qualité du suivi obstétrical.",
+      "metric": "197 / 100 000",
+      "summary": "La mortalité maternelle désigne les décès dus à une cause liée à la grossesse ou aggravée par elle ou sa prise en charge, pendant la grossesse, l'accouchement ou dans les 42 jours suivant la fin de la grossesse. En 2023, l'OMS et ses partenaires estiment environ 260 000 décès dans le monde, soit 197 décès maternels pour 100 000 naissances vivantes. La plupart sont évitables avec des soins adaptés.",
+      "nuance": "Revue du 12 octobre 2026 : ratio OMS pour 2023 et définition des 42 jours confirmés ; aucune estimation masculine ajoutée. Le risque obstétrical — lié à la grossesse et à l'accouchement — concerne la personne qui porte la grossesse ; devenir père n'expose pas à ce risque corporel. La source ne fournit pas de taux masculin comparable : aucun « 0 pour 100 000 » masculin ni ratio femmes/hommes n'est calculé. L'indicateur inclut des décès avant ou après l'accouchement, exclut les causes accidentelles ou sans lien avec la grossesse et les décès au-delà de 42 jours. Le dénominateur compte les naissances vivantes, pas toutes les grossesses ni toutes les femmes. Ce bilan mondial est une estimation, pas un décompte exhaustif ; le risque varie fortement selon les pays et l'accès aux soins. Vérification du 7 octobre 2026 : ajout du ratio, de sa définition et des limites de comparaison.",
       "tags": [
         "santé",
         "maternité",
-        "mortalité",
+        "grossesse",
+        "accouchement",
+        "mortalité maternelle",
+        "décès",
         "monde"
       ],
       "countryScope": "Monde",
       "regionScope": "Monde",
       "periodStart": "2023",
-      "periodEnd": null,
+      "periodEnd": "2023",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : women mortes pendant ou après grossesse/accouchement. La source ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : women mortes pendant ou après grossesse/accouchement. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par les sources : women / femmes décédées de causes maternelles dans le monde en 2023, pendant la grossesse ou dans les 42 jours suivant sa fin ; naissances vivantes au dénominateur. Les sources ne mesurent pas les chromosomes et ne fournissent pas de population masculine comparable.",
+      "libelle_source": "Population mesurée par les sources : women / femmes décédées de causes maternelles dans le monde en 2023, pendant la grossesse ou dans les 42 jours suivant sa fin ; naissances vivantes au dénominateur. Les sources ne mesurent pas les chromosomes et ne fournissent pas de population masculine comparable.",
       "mesure_chromosomes": false,
-      "date_consultation": "15 juin 2026",
-      "legalType": "santé",
+      "date_consultation": "12 octobre 2026",
+      "legalType": "ratio estimé de décès maternels pour 100 000 naissances vivantes",
       "translationStatus": "source-language",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "12 octobre 2026",
       "source": {
-        "label": "Maternal mortality",
+        "label": "Mortalité maternelle : bilan mondial de 2023",
         "publisher": "Organisation mondiale de la Santé",
-        "url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
-        "date": "2023"
+        "url": "https://www.who.int/fr/news-room/fact-sheets/detail/maternal-mortality",
+        "date": "7 avril 2025, estimations pour 2023"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Trends in maternal mortality 2000 to 2023 : estimations internationales",
+          "publisher": "OMS, UNICEF, UNFPA, Banque mondiale et UNDESA",
+          "url": "https://www.who.int/publications/i/item/9789240108462",
+          "date": "7 avril 2025, données 2000-2023"
+        },
+        {
+          "label": "Maternal mortality ratio (per 100 000 live births) : définition de l'indicateur",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/26",
+          "date": "définition consultée le 7 octobre 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
+    {
+      "id": "femmes-sequelles-durables-accouchement",
+      "url": "https://isora.info/fiches/femmes-sequelles-durables-accouchement/",
+      "appUrl": "https://isora.info/#femmes-sequelles-durables-accouchement",
+      "title": "Problèmes de santé durables après l'accouchement",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "≥ 40 M / an",
+      "summary": "Une synthèse scientifique relayée par l'OMS en 2023 estime qu'au moins 40 millions de femmes par an pourraient connaître un problème de santé durable lié à l'accouchement. Les troubles étudiés persistent ou apparaissent au-delà de six semaines : douleurs, incontinence — fuites involontaires d'urine ou de selles — et difficultés de santé mentale, notamment.",
+      "nuance": "Revue du 12 octobre 2026 : estimation OMS de 2023 et périmètre au-delà de six semaines confirmés dans Vogel et al. ; aucune prévalence mondiale représentative ni comparaison avec les pères disponible. Il s'agit d'un ordre de grandeur issu d'études hétérogènes, sans enquête mondiale représentative. Les troubles peuvent se cumuler : leurs prévalences ne s'additionnent pas. Leur durée et leur gravité varient ; « durable » ne signifie pas nécessairement permanent. L'estimation concerne les suites de l'accouchement, pas l'ensemble des maladies féminines, et ne mesure pas un taux comparatif chez les pères. Des symptômes comme la dépression existent aussi chez les hommes. La date 2023 est celle de la synthèse, pas d'un recensement annuel.",
+      "tags": [
+        "santé",
+        "grossesse",
+        "accouchement",
+        "post-partum",
+        "séquelles",
+        "douleurs",
+        "incontinence",
+        "monde"
+      ],
+      "countryScope": "Monde, couverture des études hétérogène",
+      "regionScope": "Monde",
+      "periodStart": "synthèse de 2023 ; périodes d’études variables",
+      "periodEnd": null,
+      "currentStatus": "actuel",
+      "sourcePopulation": "Population mesurée par les sources : femmes étudiées après un accouchement pour des troubles survenant ou persistant au-delà de six semaines, avec populations et périodes d'observation variables selon les études. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par les sources : femmes étudiées après un accouchement pour des troubles survenant ou persistant au-delà de six semaines, avec populations et périodes d'observation variables selon les études. Les sources ne mesurent pas les chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "12 octobre 2026",
+      "legalType": "estimation de troubles durables après l'accouchement, non enquête mondiale représentative",
+      "translationStatus": "source-language",
+      "confidence": "moyenne",
+      "lastChecked": "12 octobre 2026",
+      "source": {
+        "label": "More than a third of women experience lasting health problems after childbirth : synthèse OMS",
+        "publisher": "Organisation mondiale de la Santé",
+        "url": "https://www.who.int/news/item/07-12-2023-more-than-a-third-of-women-experience-lasting-health-problems-after-childbirth",
+        "date": "7 décembre 2023"
+      },
+      "additionalSources": [
+        {
+          "label": "Neglected medium-term and long-term consequences of labour and childbirth : analyse systématique",
+          "publisher": "Vogel et al., The Lancet Global Health",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38070535/",
+          "date": "publication en ligne le 6 décembre 2023 ; volume de février 2024"
+        }
+      ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {

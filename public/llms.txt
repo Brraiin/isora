@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-10-07T21:39:18.767Z
+Derniere generation: 2026-10-12T18:40:50.376Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -18,11 +18,11 @@ Derniere generation: 2026-10-07T21:39:18.767Z
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 108
+- Fiches: 110
 - Fiches concernant les hommes: 48
-- Fiches concernant les femmes: 60
-- Sources distinctes: 251
-- Domaines: Santé, Éducation, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique, Religieux
+- Fiches concernant les femmes: 62
+- Sources distinctes: 269
+- Domaines: Religieux, Santé, Éducation, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique
 
 ## Methode editoriale
 - Donnee sourcee, contexte lisible, contribution ouverte.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Cœur des femmes : distinguer les décès, l’âge et les parcours de soins
+- URL: https://isora.info/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/
+- Date: 2026-10-12
+- Fiches isora liees: hommes-esperance-vie, femmes-arret-cardiaque-defibrillation-temoins
+- Resume: Les maladies cardiovasculaires — celles du cœur et des vaisseaux sanguins — concernent les deux sexes. Le nouveau point de l’Assurance maladie invite à mieux reconnaître les difficultés de prise en charge des femmes, sans confondre nombre de décès et taux corrigé des différences d’âge.
+- Sources: Assurance maladie: https://www.ameli.fr/medecin/sante-prevention/sante-cardiovasculaire/prevention-primaire/coeur-des-femmes-comprendre-et-eliminer-les-inegalites-de-diagnostic-et-de-prise-en-charge; Santé publique France, Inserm-CépiDc et DREES — BEH: https://beh.santepubliquefrance.fr/beh/2025/13/2025_13_1.html; Conseil national professionnel cardiovasculaire: https://www.cnpcv.org/index.php/le_cnpcv/travaux-du-cnpcv/
+
 ### Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors
 - URL: https://isora.info/blog/2026-10-07-activite-physique-jeunes-seniors-femmes-hommes/
 - Date: 2026-10-07
@@ -205,13 +212,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Resume: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport. Ce constat ne porte pas sur la pratique sportive à tous les âges. En France, une enquête de Santé publique France montre en 2024 des taux de pratique physique régulière pendant les loisirs proches chez les femmes et les hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures. L'écart d'espérance de vie entre les sexes est réel, mais ces données ne permettent pas de l'attribuer à un éventuel arrêt du sport après des métiers physiquement exigeants.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1; Santé publique France: https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf; Insee / INJEP: https://www.insee.fr/fr/statistiques/6047763; Insee: https://www.insee.fr/fr/statistiques/2381474; Insee: https://www.insee.fr/fr/statistiques/2416631; British Journal of Sports Medicine: https://pubmed.ncbi.nlm.nih.gov/39255999/; Organisation mondiale de la santé: https://www.who.int/publications/i/item/9789240015128
 
-### Mésothéliome pleural en France : davantage d'hommes touchés, des expositions différentes
-- URL: https://isora.info/blog/2026-09-21-mesotheliome-pleural-femmes-hommes-france-amiante/
-- Date: 2026-09-21
-- Fiches isora liees: hommes-mesotheliome-pleural-incidence-france
-- Resume: Publié le 21 septembre 2026, le bilan de Santé publique France retrace 26 années de surveillance du mésothéliome pleural, un cancer lié à l'amiante. Dans la zone suivie, 7 277 cas ont été inclus entre 1998 et 2023. Pour la France entière, l'incidence annuelle estimée et standardisée sur l'âge est, en 2018-2021, de 2,23 pour 100 000 chez les hommes et 0,72 chez les femmes. Les hommes restent davantage touchés, mais les circonstances d'exposition identifiées diffèrent : parmi les patients interrogés sur 2018-2023, une exposition professionnelle à l'amiante a été retrouvée chez 89,0 % des hommes et 28,2 % des femmes. Ces chiffres décrivent des personnes atteintes et enquêtées, non le risque de l'ensemble des travailleurs ou travailleuses.
-- Sources: Santé publique France: https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006853.pdf; Santé publique France: https://www.santepubliquefrance.fr/maladies-liees-au-travail/maladies-a-caractere-professionnel/rapportsynthese/programme-national-de-surveillance-du-mesotheliome-pleural-pnsm-26-annees-de-surveillance-des; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/donnees; Santé publique France: https://www.santepubliquefrance.fr/mesotheliomes/la-maladie
 
+## Certaines fonctions religieuses restent réservées aux hommes
+- ID: femmes-acces-fonctions-religieuses-reservees-hommes
+- URL: https://isora.info/fiches/femmes-acces-fonctions-religieuses-reservees-hommes/
+- URL interactive: https://isora.info/#femmes-acces-fonctions-religieuses-reservees-hommes
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Religieux
+- Zone: Institutions citées : Église catholique, orthodoxie en Amérique, conseil rabbinique américain, Égypte ; contexte bouddhiste en Inde, au Népal et à Taïwan
+- Periode: 2026-2026
+- Statut: actuel
+- Mesure cle: Restrictions d'accès
+- Resume: Des restrictions d'accès sont documentées dans les trois traditions monothéistes : christianisme, judaïsme et islam. Dans l'Église catholique, l'ordination — le rite donnant accès aux fonctions de diacre, prêtre ou évêque — est réservée aux hommes baptisés. L'Église orthodoxe en Amérique exclut les femmes de la prêtrise et de l'épiscopat. Dans le judaïsme orthodoxe, le Rabbinical Council of America interdit à ses membres d'ordonner ou de recruter des femmes rabbins dans les institutions orthodoxes. En Égypte, Dar al-Ifta réserve aux hommes la direction des prières collectives comprenant des hommes. Dans le bouddhisme tibétain Gelug, l'accès des femmes au plus haut diplôme de philosophie, ouvrant certaines responsabilités, a été officiellement autorisé en 2012. Ce dernier cas est une ouverture historique, pas une interdiction actuelle. Aucun de ces faits ne mesure la proportion mondiale de dirigeants religieux.
+- Nuance: Revue du 12 octobre 2026 : restrictions institutionnelles confirmées auprès du Saint-Siège, de l’OCA, du RCA et de Dar al-Ifta ; diplôme bouddhiste et ordination restent distingués. Les fonctions ne sont pas équivalentes : un imam dirige ici la prière, un rabbin enseigne et dirige une communauté, et un évêque exerce une responsabilité propre aux Églises concernées. Catholicisme et orthodoxie sont des branches du christianisme, pas deux religions supplémentaires. Une restriction à une fonction ne signifie pas l'exclusion de toute responsabilité. Le Rabbinical Council of America documente sa propre politique orthodoxe, pas celle de tout le judaïsme ; des initiatives orthodoxes d'ordination de femmes existent aussi, contestées par ce conseil. Dar al-Ifta est une autorité égyptienne, pas une autorité unique de tout l'islam ; son avis reconnaît des fonctions féminines d'enseignement et de conseil et mentionne une opinion minoritaire différente sur la prière. L'Église d'Angleterre ordonne des femmes prêtres depuis 1994 et a autorisé les femmes évêques en 2014. Sally Priesand a été ordonnée rabbin dans le judaïsme réformé américain en 1972. On ne peut qualifier ces ouvertures de marginales partout : 37 % des adultes juifs aux États-Unis se déclaraient réformés dans l'enquête Pew de 2020 ; ce chiffre mesure une affiliation, pas la proportion de femmes rabbins, et ne décrit pas le monde. Pour le bouddhisme, les exemples tibétains concernent notamment des institutions en Inde et au Népal, pas toute l'Asie. Le diplôme Geshema, comparable à un doctorat de philosophie bouddhiste dans la tradition Gelug, ouvre certaines responsabilités et n'est pas une ordination. En mai 2026, l'établissement de l'ordination complète des religieuses dans la tradition monastique tibétaine restait un sujet de conférence : cela ne prouve pas une interdiction universelle. Dolma Ling est passé d'un directeur homme à une direction par trois religieuses en 2025. À Taïwan, la religieuse Cheng Yen a fondé Tzu Chi en 1966. Dans le polythéisme grec antique, la Pythie, prêtresse d'Apollon à Delphes, délivrait les oracles, aux côtés de fonctions masculines. Les sources ne permettent ni un pourcentage mondial de dirigeants par sexe ni une série historique couvrant toutes les religions. La fiche ne mesure ni la participation des fidèles ni les chromosomes.
+- Population mesuree: Institutions sélectionnées : Église catholique, Église orthodoxe en Amérique, Rabbinical Council of America et Dar al-Ifta d'Égypte ; règles vérifiées en octobre 2026. Contexte bouddhiste : institutions tibétaines en Inde et au Népal et Tzu Chi à Taïwan. Les repères historiques distincts et l'enquête Pew 2020 auprès d'adultes juifs aux États-Unis ne constituent pas un recensement mondial de dirigeants. Les chromosomes ne sont pas mesurés.
+- Sources: Saint-Siège (texte en vigueur consulté le 7 octobre 2026): https://www.vatican.va/archive/cod-iuris-canonici/fra/documents/cic_libro4_cann1024-1025_fr.html; Rabbinical Council of America (résolution de 2015, consultée le 7 octobre 2026): https://rabbis.org/2015-resolution-rca-policy-concerning-women-rabbis/; Pew Research Center (11 mai 2021, enquête 2019-2020): https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/; Tibetan Nuns Project (2 juillet 2026): https://tnp.org/2026-geshema-exams-another-record-number-of-nuns-take-exams/; Tibetan Nuns Project (10 juin 2026, conférence des 20-21 mai 2026): https://tnp.org/conference-on-womens-empowerment-in-tibetan-buddhism/; Tibetan Nuns Project (changement de direction célébré le 17 avril 2025): https://tnp.org/nuns-take-on-leadership-of-dolma-ling-nunnery/; Tzu Chi Canada (biographie institutionnelle consultée le 7 octobre 2026): https://tzuchi.ca/master-cheng-yen/about-master-cheng-yen/; Orthodox Church in America (page institutionnelle consultée le 7 octobre 2026): https://www.oca.org/questions/priesthoodmonasticism/ordination-of-women; Dar al-Ifta d'Égypte (21 juillet 2016, avis consulté le 7 octobre 2026): https://www.dar-alifta.org/en/fatwa/details/10803/a-woman-leading-men-in-congregational-prayers; Church of England (2019, repère historique de 1994): https://www.churchofengland.org/media/press-releases/celebrations-mark-25-years-womens-ordination-priesthood; Church of England (14 juillet 2014): https://www.churchofengland.org/media/press-releases/church-england-have-women-bishops; Hebrew Union College (commémoration des 50 ans de l'ordination de 1972): https://huc.edu/impact_stories/rabbi-sally-priesand-72-2/; Site archéologique et musée de Delphes, ministère grec de la Culture (Antiquité grecque, notice consultée le 7 octobre 2026): https://delphi.culture.gr/the-beginnings-of-the-sanctuary/; Site archéologique et musée de Delphes, ministère grec de la Culture (Antiquité grecque, notice consultée le 7 octobre 2026): https://delphi.culture.gr/archaelogical-site/site-history/
 
 ## Activité physique hors travail 4 à 6 fois par semaine : moins déclarée par les jeunes femmes dans l'UE
 - ID: femmes-activite-physique-hors-travail-jeunes-ue-2025
@@ -1541,7 +1557,7 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par la source : adolescent girls / adolescentes en Afghanistan. La source ne mesure pas les chromosomes.
 - Sources: UNESCO (2024): https://www.unesco.org/en/articles/new-report-warns-afghanistans-education-crisis-threatens-future-entire-generation; UNAMA (2025): https://unama.unmissions.org/sites/default/files/unama_pvpv_report_10_april_2025_english.pdf
 
-## Femmes mortes de causes maternelles évitables
+## Grossesse et accouchement : mortalité maternelle
 - ID: femmes-mortalite-maternelle
 - URL: https://isora.info/fiches/femmes-mortalite-maternelle/
 - URL interactive: https://isora.info/#femmes-mortalite-maternelle
@@ -1549,13 +1565,29 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Angle: désavantage_subi
 - Domaine: Santé
 - Zone: Monde
-- Periode: 2023+
+- Periode: 2023-2023
 - Statut: actuel
-- Mesure cle: 260 000
-- Resume: En 2023, environ 260 000 femmes sont mortes pendant ou après une grossesse ou un accouchement, majoritairement de causes évitables.
-- Nuance: La mortalité maternelle dépend de l'accès aux soins, des conditions sanitaires, des inégalités économiques et de la qualité du suivi obstétrical.
-- Population mesuree: Population mesurée par la source : women mortes pendant ou après grossesse/accouchement. La source ne mesure pas les chromosomes.
-- Sources: Organisation mondiale de la Santé (2023): https://www.who.int/news-room/fact-sheets/detail/maternal-mortality
+- Mesure cle: 197 / 100 000
+- Resume: La mortalité maternelle désigne les décès dus à une cause liée à la grossesse ou aggravée par elle ou sa prise en charge, pendant la grossesse, l'accouchement ou dans les 42 jours suivant la fin de la grossesse. En 2023, l'OMS et ses partenaires estiment environ 260 000 décès dans le monde, soit 197 décès maternels pour 100 000 naissances vivantes. La plupart sont évitables avec des soins adaptés.
+- Nuance: Revue du 12 octobre 2026 : ratio OMS pour 2023 et définition des 42 jours confirmés ; aucune estimation masculine ajoutée. Le risque obstétrical — lié à la grossesse et à l'accouchement — concerne la personne qui porte la grossesse ; devenir père n'expose pas à ce risque corporel. La source ne fournit pas de taux masculin comparable : aucun « 0 pour 100 000 » masculin ni ratio femmes/hommes n'est calculé. L'indicateur inclut des décès avant ou après l'accouchement, exclut les causes accidentelles ou sans lien avec la grossesse et les décès au-delà de 42 jours. Le dénominateur compte les naissances vivantes, pas toutes les grossesses ni toutes les femmes. Ce bilan mondial est une estimation, pas un décompte exhaustif ; le risque varie fortement selon les pays et l'accès aux soins. Vérification du 7 octobre 2026 : ajout du ratio, de sa définition et des limites de comparaison.
+- Population mesuree: Population mesurée par les sources : women / femmes décédées de causes maternelles dans le monde en 2023, pendant la grossesse ou dans les 42 jours suivant sa fin ; naissances vivantes au dénominateur. Les sources ne mesurent pas les chromosomes et ne fournissent pas de population masculine comparable.
+- Sources: Organisation mondiale de la Santé (7 avril 2025, estimations pour 2023): https://www.who.int/fr/news-room/fact-sheets/detail/maternal-mortality; OMS, UNICEF, UNFPA, Banque mondiale et UNDESA (7 avril 2025, données 2000-2023): https://www.who.int/publications/i/item/9789240108462; Organisation mondiale de la Santé (définition consultée le 7 octobre 2026): https://www.who.int/data/gho/indicator-metadata-registry/imr-details/26
+
+## Problèmes de santé durables après l'accouchement
+- ID: femmes-sequelles-durables-accouchement
+- URL: https://isora.info/fiches/femmes-sequelles-durables-accouchement/
+- URL interactive: https://isora.info/#femmes-sequelles-durables-accouchement
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Santé
+- Zone: Monde, couverture des études hétérogène
+- Periode: synthèse de 2023 ; périodes d’études variables+
+- Statut: actuel
+- Mesure cle: ≥ 40 M / an
+- Resume: Une synthèse scientifique relayée par l'OMS en 2023 estime qu'au moins 40 millions de femmes par an pourraient connaître un problème de santé durable lié à l'accouchement. Les troubles étudiés persistent ou apparaissent au-delà de six semaines : douleurs, incontinence — fuites involontaires d'urine ou de selles — et difficultés de santé mentale, notamment.
+- Nuance: Revue du 12 octobre 2026 : estimation OMS de 2023 et périmètre au-delà de six semaines confirmés dans Vogel et al. ; aucune prévalence mondiale représentative ni comparaison avec les pères disponible. Il s'agit d'un ordre de grandeur issu d'études hétérogènes, sans enquête mondiale représentative. Les troubles peuvent se cumuler : leurs prévalences ne s'additionnent pas. Leur durée et leur gravité varient ; « durable » ne signifie pas nécessairement permanent. L'estimation concerne les suites de l'accouchement, pas l'ensemble des maladies féminines, et ne mesure pas un taux comparatif chez les pères. Des symptômes comme la dépression existent aussi chez les hommes. La date 2023 est celle de la synthèse, pas d'un recensement annuel.
+- Population mesuree: Population mesurée par les sources : femmes étudiées après un accouchement pour des troubles survenant ou persistant au-delà de six semaines, avec populations et périodes d'observation variables selon les études. Les sources ne mesurent pas les chromosomes.
+- Sources: Organisation mondiale de la Santé (7 décembre 2023): https://www.who.int/news/item/07-12-2023-more-than-a-third-of-women-experience-lasting-health-problems-after-childbirth; Vogel et al., The Lancet Global Health (publication en ligne le 6 décembre 2023 ; volume de février 2024): https://pubmed.ncbi.nlm.nih.gov/38070535/
 
 ## Femmes sans contraception moderne malgré un besoin
 - ID: femmes-contraception-besoins-non-couverts

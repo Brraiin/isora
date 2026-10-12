@@ -1,11 +1,17 @@
 # Sécurité Isora
 
-## État au 8 octobre 2026
+## État au 12 octobre 2026
 
-Une faille critique d'administration est encore présente sur la production
-contrôlée. Les corrections de ce dépôt sont locales et n'ont pas encore été
-publiées par le chat d'audit. Ne pas publier une ancienne copie qui contient
-le mot de passe codé en dur ou le secret de signature de secours.
+Le correctif d'administration a été publié avec autorisation d’Eve : commit
+`5ef3cf223f92f04a3deff78af4c6577d775ebb07`, déploiement Production READY
+`dpl_EMEU82QEQ4cJ6SsxJ4LqRj1fhWqi`. Les deux nouveaux secrets ont été
+configurés en Production. La nouvelle connexion, le refus de l’ancien mot de
+passe et d’une session historique signée avec l’ancien secret ont été vérifiés.
+Ne pas publier ni rétablir une ancienne copie contenant les accès historiques.
+
+L’ancienne URL du dernier déploiement est protégée par le SSO Vercel ; toutes
+les anciennes URLs n’ont pas été auditées. Le correctif ne résout pas les limites
+de stockage public et de contrôle des comptes décrites ci-dessous.
 
 Rapport complet et preuves nettoyées :
 `/Users/skynn/Documents/Codex/Isora/Securite/README.md`.

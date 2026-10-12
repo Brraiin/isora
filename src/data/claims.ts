@@ -107,6 +107,118 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "femmes-acces-fonctions-religieuses-reservees-hommes",
+    side: "femmes",
+    domain: "Religieux",
+    title: "Certaines fonctions religieuses restent réservées aux hommes",
+    metric: "Restrictions d'accès",
+    summary:
+      "Des restrictions d'accès sont documentées dans les trois traditions monothéistes : christianisme, judaïsme et islam. Dans l'Église catholique, l'ordination — le rite donnant accès aux fonctions de diacre, prêtre ou évêque — est réservée aux hommes baptisés. L'Église orthodoxe en Amérique exclut les femmes de la prêtrise et de l'épiscopat. Dans le judaïsme orthodoxe, le Rabbinical Council of America interdit à ses membres d'ordonner ou de recruter des femmes rabbins dans les institutions orthodoxes. En Égypte, Dar al-Ifta réserve aux hommes la direction des prières collectives comprenant des hommes. Dans le bouddhisme tibétain Gelug, l'accès des femmes au plus haut diplôme de philosophie, ouvrant certaines responsabilités, a été officiellement autorisé en 2012. Ce dernier cas est une ouverture historique, pas une interdiction actuelle. Aucun de ces faits ne mesure la proportion mondiale de dirigeants religieux.",
+    tags: ["religieux", "accès aux fonctions", "ordination", "christianisme", "catholicisme", "orthodoxie", "judaïsme", "islam", "bouddhisme", "historique"],
+    source: {
+      label: "Code de droit canonique, canon 1024 : condition masculine de l'ordination",
+      publisher: "Saint-Siège",
+      url: "https://www.vatican.va/archive/cod-iuris-canonici/fra/documents/cic_libro4_cann1024-1025_fr.html",
+      date: "texte en vigueur consulté le 7 octobre 2026",
+    },
+    additionalSources: [
+      {
+        label: "2015 Resolution: RCA Policy Concerning Women Rabbis : restrictions imposées aux membres",
+        publisher: "Rabbinical Council of America",
+        url: "https://rabbis.org/2015-resolution-rca-policy-concerning-women-rabbis/",
+        date: "résolution de 2015, consultée le 7 octobre 2026",
+      },
+      {
+        label: "Jewish Americans in 2020 : affiliation aux courants du judaïsme aux États-Unis",
+        publisher: "Pew Research Center",
+        url: "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+        date: "11 mai 2021, enquête 2019-2020",
+      },
+      {
+        label: "2026 Geshema Exams : diplôme ouvert aux femmes en 2012 et accès aux responsabilités",
+        publisher: "Tibetan Nuns Project",
+        url: "https://tnp.org/2026-geshema-exams-another-record-number-of-nuns-take-exams/",
+        date: "2 juillet 2026",
+      },
+      {
+        label: "Conference on Women's Empowerment in Tibetan Buddhism : discussion de l'ordination complète",
+        publisher: "Tibetan Nuns Project",
+        url: "https://tnp.org/conference-on-womens-empowerment-in-tibetan-buddhism/",
+        date: "10 juin 2026, conférence des 20-21 mai 2026",
+      },
+      {
+        label: "Nuns Take on Leadership of Dolma Ling Nunnery : direction confiée à trois religieuses en 2025",
+        publisher: "Tibetan Nuns Project",
+        url: "https://tnp.org/nuns-take-on-leadership-of-dolma-ling-nunnery/",
+        date: "changement de direction célébré le 17 avril 2025",
+      },
+      {
+        label: "About Master Cheng Yen : religieuse bouddhiste et fondatrice de Tzu Chi à Taïwan",
+        publisher: "Tzu Chi Canada",
+        url: "https://tzuchi.ca/master-cheng-yen/about-master-cheng-yen/",
+        date: "biographie institutionnelle consultée le 7 octobre 2026",
+      },
+      {
+        label: "Ordination of Women : position sur la prêtrise et l'épiscopat",
+        publisher: "Orthodox Church in America",
+        url: "https://www.oca.org/questions/priesthoodmonasticism/ordination-of-women",
+        date: "page institutionnelle consultée le 7 octobre 2026",
+      },
+      {
+        label: "A woman leading men in congregational prayers : avis religieux sur la direction des prières",
+        publisher: "Dar al-Ifta d'Égypte",
+        url: "https://www.dar-alifta.org/en/fatwa/details/10803/a-woman-leading-men-in-congregational-prayers",
+        date: "21 juillet 2016, avis consulté le 7 octobre 2026",
+      },
+      {
+        label: "Celebrations mark 25 years of women's ordination to the priesthood : premières ordinations en 1994",
+        publisher: "Church of England",
+        url: "https://www.churchofengland.org/media/press-releases/celebrations-mark-25-years-womens-ordination-priesthood",
+        date: "2019, repère historique de 1994",
+      },
+      {
+        label: "Church of England to have women bishops : autorisation de 2014",
+        publisher: "Church of England",
+        url: "https://www.churchofengland.org/media/press-releases/church-england-have-women-bishops",
+        date: "14 juillet 2014",
+      },
+      {
+        label: "Rabbi Sally Priesand '72 : une femme ordonnée rabbin en 1972",
+        publisher: "Hebrew Union College",
+        url: "https://huc.edu/impact_stories/rabbi-sally-priesand-72-2/",
+        date: "commémoration des 50 ans de l'ordination de 1972",
+      },
+      {
+        label: "The Beginnings of the Sanctuary : la Pythie, prêtresse d'Apollon à Delphes",
+        publisher: "Site archéologique et musée de Delphes, ministère grec de la Culture",
+        url: "https://delphi.culture.gr/the-beginnings-of-the-sanctuary/",
+        date: "Antiquité grecque, notice consultée le 7 octobre 2026",
+      },
+      {
+        label: "History of Delphi : fonctions masculines et oracle dans le sanctuaire",
+        publisher: "Site archéologique et musée de Delphes, ministère grec de la Culture",
+        url: "https://delphi.culture.gr/archaelogical-site/site-history/",
+        date: "Antiquité grecque, notice consultée le 7 octobre 2026",
+      },
+    ],
+    confidence: "forte",
+    lastChecked: "12 octobre 2026",
+    nuance:
+      "Revue du 12 octobre 2026 : restrictions institutionnelles confirmées auprès du Saint-Siège, de l’OCA, du RCA et de Dar al-Ifta ; diplôme bouddhiste et ordination restent distingués. Les fonctions ne sont pas équivalentes : un imam dirige ici la prière, un rabbin enseigne et dirige une communauté, et un évêque exerce une responsabilité propre aux Églises concernées. Catholicisme et orthodoxie sont des branches du christianisme, pas deux religions supplémentaires. Une restriction à une fonction ne signifie pas l'exclusion de toute responsabilité. Le Rabbinical Council of America documente sa propre politique orthodoxe, pas celle de tout le judaïsme ; des initiatives orthodoxes d'ordination de femmes existent aussi, contestées par ce conseil. Dar al-Ifta est une autorité égyptienne, pas une autorité unique de tout l'islam ; son avis reconnaît des fonctions féminines d'enseignement et de conseil et mentionne une opinion minoritaire différente sur la prière. L'Église d'Angleterre ordonne des femmes prêtres depuis 1994 et a autorisé les femmes évêques en 2014. Sally Priesand a été ordonnée rabbin dans le judaïsme réformé américain en 1972. On ne peut qualifier ces ouvertures de marginales partout : 37 % des adultes juifs aux États-Unis se déclaraient réformés dans l'enquête Pew de 2020 ; ce chiffre mesure une affiliation, pas la proportion de femmes rabbins, et ne décrit pas le monde. Pour le bouddhisme, les exemples tibétains concernent notamment des institutions en Inde et au Népal, pas toute l'Asie. Le diplôme Geshema, comparable à un doctorat de philosophie bouddhiste dans la tradition Gelug, ouvre certaines responsabilités et n'est pas une ordination. En mai 2026, l'établissement de l'ordination complète des religieuses dans la tradition monastique tibétaine restait un sujet de conférence : cela ne prouve pas une interdiction universelle. Dolma Ling est passé d'un directeur homme à une direction par trois religieuses en 2025. À Taïwan, la religieuse Cheng Yen a fondé Tzu Chi en 1966. Dans le polythéisme grec antique, la Pythie, prêtresse d'Apollon à Delphes, délivrait les oracles, aux côtés de fonctions masculines. Les sources ne permettent ni un pourcentage mondial de dirigeants par sexe ni une série historique couvrant toutes les religions. La fiche ne mesure ni la participation des fidèles ni les chromosomes.",
+    translations: {
+      en: {
+        title: "Some religious offices remain restricted to men",
+        summary:
+          "Restrictions on access are documented in the three monotheistic traditions: Christianity, Judaism and Islam. In the Catholic Church, ordination—the rite admitting someone to the offices of deacon, priest or bishop—is reserved for baptized men. The Orthodox Church in America excludes women from the priesthood and episcopacy. Within Orthodox Judaism, the Rabbinical Council of America prohibits its members from ordaining or hiring women rabbis in Orthodox institutions. In Egypt, Dar al-Ifta reserves leadership of congregational prayers attended by men to men. In the Gelug tradition of Tibetan Buddhism, women's access to the highest philosophy degree, opening certain leadership roles, was formally authorized in 2012. This last case is a historical opening, not a current prohibition. None of these facts measures the worldwide proportion of religious leaders.",
+        nuance:
+          "Reviewed on 12 October 2026: institutional restrictions checked against the Holy See, OCA, RCA and Dar al-Ifta; Buddhist degrees and ordination remain distinct. The offices are not equivalent: an imam here leads prayer, a rabbi teaches and leads a community, and a bishop holds an office specific to the churches concerned. Catholicism and Orthodoxy are branches of Christianity, not two additional religions. Restrictions on one office do not exclude every form of responsibility. The Rabbinical Council of America documents its own Orthodox policy, not that of all Judaism; Orthodox initiatives ordaining women also exist and are disputed by the council. Dar al-Ifta is an Egyptian authority, not a single authority for all Islam; its opinion recognizes women's teaching and advisory roles and mentions a different minority view on prayer. The Church of England has ordained women priests since 1994 and authorized women bishops in 2014. Sally Priesand was ordained a rabbi in American Reform Judaism in 1972. Such openings cannot be called marginal everywhere: 37% of Jewish adults in the United States identified as Reform in Pew's 2020 survey; this measures affiliation, not the proportion of women rabbis, and does not describe the world. The Tibetan Buddhist examples concern institutions notably in India and Nepal, not all Asia. The Geshema degree, comparable to a doctorate in Buddhist philosophy in the Gelug tradition, opens certain leadership roles and is not ordination. In May 2026, establishing full ordination for nuns within the Tibetan monastic tradition remained a conference topic; this does not prove a universal prohibition. Dolma Ling moved from a male principal to leadership by three nuns in 2025. In Taiwan, the Buddhist nun Cheng Yen founded Tzu Chi in 1966. In ancient Greek polytheism, the Pythia, Apollo's priestess at Delphi, delivered oracles alongside male offices. The sources provide neither a worldwide percentage of leaders by sex nor a historical series covering all religions. Neither adherents' participation nor chromosomes are measured.",
+        sourcePopulation:
+          "Selected institutions: Catholic Church, Orthodox Church in America, Rabbinical Council of America and Egypt's Dar al-Ifta; rules checked in October 2026. Buddhist context: Tibetan institutions in India and Nepal and Tzu Chi in Taiwan. Separate historical examples and Pew's 2020 survey of US Jewish adults do not constitute a worldwide census of leaders. Chromosomes were not measured.",
+        tags: ["religion", "eligibility for offices", "ordination", "Christianity", "Catholicism", "Orthodoxy", "Judaism", "Islam", "Buddhism", "historical"],
+      },
+    },
+  },
+  {
     id: "femmes-activite-physique-hors-travail-jeunes-ue-2025",
     side: "femmes",
     domain: "Santé",
@@ -3315,22 +3427,90 @@ const rawClaims: RawClaim[] = [
   {
     id: "femmes-mortalite-maternelle",
     side: "femmes",
+    angle: "désavantage_subi",
     domain: "Santé",
-    title: "Femmes mortes de causes maternelles évitables",
-    metric: "260 000",
+    title: "Grossesse et accouchement : mortalité maternelle",
+    metric: "197 / 100 000",
     summary:
-      "En 2023, environ 260 000 femmes sont mortes pendant ou après une grossesse ou un accouchement, majoritairement de causes évitables.",
-    tags: ["santé", "maternité", "mortalité", "monde"],
+      "La mortalité maternelle désigne les décès dus à une cause liée à la grossesse ou aggravée par elle ou sa prise en charge, pendant la grossesse, l'accouchement ou dans les 42 jours suivant la fin de la grossesse. En 2023, l'OMS et ses partenaires estiment environ 260 000 décès dans le monde, soit 197 décès maternels pour 100 000 naissances vivantes. La plupart sont évitables avec des soins adaptés.",
+    tags: ["santé", "maternité", "grossesse", "accouchement", "mortalité maternelle", "décès", "monde"],
     source: {
-      label: "Maternal mortality",
+      label: "Mortalité maternelle : bilan mondial de 2023",
       publisher: "Organisation mondiale de la Santé",
-      url: "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
-      date: "2023",
+      url: "https://www.who.int/fr/news-room/fact-sheets/detail/maternal-mortality",
+      date: "7 avril 2025, estimations pour 2023",
     },
+    additionalSources: [
+      {
+        label: "Trends in maternal mortality 2000 to 2023 : estimations internationales",
+        publisher: "OMS, UNICEF, UNFPA, Banque mondiale et UNDESA",
+        url: "https://www.who.int/publications/i/item/9789240108462",
+        date: "7 avril 2025, données 2000-2023",
+      },
+      {
+        label: "Maternal mortality ratio (per 100 000 live births) : définition de l'indicateur",
+        publisher: "Organisation mondiale de la Santé",
+        url: "https://www.who.int/data/gho/indicator-metadata-registry/imr-details/26",
+        date: "définition consultée le 7 octobre 2026",
+      },
+    ],
     confidence: "forte",
-    lastChecked: "15 juin 2026",
+    lastChecked: "12 octobre 2026",
     nuance:
-      "La mortalité maternelle dépend de l'accès aux soins, des conditions sanitaires, des inégalités économiques et de la qualité du suivi obstétrical.",
+      "Revue du 12 octobre 2026 : ratio OMS pour 2023 et définition des 42 jours confirmés ; aucune estimation masculine ajoutée. Le risque obstétrical — lié à la grossesse et à l'accouchement — concerne la personne qui porte la grossesse ; devenir père n'expose pas à ce risque corporel. La source ne fournit pas de taux masculin comparable : aucun « 0 pour 100 000 » masculin ni ratio femmes/hommes n'est calculé. L'indicateur inclut des décès avant ou après l'accouchement, exclut les causes accidentelles ou sans lien avec la grossesse et les décès au-delà de 42 jours. Le dénominateur compte les naissances vivantes, pas toutes les grossesses ni toutes les femmes. Ce bilan mondial est une estimation, pas un décompte exhaustif ; le risque varie fortement selon les pays et l'accès aux soins. Vérification du 7 octobre 2026 : ajout du ratio, de sa définition et des limites de comparaison.",
+    translations: {
+      en: {
+        title: "Pregnancy and childbirth: maternal mortality",
+        summary:
+          "Maternal mortality means deaths from a cause related to or aggravated by pregnancy or its management, during pregnancy, childbirth or within 42 days after pregnancy ends. In 2023, WHO and its partners estimate approximately 260,000 deaths worldwide, or 197 maternal deaths per 100,000 live births. Most are preventable with appropriate care.",
+        nuance:
+          "Reviewed on 12 October 2026: the WHO ratio for 2023 and 42-day definition were confirmed; no male estimate was added. Obstetric risk — related to pregnancy and childbirth — affects the person carrying the pregnancy; becoming a father does not expose someone to this bodily risk. The source provides no comparable male rate: no male zero per 100,000 or female-to-male ratio is calculated. The indicator includes deaths before or after childbirth, excludes accidental or unrelated causes and deaths beyond 42 days. Its denominator counts live births, not all pregnancies or all women. This global total is an estimate, not an exhaustive count; risk varies greatly by country and access to care. Checked on 7 October 2026: the ratio, its definition and comparison limits were added.",
+        sourcePopulation:
+          "Women with a maternal death worldwide in 2023, during pregnancy or within 42 days after its end; live births provide the denominator. The sources do not measure chromosomes or provide a comparable male population.",
+        tags: ["health", "maternity", "pregnancy", "childbirth", "maternal mortality", "deaths", "world"],
+      },
+    },
+  },
+  {
+    id: "femmes-sequelles-durables-accouchement",
+    side: "femmes",
+    angle: "désavantage_subi",
+    domain: "Santé",
+    title: "Problèmes de santé durables après l'accouchement",
+    metric: "≥ 40 M / an",
+    summary:
+      "Une synthèse scientifique relayée par l'OMS en 2023 estime qu'au moins 40 millions de femmes par an pourraient connaître un problème de santé durable lié à l'accouchement. Les troubles étudiés persistent ou apparaissent au-delà de six semaines : douleurs, incontinence — fuites involontaires d'urine ou de selles — et difficultés de santé mentale, notamment.",
+    tags: ["santé", "grossesse", "accouchement", "post-partum", "séquelles", "douleurs", "incontinence", "monde"],
+    source: {
+      label: "More than a third of women experience lasting health problems after childbirth : synthèse OMS",
+      publisher: "Organisation mondiale de la Santé",
+      url: "https://www.who.int/news/item/07-12-2023-more-than-a-third-of-women-experience-lasting-health-problems-after-childbirth",
+      date: "7 décembre 2023",
+    },
+    additionalSources: [
+      {
+        label: "Neglected medium-term and long-term consequences of labour and childbirth : analyse systématique",
+        publisher: "Vogel et al., The Lancet Global Health",
+        url: "https://pubmed.ncbi.nlm.nih.gov/38070535/",
+        date: "publication en ligne le 6 décembre 2023 ; volume de février 2024",
+      },
+    ],
+    confidence: "moyenne",
+    lastChecked: "12 octobre 2026",
+    nuance:
+      "Revue du 12 octobre 2026 : estimation OMS de 2023 et périmètre au-delà de six semaines confirmés dans Vogel et al. ; aucune prévalence mondiale représentative ni comparaison avec les pères disponible. Il s'agit d'un ordre de grandeur issu d'études hétérogènes, sans enquête mondiale représentative. Les troubles peuvent se cumuler : leurs prévalences ne s'additionnent pas. Leur durée et leur gravité varient ; « durable » ne signifie pas nécessairement permanent. L'estimation concerne les suites de l'accouchement, pas l'ensemble des maladies féminines, et ne mesure pas un taux comparatif chez les pères. Des symptômes comme la dépression existent aussi chez les hommes. La date 2023 est celle de la synthèse, pas d'un recensement annuel.",
+    translations: {
+      en: {
+        title: "Lasting health problems after childbirth",
+        summary:
+          "A scientific review highlighted by WHO in 2023 estimates that at least 40 million women annually may experience a lasting health problem related to childbirth. The conditions studied persist or arise beyond six weeks: pain, incontinence — involuntary leakage of urine or stool — and mental health difficulties, among others.",
+        nuance:
+          "Reviewed on 12 October 2026: the 2023 WHO estimate and beyond-six-weeks scope were checked against Vogel et al.; no representative global prevalence or comparison with fathers is available. This is an approximate estimate drawn from heterogeneous studies, without a globally representative survey. Conditions may overlap, so their prevalence estimates cannot be added together. Duration and severity vary; lasting does not necessarily mean permanent. The estimate concerns consequences of childbirth, not all female diseases, and does not measure a comparative rate among fathers. Symptoms such as depression also occur in men. The year 2023 dates the review, not an annual census.",
+        sourcePopulation:
+          "Women studied after childbirth for conditions occurring or persisting beyond six weeks; populations and observation periods vary across studies. The sources do not measure chromosomes.",
+        tags: ["health", "pregnancy", "childbirth", "postpartum", "lasting conditions", "pain", "incontinence", "world"],
+      },
+    },
   },
   {
     id: "femmes-contraception-besoins-non-couverts",
@@ -4129,6 +4309,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-acces-fonctions-religieuses-reservees-hommes":
+    "Institutions sélectionnées : Église catholique, Église orthodoxe en Amérique, Rabbinical Council of America et Dar al-Ifta d'Égypte ; règles vérifiées en octobre 2026. Contexte bouddhiste : institutions tibétaines en Inde et au Népal et Tzu Chi à Taïwan. Les repères historiques distincts et l'enquête Pew 2020 auprès d'adultes juifs aux États-Unis ne constituent pas un recensement mondial de dirigeants. Les chromosomes ne sont pas mesurés.",
   "femmes-activite-physique-hors-travail-jeunes-ue-2025":
     "Population mesurée : femmes et hommes de 16 à 29 ans vivant en ménage privé dans l'UE à 27, tous niveaux d'études réunis, enquête EU-SILC 2025. Les chiffres des âges plus élevés concernent séparément la France. Les chromosomes ne sont pas mesurés.",
   "hommes-mpox-cas-signales-france-2026":
@@ -4298,7 +4480,9 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-afghanistan-education":
     "Population mesurée par la source : adolescent girls / adolescentes en Afghanistan. La source ne mesure pas les chromosomes.",
   "femmes-mortalite-maternelle":
-    "Population mesurée par la source : women mortes pendant ou après grossesse/accouchement. La source ne mesure pas les chromosomes.",
+    "Population mesurée par les sources : women / femmes décédées de causes maternelles dans le monde en 2023, pendant la grossesse ou dans les 42 jours suivant sa fin ; naissances vivantes au dénominateur. Les sources ne mesurent pas les chromosomes et ne fournissent pas de population masculine comparable.",
+  "femmes-sequelles-durables-accouchement":
+    "Population mesurée par les sources : femmes étudiées après un accouchement pour des troubles survenant ou persistant au-delà de six semaines, avec populations et périodes d'observation variables selon les études. Les sources ne mesurent pas les chromosomes.",
   "femmes-contraception-besoins-non-couverts":
     "Population mesurée par la source : women and adolescent girls / femmes et adolescentes. La source ne mesure pas les chromosomes.",
   "femmes-iran-hijab-obligatoire":
@@ -4358,6 +4542,33 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-mortalite-maternelle": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2023",
+    periode_fin: "2023",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "ratio estimé de décès maternels pour 100 000 naissances vivantes",
+  },
+  "femmes-sequelles-durables-accouchement": {
+    pays_ou_zone: "Monde, couverture des études hétérogène",
+    regionScope: "Monde",
+    periode_debut: "synthèse de 2023 ; périodes d’études variables",
+    periode_fin: null,
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "estimation de troubles durables après l'accouchement, non enquête mondiale représentative",
+  },
+  "femmes-acces-fonctions-religieuses-reservees-hommes": {
+    pays_ou_zone: "Institutions citées : Église catholique, orthodoxie en Amérique, conseil rabbinique américain, Égypte ; contexte bouddhiste en Inde, au Népal et à Taïwan",
+    regionScope: "Monde",
+    periode_debut: "2026",
+    periode_fin: "2026",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "règles institutionnelles d'accès à l'ordination, au rabbinat ou à la direction des prières ; ouvertures historiques et contexte bouddhiste distincts, non droit étatique général",
+  },
   "femmes-activite-physique-hors-travail-jeunes-ue-2025": {
     pays_ou_zone: "Union européenne (27 États membres)",
     regionScope: "Europe",

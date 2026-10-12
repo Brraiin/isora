@@ -2,8 +2,54 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-12T12:30:21.600Z",
+  "generatedAt": "2026-10-12T18:40:50.530Z",
   "posts": [
+    {
+      "id": "2026-10-12-coeur-femmes-mortalite-age-parcours-soins",
+      "title": "Cœur des femmes : distinguer les décès, l’âge et les parcours de soins",
+      "url": "https://isora.info/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/",
+      "description": "Le point de l’Assurance maladie du 6 octobre 2026 rappelle des inégalités de prise en charge. Les nombres de décès ne mesurent pas le risque à âge comparable.",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T18:35:15.886Z",
+      "updatedAt": "2026-10-12T18:35:15.886Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "santé cardiovasculaire femmes hommes",
+        "mortalité standardisée âge",
+        "inégalités parcours soins cardiologie France"
+      ],
+      "relatedClaimIds": [
+        "hommes-esperance-vie",
+        "femmes-arret-cardiaque-defibrillation-temoins"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "Cœur des femmes : comprendre et éliminer les inégalités de diagnostic et de prise en charge",
+          "publisher": "Assurance maladie",
+          "url": "https://www.ameli.fr/medecin/sante-prevention/sante-cardiovasculaire/prevention-primaire/coeur-des-femmes-comprendre-et-eliminer-les-inegalites-de-diagnostic-et-de-prise-en-charge",
+          "date": "6 octobre 2026",
+          "type": "information institutionnelle de prévention"
+        },
+        {
+          "title": "Grandes causes de mortalité en France en 2023 et tendances récentes",
+          "publisher": "Santé publique France, Inserm-CépiDc et DREES — BEH",
+          "url": "https://beh.santepubliquefrance.fr/beh/2025/13/2025_13_1.html",
+          "date": "8 juillet 2025 ; données 2023",
+          "type": "étude nationale des causes médicales de décès"
+        },
+        {
+          "title": "Travaux en cours : prévention cardiovasculaire des femmes",
+          "publisher": "Conseil national professionnel cardiovasculaire",
+          "url": "https://www.cnpcv.org/index.php/le_cnpcv/travaux-du-cnpcv/",
+          "date": "page consultée le 12 octobre 2026",
+          "type": "ressources professionnelles institutionnelles"
+        }
+      ]
+    },
     {
       "id": "2026-10-07-activite-physique-jeunes-seniors-femmes-hommes",
       "title": "Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors",

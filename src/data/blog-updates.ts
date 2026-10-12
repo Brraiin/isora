@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-esperance-vie",
+    "side": "hommes",
+    "claimTitle": "Espérance de vie plus courte pour les hommes en France",
+    "claimMetric": "-5,6 ans",
+    "blogTitle": "Cœur des femmes : distinguer les décès, l’âge et les parcours de soins",
+    "blogUrl": "/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/",
+    "date": "2026-10-12",
+    "updatedAt": "2026-10-12T18:35:15.886Z"
+  },
+  {
+    "claimId": "femmes-arret-cardiaque-defibrillation-temoins",
+    "side": "femmes",
+    "claimTitle": "Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin",
+    "claimMetric": "OR 0,79",
+    "blogTitle": "Cœur des femmes : distinguer les décès, l’âge et les parcours de soins",
+    "blogUrl": "/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/",
+    "date": "2026-10-12",
+    "updatedAt": "2026-10-12T18:35:15.886Z"
+  },
+  {
     "claimId": "femmes-activite-physique-hors-travail-jeunes-ue-2025",
     "side": "femmes",
     "claimTitle": "Activité physique hors travail 4 à 6 fois par semaine : moins déclarée par les jeunes femmes dans l'UE",
@@ -70,16 +90,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/",
     "date": "2026-09-24",
     "updatedAt": "2026-09-24T00:30:00.000Z"
-  },
-  {
-    "claimId": "hommes-esperance-vie",
-    "side": "hommes",
-    "claimTitle": "Espérance de vie plus courte pour les hommes en France",
-    "claimMetric": "-5,6 ans",
-    "blogTitle": "Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024",
-    "blogUrl": "/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/",
-    "date": "2026-09-22",
-    "updatedAt": "2026-09-23T05:36:00.000Z"
   },
   {
     "claimId": "femmes-etudes-superieures-sport-ue-2024",
@@ -300,16 +310,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
     "date": "2026-08-11",
     "updatedAt": "2026-08-11T17:40:00.000Z"
-  },
-  {
-    "claimId": "femmes-arret-cardiaque-defibrillation-temoins",
-    "side": "femmes",
-    "claimTitle": "Femmes moins susceptibles de recevoir un défibrillateur posé par un témoin",
-    "claimMetric": "OR 0,79",
-    "blogTitle": "Arrêt cardiaque : les femmes reçoivent moins souvent certains gestes de témoins, mais la peur des plaintes reste mal mesurée",
-    "blogUrl": "/blog/2026-08-11-arret-cardiaque-femmes-rcp-defibrillateur-peur-contact/",
-    "date": "2026-08-11",
-    "updatedAt": "2026-08-11T17:35:00.000Z"
   },
   {
     "claimId": "femmes-violences-conjugales",

@@ -16,7 +16,11 @@ cd "/Users/skynn/Web dev/Isora"
 - Build command Vercel: `npm run build`
 - Output directory Vercel: `dist`
 
-Vercel est connecte au repo GitHub. Un push sur `main` declenche automatiquement un deploiement.
+Le dépôt GitHub et Vercel étaient reliés. Le 12 octobre 2026, aucun déploiement
+automatique n’a été observé après le push du correctif de sécurité et sa récupération
+par l’API Vercel a échoué (`git_info_fail`). La publication a été réalisée par CLI
+depuis le lot exact validé. Toujours vérifier le SHA et le statut READY : un push
+réussi ne suffit pas à confirmer la publication. Le déclenchement Git reste à réparer.
 
 ## Prérequis de sécurité — audit du 8 octobre 2026
 
@@ -24,8 +28,8 @@ Lire [SECURITY.md](SECURITY.md) avant de publier les corrections actuelles.
 L'administration exige désormais `ISORA_ADMIN_PASSWORD_HASH` et
 `ISORA_ADMIN_SECRET`, nouveaux et distincts, de type Secret dans Vercel
 Production. Sans eux, la connexion est fermée. Les anciens accès publiés ne
-doivent jamais être réutilisés. Les correctifs sont locaux ; la production
-contrôlée contient encore la faille historique.
+doivent jamais être réutilisés. Les secrets ont été configurés et le correctif
+`5ef3cf2` publié puis vérifié le 12 octobre 2026 ; voir `SECURITY.md`.
 
 Contrôler `npm run security:check`, `npm run security:test` et
 `node scripts/check-security.mjs --dist` en complément des checks habituels.
