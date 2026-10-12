@@ -3,7 +3,7 @@
 Cette procedure est la reference pour publier Isora. Le projet canonique est:
 
 ```bash
-cd "/Users/eve/Web dev/Isora"
+cd "/Users/skynn/Web dev/Isora"
 ```
 
 ## Etat de production
@@ -17,6 +17,19 @@ cd "/Users/eve/Web dev/Isora"
 - Output directory Vercel: `dist`
 
 Vercel est connecte au repo GitHub. Un push sur `main` declenche automatiquement un deploiement.
+
+## Prérequis de sécurité — audit du 8 octobre 2026
+
+Lire [SECURITY.md](SECURITY.md) avant de publier les corrections actuelles.
+L'administration exige désormais `ISORA_ADMIN_PASSWORD_HASH` et
+`ISORA_ADMIN_SECRET`, nouveaux et distincts, de type Secret dans Vercel
+Production. Sans eux, la connexion est fermée. Les anciens accès publiés ne
+doivent jamais être réutilisés. Les correctifs sont locaux ; la production
+contrôlée contient encore la faille historique.
+
+Contrôler `npm run security:check`, `npm run security:test` et
+`node scripts/check-security.mjs --dist` en complément des checks habituels.
+Les autres travaux éditoriaux locaux restent à isoler selon le lot autorisé.
 
 ## Tests bloquants avant chaque mise en production
 
@@ -123,7 +136,7 @@ pwd
 Il doit afficher:
 
 ```text
-/Users/eve/Web dev/Isora
+/Users/skynn/Web dev/Isora
 ```
 
 2. Verifier les changements:
@@ -168,7 +181,7 @@ Etat multilingue actuel:
 
 ## Publier une modification
 
-Depuis `/Users/eve/Web dev/Isora`:
+Depuis `/Users/skynn/Web dev/Isora`:
 
 ```bash
 git status --short
@@ -242,6 +255,36 @@ ISORA_CONTRIBUTION_NOTIFY_FROM
 
 `ISORA_CONTRIBUTION_NOTIFY_TO` peut contenir une ou plusieurs adresses separees par des virgules. `ISORA_CONTRIBUTION_NOTIFY_FROM` doit etre une adresse autorisee par Resend, par exemple `isora <notifications@isora.info>` apres verification du domaine. L'envoi d'email est non bloquant: si Resend est absent ou indisponible, la creation d'issue GitHub reste prioritaire.
 
+Le tableau de bord authentifie affiche un avertissement avec les noms des reglages
+manquants lorsque les emails ne sont pas configures. Chaque email contient le
+resume, les sources et le lien `https://isora.info/?admin=contributions` pour
+valider ou refuser la contribution apres connexion. Une validation enregistre la
+decision ; elle ne publie pas automatiquement une nouvelle fiche.
+
+Pour activer l'envoi :
+
+1. Creer/connecter un compte Resend, puis creer une cle limitee a l'envoi d'emails.
+2. Ajouter la cle comme Secret `RESEND_API_KEY` dans Vercel, cible Production.
+   Ne jamais coller la cle dans le chat, le code ou Git.
+3. Configurer le destinataire dans `ISORA_CONTRIBUTION_NOTIFY_TO` et l'expediteur
+   autorise dans `ISORA_CONTRIBUTION_NOTIFY_FROM`. Pour un premier essai avec
+   `isora <onboarding@resend.dev>`, Resend autorise seulement l'adresse du
+   proprietaire du compte ; utiliser son adresse de connexion comme destinataire.
+   Pour utiliser `notifications@isora.info`, verifier d'abord le domaine Resend.
+4. Redeployer apres changement des variables, puis soumettre une contribution
+   test, verifier l'email recu et les decisions dans le tableau de bord.
+
+La reception de l'email n'est pas garantie par la seule presence des variables :
+une erreur d'envoi est journalisee avec son type et le statut HTTP du fournisseur,
+sans exposer les secrets. La proposition enregistree reste moderable si l'email
+echoue. Un envoi reste seulement local ne doit jamais afficher « contribution
+envoyee ». Verifications du parcours :
+
+```bash
+node --test scripts/api-contributions.test.mjs scripts/contributions.test.mjs
+```
+
+
 ## Blog quotidien
 
 La voie normale ne passe pas par GitHub Actions ni par une cle OpenAI API. Elle passe par l'automatisation Codex app `Veille quotidienne Isora`, active tous les jours vers 20:30 heure de Paris.
@@ -249,7 +292,7 @@ La voie normale ne passe pas par GitHub Actions ni par une cle OpenAI API. Elle 
 Cette automatisation travaille dans :
 
 ```text
-/Users/eve/Web dev/Isora
+/Users/skynn/Web dev/Isora
 ```
 
 Elle doit :
@@ -279,7 +322,7 @@ Pour consulter les retours sans exposer de page publique, utiliser la vue non re
 https://isora.info/?admin=contributions
 ```
 
-Cette vue n'est liee nulle part dans le site et force `noindex,nofollow`. Elle affiche les retours sauvegardes dans le navigateur courant et, en production avec `GITHUB_ISSUE_TOKEN`, les issues GitHub ouvertes portant le label `contribution`.
+Cette vue n'est liee nulle part dans le site et force `noindex,nofollow`. Apres connexion, elle affiche les retours sauvegardes dans le navigateur courant et les issues GitHub portant le label `contribution`, y compris les decisions deja prises. Une sauvegarde locale identique a une issue recue est masquee pour que la moderation porte sur l'issue distante.
 
 ## Domaine IONOS
 

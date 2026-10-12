@@ -1,4 +1,5 @@
-import { isAdminAuthorized } from "./_admin-auth.js";
+import { isAdminAuthorized } from "../server/admin-auth.js";
+import { json, readJson, mutationError, rateLimit } from "../server/security.js";
 
 const githubApiUrl = "https://api.github.com/repos/Brraiin/isora/issues";
 const contributionDecisionLabels = {
@@ -6,48 +7,8 @@ const contributionDecisionLabels = {
   rejected: "isora-refusee",
 };
 const contributionDeletedLabel = "isora-supprimee";
+const contributionModerationUrl = "https://isora.info/?admin=contributions";
 const contributionModerationMarkerPattern = /\n*<!--\s*isora-moderation:(accepted|rejected|deleted)\s*-->\n*/g;
-
-function json(status, body, response) {
-  if (response) {
-    if (typeof response.status === "function" && typeof response.json === "function") {
-      return response.status(status).json(body);
-    }
-
-    response.statusCode = status;
-    if (typeof response.setHeader === "function") {
-      response.setHeader("content-type", "application/json; charset=utf-8");
-    }
-    response.end(JSON.stringify(body));
-    return undefined;
-  }
-
-  return new Response(JSON.stringify(body), {
-    status,
-    headers: {
-      "content-type": "application/json; charset=utf-8",
-    },
-  });
-}
-
-async function readJson(request) {
-  if (typeof request.json === "function") {
-    return request.json();
-  }
-
-  if (request.body && typeof request.body === "object" && !Buffer.isBuffer(request.body)) {
-    return request.body;
-  }
-
-  const chunks = [];
-
-  for await (const chunk of request) {
-    chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
-  }
-
-  const text = Buffer.concat(chunks).toString("utf8");
-  return JSON.parse(text);
-}
 
 function extractPayload(body) {
   if (typeof body !== "string") return null;
@@ -69,7 +30,7 @@ function getLabelName(label) {
 function getContributionStatus(issue) {
   const labels = new Set((issue.labels ?? []).map(getLabelName).filter(Boolean));
   const bodyStatus = typeof issue.body === "string"
-    ? issue.body.match(/<!--\s*isora-moderation:(accepted|rejected|deleted)\s*-->/)?.[1]
+    ? issue.body.match(/\n<!--\s*isora-moderation:(accepted|rejected|deleted)\s*-->\s*$/)?.[1]
     : null;
 
   if (labels.has(contributionDeletedLabel) || bodyStatus === "deleted") return "deleted";
@@ -100,6 +61,14 @@ function readNotificationRecipients() {
     .split(/[,;\n]/)
     .map((recipient) => recipient.trim())
     .filter(Boolean);
+}
+
+function getNotificationConfig() {
+  const missing = [];
+  if (!process.env.RESEND_API_KEY?.trim()) missing.push("RESEND_API_KEY");
+  if (!process.env.ISORA_CONTRIBUTION_NOTIFY_FROM?.trim()) missing.push("ISORA_CONTRIBUTION_NOTIFY_FROM");
+  if (readNotificationRecipients().length === 0) missing.push("ISORA_CONTRIBUTION_NOTIFY_TO");
+  return { configured: missing.length === 0, missing };
 }
 
 function htmlEscape(value) {
@@ -203,6 +172,9 @@ function buildNotificationMessage(title, payload, issue, warning) {
     `${kind.label} reçue par isora.`,
     "",
     ...fields.map(([label, value]) => `${label}: ${value}`),
+    "",
+    `Valider ou refuser : ${contributionModerationUrl}`,
+    "Connecte-toi au tableau de bord pour enregistrer ta décision. La validation ne publie pas automatiquement de fiche.",
   ].join("\n");
 
   const html = `<!doctype html>
@@ -212,6 +184,10 @@ function buildNotificationMessage(title, payload, issue, warning) {
       <header style="padding:20px 24px 8px">
         <p style="color:#1455a3;font-family:Arial,sans-serif;font-size:12px;font-weight:700;letter-spacing:0;margin:0 0 8px;text-transform:uppercase">Contribution publique</p>
         <h1 style="color:#171717;font-family:Arial,sans-serif;font-size:22px;line-height:1.25;margin:0">${htmlEscape(kind.label)} reçue sur <em>isora</em></h1>
+        <p style="font-family:Arial,sans-serif;font-size:14px;line-height:1.5;margin:16px 0">
+          <a href="${contributionModerationUrl}" style="background:#1455a3;color:#ffffff;display:inline-block;font-weight:700;padding:12px 16px;text-decoration:none">Valider ou refuser la contribution</a>
+        </p>
+        <p style="color:#525252;font-family:Arial,sans-serif;font-size:13px;line-height:1.5">Connecte-toi au tableau de bord pour enregistrer ta décision. La validation ne publie pas automatiquement de fiche.</p>
       </header>
       <table style="border-collapse:collapse;margin:8px 0 0;width:100%">
         <tbody>${rows}</tbody>
@@ -239,11 +215,11 @@ function getNotificationIdempotencyKey(title, payload, issue) {
 }
 
 async function sendContributionNotification(title, payload, issue = null, warning = "") {
-  const apiKey = process.env.RESEND_API_KEY;
-  const from = process.env.ISORA_CONTRIBUTION_NOTIFY_FROM;
+  const apiKey = process.env.RESEND_API_KEY?.trim();
+  const from = process.env.ISORA_CONTRIBUTION_NOTIFY_FROM?.trim();
   const recipients = readNotificationRecipients();
 
-  if (!apiKey || !from || recipients.length === 0) {
+  if (!getNotificationConfig().configured) {
     return { sent: false, reason: "missing_notification_config" };
   }
 
@@ -270,10 +246,12 @@ async function sendContributionNotification(title, payload, issue = null, warnin
     });
 
     if (!resendResponse.ok) {
-      return { sent: false, reason: "resend_failed" };
+      return { sent: false, reason: "resend_failed", status: resendResponse.status };
     }
 
-    return { sent: true };
+    const email = await resendResponse.json();
+    if (!email?.id) return { sent: false, reason: "invalid_resend_response" };
+    return { sent: true, id: email.id };
   } catch {
     return { sent: false, reason: "notification_failed" };
   } finally {
@@ -282,13 +260,38 @@ async function sendContributionNotification(title, payload, issue = null, warnin
 }
 
 function warnIfNotificationFailed(result) {
-  if (result.sent || result.reason === "missing_notification_config") return;
-  console.warn(`isora contribution notification skipped: ${result.reason}`);
+  if (result.sent) return;
+  console.warn(`isora contribution notification skipped: ${result.reason}${result.status ? ` (HTTP ${result.status})` : ""}`);
+}
+
+function validContributionPayload(payload) {
+  if (!payload || typeof payload !== "object" || Array.isArray(payload)) return false;
+  if (!["suggestion_asymetrie", "contestation_asymetrie"].includes(payload.type)) return false;
+  const allowed = new Set(["type", "title", "summary", "correction", "side", "angle", "claimId", "claimTitle", "claimUrl", "pageUrl", "createdAt", "sources"]);
+  const email = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i;
+  for (const [key, value] of Object.entries(payload)) {
+    if (!allowed.has(key)) return false;
+    if (key === "sources") {
+      if (!Array.isArray(value) || value.length > 10) return false;
+      for (const source of value) {
+        if (typeof source !== "string" || source.length > 2048 || email.test(source)) return false;
+        try { const url = new URL(source); if (!["https:", "http:"].includes(url.protocol) || url.username || url.password) return false; } catch { return false; }
+      }
+    } else if (typeof value !== "string" || value.length > (key === "summary" || key === "correction" ? 4000 : 2048) || email.test(value)) return false;
+  }
+  return true;
 }
 
 export default async function handler(request, response) {
   const token = process.env.GITHUB_ISSUE_TOKEN ?? process.env.GITHUB_TOKEN;
   const method = request.method ?? "GET";
+  if (!["GET", "POST", "PATCH", "DELETE"].includes(method)) return json(405, { error: "method_not_allowed" }, response);
+  if (method !== "GET") {
+    const invalid = mutationError(request);
+    if (invalid) return json(invalid.status, { error: invalid.error }, response);
+    const budget = rateLimit(request, method === "POST" ? "contribution-submit" : "contribution-moderate", 20, 10 * 60 * 1000);
+    if (budget.limited) return json(429, { error: "rate_limited", retryAfter: budget.retryAfter }, response);
+  }
 
   if ((method === "GET" || method === "PATCH" || method === "DELETE") && !isAdminAuthorized(request)) {
     return json(401, { error: "admin_auth_required" }, response);
@@ -316,6 +319,7 @@ export default async function handler(request, response) {
     return json(200, {
       ok: true,
       items: issues.map(serializeIssue).filter((issue) => issue.status !== "deleted"),
+      notificationConfig: getNotificationConfig(),
     }, response);
   }
 
@@ -328,14 +332,14 @@ export default async function handler(request, response) {
 
     try {
       data = await readJson(request);
-    } catch {
-      return json(400, { error: "invalid_json" }, response);
+    } catch (error) {
+      return json(error.status ?? 400, { error: error.status === 413 ? "payload_too_large" : "invalid_json" }, response);
     }
 
     const issueNumber = Number(data?.issueNumber);
     const decision = data?.decision;
 
-    if (!Number.isInteger(issueNumber) || !contributionDecisionLabels[decision]) {
+    if ((!Number.isInteger(issueNumber) || issueNumber <= 0) || !contributionDecisionLabels[decision]) {
       return json(400, { error: "invalid_moderation_payload" }, response);
     }
 
@@ -352,6 +356,7 @@ export default async function handler(request, response) {
     }
 
     const issue = await issueResponse.json();
+    if (issue.pull_request || !(issue.labels ?? []).some((label) => getLabelName(label) === "contribution")) return json(403, { error: "not_a_contribution" }, response);
     const labels = (issue.labels ?? []).map(getLabelName).filter(Boolean);
     const decisionLabelValues = Object.values(contributionDecisionLabels);
     const nextLabels = [
@@ -426,13 +431,13 @@ export default async function handler(request, response) {
 
     try {
       data = await readJson(request);
-    } catch {
-      return json(400, { error: "invalid_json" }, response);
+    } catch (error) {
+      return json(error.status ?? 400, { error: error.status === 413 ? "payload_too_large" : "invalid_json" }, response);
     }
 
     const issueNumber = Number(data?.issueNumber);
 
-    if (!Number.isInteger(issueNumber)) {
+    if ((!Number.isInteger(issueNumber) || issueNumber <= 0)) {
       return json(400, { error: "invalid_delete_payload" }, response);
     }
 
@@ -449,6 +454,7 @@ export default async function handler(request, response) {
     }
 
     const issue = await issueResponse.json();
+    if (issue.pull_request || !(issue.labels ?? []).some((label) => getLabelName(label) === "contribution")) return json(403, { error: "not_a_contribution" }, response);
     const labels = (issue.labels ?? []).map(getLabelName).filter(Boolean);
     const decisionLabelValues = Object.values(contributionDecisionLabels);
     const nextLabels = [
@@ -519,14 +525,14 @@ export default async function handler(request, response) {
 
   try {
     data = await readJson(request);
-  } catch {
-    return json(400, { error: "invalid_json" }, response);
+  } catch (error) {
+    return json(error.status ?? 400, { error: error.status === 413 ? "payload_too_large" : "invalid_json" }, response);
   }
 
   const title = typeof data?.title === "string" ? data.title.trim() : "";
   const payload = data?.payload;
 
-  if (!title || !payload || typeof payload !== "object") {
+  if (!title || title.length > 200 || !validContributionPayload(payload)) {
     return json(400, { error: "invalid_payload" }, response);
   }
 
@@ -539,10 +545,10 @@ export default async function handler(request, response) {
     );
     warnIfNotificationFailed(notification);
 
-    return json(202, {
-      ok: true,
+    return json(503, {
+      ok: false,
       delivery: "browser_local",
-      warning: "missing_github_token",
+      error: "missing_github_token",
     }, response);
   }
 
@@ -551,7 +557,7 @@ export default async function handler(request, response) {
     "Retour envoyé depuis Isora.",
     "",
     "```json",
-    JSON.stringify(payload, null, 2),
+    JSON.stringify(payload, null, 2).replaceAll("<", "\\u003c").replaceAll("`", "\\u0060"),
     "```",
   ].join("\n");
 
@@ -591,5 +597,6 @@ export default async function handler(request, response) {
     delivery: "github",
     issueUrl: issue.html_url,
     issueNumber: issue.number,
+    notification,
   }, response);
 }

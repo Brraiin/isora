@@ -1,57 +1,14 @@
 import {
-  applySetCookies,
   attemptsCookieName,
   clearCookie,
   createAdminSessionCookie,
   createAttemptsCookie,
   createBlockedState,
   getAdminAuthState,
+  isAdminConfigured,
   verifyAdminPassword,
-} from "./_admin-auth.js";
-
-function json(status, body, response, cookies = []) {
-  if (response) {
-    if (typeof response.status === "function" && typeof response.json === "function") {
-      applySetCookies(response, cookies);
-      return response.status(status).json(body);
-    }
-
-    response.statusCode = status;
-    if (typeof response.setHeader === "function") {
-      response.setHeader("content-type", "application/json; charset=utf-8");
-      applySetCookies(response, cookies);
-    }
-    response.end(JSON.stringify(body));
-    return undefined;
-  }
-
-  return new Response(JSON.stringify(body), {
-    status,
-    headers: {
-      "content-type": "application/json; charset=utf-8",
-      ...(cookies.length > 0 ? { "set-cookie": cookies.join(", ") } : {}),
-    },
-  });
-}
-
-async function readJson(request) {
-  if (typeof request.json === "function") {
-    return request.json();
-  }
-
-  if (request.body && typeof request.body === "object" && !Buffer.isBuffer(request.body)) {
-    return request.body;
-  }
-
-  const chunks = [];
-
-  for await (const chunk of request) {
-    chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
-  }
-
-  const text = Buffer.concat(chunks).toString("utf8");
-  return JSON.parse(text);
-}
+} from "../server/admin-auth.js";
+import { json, readJson, mutationError, rateLimit } from "../server/security.js";
 
 function remainingSeconds(blockedUntil) {
   return Math.max(0, Math.ceil((blockedUntil - Date.now()) / 1000));
@@ -59,6 +16,13 @@ function remainingSeconds(blockedUntil) {
 
 export default async function handler(request, response) {
   const method = request.method ?? "GET";
+  if (!["GET", "POST", "DELETE"].includes(method)) return json(405, { error: "method_not_allowed" }, response);
+  if (method !== "GET") {
+    const invalid = mutationError(request);
+    if (invalid) return json(invalid.status, { error: invalid.error }, response);
+  }
+  if (!isAdminConfigured()) return json(503, { error: "admin_auth_unconfigured", authenticated: false }, response);
+  if (method === "DELETE") return json(200, { ok: true, authenticated: false }, response, [clearCookie("__Host-isora_admin_session"), clearCookie("isora_admin_session")]);
   const authState = getAdminAuthState(request);
 
   if (method === "GET") {
@@ -86,6 +50,10 @@ export default async function handler(request, response) {
     return json(405, { error: "method_not_allowed" }, response);
   }
 
+  const budget = rateLimit(request, "admin-login", 5, 15 * 60 * 1000);
+  if (budget.limited) return json(429, { ok: false, authenticated: false, remainingSeconds: budget.retryAfter,
+    blockedUntil: new Date(Date.now() + budget.retryAfter * 1000).toISOString() }, response);
+
   if (authState.blockedUntil) {
     return json(423, {
       ok: false,
@@ -99,19 +67,23 @@ export default async function handler(request, response) {
 
   try {
     data = await readJson(request);
-  } catch {
-    return json(400, { error: "invalid_json" }, response);
+  } catch (error) {
+    return json(error.status ?? 400, { error: error.status === 413 ? "payload_too_large" : "invalid_json" }, response);
   }
 
   const password = typeof data?.password === "string" ? data.password : "";
 
-  if (verifyAdminPassword(password)) {
+  let passwordValid;
+  try { passwordValid = await verifyAdminPassword(password); }
+  catch { return json(429, { ok: false, authenticated: false, error: "auth_busy" }, response); }
+  if (passwordValid) {
     return json(200, {
       ok: true,
       authenticated: true,
     }, response, [
       createAdminSessionCookie(),
       clearCookie(attemptsCookieName),
+      clearCookie("isora_admin_session"),
     ]);
   }
 

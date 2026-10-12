@@ -1,48 +1,8 @@
-import { isAdminAuthorized } from "./_admin-auth.js";
+import { isAdminAuthorized } from "../server/admin-auth.js";
+import { json, readJson, mutationError, rateLimit } from "../server/security.js";
 
 const githubApiUrl = "https://api.github.com/repos/Brraiin/isora/issues";
 const analyticsIssueTitle = "isora analytics rollup";
-
-function json(status, body, response) {
-  if (response) {
-    if (typeof response.status === "function" && typeof response.json === "function") {
-      return response.status(status).json(body);
-    }
-
-    response.statusCode = status;
-    if (typeof response.setHeader === "function") {
-      response.setHeader("content-type", "application/json; charset=utf-8");
-    }
-    response.end(JSON.stringify(body));
-    return undefined;
-  }
-
-  return new Response(JSON.stringify(body), {
-    status,
-    headers: {
-      "content-type": "application/json; charset=utf-8",
-    },
-  });
-}
-
-async function readJson(request) {
-  if (typeof request.json === "function") {
-    return request.json();
-  }
-
-  if (request.body && typeof request.body === "object" && !Buffer.isBuffer(request.body)) {
-    return request.body;
-  }
-
-  const chunks = [];
-
-  for await (const chunk of request) {
-    chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
-  }
-
-  const text = Buffer.concat(chunks).toString("utf8");
-  return JSON.parse(text);
-}
 
 function getParisDateKey(date = new Date()) {
   return new Intl.DateTimeFormat("sv-SE", {
@@ -67,8 +27,8 @@ function createEmptyStats() {
       lastVisitedAt: null,
       byDay: {},
     },
-    articles: {},
-    searches: {},
+    articles: Object.create(null),
+    searches: Object.create(null),
     recentEvents: [],
   };
 }
@@ -126,6 +86,7 @@ function normalizePath(value) {
 }
 
 function normalizeSearch(value) {
+  if (/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i.test(String(value ?? ""))) return "";
   return String(value ?? "")
     .toLowerCase()
     .normalize("NFD")
@@ -195,7 +156,12 @@ function applyEvent(stats, event) {
     const query = normalizeSearch(event.query);
     if (query.length < 2) return;
 
-    const search = stats.searches[query] ?? {
+    if (process.env.ISORA_STORE_SEARCH_ANALYTICS !== "true") {
+      stats.totals.searchEvents = (Number(stats.totals.searchEvents) || 0) + 1;
+      return;
+    }
+    if (["__proto__", "constructor", "prototype"].includes(query)) return;
+    const search = (Object.hasOwn(stats.searches, query) ? stats.searches[query] : null) ?? {
       query: String(event.query ?? query).trim().slice(0, 120),
       count: 0,
       lastSearchedAt: null,
@@ -226,6 +192,10 @@ function applyEvents(stats, events) {
     applyEvent(stats, event);
   }
 
+  if (process.env.ISORA_STORE_SEARCH_ANALYTICS !== "true") {
+    stats.searches = Object.create(null);
+    stats.recentEvents = stats.recentEvents.filter((event) => event.type !== "search");
+  }
   stats.updatedAt = new Date().toISOString();
   stats.articles = trimRecord(stats.articles, "views", 500);
   stats.searches = trimRecord(stats.searches, "count", 250);
@@ -304,45 +274,43 @@ export default async function handler(request, response) {
     return json(401, { error: "admin_auth_required" }, response);
   }
 
+  if (method === "POST") {
+    const invalid = mutationError(request);
+    if (invalid) return json(invalid.status, { error: invalid.error }, response);
+    const budget = rateLimit(request, "analytics-submit", 60, 60 * 1000);
+    if (budget.limited) return json(429, { error: "rate_limited", retryAfter: budget.retryAfter }, response);
+  }
+
   if (!token) {
     return json(503, { error: "missing_github_token" }, response);
   }
 
-  let issue;
-
-  try {
-    issue = await findAnalyticsIssue(token);
-  } catch {
-    return json(502, { error: "github_analytics_issue_failed" }, response);
-  }
-
-  if (method === "GET") {
-    return json(200, {
-      ok: true,
-      stats: extractStats(issue.body),
-      issueUrl: issue.html_url,
-      updatedAt: issue.updated_at,
-    }, response);
-  }
-
   let data;
-
-  try {
-    data = await readJson(request);
-  } catch {
-    return json(400, { error: "invalid_json" }, response);
+  let events = [];
+  if (method === "POST") {
+    try { data = await readJson(request); }
+    catch (error) { return json(error.status ?? 400, { error: error.status === 413 ? "payload_too_large" : "invalid_json" }, response); }
+    events = Array.isArray(data.events) ? data.events : [data.event ?? data];
+    if (events.length < 1 || events.length > 20 || events.some((event) => !event || typeof event !== "object" ||
+      !["page_view", "search"].includes(event.type) ||
+      (event.type === "search" && (typeof event.query !== "string" || event.query.length > 120)) ||
+      (event.type === "page_view" && (typeof event.path !== "string" || !/^\/(?:$|blog\/[a-z0-9-]+\/?$)/.test(event.path))) ||
+      (event.title !== undefined && (typeof event.title !== "string" || event.title.length > 180)))) {
+      return json(400, { error: "invalid_events" }, response);
+    }
+    // Use server time and trusted published titles; visitor input must not be a
+    // channel for publishing private data into the analytics issue.
+    events = events.map((event) => ({ ...event, at: new Date().toISOString(), title: event.type === "page_view" ? event.path : undefined, count: 1 }));
   }
-
-  const events = Array.isArray(data?.events) ? data.events : [data?.event ?? data].filter(Boolean);
+  let issue;
+  try { issue = await findAnalyticsIssue(token); }
+  catch { return json(502, { error: "github_analytics_issue_failed" }, response); }
+  if (method === "GET") return json(200, { ok: true, stats: extractStats(issue.body), issueUrl: issue.html_url, updatedAt: issue.updated_at }, response);
   const stats = applyEvents(extractStats(issue.body), events);
 
   try {
-    const updatedIssue = await writeAnalyticsIssue(token, issue.number, stats);
-    return json(200, {
-      ok: true,
-      stats,
-      issueUrl: updatedIssue.html_url,
-    }, response);
+    await writeAnalyticsIssue(token, issue.number, stats);
+    return json(202, { ok: true }, response);
   } catch {
     return json(502, { error: "github_analytics_update_failed" }, response);
   }

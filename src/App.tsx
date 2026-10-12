@@ -29,6 +29,7 @@ import type { LucideIcon } from "lucide-react";
 import type { FormEvent, ReactNode } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import packageJson from "../package.json";
+import { getContributionKey, sendContribution, type NotificationConfig } from "./contributions";
 import isoraLogoUrl from "./assets/isora.svg";
 import { homeBlogUpdates as generatedBlogUpdates, type HomeBlogUpdate } from "./data/blog-updates";
 import { siteMetadata } from "./data/site-metadata";
@@ -398,8 +399,6 @@ const domainIcons: Record<Domain, LucideIcon> = {
 
 const latestCheck = "15 juin 2026";
 const canonicalUrl = `${siteMetadata.siteUrl}/`;
-const localReturnsClearPassword = "Jka$n@3^iTR7E8";
-const localReturnsClearAttemptsKey = "isora:clear-local-returns-attempts";
 const legacyContributionPrefix = ["sexe", "data"].join("");
 const contributionStorageKeys = {
   suggestions: "isora:suggestions",
@@ -415,89 +414,9 @@ const defaultCookieConsentCategories: CookieConsentCategories = {
   analytics: false,
 };
 const adminAuthLocalAttemptsKey = "isora:admin-auth-attempts";
-const adminPasswordDevHash = "274bdf294021dcdc4d40e6d04b4384e329a903caeaef616615ddd0d24929fea2";
-const adminBlockDurationMs = 24 * 60 * 60 * 1000;
 
-function getParisDateKey() {
-  return new Intl.DateTimeFormat("sv-SE", {
-    timeZone: "Europe/Paris",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date());
-}
-
-function readLocalReturnsClearAttempts() {
-  try {
-    const parsed = JSON.parse(localStorage.getItem(localReturnsClearAttemptsKey) ?? "null");
-
-    if (parsed?.date === getParisDateKey() && Number.isInteger(parsed.attempts)) {
-      return parsed as { date: string; attempts: number };
-    }
-  } catch {
-    // Reset malformed attempt state.
-  }
-
-  return { date: getParisDateKey(), attempts: 0 };
-}
-
-function writeLocalReturnsClearAttempts(attempts: number) {
-  localStorage.setItem(
-    localReturnsClearAttemptsKey,
-    JSON.stringify({ date: getParisDateKey(), attempts }),
-  );
-}
-
-function requestLocalReturnsClearPassword() {
-  const currentAttempts = readLocalReturnsClearAttempts();
-
-  if (currentAttempts.attempts >= 3) {
-    window.alert("Suppression bloquée pour aujourd'hui après 3 tentatives incorrectes.");
-    return false;
-  }
-
-  const password = window.prompt("Mot de passe pour supprimer les retours locaux :");
-
-  if (password === null) return false;
-
-  if (password === localReturnsClearPassword) {
-    localStorage.removeItem(localReturnsClearAttemptsKey);
-    return true;
-  }
-
-  const nextAttempts = currentAttempts.attempts + 1;
-  writeLocalReturnsClearAttempts(nextAttempts);
-  const remainingAttempts = Math.max(3 - nextAttempts, 0);
-  window.alert(
-    remainingAttempts > 0
-      ? `Mot de passe incorrect. ${remainingAttempts} tentative${remainingAttempts > 1 ? "s" : ""} restante${remainingAttempts > 1 ? "s" : ""} aujourd'hui.`
-      : "Mot de passe incorrect. Suppression bloquée pour aujourd'hui.",
-  );
-
-  return false;
-}
-
-async function sendContribution(title: string, payload: unknown) {
-  try {
-    const response = await fetch("/api/contributions", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({ title, payload }),
-    });
-
-    const contentType = response.headers.get("content-type") ?? "";
-    const data = contentType.includes("application/json") ? await response.json() : null;
-
-    if (response.ok || response.status === 202 || response.status === 404 || response.status === 503) {
-      return data;
-    }
-  } catch {
-    return { ok: true, delivery: "browser_local" };
-  }
-
-  return { ok: true, delivery: "browser_local" };
+function confirmLocalReturnsClear() {
+  return window.confirm("Supprimer les retours locaux de ce navigateur ?");
 }
 
 function isContributionAdminView() {
@@ -518,47 +437,6 @@ function formatBlockedUntil(value?: string | null) {
     hour: "2-digit",
     minute: "2-digit",
   }).format(date);
-}
-
-async function sha256Hex(value: string) {
-  const bytes = new TextEncoder().encode(value);
-  const digest = await crypto.subtle.digest("SHA-256", bytes);
-  return Array.from(new Uint8Array(digest))
-    .map((byte) => byte.toString(16).padStart(2, "0"))
-    .join("");
-}
-
-function readLocalAdminAttempts() {
-  try {
-    const value = JSON.parse(localStorage.getItem(adminAuthLocalAttemptsKey) ?? "null");
-    const blockedUntil = Number(value?.blockedUntil) || null;
-
-    if (blockedUntil && blockedUntil <= Date.now()) {
-      localStorage.removeItem(adminAuthLocalAttemptsKey);
-      return { attempts: 0, blockedUntil: null as number | null };
-    }
-
-    return {
-      attempts: Number(value?.attempts) || 0,
-      blockedUntil,
-    };
-  } catch {
-    return { attempts: 0, blockedUntil: null as number | null };
-  }
-}
-
-function writeLocalAdminAttempts(attempts: number, blockedUntil: number | null = null) {
-  localStorage.setItem(
-    adminAuthLocalAttemptsKey,
-    JSON.stringify({
-      attempts,
-      blockedUntil,
-    }),
-  );
-}
-
-async function verifyAdminPasswordLocally(password: string) {
-  return (await sha256Hex(password)) === adminPasswordDevHash;
 }
 
 function createEmptyAnalyticsStats(): AnalyticsStats {
@@ -1587,6 +1465,7 @@ function AdminDashboard({
   onRefreshAnalytics,
   remoteRequests,
   remoteStatus,
+  notificationConfig,
 }: {
   localRequests: ContributionPreview[];
   onClearLocalRequests: () => void;
@@ -1600,9 +1479,15 @@ function AdminDashboard({
   localAnalyticsEventCount: number;
   onRefreshAnalytics: () => void;
   remoteRequests: ContributionPreview[];
+  notificationConfig: NotificationConfig | null;
   remoteStatus: "idle" | "loading" | "ready" | "unavailable" | "error";
 }) {
-  const requests = [...remoteRequests, ...localRequests]
+  const remoteKeys = new Set(remoteRequests.map((request) => getContributionKey(request.payload)).filter(Boolean));
+  const localOnlyRequests = remoteStatus === "loading" ? [] : localRequests.filter((request) => {
+    const key = getContributionKey(request.payload);
+    return !key || !remoteKeys.has(key);
+  });
+  const requests = [...remoteRequests, ...localOnlyRequests]
     .filter((request) => request.status !== "deleted")
     .sort((left, right) => {
       const leftDate = new Date(left.createdAt ?? "").getTime() || 0;
@@ -1658,6 +1543,15 @@ function AdminDashboard({
         />
 
         <section className="mt-5 grid gap-3" aria-label="Statut des retours">
+          {notificationConfig && !notificationConfig.configured && (
+            <div className={cn(panel, "flex gap-3 p-4 text-sm font-bold text-amber-800")} role="status">
+              <AlertTriangle className="h-5 w-5 shrink-0" aria-hidden="true" />
+              <p>
+                Les notifications email sont inactives. Les propositions reçues restent à vérifier ici.
+                <span className="mt-1 block">Configuration à compléter : {notificationConfig.missing.join(", ")}.</span>
+              </p>
+            </div>
+          )}
           {remoteStatus === "loading" && (
             <div className={cn(panel, "p-4 font-bold text-blue-800")}>Chargement des issues GitHub...</div>
           )}
@@ -2006,12 +1900,14 @@ function App() {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [suggestionSources, setSuggestionSources] = useState([""]);
   const [submitted, setSubmitted] = useState(false);
+  const [isSuggestionSubmitting, setIsSuggestionSubmitting] = useState(false);
   const [submissionError, setSubmissionError] = useState(false);
   const [sharedClaimId, setSharedClaimId] = useState(() => getSharedClaimIdFromLocation());
   const [isSingleColumn, setIsSingleColumn] = useState(false);
   const [contestedClaim, setContestedClaim] = useState<Claim | null>(null);
   const [contestSources, setContestSources] = useState([""]);
   const [contestSubmitted, setContestSubmitted] = useState(false);
+  const [isContestSubmitting, setIsContestSubmitting] = useState(false);
   const [contestError, setContestError] = useState(false);
   const [isRequestsView] = useState(() => isContributionAdminView());
   const [isLexiconView] = useState(() => isLexiconPath());
@@ -2024,6 +1920,7 @@ function App() {
   const [isAdminAuthSubmitting, setIsAdminAuthSubmitting] = useState(false);
   const [localRequests, setLocalRequests] = useState<ContributionPreview[]>([]);
   const [remoteRequests, setRemoteRequests] = useState<ContributionPreview[]>([]);
+  const [notificationConfig, setNotificationConfig] = useState<NotificationConfig | null>(null);
   const [remoteStatus, setRemoteStatus] = useState<"idle" | "loading" | "ready" | "unavailable" | "error">("idle");
   const [moderationStatus, setModerationStatus] = useState<Record<string, ContributionDecision>>({});
   const [deletionStatus, setDeletionStatus] = useState<Record<string, boolean>>({});
@@ -2163,7 +2060,7 @@ function App() {
           return;
         }
 
-        if (response.status === 423) {
+        if (response.status === 423 || response.status === 429) {
           setAdminAuthStatus("blocked");
           setAdminAuthBlockedUntil(data.blockedUntil ?? null);
           setAdminAuthAttemptsRemaining(0);
@@ -2175,16 +2072,9 @@ function App() {
       })
       .catch(() => {
         if (cancelled) return;
-        const localAttempts = readLocalAdminAttempts();
-
-        if (localAttempts.blockedUntil) {
-          setAdminAuthStatus("blocked");
-          setAdminAuthBlockedUntil(new Date(localAttempts.blockedUntil).toISOString());
-          setAdminAuthAttemptsRemaining(0);
-        } else {
-          setAdminAuthStatus("unauthenticated");
-          setAdminAuthAttemptsRemaining(Math.max(3 - localAttempts.attempts, 0));
-        }
+        setAdminAuthStatus("unauthenticated");
+        setAdminAuthAttemptsRemaining(null);
+        setAdminAuthError("Vérification impossible pour le moment.");
       });
 
     return () => {
@@ -2252,10 +2142,11 @@ function App() {
           throw new Error("remote_contributions_failed");
         }
 
-        return response.json() as Promise<{ items?: RemoteContribution[] }>;
+        return response.json() as Promise<{ items?: RemoteContribution[]; notificationConfig?: NotificationConfig }>;
       })
       .then((data) => {
         if (cancelled || !data) return;
+        setNotificationConfig(data.notificationConfig ?? null);
         const items = Array.isArray(data.items) ? data.items : [];
         setRemoteRequests(items.map(toRemoteContributionPreview).filter((request) => request.status !== "deleted"));
         setRemoteStatus("ready");
@@ -2687,7 +2578,7 @@ function App() {
         return;
       }
 
-      if (response.status === 423) {
+      if (response.status === 423 || response.status === 429) {
         setAdminAuthStatus("blocked");
         setAdminAuthBlockedUntil(data.blockedUntil ?? null);
         setAdminAuthAttemptsRemaining(0);
@@ -2705,46 +2596,7 @@ function App() {
 
       throw new Error("admin_auth_failed");
     } catch {
-      if (!import.meta.env.DEV) {
-        setAdminAuthError("Vérification impossible pour le moment.");
-        return;
-      }
-
-      const localAttempts = readLocalAdminAttempts();
-
-      if (localAttempts.blockedUntil) {
-        setAdminAuthStatus("blocked");
-        setAdminAuthBlockedUntil(new Date(localAttempts.blockedUntil).toISOString());
-        setAdminAuthAttemptsRemaining(0);
-        setAdminAuthError("Trop de tentatives incorrectes.");
-        return;
-      }
-
-      if (await verifyAdminPasswordLocally(password)) {
-        localStorage.removeItem(adminAuthLocalAttemptsKey);
-        setAdminAuthStatus("authenticated");
-        setAdminAuthAttemptsRemaining(null);
-        setAdminAuthBlockedUntil(null);
-        setAdminAuthError(null);
-        return;
-      }
-
-      const nextAttempts = localAttempts.attempts + 1;
-
-      if (nextAttempts >= 3) {
-        const blockedUntil = Date.now() + adminBlockDurationMs;
-        writeLocalAdminAttempts(3, blockedUntil);
-        setAdminAuthStatus("blocked");
-        setAdminAuthBlockedUntil(new Date(blockedUntil).toISOString());
-        setAdminAuthAttemptsRemaining(0);
-        setAdminAuthError("Trop de tentatives incorrectes.");
-        return;
-      }
-
-      writeLocalAdminAttempts(nextAttempts);
-      setAdminAuthStatus("unauthenticated");
-      setAdminAuthAttemptsRemaining(Math.max(3 - nextAttempts, 0));
-      setAdminAuthError("Mot de passe incorrect.");
+      setAdminAuthError("Vérification impossible pour le moment.");
     } finally {
       setIsAdminAuthSubmitting(false);
     }
@@ -2887,7 +2739,9 @@ function App() {
 
   async function handleSuggestionSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    if (isSuggestionSubmitting) return;
     const form = event.currentTarget;
+    setSubmitted(false);
     setSubmissionError(false);
     const formData = new FormData(form);
     const suggestion = {
@@ -2907,6 +2761,7 @@ function App() {
       contributionStorageKeys.legacySuggestions,
     );
 
+    setIsSuggestionSubmitting(true);
     try {
       await sendContribution(`Suggestion isora - ${suggestion.title}`, suggestion);
       form.reset();
@@ -2915,6 +2770,8 @@ function App() {
       setSubmissionError(false);
     } catch {
       setSubmissionError(true);
+    } finally {
+      setIsSuggestionSubmitting(false);
     }
   }
 
@@ -2945,8 +2802,9 @@ function App() {
 
   async function handleContestSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (!contestedClaim) return;
+    if (!contestedClaim || isContestSubmitting) return;
     const form = event.currentTarget;
+    setContestSubmitted(false);
     setContestError(false);
 
     const formData = new FormData(form);
@@ -2967,6 +2825,7 @@ function App() {
       contributionStorageKeys.legacyContestations,
     );
 
+    setIsContestSubmitting(true);
     try {
       await sendContribution(`Contestation isora - ${contestedClaim.title}`, contestation);
       form.reset();
@@ -2975,6 +2834,8 @@ function App() {
       setContestError(false);
     } catch {
       setContestError(true);
+    } finally {
+      setIsContestSubmitting(false);
     }
   }
 
@@ -3002,7 +2863,7 @@ function App() {
         deletionStatus={deletionStatus}
         moderationStatus={moderationStatus}
         onClearLocalRequests={() => {
-          if (!requestLocalReturnsClearPassword()) return;
+          if (!confirmLocalReturnsClear()) return;
 
           localStorage.removeItem(contributionStorageKeys.suggestions);
           localStorage.removeItem(contributionStorageKeys.contestations);
@@ -3016,6 +2877,7 @@ function App() {
         onRefreshAnalytics={refreshAnalytics}
         remoteRequests={remoteRequests}
         remoteStatus={remoteStatus}
+        notificationConfig={notificationConfig}
       />
     );
   }
@@ -3535,17 +3397,17 @@ function App() {
                   ))}
                 </div>
 
-                <button className={cn(primaryAction, "w-full")} type="submit">
+                <button className={cn(primaryAction, "w-full disabled:opacity-60")} type="submit" disabled={isSuggestionSubmitting}>
                   <Send className="h-[18px] w-[18px]" aria-hidden="true" />
                   {text.sendContribution}
                 </button>
                 {submitted && (
-                  <p className="font-bold text-green-700">
+                  <p className="font-bold text-green-700" role="status">
                     {text.contributionSent}
                   </p>
                 )}
                 {submissionError && (
-                  <p className="font-bold text-red-700">
+                  <p className="font-bold text-red-700" role="alert">
                     {text.contributionError}
                   </p>
                 )}
@@ -3618,17 +3480,17 @@ function App() {
                   ))}
                 </div>
 
-                <button className={cn(primaryAction, "w-full")} type="submit">
+                <button className={cn(primaryAction, "w-full disabled:opacity-60")} type="submit" disabled={isContestSubmitting}>
                   <Send className="h-[18px] w-[18px]" aria-hidden="true" />
                   {text.sendContest}
                 </button>
                 {contestSubmitted && (
-                  <p className="font-bold text-green-700">
+                  <p className="font-bold text-green-700" role="status">
                     {text.contestSent}
                   </p>
                 )}
                 {contestError && (
-                  <p className="font-bold text-red-700">
+                  <p className="font-bold text-red-700" role="alert">
                     {text.contestError}
                   </p>
                 )}
