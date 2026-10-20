@@ -1,0 +1,64 @@
+{
+  "id": "2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes",
+  "slug": "2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes",
+  "status": "published",
+  "language": "fr",
+  "title": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
+  "description": "La Dares publie les bénéficiaires de la hausse de janvier. Une part parmi les bénéficiaires ne mesure pas la proportion de femmes payées au Smic.",
+  "date": "2026-10-20",
+  "publishedAt": "2026-10-20T12:26:09.011Z",
+  "updatedAt": "2026-10-20T12:26:09.011Z",
+  "topic": { "id": "travail-revenus", "label": "Travail, revenus et conditions d'emploi" },
+  "keywords": ["Smic femmes hommes janvier 2026", "Dares bénéficiaires revalorisation", "salaire minimum temps partiel"],
+  "relatedClaimIds": ["femmes-ecart-salaire", "femmes-temps-partiel"],
+  "readingMinutes": 3,
+  "summary": "Le Smic est le salaire minimum interprofessionnel de croissance. La Dares publie le 15 octobre une majorité féminine parmi les bénéficiaires de sa hausse de janvier, pas un écart salarial à poste identique.",
+  "keyPoints": [
+    "Les femmes représentent 59,6 % des bénéficiaires de la revalorisation de janvier 2026.",
+    "La proportion de bénéficiaires est plus élevée à temps partiel qu’à temps complet.",
+    "Bénéficier d’une revalorisation, percevoir une rémunération totale proche du minimum et vivre dans un ménage pauvre sont des notions différentes."
+  ],
+  "sections": [
+    {
+      "heading": "Une majorité parmi les bénéficiaires, pas parmi toutes les femmes salariées",
+      "paragraphs": [
+        "La Dares recense 2,1 millions de bénéficiaires, dont 59,6 % de femmes. Le taux de bénéficiaires atteint 25,6 % à temps partiel, contre 8,8 % à temps complet.",
+        "Le dénominateur compte : dire que les femmes sont majoritaires dans un groupe ne signifie pas que la majorité des femmes appartient à ce groupe. Ces résultats ne donnent pas, à eux seuls, un taux féminin ou masculin de rémunération au minimum."
+      ]
+    },
+    {
+      "heading": "Ce que le Smic mesure, et ce qu’il ne mesure pas",
+      "paragraphs": [
+        "Le Smic, salaire minimum interprofessionnel de croissance, est un plancher horaire de rémunération. Le ministère du Travail distingue les éléments retenus pour vérifier son respect de la rémunération totale. Sa fiche indique aussi une nouvelle valeur depuis juin : la publication statistique d’octobre porte bien sur la hausse de janvier, pas sur le montant actuel.",
+        "L’éclairage méthodologique de la Dares explique qu’une personne concernée par cette hausse peut percevoir des compléments exclus de l’assiette de vérification, c’est-à-dire de la partie du salaire comparée au minimum légal. Des majorations d’heures supplémentaires ou certaines primes peuvent ainsi porter sa rémunération totale au-dessus du minimum. Il faut donc éviter de remplacer « bénéficiaires de la revalorisation » par « personnes dont tout le salaire se limite au Smic ».",
+        "Un salaire horaire n’est pas non plus un revenu annuel : ce dernier dépend notamment des heures rémunérées et des périodes d’emploi. Enfin, connaître une rémunération individuelle ne suffit pas à déterminer le niveau de vie d’un ménage. Ces questions demandent des indicateurs et des dénominateurs distincts."
+      ]
+    },
+    {
+      "heading": "Champ et limites de la comparaison",
+      "paragraphs": [
+        "L’enquête couvre la France hors Mayotte, le privé hors agriculture, administration publique, particuliers employeurs et activités extraterritoriales. Apprentis, stagiaires et intérimaires sont exclus. L’article conserve la composition des bénéficiaires sans la transformer en comparaison à caractéristiques individuelles identiques.",
+        "La juxtaposition du sexe, du temps de travail et du niveau de rémunération ne permet pas d’isoler une cause unique : choix, contraintes, métiers et trajectoires ne sont pas départagés par les seules proportions présentées ici. Les catégories femmes-hommes des sources ne reposent pas sur une mesure des chromosomes.",
+        "Les fiches liées portent sur deux autres indicateurs : les écarts de salaire et le recours au temps partiel. Elles apportent du contexte ; leurs chiffres ne sont pas remplacés par cette nouvelle publication."
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "Ce chiffre signifie-t-il que la majorité des femmes est payée au Smic ?", "answer": "Non. Une proportion de femmes parmi des bénéficiaires et une proportion de bénéficiaires parmi les femmes ne répondent pas à la même question." },
+    { "question": "La hausse étudiée concerne-t-elle octobre 2026 ?", "answer": "Non. Octobre est le mois de publication de l’étude ; l’événement étudié est la revalorisation de janvier 2026." },
+    { "question": "Peut-on en déduire une discrimination à travail égal ?", "answer": "Non. Une composition de groupe ne constitue pas une comparaison à emploi, ancienneté et durée de travail identiques." }
+  ],
+  "sources": [
+    { "title": "La revalorisation du Smic au 1er janvier 2026", "publisher": "Dares", "url": "https://dares.travail-emploi.gouv.fr/publication/la-revalorisation-du-smic-au-1er-janvier-2026", "date": "15 octobre 2026 ; revalorisation du 1er janvier 2026", "type": "Dares Résultats n° 44" },
+    { "title": "Combien de salariés sont rémunérés au Smic ?", "publisher": "Dares", "url": "https://dares.travail-emploi.gouv.fr/publication/combien-de-salaries-sont-remuneres-au-smic", "date": "15 octobre 2026 ; éclairage consulté le 20 octobre 2026", "type": "éclairage méthodologique" },
+    { "title": "Le SMIC (salaire minimum de croissance)", "publisher": "Ministère du Travail et des Solidarités", "url": "https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance", "date": "page consultée le 20 octobre 2026", "type": "fiche pratique institutionnelle" }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-10-20T12:26:09.011Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-10-20T12:26:09.011Z",
+    "reviewNote": "Trois sources primaires lues au navigateur. Aucun taux sexué déduit du taux global ; aucune comparaison à profil identique prétendue. Les fiches liées gardent leurs indicateurs et dates. Classement vérifié, conservé."
+  }
+}

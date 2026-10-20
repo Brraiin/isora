@@ -2,8 +2,54 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-12T18:40:50.530Z",
+  "generatedAt": "2026-10-20T12:31:03.051Z",
   "posts": [
+    {
+      "id": "2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes",
+      "title": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
+      "url": "https://isora.info/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/",
+      "description": "La Dares publie les bénéficiaires de la hausse de janvier. Une part parmi les bénéficiaires ne mesure pas la proportion de femmes payées au Smic.",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T12:26:09.011Z",
+      "updatedAt": "2026-10-20T12:26:09.011Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "Smic femmes hommes janvier 2026",
+        "Dares bénéficiaires revalorisation",
+        "salaire minimum temps partiel"
+      ],
+      "relatedClaimIds": [
+        "femmes-ecart-salaire",
+        "femmes-temps-partiel"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "La revalorisation du Smic au 1er janvier 2026",
+          "publisher": "Dares",
+          "url": "https://dares.travail-emploi.gouv.fr/publication/la-revalorisation-du-smic-au-1er-janvier-2026",
+          "date": "15 octobre 2026 ; revalorisation du 1er janvier 2026",
+          "type": "Dares Résultats n° 44"
+        },
+        {
+          "title": "Combien de salariés sont rémunérés au Smic ?",
+          "publisher": "Dares",
+          "url": "https://dares.travail-emploi.gouv.fr/publication/combien-de-salaries-sont-remuneres-au-smic",
+          "date": "15 octobre 2026 ; éclairage consulté le 20 octobre 2026",
+          "type": "éclairage méthodologique"
+        },
+        {
+          "title": "Le SMIC (salaire minimum de croissance)",
+          "publisher": "Ministère du Travail et des Solidarités",
+          "url": "https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance",
+          "date": "page consultée le 20 octobre 2026",
+          "type": "fiche pratique institutionnelle"
+        }
+      ]
+    },
     {
       "id": "2026-10-12-coeur-femmes-mortalite-age-parcours-soins",
       "title": "Cœur des femmes : distinguer les décès, l’âge et les parcours de soins",

@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026
+- URL: https://isora.info/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/
+- Date: 2026-10-20
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel
+- Resume: Le Smic est le salaire minimum interprofessionnel de croissance. La Dares publie le 15 octobre une majorité féminine parmi les bénéficiaires de sa hausse de janvier, pas un écart salarial à poste identique.
+- Sources: Dares (15 octobre 2026 ; revalorisation du 1er janvier 2026): https://dares.travail-emploi.gouv.fr/publication/la-revalorisation-du-smic-au-1er-janvier-2026; Dares (15 octobre 2026 ; éclairage consulté le 20 octobre 2026): https://dares.travail-emploi.gouv.fr/publication/combien-de-salaries-sont-remuneres-au-smic; Ministère du Travail et des Solidarités (page consultée le 20 octobre 2026): https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance
+
 ### Cœur des femmes : distinguer les décès, l’âge et les parcours de soins
 - URL: https://isora.info/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/
 - Date: 2026-10-12

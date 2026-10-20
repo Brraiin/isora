@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-ecart-salaire",
+    "side": "femmes",
+    "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
+    "claimMetric": "3,0-4,8 %",
+    "blogTitle": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
+    "blogUrl": "/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/",
+    "date": "2026-10-20",
+    "updatedAt": "2026-10-20T12:26:09.011Z"
+  },
+  {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
+    "blogUrl": "/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/",
+    "date": "2026-10-20",
+    "updatedAt": "2026-10-20T12:26:09.011Z"
+  },
+  {
     "claimId": "hommes-esperance-vie",
     "side": "hommes",
     "claimTitle": "Espérance de vie plus courte pour les hommes en France",
@@ -252,16 +272,6 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-09-05T18:42:00.000Z"
   },
   {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "Chômage en 2026 : taux féminin plus élevé dans l’UE, taux masculin légèrement plus élevé en France",
-    "blogUrl": "/blog/2026-09-05-chomage-femmes-hommes-ue-france-2026/",
-    "date": "2026-09-05",
-    "updatedAt": "2026-09-05T18:42:00.000Z"
-  },
-  {
     "claimId": "hommes-part-auteurs-violences-sexuelles-perception",
     "side": "hommes",
     "claimTitle": "Auteurs masculins majoritaires ne signifie pas hommes majoritairement auteurs",
@@ -440,16 +450,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/",
     "date": "2026-07-08",
     "updatedAt": "2026-07-08T06:30:00.000Z"
-  },
-  {
-    "claimId": "femmes-ecart-salaire",
-    "side": "femmes",
-    "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
-    "claimMetric": "3,0-4,8 %",
-    "blogTitle": "Écart de salaire : ce que mesurent les chiffres récents de l'UE, de la France et de l'OCDE",
-    "blogUrl": "/blog/2026-07-07-ecart-salaire-ue-france-ce-que-mesurent-les-chiffres/",
-    "date": "2026-07-07",
-    "updatedAt": "2026-07-07T06:30:00.000Z"
   },
   {
     "claimId": "femmes-feminicides-monde-2024",

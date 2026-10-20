@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-10-12T18:40:50.376Z
+Last generation: 2026-10-20T12:31:02.893Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026
+- URL: https://isora.info/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/
+- Date: 2026-10-20
+- Related isora entries: femmes-ecart-salaire, femmes-temps-partiel
+- Summary: Le Smic est le salaire minimum interprofessionnel de croissance. La Dares publie le 15 octobre une majorité féminine parmi les bénéficiaires de sa hausse de janvier, pas un écart salarial à poste identique.
+- Sources: Dares: https://dares.travail-emploi.gouv.fr/publication/la-revalorisation-du-smic-au-1er-janvier-2026; Dares: https://dares.travail-emploi.gouv.fr/publication/combien-de-salaries-sont-remuneres-au-smic; Ministère du Travail et des Solidarités: https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance
+
 ### Cœur des femmes : distinguer les décès, l’âge et les parcours de soins
 - URL: https://isora.info/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/
 - Date: 2026-10-12
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-contraception-besoins-non-couverts
 - Summary: Le 23 septembre 2026, l'OMS a publié de nouvelles recommandations sur plusieurs méthodes ou modalités de contraception, dont l'usage prolongé de certaines pilules et d'un implant, ainsi que la mifépristone comme option de contraception d'urgence. La veille, elle avait publié des critères destinés au développement de futures méthodes masculines réversibles : ce document n'annonce pas leur disponibilité. L'asymétrie actuelle des options peut évoluer, mais une enquête sur l'intention d'utiliser une méthode future ne prouve pas son adoption réelle. Enfin, les 164 millions de femmes sans contraception cités par l'OMS ne sont pas le même indicateur que les 259 millions de femmes et adolescentes sans méthode moderne fiable estimés par l'UNFPA pour 2024.
 - Sources: Organisation mondiale de la Santé: https://www.who.int/fr/news/item/23-09-2026-who-expands-safe-options-for-contraception; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124578; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124950; Contraception: https://pubmed.ncbi.nlm.nih.gov/42176837/; Fonds des Nations unies pour la population: https://www.unfpa.org/family-planning
-
-### Études supérieures de sport dans l'UE : l'écart femmes-hommes reste marqué en 2024
-- URL: https://isora.info/blog/2026-09-22-etudes-sport-ue-femmes-hommes-2024/
-- Date: 2026-09-22
-- Related isora entries: femmes-etudes-superieures-sport-ue-2024, hommes-esperance-vie
-- Summary: Le 22 septembre 2026, Eurostat a présenté la nouvelle édition de ses statistiques sur le sport. Dans l'Union européenne, 83 451 femmes et 193 434 hommes étaient inscrits en 2024 dans les études supérieures du domaine du sport. Ce constat ne porte pas sur la pratique sportive à tous les âges. En France, une enquête de Santé publique France montre en 2024 des taux de pratique physique régulière pendant les loisirs proches chez les femmes et les hommes de 60 à 79 ans, avec des estimations féminines légèrement supérieures. L'écart d'espérance de vie entre les sexes est réel, mais ces données ne permettent pas de l'attribuer à un éventuel arrêt du sport après des métiers physiquement exigeants.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20260922-1; Eurostat: https://ec.europa.eu/eurostat/en/web/products-catalogues/w/ks-01-26-049; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/educ_uoe_enrt03/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Employment_in_sport; Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/wdn-20250922-1; Santé publique France: https://inpes.santepubliquefrance.fr/sites/default/files/rdd/document/907050_spf00006351.pdf; Insee / INJEP: https://www.insee.fr/fr/statistiques/6047763; Insee: https://www.insee.fr/fr/statistiques/2381474; Insee: https://www.insee.fr/fr/statistiques/2416631; British Journal of Sports Medicine: https://pubmed.ncbi.nlm.nih.gov/39255999/; Organisation mondiale de la santé: https://www.who.int/publications/i/item/9789240015128
 
 
 ## Some religious offices remain restricted to men
