@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Traite et exploitation : la répartition femmes-hommes varie selon les infractions enregistrées
+- URL: https://isora.info/blog/2026-10-21-traite-exploitation-victimes-femmes-hommes-france/
+- Date: 2026-10-21
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: femmes-traite-humaine
+- Resume: Le bilan publié le 15 octobre par les services statistiques de l’Intérieur et de la Justice documente une majorité féminine parmi les victimes enregistrées en France en 2025. Ce résultat global recouvre des profils différents selon les infractions.
+- Sources: SSMSI et SSER (15 octobre 2026 ; données 2016-2025): https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/INTER-REFERENCES-la%20traite%20des%20etres%20humains-V4%202026_0.pdf; Légifrance (version en vigueur consultée le 21 octobre 2026): https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006165299/; Nations unies (rapport mondial 2024, données 2022 ; consultation le 21 octobre 2026): https://www.un.org/en/peaceandsecurity/understanding-human-trafficking
+
 ### Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026
 - URL: https://isora.info/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/
 - Date: 2026-10-20

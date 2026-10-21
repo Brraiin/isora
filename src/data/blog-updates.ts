@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-traite-humaine",
+    "side": "femmes",
+    "claimTitle": "Femmes et filles majoritaires parmi les victimes de traite détectées",
+    "claimMetric": "61 %",
+    "blogTitle": "Traite et exploitation : la répartition femmes-hommes varie selon les infractions enregistrées",
+    "blogUrl": "/blog/2026-10-21-traite-exploitation-victimes-femmes-hommes-france/",
+    "date": "2026-10-21",
+    "updatedAt": "2026-10-21T18:28:17.853Z"
+  },
+  {
     "claimId": "femmes-ecart-salaire",
     "side": "femmes",
     "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",

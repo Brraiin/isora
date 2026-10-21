@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-10-20T12:31:02.893Z
+Derniere generation: 2026-10-21T19:09:29.281Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Traite et exploitation : la répartition femmes-hommes varie selon les infractions enregistrées
+- URL: https://isora.info/blog/2026-10-21-traite-exploitation-victimes-femmes-hommes-france/
+- Date: 2026-10-21
+- Fiches isora liees: femmes-traite-humaine
+- Resume: Le bilan publié le 15 octobre par les services statistiques de l’Intérieur et de la Justice documente une majorité féminine parmi les victimes enregistrées en France en 2025. Ce résultat global recouvre des profils différents selon les infractions.
+- Sources: SSMSI et SSER: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/INTER-REFERENCES-la%20traite%20des%20etres%20humains-V4%202026_0.pdf; Légifrance: https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006165299/; Nations unies: https://www.un.org/en/peaceandsecurity/understanding-human-trafficking
+
 ### Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026
 - URL: https://isora.info/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/
 - Date: 2026-10-20
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-direction-primaire-france-2024
 - Resume: Dans sa note sur la France publiée le 29 septembre 2026, l'OCDE indique qu'en 2024 les femmes formaient 85 % du personnel enseignant du primaire et 69 % du personnel de direction de ce niveau. L'écart de 16 points concerne deux compositions professionnelles ; il ne signifie pas que 16 % des enseignantes ont été privées d'une direction. Une statistique française complémentaire, calculée avec un autre champ et un autre dénominateur, indique que les enseignants du premier degré public exerçaient plus souvent une fonction de direction que les enseignantes. Ces données décrivent une asymétrie mais n'en établissent pas la cause.
 - Sources: OCDE: https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026-country-notes_4b77712b/france_3915c659.html; OCDE: https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html; DEPP, ministère de l'Éducation nationale: https://www.education.gouv.fr/sites/default/files/2025-10/panorama-statistique-des-personnels-de-l-enseignement-scolaire-2024-2025-442251.pdf
-
-### Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines
-- URL: https://isora.info/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/
-- Date: 2026-09-24
-- Fiches isora liees: femmes-contraception-besoins-non-couverts
-- Resume: Le 23 septembre 2026, l'OMS a publié de nouvelles recommandations sur plusieurs méthodes ou modalités de contraception, dont l'usage prolongé de certaines pilules et d'un implant, ainsi que la mifépristone comme option de contraception d'urgence. La veille, elle avait publié des critères destinés au développement de futures méthodes masculines réversibles : ce document n'annonce pas leur disponibilité. L'asymétrie actuelle des options peut évoluer, mais une enquête sur l'intention d'utiliser une méthode future ne prouve pas son adoption réelle. Enfin, les 164 millions de femmes sans contraception cités par l'OMS ne sont pas le même indicateur que les 259 millions de femmes et adolescentes sans méthode moderne fiable estimés par l'UNFPA pour 2024.
-- Sources: Organisation mondiale de la Santé: https://www.who.int/fr/news/item/23-09-2026-who-expands-safe-options-for-contraception; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124578; Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240124950; Contraception: https://pubmed.ncbi.nlm.nih.gov/42176837/; Fonds des Nations unies pour la population: https://www.unfpa.org/family-planning
 
 
 ## Certaines fonctions religieuses restent réservées aux hommes

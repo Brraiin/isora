@@ -2,8 +2,53 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-20T12:31:03.051Z",
+  "generatedAt": "2026-10-21T19:09:29.441Z",
   "posts": [
+    {
+      "id": "2026-10-21-traite-exploitation-victimes-femmes-hommes-france",
+      "title": "Traite et exploitation : la répartition femmes-hommes varie selon les infractions enregistrées",
+      "url": "https://isora.info/blog/2026-10-21-traite-exploitation-victimes-femmes-hommes-france/",
+      "description": "Le bilan français 2016-2025 distingue proxénétisme, traite au sens strict et exploitation par le travail. Des données enregistrées, pas une prévalence.",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T18:28:17.853Z",
+      "updatedAt": "2026-10-21T18:28:17.853Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "traite exploitation femmes hommes France 2025",
+        "SSMSI proxénétisme victimes",
+        "exploitation par le travail statistiques"
+      ],
+      "relatedClaimIds": [
+        "femmes-traite-humaine"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "La traite et l’exploitation des êtres humains : bilan statistique sur 10 ans (2016-2025), figures 1 et 9, sources et méthodes",
+          "publisher": "SSMSI et SSER",
+          "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/INTER-REFERENCES-la%20traite%20des%20etres%20humains-V4%202026_0.pdf",
+          "date": "15 octobre 2026 ; données 2016-2025",
+          "type": "rapport statistique public, pages 8-9, 15 et 47-49"
+        },
+        {
+          "title": "Code pénal : de la traite des êtres humains, article 225-4-1",
+          "publisher": "Légifrance",
+          "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006165299/",
+          "date": "version en vigueur consultée le 21 octobre 2026",
+          "type": "définition légale et règle applicable aux mineurs"
+        },
+        {
+          "title": "Understanding human trafficking",
+          "publisher": "Nations unies",
+          "url": "https://www.un.org/en/peaceandsecurity/understanding-human-trafficking",
+          "date": "rapport mondial 2024, données 2022 ; consultation le 21 octobre 2026",
+          "type": "synthèse institutionnelle du rapport UNODC, contexte mondial distinct"
+        }
+      ]
+    },
     {
       "id": "2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes",
       "title": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
