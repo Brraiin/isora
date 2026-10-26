@@ -1,0 +1,74 @@
+{
+  "id": "2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024",
+  "slug": "2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024",
+  "status": "published",
+  "language": "fr",
+  "title": "Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge",
+  "description": "La Dares recense 719 accidents du travail mortels masculins et 109 féminins en 2024. Les fréquences par heures travaillées et par âge nuancent le bilan.",
+  "date": "2026-10-26",
+  "publishedAt": "2026-10-26T10:37:42.000Z",
+  "updatedAt": "2026-10-26T10:37:42.000Z",
+  "topic": { "id": "travail-revenus", "label": "Travail, revenus et conditions d'emploi" },
+  "keywords": ["accidents du travail 2024 femmes hommes", "Dares décès travail", "fréquence accidents âge heures rémunérées"],
+  "relatedClaimIds": ["hommes-accidents-travail"],
+  "readingMinutes": 4,
+  "summary": "Les tableaux publiés le 21 octobre 2026 par la Dares, le service statistique du ministère du Travail, permettent de comparer les accidents reconnus chez les femmes et les hommes en 2024. La majorité masculine est particulièrement marquée pour les décès. Elle ne se transpose pas à chaque âge ni à chaque indicateur.",
+  "keyPoints": [
+    "Sur 828 accidents du travail mortels recensés dans le champ Dares en 2024, 719 concernent des hommes et 109 des femmes, soit environ 86,8 % d'hommes.",
+    "La fréquence des décès atteint 32,2 par milliard d'heures rémunérées chez les hommes et 5,7 chez les femmes. Les fréquences des accidents avec arrêt sont de 17,5 et 14,0 par million d'heures.",
+    "À 60 ans ou plus, la fréquence des accidents avec arrêt est plus élevée chez les femmes : 13,0 contre 12,0 chez les hommes par million d'heures rémunérées."
+  ],
+  "sections": [
+    {
+      "heading": "Une actualisation française, pas un décompte de tous les décès professionnels",
+      "paragraphs": [
+        "Un accident du travail est un événement survenu à l'occasion du travail qui provoque une lésion physique ou psychique. Les statistiques analysées ici portent sur les accidents reconnus dans les régimes couverts, avec au moins un jour d'arrêt. Elles ne regroupent pas toutes les maladies professionnelles ni tous les décès attribuables au travail.",
+        "Le champ comprend les salariés du régime général et de la Mutualité sociale agricole, ainsi que les agents territoriaux et hospitaliers couverts par la Caisse nationale de retraites des agents des collectivités locales (CNRACL), en France hors Mayotte. Il ne représente pas l'ensemble des personnes en activité, notamment tous les indépendants. Les catégories femmes et hommes sont administratives ; les chromosomes ne sont pas mesurés.",
+        "Les 660 890 accidents avec arrêt de 2024 comprennent 828 accidents mortels. La Dares recense aussi 41 660 accidents donnant lieu à une première reconnaissance d'incapacité permanente partielle, c'est-à-dire des séquelles durables évaluées médicalement. Cette reconnaissance se rapporte à l'année de fixation de l'incapacité : il ne faut pas traiter ces trois indicateurs comme trois groupes indépendants à additionner."
+      ]
+    },
+    {
+      "heading": "Effectifs et fréquences répondent à des questions différentes",
+      "paragraphs": [
+        "Le tableau TAB3 compte directement 719 décès masculins et 109 féminins. Leur somme correspond au total de 828 ; la part masculine calculée à partir de ces effectifs est d'environ 86,8 %. Ce résultat remplace dans la fiche liée le seuil de plus de 90 % provenant d'une ancienne publication Anact, sans interpréter leur différence comme une baisse : période et périmètre diffèrent.",
+        "Les nombres d'accidents avec arrêt sont de 391 490 chez les hommes et 269 400 chez les femmes. Pour comparer des volumes d'activité différents, la Dares rapporte aussi les accidents aux heures rémunérées, utilisées comme approximation de la durée d'exposition : 17,5 contre 14,0 par million d'heures. Les effectifs sont arrondis à la dizaine dans le classeur, contrairement aux décès.",
+        "Pour la mortalité, l'unité change : 32,2 décès masculins et 5,7 féminins par milliard d'heures rémunérées. Un million et un milliard ne sont pas interchangeables. Ces fréquences ne sont pas des pourcentages de salariés victimes et ne décrivent pas un risque identique pour tous les métiers."
+      ]
+    },
+    {
+      "heading": "L’âge nuance la comparaison, sans identifier une cause unique",
+      "paragraphs": [
+        "Chez les 15-19 ans, la fréquence des accidents avec arrêt atteint 29,0 pour les hommes contre 17,4 pour les femmes par million d'heures rémunérées. À 60 ans ou plus, elle est au contraire de 12,0 chez les hommes et 13,0 chez les femmes. Le résultat global masculin ne doit donc pas être présenté comme valable à tous les âges.",
+        "Le tableau publie certaines données de mortalité dans des classes d'âge regroupées. Une cellule vide sous une classe détaillée ne signifie pas zéro décès : il ne faut ni inventer une répartition ni attribuer le total regroupé à un seul sous-groupe.",
+        "Les différences de métiers, de secteurs, d'expositions et de composition par âge doivent être étudiées pour expliquer les écarts. La comparaison descriptive par sexe ne mesure pas séparément leurs contributions et ne prouve ni une cause biologique ni un comportement individuel."
+      ]
+    },
+    {
+      "heading": "Conserver les périmètres et les ruptures de série",
+      "paragraphs": [
+        "La Dares signale une rupture de série en 2022 et appelle à la prudence sur les évolutions proches de cette rupture. Le recul du total entre deux années ne suffit pas non plus à décrire l'évolution de la mortalité : 818 accidents mortels étaient recensés en 2023, contre 828 en 2024, tandis que la fréquence totale correspondante passe de 20,1 à 19,9 par milliard d'heures rémunérées.",
+        "Les données européennes retiennent les accidents non mortels entraînant plus de trois jours calendaires d'absence, alors que la série Dares commence à un jour d'arrêt. Les systèmes nationaux de couverture et de reconnaissance diffèrent également. Ces chiffres français ne permettent donc pas de classer directement les pays européens.",
+        "La rubrique de l'Assurance maladie propose des séries sectorielles complémentaires. Leurs champs et millésimes doivent être vérifiés avant tout rapprochement. Le classeur et sa page Dares documentent ici le même jeu de données : ce ne sont pas deux confirmations indépendantes. La fiche liée conserve son rang parmi les enjeux majeurs de santé et de sécurité au travail ; la nouvelle date de publication ne justifie pas de la placer en tête."
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "Les hommes représentent-ils plus de 90 % des décès dans ce tableau ?", "answer": "Non. Le tableau Dares 2024 compte 719 décès masculins sur 828, soit environ 86,8 %. Le seuil de plus de 90 % cité auparavant venait d'un autre document, avec une autre période et un autre champ." },
+    { "question": "Une fréquence de 17,5 signifie-t-elle que 17,5 % des hommes sont victimes ?", "answer": "Non. Il s'agit du nombre d'accidents avec arrêt par million d'heures rémunérées. Le dénominateur n'est pas l'effectif des hommes salariés." },
+    { "question": "L'écart masculin existe-t-il à tous les âges ?", "answer": "Non pour les accidents avec arrêt : à 60 ans ou plus, le tableau donne 13,0 accidents par million d'heures chez les femmes et 12,0 chez les hommes. Cela ne décrit pas automatiquement la mortalité dans cette même classe d'âge." }
+  ],
+  "sources": [
+    { "title": "Les accidents du travail", "publisher": "Dares", "url": "https://dares.travail-emploi.gouv.fr/donnees/les-accidents-du-travail", "date": "21 octobre 2026 ; données 2017-2024", "type": "publication primaire et méthode" },
+    { "title": "Les accidents du travail de 2017 à 2024 — Lisez-moi et TAB3, lignes 12-33", "publisher": "Dares, calculs sur Cnam, CCMSA et CNRACL", "url": "https://dares.travail-emploi.gouv.fr/sites/default/files/9e9e2350d9dae2897f1ff1380ab2fd53/Dares_donnees-annuelles_accidents-du-travail_2017-2024.xlsx", "date": "21 octobre 2026 ; consulté le 26 octobre 2026", "type": "classeur du même jeu de données, pas une confirmation indépendante" },
+    { "title": "Accidents at work (ESAW, 2008 onwards) — métadonnées", "publisher": "Eurostat", "url": "https://ec.europa.eu/eurostat/cache/metadata/en/hsw_acc_work_esms.htm", "date": "24 septembre 2026", "type": "définitions et limites de comparabilité européennes" },
+    { "title": "Accidents du travail — séries et données de sinistralité", "publisher": "Assurance maladie", "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/par-theme/risques-professionnels-et-sinistralite/accidents-du-travail", "date": "14 octobre 2026", "type": "orientation vers les séries complémentaires, pas source des totaux Dares" }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-10-26T10:37:42.000Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-10-26T10:37:42.000Z",
+    "reviewNote": "Page Dares et classeur primaire lus ; totaux et unités vérifiés. Métadonnées Eurostat et rubrique Assurance maladie vérifiées séparément. Pas de taux sexué reconstitué depuis un taux global, pas de causalité inférée. Les regroupements d'âge de mortalité et l'inversion après 60 ans pour les accidents avec arrêt sont explicités. Fiche datée, traduite et périmètre actualisé. Classement vérifié, conservé : portée de santé au travail déjà priorisée, pas de nouvelle fiche ni de déplacement."
+  }
+}

@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-10-21T19:09:29.281Z
+Derniere generation: 2026-10-26T10:39:18.901Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge
+- URL: https://isora.info/blog/2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024/
+- Date: 2026-10-26
+- Fiches isora liees: hommes-accidents-travail
+- Resume: Les tableaux publiés le 21 octobre 2026 par la Dares, le service statistique du ministère du Travail, permettent de comparer les accidents reconnus chez les femmes et les hommes en 2024. La majorité masculine est particulièrement marquée pour les décès. Elle ne se transpose pas à chaque âge ni à chaque indicateur.
+- Sources: Dares: https://dares.travail-emploi.gouv.fr/donnees/les-accidents-du-travail; Dares, calculs sur Cnam, CCMSA et CNRACL: https://dares.travail-emploi.gouv.fr/sites/default/files/9e9e2350d9dae2897f1ff1380ab2fd53/Dares_donnees-annuelles_accidents-du-travail_2017-2024.xlsx; Eurostat: https://ec.europa.eu/eurostat/cache/metadata/en/hsw_acc_work_esms.htm; Assurance maladie: https://www.assurance-maladie.ameli.fr/etudes-et-donnees/par-theme/risques-professionnels-et-sinistralite/accidents-du-travail
+
 ### Traite et exploitation : la répartition femmes-hommes varie selon les infractions enregistrées
 - URL: https://isora.info/blog/2026-10-21-traite-exploitation-victimes-femmes-hommes-france/
 - Date: 2026-10-21
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: hommes-consommation-alcool-mensuelle-ue-2025
 - Resume: Eurostat rapporte qu'en 2025, dans l'Union européenne, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient consommer de l'alcool au moins une fois par mois, soit 20,6 points d'écart. Cette comparaison porte sur la même enquête et la même fréquence, pas sur les volumes bus ou les dommages sanitaires. Dans la population totale, la consommation quotidienne déclarée augmente avec l'âge, mais Eurostat ne fournit pas dans sa synthèse une comparaison femmes-hommes par tranche d'âge. L'enquête décrit une asymétrie de pratique ; elle n'en établit ni les causes ni les conséquences individuelles.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1; Eurostat: https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf; Eurostat: https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/alcohol
-
-### Écoles primaires : 85 % d'enseignantes, 69 % de femmes dans la direction en France
-- URL: https://isora.info/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/
-- Date: 2026-09-30
-- Fiches isora liees: femmes-direction-primaire-france-2024
-- Resume: Dans sa note sur la France publiée le 29 septembre 2026, l'OCDE indique qu'en 2024 les femmes formaient 85 % du personnel enseignant du primaire et 69 % du personnel de direction de ce niveau. L'écart de 16 points concerne deux compositions professionnelles ; il ne signifie pas que 16 % des enseignantes ont été privées d'une direction. Une statistique française complémentaire, calculée avec un autre champ et un autre dénominateur, indique que les enseignants du premier degré public exerçaient plus souvent une fonction de direction que les enseignantes. Ces données décrivent une asymétrie mais n'en établissent pas la cause.
-- Sources: OCDE: https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026-country-notes_4b77712b/france_3915c659.html; OCDE: https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/what-are-the-main-characteristics-of-the-teaching-workforce-across-levels-of-education_b9d4aee7.html; DEPP, ministère de l'Éducation nationale: https://www.education.gouv.fr/sites/default/files/2025-10/panorama-statistique-des-personnels-de-l-enseignement-scolaire-2024-2025-442251.pdf
 
 
 ## Certaines fonctions religieuses restent réservées aux hommes
@@ -357,21 +357,21 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Population mesuree: Population mesurée par la source : femmes et hommes salariés en France interrogés sur leurs conditions de travail en 2016 et 2024. La source utilise les catégories statistiques de sexe et ne mesure pas les chromosomes.
 - Sources: Dares (9 septembre 2026, données 2024): https://dares.travail-emploi.gouv.fr/publication/quelles-evolutions-des-conditions-de-travail-et-des-risques-psychosociaux-depuis-2016; Insee / Dares (mars 2022, données 2019): https://www.insee.fr/fr/statistiques/6047793?sommaire=6047805; Dares (janvier 2023, données 2019): https://dares.travail-emploi.gouv.fr/publication/conditions-de-travail-et-mixite-quelles-differences-entre-professions-et-entre-femmes-et-hommes
 
-## Hommes toujours davantage touchés par les accidents du travail
+## Accidents du travail mortels : hommes majoritaires dans le champ Dares en France
 - ID: hommes-accidents-travail
 - URL: https://isora.info/fiches/hommes-accidents-travail/
 - URL interactive: https://isora.info/#hommes-accidents-travail
 - Groupe: hommes
 - Angle: désavantage_subi
 - Domaine: Travail
-- Zone: France
-- Periode: 2023-2023
+- Zone: France hors Mayotte
+- Periode: 2024-2024
 - Statut: persistant
-- Mesure cle: >90 %
-- Resume: La Dares comptabilise 668 510 accidents du travail avec au moins un jour d'arrêt en France en 2023, dont 818 mortels, et indique que les hommes restent plus touchés que les femmes. L'Anact estimait déjà que plus de 90 % des accidents du travail mortels concernaient des hommes dans les secteurs étudiés.
-- Nuance: Les écarts reflètent notamment les métiers exercés, les expositions, l'âge et les secteurs d'activité. La Dares précise que la différence entre femmes et hommes s'amenuise avec l'âge. Le seuil de 90 % vient de la publication Anact antérieure, tandis que les volumes 2023 viennent de la Dares.
-- Population mesuree: Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.
-- Sources: Dares (22 juillet 2026): https://dares.travail-emploi.gouv.fr/publication/quels-salaries-sont-le-plus-souvent-victimes-daccidents-du-travail-en-2023; ANACT (2022): https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe
+- Mesure cle: 719 H / 109 F
+- Resume: En 2024, la Dares, service statistique du ministère du Travail, compte 828 accidents du travail mortels en France hors Mayotte dans les régimes couverts : 719 concernent des hommes et 109 des femmes, soit environ 86,8 % d'hommes. La fréquence des accidents mortels est de 32,2 par milliard d'heures rémunérées chez les hommes contre 5,7 chez les femmes. Pour les accidents avec au moins un jour d'arrêt, les fréquences sont de 17,5 et 14,0 par million d'heures rémunérées.
+- Nuance: Revue du 26 octobre 2026 : le tableau Dares 2024 remplace l'ancien seuil Anact, d'une autre période et d'un autre champ. Il s'agit d'accidents reconnus, pas de tous les décès liés au travail. Les heures rémunérées approchent la durée d'exposition. Les fréquences ne sont ajustées ni au métier, ni au secteur, ni à l'âge et n'établissent aucune cause biologique ou comportementale. À 60 ans ou plus, la fréquence des accidents avec arrêt est de 12,0 chez les hommes contre 13,0 chez les femmes par million d'heures. Champ : régime général, Mutualité sociale agricole et agents territoriaux/hospitaliers couverts par la Caisse nationale de retraites des agents des collectivités locales (CNRACL), pas l'ensemble des personnes qui travaillent.
+- Population mesuree: Population mesurée : femmes et hommes des dossiers administratifs d'accidents du régime général, de la Mutualité sociale agricole et des agents territoriaux/hospitaliers couverts par la CNRACL, France hors Mayotte, 2024. Les chromosomes ne sont pas mesurés.
+- Sources: Dares (21 octobre 2026 ; données 2024): https://dares.travail-emploi.gouv.fr/donnees/les-accidents-du-travail; Dares, Cnam, CCMSA et CNRACL (21 octobre 2026 ; consultation le 26 octobre 2026): https://dares.travail-emploi.gouv.fr/sites/default/files/9e9e2350d9dae2897f1ff1380ab2fd53/Dares_donnees-annuelles_accidents-du-travail_2017-2024.xlsx
 
 ## Décès par suicide : surmortalité masculine en France et dans l'UE
 - ID: hommes-suicide

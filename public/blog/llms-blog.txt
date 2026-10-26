@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge
+- URL: https://isora.info/blog/2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024/
+- Date: 2026-10-26
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: hommes-accidents-travail
+- Resume: Les tableaux publiés le 21 octobre 2026 par la Dares, le service statistique du ministère du Travail, permettent de comparer les accidents reconnus chez les femmes et les hommes en 2024. La majorité masculine est particulièrement marquée pour les décès. Elle ne se transpose pas à chaque âge ni à chaque indicateur.
+- Sources: Dares (21 octobre 2026 ; données 2017-2024): https://dares.travail-emploi.gouv.fr/donnees/les-accidents-du-travail; Dares, calculs sur Cnam, CCMSA et CNRACL (21 octobre 2026 ; consulté le 26 octobre 2026): https://dares.travail-emploi.gouv.fr/sites/default/files/9e9e2350d9dae2897f1ff1380ab2fd53/Dares_donnees-annuelles_accidents-du-travail_2017-2024.xlsx; Eurostat (24 septembre 2026): https://ec.europa.eu/eurostat/cache/metadata/en/hsw_acc_work_esms.htm; Assurance maladie (14 octobre 2026): https://www.assurance-maladie.ameli.fr/etudes-et-donnees/par-theme/risques-professionnels-et-sinistralite/accidents-du-travail
+
 ### Traite et exploitation : la répartition femmes-hommes varie selon les infractions enregistrées
 - URL: https://isora.info/blog/2026-10-21-traite-exploitation-victimes-femmes-hommes-france/
 - Date: 2026-10-21

@@ -602,30 +602,38 @@ const rawClaims: RawClaim[] = [
     id: "hommes-accidents-travail",
     side: "hommes",
     domain: "Travail",
-    title: "Hommes toujours davantage touchés par les accidents du travail",
-    metric: ">90 %",
+    title: "Accidents du travail mortels : hommes majoritaires dans le champ Dares en France",
+    metric: "719 H / 109 F",
     summary:
-      "La Dares comptabilise 668 510 accidents du travail avec au moins un jour d'arrêt en France en 2023, dont 818 mortels, et indique que les hommes restent plus touchés que les femmes. L'Anact estimait déjà que plus de 90 % des accidents du travail mortels concernaient des hommes dans les secteurs étudiés.",
+      "En 2024, la Dares, service statistique du ministère du Travail, compte 828 accidents du travail mortels en France hors Mayotte dans les régimes couverts : 719 concernent des hommes et 109 des femmes, soit environ 86,8 % d'hommes. La fréquence des accidents mortels est de 32,2 par milliard d'heures rémunérées chez les hommes contre 5,7 chez les femmes. Pour les accidents avec au moins un jour d'arrêt, les fréquences sont de 17,5 et 14,0 par million d'heures rémunérées.",
     tags: ["travail", "sécurité", "sociétal", "métiers dangereux"],
     source: {
-      label: "Quels salariés sont le plus souvent victimes d'accidents du travail en 2023 ?",
+      label: "Les accidents du travail — indicateurs par sexe et âge en 2023 et 2024",
       publisher: "Dares",
-      url: "https://dares.travail-emploi.gouv.fr/publication/quels-salaries-sont-le-plus-souvent-victimes-daccidents-du-travail-en-2023",
-      date: "22 juillet 2026",
+      url: "https://dares.travail-emploi.gouv.fr/donnees/les-accidents-du-travail",
+      date: "21 octobre 2026 ; données 2024",
     },
     additionalSources: [
       {
-        label:
-          "Photographie statistique de la sinistralité au travail en France selon le sexe",
-        publisher: "ANACT",
-        url: "https://www.anact.fr/photographie-statistique-de-la-sinistralite-au-travail-en-france-selon-le-sexe",
-        date: "2022",
+        label: "Les accidents du travail de 2017 à 2024 — classeur, onglet TAB3",
+        publisher: "Dares, Cnam, CCMSA et CNRACL",
+        url: "https://dares.travail-emploi.gouv.fr/sites/default/files/9e9e2350d9dae2897f1ff1380ab2fd53/Dares_donnees-annuelles_accidents-du-travail_2017-2024.xlsx",
+        date: "21 octobre 2026 ; consultation le 26 octobre 2026",
       },
     ],
     confidence: "forte",
-    lastChecked: "11 août 2026",
+    translations: {
+      en: {
+        title: "Fatal accidents at work: men account for most cases in the French Dares coverage",
+        summary: "In 2024, Dares recorded 828 fatal accidents at work in France excluding Mayotte within the covered schemes: 719 involved men and 109 women, approximately 86.8% male. Fatal-accident frequencies were 32.2 per billion paid hours for men and 5.7 for women. Frequencies of accidents involving at least one day off were 17.5 and 14.0 per million paid hours respectively.",
+        nuance: "Reviewed on 26 October 2026: the 2024 Dares table replaces the earlier ANACT figure, which covered a different period and scope. These are recognised accidents, not all occupational deaths. Paid hours approximate exposure time. Rates are not adjusted for occupation, sector or age and do not establish a biological or behavioural cause. For workers aged 60 and over, non-fatal-inclusive accident frequencies are 12.0 for men and 13.0 for women per million paid hours. Coverage: general and agricultural schemes and territorial/hospital civil servants covered by CNRACL; not the entire working population.",
+        sourcePopulation: "Men and women in administrative accident records covering the general and agricultural schemes and territorial/hospital civil servants covered by CNRACL, France excluding Mayotte, 2024. Chromosomes are not measured.",
+        tags: ["work", "safety", "fatal accidents", "paid hours"],
+      },
+    },
+    lastChecked: "26 octobre 2026",
     nuance:
-      "Les écarts reflètent notamment les métiers exercés, les expositions, l'âge et les secteurs d'activité. La Dares précise que la différence entre femmes et hommes s'amenuise avec l'âge. Le seuil de 90 % vient de la publication Anact antérieure, tandis que les volumes 2023 viennent de la Dares.",
+      "Revue du 26 octobre 2026 : le tableau Dares 2024 remplace l'ancien seuil Anact, d'une autre période et d'un autre champ. Il s'agit d'accidents reconnus, pas de tous les décès liés au travail. Les heures rémunérées approchent la durée d'exposition. Les fréquences ne sont ajustées ni au métier, ni au secteur, ni à l'âge et n'établissent aucune cause biologique ou comportementale. À 60 ans ou plus, la fréquence des accidents avec arrêt est de 12,0 chez les hommes contre 13,0 chez les femmes par million d'heures. Champ : régime général, Mutualité sociale agricole et agents territoriaux/hospitaliers couverts par la Caisse nationale de retraites des agents des collectivités locales (CNRACL), pas l'ensemble des personnes qui travaillent.",
   },
   {
     id: "hommes-suicide",
@@ -4328,7 +4336,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-contraintes-physiques-travail-france-2024":
     "Population mesurée par la source : femmes et hommes salariés en France interrogés sur leurs conditions de travail en 2016 et 2024. La source utilise les catégories statistiques de sexe et ne mesure pas les chromosomes.",
   "hommes-accidents-travail":
-    "Population mesurée par la source : sexe masculin / hommes, selon la sinistralité au travail. La source ne mesure pas les chromosomes.",
+    "Population mesurée : femmes et hommes des dossiers administratifs d'accidents du régime général, de la Mutualité sociale agricole et des agents territoriaux/hospitaliers couverts par la CNRACL, France hors Mayotte, 2024. Les chromosomes ne sont pas mesurés.",
   "hommes-suicide":
     "Population mesurée par les sources : femmes et hommes dont le décès a été classé comme suicide ou lésion auto-infligée intentionnelle en France et dans les États membres de l'Union européenne en 2023. Les sources utilisent les catégories femmes/hommes et ne mesurent pas les chromosomes.",
   "hommes-esperance-vie":
@@ -4642,9 +4650,9 @@ const claimMetadata: Record<string, ClaimMeta> = {
     legalType: "conditions de travail et exposition physique déclarée",
   },
   "hommes-accidents-travail": {
-    pays_ou_zone: "France",
-    periode_debut: "2023",
-    periode_fin: "2023",
+    pays_ou_zone: "France hors Mayotte",
+    periode_debut: "2024",
+    periode_fin: "2024",
     statut_temporel: "persistant",
     intensite_contextuelle: "forte",
     legalType: "santé et sécurité au travail",

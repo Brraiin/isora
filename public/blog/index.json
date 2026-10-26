@@ -2,8 +2,60 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-21T19:09:29.441Z",
+  "generatedAt": "2026-10-26T10:39:19.057Z",
   "posts": [
+    {
+      "id": "2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024",
+      "title": "Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge",
+      "url": "https://isora.info/blog/2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024/",
+      "description": "La Dares recense 719 accidents du travail mortels masculins et 109 féminins en 2024. Les fréquences par heures travaillées et par âge nuancent le bilan.",
+      "date": "2026-10-26",
+      "publishedAt": "2026-10-26T10:37:42.000Z",
+      "updatedAt": "2026-10-26T10:37:42.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "accidents du travail 2024 femmes hommes",
+        "Dares décès travail",
+        "fréquence accidents âge heures rémunérées"
+      ],
+      "relatedClaimIds": [
+        "hommes-accidents-travail"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Les accidents du travail",
+          "publisher": "Dares",
+          "url": "https://dares.travail-emploi.gouv.fr/donnees/les-accidents-du-travail",
+          "date": "21 octobre 2026 ; données 2017-2024",
+          "type": "publication primaire et méthode"
+        },
+        {
+          "title": "Les accidents du travail de 2017 à 2024 — Lisez-moi et TAB3, lignes 12-33",
+          "publisher": "Dares, calculs sur Cnam, CCMSA et CNRACL",
+          "url": "https://dares.travail-emploi.gouv.fr/sites/default/files/9e9e2350d9dae2897f1ff1380ab2fd53/Dares_donnees-annuelles_accidents-du-travail_2017-2024.xlsx",
+          "date": "21 octobre 2026 ; consulté le 26 octobre 2026",
+          "type": "classeur du même jeu de données, pas une confirmation indépendante"
+        },
+        {
+          "title": "Accidents at work (ESAW, 2008 onwards) — métadonnées",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/hsw_acc_work_esms.htm",
+          "date": "24 septembre 2026",
+          "type": "définitions et limites de comparabilité européennes"
+        },
+        {
+          "title": "Accidents du travail — séries et données de sinistralité",
+          "publisher": "Assurance maladie",
+          "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/par-theme/risques-professionnels-et-sinistralite/accidents-du-travail",
+          "date": "14 octobre 2026",
+          "type": "orientation vers les séries complémentaires, pas source des totaux Dares"
+        }
+      ]
+    },
     {
       "id": "2026-10-21-traite-exploitation-victimes-femmes-hommes-france",
       "title": "Traite et exploitation : la répartition femmes-hommes varie selon les infractions enregistrées",

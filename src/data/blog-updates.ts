@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-accidents-travail",
+    "side": "hommes",
+    "claimTitle": "Accidents du travail mortels : hommes majoritaires dans le champ Dares en France",
+    "claimMetric": "719 H / 109 F",
+    "blogTitle": "Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge",
+    "blogUrl": "/blog/2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024/",
+    "date": "2026-10-26",
+    "updatedAt": "2026-10-26T10:37:42.000Z"
+  },
+  {
     "claimId": "femmes-traite-humaine",
     "side": "femmes",
     "claimTitle": "Femmes et filles majoritaires parmi les victimes de traite détectées",
@@ -520,16 +530,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-02-securite-routiere-hommes-majoritaires-mortalite-france-ue/",
     "date": "2026-07-02",
     "updatedAt": "2026-07-02T18:15:00.000Z"
-  },
-  {
-    "claimId": "hommes-accidents-travail",
-    "side": "hommes",
-    "claimTitle": "Hommes toujours davantage touchés par les accidents du travail",
-    "claimMetric": ">90 %",
-    "blogTitle": "Sinistralité au travail : les accidents reconnus restent surtout masculins, les maladies professionnelles deviennent plus mixtes",
-    "blogUrl": "/blog/2026-06-28-sinistralite-travail-femmes-hommes-france-europe/",
-    "date": "2026-06-28",
-    "updatedAt": "2026-06-28T18:40:00.000Z"
   },
   {
     "claimId": "hommes-esperance-vie-monde",
