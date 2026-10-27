@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-10-26T10:39:18.901Z
+Last generation: 2026-10-27T08:20:59.427Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies
+- URL: https://isora.info/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/
+- Date: 2026-10-27
+- Related isora entries: hommes-conge-paternite-ocde, femmes-charge-domestique-soin
+- Summary: Une note d’ONU Femmes et de la Banque mondiale lancée le 22 octobre 2026 compare les dispositifs de congé et d’accueil des jeunes enfants dans 190 économies. Elle documente des droits au congé payé plus courts pour les pères en moyenne, tout en soulignant les protections maternelles encore insuffisantes et les obstacles à l’usage des droits.
+- Sources: ONU Femmes et Banque mondiale: https://www.unwomen.org/sites/default/files/2026-10/from-parenthood-leave-to-childcare-services-en.pdf; Banque mondiale: https://wbl.worldbank.org/en/publications/flagship-report; Organisation internationale du Travail, NORMLEX: https://normlex.ilo.org/dyn/nrmlx_fr/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_ILO_CODE%3AC183; ONU Femmes, reprise par ONU Femmes Australie: https://unwomen.org.au/fathers-get-one-eighth-of-the-paid-parental-leave-of-mothers-and-everyone-pays-the-price/
+
 ### Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge
 - URL: https://isora.info/blog/2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024/
 - Date: 2026-10-26
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-douleurs-declarees-11-sites-monde
 - Summary: Une étude parue le 5 octobre 2026 dans Nature Medicine a harmonisé les déclarations de douleur de 6 125 459 personnes issues de 902 sources de données dans 118 pays et territoires, recueillies entre 1990 et 2025. Dans les modèles groupés, la fréquence déclarée est plus élevée chez les femmes que chez les hommes pour chacun des 11 sites anatomiques étudiés ; les rapports de prévalence vont de 1,08 à 1,83 selon le site. Ces rapports ne sont ni des écarts en points de pourcentage ni des résultats valables séparément pour chaque pays. Les enquêtes portent sur des symptômes déclarés, pas sur un diagnostic de douleur chronique ou une cause biologique déterminée.
 - Sources: Nature Medicine, Fillingim et al.: https://www.nature.com/articles/s41591-026-04696-w; Communications Medicine, Macchia et al.: https://pubmed.ncbi.nlm.nih.gov/40325153/; International Association for the Study of Pain: https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/; University of Aberdeen Research Portal: https://abdn.elsevierpure.com/en/publications/global-and-regional-reference-curves-for-pain-across-the-lifespan/
-
-### Alcool dans l'UE : une consommation au moins mensuelle plus fréquente chez les hommes
-- URL: https://isora.info/blog/2026-10-04-consommation-alcool-femmes-hommes-ue-2025/
-- Date: 2026-10-04
-- Related isora entries: hommes-consommation-alcool-mensuelle-ue-2025
-- Summary: Eurostat rapporte qu'en 2025, dans l'Union européenne, 56,5 % des hommes et 35,9 % des femmes de 16 ans ou plus déclaraient consommer de l'alcool au moins une fois par mois, soit 20,6 points d'écart. Cette comparaison porte sur la même enquête et la même fréquence, pas sur les volumes bus ou les dommages sanitaires. Dans la population totale, la consommation quotidienne déclarée augmente avec l'âge, mais Eurostat ne fournit pas dans sa synthèse une comparaison femmes-hommes par tranche d'âge. L'enquête décrit une asymétrie de pratique ; elle n'en établit ni les causes ni les conséquences individuelles.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260928-1; Eurostat: https://ec.europa.eu/eurostat/documents/15216629/24279737/KS-01-26-036-EN-N.pdf; Eurostat: https://ec.europa.eu/eurostat/documents/d/microdata/methodological-guidelines-2025-operation_updated; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/alcohol
 
 
 ## Some religious offices remain restricted to men

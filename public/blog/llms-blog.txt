@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies
+- URL: https://isora.info/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/
+- Date: 2026-10-27
+- Sujet: Famille, justice et droits
+- Fiches isora liees: hommes-conge-paternite-ocde, femmes-charge-domestique-soin
+- Resume: Une note d’ONU Femmes et de la Banque mondiale lancée le 22 octobre 2026 compare les dispositifs de congé et d’accueil des jeunes enfants dans 190 économies. Elle documente des droits au congé payé plus courts pour les pères en moyenne, tout en soulignant les protections maternelles encore insuffisantes et les obstacles à l’usage des droits.
+- Sources: ONU Femmes et Banque mondiale (octobre 2026 ; pages 8-11 et 15-16): https://www.unwomen.org/sites/default/files/2026-10/from-parenthood-leave-to-childcare-services-en.pdf; Banque mondiale (édition 2026 ; données au 1er octobre 2025): https://wbl.worldbank.org/en/publications/flagship-report; Organisation internationale du Travail, NORMLEX (2000 ; texte consulté le 27 octobre 2026): https://normlex.ilo.org/dyn/nrmlx_fr/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_ILO_CODE%3AC183; ONU Femmes, reprise par ONU Femmes Australie (22 octobre 2026): https://unwomen.org.au/fathers-get-one-eighth-of-the-paid-parental-leave-of-mothers-and-everyone-pays-the-price/
+
 ### Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge
 - URL: https://isora.info/blog/2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024/
 - Date: 2026-10-26

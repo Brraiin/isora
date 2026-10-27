@@ -2,8 +2,61 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-26T10:39:19.057Z",
+  "generatedAt": "2026-10-27T08:20:59.581Z",
   "posts": [
+    {
+      "id": "2026-10-27-conges-parents-droits-meres-peres-190-economies",
+      "title": "Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies",
+      "url": "https://isora.info/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/",
+      "description": "Une note ONU Femmes–Banque mondiale compare les congés payés disponibles pour les mères et les pères. Des droits légaux, pas des durées réellement prises.",
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T08:16:33.000Z",
+      "updatedAt": "2026-10-27T08:16:33.000Z",
+      "topic": {
+        "id": "famille-justice",
+        "label": "Famille, justice et droits"
+      },
+      "keywords": [
+        "congés parents mères pères 190 économies",
+        "ONU Femmes Banque mondiale congé payé",
+        "droits parentaux congé paternité maternité"
+      ],
+      "relatedClaimIds": [
+        "hommes-conge-paternite-ocde",
+        "femmes-charge-domestique-soin"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "From Parenthood Leave to Childcare Services: Building Care Systems that Work for Women, Families and Economies",
+          "publisher": "ONU Femmes et Banque mondiale",
+          "url": "https://www.unwomen.org/sites/default/files/2026-10/from-parenthood-leave-to-childcare-services-en.pdf",
+          "date": "octobre 2026 ; pages 8-11 et 15-16",
+          "type": "rapport primaire, figure 1 et définitions des congés"
+        },
+        {
+          "title": "Women, Business and the Law 2026 — présentation de l’édition et date de référence",
+          "publisher": "Banque mondiale",
+          "url": "https://wbl.worldbank.org/en/publications/flagship-report",
+          "date": "édition 2026 ; données au 1er octobre 2025",
+          "type": "périmètre de la base utilisée par la note, pas une confirmation indépendante"
+        },
+        {
+          "title": "Convention n° 183 sur la protection de la maternité, articles 4 à 6",
+          "publisher": "Organisation internationale du Travail, NORMLEX",
+          "url": "https://normlex.ilo.org/dyn/nrmlx_fr/f?p=NORMLEXPUB%3A12100%3A0%3A%3ANO%3A%3AP12100_ILO_CODE%3AC183",
+          "date": "2000 ; texte consulté le 27 octobre 2026",
+          "type": "référence normative sur le congé maternité, pas constat d’application universelle"
+        },
+        {
+          "title": "Fathers get one-eighth of the paid parental leave of mothers – and everyone pays the price",
+          "publisher": "ONU Femmes, reprise par ONU Femmes Australie",
+          "url": "https://unwomen.org.au/fathers-get-one-eighth-of-the-paid-parental-leave-of-mothers-and-everyone-pays-the-price/",
+          "date": "22 octobre 2026",
+          "type": "communiqué de lancement de la même note"
+        }
+      ]
+    },
     {
       "id": "2026-10-26-accidents-travail-mortels-femmes-hommes-france-2024",
       "title": "Accidents du travail en 2024 : davantage de décès masculins, des écarts qui varient avec l’âge",

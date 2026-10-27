@@ -12,6 +12,36 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-charge-domestique-soin",
+    "side": "femmes",
+    "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
+    "claimMetric": "2,5x",
+    "blogTitle": "Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies",
+    "blogUrl": "/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/",
+    "date": "2026-10-27",
+    "updatedAt": "2026-10-27T08:16:33.000Z"
+  },
+  {
+    "claimId": "femmes-droits-economiques-monde",
+    "side": "femmes",
+    "claimTitle": "Femmes privées d'une égalité complète de droits économiques",
+    "claimMetric": "2/3",
+    "blogTitle": "Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies",
+    "blogUrl": "/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/",
+    "date": "2026-10-27",
+    "updatedAt": "2026-10-27T08:16:33.000Z"
+  },
+  {
+    "claimId": "hommes-conge-paternite-ocde",
+    "side": "hommes",
+    "claimTitle": "Pères limités par un congé paternité payé très court",
+    "claimMetric": "2,4 sem.",
+    "blogTitle": "Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies",
+    "blogUrl": "/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/",
+    "date": "2026-10-27",
+    "updatedAt": "2026-10-27T08:16:33.000Z"
+  },
+  {
     "claimId": "hommes-accidents-travail",
     "side": "hommes",
     "claimTitle": "Accidents du travail mortels : hommes majoritaires dans le champ Dares en France",
@@ -500,26 +530,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-05-retraites-ecart-pension-pauvrete-femmes-hommes-france-ue-ocde/",
     "date": "2026-07-05",
     "updatedAt": "2026-07-05T07:30:00.000Z"
-  },
-  {
-    "claimId": "femmes-charge-domestique-soin",
-    "side": "femmes",
-    "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",
-    "claimMetric": "2,5x",
-    "blogTitle": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
-    "blogUrl": "/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
-    "date": "2026-07-03",
-    "updatedAt": "2026-07-03T18:30:00.000Z"
-  },
-  {
-    "claimId": "hommes-conge-paternite-ocde",
-    "side": "hommes",
-    "claimTitle": "Pères limités par un congé paternité payé très court",
-    "claimMetric": "2,4 sem.",
-    "blogTitle": "Parentalité : l'emploi baisse surtout pour les mères, tandis que les pères gagnent du temps parental sans rattraper tout l'écart",
-    "blogUrl": "/blog/2026-07-03-parentalite-emploi-meres-peres-enfants-france-ue-ocde/",
-    "date": "2026-07-03",
-    "updatedAt": "2026-07-03T18:30:00.000Z"
   },
   {
     "claimId": "hommes-accidents-route-monde",
