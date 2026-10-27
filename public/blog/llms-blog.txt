@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons
+- URL: https://isora.info/blog/2026-10-27-cyberharcelement-eleves-filles-garcons/
+- Date: 2026-10-27
+- Sujet: Éducation, orientation et formation
+- Fiches isora liees: femmes-violence-numerique
+- Resume: Publiée le 26 octobre 2026, la note Connected and safe de l’UNESCO propose aux systèmes éducatifs une réponse aux violences numériques. Les données scolaires qu’elle reprend invitent à distinguer les faits subis des comportements exercés : les moyennes de victimes sont proches entre filles et garçons, tandis que les garçons déclarent plus souvent avoir participé à du cyberharcèlement.
+- Sources: UNESCO (26 octobre 2026 ; notice actualisée le 27 octobre): https://www.unesco.org/en/articles/connected-and-safe-policy-orientations-address-online-and-technology-facilitated-violence-education; OMS Europe, Cosma et al. (27 mars 2024 ; données 2021–2022): https://www.who.int/europe/publications/i/item/9789289060929; OCDE (2025): https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en/full-report/how-children-use-digital-media_a8d3a6d0.html
+
 ### Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies
 - URL: https://isora.info/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/
 - Date: 2026-10-27

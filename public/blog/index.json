@@ -2,8 +2,53 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-27T08:20:59.581Z",
+  "generatedAt": "2026-10-27T19:40:15.161Z",
   "posts": [
+    {
+      "id": "2026-10-27-cyberharcelement-eleves-filles-garcons",
+      "title": "Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons",
+      "url": "https://isora.info/blog/2026-10-27-cyberharcelement-eleves-filles-garcons/",
+      "description": "Une note UNESCO de 2026 reprend l’enquête HBSC 2021–2022 : distinguer cyberharcèlement subi, comportements déclarés et autres violences numériques.",
+      "date": "2026-10-27",
+      "publishedAt": "2026-10-27T19:38:09.000Z",
+      "updatedAt": "2026-10-27T19:38:09.000Z",
+      "topic": {
+        "id": "education-orientation",
+        "label": "Éducation, orientation et formation"
+      },
+      "keywords": [
+        "cyberharcèlement élèves filles garçons HBSC",
+        "UNESCO Connected and safe 2026",
+        "violences numériques école prévention"
+      ],
+      "relatedClaimIds": [
+        "femmes-violence-numerique"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Connected and safe: Policy orientations to address online and technology-facilitated violence in education",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/articles/connected-and-safe-policy-orientations-address-online-and-technology-facilitated-violence-education",
+          "date": "26 octobre 2026 ; notice actualisée le 27 octobre",
+          "type": "nouvelle note d’orientation ; texte intégral UNESDOC, pages 7-12 et 20-24"
+        },
+        {
+          "title": "A focus on adolescent peer violence and bullying — HBSC 2021/2022, volume 2",
+          "publisher": "OMS Europe, Cosma et al.",
+          "url": "https://www.who.int/europe/publications/i/item/9789289060929",
+          "date": "27 mars 2024 ; données 2021–2022",
+          "type": "rapport d’enquête primaire ; pages 2, 5, 9, 11 et 18-19"
+        },
+        {
+          "title": "How children use digital media — How’s Life for Children in the Digital Age?",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en/full-report/how-children-use-digital-media_a8d3a6d0.html",
+          "date": "2025",
+          "type": "synthèse institutionnelle de contexte, reprenant notamment HBSC ; pas une enquête indépendante confirmant les mêmes taux"
+        }
+      ]
+    },
     {
       "id": "2026-10-27-conges-parents-droits-meres-peres-190-economies",
       "title": "Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies",

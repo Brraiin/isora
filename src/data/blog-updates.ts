@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-violence-numerique",
+    "side": "femmes",
+    "claimTitle": "Femmes visées par les violences facilitées par la technologie",
+    "claimMetric": "8,5 % / 7 %",
+    "blogTitle": "Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons",
+    "blogUrl": "/blog/2026-10-27-cyberharcelement-eleves-filles-garcons/",
+    "date": "2026-10-27",
+    "updatedAt": "2026-10-27T19:38:09.000Z"
+  },
+  {
     "claimId": "femmes-charge-domestique-soin",
     "side": "femmes",
     "claimTitle": "Femmes assumant beaucoup plus de soin non rémunéré",

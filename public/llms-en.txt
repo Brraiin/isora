@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-10-27T08:20:59.427Z
+Last generation: 2026-10-27T19:40:15.002Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons
+- URL: https://isora.info/blog/2026-10-27-cyberharcelement-eleves-filles-garcons/
+- Date: 2026-10-27
+- Related isora entries: femmes-violence-numerique
+- Summary: Publiée le 26 octobre 2026, la note Connected and safe de l’UNESCO propose aux systèmes éducatifs une réponse aux violences numériques. Les données scolaires qu’elle reprend invitent à distinguer les faits subis des comportements exercés : les moyennes de victimes sont proches entre filles et garçons, tandis que les garçons déclarent plus souvent avoir participé à du cyberharcèlement.
+- Sources: UNESCO: https://www.unesco.org/en/articles/connected-and-safe-policy-orientations-address-online-and-technology-facilitated-violence-education; OMS Europe, Cosma et al.: https://www.who.int/europe/publications/i/item/9789289060929; OCDE: https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en/full-report/how-children-use-digital-media_a8d3a6d0.html
+
 ### Congés des parents : des droits plus courts pour les pères dans une comparaison de 190 économies
 - URL: https://isora.info/blog/2026-10-27-conges-parents-droits-meres-peres-190-economies/
 - Date: 2026-10-27
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: hommes-mpox-cas-signales-france-2026
 - Summary: La mpox, anciennement appelée « variole du singe », est une maladie virale qui peut provoquer de la fièvre et des lésions de la peau. Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.
 - Sources: Santé publique France: https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026; Santé publique France: https://www.santepubliquefrance.fr/variole-b-mpox/notre-action; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/mpox
-
-### Douleurs déclarées : des fréquences plus élevées chez les femmes dans 118 pays et territoires
-- URL: https://isora.info/blog/2026-10-06-douleurs-declarees-femmes-hommes-118-pays/
-- Date: 2026-10-06
-- Related isora entries: femmes-douleurs-declarees-11-sites-monde
-- Summary: Une étude parue le 5 octobre 2026 dans Nature Medicine a harmonisé les déclarations de douleur de 6 125 459 personnes issues de 902 sources de données dans 118 pays et territoires, recueillies entre 1990 et 2025. Dans les modèles groupés, la fréquence déclarée est plus élevée chez les femmes que chez les hommes pour chacun des 11 sites anatomiques étudiés ; les rapports de prévalence vont de 1,08 à 1,83 selon le site. Ces rapports ne sont ni des écarts en points de pourcentage ni des résultats valables séparément pour chaque pays. Les enquêtes portent sur des symptômes déclarés, pas sur un diagnostic de douleur chronique ou une cause biologique déterminée.
-- Sources: Nature Medicine, Fillingim et al.: https://www.nature.com/articles/s41591-026-04696-w; Communications Medicine, Macchia et al.: https://pubmed.ncbi.nlm.nih.gov/40325153/; International Association for the Study of Pain: https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/; University of Aberdeen Research Portal: https://abdn.elsevierpure.com/en/publications/global-and-regional-reference-curves-for-pain-across-the-lifespan/
 
 
 ## Some religious offices remain restricted to men
