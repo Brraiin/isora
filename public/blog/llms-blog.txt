@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026
+- URL: https://isora.info/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/
+- Date: 2026-10-28
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-temps-partiel
+- Resume: Les données Dares–France Travail actualisées le 28 octobre 2026 comptent 2 945 400 femmes et 2 902 100 hommes en catégories A, B et C au troisième trimestre, en France hors Mayotte. Les effectifs restent proches, avec une progression trimestrielle plus forte chez les hommes. Ce décompte inclut des personnes ayant travaillé pendant le mois et ne mesure pas leur risque de chômage. Les changements d’inscription liés à la loi pour le plein emploi imposent aussi de la prudence dans l’interprétation des évolutions.
+- Sources: Dares–France Travail (données du troisième trimestre 2026, consultées le 28 octobre 2026): https://dares.travail-emploi.gouv.fr/donnees/les-inscrits-france-travail-consultez-la-datavisualisation; Dares–France Travail (mise à jour des données du troisième trimestre 2026 consultée le 28 octobre 2026): https://dares.travail-emploi.gouv.fr/donnees/inscrits-france-travail-donnees-trimestrielles; Dares (consulté le 28 octobre 2026): https://dares.travail-emploi.gouv.fr/definitions-et-concepts/demandeur-demploi; Insee (consulté le 28 octobre 2026): https://www.insee.fr/fr/statistiques/4805248
+
 ### Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons
 - URL: https://isora.info/blog/2026-10-27-cyberharcelement-eleves-filles-garcons/
 - Date: 2026-10-27

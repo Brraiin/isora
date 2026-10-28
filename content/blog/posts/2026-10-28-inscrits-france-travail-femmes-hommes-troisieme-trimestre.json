@@ -1,0 +1,77 @@
+{
+  "id": "2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre",
+  "slug": "2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre",
+  "status": "published",
+  "language": "fr",
+  "title": "France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026",
+  "description": "En France hors Mayotte, les effectifs inscrits en catégories A, B et C progressent de 0,4 % chez les femmes et de 1,1 % chez les hommes. À distinguer du taux de chômage.",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-28T20:52:00.000Z",
+  "updatedAt": "2026-10-28T20:52:00.000Z",
+  "topic": { "id": "travail-revenus", "label": "Travail, revenus et conditions d'emploi" },
+  "keywords": ["France Travail femmes hommes troisième trimestre 2026", "inscrits catégories A B C par sexe", "Dares inscriptions taux de chômage"],
+  "relatedClaimIds": ["femmes-temps-partiel"],
+  "readingMinutes": 4,
+  "summary": "Les données Dares–France Travail actualisées le 28 octobre 2026 comptent 2 945 400 femmes et 2 902 100 hommes en catégories A, B et C au troisième trimestre, en France hors Mayotte. Les effectifs restent proches, avec une progression trimestrielle plus forte chez les hommes. Ce décompte inclut des personnes ayant travaillé pendant le mois et ne mesure pas leur risque de chômage. Les changements d’inscription liés à la loi pour le plein emploi imposent aussi de la prudence dans l’interprétation des évolutions.",
+  "keyPoints": [
+    "En catégories A, B et C, la Dares compte 2 945 400 femmes et 2 902 100 hommes au troisième trimestre 2026 en France hors Mayotte.",
+    "Par rapport au trimestre précédent, l’effectif augmente de 0,4 % chez les femmes et de 1,1 % chez les hommes.",
+    "Ces catégories regroupent des personnes tenues de rechercher un emploi, sans activité dans le mois ou ayant exercé une activité réduite.",
+    "Un effectif d’inscrits n’est pas un taux de chômage : il ne rapporte pas chaque groupe à sa population active et dépend aussi des règles administratives."
+  ],
+  "sections": [
+    {
+      "heading": "Une progression différente sur un même périmètre",
+      "paragraphs": [
+        "La Direction de l’animation de la recherche, des études et des statistiques, ou Dares, publie avec France Travail des statistiques administratives sur les personnes inscrites. La mise à jour du 28 octobre porte sur le troisième trimestre 2026. Dans le tableau par sexe, en sélectionnant la France hors Mayotte et les catégories A, B et C, les femmes sont légèrement plus nombreuses que les hommes, tandis que la hausse trimestrielle est plus forte chez ces derniers.",
+        "Les séries sont corrigées des variations saisonnières et des jours ouvrables : ce traitement vise à limiter l’effet des rythmes habituels de l’année et du calendrier. La comparaison conserve ici le même trimestre, le même territoire et les mêmes catégories pour les deux sexes. Elle décrit une évolution d’effectifs, sans isoler ce qui relève des embauches, des parcours individuels ou des règles d’inscription."
+      ]
+    },
+    {
+      "heading": "Que signifient les catégories A, B et C ?",
+      "paragraphs": [
+        "Les personnes de ces trois catégories sont tenues de rechercher un emploi. La catégorie A correspond à l’absence d’activité dans le mois ; la catégorie B à une activité réduite de 78 heures au maximum ; la catégorie C à une activité réduite de plus de 78 heures. Réunir les trois catégories ne revient donc pas à compter uniquement des personnes n’ayant pas travaillé.",
+        "Ce regroupement ne couvre pas non plus toutes les situations d’inscription : d’autres catégories concernent notamment la formation, certains emplois, les parcours sociaux ou l’attente d’une orientation. Le choix du périmètre doit accompagner chaque chiffre."
+      ]
+    },
+    {
+      "heading": "Pourquoi ces chiffres ne donnent pas un taux de chômage par sexe",
+      "paragraphs": [
+        "Un taux de chômage rapporte les personnes au chômage à la population active, composée des personnes en emploi et au chômage. Selon la définition du Bureau international du travail, appliquée par l’Insee, une personne de 15 ans ou plus au chômage doit être sans emploi durant une semaine donnée, disponible sous deux semaines et avoir recherché activement un emploi pendant les quatre dernières semaines, ou en avoir trouvé un commençant dans moins de trois mois.",
+        "L’inscription à France Travail et cette définition se recoupent sans coïncider. Des effectifs féminins et masculins proches ne démontrent donc pas une exposition identique au chômage. La progression plus forte de l’effectif masculin ce trimestre ne suffit pas davantage à établir une cause liée au sexe ou une tendance durable."
+      ]
+    },
+    {
+      "heading": "Des règles d’inscription qui influencent la lecture des séries",
+      "paragraphs": [
+        "Depuis janvier 2025, l’inscription systématique concerne notamment les bénéficiaires du revenu de solidarité active, ou RSA, les jeunes en recherche d’emploi suivis par les missions locales et les personnes en situation de handicap suivies par Cap emploi. La Dares publie des avertissements et des séries complémentaires pour éclairer ces changements.",
+        "Les corrections portant sur l’ensemble des inscrits ne constituent pas des corrections propres à chaque sexe. On ne peut donc pas les appliquer aux femmes et aux hommes pour fabriquer une comparaison corrigée qui n’est pas fournie. Les catégories femmes et hommes sont celles des données administratives ; elles ne mesurent pas les chromosomes."
+      ]
+    },
+    {
+      "heading": "Le lien avec la fiche sur le temps partiel",
+      "paragraphs": [
+        "La fiche liée documente la fréquence du temps partiel parmi les personnes en emploi. Cet indicateur diffère des catégories B et C de France Travail, définies par une activité pendant le mois et une inscription. Les deux indicateurs ne sont pas interchangeables : cette publication n’actualise pas les taux de la fiche. Elle apporte un autre éclairage sur les situations entre emploi et recherche d’emploi."
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "Ces chiffres comptent-ils uniquement des personnes sans travail ?", "answer": "Non. Les catégories B et C incluent des personnes ayant travaillé dans le mois. Seule la catégorie A correspond à l’absence d’activité pendant ce mois." },
+    { "question": "Peut-on en déduire quel sexe a le taux de chômage le plus élevé ?", "answer": "Non. Les effectifs d’inscrits ne sont pas rapportés à la population active de chaque sexe et ne suivent pas la même définition que le chômage au sens du Bureau international du travail." },
+    { "question": "La hausse trimestrielle établit-elle une asymétrie durable ?", "answer": "Non. Un trimestre ne permet pas d’isoler les causes de l’écart ni sa persistance. Les évolutions des règles administratives doivent aussi être prises en compte." }
+  ],
+  "sources": [
+    { "title": "Les inscrits à France Travail : datavisualisation — tableau par sexe et âge", "publisher": "Dares–France Travail", "url": "https://dares.travail-emploi.gouv.fr/donnees/les-inscrits-france-travail-consultez-la-datavisualisation", "date": "données du troisième trimestre 2026, consultées le 28 octobre 2026", "type": "statistique administrative primaire ; filtres France hors Mayotte, catégories A, B, C ; séries corrigées des variations saisonnières et des jours ouvrables" },
+    { "title": "Les inscrits à France Travail — données trimestrielles", "publisher": "Dares–France Travail", "url": "https://dares.travail-emploi.gouv.fr/donnees/inscrits-france-travail-donnees-trimestrielles", "date": "mise à jour des données du troisième trimestre 2026 consultée le 28 octobre 2026", "type": "publication et avertissements méthodologiques ; même source statistique que la datavisualisation, pas une confirmation indépendante" },
+    { "title": "Demandeur d’emploi — définition des catégories A, B et C", "publisher": "Dares", "url": "https://dares.travail-emploi.gouv.fr/definitions-et-concepts/demandeur-demploi", "date": "consulté le 28 octobre 2026", "type": "définitions méthodologiques ; les avertissements de la publication trimestrielle précisent les nouvelles catégories" },
+    { "title": "L’essentiel sur le chômage — différence avec l’inscription à France Travail", "publisher": "Insee", "url": "https://www.insee.fr/fr/statistiques/4805248", "date": "consulté le 28 octobre 2026", "type": "définitions et explication de la différence entre chômage au sens du Bureau international du travail et inscription administrative" }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-10-28T20:52:00.000Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-10-28T20:52:00.000Z",
+    "reviewNote": "Actualisation du troisième trimestre vérifiée dans les tableaux HTML primaires en ligne, filtres France hors Mayotte et catégories A, B, C sélectionnés. Le téléchargement Excel n’a pas fourni de classeur exploitable et n’est pas présenté comme vérifié. Effectifs, évolutions trimestrielles et avertissements relus ; aucune ventilation de la catégorie A déduite, aucun taux de chômage ou effet causal fabriqué, aucune correction agrégée appliquée par sexe. Sujet distinct de l’article du 5 septembre sur le chômage BIT. La fiche temps partiel reste contextuelle et inchangée. Classement vérifié, conservé : aucune fiche nouvelle ou dont la portée change ; les grands enjeux de mortalité et de violences gardent leur priorité sur les indicateurs conjoncturels."
+  }
+}

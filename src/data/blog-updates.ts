@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026",
+    "blogUrl": "/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/",
+    "date": "2026-10-28",
+    "updatedAt": "2026-10-28T20:52:00.000Z"
+  },
+  {
     "claimId": "femmes-violence-numerique",
     "side": "femmes",
     "claimTitle": "Femmes visées par les violences facilitées par la technologie",
@@ -76,16 +86,6 @@ export const homeBlogUpdates = [
     "side": "femmes",
     "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
     "claimMetric": "3,0-4,8 %",
-    "blogTitle": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
-    "blogUrl": "/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/",
-    "date": "2026-10-20",
-    "updatedAt": "2026-10-20T12:26:09.011Z"
-  },
-  {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
-    "claimMetric": "26,8 % vs 8,7 %",
     "blogTitle": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
     "blogUrl": "/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/",
     "date": "2026-10-20",

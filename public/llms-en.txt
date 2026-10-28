@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-10-27T19:40:15.002Z
+Last generation: 2026-10-28T20:56:55.363Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026
+- URL: https://isora.info/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/
+- Date: 2026-10-28
+- Related isora entries: femmes-temps-partiel
+- Summary: Les données Dares–France Travail actualisées le 28 octobre 2026 comptent 2 945 400 femmes et 2 902 100 hommes en catégories A, B et C au troisième trimestre, en France hors Mayotte. Les effectifs restent proches, avec une progression trimestrielle plus forte chez les hommes. Ce décompte inclut des personnes ayant travaillé pendant le mois et ne mesure pas leur risque de chômage. Les changements d’inscription liés à la loi pour le plein emploi imposent aussi de la prudence dans l’interprétation des évolutions.
+- Sources: Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/les-inscrits-france-travail-consultez-la-datavisualisation; Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/inscrits-france-travail-donnees-trimestrielles; Dares: https://dares.travail-emploi.gouv.fr/definitions-et-concepts/demandeur-demploi; Insee: https://www.insee.fr/fr/statistiques/4805248
+
 ### Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons
 - URL: https://isora.info/blog/2026-10-27-cyberharcelement-eleves-filles-garcons/
 - Date: 2026-10-27
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-activite-physique-hors-travail-jeunes-ue-2025
 - Summary: La publication Eurostat du 7 octobre 2026 porte sur l'activité physique hors travail : 16 % des femmes et 20,6 % des hommes de 16 à 29 ans dans l'UE déclarent en faire 4 à 6 fois par semaine en 2025. Cette catégorie ne comprend pas les fréquences quotidiennes. En France, le même tableau donne des taux très proches à 65-74 ans : 14,3 % pour les femmes et 14,1 % pour les hommes. Ces résultats ne comptent pas les visites en salle de sport et ne démontrent aucun lien causal avec la longévité.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm
-
-### Mpox en France : une majorité masculine parmi les cas signalés de janvier à août 2026
-- URL: https://isora.info/blog/2026-10-07-mpox-cas-signales-femmes-hommes-france/
-- Date: 2026-10-07
-- Related isora entries: hommes-mpox-cas-signales-france-2026
-- Summary: La mpox, anciennement appelée « variole du singe », est une maladie virale qui peut provoquer de la fièvre et des lésions de la peau. Le bulletin de Santé publique France publié le 2 octobre 2026 décrit 359 cas signalés du 1er janvier au 31 août : 321 personnes de sexe masculin (89 %) et 38 de sexe féminin (11 %). Cette asymétrie concerne une série de signalements, et non une enquête représentative de toute la population. Isora la documente sans l'assimiler à une différence de risque biologique entre femmes et hommes.
-- Sources: Santé publique France: https://www.santepubliquefrance.fr/variole-b-mpox/bulletin-national/variole-b-mpox-en-france-du-1er-janvier-au-31-aout-2026; Santé publique France: https://www.santepubliquefrance.fr/variole-b-mpox/notre-action; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/mpox
 
 
 ## Some religious offices remain restricted to men

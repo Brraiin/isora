@@ -2,8 +2,60 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-27T19:40:15.161Z",
+  "generatedAt": "2026-10-28T20:56:55.523Z",
   "posts": [
+    {
+      "id": "2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre",
+      "title": "France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026",
+      "url": "https://isora.info/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/",
+      "description": "En France hors Mayotte, les effectifs inscrits en catégories A, B et C progressent de 0,4 % chez les femmes et de 1,1 % chez les hommes. À distinguer du taux de chômage.",
+      "date": "2026-10-28",
+      "publishedAt": "2026-10-28T20:52:00.000Z",
+      "updatedAt": "2026-10-28T20:52:00.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "France Travail femmes hommes troisième trimestre 2026",
+        "inscrits catégories A B C par sexe",
+        "Dares inscriptions taux de chômage"
+      ],
+      "relatedClaimIds": [
+        "femmes-temps-partiel"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Les inscrits à France Travail : datavisualisation — tableau par sexe et âge",
+          "publisher": "Dares–France Travail",
+          "url": "https://dares.travail-emploi.gouv.fr/donnees/les-inscrits-france-travail-consultez-la-datavisualisation",
+          "date": "données du troisième trimestre 2026, consultées le 28 octobre 2026",
+          "type": "statistique administrative primaire ; filtres France hors Mayotte, catégories A, B, C ; séries corrigées des variations saisonnières et des jours ouvrables"
+        },
+        {
+          "title": "Les inscrits à France Travail — données trimestrielles",
+          "publisher": "Dares–France Travail",
+          "url": "https://dares.travail-emploi.gouv.fr/donnees/inscrits-france-travail-donnees-trimestrielles",
+          "date": "mise à jour des données du troisième trimestre 2026 consultée le 28 octobre 2026",
+          "type": "publication et avertissements méthodologiques ; même source statistique que la datavisualisation, pas une confirmation indépendante"
+        },
+        {
+          "title": "Demandeur d’emploi — définition des catégories A, B et C",
+          "publisher": "Dares",
+          "url": "https://dares.travail-emploi.gouv.fr/definitions-et-concepts/demandeur-demploi",
+          "date": "consulté le 28 octobre 2026",
+          "type": "définitions méthodologiques ; les avertissements de la publication trimestrielle précisent les nouvelles catégories"
+        },
+        {
+          "title": "L’essentiel sur le chômage — différence avec l’inscription à France Travail",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/4805248",
+          "date": "consulté le 28 octobre 2026",
+          "type": "définitions et explication de la différence entre chômage au sens du Bureau international du travail et inscription administrative"
+        }
+      ]
+    },
     {
       "id": "2026-10-27-cyberharcelement-eleves-filles-garcons",
       "title": "Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons",
