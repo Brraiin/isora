@@ -4,6 +4,20 @@ Consigner ici seulement les ajouts et déplacements effectifs, avec la date, les
 IDs concernés et une justification qualitative. Pour une veille sans changement,
 indiquer « classement vérifié, conservé » dans son compte rendu.
 
+## 29 octobre 2026 — renoncement à sortir seul pour des raisons de sécurité
+
+- Nouvelle fiche `femmes-renoncement-sortir-seules-securite-france-2025` :
+  trentième parmi les femmes, après `femmes-iran-hijab-obligatoire` et avant
+  `femmes-vecu-situations-sexistes-hce-2025`. Population adulte étendue en France
+  dans le champ VRS et écart marqué sur un comportement de sortie déclaré
+  (32 % contre 11 %). Portée pour la mobilité et l’autonomie, mais pas un taux
+  d’agression ni une privation légale : conserve la priorité des enjeux de
+  mortalité, violences, santé et restrictions de droits qui la précèdent.
+- Indicateur classé en perception ; données 2025, publication 2026. Les autres
+  priorités internes sont conservées ; réentrelacement hommes/femmes et maintien
+  de `hommes-esperance-vie` en première place. Le mpox reste dernier parmi les
+  hommes et accessible par recherche. Aucun déplacement motivé par la seule récence.
+
 ## 7 octobre 2026 — classement initial et obligation de revue
 
 - Ensemble des fiches : mortalité, violences, santé et grands effets sociaux

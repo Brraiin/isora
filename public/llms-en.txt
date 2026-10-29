@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-10-28T20:56:55.363Z
+Last generation: 2026-10-29T21:20:32.180Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -19,11 +19,11 @@ Last generation: 2026-10-28T20:56:55.363Z
 - When no reviewed English translation is available for a claim, keep the original French wording and say so.
 
 ## Dataset status
-- Entries: 110
+- Entries: 111
 - Entries about men: 48
-- Entries about women: 62
-- Distinct sources: 269
-- Domains: Religieux, Santé, Éducation, Travail, Justice, Famille, Violences, Droits, Revenus, Autonomie, Conflits, Numérique
+- Entries about women: 63
+- Distinct sources: 271
+- Domains: Autonomie, Religieux, Santé, Éducation, Travail, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Editorial method
 - Sourced data, readable context, open contribution.
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Sécurité : les femmes déclarent plus souvent renoncer à sortir seules
+- URL: https://isora.info/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/
+- Date: 2026-10-29
+- Related isora entries: femmes-renoncement-sortir-seules-securite-france-2025, hommes-violences-physiques-hors-famille-france-2025
+- Summary: Publié le 29 octobre 2026, le rapport Vécu et ressenti en matière de sécurité, édition 2025, mesure un écart dans les sorties déclarées : 32 % des femmes et 11 % des hommes indiquent renoncer souvent ou de temps en temps à sortir seuls de chez eux pour des raisons de sécurité. Cette comparaison concerne les adultes en logement ordinaire dans le champ de l’enquête. Elle ne mesure ni le nombre d’agressions ni une impossibilité permanente de sortir.
+- Sources: SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf; SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0; Ministère de l’Intérieur: https://www.interieur.gouv.fr/actualites/communiques-de-presse/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-dinsecurite-rapport-0; Police nationale: https://www.police-nationale.interieur.gouv.fr/actualite/securite-enquete-statistique-nationale-sur-vecu-et-ressenti
+
 ### France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026
 - URL: https://isora.info/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/
 - Date: 2026-10-28
@@ -206,13 +213,22 @@ The articles are written in French and summarize recent reports and trends with 
 - Summary: Les maladies cardiovasculaires — celles du cœur et des vaisseaux sanguins — concernent les deux sexes. Le nouveau point de l’Assurance maladie invite à mieux reconnaître les difficultés de prise en charge des femmes, sans confondre nombre de décès et taux corrigé des différences d’âge.
 - Sources: Assurance maladie: https://www.ameli.fr/medecin/sante-prevention/sante-cardiovasculaire/prevention-primaire/coeur-des-femmes-comprendre-et-eliminer-les-inegalites-de-diagnostic-et-de-prise-en-charge; Santé publique France, Inserm-CépiDc et DREES — BEH: https://beh.santepubliquefrance.fr/beh/2025/13/2025_13_1.html; Conseil national professionnel cardiovasculaire: https://www.cnpcv.org/index.php/le_cnpcv/travaux-du-cnpcv/
 
-### Activité physique hors travail : l'écart des jeunes ne se transpose pas aux seniors
-- URL: https://isora.info/blog/2026-10-07-activite-physique-jeunes-seniors-femmes-hommes/
-- Date: 2026-10-07
-- Related isora entries: femmes-activite-physique-hors-travail-jeunes-ue-2025
-- Summary: La publication Eurostat du 7 octobre 2026 porte sur l'activité physique hors travail : 16 % des femmes et 20,6 % des hommes de 16 à 29 ans dans l'UE déclarent en faire 4 à 6 fois par semaine en 2025. Cette catégorie ne comprend pas les fréquences quotidiennes. En France, le même tableau donne des taux très proches à 65-74 ans : 14,3 % pour les femmes et 14,1 % pour les hommes. Ces résultats ne comptent pas les visites en salle de sport et ne démontrent aucun lien causal avec la longévité.
-- Sources: Eurostat: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20261007-1; Eurostat: https://ec.europa.eu/eurostat/databrowser/view/ilc_hch07b/default/table?lang=en; Eurostat: https://ec.europa.eu/eurostat/cache/metadata/en/ilc_sieusilc.htm
 
+## Women more often report avoiding going out alone for safety reasons
+- ID: femmes-renoncement-sortir-seules-securite-france-2025
+- URL: https://isora.info/fiches/femmes-renoncement-sortir-seules-securite-france-2025/
+- Interactive app URL: https://isora.info/#femmes-renoncement-sortir-seules-securite-france-2025
+- Group: femmes
+- Angle: perception
+- Domain: Autonomie
+- Zone: France métropolitaine, Martinique, Guadeloupe et La Réunion
+- Period: 2025-2025
+- Status: actuel
+- Key measure: 32 % F / 11 % H
+- Summary: In the 2025 French Vécu et ressenti en matière de sécurité (VRS) survey, 32% of women and 11% of men reported often or sometimes forgoing going out alone from home for safety reasons. The scope covers adults living in private households in metropolitan France, Martinique, Guadeloupe and Réunion.
+- Nuance: Checked on 29 October 2026 against pages 22 and 25 of the newly published SSMSI report: the threshold combines often and sometimes. These are proportions within each sex, not the sex composition of people who forgo outings. This self-reported behaviour and perception measure is neither an assault rate nor a count of people who never go out alone. The report uses internet responses with specific statistical weights to represent the target population for opinion and perception indicators, because collection modes can influence answers. Its 111,500 usable questionnaires cover all collection modes, not this indicator alone. The comparison is unadjusted; no single cause or responsibility of the other sex is established. It concerns perceptions collected in 2025, whereas the report’s main victimisation estimates refer to events in 2024. People in institutions, people without ordinary housing, minors, Guyane and Mayotte are outside the stated scope. The linked presentation page describes the same survey, not an independent confirmation.
+- Measured population: People aged 18 or over living in private households in metropolitan France, Martinique, Guadeloupe and Réunion; weighted internet responses in the 2025 core VRS survey for perception indicators. The source uses women/men categories and does not measure chromosomes.
+- Sources: SSMSI / Ministère de l’Intérieur (29 octobre 2026 ; perceptions recueillies en 2025): https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf; SSMSI (29 octobre 2026): https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0
 
 ## Some religious offices remain restricted to men
 - ID: femmes-acces-fonctions-religieuses-reservees-hommes

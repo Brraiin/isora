@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-renoncement-sortir-seules-securite-france-2025",
+    "side": "femmes",
+    "claimTitle": "Renoncer à sortir seul pour sa sécurité : plus fréquent chez les femmes",
+    "claimMetric": "32 % F / 11 % H",
+    "blogTitle": "Sécurité : les femmes déclarent plus souvent renoncer à sortir seules",
+    "blogUrl": "/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/",
+    "date": "2026-10-29",
+    "updatedAt": "2026-10-29T21:17:44.000Z"
+  },
+  {
+    "claimId": "hommes-violences-physiques-hors-famille-france-2025",
+    "side": "hommes",
+    "claimTitle": "Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille",
+    "claimMetric": "68 % H / 73 % F",
+    "blogTitle": "Sécurité : les femmes déclarent plus souvent renoncer à sortir seules",
+    "blogUrl": "/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/",
+    "date": "2026-10-29",
+    "updatedAt": "2026-10-29T21:17:44.000Z"
+  },
+  {
     "claimId": "femmes-temps-partiel",
     "side": "femmes",
     "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
@@ -396,16 +416,6 @@ export const homeBlogUpdates = [
     "side": "hommes",
     "claimTitle": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
     "claimMetric": "85 %",
-    "blogTitle": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
-    "blogUrl": "/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
-    "date": "2026-08-11",
-    "updatedAt": "2026-08-11T17:30:00.000Z"
-  },
-  {
-    "claimId": "hommes-violences-physiques-hors-famille-france-2025",
-    "side": "hommes",
-    "claimTitle": "Violences enregistrées : hommes majoritaires hors famille, femmes dans la famille",
-    "claimMetric": "68 % H / 73 % F",
     "blogTitle": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
     "blogUrl": "/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
     "date": "2026-08-11",

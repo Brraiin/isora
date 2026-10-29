@@ -1,0 +1,71 @@
+{
+  "id": "2026-10-29-renoncer-sortir-seul-securite-femmes-hommes",
+  "slug": "2026-10-29-renoncer-sortir-seul-securite-femmes-hommes",
+  "status": "published",
+  "language": "fr",
+  "title": "Sécurité : les femmes déclarent plus souvent renoncer à sortir seules",
+  "description": "L’enquête VRS 2025 mesure 32 % de femmes contre 11 % d’hommes renonçant souvent ou parfois à sortir seuls pour leur sécurité. Un comportement déclaré, distinct du risque d’agression.",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-29T21:17:44.000Z",
+  "updatedAt": "2026-10-29T21:17:44.000Z",
+  "topic": { "id": "droits-autonomie", "label": "Droits, autonomie et accès aux services" },
+  "keywords": ["renoncement sortir seul femmes hommes sécurité 2025", "enquête VRS sentiment insécurité", "SSMSI autonomie mobilité femmes hommes"],
+  "relatedClaimIds": ["femmes-renoncement-sortir-seules-securite-france-2025", "hommes-violences-physiques-hors-famille-france-2025"],
+  "readingMinutes": 3,
+  "summary": "Publié le 29 octobre 2026, le rapport Vécu et ressenti en matière de sécurité, édition 2025, mesure un écart dans les sorties déclarées : 32 % des femmes et 11 % des hommes indiquent renoncer souvent ou de temps en temps à sortir seuls de chez eux pour des raisons de sécurité. Cette comparaison concerne les adultes en logement ordinaire dans le champ de l’enquête. Elle ne mesure ni le nombre d’agressions ni une impossibilité permanente de sortir.",
+  "keyPoints": [
+    "Le renoncement souvent ou de temps en temps à sortir seul est déclaré par 32 % des femmes et 11 % des hommes en 2025.",
+    "Le champ couvre les adultes en logement ordinaire en métropole, Martinique, Guadeloupe et à La Réunion, pas toute la population française.",
+    "Pour ces perceptions, le rapport analyse les réponses par internet avec une pondération spécifique.",
+    "Le sentiment d’insécurité, les comportements de sortie et les violences subies constituent des indicateurs différents."
+  ],
+  "sections": [
+    {
+      "heading": "Un nouveau rapport, avec des périodes à distinguer",
+      "paragraphs": [
+        "Le Service statistique ministériel de la sécurité intérieure, ou SSMSI, publie le 29 octobre 2026 les résultats de l’enquête Vécu et ressenti en matière de sécurité, abrégée VRS. Une enquête de victimation interroge les personnes sur les faits qu’elles déclarent avoir subis, y compris sans dépôt de plainte. VRS recueille aussi leurs perceptions de la sécurité.",
+        "L’édition 2025 présente des faits subis principalement en 2024 et des perceptions exprimées en 2025. La date de publication ne transforme donc pas ces résultats en mesure de la situation de 2026."
+      ]
+    },
+    {
+      "heading": "Un écart de sorties déclarées, pas une interdiction de sortir",
+      "paragraphs": [
+        "Le rapport indique que 32 % des femmes contre 11 % des hommes déclarent renoncer à sortir seuls pour des raisons de sécurité. Le seuil rassemble les réponses souvent et de temps en temps. Il ne signifie pas qu’un tiers des femmes ne sortent jamais seules, ni que les hommes ne sont pas concernés.",
+        "Chaque taux se rapporte aux personnes du sexe considéré. Il ne décrit pas la répartition femmes-hommes parmi toutes les personnes qui renoncent à sortir. Le résultat documente une différence de comportement déclaré ; il ne suffit pas à déterminer quels dangers, expériences ou contraintes l’expliquent."
+      ]
+    },
+    {
+      "heading": "Une méthode qui tient compte des modes de réponse",
+      "paragraphs": [
+        "Le champ est celui des personnes de 18 ans ou plus en logement ordinaire en France métropolitaine, Martinique, Guadeloupe et à La Réunion. Il exclut notamment les personnes en institution, les personnes sans logement ordinaire et les mineurs. L’enquête complète repose sur 111 500 questionnaires exploitables ; ce nombre ne correspond pas aux seuls répondants utilisés pour cet indicateur.",
+        "Pour les opinions et perceptions, seuls les questionnaires internet sont retenus, avec une pondération spécifique : les réponses reçoivent des poids statistiques pour représenter la population visée. Ce choix vise à limiter les différences dues au fait de répondre en ligne ou avec un enquêteur. Les catégories femmes et hommes sont celles de la source, qui ne mesure pas les chromosomes."
+      ]
+    },
+    {
+      "heading": "Ressenti, sorties et violences enregistrées ne sont pas interchangeables",
+      "paragraphs": [
+        "La fiche liée sur les violences physiques hors famille décrit des victimes enregistrées par la police et la gendarmerie en 2025, avec une majorité masculine dans ce périmètre. Elle ne porte ni sur la même population ni sur le même indicateur que les réponses de VRS. Les nouvelles données ne remplacent donc pas ses chiffres.",
+        "Un renoncement déclaré peut compter pour comprendre la mobilité et l’autonomie sans être assimilé à une agression. Inversement, un taux plus faible de renoncement ne suffit pas à conclure à une moindre exposition à toutes les violences. Aucune cause unique ni responsabilité collective de l’autre sexe ne peut être déduite de cette comparaison."
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "Les 32 % désignent-ils des femmes qui ne sortent jamais seules ?", "answer": "Non. Le seuil regroupe les femmes déclarant renoncer souvent ou de temps en temps à sortir seules pour des raisons de sécurité. Il ne mesure pas une impossibilité permanente de sortir." },
+    { "question": "Ce chiffre mesure-t-il le risque d’être agressé ?", "answer": "Non. Il porte sur un comportement et un ressenti déclarés. Les violences subies et les infractions enregistrées nécessitent d’autres indicateurs, avec leurs propres populations et périodes." },
+    { "question": "S’agit-il de données recueillies en 2026 ?", "answer": "Non. Le rapport est publié en octobre 2026, mais ces perceptions ont été recueillies dans l’enquête de 2025." }
+  ],
+  "sources": [
+    { "title": "Vécu et ressenti en matière de sécurité — rapport d’enquête, édition 2025", "publisher": "SSMSI", "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf", "date": "29 octobre 2026 ; perceptions 2025 et faits subis 2024", "type": "rapport primaire ; pages 21-22, figure 18 page 25 et méthode pages 58-61" },
+    { "title": "Présentation du rapport VRS, édition 2025", "publisher": "SSMSI", "url": "https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0", "date": "29 octobre 2026", "type": "notice et infographies du même rapport ; pas une enquête indépendante" },
+    { "title": "Vécu et ressenti en matière de sécurité — communiqué de publication", "publisher": "Ministère de l’Intérieur", "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-dinsecurite-rapport-0", "date": "29 octobre 2026", "type": "communiqué du même dispositif, précisant les périodes et la complémentarité avec les données administratives" },
+    { "title": "Sécurité : une enquête statistique nationale sur le vécu et le ressenti", "publisher": "Police nationale", "url": "https://www.police-nationale.interieur.gouv.fr/actualite/securite-enquete-statistique-nationale-sur-vecu-et-ressenti", "date": "11 mars 2025", "type": "présentation du tirage aléatoire de l’échantillon par l’Insee et des modes de collecte ; pas une confirmation indépendante des taux" }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-10-29T21:17:44.000Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-10-29T21:17:44.000Z",
+    "reviewNote": "Publication du jour vérifiée sur les sites du SSMSI et du ministère ; embargo expiré à 14 h. PDF lu, pages 22 et 25 contrôlées visuellement : 32 % femmes et 11 % hommes, souvent ou de temps en temps, même champ. Méthode pages 58-61 lue : 111 500 questionnaires tous modes, perceptions fondées sur internet pondéré. Aucune part masculine déduite d’un taux global, aucun taux d’agression ou effet causal inventé. Les quatre références décrivent le même dispositif et ne constituent pas quatre enquêtes indépendantes. Nouvelle fiche de perception en Autonomie, datée et traduite ; fiche administrative de violences inchangée. Nouvelle fiche classée trentième parmi les femmes, après les restrictions liées au hijab en Iran et avant les expériences sexistes du HCE : portée large sur les sorties, mais indicateur déclaré sans mesure de danger objectif. Autres priorités internes conservées, alternance recomposée."
+  }
+}

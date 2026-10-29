@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Sécurité : les femmes déclarent plus souvent renoncer à sortir seules
+- URL: https://isora.info/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/
+- Date: 2026-10-29
+- Sujet: Droits, autonomie et accès aux services
+- Fiches isora liees: femmes-renoncement-sortir-seules-securite-france-2025, hommes-violences-physiques-hors-famille-france-2025
+- Resume: Publié le 29 octobre 2026, le rapport Vécu et ressenti en matière de sécurité, édition 2025, mesure un écart dans les sorties déclarées : 32 % des femmes et 11 % des hommes indiquent renoncer souvent ou de temps en temps à sortir seuls de chez eux pour des raisons de sécurité. Cette comparaison concerne les adultes en logement ordinaire dans le champ de l’enquête. Elle ne mesure ni le nombre d’agressions ni une impossibilité permanente de sortir.
+- Sources: SSMSI (29 octobre 2026 ; perceptions 2025 et faits subis 2024): https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf; SSMSI (29 octobre 2026): https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0; Ministère de l’Intérieur (29 octobre 2026): https://www.interieur.gouv.fr/actualites/communiques-de-presse/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-dinsecurite-rapport-0; Police nationale (11 mars 2025): https://www.police-nationale.interieur.gouv.fr/actualite/securite-enquete-statistique-nationale-sur-vecu-et-ressenti
+
 ### France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026
 - URL: https://isora.info/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/
 - Date: 2026-10-28

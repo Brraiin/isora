@@ -107,6 +107,47 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "femmes-renoncement-sortir-seules-securite-france-2025",
+    side: "femmes",
+    angle: "perception",
+    domain: "Autonomie",
+    title: "Renoncer à sortir seul pour sa sécurité : plus fréquent chez les femmes",
+    metric: "32 % F / 11 % H",
+    summary:
+      "Dans l’enquête Vécu et ressenti en matière de sécurité (VRS) de 2025, 32 % des femmes et 11 % des hommes déclarent renoncer souvent ou de temps en temps à sortir seuls de chez eux pour des raisons de sécurité. Le champ couvre les adultes en logement ordinaire en France métropolitaine, Martinique, Guadeloupe et à La Réunion.",
+    tags: ["sécurité", "sorties", "mobilité", "sentiment d'insécurité", "France", "comparaison"],
+    source: {
+      label: "Vécu et ressenti en matière de sécurité — rapport d’enquête, édition 2025, pages 22 et 25 (figure 18), méthode pages 58-61",
+      publisher: "SSMSI / Ministère de l’Intérieur",
+      url: "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf",
+      date: "29 octobre 2026 ; perceptions recueillies en 2025",
+    },
+    additionalSources: [
+      {
+        label: "Présentation du rapport VRS, édition 2025, et avertissements méthodologiques",
+        publisher: "SSMSI",
+        url: "https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0",
+        date: "29 octobre 2026",
+      },
+    ],
+    translations: {
+      en: {
+        title: "Women more often report avoiding going out alone for safety reasons",
+        summary:
+          "In the 2025 French Vécu et ressenti en matière de sécurité (VRS) survey, 32% of women and 11% of men reported often or sometimes forgoing going out alone from home for safety reasons. The scope covers adults living in private households in metropolitan France, Martinique, Guadeloupe and Réunion.",
+        nuance:
+          "Checked on 29 October 2026 against pages 22 and 25 of the newly published SSMSI report: the threshold combines often and sometimes. These are proportions within each sex, not the sex composition of people who forgo outings. This self-reported behaviour and perception measure is neither an assault rate nor a count of people who never go out alone. The report uses internet responses with specific statistical weights to represent the target population for opinion and perception indicators, because collection modes can influence answers. Its 111,500 usable questionnaires cover all collection modes, not this indicator alone. The comparison is unadjusted; no single cause or responsibility of the other sex is established. It concerns perceptions collected in 2025, whereas the report’s main victimisation estimates refer to events in 2024. People in institutions, people without ordinary housing, minors, Guyane and Mayotte are outside the stated scope. The linked presentation page describes the same survey, not an independent confirmation.",
+        sourcePopulation:
+          "People aged 18 or over living in private households in metropolitan France, Martinique, Guadeloupe and Réunion; weighted internet responses in the 2025 core VRS survey for perception indicators. The source uses women/men categories and does not measure chromosomes.",
+        tags: ["safety", "going out", "mobility", "feeling unsafe", "France", "comparison"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "29 octobre 2026",
+    nuance:
+      "Vérification du 29 octobre 2026 dans le nouveau rapport du Service statistique ministériel de la sécurité intérieure (SSMSI), pages 22 et 25 : le seuil regroupe souvent et de temps en temps. Les taux sont calculés au sein de chaque sexe, pas parmi les personnes qui renoncent à sortir. Ce comportement et ce ressenti déclarés ne sont ni un taux d’agression ni un décompte des personnes ne sortant jamais seules. Pour les perceptions, le rapport utilise les réponses par internet avec une pondération spécifique : des poids statistiques permettent de représenter la population visée. Le mode de collecte peut influencer les réponses. Les 111 500 questionnaires exploitables de l’enquête regroupent tous les modes de collecte, pas ce seul indicateur. La comparaison est brute, sans ajustement des caractéristiques comme l’âge ; elle n’établit aucune cause unique ni responsabilité de l’autre sexe. Les perceptions sont recueillies en 2025, tandis que les principaux décomptes de faits subis portent sur 2024. Sont hors du champ indiqué : personnes en institution ou sans logement ordinaire, mineurs, Guyane et Mayotte. La page de présentation décrit la même enquête, pas une confirmation indépendante.",
+  },
+  {
     id: "femmes-acces-fonctions-religieuses-reservees-hommes",
     side: "femmes",
     domain: "Religieux",
@@ -4317,6 +4358,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-renoncement-sortir-seules-securite-france-2025":
+    "Population mesurée par la source : personnes âgées de 18 ans ou plus en logement ordinaire en France métropolitaine, Martinique, Guadeloupe et à La Réunion ; réponses internet pondérées de l’enquête socle VRS 2025 pour les perceptions. Les catégories femmes/hommes sont celles de la source, qui ne mesure pas les chromosomes.",
   "femmes-acces-fonctions-religieuses-reservees-hommes":
     "Institutions sélectionnées : Église catholique, Église orthodoxe en Amérique, Rabbinical Council of America et Dar al-Ifta d'Égypte ; règles vérifiées en octobre 2026. Contexte bouddhiste : institutions tibétaines en Inde et au Népal et Tzu Chi à Taïwan. Les repères historiques distincts et l'enquête Pew 2020 auprès d'adultes juifs aux États-Unis ne constituent pas un recensement mondial de dirigeants. Les chromosomes ne sont pas mesurés.",
   "femmes-activite-physique-hors-travail-jeunes-ue-2025":
@@ -4550,6 +4593,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-renoncement-sortir-seules-securite-france-2025": {
+    pays_ou_zone: "France métropolitaine, Martinique, Guadeloupe et La Réunion",
+    regionScope: "Europe et outre-mer français",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "comportement et perception de sécurité déclarés, réponses internet pondérées ; pas un taux de victimation",
+  },
   "femmes-mortalite-maternelle": {
     pays_ou_zone: "Monde",
     regionScope: "Monde",
