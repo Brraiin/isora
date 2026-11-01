@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025
+- URL: https://isora.info/blog/2026-11-01-condamnes-femmes-hommes-france-2025/
+- Date: 2026-11-01
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: hommes-sanctions-penales-plus-lourdes
+- Resume: Le fascicule Chiffres clés de la Justice 2026, publié le 29 octobre, présente 437 059 condamnés pour l’année 2025 : 88 % sont des hommes et 12 % des femmes. Ces parts décrivent les personnes condamnées dans le champ du Casier judiciaire national, en France hors collectivités d’outre-mer. Elles ne signifient pas que 88 % des hommes ont été condamnés et ne mesurent pas, à elles seules, une différence de sévérité des peines entre les sexes.
+- Sources: Ministère de la Justice / SSER (29 octobre 2026 ; données 2025 provisoires): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/chiffres-cles-justice-2026; Ministère de la Justice / SSER (30 octobre 2026): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/legere-hausse-du-nombre-condamnations-prononcees-2025; Insee, Faustine Büsch et Odile Timbart (7 mars 2017 ; données antérieures, notamment 2014): https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548; Ministère de la Justice (consulté le 1er novembre 2026): https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales; Service Public / DILA (11 janvier 2025 ; consulté le 1er novembre 2026): https://www.service-public.gouv.fr/particuliers/vosdroits/F18509
+
 ### Sécurité : les femmes déclarent plus souvent renoncer à sortir seules
 - URL: https://isora.info/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/
 - Date: 2026-10-29

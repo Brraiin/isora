@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-sanctions-penales-plus-lourdes",
+    "side": "hommes",
+    "claimTitle": "Hommes plus exposés aux sanctions pénales lourdes",
+    "claimMetric": "41 % vs 18 %",
+    "blogTitle": "Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025",
+    "blogUrl": "/blog/2026-11-01-condamnes-femmes-hommes-france-2025/",
+    "date": "2026-11-01",
+    "updatedAt": "2026-11-01T18:16:41.000Z"
+  },
+  {
     "claimId": "femmes-renoncement-sortir-seules-securite-france-2025",
     "side": "femmes",
     "claimTitle": "Renoncer à sortir seul pour sa sécurité : plus fréquent chez les femmes",

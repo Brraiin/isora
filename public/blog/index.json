@@ -2,8 +2,68 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-10-29T21:20:32.347Z",
+  "generatedAt": "2026-11-01T18:19:57.809Z",
   "posts": [
+    {
+      "id": "2026-11-01-condamnes-femmes-hommes-france-2025",
+      "title": "Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025",
+      "url": "https://isora.info/blog/2026-11-01-condamnes-femmes-hommes-france-2025/",
+      "description": "Les chiffres clés de la Justice 2026 distinguent 437 059 condamnés et près de 556 000 condamnations en 2025. Des données provisoires à lire sans les confondre avec des taux dans la population.",
+      "date": "2026-11-01",
+      "publishedAt": "2026-11-01T18:16:41.000Z",
+      "updatedAt": "2026-11-01T18:16:41.000Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "personnes condamnées femmes hommes France 2025",
+        "chiffres clés justice 2026 sexe",
+        "condamnations et condamnés différence",
+        "sanctions pénales comparaison femmes hommes"
+      ],
+      "relatedClaimIds": [
+        "hommes-sanctions-penales-plus-lourdes"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "Les chiffres clés de la Justice 2026",
+          "publisher": "Ministère de la Justice / SSER",
+          "url": "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/chiffres-cles-justice-2026",
+          "date": "29 octobre 2026 ; données 2025 provisoires",
+          "type": "fascicule primaire téléchargé et vérifié : note de lecture page 3 et caractéristiques des condamnés page 20 (feuilles 5 et 22 du PDF)"
+        },
+        {
+          "title": "Légère hausse du nombre de condamnations prononcées en 2025 — Infos rapides Justice n° 46",
+          "publisher": "Ministère de la Justice / SSER",
+          "url": "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/legere-hausse-du-nombre-condamnations-prononcees-2025",
+          "date": "30 octobre 2026",
+          "type": "note primaire lue intégralement ; définitions et périmètre pages 3-4 ; même fichier statistique du Casier judiciaire, pas une enquête indépendante"
+        },
+        {
+          "title": "Un traitement judiciaire différent entre femmes et hommes délinquants",
+          "publisher": "Insee, Faustine Büsch et Odile Timbart",
+          "url": "https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548",
+          "date": "7 mars 2017 ; données antérieures, notamment 2014",
+          "type": "analyse institutionnelle de contexte sur les écarts de traitement et les caractéristiques des affaires ; pas une mesure de 2025"
+        },
+        {
+          "title": "Les infractions pénales",
+          "publisher": "Ministère de la Justice",
+          "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales",
+          "date": "consulté le 1er novembre 2026",
+          "type": "définition de la gravité des catégories d’infractions et des classes de contraventions"
+        },
+        {
+          "title": "Amende forfaitaire en cas de contravention au code de la route",
+          "publisher": "Service Public / DILA",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18509",
+          "date": "11 janvier 2025 ; consulté le 1er novembre 2026",
+          "type": "repère de vocabulaire sur les montants prédéfinis des amendes forfaitaires ; pas une source des statistiques par sexe"
+        }
+      ]
+    },
     {
       "id": "2026-10-29-renoncer-sortir-seul-securite-femmes-hommes",
       "title": "Sécurité : les femmes déclarent plus souvent renoncer à sortir seules",

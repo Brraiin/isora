@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-01-condamnes-femmes-hommes-france-2025",
+  "slug": "2026-11-01-condamnes-femmes-hommes-france-2025",
+  "status": "published",
+  "language": "fr",
+  "title": "Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025",
+  "description": "Les chiffres clés de la Justice 2026 distinguent 437 059 condamnés et près de 556 000 condamnations en 2025. Des données provisoires à lire sans les confondre avec des taux dans la population.",
+  "date": "2026-11-01",
+  "publishedAt": "2026-11-01T18:16:41.000Z",
+  "updatedAt": "2026-11-01T18:16:41.000Z",
+  "topic": { "id": "violences-securite", "label": "Violences, sécurité et justice pénale" },
+  "keywords": ["personnes condamnées femmes hommes France 2025", "chiffres clés justice 2026 sexe", "condamnations et condamnés différence", "sanctions pénales comparaison femmes hommes"],
+  "relatedClaimIds": ["hommes-sanctions-penales-plus-lourdes"],
+  "readingMinutes": 3,
+  "summary": "Le fascicule Chiffres clés de la Justice 2026, publié le 29 octobre, présente 437 059 condamnés pour l’année 2025 : 88 % sont des hommes et 12 % des femmes. Ces parts décrivent les personnes condamnées dans le champ du Casier judiciaire national, en France hors collectivités d’outre-mer. Elles ne signifient pas que 88 % des hommes ont été condamnés et ne mesurent pas, à elles seules, une différence de sévérité des peines entre les sexes.",
+  "keyPoints": [
+    "Parmi les 437 059 condamnés décrits dans le fascicule pour 2025, 88 % sont des hommes et 12 % des femmes ; les données sont provisoires.",
+    "Le nombre de personnes condamnées diffère du nombre de condamnations, voisin de 556 000 : une personne peut faire l’objet de plusieurs décisions.",
+    "Le champ est celui des condamnations inscrites au Casier judiciaire national, en France hors collectivités d’outre-mer, pas celui de toute la délinquance.",
+    "Une composition par sexe parmi les condamnés ne mesure ni le taux de condamnation de chaque sexe ni un écart de peine à affaires comparables."
+  ],
+  "sections": [
+    {
+      "heading": "Des publications récentes portant sur l’année 2025",
+      "paragraphs": [
+        "Le ministère de la Justice a publié son fascicule annuel le 29 octobre 2026, puis une première analyse des condamnations le 30 octobre. La page 20 du fascicule décrit les caractéristiques de 437 059 condamnés et donne une répartition de 88 % d’hommes et 12 % de femmes. Il s’agit d’une catégorie statistique de sexe, sans mesure des chromosomes.",
+        "Les données de 2025 sont provisoires. La note du 30 octobre précise qu’une partie des décisions est estimée pour tenir compte des délais d’enregistrement au Casier judiciaire national, le fichier qui conserve notamment les condamnations pénales. Une révision ultérieure peut donc modifier les résultats."
+      ]
+    },
+    {
+      "heading": "Personnes condamnées et condamnations : deux décomptes",
+      "paragraphs": [
+        "Le total d’environ 556 000 condamnations correspond à des décisions judiciaires, pas à autant de personnes différentes. Une même personne peut être condamnée plusieurs fois. La répartition par sexe du fascicule se rapporte au groupe des condamnés décrit dans ce document ; elle ne doit pas être appliquée au nombre de décisions pour fabriquer des effectifs masculins et féminins.",
+        "La publication couvre les personnes majeures et mineures dans le champ retenu. Elle ne compte pas l’ensemble des infractions commises, des personnes mises en cause par la police ou des personnes détenues. Ces groupes correspondent à des étapes et à des populations différentes."
+      ]
+    },
+    {
+      "heading": "Un périmètre judiciaire précis",
+      "paragraphs": [
+        "Les chiffres concernent la France, collectivités d’outre-mer non comprises. Ils portent sur les crimes, les délits et les contraventions de cinquième classe, c’est-à-dire la catégorie la plus grave des contraventions. Les amendes forfaitaires, dont le montant est prédéfini selon l’infraction, sont exclues des statistiques présentées dans la note du 30 octobre.",
+        "La condamnation est une décision déclarant une personne coupable et prononçant une sanction. Ce décompte dépend ainsi du périmètre des infractions, des faits connus des autorités et du parcours judiciaire. Il ne constitue pas une mesure exhaustive de la délinquance de toutes les femmes ou de tous les hommes."
+      ]
+    },
+    {
+      "heading": "La sévérité des peines nécessite une autre comparaison",
+      "paragraphs": [
+        "La fiche liée porte sur les écarts de sanctions entre femmes et hommes condamnés. Elle s’appuie sur d’autres périodes et sur des comparaisons plus détaillées. La composition du groupe des condamnés en 2025 ne remplace pas ses données : pour étudier la sévérité, il faut comparer notamment les infractions, les antécédents et les caractéristiques des affaires.",
+        "Une étude de l’Insee publiée en 2017 montre, sur des données antérieures, que la prise en compte du nombre d’infractions et des antécédents réduit les écarts observés, avec des résultats différents selon les catégories d’infractions. Elle éclaire la méthode de comparaison ; elle n’est pas une estimation des écarts de peine en 2025. Les nouveaux chiffres ne permettent donc pas d’attribuer la majorité masculine à une cause unique."
+      ]
+    }
+  ],
+  "faq": [
+    { "question": "Les 88 % signifient-ils que 88 % des hommes ont été condamnés ?", "answer": "Non. C’est la part des hommes parmi les condamnés décrits par la source. Le dénominateur n’est pas l’ensemble des hommes vivant en France." },
+    { "question": "Pourquoi compte-t-on plus de condamnations que de condamnés ?", "answer": "Une personne peut faire l’objet de plusieurs condamnations. Le nombre de décisions et celui des personnes ne sont donc pas interchangeables." },
+    { "question": "Ces chiffres établissent-ils que les hommes sont sanctionnés plus lourdement pour les mêmes faits en 2025 ?", "answer": "Non. Il faudrait comparer les peines et les caractéristiques des affaires. La répartition globale par sexe ne suffit pas à répondre à cette question." }
+  ],
+  "sources": [
+    { "title": "Les chiffres clés de la Justice 2026", "publisher": "Ministère de la Justice / SSER", "url": "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/chiffres-cles-justice-2026", "date": "29 octobre 2026 ; données 2025 provisoires", "type": "fascicule primaire téléchargé et vérifié : note de lecture page 3 et caractéristiques des condamnés page 20 (feuilles 5 et 22 du PDF)" },
+    { "title": "Légère hausse du nombre de condamnations prononcées en 2025 — Infos rapides Justice n° 46", "publisher": "Ministère de la Justice / SSER", "url": "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/legere-hausse-du-nombre-condamnations-prononcees-2025", "date": "30 octobre 2026", "type": "note primaire lue intégralement ; définitions et périmètre pages 3-4 ; même fichier statistique du Casier judiciaire, pas une enquête indépendante" },
+    { "title": "Un traitement judiciaire différent entre femmes et hommes délinquants", "publisher": "Insee, Faustine Büsch et Odile Timbart", "url": "https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548", "date": "7 mars 2017 ; données antérieures, notamment 2014", "type": "analyse institutionnelle de contexte sur les écarts de traitement et les caractéristiques des affaires ; pas une mesure de 2025" },
+    { "title": "Les infractions pénales", "publisher": "Ministère de la Justice", "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales", "date": "consulté le 1er novembre 2026", "type": "définition de la gravité des catégories d’infractions et des classes de contraventions" },
+    { "title": "Amende forfaitaire en cas de contravention au code de la route", "publisher": "Service Public / DILA", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18509", "date": "11 janvier 2025 ; consulté le 1er novembre 2026", "type": "repère de vocabulaire sur les montants prédéfinis des amendes forfaitaires ; pas une source des statistiques par sexe" }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-01T18:16:41.000Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-01T18:16:41.000Z",
+    "reviewNote": "Publications des 29 et 30 octobre vérifiées. Page 20 du fascicule (feuille PDF 22) contrôlée visuellement : 437 059 condamnés, pictogrammes femmes 12 % et hommes 88 %. Note de lecture page 3 et note n°46 lues pour le champ hors COM, les amendes forfaitaires et le caractère provisoire. Aucun taux dans la population ou effectif sexué exact déduit des pourcentages arrondis ; aucune ventilation des condamnations par sexe fabriquée. Les tableaux globaux du fascicule comportent une différence entre le total contraventionnel de la vue d’ensemble page 18 et celui du tableau détaillé ; aucun de ces sous-totaux n’est repris ni utilisé pour un calcul. Les deux publications Justice reposent sur le même fichier, sans confirmation indépendante prétendue. Insee 2017 utilisé uniquement pour la méthode. Fiche liée inchangée, car son indicateur de sévérité n’est pas actualisé par cette composition. Classement vérifié, conservé : aucune nouvelle fiche ni modification de portée, priorité à la mortalité, aux violences et aux grands effets sociaux inchangée."
+  }
+}

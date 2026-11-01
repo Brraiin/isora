@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-10-29T21:20:32.180Z
+Derniere generation: 2026-11-01T18:19:57.650Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025
+- URL: https://isora.info/blog/2026-11-01-condamnes-femmes-hommes-france-2025/
+- Date: 2026-11-01
+- Fiches isora liees: hommes-sanctions-penales-plus-lourdes
+- Resume: Le fascicule Chiffres clés de la Justice 2026, publié le 29 octobre, présente 437 059 condamnés pour l’année 2025 : 88 % sont des hommes et 12 % des femmes. Ces parts décrivent les personnes condamnées dans le champ du Casier judiciaire national, en France hors collectivités d’outre-mer. Elles ne signifient pas que 88 % des hommes ont été condamnés et ne mesurent pas, à elles seules, une différence de sévérité des peines entre les sexes.
+- Sources: Ministère de la Justice / SSER: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/chiffres-cles-justice-2026; Ministère de la Justice / SSER: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/legere-hausse-du-nombre-condamnations-prononcees-2025; Insee, Faustine Büsch et Odile Timbart: https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales; Service Public / DILA: https://www.service-public.gouv.fr/particuliers/vosdroits/F18509
+
 ### Sécurité : les femmes déclarent plus souvent renoncer à sortir seules
 - URL: https://isora.info/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/
 - Date: 2026-10-29
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel
 - Resume: Le Smic est le salaire minimum interprofessionnel de croissance. La Dares publie le 15 octobre une majorité féminine parmi les bénéficiaires de sa hausse de janvier, pas un écart salarial à poste identique.
 - Sources: Dares: https://dares.travail-emploi.gouv.fr/publication/la-revalorisation-du-smic-au-1er-janvier-2026; Dares: https://dares.travail-emploi.gouv.fr/publication/combien-de-salaries-sont-remuneres-au-smic; Ministère du Travail et des Solidarités: https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance
-
-### Cœur des femmes : distinguer les décès, l’âge et les parcours de soins
-- URL: https://isora.info/blog/2026-10-12-coeur-femmes-mortalite-age-parcours-soins/
-- Date: 2026-10-12
-- Fiches isora liees: hommes-esperance-vie, femmes-arret-cardiaque-defibrillation-temoins
-- Resume: Les maladies cardiovasculaires — celles du cœur et des vaisseaux sanguins — concernent les deux sexes. Le nouveau point de l’Assurance maladie invite à mieux reconnaître les difficultés de prise en charge des femmes, sans confondre nombre de décès et taux corrigé des différences d’âge.
-- Sources: Assurance maladie: https://www.ameli.fr/medecin/sante-prevention/sante-cardiovasculaire/prevention-primaire/coeur-des-femmes-comprendre-et-eliminer-les-inegalites-de-diagnostic-et-de-prise-en-charge; Santé publique France, Inserm-CépiDc et DREES — BEH: https://beh.santepubliquefrance.fr/beh/2025/13/2025_13_1.html; Conseil national professionnel cardiovasculaire: https://www.cnpcv.org/index.php/le_cnpcv/travaux-du-cnpcv/
 
 
 ## Renoncer à sortir seul pour sa sécurité : plus fréquent chez les femmes
