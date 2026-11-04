@@ -107,6 +107,37 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    id: "femmes-direction-encadrement-monde-2025",
+    side: "femmes",
+    domain: "Travail",
+    title: "Femmes minoritaires dans les fonctions de direction et d’encadrement",
+    metric: "30,5 %",
+    summary: "L’Organisation internationale du Travail (OIT) estime que les femmes occupent 30,5 % des postes de direction et d’encadrement dans le monde en 2025, contre 24,5 % en 2000. Il s’agit des professions de management — organiser et diriger des activités — selon la classification internationale des professions, à plusieurs niveaux de responsabilité.",
+    tags: ["direction", "encadrement", "management", "emploi", "Monde", "OIT"],
+    source: {
+      label: "Women in business and management: Scaling success — pages 16 et 18, figure 6, estimations modélisées OIT d’avril 2026",
+      publisher: "Organisation internationale du Travail",
+      url: "https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf",
+      date: "3 novembre 2026 ; estimation 2025",
+    },
+    additionalSources: [
+      { label: "Indicateur 5.5.2 — définitions, dénominateur, limites et agrégation mondiale", publisher: "ONU / OIT", url: "https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf", date: "27 mars 2026" },
+      { label: "Women in business and management — FAQ : distinction entre estimations mondiales et enquête entreprises", publisher: "ILOSTAT / OIT", url: "https://ilostat.ilo.org/dataviz/wibm/", date: "3 novembre 2026 ; consulté le 4 novembre 2026" },
+    ],
+    translations: {
+      en: {
+        title: "Women are a minority in managerial positions worldwide",
+        summary: "The International Labour Organization (ILO) estimates that women held 30.5% of managerial positions worldwide in 2025, compared with 24.5% in 2000. These are management occupations — organizing and directing activities — under the international occupational classification, covering several levels of responsibility.",
+        nuance: "Checked on 4 November 2026 against pages 16 and 18 (figure 6) of the ILO report published on 3 November: 30.5% in 2025 versus 24.5% in 2000, using the April 2026 modelled estimates. The denominator is everyone employed in these occupations, not all women, employees or enterprises. The measure includes several management levels; it is not limited to CEOs and does not cover every occupation classified as cadre in France. SDG 5.5.2 metadata warn that the aggregate share does not capture differences in responsibilities and depends on the quality of occupational statistics; global aggregates include estimated national values where observations are missing. This figure is separate from the 2025 ILO survey of 11,957 enterprises in 99 countries, whose findings describe respondents and are not representative of all enterprises. A share of positions measures neither individual promotion chances nor discrimination conditional on qualifications and career histories. No single cause, French proportion or pay comparison is inferred.",
+        sourcePopulation: "Employed people in managerial occupations within major group 1 of the International Standard Classification of Occupations (ISCO-08 or ISCO-88); ILO global estimate for 2025, April 2026 edition, drawing notably on national labour force and household surveys. Women/men are the source categories; chromosomes are not measured.",
+        tags: ["leadership", "management", "employment", "World", "ILO"],
+      },
+    },
+    confidence: "forte",
+    lastChecked: "4 novembre 2026",
+    nuance: "Vérifié le 4 novembre 2026 dans le rapport OIT publié le 3 novembre, pages 16 et 18 (figure 6) : 30,5 % en 2025, contre 24,5 % en 2000, selon les estimations modélisées d’avril 2026. Le dénominateur est l’ensemble des personnes occupant ces professions, pas l’ensemble des femmes, des salariés ou des entreprises. Le champ inclut plusieurs niveaux de management ; il ne se limite pas aux directions générales et ne correspond pas à tous les cadres au sens français. Les métadonnées de l’indicateur 5.5.2 signalent que la part globale ne décrit pas les différences de responsabilités et dépend de la qualité des statistiques par profession ; les agrégats mondiaux incluent des valeurs nationales estimées lorsqu’elles manquent. Ce chiffre ne provient pas de l’enquête OIT 2025 auprès de 11 957 entreprises de 99 pays, dont les résultats décrivent les répondants, sans représentativité de toutes les entreprises. Une part de postes ne mesure pas la probabilité individuelle de promotion ni une discrimination à qualifications et parcours comparables. Aucune cause unique, proportion française ou comparaison de rémunération n’est déduite.",
+  },
+  {
     id: "femmes-renoncement-sortir-seules-securite-france-2025",
     side: "femmes",
     angle: "perception",
@@ -4358,6 +4389,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-direction-encadrement-monde-2025":
+    "Personnes en emploi exerçant une profession de direction ou d’encadrement du grand groupe 1 de la Classification internationale type des professions (CITP-08 ou CITP-88) ; estimation mondiale OIT pour 2025, édition d’avril 2026, issue notamment d’enquêtes nationales sur l’emploi et auprès des ménages. Les catégories femmes/hommes sont celles des sources ; les chromosomes ne sont pas mesurés.",
   "femmes-renoncement-sortir-seules-securite-france-2025":
     "Population mesurée par la source : personnes âgées de 18 ans ou plus en logement ordinaire en France métropolitaine, Martinique, Guadeloupe et à La Réunion ; réponses internet pondérées de l’enquête socle VRS 2025 pour les perceptions. Les catégories femmes/hommes sont celles de la source, qui ne mesure pas les chromosomes.",
   "femmes-acces-fonctions-religieuses-reservees-hommes":
@@ -4593,6 +4626,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-direction-encadrement-monde-2025": {
+    pays_ou_zone: "Monde",
+    regionScope: "Monde",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "part estimée des femmes parmi les personnes en emploi dans les professions de management ; plusieurs niveaux de responsabilité",
+  },
   "femmes-renoncement-sortir-seules-securite-france-2025": {
     pays_ou_zone: "France métropolitaine, Martinique, Guadeloupe et La Réunion",
     regionScope: "Europe et outre-mer français",

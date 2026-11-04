@@ -4,6 +4,22 @@ Consigner ici seulement les ajouts et déplacements effectifs, avec la date, les
 IDs concernés et une justification qualitative. Pour une veille sans changement,
 indiquer « classement vérifié, conservé » dans son compte rendu.
 
+## 4 novembre 2026 — direction et encadrement dans le monde
+
+- Nouvelle fiche `femmes-direction-encadrement-monde-2025` : trente et unième
+  parmi les femmes (position 62 après réentrelacement), après le renoncement aux
+  sorties pour la sécurité et avant les expériences sexistes déclarées au HCE.
+  Portée mondiale sur les parcours professionnels et la décision économique,
+  estimation OIT issue des statistiques d’emploi ; précède les perceptions
+  plus ciblées. La part de 30,5 % ne mesure pas un refus individuel de promotion
+  à profil comparable. Les enjeux de mortalité, violences, santé, droits et
+  grands effets familiaux conservent leur priorité ; aucune mise en tête liée
+  à la récence du rapport.
+- Priorités internes des 111 fiches antérieures conservées. Alternance
+  hommes/femmes recomposée ; `hommes-esperance-vie` reste première et le mpox
+  dernier parmi les hommes, accessible par recherche. Aucun fait ni date de
+  vérification des fiches antérieures modifié.
+
 ## 29 octobre 2026 — renoncement à sortir seul pour des raisons de sécurité
 
 - Nouvelle fiche `femmes-renoncement-sortir-seules-securite-france-2025` :

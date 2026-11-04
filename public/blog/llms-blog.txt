@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025
+- URL: https://isora.info/blog/2026-11-04-femmes-direction-encadrement-monde-oit/
+- Date: 2026-11-04
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-direction-encadrement-monde-2025
+- Resume: Publié le 3 novembre 2026, le rapport Women in business and management: Scaling success de l’Organisation internationale du Travail (OIT) présente une estimation mondiale de 30,5 % de femmes dans les postes de direction et d’encadrement en 2025. Le management désigne ici des professions qui organisent et dirigent des activités, à plusieurs niveaux de responsabilité. Le rapport présente aussi une enquête auprès des entreprises : ses résultats relèvent d’un autre champ et ne doivent pas être confondus avec cette estimation mondiale.
+- Sources: Organisation internationale du Travail (3 novembre 2026 ; estimations OIT d’avril 2026 pour 2025): https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf; ONU / OIT (27 mars 2026): https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf; ILOSTAT / OIT (3 novembre 2026 ; consulté le 4 novembre 2026): https://ilostat.ilo.org/dataviz/wibm/; Organisation internationale du Travail (3 novembre 2026): https://www.ilo.org/resource/news/businesses-report-growing-benefits-gender-equality
+
 ### Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025
 - URL: https://isora.info/blog/2026-11-01-condamnes-femmes-hommes-france-2025/
 - Date: 2026-11-01

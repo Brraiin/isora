@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-direction-encadrement-monde-2025",
+    "side": "femmes",
+    "claimTitle": "Femmes minoritaires dans les fonctions de direction et d’encadrement",
+    "claimMetric": "30,5 %",
+    "blogTitle": "Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025",
+    "blogUrl": "/blog/2026-11-04-femmes-direction-encadrement-monde-oit/",
+    "date": "2026-11-04",
+    "updatedAt": "2026-11-04T00:27:14.000Z"
+  },
+  {
     "claimId": "hommes-sanctions-penales-plus-lourdes",
     "side": "hommes",
     "claimTitle": "Hommes plus exposés aux sanctions pénales lourdes",

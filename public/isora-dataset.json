@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-11-01T18:19:57.650Z",
+  "generatedAt": "2026-11-04T00:30:48.631Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -13,17 +13,17 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 111,
+    "total": 112,
     "hommes": 48,
-    "femmes": 63,
-    "sources": 271
+    "femmes": 64,
+    "sources": 274
   },
   "domains": [
+    "Travail",
     "Autonomie",
     "Religieux",
     "Santé",
     "Éducation",
-    "Travail",
     "Justice",
     "Famille",
     "Violences",
@@ -81,6 +81,7 @@
     "devoirs civiques",
     "diagnostic",
     "dictionnaires",
+    "direction",
     "direction d'école",
     "discrimination",
     "double standard",
@@ -93,6 +94,8 @@
     "écart de rémunération",
     "économie",
     "éducation",
+    "emploi",
+    "encadrement",
     "enfance",
     "enquêtes internationales",
     "enseignement primaire",
@@ -139,6 +142,7 @@
     "limitations d'activité",
     "logement",
     "magistrats",
+    "management",
     "mariage",
     "marketing",
     "masculinisme",
@@ -149,12 +153,14 @@
     "métiers dangereux",
     "mobilité",
     "monde",
+    "Monde",
     "mortalité",
     "mortalité maternelle",
     "mpox",
     "numérique",
     "obligations",
     "OCDE",
+    "OIT",
     "OMS",
     "opinion",
     "ordination",
@@ -697,6 +703,60 @@
     ]
   },
   "claims": [
+    {
+      "id": "femmes-direction-encadrement-monde-2025",
+      "url": "https://isora.info/fiches/femmes-direction-encadrement-monde-2025/",
+      "appUrl": "https://isora.info/#femmes-direction-encadrement-monde-2025",
+      "title": "Femmes minoritaires dans les fonctions de direction et d’encadrement",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Travail",
+      "metric": "30,5 %",
+      "summary": "L’Organisation internationale du Travail (OIT) estime que les femmes occupent 30,5 % des postes de direction et d’encadrement dans le monde en 2025, contre 24,5 % en 2000. Il s’agit des professions de management — organiser et diriger des activités — selon la classification internationale des professions, à plusieurs niveaux de responsabilité.",
+      "nuance": "Vérifié le 4 novembre 2026 dans le rapport OIT publié le 3 novembre, pages 16 et 18 (figure 6) : 30,5 % en 2025, contre 24,5 % en 2000, selon les estimations modélisées d’avril 2026. Le dénominateur est l’ensemble des personnes occupant ces professions, pas l’ensemble des femmes, des salariés ou des entreprises. Le champ inclut plusieurs niveaux de management ; il ne se limite pas aux directions générales et ne correspond pas à tous les cadres au sens français. Les métadonnées de l’indicateur 5.5.2 signalent que la part globale ne décrit pas les différences de responsabilités et dépend de la qualité des statistiques par profession ; les agrégats mondiaux incluent des valeurs nationales estimées lorsqu’elles manquent. Ce chiffre ne provient pas de l’enquête OIT 2025 auprès de 11 957 entreprises de 99 pays, dont les résultats décrivent les répondants, sans représentativité de toutes les entreprises. Une part de postes ne mesure pas la probabilité individuelle de promotion ni une discrimination à qualifications et parcours comparables. Aucune cause unique, proportion française ou comparaison de rémunération n’est déduite.",
+      "tags": [
+        "direction",
+        "encadrement",
+        "management",
+        "emploi",
+        "Monde",
+        "OIT"
+      ],
+      "countryScope": "Monde",
+      "regionScope": "Monde",
+      "periodStart": "2025",
+      "periodEnd": "2025",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Personnes en emploi exerçant une profession de direction ou d’encadrement du grand groupe 1 de la Classification internationale type des professions (CITP-08 ou CITP-88) ; estimation mondiale OIT pour 2025, édition d’avril 2026, issue notamment d’enquêtes nationales sur l’emploi et auprès des ménages. Les catégories femmes/hommes sont celles des sources ; les chromosomes ne sont pas mesurés.",
+      "libelle_source": "Personnes en emploi exerçant une profession de direction ou d’encadrement du grand groupe 1 de la Classification internationale type des professions (CITP-08 ou CITP-88) ; estimation mondiale OIT pour 2025, édition d’avril 2026, issue notamment d’enquêtes nationales sur l’emploi et auprès des ménages. Les catégories femmes/hommes sont celles des sources ; les chromosomes ne sont pas mesurés.",
+      "mesure_chromosomes": false,
+      "date_consultation": "4 novembre 2026",
+      "legalType": "part estimée des femmes parmi les personnes en emploi dans les professions de management ; plusieurs niveaux de responsabilité",
+      "translationStatus": "source-language",
+      "confidence": "forte",
+      "lastChecked": "4 novembre 2026",
+      "source": {
+        "label": "Women in business and management: Scaling success — pages 16 et 18, figure 6, estimations modélisées OIT d’avril 2026",
+        "publisher": "Organisation internationale du Travail",
+        "url": "https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf",
+        "date": "3 novembre 2026 ; estimation 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Indicateur 5.5.2 — définitions, dénominateur, limites et agrégation mondiale",
+          "publisher": "ONU / OIT",
+          "url": "https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf",
+          "date": "27 mars 2026"
+        },
+        {
+          "label": "Women in business and management — FAQ : distinction entre estimations mondiales et enquête entreprises",
+          "publisher": "ILOSTAT / OIT",
+          "url": "https://ilostat.ilo.org/dataviz/wibm/",
+          "date": "3 novembre 2026 ; consulté le 4 novembre 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "femmes-renoncement-sortir-seules-securite-france-2025",
       "url": "https://isora.info/fiches/femmes-renoncement-sortir-seules-securite-france-2025/",

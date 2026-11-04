@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-04-femmes-direction-encadrement-monde-oit",
+  "slug": "2026-11-04-femmes-direction-encadrement-monde-oit",
+  "status": "published",
+  "language": "fr",
+  "title": "Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025",
+  "description": "Le rapport OIT du 3 novembre distingue la part mondiale des femmes dans le management et les résultats d’une enquête auprès des entreprises. Les périmètres ne sont pas interchangeables.",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-04T00:27:14.000Z",
+  "updatedAt": "2026-11-04T00:27:14.000Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "femmes direction encadrement monde 2025",
+    "OIT management 30,5 %",
+    "enquête entreprises 2025 limites",
+    "femmes dirigeantes estimation mondiale"
+  ],
+  "relatedClaimIds": [
+    "femmes-direction-encadrement-monde-2025"
+  ],
+  "readingMinutes": 3,
+  "summary": "Publié le 3 novembre 2026, le rapport Women in business and management: Scaling success de l’Organisation internationale du Travail (OIT) présente une estimation mondiale de 30,5 % de femmes dans les postes de direction et d’encadrement en 2025. Le management désigne ici des professions qui organisent et dirigent des activités, à plusieurs niveaux de responsabilité. Le rapport présente aussi une enquête auprès des entreprises : ses résultats relèvent d’un autre champ et ne doivent pas être confondus avec cette estimation mondiale.",
+  "keyPoints": [
+    "L’estimation mondiale OIT pour 2025 situe à 30,5 % la part des femmes dans les professions de management, contre 24,5 % en 2000.",
+    "Cet indicateur compte les femmes parmi les personnes exerçant ces professions ; il ne mesure pas la proportion de toutes les femmes qui deviennent dirigeantes.",
+    "L’enquête entreprises de 2025 réunit 11 957 réponses dans 99 pays ; elle ne représente pas statistiquement toutes les entreprises du monde.",
+    "Les résultats déclarés sur les performances des entreprises ne suffisent pas à établir une cause unique ni un gain garanti."
+  ],
+  "sections": [
+    {
+      "heading": "Une estimation mondiale, à plusieurs niveaux de responsabilité",
+      "paragraphs": [
+        "Le nouveau rapport distingue deux ensembles de données. Sa figure 6 présente les estimations modélisées de l’OIT d’avril 2026 : les observations nationales sur l’emploi sont complétées statistiquement lorsqu’elles manquent. Dans cette série, les femmes occupent 30,5 % des postes de management en 2025, contre 24,5 % en 2000. La part féminine progresse, tout en restant inférieure à la part masculine.",
+        "Ce total couvre plusieurs niveaux de direction et d’encadrement. Il ne correspond ni aux seules directions générales des entreprises ni à l’ensemble des emplois de cadres au sens français. Les catégories de sexe sont celles des sources statistiques, sans mesure des chromosomes."
+      ]
+    },
+    {
+      "heading": "Le dénominateur et le niveau hiérarchique comptent",
+      "paragraphs": [
+        "Le dénominateur est l’ensemble des personnes en emploi dans les professions de management de la classification internationale, pas l’ensemble des femmes ou des salariés. Le chiffre mondial ne donne donc pas une probabilité individuelle de promotion. Il ne décrit pas non plus chaque pays, secteur ou parcours professionnel.",
+        "Les métadonnées de l’indicateur international 5.5.2 recommandent de distinguer l’ensemble du management des niveaux intermédiaires et supérieurs. Une proportion globale peut masquer des écarts de responsabilités. Sa qualité dépend aussi des statistiques nationales par profession. La nouvelle fiche liée conserve ces limites et la période de l’estimation."
+      ]
+    },
+    {
+      "heading": "Une enquête auprès des entreprises, avec un autre périmètre",
+      "paragraphs": [
+        "L’enquête OIT menée de juin à septembre 2025 a recueilli 11 957 réponses dans 99 pays, au moyen d’un groupe d’entreprises sollicitées et des réseaux d’organisations d’employeurs. ILOSTAT précise que les résultats décrivent les entreprises participantes : ils ne sont pas des estimations représentatives de toutes les entreprises du monde ou d’une région.",
+        "Par exemple, parmi les répondantes déclarant avoir un directeur général ou une directrice générale, fonction appelée CEO dans la source, 28,2 % indiquent une femme à ce poste en 2025. Ce pourcentage ne porte pas sur le même ensemble que les 30,5 % de femmes dans le management mondial. Les échantillons des enquêtes successives diffèrent aussi ; leurs évolutions ne suivent pas automatiquement les mêmes entreprises."
+      ]
+    },
+    {
+      "heading": "Des performances déclarées à interpréter avec prudence",
+      "paragraphs": [
+        "Le communiqué présente des entreprises qui déclarent des améliorations associées à leurs initiatives d’égalité et de diversité. Il décrit également des progrès au sommet des organisations et des difficultés à maintenir ces progrès dans les niveaux de management qui alimentent les futures directions.",
+        "Ces constats appellent une lecture distincte de la représentation et des performances. Des réponses d’entreprises et des associations statistiques ne suffisent pas, à elles seules, à isoler l’effet causal d’une politique. Le rapport ne permet pas d’annoncer un gain automatique pour chaque entreprise ni d’expliquer toute la répartition des responsabilités par un facteur unique."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les 30,5 % concernent-ils uniquement les PDG ?",
+      "answer": "Non. L’estimation porte sur plusieurs niveaux des professions de direction et d’encadrement. Les directions générales forment un indicateur distinct, présenté dans l’enquête auprès des entreprises."
+    },
+    {
+      "question": "Peut-on appliquer les résultats des 11 957 entreprises à toutes les entreprises ?",
+      "answer": "Non. ILOSTAT indique que ces résultats doivent être interprétés dans le contexte des entreprises participantes, sans représentativité statistique de l’ensemble des entreprises mondiales."
+    },
+    {
+      "question": "La part féminine mesure-t-elle une discrimination à parcours comparable ?",
+      "answer": "Non. Elle décrit la composition des emplois concernés. Une analyse de discrimination ou de promotion devrait comparer notamment les candidatures, qualifications, fonctions et parcours ; cette part globale ne suffit pas."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Women in business and management: Scaling success",
+      "publisher": "Organisation internationale du Travail",
+      "url": "https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf",
+      "date": "3 novembre 2026 ; estimations OIT d’avril 2026 pour 2025",
+      "type": "rapport primaire : pages 16 et 18, figure 6 ; méthode page 6 et annexe 1 page 75"
+    },
+    {
+      "title": "Indicateur 5.5.2 — proportion de femmes dans les postes de direction",
+      "publisher": "ONU / OIT",
+      "url": "https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf",
+      "date": "27 mars 2026",
+      "type": "définitions et limites ; dénominateur, niveaux hiérarchiques, agrégation et valeurs manquantes"
+    },
+    {
+      "title": "Women in business and management — données et FAQ méthodologique",
+      "publisher": "ILOSTAT / OIT",
+      "url": "https://ilostat.ilo.org/dataviz/wibm/",
+      "date": "3 novembre 2026 ; consulté le 4 novembre 2026",
+      "type": "méthode de la même enquête : périmètre, non-représentativité, échantillons distincts et sous-populations selon les questions"
+    },
+    {
+      "title": "Businesses report growing benefits from gender equality",
+      "publisher": "Organisation internationale du Travail",
+      "url": "https://www.ilo.org/resource/news/businesses-report-growing-benefits-gender-equality",
+      "date": "3 novembre 2026",
+      "type": "communiqué du même rapport, pas une confirmation indépendante ; représentation dans les entreprises et résultats déclarés"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-04T00:27:14.000Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-04T00:27:14.000Z",
+    "reviewNote": "Rapport publié le 3 novembre et PDF lié par sa page officielle vérifiés après la levée de l’embargo. Figure 6 page 18 (feuille PDF 38) inspectée visuellement, définition page 16 et annexe 1 page 75 lues. Estimation 2025 30,5 % et référence 2000 24,5 %, édition modélisée avril 2026. FAQ ILOSTAT lue : enquête entreprises non représentative, CEO seulement parmi celles qui disposent de cette fonction, échantillons variables. Métadonnées ONU 5.5.2 lues pour dénominateur, limites et imputation. Aucun taux masculin déduit d’un taux global ; aucun indicateur français ni causalité inventé. Sujet absent des 51 articles et des 111 fiches ; la fiche sur la direction du primaire en France mesure une autre population et demeure inchangée. Nouvelle fiche classée trente et unième parmi les femmes pour sa portée professionnelle mondiale, après les grands enjeux de mortalité, violences, santé et droits ; autres priorités conservées."
+  }
+}

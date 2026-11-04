@@ -2,8 +2,61 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-01T18:19:57.809Z",
+  "generatedAt": "2026-11-04T00:30:48.790Z",
   "posts": [
+    {
+      "id": "2026-11-04-femmes-direction-encadrement-monde-oit",
+      "title": "Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025",
+      "url": "https://isora.info/blog/2026-11-04-femmes-direction-encadrement-monde-oit/",
+      "description": "Le rapport OIT du 3 novembre distingue la part mondiale des femmes dans le management et les résultats d’une enquête auprès des entreprises. Les périmètres ne sont pas interchangeables.",
+      "date": "2026-11-04",
+      "publishedAt": "2026-11-04T00:27:14.000Z",
+      "updatedAt": "2026-11-04T00:27:14.000Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "femmes direction encadrement monde 2025",
+        "OIT management 30,5 %",
+        "enquête entreprises 2025 limites",
+        "femmes dirigeantes estimation mondiale"
+      ],
+      "relatedClaimIds": [
+        "femmes-direction-encadrement-monde-2025"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "Women in business and management: Scaling success",
+          "publisher": "Organisation internationale du Travail",
+          "url": "https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf",
+          "date": "3 novembre 2026 ; estimations OIT d’avril 2026 pour 2025",
+          "type": "rapport primaire : pages 16 et 18, figure 6 ; méthode page 6 et annexe 1 page 75"
+        },
+        {
+          "title": "Indicateur 5.5.2 — proportion de femmes dans les postes de direction",
+          "publisher": "ONU / OIT",
+          "url": "https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf",
+          "date": "27 mars 2026",
+          "type": "définitions et limites ; dénominateur, niveaux hiérarchiques, agrégation et valeurs manquantes"
+        },
+        {
+          "title": "Women in business and management — données et FAQ méthodologique",
+          "publisher": "ILOSTAT / OIT",
+          "url": "https://ilostat.ilo.org/dataviz/wibm/",
+          "date": "3 novembre 2026 ; consulté le 4 novembre 2026",
+          "type": "méthode de la même enquête : périmètre, non-représentativité, échantillons distincts et sous-populations selon les questions"
+        },
+        {
+          "title": "Businesses report growing benefits from gender equality",
+          "publisher": "Organisation internationale du Travail",
+          "url": "https://www.ilo.org/resource/news/businesses-report-growing-benefits-gender-equality",
+          "date": "3 novembre 2026",
+          "type": "communiqué du même rapport, pas une confirmation indépendante ; représentation dans les entreprises et résultats déclarés"
+        }
+      ]
+    },
     {
       "id": "2026-11-01-condamnes-femmes-hommes-france-2025",
       "title": "Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025",

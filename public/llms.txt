@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-01T18:19:57.650Z
+Derniere generation: 2026-11-04T00:30:48.631Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -18,11 +18,11 @@ Derniere generation: 2026-11-01T18:19:57.650Z
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 111
+- Fiches: 112
 - Fiches concernant les hommes: 48
-- Fiches concernant les femmes: 63
-- Sources distinctes: 271
-- Domaines: Autonomie, Religieux, Santé, Éducation, Travail, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
+- Fiches concernant les femmes: 64
+- Sources distinctes: 274
+- Domaines: Travail, Autonomie, Religieux, Santé, Éducation, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Methode editoriale
 - Donnee sourcee, contexte lisible, contribution ouverte.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025
+- URL: https://isora.info/blog/2026-11-04-femmes-direction-encadrement-monde-oit/
+- Date: 2026-11-04
+- Fiches isora liees: femmes-direction-encadrement-monde-2025
+- Resume: Publié le 3 novembre 2026, le rapport Women in business and management: Scaling success de l’Organisation internationale du Travail (OIT) présente une estimation mondiale de 30,5 % de femmes dans les postes de direction et d’encadrement en 2025. Le management désigne ici des professions qui organisent et dirigent des activités, à plusieurs niveaux de responsabilité. Le rapport présente aussi une enquête auprès des entreprises : ses résultats relèvent d’un autre champ et ne doivent pas être confondus avec cette estimation mondiale.
+- Sources: Organisation internationale du Travail: https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf; ONU / OIT: https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf; ILOSTAT / OIT: https://ilostat.ilo.org/dataviz/wibm/; Organisation internationale du Travail: https://www.ilo.org/resource/news/businesses-report-growing-benefits-gender-equality
+
 ### Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025
 - URL: https://isora.info/blog/2026-11-01-condamnes-femmes-hommes-france-2025/
 - Date: 2026-11-01
@@ -205,13 +212,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Resume: Le bilan publié le 15 octobre par les services statistiques de l’Intérieur et de la Justice documente une majorité féminine parmi les victimes enregistrées en France en 2025. Ce résultat global recouvre des profils différents selon les infractions.
 - Sources: SSMSI et SSER: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/INTER-REFERENCES-la%20traite%20des%20etres%20humains-V4%202026_0.pdf; Légifrance: https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006165299/; Nations unies: https://www.un.org/en/peaceandsecurity/understanding-human-trafficking
 
-### Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026
-- URL: https://isora.info/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/
-- Date: 2026-10-20
-- Fiches isora liees: femmes-ecart-salaire, femmes-temps-partiel
-- Resume: Le Smic est le salaire minimum interprofessionnel de croissance. La Dares publie le 15 octobre une majorité féminine parmi les bénéficiaires de sa hausse de janvier, pas un écart salarial à poste identique.
-- Sources: Dares: https://dares.travail-emploi.gouv.fr/publication/la-revalorisation-du-smic-au-1er-janvier-2026; Dares: https://dares.travail-emploi.gouv.fr/publication/combien-de-salaries-sont-remuneres-au-smic; Ministère du Travail et des Solidarités: https://travail-emploi.gouv.fr/le-smic-salaire-minimum-de-croissance
 
+## Femmes minoritaires dans les fonctions de direction et d’encadrement
+- ID: femmes-direction-encadrement-monde-2025
+- URL: https://isora.info/fiches/femmes-direction-encadrement-monde-2025/
+- URL interactive: https://isora.info/#femmes-direction-encadrement-monde-2025
+- Groupe: femmes
+- Angle: désavantage_subi
+- Domaine: Travail
+- Zone: Monde
+- Periode: 2025-2025
+- Statut: actuel
+- Mesure cle: 30,5 %
+- Resume: L’Organisation internationale du Travail (OIT) estime que les femmes occupent 30,5 % des postes de direction et d’encadrement dans le monde en 2025, contre 24,5 % en 2000. Il s’agit des professions de management — organiser et diriger des activités — selon la classification internationale des professions, à plusieurs niveaux de responsabilité.
+- Nuance: Vérifié le 4 novembre 2026 dans le rapport OIT publié le 3 novembre, pages 16 et 18 (figure 6) : 30,5 % en 2025, contre 24,5 % en 2000, selon les estimations modélisées d’avril 2026. Le dénominateur est l’ensemble des personnes occupant ces professions, pas l’ensemble des femmes, des salariés ou des entreprises. Le champ inclut plusieurs niveaux de management ; il ne se limite pas aux directions générales et ne correspond pas à tous les cadres au sens français. Les métadonnées de l’indicateur 5.5.2 signalent que la part globale ne décrit pas les différences de responsabilités et dépend de la qualité des statistiques par profession ; les agrégats mondiaux incluent des valeurs nationales estimées lorsqu’elles manquent. Ce chiffre ne provient pas de l’enquête OIT 2025 auprès de 11 957 entreprises de 99 pays, dont les résultats décrivent les répondants, sans représentativité de toutes les entreprises. Une part de postes ne mesure pas la probabilité individuelle de promotion ni une discrimination à qualifications et parcours comparables. Aucune cause unique, proportion française ou comparaison de rémunération n’est déduite.
+- Population mesuree: Personnes en emploi exerçant une profession de direction ou d’encadrement du grand groupe 1 de la Classification internationale type des professions (CITP-08 ou CITP-88) ; estimation mondiale OIT pour 2025, édition d’avril 2026, issue notamment d’enquêtes nationales sur l’emploi et auprès des ménages. Les catégories femmes/hommes sont celles des sources ; les chromosomes ne sont pas mesurés.
+- Sources: Organisation internationale du Travail (3 novembre 2026 ; estimation 2025): https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf; ONU / OIT (27 mars 2026): https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf; ILOSTAT / OIT (3 novembre 2026 ; consulté le 4 novembre 2026): https://ilostat.ilo.org/dataviz/wibm/
 
 ## Renoncer à sortir seul pour sa sécurité : plus fréquent chez les femmes
 - ID: femmes-renoncement-sortir-seules-securite-france-2025
