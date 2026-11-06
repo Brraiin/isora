@@ -1,0 +1,140 @@
+{
+  "id": "2026-11-06-depression-femmes-hommes-declaration-recours-soins",
+  "slug": "2026-11-06-depression-femmes-hommes-declaration-recours-soins",
+  "status": "published",
+  "language": "fr",
+  "title": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
+  "description": "Baromètre 2024 : symptômes rapportés, recours aux soins et limites du repérage. Les normes sociales ne permettent pas de corriger les taux ni d’isoler une cause unique.",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-06T08:58:02Z",
+  "updatedAt": "2026-11-06T08:58:02Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "dépression femmes hommes France 2024",
+    "sous-déclaration symptômes dépressifs hommes",
+    "recours aux soins santé mentale",
+    "CIDI-SF limites questionnaire"
+  ],
+  "relatedClaimIds": [
+    "femmes-episodes-depressifs-france-2024",
+    "hommes-mal-etre-recours-professionnel",
+    "hommes-suicide"
+  ],
+  "readingMinutes": 5,
+  "summary": "Le rapport du Haut Conseil à l’égalité (HCE) publié le 2 novembre 2026 remet en discussion les écarts de dépression entre femmes et hommes. Le Baromètre de Santé publique France 2024 repère un épisode dépressif caractérisé chez 18,2 % des femmes et 12,8 % des hommes de 18 à 79 ans. Un tel épisode associe une tristesse ou une perte d’intérêt durable, d’autres symptômes et une perturbation des activités. L’écart est mesuré à partir de réponses à un questionnaire : il faut tenir compte du repérage et de la déclaration des symptômes, et distinguer ces résultats du recours aux soins.",
+  "keyPoints": [
+    "Les taux de 18,2 % chez les femmes et 12,8 % chez les hommes portent sur les douze derniers mois en 2024, pas sur des diagnostics recensés en 2026.",
+    "Le questionnaire peut repérer une personne qui n’a jamais consulté ; reconnaissance des symptômes, mémoire et disposition à répondre peuvent néanmoins influencer la mesure.",
+    "Les normes de contrôle émotionnel peuvent freiner la recherche d’aide masculine. Les sources vérifiées ne fournissent aucun coefficient permettant de corriger l’écart du Baromètre 2024.",
+    "Parmi les épisodes repérés, l’absence de recours thérapeutique déclarée atteint 53,9 % chez les hommes et 37,9 % chez les femmes. Ce dénominateur est distinct de celui de la prévalence."
+  ],
+  "sections": [
+    {
+      "heading": "Ce que mesure le baromètre, au-delà des consultations",
+      "paragraphs": [
+        "Santé publique France utilise le CIDI-SF, version courte d’un questionnaire standardisé de repérage des troubles. Il recherche au moins deux semaines consécutives de tristesse ou de perte d’intérêt, au moins trois symptômes associés et une perturbation des activités habituelles. La personne n’a pas besoin de se considérer dépressive ni d’avoir reçu un diagnostic médical pour être classée dans cet indicateur.",
+        "Le tableau 1 réunit 34 795 réponses exploitables d’adultes de 18 à 79 ans en France hexagonale, Guadeloupe, Martinique, Guyane et à La Réunion, hors Mayotte. Ces prévalences, c’est-à-dire les proportions de personnes concernées, sont pondérées : les réponses sont ajustées statistiquement pour représenter la population couverte. La différence femmes-hommes n’est pas statistiquement établie chez les 70–79 ans. Ces résultats ne décrivent ni les mineurs ni les personnes de 80 ans ou plus. Les catégories de sexe sont celles de l’enquête, sans mesure des chromosomes."
+      ]
+    },
+    {
+      "heading": "Déclaration, expression et demande d’aide : trois mécanismes distincts",
+      "paragraphs": [
+        "Le caractère déclaratif ne rend pas automatiquement l’estimation sans valeur. Il impose de préciser ses limites : reconnaître un symptôme, s’en souvenir, accepter de le rapporter et participer à l’enquête sont des étapes différentes. Santé publique France signalait déjà, pour le Baromètre 2021, des possibilités de sous-déclaration et de faux positifs, c’est-à-dire de classement comme épisode chez une personne qui ne recevrait pas ce diagnostic après examen clinique. Le questionnaire ne mesure pas non plus l’agitation ou le ralentissement psychomoteur, des modifications inhabituelles de l’activité et des mouvements.",
+        "La publication CoviPrev de mars 2026 discute le rôle possible des attentes d’autonomie, de force et de contrôle émotionnel dans la demande d’aide masculine. Son enquête mesure le fait de parler de son mal-être, pas la proportion d’hommes qui taisent leurs symptômes au Baromètre. Un obstacle à la consultation n’est donc pas une mesure directe du biais de réponse au questionnaire.",
+        "Une méta-analyse, synthèse statistique de plusieurs études, de Cavanagh et ses collègues publiée en 2017 rassemble 32 études auprès de personnes présentant une dépression. Elle relève certaines différences de symptômes associés, notamment davantage de consommation problématique de substances et de conduites à risque chez les hommes étudiés. Ces comportements ne sont pas à eux seuls des diagnostics de dépression. L’étude ne permet pas de recalculer les taux français de 2024.",
+        "Une expérience de Hunt et ses collègues en 2003, sur 238 personnes et avec un autre questionnaire, a obtenu davantage de symptômes rapportés lorsque l’objectif dépressif du questionnaire était dissimulé, chez les hommes comme chez les femmes. C’est un indice de sensibilité au contexte de déclaration, avec un outil et un échantillon différents ; il ne quantifie pas une sous-déclaration masculine française. Aucune des sources vérifiées ne permet d’affirmer que les taux réels seraient égaux ou inversés."
+      ]
+    },
+    {
+      "heading": "Un moindre recours thérapeutique masculin parmi les épisodes repérés",
+      "paragraphs": [
+        "Le tableau 2 du Baromètre 2024 porte cette fois uniquement sur les personnes repérées avec un épisode dépressif durant les douze derniers mois. Parmi elles, 53,9 % des hommes et 37,9 % des femmes déclarent n’avoir eu aucun recours thérapeutique sur cette période : ni consultation d’un professionnel, ni psychothérapie, ni prise de médicaments parmi les catégories interrogées, qui comprennent aussi tranquillisants et somnifères. Cela ne décrit pas la qualité ou la continuité des soins.",
+        "La fiche sur la parole auprès d’un professionnel conserve séparément les résultats de CoviPrev 2022–2023. Les deux enquêtes, leurs populations et leurs questions diffèrent ; leurs chiffres ne constituent pas une série d’évolution. Le nouveau contexte de recours aux soins ne corrige pas la prévalence et ne dénombre pas les épisodes passés sous le seuil du questionnaire."
+      ]
+    },
+    {
+      "heading": "Conditions de travail et causes : conserver les questions ouvertes",
+      "paragraphs": [
+        "Le fait de continuer à travailler, y compris dans un métier physiquement pénible, ne suffit pas à écarter une souffrance psychique. Mais on ne peut pas davantage transformer la pénibilité, une fatigue ou une retenue émotionnelle en diagnostic. Les chiffres présentés ici ne permettent pas de mesurer combien d’hommes banalisent leurs difficultés au travail ni quelle part de la dépression serait ainsi omise.",
+        "Le HCE met l’accent sur les violences, la précarité et les conditions sociales. Ces facteurs méritent d’être étudiés, tout comme les obstacles masculins à l’expression de la souffrance. L’Organisation mondiale de la Santé décrit une interaction de facteurs sociaux, psychologiques et biologiques. Une différence de prévalence ne suffit pas à attribuer tout l’écart à la société, aux hormones ou à un seul mécanisme.",
+        "Enfin, dépression repérée, pensées suicidaires, tentatives et décès par suicide sont des indicateurs distincts. La fiche liée sur la surmortalité masculine par suicide apporte un autre contexte ; elle ne permet pas de calculer rétrospectivement un taux de dépression masculine. Les fiches associées permettent de consulter séparément les mesures, leurs périodes et leurs sources."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ces taux comptent-ils seulement les personnes qui consultent ?",
+      "answer": "Non. Le Baromètre interroge des symptômes et leurs conséquences. Il peut repérer une personne qui n’a ni consulté ni reçu de diagnostic. Une éventuelle réticence à reconnaître ou rapporter les symptômes reste une limite distincte du recours aux soins."
+    },
+    {
+      "question": "Peut-on corriger le taux masculin parce que les hommes parleraient moins ?",
+      "answer": "Pas à partir des sources vérifiées. Certains freins à la demande d’aide et certaines différences d’expression sont documentés, mais aucun coefficient ne permet ici de recalculer la prévalence masculine ni de conclure à l’égalité ou à l’inversion de l’écart réel."
+    },
+    {
+      "question": "Le rapport démontre-t-il une cause exclusivement sociale ?",
+      "answer": "Les écarts de fréquence et les facteurs associés ne suffisent pas à isoler une cause exclusive. Isora conserve les résultats observés, les limites de déclaration et l’interaction possible des facteurs sociaux, psychologiques et biologiques."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Épisodes dépressifs : prévalence et recours aux soins — Baromètre 2024, tableaux 1 et 2, méthode page 2",
+      "publisher": "Santé publique France",
+      "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf",
+      "date": "décembre 2025 ; données 2024",
+      "type": "source statistique primaire ; méthode page 2, prévalence tableau 1 page 4, recours tableau 2 page 6"
+    },
+    {
+      "title": "Santé mentale : genre et troubles dépressifs, pourquoi les femmes sont-elles plus à risque ?",
+      "publisher": "Haut Conseil à l’égalité entre les femmes et les hommes",
+      "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-sante-mentale-genre-et-troubles-depressifs-pourquoi-les-femmes-sont-elles-plus-risque",
+      "date": "2 novembre 2026",
+      "type": "rapport de synthèse et de recommandations ; actualité du sujet, pas une nouvelle enquête de prévalence"
+    },
+    {
+      "title": "Parler de son mal-être ou de ses difficultés psychologiques — CoviPrev mai 2022-septembre 2023",
+      "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+      "url": "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
+      "date": "24 mars 2026",
+      "type": "enquête par panel et discussion des normes sociales ; parle du recours à la parole, pas d’une correction des taux de dépression"
+    },
+    {
+      "title": "Prévalence des épisodes dépressifs en France chez les 18-85 ans — limites du repérage par questionnaire",
+      "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+      "url": "https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html",
+      "date": "14 février 2023 ; méthode du Baromètre 2021, pas chiffres 2024",
+      "type": "limites de la méthode CIDI-SF sur l’édition 2021 ; ne pas confondre avec les chiffres 2024"
+    },
+    {
+      "title": "Differences in the Expression of Symptoms in Men Versus Women with Depression: A Systematic Review and Meta-analysis",
+      "publisher": "Harvard Review of Psychiatry / Cavanagh et al.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28059934/",
+      "date": "2017",
+      "type": "méta-analyse de 32 études ; résumé, méthode et conclusions vérifiés ; pas une calibration du Baromètre français"
+    },
+    {
+      "title": "Self-report bias and underreporting of depression on the BDI-II",
+      "publisher": "Journal of Personality Assessment / Hunt, Auriemma et Cashaw",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12584064/",
+      "date": "février 2003",
+      "type": "expérience sur 238 personnes ; autre questionnaire, symptômes supplémentaires chez les deux sexes ; pas de coefficient correctif français"
+    },
+    {
+      "title": "Depressive disorder (depression)",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+      "date": "11 septembre 2026 ; consulté le 6 novembre 2026",
+      "type": "définition et interaction des facteurs sociaux, psychologiques et biologiques"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-06T08:58:02Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-06T08:58:02Z",
+    "reviewNote": "Article original après rapport HCE du 2 novembre et demande de nuance sur le sous-repérage masculin. Données 2024 distinctes de la publication 2026 ; mêmes taux femmes/hommes dans le tableau 1 et dénominateur de recours séparé au tableau 2. Contrôle initial visuel des tableaux et méthode poursuivi par lecture des pages officielles. CIDI-SF ne requiert pas un diagnostic préalable. Risques de déclaration et différences d’expression documentés sans chiffre correctif, causalité exclusivement sociale ou biologique, ni équivalence dépression/suicide. Études 2003 et 2017 anciennes et non françaises utilisées seulement pour leurs limites de mesure, non pour des taux nationaux. Aucune reprise de texte du Monde ; source média utilisée comme piste puis remplacée par les originaux. Nouvelle fiche femmes classée treizième ; fiche hommes enrichie avec indicateur 2024 distinct, rang conservé. Les autres fiches restent inchangées."
+  }
+}

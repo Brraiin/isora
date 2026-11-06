@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes
+- URL: https://isora.info/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/
+- Date: 2026-11-06
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: femmes-episodes-depressifs-france-2024, hommes-mal-etre-recours-professionnel, hommes-suicide
+- Resume: Le rapport du Haut Conseil à l’égalité (HCE) publié le 2 novembre 2026 remet en discussion les écarts de dépression entre femmes et hommes. Le Baromètre de Santé publique France 2024 repère un épisode dépressif caractérisé chez 18,2 % des femmes et 12,8 % des hommes de 18 à 79 ans. Un tel épisode associe une tristesse ou une perte d’intérêt durable, d’autres symptômes et une perturbation des activités. L’écart est mesuré à partir de réponses à un questionnaire : il faut tenir compte du repérage et de la déclaration des symptômes, et distinguer ces résultats du recours aux soins.
+- Sources: Santé publique France (décembre 2025 ; données 2024): https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf; Haut Conseil à l’égalité entre les femmes et les hommes (2 novembre 2026): https://www.haut-conseil-egalite.gouv.fr/rapport-sante-mentale-genre-et-troubles-depressifs-pourquoi-les-femmes-sont-elles-plus-risque; Santé publique France / Bulletin épidémiologique hebdomadaire (24 mars 2026): https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html; Santé publique France / Bulletin épidémiologique hebdomadaire (14 février 2023 ; méthode du Baromètre 2021, pas chiffres 2024): https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html; Harvard Review of Psychiatry / Cavanagh et al. (2017): https://pubmed.ncbi.nlm.nih.gov/28059934/; Journal of Personality Assessment / Hunt, Auriemma et Cashaw (février 2003): https://pubmed.ncbi.nlm.nih.gov/12584064/; Organisation mondiale de la Santé (11 septembre 2026 ; consulté le 6 novembre 2026): https://www.who.int/news-room/fact-sheets/detail/depression
+
 ### Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025
 - URL: https://isora.info/blog/2026-11-04-femmes-direction-encadrement-monde-oit/
 - Date: 2026-11-04

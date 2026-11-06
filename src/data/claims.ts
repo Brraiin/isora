@@ -107,6 +107,65 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    "id": "femmes-episodes-depressifs-france-2024",
+    "side": "femmes",
+    "domain": "Santé",
+    "title": "Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes",
+    "metric": "18,2 % F / 12,8 % H",
+    "summary": "Dans le Baromètre de Santé publique France 2024, 18,2 % des femmes et 12,8 % des hommes de 18 à 79 ans répondent aux critères d’un épisode dépressif caractérisé au cours des douze derniers mois. Il s’agit d’au moins deux semaines de tristesse ou de perte d’intérêt, avec d’autres symptômes et une perturbation des activités, repérées par questionnaire. Ces taux reposent sur les symptômes rapportés, pas seulement sur les diagnostics médicaux.",
+    "tags": [
+      "santé mentale",
+      "dépression",
+      "questionnaire",
+      "déclaration",
+      "France"
+    ],
+    "source": {
+      "label": "Épisodes dépressifs : prévalence et recours aux soins — Baromètre 2024, tableaux 1 et 2, méthode page 2",
+      "publisher": "Santé publique France",
+      "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf",
+      "date": "décembre 2025 ; données 2024"
+    },
+    "additionalSources": [
+      {
+        "label": "Prévalence des épisodes dépressifs en France chez les 18-85 ans — limites du repérage par questionnaire",
+        "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+        "url": "https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html",
+        "date": "14 février 2023 ; méthode du Baromètre 2021, pas chiffres 2024"
+      },
+      {
+        "label": "Parler de son mal-être ou de ses difficultés psychologiques — CoviPrev mai 2022-septembre 2023",
+        "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+        "url": "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
+        "date": "24 mars 2026"
+      },
+      {
+        "label": "Differences in the Expression of Symptoms in Men Versus Women with Depression: A Systematic Review and Meta-analysis",
+        "publisher": "Harvard Review of Psychiatry / Cavanagh et al.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28059934/",
+        "date": "2017 ; 32 études, populations cliniques et communautaires"
+      }
+    ],
+    "confidence": "forte",
+    "lastChecked": "6 novembre 2026",
+    "nuance": "Vérifié le 6 novembre 2026 : tableau 1 et méthode page 2 du Baromètre 2024. Prévalences pondérées : femmes 18,2 % (intervalle de confiance à 95 % : 17,5–18,9), hommes 12,8 % (12,2–13,4). Le questionnaire CIDI-SF, une série standardisée de questions sur les symptômes, repère les épisodes des douze derniers mois ; il ne compte pas seulement les personnes diagnostiquées ou qui consultent. Reconnaissance des symptômes, mémoire, disposition à les rapporter et participation à l’enquête peuvent affecter la mesure. Des différences d’expression et des normes de contrôle émotionnel peuvent contribuer au sous-repérage masculin, sans correction chiffrée disponible pour cette enquête : on ne peut ni annuler ni inverser l’écart observé. La différence n’est pas statistiquement établie chez les 70–79 ans ; les mineurs et les 80 ans ou plus ne sont pas couverts. L’écart de recours thérapeutique relève d’un autre indicateur. Aucune cause sociale ou biologique unique, ni proportion causale de l’écart, n’est déduite.",
+    "translations": {
+      "en": {
+        "title": "Questionnaire-identified depressive episodes are more frequent among women",
+        "summary": "In the 2024 Santé publique France Health Barometer, 18.2% of women and 12.8% of men aged 18–79 met questionnaire criteria for a major depressive episode in the preceding twelve months: at least two weeks of sadness or loss of interest, other symptoms and disruption of usual activities. These rates rely on reported symptoms, not only on medical diagnoses.",
+        "nuance": "Checked on 6 November 2026 against Table 1 and page 2 of the 2024 Barometer. Weighted prevalence: women 18.2% (95% confidence interval 17.5–18.9), men 12.8% (12.2–13.4). CIDI-SF is a standardized symptom questionnaire; respondents need not have a diagnosis or seek care. Symptom recognition, recall, willingness to report and survey participation can affect measurement. Differences in expression and emotional-control norms may contribute to under-detection among men, but no numerical correction is available for this survey; the observed gap cannot be cancelled or reversed on that basis. The sex difference is not statistically established among 70–79-year-olds; minors and people aged 80 or over are outside scope. Treatment use is a separate indicator. No single social or biological cause, or causal share of the gap, is inferred.",
+        "sourcePopulation": "Adults aged 18–79 in the 2024 Santé publique France Health Barometer, mainland France, Guadeloupe, Martinique, French Guiana and Réunion, excluding Mayotte; 34,795 usable prevalence responses. Women/men are the source categories; chromosomes are not measured.",
+        "tags": [
+          "mental health",
+          "depression",
+          "questionnaire",
+          "self-report",
+          "France"
+        ]
+      }
+    }
+  },
+  {
     id: "femmes-direction-encadrement-monde-2025",
     side: "femmes",
     domain: "Travail",
@@ -800,36 +859,57 @@ const rawClaims: RawClaim[] = [
       "Cet écart démographique n'identifie pas une cause unique. En 2024, le taux de mortalité standardisé atteint 996,1 pour 100 000 hommes contre 613,8 femmes, et 19,2 % des décès masculins surviennent avant 65 ans contre 10,2 % des décès féminins. Une méta-analyse internationale observationnelle distingue les associations de l'activité physique professionnelle et de loisirs avec la mortalité, mais ne quantifie pas la contribution du travail physique ni des comportements à la retraite à l'écart français. Les chiffres de l'Insee ne suivent pas les parcours individuels de travail et d'activité.",
   },
   {
-    id: "hommes-mal-etre-recours-professionnel",
-    side: "hommes",
-    domain: "Santé",
-    title: "Hommes moins nombreux à parler de leur mal-être à un professionnel",
-    metric: "25 % vs 32 %",
-    summary:
-      "Parmi les 2 919 personnes ayant déclaré un mal-être ou des difficultés psychologiques dans l'enquête CoviPrev 2022-2023, 25 % des hommes contre 32 % des femmes disent en avoir parlé à un professionnel de santé ou de santé mentale. L'écart est particulièrement marqué après 65 ans: 18 % contre 34 %.",
-    tags: ["santé mentale", "recours aux soins", "prévention", "France"],
-    source: {
-      label: "Parler de son mal-être ou de ses difficultés psychologiques : résultats de l'enquête CoviPrev",
-      publisher: "Santé publique France / Bulletin épidémiologique hebdomadaire",
-      url: "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
-      date: "24 mars 2026",
+    "id": "hommes-mal-etre-recours-professionnel",
+    "side": "hommes",
+    "domain": "Santé",
+    "title": "Hommes moins nombreux à parler de leur mal-être à un professionnel",
+    "metric": "25 % H / 32 % F",
+    "summary": "Parmi les 2 919 personnes ayant déclaré un mal-être ou des difficultés psychologiques dans CoviPrev 2022–2023, 25 % des hommes et 32 % des femmes disent en avoir parlé à un professionnel (18 % contre 34 % après 65 ans). Dans une autre enquête, le Baromètre 2024, 53,9 % des hommes et 37,9 % des femmes repérés avec un épisode dépressif déclarent n’avoir eu aucun recours thérapeutique pendant les douze derniers mois.",
+    "tags": [
+      "santé mentale",
+      "recours aux soins",
+      "prévention",
+      "France",
+      "dépression"
+    ],
+    "source": {
+      "label": "Parler de son mal-être ou de ses difficultés psychologiques — CoviPrev mai 2022-septembre 2023",
+      "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+      "url": "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
+      "date": "24 mars 2026"
     },
-    translations: {
-      en: {
-        title: "Men are less likely to discuss psychological distress with a professional",
-        summary:
-          "Among the 2,919 people who reported psychological distress or difficulties in the 2022-2023 CoviPrev survey, 25% of men versus 32% of women said they had discussed it with a health or mental-health professional. The gap was particularly large after age 65: 18% versus 34%.",
-        nuance:
-          "The survey used quota sampling from an access panel and measures self-reported conversations, not diagnoses or completed care pathways. Young men aged 18-24 reported talking to someone as often as young women but used alternative channels more frequently. The finding therefore supports targeted outreach rather than a claim that no man seeks help.",
-        sourcePopulation:
-          "Population measured by the source: people in France who reported psychological distress or difficulties during the previous 12 months in CoviPrev waves 34 to 37. The source uses women/men categories and does not measure chromosomes.",
-        tags: ["mental health", "healthcare access", "prevention", "France"],
+    "additionalSources": [
+      {
+        "label": "Épisodes dépressifs : prévalence et recours aux soins — Baromètre 2024, tableaux 1 et 2, méthode page 2",
+        "publisher": "Santé publique France",
+        "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf",
+        "date": "décembre 2025 ; données 2024"
       },
-    },
-    confidence: "forte",
-    lastChecked: "11 août 2026",
-    nuance:
-      "L'enquête repose sur un échantillonnage par quotas au sein d'un access panel et mesure une parole déclarée, pas un diagnostic ni l'aboutissement d'un parcours de soins. Les jeunes hommes de 18 à 24 ans déclarent avoir parlé à quelqu'un aussi souvent que les jeunes femmes, mais utilisent davantage des canaux alternatifs. Le résultat justifie donc une prévention ciblée, pas l'affirmation qu'aucun homme ne demande d'aide.",
+      {
+        "label": "Prévalence des épisodes dépressifs en France chez les 18-85 ans — limites du repérage par questionnaire",
+        "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+        "url": "https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html",
+        "date": "14 février 2023 ; méthode du Baromètre 2021, pas chiffres 2024"
+      }
+    ],
+    "confidence": "forte",
+    "lastChecked": "6 novembre 2026",
+    "nuance": "Revue du 6 novembre 2026 : résultats et limites CoviPrev revérifiés ; ajout du tableau 2 du Baromètre 2024. CoviPrev repose sur des quotas au sein d’un panel internet et mesure une parole déclarée, pas un diagnostic ni une prise en charge. Les jeunes hommes de 18–24 ans y déclarent avoir parlé à quelqu’un aussi souvent que les jeunes femmes. Le second indicateur porte uniquement sur les adultes de 18–79 ans repérés avec un épisode dépressif en 2024 : aucun professionnel consulté, aucune psychothérapie et aucun médicament déclaré sur l’année (y compris somnifères ou tranquillisants). Ces définitions et échantillons diffèrent ; leurs pourcentages ne se comparent pas comme une évolution. Le contrôle émotionnel et les normes d’autonomie sont des mécanismes possibles discutés par les chercheurs, sans cause unique démontrée. Un moindre recours aux soins ne mesure pas la sous-déclaration des symptômes à une enquête : aucun taux de dépression masculine corrigé ne peut en être déduit.",
+    "translations": {
+      "en": {
+        "title": "Men are less likely to discuss psychological distress with a professional",
+        "summary": "Among 2,919 CoviPrev 2022–2023 respondents reporting psychological distress or difficulties, 25% of men and 32% of women said they had discussed it with a professional (18% versus 34% after age 65). In a separate survey, the 2024 Health Barometer, 53.9% of men and 37.9% of women identified with a depressive episode reported no therapeutic use during the preceding twelve months.",
+        "nuance": "Reviewed on 6 November 2026: CoviPrev findings and limitations rechecked; Table 2 of the 2024 Barometer added. CoviPrev used quotas within an internet panel and measures reported conversations, not diagnoses or completed care. Men aged 18–24 reported speaking to someone as often as women of that age. The second indicator covers only adults aged 18–79 identified with a depressive episode in 2024: no professional consultation, psychotherapy or reported medication use during the year, including sleeping pills or tranquillizers. Definitions and samples differ; the percentages cannot be treated as a time trend. Emotional-control and self-reliance norms are possible mechanisms discussed by researchers, not one established cause. Lower treatment use does not quantify symptom underreporting in a survey and provides no corrected male depression rate.",
+        "sourcePopulation": "CoviPrev waves 34–37: people in France reporting psychological distress or difficulties during the previous twelve months. Separately, the 2024 Health Barometer: adults aged 18–79 identified with a depressive episode in mainland France, Guadeloupe, Martinique, French Guiana and Réunion, excluding Mayotte; 5,559 usable responses for no therapeutic use. Women/men are source categories; chromosomes are not measured.",
+        "tags": [
+          "mental health",
+          "healthcare use",
+          "prevention",
+          "France",
+          "depression"
+        ]
+      }
+    }
   },
   {
     id: "hommes-pensions-alimentaires",
@@ -4389,6 +4469,8 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "femmes-episodes-depressifs-france-2024":
+    "Adultes de 18 à 79 ans interrogés dans le Baromètre de Santé publique France 2024, France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte ; 34 795 réponses exploitables pour la prévalence. Catégories femmes/hommes de la source, sans mesure des chromosomes.",
   "femmes-direction-encadrement-monde-2025":
     "Personnes en emploi exerçant une profession de direction ou d’encadrement du grand groupe 1 de la Classification internationale type des professions (CITP-08 ou CITP-88) ; estimation mondiale OIT pour 2025, édition d’avril 2026, issue notamment d’enquêtes nationales sur l’emploi et auprès des ménages. Les catégories femmes/hommes sont celles des sources ; les chromosomes ne sont pas mesurés.",
   "femmes-renoncement-sortir-seules-securite-france-2025":
@@ -4418,7 +4500,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-esperance-vie":
     "Population mesurée par la source : hommes et femmes dans les statistiques démographiques Insee. La source ne mesure pas les chromosomes.",
   "hommes-mal-etre-recours-professionnel":
-    "Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+    "CoviPrev vagues 34–37 : personnes en France déclarant un mal-être ou des difficultés psychologiques au cours des douze derniers mois. Séparément, Baromètre 2024 : adultes de 18–79 ans repérés avec un épisode dépressif en France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte ; 5 559 réponses exploitables pour l’absence de recours thérapeutique. Catégories femmes/hommes des sources, sans mesure des chromosomes.",
   "hommes-pensions-alimentaires":
     "Population mesurée par la source : père / parent débiteur dans des décisions de justice. La source ne mesure pas les chromosomes.",
   "hommes-residence-alternee":
@@ -4626,6 +4708,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-episodes-depressifs-france-2024": {
+    "pays_ou_zone": "France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion (hors Mayotte)",
+    "regionScope": "Europe et outre-mer français",
+    "periode_debut": "2024",
+    "periode_fin": "2024",
+    "statut_temporel": "actuel",
+    "intensite_contextuelle": "forte",
+    "legalType": "prévalence pondérée d’épisodes dépressifs repérés par questionnaire au cours des douze derniers mois ; pas seulement diagnostics ou consultations"
+  },
   "femmes-direction-encadrement-monde-2025": {
     pays_ou_zone: "Monde",
     regionScope: "Monde",
@@ -4770,13 +4861,13 @@ const claimMetadata: Record<string, ClaimMeta> = {
     legalType: "démographie",
   },
   "hommes-mal-etre-recours-professionnel": {
-    pays_ou_zone: "France",
-    regionScope: "Europe",
+    pays_ou_zone: "France ; Baromètre 2024 : Hexagone, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte",
+    regionScope: "Europe et outre-mer français",
     periode_debut: "2022",
-    periode_fin: "2023",
+    periode_fin: "2024",
     statut_temporel: "actuel",
     intensite_contextuelle: "moyenne",
-    legalType: "santé mentale et recours aux soins",
+    legalType: "deux indicateurs distincts : parole à un professionnel parmi les personnes déclarant un mal-être (2022–2023) et absence de recours thérapeutique parmi les épisodes dépressifs repérés (2024) ; aucune évolution comparable",
   },
   "hommes-pensions-alimentaires": {
     pays_ou_zone: "France",

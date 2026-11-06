@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-11-04T00:30:48.631Z",
+  "generatedAt": "2026-11-06T08:59:40.874Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -13,16 +13,16 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 112,
+    "total": 113,
     "hommes": 48,
-    "femmes": 64,
-    "sources": 274
+    "femmes": 65,
+    "sources": 277
   },
   "domains": [
+    "Santé",
     "Travail",
     "Autonomie",
     "Religieux",
-    "Santé",
     "Éducation",
     "Justice",
     "Famille",
@@ -74,9 +74,11 @@
     "cybersexisme",
     "Dares",
     "décès",
+    "déclaration",
     "décrochage",
     "deepfake",
     "défibrillateur",
+    "dépression",
     "détention",
     "devoirs civiques",
     "diagnostic",
@@ -186,6 +188,7 @@
     "prévention",
     "prison",
     "prix genrés",
+    "questionnaire",
     "RCP",
     "récit",
     "recours aux soins",
@@ -703,6 +706,65 @@
     ]
   },
   "claims": [
+    {
+      "id": "femmes-episodes-depressifs-france-2024",
+      "url": "https://isora.info/fiches/femmes-episodes-depressifs-france-2024/",
+      "appUrl": "https://isora.info/#femmes-episodes-depressifs-france-2024",
+      "title": "Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes",
+      "side": "femmes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "18,2 % F / 12,8 % H",
+      "summary": "Dans le Baromètre de Santé publique France 2024, 18,2 % des femmes et 12,8 % des hommes de 18 à 79 ans répondent aux critères d’un épisode dépressif caractérisé au cours des douze derniers mois. Il s’agit d’au moins deux semaines de tristesse ou de perte d’intérêt, avec d’autres symptômes et une perturbation des activités, repérées par questionnaire. Ces taux reposent sur les symptômes rapportés, pas seulement sur les diagnostics médicaux.",
+      "nuance": "Vérifié le 6 novembre 2026 : tableau 1 et méthode page 2 du Baromètre 2024. Prévalences pondérées : femmes 18,2 % (intervalle de confiance à 95 % : 17,5–18,9), hommes 12,8 % (12,2–13,4). Le questionnaire CIDI-SF, une série standardisée de questions sur les symptômes, repère les épisodes des douze derniers mois ; il ne compte pas seulement les personnes diagnostiquées ou qui consultent. Reconnaissance des symptômes, mémoire, disposition à les rapporter et participation à l’enquête peuvent affecter la mesure. Des différences d’expression et des normes de contrôle émotionnel peuvent contribuer au sous-repérage masculin, sans correction chiffrée disponible pour cette enquête : on ne peut ni annuler ni inverser l’écart observé. La différence n’est pas statistiquement établie chez les 70–79 ans ; les mineurs et les 80 ans ou plus ne sont pas couverts. L’écart de recours thérapeutique relève d’un autre indicateur. Aucune cause sociale ou biologique unique, ni proportion causale de l’écart, n’est déduite.",
+      "tags": [
+        "santé mentale",
+        "dépression",
+        "questionnaire",
+        "déclaration",
+        "France"
+      ],
+      "countryScope": "France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion (hors Mayotte)",
+      "regionScope": "Europe et outre-mer français",
+      "periodStart": "2024",
+      "periodEnd": "2024",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Adultes de 18 à 79 ans interrogés dans le Baromètre de Santé publique France 2024, France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte ; 34 795 réponses exploitables pour la prévalence. Catégories femmes/hommes de la source, sans mesure des chromosomes.",
+      "libelle_source": "Adultes de 18 à 79 ans interrogés dans le Baromètre de Santé publique France 2024, France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte ; 34 795 réponses exploitables pour la prévalence. Catégories femmes/hommes de la source, sans mesure des chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "6 novembre 2026",
+      "legalType": "prévalence pondérée d’épisodes dépressifs repérés par questionnaire au cours des douze derniers mois ; pas seulement diagnostics ou consultations",
+      "translationStatus": "source-language",
+      "confidence": "forte",
+      "lastChecked": "6 novembre 2026",
+      "source": {
+        "label": "Épisodes dépressifs : prévalence et recours aux soins — Baromètre 2024, tableaux 1 et 2, méthode page 2",
+        "publisher": "Santé publique France",
+        "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf",
+        "date": "décembre 2025 ; données 2024"
+      },
+      "additionalSources": [
+        {
+          "label": "Prévalence des épisodes dépressifs en France chez les 18-85 ans — limites du repérage par questionnaire",
+          "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+          "url": "https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html",
+          "date": "14 février 2023 ; méthode du Baromètre 2021, pas chiffres 2024"
+        },
+        {
+          "label": "Parler de son mal-être ou de ses difficultés psychologiques — CoviPrev mai 2022-septembre 2023",
+          "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+          "url": "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
+          "date": "24 mars 2026"
+        },
+        {
+          "label": "Differences in the Expression of Symptoms in Men Versus Women with Depression: A Systematic Review and Meta-analysis",
+          "publisher": "Harvard Review of Psychiatry / Cavanagh et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28059934/",
+          "date": "2017 ; 32 études, populations cliniques et communautaires"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "femmes-direction-encadrement-monde-2025",
       "url": "https://isora.info/fiches/femmes-direction-encadrement-monde-2025/",
@@ -1522,35 +1584,49 @@
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Santé",
-      "metric": "25 % vs 32 %",
-      "summary": "Parmi les 2 919 personnes ayant déclaré un mal-être ou des difficultés psychologiques dans l'enquête CoviPrev 2022-2023, 25 % des hommes contre 32 % des femmes disent en avoir parlé à un professionnel de santé ou de santé mentale. L'écart est particulièrement marqué après 65 ans: 18 % contre 34 %.",
-      "nuance": "L'enquête repose sur un échantillonnage par quotas au sein d'un access panel et mesure une parole déclarée, pas un diagnostic ni l'aboutissement d'un parcours de soins. Les jeunes hommes de 18 à 24 ans déclarent avoir parlé à quelqu'un aussi souvent que les jeunes femmes, mais utilisent davantage des canaux alternatifs. Le résultat justifie donc une prévention ciblée, pas l'affirmation qu'aucun homme ne demande d'aide.",
+      "metric": "25 % H / 32 % F",
+      "summary": "Parmi les 2 919 personnes ayant déclaré un mal-être ou des difficultés psychologiques dans CoviPrev 2022–2023, 25 % des hommes et 32 % des femmes disent en avoir parlé à un professionnel (18 % contre 34 % après 65 ans). Dans une autre enquête, le Baromètre 2024, 53,9 % des hommes et 37,9 % des femmes repérés avec un épisode dépressif déclarent n’avoir eu aucun recours thérapeutique pendant les douze derniers mois.",
+      "nuance": "Revue du 6 novembre 2026 : résultats et limites CoviPrev revérifiés ; ajout du tableau 2 du Baromètre 2024. CoviPrev repose sur des quotas au sein d’un panel internet et mesure une parole déclarée, pas un diagnostic ni une prise en charge. Les jeunes hommes de 18–24 ans y déclarent avoir parlé à quelqu’un aussi souvent que les jeunes femmes. Le second indicateur porte uniquement sur les adultes de 18–79 ans repérés avec un épisode dépressif en 2024 : aucun professionnel consulté, aucune psychothérapie et aucun médicament déclaré sur l’année (y compris somnifères ou tranquillisants). Ces définitions et échantillons diffèrent ; leurs pourcentages ne se comparent pas comme une évolution. Le contrôle émotionnel et les normes d’autonomie sont des mécanismes possibles discutés par les chercheurs, sans cause unique démontrée. Un moindre recours aux soins ne mesure pas la sous-déclaration des symptômes à une enquête : aucun taux de dépression masculine corrigé ne peut en être déduit.",
       "tags": [
         "santé mentale",
         "recours aux soins",
         "prévention",
-        "France"
+        "France",
+        "dépression"
       ],
-      "countryScope": "France",
-      "regionScope": "Europe",
+      "countryScope": "France ; Baromètre 2024 : Hexagone, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte",
+      "regionScope": "Europe et outre-mer français",
       "periodStart": "2022",
-      "periodEnd": "2023",
+      "periodEnd": "2024",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : personnes en France ayant déclaré un mal-être ou des difficultés psychologiques au cours des 12 derniers mois dans les vagues 34 à 37 de CoviPrev. La source utilise les catégories femmes/hommes et ne mesure pas les chromosomes.",
+      "sourcePopulation": "CoviPrev vagues 34–37 : personnes en France déclarant un mal-être ou des difficultés psychologiques au cours des douze derniers mois. Séparément, Baromètre 2024 : adultes de 18–79 ans repérés avec un épisode dépressif en France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte ; 5 559 réponses exploitables pour l’absence de recours thérapeutique. Catégories femmes/hommes des sources, sans mesure des chromosomes.",
+      "libelle_source": "CoviPrev vagues 34–37 : personnes en France déclarant un mal-être ou des difficultés psychologiques au cours des douze derniers mois. Séparément, Baromètre 2024 : adultes de 18–79 ans repérés avec un épisode dépressif en France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte ; 5 559 réponses exploitables pour l’absence de recours thérapeutique. Catégories femmes/hommes des sources, sans mesure des chromosomes.",
       "mesure_chromosomes": false,
-      "date_consultation": "11 août 2026",
-      "legalType": "santé mentale et recours aux soins",
+      "date_consultation": "6 novembre 2026",
+      "legalType": "deux indicateurs distincts : parole à un professionnel parmi les personnes déclarant un mal-être (2022–2023) et absence de recours thérapeutique parmi les épisodes dépressifs repérés (2024) ; aucune évolution comparable",
       "translationStatus": "source-language",
       "confidence": "forte",
-      "lastChecked": "11 août 2026",
+      "lastChecked": "6 novembre 2026",
       "source": {
-        "label": "Parler de son mal-être ou de ses difficultés psychologiques : résultats de l'enquête CoviPrev",
+        "label": "Parler de son mal-être ou de ses difficultés psychologiques — CoviPrev mai 2022-septembre 2023",
         "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
         "url": "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
         "date": "24 mars 2026"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Épisodes dépressifs : prévalence et recours aux soins — Baromètre 2024, tableaux 1 et 2, méthode page 2",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf",
+          "date": "décembre 2025 ; données 2024"
+        },
+        {
+          "label": "Prévalence des épisodes dépressifs en France chez les 18-85 ans — limites du repérage par questionnaire",
+          "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+          "url": "https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html",
+          "date": "14 février 2023 ; méthode du Baromètre 2021, pas chiffres 2024"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {

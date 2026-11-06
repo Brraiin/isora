@@ -4,6 +4,22 @@ Consigner ici seulement les ajouts et déplacements effectifs, avec la date, les
 IDs concernés et une justification qualitative. Pour une veille sans changement,
 indiquer « classement vérifié, conservé » dans son compte rendu.
 
+## 6 novembre 2026 — épisodes dépressifs et recours thérapeutique
+
+- Nouvelle fiche `femmes-episodes-depressifs-france-2024` : treizième parmi
+  les femmes (position 26 après réentrelacement), après l’endométriose et avant
+  les droits économiques mondiaux. Santé mentale invalidante et population
+  adulte nationale étendue, comparaison dans la même enquête et même période.
+  Les taux sont repérés par questionnaire ; un possible sous-repérage masculin
+  n’est pas chiffré. La récence du rapport HCE n’est pas le motif du placement.
+- `hommes-mal-etre-recours-professionnel` : rang interne conservé, quinzième
+  parmi les hommes. L’indicateur complémentaire de recours thérapeutique 2024
+  renforce la documentation du même enjeu national ; pas d’élargissement
+  justifiant de devancer la mortalité, les violences et le sans-abrisme.
+- Priorités internes des 112 fiches antérieures conservées ; réentrelacement
+  hommes/femmes, `hommes-esperance-vie` première et mpox dernier parmi les
+  hommes. Les positions globales suivantes changent mécaniquement avec l’ajout.
+
 ## 4 novembre 2026 — direction et encadrement dans le monde
 
 - Nouvelle fiche `femmes-direction-encadrement-monde-2025` : trente et unième

@@ -2,8 +2,84 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-04T00:30:48.790Z",
+  "generatedAt": "2026-11-06T08:59:41.052Z",
   "posts": [
+    {
+      "id": "2026-11-06-depression-femmes-hommes-declaration-recours-soins",
+      "title": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
+      "url": "https://isora.info/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
+      "description": "Baromètre 2024 : symptômes rapportés, recours aux soins et limites du repérage. Les normes sociales ne permettent pas de corriger les taux ni d’isoler une cause unique.",
+      "date": "2026-11-06",
+      "publishedAt": "2026-11-06T08:58:02Z",
+      "updatedAt": "2026-11-06T08:58:02Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "dépression femmes hommes France 2024",
+        "sous-déclaration symptômes dépressifs hommes",
+        "recours aux soins santé mentale",
+        "CIDI-SF limites questionnaire"
+      ],
+      "relatedClaimIds": [
+        "femmes-episodes-depressifs-france-2024",
+        "hommes-mal-etre-recours-professionnel",
+        "hommes-suicide"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Épisodes dépressifs : prévalence et recours aux soins — Baromètre 2024, tableaux 1 et 2, méthode page 2",
+          "publisher": "Santé publique France",
+          "url": "https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf",
+          "date": "décembre 2025 ; données 2024",
+          "type": "source statistique primaire ; méthode page 2, prévalence tableau 1 page 4, recours tableau 2 page 6"
+        },
+        {
+          "title": "Santé mentale : genre et troubles dépressifs, pourquoi les femmes sont-elles plus à risque ?",
+          "publisher": "Haut Conseil à l’égalité entre les femmes et les hommes",
+          "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-sante-mentale-genre-et-troubles-depressifs-pourquoi-les-femmes-sont-elles-plus-risque",
+          "date": "2 novembre 2026",
+          "type": "rapport de synthèse et de recommandations ; actualité du sujet, pas une nouvelle enquête de prévalence"
+        },
+        {
+          "title": "Parler de son mal-être ou de ses difficultés psychologiques — CoviPrev mai 2022-septembre 2023",
+          "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+          "url": "https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html",
+          "date": "24 mars 2026",
+          "type": "enquête par panel et discussion des normes sociales ; parle du recours à la parole, pas d’une correction des taux de dépression"
+        },
+        {
+          "title": "Prévalence des épisodes dépressifs en France chez les 18-85 ans — limites du repérage par questionnaire",
+          "publisher": "Santé publique France / Bulletin épidémiologique hebdomadaire",
+          "url": "https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html",
+          "date": "14 février 2023 ; méthode du Baromètre 2021, pas chiffres 2024",
+          "type": "limites de la méthode CIDI-SF sur l’édition 2021 ; ne pas confondre avec les chiffres 2024"
+        },
+        {
+          "title": "Differences in the Expression of Symptoms in Men Versus Women with Depression: A Systematic Review and Meta-analysis",
+          "publisher": "Harvard Review of Psychiatry / Cavanagh et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28059934/",
+          "date": "2017",
+          "type": "méta-analyse de 32 études ; résumé, méthode et conclusions vérifiés ; pas une calibration du Baromètre français"
+        },
+        {
+          "title": "Self-report bias and underreporting of depression on the BDI-II",
+          "publisher": "Journal of Personality Assessment / Hunt, Auriemma et Cashaw",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12584064/",
+          "date": "février 2003",
+          "type": "expérience sur 238 personnes ; autre questionnaire, symptômes supplémentaires chez les deux sexes ; pas de coefficient correctif français"
+        },
+        {
+          "title": "Depressive disorder (depression)",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+          "date": "11 septembre 2026 ; consulté le 6 novembre 2026",
+          "type": "définition et interaction des facteurs sociaux, psychologiques et biologiques"
+        }
+      ]
+    },
     {
       "id": "2026-11-04-femmes-direction-encadrement-monde-oit",
       "title": "Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025",

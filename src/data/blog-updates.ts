@@ -12,6 +12,36 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-suicide",
+    "side": "hommes",
+    "claimTitle": "Décès par suicide : surmortalité masculine en France et dans l'UE",
+    "claimMetric": "75 % FR · 76,4 % UE",
+    "blogTitle": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
+    "blogUrl": "/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
+    "date": "2026-11-06",
+    "updatedAt": "2026-11-06T08:58:02Z"
+  },
+  {
+    "claimId": "femmes-episodes-depressifs-france-2024",
+    "side": "femmes",
+    "claimTitle": "Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes",
+    "claimMetric": "18,2 % F / 12,8 % H",
+    "blogTitle": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
+    "blogUrl": "/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
+    "date": "2026-11-06",
+    "updatedAt": "2026-11-06T08:58:02Z"
+  },
+  {
+    "claimId": "hommes-mal-etre-recours-professionnel",
+    "side": "hommes",
+    "claimTitle": "Hommes moins nombreux à parler de leur mal-être à un professionnel",
+    "claimMetric": "25 % H / 32 % F",
+    "blogTitle": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
+    "blogUrl": "/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
+    "date": "2026-11-06",
+    "updatedAt": "2026-11-06T08:58:02Z"
+  },
+  {
     "claimId": "femmes-direction-encadrement-monde-2025",
     "side": "femmes",
     "claimTitle": "Femmes minoritaires dans les fonctions de direction et d’encadrement",
@@ -310,16 +340,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-19-sans-abrisme-angleterre-rue-hommes-majoritaires-perimetre/",
     "date": "2026-07-19",
     "updatedAt": "2026-09-10T18:41:12.021Z"
-  },
-  {
-    "claimId": "hommes-suicide",
-    "side": "hommes",
-    "claimTitle": "Décès par suicide : surmortalité masculine en France et dans l'UE",
-    "claimMetric": "75 % FR · 76,4 % UE",
-    "blogTitle": "Suicide et gestes auto-infligés : deux asymétries de sexe à lire séparément en 2026",
-    "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
-    "date": "2026-06-25",
-    "updatedAt": "2026-09-09T18:31:51.219Z"
   },
   {
     "claimId": "hommes-suicide-monde",
