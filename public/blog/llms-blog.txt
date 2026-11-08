@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées
+- URL: https://isora.info/blog/2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025/
+- Date: 2026-11-08
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: femmes-violences-conjugales, hommes-mis-en-cause-violences-conjugales-france
+- Resume: Le bilan publié le 5 novembre 2026 par le Service statistique ministériel de la sécurité intérieure (SSMSI) actualise les violences conjugales enregistrées en France en 2025. Les femmes représentent 84 % des victimes enregistrées et les hommes 85 % des mis en cause. Ces deux proportions portent sur des séries différentes : elles ne décrivent ni tous les faits subis, ni des personnes toutes condamnées, ni nécessairement les mêmes affaires. Les fiches liées sont actualisées avec le nouveau millésime et ces limites.
+- Sources: Ministère de l’Intérieur / SSMSI (5 novembre 2026 ; données enregistrées en 2025): https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf; Ministère de l’Intérieur / SSMSI (29 octobre 2026 ; enquête menée en 2025, faits de 2024): https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/SSMSI%20-%20VRS-2026.pdf; Ministère de l’Intérieur / SSMSI (5 novembre 2026): https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en
+
 ### Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes
 - URL: https://isora.info/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/
 - Date: 2026-11-06

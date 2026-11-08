@@ -2,8 +2,55 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-06T08:59:41.052Z",
+  "generatedAt": "2026-11-08T01:59:32.941Z",
   "posts": [
+    {
+      "id": "2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025",
+      "title": "Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées",
+      "url": "https://isora.info/blog/2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025/",
+      "description": "Bilan SSMSI : 84 % de femmes parmi les victimes enregistrées, 85 % d’hommes parmi les mis en cause. Comptage, taux de plainte et limites de comparaison.",
+      "date": "2026-11-08",
+      "publishedAt": "2026-11-08T02:30:00+01:00",
+      "updatedAt": "2026-11-08T02:30:00+01:00",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "violences conjugales France 2025",
+        "victimes femmes mis en cause hommes",
+        "SSMSI taux de plainte VRS",
+        "violences enregistrées limites comptage"
+      ],
+      "relatedClaimIds": [
+        "femmes-violences-conjugales",
+        "hommes-mis-en-cause-violences-conjugales-france"
+      ],
+      "readingMinutes": 5,
+      "sources": [
+        {
+          "title": "Violences conjugales enregistrées en 2025 — Interstats Info rapide n° 69",
+          "publisher": "Ministère de l’Intérieur / SSMSI",
+          "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf",
+          "date": "5 novembre 2026 ; données enregistrées en 2025",
+          "type": "bilan statistique primaire ; figures 1 et 6, encadré 1 sur le comptage, page 7 sur VRS"
+        },
+        {
+          "title": "Vécu et ressenti en matière de sécurité — rapport d’enquête, édition 2025",
+          "publisher": "Ministère de l’Intérieur / SSMSI",
+          "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/SSMSI%20-%20VRS-2026.pdf",
+          "date": "29 octobre 2026 ; enquête menée en 2025, faits de 2024",
+          "type": "rapport primaire ; champ en logement ordinaire, méthode et révision de l’estimation des taux de plainte"
+        },
+        {
+          "title": "Publication du bilan : nouvelle hausse de 5 % en 2025",
+          "publisher": "Ministère de l’Intérieur / SSMSI",
+          "url": "https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en",
+          "date": "5 novembre 2026",
+          "type": "page institutionnelle du même bilan IR69 ; date et résumé, pas une étude indépendante"
+        }
+      ]
+    },
     {
       "id": "2026-11-06-depression-femmes-hommes-declaration-recours-soins",
       "title": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",

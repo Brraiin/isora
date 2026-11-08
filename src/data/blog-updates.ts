@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-violences-conjugales",
+    "side": "femmes",
+    "claimTitle": "Femmes majoritaires parmi les victimes conjugales enregistrées",
+    "claimMetric": "84 %",
+    "blogTitle": "Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées",
+    "blogUrl": "/blog/2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025/",
+    "date": "2026-11-08",
+    "updatedAt": "2026-11-08T02:30:00+01:00"
+  },
+  {
+    "claimId": "hommes-mis-en-cause-violences-conjugales-france",
+    "side": "hommes",
+    "claimTitle": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
+    "claimMetric": "85 %",
+    "blogTitle": "Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées",
+    "blogUrl": "/blog/2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025/",
+    "date": "2026-11-08",
+    "updatedAt": "2026-11-08T02:30:00+01:00"
+  },
+  {
     "claimId": "hommes-suicide",
     "side": "hommes",
     "claimTitle": "Décès par suicide : surmortalité masculine en France et dans l'UE",
@@ -440,26 +460,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
     "date": "2026-08-11",
     "updatedAt": "2026-08-11T17:40:00.000Z"
-  },
-  {
-    "claimId": "femmes-violences-conjugales",
-    "side": "femmes",
-    "claimTitle": "Femmes majoritaires parmi les victimes conjugales enregistrées",
-    "claimMetric": "84 %",
-    "blogTitle": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
-    "blogUrl": "/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
-    "date": "2026-08-11",
-    "updatedAt": "2026-08-11T17:30:00.000Z"
-  },
-  {
-    "claimId": "hommes-mis-en-cause-violences-conjugales-france",
-    "side": "hommes",
-    "claimTitle": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
-    "claimMetric": "85 %",
-    "blogTitle": "Violences enregistrées en France : les hommes sont majoritaires hors famille, les femmes dans la famille",
-    "blogUrl": "/blog/2026-08-11-violences-enregistrees-hommes-hors-famille-femmes-dans-famille/",
-    "date": "2026-08-11",
-    "updatedAt": "2026-08-11T17:30:00.000Z"
   },
   {
     "claimId": "hommes-sexisme-hostile-hce-2025",

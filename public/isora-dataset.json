@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-11-06T08:59:40.874Z",
+  "generatedAt": "2026-11-08T01:59:32.754Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -16,7 +16,7 @@
     "total": 113,
     "hommes": 48,
     "femmes": 65,
-    "sources": 277
+    "sources": 280
   },
   "domains": [
     "Santé",
@@ -2834,8 +2834,8 @@
       "angle": "violence_exercée",
       "domain": "Violences",
       "metric": "85 %",
-      "summary": "En 2024, les services de sécurité ont enregistré 272 400 victimes de violences commises par partenaire ou ex-partenaire en France. Dans ces procédures, 85 % des personnes mises en cause sont des hommes.",
-      "nuance": "La source porte sur les faits enregistrés et les mis en cause dans des procédures, pas sur l'ensemble des violences réellement commises. Cette fiche documente une asymétrie d'auteurs présumés, distincte des fiches sur les victimes.",
+      "summary": "En 2025, les hommes représentent 85 % des 217 857 enregistrements de mis en cause pour violences conjugales en France, soit environ 218 000. Un mis en cause est une personne entendue par la police ou la gendarmerie, avec des raisons plausibles de la soupçonner ; ce statut ne signifie pas une condamnation.",
+      "nuance": "Actualisation au bilan SSMSI publié le 5 novembre 2026 : figure 6 et encadré méthodologique 1. Chaque personne est comptée pour chaque infraction différente au sein de la procédure : le total ne dénombre pas des personnes uniques. La série porte sur les infractions élucidées en 2025 ; elle ne correspond pas nécessairement aux mêmes procédures que les victimes enregistrées en 2025. Les 85 % décrivent la composition de ces enregistrements, pas la proportion de tous les hommes qui commettent des violences, ni une mesure exhaustive des auteurs ou des condamnés.",
       "tags": [
         "violences",
         "sécurité",
@@ -2844,24 +2844,31 @@
       ],
       "countryScope": "France",
       "regionScope": "Europe",
-      "periodStart": "2024",
-      "periodEnd": null,
+      "periodStart": "2025",
+      "periodEnd": "2025",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par la source : personnes de 15 ans et plus mises en cause en France pour des violences conjugales élucidées en 2025, après audition par la police ou la gendarmerie ; comptage par infraction différente au sein de la procédure. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source : personnes de 15 ans et plus mises en cause en France pour des violences conjugales élucidées en 2025, après audition par la police ou la gendarmerie ; comptage par infraction différente au sein de la procédure. La source ne mesure pas les chromosomes.",
       "mesure_chromosomes": false,
-      "date_consultation": "16 juin 2026",
-      "legalType": "violences conjugales enregistrées",
+      "date_consultation": "8 novembre 2026",
+      "legalType": "mis en cause pour violences conjugales élucidées ; comptage par infraction",
       "translationStatus": "source-language",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "8 novembre 2026",
       "source": {
-        "label": "Violences conjugales enregistrées par les services de sécurité : quasi-stabilisation en 2024",
-        "publisher": "Ministère de l'Intérieur / SSMSI",
-        "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024",
-        "date": "23 octobre 2025"
+        "label": "Violences conjugales enregistrées en 2025 — figure 6 et méthode, Interstats Info rapide n° 69",
+        "publisher": "Ministère de l’Intérieur / SSMSI",
+        "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf",
+        "date": "5 novembre 2026 ; données 2025"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Publication du bilan des violences conjugales enregistrées en 2025",
+          "publisher": "Ministère de l’Intérieur / SSMSI",
+          "url": "https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en",
+          "date": "5 novembre 2026"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {
@@ -3838,8 +3845,8 @@
       "angle": "désavantage_subi",
       "domain": "Violences",
       "metric": "84 %",
-      "summary": "En 2024, les services de sécurité ont enregistré 272 400 victimes de violences commises par partenaire ou ex-partenaire. 84 % des victimes sont des femmes et seule une victime sur six porte plainte.",
-      "nuance": "Les données enregistrées dépendent du dépôt de plainte et des conditions d'accueil. Les enquêtes de victimation complètent ce tableau.",
+      "summary": "En 2025, les femmes représentent 84 % des 284 681 enregistrements de victimes de violences conjugales en France, soit environ 285 000. Il s’agit de violences commises par un partenaire ou ex-partenaire ; une personne peut être comptée plusieurs fois si plusieurs infractions différentes la concernent dans la procédure.",
+      "nuance": "Actualisation au bilan SSMSI publié le 5 novembre 2026 : figure 1 et méthode. Le champ couvre les 15 ans et plus ; les enregistrements augmentent de 5 % et 31 % portent sur des faits antérieurs à 2025. Cela ne suffit pas à mesurer l’évolution des violences réellement subies. Le taux de plainte de 13 % cité séparément provient de VRS 2025, pour des faits de 2024 chez les adultes en logement ordinaire des territoires couverts, tous sexes confondus. Il ne se rapporte pas aux 285 000 enregistrements. La méthode des taux de plainte a été révisée : l’ancienne mention « une victime sur six » n’est pas une base de comparaison directe. Ces données ne permettent pas de corriger la sous-déclaration séparément pour les femmes et les hommes.",
       "tags": [
         "violences",
         "sécurité",
@@ -3847,25 +3854,38 @@
         "sociétal"
       ],
       "countryScope": "France",
-      "regionScope": "",
-      "periodStart": "23 octobre 2025",
-      "periodEnd": null,
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2025",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par la source principale : victimes de 15 ans et plus de violences conjugales enregistrées en France en 2025, comptées par infraction différente au sein de la procédure. Le contexte VRS porte séparément sur les adultes en logement ordinaire en France métropolitaine, Martinique, Guadeloupe et à La Réunion, pour des faits de 2024. Les sources ne mesurent pas les chromosomes.",
+      "libelle_source": "Population mesurée par la source principale : victimes de 15 ans et plus de violences conjugales enregistrées en France en 2025, comptées par infraction différente au sein de la procédure. Le contexte VRS porte séparément sur les adultes en logement ordinaire en France métropolitaine, Martinique, Guadeloupe et à La Réunion, pour des faits de 2024. Les sources ne mesurent pas les chromosomes.",
       "mesure_chromosomes": false,
-      "date_consultation": "15 juin 2026",
-      "legalType": "violences",
+      "date_consultation": "8 novembre 2026",
+      "legalType": "victimes de violences conjugales enregistrées ; comptage par infraction",
       "translationStatus": "source-language",
       "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "lastChecked": "8 novembre 2026",
       "source": {
-        "label": "Violences conjugales enregistrées par les services de sécurité : quasi-stabilisation en 2024",
-        "publisher": "Ministère de l'Intérieur / SSMSI",
-        "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024",
-        "date": "23 octobre 2025"
+        "label": "Violences conjugales enregistrées en 2025 — figure 1 et méthode, Interstats Info rapide n° 69",
+        "publisher": "Ministère de l’Intérieur / SSMSI",
+        "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf",
+        "date": "5 novembre 2026 ; données 2025"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Publication du bilan des violences conjugales enregistrées en 2025",
+          "publisher": "Ministère de l’Intérieur / SSMSI",
+          "url": "https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en",
+          "date": "5 novembre 2026"
+        },
+        {
+          "label": "Vécu et ressenti en matière de sécurité — édition 2025, champ et révision des taux de plainte",
+          "publisher": "Ministère de l’Intérieur / SSMSI",
+          "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/SSMSI%20-%20VRS-2026.pdf",
+          "date": "29 octobre 2026 ; enquête 2025, faits 2024"
+        }
+      ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {

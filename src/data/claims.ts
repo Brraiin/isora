@@ -1755,26 +1755,50 @@ const rawClaims: RawClaim[] = [
       "Il s'agit d'une comparaison juridique datée, pas d'une estimation de prévalence. Des actes exclus de la qualification de viol peuvent relever d'une autre infraction sexuelle, mais la différence de qualification et de peine peut produire une reconnaissance inégale. Les lois nationales pouvant évoluer, chaque pays devra être revérifié lors des prochaines mises à jour.",
   },
   {
-    id: "hommes-mis-en-cause-violences-conjugales-france",
-    side: "hommes",
-    angle: "violence_exercée",
-    domain: "Violences",
-    title: "Hommes majoritaires parmi les mis en cause pour violences conjugales",
-    metric: "85 %",
-    summary:
-      "En 2024, les services de sécurité ont enregistré 272 400 victimes de violences commises par partenaire ou ex-partenaire en France. Dans ces procédures, 85 % des personnes mises en cause sont des hommes.",
-    tags: ["violences", "sécurité", "France", "conjugalité"],
-    source: {
-      label:
-        "Violences conjugales enregistrées par les services de sécurité : quasi-stabilisation en 2024",
-      publisher: "Ministère de l'Intérieur / SSMSI",
-      url: "https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024",
-      date: "23 octobre 2025",
+    "id": "hommes-mis-en-cause-violences-conjugales-france",
+    "side": "hommes",
+    "angle": "violence_exercée",
+    "domain": "Violences",
+    "title": "Hommes majoritaires parmi les mis en cause pour violences conjugales",
+    "metric": "85 %",
+    "summary": "En 2025, les hommes représentent 85 % des 217 857 enregistrements de mis en cause pour violences conjugales en France, soit environ 218 000. Un mis en cause est une personne entendue par la police ou la gendarmerie, avec des raisons plausibles de la soupçonner ; ce statut ne signifie pas une condamnation.",
+    "tags": [
+      "violences",
+      "sécurité",
+      "France",
+      "conjugalité"
+    ],
+    "source": {
+      "label": "Violences conjugales enregistrées en 2025 — figure 6 et méthode, Interstats Info rapide n° 69",
+      "publisher": "Ministère de l’Intérieur / SSMSI",
+      "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf",
+      "date": "5 novembre 2026 ; données 2025"
     },
-    confidence: "forte",
-    lastChecked: "16 juin 2026",
-    nuance:
-      "La source porte sur les faits enregistrés et les mis en cause dans des procédures, pas sur l'ensemble des violences réellement commises. Cette fiche documente une asymétrie d'auteurs présumés, distincte des fiches sur les victimes.",
+    "additionalSources": [
+      {
+        "label": "Publication du bilan des violences conjugales enregistrées en 2025",
+        "publisher": "Ministère de l’Intérieur / SSMSI",
+        "url": "https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en",
+        "date": "5 novembre 2026"
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Men form the majority of recorded domestic violence suspects",
+        "summary": "In 2025, men accounted for 85% of the 217,857 domestic violence suspect records in France, approximately 218,000. A recorded suspect has been interviewed by police or gendarmerie and there are plausible grounds for suspicion; this status does not mean a conviction.",
+        "nuance": "Updated to the SSMSI report published on 5 November 2026, Figure 6 and Methodology Box 1. A person is counted for each different offence within a case, so the total is not a count of unique people. The series covers offences cleared up in 2025 and does not necessarily concern the same cases as victim records registered in 2025. The 85% describes these records, not the proportion of all men who perpetrate violence, nor an exhaustive count of perpetrators or convicted people.",
+        "sourcePopulation": "Population measured by the source: people aged 15 and over recorded as domestic violence suspects in France for offences cleared up in 2025, after being interviewed by police or gendarmerie; counted per different offence within a case. The source does not measure chromosomes.",
+        "tags": [
+          "domestic violence",
+          "suspects",
+          "France",
+          "recorded offences"
+        ]
+      }
+    },
+    "confidence": "forte",
+    "lastChecked": "8 novembre 2026",
+    "nuance": "Actualisation au bilan SSMSI publié le 5 novembre 2026 : figure 6 et encadré méthodologique 1. Chaque personne est comptée pour chaque infraction différente au sein de la procédure : le total ne dénombre pas des personnes uniques. La série porte sur les infractions élucidées en 2025 ; elle ne correspond pas nécessairement aux mêmes procédures que les victimes enregistrées en 2025. Les 85 % décrivent la composition de ces enregistrements, pas la proportion de tous les hommes qui commettent des violences, ni une mesure exhaustive des auteurs ou des condamnés."
   },
   {
     id: "hommes-agresseurs-declares-violences-sexuelles-femmes-france",
@@ -2599,25 +2623,55 @@ const rawClaims: RawClaim[] = [
       "Cette fiche décrit une asymétrie d'usage et de perception du temps partiel, pas automatiquement un désavantage subi par chaque femme à temps partiel. Le temps partiel peut réduire le revenu, la progression professionnelle ou les droits à retraite lorsqu'il est contraint ou peu rémunéré; il peut aussi correspondre à un accès plus accepté à une réduction du temps de travail pour les femmes. Inversement, l'asymétrie peut défavoriser des hommes lorsque le temps partiel est moins proposé, moins accepté ou plus difficile à obtenir pour raisons familiales ou professionnelles. La source Insee mesure l'emploi à temps partiel, pas l'ensemble des demandes acceptées ou refusées selon le sexe; les sources complémentaires portent sur l'accès perçu aux arrangements flexibles et sur le congé des pères.",
   },
   {
-    id: "femmes-violences-conjugales",
-    side: "femmes",
-    domain: "Violences",
-    title: "Femmes majoritaires parmi les victimes conjugales enregistrées",
-    metric: "84 %",
-    summary:
-      "En 2024, les services de sécurité ont enregistré 272 400 victimes de violences commises par partenaire ou ex-partenaire. 84 % des victimes sont des femmes et seule une victime sur six porte plainte.",
-    tags: ["violences", "sécurité", "juridique", "sociétal"],
-    source: {
-      label:
-        "Violences conjugales enregistrées par les services de sécurité : quasi-stabilisation en 2024",
-      publisher: "Ministère de l'Intérieur / SSMSI",
-      url: "https://www.interieur.gouv.fr/actualites/communiques-de-presse/violences-conjugales-enregistrees-par-services-de-securite-quasi-stabilisation-en-2024",
-      date: "23 octobre 2025",
+    "id": "femmes-violences-conjugales",
+    "side": "femmes",
+    "domain": "Violences",
+    "title": "Femmes majoritaires parmi les victimes conjugales enregistrées",
+    "metric": "84 %",
+    "summary": "En 2025, les femmes représentent 84 % des 284 681 enregistrements de victimes de violences conjugales en France, soit environ 285 000. Il s’agit de violences commises par un partenaire ou ex-partenaire ; une personne peut être comptée plusieurs fois si plusieurs infractions différentes la concernent dans la procédure.",
+    "tags": [
+      "violences",
+      "sécurité",
+      "juridique",
+      "sociétal"
+    ],
+    "source": {
+      "label": "Violences conjugales enregistrées en 2025 — figure 1 et méthode, Interstats Info rapide n° 69",
+      "publisher": "Ministère de l’Intérieur / SSMSI",
+      "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf",
+      "date": "5 novembre 2026 ; données 2025"
     },
-    confidence: "forte",
-    lastChecked: "15 juin 2026",
-    nuance:
-      "Les données enregistrées dépendent du dépôt de plainte et des conditions d'accueil. Les enquêtes de victimation complètent ce tableau.",
+    "additionalSources": [
+      {
+        "label": "Publication du bilan des violences conjugales enregistrées en 2025",
+        "publisher": "Ministère de l’Intérieur / SSMSI",
+        "url": "https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en",
+        "date": "5 novembre 2026"
+      },
+      {
+        "label": "Vécu et ressenti en matière de sécurité — édition 2025, champ et révision des taux de plainte",
+        "publisher": "Ministère de l’Intérieur / SSMSI",
+        "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/SSMSI%20-%20VRS-2026.pdf",
+        "date": "29 octobre 2026 ; enquête 2025, faits 2024"
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Women form the majority of recorded domestic violence victims",
+        "summary": "In 2025, women accounted for 84% of the 284,681 domestic violence victim records in France, approximately 285,000. The violence was committed by a current or former partner; a person may be counted more than once when different offences concern them within a case.",
+        "nuance": "Updated to the SSMSI report published on 5 November 2026, Figure 1 and methodology. The scope covers people aged 15 and over; records increased by 5%, and 31% concerned events before 2025. This does not establish the trend in all violence experienced. The separate 13% police complaint rate comes from VRS 2025, for events in 2024 among adults in ordinary households in the covered territories, across both sexes. It does not refer to the 285,000 records. Complaint-rate estimation was revised; the former “one in six victims” statement is not directly comparable. These data provide no separate correction for underreporting by women and men.",
+        "sourcePopulation": "Population measured by the main source: domestic violence victims aged 15 and over recorded in France in 2025, counted per different offence within a case. The separate VRS context concerns adults in ordinary households in metropolitan France, Martinique, Guadeloupe and Réunion, for events in 2024. The sources do not measure chromosomes.",
+        "tags": [
+          "domestic violence",
+          "victims",
+          "France",
+          "recorded offences"
+        ]
+      }
+    },
+    "confidence": "forte",
+    "lastChecked": "8 novembre 2026",
+    "nuance": "Actualisation au bilan SSMSI publié le 5 novembre 2026 : figure 1 et méthode. Le champ couvre les 15 ans et plus ; les enregistrements augmentent de 5 % et 31 % portent sur des faits antérieurs à 2025. Cela ne suffit pas à mesurer l’évolution des violences réellement subies. Le taux de plainte de 13 % cité séparément provient de VRS 2025, pour des faits de 2024 chez les adultes en logement ordinaire des territoires couverts, tous sexes confondus. Il ne se rapporte pas aux 285 000 enregistrements. La méthode des taux de plainte a été révisée : l’ancienne mention « une victime sur six » n’est pas une base de comparaison directe. Ces données ne permettent pas de corriger la sous-déclaration séparément pour les femmes et les hommes."
   },
   {
     id: "femmes-perception-desavantage-hce-2025",
@@ -4550,7 +4604,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-reconnaissance-viol-lois-europe":
     "Matériau mesuré par la source : définitions pénales du viol et règles de reconnaissance des victimes examinées par le Conseil de l'Europe en 2025. La source ne mesure pas les chromosomes.",
   "hommes-mis-en-cause-violences-conjugales-france":
-    "Population mesurée par la source : personnes mises en cause femmes/hommes par les services de sécurité français. La source ne mesure pas les chromosomes.",
+    "Population mesurée par la source : personnes de 15 ans et plus mises en cause en France pour des violences conjugales élucidées en 2025, après audition par la police ou la gendarmerie ; comptage par infraction différente au sein de la procédure. La source ne mesure pas les chromosomes.",
   "hommes-agresseurs-declares-violences-sexuelles-femmes-france":
     "Population mesurée par la source : femmes victimes de viols, tentatives de viol ou agressions sexuelles ayant renseigné le sexe du ou des agresseurs dans l'enquête VRS 2024 du SSMSI. La source ne mesure pas les chromosomes.",
   "hommes-part-auteurs-violences-sexuelles-perception":
@@ -4586,7 +4640,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-temps-partiel":
     "Population mesurée par les sources : femmes et hommes en emploi dans les statistiques Insee, et parents salariés interrogés sur l'accès perçu aux arrangements de travail flexibles. Les sources ne mesurent pas les chromosomes.",
   "femmes-violences-conjugales":
-    "Population mesurée par la source : victimes femmes/hommes enregistrées par les services de sécurité. La source ne mesure pas les chromosomes.",
+    "Population mesurée par la source principale : victimes de 15 ans et plus de violences conjugales enregistrées en France en 2025, comptées par infraction différente au sein de la procédure. Le contexte VRS porte séparément sur les adultes en logement ordinaire en France métropolitaine, Martinique, Guadeloupe et à La Réunion, pour des faits de 2024. Les sources ne mesurent pas les chromosomes.",
   "femmes-perception-desavantage-hce-2025":
     "Population mesurée par la source : personnes de 15 ans et plus en France, avec comparaisons hommes/femmes et par âge dans le baromètre HCE/Toluna Harris de novembre 2025. La source ne mesure pas les chromosomes.",
   "femmes-violences-sexuelles-transports-hce-2025":
@@ -5024,10 +5078,20 @@ const claimMetadata: Record<string, ClaimMeta> = {
   "hommes-mis-en-cause-violences-conjugales-france": {
     pays_ou_zone: "France",
     regionScope: "Europe",
-    periode_debut: "2024",
+    periode_debut: "2025",
+    periode_fin: "2025",
     statut_temporel: "actuel",
     intensite_contextuelle: "forte",
-    legalType: "violences conjugales enregistrées",
+    legalType: "mis en cause pour violences conjugales élucidées ; comptage par infraction",
+  },
+  "femmes-violences-conjugales": {
+    pays_ou_zone: "France",
+    regionScope: "Europe",
+    periode_debut: "2025",
+    periode_fin: "2025",
+    statut_temporel: "actuel",
+    intensite_contextuelle: "forte",
+    legalType: "victimes de violences conjugales enregistrées ; comptage par infraction",
   },
   "hommes-agresseurs-declares-violences-sexuelles-femmes-france": {
     pays_ou_zone: "France",

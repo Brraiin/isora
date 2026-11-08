@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025",
+  "slug": "2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025",
+  "status": "published",
+  "language": "fr",
+  "title": "Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées",
+  "description": "Bilan SSMSI : 84 % de femmes parmi les victimes enregistrées, 85 % d’hommes parmi les mis en cause. Comptage, taux de plainte et limites de comparaison.",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-08T02:30:00+01:00",
+  "updatedAt": "2026-11-08T02:30:00+01:00",
+  "topic": {
+    "id": "violences-securite",
+    "label": "Violences, sécurité et justice pénale"
+  },
+  "keywords": [
+    "violences conjugales France 2025",
+    "victimes femmes mis en cause hommes",
+    "SSMSI taux de plainte VRS",
+    "violences enregistrées limites comptage"
+  ],
+  "relatedClaimIds": [
+    "femmes-violences-conjugales",
+    "hommes-mis-en-cause-violences-conjugales-france"
+  ],
+  "readingMinutes": 5,
+  "summary": "Le bilan publié le 5 novembre 2026 par le Service statistique ministériel de la sécurité intérieure (SSMSI) actualise les violences conjugales enregistrées en France en 2025. Les femmes représentent 84 % des victimes enregistrées et les hommes 85 % des mis en cause. Ces deux proportions portent sur des séries différentes : elles ne décrivent ni tous les faits subis, ni des personnes toutes condamnées, ni nécessairement les mêmes affaires. Les fiches liées sont actualisées avec le nouveau millésime et ces limites.",
+  "keyPoints": [
+    "Le bilan dénombre 284 681 enregistrements de victimes en 2025, arrondis à 285 000 ; 84 % concernent des femmes. Une personne peut être comptée pour plusieurs infractions différentes.",
+    "Les 217 857 enregistrements de mis en cause, arrondis à 218 000, concernent des hommes dans 85 % des cas. Un mis en cause est un suspect entendu, pas nécessairement une personne condamnée.",
+    "La hausse de 5 % des enregistrements ne suffit pas à mesurer une hausse équivalente de toutes les violences conjugales. Dans 31 % des cas, les faits rapportés sont antérieurs à 2025.",
+    "Le taux de plainte de 13 % provient séparément de l’enquête VRS 2025 sur des faits de 2024. Il ne permet pas de convertir les enregistrements de 2025 en nombre total de victimes."
+  ],
+  "sections": [
+    {
+      "heading": "Un comptage administratif, avec des répétitions possibles",
+      "paragraphs": [
+        "Le rapport Interstats Info rapide n° 69 porte sur les crimes et délits commis par un partenaire ou un ex-partenaire, enregistrés par la police et la gendarmerie. Les tableaux couvrent la France et les personnes de 15 ans et plus. Ils comprennent notamment les violences physiques, sexuelles, verbales ou psychologiques ; leur champ est celui des infractions retenues et du lien conjugal identifié dans les procédures.",
+        "La figure 1 donne 284 681 victimes enregistrées, avec une part de femmes de 84 %. Le mot « victimes » doit être lu selon la règle de comptage : une personne est comptée pour chaque infraction différente la concernant au sein de la procédure. Ce total ne représente donc pas 284 681 personnes uniques. La part de femmes décrit la composition de ces enregistrements ; ce n’est pas le risque individuel de subir une violence pour chaque femme vivant en France."
+      ]
+    },
+    {
+      "heading": "Mis en cause et condamnation : des étapes distinctes",
+      "paragraphs": [
+        "La figure 6 dénombre 217 857 mis en cause en 2025, dont 85 % d’hommes. Au sens de cette statistique, un mis en cause est une personne entendue par les services de sécurité, avec des raisons plausibles de la soupçonner d’avoir commis ou tenté une infraction. Ce statut intervient dans l’enquête et ne vaut pas condamnation. Le comptage par infraction différente peut là aussi faire apparaître une personne plusieurs fois.",
+        "La base des mis en cause se rapporte aux infractions élucidées pendant l’année : des faits pour lesquels l’enquête a permis d’identifier et d’entendre un suspect répondant aux critères retenus. La base des victimes retient, elle, l’année d’enregistrement. Ces deux séries ne portent pas nécessairement sur les mêmes affaires. Diviser 218 000 par 285 000 ne donnerait ni un taux de condamnation ni une mesure fiable de la réponse judiciaire.",
+        "Enfin, les 85 % ne signifient pas que 85 % des hommes commettent des violences conjugales. Ils ne permettent pas non plus de reconstruire tous les couples victime-auteur à partir de deux proportions séparées. L’asymétrie observée concerne la composition des mis en cause enregistrés dans ce champ."
+      ]
+    },
+    {
+      "heading": "Ce que signifie la hausse des enregistrements",
+      "paragraphs": [
+        "Le nombre d’enregistrements de victimes augmente de 5 % par rapport à 2024. Mais une variation des dossiers enregistrés peut associer plusieurs mécanismes : évolution des violences, disposition à les signaler, délai avant la démarche et conditions de repérage ou d’enregistrement. Le bilan ne permet pas d’isoler la contribution de chacun de ces mécanismes.",
+        "Dans 31 % des cas enregistrés en 2025, les victimes rapportent des faits antérieurs à cette année. Il serait donc incorrect de présenter la totalité du bilan comme des violences survenues en 2025. De même, une stabilité des proportions femmes-hommes ne démontre pas que la fréquence de chaque type de violence est restée identique."
+      ]
+    },
+    {
+      "heading": "L’enquête VRS éclaire les faits absents des dossiers",
+      "paragraphs": [
+        "Vécu et ressenti en matière de sécurité (VRS) est une enquête de victimation : elle interroge directement la population sur les faits subis, y compris sans plainte. Son édition menée en 2025 porte ici sur des faits de 2024. Elle couvre les adultes de 18 ans et plus vivant en logement ordinaire en France métropolitaine, en Martinique, en Guadeloupe et à La Réunion. Ce champ diffère des données administratives, notamment par l’âge, les territoires et l’année.",
+        "Le bilan SSMSI rapporte que 1,4 % des femmes et 0,4 % des hommes de ce champ déclarent des violences conjugales physiques, sexuelles ou psychologiques en 2024. Ce sont deux taux dans la population de chaque sexe, pas une répartition des victimes. Les violences subies par les hommes apparaissent ainsi dans l’enquête, même si le taux déclaré est plus élevé chez les femmes.",
+        "Parmi les victimes, 13 % déclarent avoir porté plainte, tous sexes confondus. Ce chiffre ne fournit pas deux taux de plainte, féminin et masculin. On ne peut ni appliquer un même coefficient de correction à chaque sexe, ni diviser les 285 000 enregistrements de 2025 par 13 % : les populations, les périodes et le comptage diffèrent.",
+        "Le rapport VRS publié le 29 octobre 2026 précise en outre une révision de l’estimation des taux de plainte : certaines non-réponses ne sont plus assimilées à une absence de plainte, et les séries antérieures sont recalculées. L’ancienne formule « une victime sur six » est donc retirée de la fiche, sans présenter son remplacement par 13 % comme une évolution du comportement des victimes. L’enquête reste fondée sur des déclarations ; les sources vérifiées ne chiffrent pas une correction de sous-déclaration propre à chaque sexe."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les 285 000 victimes représentent-elles autant de personnes différentes ?",
+      "answer": "Non. Dans ce bilan, une personne est comptée pour chaque infraction différente la concernant dans la procédure. Le total arrondi à 285 000 est un comptage administratif, qui peut inclure plusieurs fois la même personne."
+    },
+    {
+      "question": "Les 85 % d’hommes mis en cause sont-ils des hommes condamnés ?",
+      "answer": "La statistique concerne des personnes entendues avec des raisons plausibles de les soupçonner. Elle ne dénombre pas les condamnations et ne mesure pas la proportion de tous les hommes qui commettent ces violences."
+    },
+    {
+      "question": "Le taux de plainte de 13 % permet-il de retrouver le nombre réel de victimes en 2025 ?",
+      "answer": "Non. Il provient d’une enquête sur des faits de 2024 chez les adultes en logement ordinaire des territoires couverts. Les enregistrements de 2025 concernent un autre champ et peuvent compter plusieurs infractions pour une personne. Le chiffre global ne permet pas non plus de calculer deux taux de plainte par sexe."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Violences conjugales enregistrées en 2025 — Interstats Info rapide n° 69",
+      "publisher": "Ministère de l’Intérieur / SSMSI",
+      "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf",
+      "date": "5 novembre 2026 ; données enregistrées en 2025",
+      "type": "bilan statistique primaire ; figures 1 et 6, encadré 1 sur le comptage, page 7 sur VRS"
+    },
+    {
+      "title": "Vécu et ressenti en matière de sécurité — rapport d’enquête, édition 2025",
+      "publisher": "Ministère de l’Intérieur / SSMSI",
+      "url": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/SSMSI%20-%20VRS-2026.pdf",
+      "date": "29 octobre 2026 ; enquête menée en 2025, faits de 2024",
+      "type": "rapport primaire ; champ en logement ordinaire, méthode et révision de l’estimation des taux de plainte"
+    },
+    {
+      "title": "Publication du bilan : nouvelle hausse de 5 % en 2025",
+      "publisher": "Ministère de l’Intérieur / SSMSI",
+      "url": "https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en",
+      "date": "5 novembre 2026",
+      "type": "page institutionnelle du même bilan IR69 ; date et résumé, pas une étude indépendante"
+    }
+  ]
+}
