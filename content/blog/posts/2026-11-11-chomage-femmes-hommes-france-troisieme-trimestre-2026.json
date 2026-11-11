@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026",
+  "slug": "2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026",
+  "status": "published",
+  "language": "fr",
+  "title": "Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026",
+  "description": "Le point Insee du 10 novembre distingue chômage, emploi et activité. L’écart femmes-hommes varie avec l’âge et ne suffit pas à établir une cause.",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-11T13:32:43Z",
+  "updatedAt": "2026-11-11T13:32:43Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "chômage femmes hommes France troisième trimestre 2026",
+    "Insee enquête Emploi 8,6 7,8",
+    "taux chômage emploi population active",
+    "chômage jeunes femmes hommes 2026"
+  ],
+  "relatedClaimIds": [
+    "femmes-temps-partiel"
+  ],
+  "readingMinutes": 4,
+  "summary": "Publié le 10 novembre 2026, le nouveau point de l’Insee estime le taux de chômage à 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre en France. La comparaison porte sur les personnes actives de chaque sexe — en emploi ou au chômage — à partir de l’enquête Emploi. Chez les 15–24 ans, les deux taux sont très proches. Le même bilan présente un taux d’emploi féminin plus faible : ces observations peuvent coexister parce que les indicateurs ne rapportent pas les personnes au même dénominateur.",
+  "keyPoints": [
+    "Au troisième trimestre 2026, le taux de chômage estimé atteint 8,6 % chez les hommes et 7,8 % chez les femmes, soit 0,8 point d’écart dans cette publication.",
+    "Chez les 15–24 ans actifs, les taux sont de 21,0 % pour les hommes et 21,1 % pour les femmes : l’écart observé tous âges confondus ne se transpose pas aux jeunes.",
+    "Parmi l’ensemble des 15–64 ans, le taux d’emploi est de 71,4 % chez les hommes et 66,8 % chez les femmes. Le dénominateur diffère de celui du chômage.",
+    "Ces estimations d’enquête, corrigées des variations saisonnières, ne mesurent ni les inscriptions à France Travail ni une discrimination ou une causalité liée au sexe."
+  ],
+  "sections": [
+    {
+      "heading": "Une nouvelle estimation trimestrielle, sur un champ défini",
+      "paragraphs": [
+        "Le Bureau international du travail, ou BIT, définit le chômage à partir de la situation d’une personne pendant une semaine de référence, de sa disponibilité et de ses démarches pour trouver un emploi. L’enquête Emploi de l’Insee recueille ces informations. Il ne suffit donc pas de se déclarer sans emploi ou d’être inscrit auprès d’un organisme pour relever de cet indicateur.",
+        "Le bilan du troisième trimestre couvre la France et les personnes de 15 ans ou plus vivant en logement ordinaire. Les résultats sont des moyennes trimestrielles corrigées des variations saisonnières : un traitement statistique qui réduit les fluctuations habituelles liées à la période de l’année. Les catégories femmes et hommes sont celles de la source ; les chromosomes ne sont pas mesurés.",
+        "Le taux masculin est supérieur de 0,8 point au taux féminin. Il s’agit d’une différence de points de pourcentage entre deux taux, pas de la part des hommes parmi les personnes au chômage. Sur un an, la publication indique une hausse de 0,8 point pour les hommes et une stabilité pour les femmes. Pour suivre une évolution, il faut employer la même version des données, car les séries précédentes peuvent être révisées."
+      ]
+    },
+    {
+      "heading": "Le résultat d’ensemble ne vaut pas pour chaque âge",
+      "paragraphs": [
+        "Le tableau par âge invite à préciser la comparaison : chez les 15–24 ans, les taux estimés sont presque identiques, à 21,0 % pour les hommes et 21,1 % pour les femmes. Le chômage est élevé chez les jeunes actifs des deux sexes. On ne peut pas présenter cette tranche d’âge comme une reproduction de l’écart observé dans l’ensemble de la population active.",
+        "Le dénominateur importe aussi pour lire ces valeurs : environ un jeune actif sur cinq au chômage ne signifie pas un jeune sur cinq dans toute la population. De nombreux jeunes poursuivent leurs études et ne sont pas actifs au sens statistique. La composition des groupes, notamment selon l’âge ou le diplôme, doit être examinée avant toute explication de l’écart global."
+      ]
+    },
+    {
+      "heading": "Un chômage plus élevé et un emploi plus fréquent peuvent coexister",
+      "paragraphs": [
+        "Le taux de chômage divise les personnes au chômage par les personnes actives, qui regroupent les personnes en emploi et celles au chômage. Le taux d’emploi rapporte les personnes en emploi à toute la population de la tranche d’âge retenue. Pour ce second indicateur, le bilan utilise les 15–64 ans : 71,4 % des hommes et 66,8 % des femmes occupent un emploi.",
+        "Ces taux ne sont pas complémentaires. Soustraire le chômage de 100 % ne donne pas le taux d’emploi, et les tranches d’âge ne sont ici pas identiques. Une personne sans emploi qui ne remplit pas les critères de recherche ou de disponibilité peut être classée hors de la population active. Les seuls chiffres agrégés ne permettent pas de déterminer pourquoi elle se trouve dans cette situation.",
+        "La fiche liée sur le temps partiel décrit encore une autre dimension : la durée du travail chez les personnes déjà en emploi. Elle reste un repère de contexte, avec ses chiffres et sa date de vérification conservés. Le nouveau taux de chômage ne remplace pas sa mesure et ne permet pas de conclure que tout temps partiel est choisi ou subi."
+      ]
+    },
+    {
+      "heading": "Incertitude de mesure et limites d’interprétation",
+      "paragraphs": [
+        "L’Insee indique une précision de plus ou moins 0,3 point pour le taux de chômage global et sa variation trimestrielle. Cette indication ne doit pas être appliquée mécaniquement à chaque sexe ou à chaque âge. La publication ne fournit pas ici de test permettant d’affirmer que l’écart femmes-hommes est établi au-delà des fluctuations liées à l’échantillon interrogé. La marge annoncée pour le taux global n’est donc pas un intervalle d’incertitude pour la différence entre les deux sexes.",
+        "L’inscription à France Travail relève d’un suivi administratif distinct. La loi pour le plein emploi a élargi les inscriptions, tandis que l’enquête Emploi continue d’évaluer les critères du BIT. Le bilan précise que les contributions des publics concernés à l’évolution totale sont comptables : elles ne séparent pas un effet de la loi d’un effet de conjoncture. Elles ne constituent pas davantage une correction de l’écart par sexe.",
+        "Ce nouveau trimestre complète les articles de septembre sur le chômage et d’octobre sur les inscrits à France Travail. Il ne démontre ni une hiérarchie durable des difficultés entre tous les hommes et toutes les femmes, ni une cause unique. Les deux taux d’emploi et de chômage, leurs populations et les différences selon l’âge doivent rester visibles ensemble."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "8,6 % signifie-t-il que cette part de tous les hommes est au chômage ?",
+      "answer": "Le taux porte sur les hommes actifs, c’est-à-dire ceux qui occupent un emploi ou sont au chômage au sens du BIT. Les personnes hors de la population active ne figurent pas dans ce dénominateur."
+    },
+    {
+      "question": "L’écart se retrouve-t-il chez les jeunes ?",
+      "answer": "Pas dans les mêmes proportions : au troisième trimestre 2026, la source estime le chômage à 21,0 % chez les hommes actifs de 15–24 ans et 21,1 % chez les femmes actives du même âge. Ces taux ne concernent pas l’ensemble des jeunes."
+    },
+    {
+      "question": "Pourquoi le taux d’emploi féminin peut-il être plus faible malgré un chômage féminin plus faible ?",
+      "answer": "Le chômage se calcule parmi les personnes actives ; l’emploi se calcule parmi toutes les personnes de la tranche d’âge. Les personnes hors de la population active font partie du second dénominateur. Les deux indicateurs ne sont donc pas complémentaires."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Au troisième trimestre 2026, le taux de chômage s’établit à 8,2 %, en hausse de 0,4 point sur un an — Informations rapides n° 270",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/9118603",
+      "date": "10 novembre 2026 ; données du troisième trimestre 2026",
+      "type": "publication statistique primaire ; tableaux chômage et emploi par sexe et âge, précisions de champ, incertitude et révisions"
+    },
+    {
+      "title": "Personne au chômage au sens du Bureau international du travail — définition",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/metadonnees/definition/c1129",
+      "date": "définition mise à jour le 5 mars 2024, consultée le 11 novembre 2026",
+      "type": "référence méthodologique ; ne fournit pas les chiffres du troisième trimestre 2026"
+    },
+    {
+      "title": "L’essentiel sur le chômage — indicateurs, source et limites de la mesure",
+      "publisher": "Insee",
+      "url": "https://www.insee.fr/fr/statistiques/4805248",
+      "date": "consulté le 11 novembre 2026",
+      "type": "complément méthodologique ; dénominateurs, jeunes, incertitude et différence avec France Travail ; même producteur, pas une enquête indépendante"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-11T13:32:43Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-11T13:32:43Z",
+    "reviewNote": "Publication primaire du 10 novembre téléchargée en HTML et tableaux par sexe/âge vérifiés directement après échec du lecteur web. Indicateur chômage : 15 ans ou plus, actifs, France en logement ordinaire ; emploi : population des 15–64 ans. Données CVS et moyenne trimestrielle conservées. Pas d’intervalle de confiance sexué déduit de la marge globale, pas de causalité ni de correction par sexe attribuée à la loi pour le plein emploi. Nouveau millésime distinct de septembre et des inscrits à France Travail en octobre ; toutes les fiches, leurs dates et les anciens articles sont inchangés. Classement vérifié, conservé : pas de nouvelle fiche ; les enjeux structurels de mortalité, violences, santé, droits et travail conservent leurs priorités, les sujets plus étroits restent accessibles par recherche."
+  }
+}

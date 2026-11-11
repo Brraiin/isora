@@ -2,8 +2,54 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-08T01:59:32.941Z",
+  "generatedAt": "2026-11-11T13:36:58.333Z",
   "posts": [
+    {
+      "id": "2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026",
+      "title": "Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026",
+      "url": "https://isora.info/blog/2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026/",
+      "description": "Le point Insee du 10 novembre distingue chômage, emploi et activité. L’écart femmes-hommes varie avec l’âge et ne suffit pas à établir une cause.",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T13:32:43Z",
+      "updatedAt": "2026-11-11T13:32:43Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "chômage femmes hommes France troisième trimestre 2026",
+        "Insee enquête Emploi 8,6 7,8",
+        "taux chômage emploi population active",
+        "chômage jeunes femmes hommes 2026"
+      ],
+      "relatedClaimIds": [
+        "femmes-temps-partiel"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Au troisième trimestre 2026, le taux de chômage s’établit à 8,2 %, en hausse de 0,4 point sur un an — Informations rapides n° 270",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/9118603",
+          "date": "10 novembre 2026 ; données du troisième trimestre 2026",
+          "type": "publication statistique primaire ; tableaux chômage et emploi par sexe et âge, précisions de champ, incertitude et révisions"
+        },
+        {
+          "title": "Personne au chômage au sens du Bureau international du travail — définition",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/metadonnees/definition/c1129",
+          "date": "définition mise à jour le 5 mars 2024, consultée le 11 novembre 2026",
+          "type": "référence méthodologique ; ne fournit pas les chiffres du troisième trimestre 2026"
+        },
+        {
+          "title": "L’essentiel sur le chômage — indicateurs, source et limites de la mesure",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/4805248",
+          "date": "consulté le 11 novembre 2026",
+          "type": "complément méthodologique ; dénominateurs, jeunes, incertitude et différence avec France Travail ; même producteur, pas une enquête indépendante"
+        }
+      ]
+    },
     {
       "id": "2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025",
       "title": "Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées",

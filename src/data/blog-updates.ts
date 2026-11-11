@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026",
+    "blogUrl": "/blog/2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026/",
+    "date": "2026-11-11",
+    "updatedAt": "2026-11-11T13:32:43Z"
+  },
+  {
     "claimId": "femmes-violences-conjugales",
     "side": "femmes",
     "claimTitle": "Femmes majoritaires parmi les victimes conjugales enregistrées",
@@ -100,16 +110,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/",
     "date": "2026-10-29",
     "updatedAt": "2026-10-29T21:17:44.000Z"
-  },
-  {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026",
-    "blogUrl": "/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/",
-    "date": "2026-10-28",
-    "updatedAt": "2026-10-28T20:52:00.000Z"
   },
   {
     "claimId": "femmes-violence-numerique",

@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026
+- URL: https://isora.info/blog/2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026/
+- Date: 2026-11-11
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-temps-partiel
+- Resume: Publié le 10 novembre 2026, le nouveau point de l’Insee estime le taux de chômage à 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre en France. La comparaison porte sur les personnes actives de chaque sexe — en emploi ou au chômage — à partir de l’enquête Emploi. Chez les 15–24 ans, les deux taux sont très proches. Le même bilan présente un taux d’emploi féminin plus faible : ces observations peuvent coexister parce que les indicateurs ne rapportent pas les personnes au même dénominateur.
+- Sources: Insee (10 novembre 2026 ; données du troisième trimestre 2026): https://www.insee.fr/fr/statistiques/9118603; Insee (définition mise à jour le 5 mars 2024, consultée le 11 novembre 2026): https://www.insee.fr/fr/metadonnees/definition/c1129; Insee (consulté le 11 novembre 2026): https://www.insee.fr/fr/statistiques/4805248
+
 ### Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées
 - URL: https://isora.info/blog/2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025/
 - Date: 2026-11-08
