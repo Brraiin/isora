@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-ingenierie",
+    "side": "femmes",
+    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
+    "claimMetric": "24 %",
+    "blogTitle": "Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique",
+    "blogUrl": "/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/",
+    "date": "2026-11-11",
+    "updatedAt": "2026-11-11T20:21:06Z"
+  },
+  {
     "claimId": "femmes-temps-partiel",
     "side": "femmes",
     "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
@@ -370,16 +380,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
     "date": "2026-06-25",
     "updatedAt": "2026-09-09T18:31:51.219Z"
-  },
-  {
-    "claimId": "femmes-ingenierie",
-    "side": "femmes",
-    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
-    "claimMetric": "24 %",
-    "blogTitle": "PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques",
-    "blogUrl": "/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/",
-    "date": "2026-09-08",
-    "updatedAt": "2026-09-08T18:34:46.403Z"
   },
   {
     "claimId": "hommes-decrochage-garcons-monde",

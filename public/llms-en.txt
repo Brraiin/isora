@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-11-11T13:36:58.141Z
+Last generation: 2026-11-11T20:22:40.546Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique
+- URL: https://isora.info/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/
+- Date: 2026-11-11
+- Related isora entries: femmes-ingenierie
+- Summary: Dans sa publication du 10 novembre 2026, Eurostat indique que les femmes représentent 41 % des scientifiques et ingénieurs de l’Union européenne en 2025. Cette catégorie statistique comprend des spécialistes des sciences et de l’ingénierie, mais aussi de la santé et des technologies de l’information et de la communication. Elle décrit des professions exercées ; son périmètre dépasse celui des seuls ingénieurs ou des personnes travaillant dans un laboratoire. La répartition varie aussi selon les régions.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261110-2; Eurostat / Statistics Explained: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Research_and_development_statistics_at_regional_level; Eurostat / Statistics Explained: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Scientists_and_engineers; Eurostat: https://ec.europa.eu/eurostat/cache/metadata/en/hrst_esms.htm
+
 ### Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026
 - URL: https://isora.info/blog/2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026/
 - Date: 2026-11-11
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-temps-partiel
 - Summary: Les données Dares–France Travail actualisées le 28 octobre 2026 comptent 2 945 400 femmes et 2 902 100 hommes en catégories A, B et C au troisième trimestre, en France hors Mayotte. Les effectifs restent proches, avec une progression trimestrielle plus forte chez les hommes. Ce décompte inclut des personnes ayant travaillé pendant le mois et ne mesure pas leur risque de chômage. Les changements d’inscription liés à la loi pour le plein emploi imposent aussi de la prudence dans l’interprétation des évolutions.
 - Sources: Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/les-inscrits-france-travail-consultez-la-datavisualisation; Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/inscrits-france-travail-donnees-trimestrielles; Dares: https://dares.travail-emploi.gouv.fr/definitions-et-concepts/demandeur-demploi; Insee: https://www.insee.fr/fr/statistiques/4805248
-
-### Cyberharcèlement des élèves : taux de victimes proches, comportements déclarés plus fréquents chez les garçons
-- URL: https://isora.info/blog/2026-10-27-cyberharcelement-eleves-filles-garcons/
-- Date: 2026-10-27
-- Related isora entries: femmes-violence-numerique
-- Summary: Publiée le 26 octobre 2026, la note Connected and safe de l’UNESCO propose aux systèmes éducatifs une réponse aux violences numériques. Les données scolaires qu’elle reprend invitent à distinguer les faits subis des comportements exercés : les moyennes de victimes sont proches entre filles et garçons, tandis que les garçons déclarent plus souvent avoir participé à du cyberharcèlement.
-- Sources: UNESCO: https://www.unesco.org/en/articles/connected-and-safe-policy-orientations-address-online-and-technology-facilitated-violence-education; OMS Europe, Cosma et al.: https://www.who.int/europe/publications/i/item/9789289060929; OCDE: https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en/full-report/how-children-use-digital-media_a8d3a6d0.html
 
 
 ## Questionnaire-identified depressive episodes are more frequent among women

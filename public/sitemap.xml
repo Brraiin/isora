@@ -422,7 +422,7 @@
   </url>
   <url>
     <loc>https://isora.info/fiches/femmes-ingenierie/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -725,6 +725,12 @@
     <lastmod>2026-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://isora.info/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://isora.info/blog/2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026/</loc>

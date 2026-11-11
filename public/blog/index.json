@@ -2,8 +2,61 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-11T13:36:58.333Z",
+  "generatedAt": "2026-11-11T20:22:40.709Z",
   "posts": [
+    {
+      "id": "2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025",
+      "title": "Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique",
+      "url": "https://isora.info/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/",
+      "description": "Eurostat compte 41 % de femmes parmi les scientifiques et ingénieurs en 2025. Définition des métiers, différences régionales et limites des comparaisons.",
+      "date": "2026-11-11",
+      "publishedAt": "2026-11-11T20:21:06Z",
+      "updatedAt": "2026-11-11T20:21:06Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "femmes scientifiques ingénieurs Union européenne 2025",
+        "Eurostat 41 pour cent professions santé numérique",
+        "Île-de-France scientifiques ingénieurs femmes",
+        "emploi professions et diplômes ingénierie"
+      ],
+      "relatedClaimIds": [
+        "femmes-ingenierie"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Women made up 41% of EU scientists & engineers in 2025",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261110-2",
+          "date": "10 novembre 2026 ; données 2025",
+          "type": "actualité statistique primaire ; effectifs, proportions et note sur les professions couvertes"
+        },
+        {
+          "title": "Research and development statistics at regional level — Eurostat regional yearbook 2026",
+          "publisher": "Eurostat / Statistics Explained",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Research_and_development_statistics_at_regional_level",
+          "date": "édition 2026, consultée le 11 novembre 2026 ; données 2025 pour les scientifiques et ingénieurs",
+          "type": "chapitre source de la même actualité ; section ressources humaines et carte 5, pas une confirmation indépendante"
+        },
+        {
+          "title": "Glossary: Scientists and engineers",
+          "publisher": "Eurostat / Statistics Explained",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Scientists_and_engineers",
+          "date": "consulté le 11 novembre 2026",
+          "type": "définition méthodologique des groupes professionnels 21, 22 et 25"
+        },
+        {
+          "title": "Human resources and education in science & technology — métadonnées HRST",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/hrst_esms.htm",
+          "date": "mise à jour du 14 avril 2026 ; consulté le 11 novembre 2026",
+          "type": "méthode : enquête auprès des ménages, champ de 15 à 74 ans, moyennes annuelles et incertitude d’échantillonnage"
+        }
+      ]
+    },
     {
       "id": "2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026",
       "title": "Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026",
