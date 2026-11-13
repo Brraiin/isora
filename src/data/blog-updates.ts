@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-attribution-laxisme-justice-violences-sexuelles",
+    "side": "hommes",
+    "claimTitle": "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
+    "claimMetric": "75 % juges · 64 % parquet",
+    "blogTitle": "Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025",
+    "blogUrl": "/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/",
+    "date": "2026-11-13",
+    "updatedAt": "2026-11-13T11:57:50Z"
+  },
+  {
     "claimId": "femmes-ingenierie",
     "side": "femmes",
     "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
@@ -446,16 +456,6 @@ export const homeBlogUpdates = [
     "side": "hommes",
     "claimTitle": "Hommes quasi exclusifs parmi les agresseurs déclarés par les femmes victimes de violences sexuelles",
     "claimMetric": "99 %",
-    "blogTitle": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
-    "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
-    "date": "2026-08-11",
-    "updatedAt": "2026-08-11T17:40:00.000Z"
-  },
-  {
-    "claimId": "hommes-attribution-laxisme-justice-violences-sexuelles",
-    "side": "hommes",
-    "claimTitle": "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
-    "claimMetric": "70 % / 63 %",
     "blogTitle": "Violences sexuelles : distinguer sexe des auteurs déclarés, part des hommes, classements et fausses plaintes",
     "blogUrl": "/blog/2026-08-11-violences-sexuelles-auteurs-classements-fausses-plaintes-statistiques/",
     "date": "2026-08-11",

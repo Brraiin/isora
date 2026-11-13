@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-11-11T20:22:40.546Z
+Last generation: 2026-11-13T11:58:11.970Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -22,7 +22,7 @@ Last generation: 2026-11-11T20:22:40.546Z
 - Entries: 113
 - Entries about men: 48
 - Entries about women: 65
-- Distinct sources: 280
+- Distinct sources: 281
 - Domains: Santé, Travail, Autonomie, Religieux, Éducation, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Editorial method
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025
+- URL: https://isora.info/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/
+- Date: 2026-11-13
+- Related isora entries: hommes-attribution-laxisme-justice-violences-sexuelles
+- Summary: La fiche statistique publiée le 12 novembre 2026 par le ministère de la Justice présente des effectifs au 31 décembre 2025. Dans les juridictions judiciaires, les femmes représentent 75 % des juges professionnels et 64 % des procureurs. Cette composition diffère selon les fonctions. Elle renseigne les personnels en poste, sans mesurer un traitement favorable ou défavorable des justiciables selon leur sexe.
+- Sources: Ministère de la Justice / SSER, Direction des services judiciaires: https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf; Ministère de la Justice: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/references-statistiques-justice-continu; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege; Ministère de la Justice: https://www.justice.gouv.fr/magistrats-du-parquet; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
+
 ### Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique
 - URL: https://isora.info/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/
 - Date: 2026-11-11
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-renoncement-sortir-seules-securite-france-2025, hommes-violences-physiques-hors-famille-france-2025
 - Summary: Publié le 29 octobre 2026, le rapport Vécu et ressenti en matière de sécurité, édition 2025, mesure un écart dans les sorties déclarées : 32 % des femmes et 11 % des hommes indiquent renoncer souvent ou de temps en temps à sortir seuls de chez eux pour des raisons de sécurité. Cette comparaison concerne les adultes en logement ordinaire dans le champ de l’enquête. Elle ne mesure ni le nombre d’agressions ni une impossibilité permanente de sortir.
 - Sources: SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf; SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0; Ministère de l’Intérieur: https://www.interieur.gouv.fr/actualites/communiques-de-presse/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-dinsecurite-rapport-0; Police nationale: https://www.police-nationale.interieur.gouv.fr/actualite/securite-enquete-statistique-nationale-sur-vecu-et-ressenti
-
-### France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026
-- URL: https://isora.info/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/
-- Date: 2026-10-28
-- Related isora entries: femmes-temps-partiel
-- Summary: Les données Dares–France Travail actualisées le 28 octobre 2026 comptent 2 945 400 femmes et 2 902 100 hommes en catégories A, B et C au troisième trimestre, en France hors Mayotte. Les effectifs restent proches, avec une progression trimestrielle plus forte chez les hommes. Ce décompte inclut des personnes ayant travaillé pendant le mois et ne mesure pas leur risque de chômage. Les changements d’inscription liés à la loi pour le plein emploi imposent aussi de la prudence dans l’interprétation des évolutions.
-- Sources: Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/les-inscrits-france-travail-consultez-la-datavisualisation; Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/inscrits-france-travail-donnees-trimestrielles; Dares: https://dares.travail-emploi.gouv.fr/definitions-et-concepts/demandeur-demploi; Insee: https://www.insee.fr/fr/statistiques/4805248
 
 
 ## Questionnaire-identified depressive episodes are more frequent among women
@@ -1022,13 +1022,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: perception
 - Domain: Justice
 - Zone: France
-- Period: 2018-2024
+- Period: 2025-2025
 - Status: actuel
-- Key measure: 70 % / 63 %
-- Summary: In 2024, women represented 70% of professional judges and 63% of prosecutors; court and prosecution office staff were 81% female. Clerks and court registry directors were 88% female on 1 January 2018. These figures refute the claim that the French justice system is composed only or mainly of men.
-- Nuance: The data does not prove the opposite claim, that women are responsible for leniency. Registry staff do not decide guilt or sentencing, and sexual-violence cases move through police investigation, prosecution, instruction, evidentiary constraints, legal qualification, hearings and possible appeals. The point is narrower: blaming 'men in justice' as a group is not supported by the workforce composition data.
-- Measured population: Population measured by the sources: professional judges, prosecutors, court and prosecution office staff, clerks and registry directors in French justice statistics. The sources do not measure chromosomes.
-- Sources: Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Ministère de la Justice / Infostat Justice (2019, mis à jour le 26 juillet 2024): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/greffiers-directeurs-services-greffes-corps-professionnels-justice-feminises; Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice (2022, mis à jour): https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
+- Key measure: 75 % juges · 64 % parquet
+- Summary: On 31 December 2025, women represented 75% of professional judges and 64% of prosecutors in French judicial courts; women accounted for 83% of court and prosecution office staff. Judges issue decisions; prosecutors request application of the law and conduct criminal proceedings. These categories do not cover every occupation or every branch of the French justice system.
+- Nuance: Updated on 13 November 2026: section 1.2 of Justice Statistical References 2026, released on 12 November, replaces the 2024 figures with 2025 data. Prosecutor and staff counts are expressed in full-time equivalents, a unit reflecting working time; they must not be added to the headcount of professional judges. Magistrates working in central government administration are excluded. Proportions vary by role and court level. Workforce composition measures neither sentencing severity nor bias according to a magistrate’s sex, and assigns no collective responsibility to women or men. Court clerks assist magistrates and authenticate documents; they do not decide guilt or sentencing.
+- Measured population: Population measured by the sources: professional judges, prosecutors and staff in French judicial courts on 31 December 2025; magistrates assigned to central government administration and other institutions are excluded. Women/men are the statistical categories used by the sources, which do not measure chromosomes.
+- Sources: Ministère de la Justice / SSER, Direction des services judiciaires (12 novembre 2026 ; données au 31 décembre 2025): https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/magistrats-du-parquet; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
 
 ## Hommes plus exposés aux sanctions pénales lourdes
 - ID: hommes-sanctions-penales-plus-lourdes

@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-11T20:22:40.546Z
+Derniere generation: 2026-11-13T11:58:11.970Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -21,7 +21,7 @@ Derniere generation: 2026-11-11T20:22:40.546Z
 - Fiches: 113
 - Fiches concernant les hommes: 48
 - Fiches concernant les femmes: 65
-- Sources distinctes: 280
+- Sources distinctes: 281
 - Domaines: Santé, Travail, Autonomie, Religieux, Éducation, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Methode editoriale
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025
+- URL: https://isora.info/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/
+- Date: 2026-11-13
+- Fiches isora liees: hommes-attribution-laxisme-justice-violences-sexuelles
+- Resume: La fiche statistique publiée le 12 novembre 2026 par le ministère de la Justice présente des effectifs au 31 décembre 2025. Dans les juridictions judiciaires, les femmes représentent 75 % des juges professionnels et 64 % des procureurs. Cette composition diffère selon les fonctions. Elle renseigne les personnels en poste, sans mesurer un traitement favorable ou défavorable des justiciables selon leur sexe.
+- Sources: Ministère de la Justice / SSER, Direction des services judiciaires: https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf; Ministère de la Justice: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/references-statistiques-justice-continu; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege; Ministère de la Justice: https://www.justice.gouv.fr/magistrats-du-parquet; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
+
 ### Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique
 - URL: https://isora.info/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/
 - Date: 2026-11-11
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-renoncement-sortir-seules-securite-france-2025, hommes-violences-physiques-hors-famille-france-2025
 - Resume: Publié le 29 octobre 2026, le rapport Vécu et ressenti en matière de sécurité, édition 2025, mesure un écart dans les sorties déclarées : 32 % des femmes et 11 % des hommes indiquent renoncer souvent ou de temps en temps à sortir seuls de chez eux pour des raisons de sécurité. Cette comparaison concerne les adultes en logement ordinaire dans le champ de l’enquête. Elle ne mesure ni le nombre d’agressions ni une impossibilité permanente de sortir.
 - Sources: SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf; SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0; Ministère de l’Intérieur: https://www.interieur.gouv.fr/actualites/communiques-de-presse/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-dinsecurite-rapport-0; Police nationale: https://www.police-nationale.interieur.gouv.fr/actualite/securite-enquete-statistique-nationale-sur-vecu-et-ressenti
-
-### France Travail : effectifs féminins et masculins proches, hausse plus forte chez les hommes au troisième trimestre 2026
-- URL: https://isora.info/blog/2026-10-28-inscrits-france-travail-femmes-hommes-troisieme-trimestre/
-- Date: 2026-10-28
-- Fiches isora liees: femmes-temps-partiel
-- Resume: Les données Dares–France Travail actualisées le 28 octobre 2026 comptent 2 945 400 femmes et 2 902 100 hommes en catégories A, B et C au troisième trimestre, en France hors Mayotte. Les effectifs restent proches, avec une progression trimestrielle plus forte chez les hommes. Ce décompte inclut des personnes ayant travaillé pendant le mois et ne mesure pas leur risque de chômage. Les changements d’inscription liés à la loi pour le plein emploi imposent aussi de la prudence dans l’interprétation des évolutions.
-- Sources: Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/les-inscrits-france-travail-consultez-la-datavisualisation; Dares–France Travail: https://dares.travail-emploi.gouv.fr/donnees/inscrits-france-travail-donnees-trimestrielles; Dares: https://dares.travail-emploi.gouv.fr/definitions-et-concepts/demandeur-demploi; Insee: https://www.insee.fr/fr/statistiques/4805248
 
 
 ## Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes
@@ -1005,13 +1005,13 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Angle: perception
 - Domaine: Justice
 - Zone: France
-- Periode: 2018-2024
+- Periode: 2025-2025
 - Statut: actuel
-- Mesure cle: 70 % / 63 %
-- Resume: En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres réfutent l'affirmation selon laquelle la justice française serait composée uniquement ou majoritairement d'hommes.
-- Nuance: La donnée ne prouve pas l'argument inverse, selon lequel les femmes seraient responsables du laxisme. Les greffiers ne décident ni de la culpabilité ni de la peine, et les affaires de violences sexuelles passent par l'enquête, le parquet, parfois l'instruction, les contraintes de preuve, la qualification juridique, l'audience et les voies de recours. Le point est plus limité: attribuer la réponse judiciaire à des 'hommes de justice' comme groupe n'est pas étayé par la composition sexuée des effectifs.
-- Population mesuree: Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.
-- Sources: Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf; Ministère de la Justice / Infostat Justice (2019, mis à jour le 26 juillet 2024): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/greffiers-directeurs-services-greffes-corps-professionnels-justice-feminises; Ministère de la Justice / SSER (données 2024, publication 2026): https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf; Ministère de la Justice (2022, mis à jour): https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
+- Mesure cle: 75 % juges · 64 % parquet
+- Resume: Au 31 décembre 2025, les femmes représentent 75 % des juges professionnels et 64 % des procureurs dans les juridictions judiciaires françaises ; la part féminine des personnels des tribunaux et parquets est de 83 %. Le juge rend les décisions ; le procureur demande l’application de la loi et conduit l’action pénale. Ces catégories ne couvrent pas tous les métiers ni toutes les juridictions de la justice française.
+- Nuance: Actualisation du 13 novembre 2026 : la fiche 1.2 des Références statistiques justice 2026, mise en ligne le 12 novembre, remplace les données 2024 par celles de 2025. Les effectifs de procureurs et de personnels sont exprimés en équivalents temps plein, une unité tenant compte du temps de travail ; ils ne doivent pas être additionnés aux personnes physiques des juges professionnels. Les magistrats affectés à l’administration centrale sont exclus. Les proportions varient selon la fonction et le degré de juridiction. Cette composition ne mesure ni la sévérité des peines ni un biais selon le sexe du magistrat, et n’attribue aucune responsabilité collective aux femmes ou aux hommes. Les greffiers assistent les magistrats et authentifient les actes ; ils ne décident pas de la culpabilité ou de la peine.
+- Population mesuree: Population mesurée par les sources : juges professionnels, procureurs et personnels des juridictions judiciaires en France au 31 décembre 2025 ; magistrats affectés à l’administration centrale et dans d’autres structures exclus. Les catégories femmes/hommes sont celles des statistiques ; les sources ne mesurent pas les chromosomes.
+- Sources: Ministère de la Justice / SSER, Direction des services judiciaires (12 novembre 2026 ; données au 31 décembre 2025): https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/magistrats-du-parquet; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
 
 ## Hommes plus exposés aux sanctions pénales lourdes
 - ID: hommes-sanctions-penales-plus-lourdes

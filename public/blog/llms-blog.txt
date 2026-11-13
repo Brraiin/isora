@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025
+- URL: https://isora.info/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/
+- Date: 2026-11-13
+- Sujet: Famille, justice et droits
+- Fiches isora liees: hommes-attribution-laxisme-justice-violences-sexuelles
+- Resume: La fiche statistique publiée le 12 novembre 2026 par le ministère de la Justice présente des effectifs au 31 décembre 2025. Dans les juridictions judiciaires, les femmes représentent 75 % des juges professionnels et 64 % des procureurs. Cette composition diffère selon les fonctions. Elle renseigne les personnels en poste, sans mesurer un traitement favorable ou défavorable des justiciables selon leur sexe.
+- Sources: Ministère de la Justice / SSER, Direction des services judiciaires (12 novembre 2026 ; données au 31 décembre 2025): https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf; Ministère de la Justice (mise à jour du 12 novembre 2026): https://www.justice.gouv.fr/documentation/etudes-et-statistiques/references-statistiques-justice-continu; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/magistrats-du-parquet; Ministère de la Justice (consulté le 13 novembre 2026): https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
+
 ### Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique
 - URL: https://isora.info/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/
 - Date: 2026-11-11

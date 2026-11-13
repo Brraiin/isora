@@ -2268,57 +2268,67 @@ const rawClaims: RawClaim[] = [
       "Le premier chiffre est une mesure d'opinion, tandis que le second porte sur un ensemble précis de demandes et décisions judiciaires. Il ne tranche pas tous les conflits de garde et ne mesure pas à lui seul les arrangements informels, les pressions de négociation ou les contraintes familiales avant décision.",
   },
   {
-    id: "hommes-attribution-laxisme-justice-violences-sexuelles",
-    side: "hommes",
-    angle: "perception",
-    domain: "Justice",
-    title: "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
-    metric: "70 % / 63 %",
-    summary:
-      "En 2024, les femmes représentent 70 % des juges professionnels et 63 % des procureurs; le personnel des tribunaux et parquets est féminin à 81 %. Les greffiers et directeurs des services de greffe étaient féminisés à 88 % au 1er janvier 2018. Ces chiffres réfutent l'affirmation selon laquelle la justice française serait composée uniquement ou majoritairement d'hommes.",
-    tags: ["justice", "violences sexuelles", "magistrats", "greffiers", "France"],
-    source: {
-      label: "Références Statistiques Justice 2025 - Les moyens et personnels de la justice",
-      publisher: "Ministère de la Justice / SSER",
-      url: "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%201.pdf",
-      date: "données 2024, publication 2026",
-    },
-    additionalSources: [
-      {
-        label: "Les greffiers et directeurs des services de greffes, des corps professionnels de la justice féminisés",
-        publisher: "Ministère de la Justice / Infostat Justice",
-        url: "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/greffiers-directeurs-services-greffes-corps-professionnels-justice-feminises",
-        date: "2019, mis à jour le 26 juillet 2024",
-      },
-      {
-        label: "Références Statistiques Justice 2025 - Les violences sexuelles",
-        publisher: "Ministère de la Justice / SSER",
-        url: "https://www.justice.gouv.fr/sites/default/files/2026-01/RSJ2025%20chapitre%2014.pdf",
-        date: "données 2024, publication 2026",
-      },
-      {
-        label: "Les personnels de greffe",
-        publisher: "Ministère de la Justice",
-        url: "https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe",
-        date: "2022, mis à jour",
-      },
+    "id": "hommes-attribution-laxisme-justice-violences-sexuelles",
+    "side": "hommes",
+    "angle": "perception",
+    "domain": "Justice",
+    "title": "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",
+    "metric": "75 % juges · 64 % parquet",
+    "summary": "Au 31 décembre 2025, les femmes représentent 75 % des juges professionnels et 64 % des procureurs dans les juridictions judiciaires françaises ; la part féminine des personnels des tribunaux et parquets est de 83 %. Le juge rend les décisions ; le procureur demande l’application de la loi et conduit l’action pénale. Ces catégories ne couvrent pas tous les métiers ni toutes les juridictions de la justice française.",
+    "tags": [
+      "justice",
+      "violences sexuelles",
+      "magistrats",
+      "juges",
+      "procureurs",
+      "greffiers",
+      "France"
     ],
-    translations: {
-      en: {
-        title: "Sexual violence: the French justice system is not an exclusively male body",
-        summary:
-          "In 2024, women represented 70% of professional judges and 63% of prosecutors; court and prosecution office staff were 81% female. Clerks and court registry directors were 88% female on 1 January 2018. These figures refute the claim that the French justice system is composed only or mainly of men.",
-        nuance:
-          "The data does not prove the opposite claim, that women are responsible for leniency. Registry staff do not decide guilt or sentencing, and sexual-violence cases move through police investigation, prosecution, instruction, evidentiary constraints, legal qualification, hearings and possible appeals. The point is narrower: blaming 'men in justice' as a group is not supported by the workforce composition data.",
-        sourcePopulation:
-          "Population measured by the sources: professional judges, prosecutors, court and prosecution office staff, clerks and registry directors in French justice statistics. The sources do not measure chromosomes.",
-        tags: ["justice", "sexual violence", "judges", "clerks", "France"],
-      },
+    "source": {
+      "label": "Références statistiques justice 2026 — fiche 1.2 : Les magistrats et les personnels de la justice en juridiction",
+      "publisher": "Ministère de la Justice / SSER, Direction des services judiciaires",
+      "url": "https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf",
+      "date": "12 novembre 2026 ; données au 31 décembre 2025"
     },
-    confidence: "forte",
-    lastChecked: "11 août 2026",
-    nuance:
-      "La donnée ne prouve pas l'argument inverse, selon lequel les femmes seraient responsables du laxisme. Les greffiers ne décident ni de la culpabilité ni de la peine, et les affaires de violences sexuelles passent par l'enquête, le parquet, parfois l'instruction, les contraintes de preuve, la qualification juridique, l'audience et les voies de recours. Le point est plus limité: attribuer la réponse judiciaire à des 'hommes de justice' comme groupe n'est pas étayé par la composition sexuée des effectifs.",
+    "additionalSources": [
+      {
+        "label": "Les magistrats du siège — fonctions des juges",
+        "publisher": "Ministère de la Justice",
+        "url": "https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege",
+        "date": "consulté le 13 novembre 2026"
+      },
+      {
+        "label": "Les magistrats du parquet — fonctions des procureurs",
+        "publisher": "Ministère de la Justice",
+        "url": "https://www.justice.gouv.fr/magistrats-du-parquet",
+        "date": "consulté le 13 novembre 2026"
+      },
+      {
+        "label": "Les personnels de greffe — assistance et authenticité des actes",
+        "publisher": "Ministère de la Justice",
+        "url": "https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe",
+        "date": "consulté le 13 novembre 2026"
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Sexual violence: the French justice system is not an exclusively male body",
+        "summary": "On 31 December 2025, women represented 75% of professional judges and 64% of prosecutors in French judicial courts; women accounted for 83% of court and prosecution office staff. Judges issue decisions; prosecutors request application of the law and conduct criminal proceedings. These categories do not cover every occupation or every branch of the French justice system.",
+        "nuance": "Updated on 13 November 2026: section 1.2 of Justice Statistical References 2026, released on 12 November, replaces the 2024 figures with 2025 data. Prosecutor and staff counts are expressed in full-time equivalents, a unit reflecting working time; they must not be added to the headcount of professional judges. Magistrates working in central government administration are excluded. Proportions vary by role and court level. Workforce composition measures neither sentencing severity nor bias according to a magistrate’s sex, and assigns no collective responsibility to women or men. Court clerks assist magistrates and authenticate documents; they do not decide guilt or sentencing.",
+        "sourcePopulation": "Population measured by the sources: professional judges, prosecutors and staff in French judicial courts on 31 December 2025; magistrates assigned to central government administration and other institutions are excluded. Women/men are the statistical categories used by the sources, which do not measure chromosomes.",
+        "tags": [
+          "justice",
+          "sexual violence",
+          "judges",
+          "prosecutors",
+          "court clerks",
+          "France"
+        ]
+      }
+    },
+    "confidence": "forte",
+    "lastChecked": "13 novembre 2026",
+    "nuance": "Actualisation du 13 novembre 2026 : la fiche 1.2 des Références statistiques justice 2026, mise en ligne le 12 novembre, remplace les données 2024 par celles de 2025. Les effectifs de procureurs et de personnels sont exprimés en équivalents temps plein, une unité tenant compte du temps de travail ; ils ne doivent pas être additionnés aux personnes physiques des juges professionnels. Les magistrats affectés à l’administration centrale sont exclus. Les proportions varient selon la fonction et le degré de juridiction. Cette composition ne mesure ni la sévérité des peines ni un biais selon le sexe du magistrat, et n’attribue aucune responsabilité collective aux femmes ou aux hommes. Les greffiers assistent les magistrats et authentifient les actes ; ils ne décident pas de la culpabilité ou de la peine."
   },
   {
     id: "hommes-sanctions-penales-plus-lourdes",
@@ -4622,7 +4632,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-perception-garde-enfants-hce-2025":
     "Population mesurée par les sources : personnes interrogées en France sur les perceptions de la justice familiale, et demandes de pères étudiées par le ministère de la Justice. Les sources ne mesurent pas les chromosomes.",
   "hommes-attribution-laxisme-justice-violences-sexuelles":
-    "Population mesurée par les sources : juges professionnels, procureurs, personnels des tribunaux et parquets, greffiers et directeurs des services de greffe dans les statistiques françaises de justice. Les sources ne mesurent pas les chromosomes.",
+    "Population mesurée par les sources : juges professionnels, procureurs et personnels des juridictions judiciaires en France au 31 décembre 2025 ; magistrats affectés à l’administration centrale et dans d’autres structures exclus. Les catégories femmes/hommes sont celles des statistiques ; les sources ne mesurent pas les chromosomes.",
   "hommes-sanctions-penales-plus-lourdes":
     "Population mesurée par les sources : femmes et hommes mis en cause, poursuivis ou condamnés dans les statistiques pénales françaises, et personnes arrêtées ou condamnées dans les affaires fédérales américaines. Les sources ne mesurent pas les chromosomes.",
   "hommes-conge-paternite-ocde":
@@ -5164,8 +5174,8 @@ const claimMetadata: Record<string, ClaimMeta> = {
   "hommes-attribution-laxisme-justice-violences-sexuelles": {
     pays_ou_zone: "France",
     regionScope: "Europe",
-    periode_debut: "2018",
-    periode_fin: "2024",
+    periode_debut: "2025",
+    periode_fin: "2025",
     statut_temporel: "actuel",
     intensite_contextuelle: "moyenne",
     legalType: "composition des personnels de justice et violences sexuelles",

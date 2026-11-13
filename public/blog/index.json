@@ -2,8 +2,68 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-11T20:22:40.709Z",
+  "generatedAt": "2026-11-13T11:58:12.138Z",
   "posts": [
+    {
+      "id": "2026-11-13-juges-procureurs-femmes-hommes-france-2025",
+      "title": "Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025",
+      "url": "https://isora.info/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/",
+      "description": "Les données Justice publiées le 12 novembre distinguent juges, procureurs et personnels. Leur composition par sexe ne mesure pas les biais des décisions.",
+      "date": "2026-11-13",
+      "publishedAt": "2026-11-13T11:57:50Z",
+      "updatedAt": "2026-11-13T11:57:50Z",
+      "topic": {
+        "id": "famille-justice",
+        "label": "Famille, justice et droits"
+      },
+      "keywords": [
+        "femmes hommes juges procureurs France 2025",
+        "magistrature composition sexe statistiques justice 2026",
+        "juges parquet greffiers différences",
+        "justice sévérité décisions limites statistiques"
+      ],
+      "relatedClaimIds": [
+        "hommes-attribution-laxisme-justice-violences-sexuelles"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "Références statistiques justice 2026 — fiche 1.2 : Les magistrats et les personnels de la justice en juridiction",
+          "publisher": "Ministère de la Justice / SSER, Direction des services judiciaires",
+          "url": "https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf",
+          "date": "12 novembre 2026 ; données au 31 décembre 2025",
+          "type": "statistique primaire ; page unique et tableaux vérifiés visuellement, définitions et exclusions lues"
+        },
+        {
+          "title": "Références statistiques justice — sommaire en continu",
+          "publisher": "Ministère de la Justice",
+          "url": "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/references-statistiques-justice-continu",
+          "date": "mise à jour du 12 novembre 2026",
+          "type": "date de mise en ligne et statut de l’édition ; même producteur, pas une confirmation indépendante"
+        },
+        {
+          "title": "Les magistrats du siège",
+          "publisher": "Ministère de la Justice",
+          "url": "https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege",
+          "date": "consulté le 13 novembre 2026",
+          "type": "description des fonctions des juges ; contexte, pas une source des proportions"
+        },
+        {
+          "title": "Les magistrats du parquet",
+          "publisher": "Ministère de la Justice",
+          "url": "https://www.justice.gouv.fr/magistrats-du-parquet",
+          "date": "consulté le 13 novembre 2026",
+          "type": "description des poursuites, réquisitions et absence au délibéré ; sections générales vérifiées"
+        },
+        {
+          "title": "Les personnels de greffe",
+          "publisher": "Ministère de la Justice",
+          "url": "https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe",
+          "date": "consulté le 13 novembre 2026",
+          "type": "description de l’assistance aux magistrats et de l’authentification des actes"
+        }
+      ]
+    },
     {
       "id": "2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025",
       "title": "Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique",
