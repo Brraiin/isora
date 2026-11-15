@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-tuberculose-cas-estimes-monde-2025",
+    "side": "hommes",
+    "claimTitle": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus",
+    "claimMetric": "5,7 M H / 3,7 M F",
+    "blogTitle": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025",
+    "blogUrl": "/blog/2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025/",
+    "date": "2026-11-15",
+    "updatedAt": "2026-11-15T05:56:50Z"
+  },
+  {
     "claimId": "hommes-attribution-laxisme-justice-violences-sexuelles",
     "side": "hommes",
     "claimTitle": "Violences sexuelles : la justice française n'est pas un corps exclusivement masculin",

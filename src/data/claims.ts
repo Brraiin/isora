@@ -107,6 +107,68 @@ type RawClaim = Omit<
 
 const rawClaims: RawClaim[] = [
   {
+    "id": "hommes-tuberculose-cas-estimes-monde-2025",
+    "side": "hommes",
+    "angle": "désavantage_subi",
+    "domain": "Santé",
+    "title": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus",
+    "metric": "5,7 M H / 3,7 M F",
+    "summary": "La tuberculose est une maladie infectieuse bactérienne qui atteint le plus souvent les poumons et peut se transmettre par l’air. Pour 2025, l’OMS estime 5,7 millions de cas chez les hommes de 15 ans ou plus, contre 3,7 millions chez les femmes du même âge dans le monde. Il s’agit de nouveaux épisodes de maladie, incluant les rechutes, pas seulement des diagnostics déclarés aux autorités. Les moins de 15 ans sont comptés séparément.",
+    "tags": [
+      "santé",
+      "tuberculose",
+      "maladie infectieuse",
+      "incidence estimée",
+      "Monde",
+      "OMS"
+    ],
+    "source": {
+      "label": "Global tuberculosis report 2026 — page 7 : cas estimés par sexe chez les 15 ans ou plus",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://www.who.int/publications/i/item/9789240126480",
+      "date": "12 novembre 2026 ; estimations 2025"
+    },
+    "additionalSources": [
+      {
+        "label": "Rapport OMS 2026 — chapitre 1.1 TB incidence : âge, sexe, intervalles et limites",
+        "publisher": "Organisation mondiale de la Santé",
+        "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence",
+        "date": "12 novembre 2026 ; données 2025"
+      },
+      {
+        "label": "Annexe technique du rapport mondial sur la tuberculose 2026 — section 7.1, pages 49–50",
+        "publisher": "Organisation mondiale de la Santé",
+        "url": "https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7",
+        "date": "12 novembre 2026"
+      },
+      {
+        "label": "Tuberculosis — définition de la maladie et distinction avec l’infection",
+        "publisher": "Organisation mondiale de la Santé",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+        "date": "12 novembre 2026"
+      }
+    ],
+    "confidence": "moyenne",
+    "lastChecked": "15 novembre 2026",
+    "nuance": "Vérifié le 15 novembre 2026 dans le rapport OMS paru le 12 novembre : page 7 (feuille 23 du PDF), chapitre numérique 1.1 et annexe méthodologique 2026, section 7.1, pages 49–50. Intervalles d’incertitude à 95 % : hommes 4,1–7,3 millions ; femmes 2,6–4,7 millions. La ventilation s’appuie selon les pays sur les notifications et sur des modèles informés par des enquêtes de prévalence, qui mesurent les personnes malades à un moment donné ; l’incertitude est plus grande sans enquête nationale. Ces effectifs ne sont pas des taux dans la population de chaque sexe ni une comparaison ajustée selon l’âge ou le pays. Aucun risque relatif individuel ou écart de mortalité par sexe n’en est déduit. Les estimations de l’Inde sont en cours de réexamen ; l’OMS déconseille de comparer directement les chiffres issus d’éditions différentes. Les 1,2 million de cas estimés chez les moins de 15 ans ne sont pas répartis entre filles et garçons dans ce résumé. Aucune cause biologique, comportementale ou sociale unique n’est établie par cette comparaison.",
+    "translations": {
+      "en": {
+        "title": "Tuberculosis: more estimated cases among men aged 15 or over",
+        "summary": "Tuberculosis is a bacterial infectious disease that most often affects the lungs and can spread through the air. For 2025, WHO estimates 5.7 million cases among men aged 15 or over, compared with 3.7 million among women of the same age worldwide. These are new episodes of disease, including relapses, not only diagnoses reported to authorities. Children under 15 are counted separately.",
+        "nuance": "Checked on 15 November 2026 against the WHO report released on 12 November: printed page 7 (PDF sheet 23), digital section 1.1 and the 2026 technical appendix, section 7.1, pages 49–50. The 95% uncertainty intervals are 4.1–7.3 million for men and 2.6–4.7 million for women. Depending on the country, disaggregation uses notifications or models informed by prevalence surveys, which measure people with disease at a given time; uncertainty is greater without national surveys. These counts are neither rates within each sex’s population nor comparisons adjusted for age or country. No individual relative risk or sex-specific mortality gap is inferred. Estimates for India are under review; WHO warns against direct comparisons between editions. The 1.2 million estimated cases among children under 15 are not divided into girls and boys in this summary. No single biological, behavioural or social cause is established by this comparison.",
+        "sourcePopulation": "Men and women aged 15 or over in WHO global estimates of incident tuberculosis for 2025, published in the 2026 report. Children under 15 form a separate group. Estimates draw on surveillance, surveys and models; the source’s sex categories do not measure chromosomes.",
+        "tags": [
+          "health",
+          "tuberculosis",
+          "infectious disease",
+          "estimated incidence",
+          "World",
+          "WHO"
+        ]
+      }
+    }
+  },
+  {
     "id": "femmes-episodes-depressifs-france-2024",
     "side": "femmes",
     "domain": "Santé",
@@ -4533,6 +4595,7 @@ const rawClaims: RawClaim[] = [
 ];
 
 const sourcePopulationLabels: Record<string, string> = {
+  "hommes-tuberculose-cas-estimes-monde-2025": "Hommes et femmes de 15 ans ou plus dans les estimations mondiales d’incidence de la tuberculose pour 2025, rapport OMS 2026. Les moins de 15 ans constituent un groupe distinct. Estimations fondées sur surveillance, enquêtes et modèles ; catégories de sexe de la source, sans mesure des chromosomes.",
   "femmes-episodes-depressifs-france-2024":
     "Adultes de 18 à 79 ans interrogés dans le Baromètre de Santé publique France 2024, France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion, hors Mayotte ; 34 795 réponses exploitables pour la prévalence. Catégories femmes/hommes de la source, sans mesure des chromosomes.",
   "femmes-direction-encadrement-monde-2025":
@@ -4772,6 +4835,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "hommes-tuberculose-cas-estimes-monde-2025": {
+    "pays_ou_zone": "Monde",
+    "regionScope": "Monde",
+    "periode_debut": "2025",
+    "periode_fin": "2025",
+    "statut_temporel": "actuel",
+    "intensite_contextuelle": "forte",
+    "legalType": "nombre mondial estimé de nouveaux épisodes de tuberculose, rechutes comprises, chez les 15 ans ou plus ; pas un taux de risque individuel"
+  },
   "femmes-episodes-depressifs-france-2024": {
     "pays_ou_zone": "France hexagonale, Guadeloupe, Martinique, Guyane et La Réunion (hors Mayotte)",
     "regionScope": "Europe et outre-mer français",

@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025",
+  "slug": "2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025",
+  "status": "published",
+  "language": "fr",
+  "title": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025",
+  "description": "Le rapport OMS 2026 estime 5,7 millions de cas chez les hommes et 3,7 millions chez les femmes de 15 ans ou plus. Périmètre, méthodes et incertitudes.",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-15T05:56:50Z",
+  "updatedAt": "2026-11-15T05:56:50Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "tuberculose femmes hommes monde 2025",
+    "rapport OMS tuberculose 2026",
+    "cas estimés tuberculose 15 ans et plus",
+    "tuberculose incidence notifications différence"
+  ],
+  "relatedClaimIds": [
+    "hommes-tuberculose-cas-estimes-monde-2025"
+  ],
+  "readingMinutes": 4,
+  "summary": "La tuberculose est une maladie infectieuse causée par des bactéries, qui touche le plus souvent les poumons et peut se transmettre par l’air. Le rapport mondial de l’OMS, publié le 12 novembre 2026, estime pour 2025 davantage de cas chez les hommes de 15 ans ou plus que chez les femmes du même âge : 5,7 millions contre 3,7 millions. Les enfants de moins de 15 ans forment un groupe distinct. Ces nombres sont des estimations de cas, pas des probabilités individuelles de tomber malade.",
+  "keyPoints": [
+    "L’OMS estime 5,7 millions de cas chez les hommes de 15 ans ou plus et 3,7 millions chez les femmes de la même tranche d’âge en 2025, dans le monde.",
+    "Les intervalles d’incertitude à 95 % sont larges : 4,1–7,3 millions pour les hommes et 2,6–4,7 millions pour les femmes.",
+    "Les 1,2 million de cas estimés chez les moins de 15 ans sont présentés séparément ; leur répartition filles-garçons n’est pas fabriquée à partir de ce total.",
+    "L’incidence estimée inclut les cas non diagnostiqués ou non signalés ; elle diffère des seuls cas enregistrés et ne permet pas d’attribuer l’écart à une cause unique."
+  ],
+  "sections": [
+    {
+      "heading": "Une maladie à distinguer de la seule infection",
+      "paragraphs": [
+        "Être infecté par la bactérie responsable de la tuberculose et développer la maladie sont deux situations différentes. Selon l’OMS, la plupart des personnes infectées ne présentent pas la maladie ; les chiffres de cas étudiés ici portent sur des épisodes de maladie, pas sur toutes les personnes porteuses de la bactérie.",
+        "La fiche générale de l’OMS mentionne plusieurs facteurs associés au développement de la maladie, notamment l’affaiblissement du système immunitaire, la sous-nutrition, le diabète, le tabagisme et l’usage nocif d’alcool. Cette liste ne mesure pas la contribution de chacun à l’écart entre femmes et hommes. Les résultats ne justifient aucune attribution collective de responsabilité à un sexe."
+      ]
+    },
+    {
+      "heading": "Une comparaison entre personnes de 15 ans ou plus",
+      "paragraphs": [
+        "Le rapport emploie les termes hommes et femmes pour les personnes de 15 ans ou plus, et présente les moins de 15 ans séparément. Il estime respectivement 5,7 millions et 3,7 millions de cas pour 2025. Les intervalles d’incertitude à 95 % vont de 4,1 à 7,3 millions chez les hommes et de 2,6 à 4,7 millions chez les femmes. Ils rappellent que les valeurs centrales ne sont pas des décomptes exacts.",
+        "Les 1,2 million de cas estimés chez les moins de 15 ans concernent un autre groupe d’âge. Ajouter ce total aux femmes ou aux hommes, ou le répartir par moitié, produirait une comparaison absente de ces chiffres. Les catégories de sexe sont celles des sources statistiques ; les chromosomes ne sont pas mesurés.",
+        "Ces effectifs mondiaux ne sont pas rapportés au nombre total de femmes ou d’hommes de chaque âge dans chaque pays. Un rapport entre les nombres de cas ne doit donc pas être présenté comme un risque relatif individuel, ni comme une comparaison ajustée pour l’âge, le pays ou les conditions de vie."
+      ]
+    },
+    {
+      "heading": "Cas estimés et diagnostics signalés : deux mesures",
+      "paragraphs": [
+        "L’incidence désigne ici les nouveaux épisodes de maladie au cours de l’année, y compris les rechutes. Une notification est un cas diagnostiqué puis signalé aux autorités sanitaires. Des personnes peuvent ne pas être diagnostiquées ou ne pas apparaître dans le système de déclaration : les notifications ne couvrent donc pas nécessairement toute la maladie.",
+        "L’annexe technique 2026 explique que la ventilation par âge et sexe utilise, selon les pays, les notifications ou des modèles alimentés notamment par des enquêtes de prévalence. Ces enquêtes mesurent la maladie présente dans une population à un moment donné. La modélisation sert à estimer ce que les seuls enregistrements ne permettent pas d’observer directement ; elle repose sur des données et des hypothèses, avec une incertitude plus grande lorsqu’il manque des enquêtes nationales.",
+        "Cette méthode permet de conserver une distinction essentielle : davantage de cas estimés chez les hommes ne signifie pas simplement davantage de déclarations masculines. Inversement, ces estimations ne constituent pas une observation exhaustive de chaque cas. Les intervalles publiés ne suffisent pas, à eux seuls, à calculer ici un test statistique de la différence entre les sexes."
+      ]
+    },
+    {
+      "heading": "Des limites géographiques et temporelles à conserver",
+      "paragraphs": [
+        "Le rapport rassemble principalement des informations transmises par 187 pays et territoires représentant plus de 99 % de la population mondiale et des cas. Le résultat mondial ne décrit pas automatiquement la France ou chaque territoire : les contextes sanitaires et les structures d’âge diffèrent. La nouvelle fiche liée porte donc explicitement sur le monde et sur l’année 2025.",
+        "L’OMS indique que les estimations de l’Inde sont en cours de réexamen et recommande d’utiliser la dernière série publiée pour étudier une évolution. Comparer directement une valeur issue du rapport précédent à celle de l’édition 2026 pourrait mêler changement réel et révision méthodologique. La nouvelle fiche ne présente donc pas cet écart comme une hausse récente.",
+        "Enfin, les cas de maladie et les décès sont deux indicateurs distincts. Cette synthèse ne déduit aucune mortalité masculine ou féminine des effectifs de cas. Les documents cités proviennent tous de l’OMS et se complètent : rapport, chapitre numérique, méthode et définition. Ils ne sont pas quatre enquêtes indépendantes confirmant les mêmes valeurs."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les chiffres concernent-ils seulement les adultes de 18 ans ou plus ?",
+      "answer": "Non. Le rapport définit ici les groupes hommes et femmes à partir de 15 ans. Les moins de 15 ans sont présentés séparément."
+    },
+    {
+      "question": "Les hommes ont-ils un risque individuel égal au rapport entre 5,7 et 3,7 millions ?",
+      "answer": "Ce calcul comparerait des effectifs de cas. Un risque exige un dénominateur de population et une comparaison adaptée ; ces effectifs ne constituent pas un risque ajusté."
+    },
+    {
+      "question": "S’agit-il uniquement de cas diagnostiqués ?",
+      "answer": "Non. L’incidence estimée cherche aussi à tenir compte des cas non diagnostiqués ou non signalés. Les notifications, c’est-à-dire les cas enregistrés après diagnostic, sont une autre mesure."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Global tuberculosis report 2026 — page 7 du rapport, feuille 23 du PDF",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://www.who.int/publications/i/item/9789240126480",
+      "date": "12 novembre 2026 ; estimations 2025",
+      "type": "rapport primaire téléchargé depuis IRIS OMS ; page complète et notes vérifiées visuellement pour les âges, effectifs et intervalles"
+    },
+    {
+      "title": "Rapport OMS 2026 — 1.1 TB incidence",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence",
+      "date": "12 novembre 2026 ; consulté le 15 novembre 2026",
+      "type": "chapitre numérique du même rapport : cas par âge/sexe, différence avec les notifications et avertissement sur l’Inde"
+    },
+    {
+      "title": "Methods used by WHO to estimate the global burden of TB disease — Global tuberculosis report 2026",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7",
+      "date": "12 novembre 2026",
+      "type": "annexe technique 2026, introduction et section 7.1, pages 49–50 ; ne pas confondre avec le lien ancien vers l’annexe 2025"
+    },
+    {
+      "title": "Tuberculosis — définition, maladie et infection",
+      "publisher": "Organisation mondiale de la Santé",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+      "date": "12 novembre 2026",
+      "type": "repères de définition et facteurs associés ; même producteur, pas une enquête indépendante"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-15T05:56:50Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-15T05:56:50Z",
+    "reviewNote": "Rapport OMS du 12 novembre téléchargé depuis IRIS officiel, page 7/feuille PDF 23 examinée visuellement en entier ; annexe technique 2026 section 7.1 lue sur pages 49–50 et chapitre numérique contrôlé. Hommes/femmes = 15 ans ou plus ; effectifs 5,7/3,7 millions, UI 4,1–7,3 et 2,6–4,7. Pas de répartition des enfants, de taux sexué déduit du total, de mortalité par sexe ni de causalité unique. Pas de ratio de risque fabriqué, de test fondé sur les seuls intervalles marginaux ni d’évolution entre millésimes. Incertitude, modèles et réexamen de l’Inde explicites. Recherche de doublon tuberculose/tuberculosis négative dans les fiches et articles. Nouvelle fiche datée et détaillée FR/EN, population et métadonnées renseignées. Classement : huitième parmi les hommes, après le suicide mondial et avant les accidents du travail en France, en raison de la portée mondiale et de la gravité, avec confiance moyenne sur la précision ; priorités internes antérieures préservées, alternance recomposée, justification datée dans CLAIM_ORDER_REVIEWS.md."
+  }
+}

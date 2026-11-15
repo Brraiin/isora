@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-13T11:58:11.970Z
+Derniere generation: 2026-11-15T06:00:46.560Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -18,10 +18,10 @@ Derniere generation: 2026-11-13T11:58:11.970Z
 - Les champs "hommes" et "femmes" suivent l'organisation editoriale du site; les sources conservent leurs propres categories statistiques.
 
 ## Etat de la base
-- Fiches: 113
-- Fiches concernant les hommes: 48
+- Fiches: 114
+- Fiches concernant les hommes: 49
 - Fiches concernant les femmes: 65
-- Sources distinctes: 281
+- Sources distinctes: 285
 - Domaines: Santé, Travail, Autonomie, Religieux, Éducation, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Methode editoriale
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025
+- URL: https://isora.info/blog/2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025/
+- Date: 2026-11-15
+- Fiches isora liees: hommes-tuberculose-cas-estimes-monde-2025
+- Resume: La tuberculose est une maladie infectieuse causée par des bactéries, qui touche le plus souvent les poumons et peut se transmettre par l’air. Le rapport mondial de l’OMS, publié le 12 novembre 2026, estime pour 2025 davantage de cas chez les hommes de 15 ans ou plus que chez les femmes du même âge : 5,7 millions contre 3,7 millions. Les enfants de moins de 15 ans forment un groupe distinct. Ces nombres sont des estimations de cas, pas des probabilités individuelles de tomber malade.
+- Sources: Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240126480; Organisation mondiale de la Santé: https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence; Organisation mondiale de la Santé: https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+
 ### Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025
 - URL: https://isora.info/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/
 - Date: 2026-11-13
@@ -205,13 +212,22 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Resume: Le fascicule Chiffres clés de la Justice 2026, publié le 29 octobre, présente 437 059 condamnés pour l’année 2025 : 88 % sont des hommes et 12 % des femmes. Ces parts décrivent les personnes condamnées dans le champ du Casier judiciaire national, en France hors collectivités d’outre-mer. Elles ne signifient pas que 88 % des hommes ont été condamnés et ne mesurent pas, à elles seules, une différence de sévérité des peines entre les sexes.
 - Sources: Ministère de la Justice / SSER: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/chiffres-cles-justice-2026; Ministère de la Justice / SSER: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/legere-hausse-du-nombre-condamnations-prononcees-2025; Insee, Faustine Büsch et Odile Timbart: https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales; Service Public / DILA: https://www.service-public.gouv.fr/particuliers/vosdroits/F18509
 
-### Sécurité : les femmes déclarent plus souvent renoncer à sortir seules
-- URL: https://isora.info/blog/2026-10-29-renoncer-sortir-seul-securite-femmes-hommes/
-- Date: 2026-10-29
-- Fiches isora liees: femmes-renoncement-sortir-seules-securite-france-2025, hommes-violences-physiques-hors-famille-france-2025
-- Resume: Publié le 29 octobre 2026, le rapport Vécu et ressenti en matière de sécurité, édition 2025, mesure un écart dans les sorties déclarées : 32 % des femmes et 11 % des hommes indiquent renoncer souvent ou de temps en temps à sortir seuls de chez eux pour des raisons de sécurité. Cette comparaison concerne les adultes en logement ordinaire dans le champ de l’enquête. Elle ne mesure ni le nombre d’agressions ni une impossibilité permanente de sortir.
-- Sources: SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-10/SSMSI_VRS_2026.pdf; SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/publications/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-0; Ministère de l’Intérieur: https://www.interieur.gouv.fr/actualites/communiques-de-presse/vecu-et-ressenti-en-matiere-de-securite-victimation-delinquance-et-sentiment-dinsecurite-rapport-0; Police nationale: https://www.police-nationale.interieur.gouv.fr/actualite/securite-enquete-statistique-nationale-sur-vecu-et-ressenti
 
+## Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus
+- ID: hommes-tuberculose-cas-estimes-monde-2025
+- URL: https://isora.info/fiches/hommes-tuberculose-cas-estimes-monde-2025/
+- URL interactive: https://isora.info/#hommes-tuberculose-cas-estimes-monde-2025
+- Groupe: hommes
+- Angle: désavantage_subi
+- Domaine: Santé
+- Zone: Monde
+- Periode: 2025-2025
+- Statut: actuel
+- Mesure cle: 5,7 M H / 3,7 M F
+- Resume: La tuberculose est une maladie infectieuse bactérienne qui atteint le plus souvent les poumons et peut se transmettre par l’air. Pour 2025, l’OMS estime 5,7 millions de cas chez les hommes de 15 ans ou plus, contre 3,7 millions chez les femmes du même âge dans le monde. Il s’agit de nouveaux épisodes de maladie, incluant les rechutes, pas seulement des diagnostics déclarés aux autorités. Les moins de 15 ans sont comptés séparément.
+- Nuance: Vérifié le 15 novembre 2026 dans le rapport OMS paru le 12 novembre : page 7 (feuille 23 du PDF), chapitre numérique 1.1 et annexe méthodologique 2026, section 7.1, pages 49–50. Intervalles d’incertitude à 95 % : hommes 4,1–7,3 millions ; femmes 2,6–4,7 millions. La ventilation s’appuie selon les pays sur les notifications et sur des modèles informés par des enquêtes de prévalence, qui mesurent les personnes malades à un moment donné ; l’incertitude est plus grande sans enquête nationale. Ces effectifs ne sont pas des taux dans la population de chaque sexe ni une comparaison ajustée selon l’âge ou le pays. Aucun risque relatif individuel ou écart de mortalité par sexe n’en est déduit. Les estimations de l’Inde sont en cours de réexamen ; l’OMS déconseille de comparer directement les chiffres issus d’éditions différentes. Les 1,2 million de cas estimés chez les moins de 15 ans ne sont pas répartis entre filles et garçons dans ce résumé. Aucune cause biologique, comportementale ou sociale unique n’est établie par cette comparaison.
+- Population mesuree: Hommes et femmes de 15 ans ou plus dans les estimations mondiales d’incidence de la tuberculose pour 2025, rapport OMS 2026. Les moins de 15 ans constituent un groupe distinct. Estimations fondées sur surveillance, enquêtes et modèles ; catégories de sexe de la source, sans mesure des chromosomes.
+- Sources: Organisation mondiale de la Santé (12 novembre 2026 ; estimations 2025): https://www.who.int/publications/i/item/9789240126480; Organisation mondiale de la Santé (12 novembre 2026 ; données 2025): https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence; Organisation mondiale de la Santé (12 novembre 2026): https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7; Organisation mondiale de la Santé (12 novembre 2026): https://www.who.int/news-room/fact-sheets/detail/tuberculosis
 
 ## Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes
 - ID: femmes-episodes-depressifs-france-2024

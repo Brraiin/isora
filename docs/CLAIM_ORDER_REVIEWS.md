@@ -4,6 +4,27 @@ Consigner ici seulement les ajouts et déplacements effectifs, avec la date, les
 IDs concernés et une justification qualitative. Pour une veille sans changement,
 indiquer « classement vérifié, conservé » dans son compte rendu.
 
+## 15 novembre 2026 — tuberculose, incidence mondiale estimée
+
+- Nouvelle fiche `hommes-tuberculose-cas-estimes-monde-2025` : huitième parmi
+  les hommes (position 15 après réentrelacement), après le suicide mondial et
+  avant les accidents du travail en France. Plusieurs millions de cas annuels
+  chez les 15 ans ou plus, maladie infectieuse grave et écart documenté dans
+  les estimations OMS ; priorité sur des périmètres nationaux plus étroits.
+  Les indicateurs généraux de mortalité et les principales mortalités masculines
+  mondiales qui la précèdent conservent leur place. La récence du rapport
+  n'est pas le motif du classement. Le total des décès dus à la tuberculose,
+  tous sexes réunis, n'est pas attribué aux hommes.
+- Confiance moyenne : estimations modélisées, intervalles d'incertitude larges
+  et estimations de l'Inde en réexamen. La fiche compare des effectifs de cas,
+  pas des risques ajustés ni des décès par sexe. Aucun enfant n'est ajouté
+  arbitrairement aux effectifs masculins ou féminins.
+- Les 113 fiches antérieures conservent leurs priorités internes et leurs
+  dates de vérification. Alternance hommes/femmes recomposée ;
+  `hommes-esperance-vie` première, mpox dernier parmi les hommes et toujours
+  accessible par recherche. Les positions globales suivantes se décalent
+  mécaniquement avec l'ajout ; aucun autre reclassement éditorial.
+
 ## 6 novembre 2026 — épisodes dépressifs et recours thérapeutique
 
 - Nouvelle fiche `femmes-episodes-depressifs-france-2024` : treizième parmi

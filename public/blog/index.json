@@ -2,8 +2,61 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-13T11:58:12.138Z",
+  "generatedAt": "2026-11-15T06:00:46.723Z",
   "posts": [
+    {
+      "id": "2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025",
+      "title": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025",
+      "url": "https://isora.info/blog/2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025/",
+      "description": "Le rapport OMS 2026 estime 5,7 millions de cas chez les hommes et 3,7 millions chez les femmes de 15 ans ou plus. Périmètre, méthodes et incertitudes.",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T05:56:50Z",
+      "updatedAt": "2026-11-15T05:56:50Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "tuberculose femmes hommes monde 2025",
+        "rapport OMS tuberculose 2026",
+        "cas estimés tuberculose 15 ans et plus",
+        "tuberculose incidence notifications différence"
+      ],
+      "relatedClaimIds": [
+        "hommes-tuberculose-cas-estimes-monde-2025"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Global tuberculosis report 2026 — page 7 du rapport, feuille 23 du PDF",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/publications/i/item/9789240126480",
+          "date": "12 novembre 2026 ; estimations 2025",
+          "type": "rapport primaire téléchargé depuis IRIS OMS ; page complète et notes vérifiées visuellement pour les âges, effectifs et intervalles"
+        },
+        {
+          "title": "Rapport OMS 2026 — 1.1 TB incidence",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence",
+          "date": "12 novembre 2026 ; consulté le 15 novembre 2026",
+          "type": "chapitre numérique du même rapport : cas par âge/sexe, différence avec les notifications et avertissement sur l’Inde"
+        },
+        {
+          "title": "Methods used by WHO to estimate the global burden of TB disease — Global tuberculosis report 2026",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7",
+          "date": "12 novembre 2026",
+          "type": "annexe technique 2026, introduction et section 7.1, pages 49–50 ; ne pas confondre avec le lien ancien vers l’annexe 2025"
+        },
+        {
+          "title": "Tuberculosis — définition, maladie et infection",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+          "date": "12 novembre 2026",
+          "type": "repères de définition et facteurs associés ; même producteur, pas une enquête indépendante"
+        }
+      ]
+    },
     {
       "id": "2026-11-13-juges-procureurs-femmes-hommes-france-2025",
       "title": "Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025",

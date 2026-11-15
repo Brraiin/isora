@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-11-13T11:58:11.970Z",
+  "generatedAt": "2026-11-15T06:00:46.560Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -13,10 +13,10 @@
     "Les fiches sont corrigeables et datees par derniere verification."
   ],
   "counts": {
-    "total": 113,
-    "hommes": 48,
+    "total": 114,
+    "hommes": 49,
     "femmes": 65,
-    "sources": 281
+    "sources": 285
   },
   "domains": [
     "Santé",
@@ -131,6 +131,7 @@
     "historique",
     "homicide",
     "hommes",
+    "incidence estimée",
     "incontinence",
     "international",
     "Iran",
@@ -145,6 +146,7 @@
     "limitations d'activité",
     "logement",
     "magistrats",
+    "maladie infectieuse",
     "management",
     "mariage",
     "marketing",
@@ -232,6 +234,7 @@
     "travail",
     "travail domestique",
     "troubles anxieux",
+    "tuberculose",
     "Ukraine",
     "Union européenne",
     "variable selon pays",
@@ -708,6 +711,66 @@
     ]
   },
   "claims": [
+    {
+      "id": "hommes-tuberculose-cas-estimes-monde-2025",
+      "url": "https://isora.info/fiches/hommes-tuberculose-cas-estimes-monde-2025/",
+      "appUrl": "https://isora.info/#hommes-tuberculose-cas-estimes-monde-2025",
+      "title": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus",
+      "side": "hommes",
+      "angle": "désavantage_subi",
+      "domain": "Santé",
+      "metric": "5,7 M H / 3,7 M F",
+      "summary": "La tuberculose est une maladie infectieuse bactérienne qui atteint le plus souvent les poumons et peut se transmettre par l’air. Pour 2025, l’OMS estime 5,7 millions de cas chez les hommes de 15 ans ou plus, contre 3,7 millions chez les femmes du même âge dans le monde. Il s’agit de nouveaux épisodes de maladie, incluant les rechutes, pas seulement des diagnostics déclarés aux autorités. Les moins de 15 ans sont comptés séparément.",
+      "nuance": "Vérifié le 15 novembre 2026 dans le rapport OMS paru le 12 novembre : page 7 (feuille 23 du PDF), chapitre numérique 1.1 et annexe méthodologique 2026, section 7.1, pages 49–50. Intervalles d’incertitude à 95 % : hommes 4,1–7,3 millions ; femmes 2,6–4,7 millions. La ventilation s’appuie selon les pays sur les notifications et sur des modèles informés par des enquêtes de prévalence, qui mesurent les personnes malades à un moment donné ; l’incertitude est plus grande sans enquête nationale. Ces effectifs ne sont pas des taux dans la population de chaque sexe ni une comparaison ajustée selon l’âge ou le pays. Aucun risque relatif individuel ou écart de mortalité par sexe n’en est déduit. Les estimations de l’Inde sont en cours de réexamen ; l’OMS déconseille de comparer directement les chiffres issus d’éditions différentes. Les 1,2 million de cas estimés chez les moins de 15 ans ne sont pas répartis entre filles et garçons dans ce résumé. Aucune cause biologique, comportementale ou sociale unique n’est établie par cette comparaison.",
+      "tags": [
+        "santé",
+        "tuberculose",
+        "maladie infectieuse",
+        "incidence estimée",
+        "Monde",
+        "OMS"
+      ],
+      "countryScope": "Monde",
+      "regionScope": "Monde",
+      "periodStart": "2025",
+      "periodEnd": "2025",
+      "currentStatus": "actuel",
+      "sourcePopulation": "Hommes et femmes de 15 ans ou plus dans les estimations mondiales d’incidence de la tuberculose pour 2025, rapport OMS 2026. Les moins de 15 ans constituent un groupe distinct. Estimations fondées sur surveillance, enquêtes et modèles ; catégories de sexe de la source, sans mesure des chromosomes.",
+      "libelle_source": "Hommes et femmes de 15 ans ou plus dans les estimations mondiales d’incidence de la tuberculose pour 2025, rapport OMS 2026. Les moins de 15 ans constituent un groupe distinct. Estimations fondées sur surveillance, enquêtes et modèles ; catégories de sexe de la source, sans mesure des chromosomes.",
+      "mesure_chromosomes": false,
+      "date_consultation": "15 novembre 2026",
+      "legalType": "nombre mondial estimé de nouveaux épisodes de tuberculose, rechutes comprises, chez les 15 ans ou plus ; pas un taux de risque individuel",
+      "translationStatus": "source-language",
+      "confidence": "moyenne",
+      "lastChecked": "15 novembre 2026",
+      "source": {
+        "label": "Global tuberculosis report 2026 — page 7 : cas estimés par sexe chez les 15 ans ou plus",
+        "publisher": "Organisation mondiale de la Santé",
+        "url": "https://www.who.int/publications/i/item/9789240126480",
+        "date": "12 novembre 2026 ; estimations 2025"
+      },
+      "additionalSources": [
+        {
+          "label": "Rapport OMS 2026 — chapitre 1.1 TB incidence : âge, sexe, intervalles et limites",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence",
+          "date": "12 novembre 2026 ; données 2025"
+        },
+        {
+          "label": "Annexe technique du rapport mondial sur la tuberculose 2026 — section 7.1, pages 49–50",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7",
+          "date": "12 novembre 2026"
+        },
+        {
+          "label": "Tuberculosis — définition de la maladie et distinction avec l’infection",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+          "date": "12 novembre 2026"
+        }
+      ],
+      "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
+    },
     {
       "id": "femmes-episodes-depressifs-france-2024",
       "url": "https://isora.info/fiches/femmes-episodes-depressifs-france-2024/",

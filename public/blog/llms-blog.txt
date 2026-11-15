@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025
+- URL: https://isora.info/blog/2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025/
+- Date: 2026-11-15
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: hommes-tuberculose-cas-estimes-monde-2025
+- Resume: La tuberculose est une maladie infectieuse causée par des bactéries, qui touche le plus souvent les poumons et peut se transmettre par l’air. Le rapport mondial de l’OMS, publié le 12 novembre 2026, estime pour 2025 davantage de cas chez les hommes de 15 ans ou plus que chez les femmes du même âge : 5,7 millions contre 3,7 millions. Les enfants de moins de 15 ans forment un groupe distinct. Ces nombres sont des estimations de cas, pas des probabilités individuelles de tomber malade.
+- Sources: Organisation mondiale de la Santé (12 novembre 2026 ; estimations 2025): https://www.who.int/publications/i/item/9789240126480; Organisation mondiale de la Santé (12 novembre 2026 ; consulté le 15 novembre 2026): https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence; Organisation mondiale de la Santé (12 novembre 2026): https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7; Organisation mondiale de la Santé (12 novembre 2026): https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+
 ### Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025
 - URL: https://isora.info/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/
 - Date: 2026-11-13
