@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-15T06:00:46.560Z
+Derniere generation: 2026-11-15T22:47:24.737Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025
+- URL: https://isora.info/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/
+- Date: 2026-11-15
+- Fiches isora liees: femmes-temps-partiel
+- Resume: Publié le 12 novembre 2026, le rapport Perspectives des migrations internationales de l’Organisation de coopération et de développement économiques (OCDE) présente pour 2025 un taux d’emploi moyen de 63,4 % chez les femmes immigrées, contre 78,5 % chez les hommes immigrés. L’écart de 15,1 points concerne les populations et pays couverts par le rapport. Il ne mesure ni un taux de chômage, ni une discrimination à caractéristiques identiques.
+- Sources: OCDE: https://www.oecd.org/en/publications/2026/11/international-migration-outlook-2026_3430dee0/full-report/recent-developments-in-international-migration-movements-and-labour-market-inclusion-of-immigrants_a8f69192.html; OCDE: https://www.oecd.org/en/about/news/press-releases/2026/11/migration-to-oecd-countries-declines-for-second-consecutive-year-but-remains-high-by-historical-standards.html; OCDE: https://www.oecd.org/en/data/indicators/employment-rate.html
+
 ### Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025
 - URL: https://isora.info/blog/2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025/
 - Date: 2026-11-15
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-direction-encadrement-monde-2025
 - Resume: Publié le 3 novembre 2026, le rapport Women in business and management: Scaling success de l’Organisation internationale du Travail (OIT) présente une estimation mondiale de 30,5 % de femmes dans les postes de direction et d’encadrement en 2025. Le management désigne ici des professions qui organisent et dirigent des activités, à plusieurs niveaux de responsabilité. Le rapport présente aussi une enquête auprès des entreprises : ses résultats relèvent d’un autre champ et ne doivent pas être confondus avec cette estimation mondiale.
 - Sources: Organisation internationale du Travail: https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf; ONU / OIT: https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf; ILOSTAT / OIT: https://ilostat.ilo.org/dataviz/wibm/; Organisation internationale du Travail: https://www.ilo.org/resource/news/businesses-report-growing-benefits-gender-equality
-
-### Justice pénale : les hommes représentent 88 % des personnes condamnées en 2025
-- URL: https://isora.info/blog/2026-11-01-condamnes-femmes-hommes-france-2025/
-- Date: 2026-11-01
-- Fiches isora liees: hommes-sanctions-penales-plus-lourdes
-- Resume: Le fascicule Chiffres clés de la Justice 2026, publié le 29 octobre, présente 437 059 condamnés pour l’année 2025 : 88 % sont des hommes et 12 % des femmes. Ces parts décrivent les personnes condamnées dans le champ du Casier judiciaire national, en France hors collectivités d’outre-mer. Elles ne signifient pas que 88 % des hommes ont été condamnés et ne mesurent pas, à elles seules, une différence de sévérité des peines entre les sexes.
-- Sources: Ministère de la Justice / SSER: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/chiffres-cles-justice-2026; Ministère de la Justice / SSER: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/legere-hausse-du-nombre-condamnations-prononcees-2025; Insee, Faustine Büsch et Odile Timbart: https://www.insee.fr/fr/statistiques/2586464?sommaire=2586548; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales; Service Public / DILA: https://www.service-public.gouv.fr/particuliers/vosdroits/F18509
 
 
 ## Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus

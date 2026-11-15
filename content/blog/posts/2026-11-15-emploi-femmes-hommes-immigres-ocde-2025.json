@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-15-emploi-femmes-hommes-immigres-ocde-2025",
+  "slug": "2026-11-15-emploi-femmes-hommes-immigres-ocde-2025",
+  "status": "published",
+  "language": "fr",
+  "title": "Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025",
+  "description": "Le rapport OCDE du 12 novembre mesure un écart de 15,1 points. Définition du taux d’emploi, populations et limites de cette comparaison internationale.",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-15T22:47:20Z",
+  "updatedAt": "2026-11-15T22:47:20Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d'emploi"
+  },
+  "keywords": [
+    "emploi femmes hommes immigrés OCDE 2025",
+    "Perspectives migrations internationales 2026",
+    "taux emploi femmes immigrées moyenne OCDE",
+    "emploi chômage différences dénominateurs"
+  ],
+  "relatedClaimIds": [
+    "femmes-temps-partiel"
+  ],
+  "readingMinutes": 4,
+  "summary": "Publié le 12 novembre 2026, le rapport Perspectives des migrations internationales de l’Organisation de coopération et de développement économiques (OCDE) présente pour 2025 un taux d’emploi moyen de 63,4 % chez les femmes immigrées, contre 78,5 % chez les hommes immigrés. L’écart de 15,1 points concerne les populations et pays couverts par le rapport. Il ne mesure ni un taux de chômage, ni une discrimination à caractéristiques identiques.",
+  "keyPoints": [
+    "La moyenne publiée pour 2025 est de 63,4 % chez les femmes immigrées et de 78,5 % chez les hommes immigrés, soit 15,1 points d’écart.",
+    "Un taux d’emploi rapporte les personnes en emploi à la population de référence ; il ne rapporte pas les chômeurs aux personnes actives.",
+    "Le rapport relève une réduction de l’écart femmes-hommes dans 24 des 35 pays disposant de données : la situation ne se dégrade donc pas partout.",
+    "Les résultats sont descriptifs, avec des champs nationaux particuliers. Ils ne donnent pas une comparaison ajustée, ni une valeur propre à la France."
+  ],
+  "sections": [
+    {
+      "heading": "Ce que compte un taux d’emploi",
+      "paragraphs": [
+        "Le taux d’emploi indique la part des personnes de la population étudiée qui occupent un emploi. La définition générale de l’OCDE inclut un travail rémunéré d’au moins une heure pendant la semaine de référence, ainsi que les personnes ayant un emploi mais temporairement absentes. Le champ habituel de la population en âge de travailler est celui des 15–64 ans.",
+        "Un emploi à temps partiel peut donc compter comme un emploi, tout comme un temps plein. Ce taux ne dit pas combien d’heures sont travaillées, quel revenu est perçu ou si les conditions de travail sont satisfaisantes. Une égalité de taux d’emploi ne suffirait pas à établir une égalité sur ces autres dimensions.",
+        "Le complément à 100 % ne constitue pas un taux de chômage : les personnes sans emploi peuvent être au chômage ou hors de la population active. Confondre ces situations ferait attribuer au chômage des personnes qui ne remplissent pas ses critères."
+      ]
+    },
+    {
+      "heading": "Une comparaison internationale à lire avec son champ",
+      "paragraphs": [
+        "Le chapitre 1 compare explicitement les deux sexes, sans reconstruire les taux à partir d’une moyenne globale. Il décrit aussi une amélioration du taux d’emploi féminin dans 22 des 35 pays couverts par l’analyse des évolutions, et un resserrement de l’écart dans 24. Ces nombres de pays ne représentent pas des parts de personnes.",
+        "Le rapport emploie principalement le lieu de naissance pour distinguer immigrés et personnes nées dans le pays. Cette catégorie n’est pas synonyme de nationalité étrangère, d’arrivée récente ou de statut de réfugié. Les catégories femmes et hommes sont celles des enquêtes, sans mesure des chromosomes.",
+        "Les notes nationales doivent rester visibles. La figure 1.26 retient principalement les 15–64 ans, avec une exception coréenne portant sur les 15 ans ou plus, les étrangers et les personnes naturalisées depuis moins de cinq ans. Le tableau 1.6 indique pour la Corée un champ de 15–59 ans. Ces différences empêchent de présenter toutes les séries du chapitre comme un ensemble parfaitement homogène."
+      ]
+    },
+    {
+      "heading": "Ce que l’écart ne permet pas de conclure",
+      "paragraphs": [
+        "Une moyenne internationale ne doit pas devenir un taux pour chaque pays ni une proportion parmi tous les immigrés du monde. Le tableau 1.6 précise que ses moyennes sont des moyennes simples des pays disposant des données nécessaires ; elles ne doivent pas être assimilées à un total pondéré de toutes les personnes. La synthèse par sexe est ici reprise comme moyenne publiée par l’OCDE, sans recalculer son agrégation.",
+        "Les deux taux ne comparent pas des personnes identiques selon l’âge, les études, la durée de séjour, les responsabilités familiales ou le contexte économique. Ils ne quantifient donc pas, à eux seuls, une discrimination à l’embauche, une préférence individuelle ou l’effet causal d’une norme sociale. Le résultat ne permet pas de choisir une explication unique.",
+        "La fiche sur le temps partiel, liée ci-dessous, apporte un repère sur une autre dimension de l’emploi. Ses chiffres, sa population et sa date de vérification restent inchangés : le rapport sur les immigrés ne les remplace pas. Les trois références citées proviennent du même organisme et remplissent des rôles différents — rapport, communiqué et définition — sans constituer trois enquêtes indépendantes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "63,4 % signifie-t-il que les autres femmes immigrées sont au chômage ?",
+      "answer": "Non. Les personnes sans emploi comprennent aussi celles qui sont hors de la population active. Le chômage utilise un autre dénominateur."
+    },
+    {
+      "question": "L’écart vaut-il pour la France ?",
+      "answer": "La valeur citée est une moyenne OCDE. Elle ne doit pas être attribuée automatiquement à la France ou à chaque pays."
+    },
+    {
+      "question": "Le rapport remplace-t-il la fiche sur le temps partiel ?",
+      "answer": "Non. Occuper un emploi et travailler à temps partiel sont deux indicateurs différents, sur des populations qui ne sont pas nécessairement les mêmes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "International Migration Outlook 2026 — chapitre 1, pages 59 et 62–63",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/publications/2026/11/international-migration-outlook-2026_3430dee0/full-report/recent-developments-in-international-migration-movements-and-labour-market-inclusion-of-immigrants_a8f69192.html",
+      "date": "12 novembre 2026 ; données 2025",
+      "type": "rapport statistique primaire ; comparaison par sexe, tableau 1.6 et figure 1.26 avec leurs notes"
+    },
+    {
+      "title": "Migration to OECD countries declines for second consecutive year, but remains high by historical standards",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/about/news/press-releases/2026/11/migration-to-oecd-countries-declines-for-second-consecutive-year-but-remains-high-by-historical-standards.html",
+      "date": "12 novembre 2026",
+      "type": "communiqué du même rapport ; confirmation du taux féminin et de l’écart, pas une enquête indépendante"
+    },
+    {
+      "title": "Employment rate — définition de l’indicateur",
+      "publisher": "OCDE",
+      "url": "https://www.oecd.org/en/data/indicators/employment-rate.html",
+      "date": "consulté le 15 novembre 2026",
+      "type": "complément méthodologique ; emploi, semaine de référence, âge et dénominateur ; pas une source distincte des taux migratoires"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-15T22:47:20Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-15T22:47:20Z",
+    "reviewNote": "Rapport officiel OCDE 2026 téléchargé ; pages imprimées 59, 62–63 (PDF 61, 64–65), texte et notes examinés. Taux F/H 63,4/78,5 et écart 15,1 directement publiés. Différences de champ coréen entre tableau et figure explicites ; moyenne par sexe non recalculée. Aucun taux sexué déduit du global, aucune causalité ou discrimination identifiée par ces seuls taux. Trois références officielles de rôles différents, non indépendantes. Absence de sujet équivalent dans les 58 articles vérifiée. Pas de nouvelle fiche autonome : champs et agrégation à approfondir ; relation avec temps partiel explicitement contextuelle. Toutes les fiches et dates de vérification conservées. Classement vérifié, conservé : mortalité, violences, santé, droits et effets sociaux durables prioritaires ; tuberculose inchangée au huitième rang masculin, mpox dernier parmi les hommes. Aucun changement préexistant au départ."
+  }
+}

@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025",
+    "blogUrl": "/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/",
+    "date": "2026-11-15",
+    "updatedAt": "2026-11-15T22:47:20Z"
+  },
+  {
     "claimId": "hommes-tuberculose-cas-estimes-monde-2025",
     "side": "hommes",
     "claimTitle": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus",
@@ -40,16 +50,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/",
     "date": "2026-11-11",
     "updatedAt": "2026-11-11T20:21:06Z"
-  },
-  {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026",
-    "blogUrl": "/blog/2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026/",
-    "date": "2026-11-11",
-    "updatedAt": "2026-11-11T13:32:43Z"
   },
   {
     "claimId": "femmes-violences-conjugales",

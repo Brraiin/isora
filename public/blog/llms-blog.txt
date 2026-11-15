@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025
+- URL: https://isora.info/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/
+- Date: 2026-11-15
+- Sujet: Travail, revenus et conditions d'emploi
+- Fiches isora liees: femmes-temps-partiel
+- Resume: Publié le 12 novembre 2026, le rapport Perspectives des migrations internationales de l’Organisation de coopération et de développement économiques (OCDE) présente pour 2025 un taux d’emploi moyen de 63,4 % chez les femmes immigrées, contre 78,5 % chez les hommes immigrés. L’écart de 15,1 points concerne les populations et pays couverts par le rapport. Il ne mesure ni un taux de chômage, ni une discrimination à caractéristiques identiques.
+- Sources: OCDE (12 novembre 2026 ; données 2025): https://www.oecd.org/en/publications/2026/11/international-migration-outlook-2026_3430dee0/full-report/recent-developments-in-international-migration-movements-and-labour-market-inclusion-of-immigrants_a8f69192.html; OCDE (12 novembre 2026): https://www.oecd.org/en/about/news/press-releases/2026/11/migration-to-oecd-countries-declines-for-second-consecutive-year-but-remains-high-by-historical-standards.html; OCDE (consulté le 15 novembre 2026): https://www.oecd.org/en/data/indicators/employment-rate.html
+
 ### Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025
 - URL: https://isora.info/blog/2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025/
 - Date: 2026-11-15

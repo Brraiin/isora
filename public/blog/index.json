@@ -2,8 +2,54 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-15T06:00:46.723Z",
+  "generatedAt": "2026-11-15T22:47:24.900Z",
   "posts": [
+    {
+      "id": "2026-11-15-emploi-femmes-hommes-immigres-ocde-2025",
+      "title": "Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025",
+      "url": "https://isora.info/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/",
+      "description": "Le rapport OCDE du 12 novembre mesure un écart de 15,1 points. Définition du taux d’emploi, populations et limites de cette comparaison internationale.",
+      "date": "2026-11-15",
+      "publishedAt": "2026-11-15T22:47:20Z",
+      "updatedAt": "2026-11-15T22:47:20Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d'emploi"
+      },
+      "keywords": [
+        "emploi femmes hommes immigrés OCDE 2025",
+        "Perspectives migrations internationales 2026",
+        "taux emploi femmes immigrées moyenne OCDE",
+        "emploi chômage différences dénominateurs"
+      ],
+      "relatedClaimIds": [
+        "femmes-temps-partiel"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "International Migration Outlook 2026 — chapitre 1, pages 59 et 62–63",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/publications/2026/11/international-migration-outlook-2026_3430dee0/full-report/recent-developments-in-international-migration-movements-and-labour-market-inclusion-of-immigrants_a8f69192.html",
+          "date": "12 novembre 2026 ; données 2025",
+          "type": "rapport statistique primaire ; comparaison par sexe, tableau 1.6 et figure 1.26 avec leurs notes"
+        },
+        {
+          "title": "Migration to OECD countries declines for second consecutive year, but remains high by historical standards",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/about/news/press-releases/2026/11/migration-to-oecd-countries-declines-for-second-consecutive-year-but-remains-high-by-historical-standards.html",
+          "date": "12 novembre 2026",
+          "type": "communiqué du même rapport ; confirmation du taux féminin et de l’écart, pas une enquête indépendante"
+        },
+        {
+          "title": "Employment rate — définition de l’indicateur",
+          "publisher": "OCDE",
+          "url": "https://www.oecd.org/en/data/indicators/employment-rate.html",
+          "date": "consulté le 15 novembre 2026",
+          "type": "complément méthodologique ; emploi, semaine de référence, âge et dénominateur ; pas une source distincte des taux migratoires"
+        }
+      ]
+    },
     {
       "id": "2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025",
       "title": "Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025",
