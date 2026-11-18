@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-11-15T22:47:24.737Z",
+  "generatedAt": "2026-11-18T20:15:26.578Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -16,7 +16,7 @@
     "total": 114,
     "hommes": 49,
     "femmes": 65,
-    "sources": 285
+    "sources": 287
   },
   "domains": [
     "Santé",
@@ -103,6 +103,7 @@
     "enseignement primaire",
     "enseignement supérieur",
     "espaces non mixtes",
+    "estimations",
     "États-Unis",
     "EU-SILC",
     "Europe",
@@ -118,6 +119,7 @@
     "femmes hommes",
     "filiation",
     "filles",
+    "filles et garçons",
     "France",
     "fréquence déclarée",
     "garde des enfants",
@@ -236,6 +238,7 @@
     "troubles anxieux",
     "tuberculose",
     "Ukraine",
+    "UNICEF",
     "Union européenne",
     "variable selon pays",
     "véhicules",
@@ -4921,39 +4924,54 @@
       "id": "femmes-violences-sexuelles-enfance",
       "url": "https://isora.info/fiches/femmes-violences-sexuelles-enfance/",
       "appUrl": "https://isora.info/#femmes-violences-sexuelles-enfance",
-      "title": "Filles victimes de violences sexuelles avant 18 ans",
+      "title": "Viols ou agressions sexuelles avant 18 ans : filles et femmes davantage concernées",
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Violences",
-      "metric": "370 M+",
-      "summary": "L'UNICEF estime que plus de 370 millions de filles et femmes vivantes ont subi un viol ou une agression sexuelle avant l'âge de 18 ans.",
-      "nuance": "Les données sur les violences sexuelles sont sensibles à la sous-déclaration. Les estimations doivent être lues comme un ordre de grandeur minimal.",
+      "metric": "370 M+ F / 240–310 M H",
+      "summary": "Dans ses estimations mondiales publiées en 2024, l’UNICEF indique que plus de 370 millions de filles et femmes vivantes ont subi un viol ou une agression sexuelle avant 18 ans, contre 240 à 310 millions de garçons et hommes. Ce sont des expériences subies pendant l’enfance, rapportées par des personnes de plusieurs générations ; pas des cas survenus en une seule année.",
+      "nuance": "Revue du 17 novembre 2026 : ajout du résultat masculin publié par la même source, distinction des définitions et précision des limites. La mesure porte sur les violences sexuelles avec contact physique, dont les viols et agressions sexuelles ; elle exclut ici les violences sans contact, notamment en ligne ou verbales. Les données féminines proviennent principalement d’enquêtes nationales réalisées entre 2010 et 2022 dans 120 pays et territoires. Les lacunes sont plus importantes pour les garçons et hommes, dont les estimations recourent aussi à des méthodes indirectes. La fourchette masculine ne doit pas être présentée comme un intervalle de confiance à 95 % : la source ne la qualifie pas ainsi. Déclarations, mémoire, définitions et couverture des enquêtes limitent la comparaison ; aucun taux corrigé de sous-déclaration ni cause unique n’est calculé. Les annonces OMS du 17 novembre concernent la prévention et ne constituent pas une nouvelle mesure de prévalence. Confiance moyenne sur la précision de la comparaison, sans modifier le millésime 2024 des estimations.",
       "tags": [
-        "violences",
+        "violences sexuelles",
         "enfance",
-        "santé",
-        "monde"
+        "filles et garçons",
+        "estimations",
+        "Monde",
+        "UNICEF"
       ],
       "countryScope": "Monde",
       "regionScope": "Monde",
       "periodStart": "2024",
-      "periodEnd": null,
+      "periodEnd": "2024",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Filles et femmes, garçons et hommes vivants au moment des estimations mondiales UNICEF publiées en 2024, ayant subi un viol ou une agression sexuelle avant 18 ans. Plusieurs générations, estimation rétrospective, pas incidence annuelle. Catégories de sexe des sources, sans mesure des chromosomes.",
+      "libelle_source": "Filles et femmes, garçons et hommes vivants au moment des estimations mondiales UNICEF publiées en 2024, ayant subi un viol ou une agression sexuelle avant 18 ans. Plusieurs générations, estimation rétrospective, pas incidence annuelle. Catégories de sexe des sources, sans mesure des chromosomes.",
       "mesure_chromosomes": false,
-      "date_consultation": "15 juin 2026",
-      "legalType": "violences",
+      "date_consultation": "17 novembre 2026",
+      "legalType": "estimations rétrospectives UNICEF publiées en 2024 : viols ou agressions sexuelles avec contact avant 18 ans, pas cas annuels ni violences sans contact",
       "translationStatus": "source-language",
-      "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "confidence": "moyenne",
+      "lastChecked": "17 novembre 2026",
       "source": {
-        "label": "Over 370 million girls and women globally subjected to rape or sexual assault as children",
-        "publisher": "UNICEF",
-        "url": "https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children",
-        "date": "2024"
+        "label": "Sexual violence — estimations mondiales UNICEF 2024, avec et sans contact, filles/femmes et garçons/hommes",
+        "publisher": "UNICEF Data",
+        "url": "https://data.unicef.org/topic/child-protection/violence/sexual-violence/",
+        "date": "estimations publiées en 2024 ; consulté le 17 novembre 2026"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Over 370 million girls and women globally subjected to rape or sexual assault as children — résultats masculins et notes méthodologiques",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children",
+          "date": "octobre 2024"
+        },
+        {
+          "label": "Governments make over 230 new pledges to prevent violence against children — engagements annoncés, pas nouveaux chiffres de prévalence",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children",
+          "date": "17 novembre 2026"
+        }
+      ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {

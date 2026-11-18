@@ -2,8 +2,108 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-15T22:47:24.900Z",
+  "generatedAt": "2026-11-18T20:15:26.757Z",
   "posts": [
+    {
+      "id": "2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons",
+      "title": "Quatrième en 2026 : les filles devant en français, les garçons en mathématiques",
+      "url": "https://isora.info/blog/2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons/",
+      "description": "La DEPP publie les évaluations 2026 de quatrième : deux écarts de sens opposé, sur un champ qui exclut l’académie de Toulouse.",
+      "date": "2026-11-18",
+      "publishedAt": "2026-11-18T20:13:11Z",
+      "updatedAt": "2026-11-18T20:13:11Z",
+      "topic": {
+        "id": "education-orientation",
+        "label": "Éducation, orientation et formation"
+      },
+      "keywords": [
+        "évaluations quatrième 2026 filles garçons",
+        "DEPP français mathématiques septembre 2026",
+        "écarts scolaires selon le sexe",
+        "académie Toulouse périmètre évaluations"
+      ],
+      "relatedClaimIds": [
+        "hommes-decrochage-garcons-monde",
+        "femmes-ingenierie"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Évaluations de début de quatrième 2026 — Résultats nationaux, document de travail 2026-E26",
+          "publisher": "DEPP / Ministère de l’Éducation nationale",
+          "url": "https://www.education.gouv.fr/sites/default/files/document/-valuations-nationales-de-d-but-de-quatri-me-523293.pdf",
+          "date": "novembre 2026 ; diffusion le 18 novembre 2026",
+          "type": "rapport statistique primaire ; participation et champ p. 39–41, français selon le sexe p. 44, mathématiques selon le sexe p. 63"
+        },
+        {
+          "title": "Évaluations de début de quatrième 2026 — Résultats nationaux : page de diffusion",
+          "publisher": "DEPP / Ministère de l’Éducation nationale",
+          "url": "https://www.education.gouv.fr/depp/evaluations-de-debut-de-quatrieme-2026-resultats-nationaux-506793",
+          "date": "18 novembre 2026",
+          "type": "notice institutionnelle de publication ; même dispositif que le rapport, pas une mesure indépendante"
+        },
+        {
+          "title": "Les évaluations nationales de quatrième",
+          "publisher": "Éduscol / Ministère de l’Éducation nationale",
+          "url": "https://eduscol.education.gouv.fr/5259/les-evaluations-nationales-de-quatrieme",
+          "date": "septembre 2026 ; consulté le 18 novembre 2026",
+          "type": "documentation pédagogique officielle ; objectifs et compétences évaluées, sans nouvelle estimation sexuée"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-violences-enfance-engagements-oms-filles-garcons",
+      "title": "Violences dans l’enfance : de nouveaux engagements, et des estimations à distinguer pour les filles et les garçons",
+      "url": "https://isora.info/blog/2026-11-17-violences-enfance-engagements-oms-filles-garcons/",
+      "description": "L’OMS annonce de nouveaux engagements le 17 novembre. Isora précise les estimations UNICEF sur les victimes des deux sexes et leurs limites de comparaison.",
+      "date": "2026-11-17",
+      "publishedAt": "2026-11-17T18:04:39Z",
+      "updatedAt": "2026-11-17T18:04:39Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "violences sexuelles enfance filles garçons UNICEF",
+        "OMS engagements Manille novembre 2026",
+        "violences avec sans contact estimations",
+        "victimes enfance femmes hommes monde"
+      ],
+      "relatedClaimIds": [
+        "femmes-violences-sexuelles-enfance"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Governments make over 230 new pledges to prevent violence against children",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children",
+          "date": "17 novembre 2026",
+          "type": "actualité institutionnelle primaire ; engagements annoncés pour la conférence des 18–19 novembre, pas bilan de résultats"
+        },
+        {
+          "title": "Sexual violence — estimations mondiales et définitions",
+          "publisher": "UNICEF Data",
+          "url": "https://data.unicef.org/topic/child-protection/violence/sexual-violence/",
+          "date": "estimations publiées en 2024 ; consulté le 17 novembre 2026",
+          "type": "source statistique primaire ; distinction avec/sans contact, données des deux sexes et limites d’harmonisation"
+        },
+        {
+          "title": "Over 370 million girls and women globally subjected to rape or sexual assault as children",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children",
+          "date": "octobre 2024",
+          "type": "communiqué et notes sur les enquêtes 2010–2022 et les méthodes indirectes ; même estimation, pas confirmation indépendante"
+        },
+        {
+          "title": "Child maltreatment — définition, conséquences et prévention",
+          "publisher": "Organisation mondiale de la Santé",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/child-maltreatment",
+          "date": "8 mai 2026",
+          "type": "repères de périmètre et de prévention ; pas une évaluation des engagements du 17 novembre"
+        }
+      ]
+    },
     {
       "id": "2026-11-15-emploi-femmes-hommes-immigres-ocde-2025",
       "title": "Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025",

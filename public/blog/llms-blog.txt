@@ -13,6 +13,22 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Quatrième en 2026 : les filles devant en français, les garçons en mathématiques
+- URL: https://isora.info/blog/2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons/
+- Date: 2026-11-18
+- Sujet: Éducation, orientation et formation
+- Fiches isora liees: hommes-decrochage-garcons-monde, femmes-ingenierie
+- Resume: Les résultats nationaux de début de quatrième, publiés le 18 novembre 2026 par la Direction de l’évaluation, de la prospective et de la performance (DEPP), montrent un score moyen plus élevé pour les filles en français et pour les garçons en mathématiques. Ces mesures portent sur les élèves évalués à la rentrée 2026 dans les établissements publics et privés sous contrat du ministère de l’Éducation nationale, hors académie de Toulouse. Elles ne mesurent ni une aptitude innée ni le décrochage scolaire.
+- Sources: DEPP / Ministère de l’Éducation nationale (novembre 2026 ; diffusion le 18 novembre 2026): https://www.education.gouv.fr/sites/default/files/document/-valuations-nationales-de-d-but-de-quatri-me-523293.pdf; DEPP / Ministère de l’Éducation nationale (18 novembre 2026): https://www.education.gouv.fr/depp/evaluations-de-debut-de-quatrieme-2026-resultats-nationaux-506793; Éduscol / Ministère de l’Éducation nationale (septembre 2026 ; consulté le 18 novembre 2026): https://eduscol.education.gouv.fr/5259/les-evaluations-nationales-de-quatrieme
+
+### Violences dans l’enfance : de nouveaux engagements, et des estimations à distinguer pour les filles et les garçons
+- URL: https://isora.info/blog/2026-11-17-violences-enfance-engagements-oms-filles-garcons/
+- Date: 2026-11-17
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: femmes-violences-sexuelles-enfance
+- Resume: Le 17 novembre 2026, l’Organisation mondiale de la Santé (OMS) annonce plus de 230 nouveaux engagements contre les violences faites aux enfants, à présenter lors de la conférence ministérielle de Manille des 18 et 19 novembre. Il s’agit d’annonces d’action publique. Pour situer les asymétries entre filles et garçons, les estimations UNICEF publiées en 2024 restent une référence distincte : elles portent sur des expériences vécues avant 18 ans, sans mesurer une évolution en 2026.
+- Sources: Organisation mondiale de la Santé (17 novembre 2026): https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children; UNICEF Data (estimations publiées en 2024 ; consulté le 17 novembre 2026): https://data.unicef.org/topic/child-protection/violence/sexual-violence/; UNICEF (octobre 2024): https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children; Organisation mondiale de la Santé (8 mai 2026): https://www.who.int/news-room/fact-sheets/detail/child-maltreatment
+
 ### Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025
 - URL: https://isora.info/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/
 - Date: 2026-11-15

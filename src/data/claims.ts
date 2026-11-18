@@ -3456,24 +3456,59 @@ const rawClaims: RawClaim[] = [
       "Le 70 % porte sur des condamnations pour homicide volontaire sur mineur de moins de 15 ans, pas sur tous les décès violents d'enfants ni sur toutes les mises en cause. Le rapport Justice rappelle que la qualification pénale évolue, que les chiffres de police et de justice ne couvrent pas exactement le même champ, et que les pères sont notamment cités pour les morts de nourrissons victimes du syndrome du bébé secoué.",
   },
   {
-    id: "femmes-violences-sexuelles-enfance",
-    side: "femmes",
-    domain: "Violences",
-    title: "Filles victimes de violences sexuelles avant 18 ans",
-    metric: "370 M+",
-    summary:
-      "L'UNICEF estime que plus de 370 millions de filles et femmes vivantes ont subi un viol ou une agression sexuelle avant l'âge de 18 ans.",
-    tags: ["violences", "enfance", "santé", "monde"],
-    source: {
-      label: "Over 370 million girls and women globally subjected to rape or sexual assault as children",
-      publisher: "UNICEF",
-      url: "https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children",
-      date: "2024",
+    "id": "femmes-violences-sexuelles-enfance",
+    "side": "femmes",
+    "domain": "Violences",
+    "title": "Viols ou agressions sexuelles avant 18 ans : filles et femmes davantage concernées",
+    "metric": "370 M+ F / 240–310 M H",
+    "summary": "Dans ses estimations mondiales publiées en 2024, l’UNICEF indique que plus de 370 millions de filles et femmes vivantes ont subi un viol ou une agression sexuelle avant 18 ans, contre 240 à 310 millions de garçons et hommes. Ce sont des expériences subies pendant l’enfance, rapportées par des personnes de plusieurs générations ; pas des cas survenus en une seule année.",
+    "nuance": "Revue du 17 novembre 2026 : ajout du résultat masculin publié par la même source, distinction des définitions et précision des limites. La mesure porte sur les violences sexuelles avec contact physique, dont les viols et agressions sexuelles ; elle exclut ici les violences sans contact, notamment en ligne ou verbales. Les données féminines proviennent principalement d’enquêtes nationales réalisées entre 2010 et 2022 dans 120 pays et territoires. Les lacunes sont plus importantes pour les garçons et hommes, dont les estimations recourent aussi à des méthodes indirectes. La fourchette masculine ne doit pas être présentée comme un intervalle de confiance à 95 % : la source ne la qualifie pas ainsi. Déclarations, mémoire, définitions et couverture des enquêtes limitent la comparaison ; aucun taux corrigé de sous-déclaration ni cause unique n’est calculé. Les annonces OMS du 17 novembre concernent la prévention et ne constituent pas une nouvelle mesure de prévalence. Confiance moyenne sur la précision de la comparaison, sans modifier le millésime 2024 des estimations.",
+    "tags": [
+      "violences sexuelles",
+      "enfance",
+      "filles et garçons",
+      "estimations",
+      "Monde",
+      "UNICEF"
+    ],
+    "source": {
+      "label": "Sexual violence — estimations mondiales UNICEF 2024, avec et sans contact, filles/femmes et garçons/hommes",
+      "publisher": "UNICEF Data",
+      "url": "https://data.unicef.org/topic/child-protection/violence/sexual-violence/",
+      "date": "estimations publiées en 2024 ; consulté le 17 novembre 2026"
     },
-    confidence: "forte",
-    lastChecked: "15 juin 2026",
-    nuance:
-      "Les données sur les violences sexuelles sont sensibles à la sous-déclaration. Les estimations doivent être lues comme un ordre de grandeur minimal.",
+    "additionalSources": [
+      {
+        "label": "Over 370 million girls and women globally subjected to rape or sexual assault as children — résultats masculins et notes méthodologiques",
+        "publisher": "UNICEF",
+        "url": "https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children",
+        "date": "octobre 2024"
+      },
+      {
+        "label": "Governments make over 230 new pledges to prevent violence against children — engagements annoncés, pas nouveaux chiffres de prévalence",
+        "publisher": "Organisation mondiale de la Santé",
+        "url": "https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children",
+        "date": "17 novembre 2026"
+      }
+    ],
+    "confidence": "moyenne",
+    "lastChecked": "17 novembre 2026",
+    "translations": {
+      "en": {
+        "title": "Rape or sexual assault before age 18: higher estimates among girls and women",
+        "summary": "In its global estimates published in 2024, UNICEF reports that more than 370 million living girls and women experienced rape or sexual assault before age 18, compared with 240–310 million boys and men. These are childhood experiences across several generations, not incidents occurring in a single year.",
+        "nuance": "Reviewed on 17 November 2026: added the male estimate from the same source, clarified definitions and limits. The indicator covers contact sexual violence, including rape and sexual assault; non-contact forms, such as online or verbal abuse, are excluded here. Female estimates mainly use national surveys conducted in 2010–2022 across 120 countries and areas. Gaps are greater for boys and men, for whom indirect methods are also used. The male range is not labelled a 95% confidence interval by the source and must not be presented as one. Reporting, recall, definitions and survey coverage limit comparison; no under-reporting correction or single cause is calculated. WHO’s 17 November announcement concerns prevention commitments, not a new prevalence measurement. Confidence is moderate for precision of the comparison; the estimates retain their 2024 reference edition.",
+        "sourcePopulation": "Girls and women, and boys and men, alive at the time of UNICEF’s global estimates published in 2024, who experienced rape or sexual assault before age 18. Multiple generations; retrospective estimates, not annual incidence. Source sex categories; chromosomes are not measured.",
+        "tags": [
+          "sexual violence",
+          "childhood",
+          "girls and boys",
+          "estimates",
+          "World",
+          "UNICEF"
+        ]
+      }
+    }
   },
   {
     id: "femmes-mariage-enfants",
@@ -4757,7 +4792,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-violences-sexuelles-conflits":
     "Population mesurée par les sources : cas vérifiés de violences sexuelles liées aux conflits, victimes civiles par sexe dans les rapports ONU, et cas documentés par l'UE ou Amnesty dans certains conflits. Les sources ne mesurent pas les chromosomes.",
   "femmes-violences-sexuelles-enfance":
-    "Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.",
+    "Filles et femmes, garçons et hommes vivants au moment des estimations mondiales UNICEF publiées en 2024, ayant subi un viol ou une agression sexuelle avant 18 ans. Plusieurs générations, estimation rétrospective, pas incidence annuelle. Catégories de sexe des sources, sans mesure des chromosomes.",
   "femmes-mariage-enfants":
     "Population mesurée par la source : girls and women / filles et femmes mariées pendant l'enfance. La source ne mesure pas les chromosomes.",
   "femmes-pression-virginite-avant-mariage":
@@ -4835,6 +4870,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "femmes-violences-sexuelles-enfance": {
+    "pays_ou_zone": "Monde",
+    "regionScope": "Monde",
+    "periode_debut": "2024",
+    "periode_fin": "2024",
+    "statut_temporel": "actuel",
+    "intensite_contextuelle": "extrême",
+    "legalType": "estimations rétrospectives UNICEF publiées en 2024 : viols ou agressions sexuelles avec contact avant 18 ans, pas cas annuels ni violences sans contact"
+  },
   "hommes-tuberculose-cas-estimes-monde-2025": {
     "pays_ou_zone": "Monde",
     "regionScope": "Monde",

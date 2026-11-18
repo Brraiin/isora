@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-11-15T22:47:24.737Z
+Last generation: 2026-11-18T20:15:26.578Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -22,7 +22,7 @@ Last generation: 2026-11-15T22:47:24.737Z
 - Entries: 114
 - Entries about men: 49
 - Entries about women: 65
-- Distinct sources: 285
+- Distinct sources: 287
 - Domains: Santé, Travail, Autonomie, Religieux, Éducation, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Editorial method
@@ -157,6 +157,20 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Quatrième en 2026 : les filles devant en français, les garçons en mathématiques
+- URL: https://isora.info/blog/2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons/
+- Date: 2026-11-18
+- Related isora entries: hommes-decrochage-garcons-monde, femmes-ingenierie
+- Summary: Les résultats nationaux de début de quatrième, publiés le 18 novembre 2026 par la Direction de l’évaluation, de la prospective et de la performance (DEPP), montrent un score moyen plus élevé pour les filles en français et pour les garçons en mathématiques. Ces mesures portent sur les élèves évalués à la rentrée 2026 dans les établissements publics et privés sous contrat du ministère de l’Éducation nationale, hors académie de Toulouse. Elles ne mesurent ni une aptitude innée ni le décrochage scolaire.
+- Sources: DEPP / Ministère de l’Éducation nationale: https://www.education.gouv.fr/sites/default/files/document/-valuations-nationales-de-d-but-de-quatri-me-523293.pdf; DEPP / Ministère de l’Éducation nationale: https://www.education.gouv.fr/depp/evaluations-de-debut-de-quatrieme-2026-resultats-nationaux-506793; Éduscol / Ministère de l’Éducation nationale: https://eduscol.education.gouv.fr/5259/les-evaluations-nationales-de-quatrieme
+
+### Violences dans l’enfance : de nouveaux engagements, et des estimations à distinguer pour les filles et les garçons
+- URL: https://isora.info/blog/2026-11-17-violences-enfance-engagements-oms-filles-garcons/
+- Date: 2026-11-17
+- Related isora entries: femmes-violences-sexuelles-enfance
+- Summary: Le 17 novembre 2026, l’Organisation mondiale de la Santé (OMS) annonce plus de 230 nouveaux engagements contre les violences faites aux enfants, à présenter lors de la conférence ministérielle de Manille des 18 et 19 novembre. Il s’agit d’annonces d’action publique. Pour situer les asymétries entre filles et garçons, les estimations UNICEF publiées en 2024 restent une référence distincte : elles portent sur des expériences vécues avant 18 ans, sans mesurer une évolution en 2026.
+- Sources: Organisation mondiale de la Santé: https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children; UNICEF Data: https://data.unicef.org/topic/child-protection/violence/sexual-violence/; UNICEF: https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/child-maltreatment
+
 ### Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025
 - URL: https://isora.info/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/
 - Date: 2026-11-15
@@ -198,20 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-violences-conjugales, hommes-mis-en-cause-violences-conjugales-france
 - Summary: Le bilan publié le 5 novembre 2026 par le Service statistique ministériel de la sécurité intérieure (SSMSI) actualise les violences conjugales enregistrées en France en 2025. Les femmes représentent 84 % des victimes enregistrées et les hommes 85 % des mis en cause. Ces deux proportions portent sur des séries différentes : elles ne décrivent ni tous les faits subis, ni des personnes toutes condamnées, ni nécessairement les mêmes affaires. Les fiches liées sont actualisées avec le nouveau millésime et ces limites.
 - Sources: Ministère de l’Intérieur / SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf; Ministère de l’Intérieur / SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/SSMSI%20-%20VRS-2026.pdf; Ministère de l’Intérieur / SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en
-
-### Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes
-- URL: https://isora.info/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/
-- Date: 2026-11-06
-- Related isora entries: femmes-episodes-depressifs-france-2024, hommes-mal-etre-recours-professionnel, hommes-suicide
-- Summary: Le rapport du Haut Conseil à l’égalité (HCE) publié le 2 novembre 2026 remet en discussion les écarts de dépression entre femmes et hommes. Le Baromètre de Santé publique France 2024 repère un épisode dépressif caractérisé chez 18,2 % des femmes et 12,8 % des hommes de 18 à 79 ans. Un tel épisode associe une tristesse ou une perte d’intérêt durable, d’autres symptômes et une perturbation des activités. L’écart est mesuré à partir de réponses à un questionnaire : il faut tenir compte du repérage et de la déclaration des symptômes, et distinguer ces résultats du recours aux soins.
-- Sources: Santé publique France: https://www.santepubliquefrance.fr/sites/default/files/cadic_files/documents/spf00006265.pdf; Haut Conseil à l’égalité entre les femmes et les hommes: https://www.haut-conseil-egalite.gouv.fr/rapport-sante-mentale-genre-et-troubles-depressifs-pourquoi-les-femmes-sont-elles-plus-risque; Santé publique France / Bulletin épidémiologique hebdomadaire: https://beh.santepubliquefrance.fr/beh/2026/8/2026_8_1.html; Santé publique France / Bulletin épidémiologique hebdomadaire: https://beh.santepubliquefrance.fr/beh/2023/2/2023_2_1.html; Harvard Review of Psychiatry / Cavanagh et al.: https://pubmed.ncbi.nlm.nih.gov/28059934/; Journal of Personality Assessment / Hunt, Auriemma et Cashaw: https://pubmed.ncbi.nlm.nih.gov/12584064/; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/depression
-
-### Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025
-- URL: https://isora.info/blog/2026-11-04-femmes-direction-encadrement-monde-oit/
-- Date: 2026-11-04
-- Related isora entries: femmes-direction-encadrement-monde-2025
-- Summary: Publié le 3 novembre 2026, le rapport Women in business and management: Scaling success de l’Organisation internationale du Travail (OIT) présente une estimation mondiale de 30,5 % de femmes dans les postes de direction et d’encadrement en 2025. Le management désigne ici des professions qui organisent et dirigent des activités, à plusieurs niveaux de responsabilité. Le rapport présente aussi une enquête auprès des entreprises : ses résultats relèvent d’un autre champ et ne doivent pas être confondus avec cette estimation mondiale.
-- Sources: Organisation internationale du Travail: https://www.ilo.org/sites/default/files/2026-10/9789220437100_Women%20in%20Business_Embargo.pdf; ONU / OIT: https://unstats.un.org/sdgs/metadata/files/Metadata-05-05-02.pdf; ILOSTAT / OIT: https://ilostat.ilo.org/dataviz/wibm/; Organisation internationale du Travail: https://www.ilo.org/resource/news/businesses-report-growing-benefits-gender-equality
 
 
 ## Tuberculosis: more estimated cases among men aged 15 or over
@@ -1526,7 +1526,7 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: ONDRP / IHEMI (2017): https://www.ihemi.fr/sites/default/files/publications/files/2019-12/note_17_0.pdf; Ministère de la Justice (2018): https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/2018-044%20Rapport_Morts_violentes_enfants.pdf; 20 Minutes (2017): https://www.20minutes.fr/societe/2158023-20171025-pourquoi-meurtres-enfants-majoritairement-commis-femmes
 
-## Filles victimes de violences sexuelles avant 18 ans
+## Rape or sexual assault before age 18: higher estimates among girls and women
 - ID: femmes-violences-sexuelles-enfance
 - URL: https://isora.info/fiches/femmes-violences-sexuelles-enfance/
 - Interactive app URL: https://isora.info/#femmes-violences-sexuelles-enfance
@@ -1534,14 +1534,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: désavantage_subi
 - Domain: Violences
 - Zone: Monde
-- Period: 2024+
+- Period: 2024-2024
 - Status: actuel
-- Key measure: 370 M+
-- Summary: L'UNICEF estime que plus de 370 millions de filles et femmes vivantes ont subi un viol ou une agression sexuelle avant l'âge de 18 ans.
-- Nuance: Les données sur les violences sexuelles sont sensibles à la sous-déclaration. Les estimations doivent être lues comme un ordre de grandeur minimal.
-- Measured population: Population mesurée par la source : girls and women / filles et femmes vivantes selon UNICEF. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
-- Sources: UNICEF (2024): https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children
+- Key measure: 370 M+ F / 240–310 M H
+- Summary: In its global estimates published in 2024, UNICEF reports that more than 370 million living girls and women experienced rape or sexual assault before age 18, compared with 240–310 million boys and men. These are childhood experiences across several generations, not incidents occurring in a single year.
+- Nuance: Reviewed on 17 November 2026: added the male estimate from the same source, clarified definitions and limits. The indicator covers contact sexual violence, including rape and sexual assault; non-contact forms, such as online or verbal abuse, are excluded here. Female estimates mainly use national surveys conducted in 2010–2022 across 120 countries and areas. Gaps are greater for boys and men, for whom indirect methods are also used. The male range is not labelled a 95% confidence interval by the source and must not be presented as one. Reporting, recall, definitions and survey coverage limit comparison; no under-reporting correction or single cause is calculated. WHO’s 17 November announcement concerns prevention commitments, not a new prevalence measurement. Confidence is moderate for precision of the comparison; the estimates retain their 2024 reference edition.
+- Measured population: Girls and women, and boys and men, alive at the time of UNICEF’s global estimates published in 2024, who experienced rape or sexual assault before age 18. Multiple generations; retrospective estimates, not annual incidence. Source sex categories; chromosomes are not measured.
+- Sources: UNICEF Data (estimations publiées en 2024 ; consulté le 17 novembre 2026): https://data.unicef.org/topic/child-protection/violence/sexual-violence/; UNICEF (octobre 2024): https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children; Organisation mondiale de la Santé (17 novembre 2026): https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children
 
 ## Filles mariées pendant l'enfance
 - ID: femmes-mariage-enfants

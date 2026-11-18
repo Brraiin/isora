@@ -12,6 +12,36 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-ingenierie",
+    "side": "femmes",
+    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
+    "claimMetric": "24 %",
+    "blogTitle": "Quatrième en 2026 : les filles devant en français, les garçons en mathématiques",
+    "blogUrl": "/blog/2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons/",
+    "date": "2026-11-18",
+    "updatedAt": "2026-11-18T20:13:11Z"
+  },
+  {
+    "claimId": "hommes-decrochage-garcons-monde",
+    "side": "hommes",
+    "claimTitle": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
+    "claimMetric": "140 M vs 133 M",
+    "blogTitle": "Quatrième en 2026 : les filles devant en français, les garçons en mathématiques",
+    "blogUrl": "/blog/2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons/",
+    "date": "2026-11-18",
+    "updatedAt": "2026-11-18T20:13:11Z"
+  },
+  {
+    "claimId": "femmes-violences-sexuelles-enfance",
+    "side": "femmes",
+    "claimTitle": "Viols ou agressions sexuelles avant 18 ans : filles et femmes davantage concernées",
+    "claimMetric": "370 M+ F / 240–310 M H",
+    "blogTitle": "Violences dans l’enfance : de nouveaux engagements, et des estimations à distinguer pour les filles et les garçons",
+    "blogUrl": "/blog/2026-11-17-violences-enfance-engagements-oms-filles-garcons/",
+    "date": "2026-11-17",
+    "updatedAt": "2026-11-17T18:04:39Z"
+  },
+  {
     "claimId": "femmes-temps-partiel",
     "side": "femmes",
     "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
@@ -40,16 +70,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/",
     "date": "2026-11-13",
     "updatedAt": "2026-11-13T11:57:50Z"
-  },
-  {
-    "claimId": "femmes-ingenierie",
-    "side": "femmes",
-    "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
-    "claimMetric": "24 %",
-    "blogTitle": "Scientifiques et ingénieurs dans l’UE : 41 % de femmes, dans une catégorie qui inclut la santé et le numérique",
-    "blogUrl": "/blog/2026-11-11-scientifiques-ingenieurs-femmes-union-europeenne-2025/",
-    "date": "2026-11-11",
-    "updatedAt": "2026-11-11T20:21:06Z"
   },
   {
     "claimId": "femmes-violences-conjugales",
@@ -400,16 +420,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
     "date": "2026-06-25",
     "updatedAt": "2026-09-09T18:31:51.219Z"
-  },
-  {
-    "claimId": "hommes-decrochage-garcons-monde",
-    "side": "hommes",
-    "claimTitle": "Garçons plus nombreux hors de l'école dans l'estimation mondiale récente",
-    "claimMetric": "140 M vs 133 M",
-    "blogTitle": "PISA 2025 : en France, 32 points d’avance pour les filles en lecture, 13 pour les garçons en mathématiques",
-    "blogUrl": "/blog/2026-09-08-pisa-2025-lecture-mathematiques-filles-garcons/",
-    "date": "2026-09-08",
-    "updatedAt": "2026-09-08T18:34:46.403Z"
   },
   {
     "claimId": "hommes-sorties-precoces",
