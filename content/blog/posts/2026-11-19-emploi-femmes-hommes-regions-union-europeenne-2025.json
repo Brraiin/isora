@@ -1,0 +1,121 @@
+{
+  "id": "2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025",
+  "slug": "2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025",
+  "status": "published",
+  "language": "fr",
+  "title": "Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes",
+  "description": "Eurostat met en avant l’écart d’emploi femmes-hommes en 2025. Isora distingue la publication, la base consultée et les exceptions régionales.",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T19:37:58Z",
+  "updatedAt": "2026-11-19T19:37:58Z",
+  "topic": {
+    "id": "travail-revenus",
+    "label": "Travail, revenus et conditions d’emploi"
+  },
+  "keywords": [
+    "taux emploi femmes hommes UE 2025",
+    "Eurostat écarts régionaux emploi",
+    "emploi chômage temps partiel définitions",
+    "révisions statistiques emploi 2025"
+  ],
+  "relatedClaimIds": [
+    "femmes-temps-partiel"
+  ],
+  "readingMinutes": 4,
+  "summary": "Le point Eurostat du 19 novembre 2026 présente pour 2025 un taux d’emploi plus élevé chez les hommes que chez les femmes de 20 à 64 ans dans l’Union européenne. L’écart est d’environ dix points, mais son sens varie selon la région. Les chiffres de la note et ceux de la base consultée diffèrent légèrement : ils sont distingués ici, sans en faire une évolution dans le temps ni une mesure de discrimination.",
+  "keyPoints": [
+    "La note du 19 novembre publie 80,9 % pour les hommes et 71,2 % pour les femmes en 2025, soit 9,7 points de pourcentage d’écart.",
+    "La base Eurostat consultée le 19 novembre affiche 80,9 % et 71,3 % sur le même champ européen, soit 9,6 points à partir de ces taux arrondis.",
+    "Le chapitre régional cite trois régions où le taux féminin dépasse le taux masculin : Sostinės regionas, la Martinique et la Guadeloupe.",
+    "Le taux d’emploi, le chômage et le temps partiel ont des dénominateurs différents ; ces écarts bruts ne permettent pas d’isoler une cause unique."
+  ],
+  "sections": [
+    {
+      "heading": "Une mise en avant récente, des données portant sur 2025",
+      "paragraphs": [
+        "Eurostat, l’office statistique de l’Union européenne, consacre son actualité du 19 novembre aux différences d’emploi selon le sexe dans les régions. La note reprend l’annuaire régional 2026 : la publication est récente, tandis que l’année mesurée reste 2025. Le chapitre indique une extraction des données en avril 2026.",
+        "La note publie un taux d’emploi de 80,9 % chez les hommes de 20 à 64 ans et de 71,2 % chez les femmes du même âge dans l’UE, soit 9,7 points de pourcentage. Il ne s’agit ni d’un taux mondial, ni d’une valeur à attribuer automatiquement à la France. La note signale également 26 régions dont l’écart atteint au moins 18 points dans cette version des données."
+      ]
+    },
+    {
+      "heading": "Pourquoi la base consultée donne-t-elle un chiffre légèrement différent ?",
+      "paragraphs": [
+        "La même série statistique, consultée le 19 novembre pour l’UE à 27 pays, les 20–64 ans, tous niveaux d’études et toutes nationalités réunis, retourne 80,9 % chez les hommes et 71,3 % chez les femmes. La soustraction des taux arrondis donne alors 9,6 points. La base indique une mise à jour au 30 octobre 2026 ; la note du jour avertit que certaines données peuvent avoir été révisées depuis l’annuaire.",
+        "Ces deux versions portent sur la même année 2025. Leur différence ne mesure donc pas une amélioration entre 2025 et 2026. Nous conservons les chiffres de chaque support avec leur date, sans remplacer silencieusement une valeur par l’autre. Cette vérification n’établit pas à elle seule la raison précise de l’écart."
+      ]
+    },
+    {
+      "heading": "La moyenne européenne ne décrit pas toutes les régions",
+      "paragraphs": [
+        "Le chapitre de l’annuaire utilise le niveau NUTS 2, un découpage statistique européen qui ne correspond pas nécessairement aux régions administratives actuelles. Les données concernent la région de résidence habituelle des personnes, qui peut différer de celle où elles travaillent.",
+        "Le taux d’emploi féminin est supérieur au taux masculin dans Sostinės regionas, la région de la capitale lituanienne, ainsi qu’en Martinique et en Guadeloupe. L’extraction consultée conserve ce sens d’écart. Pour les deux régions françaises, elle porte toutefois un avertissement de définition différente, à garder à l’esprit dans les comparaisons avec d’autres territoires. Ces exceptions ne suppriment pas l’écart européen et celui-ci ne doit pas les effacer."
+      ]
+    },
+    {
+      "heading": "Mesurer l’emploi sans le confondre avec le chômage ou le temps partiel",
+      "paragraphs": [
+        "Le taux d’emploi rapporte les personnes en emploi à l’ensemble de la population du même âge et du même sexe. Il s’appuie ici sur l’enquête européenne sur les forces de travail, menée auprès des ménages privés. Une personne peut être comptée en emploi après une heure de travail rémunéré ou pour un gain pendant la semaine de référence, ou lorsqu’elle est temporairement absente de son emploi dans les conditions prévues par la définition.",
+        "Le complément du taux d’emploi n’est pas le taux de chômage : les personnes sans emploi comprennent aussi celles qui sont hors de la population active. Le temps partiel décrit quant à lui le temps de travail de personnes déjà en emploi. Un taux d’emploi plus élevé n’assure donc pas, à lui seul, davantage d’heures, un meilleur salaire ou une meilleure qualité d’emploi."
+      ]
+    },
+    {
+      "heading": "Ce que cette publication permet d’ajouter à Isora",
+      "paragraphs": [
+        "La fiche liée sur le temps partiel apporte un contexte complémentaire sur une autre dimension du travail. Les données européennes de cet article ne remplacent pas ses chiffres français : son contenu factuel et sa date de vérification sont conservés. Les articles déjà consacrés au chômage et à l’emploi des personnes immigrées portent également sur d’autres populations ou indicateurs.",
+        "Les taux présentés sont descriptifs. Ils ne comparent pas des personnes identiques selon l’âge détaillé, la formation, la situation familiale ou le secteur d’activité. Ils n’isolent donc ni une discrimination, ni un choix libre, ni l’effet d’une politique. Les catégories femmes et hommes sont celles de la source, sans mesure des chromosomes. Les quatre références ci-dessous documentent le même dispositif Eurostat et ses définitions ; elles ne constituent pas quatre enquêtes indépendantes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les femmes sans emploi sont-elles toutes au chômage ?",
+      "answer": "Non. Le taux d’emploi utilise la population totale du groupe considéré. Le chômage utilise la population active et répond à des conditions de recherche et de disponibilité ; les deux indicateurs ne sont pas complémentaires."
+    },
+    {
+      "question": "L’écart d’emploi va-t-il partout dans le même sens ?",
+      "answer": "Non. La moyenne de l’UE est plus élevée chez les hommes, mais le chapitre régional documente aussi des taux féminins supérieurs dans certaines régions. Les avertissements de comparabilité doivent rester associés aux données."
+    },
+    {
+      "question": "Pourquoi citer 9,7 et 9,6 points dans le même article ?",
+      "answer": "Le premier écart est celui de la note publiée le 19 novembre ; le second résulte des taux arrondis de la base consultée ce jour-là. Tous deux portent sur 2025. Leur différence ne mesure pas une évolution annuelle."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Average gender employment gap in EU regions at 9.7 pp",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261119-1",
+      "date": "19 novembre 2026 ; chiffres de l’annuaire régional pour 2025",
+      "type": "actualité institutionnelle primaire ; taux publiés, répartition régionale et avertissement sur les révisions"
+    },
+    {
+      "title": "Employment rates by educational attainment level, citizenship and NUTS 2 region — UE et régions citées, 20–64 ans, 2025",
+      "publisher": "Eurostat — série lfst_r_lfe2emprtn",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfst_r_lfe2emprtn?lang=EN&time=2025&age=Y20-64&citizen=TOTAL&isced11=TOTAL&unit=PC",
+      "date": "consultation le 19 novembre 2026 ; mise à jour indiquée au 30 octobre 2026",
+      "type": "données primaires ; taux UE arrondis femmes 71,3 %, hommes 80,9 %, régions citées et avertissements de définition ; tous niveaux d’études et toutes nationalités"
+    },
+    {
+      "title": "Labour market statistics at regional level — Eurostat regional yearbook 2026",
+      "publisher": "Eurostat / Statistics Explained",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=719468&title=Labour_market_statistics_at_regional_level",
+      "date": "édition 2026 ; extraction annoncée en avril 2026",
+      "type": "chapitre statistique primaire ; écarts régionaux, résidence, champ et définitions ; même enquête que la base"
+    },
+    {
+      "title": "Labour market — employment : définition du taux d’emploi et du temps partiel",
+      "publisher": "Eurostat / European statistics learning hub",
+      "url": "https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/statistics-for-beginners/labour-market-employment",
+      "date": "consulté le 19 novembre 2026",
+      "type": "documentation officielle de définition et des dénominateurs, pas une estimation indépendante"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-19T19:37:58Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-19T19:37:58Z",
+    "reviewNote": "Actualité Eurostat du 19 novembre 2026, contrôlée contre les 61 articles existants : angle régional européen distinct des articles sur chômage, temps partiel, durée de vie au travail et emploi des immigrés OCDE. Taux des deux sexes dans la même publication et même extraction officielle : Y20-64, citizen TOTAL, isced11 TOTAL, unit PC, geo EU27_2020, année 2025. Différence 71,2 % dans la note contre 71,3 % dans la base explicitée sans l’attribuer à une cause certaine ni calculer une évolution entre versions. Actualité de mise en avant de l’annuaire, pas nouvelle collecte 2026. Extraction régionale du même tableau vérifiée pour LT01, FRY1, FRY2 : sens d’écart féminin supérieur confirmé ; drapeau d et sa définition conservés pour les deux régions françaises. Région de résidence et population en ménages privés, emploi/chômage/temps partiel distingués ; aucune explication causale ou mesure chromosomique fabriquée. Quatre documents du même producteur, pas quatre enquêtes indépendantes. Aucun changement préexistant dans le worktree ; aucune fiche créée ni donnée de fiche redatée, relation de contexte vers femmes-temps-partiel seulement. Classement vérifié, conservé : mortalité et violences en tête, hommes-esperance-vie première ; temps partiel conserve son rang féminin, portée inchangée ; mpox dernier parmi les hommes et accessible en recherche."
+  }
+}

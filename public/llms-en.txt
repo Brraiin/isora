@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-11-18T20:15:26.578Z
+Last generation: 2026-11-19T19:41:49.964Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes
+- URL: https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/
+- Date: 2026-11-19
+- Related isora entries: femmes-temps-partiel
+- Summary: Le point Eurostat du 19 novembre 2026 présente pour 2025 un taux d’emploi plus élevé chez les hommes que chez les femmes de 20 à 64 ans dans l’Union européenne. L’écart est d’environ dix points, mais son sens varie selon la région. Les chiffres de la note et ceux de la base consultée diffèrent légèrement : ils sont distingués ici, sans en faire une évolution dans le temps ni une mesure de discrimination.
+- Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261119-1; Eurostat — série lfst_r_lfe2emprtn: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfst_r_lfe2emprtn?lang=EN&time=2025&age=Y20-64&citizen=TOTAL&isced11=TOTAL&unit=PC; Eurostat / Statistics Explained: https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=719468&title=Labour_market_statistics_at_regional_level; Eurostat / European statistics learning hub: https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/statistics-for-beginners/labour-market-employment
+
 ### Quatrième en 2026 : les filles devant en français, les garçons en mathématiques
 - URL: https://isora.info/blog/2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons/
 - Date: 2026-11-18
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-temps-partiel
 - Summary: Publié le 10 novembre 2026, le nouveau point de l’Insee estime le taux de chômage à 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre en France. La comparaison porte sur les personnes actives de chaque sexe — en emploi ou au chômage — à partir de l’enquête Emploi. Chez les 15–24 ans, les deux taux sont très proches. Le même bilan présente un taux d’emploi féminin plus faible : ces observations peuvent coexister parce que les indicateurs ne rapportent pas les personnes au même dénominateur.
 - Sources: Insee: https://www.insee.fr/fr/statistiques/9118603; Insee: https://www.insee.fr/fr/metadonnees/definition/c1129; Insee: https://www.insee.fr/fr/statistiques/4805248
-
-### Violences conjugales en 2025 : distinguer victimes enregistrées, mis en cause et violences déclarées
-- URL: https://isora.info/blog/2026-11-08-violences-conjugales-enregistrees-femmes-hommes-2025/
-- Date: 2026-11-08
-- Related isora entries: femmes-violences-conjugales, hommes-mis-en-cause-violences-conjugales-france
-- Summary: Le bilan publié le 5 novembre 2026 par le Service statistique ministériel de la sécurité intérieure (SSMSI) actualise les violences conjugales enregistrées en France en 2025. Les femmes représentent 84 % des victimes enregistrées et les hommes 85 % des mis en cause. Ces deux proportions portent sur des séries différentes : elles ne décrivent ni tous les faits subis, ni des personnes toutes condamnées, ni nécessairement les mêmes affaires. Les fiches liées sont actualisées avec le nouveau millésime et ces limites.
-- Sources: Ministère de l’Intérieur / SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/IR69%20Violences%20conjugales.pdf; Ministère de l’Intérieur / SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-11/SSMSI%20-%20VRS-2026.pdf; Ministère de l’Intérieur / SSMSI: https://statistiques.interieur.gouv.fr/ssmsi/publications/violences-conjugales-enregistrees-par-les-services-de-securite-nouvelle-hausse-de-5-en
 
 
 ## Tuberculosis: more estimated cases among men aged 15 or over

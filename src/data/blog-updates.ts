@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-temps-partiel",
+    "side": "femmes",
+    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
+    "claimMetric": "26,8 % vs 8,7 %",
+    "blogTitle": "Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes",
+    "blogUrl": "/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/",
+    "date": "2026-11-19",
+    "updatedAt": "2026-11-19T19:37:58Z"
+  },
+  {
     "claimId": "femmes-ingenierie",
     "side": "femmes",
     "claimTitle": "Femmes moins présentes dans l'ingénierie malgré une réussite scolaire élevée",
@@ -40,16 +50,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-11-17-violences-enfance-engagements-oms-filles-garcons/",
     "date": "2026-11-17",
     "updatedAt": "2026-11-17T18:04:39Z"
-  },
-  {
-    "claimId": "femmes-temps-partiel",
-    "side": "femmes",
-    "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
-    "claimMetric": "26,8 % vs 8,7 %",
-    "blogTitle": "Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025",
-    "blogUrl": "/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/",
-    "date": "2026-11-15",
-    "updatedAt": "2026-11-15T22:47:20Z"
   },
   {
     "claimId": "hommes-tuberculose-cas-estimes-monde-2025",

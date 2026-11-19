@@ -2,8 +2,61 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-18T20:15:26.757Z",
+  "generatedAt": "2026-11-19T19:41:50.164Z",
   "posts": [
+    {
+      "id": "2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025",
+      "title": "Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes",
+      "url": "https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/",
+      "description": "Eurostat met en avant l’écart d’emploi femmes-hommes en 2025. Isora distingue la publication, la base consultée et les exceptions régionales.",
+      "date": "2026-11-19",
+      "publishedAt": "2026-11-19T19:37:58Z",
+      "updatedAt": "2026-11-19T19:37:58Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d’emploi"
+      },
+      "keywords": [
+        "taux emploi femmes hommes UE 2025",
+        "Eurostat écarts régionaux emploi",
+        "emploi chômage temps partiel définitions",
+        "révisions statistiques emploi 2025"
+      ],
+      "relatedClaimIds": [
+        "femmes-temps-partiel"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Average gender employment gap in EU regions at 9.7 pp",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261119-1",
+          "date": "19 novembre 2026 ; chiffres de l’annuaire régional pour 2025",
+          "type": "actualité institutionnelle primaire ; taux publiés, répartition régionale et avertissement sur les révisions"
+        },
+        {
+          "title": "Employment rates by educational attainment level, citizenship and NUTS 2 region — UE et régions citées, 20–64 ans, 2025",
+          "publisher": "Eurostat — série lfst_r_lfe2emprtn",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfst_r_lfe2emprtn?lang=EN&time=2025&age=Y20-64&citizen=TOTAL&isced11=TOTAL&unit=PC",
+          "date": "consultation le 19 novembre 2026 ; mise à jour indiquée au 30 octobre 2026",
+          "type": "données primaires ; taux UE arrondis femmes 71,3 %, hommes 80,9 %, régions citées et avertissements de définition ; tous niveaux d’études et toutes nationalités"
+        },
+        {
+          "title": "Labour market statistics at regional level — Eurostat regional yearbook 2026",
+          "publisher": "Eurostat / Statistics Explained",
+          "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=719468&title=Labour_market_statistics_at_regional_level",
+          "date": "édition 2026 ; extraction annoncée en avril 2026",
+          "type": "chapitre statistique primaire ; écarts régionaux, résidence, champ et définitions ; même enquête que la base"
+        },
+        {
+          "title": "Labour market — employment : définition du taux d’emploi et du temps partiel",
+          "publisher": "Eurostat / European statistics learning hub",
+          "url": "https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/statistics-for-beginners/labour-market-employment",
+          "date": "consulté le 19 novembre 2026",
+          "type": "documentation officielle de définition et des dénominateurs, pas une estimation indépendante"
+        }
+      ]
+    },
     {
       "id": "2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons",
       "title": "Quatrième en 2026 : les filles devant en français, les garçons en mathématiques",

@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="description" content="Eurostat met en avant l’écart d’emploi femmes-hommes en 2025. Isora distingue la publication, la base consultée et les exceptions régionales." />
+    <meta name="author" content="isora" />
+    <meta name="keywords" content="taux emploi femmes hommes UE 2025, Eurostat écarts régionaux emploi, emploi chômage temps partiel définitions, révisions statistiques emploi 2025" />
+    <meta property="og:site_name" content="isora" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:url" content="https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/" />
+    <meta property="og:title" content="isora - Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes" />
+    <meta property="og:description" content="Eurostat met en avant l’écart d’emploi femmes-hommes en 2025. Isora distingue la publication, la base consultée et les exceptions régionales." />
+    <meta property="article:published_time" content="2026-11-19T19:37:58Z" />
+    <meta property="article:modified_time" content="2026-11-19T19:37:58Z" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="isora - Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes" />
+    <meta name="twitter:description" content="Eurostat met en avant l’écart d’emploi femmes-hommes en 2025. Isora distingue la publication, la base consultée et les exceptions régionales." />
+    <link rel="canonical" href="https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/" />
+    <link rel="alternate" type="application/rss+xml" title="Articles isora" href="/blog/feed.xml" />
+    <link rel="alternate" type="application/json" title="Index JSON des articles isora" href="/blog/index.json" />
+    <link rel="alternate" type="text/plain" title="Articles isora pour IA" href="/blog/llms-blog.txt" />
+    <link rel="alternate" type="text/plain" title="isora pour IA et agents" href="/llms.txt" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>isora - Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes</title>
+    <style>
+    :root {
+      color-scheme: light;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f6f4ee;
+      color: #171717;
+      --paper: #f6f4ee;
+      --surface: #ffffff;
+      --surface-soft: #fbfaf6;
+      --ink: #171717;
+      --muted: #57534e;
+      --line: #d8d3c7;
+      --blue: #1455a3;
+      --blue-soft: #eaf2fb;
+      --green: #147467;
+      --green-soft: #e4f3ed;
+      --amber: #8b5c12;
+      --amber-soft: #fff2d5;
+    }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    body { margin: 0; background: var(--paper); color: var(--ink); }
+    a { color: var(--blue); text-underline-offset: 0.18em; }
+    .wrap { width: min(100% - 48px, 1200px); margin: 0 auto; }
+.topbar { border-bottom: 1px solid #d8d8d0; background: #fff; font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; line-height: 1.5; }
+.topbar-inner { min-height: 106px; display: flex; align-items: stretch; justify-content: space-between; gap: 24px; }
+.brand { margin-left: -16px; padding: 0 16px; display: inline-flex; align-items: center; color: #171717; text-decoration: none; font-weight: 400; }
+.brand-line { display: inline-flex; align-items: baseline; gap: 14px; }
+.brand:hover, .brand:focus-visible { background: #f6f6f6; }
+.brand:focus-visible { outline: 2px solid #1455a3; outline-offset: -2px; }
+.brand img { width: 106px; height: auto; display: block; }
+.brand-tagline { max-width: 25rem; color: #3f3f3f; font-size: 0.96rem; font-weight: 700; line-height: 1.35; }
+.nav { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px; align-self: center; font-weight: 400; }
+.nav a { min-height: 32px; display: inline-flex; align-items: center; gap: 8px; padding: 0 8px; color: #000091; text-decoration: none; font-weight: 800; line-height: 1.5; }
+.nav a:hover { background: #f6f6f6; }
+.nav a:active { background: #ededed; }
+.nav a:focus-visible { outline: 2px solid #1455a3; outline-offset: 2px; }
+.nav svg { width: 18px; height: 18px; flex: 0 0 auto; }
+@media (max-width: 760px) {
+  .wrap { width: min(100% - 24px, 1200px); }
+  .topbar-inner { min-height: 0; align-items: stretch; flex-direction: column; gap: 8px; padding: 8px 0; }
+  .brand { margin: 0 -8px; padding: 12px 8px; align-items: flex-start; }
+  .brand-line { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .nav { margin-left: 0; align-self: stretch; justify-content: flex-end; }
+}
+    .hero { background: var(--surface); border-bottom: 1px solid var(--line); }
+    .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 340px); gap: 30px; align-items: end; padding: 56px 0 46px; }
+    .hero-inner-simple { display: block; padding: 56px 0 46px; }
+    .hero-copy { min-width: 0; }
+    .hero-panel { display: grid; gap: 14px; align-self: stretch; background: var(--surface-soft); border: 1px solid var(--line); padding: 20px; }
+    .hero-panel strong { font-size: 1.08rem; line-height: 1.35; }
+    .hero-panel dl { display: grid; gap: 12px; margin: 0; }
+    .hero-panel div { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+    .hero-panel dt { color: var(--muted); font-size: 0.86rem; font-weight: 800; }
+    .hero-panel dd { margin: 0; color: var(--ink); font-size: 1.2rem; font-weight: 950; }
+    .panel-kicker,
+    .kicker { margin: 0 0 14px; color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .panel-kicker { margin: 0; }
+    h1 { margin: 0; max-width: 880px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 1.03; letter-spacing: 0; }
+    .lead { max-width: 820px; margin: 22px 0 0; font-size: 1.12rem; line-height: 1.72; color: var(--muted); }
+    .meta { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill,
+    .meta-chip { display: inline-flex; min-height: 32px; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--line); padding: 5px 10px; font-size: 0.88rem; font-weight: 820; color: #3a3732; }
+    .meta-chip.topic { color: var(--green); border-color: #b7d7cd; background: var(--green-soft); }
+    .meta-chip.sources { color: var(--blue); border-color: #bfd2e8; background: var(--blue-soft); }
+    .meta-chip.claims { color: var(--amber); border-color: #ead2a0; background: var(--amber-soft); }
+    .lexicon-term { position: relative; color: var(--blue); font-weight: 820; text-decoration-line: underline; text-decoration-style: dotted; text-decoration-thickness: 1.5px; text-underline-offset: 0.2em; }
+    .lexicon-term::after { position: absolute; z-index: 50; bottom: calc(100% + 8px); left: 50%; width: max-content; max-width: min(288px, calc(100vw - 32px)); padding: 8px 10px; border: 1px solid #bfd2e8; background: #172554; color: #fff; content: attr(data-tooltip); font-size: 12px; font-weight: 750; line-height: 1.35; opacity: 0; pointer-events: none; text-align: center; transform: translate(-50%, 4px); transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease; visibility: hidden; }
+    .lexicon-term:hover::after, .lexicon-term:focus-visible::after { opacity: 1; transform: translate(-50%, 0); visibility: visible; }
+    .lexicon-term:focus-visible { outline: 2px solid #2563eb; outline-offset: 3px; }
+    main { padding-bottom: 64px; }
+    .article-grid { display: grid; grid-template-columns: minmax(0, 760px) minmax(260px, 320px); gap: 34px; align-items: start; justify-content: center; padding-top: 34px; }
+    article { min-width: 0; }
+    .article-grid > article { background: var(--surface); border: 1px solid var(--line); padding: 34px; }
+    .section { border-bottom: 1px solid var(--line); padding: 0 0 30px; margin-bottom: 30px; }
+    .section:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    .section h2 { margin: 0 0 14px; font-size: 1.55rem; line-height: 1.2; }
+    .section p { margin: 0 0 14px; color: #3f3a34; line-height: 1.78; font-size: 1.02rem; }
+    .section p:last-child { margin-bottom: 0; }
+    .keypoints { counter-reset: point; display: grid; gap: 10px; padding: 0; list-style: none; }
+    .keypoints li { counter-increment: point; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; background: var(--blue-soft); border: 1px solid #c8dbef; padding: 14px; line-height: 1.55; font-weight: 720; }
+    .keypoints li::before { content: counter(point); display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: var(--blue); color: #fff; font-weight: 950; }
+    aside { position: sticky; top: 18px; display: grid; gap: 14px; }
+    .sidebox { background: var(--surface); border: 1px solid var(--line); padding: 18px; }
+    .sidebox h2 { margin: 0 0 10px; font-size: 1rem; }
+    ul.sources { display: grid; gap: 12px; padding: 0; list-style: none; }
+    ul.sources li { min-width: 0; line-height: 1.45; }
+    ul.sources a { overflow-wrap: anywhere; font-weight: 850; }
+    .source-meta { display: block; color: var(--muted); font-size: 0.88rem; margin-top: 3px; }
+    .faq { display: grid; gap: 14px; }
+    details { border: 1px solid var(--line); padding: 16px 18px 18px; background: var(--surface-soft); }
+    summary { cursor: pointer; font-weight: 900; line-height: 1.45; padding-bottom: 4px; }
+    details[open] summary { margin-bottom: 8px; }
+    .section details p { margin: 0 0 6px; line-height: 1.68; }
+    .section details p:last-child { margin-bottom: 6px; }
+    .method { border-top: 1px solid var(--line); padding: 28px 0 42px; color: var(--muted); line-height: 1.65; }
+    .method-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+    .cookie-settings-button { min-height: 40px; border: 1px solid var(--line); background: var(--surface); color: var(--blue); padding: 0 12px; font: inherit; font-size: 0.9rem; font-weight: 850; cursor: pointer; }
+    .cookie-settings-button:hover { background: var(--blue-soft); }
+    .blog-index { padding: 0 0 72px; }
+    .blog-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); gap: 24px; align-items: end; padding: 30px 0 24px; border-bottom: 1px solid var(--line); }
+    .blog-toolbar h2,
+    .archive-head h2 { margin: 0; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .blog-toolbar p,
+    .archive-head p { margin: 8px 0 0; color: var(--muted); line-height: 1.55; }
+    .searchbox { display: grid; gap: 8px; }
+    .searchbox span { color: var(--muted); font-size: 0.88rem; font-weight: 850; }
+    .searchbox input { width: 100%; min-height: 46px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 0 13px; font: inherit; font-weight: 720; }
+    .searchbox input:focus { outline: 3px solid #c8dbef; outline-offset: 2px; border-color: var(--blue); }
+    .featured-grid { display: grid; gap: 18px; padding-top: 24px; }
+    .recent-stack { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .post-card { min-width: 0; display: grid; gap: 12px; align-content: start; background: var(--surface); border: 1px solid var(--line); padding: 22px; text-decoration: none; color: inherit; transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease; }
+    .post-card:hover { border-color: var(--blue); box-shadow: 0 14px 32px rgba(23, 23, 23, 0.08); transform: translateY(-1px); }
+    .post-card:focus-visible { outline: 3px solid #c8dbef; outline-offset: 3px; }
+    .post-card-featured { grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr); align-items: end; padding: 30px; background: var(--green-soft); border-color: #b7d7cd; }
+    .post-card-featured h2 { font-size: clamp(2rem, 4vw, 3.35rem); line-height: 1.04; }
+    .post-card-featured .post-meta-row { grid-column: 1; }
+    .post-card-featured .post-card-action { grid-column: 2; justify-self: start; }
+    .post-card-compact h2 { font-size: 1.22rem; }
+    .post-card-archive { grid-template-columns: minmax(0, 1fr) auto; align-items: start; }
+    .post-card-archive .post-summary,
+    .post-card-archive .post-meta-row { grid-column: 1 / -1; }
+    .post-card-archive .post-card-action { grid-column: 2; grid-row: 1; align-self: center; }
+    .post-eyebrow { color: var(--green); font-size: 0.82rem; font-weight: 950; letter-spacing: 0.08em; text-transform: uppercase; }
+    .post-card h2 { margin: 0; font-size: 1.38rem; line-height: 1.22; overflow-wrap: anywhere; }
+    .post-card p { margin: 0; color: var(--muted); line-height: 1.62; }
+    .post-summary { max-width: 72ch; }
+    .post-meta-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .post-card-action { color: var(--blue); font-weight: 950; line-height: 1.3; }
+    .archive-section { padding-top: 34px; }
+    .archive-head { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+    .archive-list { display: grid; gap: 12px; }
+    .pagination { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 28px; border-top: 1px solid var(--line); padding-top: 22px; }
+    .pagination a,
+    .pagination span { min-height: 38px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; color: var(--blue); font-weight: 900; text-decoration: none; }
+    .pagination span[aria-current="page"] { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .pagination a:hover { background: var(--blue-soft); border-color: var(--blue); }
+    .pagination .pagination-spacer { border-color: transparent; background: transparent; color: var(--muted); padding: 0 6px; }
+    .empty-search { margin: 18px 0 0; background: var(--surface); border: 1px solid var(--line); padding: 18px; color: var(--muted); font-weight: 780; }
+    @media (max-width: 1040px) {
+      .recent-stack,
+      .post-card-featured { grid-template-columns: 1fr; }
+      .post-card-featured .post-meta-row,
+      .post-card-featured .post-card-action { grid-column: auto; }
+    }
+    @media (max-width: 840px) {
+      .hero-inner,
+      .blog-toolbar,
+      .featured-grid { grid-template-columns: 1fr; }
+      .hero-inner { padding: 42px 0 34px; }
+      .hero-inner-simple { display: block; }
+      .article-grid { grid-template-columns: 1fr; }
+      .article-grid > article { padding: 22px; }
+      aside { position: static; }
+      .post-card-featured { min-height: 0; }
+      .post-card-archive { grid-template-columns: 1fr; }
+      .post-card-archive .post-card-action { grid-column: auto; grid-row: auto; }
+      .archive-head { align-items: start; flex-direction: column; }
+    }
+  </style>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://isora.info/#organization",
+      "name": "isora",
+      "url": "https://isora.info/",
+      "logo": "https://isora.info/isora.svg"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/#article",
+      "mainEntityOfPage": "https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/",
+      "headline": "Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes",
+      "description": "Eurostat met en avant l’écart d’emploi femmes-hommes en 2025. Isora distingue la publication, la base consultée et les exceptions régionales.",
+      "image": "https://isora.info/isora.svg",
+      "datePublished": "2026-11-19T19:37:58Z",
+      "dateModified": "2026-11-19T19:37:58Z",
+      "inLanguage": "fr-FR",
+      "isAccessibleForFree": true,
+      "author": {
+        "@type": "Organization",
+        "name": "isora",
+        "url": "https://isora.info/methode/"
+      },
+      "publisher": {
+        "@id": "https://isora.info/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Travail, revenus et conditions d’emploi"
+        },
+        {
+          "@type": "Thing",
+          "name": "taux emploi femmes hommes UE 2025"
+        },
+        {
+          "@type": "Thing",
+          "name": "Eurostat écarts régionaux emploi"
+        },
+        {
+          "@type": "Thing",
+          "name": "emploi chômage temps partiel définitions"
+        },
+        {
+          "@type": "Thing",
+          "name": "révisions statistiques emploi 2025"
+        }
+      ],
+      "keywords": "taux emploi femmes hommes UE 2025, Eurostat écarts régionaux emploi, emploi chômage temps partiel définitions, révisions statistiques emploi 2025",
+      "citation": [
+        "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261119-1",
+        "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfst_r_lfe2emprtn?lang=EN&time=2025&age=Y20-64&citizen=TOTAL&isced11=TOTAL&unit=PC",
+        "https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=719468&title=Labour_market_statistics_at_regional_level",
+        "https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/statistics-for-beginners/labour-market-employment"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Les femmes sans emploi sont-elles toutes au chômage ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Le taux d’emploi utilise la population totale du groupe considéré. Le chômage utilise la population active et répond à des conditions de recherche et de disponibilité ; les deux indicateurs ne sont pas complémentaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "L’écart d’emploi va-t-il partout dans le même sens ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. La moyenne de l’UE est plus élevée chez les hommes, mais le chapitre régional documente aussi des taux féminins supérieurs dans certaines régions. Les avertissements de comparabilité doivent rester associés aux données."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi citer 9,7 et 9,6 points dans le même article ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le premier écart est celui de la note publiée le 19 novembre ; le second résulte des taux arrondis de la base consultée ce jour-là. Tous deux portent sur 2025. Leur différence ne mesure pas une évolution annuelle."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "isora",
+          "item": "https://isora.info/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://isora.info/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes",
+          "item": "https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/"
+        }
+      ]
+    }
+  ]
+}</script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="brand" href="/" aria-label="Accueil isora - Le référentiel des asymétries de sexe">
+            <span class="brand-line">
+              <img src="/isora.svg" alt="isora" />
+              <span class="brand-tagline">Le référentiel des asymétries de sexe</span>
+            </span>
+          </a>
+        <nav class="nav" aria-label="Navigation">
+          <a href="/fiches/">Fiches</a>
+          <a href="/lexique/">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M13.17 2a2 2 0 0 1 1.42.59l6.7 6.7a2.4 2.4 0 0 1 0 3.42l-4.58 4.58a2.4 2.4 0 0 1-3.42 0l-6.7-6.7A2 2 0 0 1 6 9.17V3a1 1 0 0 1 1-1z" />
+              <path d="M2 7v6.17a2 2 0 0 0 .59 1.42l6.7 6.7a2.4 2.4 0 0 0 3.19.19" />
+              <circle cx="10.5" cy="6.5" r=".5" fill="currentColor" />
+            </svg>
+            Lexique
+          </a>
+          <a href="/blog/">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" />
+              <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+              <path d="M10 9H8" />
+              <path d="M16 13H8" />
+              <path d="M16 17H8" />
+            </svg>
+            Articles
+          </a>
+          <a href="/methode/">Méthode</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="kicker">Travail, revenus et conditions d’emploi</p>
+          <h1>Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes</h1>
+          <p class="lead">Le point Eurostat du 19 novembre 2026 présente pour 2025 un taux d’emploi plus élevé chez les hommes que chez les femmes de 20 à 64 ans dans l’Union européenne. L’écart est d’environ dix points, mais son sens varie selon la région. Les chiffres de la note et ceux de la base consultée diffèrent légèrement : ils sont distingués ici, sans en faire une évolution dans le temps ni une mesure de discrimination.</p>
+          <div class="meta" aria-label="Métadonnées">
+            <span class="pill">19 novembre 2026</span>
+
+            <span class="pill">4 min</span>
+            <span class="pill">4 sources</span>
+          </div>
+          <p class="source-meta">Synthèse éditoriale <em>isora</em> · <a href="/methode/">Méthode, sources et corrections</a></p>
+        </div>
+        <div class="hero-panel" aria-label="Repères de lecture">
+          <p class="panel-kicker">Article de veille</p>
+          <strong>Travail, revenus et conditions d’emploi</strong>
+          <dl>
+            <div>
+              <dt>Lecture</dt>
+              <dd>4 min</dd>
+            </div>
+            <div>
+              <dt>Sources</dt>
+              <dd>4</dd>
+            </div>
+            <div>
+              <dt>Fiches reliées</dt>
+              <dd>1</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <main class="wrap article-grid">
+      <article>
+        <section class="section" aria-labelledby="points-cles">
+          <h2 id="points-cles">Points clés</h2>
+          <ul class="keypoints">
+            <li>La note du 19 novembre publie 80,9 % pour les hommes et 71,2 % pour les femmes en 2025, soit 9,7 points de pourcentage d’écart.</li><li>La base Eurostat consultée le 19 novembre affiche 80,9 % et 71,3 % sur le même champ européen, soit 9,6 points à partir de ces taux arrondis.</li><li>Le chapitre régional cite trois régions où le taux féminin dépasse le taux masculin : Sostinės regionas, la Martinique et la Guadeloupe.</li><li>Le taux d’emploi, le chômage et le temps partiel ont des dénominateurs différents ; ces écarts bruts ne permettent pas d’isoler une cause unique.</li>
+          </ul>
+        </section>
+
+
+              <section class="section">
+                <h2>Une mise en avant récente, des données portant sur 2025</h2>
+                <p>Eurostat, l’office statistique de l’Union européenne, consacre son actualité du 19 novembre aux différences d’emploi selon le sexe dans les régions. La note reprend l’annuaire régional 2026 : la publication est récente, tandis que l’année mesurée reste 2025. Le chapitre indique une extraction des données en avril 2026.</p><p>La note publie un taux d’emploi de 80,9 % chez les hommes de 20 à 64 ans et de 71,2 % chez les femmes du même âge dans l’UE, soit 9,7 points de pourcentage. Il ne s’agit ni d’un taux mondial, ni d’une valeur à attribuer automatiquement à la France. La note signale également 26 régions dont l’écart atteint au moins 18 points dans cette version des données.</p>
+              </section>
+
+              <section class="section">
+                <h2>Pourquoi la base consultée donne-t-elle un chiffre légèrement différent ?</h2>
+                <p>La même série statistique, consultée le 19 novembre pour l’UE à 27 pays, les 20–64 ans, tous niveaux d’études et toutes nationalités réunis, retourne 80,9 % chez les hommes et 71,3 % chez les femmes. La soustraction des taux arrondis donne alors 9,6 points. La base indique une mise à jour au 30 octobre 2026 ; la note du jour avertit que certaines données peuvent avoir été révisées depuis l’annuaire.</p><p>Ces deux versions portent sur la même année 2025. Leur différence ne mesure donc pas une amélioration entre 2025 et 2026. Nous conservons les chiffres de chaque support avec leur date, sans remplacer silencieusement une valeur par l’autre. Cette vérification n’établit pas à elle seule la raison précise de l’écart.</p>
+              </section>
+
+              <section class="section">
+                <h2>La moyenne européenne ne décrit pas toutes les régions</h2>
+                <p>Le chapitre de l’annuaire utilise le niveau NUTS 2, un découpage statistique européen qui ne correspond pas nécessairement aux régions administratives actuelles. Les données concernent la région de résidence habituelle des personnes, qui peut différer de celle où elles travaillent.</p><p>Le taux d’emploi féminin est supérieur au taux masculin dans Sostinės regionas, la région de la capitale lituanienne, ainsi qu’en Martinique et en Guadeloupe. L’extraction consultée conserve ce sens d’écart. Pour les deux régions françaises, elle porte toutefois un avertissement de définition différente, à garder à l’esprit dans les comparaisons avec d’autres territoires. Ces exceptions ne suppriment pas l’écart européen et celui-ci ne doit pas les effacer.</p>
+              </section>
+
+              <section class="section">
+                <h2>Mesurer l’emploi sans le confondre avec le chômage ou le temps partiel</h2>
+                <p>Le taux d’emploi rapporte les personnes en emploi à l’ensemble de la population du même âge et du même sexe. Il s’appuie ici sur l’enquête européenne sur les forces de travail, menée auprès des ménages privés. Une personne peut être comptée en emploi après une heure de travail rémunéré ou pour un gain pendant la semaine de référence, ou lorsqu’elle est temporairement absente de son emploi dans les conditions prévues par la définition.</p><p>Le complément du taux d’emploi n’est pas le taux de chômage : les personnes sans emploi comprennent aussi celles qui sont hors de la population active. Le temps partiel décrit quant à lui le temps de travail de personnes déjà en emploi. Un taux d’emploi plus élevé n’assure donc pas, à lui seul, davantage d’heures, un meilleur salaire ou une meilleure qualité d’emploi.</p>
+              </section>
+
+              <section class="section">
+                <h2>Ce que cette publication permet d’ajouter à <em>isora</em></h2>
+                <p>La fiche liée sur le temps partiel apporte un contexte complémentaire sur une autre dimension du travail. Les données européennes de cet article ne remplacent pas ses chiffres français : son contenu factuel et sa date de vérification sont conservés. Les articles déjà consacrés au chômage et à l’emploi des personnes immigrées portent également sur d’autres populations ou indicateurs.</p><p>Les taux présentés sont descriptifs. Ils ne comparent pas des personnes identiques selon l’âge détaillé, la formation, la situation familiale ou le secteur d’activité. Ils n’isolent donc ni une discrimination, ni un choix libre, ni l’effet d’une politique. Les catégories femmes et hommes sont celles de la source, sans mesure des chromosomes. Les quatre références ci-dessous documentent le même dispositif Eurostat et ses définitions ; elles ne constituent pas quatre enquêtes indépendantes.</p>
+              </section>
+
+
+        <section class="section" aria-labelledby="faq">
+                <h2 id="faq">Questions fréquentes</h2>
+                <div class="faq">
+
+                        <details>
+                          <summary>Les femmes sans emploi sont-elles toutes au chômage ?</summary>
+                          <p>Non. Le taux d’emploi utilise la population totale du groupe considéré. Le chômage utilise la population active et répond à des conditions de recherche et de disponibilité ; les deux indicateurs ne sont pas complémentaires.</p>
+                        </details>
+
+                        <details>
+                          <summary>L’écart d’emploi va-t-il partout dans le même sens ?</summary>
+                          <p>Non. La moyenne de l’UE est plus élevée chez les hommes, mais le chapitre régional documente aussi des taux féminins supérieurs dans certaines régions. Les avertissements de comparabilité doivent rester associés aux données.</p>
+                        </details>
+
+                        <details>
+                          <summary>Pourquoi citer 9,7 et 9,6 points dans le même article ?</summary>
+                          <p>Le premier écart est celui de la note publiée le 19 novembre ; le second résulte des taux arrondis de la base consultée ce jour-là. Tous deux portent sur 2025. Leur différence ne mesure pas une évolution annuelle.</p>
+                        </details>
+
+                </div>
+              </section>
+      </article>
+
+      <aside aria-label="Sources et contexte">
+        <section class="sidebox">
+          <h2>Repères</h2>
+          <div class="post-meta-row">
+            <span class="meta-chip topic">Travail, revenus et conditions d’emploi</span>
+            <span class="meta-chip">19 novembre 2026</span>
+            <span class="meta-chip">4 min</span>
+          </div>
+        </section>
+
+        <section class="sidebox">
+          <h2>1 Fiche liée</h2>
+          <ul class="sources">
+
+        <li>
+          <a href="/fiches/femmes-temps-partiel/">Temps partiel plus fréquent chez les femmes, lecture ambivalente</a>
+          <span class="source-meta">26,8 % vs 8,7 %</span>
+        </li>
+
+          </ul>
+        </section>
+        <section class="sidebox">
+          <h2>Sources citées</h2>
+          <ul class="sources">
+
+        <li>
+          <a href="https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261119-1" rel="noreferrer" target="_blank">Average gender employment gap in EU regions at 9.7 pp</a>
+          <span class="source-meta">Eurostat - 19 novembre 2026 ; chiffres de l’annuaire régional pour 2025</span>
+        </li>
+
+        <li>
+          <a href="https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfst_r_lfe2emprtn?lang=EN&amp;time=2025&amp;age=Y20-64&amp;citizen=TOTAL&amp;isced11=TOTAL&amp;unit=PC" rel="noreferrer" target="_blank">Employment rates by educational attainment level, citizenship and NUTS 2 region — UE et régions citées, 20–64 ans, 2025</a>
+          <span class="source-meta">Eurostat — série lfst_r_lfe2emprtn - consultation le 19 novembre 2026 ; mise à jour indiquée au 30 octobre 2026</span>
+        </li>
+
+        <li>
+          <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=719468&amp;title=Labour_market_statistics_at_regional_level" rel="noreferrer" target="_blank">Labour market statistics at regional level — Eurostat regional yearbook 2026</a>
+          <span class="source-meta">Eurostat / Statistics Explained - édition 2026 ; extraction annoncée en avril 2026</span>
+        </li>
+
+        <li>
+          <a href="https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/statistics-for-beginners/labour-market-employment" rel="noreferrer" target="_blank">Labour market — employment : définition du taux d’emploi et du temps partiel</a>
+          <span class="source-meta">Eurostat / European statistics learning hub - consulté le 19 novembre 2026</span>
+        </li>
+
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="wrap method">
+      <div class="method-actions">
+        <p><em>isora</em> cite ses sources primaires et présente ces articles comme des synthèses éditoriales. Pour une affirmation factuelle forte, consulter les liens sources avant réutilisation.</p>
+        <button class="cookie-settings-button" type="button" onclick="window.dispatchEvent(new Event('isora:open-cookie-preferences'))">Gérer les cookies</button>
+      </div>
+    </footer>
+    <script src="/isora-cookie-consent.js" defer></script>
+    <script src="/isora-analytics.js" defer></script>
+    <script src="/isora-soft-navigation.js" defer></script>
+  </body>
+</html>
