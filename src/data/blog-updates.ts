@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-direction-encadrement-monde-2025",
+    "side": "femmes",
+    "claimTitle": "Femmes minoritaires dans les fonctions de direction et d’encadrement",
+    "claimMetric": "30,5 %",
+    "blogTitle": "Direction des entreprises en France : des écarts selon la forme juridique",
+    "blogUrl": "/blog/2026-11-20-direction-entreprises-france-insee-2024/",
+    "date": "2026-11-20",
+    "updatedAt": "2026-11-20T21:41:35Z"
+  },
+  {
     "claimId": "femmes-temps-partiel",
     "side": "femmes",
     "claimTitle": "Temps partiel plus fréquent chez les femmes, lecture ambivalente",
@@ -120,16 +130,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
     "date": "2026-11-06",
     "updatedAt": "2026-11-06T08:58:02Z"
-  },
-  {
-    "claimId": "femmes-direction-encadrement-monde-2025",
-    "side": "femmes",
-    "claimTitle": "Femmes minoritaires dans les fonctions de direction et d’encadrement",
-    "claimMetric": "30,5 %",
-    "blogTitle": "Direction et encadrement : 30,5 % de femmes dans l’estimation mondiale de l’OIT pour 2025",
-    "blogUrl": "/blog/2026-11-04-femmes-direction-encadrement-monde-oit/",
-    "date": "2026-11-04",
-    "updatedAt": "2026-11-04T00:27:14.000Z"
   },
   {
     "claimId": "hommes-sanctions-penales-plus-lourdes",

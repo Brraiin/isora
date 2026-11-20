@@ -2,8 +2,61 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-19T19:41:50.164Z",
+  "generatedAt": "2026-11-20T21:42:37.376Z",
   "posts": [
+    {
+      "id": "2026-11-20-direction-entreprises-france-insee-2024",
+      "title": "Direction des entreprises en France : des écarts selon la forme juridique",
+      "url": "https://isora.info/blog/2026-11-20-direction-entreprises-france-insee-2024/",
+      "description": "Une étude Insee publiée le 17 novembre distingue entrepreneurs individuels et sociétés. Isora précise les chiffres, leur méthode et leurs limites.",
+      "date": "2026-11-20",
+      "publishedAt": "2026-11-20T21:41:35Z",
+      "updatedAt": "2026-11-20T21:41:35Z",
+      "topic": {
+        "id": "travail-revenus",
+        "label": "Travail, revenus et conditions d’emploi"
+      },
+      "keywords": [
+        "femmes direction entreprises France 2024",
+        "Insee Focus 391",
+        "entrepreneurs individuels sociétés",
+        "gouvernance estimation prénoms"
+      ],
+      "relatedClaimIds": [
+        "femmes-direction-encadrement-monde-2025"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Les femmes représentent 35 % des dirigeants d’entreprise — Insee Focus n° 391",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/9128369",
+          "date": "17 novembre 2026 ; entreprises actives en 2024",
+          "type": "étude statistique primaire ; champ, formes juridiques et différences sectorielles"
+        },
+        {
+          "title": "Insee Focus n° 391 — données des figures et tableaux complémentaires",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/fichier/9128369/IF391.xlsx",
+          "date": "17 novembre 2026 ; données 2024 et créations 2012–2025, consultées le 20 novembre 2026",
+          "type": "tableaux primaires ; tableau complémentaire 2 : 46 %, 22,8 %, 26,9 % et 18 % ; figure 1 pour les secteurs"
+        },
+        {
+          "title": "Calcul du sexe des dirigeants et des sociétés — fiche méthodologique de l’Insee Focus n° 391",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/statistiques/fichier/9128369/NoteMethodologique_IF391.pdf",
+          "date": "document associé à la publication du 17 novembre 2026 ; consulté le 20 novembre 2026",
+          "type": "méthode officielle ; probabilités à partir des prénoms, compléments, pondérations et limites individuelles"
+        },
+        {
+          "title": "Système d’information sur la démographie d’entreprises (SIDE)",
+          "publisher": "Insee",
+          "url": "https://www.insee.fr/fr/metadonnees/source/serie/s2120",
+          "date": "mise à jour indiquée au 20 novembre 2026",
+          "type": "métadonnées officielles du dispositif ; répertoires administratifs et suivi démographique, pas une étude indépendante"
+        }
+      ]
+    },
     {
       "id": "2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025",
       "title": "Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes",

@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Direction des entreprises en France : des écarts selon la forme juridique
+- URL: https://isora.info/blog/2026-11-20-direction-entreprises-france-insee-2024/
+- Date: 2026-11-20
+- Sujet: Travail, revenus et conditions d’emploi
+- Fiches isora liees: femmes-direction-encadrement-monde-2025
+- Resume: L’Insee publie le 17 novembre 2026 une étude sur la direction des entreprises en France en 2024. La place des femmes varie selon la forme juridique et le secteur. Pour les sociétés, le résultat combine une estimation à partir des prénoms et une pondération des fonctions : ce n’est pas un simple décompte de personnes ni une mesure de propriété.
+- Sources: Insee (17 novembre 2026 ; entreprises actives en 2024): https://www.insee.fr/fr/statistiques/9128369; Insee (17 novembre 2026 ; données 2024 et créations 2012–2025, consultées le 20 novembre 2026): https://www.insee.fr/fr/statistiques/fichier/9128369/IF391.xlsx; Insee (document associé à la publication du 17 novembre 2026 ; consulté le 20 novembre 2026): https://www.insee.fr/fr/statistiques/fichier/9128369/NoteMethodologique_IF391.pdf; Insee (mise à jour indiquée au 20 novembre 2026): https://www.insee.fr/fr/metadonnees/source/serie/s2120
+
 ### Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes
 - URL: https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/
 - Date: 2026-11-19

@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-19T19:41:49.964Z
+Derniere generation: 2026-11-20T21:42:37.211Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Direction des entreprises en France : des écarts selon la forme juridique
+- URL: https://isora.info/blog/2026-11-20-direction-entreprises-france-insee-2024/
+- Date: 2026-11-20
+- Fiches isora liees: femmes-direction-encadrement-monde-2025
+- Resume: L’Insee publie le 17 novembre 2026 une étude sur la direction des entreprises en France en 2024. La place des femmes varie selon la forme juridique et le secteur. Pour les sociétés, le résultat combine une estimation à partir des prénoms et une pondération des fonctions : ce n’est pas un simple décompte de personnes ni une mesure de propriété.
+- Sources: Insee: https://www.insee.fr/fr/statistiques/9128369; Insee: https://www.insee.fr/fr/statistiques/fichier/9128369/IF391.xlsx; Insee: https://www.insee.fr/fr/statistiques/fichier/9128369/NoteMethodologique_IF391.pdf; Insee: https://www.insee.fr/fr/metadonnees/source/serie/s2120
+
 ### Emploi dans l’UE : environ dix points d’écart, des situations régionales différentes
 - URL: https://isora.info/blog/2026-11-19-emploi-femmes-hommes-regions-union-europeenne-2025/
 - Date: 2026-11-19
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-ingenierie
 - Resume: Dans sa publication du 10 novembre 2026, Eurostat indique que les femmes représentent 41 % des scientifiques et ingénieurs de l’Union européenne en 2025. Cette catégorie statistique comprend des spécialistes des sciences et de l’ingénierie, mais aussi de la santé et des technologies de l’information et de la communication. Elle décrit des professions exercées ; son périmètre dépasse celui des seuls ingénieurs ou des personnes travaillant dans un laboratoire. La répartition varie aussi selon les régions.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261110-2; Eurostat / Statistics Explained: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Research_and_development_statistics_at_regional_level; Eurostat / Statistics Explained: https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Scientists_and_engineers; Eurostat: https://ec.europa.eu/eurostat/cache/metadata/en/hrst_esms.htm
-
-### Chômage en France : 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre 2026
-- URL: https://isora.info/blog/2026-11-11-chomage-femmes-hommes-france-troisieme-trimestre-2026/
-- Date: 2026-11-11
-- Fiches isora liees: femmes-temps-partiel
-- Resume: Publié le 10 novembre 2026, le nouveau point de l’Insee estime le taux de chômage à 8,6 % chez les hommes et 7,8 % chez les femmes au troisième trimestre en France. La comparaison porte sur les personnes actives de chaque sexe — en emploi ou au chômage — à partir de l’enquête Emploi. Chez les 15–24 ans, les deux taux sont très proches. Le même bilan présente un taux d’emploi féminin plus faible : ces observations peuvent coexister parce que les indicateurs ne rapportent pas les personnes au même dénominateur.
-- Sources: Insee: https://www.insee.fr/fr/statistiques/9118603; Insee: https://www.insee.fr/fr/metadonnees/definition/c1129; Insee: https://www.insee.fr/fr/statistiques/4805248
 
 
 ## Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus
