@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-representation-politique-monde",
+    "side": "femmes",
+    "claimTitle": "Femmes sous-représentées dans le pouvoir politique mondial",
+    "claimMetric": "27,5 %",
+    "blogTitle": "Municipales 2026 : 48,1 % de femmes dans les conseils, 22,9 % parmi les maires",
+    "blogUrl": "/blog/2026-11-21-elus-locaux-femmes-conseils-municipaux-maires-2026/",
+    "date": "2026-11-21",
+    "updatedAt": "2026-11-21T22:38:32Z"
+  },
+  {
     "claimId": "femmes-direction-encadrement-monde-2025",
     "side": "femmes",
     "claimTitle": "Femmes minoritaires dans les fonctions de direction et d’encadrement",
