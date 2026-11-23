@@ -2,8 +2,62 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-23T14:49:19.889Z",
+  "generatedAt": "2026-11-23T20:05:09.997Z",
   "posts": [
+    {
+      "id": "2026-11-23-indice-egalite-eige-france-premiere-methode",
+      "title": "Indice EIGE 2026 : la France première, selon quels critères ?",
+      "url": "https://isora.info/blog/2026-11-23-indice-egalite-eige-france-premiere-methode/",
+      "description": "La France obtient 74,8 points dans l’indice européen d’égalité. Méthode, pondérations, dates et limites précisent ce que signifie sa première place.",
+      "date": "2026-11-23",
+      "publishedAt": "2026-11-23T20:03:50Z",
+      "updatedAt": "2026-11-23T20:03:50Z",
+      "topic": {
+        "id": "droits-autonomie",
+        "label": "Droits, autonomie et accès aux services"
+      },
+      "keywords": [
+        "indice égalité EIGE 2026 France",
+        "France 74,8 points égalité femmes hommes",
+        "méthode indice égalité européen",
+        "indicateur composite pondérations"
+      ],
+      "relatedClaimIds": [
+        "hommes-sorties-precoces",
+        "femmes-ecart-salaire"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "France tops the Gender Equality Index for the first time",
+          "publisher": "EIGE",
+          "url": "https://eige.europa.eu/newsroom/news/france-tops-gender-equality-index-first-time",
+          "date": "17 novembre 2026",
+          "type": "communiqué institutionnel ; classement France, Suède et UE, date de publication et avertissement sur les révisions"
+        },
+        {
+          "title": "Gender Equality Index 2026: Making parental leave work",
+          "publisher": "EIGE / Office des publications de l’Union européenne",
+          "url": "https://eige.europa.eu/sites/default/files/documents/mh0126055enn_002.pdf",
+          "date": "17 novembre 2026 ; données majoritairement 2025, années précisées à l’annexe 1",
+          "type": "rapport primaire ; pages 19–22 pour la série recalculée, annexe 1 pour les populations et dates, annexe 5 pages 239–242 pour le périmètre et le calcul (feuilles PDF 21–24, 196 et suivantes, 241–244)"
+        },
+        {
+          "title": "Gender Equality Index 2026 — France, profil national",
+          "publisher": "EIGE",
+          "url": "https://eige.europa.eu/publications-resources/publications/gender-equality-index-2026-country-briefs",
+          "date": "17 novembre 2026",
+          "type": "profil FR_2026_factsheet.pdf dans l’archive publique ; pages 1–3 pour le score et les contrastes français, page 14 pour les limites du score"
+        },
+        {
+          "title": "Gender Equality Index: Methodological report",
+          "publisher": "EIGE",
+          "url": "https://eige.europa.eu/sites/default/files/documents/gender-equality-index-methodological-report.pdf",
+          "date": "18 février 2026 ; méthode révisée pour l’édition 2025",
+          "type": "méthode officielle ; pages imprimées 7–11, 27–28 et 31–35 : série comparable, symétrie des écarts et choix de pondération ; pas une nouvelle statistique de novembre"
+        }
+      ]
+    },
     {
       "id": "2026-11-23-autonomie-sexuelle-reproductive-unfpa-indicateur-56-pour-cent",
       "title": "Autonomie sexuelle et reproductive : ce que mesure le chiffre UNFPA de 56 %",

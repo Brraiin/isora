@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-23T14:49:19.724Z
+Derniere generation: 2026-11-23T20:05:09.803Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Indice EIGE 2026 : la France première, selon quels critères ?
+- URL: https://isora.info/blog/2026-11-23-indice-egalite-eige-france-premiere-methode/
+- Date: 2026-11-23
+- Fiches isora liees: hommes-sorties-precoces, femmes-ecart-salaire
+- Resume: Le 17 novembre, l’Institut européen pour l’égalité entre les hommes et les femmes (EIGE), une agence de l’Union européenne, a publié son indice 2026. La France arrive première avec 74,8 points sur 100. Ce classement repose sur un ensemble défini de mesures : il ne décrit pas toutes les asymétries vécues par les femmes et les hommes.
+- Sources: EIGE: https://eige.europa.eu/newsroom/news/france-tops-gender-equality-index-first-time; EIGE / Office des publications de l’Union européenne: https://eige.europa.eu/sites/default/files/documents/mh0126055enn_002.pdf; EIGE: https://eige.europa.eu/publications-resources/publications/gender-equality-index-2026-country-briefs; EIGE: https://eige.europa.eu/sites/default/files/documents/gender-equality-index-methodological-report.pdf
+
 ### Autonomie sexuelle et reproductive : ce que mesure le chiffre UNFPA de 56 %
 - URL: https://isora.info/blog/2026-11-23-autonomie-sexuelle-reproductive-unfpa-indicateur-56-pour-cent/
 - Date: 2026-11-23
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-temps-partiel
 - Resume: Publié le 12 novembre 2026, le rapport Perspectives des migrations internationales de l’Organisation de coopération et de développement économiques (OCDE) présente pour 2025 un taux d’emploi moyen de 63,4 % chez les femmes immigrées, contre 78,5 % chez les hommes immigrés. L’écart de 15,1 points concerne les populations et pays couverts par le rapport. Il ne mesure ni un taux de chômage, ni une discrimination à caractéristiques identiques.
 - Sources: OCDE: https://www.oecd.org/en/publications/2026/11/international-migration-outlook-2026_3430dee0/full-report/recent-developments-in-international-migration-movements-and-labour-market-inclusion-of-immigrants_a8f69192.html; OCDE: https://www.oecd.org/en/about/news/press-releases/2026/11/migration-to-oecd-countries-declines-for-second-consecutive-year-but-remains-high-by-historical-standards.html; OCDE: https://www.oecd.org/en/data/indicators/employment-rate.html
-
-### Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus en 2025
-- URL: https://isora.info/blog/2026-11-15-tuberculose-cas-estimes-femmes-hommes-monde-2025/
-- Date: 2026-11-15
-- Fiches isora liees: hommes-tuberculose-cas-estimes-monde-2025
-- Resume: La tuberculose est une maladie infectieuse causée par des bactéries, qui touche le plus souvent les poumons et peut se transmettre par l’air. Le rapport mondial de l’OMS, publié le 12 novembre 2026, estime pour 2025 davantage de cas chez les hommes de 15 ans ou plus que chez les femmes du même âge : 5,7 millions contre 3,7 millions. Les enfants de moins de 15 ans forment un groupe distinct. Ces nombres sont des estimations de cas, pas des probabilités individuelles de tomber malade.
-- Sources: Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240126480; Organisation mondiale de la Santé: https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence; Organisation mondiale de la Santé: https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
 
 
 ## Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus

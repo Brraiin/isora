@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Indice EIGE 2026 : la France première, selon quels critères ?
+- URL: https://isora.info/blog/2026-11-23-indice-egalite-eige-france-premiere-methode/
+- Date: 2026-11-23
+- Sujet: Droits, autonomie et accès aux services
+- Fiches isora liees: hommes-sorties-precoces, femmes-ecart-salaire
+- Resume: Le 17 novembre, l’Institut européen pour l’égalité entre les hommes et les femmes (EIGE), une agence de l’Union européenne, a publié son indice 2026. La France arrive première avec 74,8 points sur 100. Ce classement repose sur un ensemble défini de mesures : il ne décrit pas toutes les asymétries vécues par les femmes et les hommes.
+- Sources: EIGE (17 novembre 2026): https://eige.europa.eu/newsroom/news/france-tops-gender-equality-index-first-time; EIGE / Office des publications de l’Union européenne (17 novembre 2026 ; données majoritairement 2025, années précisées à l’annexe 1): https://eige.europa.eu/sites/default/files/documents/mh0126055enn_002.pdf; EIGE (17 novembre 2026): https://eige.europa.eu/publications-resources/publications/gender-equality-index-2026-country-briefs; EIGE (18 février 2026 ; méthode révisée pour l’édition 2025): https://eige.europa.eu/sites/default/files/documents/gender-equality-index-methodological-report.pdf
+
 ### Autonomie sexuelle et reproductive : ce que mesure le chiffre UNFPA de 56 %
 - URL: https://isora.info/blog/2026-11-23-autonomie-sexuelle-reproductive-unfpa-indicateur-56-pour-cent/
 - Date: 2026-11-23

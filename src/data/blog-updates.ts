@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-sorties-precoces",
+    "side": "hommes",
+    "claimTitle": "Garçons plus touchés par les sorties précoces du système scolaire",
+    "claimMetric": "9,5 % vs 5,6 %",
+    "blogTitle": "Indice EIGE 2026 : la France première, selon quels critères ?",
+    "blogUrl": "/blog/2026-11-23-indice-egalite-eige-france-premiere-methode/",
+    "date": "2026-11-23",
+    "updatedAt": "2026-11-23T20:03:50Z"
+  },
+  {
+    "claimId": "femmes-ecart-salaire",
+    "side": "femmes",
+    "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
+    "claimMetric": "3,0-4,8 %",
+    "blogTitle": "Indice EIGE 2026 : la France première, selon quels critères ?",
+    "blogUrl": "/blog/2026-11-23-indice-egalite-eige-france-premiere-methode/",
+    "date": "2026-11-23",
+    "updatedAt": "2026-11-23T20:03:50Z"
+  },
+  {
     "claimId": "femmes-contraception-besoins-non-couverts",
     "side": "femmes",
     "claimTitle": "Femmes sans contraception moderne malgré un besoin",
@@ -242,16 +262,6 @@ export const homeBlogUpdates = [
     "updatedAt": "2026-10-21T18:28:17.853Z"
   },
   {
-    "claimId": "femmes-ecart-salaire",
-    "side": "femmes",
-    "claimTitle": "Salaire inférieur pour une femme à profil comparable à un homme",
-    "claimMetric": "3,0-4,8 %",
-    "blogTitle": "Smic : les femmes majoritaires parmi les bénéficiaires de la revalorisation de janvier 2026",
-    "blogUrl": "/blog/2026-10-20-smic-revalorisation-beneficiaires-femmes-hommes/",
-    "date": "2026-10-20",
-    "updatedAt": "2026-10-20T12:26:09.011Z"
-  },
-  {
     "claimId": "hommes-esperance-vie",
     "side": "hommes",
     "claimTitle": "Espérance de vie plus courte pour les hommes en France",
@@ -430,16 +440,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-06-25-suicide-gestes-auto-infliges-asymetries-sexe/",
     "date": "2026-06-25",
     "updatedAt": "2026-09-09T18:31:51.219Z"
-  },
-  {
-    "claimId": "hommes-sorties-precoces",
-    "side": "hommes",
-    "claimTitle": "Garçons plus touchés par les sorties précoces du système scolaire",
-    "claimMetric": "9,5 % vs 5,6 %",
-    "blogTitle": "Sorties précoces d'études : les jeunes hommes restent plus exposés en Europe",
-    "blogUrl": "/blog/2026-06-30-sorties-precoces-jeunes-hommes-europe-france/",
-    "date": "2026-06-30",
-    "updatedAt": "2026-09-07T19:03:37.000Z"
   },
   {
     "claimId": "femmes-soin-non-remunere-emploi",
