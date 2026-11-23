@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-21T22:39:11.943Z
+Derniere generation: 2026-11-23T14:49:19.724Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Autonomie sexuelle et reproductive : ce que mesure le chiffre UNFPA de 56 %
+- URL: https://isora.info/blog/2026-11-23-autonomie-sexuelle-reproductive-unfpa-indicateur-56-pour-cent/
+- Date: 2026-11-23
+- Fiches isora liees: femmes-contraception-besoins-non-couverts
+- Resume: Dans son rapport publié le 19 novembre 2026, le Fonds des Nations unies pour la population (UNFPA) indique que 56 % des femmes de 15 à 49 ans mariées ou vivant en union, dans les 78 pays documentés, remplissent trois critères de décision sexuelle et reproductive. Le périmètre et la définition comptent autant que le pourcentage.
+- Sources: UNFPA: https://www.unfpa.org/sites/default/files/pub-pdf/swp26-en-v261113%28web%29pdf.pdf; Division de statistique des Nations unies / UNFPA: https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-01.pdf; UNFPA: https://www.unfpa.org/publications/lives-choices-and-futures-demographic-futures-survey; UNFPA — États arabes: https://arabstates.unfpa.org/en/publications/state-world-population-2entity26-succeeding-generations
+
 ### Municipales 2026 : 48,1 % de femmes dans les conseils, 22,9 % parmi les maires
 - URL: https://isora.info/blog/2026-11-21-elus-locaux-femmes-conseils-municipaux-maires-2026/
 - Date: 2026-11-21
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: hommes-tuberculose-cas-estimes-monde-2025
 - Resume: La tuberculose est une maladie infectieuse causée par des bactéries, qui touche le plus souvent les poumons et peut se transmettre par l’air. Le rapport mondial de l’OMS, publié le 12 novembre 2026, estime pour 2025 davantage de cas chez les hommes de 15 ans ou plus que chez les femmes du même âge : 5,7 millions contre 3,7 millions. Les enfants de moins de 15 ans forment un groupe distinct. Ces nombres sont des estimations de cas, pas des probabilités individuelles de tomber malade.
 - Sources: Organisation mondiale de la Santé: https://www.who.int/publications/i/item/9789240126480; Organisation mondiale de la Santé: https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence; Organisation mondiale de la Santé: https://cdn.who.int/media/docs/default-source/hq-tuberculosis/technical-appendix-global-tuberculosis-report-2026.pdf?sfvrsn=ff78e7ba_7; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
-
-### Justice en France : 75 % de femmes parmi les juges professionnels, 64 % parmi les procureurs en 2025
-- URL: https://isora.info/blog/2026-11-13-juges-procureurs-femmes-hommes-france-2025/
-- Date: 2026-11-13
-- Fiches isora liees: hommes-attribution-laxisme-justice-violences-sexuelles
-- Resume: La fiche statistique publiée le 12 novembre 2026 par le ministère de la Justice présente des effectifs au 31 décembre 2025. Dans les juridictions judiciaires, les femmes représentent 75 % des juges professionnels et 64 % des procureurs. Cette composition diffère selon les fonctions. Elle renseigne les personnels en poste, sans mesurer un traitement favorable ou défavorable des justiciables selon leur sexe.
-- Sources: Ministère de la Justice / SSER, Direction des services judiciaires: https://www.justice.gouv.fr/sites/default/files/2026-11/RSJ2026%201_2.pdf; Ministère de la Justice: https://www.justice.gouv.fr/documentation/etudes-et-statistiques/references-statistiques-justice-continu; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/acteurs-justice/magistrats/magistrats-du-siege; Ministère de la Justice: https://www.justice.gouv.fr/magistrats-du-parquet; Ministère de la Justice: https://www.justice.gouv.fr/justice-france/acteurs-justice/personnels-greffe
 
 
 ## Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus

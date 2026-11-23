@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-contraception-besoins-non-couverts",
+    "side": "femmes",
+    "claimTitle": "Femmes sans contraception moderne malgré un besoin",
+    "claimMetric": "259 M",
+    "blogTitle": "Autonomie sexuelle et reproductive : ce que mesure le chiffre UNFPA de 56 %",
+    "blogUrl": "/blog/2026-11-23-autonomie-sexuelle-reproductive-unfpa-indicateur-56-pour-cent/",
+    "date": "2026-11-23",
+    "updatedAt": "2026-11-23T14:48:38Z"
+  },
+  {
     "claimId": "femmes-representation-politique-monde",
     "side": "femmes",
     "claimTitle": "Femmes sous-représentées dans le pouvoir politique mondial",
@@ -310,16 +320,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-09-30-femmes-direction-ecoles-primaires-france-ocde/",
     "date": "2026-09-30",
     "updatedAt": "2026-09-30T10:05:00.000Z"
-  },
-  {
-    "claimId": "femmes-contraception-besoins-non-couverts",
-    "side": "femmes",
-    "claimTitle": "Femmes sans contraception moderne malgré un besoin",
-    "claimMetric": "259 M",
-    "blogTitle": "Contraception : l'OMS élargit les choix pour les femmes et prépare de nouvelles options masculines",
-    "blogUrl": "/blog/2026-09-24-options-contraceptives-oms-femmes-hommes/",
-    "date": "2026-09-24",
-    "updatedAt": "2026-09-24T00:30:00.000Z"
   },
   {
     "claimId": "femmes-etudes-superieures-sport-ue-2024",

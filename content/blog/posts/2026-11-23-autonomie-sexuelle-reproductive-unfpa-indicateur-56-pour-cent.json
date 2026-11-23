@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-23-autonomie-sexuelle-reproductive-unfpa-indicateur-56-pour-cent",
+  "slug": "2026-11-23-autonomie-sexuelle-reproductive-unfpa-indicateur-56-pour-cent",
+  "status": "published",
+  "language": "fr",
+  "title": "Autonomie sexuelle et reproductive : ce que mesure le chiffre UNFPA de 56 %",
+  "description": "Le rapport UNFPA du 19 novembre présente un indicateur dans 78 pays. Population, décisions conjointes, dates et limites de comparaison sont précisées.",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T14:48:38Z",
+  "updatedAt": "2026-11-23T14:48:38Z",
+  "topic": {
+    "id": "droits-autonomie",
+    "label": "Droits, autonomie et accès aux services"
+  },
+  "keywords": [
+    "UNFPA autonomie sexuelle reproductive 2026",
+    "indicateur 5.6.1 56 pour cent",
+    "femmes mariées en union 15 49 ans",
+    "décisions conjointes contraception soins"
+  ],
+  "relatedClaimIds": [
+    "femmes-contraception-besoins-non-couverts"
+  ],
+  "readingMinutes": 3,
+  "summary": "Dans son rapport publié le 19 novembre 2026, le Fonds des Nations unies pour la population (UNFPA) indique que 56 % des femmes de 15 à 49 ans mariées ou vivant en union, dans les 78 pays documentés, remplissent trois critères de décision sexuelle et reproductive. Le périmètre et la définition comptent autant que le pourcentage.",
+  "keyPoints": [
+    "Le chiffre de 56 % combine trois dimensions : soins personnels, contraception et possibilité de refuser un rapport avec le partenaire.",
+    "Les décisions prises avec le partenaire peuvent compter positivement : décider seule n’est pas une obligation dans les deux premières dimensions.",
+    "Le tableau du rapport situe l’agrégat en 2024 ; les observations nationales présentées couvrent des années de 2007 à 2024.",
+    "Ce résultat ne porte pas sur toutes les femmes du monde et ne fournit pas un taux comparable pour les hommes."
+  ],
+  "sections": [
+    {
+      "heading": "Une publication nouvelle, plusieurs sources de données",
+      "paragraphs": [
+        "L’édition 2026 de l’État de la population mondiale rassemble des recherches, des statistiques et une enquête sur les aspirations des jeunes adultes. Sa mise en ligne le 19 novembre, confirmée par la page officielle de publication, ne signifie pas que toutes ses données ont été recueillies en 2026.",
+        "La page 74 du rapport, soit la feuille 76 du PDF, présente le résultat dans 78 pays pour les femmes de 15 à 49 ans mariées ou vivant en union. Le tableau de la page 132 porte la référence 2024 pour l’agrégat et 2007–2024 pour les observations nationales. Ces dates ne décrivent donc pas une enquête simultanée menée partout."
+      ]
+    },
+    {
+      "heading": "Trois conditions réunies, et une place pour les décisions conjointes",
+      "paragraphs": [
+        "L’indicateur 5.6.1 des objectifs de développement durable retient les femmes déclarant participer aux décisions sur leurs soins et leur contraception, et pouvoir refuser un rapport sexuel non souhaité avec leur conjoint ou partenaire. Les trois conditions doivent être réunies.",
+        "La méthode accepte une décision personnelle ou conjointe pour les soins et la contraception. Elle ne classe donc pas automatiquement une décision de couple comme une absence d’autonomie. Inversement, ne pas remplir les trois critères ne signifie pas nécessairement ne disposer d’aucune capacité de décision dans aucun domaine."
+      ]
+    },
+    {
+      "heading": "Ce que la mesure laisse hors de son champ",
+      "paragraphs": [
+        "La notice méthodologique repose surtout sur des enquêtes nationales auprès des ménages. Elle signale des exclusions possibles, notamment des personnes sans logement, ainsi qu’une couverture historiquement limitée aux utilisatrices de contraception, élargie dans les questionnaires plus récents. Les agrégats sont pondérés à partir des pays disponibles ; ils ne remplacent pas les données manquantes d’un pays.",
+        "Une réponse à une enquête n’est ni une qualification pénale, ni un décompte de violences, ni une mesure de tous les droits corporels. Aucun pourcentage de viols ni aucun taux masculin n’est déduit ici. Les catégories de sexe sont celles des sources ; les chromosomes ne sont pas mesurés."
+      ]
+    },
+    {
+      "heading": "Ne pas confondre cet indicateur avec l’enquête sur les jeunes adultes",
+      "paragraphs": [
+        "Le rapport cite aussi la Demographic Futures Survey, une enquête sur les aspirations et décisions de vie. Sa documentation décrit plus de 108 000 personnes connectées à Internet, âgées de 18 à 39 ans, dans 73 pays. Cette population diffère de celle de l’indicateur d’autonomie. Le nombre important de répondants ne permet pas de fusionner ces deux dispositifs.",
+        "La fiche liée sur les besoins de contraception non couverts apporte un contexte complémentaire. Accéder à une méthode contraceptive et participer à la décision sont deux questions différentes : ses chiffres et sa date de vérification restent inchangés. Les références ci-dessous précisent des parties différentes du travail UNFPA, sans constituer quatre confirmations indépendantes du pourcentage."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Le chiffre concerne-t-il toutes les femmes, y compris en France ?",
+      "answer": "Non. Il concerne le champ documenté par le rapport, limité en âge et en situation conjugale. Il ne constitue pas une estimation française."
+    },
+    {
+      "question": "Décider avec son partenaire fait-il échouer le critère ?",
+      "answer": "Non. La méthode accepte les décisions conjointes pour les soins et la contraception, avec une condition distincte sur la possibilité de refuser un rapport."
+    },
+    {
+      "question": "Peut-on en déduire la situation des hommes ?",
+      "answer": "Non. Cette mesure ne fournit pas ici de comparaison masculine sur le même questionnaire et le même périmètre."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Succeeding Generations — State of World Population 2026",
+      "publisher": "UNFPA",
+      "url": "https://www.unfpa.org/sites/default/files/pub-pdf/swp26-en-v261113%28web%29pdf.pdf",
+      "date": "19 novembre 2026 ; tableau de référence 2024, observations nationales 2007–2024",
+      "type": "rapport primaire ; page 74 pour les 78 pays et 56 %, pages 132 et 137 pour le tableau, le champ et les notes, soit feuilles PDF 76, 134 et 139"
+    },
+    {
+      "title": "Métadonnées de l’indicateur ODD 5.6.1 — décisions sexuelles et reproductives",
+      "publisher": "Division de statistique des Nations unies / UNFPA",
+      "url": "https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-01.pdf",
+      "date": "notice mise à jour le 29 juillet 2024, consultée le 23 novembre 2026",
+      "type": "méthode officielle ; questions, décisions conjointes, conditions cumulatives et limites de couverture ; pas une nouvelle estimation 2026"
+    },
+    {
+      "title": "Lives, Choices and Futures — Demographic Futures Survey",
+      "publisher": "UNFPA",
+      "url": "https://www.unfpa.org/publications/lives-choices-and-futures-demographic-futures-survey",
+      "date": "juillet 2026 ; documentation consultée le 23 novembre 2026",
+      "type": "documentation du dispositif distinct sur les jeunes adultes connectés à Internet de 18–39 ans, dans 73 pays ; ne produit pas le chiffre de 56 %"
+    },
+    {
+      "title": "State of World Population 2026 — Succeeding Generations : page de publication",
+      "publisher": "UNFPA — États arabes",
+      "url": "https://arabstates.unfpa.org/en/publications/state-world-population-2entity26-succeeding-generations",
+      "date": "19 novembre 2026",
+      "type": "notice institutionnelle confirmant la date et l’objet du rapport ; même producteur, pas une étude indépendante"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-23T14:48:38Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-23T14:48:38Z",
+    "reviewNote": "Veille du 23 novembre : rapport UNFPA paru le 19 novembre, angle de mesure de l’autonomie distinct des 64 articles existants. Pages imprimées 74, 132 et 137 (feuilles PDF 76, 134, 139) lues et inspectées visuellement ; notice ODD 5.6.1 du 29 juillet 2024 lue, pages pertinentes inspectées. 56 % dans 78 pays repris sans universalisation : femmes 15–49 mariées/en union, agrégat daté 2024, observations nationales 2007–2024. Ne pas confondre avec le nombre de pays ancien de la notice 2024. Décisions conjointes reconnues pour soins et contraception, trois conditions cumulatives, ancienne restriction contraceptive et couverture ménages explicitées. Aucune qualification pénale ni fréquence de viol déduite des réponses. Composante contraceptive non reprise : 89 % au narratif contre 88 % au tableau, sans réconciliation supposée. Les autres composantes et analyses d’âge de huit pays ne sont pas généralisées. Enquête sur les jeunes adultes connectés 18–39/73 pays distinguée de cet indicateur. Aucun complément masculin ou classement de pays non documenté, aucune mesure chromosomique. Quatre supports UNFPA complémentaires, pas quatre études indépendantes. Aucune fiche créée ou modifiée : lien de contexte vers femmes-contraception-besoins-non-couverts, indicateur différent conservé sans redatation. Aucun changement préexistant. Classement vérifié, conservé : mortalité et violences de grande portée prioritaires, hommes-esperance-vie première, ordre interne des fiches de droits/santé conservé car portée inchangée ; mpox dernier parmi les hommes et accessible en recherche."
+  }
+}
