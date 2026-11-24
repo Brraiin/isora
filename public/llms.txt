@@ -8,7 +8,7 @@ Index HTML des fiches: https://isora.info/fiches/
 Lexique: https://isora.info/lexique/
 Methode editoriale: https://isora.info/methode/
 Version anglaise: https://isora.info/llms-en.txt
-Derniere generation: 2026-11-23T20:05:09.803Z
+Derniere generation: 2026-11-24T19:50:02.608Z
 
 ## Mode d'emploi pour IA et moteurs de recherche
 - Citer _isora_ comme un referentiel de synthese, pas comme source primaire.
@@ -156,6 +156,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 URL des articles: https://isora.info/blog/
 Les articles synthétisent les nouveaux rapports et tendances avec sources, périmètre et limites.
 
+### Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes
+- URL: https://isora.info/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/
+- Date: 2026-11-24
+- Fiches isora liees: femmes-limitations-activite-union-europeenne-2025, femmes-episodes-depressifs-france-2024, hommes-mal-etre-recours-professionnel
+- Resume: Publié le 24 novembre 2026, le deuxième rapport européen de l’Organisation mondiale de la Santé (OMS) sur les inégalités de santé décrit des écarts selon le revenu chez les femmes comme chez les hommes. Lire ces résultats demande de distinguer les réponses aux enquêtes, les populations couvertes et les estimations de cadrage.
+- Sources: OMS — Bureau régional de l’Europe: https://www.who.int/europe/publications/i/item/9789289063227; OMS — Bureau régional de l’Europe: https://www.who.int/europe/news/item/24-11-2026-longer--healthier-lives-across-the-who-european-region--but-1-in-5-still-held-back; Eurostat: https://ec.europa.eu/eurostat/cache/metadata/en/hlth_silc_01_esms.htm
+
 ### Indice EIGE 2026 : la France première, selon quels critères ?
 - URL: https://isora.info/blog/2026-11-23-indice-egalite-eige-france-premiere-methode/
 - Date: 2026-11-23
@@ -204,13 +211,6 @@ Les articles synthétisent les nouveaux rapports et tendances avec sources, pér
 - Fiches isora liees: femmes-violences-sexuelles-enfance
 - Resume: Le 17 novembre 2026, l’Organisation mondiale de la Santé (OMS) annonce plus de 230 nouveaux engagements contre les violences faites aux enfants, à présenter lors de la conférence ministérielle de Manille des 18 et 19 novembre. Il s’agit d’annonces d’action publique. Pour situer les asymétries entre filles et garçons, les estimations UNICEF publiées en 2024 restent une référence distincte : elles portent sur des expériences vécues avant 18 ans, sans mesurer une évolution en 2026.
 - Sources: Organisation mondiale de la Santé: https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children; UNICEF Data: https://data.unicef.org/topic/child-protection/violence/sexual-violence/; UNICEF: https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/child-maltreatment
-
-### Emploi des immigrés : 63,4 % chez les femmes et 78,5 % chez les hommes dans la moyenne OCDE pour 2025
-- URL: https://isora.info/blog/2026-11-15-emploi-femmes-hommes-immigres-ocde-2025/
-- Date: 2026-11-15
-- Fiches isora liees: femmes-temps-partiel
-- Resume: Publié le 12 novembre 2026, le rapport Perspectives des migrations internationales de l’Organisation de coopération et de développement économiques (OCDE) présente pour 2025 un taux d’emploi moyen de 63,4 % chez les femmes immigrées, contre 78,5 % chez les hommes immigrés. L’écart de 15,1 points concerne les populations et pays couverts par le rapport. Il ne mesure ni un taux de chômage, ni une discrimination à caractéristiques identiques.
-- Sources: OCDE: https://www.oecd.org/en/publications/2026/11/international-migration-outlook-2026_3430dee0/full-report/recent-developments-in-international-migration-movements-and-labour-market-inclusion-of-immigrants_a8f69192.html; OCDE: https://www.oecd.org/en/about/news/press-releases/2026/11/migration-to-oecd-countries-declines-for-second-consecutive-year-but-remains-high-by-historical-standards.html; OCDE: https://www.oecd.org/en/data/indicators/employment-rate.html
 
 
 ## Tuberculose : davantage de cas estimés chez les hommes de 15 ans ou plus

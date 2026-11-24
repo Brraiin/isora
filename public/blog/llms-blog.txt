@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes
+- URL: https://isora.info/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/
+- Date: 2026-11-24
+- Sujet: Santé, mortalité et parcours de soin
+- Fiches isora liees: femmes-limitations-activite-union-europeenne-2025, femmes-episodes-depressifs-france-2024, hommes-mal-etre-recours-professionnel
+- Resume: Publié le 24 novembre 2026, le deuxième rapport européen de l’Organisation mondiale de la Santé (OMS) sur les inégalités de santé décrit des écarts selon le revenu chez les femmes comme chez les hommes. Lire ces résultats demande de distinguer les réponses aux enquêtes, les populations couvertes et les estimations de cadrage.
+- Sources: OMS — Bureau régional de l’Europe (24 novembre 2026 ; tableaux fondés sur 2023 ou la dernière année disponible): https://www.who.int/europe/publications/i/item/9789289063227; OMS — Bureau régional de l’Europe (24 novembre 2026): https://www.who.int/europe/news/item/24-11-2026-longer--healthier-lives-across-the-who-european-region--but-1-in-5-still-held-back; Eurostat (notice mise à jour le 24 octobre 2024, consultée le 24 novembre 2026): https://ec.europa.eu/eurostat/cache/metadata/en/hlth_silc_01_esms.htm
+
 ### Indice EIGE 2026 : la France première, selon quels critères ?
 - URL: https://isora.info/blog/2026-11-23-indice-egalite-eige-france-premiere-methode/
 - Date: 2026-11-23

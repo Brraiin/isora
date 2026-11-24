@@ -2,8 +2,56 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-23T20:05:09.997Z",
+  "generatedAt": "2026-11-24T19:50:02.774Z",
   "posts": [
+    {
+      "id": "2026-11-24-revenus-sante-femmes-hommes-oms-europe",
+      "title": "Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes",
+      "url": "https://isora.info/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/",
+      "description": "Le rapport OMS du 24 novembre documente un gradient de santé selon le revenu chez les deux sexes. Déclarations, pays couverts et chiffre de 187 millions sont distingués.",
+      "date": "2026-11-24",
+      "publishedAt": "2026-11-24T19:47:25Z",
+      "updatedAt": "2026-11-24T19:47:25Z",
+      "topic": {
+        "id": "sante-mortalite",
+        "label": "Santé, mortalité et parcours de soin"
+      },
+      "keywords": [
+        "OMS Europe équité santé 2026",
+        "revenu santé femmes hommes",
+        "santé déclarée questionnaire",
+        "187 millions méthode OMS"
+      ],
+      "relatedClaimIds": [
+        "femmes-limitations-activite-union-europeenne-2025",
+        "femmes-episodes-depressifs-france-2024",
+        "hommes-mal-etre-recours-professionnel"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "Policy action for health equity from early years to later life — The second WHO European Health Equity Status Report",
+          "publisher": "OMS — Bureau régional de l’Europe",
+          "url": "https://www.who.int/europe/publications/i/item/9789289063227",
+          "date": "24 novembre 2026 ; tableaux fondés sur 2023 ou la dernière année disponible",
+          "type": "rapport primaire, ISBN 9789289063227 ; page 57, tableaux 6–7 (feuille PDF 75), méthode pages 4–5 et 121–123 (feuilles 22–23 et 139–141), encadré A1 pour les 187 millions"
+        },
+        {
+          "title": "Longer, healthier lives across the WHO European Region, but 1 in 5 still held back",
+          "publisher": "OMS — Bureau régional de l’Europe",
+          "url": "https://www.who.int/europe/news/item/24-11-2026-longer--healthier-lives-across-the-who-european-region--but-1-in-5-still-held-back",
+          "date": "24 novembre 2026",
+          "type": "communiqué institutionnel ; date de lancement, définition de la santé moyenne ou mauvaise, groupes d’âge et limites de couverture ; même travail que le rapport"
+        },
+        {
+          "title": "Health variables of EU-SILC — concepts, définitions et comparabilité",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/cache/metadata/en/hlth_silc_01_esms.htm",
+          "date": "notice mise à jour le 24 octobre 2024, consultée le 24 novembre 2026",
+          "type": "méthode ; sections 3.1 et 3.4 distinguant santé perçue, maladie chronique et limitation d’activité ; ne produit pas les agrégats OMS ni le tableau sur la dépression"
+        }
+      ]
+    },
     {
       "id": "2026-11-23-indice-egalite-eige-france-premiere-methode",
       "title": "Indice EIGE 2026 : la France première, selon quels critères ?",

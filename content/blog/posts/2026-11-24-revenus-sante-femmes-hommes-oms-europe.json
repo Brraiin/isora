@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-24-revenus-sante-femmes-hommes-oms-europe",
+  "slug": "2026-11-24-revenus-sante-femmes-hommes-oms-europe",
+  "status": "published",
+  "language": "fr",
+  "title": "Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes",
+  "description": "Le rapport OMS du 24 novembre documente un gradient de santé selon le revenu chez les deux sexes. Déclarations, pays couverts et chiffre de 187 millions sont distingués.",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T19:47:25Z",
+  "updatedAt": "2026-11-24T19:47:25Z",
+  "topic": {
+    "id": "sante-mortalite",
+    "label": "Santé, mortalité et parcours de soin"
+  },
+  "keywords": [
+    "OMS Europe équité santé 2026",
+    "revenu santé femmes hommes",
+    "santé déclarée questionnaire",
+    "187 millions méthode OMS"
+  ],
+  "relatedClaimIds": [
+    "femmes-limitations-activite-union-europeenne-2025",
+    "femmes-episodes-depressifs-france-2024",
+    "hommes-mal-etre-recours-professionnel"
+  ],
+  "readingMinutes": 3,
+  "summary": "Publié le 24 novembre 2026, le deuxième rapport européen de l’Organisation mondiale de la Santé (OMS) sur les inégalités de santé décrit des écarts selon le revenu chez les femmes comme chez les hommes. Lire ces résultats demande de distinguer les réponses aux enquêtes, les populations couvertes et les estimations de cadrage.",
+  "keyPoints": [
+    "La santé déclarée varie fortement selon le niveau de revenu dans la compilation de 43 pays ; les résultats féminins et masculins sont présentés séparément.",
+    "Le tableau de santé générale repose sur 2023 ou la dernière année disponible, et non sur une enquête conduite partout en 2026.",
+    "Les résultats sur le risque déclaré de dépression couvrent 23 pays : ils ne décrivent pas le même ensemble que le tableau de santé générale.",
+    "L’annexe explique que le chiffre de 187 millions correspond à 20 % de la population régionale estimée en 2024."
+  ],
+  "sections": [
+    {
+      "heading": "Un gradient de revenu dans les deux groupes",
+      "paragraphs": [
+        "Un gradient social désigne une variation progressive d’un indicateur selon la position sociale. Dans le chapitre consacré aux adultes de 25 à 64 ans, le tableau 6 présente une santé déclarée défavorable chez 43 % des femmes et 42 % des hommes du groupe aux revenus les plus faibles, contre respectivement 21 % et 18 % dans le groupe aux revenus les plus élevés.",
+        "La source indique 43 pays, avec des données de 2023 ou de la dernière année disponible. Les quintiles sont cinq groupes de taille égale classés selon le revenu : le premier et le dernier représentent chacun 20 % de la population concernée. Ce classement relatif ne correspond pas à un montant identique de revenu dans tous les pays.",
+        "Ces résultats documentent un écart selon le revenu au sein de chaque sexe. La proximité des deux valeurs du groupe le moins aisé ne suffit pas à établir une égalité de santé, ni une différence statistiquement significative entre femmes et hommes."
+      ]
+    },
+    {
+      "heading": "Une santé déclarée, à distinguer d’un diagnostic",
+      "paragraphs": [
+        "Le communiqué de l’OMS précise que la santé générale défavorable regroupe une santé jugée moyenne ou mauvaise. Eurostat décrit une question standardisée proposant cinq réponses, de très bonne à très mauvaise, dont une catégorie intermédiaire, moyenne. Inclure cette dernière change donc le sens du résultat par rapport à un indicateur limité aux réponses mauvaises ou très mauvaises.",
+        "La santé perçue, les limitations d’activité et la dépression mesurent des dimensions différentes. Le tableau 7 du rapport porte sur un risque de dépression déclaré et couvre 23 pays, à partir de l’Enquête sociale européenne. Il ne constitue pas un décompte de diagnostics médicaux ni une mesure du recours aux soins.",
+        "Les réponses peuvent dépendre de la manière dont les personnes perçoivent et expriment leur état. Ces tableaux ne permettent pas de quantifier une éventuelle sous-déclaration masculine ou féminine, ni de calculer des taux corrigés. L’annexe avertit aussi que la ventilation par sexe n’explique pas, à elle seule, l’influence des normes et des rôles sociaux."
+      ]
+    },
+    {
+      "heading": "Ce que représentent les 187 millions annoncés",
+      "paragraphs": [
+        "Le rapport et le communiqué évoquent 187 millions de personnes freinées par des inégalités évitables. L’encadré A1 de l’annexe méthodologique explique la construction de ce chiffre : il correspond simplement à 20 % de la population estimée de la région européenne de l’OMS en 2024.",
+        "Il s’agit donc d’un cadrage du groupe le moins aisé, distinct des pourcentages de santé déclarée. Ce nombre ne dénombre pas 187 millions de nouveaux malades identifiés individuellement, ni un excès de cas mesuré après comparaison avec les personnes les plus aisées."
+      ]
+    },
+    {
+      "heading": "Garder les périmètres et les limites visibles",
+      "paragraphs": [
+        "La région européenne de l’OMS compte 53 États membres et dépasse l’Union européenne. Tous ne contribuent pas à chaque indicateur. Le rapport réunit plusieurs enquêtes et des statistiques couvrant des années différentes ; ses résultats ne doivent pas être transformés en taux français, ni les associations observées en preuve d’une cause unique.",
+        "Les fiches liées sur les limitations d’activité, les épisodes dépressifs et la parole adressée à un professionnel apportent des contextes complémentaires. Elles gardent leurs chiffres et leurs dates de vérification : leurs indicateurs, âges et territoires diffèrent. Les catégories femmes et hommes sont celles des sources, sans mesure des chromosomes. Le rapport OMS, son communiqué et la documentation Eurostat ci-dessous remplissent des fonctions différentes ; ils ne sont pas trois enquêtes indépendantes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Les pourcentages décrivent-ils la France en 2026 ?",
+      "answer": "Non. Ils proviennent d’une compilation internationale publiée en 2026, fondée sur 2023 ou la dernière année disponible selon le pays."
+    },
+    {
+      "question": "Peut-on conclure que le sexe importe moins que le revenu pour toute la santé ?",
+      "answer": "Non. Ces résultats concernent des indicateurs précis. Ils ne classent pas l’ensemble des risques de maladie, de décès ou de difficultés d’accès aux soins."
+    },
+    {
+      "question": "Les 187 millions sont-ils tous des patients recensés ?",
+      "answer": "Non. L’annexe construit ce chiffre à partir du cinquième de la population régionale. Les proportions de personnes déclarant une santé défavorable sont des résultats distincts."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Policy action for health equity from early years to later life — The second WHO European Health Equity Status Report",
+      "publisher": "OMS — Bureau régional de l’Europe",
+      "url": "https://www.who.int/europe/publications/i/item/9789289063227",
+      "date": "24 novembre 2026 ; tableaux fondés sur 2023 ou la dernière année disponible",
+      "type": "rapport primaire, ISBN 9789289063227 ; page 57, tableaux 6–7 (feuille PDF 75), méthode pages 4–5 et 121–123 (feuilles 22–23 et 139–141), encadré A1 pour les 187 millions"
+    },
+    {
+      "title": "Longer, healthier lives across the WHO European Region, but 1 in 5 still held back",
+      "publisher": "OMS — Bureau régional de l’Europe",
+      "url": "https://www.who.int/europe/news/item/24-11-2026-longer--healthier-lives-across-the-who-european-region--but-1-in-5-still-held-back",
+      "date": "24 novembre 2026",
+      "type": "communiqué institutionnel ; date de lancement, définition de la santé moyenne ou mauvaise, groupes d’âge et limites de couverture ; même travail que le rapport"
+    },
+    {
+      "title": "Health variables of EU-SILC — concepts, définitions et comparabilité",
+      "publisher": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/cache/metadata/en/hlth_silc_01_esms.htm",
+      "date": "notice mise à jour le 24 octobre 2024, consultée le 24 novembre 2026",
+      "type": "méthode ; sections 3.1 et 3.4 distinguant santé perçue, maladie chronique et limitation d’activité ; ne produit pas les agrégats OMS ni le tableau sur la dépression"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-24T19:47:25Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-24T19:47:25Z",
+    "reviewNote": "Veille du 24 novembre : rapport primaire OMS Europe paru ce jour, angle revenu/sexe et construction des 187 millions absent des 66 articles existants. PDF téléchargé depuis le lien officiel IRIS, 144 feuilles, texte des pages méthodologiques et tableaux lu ; feuilles 16, 75 et 141 inspectées visuellement. Tableau 6 page 57 : 43 pays, 2023 ou dernière année, F 43/21 % et H 42/18 % dans les groupes de faible/haut revenu du chapitre 25–64 ans. Aucune significativité du petit écart femmes-hommes supposée, aucune extrapolation française. Tableau 7 : risque déclaré de dépression, 23 pays ESS, pas diagnostics ; ses taux ne sont pas repris sans détail du repérage. Métadonnées Eurostat : moyenne distinguée de mauvaise/très mauvaise, dimensions de santé non interchangeables ; ne pas appliquer la définition d’EU-SILC sans réserve à toutes les autres enquêtes. Encadré A1 page 123 : 187 millions = 20 % de la population régionale 2024, pas décompte clinique ni excès de malades. Pas de répartition sexuée déduite de ce total. Séries depuis 2010 non reprises comme cohorte ou panel stable : couvertures de pays différentes. Tableau 5 sur les limitations non utilisé : paragraphes et notes indiquent des âges/nombres de pays différents. Catégories de sexe des sources sans mesure chromosomique ; pas de causalité sociale unique ni de correction inventée de sous-déclaration. Trois références complémentaires, non trois études indépendantes. Aucune fiche créée ou modifiée : liens de contexte vers limitations UE 16+, dépression France et recours professionnel, indicateurs/périmètres différents donc dates conservées. Aucun changement préexistant. Classement vérifié, conservé : aucune portée de fiche modifiée, mortalité et violences larges en tête, hommes-esperance-vie première, alternance et priorités internes préservées, mpox dernier parmi les hommes et accessible en recherche."
+  }
+}

@@ -12,6 +12,36 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-episodes-depressifs-france-2024",
+    "side": "femmes",
+    "claimTitle": "Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes",
+    "claimMetric": "18,2 % F / 12,8 % H",
+    "blogTitle": "Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes",
+    "blogUrl": "/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/",
+    "date": "2026-11-24",
+    "updatedAt": "2026-11-24T19:47:25Z"
+  },
+  {
+    "claimId": "hommes-mal-etre-recours-professionnel",
+    "side": "hommes",
+    "claimTitle": "Hommes moins nombreux à parler de leur mal-être à un professionnel",
+    "claimMetric": "25 % H / 32 % F",
+    "blogTitle": "Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes",
+    "blogUrl": "/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/",
+    "date": "2026-11-24",
+    "updatedAt": "2026-11-24T19:47:25Z"
+  },
+  {
+    "claimId": "femmes-limitations-activite-union-europeenne-2025",
+    "side": "femmes",
+    "claimTitle": "Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE",
+    "claimMetric": "26,5 % vs 21,8 %",
+    "blogTitle": "Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes",
+    "blogUrl": "/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/",
+    "date": "2026-11-24",
+    "updatedAt": "2026-11-24T19:47:25Z"
+  },
+  {
     "claimId": "hommes-sorties-precoces",
     "side": "hommes",
     "claimTitle": "Garçons plus touchés par les sorties précoces du système scolaire",
@@ -146,26 +176,6 @@ export const homeBlogUpdates = [
     "side": "hommes",
     "claimTitle": "Décès par suicide : surmortalité masculine en France et dans l'UE",
     "claimMetric": "75 % FR · 76,4 % UE",
-    "blogTitle": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
-    "blogUrl": "/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
-    "date": "2026-11-06",
-    "updatedAt": "2026-11-06T08:58:02Z"
-  },
-  {
-    "claimId": "femmes-episodes-depressifs-france-2024",
-    "side": "femmes",
-    "claimTitle": "Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes",
-    "claimMetric": "18,2 % F / 12,8 % H",
-    "blogTitle": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
-    "blogUrl": "/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
-    "date": "2026-11-06",
-    "updatedAt": "2026-11-06T08:58:02Z"
-  },
-  {
-    "claimId": "hommes-mal-etre-recours-professionnel",
-    "side": "hommes",
-    "claimTitle": "Hommes moins nombreux à parler de leur mal-être à un professionnel",
-    "claimMetric": "25 % H / 32 % F",
     "blogTitle": "Épisodes dépressifs : plus souvent repérés chez les femmes, recours thérapeutique plus faible chez les hommes",
     "blogUrl": "/blog/2026-11-06-depression-femmes-hommes-declaration-recours-soins/",
     "date": "2026-11-06",
@@ -370,16 +380,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-09-18-ecart-remuneration-personnel-sante-femmes-hommes-europe/",
     "date": "2026-09-18",
     "updatedAt": "2026-09-18T18:33:00.000Z"
-  },
-  {
-    "claimId": "femmes-limitations-activite-union-europeenne-2025",
-    "side": "femmes",
-    "claimTitle": "Limitations d'activité durables plus souvent déclarées par les femmes dans l'UE",
-    "claimMetric": "26,5 % vs 21,8 %",
-    "blogTitle": "Limitations d'activité : un écart déclaré entre femmes et hommes dans l'Union européenne",
-    "blogUrl": "/blog/2026-09-17-limitations-activite-femmes-hommes-union-europeenne-2025/",
-    "date": "2026-09-17",
-    "updatedAt": "2026-09-17T19:22:00.000Z"
   },
   {
     "claimId": "femmes-medecins-liberaux-revenu-france-2021",
