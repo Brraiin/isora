@@ -1283,32 +1283,49 @@ const rawClaims: RawClaim[] = [
       "La prévention doit tenir compte du sexe mesuré par les sources sans réduire le suicide masculin à une seule explication culturelle ou individuelle.",
   },
   {
-    id: "hommes-victimes-homicide-monde",
-    side: "hommes",
-    domain: "Violences",
-    title: "Hommes majoritaires parmi les victimes d'homicide",
-    metric: "80 %",
-    summary:
-      "En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.",
-    tags: ["violences", "sécurité", "homicide", "monde"],
-    source: {
-      label: "Femicides in 2024: global estimates of intimate partner/family member femicides",
-      publisher: "UN Women / UNODC",
-      url: "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
-      date: "2024",
-    },
-    additionalSources: [
-      {
-        label: "137 women and girls killed every day by intimate partners or family members in 2024",
-        publisher: "UNODC",
-        url: "https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html",
-        date: "25 novembre 2025",
-      },
+    "id": "hommes-victimes-homicide-monde",
+    "side": "hommes",
+    "domain": "Violences",
+    "title": "Hommes majoritaires parmi les victimes d’homicide",
+    "metric": "81 %",
+    "summary": "Pour 2025, le rapport de l’Office des Nations unies contre la drogue et le crime (ONUDC) et d’ONU Femmes, publié en novembre 2026, estime que 81 % des victimes d’homicide intentionnel dans le monde sont des hommes ou des garçons, contre 19 % de femmes ou filles. Parmi les victimes de chaque sexe, 11 % des hommes et garçons ont été tués par un partenaire intime ou un membre de la famille, contre environ 60 % des femmes et filles.",
+    "tags": [
+      "violences",
+      "sécurité",
+      "homicide",
+      "monde"
     ],
-    confidence: "forte",
-    lastChecked: "30 juin 2026",
-    nuance:
-      "Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.",
+    "source": {
+      "label": "Femicides in 2025: Global estimates of intimate partner/family member femicides — pages 7 et 13, méthode pages 20–22",
+      "publisher": "ONUDC / ONU Femmes",
+      "url": "https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+      "date": "novembre 2026 ; estimations 2025"
+    },
+    "additionalSources": [
+      {
+        "label": "Femicides in 2024: global estimates of intimate partner/family member femicides — édition antérieure, données 2024",
+        "publisher": "ONUDC / ONU Femmes",
+        "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+        "date": "novembre 2025 ; estimations 2024"
+      }
+    ],
+    "confidence": "moyenne",
+    "lastChecked": "26 novembre 2026",
+    "nuance": "Actualisation du 26 novembre 2026 : édition Femicides in 2025, page 13, en remplacement des proportions de l’édition 2024. Les 81 % décrivent la répartition des victimes d’homicide, pas la part des hommes victimes dans la population. Les 11 % et 60 % ont pour dénominateur les victimes d’homicide de chaque sexe ; ils ne donnent ni le sexe des auteurs ni un risque individuel. Les estimations reposent sur des données nationales incomplètes complétées statistiquement : aucun effectif masculin n’est reconstruit à partir des pourcentages arrondis. Le changement de disponibilité des données interdit de lire le passage de 80 % à 81 % comme une hausse démontrée du risque masculin.",
+    "translations": {
+      "en": {
+        "title": "Men remain the majority of intentional homicide victims",
+        "summary": "For 2025, the UNODC–UN Women report published in November 2026 estimates that men and boys accounted for 81% of intentional homicide victims worldwide, compared with 19% for women and girls. Among homicide victims of each sex, 11% of men and boys were killed by an intimate partner or family member, compared with approximately 60% of women and girls.",
+        "nuance": "Updated on 26 November 2026 using Femicides in 2025, page 13, replacing the 2024 edition’s proportions. The 81% is a share of homicide victims, not the proportion of men in the population who were killed. The 11% and 60% use homicide victims of each sex as their denominators; they do not describe perpetrators’ sex or individual risk. Incomplete national data are supplemented statistically. No male count is reconstructed from rounded percentages. Changes in data availability prevent interpreting the shift from 80% to 81% as demonstrated growth in male homicide risk.",
+        "sourcePopulation": "Population measured by the source: men and boys, women and girls in UNODC–UN Women global estimates of intentional homicide for 2025. Statistical sex categories, without chromosome measurement.",
+        "tags": [
+          "violence",
+          "security",
+          "homicide",
+          "world"
+        ]
+      }
+    }
   },
   {
     id: "hommes-mortalite-travail-monde",
@@ -3345,24 +3362,55 @@ const rawClaims: RawClaim[] = [
       "La donnée porte sur des taux déclarés aux États-Unis, pas sur le nombre absolu mondial de viols. Comme les hommes sont beaucoup plus nombreux en prison, les nombres absolus peuvent être plus élevés côté masculin. La catégorie BJS est plus large que le viol au sens pénal français et inclut aussi les faits impliquant le personnel; pour ces derniers, l'écart hommes/femmes n'est pas statistiquement significatif.",
   },
   {
-    id: "femmes-feminicides-monde-2024",
-    side: "femmes",
-    domain: "Violences",
-    title: "Femmes et filles tuées par des proches ou partenaires",
-    metric: "50 000",
-    summary:
-      "En 2024, environ 83 000 femmes et filles ont été tuées intentionnellement dans le monde, dont environ 50 000 par un partenaire intime ou un membre de la famille.",
-    tags: ["violences", "féminicides", "famille", "monde"],
-    source: {
-      label: "137 women and girls killed every day by intimate partners or family members in 2024",
-      publisher: "UNODC / ONU Femmes",
-      url: "https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html",
-      date: "2024",
+    "id": "femmes-feminicides-monde-2024",
+    "side": "femmes",
+    "domain": "Violences",
+    "title": "Femmes et filles tuées par des proches ou partenaires",
+    "metric": "47 000",
+    "summary": "Pour 2025, l’Office des Nations unies contre la drogue et le crime (ONUDC) et ONU Femmes estiment qu’environ 47 000 femmes et filles ont été tuées intentionnellement par un partenaire intime ou un membre de la famille dans le monde, sur quelque 78 000 victimes féminines d’homicide intentionnel. La fourchette d’incertitude est de 37 100 à 56 700. Le rapport de novembre 2026 classe ces homicides dans son périmètre statistique des féminicides, c’est-à-dire les homicides de femmes et filles liés au genre.",
+    "tags": [
+      "violences",
+      "féminicides",
+      "famille",
+      "monde"
+    ],
+    "source": {
+      "label": "Femicides in 2025: Global estimates of intimate partner/family member femicides — pages 7 et 13, méthode pages 20–22",
+      "publisher": "ONUDC / ONU Femmes",
+      "url": "https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+      "date": "novembre 2026 ; estimations 2025"
     },
-    confidence: "forte",
-    lastChecked: "15 juin 2026",
-    nuance:
-      "La sphère intime et familiale pèse particulièrement dans les homicides de femmes. Cette lecture complète, sans l'effacer, le fait que les victimes d'homicide globales sont majoritairement masculines.",
+    "additionalSources": [
+      {
+        "label": "Femicides in 2024: global estimates of intimate partner/family member femicides — édition antérieure, données 2024",
+        "publisher": "ONUDC / ONU Femmes",
+        "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+        "date": "novembre 2025 ; estimations 2024"
+      },
+      {
+        "label": "Statistical framework for measuring the gender-related killing of women and girls — paragraphes 27–32",
+        "publisher": "ONUDC / ONU Femmes",
+        "url": "https://www.unodc.org/documents/data-and-analysis/statistics/Statistical_framework_femicide_2022.pdf",
+        "date": "2022 ; cadre statistique"
+      }
+    ],
+    "confidence": "moyenne",
+    "lastChecked": "26 novembre 2026",
+    "nuance": "Actualisation du 26 novembre 2026 : édition Femicides in 2025, pages 7 et 20–22. Le passage de 50 000 en 2024 à 47 000 en 2025 ne démontre pas une baisse : le rapport l’attribue largement à une meilleure disponibilité des données nationales. Les valeurs manquantes sont estimées ; la fourchette mesure l’incertitude liée à ce traitement et n’est pas un intervalle de confiance. Ce périmètre inclut partenaires actuels ou anciens et famille élargie, sans imposer un lieu de décès au domicile ni un auteur masculin. Il ne couvre pas tous les féminicides commis hors de ces relations ; les 78 000 homicides de femmes ne sont donc pas tous qualifiés de féminicides. Le classement statistique ne prouve pas un mobile identique dans chaque dossier. Dans le même rapport, les hommes et garçons représentent 81 % de toutes les victimes d’homicide ; les deux constats portent sur des périmètres différents.",
+    "translations": {
+      "en": {
+        "title": "Women and girls killed by intimate partners or family members",
+        "summary": "For 2025, UNODC and UN Women estimate that approximately 47,000 women and girls were intentionally killed by an intimate partner or family member worldwide, out of roughly 78,000 female victims of intentional homicide. The uncertainty range is 37,100–56,700. The November 2026 report includes these killings within its statistical definition of femicide, meaning gender-related killings of women and girls.",
+        "nuance": "Updated on 26 November 2026 using Femicides in 2025, pages 7 and 20–22. The change from 50,000 in 2024 to 47,000 in 2025 does not demonstrate a decline: the report largely attributes it to improved national data availability. Missing values are estimated, and the range reflects uncertainty from that process rather than a confidence interval. The scope includes current or former partners and extended family; it does not require that the killing occurred at home or that the perpetrator was male. It excludes other femicides outside these relationships, and the 78,000 female homicides are not all classified as femicides. Statistical classification does not prove an identical motive in every case. In the same report, men and boys account for 81% of all homicide victims; the two findings concern different scopes.",
+        "sourcePopulation": "Population measured by the source: women and girls of all ages in global estimates for 2025 of intentional killings by current or former intimate partners, family or household members. Statistical sex categories, without chromosome measurement.",
+        "tags": [
+          "violence",
+          "femicide",
+          "family",
+          "world"
+        ]
+      }
+    }
   },
   {
     id: "femmes-violences-sexuelles-conflits",
@@ -4682,7 +4730,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-suicide-monde":
     "Population mesurée par la source : males / hommes dans les estimations OMS. La source ne mesure pas les chromosomes.",
   "hommes-victimes-homicide-monde":
-    "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
+    "Population mesurée par la source : hommes et garçons, femmes et filles dans les estimations mondiales d’homicides intentionnels de l’ONUDC et d’ONU Femmes pour 2025. Catégories statistiques des sources, sans mesure des chromosomes.",
   "hommes-mortalite-travail-monde":
     "Population mesurée par la source : men / women dans les estimations OIT. La source ne mesure pas les chromosomes.",
   "hommes-accidents-route-monde":
@@ -4788,7 +4836,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "femmes-prison-victimisation-sexuelle-etats-unis":
     "Population mesurée par la source : female inmates / male inmates dans les prisons d'État et fédérales américaines. La source ne mesure pas les chromosomes.",
   "femmes-feminicides-monde-2024":
-    "Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.",
+    "Population mesurée par la source : femmes et filles de tous âges dans les estimations mondiales 2025 d’homicides intentionnels commis par un partenaire intime actuel ou ancien, un membre de la famille ou du ménage. Catégories statistiques des sources, sans mesure des chromosomes.",
   "femmes-violences-sexuelles-conflits":
     "Population mesurée par les sources : cas vérifiés de violences sexuelles liées aux conflits, victimes civiles par sexe dans les rapports ONU, et cas documentés par l'UE ou Amnesty dans certains conflits. Les sources ne mesurent pas les chromosomes.",
   "femmes-violences-sexuelles-enfance":
@@ -4870,6 +4918,24 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "hommes-victimes-homicide-monde": {
+    "pays_ou_zone": "Monde",
+    "regionScope": "Monde",
+    "periode_debut": "2025",
+    "periode_fin": "2025",
+    "statut_temporel": "actuel",
+    "intensite_contextuelle": "forte",
+    "legalType": "part des hommes et garçons parmi toutes les victimes d’homicide intentionnel ; parts par lien auteur-victime au sein de chaque sexe"
+  },
+  "femmes-feminicides-monde-2024": {
+    "pays_ou_zone": "Monde",
+    "regionScope": "Monde",
+    "periode_debut": "2025",
+    "periode_fin": "2025",
+    "statut_temporel": "actuel",
+    "intensite_contextuelle": "forte",
+    "legalType": "nombre mondial estimé de femmes et filles tuées par partenaire intime ou famille ; valeurs manquantes estimées, pas recensement exhaustif"
+  },
   "femmes-violences-sexuelles-enfance": {
     "pays_ou_zone": "Monde",
     "regionScope": "Monde",

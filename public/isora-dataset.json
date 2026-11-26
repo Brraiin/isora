@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-11-24T19:50:02.608Z",
+  "generatedAt": "2026-11-26T09:01:20.219Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -16,7 +16,7 @@
     "total": 114,
     "hommes": 49,
     "femmes": 65,
-    "sources": 287
+    "sources": 288
   },
   "domains": [
     "Santé",
@@ -2140,13 +2140,13 @@
       "id": "hommes-victimes-homicide-monde",
       "url": "https://isora.info/fiches/hommes-victimes-homicide-monde/",
       "appUrl": "https://isora.info/#hommes-victimes-homicide-monde",
-      "title": "Hommes majoritaires parmi les victimes d'homicide",
+      "title": "Hommes majoritaires parmi les victimes d’homicide",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Violences",
-      "metric": "80 %",
-      "summary": "En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.",
-      "nuance": "Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.",
+      "metric": "81 %",
+      "summary": "Pour 2025, le rapport de l’Office des Nations unies contre la drogue et le crime (ONUDC) et d’ONU Femmes, publié en novembre 2026, estime que 81 % des victimes d’homicide intentionnel dans le monde sont des hommes ou des garçons, contre 19 % de femmes ou filles. Parmi les victimes de chaque sexe, 11 % des hommes et garçons ont été tués par un partenaire intime ou un membre de la famille, contre environ 60 % des femmes et filles.",
+      "nuance": "Actualisation du 26 novembre 2026 : édition Femicides in 2025, page 13, en remplacement des proportions de l’édition 2024. Les 81 % décrivent la répartition des victimes d’homicide, pas la part des hommes victimes dans la population. Les 11 % et 60 % ont pour dénominateur les victimes d’homicide de chaque sexe ; ils ne donnent ni le sexe des auteurs ni un risque individuel. Les estimations reposent sur des données nationales incomplètes complétées statistiquement : aucun effectif masculin n’est reconstruit à partir des pourcentages arrondis. Le changement de disponibilité des données interdit de lire le passage de 80 % à 81 % comme une hausse démontrée du risque masculin.",
       "tags": [
         "violences",
         "sécurité",
@@ -2155,29 +2155,29 @@
       ],
       "countryScope": "Monde",
       "regionScope": "Monde",
-      "periodStart": "2024",
-      "periodEnd": null,
+      "periodStart": "2025",
+      "periodEnd": "2025",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par la source : hommes et garçons, femmes et filles dans les estimations mondiales d’homicides intentionnels de l’ONUDC et d’ONU Femmes pour 2025. Catégories statistiques des sources, sans mesure des chromosomes.",
+      "libelle_source": "Population mesurée par la source : hommes et garçons, femmes et filles dans les estimations mondiales d’homicides intentionnels de l’ONUDC et d’ONU Femmes pour 2025. Catégories statistiques des sources, sans mesure des chromosomes.",
       "mesure_chromosomes": false,
-      "date_consultation": "30 juin 2026",
-      "legalType": "violences",
+      "date_consultation": "26 novembre 2026",
+      "legalType": "part des hommes et garçons parmi toutes les victimes d’homicide intentionnel ; parts par lien auteur-victime au sein de chaque sexe",
       "translationStatus": "source-language",
-      "confidence": "forte",
-      "lastChecked": "30 juin 2026",
+      "confidence": "moyenne",
+      "lastChecked": "26 novembre 2026",
       "source": {
-        "label": "Femicides in 2024: global estimates of intimate partner/family member femicides",
-        "publisher": "UN Women / UNODC",
-        "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
-        "date": "2024"
+        "label": "Femicides in 2025: Global estimates of intimate partner/family member femicides — pages 7 et 13, méthode pages 20–22",
+        "publisher": "ONUDC / ONU Femmes",
+        "url": "https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+        "date": "novembre 2026 ; estimations 2025"
       },
       "additionalSources": [
         {
-          "label": "137 women and girls killed every day by intimate partners or family members in 2024",
-          "publisher": "UNODC",
-          "url": "https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html",
-          "date": "25 novembre 2025"
+          "label": "Femicides in 2024: global estimates of intimate partner/family member femicides — édition antérieure, données 2024",
+          "publisher": "ONUDC / ONU Femmes",
+          "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+          "date": "novembre 2025 ; estimations 2024"
         }
       ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
@@ -4770,9 +4770,9 @@
       "side": "femmes",
       "angle": "désavantage_subi",
       "domain": "Violences",
-      "metric": "50 000",
-      "summary": "En 2024, environ 83 000 femmes et filles ont été tuées intentionnellement dans le monde, dont environ 50 000 par un partenaire intime ou un membre de la famille.",
-      "nuance": "La sphère intime et familiale pèse particulièrement dans les homicides de femmes. Cette lecture complète, sans l'effacer, le fait que les victimes d'homicide globales sont majoritairement masculines.",
+      "metric": "47 000",
+      "summary": "Pour 2025, l’Office des Nations unies contre la drogue et le crime (ONUDC) et ONU Femmes estiment qu’environ 47 000 femmes et filles ont été tuées intentionnellement par un partenaire intime ou un membre de la famille dans le monde, sur quelque 78 000 victimes féminines d’homicide intentionnel. La fourchette d’incertitude est de 37 100 à 56 700. Le rapport de novembre 2026 classe ces homicides dans son périmètre statistique des féminicides, c’est-à-dire les homicides de femmes et filles liés au genre.",
+      "nuance": "Actualisation du 26 novembre 2026 : édition Femicides in 2025, pages 7 et 20–22. Le passage de 50 000 en 2024 à 47 000 en 2025 ne démontre pas une baisse : le rapport l’attribue largement à une meilleure disponibilité des données nationales. Les valeurs manquantes sont estimées ; la fourchette mesure l’incertitude liée à ce traitement et n’est pas un intervalle de confiance. Ce périmètre inclut partenaires actuels ou anciens et famille élargie, sans imposer un lieu de décès au domicile ni un auteur masculin. Il ne couvre pas tous les féminicides commis hors de ces relations ; les 78 000 homicides de femmes ne sont donc pas tous qualifiés de féminicides. Le classement statistique ne prouve pas un mobile identique dans chaque dossier. Dans le même rapport, les hommes et garçons représentent 81 % de toutes les victimes d’homicide ; les deux constats portent sur des périmètres différents.",
       "tags": [
         "violences",
         "féminicides",
@@ -4781,24 +4781,37 @@
       ],
       "countryScope": "Monde",
       "regionScope": "Monde",
-      "periodStart": "2024",
-      "periodEnd": null,
+      "periodStart": "2025",
+      "periodEnd": "2025",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population mesurée par la source : femmes et filles de tous âges dans les estimations mondiales 2025 d’homicides intentionnels commis par un partenaire intime actuel ou ancien, un membre de la famille ou du ménage. Catégories statistiques des sources, sans mesure des chromosomes.",
+      "libelle_source": "Population mesurée par la source : femmes et filles de tous âges dans les estimations mondiales 2025 d’homicides intentionnels commis par un partenaire intime actuel ou ancien, un membre de la famille ou du ménage. Catégories statistiques des sources, sans mesure des chromosomes.",
       "mesure_chromosomes": false,
-      "date_consultation": "15 juin 2026",
-      "legalType": "violences",
+      "date_consultation": "26 novembre 2026",
+      "legalType": "nombre mondial estimé de femmes et filles tuées par partenaire intime ou famille ; valeurs manquantes estimées, pas recensement exhaustif",
       "translationStatus": "source-language",
-      "confidence": "forte",
-      "lastChecked": "15 juin 2026",
+      "confidence": "moyenne",
+      "lastChecked": "26 novembre 2026",
       "source": {
-        "label": "137 women and girls killed every day by intimate partners or family members in 2024",
-        "publisher": "UNODC / ONU Femmes",
-        "url": "https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html",
-        "date": "2024"
+        "label": "Femicides in 2025: Global estimates of intimate partner/family member femicides — pages 7 et 13, méthode pages 20–22",
+        "publisher": "ONUDC / ONU Femmes",
+        "url": "https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+        "date": "novembre 2026 ; estimations 2025"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Femicides in 2024: global estimates of intimate partner/family member femicides — édition antérieure, données 2024",
+          "publisher": "ONUDC / ONU Femmes",
+          "url": "https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+          "date": "novembre 2025 ; estimations 2024"
+        },
+        {
+          "label": "Statistical framework for measuring the gender-related killing of women and girls — paragraphes 27–32",
+          "publisher": "ONUDC / ONU Femmes",
+          "url": "https://www.unodc.org/documents/data-and-analysis/statistics/Statistical_framework_femicide_2022.pdf",
+          "date": "2022 ; cadre statistique"
+        }
+      ],
       "methodNote": "Dans isora, l'axe féminin suit la définition éditoriale Femme = personne XX. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {

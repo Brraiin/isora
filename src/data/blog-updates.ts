@@ -12,6 +12,26 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "femmes-feminicides-monde-2024",
+    "side": "femmes",
+    "claimTitle": "Femmes et filles tuées par des proches ou partenaires",
+    "claimMetric": "47 000",
+    "blogTitle": "Homicides en 2025 : lire les nouvelles estimations de l’ONU",
+    "blogUrl": "/blog/2026-11-26-homicides-feminicides-monde-2025-mesure/",
+    "date": "2026-11-26",
+    "updatedAt": "2026-11-26T09:00:00Z"
+  },
+  {
+    "claimId": "hommes-victimes-homicide-monde",
+    "side": "hommes",
+    "claimTitle": "Hommes majoritaires parmi les victimes d’homicide",
+    "claimMetric": "81 %",
+    "blogTitle": "Homicides en 2025 : lire les nouvelles estimations de l’ONU",
+    "blogUrl": "/blog/2026-11-26-homicides-feminicides-monde-2025-mesure/",
+    "date": "2026-11-26",
+    "updatedAt": "2026-11-26T09:00:00Z"
+  },
+  {
     "claimId": "femmes-episodes-depressifs-france-2024",
     "side": "femmes",
     "claimTitle": "Épisodes dépressifs repérés par questionnaire plus fréquents chez les femmes",
@@ -590,26 +610,6 @@ export const homeBlogUpdates = [
     "blogUrl": "/blog/2026-07-08-depistage-cancers-prevention-femmes-hommes-france/",
     "date": "2026-07-08",
     "updatedAt": "2026-07-08T06:30:00.000Z"
-  },
-  {
-    "claimId": "femmes-feminicides-monde-2024",
-    "side": "femmes",
-    "claimTitle": "Femmes et filles tuées par des proches ou partenaires",
-    "claimMetric": "50 000",
-    "blogTitle": "Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale",
-    "blogUrl": "/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/",
-    "date": "2026-07-06",
-    "updatedAt": "2026-07-06T06:30:00.000Z"
-  },
-  {
-    "claimId": "hommes-victimes-homicide-monde",
-    "side": "hommes",
-    "claimTitle": "Hommes majoritaires parmi les victimes d'homicide",
-    "claimMetric": "80 %",
-    "blogTitle": "Homicides : les hommes restent majoritaires au total, mais les femmes le sont davantage dans la sphère conjugale et familiale",
-    "blogUrl": "/blog/2026-07-06-homicides-hommes-majoritaires-total-femmes-sphere-conjugale/",
-    "date": "2026-07-06",
-    "updatedAt": "2026-07-06T06:30:00.000Z"
   },
   {
     "claimId": "hommes-age-retraite-differencie-ocde",

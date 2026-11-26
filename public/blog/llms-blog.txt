@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Homicides en 2025 : lire les nouvelles estimations de l’ONU
+- URL: https://isora.info/blog/2026-11-26-homicides-feminicides-monde-2025-mesure/
+- Date: 2026-11-26
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: hommes-victimes-homicide-monde, femmes-feminicides-monde-2024
+- Resume: Diffusé à l’occasion du 25 novembre 2026, le rapport de l’Office des Nations unies contre la drogue et le crime (ONUDC) et d’ONU Femmes actualise les estimations mondiales pour 2025. Il documente une majorité masculine parmi les victimes d’homicide au total et une part beaucoup plus forte de partenaires ou de proches parmi les auteurs des homicides de femmes. Ses limites de mesure sont essentielles pour interpréter l’évolution annuelle.
+- Sources: ONUDC / ONU Femmes (novembre 2026, données 2025): https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Nations unies en Türkiye / ONU Info (25 novembre 2026): https://turkiye.un.org/en/326616-five-women-and-girls-killed-every-hour-partners-or-family-members-worldwide; ONUDC / ONU Femmes (2022): https://www.unodc.org/documents/data-and-analysis/statistics/Statistical_framework_femicide_2022.pdf
+
 ### Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes
 - URL: https://isora.info/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/
 - Date: 2026-11-24

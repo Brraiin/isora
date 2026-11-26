@@ -2,8 +2,55 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-24T19:50:02.774Z",
+  "generatedAt": "2026-11-26T09:01:20.392Z",
   "posts": [
+    {
+      "id": "2026-11-26-homicides-feminicides-monde-2025-mesure",
+      "title": "Homicides en 2025 : lire les nouvelles estimations de l’ONU",
+      "url": "https://isora.info/blog/2026-11-26-homicides-feminicides-monde-2025-mesure/",
+      "description": "Le rapport ONU actualise les homicides par sexe et par lien familial. Les 47 000 victimes féminines estimées ne prouvent pas une baisse par rapport à 2024.",
+      "date": "2026-11-26",
+      "publishedAt": "2026-11-26T09:00:00Z",
+      "updatedAt": "2026-11-26T09:00:00Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "homicides femmes hommes 2025",
+        "féminicides ONU 2026 méthode",
+        "47 000 femmes filles partenaires famille",
+        "81 % hommes victimes homicide"
+      ],
+      "relatedClaimIds": [
+        "hommes-victimes-homicide-monde",
+        "femmes-feminicides-monde-2024"
+      ],
+      "readingMinutes": 4,
+      "sources": [
+        {
+          "title": "Femicides in 2025: Global estimates of intimate partner/family member femicides",
+          "publisher": "ONUDC / ONU Femmes",
+          "url": "https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf",
+          "date": "novembre 2026, données 2025",
+          "type": "rapport primaire ; pages 2, 4, 6–10 et 13, annexe pages 20–22 ; feuilles PDF 4, 6, 8–12, 15 et 22–24"
+        },
+        {
+          "title": "Five women and girls killed every hour by partners or family members worldwide",
+          "publisher": "Nations unies en Türkiye / ONU Info",
+          "url": "https://turkiye.un.org/en/326616-five-women-and-girls-killed-every-hour-partners-or-family-members-worldwide",
+          "date": "25 novembre 2026",
+          "type": "relais institutionnel de publication ; mêmes estimations que le rapport, pas une étude indépendante"
+        },
+        {
+          "title": "Statistical framework for measuring the gender-related killing of women and girls (also referred to as femicide/feminicide)",
+          "publisher": "ONUDC / ONU Femmes",
+          "url": "https://www.unodc.org/documents/data-and-analysis/statistics/Statistical_framework_femicide_2022.pdf",
+          "date": "2022",
+          "type": "cadre statistique primaire ; paragraphes 25–32, pages 9–11 (feuilles PDF 11–13), définitions et périmètres"
+        }
+      ]
+    },
     {
       "id": "2026-11-24-revenus-sante-femmes-hommes-oms-europe",
       "title": "Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes",

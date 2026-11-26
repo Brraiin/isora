@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-11-24T19:50:02.608Z
+Last generation: 2026-11-26T09:01:20.219Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -22,7 +22,7 @@ Last generation: 2026-11-24T19:50:02.608Z
 - Entries: 114
 - Entries about men: 49
 - Entries about women: 65
-- Distinct sources: 287
+- Distinct sources: 288
 - Domains: Santé, Travail, Autonomie, Religieux, Éducation, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Editorial method
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Homicides en 2025 : lire les nouvelles estimations de l’ONU
+- URL: https://isora.info/blog/2026-11-26-homicides-feminicides-monde-2025-mesure/
+- Date: 2026-11-26
+- Related isora entries: hommes-victimes-homicide-monde, femmes-feminicides-monde-2024
+- Summary: Diffusé à l’occasion du 25 novembre 2026, le rapport de l’Office des Nations unies contre la drogue et le crime (ONUDC) et d’ONU Femmes actualise les estimations mondiales pour 2025. Il documente une majorité masculine parmi les victimes d’homicide au total et une part beaucoup plus forte de partenaires ou de proches parmi les auteurs des homicides de femmes. Ses limites de mesure sont essentielles pour interpréter l’évolution annuelle.
+- Sources: ONUDC / ONU Femmes: https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; Nations unies en Türkiye / ONU Info: https://turkiye.un.org/en/326616-five-women-and-girls-killed-every-hour-partners-or-family-members-worldwide; ONUDC / ONU Femmes: https://www.unodc.org/documents/data-and-analysis/statistics/Statistical_framework_femicide_2022.pdf
+
 ### Revenus et santé : ce que mesure l’OMS Europe chez les deux sexes
 - URL: https://isora.info/blog/2026-11-24-revenus-sante-femmes-hommes-oms-europe/
 - Date: 2026-11-24
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: hommes-decrochage-garcons-monde, femmes-ingenierie
 - Summary: Les résultats nationaux de début de quatrième, publiés le 18 novembre 2026 par la Direction de l’évaluation, de la prospective et de la performance (DEPP), montrent un score moyen plus élevé pour les filles en français et pour les garçons en mathématiques. Ces mesures portent sur les élèves évalués à la rentrée 2026 dans les établissements publics et privés sous contrat du ministère de l’Éducation nationale, hors académie de Toulouse. Elles ne mesurent ni une aptitude innée ni le décrochage scolaire.
 - Sources: DEPP / Ministère de l’Éducation nationale: https://www.education.gouv.fr/sites/default/files/document/-valuations-nationales-de-d-but-de-quatri-me-523293.pdf; DEPP / Ministère de l’Éducation nationale: https://www.education.gouv.fr/depp/evaluations-de-debut-de-quatrieme-2026-resultats-nationaux-506793; Éduscol / Ministère de l’Éducation nationale: https://eduscol.education.gouv.fr/5259/les-evaluations-nationales-de-quatrieme
-
-### Violences dans l’enfance : de nouveaux engagements, et des estimations à distinguer pour les filles et les garçons
-- URL: https://isora.info/blog/2026-11-17-violences-enfance-engagements-oms-filles-garcons/
-- Date: 2026-11-17
-- Related isora entries: femmes-violences-sexuelles-enfance
-- Summary: Le 17 novembre 2026, l’Organisation mondiale de la Santé (OMS) annonce plus de 230 nouveaux engagements contre les violences faites aux enfants, à présenter lors de la conférence ministérielle de Manille des 18 et 19 novembre. Il s’agit d’annonces d’action publique. Pour situer les asymétries entre filles et garçons, les estimations UNICEF publiées en 2024 restent une référence distincte : elles portent sur des expériences vécues avant 18 ans, sans mesurer une évolution en 2026.
-- Sources: Organisation mondiale de la Santé: https://www.who.int/mongolia/news/detail-global/17-11-2026-governments-make-over-230-new-pledges-to-prevent-violence-against-children; UNICEF Data: https://data.unicef.org/topic/child-protection/violence/sexual-violence/; UNICEF: https://www.unicef.org/press-releases/over-370-million-girls-and-women-globally-subjected-rape-or-sexual-assault-children; Organisation mondiale de la Santé: https://www.who.int/news-room/fact-sheets/detail/child-maltreatment
 
 
 ## Tuberculosis: more estimated cases among men aged 15 or over
@@ -636,7 +636,7 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Organisation mondiale de la Santé (2021): https://www.who.int/publications/i/item/9789240110069
 
-## Hommes majoritaires parmi les victimes d'homicide
+## Men remain the majority of intentional homicide victims
 - ID: hommes-victimes-homicide-monde
 - URL: https://isora.info/fiches/hommes-victimes-homicide-monde/
 - Interactive app URL: https://isora.info/#hommes-victimes-homicide-monde
@@ -644,14 +644,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: désavantage_subi
 - Domain: Violences
 - Zone: Monde
-- Period: 2024+
+- Period: 2025-2025
 - Status: actuel
-- Key measure: 80 %
-- Summary: En 2024, environ 80 % des victimes d'homicide dans le monde étaient des hommes ou des garçons. Les mêmes sources rappellent que les femmes et filles restent davantage exposées aux homicides commis dans la sphère intime ou familiale.
-- Nuance: Les profils de victimation diffèrent selon le contexte. Le brief 2024 d'UN Women et de l'UNODC indique qu'environ 11 % des homicides masculins sont attribués à un partenaire intime ou à un membre de la famille, contre près de 60 % des homicides de femmes et filles: l'asymétrie masculine est surtout documentée hors sphère intime.
-- Measured population: Population mesurée par la source : men and boys / hommes et garçons dans les données homicide. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
-- Sources: UN Women / UNODC (2024): https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; UNODC (25 novembre 2025): https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html
+- Key measure: 81 %
+- Summary: For 2025, the UNODC–UN Women report published in November 2026 estimates that men and boys accounted for 81% of intentional homicide victims worldwide, compared with 19% for women and girls. Among homicide victims of each sex, 11% of men and boys were killed by an intimate partner or family member, compared with approximately 60% of women and girls.
+- Nuance: Updated on 26 November 2026 using Femicides in 2025, page 13, replacing the 2024 edition’s proportions. The 81% is a share of homicide victims, not the proportion of men in the population who were killed. The 11% and 60% use homicide victims of each sex as their denominators; they do not describe perpetrators’ sex or individual risk. Incomplete national data are supplemented statistically. No male count is reconstructed from rounded percentages. Changes in data availability prevent interpreting the shift from 80% to 81% as demonstrated growth in male homicide risk.
+- Measured population: Population measured by the source: men and boys, women and girls in UNODC–UN Women global estimates of intentional homicide for 2025. Statistical sex categories, without chromosome measurement.
+- Sources: ONUDC / ONU Femmes (novembre 2026 ; estimations 2025): https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; ONUDC / ONU Femmes (novembre 2025 ; estimations 2024): https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf
 
 ## Hommes davantage exposés à la mortalité liée au travail
 - ID: hommes-mortalite-travail-monde
@@ -1475,7 +1474,7 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: Bureau of Justice Statistics (2025): https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-reported-inmates-2023-24; Bureau of Justice Statistics (2025): https://bjs.ojp.gov/document/svpri2324.pdf
 
-## Femmes et filles tuées par des proches ou partenaires
+## Women and girls killed by intimate partners or family members
 - ID: femmes-feminicides-monde-2024
 - URL: https://isora.info/fiches/femmes-feminicides-monde-2024/
 - Interactive app URL: https://isora.info/#femmes-feminicides-monde-2024
@@ -1483,14 +1482,13 @@ The articles are written in French and summarize recent reports and trends with 
 - Angle: désavantage_subi
 - Domain: Violences
 - Zone: Monde
-- Period: 2024+
+- Period: 2025-2025
 - Status: actuel
-- Key measure: 50 000
-- Summary: En 2024, environ 83 000 femmes et filles ont été tuées intentionnellement dans le monde, dont environ 50 000 par un partenaire intime ou un membre de la famille.
-- Nuance: La sphère intime et familiale pèse particulièrement dans les homicides de femmes. Cette lecture complète, sans l'effacer, le fait que les victimes d'homicide globales sont majoritairement masculines.
-- Measured population: Population mesurée par la source : women and girls / femmes et filles dans les données UNODC-ONU Femmes. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
-- Sources: UNODC / ONU Femmes (2024): https://www.unodc.org/unodc/en/press/releases/2025/November/137-women-and-girls-killed-every-day-by-intimate-partners-or-family-members-in-2024.html
+- Key measure: 47 000
+- Summary: For 2025, UNODC and UN Women estimate that approximately 47,000 women and girls were intentionally killed by an intimate partner or family member worldwide, out of roughly 78,000 female victims of intentional homicide. The uncertainty range is 37,100–56,700. The November 2026 report includes these killings within its statistical definition of femicide, meaning gender-related killings of women and girls.
+- Nuance: Updated on 26 November 2026 using Femicides in 2025, pages 7 and 20–22. The change from 50,000 in 2024 to 47,000 in 2025 does not demonstrate a decline: the report largely attributes it to improved national data availability. Missing values are estimated, and the range reflects uncertainty from that process rather than a confidence interval. The scope includes current or former partners and extended family; it does not require that the killing occurred at home or that the perpetrator was male. It excludes other femicides outside these relationships, and the 78,000 female homicides are not all classified as femicides. Statistical classification does not prove an identical motive in every case. In the same report, men and boys account for 81% of all homicide victims; the two findings concern different scopes.
+- Measured population: Population measured by the source: women and girls of all ages in global estimates for 2025 of intentional killings by current or former intimate partners, family or household members. Statistical sex categories, without chromosome measurement.
+- Sources: ONUDC / ONU Femmes (novembre 2026 ; estimations 2025): https://www.unwomen.org/sites/default/files/2026-11/femicides-in-2025-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; ONUDC / ONU Femmes (novembre 2025 ; estimations 2024): https://www.unwomen.org/sites/default/files/2025-11/femicides-in-2024-global-estimates-of-intimate-partner-family-member-femicides-en.pdf; ONUDC / ONU Femmes (2022 ; cadre statistique): https://www.unodc.org/documents/data-and-analysis/statistics/Statistical_framework_femicide_2022.pdf
 
 ## Femmes et filles visées par les violences sexuelles liées aux conflits
 - ID: femmes-violences-sexuelles-conflits
