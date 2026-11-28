@@ -404,6 +404,12 @@
     },
   };
 
+  document.addEventListener("click", function (event) {
+    var target = event.target;
+    if (!target || typeof target.closest !== "function") return;
+    if (target.closest("[data-isora-open-cookie-preferences]")) openBanner();
+  });
+
   window.addEventListener("isora:open-cookie-preferences", openBanner);
   window.addEventListener("isora:soft-navigation", function () {
     currentConsent = readConsent();
