@@ -13,6 +13,14 @@ Index JSON: https://isora.info/blog/index.json
 
 ## Articles
 
+### Violences domestiques : le nouvel écart mesuré en Angleterre et au pays de Galles
+- URL: https://isora.info/blog/2026-11-28-violences-domestiques-femmes-hommes-angleterre-galles-2026/
+- Date: 2026-11-28
+- Sujet: Violences, sécurité et justice pénale
+- Fiches isora liees: hommes-violence-domestique-royaume-uni
+- Resume: Le 25 novembre 2026, l’Office for National Statistics (ONS), organisme public britannique de statistique, a actualisé ses résultats sur les violences domestiques. Les femmes sont plus souvent concernées, tandis que les hommes représentent aussi une population importante de victimes. L’enquête et la police décrivent des périmètres différents ; les évolutions annuelles demandent également des précautions.
+- Sources: Office for National Statistics (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2026; Office for National Statistics (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseprevalenceandtrendsenglandandwales/yearendingmarch2026; Office for National Statistics (révision du 25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/domesticabuseqmi; Office for National Statistics (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/redevelopmentofdomesticabusestatistics/november2026; Office for National Statistics (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2026
+
 ### Homicides en 2025 : lire les nouvelles estimations de l’ONU
 - URL: https://isora.info/blog/2026-11-26-homicides-feminicides-monde-2025-mesure/
 - Date: 2026-11-26

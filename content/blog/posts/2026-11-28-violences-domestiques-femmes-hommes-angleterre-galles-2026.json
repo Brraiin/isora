@@ -1,0 +1,128 @@
+{
+  "id": "2026-11-28-violences-domestiques-femmes-hommes-angleterre-galles-2026",
+  "slug": "2026-11-28-violences-domestiques-femmes-hommes-angleterre-galles-2026",
+  "status": "published",
+  "language": "fr",
+  "title": "Violences domestiques : le nouvel écart mesuré en Angleterre et au pays de Galles",
+  "description": "L’ONS estime 11,5 % de femmes et 7,6 % d’hommes victimes dans l’enquête achevée en mars 2026. Périmètre, changements de questionnaire et limites de comparaison.",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-28T20:14:13Z",
+  "updatedAt": "2026-11-28T20:14:13Z",
+  "topic": {
+    "id": "violences-securite",
+    "label": "Violences, sécurité et justice pénale"
+  },
+  "keywords": [
+    "violences domestiques femmes hommes Angleterre pays de Galles",
+    "ONS novembre 2026",
+    "enquête victimation questionnaire",
+    "11,5 % femmes 7,6 % hommes"
+  ],
+  "relatedClaimIds": [
+    "hommes-violence-domestique-royaume-uni"
+  ],
+  "readingMinutes": 3,
+  "summary": "Le 25 novembre 2026, l’Office for National Statistics (ONS), organisme public britannique de statistique, a actualisé ses résultats sur les violences domestiques. Les femmes sont plus souvent concernées, tandis que les hommes représentent aussi une population importante de victimes. L’enquête et la police décrivent des périmètres différents ; les évolutions annuelles demandent également des précautions.",
+  "keyPoints": [
+    "L’enquête achevée en mars 2026 estime une prévalence de 11,5 % chez les femmes et 7,6 % chez les hommes de 16 ans ou plus en Angleterre et au pays de Galles.",
+    "Les changements de questionnaire peuvent affecter l’ampleur de la hausse. L’ONS estime toutefois qu’elle comprend une évolution réelle.",
+    "Les réponses couvrent les partenaires, ex-partenaires et membres de la famille ; elles ne se limitent pas aux violences physiques.",
+    "Une enquête auprès des ménages, des infractions enregistrées et des données d’accompagnement ne se comparent pas comme un seul recensement."
+  ],
+  "sections": [
+    {
+      "heading": "Deux taux dans la même enquête",
+      "paragraphs": [
+        "La Crime Survey for England and Wales (CSEW) est une enquête de victimation : elle interroge les personnes sur des faits subis, même sans signalement à la police. Les estimations publiées correspondent à 2,8 millions de femmes et 1,8 million d’hommes ; ces effectifs sont arrondis.",
+        "La prévalence est la proportion de chaque sexe déclarant les faits au cours des douze derniers mois. Les 11,5 % et 7,6 % ne sont pas les parts de chaque sexe dans un total de victimes, et ne renseignent pas le sexe des auteurs."
+      ]
+    },
+    {
+      "heading": "Un périmètre plus large que les seules violences conjugales",
+      "paragraphs": [
+        "Domestic abuse inclut les partenaires, ex-partenaires et membres de la famille, ainsi que les violences physiques ou sexuelles, les menaces, les violences psychologiques et les privations économiques. Ce champ dépasse celui des partenaires et ex-partenaires des statistiques françaises de violences conjugales.",
+        "Les résultats concernent les 16 ans ou plus vivant en ménage en Angleterre et au pays de Galles, pas tout le Royaume-Uni. Les catégories de sexe sont celles de la source, sans mesure des chromosomes."
+      ]
+    },
+    {
+      "heading": "La hausse et les changements de questionnaire",
+      "paragraphs": [
+        "L’ONS relève une hausse statistiquement significative chez les deux sexes : selon son test, la seule incertitude d’échantillonnage explique difficilement cet écart. L’organisme estime qu’une évolution réelle y contribue, mais que les changements de questions et de passation peuvent affecter son ampleur.",
+        "Les nouvelles questions ont été testées sur une partie de l’échantillon dès avril 2023, puis étendues à l’ensemble en avril 2025. Les anciennes et nouvelles séries ne sont pas directement comparables. Une seule observation annuelle ne suffit pas à établir durablement un niveau plus élevé."
+      ]
+    },
+    {
+      "heading": "Déclaration, répétition et gravité",
+      "paragraphs": [
+        "Le module est rempli directement par les personnes enquêtées. Une enquête ne garantit pas que toutes les expériences soient identifiées et déclarées ; aucun coefficient ne permet ici de corriger une sous-déclaration propre à chaque sexe.",
+        "L’ONS étudie séparément le cumul de comportements et de conséquences depuis 16 ans. Leur nombre moyen ou élevé est plus fréquent chez les femmes. Ces regroupements restent en développement : ils ne mesurent pas la gravité et ne comptent généralement pas les répétitions d’un même comportement, sauf pour les violences physiques. Ils ne se confondent pas avec les taux annuels."
+      ]
+    },
+    {
+      "heading": "Plaintes et accompagnement : des séries distinctes",
+      "paragraphs": [
+        "Les enregistrements policiers portent sur des infractions connues des services. Leur différence avec l’enquête ne permet pas de calculer directement un taux de plainte par sexe.",
+        "L’ONS n’a pas actualisé les données sur les services aux victimes pour ce millésime. Aucune nouvelle proportion d’hommes accompagnés n’en est déduite. Les cinq documents cités complètent une même production statistique ; ils ne constituent pas cinq enquêtes indépendantes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Ces chiffres couvrent-ils la France ou tout le Royaume-Uni ?",
+      "answer": "Non. Ils concernent l’Angleterre et le pays de Galles, chez les 16 ans ou plus vivant en ménage. Les définitions et champs français sont différents."
+    },
+    {
+      "question": "Peut-on attribuer toute la hausse aux changements de questionnaire ?",
+      "answer": "Non. L’ONS estime qu’elle comprend une évolution réelle, mais ne permet pas d’en isoler précisément l’ampleur des effets de mesure."
+    },
+    {
+      "question": "Peut-on corriger les taux parce que les hommes déclareraient moins ?",
+      "answer": "Aucun coefficient de correction par sexe n’est fourni ici. Une sous-déclaration possible doit rester une limite, sans remplacer les estimations publiées par des chiffres supposés."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Domestic abuse victim characteristics, England and Wales: year ending March 2026",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2026",
+      "date": "25 novembre 2026",
+      "type": "analyse primaire ; section 3, comparaison par sexe"
+    },
+    {
+      "title": "Domestic abuse prevalence and trends, England and Wales: year ending March 2026",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseprevalenceandtrendsenglandandwales/yearendingmarch2026",
+      "date": "25 novembre 2026",
+      "type": "analyse primaire ; évolution, définitions et limites"
+    },
+    {
+      "title": "Domestic abuse QMI",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/domesticabuseqmi",
+      "date": "révision du 25 novembre 2026",
+      "type": "méthodologie ; population enquêtée, questionnaire et disponibilité des séries"
+    },
+    {
+      "title": "Redevelopment of domestic abuse statistics: research update November 2026",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/redevelopmentofdomesticabusestatistics/november2026",
+      "date": "25 novembre 2026",
+      "type": "recherche méthodologique ; sections 3 et 4, statistiques en développement sur les expériences depuis 16 ans"
+    },
+    {
+      "title": "Domestic abuse in England and Wales overview: November 2026",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2026",
+      "date": "25 novembre 2026",
+      "type": "synthèse de la même enquête et des sources administratives ; pas une enquête indépendante"
+    }
+  ],
+  "editorialChecks": {
+    "generatedBy": "veille web assistée par Codex",
+    "model": "codex",
+    "generatedAt": "2026-11-28T20:14:13Z",
+    "requiresHumanReview": false,
+    "reviewedAt": "2026-11-28T20:14:13Z",
+    "reviewNote": "Publication ONS du 25 novembre 2026 vérifiée : 11,5 % femmes, 7,6 % hommes, 2,8 M et 1,8 M arrondis ; même enquête, même âge, même période et territoire. Sujet absent des 68 articles existants ; fiche antérieure 2024/25 actualisée seule, ID historique préservé, titre territorial corrigé, population, métadonnées et EN relus. Pas de parts calculées sur les effectifs arrondis ; pas de correction supposée de sous-déclaration. Hausse réelle probable selon ONS mais ampleur affectée par questionnaire/passation, sans négation ni causalité inventée. Nouvelle série depuis avril 2023, passation intégrale avril 2025, anciens questionnaires non comparables. Regroupements depuis 16 ans distincts des taux annuels ; ni gravité ni fréquence générale des répétitions mesurées par les regroupements. Aides spécialisées : ancienne fiche et chiffres historiques non actualisés, ONS ne mettant pas à jour cette série. Cinq documents d’un même producteur, non cinq études indépendantes. Classement vérifié, conservé : même enjeu national de violences, gravité et portée sociale déjà prises en compte ; correction territoriale des métadonnées conforme au champ déjà décrit dans l’ancienne fiche. Aucune nouvelle fiche, aucun changement préexistant."
+  }
+}

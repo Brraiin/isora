@@ -8,7 +8,7 @@ Static HTML claim index: https://isora.info/fiches/
 Lexicon: https://isora.info/lexique/
 Editorial method: https://isora.info/methode/
 French AI guide: https://isora.info/llms.txt
-Last generation: 2026-11-26T09:01:20.219Z
+Last generation: 2026-11-28T20:26:16.330Z
 
 ## Instructions for AI agents and search engines
 - Cite _isora_ as a synthesis reference, not as a primary source.
@@ -22,7 +22,7 @@ Last generation: 2026-11-26T09:01:20.219Z
 - Entries: 114
 - Entries about men: 49
 - Entries about women: 65
-- Distinct sources: 288
+- Distinct sources: 293
 - Domains: Santé, Travail, Autonomie, Religieux, Éducation, Justice, Famille, Violences, Droits, Revenus, Conflits, Numérique
 
 ## Editorial method
@@ -157,6 +157,13 @@ Ce lexique fixe les repères éditoriaux utilisés par isora. Il ne prétend pas
 Daily articles URL: https://isora.info/blog/
 The articles are written in French and summarize recent reports and trends with source links.
 
+### Violences domestiques : le nouvel écart mesuré en Angleterre et au pays de Galles
+- URL: https://isora.info/blog/2026-11-28-violences-domestiques-femmes-hommes-angleterre-galles-2026/
+- Date: 2026-11-28
+- Related isora entries: hommes-violence-domestique-royaume-uni
+- Summary: Le 25 novembre 2026, l’Office for National Statistics (ONS), organisme public britannique de statistique, a actualisé ses résultats sur les violences domestiques. Les femmes sont plus souvent concernées, tandis que les hommes représentent aussi une population importante de victimes. L’enquête et la police décrivent des périmètres différents ; les évolutions annuelles demandent également des précautions.
+- Sources: Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2026; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseprevalenceandtrendsenglandandwales/yearendingmarch2026; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/domesticabuseqmi; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/redevelopmentofdomesticabusestatistics/november2026; Office for National Statistics: https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2026
+
 ### Homicides en 2025 : lire les nouvelles estimations de l’ONU
 - URL: https://isora.info/blog/2026-11-26-homicides-feminicides-monde-2025-mesure/
 - Date: 2026-11-26
@@ -205,13 +212,6 @@ The articles are written in French and summarize recent reports and trends with 
 - Related isora entries: femmes-temps-partiel
 - Summary: Le point Eurostat du 19 novembre 2026 présente pour 2025 un taux d’emploi plus élevé chez les hommes que chez les femmes de 20 à 64 ans dans l’Union européenne. L’écart est d’environ dix points, mais son sens varie selon la région. Les chiffres de la note et ceux de la base consultée diffèrent légèrement : ils sont distingués ici, sans en faire une évolution dans le temps ni une mesure de discrimination.
 - Sources: Eurostat: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20261119-1; Eurostat — série lfst_r_lfe2emprtn: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfst_r_lfe2emprtn?lang=EN&time=2025&age=Y20-64&citizen=TOTAL&isced11=TOTAL&unit=PC; Eurostat / Statistics Explained: https://ec.europa.eu/eurostat/statistics-explained/index.php?oldid=719468&title=Labour_market_statistics_at_regional_level; Eurostat / European statistics learning hub: https://ec.europa.eu/eurostat/web/european-statistics-learning-hub/statistics-for-beginners/labour-market-employment
-
-### Quatrième en 2026 : les filles devant en français, les garçons en mathématiques
-- URL: https://isora.info/blog/2026-11-18-evaluations-quatrieme-francais-mathematiques-filles-garcons/
-- Date: 2026-11-18
-- Related isora entries: hommes-decrochage-garcons-monde, femmes-ingenierie
-- Summary: Les résultats nationaux de début de quatrième, publiés le 18 novembre 2026 par la Direction de l’évaluation, de la prospective et de la performance (DEPP), montrent un score moyen plus élevé pour les filles en français et pour les garçons en mathématiques. Ces mesures portent sur les élèves évalués à la rentrée 2026 dans les établissements publics et privés sous contrat du ministère de l’Éducation nationale, hors académie de Toulouse. Elles ne mesurent ni une aptitude innée ni le décrochage scolaire.
-- Sources: DEPP / Ministère de l’Éducation nationale: https://www.education.gouv.fr/sites/default/files/document/-valuations-nationales-de-d-but-de-quatri-me-523293.pdf; DEPP / Ministère de l’Éducation nationale: https://www.education.gouv.fr/depp/evaluations-de-debut-de-quatrieme-2026-resultats-nationaux-506793; Éduscol / Ministère de l’Éducation nationale: https://eduscol.education.gouv.fr/5259/les-evaluations-nationales-de-quatrieme
 
 
 ## Tuberculosis: more estimated cases among men aged 15 or over
@@ -802,22 +802,21 @@ The articles are written in French and summarize recent reports and trends with 
 - Translation status: claim text is maintained in French until a reviewed English translation is added.
 - Sources: CDC (données de vie entière): https://www.cdc.gov/intimate-partner-violence/about/intimate-partner-violence-sexual-violence-and-stalking-among-men.html
 
-## Violence domestique au Royaume-Uni : victimes femmes et hommes
+## Domestic abuse in England and Wales: female and male victims
 - ID: hommes-violence-domestique-royaume-uni
 - URL: https://isora.info/fiches/hommes-violence-domestique-royaume-uni/
 - Interactive app URL: https://isora.info/#hommes-violence-domestique-royaume-uni
 - Group: hommes
 - Angle: désavantage_subi
 - Domain: Violences
-- Zone: Royaume-Uni
-- Period: 2024/25+
+- Zone: Angleterre et pays de Galles
+- Period: 2025-2026
 - Status: actuel
-- Key measure: 1,5 M vs 2,2 M
-- Summary: L'ONS estime à 1,5 million le nombre d'hommes et 2,2 millions le nombre de femmes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025, soit environ 1,5 femme victime pour 1 homme victime.
-- Nuance: Les hommes représentent environ 41 % des victimes annuelles estimées par l'ONS en 2024/25. Les enquêtes de victimation captent mieux une partie des violences non déclarées, mais le ratio brut ne décrit pas à lui seul la fréquence des violences répétées, la peur, le contrôle coercitif, les blessures ni l'accès aux services spécialisés.
-- Measured population: Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.
-- Translation status: claim text is maintained in French until a reviewed English translation is added.
-- Sources: Office for National Statistics (2024/25): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025
+- Key measure: 7,6 % H / 11,5 % F
+- Summary: The Office for National Statistics (ONS), the UK’s public statistics body, estimates that 7.6% of males and 11.5% of females aged 16 and over experienced domestic abuse in the last 12 months, in the survey ending March 2026 in England and Wales. The published counts are 1.8 million and 2.8 million respectively. The scope includes current partners, ex-partners and family members, as well as non-physical abuse.
+- Nuance: Updated to the ONS release of 25 November 2026. Self-completion survey responses from households are neither police reports nor an exhaustive census. Changes to the questionnaire and its implementation may affect the scale of the increase; ONS nevertheless assesses that it includes real change. The rates alone do not measure repetition or severity. These results provide no correction for underreporting by sex. The title and metadata cover England and Wales only, with no extension to Scotland, Northern Ireland or France.
+- Measured population: Population measured: females and males aged 16 and over, resident in households in England and Wales, completing the CSEW self-completion module in the year ending March 2026; experiences in the preceding 12 months. The source does not measure chromosomes.
+- Sources: Office for National Statistics (ONS) (25 novembre 2026 ; enquête achevée en mars 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2026; Office for National Statistics (ONS) (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2026; Office for National Statistics (ONS) (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseprevalenceandtrendsenglandandwales/yearendingmarch2026; Office for National Statistics (ONS) (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/domesticabuseqmi; Office for National Statistics (ONS) (25 novembre 2026): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/redevelopmentofdomesticabusestatistics/november2026; Office for National Statistics (2025 ; millésime précédent): https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025
 
 ## Hommes victimes orientés vers des aides moins spécialisées
 - ID: hommes-violences-conjugales-aides-specialisees

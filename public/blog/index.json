@@ -2,8 +2,68 @@
   "name": "Articles isora",
   "url": "https://isora.info/blog/",
   "language": "fr-FR",
-  "generatedAt": "2026-11-26T09:01:20.392Z",
+  "generatedAt": "2026-11-28T20:26:16.494Z",
   "posts": [
+    {
+      "id": "2026-11-28-violences-domestiques-femmes-hommes-angleterre-galles-2026",
+      "title": "Violences domestiques : le nouvel écart mesuré en Angleterre et au pays de Galles",
+      "url": "https://isora.info/blog/2026-11-28-violences-domestiques-femmes-hommes-angleterre-galles-2026/",
+      "description": "L’ONS estime 11,5 % de femmes et 7,6 % d’hommes victimes dans l’enquête achevée en mars 2026. Périmètre, changements de questionnaire et limites de comparaison.",
+      "date": "2026-11-28",
+      "publishedAt": "2026-11-28T20:14:13Z",
+      "updatedAt": "2026-11-28T20:14:13Z",
+      "topic": {
+        "id": "violences-securite",
+        "label": "Violences, sécurité et justice pénale"
+      },
+      "keywords": [
+        "violences domestiques femmes hommes Angleterre pays de Galles",
+        "ONS novembre 2026",
+        "enquête victimation questionnaire",
+        "11,5 % femmes 7,6 % hommes"
+      ],
+      "relatedClaimIds": [
+        "hommes-violence-domestique-royaume-uni"
+      ],
+      "readingMinutes": 3,
+      "sources": [
+        {
+          "title": "Domestic abuse victim characteristics, England and Wales: year ending March 2026",
+          "publisher": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2026",
+          "date": "25 novembre 2026",
+          "type": "analyse primaire ; section 3, comparaison par sexe"
+        },
+        {
+          "title": "Domestic abuse prevalence and trends, England and Wales: year ending March 2026",
+          "publisher": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseprevalenceandtrendsenglandandwales/yearendingmarch2026",
+          "date": "25 novembre 2026",
+          "type": "analyse primaire ; évolution, définitions et limites"
+        },
+        {
+          "title": "Domestic abuse QMI",
+          "publisher": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/domesticabuseqmi",
+          "date": "révision du 25 novembre 2026",
+          "type": "méthodologie ; population enquêtée, questionnaire et disponibilité des séries"
+        },
+        {
+          "title": "Redevelopment of domestic abuse statistics: research update November 2026",
+          "publisher": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/redevelopmentofdomesticabusestatistics/november2026",
+          "date": "25 novembre 2026",
+          "type": "recherche méthodologique ; sections 3 et 4, statistiques en développement sur les expériences depuis 16 ans"
+        },
+        {
+          "title": "Domestic abuse in England and Wales overview: November 2026",
+          "publisher": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2026",
+          "date": "25 novembre 2026",
+          "type": "synthèse de la même enquête et des sources administratives ; pas une enquête indépendante"
+        }
+      ]
+    },
     {
       "id": "2026-11-26-homicides-feminicides-monde-2025-mesure",
       "title": "Homicides en 2025 : lire les nouvelles estimations de l’ONU",

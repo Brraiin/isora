@@ -2,7 +2,7 @@
   "name": "isora - référentiel des asymétries documentées selon le sexe",
   "url": "https://isora.info",
   "methodUrl": "https://isora.info/methode/",
-  "generatedAt": "2026-11-26T09:01:20.219Z",
+  "generatedAt": "2026-11-28T20:26:16.330Z",
   "language": "fr",
   "sourceLanguage": "fr",
   "license": "Sources externes citees fiche par fiche; donnees editoriales isora consultables avec attribution.",
@@ -16,7 +16,7 @@
     "total": 114,
     "hommes": 49,
     "femmes": 65,
-    "sources": 288
+    "sources": 293
   },
   "domains": [
     "Santé",
@@ -42,6 +42,7 @@
     "aide sociale",
     "alcool",
     "amiante",
+    "Angleterre",
     "antiféminisme",
     "antimasculinisme",
     "Arabie saoudite",
@@ -179,6 +180,7 @@
     "partenaire intime",
     "partiellement réformé",
     "paternité",
+    "pays de Galles",
     "peines",
     "pénibilité",
     "perception",
@@ -2617,41 +2619,73 @@
       "id": "hommes-violence-domestique-royaume-uni",
       "url": "https://isora.info/fiches/hommes-violence-domestique-royaume-uni/",
       "appUrl": "https://isora.info/#hommes-violence-domestique-royaume-uni",
-      "title": "Violence domestique au Royaume-Uni : victimes femmes et hommes",
+      "title": "Violences domestiques en Angleterre et au pays de Galles : victimes des deux sexes",
       "side": "hommes",
       "angle": "désavantage_subi",
       "domain": "Violences",
-      "metric": "1,5 M vs 2,2 M",
-      "summary": "L'ONS estime à 1,5 million le nombre d'hommes et 2,2 millions le nombre de femmes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025, soit environ 1,5 femme victime pour 1 homme victime.",
-      "nuance": "Les hommes représentent environ 41 % des victimes annuelles estimées par l'ONS en 2024/25. Les enquêtes de victimation captent mieux une partie des violences non déclarées, mais le ratio brut ne décrit pas à lui seul la fréquence des violences répétées, la peur, le contrôle coercitif, les blessures ni l'accès aux services spécialisés.",
+      "metric": "7,6 % H / 11,5 % F",
+      "summary": "L’Office for National Statistics (ONS), organisme public britannique de statistique, estime que 7,6 % des hommes et 11,5 % des femmes de 16 ans ou plus ont subi des violences domestiques au cours des douze derniers mois, dans l’enquête achevée en mars 2026 en Angleterre et au pays de Galles. Les effectifs publiés sont respectivement de 1,8 et 2,8 millions. Le champ inclut les partenaires, ex-partenaires et membres de la famille, ainsi que des violences non physiques.",
+      "nuance": "Actualisation au bilan ONS du 25 novembre 2026. Déclarations dans un questionnaire rempli par la personne elle-même, auprès des ménages : ni plaintes ni recensement exhaustif. Les changements de questionnaire et de passation peuvent affecter l’ampleur de la hausse ; l’ONS estime néanmoins qu’elle comprend une évolution réelle. Les taux ne mesurent pas à eux seuls répétition et gravité. Aucun correctif de sous-déclaration par sexe n’est disponible ici. Le titre et les métadonnées sont limités à l’Angleterre et au pays de Galles ; pas d’extension à l’Écosse, à l’Irlande du Nord ou à la France.",
       "tags": [
         "femmes",
         "hommes",
         "violences",
         "violence domestique",
-        "Royaume-Uni",
+        "Angleterre",
+        "pays de Galles",
         "sécurité"
       ],
-      "countryScope": "Royaume-Uni",
-      "regionScope": "",
-      "periodStart": "2024/25",
-      "periodEnd": null,
+      "countryScope": "Angleterre et pays de Galles",
+      "regionScope": "Europe",
+      "periodStart": "2025",
+      "periodEnd": "2026",
       "currentStatus": "actuel",
-      "sourcePopulation": "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
-      "libelle_source": "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
+      "sourcePopulation": "Population mesurée : femmes et hommes de 16 ans ou plus vivant en ménage en Angleterre et au pays de Galles, ayant rempli eux-mêmes le module de la Crime Survey for England and Wales (CSEW) pendant l’année d’enquête achevée en mars 2026 ; faits au cours des douze derniers mois. La source ne mesure pas les chromosomes.",
+      "libelle_source": "Population mesurée : femmes et hommes de 16 ans ou plus vivant en ménage en Angleterre et au pays de Galles, ayant rempli eux-mêmes le module de la Crime Survey for England and Wales (CSEW) pendant l’année d’enquête achevée en mars 2026 ; faits au cours des douze derniers mois. La source ne mesure pas les chromosomes.",
       "mesure_chromosomes": false,
-      "date_consultation": "16 juin 2026",
-      "legalType": "violences",
+      "date_consultation": "28 novembre 2026",
+      "legalType": "proportion de personnes déclarant des violences sur douze mois, enquête achevée en mars 2026 ; partenaires, ex-partenaires et famille, violences physiques ou non physiques",
       "translationStatus": "source-language",
       "confidence": "forte",
-      "lastChecked": "16 juin 2026",
+      "lastChecked": "28 novembre 2026",
       "source": {
-        "label": "Domestic abuse victim characteristics, England and Wales",
-        "publisher": "Office for National Statistics",
-        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025",
-        "date": "2024/25"
+        "label": "Domestic abuse victim characteristics — section 3 : taux et effectifs par sexe, enquête achevée en mars 2026",
+        "publisher": "Office for National Statistics (ONS)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2026",
+        "date": "25 novembre 2026 ; enquête achevée en mars 2026"
       },
-      "additionalSources": [],
+      "additionalSources": [
+        {
+          "label": "Domestic abuse in England and Wales overview — résultats et limites des comparaisons",
+          "publisher": "Office for National Statistics (ONS)",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2026",
+          "date": "25 novembre 2026"
+        },
+        {
+          "label": "Domestic abuse prevalence and trends — évolution et définitions",
+          "publisher": "Office for National Statistics (ONS)",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseprevalenceandtrendsenglandandwales/yearendingmarch2026",
+          "date": "25 novembre 2026"
+        },
+        {
+          "label": "Domestic abuse QMI — population enquêtée, changements de questions et données sur les services",
+          "publisher": "Office for National Statistics (ONS)",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/domesticabuseqmi",
+          "date": "25 novembre 2026"
+        },
+        {
+          "label": "Redevelopment of domestic abuse statistics — nombres de comportements et de conséquences, distincts de leur gravité",
+          "publisher": "Office for National Statistics (ONS)",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/redevelopmentofdomesticabusestatistics/november2026",
+          "date": "25 novembre 2026"
+        },
+        {
+          "label": "Archive : Domestic abuse victim characteristics, enquête achevée en mars 2025",
+          "publisher": "Office for National Statistics",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025",
+          "date": "2025 ; millésime précédent"
+        }
+      ],
       "methodNote": "Dans isora, l'axe masculin suit la définition éditoriale Homme = personne XY. La source conserve toutefois son libellé statistique propre et ne mesure pas les chromosomes sauf indication contraire."
     },
     {

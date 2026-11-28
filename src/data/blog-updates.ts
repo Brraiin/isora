@@ -12,6 +12,16 @@ export type HomeBlogUpdate = {
 
 export const homeBlogUpdates = [
   {
+    "claimId": "hommes-violence-domestique-royaume-uni",
+    "side": "hommes",
+    "claimTitle": "Violences domestiques en Angleterre et au pays de Galles : victimes des deux sexes",
+    "claimMetric": "7,6 % H / 11,5 % F",
+    "blogTitle": "Violences domestiques : le nouvel écart mesuré en Angleterre et au pays de Galles",
+    "blogUrl": "/blog/2026-11-28-violences-domestiques-femmes-hommes-angleterre-galles-2026/",
+    "date": "2026-11-28",
+    "updatedAt": "2026-11-28T20:14:13Z"
+  },
+  {
     "claimId": "femmes-feminicides-monde-2024",
     "side": "femmes",
     "claimTitle": "Femmes et filles tuées par des proches ou partenaires",

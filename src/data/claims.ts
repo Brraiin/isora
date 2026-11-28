@@ -1625,24 +1625,78 @@ const rawClaims: RawClaim[] = [
       "Reconnaître les victimes masculines améliore l'accès à l'aide sans minimiser la gravité et la fréquence des violences subies par les femmes.",
   },
   {
-    id: "hommes-violence-domestique-royaume-uni",
-    side: "hommes",
-    domain: "Violences",
-    title: "Violence domestique au Royaume-Uni : victimes femmes et hommes",
-    metric: "1,5 M vs 2,2 M",
-    summary:
-      "L'ONS estime à 1,5 million le nombre d'hommes et 2,2 millions le nombre de femmes victimes de violence domestique en Angleterre et au pays de Galles sur l'année se terminant en mars 2025, soit environ 1,5 femme victime pour 1 homme victime.",
-    tags: ["femmes", "hommes", "violences", "violence domestique", "Royaume-Uni", "sécurité"],
-    source: {
-      label: "Domestic abuse victim characteristics, England and Wales",
-      publisher: "Office for National Statistics",
-      url: "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025",
-      date: "2024/25",
+    "id": "hommes-violence-domestique-royaume-uni",
+    "side": "hommes",
+    "domain": "Violences",
+    "title": "Violences domestiques en Angleterre et au pays de Galles : victimes des deux sexes",
+    "metric": "7,6 % H / 11,5 % F",
+    "summary": "L’Office for National Statistics (ONS), organisme public britannique de statistique, estime que 7,6 % des hommes et 11,5 % des femmes de 16 ans ou plus ont subi des violences domestiques au cours des douze derniers mois, dans l’enquête achevée en mars 2026 en Angleterre et au pays de Galles. Les effectifs publiés sont respectivement de 1,8 et 2,8 millions. Le champ inclut les partenaires, ex-partenaires et membres de la famille, ainsi que des violences non physiques.",
+    "tags": [
+      "femmes",
+      "hommes",
+      "violences",
+      "violence domestique",
+      "Angleterre",
+      "pays de Galles",
+      "sécurité"
+    ],
+    "source": {
+      "label": "Domestic abuse victim characteristics — section 3 : taux et effectifs par sexe, enquête achevée en mars 2026",
+      "publisher": "Office for National Statistics (ONS)",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2026",
+      "date": "25 novembre 2026 ; enquête achevée en mars 2026"
     },
-    confidence: "forte",
-    lastChecked: "16 juin 2026",
-    nuance:
-      "Les hommes représentent environ 41 % des victimes annuelles estimées par l'ONS en 2024/25. Les enquêtes de victimation captent mieux une partie des violences non déclarées, mais le ratio brut ne décrit pas à lui seul la fréquence des violences répétées, la peur, le contrôle coercitif, les blessures ni l'accès aux services spécialisés.",
+    "additionalSources": [
+      {
+        "label": "Domestic abuse in England and Wales overview — résultats et limites des comparaisons",
+        "publisher": "Office for National Statistics (ONS)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2026",
+        "date": "25 novembre 2026"
+      },
+      {
+        "label": "Domestic abuse prevalence and trends — évolution et définitions",
+        "publisher": "Office for National Statistics (ONS)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabuseprevalenceandtrendsenglandandwales/yearendingmarch2026",
+        "date": "25 novembre 2026"
+      },
+      {
+        "label": "Domestic abuse QMI — population enquêtée, changements de questions et données sur les services",
+        "publisher": "Office for National Statistics (ONS)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/methodologies/domesticabuseqmi",
+        "date": "25 novembre 2026"
+      },
+      {
+        "label": "Redevelopment of domestic abuse statistics — nombres de comportements et de conséquences, distincts de leur gravité",
+        "publisher": "Office for National Statistics (ONS)",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/redevelopmentofdomesticabusestatistics/november2026",
+        "date": "25 novembre 2026"
+      },
+      {
+        "label": "Archive : Domestic abuse victim characteristics, enquête achevée en mars 2025",
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/domesticabusevictimcharacteristicsenglandandwales/yearendingmarch2025",
+        "date": "2025 ; millésime précédent"
+      }
+    ],
+    "confidence": "forte",
+    "lastChecked": "28 novembre 2026",
+    "nuance": "Actualisation au bilan ONS du 25 novembre 2026. Déclarations dans un questionnaire rempli par la personne elle-même, auprès des ménages : ni plaintes ni recensement exhaustif. Les changements de questionnaire et de passation peuvent affecter l’ampleur de la hausse ; l’ONS estime néanmoins qu’elle comprend une évolution réelle. Les taux ne mesurent pas à eux seuls répétition et gravité. Aucun correctif de sous-déclaration par sexe n’est disponible ici. Le titre et les métadonnées sont limités à l’Angleterre et au pays de Galles ; pas d’extension à l’Écosse, à l’Irlande du Nord ou à la France.",
+    "translations": {
+      "en": {
+        "title": "Domestic abuse in England and Wales: female and male victims",
+        "summary": "The Office for National Statistics (ONS), the UK’s public statistics body, estimates that 7.6% of males and 11.5% of females aged 16 and over experienced domestic abuse in the last 12 months, in the survey ending March 2026 in England and Wales. The published counts are 1.8 million and 2.8 million respectively. The scope includes current partners, ex-partners and family members, as well as non-physical abuse.",
+        "nuance": "Updated to the ONS release of 25 November 2026. Self-completion survey responses from households are neither police reports nor an exhaustive census. Changes to the questionnaire and its implementation may affect the scale of the increase; ONS nevertheless assesses that it includes real change. The rates alone do not measure repetition or severity. These results provide no correction for underreporting by sex. The title and metadata cover England and Wales only, with no extension to Scotland, Northern Ireland or France.",
+        "sourcePopulation": "Population measured: females and males aged 16 and over, resident in households in England and Wales, completing the CSEW self-completion module in the year ending March 2026; experiences in the preceding 12 months. The source does not measure chromosomes.",
+        "tags": [
+          "women",
+          "men",
+          "domestic abuse",
+          "England",
+          "Wales",
+          "survey"
+        ]
+      }
+    }
   },
   {
     id: "hommes-violences-conjugales-aides-specialisees",
@@ -4750,7 +4804,7 @@ const sourcePopulationLabels: Record<string, string> = {
   "hommes-violence-partenaire-etats-unis":
     "Population mesurée par la source : men / male victims dans l'enquête CDC. La source ne mesure pas les chromosomes.",
   "hommes-violence-domestique-royaume-uni":
-    "Population mesurée par la source : males / females âgés de 16 ans et plus dans le CSEW. La source ne mesure pas les chromosomes.",
+    "Population mesurée : femmes et hommes de 16 ans ou plus vivant en ménage en Angleterre et au pays de Galles, ayant rempli eux-mêmes le module de la Crime Survey for England and Wales (CSEW) pendant l’année d’enquête achevée en mars 2026 ; faits au cours des douze derniers mois. La source ne mesure pas les chromosomes.",
   "hommes-violences-conjugales-aides-specialisees":
     "Population mesurée par les sources : femmes et hommes victimes de violences conjugales, usagers de dispositifs d'aide aux victimes, victimes masculines accompagnées par des services locaux et places d'hébergement sûr au Royaume-Uni. Les sources ne mesurent pas les chromosomes.",
   "hommes-agressions-sexuelles-minimisees":
@@ -4918,6 +4972,15 @@ type ClaimMeta = {
 };
 
 const claimMetadata: Record<string, ClaimMeta> = {
+  "hommes-violence-domestique-royaume-uni": {
+    "pays_ou_zone": "Angleterre et pays de Galles",
+    "regionScope": "Europe",
+    "periode_debut": "2025",
+    "periode_fin": "2026",
+    "statut_temporel": "actuel",
+    "intensite_contextuelle": "forte",
+    "legalType": "proportion de personnes déclarant des violences sur douze mois, enquête achevée en mars 2026 ; partenaires, ex-partenaires et famille, violences physiques ou non physiques"
+  },
   "hommes-victimes-homicide-monde": {
     "pays_ou_zone": "Monde",
     "regionScope": "Monde",
