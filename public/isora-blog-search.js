@@ -19,4 +19,5 @@
           if (empty) empty.hidden = visible !== 0;
         };
         input.addEventListener("input", update);
+        update();
       })();
